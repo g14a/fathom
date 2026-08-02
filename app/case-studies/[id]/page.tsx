@@ -1,9 +1,9 @@
-import { CASE_STUDIES, getCaseStudy } from '@/lib/caseStudies';
+import { getAllCaseStudies, getCaseStudy } from '@/lib/caseStudies';
 import type { Metadata } from 'next';
 import { withBase } from '@/lib/base';
 
 export function generateStaticParams() {
-  return CASE_STUDIES.map((c) => ({ id: c.id }));
+  return getAllCaseStudies().map((c) => ({ id: c.id }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
@@ -115,15 +115,17 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
         </div>
       </div>
 
-      <a href={withBase(`/stocks/${c.stockSlug}/`)} className="sector-cta" style={{ marginTop: 36 }}>
-        <div className="sc-cta-text">
-          <div className="sc-cta-kicker">Related report</div>
-          <div className="sc-cta-line">
-            Read the full research report on <strong>{c.company}</strong> to see where the business stands today.
+      {c.stockSlug && (
+        <a href={withBase(`/stocks/${c.stockSlug}/`)} className="sector-cta" style={{ marginTop: 36 }}>
+          <div className="sc-cta-text">
+            <div className="sc-cta-kicker">Related report</div>
+            <div className="sc-cta-line">
+              Read the full research report on <strong>{c.company}</strong> to see where the business stands today.
+            </div>
           </div>
-        </div>
-        <span className="sc-cta-go">Read the report <span className="arw">→</span></span>
-      </a>
+          <span className="sc-cta-go">Read the report <span className="arw">→</span></span>
+        </a>
+      )}
 
       <div className="disclaimer" style={{ borderTop: 'none', paddingTop: 40 }}>
         <strong>Educational use only.</strong> Fathom is not a SEBI-registered investment adviser.

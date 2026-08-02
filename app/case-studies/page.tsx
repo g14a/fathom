@@ -1,4 +1,4 @@
-import { CASE_STUDIES } from '@/lib/caseStudies';
+import { getAllCaseStudies } from '@/lib/caseStudies';
 import type { Metadata } from 'next';
 import { withBase } from '@/lib/base';
 
@@ -24,7 +24,7 @@ export default function CaseStudiesIndex() {
 
       <div className="wrap">
         <div className="cs-grid">
-          {CASE_STUDIES.map((c) => (
+          {getAllCaseStudies().map((c) => (
             <a key={c.id} href={withBase(`/case-studies/${c.id}/`)} className="cs-card">
               <div className="cs-card-top">
                 <span className="cs-card-company">{c.company}</span>
