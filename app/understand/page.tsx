@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withBase } from '@/lib/base';
 
 export const metadata: Metadata = {
   title: 'Understand a Business — Fathom',
@@ -165,7 +166,7 @@ export default function UnderstandPage() {
           </div>
         </div>
 
-        <a href="/understand/filings/" className="sector-cta" style={{ marginTop: 40 }}>
+        <a href={withBase("/understand/filings/")} className="sector-cta" style={{ marginTop: 40 }}>
           <div className="sc-cta-text">
             <div className="sc-cta-kicker">Next step</div>
             <div className="sc-cta-line">

@@ -1,6 +1,7 @@
 import { SECTORS, getSector } from '@/lib/sectors';
 import type { PrimerBlock } from '@/lib/sectors';
 import type { Metadata } from 'next';
+import { withBase } from '@/lib/base';
 
 function Block({ p, i }: { p: PrimerBlock; i: number }) {
   return (
@@ -56,7 +57,7 @@ export default async function SectorPage({ params }: { params: Promise<{ sector:
 
   return (
     <div className="wrap">
-      <a href="/sectors/" className="back">← All sectors</a>
+      <a href={withBase("/sectors/")} className="back">← All sectors</a>
 
       <div className="sector-hero">
         <h1>{s.name}</h1>

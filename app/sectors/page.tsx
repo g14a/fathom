@@ -1,5 +1,6 @@
 import { SECTORS } from '@/lib/sectors';
 import type { Metadata } from 'next';
+import { withBase } from '@/lib/base';
 
 export const metadata: Metadata = {
   title: 'Sectors — Fathom',
@@ -44,7 +45,7 @@ export default function SectorsIndex() {
       <div className="wrap">
         <div className="sector-grid">
           {SECTORS.map((s) => (
-            <a key={s.id} href={`/sectors/${s.id}/`} className="sector-card">
+            <a key={s.id} href={withBase(`/sectors/${s.id}/`)} className="sector-card">
               <div className="sc-top">
                 <div className="nm">{s.name}</div>
                 <div className="tl">{s.tagline}</div>

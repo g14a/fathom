@@ -1,5 +1,6 @@
 import { CASE_STUDIES } from '@/lib/caseStudies';
 import type { Metadata } from 'next';
+import { withBase } from '@/lib/base';
 
 export const metadata: Metadata = {
   title: 'Case Studies — Fathom',
@@ -24,7 +25,7 @@ export default function CaseStudiesIndex() {
       <div className="wrap">
         <div className="cs-grid">
           {CASE_STUDIES.map((c) => (
-            <a key={c.id} href={`/case-studies/${c.id}/`} className="cs-card">
+            <a key={c.id} href={withBase(`/case-studies/${c.id}/`)} className="cs-card">
               <div className="cs-card-top">
                 <span className="cs-card-company">{c.company}</span>
                 <span className="cs-card-period">{c.period}</span>

@@ -10,6 +10,9 @@ const nextConfig = {
   // Pin the workspace root so Turbopack doesn't infer it from a parent lockfile.
   turbopack: { root: __dirname },
   outputFileTracingRoot: __dirname,
+  // Exposed to the client so plain <a>/<img> can prefix the base path
+  // (Next only auto-applies basePath to next/link, not raw anchors).
+  env: { NEXT_PUBLIC_BASE_PATH: isProd ? repoBase : '' },
   basePath: isProd ? repoBase : '',
   assetPrefix: isProd && repoBase ? `${repoBase}/` : undefined,
   trailingSlash: true,

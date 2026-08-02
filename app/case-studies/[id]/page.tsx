@@ -1,5 +1,6 @@
 import { CASE_STUDIES, getCaseStudy } from '@/lib/caseStudies';
 import type { Metadata } from 'next';
+import { withBase } from '@/lib/base';
 
 export function generateStaticParams() {
   return CASE_STUDIES.map((c) => ({ id: c.id }));
@@ -18,7 +19,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
 
   return (
     <div className="wrap report">
-      <a href="/case-studies/" className="back">← All case studies</a>
+      <a href={withBase("/case-studies/")} className="back">← All case studies</a>
 
       <div className="csd-head">
         <div className="cs-head">
@@ -71,7 +72,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
           <div className="csd-exhibits">
             {c.exhibits.map((ex, j) => (
               <figure key={j} className="exhibit">
-                <img src={ex.src} alt={ex.caption} loading="lazy" />
+                <img src={withBase(ex.src)} alt={ex.caption} loading="lazy" />
                 <figcaption>
                   <span className="ex-cap">{ex.caption}</span>
                   <span className="ex-src">Source: {ex.source}</span>
@@ -112,7 +113,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
         </div>
       </div>
 
-      <a href={`/stocks/${c.stockSlug}/`} className="sector-cta" style={{ marginTop: 36 }}>
+      <a href={withBase(`/stocks/${c.stockSlug}/`)} className="sector-cta" style={{ marginTop: 36 }}>
         <div className="sc-cta-text">
           <div className="sc-cta-kicker">Related report</div>
           <div className="sc-cta-line">

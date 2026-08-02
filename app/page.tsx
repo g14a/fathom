@@ -1,5 +1,6 @@
 import { getAllReports } from '@/lib/data';
 import { VerdictBadge } from '@/components/Verdict';
+import { withBase } from '@/lib/base';
 
 export default function Home() {
   const reports = getAllReports();
@@ -20,7 +21,7 @@ export default function Home() {
       <div className="wrap">
         <div className="grid">
           {reports.map((r) => (
-            <a key={r.slug} href={`/stocks/${r.slug}/`} className="tcard">
+            <a key={r.slug} href={withBase(`/stocks/${r.slug}/`)} className="tcard">
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <span className="sym">{r.ticker}</span>
                 <VerdictBadge verdict={r.verdict} />

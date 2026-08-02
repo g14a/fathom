@@ -4,6 +4,7 @@ import type {
 import { VerdictBadge } from './Verdict';
 import { getSector } from '@/lib/sectors';
 import { getCaseStudiesForTicker } from '@/lib/caseStudies';
+import { withBase } from '@/lib/base';
 
 const HOLD_COLORS: Record<string, string> = {
   Promoter: '#2dd4bf',
@@ -113,7 +114,7 @@ function Block({ num, title, children }: { num: string; title: string; children:
 export function Report({ r }: { r: TickerReport }) {
   return (
     <div className="wrap report">
-      <a href="/" className="back">← All companies</a>
+      <a href={withBase("/")} className="back">← All companies</a>
 
       <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 16, justifyContent: 'space-between' }}>
         <div>
@@ -140,7 +141,7 @@ export function Report({ r }: { r: TickerReport }) {
         const sec = r.sectorId ? getSector(r.sectorId) : undefined;
         if (!sec) return null;
         return (
-          <a href={`/sectors/${sec.id}/`} className="sector-cta">
+          <a href={withBase(`/sectors/${sec.id}/`)} className="sector-cta">
             <div className="sc-cta-text">
               <div className="sc-cta-kicker">Start with the sector</div>
               <div className="sc-cta-line">
@@ -236,7 +237,7 @@ export function Report({ r }: { r: TickerReport }) {
       </Block>
 
       {getCaseStudiesForTicker(r.ticker).map((cs) => (
-        <a key={cs.id} href={`/case-studies/${cs.id}/`} className="sector-cta" style={{ marginTop: 22 }}>
+        <a key={cs.id} href={withBase(`/case-studies/${cs.id}/`)} className="sector-cta" style={{ marginTop: 22 }}>
           <div className="sc-cta-text">
             <div className="sc-cta-kicker">Case study · {cs.period}</div>
             <div className="sc-cta-line">
