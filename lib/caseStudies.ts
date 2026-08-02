@@ -112,13 +112,18 @@ export const CASE_STUDIES: CaseStudy[] = [
     },
     exhibits: [
       {
+        src: '/case-studies/mm-screener-pnl.png',
+        caption: 'The whole story in one row. This is Mahindra\'s consolidated profit and loss for eleven years, from screener.in. Follow the "Net Profit" line left to right. It climbs to ₹7,958 crore by Mar 2018, then collapses to a loss of ₹321 crore in Mar 2020, the year of this story (the minus sign means the company lost money that year). Then it recovers powerfully, all the way to ₹18,622 crore by Mar 2026. The "EPS in Rs" line just below tells the same tale per share: about ₹60 in 2018, just ₹1.02 in the 2020 trough, and ₹137.50 today. One row shows both the fall and the fix.',
+        source: 'screener.in, Mahindra & Mahindra consolidated P&L',
+      },
+      {
         src: '/case-studies/mm-fy20-standalone-results.png',
-        caption: 'The audited standalone results. Line 7 shows the ₹2,502.42 crore quarterly loss (the bracketed figure) for the quarter ended 31 March 2020, and line 10 the negative EPS.',
+        caption: 'This is Mahindra\'s own audited results table. The columns split the numbers into the three-month quarter (the left group) and the full year (the right group). Find line 7, "Profit/(loss) after tax", the bottom-line profit. Under the "Quarter Ended 31st Mar 2020" column it reads (2,502.42). In accounting, a number in brackets means negative, so that is a loss of ₹2,502.42 crore for the January-to-March quarter, not a profit. Line 10, earnings per share, is negative for the same reason: when the company loses money, each share loses money too.',
         source: 'M&M Audited Financial Results, year ended 31 March 2020',
       },
       {
         src: '/case-studies/mm-fy20-notes.png',
-        caption: 'Note 4, in the company\'s own words: a ₹2,780.47 crore "exceptional item" for impairment provision on long-term investments in subsidiaries, and COVID-19 named as the trigger. This is the SsangYong write-down, in the audited accounts.',
+        caption: 'This is Note 4 from the same filing, where the company explains the one-off charge behind that loss. An "exceptional item" is a one-time hit that is not part of normal trading. Here it is an "impairment provision", which is the company admitting that something it owns is now worth far less than it paid, and writing down that lost value. The something is its "long-term investments" in its subsidiaries, chiefly the loss-making SsangYong. The note books ₹2,780.47 crore of this write-down for the quarter and names COVID-19 as the trigger. In plain words, this is the SsangYong disaster showing up, in black and white, in the audited accounts.',
         source: 'M&M Audited Financial Results, year ended 31 March 2020, Note 4',
       },
     ],
