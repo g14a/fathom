@@ -1,0 +1,296 @@
+import type {
+  TickerReport, Metric, FinancialRow, HoldingSlice, ChecklistItem, MoatStrength,
+} from '@/lib/types';
+import { VerdictBadge } from './Verdict';
+import { getSector } from '@/lib/sectors';
+import { getCaseStudiesForTicker } from '@/lib/caseStudies';
+
+const HOLD_COLORS: Record<string, string> = {
+  Promoter: '#2dd4bf',
+  FII: '#f0b429',
+  DII: '#7c93f5',
+  Retail: '#f85149',
+  Other: '#6b7684',
+};
+
+const MOAT_PIPS: Record<MoatStrength, number> = { wide: 4, narrow: 2, eroding: 1, none: 0 };
+const CHK: Record<ChecklistItem['status'], string> = { pass: '✓', fail: '✕', warn: '!', na: '–' };
+
+function Metrics({ items }: { items: Metric[] }) {
+  return (
+    <div className="metrics">
+      {items.map((m, i) => (
+        <div key={i} className={`metric ${m.tone === 'good' ? 'good' : m.tone === 'bad' ? 'bad' : ''}`}>
+          <div className="m-label">{m.label}</div>
+          <div className="m-value">{m.value}</div>
+          {m.hint && <div className="m-hint">{m.hint}</div>}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function Financials({ rows }: { rows: FinancialRow[] }) {
+  const max = Math.max(...rows.map((r) => r.revenue));
+  return (
+    <div className="fin">
+      {rows.map((r) => (
+        <div key={r.year} className="fin-row">
+          <span className="yr">{r.year}</span>
+          <div className="bar-track">
+            <div className="bar-fill" style={{ width: `${(r.revenue / max) * 100}%` }} />
+          </div>
+          <span className="amt">₹{r.revenue.toLocaleString('en-IN')}cr</span>
+        </div>
+      ))}
+      <div className="fin-row" style={{ marginTop: 4 }}>
+        <span className="yr" />
+        <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12, color: 'var(--ink-faint)' }}>
+          <span>Net profit → {rows.map((r) => `₹${r.netProfit}cr`).join('  ·  ')}</span>
+        </div>
+        <span />
+      </div>
+    </div>
+  );
+}
+
+function Holding({ slices, pledged }: { slices: HoldingSlice[]; pledged?: number }) {
+  return (
+    <>
+      <div className="hold-bar">
+        {slices.map((s) => (
+          <div key={s.label} className="hold-seg"
+            style={{ width: `${s.pct}%`, background: HOLD_COLORS[s.label] }}>
+            {s.pct >= 10 ? `${s.pct}%` : ''}
+          </div>
+        ))}
+      </div>
+      <div className="hold-legend">
+        {slices.map((s) => (
+          <span key={s.label} className="li">
+            <span className="swatch" style={{ background: HOLD_COLORS[s.label] }} />
+            {s.label} {s.pct}%
+            {s.qoqChange != null && s.qoqChange !== 0 && (
+              <span style={{ color: s.qoqChange > 0 ? 'var(--good)' : 'var(--bad)' }}>
+                ({s.qoqChange > 0 ? '+' : ''}{s.qoqChange})
+              </span>
+            )}
+          </span>
+        ))}
+        {pledged != null && (
+          <span className="li"><span className="swatch" style={{ background: 'var(--bad)' }} />Pledged {pledged}%</span>
+        )}
+      </div>
+    </>
+  );
+}
+
+function Checklist({ items }: { items: ChecklistItem[] }) {
+  return (
+    <div className="checks">
+      {items.map((c, i) => (
+        <div key={i} className="check">
+          <span className={`chk-icon chk-${c.status}`}>{CHK[c.status]}</span>
+          <div>
+            <div className="c-label">{c.label}</div>
+            {c.note && <div className="c-note">{c.note}</div>}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function Block({ num, title, children }: { num: string; title: string; children: React.ReactNode }) {
+  return (
+    <section className="block">
+      <h2><span className="num">{num}</span>{title}</h2>
+      {children}
+    </section>
+  );
+}
+
+export function Report({ r }: { r: TickerReport }) {
+  return (
+    <div className="wrap report">
+      <a href="/" className="back">← All companies</a>
+
+      <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 16, justifyContent: 'space-between' }}>
+        <div>
+          <div className="eyebrow">{r.sector} · {r.industry}</div>
+          <h1 style={{ fontFamily: 'var(--serif)', fontSize: 40, fontWeight: 600, letterSpacing: '-0.02em', marginTop: 8 }}>
+            {r.company}
+          </h1>
+          <div className="asof" style={{ marginTop: 8 }}>
+            {r.ticker} · {r.dataVariant} · as of {r.asOf}
+          </div>
+        </div>
+        <VerdictBadge verdict={r.verdict} />
+      </div>
+
+      <p style={{ fontSize: 18, color: 'var(--ink-dim)', marginTop: 16, maxWidth: 720 }}>{r.oneLiner}</p>
+
+      {r.isSample && (
+        <div className="sample-banner">
+          ⚠ Sample / template record — illustrative numbers describing no real company. Replace with a real research run.
+        </div>
+      )}
+
+      {(() => {
+        const sec = r.sectorId ? getSector(r.sectorId) : undefined;
+        if (!sec) return null;
+        return (
+          <a href={`/sectors/${sec.id}/`} className="sector-cta">
+            <div className="sc-cta-text">
+              <div className="sc-cta-kicker">Start with the sector</div>
+              <div className="sc-cta-line">
+                New to {sec.name.toLowerCase()}? Read <strong>how {sec.name} businesses work</strong> first.
+                It explains the ideas this report leans on.
+              </div>
+            </div>
+            <span className="sc-cta-go">Read the primer <span className="arw">→</span></span>
+          </a>
+        );
+      })()}
+
+      <Block num="01" title="Company Overview">
+        <p>{r.overview}</p>
+        {r.ipoFlag && <p className="tight" style={{ color: 'var(--ink-faint)' }}>{r.ipoFlag}</p>}
+      </Block>
+
+      <Block num="02" title="Business Model & Industry">
+        <p><strong style={{ color: 'var(--ink)' }}>Unit of revenue:</strong> {r.business.unitOfRevenue}</p>
+        <p className="tight"><strong style={{ color: 'var(--ink)' }}>Model:</strong> {r.business.revenueModel}</p>
+        <div className="chips">
+          {r.business.segments.map((s) => (
+            <span key={s.name} className="chip">{s.name} — {s.pct}% · {s.marginProfile}</span>
+          ))}
+        </div>
+        <dl className="dl">
+          <div className="dl-row"><dt>Structure</dt><dd>{r.business.industry.structure}</dd></div>
+          <div className="dl-row"><dt>Competitors</dt><dd>{r.business.industry.competitors}</dd></div>
+          <div className="dl-row"><dt>Pricing power</dt><dd>{r.business.industry.pricingPower}</dd></div>
+          <div className="dl-row"><dt>Demand driver</dt><dd>{r.business.industry.demandDriver} ({r.business.industry.driverType})</dd></div>
+          <div className="dl-row"><dt>TAM</dt><dd>{r.business.industry.tam}</dd></div>
+          <div className="dl-row"><dt>Penetration</dt><dd>{r.business.industry.penetration}</dd></div>
+          <div className="dl-row"><dt>Value-chain seat</dt><dd>{r.business.industry.valueChainPosition}</dd></div>
+        </dl>
+        <p>{r.business.qualityVerdict}</p>
+      </Block>
+
+      <Block num="03" title="Valuation Snapshot"><Metrics items={r.valuation} /></Block>
+
+      <Block num="04" title="Financial Performance (5Y)">
+        <Financials rows={r.financials} />
+      </Block>
+
+      <Block num="05" title="Key Ratios"><Metrics items={r.ratios} /></Block>
+
+      <Block num="06" title="Cash Flow Forensics">
+        <div className="fin" style={{ marginTop: 8 }}>
+          {r.cashFlow.map((c) => (
+            <div key={c.year} className="fin-row">
+              <span className="yr">{c.year}</span>
+              <div style={{ fontSize: 14, color: 'var(--ink-dim)' }}>
+                {c.capex != null ? `OCF ₹${c.ocf}cr, capex ₹${c.capex}cr` : `Operating cash flow ₹${c.ocf.toLocaleString('en-IN')}cr`}
+              </div>
+              {c.fcf != null ? (
+                <span className="amt" style={{ color: c.fcf > 0 ? 'var(--good)' : 'var(--bad)' }}>FCF ₹{c.fcf}cr</span>
+              ) : (
+                <span className="amt" style={{ color: c.ocf > 0 ? 'var(--good)' : 'var(--bad)' }}>{c.ocf > 0 ? 'positive' : 'negative'}</span>
+              )}
+            </div>
+          ))}
+        </div>
+        <p>{r.cashFlowNote}</p>
+      </Block>
+
+      <Block num="07" title="Growth"><Metrics items={r.growth} /></Block>
+
+      <Block num="08" title="Management">
+        <p>{r.management}</p>
+      </Block>
+
+      <Block num="09" title="Shareholding">
+        <Holding slices={r.holding} pledged={r.pledged} />
+      </Block>
+
+      <Block num="10" title="Moat">
+        <div className="moat-meter">
+          {[0, 1, 2, 3].map((i) => (
+            <span key={i} className={`moat-pip ${i < MOAT_PIPS[r.moat.strength] ? 'on' : ''}`} />
+          ))}
+        </div>
+        <div style={{ fontSize: 13, color: 'var(--ink-faint)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+          {r.moat.strength} moat
+        </div>
+        <div className="chips">
+          {r.moat.sources.map((s) => <span key={s} className="chip">{s}</span>)}
+        </div>
+        <p>{r.moat.note}</p>
+      </Block>
+
+      <Block num="11" title="The Story So Far">
+        <p>{r.narrative}</p>
+        <p className="tight"><strong style={{ color: 'var(--ink)' }}>Price action (12M):</strong> {r.priceAction}</p>
+      </Block>
+
+      {getCaseStudiesForTicker(r.ticker).map((cs) => (
+        <a key={cs.id} href={`/case-studies/${cs.id}/`} className="sector-cta" style={{ marginTop: 22 }}>
+          <div className="sc-cta-text">
+            <div className="sc-cta-kicker">Case study · {cs.period}</div>
+            <div className="sc-cta-line">
+              <strong>{cs.title}.</strong> {cs.summary}
+            </div>
+          </div>
+          <span className="sc-cta-go">Read the case study <span className="arw">→</span></span>
+        </a>
+      ))}
+
+      <Block num="12" title="Risks">
+        <div className="risks">
+          {r.risks.map((risk, i) => <div key={i} className="risk">{risk}</div>)}
+        </div>
+      </Block>
+
+      <Block num="13" title="Trap Detection">
+        <Checklist items={r.trapChecklist} />
+        {r.sectorChecklist.length > 0 && (
+          <>
+            <p className="tight" style={{ marginTop: 20, color: 'var(--ink-faint)', textTransform: 'uppercase', fontSize: 12, letterSpacing: '0.08em' }}>Sector checklist</p>
+            <Checklist items={r.sectorChecklist} />
+          </>
+        )}
+      </Block>
+
+      <Block num="14" title="Two-Engine Assessment">
+        <div className="engine-grid">
+          <div className="engine-box"><h4>Earnings engine</h4><p>{r.engine.earnings}</p></div>
+          <div className="engine-box"><h4>Multiple engine</h4><p>{r.engine.multiple}</p></div>
+        </div>
+        <div className="engine-verdict">{r.engine.verdict}</div>
+      </Block>
+
+      <Block num="15" title="Mental-Model Lenses">
+        <div className="lenses">
+          {r.lenses.map((l) => (
+            <div key={l.name} className="lens">
+              <div className="l-name">{l.name}</div>
+              <div className="l-read">{l.reading}</div>
+            </div>
+          ))}
+        </div>
+      </Block>
+
+      <Block num="16" title="Summary">
+        <p style={{ fontSize: 17 }}>{r.summary}</p>
+      </Block>
+
+      <div className="disclaimer">
+        <strong>Educational use only.</strong> Fathom is not a SEBI-registered investment adviser.
+        Nothing here is a recommendation to buy or sell any security. Data is a point-in-time snapshot
+        (as of {r.asOf}) and may be stale. Do your own research.
+      </div>
+    </div>
+  );
+}

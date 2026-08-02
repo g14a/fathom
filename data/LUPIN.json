@@ -1,0 +1,325 @@
+{
+  "ticker": "LUPIN",
+  "company": "Lupin Ltd",
+  "sector": "Healthcare",
+  "industry": "Pharmaceuticals",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-08-02",
+  "verdict": "hold",
+  "oneLiner": "A textbook turnaround, from a loss-making laggard to a 29% margin machine, but a lot of that shine comes from US exclusivities that fade, so the real question is what the profit looks like once the jackpots roll off.",
+  "overview": "Lupin is a large Indian pharma company that lost its way, then found it again. Four years ago it was posting losses and trailing its peers. Since then it has cleaned up its US business, leaned into harder-to-make complex generics, and ridden a couple of lucrative first-to-file launches to a spectacular margin recovery. The US is now 40% of sales and the biggest growth driver, its India business remains a steady branded-generics franchise, and management is betting the next leg on respiratory drugs and biosimilars. The numbers are dazzling right now. The job of the analyst is to work out how much of that is durable.",
+  "ipoFlag": "Long-established Mumbai pharma house, listed for decades. No repackaging games.",
+  "business": {
+    "unitOfRevenue": "A pack of medicine sold. In India under trusted brand names at healthy margins; in the US as generics where price falls every year unless the product is complex or has exclusivity.",
+    "revenueModel": "Selling branded generics at home and plain and complex generics abroad, manufactured in its own plants.",
+    "segments": [
+      {
+        "name": "US formulations",
+        "pct": 40,
+        "marginProfile": "High right now, boosted by exclusivities that fade"
+      },
+      {
+        "name": "India branded",
+        "pct": 35,
+        "marginProfile": "Steady, high-quality, sticky"
+      },
+      {
+        "name": "EM / EU / API / other",
+        "pct": 25,
+        "marginProfile": "Mixed, provides diversification"
+      }
+    ],
+    "revenuePerUnitTrend": "Rising for now, driven by complex generics and first-to-file US launches that carry premium pricing. But the premium ones are time-limited, so the trend flatters the underlying run-rate.",
+    "industry": {
+      "structure": "Fragmented globally. In US generics, whoever is cheapest wins, so it is close to commoditised except for complex products; in India, branded loyalty softens the competition.",
+      "competitors": "Sun Pharma, Dr Reddy's, Cipla, Aurobindo, plus global generic majors in the US.",
+      "pricingPower": "Weak on plain US generics (price only erodes), genuine on complex products and on India branded medicines.",
+      "demandDriver": "Chronic-illness prescriptions at home, and a steady stream of US patent expiries that open up generic opportunities abroad.",
+      "driverType": "Structural (rising healthcare demand, ageing populations) with a lumpy overlay from individual product launches and exclusivities.",
+      "tam": "A very large global generics and complex-generics market, but one where price erosion means you must keep launching just to stand still.",
+      "penetration": "Mature in plain generics; the growth is in harder complex generics, biosimilars and respiratory where fewer rivals can compete.",
+      "valueChainPosition": "Manufacturer and marketer. The margin lives in complexity and brand, not in the plain molecule."
+    },
+    "qualityVerdict": "The business is genuinely better than it was, the complex-generics and respiratory strategy is the right one, and the India franchise is a solid, durable base. But be honest about the margin: 29% is a peak inflated by first-to-file exclusivities like Tolvaptan, and those are jackpots, not a run-rate. This is a good company at a flattering moment. The durable core is real; the headline margin is partly borrowed from windfalls that will not repeat."
+  },
+  "valuation": [
+    {
+      "label": "Price",
+      "value": "₹2,415"
+    },
+    {
+      "label": "Market Cap",
+      "value": "₹1,10,422 cr"
+    },
+    {
+      "label": "52W High / Low",
+      "value": "₹2,530 / ₹1,837"
+    },
+    {
+      "label": "Stock P/E",
+      "value": "19.4",
+      "hint": "mcap / profit ≈ 20.6",
+      "tone": "neutral"
+    },
+    {
+      "label": "P/B",
+      "value": "4.92",
+      "tone": "neutral"
+    },
+    {
+      "label": "EPS (TTM)",
+      "value": "₹116.65"
+    },
+    {
+      "label": "Div Yield",
+      "value": "0.75%"
+    },
+    {
+      "label": "Book Value",
+      "value": "₹491"
+    }
+  ],
+  "financials": [
+    {
+      "year": "FY22",
+      "revenue": 16405,
+      "netProfit": -1528,
+      "eps": -33.62,
+      "patMargin": -9.3
+    },
+    {
+      "year": "FY23",
+      "revenue": 16642,
+      "netProfit": 448,
+      "eps": 9.45,
+      "patMargin": 2.7
+    },
+    {
+      "year": "FY24",
+      "revenue": 20011,
+      "netProfit": 1936,
+      "eps": 42.01,
+      "patMargin": 9.7
+    },
+    {
+      "year": "FY25",
+      "revenue": 22708,
+      "netProfit": 3306,
+      "eps": 71.88,
+      "patMargin": 14.6
+    },
+    {
+      "year": "FY26",
+      "revenue": 27958,
+      "netProfit": 5355,
+      "eps": 116.65,
+      "patMargin": 19.2
+    }
+  ],
+  "ratios": [
+    {
+      "label": "ROE",
+      "value": "28.7%",
+      "tone": "good"
+    },
+    {
+      "label": "ROCE",
+      "value": "29.9%",
+      "tone": "good"
+    },
+    {
+      "label": "OPM",
+      "value": "~29%",
+      "hint": "peak, exclusivity-boosted",
+      "tone": "neutral"
+    },
+    {
+      "label": "PAT Margin",
+      "value": "~19.2%",
+      "tone": "good"
+    },
+    {
+      "label": "P/B",
+      "value": "4.92",
+      "tone": "neutral"
+    },
+    {
+      "label": "Profit CAGR 3Y",
+      "value": "140%",
+      "hint": "off a FY22 loss, ignore this",
+      "tone": "neutral"
+    }
+  ],
+  "cashFlow": [
+    {
+      "year": "FY24",
+      "ocf": 3648,
+      "capex": 1712,
+      "fcf": 1936
+    },
+    {
+      "year": "FY25",
+      "ocf": 3000,
+      "capex": 4172,
+      "fcf": -1172
+    },
+    {
+      "year": "FY26",
+      "ocf": 7334,
+      "capex": 3865,
+      "fcf": 3469
+    }
+  ],
+  "cashFlowNote": "The cash flow backs the profit, which is reassuring given how fast the margin has moved. Operating cash flow surged to ₹7,334cr in FY26, comfortably ahead of reported profit, so this is not a paper turnaround. Capex has been heavy as Lupin invests in complex-generics and respiratory capacity, which pushed FY25 free cash flow slightly negative, but that is investment in the future rather than a leak. FY26 free cash flow is solidly positive again.",
+  "growth": [
+    {
+      "label": "Sales CAGR 5Y",
+      "value": "13%",
+      "tone": "good"
+    },
+    {
+      "label": "Sales CAGR 3Y",
+      "value": "19%",
+      "tone": "good"
+    },
+    {
+      "label": "Profit CAGR 3Y",
+      "value": "140%",
+      "hint": "meaningless, FY22 was a loss",
+      "tone": "neutral"
+    },
+    {
+      "label": "Stock CAGR 1Y",
+      "value": "29%",
+      "tone": "good"
+    },
+    {
+      "label": "Stock CAGR 5Y",
+      "value": "16%",
+      "tone": "neutral"
+    }
+  ],
+  "management": "Promoter-led by the Gupta family, holding 46.85%, with Vinita Gupta and Nilesh Gupta running the business. Credit where due: this management team drove the turnaround, fixing the US business, sharpening the pipeline toward complex products, and restoring both margins and credibility. The capital allocation has been disciplined, funding the complex-generics and respiratory push through the company's own cash rather than serial dilution. The test ahead is whether they can replace the fading exclusivity profits with durable complex-product earnings.",
+  "holding": [
+    {
+      "label": "Promoter",
+      "pct": 46.85,
+      "qoqChange": 0
+    },
+    {
+      "label": "DII",
+      "pct": 24.65,
+      "qoqChange": 0.6
+    },
+    {
+      "label": "FII",
+      "pct": 22.42,
+      "qoqChange": -0.4
+    },
+    {
+      "label": "Retail",
+      "pct": 6.08,
+      "qoqChange": -0.1
+    }
+  ],
+  "pledged": 0,
+  "moat": {
+    "strength": "narrow",
+    "sources": [
+      "Complex-generics and inhalation know-how",
+      "India branded-generics loyalty",
+      "Clean regulatory execution lately",
+      "Respiratory and biosimilar pipeline"
+    ],
+    "note": "The moat is narrow but real, and it sits in the hard-to-copy products: complex generics, inhalers and biosimilars that few rivals can make, plus a sticky India branded franchise. It is not a wide moat, because plain generics have none and a factory setback could hurt quickly. The durability of the moat depends on Lupin keeping its pipeline of difficult products flowing faster than its current winners erode."
+  },
+  "narrative": "Rewind to FY22 and Lupin was the problem child of large-cap Indian pharma: a loss, a troubled US business, and a market that had given up on it. What followed was a genuine turnaround. Management cleaned up manufacturing, pivoted toward complex generics, and caught a couple of big US breaks, most notably the first-to-file launch of generic Tolvaptan with six months of exclusivity. Margins went from barely positive to 29%, profit went from a loss to over ₹5,000cr, and the stock rerated with it, up 29% in the last year alone. The bull case is that the complex-generics and respiratory pipeline sustains this. The bear case is that a chunk of today's profit is exclusivity money that does not come back.",
+  "priceAction": "Up about 29% over the last year, near its 52-week high, as the market rewarded the margin recovery and the Tolvaptan windfall. The move is mostly business-driven: profit genuinely surged. The risk in the price action is precisely that it extrapolates a peak margin. If the market is pricing 29% margins as permanent, any normalisation as exclusivities roll off could take the shine off, even with the underlying business still healthy.",
+  "risks": [
+    "Exclusivity roll-off. A meaningful slice of the current margin comes from time-limited first-to-file products like Tolvaptan. As those windows close, profit can step down even if the business is fine. Medium-High.",
+    "US price erosion. The plain-generics part of the US book keeps eroding, so Lupin must keep launching complex products just to hold ground. Medium.",
+    "Factory risk. Like any Indian pharma, a bad USFDA inspection at a key plant could freeze a chunk of the US pipeline overnight. Medium.",
+    "Peak-margin extrapolation. If the market treats 29% margins as the new normal, disappointment is easy to trigger. Medium.",
+    "Pipeline execution. The whole thesis rests on complex generics and respiratory launches arriving on time and at scale. Medium."
+  ],
+  "trapChecklist": [
+    {
+      "label": "Profit backed by cash",
+      "status": "pass",
+      "note": "OCF ₹7,334cr exceeds profit"
+    },
+    {
+      "label": "Growth on a trough base",
+      "status": "warn",
+      "note": "140% profit CAGR is off a FY22 loss, meaningless"
+    },
+    {
+      "label": "Peak-margin risk",
+      "status": "warn",
+      "note": "29% margin flattered by exclusivities"
+    },
+    {
+      "label": "Promoter pledging",
+      "status": "pass",
+      "note": "No pledge"
+    },
+    {
+      "label": "Regulatory / factory risk",
+      "status": "warn",
+      "note": "USFDA action is an ever-present pharma risk"
+    },
+    {
+      "label": "Stretched multiple",
+      "status": "pass",
+      "note": "~20x is fair, not demanding"
+    }
+  ],
+  "sectorChecklist": [
+    {
+      "label": "Domestic chronic growth",
+      "status": "pass",
+      "note": "Steady, high-quality India branded base"
+    },
+    {
+      "label": "Pipeline quality (complex, not just count)",
+      "status": "pass",
+      "note": "Complex generics, inhalation, biosimilars"
+    },
+    {
+      "label": "Factory track record",
+      "status": "warn",
+      "note": "Improved, but always a live risk"
+    },
+    {
+      "label": "One-off vs run-rate profit",
+      "status": "warn",
+      "note": "Margin boosted by fading first-to-file wins"
+    }
+  ],
+  "summary": "Lupin is a real turnaround executed well, and the strategy, harder complex generics plus a steady India franchise, is exactly the right one for an Indian pharma company. Two things hold it at Hold rather than higher. First, the headline 29% margin is a peak, inflated by first-to-file US exclusivities that are jackpots rather than a run-rate, so the durable earnings power is lower than the trailing numbers suggest. Second, at roughly 20 times earnings the price already reflects a lot of the good news. The right posture is to respect the execution but wait to see the margin normalise, so you can judge the business on its durable earnings rather than its best quarter. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+  "engine": {
+    "state": "multiple-drift",
+    "earnings": "The earnings engine has been extraordinary, but partly for the wrong reasons. Genuine improvement (complex generics, a cleaner US business, a solid India base) is mixed with time-limited exclusivity windfalls. The durable growth is real and probably runs in the mid-teens; the recent explosive pace is not repeatable. Forward catalysts are concrete but lumpy: new complex launches, respiratory and biosimilar products.",
+    "multiple": "At around 20 times earnings, the multiple is fair rather than stretched. It has already rerated upward as the turnaround played out, so the easy multiple gains are done. The danger is subtle: because earnings are near a peak, even a flat multiple on normalising profit means the stock can go sideways.",
+    "verdict": "The earnings engine is strong but partly borrowed from exclusivities, and the multiple has already rerated. That combination means a lot depends on Lupin replacing fading windfalls with durable complex-product profit. Odds: neutral. Own the turnaround only if you are comfortable underwriting the durable, lower margin rather than the flattering peak. Size with the exclusivity roll-off in mind."
+  },
+  "lenses": [
+    {
+      "name": "The first-to-file jackpot",
+      "reading": "Tolvaptan and its kind are six-month windfalls, not annuities. Read a peak-exclusivity quarter as the new normal and you will overpay when the window shuts. This is the classic pharma trap."
+    },
+    {
+      "name": "Operator vs storyteller",
+      "reading": "Management earned trust by actually fixing the US business and the margins, not just narrating a pipeline. The turnaround is evidence, not slideware."
+    },
+    {
+      "name": "Foreshock",
+      "reading": "No slowdown yet, quite the opposite. The risk is not a visible crack but an invisible one: the quiet step-down when exclusivities expire. Watch the next few quarters of margin closely."
+    },
+    {
+      "name": "Convergence pair",
+      "reading": "Against Sun Pharma and Dr Reddy's, Lupin trades cheaper on trailing earnings, but partly because the market suspects those earnings are near a peak. The discount may be deserved, not an anomaly."
+    }
+  ],
+  "sectorId": "pharma"
+}

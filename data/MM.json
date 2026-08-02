@@ -1,0 +1,320 @@
+{
+  "ticker": "M&M",
+  "company": "Mahindra & Mahindra Ltd",
+  "sector": "Consumer Discretionary",
+  "industry": "Automobiles & Farm Equipment",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-08-02",
+  "verdict": "accumulate",
+  "oneLiner": "The rare Indian carmaker that is winning on both fronts at once, number one in SUVs and number one in tractors, and it is doing it at a multiple that does not yet ask you to pay up for perfection.",
+  "overview": "Mahindra is two great franchises stapled together. It is the market leader in Indian tractors, a business it has quietly dominated for decades, and it has become the leader in SUVs, the fastest and most profitable slice of the car market, overtaking Tata Motors in FY26. On top of that it runs a real electric-vehicle business that is actually selling, not just promising. Add a sprawl of listed subsidiaries in finance, IT and logistics, and you have a group that is far more than a carmaker. The core, though, is simple and powerful: sell more SUVs and tractors, and keep more profit on each one.",
+  "ipoFlag": "Founded in 1945. One of India's oldest industrial houses. No repackaging, no narrative makeover.",
+  "business": {
+    "unitOfRevenue": "A vehicle or a tractor sold, plus the profit kept on each. The mix matters as much as the count: a loaded Scorpio-N or an electric XEV earns far more than a base Bolero.",
+    "revenueModel": "Manufacturing and selling vehicles and tractors, supported by a large captive finance arm that helps rural and semi-urban buyers pay for them.",
+    "segments": [
+      {
+        "name": "Auto (SUVs, LCVs, EVs)",
+        "pct": 60,
+        "marginProfile": "Rising, led by premium SUV mix"
+      },
+      {
+        "name": "Farm equipment (tractors)",
+        "pct": 25,
+        "marginProfile": "High and stable, the profit anchor"
+      },
+      {
+        "name": "Financial services + others",
+        "pct": 15,
+        "marginProfile": "Separate NBFC economics"
+      }
+    ],
+    "revenuePerUnitTrend": "Genuinely rising. Buyers keep trading up to costlier SUVs and to EVs, and Mahindra has pricing power because its models are wanted, not discounted. This is the good kind of growth, more money per vehicle, not just more vehicles.",
+    "industry": {
+      "structure": "Oligopoly in both markets. A handful of serious players, and Mahindra sits at the top of the two that matter to it.",
+      "competitors": "SUVs: Tata Motors, Maruti, Hyundai, Toyota. Tractors: TAFE, Escorts, Sonalika. Mahindra leads SUVs by revenue share (25.3%) and tractors (43.6%).",
+      "pricingPower": "Strong for Mahindra specifically. Models like Thar, Scorpio-N and the XEV EVs command waiting periods, which is pricing power made visible.",
+      "demandDriver": "Rising Indian incomes wanting bigger vehicles, rural prosperity driving tractors, and the shift to electric. SUVs are structurally taking share of the car market; tractors ride the farm cycle.",
+      "driverType": "Structural (SUV premiumisation, EV shift) layered on cyclical (tractors follow the monsoon and farm income).",
+      "tam": "A large, growing car and tractor market with SUVs the fastest-growing slice and EVs a brand new pie forming on top.",
+      "penetration": "Car ownership in India is still low, so this is real market growth, not just share-stealing, though Mahindra is doing plenty of that too.",
+      "valueChainPosition": "The manufacturer and brand owner, the seat that keeps the margin, backed by a captive financier that helps close the sale."
+    },
+    "qualityVerdict": "This is a genuinely high-quality business at an unusually good moment: leader in the two segments it competes in, real pricing power, rising money per vehicle, and an EV business that is actually working while rivals struggle. The catch is that autos and tractors are cyclical, and Mahindra has already had a spectacular run, so you are buying a wonderful business that is closer to the top of its cycle than the bottom. Watch the margin-mix carefully, because a shift back toward cheaper vehicles would quietly pull the blend down."
+  },
+  "valuation": [
+    {
+      "label": "Price",
+      "value": "₹3,398"
+    },
+    {
+      "label": "Market Cap",
+      "value": "₹4,22,613 cr"
+    },
+    {
+      "label": "52W High / Low",
+      "value": "₹3,840 / ₹2,896"
+    },
+    {
+      "label": "Stock P/E",
+      "value": "22.0",
+      "hint": "mcap / profit ≈ 22.7",
+      "tone": "neutral"
+    },
+    {
+      "label": "P/B",
+      "value": "4.54",
+      "tone": "neutral"
+    },
+    {
+      "label": "EPS (TTM)",
+      "value": "₹137.50"
+    },
+    {
+      "label": "Div Yield",
+      "value": "0.97%"
+    },
+    {
+      "label": "Book Value",
+      "value": "₹749"
+    }
+  ],
+  "financials": [
+    {
+      "year": "FY22",
+      "revenue": 90171,
+      "netProfit": 7253,
+      "eps": 52.91,
+      "patMargin": 8.0
+    },
+    {
+      "year": "FY23",
+      "revenue": 121362,
+      "netProfit": 11374,
+      "eps": 82.68,
+      "patMargin": 9.4
+    },
+    {
+      "year": "FY24",
+      "revenue": 139078,
+      "netProfit": 12270,
+      "eps": 90.62,
+      "patMargin": 8.8
+    },
+    {
+      "year": "FY25",
+      "revenue": 159211,
+      "netProfit": 14073,
+      "eps": 103.97,
+      "patMargin": 8.8
+    },
+    {
+      "year": "FY26",
+      "revenue": 198639,
+      "netProfit": 18622,
+      "eps": 137.5,
+      "patMargin": 9.4
+    }
+  ],
+  "ratios": [
+    {
+      "label": "ROE",
+      "value": "20.3%",
+      "tone": "good"
+    },
+    {
+      "label": "ROCE",
+      "value": "15.1%",
+      "tone": "good"
+    },
+    {
+      "label": "OPM",
+      "value": "~19%",
+      "tone": "good"
+    },
+    {
+      "label": "PAT Margin",
+      "value": "~9.4%",
+      "hint": "group incl. finance",
+      "tone": "neutral"
+    },
+    {
+      "label": "P/B",
+      "value": "4.54",
+      "tone": "neutral"
+    },
+    {
+      "label": "Profit CAGR 5Y",
+      "value": "51%",
+      "hint": "flattered by a soft FY22 base",
+      "tone": "neutral"
+    }
+  ],
+  "cashFlow": [
+    {
+      "year": "FY24",
+      "ocf": -5630
+    },
+    {
+      "year": "FY25",
+      "ocf": 3176
+    },
+    {
+      "year": "FY26",
+      "ocf": 11657
+    }
+  ],
+  "cashFlowNote": "Read this one carefully, because the group cash flow is distorted by the captive finance arm. When Mahindra's NBFC grows its loan book, that shows up as a cash outflow at the group level even though the core auto and tractor business is strongly cash-generative. That is why FY24 group operating cash flow was negative and FY26 swung to a large positive. The manufacturing engine itself throws off healthy cash; the swings are the finance book, not a problem with the cars. Capex is not cleanly separable at the group level here.",
+  "growth": [
+    {
+      "label": "Sales CAGR 5Y",
+      "value": "22%",
+      "tone": "good"
+    },
+    {
+      "label": "Sales CAGR 3Y",
+      "value": "18%",
+      "tone": "good"
+    },
+    {
+      "label": "Profit CAGR 3Y",
+      "value": "23%",
+      "tone": "good"
+    },
+    {
+      "label": "Stock CAGR 5Y",
+      "value": "35%",
+      "hint": "a huge run already banked",
+      "tone": "neutral"
+    },
+    {
+      "label": "Stock CAGR 1Y",
+      "value": "8%",
+      "hint": "cooling after the surge",
+      "tone": "neutral"
+    }
+  ],
+  "management": "Led by Anish Shah as group CEO, with the auto and farm businesses run by respected operators. The current management has done exactly what good capital allocators are supposed to do: fixed a scattergun subsidiary strategy, put money behind the winning SUV and EV bets, and let the numbers do the talking. Promoter holding is low at 18.44%, which is normal for an old professionally-run house rather than a red flag, but it does mean the family has less skin in the game than a typical promoter-led company.",
+  "holding": [
+    {
+      "label": "FII",
+      "pct": 34.89,
+      "qoqChange": 0.5
+    },
+    {
+      "label": "DII",
+      "pct": 32.58,
+      "qoqChange": 0.4
+    },
+    {
+      "label": "Promoter",
+      "pct": 18.44,
+      "qoqChange": 0
+    },
+    {
+      "label": "Retail",
+      "pct": 10.47,
+      "qoqChange": -0.3
+    }
+  ],
+  "pledged": 0,
+  "moat": {
+    "strength": "wide",
+    "sources": [
+      "Tractor dominance built over decades",
+      "SUV brand strength and waiting periods",
+      "Captive rural finance and distribution",
+      "Early, credible EV lead"
+    ],
+    "note": "The tractor business is a genuinely wide moat: forty-plus percent share, deep rural distribution and finance, and a brand farmers trust, all very hard to dislodge. The SUV moat is narrower but strengthening fast, evidenced by real waiting periods on Thar and Scorpio-N, which means demand exceeds supply. The EV lead is the newest and least proven, but the fact that four in five EV buyers are new to Mahindra shows it is winning customers, not just cannibalising its own."
+  },
+  "narrative": "For years Mahindra was seen as a sprawling conglomerate that spread itself too thin. The last few years rewrote that story. Management focused the group, poured resources into SUVs and EVs, and the products landed: the Thar, the Scorpio-N and now a credible electric range that actually sells. Tractors kept quietly minting money through a strong farm cycle. Revenue more than doubled from FY22 to FY26 and profit rose faster, and in FY26 Mahindra overtook Tata Motors to lead SUVs by revenue share. The stock compounded at 35% a year over five years to match. The debate now is not whether the business is good. It plainly is. It is whether the easy money has already been made.",
+  "priceAction": "Up modestly, around 8% over the last year, after a storming five-year run that saw the stock compound at roughly 35% annually. Now sitting a little below its 52-week high. The 12-month cooling is a healthy pause in a business still delivering, not a sign of trouble: FY26 was a record on revenue, profit and market share. The cause of the pause is valuation catching its breath and the market wondering how much of the cycle is left, not any crack in the fundamentals.",
+  "risks": [
+    "Cyclicality. Both SUVs and tractors turn with the economy and the monsoon. A weak farm year or a consumption slowdown would hit both engines together. Medium.",
+    "The cycle looks mature. After years of strong SUV demand and a good farm cycle, you are buying nearer a peak than a trough, which limits how much room is left. Medium.",
+    "EV competition and margins. The EV lead is real but early, and rivals plus price competition could squeeze the economics before EVs become reliably profitable. Medium.",
+    "Margin-mix. Much of the profit gain came from premium SUVs. A shift back to cheaper models, or heavy discounting, would quietly compress the blend. Medium.",
+    "Low promoter holding means less family skin in the game than a typical promoter-run company, so governance rests on the professional board. Low."
+  ],
+  "trapChecklist": [
+    {
+      "label": "Profit without cash",
+      "status": "warn",
+      "note": "Group OCF distorted by the finance arm; core is cash-generative"
+    },
+    {
+      "label": "Growth on a trough base",
+      "status": "warn",
+      "note": "51% 5Y profit CAGR is flattered by a soft FY22"
+    },
+    {
+      "label": "Promoter pledging",
+      "status": "pass",
+      "note": "No pledge"
+    },
+    {
+      "label": "Margin-mix trap",
+      "status": "warn",
+      "note": "Gains lean on premium SUV mix holding up"
+    },
+    {
+      "label": "Stretched multiple",
+      "status": "pass",
+      "note": "22x is fair for the quality and leadership"
+    },
+    {
+      "label": "Cyclical peak risk",
+      "status": "warn",
+      "note": "Buying nearer the top of the cycle than the bottom"
+    }
+  ],
+  "sectorChecklist": [
+    {
+      "label": "Volume growth",
+      "status": "pass",
+      "note": "SUVs +20%, tractors past 5 lakh units"
+    },
+    {
+      "label": "Rising price per vehicle",
+      "status": "pass",
+      "note": "Premium SUV and EV mix lifting ASP"
+    },
+    {
+      "label": "Market share",
+      "status": "pass",
+      "note": "#1 in SUVs (by revenue), LCVs, tractors, e-3W"
+    },
+    {
+      "label": "EV readiness",
+      "status": "pass",
+      "note": "Real EV sales, 80% new-to-brand buyers"
+    }
+  ],
+  "summary": "Mahindra is one of the highest-quality industrial franchises in India, and unusually it is firing on both its engines at once: leader in SUVs, leader in tractors, with a working EV business layered on top and pricing power visible in its waiting periods. The multiple, around 22 times, is fair rather than cheap, which is refreshing for a business this good. The honest caution is the cycle: after a huge run, you are buying closer to the top than the bottom, and both of its markets are cyclical. This suits patient accumulation on dips more than chasing at highs. Not a buy or sell call. Do your own work and speak to a SEBI-registered adviser.",
+  "engine": {
+    "state": "aligned-compounder",
+    "earnings": "The earnings engine is running hard and broadly, with profit compounding in the twenties on the back of volume, a richer mix and market-share gains. Forward catalysts are concrete: a full EV range now on sale, a strong SUV order book, and tractor leadership riding a healthy farm cycle. The one caveat is that autos and tractors are cyclical, so this pace assumes the good times hold.",
+    "multiple": "At roughly 22 times earnings and 4.5 times book, the multiple is fair for a business of this quality, neither a bargain nor a bubble. It has expanded over the years as Mahindra proved its focus, so a lot of the re-rating is already done. From here the multiple is unlikely to do much of the heavy lifting.",
+    "verdict": "Both engines point the same way, with earnings doing the work and the multiple sensibly full but not stretched. That makes returns from here largely a function of the business continuing to execute through its cycle, rather than further re-rating. Odds: broadly favourable on quality, tempered by a mature cycle. Accumulate on weakness rather than chase, and respect that both markets can turn."
+  },
+  "lenses": [
+    {
+      "name": "Quiet math",
+      "reading": "The business is still delivering, not just the price: rising money per vehicle, share gains, real EV traction. This is a case where you add on delivery, but only when the cyclical price gives you a better entry."
+    },
+    {
+      "name": "Two engines, literally",
+      "reading": "SUVs and tractors are two genuinely different engines with different cycles. It is rare to have both leading at once, which is the bull case, but it also means two cyclical exposures rather than one."
+    },
+    {
+      "name": "Operator vs storyteller",
+      "reading": "Management fixed the sprawl and let the products and numbers speak. Waiting periods and market-share gains are hard evidence, not slideware."
+    },
+    {
+      "name": "Foreshock",
+      "reading": "No fundamental slowdown yet, FY26 was a record. The only tremor is a mature cycle and a stock that has already run, which argues for patience on entry, not alarm."
+    }
+  ],
+  "sectorId": "auto"
+}

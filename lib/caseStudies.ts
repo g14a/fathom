@@ -1,0 +1,152 @@
+export interface CaseSection {
+  heading: string;
+  body: string[];
+}
+
+export interface CaseStudy {
+  id: string;          // URL slug
+  ticker: string;      // display ticker of the company
+  stockSlug: string;   // route slug of the stock report (for cross-linking)
+  company: string;
+  title: string;
+  period: string;      // e.g. "2018 → 2020"
+  tags: string[];
+  summary: string;     // one-line hook for the index card
+  keyNumbers: { label: string; value: string }[];
+  intro: string[];     // opening paragraphs
+  sections: CaseSection[];
+  evidence?: {
+    caption: string;
+    rows: { label: string; value: string; source?: string }[];
+    note?: string;
+  };
+  exhibits?: { src: string; caption: string; source: string }[];
+  sources?: { label: string; url: string }[];
+  timeline: { when: string; what: string }[];
+  lesson: string;
+}
+
+export const CASE_STUDIES: CaseStudy[] = [
+  {
+    id: 'mahindra-the-65pc-fall-2018-2020',
+    ticker: 'M&M',
+    stockSlug: 'MM',
+    company: 'Mahindra & Mahindra',
+    title: 'How Mahindra lost two-thirds of its value, and then fixed itself',
+    period: '2018 → 2020',
+    tags: ['Capital allocation', 'Auto downcycle', 'SsangYong', 'Turnaround'],
+    summary: 'A collapse that looked like an auto-cycle story but was really a capital-allocation story. Understand the fall in detail and you understand exactly why today\'s Mahindra is a different company.',
+    keyNumbers: [
+      { label: 'Peak-to-trough fall', value: '~68%' },
+      { label: 'SUV market share', value: '23.8% → 18.7%' },
+      { label: 'FY20 overseas-arm losses', value: '₹5,200cr+' },
+      { label: 'Businesses exited', value: '~15' },
+      { label: 'First quarterly loss in', value: '19 years' },
+    ],
+    intro: [
+      "In April 2018, Mahindra & Mahindra was on top of the world. It had just joined the elite club of Indian companies worth more than ₹1 lakh crore, its stock was at an all-time high, and it was the undisputed king of the Indian SUV. Two years later it was a nine-year low, having shed close to two-thirds of its value, and it had just posted its first quarterly loss in nearly two decades.",
+      "It is tempting to file this under \"the auto slowdown\" and move on. That would be a mistake, and an expensive one, because it misreads what actually happened. The industry downturn was real and it hurt everyone, but Mahindra fell much harder than its peers for reasons that were entirely its own doing. Understanding those reasons is the single best way to understand why the Mahindra of today, the one that has since compounded many times over, is a genuinely different animal.",
+    ],
+    sections: [
+      {
+        heading: 'The backdrop: an industry in a ditch',
+        body: [
+          "Start with the part that was not Mahindra's fault. From 2018 the Indian auto industry fell off a cliff. The trigger was financial: in late 2018 the giant infrastructure lender IL&FS collapsed, and because a huge share of Indian cars and tractors are bought on loans, that blew a hole in the entire vehicle-finance system. Lending dried up almost overnight, and buyers who would have driven off the lot simply could not get the credit to do so.",
+          "On top of that came the costly transition to stricter BS6 emission norms, which pushed up vehicle prices, and then, just as things might have stabilised, the COVID shock of early 2020 shut showrooms entirely. Passenger vehicle sales fell for months on end. Every carmaker in India was bleeding. So part of Mahindra's fall was simply the tide going out on the whole sector, and no single company could have escaped that.",
+        ],
+      },
+      {
+        heading: 'Losing the SUV war it used to own',
+        body: [
+          "Here is where it starts to become Mahindra's own story. For years, if you said \"Indian SUV\", you basically meant Mahindra. The rugged Scorpio and the workhorse Bolero were everywhere, on highways and in small towns, and together with the XUV500 they were the company's identity and its profit engine. And in exactly these years, it began losing that war badly.",
+          "A wave of modern, feature-packed rivals arrived and took the market by storm. Hyundai's Creta and Venue, the MG Hector with its big touchscreen and \"internet car\" pitch, and above all the Kia Seltos with aggressive pricing, all landed between 2018 and 2019 and redefined what buyers expected an SUV to feel like. Mahindra's ageing models suddenly looked plain. Its UV market share slid from 23.8% in FY19 to 18.7% in FY20, and its flagship XUV500 lost roughly half of its share in a single year.",
+          "The galling part is that Mahindra was not sitting still. It launched the Marazzo, the XUV300 and the Alturas in this very window. But none of them stemmed the bleeding, and some flopped outright. The company was spending money and design effort and still losing ground, which is the clearest possible sign that something deeper was wrong with how it was being run.",
+        ],
+      },
+      {
+        heading: 'The real wound: where the cash was going',
+        body: [
+          "Now the heart of it. The thing that turned an industry downturn into a two-thirds collapse was capital allocation, which is just a formal way of saying: where did management choose to spend the shareholders' money? And the answer, for years, was a sprawl of ventures far from the core that quietly set fire to cash.",
+          "The most damaging by far was SsangYong, a South Korean carmaker Mahindra had bought out of bankruptcy in 2011, paying roughly ₹2,100 crore for a controlling stake. The logic sounded good on paper: a ready-made global carmaker with its own factories, engineers and export network, a shortcut to becoming a serious international player. For a while it even looked like it might work. Around 2016, on the back of a well-received compact SUV called the Tivoli, SsangYong came close to breaking even. That was as good as it got.",
+          "After that it unravelled, and for reasons SsangYong could do little about. Its home market in Korea shifted steadily away from the diesel engines SsangYong was built around, toward petrol. Key export markets such as Iran, Chile, Egypt and parts of Western Europe dried up as geopolitics and a global slowdown bit. And crucially it was too small to afford the huge cost of designing new models and making the leap to electric, so its cars aged while rivals moved on. The losses widened relentlessly, from around 66 billion won in 2017 to 62 billion in 2018 and then a staggering 341 billion won in 2019, roughly a fivefold jump in a single year. Year after year, Mahindra kept injecting fresh capital just to keep it breathing, money that earned nothing and was unlikely ever to come back. By the time the board finally refused to put in more in April 2020, over ₹5,200 crore of losses from Mahindra's overseas arms in FY20 told the story. SsangYong later filed for court receivership and was eventually sold to Korea's KG Group.",
+          "But SsangYong was only the headline. There was also GenZe, an electric-scooter venture in the United States. There was Peugeot Motocycles in France. There was an aerospace business, a dairy business, a stake in the Italian design house Pininfarina, and more. Grand-sounding, globe-spanning, and collectively a steady drain on the cash the good Indian businesses were generating.",
+          "The numbers make it stark. In FY20 the losses from Mahindra's international subsidiaries alone came to more than ₹5,200 crore, enough to wipe out most of the profit the good Indian businesses were working so hard to earn. The market had watched this pattern for years, and it drew the obvious conclusion: this was a management that could not be trusted to invest its cash wisely. And a company that is seen to destroy capital does not just earn less profit, it earns a steadily lower valuation multiple on that profit. That double blow, falling profits and a falling multiple, is why Mahindra dropped far more than the auto slowdown alone can explain.",
+        ],
+      },
+      {
+        heading: 'The capitulation',
+        body: [
+          "It all came to a head in the March 2020 quarter. Mahindra reported a standalone net loss of ₹2,502 crore for those three months, its first quarterly loss in nearly nineteen years. And the audited accounts named the culprit in black and white. Buried in Note 4 of the results was a ₹2,780 crore \"exceptional item\", an impairment provision on the company's long-term investments in its subsidiaries. That is the accountant's polite way of admitting that the foreign bets, SsangYong chief among them, were worth far less than Mahindra had paid for them. The very same filing pointed to COVID-19 as the trigger for the write-down. The evidence section below shows these pages directly.",
+          "The market had already been voting with its feet. The stock, which had been sliding for two years, fell to around ₹248 by late March 2020, a nine-year low, having dropped by roughly half in that single brutal month. For a company that had been in the ₹1 lakh crore club at its peak, this was total capitulation.",
+          "Investors who had held on through the whole two-year descent finally gave up. And, as so often happens in markets, that moment of maximum despair turned out to be almost exactly the turning point.",
+        ],
+      },
+      {
+        heading: 'The turn: one hard rule',
+        body: [
+          "What changed was not the industry, which was still on its knees. What changed was discipline. Faced with the SsangYong disaster, the board refused to put in another rupee, and a new leadership under Anish Shah, then group CFO and soon to be CEO, imposed a single, brutally simple rule on the entire sprawling group: every business had to earn an 18% return on equity, or have a clear, quantifiable strategic reason to exist. Anything that could not clear that bar would be fixed, sold or shut.",
+          "Businesses were sorted into buckets: the ones clearing the hurdle would run as normal, the fixable ones would be turned around on a deadline, and the hopeless ones, the Category C cases, would be exited. And then, remarkably for a company famous for hanging on to its pet projects, management actually did it. Mahindra went on to exit around fifteen underperforming businesses. GenZe was shut. Peugeot Motocycles was sold. SsangYong was let go and eventually picked up by Korea's KG Group in 2023. The cash and the attention were redirected to the three things Mahindra was genuinely great at: SUVs, tractors and electric vehicles.",
+        ],
+      },
+      {
+        heading: 'What happened next',
+        body: [
+          "The results were dramatic, and they came from focus rather than from any change in the market. Freed from the drain of the loss-makers, Mahindra threw itself back into its core, and the products finally landed. The reborn Thar became a cultural phenomenon. The XUV700, the Scorpio-N and then a credible electric range followed, and each one had waiting lists. Mahindra clawed back its SUV crown, and by FY26 it led the market it had been losing just a few years earlier.",
+          "The financials followed the focus. The promised 18% return on equity was hit within about a year and a half, far faster than anyone expected. And the stock, left for dead near ₹248 in March 2020, went on to compound at roughly 35% a year and multiply many times over from those lows. The whole spectacular recovery grew out of one unglamorous decision: to stop wasting money and spend it only where it earned a proper return.",
+        ],
+      },
+    ],
+    evidence: {
+      caption: 'Straight from Mahindra\'s audited FY2020 results',
+      rows: [
+        { label: 'Standalone net loss, Q4 FY20 (Jan-Mar 2020)', value: '₹2,502.42 cr', source: 'Standalone results, line 7' },
+        { label: 'Impairment on investments in subsidiaries (Q4)', value: '₹2,780.47 cr', source: 'Note 4 (standalone)' },
+        { label: 'Consolidated impairment charge (Q4)', value: '₹1,782.65 cr', source: 'Note 4 (consolidated)' },
+        { label: 'Consolidated profit to owners: FY19 → FY20', value: '₹5,315.46 cr → ₹127.04 cr', source: 'Consolidated results, line 12(a)' },
+        { label: 'Standalone diluted EPS, Q4 FY20', value: '₹(20.98)', source: 'Standalone results, line 10' },
+        { label: 'Cause cited by the company', value: 'COVID-19', source: 'Note 4' },
+        { label: 'Auditor opinion (BSR & Co LLP)', value: 'Clean, "true and fair"', source: 'Independent Auditors\' Report' },
+        { label: 'Signed by', value: 'Anand G. Mahindra, 12 Jun 2020', source: 'Statement of results' },
+      ],
+      note: 'Every figure above is taken directly from Mahindra & Mahindra\'s audited financial results for the year ended 31 March 2020, filed with the stock exchanges and signed by the Executive Chairman and the auditors. The two page images below are the actual pages, and the market-share and share-price figures in the story are separately sourced in the list beneath them.',
+    },
+    exhibits: [
+      {
+        src: '/case-studies/mm-fy20-standalone-results.png',
+        caption: 'The audited standalone results. Line 7 shows the ₹2,502.42 crore quarterly loss (the bracketed figure) for the quarter ended 31 March 2020, and line 10 the negative EPS.',
+        source: 'M&M Audited Financial Results, year ended 31 March 2020',
+      },
+      {
+        src: '/case-studies/mm-fy20-notes.png',
+        caption: 'Note 4, in the company\'s own words: a ₹2,780.47 crore "exceptional item" for impairment provision on long-term investments in subsidiaries, and COVID-19 named as the trigger. This is the SsangYong write-down, in the audited accounts.',
+        source: 'M&M Audited Financial Results, year ended 31 March 2020, Note 4',
+      },
+    ],
+    sources: [
+      { label: 'M&M Audited Financial Results FY2020 (investor relations)', url: 'https://www.mahindra.com/investor-relations' },
+      { label: 'SsangYong Motor files for bankruptcy (BusinessToday)', url: 'https://www.businesstoday.in/auto/story/mahindras-south-korean-arm-ssangyong-motor-co-symc-files-for-bankruptcy-282120-2020-12-21' },
+      { label: 'How Anish Shah steered Mahindra: capital allocation to bold bets (BusinessToday)', url: 'https://www.businesstoday.in/latest/corporate/story/from-capital-allocation-discipline-to-bold-bets-how-anish-shah-steered-mahindra-group-over-last-5-years-523945-2026-04-03' },
+      { label: 'Kia, Hyundai, Tata gain UV market share in FY21 (Autocar India)', url: 'https://www.autocarindia.com/car-news/kia-hyundai-tata-gain-utility-vehicle-market-share-in-fy2021-420499' },
+      { label: 'M&M reports first quarterly loss in 19 years (Business Standard)', url: 'https://www.business-standard.com/article/companies/mahindra-reports-first-quarterly-loss-in-19-years-net-sales-fall-26-yoy-120061201627_1.html' },
+    ],
+    timeline: [
+      { when: 'Apr 2018', what: 'Joins the ₹1 lakh crore club at an all-time high. Peak confidence.' },
+      { when: 'Late 2018', what: 'IL&FS collapse freezes vehicle finance; auto demand slumps.' },
+      { when: 'FY19 → FY20', what: 'SUV market share slides from 23.8% to 18.7% as Kia, MG and Hyundai attack.' },
+      { when: '2019', what: 'SsangYong losses balloon; overseas subsidiaries bleed cash.' },
+      { when: 'Mar 2020', what: 'Stock hits a nine-year low near ₹248, down ~51% in a month. COVID shuts showrooms.' },
+      { when: 'Q4 FY20', what: 'First quarterly loss in ~19 years. Board refuses to fund SsangYong.' },
+      { when: '2020-21', what: 'The 18% ROE rule imposed; ~15 businesses exited (GenZe, Peugeot, later SsangYong).' },
+      { when: 'FY21 onward', what: 'Thar, XUV700, Scorpio-N and EVs land; SUV leadership regained; stock multiplies many times over.' },
+    ],
+    lesson: "The fall was not really an auto-cycle story, it was a capital-allocation story. Mahindra collapsed because it was spending its cash badly across a sprawl of loss-makers, and it recovered because it stopped and focused the money on what earned a real return. This is why capital allocation, how management chooses to spend the shareholders' money, is one of the most important things to judge in any company. It rarely shows up in a single quarter's numbers, but over years it is the difference between compounding and destruction. When you look at Mahindra today, watch that discipline above all else, because you have now seen, in detail, exactly what it cost when the discipline was missing.",
+  },
+];
+
+export function getCaseStudy(id: string): CaseStudy | undefined {
+  return CASE_STUDIES.find((c) => c.id === id);
+}
+
+export function getCaseStudiesForTicker(ticker: string): CaseStudy[] {
+  return CASE_STUDIES.filter((c) => c.ticker === ticker);
+}

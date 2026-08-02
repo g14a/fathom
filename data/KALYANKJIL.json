@@ -1,0 +1,326 @@
+{
+  "ticker": "KALYANKJIL",
+  "company": "Kalyan Jewellers India Ltd",
+  "sector": "Consumer Discretionary",
+  "industry": "Gems & Jewellery Retail",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-08-02",
+  "verdict": "hold",
+  "oneLiner": "A real compounder in a business that outlives every business cycle. The only open question is price, and at 46x with a quarter of the promoter stake pledged, price is not on your side yet.",
+  "overview": "Kalyan is the second-largest organised jeweller in India, behind Titan. It sells gold. That sounds boring until you notice what gold is in India: not a discretionary purchase but a social obligation. A father does not gift a Gold ETF at his daughter's wedding. That single fact is the whole investment case, because it means demand does not switch off in a downturn the way a phone or a car does. What Kalyan is doing on top of that durable demand is taking share from the neighbourhood jeweller, and since FY24 it has found a way to do it without spending its own money: the FOCO model, where the franchisee funds the store and the inventory while Kalyan runs it and keeps the brand. FOCO is now roughly 40% of revenue and it is why ROE sits at 25% on a business with 4% net margins.",
+  "ipoFlag": "Listed March 2021. No repackaging games. Kalyan is a decades-old name, not a shell that bolted 'AI' or 'Defence' onto its title before an IPO.",
+  "business": {
+    "unitOfRevenue": "A gram of gold, plus the making charge on top of it. The gold itself is a pass-through at the day's price, so Kalyan earns on making charges and on the mix of higher-value studded pieces. That is why the margin looks thin: most of the invoice is metal Kalyan does not mark up.",
+    "revenueModel": "Company-owned retail plus FOCO franchise. Under FOCO the partner puts up the capital and most of the inventory, Kalyan operates the store and shares the profit. It converts a capital-heavy business into an almost capital-light one.",
+    "segments": [
+      {
+        "name": "Gold jewellery",
+        "pct": 80,
+        "marginProfile": "Thin. Metal is a pass-through."
+      },
+      {
+        "name": "Studded / diamond",
+        "pct": 20,
+        "marginProfile": "The margin engine. Every point of studded mix lifts the blend."
+      }
+    ],
+    "revenuePerUnitTrend": "Blended operating margin has sat at 6-7% for years and has not budged even as revenue tripled. Two reasons: FOCO means sharing profit with the franchisee, and the July 2024 customs-duty cut knocked off roughly 50bps. The only genuine ways up are a richer studded mix and FOCO stores maturing. Do not underwrite margin expansion here. Underwrite volume.",
+    "industry": {
+      "structure": "Fragmented and formalising. The organised players together are only about a third of the market. The rest is the local jeweller.",
+      "competitors": "Titan/Tanishq owns the premium high ground (~45% of organised, trades near 70x). Kalyan is the fastest-growing national chain. Senco leads the East. Malabar and Joyalukkas are large but regional in ambition.",
+      "pricingPower": "Weak on gold, which is set by the market, not Kalyan. The pricing power that exists lives in the brand and the making charge, not the metal.",
+      "demandDriver": "Weddings and festivals, layered on the slow migration of buyers from the unbranded jeweller to a trusted brand. South India alone is ~20% of the population but close to 40% of gold demand, and that is Kalyan's home turf.",
+      "driverType": "Structural formalisation riding on top of cyclical gold and wedding demand. The formalisation part is the durable half.",
+      "tam": "~$94bn jewellery market (2025). Organised share is moving from roughly 30% toward 40% by 2028, and globally branded is 60-70%, so the runway is measured in decades, not quarters.",
+      "penetration": "Growth is share-gain plus formalisation, not a fight over a fixed pie. India converts 2-3% of the market from unbranded to branded every year, and the branded players eat almost all of it.",
+      "valueChainPosition": "Downstream retailer. The margin sits in trust and making charges, not in the gold, which is why brand is the entire moat."
+    },
+    "qualityVerdict": "This is a fair-margin business attached to a demand curve that barely moves. Apply the Lindy test: a habit that has survived centuries does not break in a decade, and gifting gold at weddings and festivals is exactly that kind of habit. The formalisation tailwind then hands the branded players a multi-year share transfer that is already visible in the numbers, not a hope. The catch is honest and structural: gold confers no pricing power, so Kalyan is a volume-and-trust machine, not a margin machine, and the margin-mix works against it as thin gold and profit-shared FOCO stores scale faster than the studded book. Own it for the runway, not the margin."
+  },
+  "valuation": [
+    {
+      "label": "Price",
+      "value": "₹613"
+    },
+    {
+      "label": "Market Cap",
+      "value": "₹63,266 cr"
+    },
+    {
+      "label": "52W High / Low",
+      "value": "₹649 / ₹327"
+    },
+    {
+      "label": "Stock P/E",
+      "value": "45.9",
+      "hint": "check: 613 / 13.08 = 46.9",
+      "tone": "bad"
+    },
+    {
+      "label": "P/B",
+      "value": "10.0",
+      "tone": "bad"
+    },
+    {
+      "label": "EPS (TTM)",
+      "value": "₹13.08"
+    },
+    {
+      "label": "Div Yield",
+      "value": "0.24%"
+    },
+    {
+      "label": "Book Value",
+      "value": "₹61.1"
+    }
+  ],
+  "financials": [
+    {
+      "year": "FY22",
+      "revenue": 10818,
+      "netProfit": 224,
+      "eps": 2.18,
+      "patMargin": 2.1
+    },
+    {
+      "year": "FY23",
+      "revenue": 14071,
+      "netProfit": 432,
+      "eps": 4.2,
+      "patMargin": 3.1
+    },
+    {
+      "year": "FY24",
+      "revenue": 18516,
+      "netProfit": 596,
+      "eps": 5.8,
+      "patMargin": 3.2
+    },
+    {
+      "year": "FY25",
+      "revenue": 25045,
+      "netProfit": 714,
+      "eps": 6.93,
+      "patMargin": 2.9
+    },
+    {
+      "year": "FY26",
+      "revenue": 35743,
+      "netProfit": 1350,
+      "eps": 13.08,
+      "patMargin": 3.8
+    }
+  ],
+  "ratios": [
+    {
+      "label": "ROE",
+      "value": "24.8%",
+      "tone": "good"
+    },
+    {
+      "label": "ROCE",
+      "value": "20.5%",
+      "tone": "good"
+    },
+    {
+      "label": "PAT Margin",
+      "value": "~3.8%",
+      "hint": "structurally thin (gold)",
+      "tone": "neutral"
+    },
+    {
+      "label": "OPM",
+      "value": "~7%",
+      "tone": "neutral"
+    },
+    {
+      "label": "P/B",
+      "value": "10.0",
+      "tone": "bad"
+    },
+    {
+      "label": "Debtor Days",
+      "value": "9",
+      "hint": "cash retail, no games",
+      "tone": "good"
+    }
+  ],
+  "cashFlow": [
+    {
+      "year": "FY24",
+      "ocf": 1318,
+      "capex": 137,
+      "fcf": 1061
+    },
+    {
+      "year": "FY25",
+      "ocf": 1209,
+      "capex": 177,
+      "fcf": 790
+    },
+    {
+      "year": "FY26",
+      "ocf": 1200,
+      "capex": 180,
+      "fcf": 939
+    }
+  ],
+  "cashFlowNote": "This is the part of the story that is not up for debate. Operating cash flow beats reported profit every single year, free cash flow is comfortably positive, and debtor days sit at nine. A jeweller collects at the counter, so there are no receivables to inflate and no percentage-of-completion tricks to worry about. When a fast-growing company also throws off cash, you can trust the growth. Kalyan does. (FY26 OCF and capex are approximate pending the full statement; the ₹939cr FCF is reported.)",
+  "growth": [
+    {
+      "label": "Sales CAGR 5Y",
+      "value": "33%",
+      "tone": "good"
+    },
+    {
+      "label": "Sales CAGR 3Y",
+      "value": "36%",
+      "tone": "good"
+    },
+    {
+      "label": "Profit CAGR 5Y",
+      "value": "195%",
+      "hint": "ignore this. FY22 was a trough base.",
+      "tone": "neutral"
+    },
+    {
+      "label": "Profit CAGR 3Y",
+      "value": "44%",
+      "tone": "good"
+    },
+    {
+      "label": "Stock CAGR 1Y",
+      "value": "5%",
+      "hint": "profit did +92% in the same window",
+      "tone": "bad"
+    }
+  ],
+  "management": "Founder-led by the Kalyanaraman family, who hold 62.86%. Judge them by what they actually did, not what they said: inventory days cut from 221 to 156, net working capital down from 41% of income to 21%, and a full pivot to a model that grows the store count on someone else's balance sheet. That is an operator's scorecard, not a storyteller's. The blemish is real and it is why the market is nervous. Nearly a quarter of the promoter stake, 24.89%, is pledged to lenders and the number has been rising (up from 19.32%). Pledged promoter shares are borrowed conviction, and if the stock keeps falling, a margin call becomes someone else's decision, not the family's.",
+  "holding": [
+    {
+      "label": "Promoter",
+      "pct": 62.86,
+      "qoqChange": 0
+    },
+    {
+      "label": "DII",
+      "pct": 15.83,
+      "qoqChange": 0.8
+    },
+    {
+      "label": "FII",
+      "pct": 10.82,
+      "qoqChange": -0.9
+    },
+    {
+      "label": "Retail",
+      "pct": 10.49,
+      "qoqChange": 0.1
+    }
+  ],
+  "pledged": 24.89,
+  "moat": {
+    "strength": "narrow",
+    "sources": [
+      "Brand and purity trust",
+      "BIS hallmarking transparency",
+      "Hyperlocal regional branding",
+      "Tier-2/3 density through FOCO"
+    ],
+    "note": "In a market where the buyer's real fear is being cheated on purity, a trusted name is the product. That is a genuine moat, and Kalyan's regional branding plus its Tier-2/3 land grab widen it. But be honest about the ceiling. Titan sits above Kalyan on trust and always will for a certain buyer, and the moat protects against the local jeweller, not against a stronger national brand. Narrow, real, and worth defending. Not wide."
+  },
+  "narrative": "Kalyan listed in 2021 into an unforgiving tape, spent two years fixing its balance sheet, then hit a different gear when FOCO clicked in FY24. Revenue went from ₹10,818cr to ₹35,743cr in four years and profit from ₹224cr to ₹1,350cr. And the stock fell about 30% over the last twelve months anyway. Nothing broke in the business. Foreign investors cut their stake from roughly 16% to 10.8%, the January 2026 correction punished every expensive name, and the rising promoter pledge gave everyone a reason to sell. So the earnings doubled and the price went down. That is not a broken company. That is a multiple deflating on a business that kept delivering.",
+  "priceAction": "Roughly ₹880 to ₹613 over twelve months, about a 30% fall, well below the ₹649 high but a long way above the ₹327 low. The cause is narrative, not fundamentals. FY26 delivered record revenue (+43%) and near-doubled profit, so nothing in the business justifies the drop. What moved was perception: foreign selling, a broad de-rating of high-PE stocks, and pledge fear. When a stock falls on optics while the business improves, the two eventually reconverge. The question is only how long you wait and whether the pledge forces a worse print first.",
+  "risks": [
+    "The pledge. 24.89% of the promoter holding is pledged and rising. If the stock falls far enough, a lender, not the family, decides when shares get sold. This is the one risk that can turn a business story into a stock accident. Medium-High.",
+    "Thin margins meet exogenous gold. At 4% net margin, a duty change, a gold shock, or a little more franchise profit-sharing all land straight on the bottom line. Medium.",
+    "You are still paying 46x and 10x book after a 30% fall. Cheap this is not, so a further de-rating can happen even if earnings hold. Medium-High.",
+    "FOCO at speed. Handing stores to franchisees fast is efficient until it dilutes inventory control or brand consistency. Watch same-store metrics for cracks. Medium.",
+    "Foreign selling can cap the stock regardless of results, as it already has. Medium."
+  ],
+  "trapChecklist": [
+    {
+      "label": "Profit up, cash flow not",
+      "status": "pass",
+      "note": "OCF beats PAT every year"
+    },
+    {
+      "label": "Receivables blowing up",
+      "status": "pass",
+      "note": "Debtor days of 9. It is a cash counter."
+    },
+    {
+      "label": "Project / POC accounting",
+      "status": "na",
+      "note": "Retail. Does not apply."
+    },
+    {
+      "label": "Promoter pledging",
+      "status": "fail",
+      "note": "24.89% and climbing"
+    },
+    {
+      "label": "Growth on a trough base",
+      "status": "warn",
+      "note": "The 195% profit CAGR is a FY22-trough artifact. Use 33% sales."
+    },
+    {
+      "label": "Margin-mix trap",
+      "status": "warn",
+      "note": "Thin gold plus franchise share keeps the blend pinned"
+    },
+    {
+      "label": "Stretched multiple",
+      "status": "warn",
+      "note": "46x earnings, 10x book"
+    }
+  ],
+  "sectorChecklist": [
+    {
+      "label": "Formalisation tailwind",
+      "status": "pass",
+      "note": "Organised share 30% heading to ~40% by 2028"
+    },
+    {
+      "label": "Store runway",
+      "status": "pass",
+      "note": "342 stores, ~150 FOCO adds a year on franchisee capital"
+    },
+    {
+      "label": "Pricing power",
+      "status": "fail",
+      "note": "Gold is set by the market. Kalyan does not price it."
+    },
+    {
+      "label": "Gold / duty sensitivity",
+      "status": "warn",
+      "note": "The 2024 duty cut alone took ~50bps of margin"
+    }
+  ],
+  "summary": "The business deserves a place on your watchlist. It sells something Indians will not stop buying, it is taking share from the unbranded market on a decades-long runway, and it now grows without eating its own capital. The cash flow proves the profit is real. What holds this at Hold rather than higher is entirely on the price and structure side. You are paying 46x for a 4%-margin business whose promoters have pledged a quarter of their stake, and the recent fall was a de-rating, not a discount, so the multiple can compress further before it gets genuinely cheap. The right posture is patience: let the pledge resolve or the multiple come in, then stage an entry into a business you already know you want to own. Not a buy or sell call. Do your own work and talk to a SEBI-registered adviser.",
+  "engine": {
+    "state": "multiple-drift",
+    "earnings": "The earnings engine is running hot and, more importantly, it is cash-backed. TTM profit growth near 92%, a 3Y CAGR of 44%, and OCF that beats profit. The forward catalyst is concrete rather than hand-wavy: roughly 150 new FOCO showrooms a year, funded by franchisees, so revenue compounds without Kalyan's capital. This is the strongest leg of the case.",
+    "multiple": "The multiple engine already fired, against the stock. The PE compressed from its listing-era highs to 46x while profit doubled, so price CAGR of +5% sat under profit growth of +92% over the last year. That wrings out froth. It does not make the stock cheap. 46x earnings and 10x book is still a premium, not a bargain.",
+    "verdict": "One engine pushing hard, the other already deflated the price. That is a coiled-spring setup in spirit, but only half of one, because the multiple is not below its own history yet. From here the return leans almost entirely on earnings out-compounding any further de-rating. Odds: Neutral. The business earns a yes; the price earns a wait. Size small, stage in, and respect the pledge."
+  },
+  "lenses": [
+    {
+      "name": "The 10x gap on a 2x business",
+      "reading": "Titan is worth ₹3.72tn on ₹5,073cr of profit; Kalyan is worth ₹63,266cr on ₹1,350cr. That is a 5.9x cap gap on a 3.8x profit gap, and at Kalyan's panic lows the ticker gap stretched past 10x. Some discount is fair for Titan's brand. Ten times is the market pricing a quality difference that the business gap does not support."
+    },
+    {
+      "name": "Lindy",
+      "reading": "Gifting gold at weddings and festivals is a habit measured in centuries. Things that old do not break in a decade. That is the floor under the demand curve, and it is why this is a share-gain story, not a survival one."
+    },
+    {
+      "name": "Foreshock",
+      "reading": "There is no first slowdown quarter to point at. FY26 was a record on every line. The weakness lives entirely in the multiple, not the business, which is the opposite of a fundamental crack."
+    },
+    {
+      "name": "Forge vs pyre",
+      "reading": "Down 30% with the business getting stronger is a forge, not a falling knife. The one thing that could turn it into a pyre is the pledge forcing a sale. So stage entries and keep a reserve tranche rather than backing up the truck."
+    }
+  ],
+  "sectorId": "retail"
+}

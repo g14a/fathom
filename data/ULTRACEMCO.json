@@ -1,0 +1,316 @@
+{
+  "ticker": "ULTRACEMCO",
+  "company": "UltraTech Cement Ltd",
+  "sector": "Materials",
+  "industry": "Cement",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-08-02",
+  "verdict": "hold",
+  "oneLiner": "The undisputed king of Indian cement, buying up rivals and gushing cash, but you are being asked to pay 41 times earnings for a commodity business earning just 11% on its equity, and the two do not sit comfortably together.",
+  "overview": "UltraTech is the largest cement company in India by a distance, part of the Aditya Birla group, and it has spent the last two years swallowing rivals (India Cements, Kesoram) to push its capacity past 200 million tonnes on the way to 235. It is a superbly run consolidator in an industry that is finally consolidating. It also throws off enormous cash. The problem is not the business, which is excellent. The problem is the price: profit has barely grown in four years, the return on equity is a modest 11%, and yet the stock trades at over 40 times earnings, a multiple that assumes a big earnings recovery is coming.",
+  "ipoFlag": "Long-listed Aditya Birla group flagship. No repackaging.",
+  "business": {
+    "unitOfRevenue": "A tonne of cement sold, and the profit kept on each tonne after fuel and freight. That single figure, profit per tonne, is the whole game.",
+    "revenueModel": "Making and selling cement from a national network of plants, close to where it is used because cement is too heavy to ship far.",
+    "segments": [
+      {
+        "name": "Grey cement",
+        "pct": 85,
+        "marginProfile": "The core, driven by price per tonne and fuel cost"
+      },
+      {
+        "name": "White cement, putty, RMC, other",
+        "pct": 15,
+        "marginProfile": "Higher-value, brand-led, steadier"
+      }
+    ],
+    "revenuePerUnitTrend": "Recovering but modest. Profit per tonne climbed back to around ₹1,051 (excluding the newly acquired India Cements, which is still a drag at far lower per-tonne profit). Pricing power exists only when the market is tight, because cement is a near-commodity.",
+    "industry": {
+      "structure": "Consolidating oligopoly. A few large players now dominate, and UltraTech is by far the biggest, which improves pricing discipline over time.",
+      "competitors": "Adani group (Ambuja, ACC), Shree Cement, Dalmia Bharat. UltraTech is the clear leader; Adani is the aggressive challenger.",
+      "pricingPower": "Structurally weak, cyclically real. Cement price is set by regional supply and demand, not by any single company, but a consolidated market lets the leaders hold prices better than a fragmented one.",
+      "demandDriver": "Construction: housing, infrastructure, roads. Rides the government capex cycle and the property cycle together.",
+      "driverType": "Cyclical, tied to construction activity and the broader economy.",
+      "tam": "A huge, steadily growing market as India builds out housing and infrastructure, though growth is measured in single-to-low-double digits, not explosive.",
+      "penetration": "India's per-capita cement use is low versus developed economies, so there is a long runway of demand, but supply tends to expand to meet it, capping pricing.",
+      "valueChainPosition": "Manufacturer selling a near-commodity, so the edge comes from scale, cost control and being physically close to demand, not from the product itself."
+    },
+    "qualityVerdict": "As a business, UltraTech is best-in-class: the biggest, lowest-cost, best-distributed cement maker in a market that is finally consolidating in its favour, and it converts profit into cash beautifully. But it is still a commodity business earning an 11% return on equity, and the acquisitions have added capacity that will take time to earn its keep. It is a wonderful operator in a hard industry, and the industry, not the operator, sets the ceiling on returns."
+  },
+  "valuation": [
+    {
+      "label": "Price",
+      "value": "₹11,903"
+    },
+    {
+      "label": "Market Cap",
+      "value": "₹3,50,757 cr"
+    },
+    {
+      "label": "52W High / Low",
+      "value": "₹13,110 / ₹10,325"
+    },
+    {
+      "label": "Stock P/E",
+      "value": "40.7",
+      "hint": "mcap / profit ≈ 42.8",
+      "tone": "bad"
+    },
+    {
+      "label": "P/B",
+      "value": "4.58",
+      "tone": "bad"
+    },
+    {
+      "label": "EPS (TTM)",
+      "value": "₹277.10"
+    },
+    {
+      "label": "Div Yield",
+      "value": "2.02%"
+    },
+    {
+      "label": "Book Value",
+      "value": "₹2,600"
+    }
+  ],
+  "financials": [
+    {
+      "year": "FY22",
+      "revenue": 52599,
+      "netProfit": 7334,
+      "eps": 254.42,
+      "patMargin": 13.9
+    },
+    {
+      "year": "FY23",
+      "revenue": 63240,
+      "netProfit": 5073,
+      "eps": 175.41,
+      "patMargin": 8.0
+    },
+    {
+      "year": "FY24",
+      "revenue": 70908,
+      "netProfit": 7004,
+      "eps": 242.65,
+      "patMargin": 9.9
+    },
+    {
+      "year": "FY25",
+      "revenue": 75955,
+      "netProfit": 6040,
+      "eps": 204.94,
+      "patMargin": 8.0
+    },
+    {
+      "year": "FY26",
+      "revenue": 88512,
+      "netProfit": 8188,
+      "eps": 277.1,
+      "patMargin": 9.2
+    }
+  ],
+  "ratios": [
+    {
+      "label": "ROE",
+      "value": "11.1%",
+      "hint": "modest for a 41x stock",
+      "tone": "bad"
+    },
+    {
+      "label": "ROCE",
+      "value": "12.7%",
+      "tone": "neutral"
+    },
+    {
+      "label": "OPM",
+      "value": "~19%",
+      "tone": "neutral"
+    },
+    {
+      "label": "EBITDA / tonne",
+      "value": "~₹1,051",
+      "hint": "ex India Cements, recovering",
+      "tone": "neutral"
+    },
+    {
+      "label": "P/B",
+      "value": "4.58",
+      "tone": "bad"
+    },
+    {
+      "label": "Profit CAGR 5Y",
+      "value": "8%",
+      "hint": "profit essentially flat 4 years",
+      "tone": "bad"
+    }
+  ],
+  "cashFlow": [
+    {
+      "year": "FY24",
+      "ocf": 10898
+    },
+    {
+      "year": "FY25",
+      "ocf": 10673
+    },
+    {
+      "year": "FY26",
+      "ocf": 15316
+    }
+  ],
+  "cashFlowNote": "This is the strongest part of the story and it is not in doubt. UltraTech is a cash machine: operating cash flow of ₹15,316cr in FY26, comfortably ahead of reported profit, because cement sells for cash and the depreciation on its huge plant base is a non-cash charge. That cash is what funds both the acquisitions and the capacity expansion. Free cash flow is lower than operating cash flow right now because the company is in a heavy capex phase building out to 235 million tonnes, but that is deliberate investment, not a leak.",
+  "growth": [
+    {
+      "label": "Sales CAGR 5Y",
+      "value": "15%",
+      "tone": "good"
+    },
+    {
+      "label": "Sales CAGR 3Y",
+      "value": "12%",
+      "tone": "good"
+    },
+    {
+      "label": "Profit CAGR 5Y",
+      "value": "8%",
+      "hint": "profit flat while revenue grew",
+      "tone": "bad"
+    },
+    {
+      "label": "Stock CAGR 1Y",
+      "value": "-2%",
+      "hint": "flat, digesting the multiple",
+      "tone": "neutral"
+    },
+    {
+      "label": "Stock CAGR 5Y",
+      "value": "9%",
+      "tone": "neutral"
+    }
+  ],
+  "management": "Run by the Aditya Birla group, holding 59.33%, one of India's most respected industrial houses, with a long record of disciplined, large-scale execution. The consolidation strategy has been bold and well-timed: acquiring India Cements and Kesoram to lock in leadership before Adani could close the gap. Integration is running ahead of plan, with brand conversion and cost synergies progressing. This is a management you can trust to run the assets well. The open question is whether buying growth at scale will lift returns or just add low-earning capacity.",
+  "holding": [
+    {
+      "label": "Promoter",
+      "pct": 59.33,
+      "qoqChange": 0
+    },
+    {
+      "label": "DII",
+      "pct": 19.69,
+      "qoqChange": 0.5
+    },
+    {
+      "label": "FII",
+      "pct": 12.36,
+      "qoqChange": -0.4
+    },
+    {
+      "label": "Retail",
+      "pct": 8.42,
+      "qoqChange": -0.1
+    }
+  ],
+  "pledged": 0,
+  "moat": {
+    "strength": "narrow",
+    "sources": [
+      "Scale and lowest-cost production",
+      "National distribution and brand",
+      "Limestone reserves and captive power",
+      "Market leadership improving pricing discipline"
+    ],
+    "note": "The moat is narrow but real, and it is a cost-and-distribution moat rather than a product one. Because cement is a near-commodity, UltraTech cannot charge a premium for the product itself; its edge is being the biggest, lowest-cost and best-distributed, and increasingly the price-setter in a consolidating market. That is a genuine advantage, but it is the kind that delivers steady leadership and modest returns, not the kind that produces a high return on equity."
+  },
+  "narrative": "The last two years have been about one thing: consolidation. As the Adani group barged into cement by buying Ambuja and ACC, UltraTech responded by acquiring India Cements and Kesoram and racing its capacity past 200 million tonnes toward 235. Revenue climbed steadily, but profit tells a quieter story: it is barely higher than it was in FY22, squeezed by weak cement prices, high fuel costs and the drag of freshly acquired, lower-earning assets. The market has looked past all that and kept the stock above 40 times earnings, betting that as prices firm and the new capacity fills, profit will finally catch up with the size. That recovery is the entire bull case, and it has not shown up in the numbers yet.",
+  "priceAction": "Roughly flat over the last year, down about 2%, as the stock digests a rich multiple while profit stays subdued. This is neither a business break nor a de-rating, just a stock treading water at a high valuation waiting for earnings to grow into it. The cause is valuation, not fundamentals: the operations are fine, the price simply already assumes a recovery that has yet to arrive.",
+  "risks": [
+    "The valuation itself. At over 40 times earnings for an 11% return on equity and flat profit, the stock is priced for a strong earnings recovery. If that recovery is slow, the multiple can compress even with the business intact. Medium-High.",
+    "Cement prices. This is a cyclical commodity. Weak regional pricing, as seen recently, directly caps profit no matter how well the plants run. Medium.",
+    "Fuel and freight costs. Coal and petcoke are the biggest swing cost; a spike squeezes profit per tonne quickly. Medium.",
+    "Acquisition digestion. India Cements and Kesoram are lower-earning assets that must be turned around to justify the capital spent. Medium.",
+    "Oversupply. The whole industry, including Adani, is adding capacity, which can cap prices even as demand grows. Medium."
+  ],
+  "trapChecklist": [
+    {
+      "label": "Profit backed by cash",
+      "status": "pass",
+      "note": "OCF ₹15,316cr, a genuine cash machine"
+    },
+    {
+      "label": "Profit growth",
+      "status": "fail",
+      "note": "Profit essentially flat over four years"
+    },
+    {
+      "label": "Return on equity",
+      "status": "fail",
+      "note": "11% ROE is modest for a 41x multiple"
+    },
+    {
+      "label": "Promoter pledging",
+      "status": "pass",
+      "note": "No pledge"
+    },
+    {
+      "label": "Stretched multiple",
+      "status": "fail",
+      "note": "Over 40x earnings, 4.6x book"
+    },
+    {
+      "label": "Acquisition drag",
+      "status": "warn",
+      "note": "New assets still earning below the core"
+    }
+  ],
+  "sectorChecklist": [
+    {
+      "label": "Capacity utilisation / demand",
+      "status": "warn",
+      "note": "Adding capacity into a market still finding pricing"
+    },
+    {
+      "label": "EBITDA per tonne",
+      "status": "warn",
+      "note": "~₹1,051 recovering; India Cements dilutes it"
+    },
+    {
+      "label": "Fuel cost pressure",
+      "status": "warn",
+      "note": "Coal/petcoke is the key swing on margin"
+    },
+    {
+      "label": "Consolidation tailwind",
+      "status": "pass",
+      "note": "Leadership in a consolidating market aids pricing"
+    }
+  ],
+  "summary": "UltraTech is the best cement business in India, run by a management you can trust, consolidating the industry from a position of strength and generating a torrent of cash. None of that is in question. What is in question is the price. You are paying more than 40 times earnings and over four times book for a commodity business that earns 11% on its equity and whose profit has been flat for four years. The entire case for the stock rests on a big earnings recovery, from firmer cement prices and the new capacity filling up, that has not yet arrived. If it comes, the valuation makes sense in hindsight. If it is slow, the multiple has a long way to fall. This is a wonderful business at a demanding price, which is a reason to wait, not to chase. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+  "engine": {
+    "state": "multiple-ate-the-engine",
+    "earnings": "The earnings engine has been stalled. Despite revenue climbing steadily, profit in FY26 is barely above FY22, held down by weak cement prices, high fuel costs and the drag of newly acquired assets. There is a genuine recovery case, operating leverage as prices firm and the new 200-plus million tonnes of capacity fills, but it is a forecast, not a fact, and the numbers have not delivered it yet.",
+    "multiple": "This is where the discomfort lives. At over 40 times earnings and 4.6 times book, the market is paying a growth-stock multiple for a commodity business currently earning 11% on equity. The multiple is pricing in the earnings recovery in full and in advance. There is little margin of safety if that recovery disappoints.",
+    "verdict": "Flat earnings meeting a very high multiple is the classic setup where the price has run ahead of the business and is waiting for it to catch up. If cement prices firm and the acquisitions earn their keep, the earnings grow into the valuation and it works. If not, the multiple compresses. Odds: against at this price, not because the business is poor but because you are paying too much for a recovery that has to go right. Monitor, do not chase."
+  },
+  "lenses": [
+    {
+      "name": "The multiple ate the engine",
+      "reading": "Revenue grew for four years while profit stood still, yet the stock holds a 40-plus multiple. The market is paying up front for a recovery. That is the opposite of the coiled spring: the price is the optimism, the earnings still owe it."
+    },
+    {
+      "name": "ROE and the multiple",
+      "reading": "An 11% return on equity does not normally earn a 4.6x book value. That gap is the market betting returns will rise as the cycle and the acquisitions turn. If ROE stays at 11%, the multiple is very hard to justify."
+    },
+    {
+      "name": "Operator vs storyteller",
+      "reading": "Management is a pure operator: disciplined acquisitions, integration ahead of plan, cost synergies. The business quality is not the issue at all. The issue is entirely what you pay for it."
+    },
+    {
+      "name": "Forge vs pyre",
+      "reading": "This is not a drawdown story; the stock is flat near its highs, not beaten down. There is no bargain here to stage into, just a great business waiting for its earnings to justify a price that already assumes success."
+    }
+  ],
+  "sectorId": "cement"
+}
