@@ -1,0 +1,43 @@
+{
+  "name": "Airlines",
+  "icon": "✈️",
+  "tagline": "Load factor and CASK determine survival.",
+  "examples": [
+    "INDIGO",
+    "SPICEJET"
+  ],
+  "howItWorks": "An airline flies a fixed number of seats whether they sell or not, so an empty seat is revenue gone forever the moment the door closes. The business is a knife-edge between how full the planes are and the cost of flying each seat one kilometre. Fuel is a third to a half of costs and moves with crude, which the airline cannot control, so the only durable edge is a structurally lower cost per seat. That is the entire IndiGo story. Debt and unhedged fuel are what bankrupt the rest.",
+  "metrics": [
+    {
+      "metric": "Load Factor",
+      "why": "Seats filled over seats available. Above 85% is efficient; below 80% means yield dilution."
+    },
+    {
+      "metric": "RASK (Revenue/ASK)",
+      "why": "Revenue per available seat kilometre, the pricing-power metric."
+    },
+    {
+      "metric": "CASK (Cost/ASK)",
+      "why": "Cost per seat kilometre. Lower CASK is a structural cost advantage, IndiGo's moat."
+    },
+    {
+      "metric": "Fuel Cost %",
+      "why": "Typically 35-45% of revenue. When crude moves, margins move. Unhedged means high volatility."
+    },
+    {
+      "metric": "Fleet Utilisation",
+      "why": "Hours flown per aircraft per day. Higher means more revenue from the same fixed asset base."
+    },
+    {
+      "metric": "Yield",
+      "why": "Revenue per passenger kilometre, a pricing-power indicator. The RASK-yield gap shows ancillary revenue quality."
+    }
+  ],
+  "framework": {
+    "demand": "Load factor",
+    "pricing": "Yield / RASK",
+    "efficiency": "CASK",
+    "capital": "Fleet utilisation",
+    "risk": "Fuel cost / debt"
+  }
+}

@@ -1,4 +1,4 @@
-import { SECTORS } from '@/lib/sectors';
+import { getAllSectors } from '@/lib/sectors';
 import type { Metadata } from 'next';
 import { withBase } from '@/lib/base';
 
@@ -44,7 +44,7 @@ export default function SectorsIndex() {
 
       <div className="wrap">
         <div className="sector-grid">
-          {SECTORS.map((s) => (
+          {getAllSectors().map((s) => (
             <a key={s.id} href={withBase(`/sectors/${s.id}/`)} className="sector-card">
               <div className="sc-top">
                 <div className="nm">{s.name}</div>

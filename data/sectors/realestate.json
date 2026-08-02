@@ -1,0 +1,45 @@
+{
+  "name": "Real Estate",
+  "icon": "🏘️",
+  "tagline": "Pre-sales today equals revenue two to three years from now.",
+  "examples": [
+    "DLF",
+    "GODREJPROP",
+    "OBEROIRLTY",
+    "PRESTIGE"
+  ],
+  "howItWorks": "A developer sells flats long before it finishes building them, then recognises the revenue years later when the project completes. So the reported P&L is old news; the real leading indicator is pre-sales, what got booked this quarter. But bookings are only promises. The number that proves execution is collections, the cash actually received against those bookings. Real estate is brutally capital-intensive and cyclical, so debt is the existential risk: a developer that over-leverages into a boom and then hits slow collections can go under fast.",
+  "metrics": [
+    {
+      "metric": "Pre-sales (Bookings)",
+      "why": "The future revenue pipeline, booked units times price. A leading indicator for the next 2-3 years of P&L."
+    },
+    {
+      "metric": "Collections",
+      "why": "Cash actually received. Pre-sales are promises; collections are reality and show execution."
+    },
+    {
+      "metric": "Inventory Levels",
+      "why": "Unsold units. Rising inventory means a demand slowdown or oversupply. Watch months-of-inventory."
+    },
+    {
+      "metric": "Net Debt",
+      "why": "The existential risk in real estate. Highly leveraged developers are vulnerable to rate cycles and slow collections."
+    },
+    {
+      "metric": "Project Pipeline",
+      "why": "Land bank plus upcoming launches, the growth visibility. Location quality matters as much as size."
+    },
+    {
+      "metric": "ROE",
+      "why": "Capital-allocation quality. Real estate is capital-heavy, and ROE separates the efficient developers from the destroyers."
+    }
+  ],
+  "framework": {
+    "demand": "Pre-sales",
+    "pricing": "Realisation/sq ft",
+    "efficiency": "Collections",
+    "capital": "ROE",
+    "risk": "Net debt"
+  }
+}

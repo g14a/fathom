@@ -1,0 +1,216 @@
+{
+  "name": "Banks",
+  "icon": "🏦",
+  "tagline": "PE matters less. Loan quality matters most.",
+  "examples": [
+    "HDFCBANK",
+    "ICICIBANK",
+    "KOTAKBANK",
+    "SBIN"
+  ],
+  "howItWorks": "A bank is a spread machine. It takes in money from people who want to save, pays them a little, and lends that same money to people who want to borrow, charging them more. The gap between the two is where a bank makes its living. Everything else in banking is a detail hanging off that one simple idea. The section below builds it up from zero.",
+  "sections": [
+    {
+      "title": "First, what is a bank really?",
+      "intro": "Strip away the branches, the apps and the jargon, and a bank is one of the oldest, simplest ideas there is.",
+      "blocks": [
+        {
+          "concept": "A bank is a middleman for money",
+          "body": "Some people have spare cash they want kept safe. Others need money right now, for a house, a shop, a car. A bank simply stands between the two. It takes the spare cash from the first group and hands it to the second. Here is the part that surprises people the first time they hear it: the bank is barely using its own money at all. It is lending yours.",
+          "example": "You park ₹1,00,000 in your savings account. It does not sit in a vault with your name on it. Most of it is already out the door, lent to someone down the road buying a scooter. Your app still shows ₹1,00,000, the scooter buyer has the cash, and the bank is quietly earning off the gap between you."
+        },
+        {
+          "concept": "Interest is just rent on money",
+          "body": "Lend a friend your bike for a week and you might expect a little something for it when you get it back. Money works the same way. When you borrow it, you pay for the time you had it, and that payment is called interest. An interest rate is nothing more than that rent written as a yearly percentage. Once you see interest as rent, the whole business stops being mysterious.",
+          "example": "Borrow ₹100 for a year at a rate of 10% and you hand back ₹110. That extra ₹10 is the rent you paid for using the money."
+        }
+      ]
+    },
+    {
+      "title": "How a bank makes money",
+      "intro": "Nearly all of a bank's profit comes down to one gap, with a bit of steady income on the side.",
+      "blocks": [
+        {
+          "concept": "The bank pays rent too",
+          "body": "Most people think of interest as something they pay. But the bank pays it as well, to you. The moment your money lands in your account, the bank is really borrowing it from you, and it pays you a little for the privilege. That is your deposit rate. So the whole game is simple to state and hard to do well: pay as little as possible to the people it borrows from, charge as much as it sensibly can to the people it lends to, and live off the difference.",
+          "example": "It pays you 3% on your savings and charges the scooter buyer 11% on his loan. On every ₹100, it hands you ₹3 and collects ₹11. The ₹8 in between is the bank's."
+        },
+        {
+          "concept": "Cheap money beats expensive money",
+          "body": "Not every rupee a bank takes in costs it the same. The money sitting in ordinary current and savings accounts is almost free, because the bank pays you next to nothing to keep it there. Bankers have a name for it: CASA, short for current and savings accounts. Money locked in a fixed deposit is the opposite. You only agreed to lock it away because the bank promised you a higher rate, so it is expensive money. A bank swimming in cheap savings deposits has a huge head start over one that has to bid up for fixed deposits. This, more than almost anything, is why some banks are simply better than others.",
+          "example": "HDFC and SBI hold crores of everyday salary and savings accounts paying around 3%. A weaker rival might have to dangle 7% fixed deposits to pull in the same money. They can make the identical loan, but the big bank walks away with far more of the profit."
+        },
+        {
+          "concept": "The gap is the profit, and it has a name",
+          "body": "That gap, between what a bank earns on everything it lends and what it pays on everything it borrows, is the single most important number in banking. It is called the Net Interest Margin, or NIM. When you hear that a bank's NIM is widening, its profit engine is running well. When you hear it is shrinking, something is eating into the core business, and you should want to know what.",
+          "example": "Earn 11% on loans, pay 5% on deposits, and the margin is 6%. Now imagine deposits get pricier and cost 7%, but competition stops the bank raising loan rates. The margin quietly slips to 4%, and profit falls with it, even though the bank did nothing wrong."
+        },
+        {
+          "concept": "And a little on the side: fees",
+          "body": "Not all of a bank's money comes from lending. It also charges fees: on cards, on transactions, on lockers, and as commission for selling you insurance and mutual funds. Bankers call this non-interest income, and it is prized, because unlike a loan, a fee cannot turn bad on you. A bank with plenty of it has a steadier, higher-quality profit that does not depend entirely on the lending cycle.",
+          "example": "Every card swipe, every locker rental, every policy sold at the branch earns the bank a small cut. On its own that is nothing. Across tens of millions of customers, it becomes a large and dependable slice of profit."
+        }
+      ]
+    },
+    {
+      "title": "Not all bank stocks are the same",
+      "intro": "When someone says \"bank stock\", they could mean three quite different animals.",
+      "blocks": [
+        {
+          "concept": "Private banks",
+          "body": "These are owned by ordinary shareholders and run to make a profit. As a group they grow faster, run tighter, and tend to lend more carefully. It is no accident that most of the market's beloved long-term compounders are private banks, because good management sitting on cheap deposits shows up, year after year, as high and steady returns.",
+          "example": "HDFC Bank, ICICI Bank, Kotak Mahindra Bank, Axis Bank."
+        },
+        {
+          "concept": "Public sector banks (the government ones)",
+          "body": "These are majority-owned by the government. They are enormous, they reach villages no private bank bothers with, and they sit on mountains of cheap deposits. But historically they have been slower, less efficient and more accident-prone on bad loans, partly because their lending was not always driven purely by what made commercial sense. They can have their moment when the cycle turns and old bad loans get cleaned up, but they are a rougher, more up-and-down ride.",
+          "example": "State Bank of India, Bank of Baroda, Punjab National Bank."
+        },
+        {
+          "concept": "Small finance banks, and why NBFCs are not banks",
+          "body": "Small finance banks lend to smaller, riskier borrowers the big banks skip, usually at higher rates. And then there are NBFCs, which get their own section on this site. They look like banks and lend like banks, but they are missing the one thing that makes a bank powerful: they cannot take your everyday deposits. So they have to borrow from markets and other banks instead, which is costlier and far more fragile when money gets tight. The humble deposit account is the whole secret.",
+          "example": "AU is a small finance bank. Bajaj Finance is an NBFC. Neither can fund itself as cheaply as an HDFC or an SBI, for the simple reason that neither has that deep pool of everyday savings to draw on."
+        }
+      ]
+    },
+    {
+      "title": "What actually moves a bank stock",
+      "intro": "Beyond any single quarter's numbers, three big forces push bank shares around.",
+      "blocks": [
+        {
+          "concept": "The interest rate cycle",
+          "body": "The RBI, India's central bank, sets the base rate for the whole economy, and it moves that rate up and down over time. When it does, a bank's loan rates and deposit rates both shift, but rarely at the same speed. Sometimes a bank gets to charge more on its loans before it has to pay more on its deposits, and its margin fattens. Sometimes it works the other way and the margin gets pinched. So the rate cycle is forever nudging bank profits up and down, no matter how well the bank itself is run.",
+          "example": "Rates rise. A bank whose loans reprice quickly but whose cheap deposits stay put suddenly earns more almost overnight. Its margin widens, and the stock usually likes it."
+        },
+        {
+          "concept": "The health of the economy",
+          "body": "A bank is really a geared-up bet on the country. When the economy is humming, people and businesses borrow more and pay it back without trouble. When it stumbles, borrowing dries up and defaults creep in. Because a bank is lending out ten times its own money, both the good and the bad get amplified, which is why bank stocks tend to swing harder than the market they sit in.",
+          "example": "In a strong year, loans grow fast and bad loans stay tiny, so profits and share prices climb together. In a downturn, both turn at once, and the fall can be just as sharp as the climb."
+        },
+        {
+          "concept": "The rule-maker: the RBI",
+          "body": "Few businesses are watched as closely as banks, and for good reason: they are holding the public's savings. The RBI decides how much cushion they must keep, how much and to whom they can lend, and even what officially counts as a bad loan. One rule change can lift or wound the entire sector overnight, however well or badly any single bank is being run.",
+          "example": "The day the RBI tightens the rules on unsecured personal loans, every bank that had been leaning on that fast, high-margin business slows down together, whether it wanted to or not."
+        }
+      ]
+    },
+    {
+      "title": "Where banks break",
+      "intro": "A bank can look wonderful right up to the moment it doesn't. These are the usual cracks.",
+      "blocks": [
+        {
+          "concept": "The loans that never come back",
+          "body": "Handing out a loan is the easy part. Getting it back is where banking is actually hard. Some borrowers simply cannot repay: a business folds, a job is lost. A loan that has stopped being paid is a bad loan, or in the jargon a Non-Performing Asset. This is the thing that quietly kills banks. One can look gloriously profitable for years and then admit that a big slab of its loans is never coming back, and years of profit vanish in a single quarter.",
+          "example": "Lend ₹100 and see ₹5 of it go bad, and you have not just lost the interest on that ₹5. You can lose the whole ₹5 you lent. It only takes a handful of big loans souring at once to wipe out a lot of patient profit."
+        },
+        {
+          "concept": "Good times hide bad lending",
+          "body": "This is the trap that catches even experienced investors. In the good years everyone repays, bad loans look tiny, and banks feel invincible, so they lend more and more, and to shakier and shakier borrowers. Then the economy turns, and all that weak lending goes bad together. The cruel part is the timing: the worst loans are made at the very top, when everything feels safe, and only reveal themselves on the way down. So a bank boasting almost no bad loans in a boom has not proven it is safe. It may just be standing early in the cycle.",
+          "example": "Picture a bank lending freely to builders through a property boom. For two years everyone pays and profits soar. Then demand cools, several builders default in the same few months, and all the bad loans that were quietly being written the whole time land on the books at once."
+        },
+        {
+          "concept": "The slow squeeze on margins",
+          "body": "A bank does not need a single bad loan to disappoint you. If its margin, that NIM again, gets squeezed, profit falls anyway. Maybe deposits got expensive faster than its loans could reprice. Maybe rivals undercut it and forced loan rates down. Either way the gap narrows and earnings stall. That is why the margin deserves as much of your attention as the bad-loan number.",
+          "example": "After a big merger, or in the middle of a deposit price war, a bank can be forced to pay up for deposits while its loan yields sit still. The gap narrows, earnings flatten, and nothing has technically gone wrong at all."
+        }
+      ]
+    },
+    {
+      "title": "How to actually value a bank",
+      "intro": "This is where beginners trip. Put away the tool you would reach for on any other company.",
+      "blocks": [
+        {
+          "concept": "Why PE is the wrong tool here",
+          "body": "For most companies, the PE ratio, price compared to earnings, is a fair quick check. For a bank it quietly lies to you, and there is one reason why: a bank is built to run on borrowed money. For every ₹1 of its own it is handling ₹10 or more of other people's. That enormous borrowed base makes the profit look big and, worse, distracts you from where the real danger lives, which is the loans, not the earnings. Remember, a bank almost never dies because profit dipped. It dies because its loans went bad.",
+          "example": "Two banks show you the exact same PE. One lent with great care and has barely any bad loans. The other lent recklessly and is sitting on a hidden pile of them. PE calls them twins. Their loan books tell you they are nothing alike."
+        },
+        {
+          "concept": "Look at these instead",
+          "body": "So skip the single PE number and read a bank through four windows, each answering a different question about how well it is run and how safely.",
+          "bullets": [
+            {
+              "term": "Return on Assets",
+              "desc": "Of every rupee the bank puts to work, how much comes back as profit? It is the cleanest read on how well the thing is actually run. Above roughly 1.5% is genuinely excellent."
+            },
+            {
+              "term": "Return on Equity",
+              "desc": "The return earned on the bank's own money, the bit shareholders put in. Mid-teens or higher is healthy, and this is the number that actually compounds in your pocket over the years."
+            },
+            {
+              "term": "Bad-loan levels",
+              "desc": "What share of the loans have stopped being repaid? The lower and the steadier, the safer the bank. This is the window that shows you trouble the profit line is hiding."
+            },
+            {
+              "term": "Price-to-Book",
+              "desc": "What you are paying against the bank's own net worth. Because a bank is essentially a stack of financial assets, its book value actually means something, unlike at most companies. This is the price gauge that replaces PE."
+            }
+          ],
+          "outro": "And these four talk to each other. A bank earning a high return on its own money has earned the right to trade at a richer price against its book. One with bad loans creeping up has not, no matter how tempting its PE looks.",
+          "example": "A bank doing 1.8% on its assets and 17% on its equity with almost no bad loans deserves its high price-to-book. A bank scraping 0.6% with bad loans climbing does not, however cheap that low PE makes it seem."
+        }
+      ]
+    },
+    {
+      "title": "The trap: a great bank that is still a bad stock",
+      "intro": "Save this one. It is the lesson that catches even the smart money.",
+      "blocks": [
+        {
+          "concept": "Your return runs on two engines",
+          "body": "What you make on a stock comes from two things multiplied together. The first is how fast the company's earnings grow. The second is whether people decide to pay more or less for each rupee of those earnings, which is the multiple. Both can move, and here is the sting: a roaring first engine can be completely cancelled by a fading second one. A superb, growing bank can still hand you nothing at all if you bought it when the multiple was already too high.",
+          "example": "Earnings double, but the price people will pay per rupee of earnings halves. Two times a half is one. You finish exactly where you started, even though the business had a wonderful few years."
+        },
+        {
+          "concept": "HDFC Bank, where the multiple ate the engine",
+          "body": "HDFC Bank is the textbook case, and a painful one for a lot of holders. Across roughly eight years its earnings per share tripled, from about ₹17 to ₹49. That is a magnificent engine by any measure. And yet the stock went almost nowhere. Why? Because over those same years the multiple, what investors were willing to pay per rupee of earnings, slid from around 30x down to about 15x. The shrinking multiple swallowed everything the growing earnings had cooked up. The business kept winning while its shareholders sat and waited.",
+          "example": "Pay 30x for ₹17 of earnings and your entry price is about ₹510. Years later, ₹49 of earnings at a 15x multiple is about ₹735. A tripling of the earnings turned into a limp return, purely because the multiple you bought at was too high to begin with."
+        },
+        {
+          "concept": "Why it happened, and what to take from it",
+          "body": "The multiple did not shrink out of spite. After HDFC Bank merged with its parent, its return on equity slipped from around 18% to 14% and its margin came under real pressure, so investors, quite reasonably, paid a bit less for each rupee of a slightly lower-quality engine. And that is the whole lesson in one line: buy a good bank, absolutely, but buy it at a sensible price. A fine business bought well compounds for you. The very same business bought too dear can sit dead for years while the multiple slowly lets the air out.",
+          "example": "The stock only really wakes up again if the quality comes back, return on equity climbing toward 16-17%, so that both engines finally pull the same way. Until that happens, even a growing bank can feel like money that just sits there."
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "NIM (Net Interest Margin)",
+      "why": "Spread between lending and deposit rates, the core profit engine. Higher means more profitable lending."
+    },
+    {
+      "metric": "CASA Ratio",
+      "why": "Current plus savings deposits as a share of the total. Cheap, sticky money. High CASA means a low cost of funds and better margins."
+    },
+    {
+      "metric": "GNPA / NNPA",
+      "why": "Gross and net non-performing assets. Bad-loan quality. Rising NPAs signal trouble ahead; falling means the cleanup is working."
+    },
+    {
+      "metric": "Credit Growth",
+      "why": "Loan-book expansion, a proxy for business momentum. 15%+ YoY is a healthy growth cycle."
+    },
+    {
+      "metric": "Provision Coverage Ratio",
+      "why": "How much of the bad loans are already provisioned. Above 70% is a conservative, well-cushioned balance sheet."
+    },
+    {
+      "metric": "Cost-to-Income Ratio",
+      "why": "Operating expenses over income. Lower is more efficient. Private banks run 40-50%, PSBs 50-60%."
+    },
+    {
+      "metric": "ROA (Return on Assets)",
+      "why": "The best profitability metric for banks. Above 1.5% is excellent. It strips out the distortion of leverage."
+    },
+    {
+      "metric": "Capital Adequacy Ratio (CAR)",
+      "why": "The safety buffer against losses. RBI minimum is 11.5%. Higher is safer, though it can cap growth."
+    }
+  ],
+  "framework": {
+    "demand": "Credit growth",
+    "pricing": "NIM",
+    "efficiency": "Cost-to-Income",
+    "capital": "ROA",
+    "risk": "GNPA / NPAs"
+  }
+}

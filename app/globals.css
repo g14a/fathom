@@ -431,3 +431,10 @@ section.block:first-of-type { border-top: none; }
   .hero { padding: 40px 0 32px; }
   .report { padding-top: 28px; padding-bottom: 72px; }
 }
+
+/* ===================== Case study cross-links (sector + related study) ===================== */
+.csd-links { margin: 26px 0 8px; display: flex; flex-direction: column; gap: 14px; }
+
+/* inline links inside case-study prose */
+.cs-para a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
+.cs-para a:hover { text-decoration-thickness: 2px; }

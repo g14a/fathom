@@ -1,0 +1,41 @@
+{
+  "name": "Hotels",
+  "icon": "🏨",
+  "tagline": "RevPAR is the single most important number.",
+  "examples": [
+    "INDHOTEL",
+    "EIH",
+    "LEMONTREE",
+    "CHALET"
+  ],
+  "howItWorks": "A hotel room is the most perishable product there is: an unsold night is gone forever. The building is a big fixed cost, so once the rooms are full, every extra booking is almost pure profit, and the same works viciously in reverse in a downturn. The business combines two levers, how full the hotel is and what each room fetches, into one number: revenue per available room. The smart modern move is to grow by managing other people's hotels for a fee, adding rooms and brand without pouring in capital.",
+  "metrics": [
+    {
+      "metric": "Occupancy %",
+      "why": "The demand proxy. 65-70% is standard, 75%+ in leisure resorts. Highly seasonal and cycle-sensitive."
+    },
+    {
+      "metric": "ARR (Avg Room Rate)",
+      "why": "Pricing power. Rising ARR means brand premium and tight supply. Luxury hotels defend ARR even in downcycles."
+    },
+    {
+      "metric": "RevPAR",
+      "why": "Occupancy times ARR. The single metric that combines demand and pricing, and the best cross-hotel comparison."
+    },
+    {
+      "metric": "EBITDA Margin",
+      "why": "Operating leverage. High fixed costs mean that at full occupancy, incremental revenue is near-100% margin."
+    },
+    {
+      "metric": "Managed Rooms Growth",
+      "why": "Asset-light expansion. Managing third-party properties grows inventory without capex, the quality-compounder path."
+    }
+  ],
+  "framework": {
+    "demand": "Occupancy %",
+    "pricing": "ARR / RevPAR",
+    "efficiency": "EBITDA margin",
+    "capital": "ROCE",
+    "risk": "Capex / debt"
+  }
+}

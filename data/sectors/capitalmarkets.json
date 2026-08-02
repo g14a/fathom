@@ -1,0 +1,53 @@
+{
+  "name": "Capital Markets",
+  "icon": "📊",
+  "tagline": "Volume is the business. The market cycle sets revenue, not the company.",
+  "examples": [
+    "BSE",
+    "CDSL",
+    "ANGELONE",
+    "MOTILALOFS"
+  ],
+  "howItWorks": "Exchanges, depositories and brokers all earn a small fee every time someone trades, so their revenue rises and falls with market volumes, which they do not control. A bull market floods them with income; a bear market drains it just as fast. The best of them own a structural moat, a licensed depository like CDSL is a near-monopoly, and increasingly they diversify into recurring, fee-based income like asset management that keeps paying through the cycle. Watch revenue yield, because zero-brokerage disruption has been quietly compressing what each trade earns for years.",
+  "metrics": [
+    {
+      "metric": "ADTO (Avg Daily Turnover)",
+      "why": "Total market trading volume across equity and F&O. Exchanges earn per crore traded, brokers earn commissions. Volumes fall, revenue falls immediately."
+    },
+    {
+      "metric": "Market Share",
+      "why": "For exchanges, NSE dominates F&O, which is existential for BSE. For brokers, active-client share among discount and full-service players."
+    },
+    {
+      "metric": "Active Client Base",
+      "why": "Clients who traded at least once in 30 days, the monetisable base. Growing actives in flat volumes means share gain."
+    },
+    {
+      "metric": "Revenue Yield (per crore of turnover)",
+      "why": "A structural-decline metric. Zero-brokerage disruption compressed yields industry-wide. Watch for a floor or recovery."
+    },
+    {
+      "metric": "AUM (for AMC / wealth arms)",
+      "why": "Fee-based, recurring revenue uncorrelated to daily volumes. Increasingly critical for diversified players."
+    },
+    {
+      "metric": "NII (Net Interest Income)",
+      "why": "Income from client margin funds and pledged shares. Interest-rate sensitive; rising-rate cycles help brokers here."
+    },
+    {
+      "metric": "Regulatory & Tech Moat",
+      "why": "CDSL and NSDL are licensed near-monopolies. The moat is structural, not replicable. Regulation is both risk and protection."
+    },
+    {
+      "metric": "New Product Revenue Mix",
+      "why": "Margin funding, wealth, insurance distribution and AMC fees. Diversifying away from pure broking smooths revenue through cycles."
+    }
+  ],
+  "framework": {
+    "demand": "ADTO / market volumes",
+    "pricing": "Revenue yield",
+    "efficiency": "Active clients",
+    "capital": "ROE",
+    "risk": "Market cycle / regulatory change"
+  }
+}

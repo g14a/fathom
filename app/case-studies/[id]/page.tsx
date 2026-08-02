@@ -1,4 +1,5 @@
 import { getAllCaseStudies, getCaseStudy } from '@/lib/caseStudies';
+import { getSector } from '@/lib/sectors';
 import type { Metadata } from 'next';
 import { withBase } from '@/lib/base';
 
@@ -11,6 +12,28 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const c = getCaseStudy(id);
   if (!c) return { title: 'Case Study | Fathom' };
   return { title: `${c.title} | ${c.company} | Fathom`, description: c.summary };
+}
+
+// Render a paragraph with inline markdown links: [text](/path) or [text](https://...)
+function renderInline(text: string): React.ReactNode[] {
+  const parts: React.ReactNode[] = [];
+  const re = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let last = 0;
+  let m: RegExpExecArray | null;
+  let k = 0;
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > last) parts.push(text.slice(last, m.index));
+    const [, label, url] = m;
+    const external = /^https?:/.test(url);
+    parts.push(
+      <a key={k++} href={external ? url : withBase(url)} {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
+        {label}
+      </a>
+    );
+    last = re.lastIndex;
+  }
+  if (last < text.length) parts.push(text.slice(last));
+  return parts;
 }
 
 export default async function CaseStudyPage({ params }: { params: Promise<{ id: string }> }) {
@@ -40,12 +63,30 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
       </div>
 
       <div className="csd-body">
-        {c.intro.map((para, j) => <p key={j} className="cs-para csd-lede">{para}</p>)}
+        {c.intro.map((para, j) => <p key={j} className="cs-para csd-lede">{renderInline(para)}</p>)}
+
+        {(() => {
+          const sec = c.sectorId ? getSector(c.sectorId) : undefined;
+          if (!sec) return null;
+          return (
+            <div className="csd-links">
+              <a href={withBase(`/sectors/${sec.id}/`)} className="sector-cta">
+                <div className="sc-cta-text">
+                  <div className="sc-cta-kicker">Sector fundamentals</div>
+                  <div className="sc-cta-line">
+                    New to this business? Read <strong>how {sec.name} works</strong> to understand the forces in this story.
+                  </div>
+                </div>
+                <span className="sc-cta-go">Read the primer <span className="arw">→</span></span>
+              </a>
+            </div>
+          );
+        })()}
 
         {c.sections.map((sec, si) => (
           <section key={si} className="csd-section">
             <h2 className="csd-h2">{sec.heading}</h2>
-            {sec.body.map((para, j) => <p key={j} className="cs-para">{para}</p>)}
+            {sec.body.map((para, j) => <p key={j} className="cs-para">{renderInline(para)}</p>)}
           </section>
         ))}
 

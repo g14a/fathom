@@ -1,0 +1,107 @@
+{
+  "name": "NBFCs",
+  "icon": "💳",
+  "tagline": "It is all about AUM growth and collection quality.",
+  "examples": [
+    "BAJFINANCE",
+    "CHOLAFIN",
+    "MUTHOOTFIN",
+    "LTFH"
+  ],
+  "howItWorks": "An NBFC is a bank without the cheap deposits. It borrows from banks and the bond market, then lends that money out at a higher rate to people and businesses a bank often will not touch. The whole model rests on two things: borrowing cheaply and collecting reliably. When interest rates rise, an NBFC feels it first, because its cost of funds climbs before it can reprice its loans. And because it lends to riskier borrowers, collection discipline is the difference between a compounder and a blow-up.",
+  "sections": [
+    {
+      "title": "First, what is an NBFC really?",
+      "intro": "An NBFC looks like a bank and lends like a bank, but it is missing the one thing that makes a bank powerful.",
+      "blocks": [
+        {
+          "concept": "A lender without a bank licence",
+          "body": "An NBFC lends money like a bank, but it is not allowed to take your everyday deposits. So it has to get its money elsewhere: it borrows from banks and from the bond market, then lends that on at a higher rate. Everything about an NBFC flows from that one handicap.",
+          "example": "A housing-finance company or a gold-loan company gives you a loan, but you cannot open a savings account with it. It funded your loan with money it itself had to borrow first."
+        },
+        {
+          "concept": "It earns on the spread, and lives on trust",
+          "body": "Like a bank, an NBFC makes its money on the gap between what it charges borrowers and what it pays to borrow. But because its own funding is costlier and less stable than a bank’s cheap deposits, two things matter more than anything: can it keep borrowing cheaply, and does it collect its loans reliably.",
+          "example": "In good times an NBFC borrows easily and grows fast. In a scare, its lenders pull back and the whole model can seize up, which is exactly what happened when IL&FS collapsed in 2018."
+        }
+      ]
+    },
+    {
+      "title": "How to read an NBFC",
+      "blocks": [
+        {
+          "concept": "Growth shows up as AUM",
+          "body": "The size of an NBFC is its loan book, called assets under management, or AUM. How fast AUM grows is its version of revenue growth. But growth is easy and dangerous in lending: you can always grow by lending to riskier people, so growth only counts if the loans actually get repaid.",
+          "example": "An NBFC growing its book 30% a year looks exciting, until you find the new loans went to borrowers who cannot pay, and the growth turns into losses."
+        },
+        {
+          "concept": "The two numbers that decide survival",
+          "body": "Watch the cost of funds (how cheaply it borrows) and collection efficiency (how reliably it gets repaid). A rising cost of funds squeezes the spread; falling collections signal loans going bad. A great NBFC borrows cheaply and collects nearly everything.",
+          "example": "Collection efficiency above 98% is excellent. A drop below 95% is an early warning that the book is quietly souring."
+        }
+      ]
+    },
+    {
+      "title": "Where NBFCs break",
+      "blocks": [
+        {
+          "concept": "The funding tap can close",
+          "body": "An NBFC’s biggest risk is not its borrowers, it is its own lenders. Because it depends on constantly rolling over borrowed money, any loss of confidence, a downgrade, a scandal, a market freeze, can cut off its funding overnight and kill an otherwise sound business.",
+          "example": "When IL&FS defaulted in 2018, lenders panicked and stopped funding NBFCs across the board, and several perfectly good ones nearly went under simply because they could not refinance."
+        },
+        {
+          "concept": "Bad loans hidden in fast growth",
+          "body": "Bad loans reveal the quality of past lending. In a fast-growing book they can stay artificially low, because a flood of new good loans dilutes the old bad ones, right up until growth slows and the truth appears.",
+          "example": "An NBFC that lent recklessly for years can look clean while it is still growing, then show a wave of defaults the moment it stops."
+        }
+      ]
+    },
+    {
+      "title": "How to value an NBFC",
+      "blocks": [
+        {
+          "concept": "Judge it on funding and collections, not PE",
+          "body": "Skip PE as the main tool. Read an NBFC on its return on assets and return on equity (how well it earns on its money), its bad-loan levels, its cost of funds, and its capital cushion. Price-to-book is the sensible price gauge, exactly as with a bank.",
+          "example": "A top-tier NBFC earns a return on assets above 3% and a return on equity above 20% while keeping bad loans tiny. That earns a rich price-to-book. A weak one does not, however cheap its PE looks."
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "AUM Growth",
+      "why": "Assets under management growth, the topline equivalent for NBFCs. Business expansion in one number."
+    },
+    {
+      "metric": "NIM",
+      "why": "Lending margin. NBFCs borrow from banks and markets and lend higher; the spread is the profit."
+    },
+    {
+      "metric": "Gross Stage 3 Assets",
+      "why": "Bad loans under Ind AS. Rising Stage 3 means credit quality is deteriorating."
+    },
+    {
+      "metric": "Collection Efficiency",
+      "why": "Recovery strength. Above 98% is excellent. A drop below 95% is an early stress signal."
+    },
+    {
+      "metric": "Cost of Funds",
+      "why": "The rate at which the NBFC borrows. Lower means better margins. A rising-rate environment hurts here first."
+    },
+    {
+      "metric": "ROA / ROE",
+      "why": "Profitability after all costs. Top-tier NBFCs post ROA above 3% and ROE above 20%."
+    },
+    {
+      "metric": "Capital Adequacy",
+      "why": "The buffer against loan losses, mandated by RBI. A falling CAR points to possible equity dilution."
+    }
+  ],
+  "framework": {
+    "demand": "AUM growth",
+    "pricing": "NIM",
+    "efficiency": "Collection efficiency",
+    "capital": "ROA",
+    "risk": "Stage 3 assets"
+  }
+}

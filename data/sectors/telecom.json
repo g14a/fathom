@@ -1,0 +1,44 @@
+{
+  "name": "Telecom",
+  "icon": "📡",
+  "tagline": "ARPU tells you if monetisation is actually working.",
+  "examples": [
+    "BHARTIARTL",
+    "IDEA",
+    "INDUSTOWER"
+  ],
+  "howItWorks": "Telecom builds a hugely expensive network of towers and spectrum, then earns a small amount from each subscriber every month. Once the network is built, every extra rupee of revenue is almost pure profit, so the whole game is filling the pipe and charging more per user. Revenue per user is the honest scoreboard: adding cheap subscribers while that number stalls is just competitive bleeding. Spectrum auctions are brutal cash outflows that can starve a player of the money it needs to keep the network good.",
+  "metrics": [
+    {
+      "metric": "ARPU (Avg Revenue Per User)",
+      "why": "Pricing power per subscriber. Rising ARPU means monetisation works; flat ARPU in a growing base means competitive pressure."
+    },
+    {
+      "metric": "Subscriber Growth",
+      "why": "Scale, which brings fixed-cost leverage. Quality (postpaid versus prepaid) matters as much as quantity."
+    },
+    {
+      "metric": "Churn",
+      "why": "Customer loyalty. Low churn signals a sticky network effect and better coverage or brand."
+    },
+    {
+      "metric": "Data Consumption / User",
+      "why": "Monetisation potential. Higher data usage is the path to higher ARPU tiers and add-on services."
+    },
+    {
+      "metric": "Spectrum Costs",
+      "why": "Capital intensity. Auctions are massive cash outflows; heavy spectrum debt constrains network capex."
+    },
+    {
+      "metric": "EBITDA Margin",
+      "why": "Efficiency on fixed infrastructure. Telcos should post 40-50% EBITDA margin at scale."
+    }
+  ],
+  "framework": {
+    "demand": "Subscriber growth",
+    "pricing": "ARPU",
+    "efficiency": "EBITDA margin",
+    "capital": "FCF after spectrum",
+    "risk": "Churn / debt"
+  }
+}

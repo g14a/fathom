@@ -1,0 +1,45 @@
+{
+  "name": "Cement",
+  "icon": "🏗️",
+  "tagline": "EBITDA/tonne is the only margin that matters.",
+  "examples": [
+    "ULTRACEMCO",
+    "SHREECEM",
+    "AMBUJACEM",
+    "ACC"
+  ],
+  "howItWorks": "Cement is a heavy, low-value commodity that is expensive to transport, so it is really a collection of regional markets rather than one national one. A bag of cement is much the same whoever makes it, which means the winner is whoever produces and delivers it cheapest and sells it where demand is tight. Everything reduces to profit per tonne. Fuel is the swing cost and freight decides how far a plant can profitably sell, so proximity to the market is a real edge.",
+  "metrics": [
+    {
+      "metric": "Capacity Utilisation",
+      "why": "Demand strength. Above 75% is a tight market with pricing power; below 65% means oversupply and margin pressure."
+    },
+    {
+      "metric": "Realisation / Tonne",
+      "why": "Pricing. Regional prices vary a lot. Rising realisation means demand is outpacing supply."
+    },
+    {
+      "metric": "EBITDA / Tonne",
+      "why": "The core profitability metric. Above ₹1,000 per tonne is strong; below ₹800 is a squeeze. The standard comparison unit."
+    },
+    {
+      "metric": "Fuel Cost",
+      "why": "The biggest variable cost (coal, petcoke), around 30% of revenue. The commodity cycle hits margins directly here."
+    },
+    {
+      "metric": "Capacity Expansion",
+      "why": "Growth strategy. Greenfield takes 3-4 years, acquisitions are faster. It adds future supply to the market."
+    },
+    {
+      "metric": "Freight Cost",
+      "why": "A margin driver. Cement is heavy and low-value, so proximity to markets is a cost advantage."
+    }
+  ],
+  "framework": {
+    "demand": "Capacity utilisation",
+    "pricing": "Realisation/tonne",
+    "efficiency": "EBITDA/tonne",
+    "capital": "ROCE",
+    "risk": "Fuel / freight costs"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Retail",
+  "icon": "🏪",
+  "tagline": "Same-store sales separate real growth from just opening stores.",
+  "examples": [
+    "TRENT",
+    "DMART",
+    "ABFRL",
+    "SHOPERSTOP"
+  ],
+  "howItWorks": "A retailer grows two ways: selling more from the stores it already has, and opening new ones. Only the first proves the concept works. New stores can mask a weak business for years, which is why same-store sales growth is the number that matters most. Underneath that, retail is a game of turning inventory fast and squeezing productivity out of every square foot of expensive real estate. The very best, like DMart, get suppliers to fund their working capital so growth pays for itself.",
+  "metrics": [
+    {
+      "metric": "SSSG (Same Store Sales Growth)",
+      "why": "Core demand from existing stores. Growing SSSG plus new stores is a double engine; flat SSSG means expansion is masking weakness."
+    },
+    {
+      "metric": "Revenue / sq ft",
+      "why": "Store productivity. Higher means better yield per unit of real-estate cost."
+    },
+    {
+      "metric": "Inventory Turnover",
+      "why": "How fast stock sells. Low turns mean dead stock, markdowns and a margin hit."
+    },
+    {
+      "metric": "Gross Margin",
+      "why": "Pricing power versus suppliers. Fashion retail (60%+) and value retail like DMart (15%) are very different models."
+    },
+    {
+      "metric": "Store Additions",
+      "why": "The expansion runway, but only valuable if SSSG is healthy. Otherwise it just dilutes returns."
+    },
+    {
+      "metric": "Working Capital Cycle",
+      "why": "Cash efficiency. Selling before paying suppliers, negative working capital, is a cash machine."
+    },
+    {
+      "metric": "EBITDA Margin",
+      "why": "Scalability. Retail has high fixed costs, so scale drives operating leverage."
+    }
+  ],
+  "framework": {
+    "demand": "SSSG",
+    "pricing": "Gross margin",
+    "efficiency": "Inventory turnover",
+    "capital": "ROCE",
+    "risk": "Working capital"
+  }
+}

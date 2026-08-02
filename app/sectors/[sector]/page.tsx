@@ -1,4 +1,4 @@
-import { SECTORS, getSector } from '@/lib/sectors';
+import { getAllSectors, getSector } from '@/lib/sectors';
 import type { PrimerBlock } from '@/lib/sectors';
 import type { Metadata } from 'next';
 import { withBase } from '@/lib/base';
@@ -33,7 +33,7 @@ function Block({ p, i }: { p: PrimerBlock; i: number }) {
 }
 
 export function generateStaticParams() {
-  return SECTORS.map((s) => ({ sector: s.id }));
+  return getAllSectors().map((s) => ({ sector: s.id }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ sector: string }> }): Promise<Metadata> {

@@ -1,0 +1,187 @@
+{
+  "name": "Infrastructure",
+  "icon": "🛤️",
+  "tagline": "Order book is the balance sheet. Execution speed is the P&L.",
+  "examples": [
+    "LT",
+    "ADANIPORTS",
+    "IRFC",
+    "NTPC",
+    "POWERGRID"
+  ],
+  "howItWorks": "An infrastructure company builds big things: roads, metros, ports, power lines, factories. It does not sell to millions of customers. It wins large contracts, one at a time, and then spends years building them out. So its future is not really in this year's sales. It is in the pile of contracts it has already won and not yet finished. The sections below explain how that works, and where the money can quietly go missing.",
+  "sections": [
+    {
+      "title": "First, what is an infrastructure company really?",
+      "intro": "This business runs backwards from most. The future is more visible than the present.",
+      "blocks": [
+        {
+          "concept": "It lives off contracts it has already won",
+          "body": "An infrastructure or construction company does not wake up each morning hoping for sales. It wins big contracts through bidding, a highway here, a metro line there, and each one takes two, three, sometimes five years to build. So at any moment the company is sitting on a stack of work it has already been awarded but not yet finished. That stack is the whole point of the business, because it is revenue that is effectively already booked, just waiting to be built.",
+          "example": "A company wins a ₹5,000 crore contract to build a stretch of expressway over four years. That ₹5,000 crore is future revenue it can already count on, long before a single truck of concrete arrives."
+        },
+        {
+          "concept": "The order book is its real balance sheet",
+          "body": "Because of that, the most important number is not this year's sales, it is the order book: the total value of all the won-but-unfinished contracts. A healthy order book is like a full pantry, several years of revenue sitting ready to be cooked. When people say a company has \"revenue visibility\", this is what they mean. You can see the next few years coming because the work is already signed.",
+          "example": "A builder doing ₹2,000 crore of revenue a year with a ₹6,000 crore order book has roughly three years of work in hand. You do not have to guess where its revenue comes from; it is sitting right there in the book."
+        }
+      ]
+    },
+    {
+      "title": "Reading the order book",
+      "intro": "Three related numbers tell you whether the pantry is filling up or emptying out.",
+      "blocks": [
+        {
+          "concept": "How much is in hand: the backlog",
+          "body": "The size of the order book is usually compared to the company's yearly revenue. Two to three times yearly revenue is comfortable, meaning two to three years of work is locked in. Much less than that and the company will soon run out of things to build. Much more can be good, though very large books sometimes hide projects that are stuck. As a rule, a bigger, cleaner book means more of the future is already secured.",
+          "example": "An order book worth 3x annual revenue means three years of building is already won. One worth barely 1x means the company is nearly out of work and had better win new contracts fast."
+        },
+        {
+          "concept": "How much is coming in: order inflows",
+          "body": "The pantry empties as the company builds, so it has to keep restocking by winning fresh contracts. The value of new contracts won in a period is called order inflows, and it is the real leading indicator. Strong, growing inflows today become revenue two and three years from now. Slowing inflows are an early warning that growth will fade down the line, even if today's numbers still look fine.",
+          "example": "A company that keeps winning more new work each year than it finishes is growing its future. One whose new wins are drying up will keep reporting good revenue for a while, then quietly stall once the old book runs down."
+        },
+        {
+          "concept": "Winning faster than you build: book-to-bill",
+          "body": "Put those two together and you get a simple, powerful check: are new orders coming in faster than old ones are being completed? That ratio is called book-to-bill. Above one, the order book is growing and the future is getting bigger. Below one, the company is finishing work faster than it is replacing it, and the book, its whole future, is shrinking.",
+          "example": "Win ₹6,000 crore of new orders in a year while completing ₹4,000 crore of old ones, and the book grew. Win only ₹3,000 crore while completing ₹4,000 crore, and the pantry is emptying, however busy this year feels."
+        }
+      ]
+    },
+    {
+      "title": "Turning orders into cash",
+      "intro": "Winning and building is the easy bit. Getting paid on time is where infra companies live or die.",
+      "blocks": [
+        {
+          "concept": "Execution: actually getting it built",
+          "body": "An order is only worth something once it is built. How quickly a company turns its order book into finished, invoiced work is called execution, and it is where good and bad infrastructure companies separate. Delays, land not handed over, materials short, labour missing, all leave the money stuck in a half-built project earning nothing. A company that executes well converts its pantry into meals steadily and predictably. A poor one lets orders rot in the book.",
+          "example": "Two firms win identical highway contracts. One finishes on schedule and gets paid on time. The other hits delays, the road sits half-built for an extra two years, and all that promised revenue stays frozen in concrete."
+        },
+        {
+          "concept": "The cash trap: working capital",
+          "body": "Here is the hard part of the business. A builder has to pay for cement, steel, machines and workers now, while its customer, very often a government body, pays slowly, sometimes many months after the work is done. The gap between money going out and money coming in is called working capital, and in infrastructure it is enormous. A company can be winning contracts and reporting profit while its cash is completely trapped in unpaid bills and unfinished sites.",
+          "example": "A builder spends crores this month on materials and wages, then waits eight or ten months for the government to clear the bill. Multiply that across many projects and a huge amount of the company's cash is permanently tied up, even as the profit line looks healthy."
+        }
+      ]
+    },
+    {
+      "title": "The accounting trap you must understand",
+      "intro": "This is where infrastructure companies flatter their profits, and where beginners get caught.",
+      "blocks": [
+        {
+          "concept": "Profit booked before the cash arrives",
+          "body": "Because a project takes years, accounting rules let a company book part of the profit each year as the work progresses, based on how complete it estimates the project to be. This is sensible in theory, but it has a dangerous side. The company is booking profit on work it has done but often not yet been paid for. So the profit on paper can march steadily upward while the actual cash stays stuck on-site. The reported profit is partly an estimate, not money in the bank.",
+          "example": "A company judges a project is 40% done and books 40% of the expected profit, even though the customer has paid for only a fraction of it. The P&L shows a healthy profit; the bank account tells a very different, emptier story."
+        },
+        {
+          "concept": "Always check profit against cash",
+          "body": "This is why, with an infrastructure company, you can never trust the profit line on its own. You have to check whether that profit is showing up as actual cash coming in, or just piling up as unpaid bills. If reported profits keep rising but cash from the business stays weak and the unpaid bills keep swelling, something is off. In infrastructure, cash is the truth and profit is only an opinion until the customer pays.",
+          "example": "Two builders report the same rising profit. One is collecting its cash and its bank balance grows. The other's cash keeps thinning while unpaid bills balloon. Same profit line, but only one is actually making money."
+        }
+      ]
+    },
+    {
+      "title": "Two very different \"infra\" businesses",
+      "intro": "The word \"infrastructure\" hides two completely different animals with opposite economics.",
+      "blocks": [
+        {
+          "concept": "The builders (contractors)",
+          "body": "One type just builds and hands over. It wins a contract, constructs the road or metro, gets paid, and moves on. These are contractors, and they earn a modest margin on a lot of activity. They should carry little debt, because they do not keep the asset, and their whole skill is winning work and executing it cleanly while managing that brutal working capital.",
+          "example": "A company that builds highways for the government and hands them back is a contractor. It never owns the road; it just earns a builder's fee for making it."
+        },
+        {
+          "concept": "The owners (asset operators)",
+          "body": "The other type builds or buys the asset and then keeps it, earning money from it for decades, a toll road collecting toll, a port charging ships, a power line carrying electricity. These asset owners earn fat, steady margins for years, but they swallow enormous amounts of capital up front and carry heavy long-term debt to fund it. That debt is fine as long as the asset reliably throws off cash, but it makes them a very different, more capital-heavy bet than the builders.",
+          "example": "A company that owns a port and collects a charge on every container for the next thirty years is an asset owner. Very different from the contractor who merely built the port and walked away."
+        }
+      ]
+    },
+    {
+      "title": "What moves an infra stock",
+      "intro": "One force towers over the rest: the government's wallet.",
+      "blocks": [
+        {
+          "concept": "The government capex cycle",
+          "body": "Most large infrastructure work in India is ordered, directly or indirectly, by the government. So the single biggest driver of the whole sector is how much the government is choosing to spend on roads, railways, defence and power. When the annual budget pours money into building, order inflows swell across the sector and the stocks tend to run. When the government tightens its belt, or an election freezes decisions, new awards dry up and the whole sector cools together.",
+          "example": "A budget that sharply raises spending on railways and highways sends fresh contracts flooding to builders, and their order books and share prices climb together. A year of election-related delays does the opposite to everyone at once."
+        }
+      ]
+    },
+    {
+      "title": "Where it breaks, and how to value it",
+      "intro": "The risks are specific, and the right way to price the business follows straight from them.",
+      "blocks": [
+        {
+          "concept": "Where infra companies break",
+          "body": "The failures are usually the same handful of things. Execution stalls and the order book turns into stuck, unpaid work. Working capital balloons until the company is starved of cash despite reporting profits. Or the company, especially an asset owner, borrows too heavily and cannot service the debt when a project runs late. Almost every infrastructure blow-up traces back to cash trapped in projects meeting a pile of debt that still has to be paid.",
+          "example": "A builder over-borrows to chase growth, then a few large projects get delayed. The revenue is frozen in half-built sites, the interest bill keeps arriving, and a company that looked profitable is suddenly fighting to survive."
+        },
+        {
+          "concept": "How to actually value it",
+          "body": "Because reported profit can run ahead of cash, you read an infrastructure company through a different set of windows than a normal business.",
+          "bullets": [
+            {
+              "term": "Order book coverage",
+              "desc": "The size of the order book compared to yearly revenue. Two to three years of work in hand means the future is reasonably secured; much less means trouble is coming."
+            },
+            {
+              "term": "Working capital days",
+              "desc": "How long the company's cash stays trapped between paying for work and getting paid for it. Rising working capital days is an early warning that profit is turning into unpaid bills rather than cash."
+            },
+            {
+              "term": "Debt against earnings",
+              "desc": "How heavy the borrowing is relative to the profit that services it. A pure builder should carry little; an asset owner carries a lot by design, so the real test is whether the asset reliably covers the interest."
+            },
+            {
+              "term": "EV/EBITDA",
+              "desc": "A price gauge that counts the debt as well as the equity, which matters enormously here, and fits the capital-heavy asset owners far better than plain PE."
+            }
+          ],
+          "outro": "Together these tell you whether the future is secured, whether the profit is real cash or just paper, and whether the debt is safe, which is exactly what a single profit multiple cannot show you in this sector.",
+          "example": "A builder with three years of orders, steady working capital and low debt is a solid, visible business. One with a huge book but ballooning unpaid bills and rising debt is a warning, however fast its reported profit is growing."
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "Order Book (Backlog)",
+      "why": "The revenue pipeline locked in. 2.5-3x TTM revenue is 2-3 years of work already won, the most forward-looking metric in infra."
+    },
+    {
+      "metric": "Order Inflows",
+      "why": "New business won in the quarter. YoY growth drives the next 2-3 years; decelerating inflows warn of a topline slowdown."
+    },
+    {
+      "metric": "Book-to-Bill Ratio",
+      "why": "Inflows over revenue. Above 1 means the backlog is growing; below 1 means burning old orders faster than new arrive."
+    },
+    {
+      "metric": "Revenue Execution Rate",
+      "why": "How fast the backlog converts to invoiced revenue. Delays trap working capital; strong execution means predictable compounding."
+    },
+    {
+      "metric": "EBITDA Margin",
+      "why": "Contractors run 10-14%; asset-owners (ports, power, highways) 40-60%. Very different businesses under one infra label."
+    },
+    {
+      "metric": "Working Capital Days",
+      "why": "Construction is working-capital-intensive. Long debtor days plus high inventory means cash-crunch risk; government delays compound it."
+    },
+    {
+      "metric": "Debt / EBITDA",
+      "why": "Pure contractors should carry little debt; asset-owners carry long-duration project finance. Watch interest coverage."
+    },
+    {
+      "metric": "Government Capex Cycle",
+      "why": "The sector direction. Budget allocations to roads, railways, defence and power set order flow. Election years can delay awards."
+    }
+  ],
+  "framework": {
+    "demand": "Order inflows",
+    "pricing": "EBITDA margin",
+    "efficiency": "Working capital days",
+    "capital": "ROCE",
+    "risk": "Debt / execution delays"
+  }
+}

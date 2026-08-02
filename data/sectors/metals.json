@@ -1,0 +1,45 @@
+{
+  "name": "Steel & Metals",
+  "icon": "⚙️",
+  "tagline": "A commodity cycle stock. The macro direction matters most.",
+  "examples": [
+    "JSWSTEEL",
+    "TATASTEEL",
+    "HINDALCO",
+    "SAIL"
+  ],
+  "howItWorks": "A metals company does not set its own price. The price of steel or aluminium is decided by global supply and demand, above all China, and the company simply takes what the market gives. So the macro cycle, not management brilliance, drives most of the return. What management controls is cost per tonne and the balance sheet. Captive mines are a huge advantage, and low debt is survival, because when the cycle turns down, heavily indebted players can be crushed by interest before the price recovers.",
+  "metrics": [
+    {
+      "metric": "Realisation / Tonne",
+      "why": "The steel price realised, driven by global commodity cycles, not company decisions. Watch HRC and CRC benchmarks."
+    },
+    {
+      "metric": "EBITDA / Tonne",
+      "why": "Operating efficiency: profit squeezed per tonne despite input costs. ₹8,000-12,000/tonne is healthy for steel."
+    },
+    {
+      "metric": "Capacity Utilisation",
+      "why": "The demand environment. Low utilisation in a downcycle means both volume and margin pressure."
+    },
+    {
+      "metric": "Iron Ore / Coal Costs",
+      "why": "Input sensitivity. Captive mines are a huge advantage; import-dependent players suffer in commodity upcycles."
+    },
+    {
+      "metric": "Debt",
+      "why": "Cyclical risk. Metal companies carry heavy debt; in downcycles, debt service can overwhelm operations."
+    },
+    {
+      "metric": "Global commodity cycle",
+      "why": "The real sector direction. China demand, global supply and USD strength drive the cycle more than any company factor."
+    }
+  ],
+  "framework": {
+    "demand": "Capacity utilisation",
+    "pricing": "Realisation/tonne",
+    "efficiency": "EBITDA/tonne",
+    "capital": "ROCE",
+    "risk": "Debt / commodity cycle"
+  }
+}

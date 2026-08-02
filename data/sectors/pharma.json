@@ -1,0 +1,196 @@
+{
+  "name": "Pharma",
+  "icon": "💊",
+  "tagline": "US generics pipeline and USFDA compliance decide the fate.",
+  "examples": [
+    "SUNPHARMA",
+    "DRREDDY",
+    "CIPLA",
+    "DIVISLAB"
+  ],
+  "howItWorks": "An Indian pharma company is really two very different businesses wearing one uniform. At home it sells trusted brands for long-term illnesses, a steady, high-margin business. Abroad, mostly in America, it sells cheap copies of off-patent drugs in a brutal, price-cutting market. Sitting between the two is a factory, and whether the American drug regulator is happy with that factory can matter more than everything else put together. The sections below take these one at a time.",
+  "sections": [
+    {
+      "title": "First, what is a pharma company really?",
+      "intro": "The confusing thing about Indian pharma is that one company is doing two opposite jobs at once.",
+      "blocks": [
+        {
+          "concept": "Two businesses under one roof",
+          "body": "Almost every big Indian pharma company runs two businesses that could not be more different. One is the India business, where it sells branded medicines for ongoing conditions, calm, profitable and dependable. The other is the export business, mostly to the United States, where it sells plain copies of drugs whose patents have expired, in a market that grinds prices down every year. Understanding a pharma company means never mixing these two up, because they behave in completely opposite ways.",
+          "example": "The same company might earn a lovely, steady margin selling a heart-disease brand to Indian patients, while fighting tooth and nail on price for the identical molecule sold as a no-name generic in America. One business is a garden, the other is a knife fight."
+        },
+        {
+          "concept": "What a generic actually is",
+          "body": "When a new drug is invented, the company that made it gets a patent, a period of years where only it can sell that drug, at a high price. Once the patent runs out, anyone who can prove they make the same molecule safely is allowed to sell their own version. That copy is called a generic. Making generics is what most Indian pharma does best. The molecule is the same as the original; the only thing that has vanished is the monopoly and the fat price that came with it.",
+          "example": "A blood-pressure pill sells for a high price for years while under patent. The day the patent expires, a dozen generic makers pile in with the exact same pill, the price collapses, and the medicine gets cheap for everyone."
+        }
+      ]
+    },
+    {
+      "title": "The home business: brands doctors trust",
+      "intro": "The India half is the quiet, dependable engine, and it runs on something surprising: brand loyalty for generics.",
+      "blocks": [
+        {
+          "concept": "In India, even generics carry a brand",
+          "body": "Here is the quirk that makes the India business so good. Even though these are generic medicines, Indian companies sell them under their own brand names, and doctors get comfortable prescribing a particular brand they trust. That trust is sticky. A doctor who has prescribed a company's thyroid brand for a decade does not casually switch. So the India business earns healthy margins and enjoys a loyalty that a plain price-driven generic never could.",
+          "example": "Two pills can be chemically identical, but a doctor keeps writing the familiar brand because they trust its quality and consistency. That habit, repeated across thousands of doctors, is worth a great deal."
+        },
+        {
+          "concept": "Chronic beats acute",
+          "body": "Within the India business, the best kind of medicine is one for a long-term illness, what the industry calls chronic conditions: heart disease, diabetes, blood pressure, thyroid. A patient takes these every day, for years, so the prescription repeats month after month like a subscription. Medicines for short-term problems, the acute ones like a fever or an infection, are taken once and stop, so that revenue is lumpier and more seasonal. A company weighted toward chronic care has smoother, more predictable earnings.",
+          "example": "A diabetes patient refills the same medicine every month for the rest of their life. An antibiotic is bought for a week and then forgotten. Guess which one a pharma company would rather build its business on."
+        }
+      ]
+    },
+    {
+      "title": "The export business: the American grind",
+      "intro": "The US half can be huge, but it is a far harsher place to make a living.",
+      "blocks": [
+        {
+          "concept": "Prices only fall",
+          "body": "Selling generics in America is a volume game with no loyalty. Whoever offers the drug cheapest tends to win the order, and as more makers pile onto a molecule, the price only ever grinds downward. This is called price erosion, and it is relentless. A drug that earned good money this year will earn less next year purely because more competitors showed up. So the US business is a treadmill: a company has to keep launching new generics just to stand still.",
+          "example": "A generic launches at a decent price with two rivals. A year later there are eight rivals, the price has fallen by half, and the money the company banked on that drug quietly shrinks, even though it did nothing wrong."
+        },
+        {
+          "concept": "Every new generic needs a permission slip (ANDA)",
+          "body": "To sell a generic in America, a company must file an application with the US regulator proving its copy is as good as the original, and wait for approval. That filing is called an ANDA. A company's stack of pending and approved ANDAs is basically its pipeline of future US products, so a thick pipeline means years of new launches to fight the price erosion, and a thin one means trouble ahead.",
+          "example": "A company with dozens of approved ANDAs has a steady stream of new products to launch each year. One with an empty pipeline is running out of ways to replace the revenue that erosion keeps eating."
+        },
+        {
+          "concept": "The occasional jackpot: first-to-file",
+          "body": "Once in a while there is a real prize. The first company to challenge a patent and file to make a particular generic can win six months where it is the only generic version allowed, before the crowd is let in. For those six months it enjoys near-monopoly pricing and the profits can be enormous. But it is a one-off windfall, not a steady stream, so it is important not to mistake a jackpot quarter for the normal run rate.",
+          "example": "Win the exclusive six-month window on a big drug and a company can make a spectacular, headline-grabbing profit. Then the window closes, the other generics flood in, the price crashes, and that windfall does not come back."
+        }
+      ]
+    },
+    {
+      "title": "The factory decides everything: the USFDA",
+      "intro": "This is the risk that makes pharma pharma. Nothing else on the page matters if this goes wrong.",
+      "blocks": [
+        {
+          "concept": "The American regulator inspects Indian factories",
+          "body": "To sell medicine in America, a company's factory has to pass inspection by the US Food and Drug Administration, the USFDA, even though the plant sits in India. These inspectors turn up and check that everything is spotlessly, provably up to standard. What they find decides whether that factory can keep exporting to its most profitable market. This single relationship hangs over every Indian pharma company like weather.",
+          "example": "An inspector spends a week walking a plant in Gujarat or Hyderabad, checking records and processes. Their report can make or break a year's earnings for the whole company."
+        },
+        {
+          "concept": "The escalating ladder of trouble",
+          "body": "When inspectors are unhappy, the trouble comes in steps. First they issue a list of observations, known as a Form 483, a warning to fix things. If it is not fixed well enough, that becomes a Warning Letter, which is serious. At the worst end sits an import alert, where America simply bans that factory's medicines until the mess is cleaned up, which can take years. Each step up the ladder chops away more of the company's most valuable revenue.",
+          "example": "A factory gets a Warning Letter, and suddenly no new products from that plant can be approved for the US, freezing a chunk of the pipeline. If it escalates to an import alert, the existing US sales from that plant stop dead too."
+        },
+        {
+          "concept": "Why a great quarter can still be a landmine",
+          "body": "This is what makes pharma unusual. A company can be growing beautifully, with a rich pipeline and rising profits, and then a single bad inspection at one important factory can wipe out a large slice of earnings overnight, no matter how well the rest of the business is doing. So with pharma you can never look only at the growth. You always have to ask how clean the factories are.",
+          "example": "The numbers look wonderful, the pipeline is deep, the stock is loved, and then one Warning Letter on the plant that makes half the US products turns the whole story upside down in a single day."
+        }
+      ]
+    },
+    {
+      "title": "Betting on the future: R&D",
+      "intro": "Because old drugs keep eroding, a pharma company has to keep inventing its next act.",
+      "blocks": [
+        {
+          "concept": "R&D is buying tomorrow's pipeline",
+          "body": "Research and development spending is how a pharma company funds its future products. Too little, and the pipeline dries up and erosion slowly eats the business. But the kind of R&D matters as much as the amount. Spending to churn out yet more simple generics is low-value, because everyone can do it. Spending to crack hard-to-make complex generics and biosimilars, copies of advanced biological drugs, is where the durable, better-protected profits of the future live.",
+          "example": "A company spending heavily to master a difficult inhaler or an injectable that few rivals can copy is buying years of protected margin. One spending the same money on ordinary pills is just feeding the treadmill."
+        }
+      ]
+    },
+    {
+      "title": "Where pharma breaks",
+      "intro": "Beyond the factory risk, a few specific cracks show up again and again.",
+      "blocks": [
+        {
+          "concept": "Leaning on one or two big drugs",
+          "body": "Some companies earn a huge share of their US profit from just a couple of products. That is lovely while it lasts, but the moment competition arrives on one of those drugs, or its exclusivity ends, a big lump of profit can vanish at once. A pharma company resting on a couple of blockbusters is more fragile than its smooth numbers suggest.",
+          "example": "A firm making most of its US money from a single high-margin generic sees three new competitors launch the same drug. The price halves, and a big part of the company's profit disappears in a couple of quarters."
+        },
+        {
+          "concept": "The government capping prices at home",
+          "body": "In India, the government keeps a list of essential medicines whose prices it controls, to keep healthcare affordable. That is good for patients, but it caps the margin on any drug that lands on the list. A company heavy in price-controlled medicines has less room to raise prices and protect its profitability.",
+          "example": "A widely-used medicine gets added to the essential-drugs price list, and its price is frozen at a modest level by rule. Every company selling it takes a margin hit, however well run."
+        },
+        {
+          "concept": "Betting the whole business on America",
+          "body": "A company that sells almost entirely into the US carries all the price erosion and all the factory risk in one basket. The steadier players spread their exports across America, Europe, emerging markets and a strong India business, so that a bad patch in any one place does not sink the whole ship. Geographic concentration is a quiet but real risk.",
+          "example": "When US price erosion turns nasty, a company selling only to America feels the full force of it. One with a big India business and sales across many countries barely flinches."
+        }
+      ]
+    },
+    {
+      "title": "How to actually value a pharma company",
+      "intro": "The blended profit hides two very different engines and one landmine. Value them separately.",
+      "blocks": [
+        {
+          "concept": "Split the calm from the lumpy",
+          "body": "A pharma company's headline profit blends the steady India business with the jumpy, erosion-prone US business, and sometimes a one-off first-to-file windfall on top. Judge the whole thing on a single number and you can badly misread it, mistaking a lucky jackpot quarter for the normal run rate, or a temporary US slump for a broken company. The right way is to value the durable India engine for its steadiness and treat the US business for what it is: valuable, but volatile and always shadowed by factory risk.",
+          "example": "A company can post a stunning quarter purely because of a six-month exclusivity that will not repeat. Read that as the new normal and you will overpay badly when the window shuts."
+        },
+        {
+          "concept": "What to actually look at",
+          "body": "So put the single PE aside and read a pharma company through a few clearer windows.",
+          "bullets": [
+            {
+              "term": "Domestic chronic growth",
+              "desc": "How fast the India business, especially the recurring chronic-illness brands, is growing. This is the calm, high-quality engine, and steady growth here is worth a lot."
+            },
+            {
+              "term": "Pipeline quality, not just size",
+              "desc": "Not merely how many US approvals are pending, but whether they are hard-to-make complex products that resist erosion, or ordinary generics that will be competed away. Quality of pipeline beats quantity."
+            },
+            {
+              "term": "Factory track record",
+              "desc": "The regulatory history of the key plants. A clean inspection record is worth real money; a plant under a Warning Letter is a live risk sitting under the earnings, however good the pipeline looks."
+            },
+            {
+              "term": "EV/EBITDA",
+              "desc": "A price gauge that handles the debt and the heavy investment better than plain PE, and lets you compare pharma companies more fairly."
+            }
+          ],
+          "outro": "Read together, these tell you how much of the profit is durable, how protected the future is, and how big the hidden factory risk is, which is far more than any single PE number can say.",
+          "example": "A company with a fast-growing chronic India business, a pipeline full of complex products and a spotless factory record deserves a premium. One leaning on lumpy US windfalls from a plant with a shaky inspection history does not, whatever its PE suggests."
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "Domestic Formulations Growth",
+      "why": "India business quality. Chronic therapies mean recurring prescriptions and stable revenue; acute is volatile and seasonal."
+    },
+    {
+      "metric": "US Generic Revenue & ANDA Pipeline",
+      "why": "The biggest earnings swing. ANDA count and first-to-file opportunities signal US pricing power. Revenue can be lumpy."
+    },
+    {
+      "metric": "R&D Spend %",
+      "why": "Pipeline investment. Generic-focused runs 4-6% of sales; complex generics and biosimilars 8-14%. Too low means no future."
+    },
+    {
+      "metric": "EBITDA Margin",
+      "why": "Operating efficiency. Top-tier Indian pharma does 22-28%. API-heavy players are lower; US price erosion compresses it."
+    },
+    {
+      "metric": "API vs Formulations Mix",
+      "why": "Margin quality. API is upstream, capital-intensive and cyclical; branded formulations carry 40-60% gross margins."
+    },
+    {
+      "metric": "Chronic vs Acute Mix",
+      "why": "Revenue quality. A higher chronic mix means recurring prescriptions and smoother earnings; acute is one-time."
+    },
+    {
+      "metric": "USFDA Compliance Status",
+      "why": "The existential risk. A warning letter shuts US exports; a Form 483 needs watching; an import alert is a ban until resolved."
+    },
+    {
+      "metric": "Export Diversification",
+      "why": "Concentration risk. US-only exposure is volatile; EU, EM and rest-of-world diversification is a buffer."
+    }
+  ],
+  "framework": {
+    "demand": "Domestic Rx growth",
+    "pricing": "EBITDA margin",
+    "efficiency": "R&D spend %",
+    "capital": "ROCE",
+    "risk": "USFDA compliance"
+  }
+}

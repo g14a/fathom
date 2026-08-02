@@ -1,0 +1,49 @@
+{
+  "name": "FMCG",
+  "icon": "🛒",
+  "tagline": "Volume growth is real demand. Price growth is inflation.",
+  "examples": [
+    "HINDUNILVR",
+    "NESTLEIND",
+    "DABUR",
+    "MARICO"
+  ],
+  "howItWorks": "FMCG sells small, cheap, repeat-purchase products to hundreds of millions of people, and its real moat is distribution: getting a product onto a shelf in a village no competitor can reach cost-effectively. Because the products are cheap and habitual, a company can raise prices quietly for years. That is the trap in the numbers: revenue can grow on price alone while actual demand stalls. Always split growth into volume and price. Volume is real people buying more; price is just inflation passing through.",
+  "metrics": [
+    {
+      "metric": "Volume Growth",
+      "why": "Real demand stripped of price hikes. Pricing inflates revenue; volume shows whether consumers actually buy more."
+    },
+    {
+      "metric": "Gross Margin",
+      "why": "Raw-material sensitivity. When commodities spike, gross margin contracts first. Watch input cycles."
+    },
+    {
+      "metric": "EBITDA Margin",
+      "why": "Operating leverage. 20-25% is standard for large FMCG; premiumisation pushes it higher."
+    },
+    {
+      "metric": "Distribution Reach",
+      "why": "The moat. Rural and semi-urban penetration expands the addressable market and is hard to replicate."
+    },
+    {
+      "metric": "Market Share",
+      "why": "Competitive position. Gaining share in a flat market beats losing share in a growing one."
+    },
+    {
+      "metric": "ROCE",
+      "why": "Capital efficiency. FMCG should post high ROCE, 25-50%, given low capex intensity."
+    },
+    {
+      "metric": "Ad Spend %",
+      "why": "Brand investment. Cutting A&P to flatter short-term margins weakens the long-term franchise."
+    }
+  ],
+  "framework": {
+    "demand": "Volume growth",
+    "pricing": "Gross margin",
+    "efficiency": "EBITDA margin",
+    "capital": "ROCE",
+    "risk": "Market share loss"
+  }
+}

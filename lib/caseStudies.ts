@@ -14,6 +14,8 @@ export interface CaseStudy {
   title: string;
   period: string;      // e.g. "2018 → 2020"
   tags: string[];
+  sectorId?: string;             // links to the /sectors/<id> fundamentals primer
+  relatedCaseStudies?: string[]; // ids of other case studies referenced here
   summary: string;     // one-line hook for the index card
   keyNumbers: { label: string; value: string }[];
   intro: string[];     // opening paragraphs

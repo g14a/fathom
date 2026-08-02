@@ -1,0 +1,101 @@
+{
+  "name": "SaaS / Software",
+  "icon": "💻",
+  "tagline": "Gross margin and NRR matter more than revenue.",
+  "examples": [
+    "TATAELXSI",
+    "PERSISTENT",
+    "KPITTECH",
+    "MPHASIS"
+  ],
+  "howItWorks": "Software is sold once and billed forever. The cost to serve the next customer is close to zero, so a good SaaS business compounds on top of a base that keeps paying. The single most powerful signal is whether existing customers spend more each year without any new sales, because that means the product is growing itself. The enemy is churn: a leaky bucket kills compounding no matter how fast the top of the funnel fills. Judge it on retention and gross margin long before you judge it on revenue.",
+  "sections": [
+    {
+      "title": "First, what is a SaaS business really?",
+      "intro": "Software has the best economics of almost any business, for one simple reason.",
+      "blocks": [
+        {
+          "concept": "Build once, bill forever",
+          "body": "Software is written once and then sold to customer after customer at almost no extra cost. Better still, customers pay every month or year to keep using it. So a good software business compounds on top of a base of customers who keep paying, and each new customer is close to pure profit.",
+          "example": "It costs a software company almost nothing to add the next customer to a product it has already built. That is why the best ones are so profitable at scale."
+        },
+        {
+          "concept": "The magic and the enemy: retention",
+          "body": "The whole model rests on customers staying and, ideally, spending more each year. The magic is when existing customers grow their own spending without any new sales. The enemy is churn, customers leaving. A leaky bucket destroys the compounding no matter how many new customers pour in the top.",
+          "example": "If a company keeps every customer and each one spends more each year, it grows without selling anything new. If customers keep leaving, it has to run just to stand still."
+        }
+      ]
+    },
+    {
+      "title": "How to read a SaaS business",
+      "blocks": [
+        {
+          "concept": "Recurring revenue and net retention",
+          "body": "The heartbeat is annual recurring revenue, the predictable subscription base. The single best quality signal is net revenue retention: revenue from existing customers, including their expansion, minus churn. Above 110% means the business grows even with zero new customers.",
+          "example": "Net retention of 120% means last year’s customers are worth 20% more this year on their own. That is the mark of a product people cannot do without."
+        },
+        {
+          "concept": "Unit economics: does growth pay off?",
+          "body": "Growth costs money to acquire customers. The test is whether a customer is worth far more over their life than they cost to win, and whether the software itself is high-margin (a gross margin of 70 to 80%). Cheap growth that never pays back is just burning cash.",
+          "example": "A lifetime-value-to-acquisition-cost ratio above 3 is healthy. Below 2, the company is spending more to grow than the growth is actually worth."
+        }
+      ]
+    },
+    {
+      "title": "Where SaaS breaks, and how to value it",
+      "blocks": [
+        {
+          "concept": "Churn and empty growth",
+          "body": "The killers are high churn, the leaky bucket, and growth bought with heavy discounting or costly sales that never turns profitable. A company can look like it is growing fast while quietly losing money on every customer it adds.",
+          "example": "Below 5% annual churn is a sticky product. Above 15% is a leaky bucket that kills the compounding no matter how fast new sales come in."
+        },
+        {
+          "concept": "Value it on retention and cash, not accounting profit",
+          "body": "Read a SaaS company on recurring-revenue growth, net retention, gross margin, and free cash flow, because accounting profit is easy to massage but cash is not. The Rule of 40, revenue growth plus profit margin above 40, is a quick health check.",
+          "example": "A company growing 30% with a 15% cash margin scores 45 on the Rule of 40, a healthy balance of growth and profitability."
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "ARR (Annual Recurring Revenue)",
+      "why": "The recurring, predictable revenue base. The heartbeat metric; high-quality SaaS grows it 30%+."
+    },
+    {
+      "metric": "Net Revenue Retention (NRR)",
+      "why": "Revenue from existing customers including expansion minus churn. Above 110% means growth without new sales. The best moat signal."
+    },
+    {
+      "metric": "CAC (Customer Acquisition Cost)",
+      "why": "The cost to win one customer. Rising CAC with flat NRR means deteriorating unit economics."
+    },
+    {
+      "metric": "LTV / CAC",
+      "why": "The unit-economics ratio. Above 3x is healthy; below 2x means burning money to grow."
+    },
+    {
+      "metric": "Gross Margin",
+      "why": "Software efficiency. 70-80% is normal. Below 60% points to a services drag."
+    },
+    {
+      "metric": "Churn Rate",
+      "why": "Below 5% annual churn is a sticky product. Above 15% is a leaky bucket that kills compounding."
+    },
+    {
+      "metric": "Rule of 40",
+      "why": "Revenue growth plus FCF margin. A score above 40 is a healthy balance of growth and profitability."
+    },
+    {
+      "metric": "Free Cash Flow Margin",
+      "why": "Real profitability. Accounting profit can be massaged; FCF cannot. Positive FCF means self-funding."
+    }
+  ],
+  "framework": {
+    "demand": "ARR growth",
+    "pricing": "NRR",
+    "efficiency": "Gross margin",
+    "capital": "FCF margin",
+    "risk": "Churn"
+  }
+}

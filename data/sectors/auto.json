@@ -1,0 +1,53 @@
+{
+  "name": "Auto & Auto Parts",
+  "icon": "🚗",
+  "tagline": "Volume is the demand. Profit per vehicle is the quality.",
+  "examples": [
+    "MARUTI",
+    "M&M",
+    "TATAMOTORS",
+    "BAJAJ-AUTO"
+  ],
+  "howItWorks": "A carmaker earns per vehicle it sells, so the business runs on two things: how many it sells, and how much it keeps on each one. Volume is the demand signal, but the quality of the business shows up in the profit per vehicle, which rises when buyers trade up to pricier, better-loaded models. The parts makers who supply the carmakers ride the same wave, and the whole sector is being reshaped by the slow shift from petrol and diesel to electric, which rewards some players and threatens others. Watch out for a hidden trap: revenue can climb on discounts and cheap models while the profit on each vehicle quietly shrinks.",
+  "metrics": [
+    {
+      "metric": "Volume Growth",
+      "why": "Units sold, split by type (two-wheelers, cars, trucks, tractors). The rawest read on real demand, before any price effects."
+    },
+    {
+      "metric": "Average Selling Price",
+      "why": "The price of the typical vehicle sold. Rising ASP means buyers are trading up to costlier models, which lifts revenue and usually margin."
+    },
+    {
+      "metric": "Profit per Vehicle (EBITDA)",
+      "why": "How much the company actually keeps on each vehicle. The truest measure of pricing power and cost control in the business."
+    },
+    {
+      "metric": "Market Share",
+      "why": "Whether the company is winning or losing against rivals. Gaining share in a flat market is far better than riding a rising one."
+    },
+    {
+      "metric": "Export Share",
+      "why": "How much is sold abroad. Diversifies away from one economy and can add a currency tailwind, but also imports foreign risks."
+    },
+    {
+      "metric": "EV Readiness",
+      "why": "How prepared the company is for the shift to electric. Being on the winning side of that change (batteries, electronics) versus the losing side (engine parts) is a structural, make-or-break issue."
+    },
+    {
+      "metric": "Raw Material Cost",
+      "why": "Steel, aluminium and battery costs are the biggest swing in the cost base. When commodities spike, margins get squeezed first here."
+    },
+    {
+      "metric": "Dealer Inventory",
+      "why": "How many weeks of unsold stock sit with dealers. Rising inventory is an early warning that demand is cooling before the sales numbers show it."
+    }
+  ],
+  "framework": {
+    "demand": "Volume growth",
+    "pricing": "Average selling price",
+    "efficiency": "Profit per vehicle",
+    "capital": "ROCE",
+    "risk": "EV shift / raw material costs"
+  }
+}

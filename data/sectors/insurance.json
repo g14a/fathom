@@ -1,0 +1,103 @@
+{
+  "name": "Insurance",
+  "icon": "🛡️",
+  "tagline": "Traditional valuation fails. Use EV and VNB.",
+  "examples": [
+    "HDFCLIFE",
+    "ICICIGI",
+    "LICI",
+    "SBILIFE"
+  ],
+  "howItWorks": "An insurer sells a promise today and pays out years or decades later, which is why normal profit and PE mean almost nothing here. It collects premiums, invests the float, and hopes it priced the risk correctly. The profit in a life policy is spread across its whole life, so the industry invented its own yardsticks: the value baked into each new policy sold, and the embedded value of the whole book. Read a life insurer through those, plus how many customers keep paying their renewals, because a policy that lapses in year two was an expensive sale that earned nothing.",
+  "sections": [
+    {
+      "title": "First, what is an insurer really?",
+      "intro": "An insurer is one of the few businesses where this year’s profit tells you almost nothing.",
+      "blocks": [
+        {
+          "concept": "It sells a promise now and pays later",
+          "body": "An insurer takes premiums from many people today and promises to pay out to the unlucky few later, sometimes decades later. In between, it invests that pool of money. So its profit is not this year’s premiums; it is spread across the entire life of the policies it sold, which is why normal profit and PE mean almost nothing here.",
+          "example": "You pay a life-insurance premium every year for thirty years. The insurer collects it, invests it, and only pays out far in the future. This year’s reported profit says very little about whether that policy was priced well."
+        },
+        {
+          "concept": "The float, and getting the price right",
+          "body": "The pile of premiums an insurer holds before it pays claims is called the float, and investing it is a big source of profit. But the core skill is pricing risk correctly, charging enough to cover the claims that will eventually come. Underprice, and it grows fast then loses fortunes when the claims arrive.",
+          "example": "A health insurer that charges too little wins lots of customers quickly, then gets buried when the medical bills roll in."
+        }
+      ]
+    },
+    {
+      "title": "How to read an insurer (forget PE)",
+      "blocks": [
+        {
+          "concept": "The value baked into each new policy",
+          "body": "Because profit is spread over decades, the industry invented its own yardsticks. The value of new business, and its margin, measure the profit embedded in the policies sold this year. Embedded value measures the worth of the whole book. A life insurer is read through these, and usually priced on its embedded value, not PE.",
+          "example": "A value-of-new-business margin above 25% is excellent. It means every new policy sold is highly profitable, even if the accounting profit this year looks small."
+        },
+        {
+          "concept": "Do customers keep paying?",
+          "body": "A policy only makes money if the customer keeps paying the renewals. Persistency measures how many stick around. High persistency means the sales were genuine and the book is healthy; low persistency means policies were mis-sold and lapse, wasting the cost of every sale.",
+          "example": "Thirteenth-month persistency above 85% is good. If lots of customers stop paying after year one, those were expensive sales that earned nothing."
+        }
+      ]
+    },
+    {
+      "title": "Life versus general insurance",
+      "blocks": [
+        {
+          "concept": "Two different animals",
+          "body": "Life insurance is long-term: decades of premiums, read on embedded value and new-business margin. General insurance (health, motor, fire) is short-term: you insure for a year and renew, and it is read on the combined ratio, which is claims plus costs as a share of premiums. Below 100% means the insurance itself makes money; above 100% means it loses on insurance and leans on investment income.",
+          "example": "A general insurer with a combined ratio of 95% makes money purely on underwriting. One at 110% is paying out more than it takes in and hoping its investments cover the gap."
+        }
+      ]
+    },
+    {
+      "title": "Where insurers break, and how to value them",
+      "blocks": [
+        {
+          "concept": "Mispricing and mis-selling",
+          "body": "The two classic failures are underpricing risk, where a wave of claims wipes out years of premiums, and mis-selling, where policies lapse or the book was built on false promises. Watch the solvency ratio, the cushion that proves the insurer can pay future claims.",
+          "example": "Regulators require a solvency ratio of at least 150%. A comfortably higher number signals strength; a thin one signals a stretched insurer."
+        },
+        {
+          "concept": "Value it on EV and VNB, not PE",
+          "body": "For life insurers, use price-to-embedded-value and the new-business margin, plus persistency and solvency. For general insurers, the combined ratio is king. PE will mislead you in both.",
+          "example": "A life insurer growing embedded value 15% or more a year with strong new-business margins and high persistency is a quality compounder, whatever its PE says."
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "APE Growth",
+      "why": "Annualised premium equivalent, the sales-volume topline for life insurers."
+    },
+    {
+      "metric": "VNB Margin",
+      "why": "Value of new business margin, the profitability of each new policy sold. Above 25% is excellent."
+    },
+    {
+      "metric": "Persistency Ratio",
+      "why": "Policy renewals. 13th-month above 85% is good. It measures stickiness and the quality of the sale."
+    },
+    {
+      "metric": "Embedded Value (EV)",
+      "why": "Intrinsic value: adjusted net worth plus the present value of future profits. The PE equivalent for insurers."
+    },
+    {
+      "metric": "EV Growth",
+      "why": "The long-term compounding indicator. 15%+ EV growth signals a strong franchise."
+    },
+    {
+      "metric": "Solvency Ratio",
+      "why": "The ability to pay future claims. IRDAI minimum is 150%. Higher means more financial strength."
+    }
+  ],
+  "framework": {
+    "demand": "APE growth",
+    "pricing": "VNB margin",
+    "efficiency": "Persistency ratio",
+    "capital": "EV growth",
+    "risk": "Solvency ratio"
+  }
+}

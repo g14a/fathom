@@ -1,0 +1,45 @@
+{
+  "name": "E-commerce",
+  "icon": "📦",
+  "tagline": "GMV is vanity; contribution margin is sanity.",
+  "examples": [
+    "NYKAA",
+    "DELHIVERY",
+    "ZOMATO",
+    "FIRSTCRY"
+  ],
+  "howItWorks": "An online platform sits between buyers and sellers and keeps a slice of every transaction. The headline number everyone quotes, gross merchandise value, is mostly vanity, because it is easy to buy growth by subsidising customers into a loss. The honest question is whether the platform keeps more of each order than it spends to serve it, and whether customers come back on their own instead of being paid to return. Repeat purchases lower acquisition cost over time and are the real compounding engine; without them the model is just burning cash for GMV.",
+  "metrics": [
+    {
+      "metric": "GMV (Gross Merchandise Value)",
+      "why": "Total transaction value on the platform. A scale metric, but inflated by high-return categories. Watch take rate."
+    },
+    {
+      "metric": "Take Rate",
+      "why": "Revenue over GMV, how much of each transaction the platform keeps. Rising take rate means monetisation is working."
+    },
+    {
+      "metric": "CAC (Customer Acquisition Cost)",
+      "why": "The cost to win each new user. Rising CAC with flat repeat rates means the unit economics are breaking."
+    },
+    {
+      "metric": "Repeat Purchase Rate",
+      "why": "Loyalty. High repeat means organic growth and lower CAC over time, the compounding engine."
+    },
+    {
+      "metric": "Contribution Margin",
+      "why": "Revenue minus variable cost per order. Positive is a path to profit; negative means still subsidising growth."
+    },
+    {
+      "metric": "Logistics Cost",
+      "why": "A major expense. Owning versus outsourcing logistics changes the margin structure; higher order density lowers per-unit cost."
+    }
+  ],
+  "framework": {
+    "demand": "GMV / order volume",
+    "pricing": "Take rate",
+    "efficiency": "Logistics cost",
+    "capital": "Contribution margin",
+    "risk": "CAC / churn"
+  }
+}

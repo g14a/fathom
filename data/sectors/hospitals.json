@@ -1,0 +1,198 @@
+{
+  "name": "Hospitals",
+  "icon": "🏥",
+  "tagline": "Occupancy and ARPOB tell the whole story.",
+  "examples": [
+    "APOLLOHOSP",
+    "MAXHEALTH",
+    "FORTIS",
+    "NH"
+  ],
+  "howItWorks": "A hospital is really an expensive building full of costs that do not care whether patients show up. The beds, the machines, the doctors and nurses all have to be paid for whether the ward is full or half empty. So the whole business comes down to two questions: how full are the beds, and how much does each full bed earn? Everything below builds from there.",
+  "sections": [
+    {
+      "title": "First, what is a hospital business really?",
+      "intro": "Forget the white coats for a moment and look at it the way an owner does.",
+      "blocks": [
+        {
+          "concept": "A hospital is a building of fixed costs",
+          "body": "Most of what a hospital spends is fixed. Whether a ward is packed or half empty, the building still costs the same, the expensive scanner still has to be paid off, and the doctors and nurses still draw their salaries. Those costs do not budge with how busy the place is. That one fact shapes everything, because it means the difference between a great hospital and a struggling one is not the costs, it is how well it fills the beds it has already paid for.",
+          "example": "A 200-bed hospital pays for 200 beds' worth of building, equipment and staff every single day. If only 100 beds are in use, it is carrying the full cost while earning off half the rooms. Fill 170 of those beds and almost every extra rupee drops straight to profit."
+        },
+        {
+          "concept": "It earns per bed, per night",
+          "body": "Strip it right down and a hospital sells one thing: a bed with care attached, for a night. A patient checks in, occupies a bed, uses the theatre, the scans, the medicines and the doctors, and pays for all of it. So the whole business boils down to two levers pulling in the same direction: how many of the beds are occupied, and how much money each occupied bed brings in. Get both climbing and a hospital is a wonderful business. Let either one slip and it struggles.",
+          "example": "Think of it a bit like a hotel that also does surgery. An empty room earns nothing tonight and you can never sell tonight's empty room again. A full room earns its rent plus everything the guest spends inside. A hospital just plays that game with far higher stakes."
+        }
+      ]
+    },
+    {
+      "title": "How a hospital fills beds and earns from them",
+      "intro": "Four numbers do almost all the work. Learn these and you can read any hospital.",
+      "blocks": [
+        {
+          "concept": "How full it is: occupancy",
+          "body": "Occupancy is simply the share of beds that are actually in use. Because the costs are fixed, this is the single biggest swing factor in whether a hospital makes money. Below about 60% a hospital is struggling to cover its costs. Between 60% and 75% it is healthy. Push past 75% and it is humming, with each extra patient adding almost pure profit on top of costs already paid.",
+          "example": "Run at 50% and you are paying for a full hospital while earning off half of it. Climb to 75% and the same building, the same staff, the same machines are suddenly throwing off serious profit, because you barely spent anything more to treat those extra patients."
+        },
+        {
+          "concept": "How much each bed earns: ARPOB",
+          "body": "Filling beds is only half the story. The other half is how much money each occupied bed brings in, and hospital people have a name for it: ARPOB, the average revenue per occupied bed. Two hospitals can be equally full and yet one earns far more per bed, because it does more complex, higher-value work and treats better-paying patients. Rising ARPOB is usually the clearest sign a hospital is moving upmarket rather than just getting busier.",
+          "example": "A bed used for a simple fever earns a little. The same bed used for a heart surgery, with its theatre time, implants and specialists, earns many times more. A hospital that keeps shifting its beds toward the second kind of work lifts its ARPOB without adding a single new bed."
+        },
+        {
+          "concept": "The kind of work it does: case mix",
+          "body": "Behind ARPOB sits case mix, which just means the blend of simple versus complex treatments a hospital handles. Complex specialties like cardiac care, cancer and neurosurgery pay far more than routine work, and they are harder for a rival down the road to copy. So a hospital building a reputation as the place to go for heart or cancer care is quietly building both higher margins and a real moat at the same time.",
+          "example": "A hospital known across the city for cancer treatment attracts the toughest, best-paying cases and the best doctors to handle them. A general hospital doing mostly routine admissions competes with everyone and earns like it."
+        },
+        {
+          "concept": "How fast beds turn over: length of stay",
+          "body": "There is a subtle lever too: how long the average patient stays, which the industry calls length of stay. A shorter stay for the same treatment means the bed is freed up sooner for the next patient, so the hospital treats more people through the same beds in a year. Handled well, that is pure efficiency. But read it carefully, because a shorter stay is only good news if the hospital is still just as full afterwards.",
+          "example": "If a hospital trims the average stay from six nights to four for the same surgery and stays just as full, it now runs far more patients through the same beds each year. More throughput, same building, higher returns."
+        }
+      ]
+    },
+    {
+      "title": "Who actually pays the bill",
+      "intro": "The same treatment earns very different money depending on who is footing it.",
+      "blocks": [
+        {
+          "concept": "Payer mix decides the margin",
+          "body": "Not every patient is worth the same to a hospital, because different payers pay differently. International patients and cash-paying patients pay the most and pay quickly. Insurance sits in the middle: reliable, but it negotiates hard and pays slowly. Government schemes pay the least of all, often at rates barely above cost. So a hospital's payer mix, the blend of who is settling the bills, quietly sets its profitability before a single patient is even treated.",
+          "example": "A hospital in a rich neighbourhood full of insured and international patients earns far more per bed than an identical building running mostly on low-paying government scheme patients. Same medicine, very different economics, purely because of who pays."
+        }
+      ]
+    },
+    {
+      "title": "The types of hospital business",
+      "intro": "They are not all the same bet, even under one \"hospital\" label.",
+      "blocks": [
+        {
+          "concept": "The big multi-specialty chains",
+          "body": "These run large hospitals across many cities, covering everything from maternity to organ transplants. Their strength is scale and reputation: a trusted brand pulls in patients and top doctors alike, and a network lets them spread costs and share expertise. Most of the market's favourite hospital stocks are these chains, because a mature, full, well-known hospital is a genuine cash machine.",
+          "example": "Apollo Hospitals, Max Healthcare, Fortis, Narayana."
+        },
+        {
+          "concept": "Single-specialty players",
+          "body": "Some focus on doing one thing extremely well, like eye care, kidney care or maternity. By repeating the same few procedures thousands of times they get very efficient and very good, which can mean high margins and a strong niche brand. The trade-off is concentration: their whole fortune rides on that one specialty and whatever happens to its pricing.",
+          "example": "A chain of eye hospitals doing cataract surgery at scale, or a dialysis network. Narrow, but often superbly run within that narrow lane."
+        },
+        {
+          "concept": "The asset-light operators",
+          "body": "A newer model is to run hospitals without owning the expensive building, managing a property someone else paid for in return for a share of the revenue. It grows the brand and bed count without pouring in huge capital, which lifts returns. The catch is that the profit gets shared with the owner of the bricks, so each hospital earns the operator a bit less.",
+          "example": "An operator that signs a deal to run a hospital a developer built, taking a cut of the revenue rather than putting up the crores itself. More beds, less capital, thinner slice per bed."
+        }
+      ]
+    },
+    {
+      "title": "What actually moves a hospital stock",
+      "intro": "Two forces matter more than any single quarter.",
+      "blocks": [
+        {
+          "concept": "New hospitals ramping up",
+          "body": "A brand new hospital does not fill up on day one. It takes years to build a reputation, win over doctors and reach the occupancy where it finally makes money, usually somewhere around two-thirds full. During that wait it bleeds losses. So a chain busy opening new hospitals will look less profitable than it really is, because the healthy mature hospitals are being dragged down by the young ones still finding their feet. When those new hospitals finally fill, profit jumps, sometimes dramatically.",
+          "example": "A chain opens five new hospitals. For three or four years they lose money while filling up, dragging the whole company's profit down. Then they cross breakeven roughly together, and suddenly the group's earnings surge, even though nothing new was built."
+        },
+        {
+          "concept": "The mature core getting fuller and richer",
+          "body": "Underneath the new-hospital noise sits the real engine: the older, established hospitals steadily filling up and shifting toward higher-value work. That quiet climb in occupancy and revenue per bed at the mature hospitals is what genuinely compounds, because it costs almost nothing extra to earn. A hospital stock does well when that core keeps improving even as new beds get added on top.",
+          "example": "An old flagship hospital going from 70% to 78% full while doing more cardiac and cancer work earns meaningfully more from the exact same building. Multiply that across a dozen mature hospitals and it is a powerful, low-cost source of growth."
+        }
+      ]
+    },
+    {
+      "title": "Where hospitals break",
+      "intro": "The risks here are specific, and easy to miss if you only look at the headline profit.",
+      "blocks": [
+        {
+          "concept": "Expanding too fast on borrowed money",
+          "body": "Hospitals are enormously expensive to build, and the temptation is to borrow heavily and open lots of them at once. That is fine if the new hospitals fill up on schedule. It is dangerous if they do not, because the debt has to be serviced whether the beds are occupied or not. An over-ambitious chain can find itself paying interest on empty wards, and that is how hospital companies get into trouble.",
+          "example": "A chain borrows heavily to open six hospitals at once. Demand disappoints, the new beds fill slowly, and the interest bill lands every month regardless. What looked like bold growth turns into a cash squeeze."
+        },
+        {
+          "concept": "Leaning too hard on a few star doctors",
+          "body": "A lot of a hospital's pull comes from its best specialists, the surgeons patients travel across the state to see. That is a strength until one of them leaves and takes their patients along. A hospital overly dependent on a handful of star names carries a quiet, hard-to-see risk in its most important asset, one that walks out of the building every evening.",
+          "example": "A hospital famous for its heart programme loses its lead cardiac surgeon to a rival. Some of the toughest, best-paying cases follow the doctor out the door, and a whole department takes a hit."
+        },
+        {
+          "concept": "The government capping prices",
+          "body": "Healthcare is politically sensitive, so the government sometimes steps in to cap what hospitals can charge for certain procedures, implants or medicines. A price cap can wipe out the margin on a whole line of treatment overnight, no matter how well the hospital is run. It is a risk that comes from outside the business entirely.",
+          "example": "A cap on the price of heart stents or knee implants instantly squeezes the margin on those procedures across every hospital, however efficient, simply by decree."
+        }
+      ]
+    },
+    {
+      "title": "How to actually value a hospital",
+      "intro": "The headline profit lies to you here, for a very specific reason. Learn to see past it.",
+      "blocks": [
+        {
+          "concept": "Why the plain profit misleads",
+          "body": "A hospital chain that is busy expanding will always look less profitable than it truly is, because its young, loss-making hospitals are dragging down its healthy, mature ones in the same set of numbers. Judge the whole company on today's blended profit and you will wrongly conclude a fast-growing chain is a poor business, when really it is a good business carrying the temporary cost of tomorrow's growth. The trick is to separate the two.",
+          "example": "A chain's mature hospitals might be earning a superb return, while three new ones bleed losses as they fill. The combined figure looks mediocre. But the mediocrity is the growth cost, not the quality of the business."
+        },
+        {
+          "concept": "Split the mature from the maturing",
+          "body": "So the right way to read a hospital is to mentally split it in two. Look at how the established hospitals are doing on their own, on occupancy, on revenue per bed, and on the profit each mature bed throws off. That tells you the true quality of the machine. Then look separately at the new hospitals and ask a simple question: are they filling up on schedule toward breakeven? That tells you whether the growth is on track. One number for quality, one for growth.",
+          "example": "If the mature hospitals earn a rich profit per bed and the new ones are steadily climbing toward two-thirds full, you are looking at a good business investing in more of itself, whatever the blended number says."
+        },
+        {
+          "concept": "The numbers that actually fit",
+          "body": "Because hospitals carry heavy debt and lumpy new-hospital losses, plain PE is a blunt tool. A few measures fit far better.",
+          "bullets": [
+            {
+              "term": "EBITDA per bed",
+              "desc": "The profit each bed throws off before debt and depreciation muddy the picture. It lets you compare a hospital against itself over time and against rivals. Mature hospitals should earn a healthy figure; new ones drag it down until they fill."
+            },
+            {
+              "term": "Return on Capital (ROCE)",
+              "desc": "Hospitals soak up enormous capital, so the real test is how much profit comes back per rupee invested. A mature chain earning above roughly 15% is allocating its money well. A low figure may just mean lots of new hospitals, so check before judging."
+            },
+            {
+              "term": "EV/EBITDA",
+              "desc": "A price gauge that fits capital-heavy, debt-carrying businesses far better than PE, because it accounts for the debt as well as the equity. It is the multiple most serious hospital analysts actually use."
+            }
+          ],
+          "outro": "Put together, these let you value the mature engine properly and treat the new-hospital losses as the investment in growth they really are, instead of mistaking them for a weak business.",
+          "example": "A chain on a middling PE can be genuinely cheap once you see its mature hospitals earning strong EBITDA per bed and high returns, with a batch of new hospitals about to cross breakeven and lift the whole group."
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "Occupancy %",
+      "why": "Beds occupied over total beds. Higher means better use of fixed assets. 60-70% is healthy, 75%+ excellent."
+    },
+    {
+      "metric": "ARPOB (Avg Revenue / Occupied Bed)",
+      "why": "Pricing power. Complex surgeries and a better payer mix lift ARPOB. The key growth lever."
+    },
+    {
+      "metric": "ALOS (Avg Length of Stay)",
+      "why": "An efficiency metric. Lower ALOS at the same revenue means more throughput and higher asset turns."
+    },
+    {
+      "metric": "EBITDA/Bed",
+      "why": "Profitability per unit of capacity. Mature hospitals do ₹20-30L per bed; new ones drag it down."
+    },
+    {
+      "metric": "ROCE",
+      "why": "Capital efficiency. Hospitals are capex-heavy, so ROCE above 15% in mature units signals good allocation."
+    },
+    {
+      "metric": "Case Mix",
+      "why": "The share of complex, higher-margin cases. More oncology and cardiac means higher margins."
+    },
+    {
+      "metric": "Payer Mix",
+      "why": "International beats insurance beats self-pay beats government. More international and insurance means better margins."
+    }
+  ],
+  "framework": {
+    "demand": "Occupancy %",
+    "pricing": "ARPOB",
+    "efficiency": "ALOS",
+    "capital": "ROCE",
+    "risk": "Debt / new-bed ramp"
+  }
+}
