@@ -10,7 +10,7 @@ export async function generateMetadata({ params }: { params: Promise<{ ticker: s
   const { ticker } = await params;
   const r = getReport(ticker);
   return {
-    title: `${r.company} (${r.ticker}) — Fathom Research`,
+    title: `${r.company} (${r.ticker}) | Fathom Research`,
     description: r.oneLiner,
   };
 }

@@ -11,7 +11,7 @@ export default function Home() {
           <div className="eyebrow">Deep · structured · point-in-time</div>
           <h1>Understand what you own.</h1>
           <p className="lede">
-            Full-stack research on NSE-listed companies — business model, industry structure,
+            Full-stack research on NSE-listed companies: business model, industry structure,
             cash-flow forensics, moat, and trap detection. One rigorous report per ticker,
             refreshed quarterly.
           </p>

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { withBase } from '@/lib/base';
 
 export const metadata: Metadata = {
-  title: 'Sectors — Fathom',
+  title: 'Sectors | Fathom',
   description: 'How each sector actually works, and the handful of metrics that decide the story.',
 };
 

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { withBase } from '@/lib/base';
 
 export const metadata: Metadata = {
-  title: 'Case Studies — Fathom',
+  title: 'Case Studies | Fathom',
   description: 'Real stories from Indian markets, and the one lesson each one teaches.',
 };
 

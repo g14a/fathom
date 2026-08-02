@@ -39,8 +39,8 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ sector: string }> }): Promise<Metadata> {
   const { sector } = await params;
   const s = getSector(sector);
-  if (!s) return { title: 'Sector — Fathom' };
-  return { title: `${s.name} — How the sector works | Fathom`, description: s.tagline };
+  if (!s) return { title: 'Sector | Fathom' };
+  return { title: `${s.name}: how the sector works | Fathom`, description: s.tagline };
 }
 
 const FW = [

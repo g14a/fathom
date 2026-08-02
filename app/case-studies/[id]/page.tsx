@@ -9,8 +9,8 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params;
   const c = getCaseStudy(id);
-  if (!c) return { title: 'Case Study — Fathom' };
-  return { title: `${c.title} — ${c.company} | Fathom`, description: c.summary };
+  if (!c) return { title: 'Case Study | Fathom' };
+  return { title: `${c.title} | ${c.company} | Fathom`, description: c.summary };
 }
 
 export default async function CaseStudyPage({ params }: { params: Promise<{ id: string }> }) {

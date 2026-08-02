@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { withBase } from '@/lib/base';
 
 export const metadata: Metadata = {
-  title: 'Fathom — Indian Equity Research',
+  title: 'Fathom | Indian Equity Research',
   description: 'Deep, structured research on NSE-listed companies. Educational use only.',
 };
 

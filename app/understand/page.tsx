@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { withBase } from '@/lib/base';
 
 export const metadata: Metadata = {
-  title: 'Understand a Business — Fathom',
+  title: 'Understand a Business | Fathom',
   description: 'The seven questions that turn a ticker into a business you actually understand.',
 };
 

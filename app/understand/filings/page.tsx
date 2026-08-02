@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Reading the Filings — Fathom',
+  title: 'Reading the Filings | Fathom',
   description: 'Where the truth actually lives: how to read an annual report, an earnings call, and a company presentation without drowning.',
 };
 
