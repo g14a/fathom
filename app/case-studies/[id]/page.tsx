@@ -72,7 +72,9 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
           <div className="csd-exhibits">
             {c.exhibits.map((ex, j) => (
               <figure key={j} className="exhibit">
-                <img src={withBase(ex.src)} alt={ex.caption} loading="lazy" />
+                <div className="ex-imgwrap">
+                  <img src={withBase(ex.src)} alt={ex.caption} loading="lazy" />
+                </div>
                 <figcaption>
                   <span className="ex-cap">{ex.caption}</span>
                   <span className="ex-src">Source: {ex.source}</span>

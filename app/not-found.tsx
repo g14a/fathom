@@ -4,7 +4,7 @@ export default function NotFound() {
   return (
     <div className="wrap" style={{ padding: '80px 24px' }}>
       <div className="eyebrow">404</div>
-      <h1 style={{ fontFamily: 'var(--serif)', fontSize: 40, fontWeight: 600, marginTop: 12 }}>
+      <h1 style={{ fontFamily: 'var(--serif)', fontSize: 'clamp(28px, 7vw, 40px)', fontWeight: 600, marginTop: 12 }}>
         Nothing here.
       </h1>
       <p style={{ color: 'var(--ink-dim)', marginTop: 12 }}>

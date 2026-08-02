@@ -119,9 +119,7 @@ export function Report({ r }: { r: TickerReport }) {
       <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 16, justifyContent: 'space-between' }}>
         <div>
           <div className="eyebrow">{r.sector} · {r.industry}</div>
-          <h1 style={{ fontFamily: 'var(--serif)', fontSize: 40, fontWeight: 600, letterSpacing: '-0.02em', marginTop: 8 }}>
-            {r.company}
-          </h1>
+          <h1 className="report-title">{r.company}</h1>
           <div className="asof" style={{ marginTop: 8 }}>
             {r.ticker} · {r.dataVariant} · as of {r.asOf}
           </div>

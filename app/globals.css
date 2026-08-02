@@ -408,3 +408,25 @@ section.block:first-of-type { border-top: none; }
 .exhibit figcaption { display: flex; flex-direction: column; gap: 5px; padding: 14px 18px; background: var(--bg-card); border-top: 1px solid var(--border); }
 .ex-cap { font-size: 14px; color: var(--ink-dim); line-height: 1.55; }
 .ex-src { font-family: var(--mono); font-size: 11px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.04em; }
+
+/* ===================== Mobile responsiveness ===================== */
+
+/* Report title: scale down on small screens (replaces a hard-coded inline size) */
+.report-title { font-family: var(--serif); font-size: clamp(27px, 6.5vw, 40px); font-weight: 600; letter-spacing: -0.02em; margin-top: 8px; line-height: 1.12; text-wrap: balance; }
+
+/* Document-image exhibits: let dense tables scroll instead of squashing */
+.ex-imgwrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+@media (max-width: 700px) {
+  .exhibit img { width: auto; min-width: 680px; }
+}
+
+/* Top nav: stack under the brand and scroll horizontally on phones */
+@media (max-width: 720px) {
+  .wrap { padding: 0 18px; }
+  .topbar-inner { flex-direction: column; height: auto; align-items: stretch; gap: 8px; padding: 10px 0; }
+  .nav { gap: 20px; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; padding-bottom: 2px; scrollbar-width: none; }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a { flex: 0 0 auto; }
+  .hero { padding: 40px 0 32px; }
+  .report { padding: 28px 0 72px; }
+}
