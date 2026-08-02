@@ -9,6 +9,54 @@
     "SHOPERSTOP"
   ],
   "howItWorks": "A retailer grows two ways: selling more from the stores it already has, and opening new ones. Only the first proves the concept works. New stores can mask a weak business for years, which is why same-store sales growth is the number that matters most. Underneath that, retail is a game of turning inventory fast and squeezing productivity out of every square foot of expensive real estate. The very best, like DMart, get suppliers to fund their working capital so growth pays for itself.",
+  "sections": [
+    {
+      "title": "First, what is a retail business really?",
+      "intro": "A retailer buys goods, puts them on a shelf, and sells them for more than it paid. That sounds simple, but the entire game is fought on two things: how well each individual store performs, and how fast money moves through inventory before it gets stuck.",
+      "blocks": [
+        {
+          "concept": "New stores can hide a weak business",
+          "body": "If a retailer opens 50 new stores in a year, total revenue will grow even if every single existing store is losing customers. This is the oldest trick in retail: growth by expansion looks the same as growth by demand on the top line, but they are completely different stories underneath. That is why you always separate the two.",
+          "example": "A chain with 10% overall revenue growth, but same-store sales growth of 0%, is not actually winning more customers per store, it is just paying for more real estate."
+        },
+        {
+          "concept": "Every square foot has to earn its rent",
+          "body": "A retail store is expensive real estate, whether it is a mall unit or a high-street shop, and rent is a fixed cost whether the store is busy or empty. So the core discipline of retail is squeezing the maximum sales out of every square foot of space, and turning over stock fast enough that it does not sit unsold, tying up cash and space.",
+          "example": "A fashion retailer with 20,000 rupees of sales per square foot per year is using its space far better than one doing 8,000, even if both have similar total revenue, because the second one likely needs more stores, more rent, and more capital to get there."
+        }
+      ]
+    },
+    {
+      "title": "How to read a retail business",
+      "blocks": [
+        {
+          "concept": "Same-store sales growth (SSSG) is the truth serum",
+          "body": "SSSG measures revenue growth only from stores that have been open at least a year, stripping out the effect of new store openings entirely. It answers the one question that matters: are the stores the company already has selling more? Healthy SSSG plus new stores is genuine expansion. Flat or negative SSSG plus new stores is a company running to stand still.",
+          "example": "DMart consistently posts positive SSSG alongside steady store additions, which is why its growth is considered durable rather than borrowed from expansion alone."
+        },
+        {
+          "concept": "Inventory turnover shows whether stock is an asset or a liability",
+          "body": "Inventory turnover measures how many times a year a retailer sells and replaces its entire stock. Fast turnover means goods fly off shelves and cash comes back quickly to buy more. Slow turnover means stock is gathering dust, tying up cash, and heading toward markdowns, discounted sales that erode margin just to clear space.",
+          "example": "A fashion retailer sitting on last season's unsold inventory will eventually mark it down 40-50% to clear it, turning what looked like revenue on paper into a margin hit when the shelf finally moves."
+        }
+      ]
+    },
+    {
+      "title": "Where retail breaks, and how to value it",
+      "blocks": [
+        {
+          "concept": "Negative working capital is the real superpower",
+          "body": "Most businesses pay suppliers before they collect cash from customers, and have to fund that gap. The best retailers, DMart is the classic Indian example, sell goods to customers for cash before they even have to pay their suppliers. This is called negative working capital, and it means growth funds itself instead of needing constant fresh borrowing.",
+          "example": "If a retailer collects cash from a sale in 2 days but only pays its supplier in 45 days, it effectively gets a free 43-day loan on every rupee of inventory, which compounds into a huge advantage at scale."
+        },
+        {
+          "concept": "Value it on unit economics, not store count",
+          "body": "A rising store count is not automatically good news, if SSSG is weak, more stores just means diluting returns across a bigger, less efficient base and burning more capital on rent and inventory for each one. The right approach is to check whether new stores are matching or beating the productivity, revenue per square foot, of existing ones, and whether the format has proven itself in enough cities to call the model scalable, before rewarding aggressive expansion.",
+          "example": "A retailer opening 100 stores a year but with new-store SSSG trailing existing stores by a wide margin is expanding a diluted model, not a proven one, and deserves a lower multiple than the headline growth suggests."
+        }
+      ]
+    }
+  ],
   "metrics": [
     {
       "metric": "SSSG (Same Store Sales Growth)",

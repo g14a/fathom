@@ -9,6 +9,54 @@
     "PRESTIGE"
   ],
   "howItWorks": "A developer sells flats long before it finishes building them, then recognises the revenue years later when the project completes. So the reported P&L is old news; the real leading indicator is pre-sales, what got booked this quarter. But bookings are only promises. The number that proves execution is collections, the cash actually received against those bookings. Real estate is brutally capital-intensive and cyclical, so debt is the existential risk: a developer that over-leverages into a boom and then hits slow collections can go under fast.",
+  "sections": [
+    {
+      "title": "First, what is a real estate business really?",
+      "intro": "A listed real estate developer is not a landlord collecting rent. It is a project factory: buy land, get approvals, build towers, sell flats, repeat. The tricky part is that selling and building happen years apart, so the accounting rarely matches what is happening on the ground right now.",
+      "blocks": [
+        {
+          "concept": "Pre-sales come first, accounting profit comes later",
+          "body": "When a developer launches a new tower, buyers book flats and pay in instalments long before the building is finished. That booked value is called pre-sales, and it is the earliest real signal of demand. But under accounting rules, the developer usually cannot count that money as revenue until the project is substantially complete, which can be two to three years later. So the profit number in today's results is really a report card on decisions made years ago, not on how the business is doing today.",
+          "example": "If DLF books ₹2,000 crore of pre-sales this quarter but the project completes in 2028, that ₹2,000 crore only shows up as revenue in the FY28 income statement, not this year's."
+        },
+        {
+          "concept": "Promises versus cash: bookings need to turn into collections",
+          "body": "A booking is a buyer's promise to pay in instalments as construction progresses. It is not cash in hand. Some buyers delay payments, some cancel, and some projects get stuck in litigation or approval delays, which stalls the money flow. Collections are the actual cash the company receives against those bookings, and they are what fund the next phase of construction without the company needing to borrow more. A developer with strong pre-sales but weak collections is quietly building a cash flow problem.",
+          "example": "A developer that pre-sold ₹1,000 crore worth of flats but only collected ₹600 crore in the same period has ₹400 crore of promises still sitting on paper, not in the bank."
+        }
+      ]
+    },
+    {
+      "title": "How to read a real estate business",
+      "blocks": [
+        {
+          "concept": "Net debt is the single number that decides survival",
+          "body": "Building towers costs enormous amounts of money upfront, well before any sales revenue is recognised, so developers routinely borrow to fund construction. That is normal. The danger is a company that keeps borrowing to buy more land and launch more projects during a boom, then gets caught out when a downturn slows collections and interest payments keep piling up regardless. Net debt (total borrowings minus cash on hand) tells you how much cushion a developer has if sales slow down for a year or two.",
+          "example": "A developer with net debt of ₹500 crore and steady collections can ride out a slow year; one with ₹5,000 crore of net debt and thin cash reserves can be forced into distress sales or a rights issue."
+        },
+        {
+          "concept": "The unsold land bank is the hidden asset (and hidden risk)",
+          "body": "Every developer holds a bank of land it has bought but not yet built on, plus finished units it built but has not yet sold. This land bank is where future growth comes from, since it is the pipeline of projects the company can launch over the next several years. But land sitting idle also ties up capital that earns nothing until it is developed and sold, and its true value depends entirely on location quality, which does not show up as a single line item in the financials.",
+          "example": "Two developers can both report a land bank of 1,000 acres, but if one holds land in a prime Mumbai suburb and the other holds it in a slow-growth tier-3 town, the real economic value is nowhere close to the same, even though the balance sheet entry looks similar."
+        }
+      ]
+    },
+    {
+      "title": "Where real estate breaks, and how to value it",
+      "blocks": [
+        {
+          "concept": "The cycle amplifies everything, both up and down",
+          "body": "Real estate demand tracks the broader economy closely: interest rates, income growth, and buyer sentiment all move together, and a launch that would have sold out in six months during a boom can sit half-empty for two years in a downturn. Because developers are leveraged and pre-sales-dependent, a slowdown does not just dent profit, it also delays cash collections at exactly the moment debt payments are still due. This is why real estate is described as deeply cyclical rather than steadily growing.",
+          "example": "During the 2013-2016 slowdown, many Indian developers saw pre-sales fall by 40-50% while their debt and interest costs stayed largely fixed, which is what pushed several mid-sized players into financial trouble."
+        },
+        {
+          "concept": "RERA changed the rules, and valuation has to account for that",
+          "body": "The Real Estate Regulation Act (RERA), rolled out from 2017, forced developers to register projects, disclose timelines, and put a fixed percentage of collections into an escrow account earmarked only for that project's construction. This weeded out under-capitalised and fraudulent developers and rewarded well-run, well-capitalised ones, which is part of why the listed developers today are generally stronger businesses than the sector's reputation from the 2010s suggests. When valuing a developer, look past a simple P/E ratio (which is distorted by the accounting lag) toward pre-sales growth, collection efficiency, and net debt trend together, since any one number alone can mislead.",
+          "example": "A developer trading at a seemingly high P/E of 40 might actually be cheap if its pre-sales are growing 30% a year and net debt is falling, because that growth has not hit the reported income statement yet."
+        }
+      ]
+    }
+  ],
   "metrics": [
     {
       "metric": "Pre-sales (Bookings)",

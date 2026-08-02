@@ -9,6 +9,54 @@
     "SAIL"
   ],
   "howItWorks": "A metals company does not set its own price. The price of steel or aluminium is decided by global supply and demand, above all China, and the company simply takes what the market gives. So the macro cycle, not management brilliance, drives most of the return. What management controls is cost per tonne and the balance sheet. Captive mines are a huge advantage, and low debt is survival, because when the cycle turns down, heavily indebted players can be crushed by interest before the price recovers.",
+  "sections": [
+    {
+      "title": "First, what is a metals business really?",
+      "intro": "Strip away the blast furnaces and rolling mills and a steel or aluminium company is doing one simple thing: buying raw ore, turning it into metal, and selling that metal at whatever price the world happens to be paying that day. It does not get to decide its own selling price the way a branded consumer company can.",
+      "blocks": [
+        {
+          "concept": "You sell a commodity, not a product",
+          "body": "Steel is steel. A tonne from JSWSTEEL and a tonne from a Chinese mill are close to interchangeable to most buyers, so there is no pricing power from a brand or a patent. The price is set globally by how much steel or aluminium the world wants against how much everyone is producing, and no single Indian company is big enough to move that number on its own. This means the company's fortunes rise and fall with a cycle it does not control.",
+          "example": "When China overproduces steel and dumps the excess on world markets, HRC (hot rolled coil) prices can fall 20-30% in a year, and every Indian steelmaker's profit falls with it, good management or bad."
+        },
+        {
+          "concept": "You make money on the spread, not the price",
+          "body": "Since the selling price is out of your hands, the only thing a metals company actually controls is its cost per tonne, what it spends digging up ore, running the furnace and shipping the finished metal. Profit is simply the gap between the global price and your own cost, so the lowest cost producer survives every downturn and the highest cost producer goes bankrupt in one.",
+          "example": "If steel sells for 55,000 per tonne and it costs a company 45,000 to make it, that 10,000 spread is the entire profit; a rival with captive iron ore mines might make it for 38,000, pocketing 17,000, nearly double the margin on the exact same product."
+        }
+      ]
+    },
+    {
+      "title": "How to read a metals business",
+      "blocks": [
+        {
+          "concept": "Where you are in the cycle matters more than the company",
+          "body": "Metals stocks move in long, brutal cycles tied to global construction, infrastructure spending and China's appetite, which alone drives roughly half of world steel demand. Buying a great metals company at the top of the cycle can still lose you money for years, while buying an average one near the bottom of the cycle can double your money as prices recover. This is why metals investors watch capacity utilisation and global commodity prices as closely as they watch any single company's results.",
+          "example": "Capacity utilisation below 70% industry-wide usually signals a downcycle bottom is near; above 90% usually means the upcycle is getting late and new capacity will soon flood in to cool prices."
+        },
+        {
+          "concept": "EBITDA per tonne tells you who is winning the cost race",
+          "body": "Because the selling price is the same for everyone, EBITDA (operating profit) per tonne produced is the cleanest way to compare two metals companies. It strips away the noise of the commodity cycle and shows you purely how efficiently each company converts raw material into cash. Captive mines, modern low-energy furnaces and scale all push this number up.",
+          "example": "8,000 to 12,000 per tonne of EBITDA is healthy for an Indian integrated steelmaker; a company stuck at 3,000-4,000 per tonne is barely covering its debt costs and will struggle the moment prices dip."
+        }
+      ]
+    },
+    {
+      "title": "Where metals breaks, and how to value it",
+      "blocks": [
+        {
+          "concept": "Debt at the wrong point in the cycle is fatal",
+          "body": "Metals plants are enormously capital intensive, a single steel plant expansion can cost tens of thousands of crores, so companies borrow heavily to build capacity. That is fine when prices are high and cash is flowing in, but if a downcycle hits right after a debt-funded expansion, interest payments keep coming due while revenue collapses. This combination, high debt plus a falling cycle, is the single most common way metals companies go bankrupt or get taken over by lenders.",
+          "example": "Several Indian steelmakers went into insolvency proceedings in the mid-2010s not because their plants were bad, but because they expanded on borrowed money right before a multi-year global steel price crash."
+        },
+        {
+          "concept": "Valuing a cyclical, and the capacity-timing trap",
+          "body": "You cannot value a metals company on a single year's profit, because that year could be an unusually good or bad point in the cycle; sensible investors instead look at average earnings across a full cycle, or EV/EBITDA at mid-cycle margins, and buy when utilisation and sentiment are depressed, not euphoric. The other classic trap is capacity expansion timed wrong: every company adds new plants when profits are high and confidence is peaking, which means new supply typically arrives industry-wide just as the cycle is turning down, flooding the market right when demand is weakest.",
+          "example": "A company announcing a large capacity expansion at the peak of a boom, when everyone else is doing the same, is a red flag; that new supply usually lands two to three years later, exactly when the cycle has turned and prices are falling."
+        }
+      ]
+    }
+  ],
   "metrics": [
     {
       "metric": "Realisation / Tonne",

@@ -9,6 +9,54 @@
     "MOTILALOFS"
   ],
   "howItWorks": "Exchanges, depositories and brokers all earn a small fee every time someone trades, so their revenue rises and falls with market volumes, which they do not control. A bull market floods them with income; a bear market drains it just as fast. The best of them own a structural moat, a licensed depository like CDSL is a near-monopoly, and increasingly they diversify into recurring, fee-based income like asset management that keeps paying through the cycle. Watch revenue yield, because zero-brokerage disruption has been quietly compressing what each trade earns for years.",
+  "sections": [
+    {
+      "title": "First, what is a capital markets business really?",
+      "intro": "Capital markets companies are the plumbing behind every trade, investment and mutual fund SIP in India: exchanges that match buyers and sellers, depositories that hold your shares electronically, brokers that give you a terminal to trade, and asset managers who invest your savings. None of them own the money that moves through them. They just take a small fee every time it moves.",
+      "blocks": [
+        {
+          "concept": "The business earns fees on flows, not on owning assets",
+          "body": "An exchange like NSE or BSE does not buy or sell stocks itself, it just runs the marketplace and charges a tiny fee on every transaction that clears through it. A depository like CDSL does not own your shares, it electronically records who owns what and charges small fees for that record-keeping. This makes these businesses asset-light: they need relatively little capital to run, which is why their return on equity tends to be high, but it also means their revenue is directly tied to how much activity is happening in the market, not to some steady rent-like income.",
+          "example": "If total trading volumes across Indian markets fall by 30% in a quiet year, an exchange's transaction revenue falls by roughly the same amount, almost immediately, because there is no inventory or backlog to smooth it out."
+        },
+        {
+          "concept": "Financialisation of savings is the long-term engine",
+          "body": "For decades, most Indian household savings sat in bank fixed deposits, gold, and physical real estate. Financialisation means more of that money is now moving into mutual funds, stocks, and insurance, most visibly through the rise of monthly SIPs (systematic investment plans) into mutual funds. Every rupee that shifts from a bank deposit into a mutual fund or a demat account creates a small recurring fee for someone in this chain, whether that is the AMC managing the fund, the broker who opened the account, or the depository holding the shares.",
+          "example": "Monthly SIP inflows into Indian mutual funds crossed roughly ₹20,000 crore a month by the early 2020s, up from a few thousand crore a decade earlier, and each of those rupees generates ongoing fee income for the AMC managing it."
+        }
+      ]
+    },
+    {
+      "title": "How to read a capital markets business",
+      "blocks": [
+        {
+          "concept": "For an AMC, watch AUM growth and yield together",
+          "body": "An asset management company (AMC) earns a fee, usually 0.5-2% a year, on the assets under management (AUM) it runs on behalf of investors. AUM can grow two ways: new money coming in, or existing investments simply rising in value as markets go up, and it is important to tell the two apart since only the first reflects the company actually winning more business. Yield is the fee percentage itself, and it matters because more AUM at a shrinking yield can still mean flat or falling revenue.",
+          "example": "An AMC growing AUM 20% a year sounds strong, but if its average fee yield has fallen from 1.2% to 0.9% over the same period because of price competition, its revenue growth could be closer to 5-10%, not 20%."
+        },
+        {
+          "concept": "For a broker, watch active clients and volumes, not just total accounts",
+          "body": "Brokers report total registered client counts, but a large chunk of any broker's accounts are dormant, opened once and never used again. What actually drives revenue is active clients, typically defined as those who traded at least once in the last 30 days, multiplied by how much and how often they trade. A broker adding a lot of new accounts but seeing active client growth stall is not really growing its real business, just its marketing funnel.",
+          "example": "A broker with 10 million total registered clients but only 2 million active in a given month earns revenue mainly from that 2 million, so a headline of '10 million clients' overstates the real business."
+        }
+      ]
+    },
+    {
+      "title": "Where capital markets breaks, and how to value it",
+      "blocks": [
+        {
+          "concept": "Fee compression is a slow, structural threat",
+          "body": "The rise of discount and zero-brokerage platforms over the last decade has pushed brokerage fees toward zero for plain equity delivery trades, forcing the whole industry to earn more from derivatives (F&O) trading, margin funding interest, and cross-selling other products instead. This is not a one-time shock, it is a steady grind that keeps compressing what each rupee of trading volume earns for the broker. A company whose revenue still leans heavily on plain brokerage fees is more exposed to this pressure than one that has diversified into asset management, wealth, or lending.",
+          "example": "Revenue yield per crore of turnover for many Indian brokers fell by more than half between the mid-2010s and early 2020s as zero-brokerage models spread, even as total trading volumes rose sharply."
+        },
+        {
+          "concept": "Valuation has to price in the market cycle, not just last year's earnings",
+          "body": "Because revenue tracks trading volumes and market sentiment so closely, capital markets companies tend to report their best earnings right when markets are euphoric, which is exactly when their stock valuations also look cheapest on a trailing P/E basis, and their worst earnings right when markets are fearful, which is when they look expensive. Applying a simple P/E ratio without adjusting for where the market cycle stands can lead to buying at the top of a boom or selling at the bottom of a bust. A better approach looks at revenue and profit averaged across a full market cycle, alongside the structural moat (like CDSL's near-monopoly in depository services) that should survive any single downturn.",
+          "example": "A broker's stock might trade at a P/E of 15 during a bull-market peak in trading volumes, looking cheap, but if volumes normalise lower afterward, earnings can fall enough that the same stock is effectively at a P/E of 30 on sustainable, cycle-average profit."
+        }
+      ]
+    }
+  ],
   "metrics": [
     {
       "metric": "ADTO (Avg Daily Turnover)",

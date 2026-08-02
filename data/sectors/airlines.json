@@ -7,6 +7,54 @@
     "SPICEJET"
   ],
   "howItWorks": "An airline flies a fixed number of seats whether they sell or not, so an empty seat is revenue gone forever the moment the door closes. The business is a knife-edge between how full the planes are and the cost of flying each seat one kilometre. Fuel is a third to a half of costs and moves with crude, which the airline cannot control, so the only durable edge is a structurally lower cost per seat. That is the entire IndiGo story. Debt and unhedged fuel are what bankrupt the rest.",
+  "sections": [
+    {
+      "title": "First, what is an airlines business really?",
+      "intro": "An airline sells something stranger than most products: a seat that exists for only a few hours and then vanishes forever. Understanding that one fact explains almost every decision an airline makes.",
+      "blocks": [
+        {
+          "concept": "An empty seat is money that rots, permanently",
+          "body": "Think of an airline seat like a hotel room at midnight: the moment the plane pushes back from the gate, any seat that did not sell is gone for good, there is no next customer to sell it to later. The plane, the crew and the fuel cost roughly the same whether the flight is empty or full, so every seat filled at any reasonable price is almost pure extra profit, and every seat that flies empty is a loss that can never be recovered. This is why airlines discount tickets right up to departure rather than let a seat fly empty.",
+          "example": "A last-minute ticket sold for even 3,000, well below the average fare, is still better than an empty seat, because the flight was going to cost the airline the same amount either way."
+        },
+        {
+          "concept": "The business is a race between how full you fly and what it costs you to fly",
+          "body": "Since an airline cannot really raise or lower how many seats a plane has, its whole economic game comes down to two numbers: how full the planes fly on average, and how cheaply it costs to fly each seat. An airline that fills 85% of its seats while spending less per seat than its rivals will make healthy profits; one that fills only 70% while spending more will bleed cash, even flying the exact same routes with the exact same planes.",
+          "example": "Two airlines flying the identical Delhi-Mumbai route can have wildly different fortunes if one runs 85% full flights on a lean cost base and the other runs 72% full flights on a bloated one, that 13-point and cost gap is the entire difference between profit and loss."
+        }
+      ]
+    },
+    {
+      "title": "How to read an airlines business",
+      "blocks": [
+        {
+          "concept": "Load factor is the fullness number",
+          "body": "Load factor is simply the percentage of available seats that were actually sold and flown, seats filled divided by seats available. Because the fixed costs of a flight barely change whether it is half full or completely full, small moves in load factor swing profit disproportionately, a few points either way can be the difference between a profitable quarter and a loss-making one.",
+          "example": "Above 85% load factor is considered efficient for an Indian carrier; if it drops below 80%, the airline is usually cutting fares hard just to fill seats, which squeezes margins even as passenger numbers look fine."
+        },
+        {
+          "concept": "RASK versus CASK is the entire profit equation",
+          "body": "RASK is revenue earned per available seat kilometre flown, essentially how much pricing power and demand the airline commands. CASK is the cost of flying that same seat one kilometre, covering fuel, crew, airport fees and aircraft leasing. The airline is profitable exactly when RASK is above CASK, and the size of that gap, not the size of the airline, is what determines whether it makes money.",
+          "example": "If RASK is 4.20 per seat kilometre and CASK is 3.80, the airline earns a 0.40 margin on every seat kilometre flown; a rival with a leaner cost base and CASK of 3.40 earns nearly double that margin on the same ticket price, which is the entire IndiGo story versus its full-service rivals."
+        }
+      ]
+    },
+    {
+      "title": "Where airlines breaks, and how to value it",
+      "blocks": [
+        {
+          "concept": "Fuel and unhedged exposure are the silent killer",
+          "body": "Jet fuel typically eats 35-45% of an airline's revenue, and its price moves with global crude oil, something no airline controls. An airline that does not hedge its fuel costs, locking in prices in advance, is essentially betting its entire profit margin on the direction of oil prices every single quarter. Combine that with debt taken on to buy or lease aircraft, and a spike in oil prices at the wrong time can turn a healthy airline loss-making within a single quarter.",
+          "example": "When crude oil jumped from around 70 to over 120 a barrel in 2022, several unhedged Indian and global airlines saw fuel costs eat 50%+ of revenue, pushing already thin margins deeply negative."
+        },
+        {
+          "concept": "Thin margins mean valuation is about survival, not just growth",
+          "body": "Because airlines routinely operate on single-digit or even negative net margins, the sector has a long history of bankruptcies, and the market tends to value airlines on their ability to survive a downturn (cash on hand, debt levels, cost structure) as much as on growth. A low-cost structure is the only durable moat in this business, since there is little brand loyalty when a cheaper fare from a competitor is one click away.",
+          "example": "An airline holding enough cash to cover 3-4 months of operating expenses can ride out a demand shock like a fuel spike or a pandemic-style shutdown; one with only a few weeks of cash cushion is one bad quarter away from a crisis."
+        }
+      ]
+    }
+  ],
   "metrics": [
     {
       "metric": "Load Factor",

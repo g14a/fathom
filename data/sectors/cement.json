@@ -9,6 +9,54 @@
     "ACC"
   ],
   "howItWorks": "Cement is a heavy, low-value commodity that is expensive to transport, so it is really a collection of regional markets rather than one national one. A bag of cement is much the same whoever makes it, which means the winner is whoever produces and delivers it cheapest and sells it where demand is tight. Everything reduces to profit per tonne. Fuel is the swing cost and freight decides how far a plant can profitably sell, so proximity to the market is a real edge.",
+  "sections": [
+    {
+      "title": "First, what is a cement business really?",
+      "intro": "Cement is about as close to a pure commodity as you get in industry, a bag of OPC cement from one company works about the same as a bag from another. That single fact decides almost everything about how the business behaves and how you should judge it.",
+      "blocks": [
+        {
+          "concept": "It is heavy and cheap, so it cannot travel far",
+          "body": "Cement is bulky and low value relative to its weight, so trucking it a long distance eats up the profit margin before it ever reaches the buyer. That means cement does not really compete in one national market, it competes in a patchwork of regional markets, each roughly a 200-300 km radius around a plant. A company can dominate a region and be irrelevant a state away, so market share and pricing power have to be judged region by region, not for the whole country at once.",
+          "example": "A cement plant in South India competes fiercely with other South Indian plants for local orders, but it barely touches demand in North India, because freight would erase the profit on that sale."
+        },
+        {
+          "concept": "Since the product is identical, the only real edge is cost",
+          "body": "When the product itself cannot be differentiated, the company that produces and delivers each tonne cheapest wins the sale, especially in a soft demand market. This pushes the whole industry toward a relentless focus on cost per tonne, energy efficiency, and being close enough to the market to save on freight. It also means brand and marketing barely matter here compared to sectors like consumer goods, what matters is the plant's cost position versus its regional rivals.",
+          "example": "Two cement plants selling into the same city, the one running on cheaper fuel (say petcoke bought at a lower cost, or a plant with better kiln efficiency) can undercut the other on price and still make the same margin."
+        }
+      ]
+    },
+    {
+      "title": "How to read a cement business",
+      "blocks": [
+        {
+          "concept": "Realisation and utilisation together tell you the pricing environment",
+          "body": "Realisation per tonne is simply the price the company gets for each tonne sold, and capacity utilisation is how much of the installed plant capacity is actually running. These two move together, when utilisation across an industry climbs above roughly 75%, plants are near full and companies gain the confidence to raise prices, so realisation rises too. Below about 65% utilisation, there is more supply than demand, so companies undercut each other on price to keep volumes moving, and realisation stays weak or falls.",
+          "example": "An industry running at 80% utilisation nationally usually sees cement makers push through price hikes every quarter, while one stuck at 60% utilisation sees prices stagnate or fall despite rising demand, because too many plants are chasing the same orders."
+        },
+        {
+          "concept": "EBITDA per tonne is the one number that strips out everything else and lets you compare companies",
+          "body": "Because cement is a commodity, comparing companies by total profit is misleading, a bigger company will simply have a bigger number. EBITDA per tonne (profit before interest, tax, depreciation and amortisation, divided by tonnes sold) normalises for size and shows who actually runs the more efficient, better-positioned business. It captures both sides of the equation at once, the price a company gets (realisation) and the cost it pays (fuel, freight, other costs) to earn it.",
+          "example": "A company earning ₹1,100 EBITDA per tonne while a rival earns ₹750 per tonne is simply the better run business, even if the rival sells more total tonnes and shows a bigger headline profit number."
+        }
+      ]
+    },
+    {
+      "title": "Where cement breaks, and how to value it",
+      "blocks": [
+        {
+          "concept": "Fuel cost swings can wipe out a quarter's margin overnight",
+          "body": "Fuel, mainly coal and petcoke, is the single biggest cost in making cement, often around 25-30% of revenue, and prices for these can move sharply based on global commodity cycles that have nothing to do with cement demand in India. Because cement pricing is sticky (companies cannot always raise prices fast enough to match a fuel spike, especially if utilisation is low and competitors are not raising prices either), a fuel cost shock often lands directly on margin rather than getting passed through.",
+          "example": "A sharp rise in international coal prices can compress EBITDA per tonne by ₹150-200 within a single quarter if the company cannot push price hikes through in a weak demand market."
+        },
+        {
+          "concept": "Pricing discipline versus volume war is the trap that decides who actually makes money",
+          "body": "When demand is weak, cement companies face a choice, hold prices firm and lose volume to rivals, or cut prices to protect volume and watch margins collapse for everyone in the region. Large players with strong balance sheets sometimes deliberately trigger a price war to squeeze weaker regional rivals out of the market, accepting lower near-term profit to gain share later. Judging a cement stock means understanding whether the region it sells into is currently in a disciplined pricing phase or a volume war, since the same company's margin can look completely different a year apart with no change in its plants at all.",
+          "example": "A regional price war in South India has historically pushed EBITDA per tonne for players there down toward ₹500-600, even for otherwise efficient plants, purely because rivals kept undercutting each other to protect volume."
+        }
+      ]
+    }
+  ],
   "metrics": [
     {
       "metric": "Capacity Utilisation",

@@ -9,6 +9,54 @@
     "BAJAJ-AUTO"
   ],
   "howItWorks": "A carmaker earns per vehicle it sells, so the business runs on two things: how many it sells, and how much it keeps on each one. Volume is the demand signal, but the quality of the business shows up in the profit per vehicle, which rises when buyers trade up to pricier, better-loaded models. The parts makers who supply the carmakers ride the same wave, and the whole sector is being reshaped by the slow shift from petrol and diesel to electric, which rewards some players and threatens others. Watch out for a hidden trap: revenue can climb on discounts and cheap models while the profit on each vehicle quietly shrinks.",
+  "sections": [
+    {
+      "title": "First, what is a auto business really?",
+      "intro": "A carmaker or bike maker is a factory that turns steel, aluminium and components into a finished vehicle, then sells that vehicle through a network of dealers. It is one of the most cyclical businesses in the market, and understanding why is the first step to reading it correctly.",
+      "blocks": [
+        {
+          "concept": "It is a volume business with brutal operating leverage",
+          "body": "A factory has fixed costs, the plant, the machinery, the workforce, that do not change much whether it makes 50,000 cars a month or 80,000. So when volume rises, most of the extra revenue drops to profit, and when volume falls, profit falls even faster than revenue did. This is why auto stocks move in sharp up and down cycles rather than a smooth line, small swings in how many people are buying vehicles create large swings in profit.",
+          "example": "A plant running at 60% capacity utilisation can flip to strong profit at 80% utilisation without spending a rupee more on the factory itself, because the extra units mostly cover costs that were already being paid."
+        },
+        {
+          "concept": "Demand is a household spending decision, not a daily habit",
+          "body": "Unlike toothpaste or groceries, a vehicle purchase is a big, deferrable decision. Buyers postpone it during a slowdown, high interest rates, weak income growth, or general uncertainty, and then buy in a rush once conditions improve, since many purchases happen once every 5-7 years. This is why auto sales are one of the most watched proxies for the health of the broader economy, and why the sector runs in multi-year cycles tied to income growth, interest rates and rural cash flows (for two-wheelers and tractors especially).",
+          "example": "Two-wheeler sales in rural India track monsoon and crop prices closely, because a good harvest puts cash in farmers' hands and a bike is often the first big purchase that follows."
+        }
+      ]
+    },
+    {
+      "title": "How to read a auto business",
+      "blocks": [
+        {
+          "concept": "Volume tells you demand, product mix tells you quality",
+          "body": "Volume growth (how many units sold) is the rawest signal of demand, but it says nothing about profitability. What matters more is product mix, or average selling price, which rises when buyers trade up to costlier, better-equipped models. A company can report flat volume yet growing profit if its mix is shifting upmarket, and conversely, volume can rise on cheap, heavily discounted models while profit per vehicle quietly shrinks. Always check both numbers together, never one alone.",
+          "example": "Maruti selling more Fronx and Grand Vitara (SUVs) instead of entry-level Alto units raises its average selling price even if total units sold stay flat, and that lifts margin without needing higher volume."
+        },
+        {
+          "concept": "Raw material sensitivity, mainly steel, is the biggest swing cost",
+          "body": "Steel, aluminium and, increasingly, battery materials make up a large chunk of a vehicle's cost, and these are commodities whose prices the company does not control. When steel prices spike, margins get squeezed immediately unless the company can pass the cost on through price hikes, which it usually cannot do fast enough because vehicle prices are sticky and competitive. This is why margin, not just revenue, needs tracking through a commodity cycle, a company can grow sales and still see profit shrink.",
+          "example": "A 10% jump in steel prices can shave 1-2 percentage points off an auto maker's EBITDA margin within a quarter if price hikes lag the cost increase."
+        }
+      ]
+    },
+    {
+      "title": "Where auto breaks, and how to value it",
+      "blocks": [
+        {
+          "concept": "Dealer inventory hides the real slowdown",
+          "body": "Companies report 'sales' when they ship vehicles to dealers (wholesale), not when a customer actually drives one home (retail). During a slowdown, a company can keep reporting decent wholesale numbers for a few months by simply stuffing dealer lots with unsold stock, even as real demand has already turned down. Watching dealer inventory, usually measured in weeks of stock on hand, catches this before it shows up in the headline sales figures.",
+          "example": "Dealer inventory rising from 4 weeks to 8 weeks of stock is an early warning that wholesale numbers are about to fall, since dealers will stop ordering until the pile-up clears."
+        },
+        {
+          "concept": "EV transition risk splits the sector into winners and losers",
+          "body": "The shift from petrol and diesel engines to electric powertrains is not a minor product update, it changes which companies and which suppliers matter. A traditional engine has thousands of moving parts and an entire ecosystem of suppliers built around it, an electric motor has a fraction of that complexity, which means many auto parts makers focused on engines, gearboxes and exhaust systems face a shrinking addressable market over the next decade. Valuing an auto company today means asking how exposed its product line is to this shift, and whether it has a credible EV roadmap or is defending old technology.",
+          "example": "A company making fuel injectors or exhaust systems has a structurally shrinking market as EV penetration rises, no matter how well it executes today, while a battery or EV component maker benefits from the same trend."
+        }
+      ]
+    }
+  ],
   "metrics": [
     {
       "metric": "Volume Growth",

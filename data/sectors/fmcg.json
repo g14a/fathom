@@ -9,6 +9,54 @@
     "MARICO"
   ],
   "howItWorks": "FMCG sells small, cheap, repeat-purchase products to hundreds of millions of people, and its real moat is distribution: getting a product onto a shelf in a village no competitor can reach cost-effectively. Because the products are cheap and habitual, a company can raise prices quietly for years. That is the trap in the numbers: revenue can grow on price alone while actual demand stalls. Always split growth into volume and price. Volume is real people buying more; price is just inflation passing through.",
+  "sections": [
+    {
+      "title": "First, what is an FMCG business really?",
+      "intro": "FMCG stands for fast-moving consumer goods: soap, shampoo, biscuits, tea, the small stuff you buy without thinking and finish in weeks. The business is not really about the product. It is about being present, everywhere, all the time.",
+      "blocks": [
+        {
+          "concept": "The moat is the shelf, not the formula",
+          "body": "Anyone with a lab and a factory can make soap. What they cannot easily do is get that soap onto a shelf in a village of 2,000 people, hundreds of kilometres from the nearest city, and make it profitable to keep restocking it every month. Companies like Hindustan Unilever spent decades building distribution networks that reach millions of tiny shops. That network, not the recipe, is the real asset.",
+          "example": "Hindustan Unilever's products are sold in over 9 million retail outlets across India. A new entrant cannot buy that reach; it has to build it store by store, which takes years."
+        },
+        {
+          "concept": "Cheap and habitual means quiet pricing power",
+          "body": "Because a pack of biscuits costs 10 rupees, nobody haggles over it or switches brands to save 50 paise. That lets companies raise prices a little every year without anyone noticing or complaining, the way rent creeps up. This is called pricing power, the ability to charge more without losing customers.",
+          "example": "If a company raises the price of a soap bar from 30 to 33 rupees, that is a 10% price hike. Most buyers will not even register the change, but it adds 10% to revenue without selling a single extra bar."
+        }
+      ]
+    },
+    {
+      "title": "How to read an FMCG business",
+      "blocks": [
+        {
+          "concept": "Split growth into volume and price",
+          "body": "Revenue growth on its own is a mixed signal, it could mean more people are buying, or it could just mean prices went up while the same people bought the same amount. Volume growth is the count of units sold, packs of biscuits, bottles of shampoo. Price growth is how much each unit now costs. Only volume growth proves real, organic demand.",
+          "example": "If a company reports 12% revenue growth but volume grew only 2%, the other 10 points came from price hikes, not more people buying. That is a business coasting on inflation, not winning new customers."
+        },
+        {
+          "concept": "Gross margin tells you who absorbs the commodity shock",
+          "body": "FMCG companies buy raw materials like palm oil, wheat, and crude-oil derivatives for packaging. These prices swing with global commodity cycles that the company cannot control. Gross margin, the percentage of revenue left after paying for raw materials, shows whether the company can pass rising costs onto customers or has to eat them.",
+          "example": "If palm oil prices jump 20% and a soap maker's gross margin falls from 50% to 45%, that is the company absorbing part of the hit rather than fully passing it through in price."
+        }
+      ]
+    },
+    {
+      "title": "Where FMCG breaks, and how to value it",
+      "blocks": [
+        {
+          "concept": "The premiumisation trap",
+          "body": "A company under pressure can flatter its numbers by pushing customers toward pricier variants, a 200-rupee shampoo instead of a 100-rupee one, and calling that growth. Revenue and margins look great, but if volume is flat or falling, the company is just selling less to the same shrinking base at a higher price. That is not the same as reaching more people.",
+          "example": "A company reporting flat volume but 15% revenue growth, driven entirely by shifting customers to a premium range, is masking demand weakness with a mix shift, not proving the brand is stronger."
+        },
+        {
+          "concept": "Value it on cash generation, not growth alone",
+          "body": "FMCG needs very little factory investment relative to its profit, so it converts profit into free cash extremely efficiently, which is why it trades at high valuations, often 40-60 times earnings for market leaders. The right lens is return on capital employed (ROCE), how much profit the company generates per rupee invested in the business, alongside rural and urban demand trends, since rural India is often the swing factor for volume growth.",
+          "example": "A company posting 30%+ ROCE with steady volume growth deserves a premium valuation; the same growth number backed by weak ROCE or a debt-funded factory expansion does not."
+        }
+      ]
+    }
+  ],
   "metrics": [
     {
       "metric": "Volume Growth",

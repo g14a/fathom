@@ -9,6 +9,54 @@
     "CHALET"
   ],
   "howItWorks": "A hotel room is the most perishable product there is: an unsold night is gone forever. The building is a big fixed cost, so once the rooms are full, every extra booking is almost pure profit, and the same works viciously in reverse in a downturn. The business combines two levers, how full the hotel is and what each room fetches, into one number: revenue per available room. The smart modern move is to grow by managing other people's hotels for a fee, adding rooms and brand without pouring in capital.",
+  "sections": [
+    {
+      "title": "First, what is a hotels business really?",
+      "intro": "A hotel is, at its core, a building full of perishable inventory: rooms that must be sold fresh every single night or the revenue from them disappears forever. That one fact shapes how every hotel company is run and valued.",
+      "blocks": [
+        {
+          "concept": "An unsold room tonight is gone forever",
+          "body": "Unlike a shirt sitting on a shelf that can be sold next week, an empty hotel room at midnight earns nothing, and there is no way to sell that same night later, the moment has passed. This makes hotels behave a lot like airline seats: the property has already paid for staff, electricity, security and maintenance whether the room is occupied or not, so filling it at almost any reasonable price beats leaving it empty.",
+          "example": "A hotel that discounts a room to 4,000 on a slow Tuesday night rather than leave it empty is making a rational choice, because the alternative, an empty room, earns exactly zero and still costs money to keep ready."
+        },
+        {
+          "concept": "High fixed costs mean full hotels mint money and empty ones bleed",
+          "body": "Running a hotel building costs roughly the same whether it is 50% full or 95% full, the loan on the property, the staff on shift, the lobby lights are all fixed regardless of occupancy. This means once a hotel crosses its break-even occupancy level, almost every extra rupee from an additional room sold flows straight to profit, which is called high operating leverage. The same leverage works viciously in reverse: a fall in occupancy during a slowdown can wipe out profit far faster than revenue fell.",
+          "example": "If a hotel's fixed costs are covered at 60% occupancy, then rooms sold from 60% to 90% occupancy carry almost 90%+ margins, which is why a jump from 65% to 80% occupancy can more than double a hotel's bottom line."
+        }
+      ]
+    },
+    {
+      "title": "How to read a hotels business",
+      "blocks": [
+        {
+          "concept": "RevPAR combines the two things that matter into one number",
+          "body": "A hotel makes money from two levers: how many rooms it fills (occupancy) and what it charges for each room (average room rate, or ARR). RevPAR, revenue per available room, is simply occupancy multiplied by ARR, and it is the single best number for comparing two hotels regardless of their size, because it tells you the average revenue generated per room the hotel actually has, filled or not.",
+          "example": "A hotel running 70% occupancy at an ARR of 8,000 has a RevPAR of 5,600; a smaller luxury hotel running only 55% occupancy but charging 15,000 a night has a RevPAR of 8,250, meaning it is actually monetising its rooms better despite lower occupancy."
+        },
+        {
+          "concept": "Asset-light growth versus owning the bricks",
+          "body": "A hotel company can grow in two very different ways: build or buy its own properties (asset-heavy, capital intensive, but it keeps all the profit), or manage other owners' hotels under its brand for a fee (asset-light, capital-light, but it shares the upside). The asset-light management contract route lets a hotel chain add rooms and grow its brand footprint without spending the crores a new building costs, which is why growth in managed rooms is watched closely as a sign of capital-efficient expansion.",
+          "example": "A company adding 2,000 rooms in a year through management contracts, where it earns a fee but did not pay for construction, is growing far more capital-efficiently than a rival that borrowed heavily to build 2,000 rooms of its own."
+        }
+      ]
+    },
+    {
+      "title": "Where hotels breaks, and how to value it",
+      "blocks": [
+        {
+          "concept": "Deeply cyclical with the economy and travel demand",
+          "body": "Hotel demand rises and falls sharply with the broader economy, corporate travel budgets, tourism and even one-off shocks like a pandemic can crush occupancy almost overnight, while a construction boom in a city can flood the market with new rooms just as demand turns down. Because so much of a hotel's cost base is fixed, this cyclicality hits profits far harder than it hits revenue, which is the flip side of the operating leverage that helps hotels in good times.",
+          "example": "During the 2020 pandemic shutdown, occupancy at many Indian hotels fell below 20%, and because fixed costs barely dropped, several hotel chains posted deep losses even though the buildings themselves were untouched."
+        },
+        {
+          "concept": "Valuing hotels: cycle-adjust and watch the debt",
+          "body": "Because hotel earnings swing so much with the economic cycle, valuing them on a single year's profit is misleading; investors instead look at RevPAR trends over several years and prefer EV/EBITDA at a normalised, mid-cycle occupancy level. The other red flag to watch is debt taken to fund new construction: a hotel company that borrowed heavily to build new properties right before a downturn can find itself paying interest on empty rooms, a very similar trap to a metals company expanding capacity at the top of a cycle.",
+          "example": "A hotel chain trading at a low EV/EBITDA multiple purely because occupancy is temporarily depressed by a slowdown can be a genuine bargain, but only if its debt levels are low enough to survive the down years until occupancy recovers."
+        }
+      ]
+    }
+  ],
   "metrics": [
     {
       "metric": "Occupancy %",

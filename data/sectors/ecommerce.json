@@ -9,6 +9,54 @@
     "FIRSTCRY"
   ],
   "howItWorks": "An online platform sits between buyers and sellers and keeps a slice of every transaction. The headline number everyone quotes, gross merchandise value, is mostly vanity, because it is easy to buy growth by subsidising customers into a loss. The honest question is whether the platform keeps more of each order than it spends to serve it, and whether customers come back on their own instead of being paid to return. Repeat purchases lower acquisition cost over time and are the real compounding engine; without them the model is just burning cash for GMV.",
+  "sections": [
+    {
+      "title": "First, what is an e-commerce business really?",
+      "intro": "An e-commerce platform is a middleman that connects buyers and sellers online and takes a cut of every transaction that happens through it. The tricky part is that it is very easy to fake growth in this model by simply spending more money than you make on each order.",
+      "blocks": [
+        {
+          "concept": "GMV is the total pie, not what the company actually earns",
+          "body": "Gross merchandise value (GMV) is the total value of everything sold through the platform, including the part that goes to sellers, delivery partners, and payment processors. It is the headline number every company loves to quote because it always looks big and growing. But GMV is not revenue, and it is definitely not profit, it is closer to the total volume of traffic passing through a toll booth, not the toll collected.",
+          "example": "A platform can report 10,000 crore rupees of GMV in a year while the company itself only earns 500 crore rupees in actual revenue, the rest belongs to the sellers and logistics partners on the platform."
+        },
+        {
+          "concept": "You can buy growth, but you cannot buy loyalty",
+          "body": "Give people a big enough discount, a 50% off coupon or free delivery, and they will buy almost anything, which is why GMV growth funded by subsidies is not proof of a good business. The real test is whether customers come back and buy again once the discounts fade, because that is what separates an actual habit from a one-time bargain hunt.",
+          "example": "A food delivery app offering 60% off to first-time users will always show strong new-customer growth; the question is what percentage of those users order again a month later without a discount."
+        }
+      ]
+    },
+    {
+      "title": "How to read an e-commerce business",
+      "blocks": [
+        {
+          "concept": "Take rate shows how the platform actually gets paid",
+          "body": "Take rate is the company's revenue divided by GMV, the slice of every transaction the platform actually keeps for itself, through commissions, delivery fees, and advertising sold to sellers. A rising take rate usually means the platform has built enough scale or trust that it can charge sellers and buyers more without losing them, a sign that monetisation is maturing.",
+          "example": "If a platform's take rate rises from 8% to 11% while GMV keeps growing, it is squeezing more revenue out of the same transaction volume, a much healthier sign than GMV growth alone."
+        },
+        {
+          "concept": "Contribution margin is the one number that cannot lie",
+          "body": "Contribution margin is revenue from an order minus the variable costs of fulfilling it: delivery, packaging, payment processing, discounts. If this is negative, the company loses money on every single order before even counting fixed costs like salaries and warehouses, meaning more sales literally means more losses. Positive contribution margin is the first real proof that the business model can work at all.",
+          "example": "A quick-commerce company losing 20 rupees on every 500-rupee order, after delivery and discount costs, is not close to profit no matter how many orders it adds, it needs the unit economics to flip positive first."
+        }
+      ]
+    },
+    {
+      "title": "Where e-commerce breaks, and how to value it",
+      "blocks": [
+        {
+          "concept": "The subsidy trap: growth that disappears when the discounts stop",
+          "body": "Many e-commerce companies chase GMV and user counts to raise the next funding round, using investor money to subsidise prices below what the business can sustain. This works as long as new funding keeps arriving, but the moment it slows, discounts have to shrink, and a chunk of the demand that was only there for the subsidy disappears with it. The company that looked like it was scaling was really just renting customers.",
+          "example": "When a company cuts discounts to improve its path to profitability and its order volume drops 15-20% almost immediately, that gap is the real size of its subsidy-dependent, non-organic demand."
+        },
+        {
+          "concept": "Value it on the path from GMV to profit, not GMV itself",
+          "body": "Because these companies often lose money for years, valuing them on earnings does not work early on. Instead, track the trend: is contribution margin improving order by order, is CAC (the cost to acquire each new customer) falling as repeat purchases rise, and is there a believable, funded runway to turn overall profitable, cash burn, not GMV, before the money runs out. A shrinking loss with rising repeat rate is worth more than a bigger loss with bigger GMV.",
+          "example": "A company burning 200 crore rupees a year with contribution margin improving each quarter and repeat rate climbing is on a real path to profit; one burning the same amount with flat repeat rate is just spending to stand still."
+        }
+      ]
+    }
+  ],
   "metrics": [
     {
       "metric": "GMV (Gross Merchandise Value)",

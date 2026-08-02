@@ -8,6 +8,54 @@
     "INDUSTOWER"
   ],
   "howItWorks": "Telecom builds a hugely expensive network of towers and spectrum, then earns a small amount from each subscriber every month. Once the network is built, every extra rupee of revenue is almost pure profit, so the whole game is filling the pipe and charging more per user. Revenue per user is the honest scoreboard: adding cheap subscribers while that number stalls is just competitive bleeding. Spectrum auctions are brutal cash outflows that can starve a player of the money it needs to keep the network good.",
+  "sections": [
+    {
+      "title": "First, what is a telecom business really?",
+      "intro": "Strip away the jargon and a telco is a landlord of invisible pipes. It spends enormous sums up front to build a network, then rents access to it, one subscriber at a time, for a monthly fee.",
+      "blocks": [
+        {
+          "concept": "Fixed cost up front, near-free after that",
+          "body": "Building towers and buying spectrum costs tens of thousands of crores before a single customer connects. Once that network exists, serving one more subscriber costs almost nothing extra, so the business has huge operating leverage. That is why market share swings hit profit so hard in both directions, a subscriber gained or lost falls almost straight to the bottom line. This is also why the industry consolidates into a handful of players rather than staying fragmented like a grocery store chain.",
+          "example": "In India this has settled into a 3 player oligopoly, Jio, Airtel and Vi (Vodafone Idea), because only a few balance sheets can afford the network build in the first place."
+        },
+        {
+          "concept": "You are renting a monthly relationship, not selling a product",
+          "body": "A telco does not sell you a phone call, it sells you a subscription that renews every month whether you think about it or not. That means the real product is retention: keeping a customer paying long after the network cost is sunk. A customer who stays 5 years is worth many times a customer who leaves after 5 months, because the acquisition cost (SIM, marketing, dealer commission) is paid once but recovered slowly.",
+          "example": "If it costs a telco ₹1,500 to acquire a subscriber and that subscriber pays ₹200 ARPU a month, the company needs roughly 7-8 months just to break even on acquiring them."
+        }
+      ]
+    },
+    {
+      "title": "How to read a telecom business",
+      "blocks": [
+        {
+          "concept": "ARPU is the single number that tells you if pricing power exists",
+          "body": "Average Revenue Per User (ARPU) is simply monthly revenue divided by subscriber count. It is the cleanest read on whether a telco is winning quality customers at fair prices, or winning cheap subscribers through discounts. A rising ARPU in a stable subscriber base means the company is successfully charging more, usually through tariff hikes or by pushing customers onto data-heavy plans. A telco with huge subscriber growth but flat ARPU is often just buying market share, not building a healthier business.",
+          "example": "Bharti Airtel's ARPU crossing ₹200 versus Vodafone Idea stuck near ₹150 in the same period tells you plainly which one has pricing power and which one is fighting to survive."
+        },
+        {
+          "concept": "Churn and capex intensity, the two costs of staying in the game",
+          "body": "Churn is the percentage of subscribers who leave in a period, and low churn is what makes the whole subscription model profitable, because it means acquisition costs get spread over years, not months. On the other side, capex intensity (capital spending as a percentage of revenue) tells you how much of every rupee earned has to be ploughed straight back into towers and spectrum just to keep up with data demand and the next network generation. A telco with low churn but very high sustained capex is still a hard business, since the cash keeps leaving before shareholders ever see it.",
+          "example": "5G rollouts pushed Indian telcos to spend 30-35% of revenue on capex for several years, meaning nearly a third of every rupee collected went straight back into the network before any profit reached investors."
+        }
+      ]
+    },
+    {
+      "title": "Where telecom breaks, and how to value it",
+      "blocks": [
+        {
+          "concept": "The 5G payback trap",
+          "body": "Every generation upgrade (3G to 4G to 5G) forces telcos to spend heavily again on a network that does not immediately generate matching new revenue, because customers do not pay much more just because the technology changed. The payback only shows up years later, once data usage grows into the new capacity and the company can justify higher tariffs. Investors who value a telco right after a big capex cycle, before that payback has materialised, are often paying for a network that has not yet earned its keep.",
+          "example": "Indian telcos spent through 2022-2024 on 5G spectrum and towers with minimal extra revenue to show for it by 2024, since most 5G data usage was still bundled into existing 4G-era pricing."
+        },
+        {
+          "concept": "Debt is the silent killer, and it needs to be judged relative to spectrum obligations",
+          "body": "Spectrum auctions and network capex are usually funded with debt, and that debt does not go away even if a price war erodes ARPU. A telco carrying heavy debt against a shrinking or flat ARPU can spiral, since it cannot cut capex without losing customers to the network quality war, but it cannot keep spending without breaching debt covenants. Valuation for telecom should always net out this debt (use EV, enterprise value, not just market cap) because two telcos with the same market cap can have wildly different real cost structures once debt is included.",
+          "example": "Vodafone Idea's near collapse was not because it lost too many customers overnight, it was years of ARPU staying below the level needed to service its spectrum and bank debt."
+        }
+      ]
+    }
+  ],
   "metrics": [
     {
       "metric": "ARPU (Avg Revenue Per User)",
