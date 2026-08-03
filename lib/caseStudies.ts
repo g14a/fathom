@@ -4,6 +4,7 @@ import path from 'path';
 export interface CaseSection {
   heading: string;
   body: string[];
+  diagram?: string; // id of an inline diagram to render after the body (see the page renderer)
 }
 
 export interface CaseStudy {

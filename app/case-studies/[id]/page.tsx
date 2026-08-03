@@ -36,6 +36,52 @@ function renderInline(text: string): React.ReactNode[] {
   return parts;
 }
 
+// Inline, theme-aware diagrams referenced by CaseSection.diagram.
+function renderDiagram(id: string): React.ReactNode {
+  if (id === 'consolidation') {
+    const before = [
+      'Airtel', 'Vodafone', 'Idea', 'Reliance Jio', 'Reliance Comm', 'Aircel',
+      'Tata Docomo', 'Telenor / Uninor', 'Videocon', 'MTS (Sistema)',
+    ];
+    const after = [
+      { name: 'Reliance Jio', note: 'the disruptor' },
+      { name: 'Airtel', note: 'survived, battered' },
+      { name: 'Vodafone Idea', note: 'two merged into one' },
+    ];
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">A dozen operators, crushed to three</span>
+          <span className="dg-badge">2016 → 2020</span>
+        </div>
+        <div className="dg-consol">
+          <div className="dg-col">
+            <div className="dg-col-head">Before Jio: ~12 players fighting</div>
+            <ul className="dg-namelist dg-namelist-dim">
+              {before.map((n) => <li key={n}>{n}</li>)}
+            </ul>
+          </div>
+          <div className="dg-arrow" aria-hidden="true">→</div>
+          <div className="dg-col">
+            <div className="dg-col-head">After the price war: 3 left</div>
+            <ul className="dg-namelist dg-namelist-live">
+              {after.map((a) => (
+                <li key={a.name}><span className="dg-name">{a.name}</span><span className="dg-name-note">{a.note}</span></li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <figcaption className="dg-cap">
+          Charging almost nothing, most operators could not cover their costs. Some shut down (Aircel, Reliance
+          Communications), others were absorbed (Telenor and Tata into Airtel; Vodafone and Idea merged). A crowded
+          market became a three-way one, the change that would finally let prices rise. Source: industry history.
+        </figcaption>
+      </figure>
+    );
+  }
+  return null;
+}
+
 export default async function CaseStudyPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const c = getCaseStudy(id)!;
@@ -87,6 +133,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
           <section key={si} className="csd-section">
             <h2 className="csd-h2">{sec.heading}</h2>
             {sec.body.map((para, j) => <p key={j} className="cs-para">{renderInline(para)}</p>)}
+            {sec.diagram && renderDiagram(sec.diagram)}
           </section>
         ))}
 
