@@ -1,0 +1,202 @@
+{
+  "ticker": "SUZLON",
+  "company": "Suzlon Energy Ltd",
+  "title": "The Suzlon sadness",
+  "period": "2008 → 2026",
+  "tags": [
+    "Dilution",
+    "Foreign-currency debt",
+    "Restructuring",
+    "Share count"
+  ],
+  "relatedCaseStudies": [
+    "airtel-the-lost-decade-2007-2020",
+    "bse-the-toll-booth-boom-2023-2026"
+  ],
+  "summary": "A company worth over ₹60,000 crore whose shares cost about ₹48 each looks like a puzzle, and the answer is the saddest lesson in investing: a business can recover completely while its original owners are quietly wiped out. The weapon that did it was not debt or competition. It was the slow printing of new shares.",
+  "keyNumbers": [
+    {
+      "label": "Share price",
+      "value": "~₹48"
+    },
+    {
+      "label": "Market cap",
+      "value": "~₹65,600 cr"
+    },
+    {
+      "label": "Shares outstanding",
+      "value": "~1,363 crore"
+    },
+    {
+      "label": "Peak debt (early 2010s)",
+      "value": "over ₹13,000 cr"
+    },
+    {
+      "label": "Face value per share",
+      "value": "₹2"
+    }
+  ],
+  "intro": [
+    "Here is a riddle. Suzlon Energy is worth more than ₹65,000 crore, a genuinely large company, bigger than many household names. And yet a single share of it costs about ₹48, the kind of price that makes beginners call it a 'penny stock' and assume it must be tiny or troubled. Both things are true at once: a very big company, and a very small price per share. How?",
+    "The answer opens the door to one of the most important and least understood ideas in investing, and to a genuinely sad story. Suzlon was once India's proudest clean-energy champion, a global giant in wind power. Then it nearly died, and the way it survived, over more than a decade, was by printing new shares again and again. The business has now recovered spectacularly. But an ordinary investor who backed it at its 2008 peak was, for all practical purposes, wiped out along the way, even as the company came back to life. This is the story of how that can happen."
+  ],
+  "sections": [
+    {
+      "heading": "First, why a ₹48 price is not a penny stock",
+      "body": [
+        "Start by killing a common myth: that a low share price means a small or cheap company. It means nothing of the sort. What a company is worth in total is called its market capitalisation, or market cap, and the formula is simple: market cap equals the price of one share multiplied by the number of shares that exist. The price per share on its own tells you almost nothing, because it depends entirely on how many pieces the company has been cut into.",
+        "Picture a pizza. A pizza worth ₹600 can be cut into 10 big slices worth ₹60 each, or into 600 tiny slivers worth ₹1 each. The pizza is the same size either way. The price of a slice only tells you how thinly it was cut, not how big the pizza is. A ₹1 sliver is not 'cheap'; it is just small.",
+        "Suzlon is the second pizza. It has been cut into an enormous number of slices: roughly 1,363 crore shares, which is over 13 billion. Multiply that gigantic slice-count by a modest ₹48 a slice, and you arrive at a market cap north of ₹65,000 crore. The ₹48 is not a sign of a small or failing company. It is a sign of a company that has been sliced into an extraordinary number of pieces. And the story of why it was sliced so thin is the whole point."
+      ]
+    },
+    {
+      "heading": "So where did 1,363 crore shares come from? The dilution machine",
+      "body": [
+        "When a company creates and sells brand-new shares, the pizza does not get bigger; it just gets cut into more slices. Everyone who already owned a slice now owns a thinner one. This is called dilution, and it is one of the quietest ways an ordinary shareholder can be hurt. Your number of shares stays the same, but each one represents a smaller fraction of the company than it did before, because there are now more shares sharing the same business.",
+        "A company issues new shares for a reason, usually to raise money. And a company that is desperate for money, drowning in debt it cannot repay, will issue shares over and over, because selling new slices is often the only way left to raise cash or to pay off lenders by handing them shares instead. Every time it does, the existing owners are diluted a little more.",
+        "Suzlon spent more than a decade as exactly that kind of desperate company. It raised money and settled debts by issuing new shares through almost every route available: converting foreign bonds into shares, selling discounted new shares to existing holders (a rights issue), converting other debt instruments straight into equity, and selling large blocks to institutions. Just in the recent years of its rescue, its share count grew from roughly 850 crore shares to over 1,363 crore, an extra 500 crore-plus slices carved out of the same pizza. Stretch back to the crisis years before that, and the printing was relentless. That is where the 13 billion shares came from: not from success, but from survival."
+      ]
+    },
+    {
+      "heading": "How it got here: the empire and the dollar debt",
+      "body": [
+        "To feel why the printing never stopped, you need the fall that started it. Suzlon was founded in 1995 by Tulsi Tanti, a textile businessman who first got into wind power simply to run his own fabric mills more cheaply, then realised the wind machines were the better business. Through the 2000s he built Suzlon into one of the largest wind-turbine makers on earth, a rare Indian company leading a global industry. It was a genuine source of national pride.",
+        "Then came the ambition that broke it. In 2007, at the top of the market, Suzlon bought a large German competitor, REpower (later Senvion), to become a true world leader. To pay for it, it borrowed heavily in foreign currency, issuing around $760 million of dollar-denominated convertible bonds. A convertible bond is a loan that the lender can later choose to turn into shares. That detail matters, and it will come back to bite.",
+        "The timing could not have been worse. The 2008 financial crisis crushed demand for expensive wind projects just as Suzlon took on this mountain of debt. Worse, the debt was in dollars while Suzlon earned mostly in rupees, and the rupee then fell hard, from about ₹44 to the dollar toward ₹55. Every dollar of interest suddenly cost far more rupees to pay. The debt ballooned past ₹13,000 crore. In 2012 Suzlon could not meet a foreign-bond repayment and defaulted, one of the largest such defaults India had seen. A consortium of nineteen banks led by SBI had to restructure thousands of crores of its loans."
+      ]
+    },
+    {
+      "heading": "A decade of survival, one rescue at a time",
+      "body": [
+        "What followed was not a quick death or a quick recovery, but a grinding decade of near-misses. Suzlon sold its prized German unit in 2015 to raise cash, undoing the very acquisition it had nearly killed itself to make. That same year the pharma billionaire Dilip Shanghvi stepped in with a large investment for a big stake, a lifeline from outside. Yet the debt kept looming, and the company was restructured again and again, four or five times over the decade, each round buying a little more time.",
+        "Every one of those rescues leaned on the same tool: issue more shares. Convert a bond to equity, run a rights issue, hand lenders shares in place of cash. And so the slice-count climbed and climbed, even as the founder himself, Tulsi Tanti, passed away in 2022 with the company still fighting for its life. This is the crucial link to understand: the debt crisis and the dilution were the same event seen twice. The debt is what forced the endless printing of shares, and the printing of shares is what saved the company from the debt. The lenders and new investors were rescued. The old shareholder paid for it in dilution."
+      ]
+    },
+    {
+      "heading": "The cruelty at the heart of it: the business came back, the early owner did not",
+      "body": [
+        "Now the genuinely sad part, and the reason this study is called what it is. From around 2022 the story finally turned. Suzlon completed a ₹1,200 crore rights issue and a ₹2,000 crore institutional share sale, converted its remaining debt to equity, and used the proceeds to pay off almost everything it owed. It went from crushing debt to very nearly debt-free, with borrowings down to a few hundred crore. Riding a wave of new orders for clean energy, revenue climbed to ₹16,732 crore and profit to over ₹3,000 crore by FY26, with a return on equity around 40%. By the numbers, this is a triumphant comeback.",
+        "The stock rose enormously too, roughly twenty-five times over from its crisis lows near ₹2. So surely the shareholders were made whole? No, and here is the trap. Consider someone who bought Suzlon at its 2008 peak. Through all the rescues, the shares outstanding multiplied many times over. Their original slice of the company was cut, and cut, and cut again, until it represented a tiny fraction of what it once did. The company they own a piece of is thriving, but their piece is so much thinner that they are still sitting on a devastating loss, even after the stock's huge rally off the bottom.",
+        "This is the quiet cruelty of dilution, and the sharpest lesson Suzlon teaches. A recovering business does not automatically mean a recovered shareholder. The enormous market cap today, north of ₹65,000 crore, is real, but most of that value belongs to the people who bought the new shares that funded the rescues, not to the loyal owners from the top. The pizza got healthy again. The early investor's slice just got shaved to almost nothing on the way. This is why you must always look past the share price to the number of shares, and judge a business by its per-share value, not its headline size."
+      ]
+    },
+    {
+      "heading": "The revival is real, and so is a fresh warning",
+      "body": [
+        "It would be unfair to end on the fall without crediting the recovery, which is genuine. Suzlon today is a fundamentally healthier company than the one that nearly collapsed: it is essentially debt-free, profitable, and sitting on a large order book as India races to build clean-energy capacity. The dollar-debt monster that haunted it is gone. That is a real turnaround, and the market has rewarded it.",
+        "But a careful reader should hold two warnings alongside the optimism. First, some of the eye-catching profit in the turnaround years came not from selling turbines but from one-off accounting gains as old debt was written off during restructuring, so the underlying operating recovery is younger and less proven than the headline profits suggest. Second, and more seriously, in May 2026 the market regulator SEBI penalised Suzlon and members of the Tanti family, including the vice-chairman and managing director, a total of about ₹29 crore, concluding that a series of past transactions had presented a misleading picture of the company's finances during its years of stress. Add to that a promoter family that now owns under 12% of the company and has been selling shares, meaning limited skin in the game, and you have a recovery that deserves respect but also caution. A wonderful turnaround and an uncomfortable governance record can, once again, be true at the same time."
+      ]
+    }
+  ],
+  "evidence": {
+    "caption": "The anatomy of the puzzle",
+    "rows": [
+      {
+        "label": "Share price",
+        "value": "~₹48",
+        "source": "Screener, Aug 2026"
+      },
+      {
+        "label": "Shares outstanding",
+        "value": "~1,363 crore (equity capital ₹2,745 cr at ₹2 face value)",
+        "source": "Screener / FY26 balance sheet"
+      },
+      {
+        "label": "Market cap (price x shares)",
+        "value": "~₹65,600 cr",
+        "source": "Screener"
+      },
+      {
+        "label": "Share count, FY21 to FY26",
+        "value": "~850 cr → ~1,363 cr shares",
+        "source": "Equity capital ₹1,702 cr → ₹2,745 cr"
+      },
+      {
+        "label": "Peak debt (early 2010s)",
+        "value": "over ₹13,000 cr",
+        "source": "Contemporaneous coverage"
+      },
+      {
+        "label": "Borrowings now (FY26)",
+        "value": "~₹556 cr (debt/equity 0.08)",
+        "source": "Screener"
+      },
+      {
+        "label": "Revenue / net profit (FY26)",
+        "value": "₹16,732 cr / ₹3,163 cr",
+        "source": "Screener"
+      },
+      {
+        "label": "SEBI penalty on Suzlon and promoters (May 2026)",
+        "value": "~₹28.95 cr for misleading financials (FY15-FY21)",
+        "source": "SEBI order / Moneylife"
+      }
+    ],
+    "note": "FY23's unusually high profit (₹2,887 cr at a 48% margin) was driven largely by one-off gains from writing off restructured debt, not by the turbine business. The cleaner operating recovery shows up from FY25 onward."
+  },
+  "sources": [
+    {
+      "label": "Equity has gone with the wind, but debt is eternal at Suzlon (Outlook Business)",
+      "url": "https://www.outlookbusiness.com/perspective/equity-has-gone-with-the-wind-but-debt-is-eternal-at-suzlon-5948"
+    },
+    {
+      "label": "Suzlon's total debt at ₹14,262 cr, includes FCCB worth ₹1,376 cr (Business Standard)",
+      "url": "https://www.business-standard.com/amp/article/companies/suzlon-energy-s-total-debt-at-rs-14-262-cr-includes-fccb-worth-rs-1-376-cr-120040701656_1.html"
+    },
+    {
+      "label": "Suzlon completes restructuring of over ₹12,000 crore of debt (Business Standard)",
+      "url": "https://www.business-standard.com/article/companies/suzlon-hopes-to-exit-debt-restructuring-by-march-116080401412_1.html"
+    },
+    {
+      "label": "Suzlon Energy coverage initiation: rights issue, QIP, path to net-debt-free (JM Financial)",
+      "url": "https://jmflresearch.com/JMnew/JMCRM/analystreports/pdf/Suzlon_IC_24Aug23.pdf"
+    },
+    {
+      "label": "Suzlon and Tanti promoters penalised ₹28.95 crore by SEBI over misleading financials (Moneylife)",
+      "url": "https://www.moneylife.in/article/suzlon-energy-promoters-and-former-executives-penalised-2895-crore-by-sebi-over-misleading-financial-statements/80617.html"
+    }
+  ],
+  "timeline": [
+    {
+      "when": "1995",
+      "what": "Tulsi Tanti founds Suzlon, initially to power his own textile mills, then builds a global wind-turbine giant."
+    },
+    {
+      "when": "2007",
+      "what": "At the market top, Suzlon buys Germany's REpower funded by about $760 million of dollar convertible bonds."
+    },
+    {
+      "when": "2008-2012",
+      "what": "The crisis crushes demand, the rupee falls, dollar debt balloons past ₹13,000 crore, and Suzlon defaults on a foreign-bond repayment."
+    },
+    {
+      "when": "2013",
+      "what": "A consortium of 19 banks led by SBI restructures roughly ₹9,500 crore of Suzlon's debt."
+    },
+    {
+      "when": "2015",
+      "what": "Suzlon sells its prized German unit to raise cash; Dilip Shanghvi invests for a large stake."
+    },
+    {
+      "when": "2013-2022",
+      "what": "Repeated restructurings, each leaning on issuing new shares, steadily multiply the share count and dilute early owners."
+    },
+    {
+      "when": "Oct 2022",
+      "what": "Founder Tulsi Tanti dies with the company still fighting to stabilise."
+    },
+    {
+      "when": "2022-2024",
+      "what": "A ₹1,200 cr rights issue, a ₹2,000 cr institutional placement and debt-to-equity conversions leave Suzlon nearly debt-free."
+    },
+    {
+      "when": "FY26",
+      "what": "Record year: revenue ₹16,732 crore, profit over ₹3,000 crore, ROE around 40%. The stock is up roughly 25x from its lows, yet still only about ₹48 a share."
+    },
+    {
+      "when": "May 2026",
+      "what": "SEBI penalises Suzlon and Tanti family executives about ₹29 crore for past transactions that misrepresented the company's finances."
+    }
+  ],
+  "lesson": "Suzlon is the case study in a single, brutal idea: dilution is a silent tax that can wipe out an owner even while the business recovers. The company nearly died of too much foreign-currency debt taken on for empire-building, and the only way it survived was by printing new shares, round after round, to pay that debt down. It worked. Suzlon is healthy again, worth over ₹65,000 crore, essentially debt-free. But the loyal shareholder from the 2008 top was crushed anyway, because their slice of the company was shaved thinner with every rescue, which is exactly why the stock can be a large company and a ₹48 'penny' price at the same time. The travelling lessons are permanent. Never judge a company by its share price; judge it by its market cap and, above all, by its per-share value, because the share count can quietly balloon beneath you. Treat heavy borrowing in a foreign currency as a special danger, since a falling rupee can turn a manageable loan into a fatal one. And remember that a rising business and a ruined shareholder are not a contradiction. Follow the value that reaches one actual share, yours, and watch the number of shares as closely as the price."
+}
