@@ -1,5 +1,4 @@
 import { getAllReports } from '@/lib/data';
-import { VerdictBadge } from '@/components/Verdict';
 import { withBase } from '@/lib/base';
 
 export default function Home() {
@@ -24,10 +23,9 @@ export default function Home() {
             <a key={r.slug} href={withBase(`/stocks/${r.slug}/`)} className="tcard">
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <span className="sym">{r.ticker}</span>
-                <VerdictBadge verdict={r.verdict} />
               </div>
               <div className="co">{r.company}</div>
-              <div className="meta">{r.sector} · {r.industry}</div>
+              <div className="meta">{r.sector === r.industry ? r.sector : `${r.sector} · ${r.industry}`}</div>
               <div className="thesis">{r.oneLiner}</div>
             </a>
           ))}

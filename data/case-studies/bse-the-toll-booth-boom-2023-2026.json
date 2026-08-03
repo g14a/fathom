@@ -1,0 +1,235 @@
+{
+  "ticker": "BSE",
+  "company": "BSE Ltd",
+  "title": "BSE Story: The toll booth that caught a boom",
+  "period": "2023 → 2026",
+  "tags": [
+    "Operating leverage",
+    "Derivatives boom",
+    "Regulation",
+    "Re-rating"
+  ],
+  "sectorId": "capitalmarkets",
+  "relatedCaseStudies": [
+    "airtel-the-lost-decade-2007-2020"
+  ],
+  "summary": "The mirror image of the Airtel story. Airtel grew for a decade and its stock went nowhere. BSE, one of the oldest companies in the country, roughly 13-folded in three years. The difference is the single idea these two case studies teach from opposite ends: a stock follows pricing power and cash economics, not size or age.",
+  "keyNumbers": [
+    {
+      "label": "Stock, 3-year CAGR",
+      "value": "~132% (about 13x)"
+    },
+    {
+      "label": "Net profit, FY23 to FY26",
+      "value": "₹206 cr → ₹2,487 cr"
+    },
+    {
+      "label": "Revenue, FY23 to FY26",
+      "value": "₹925 cr → ₹5,124 cr"
+    },
+    {
+      "label": "Return on equity (FY26)",
+      "value": "46%"
+    },
+    {
+      "label": "P/E today",
+      "value": "~57"
+    }
+  ],
+  "intro": [
+    "BSE Ltd is the company that runs the Bombay Stock Exchange, Asia's oldest, founded in 1875. For most of its listed life it was a sleepy, unloved business, overshadowed by its younger rival the NSE. Then, in the three years from 2023 to 2026, its stock did something almost no 150-year-old company ever does: it rose roughly thirteen times over. Its profit grew twelve-fold. A business older than most countries suddenly behaved like a hot startup.",
+    "This is the exact mirror of the [Airtel story](/case-studies/airtel-the-lost-decade-2007-2020/). Airtel grew for a decade and rewarded its owners with almost nothing, because it had no pricing power. BSE did the opposite, and the reason it could is the same idea seen from the other side. What changed was not the age of the company or even mainly its size. What changed was that a quiet toll booth suddenly found itself collecting a fee on the most frenzied trading boom in Indian history, and almost every rupee of that new fee fell straight to profit."
+  ],
+  "sections": [
+    {
+      "heading": "First, what an exchange actually is",
+      "body": [
+        "Start with the business, because it is not what most people think. BSE does not buy or sell shares for itself, and it does not bet on the market. It is a marketplace, closer to a toll booth or the landlord of a giant bazaar. Buyers and sellers meet on its system, and for every trade that passes through, BSE keeps a tiny sliver of a fee. That fee is called a transaction charge, and it is the heart of the business. On top of it, BSE earns listing fees (companies pay to have their shares traded here), fees for selling market data, and small charges from other services.",
+        "Now the one feature that makes an exchange special, and that you must hold in your head for the rest of this story: its costs are almost entirely fixed. Running the exchange means running computers, software, and a team of people. That bill is roughly the same whether ten lakh trades happen in a day or ten crore. So once the system is built and paid for, processing an extra million trades costs BSE almost nothing extra.",
+        "Think about what that means. If trading volume suddenly triples, BSE's fee income roughly triples too, but its costs barely move. Almost all of that new income becomes profit. This is called operating leverage, and it is the single most important idea in this entire case study. A toll booth on a quiet road earns a little. The same toll booth on a road that suddenly floods with traffic earns a fortune, because it did not have to build a wider booth."
+      ]
+    },
+    {
+      "heading": "A two-minute detour: what is a derivative?",
+      "body": [
+        "The boom that flooded BSE's road was in something called derivatives, so before we go further, let us build that idea from nothing, because everything else depends on it.",
+        "A derivative is a contract whose value is borrowed from something else. That something else is called the underlying, and it can be a share, a whole market index like the Sensex, gold, oil, almost anything with a price. The contract itself is not the thing; it is a bet or an agreement about the thing's price. A simple everyday version: a farmer and a baker agree today on a price for wheat to be delivered in three months. Neither is handing over wheat right now. They are trading a contract whose worth depends on, or derives from, the future price of wheat. That contract is a derivative.",
+        "In the stock market, two flavours matter. A future is a contract to buy or sell the underlying at a fixed price on a set future date, and you are obliged to go through with it. An option is gentler: it gives you the right, but not the duty, to do so. You pay a small fee for that right, and if the bet does not go your way, you simply walk away and lose only that small fee. Because the fee is small and the potential swing is large, options behave like cheap lottery tickets, and they are what the Indian trading crowd fell in love with.",
+        "One last piece of vocabulary and then we are done. Most of the frenzy was in index options, options written on an index like the Sensex rather than on a single company's shares. And notice something important for our story: none of this requires anyone to actually own the underlying shares. People are trading contracts about prices, back and forth, in enormous volume. Every one of those trades passes through an exchange, and the exchange takes its little fee, whether the bet wins or loses."
+      ]
+    },
+    {
+      "heading": "The spark: derivatives, from almost nothing",
+      "body": [
+        "So what flooded the road? Specifically, a boom in index options. You already know the shape of it now: a cheap, short-dated bet on where a market index, like the Sensex, will be by a particular day. You pay a small amount for the ticket. If the index moves your way by that day, the ticket can be worth a lot; if it does not, it expires worthless and you lose the small amount you paid. Most of them expire worthless. It is closer to a lottery ticket than to investing, and everyone in the market knows it.",
+        "In the years after the pandemic, millions of ordinary Indians took to trading these tickets on their phones, in numbers the world had never seen. It is worth asking why then, because several things happened at once. During the 2020 lockdowns people were stuck at home, often with time on their hands and, for the salaried, some extra savings from months of not spending. At the same time a new breed of app-based discount brokers (Zerodha, Groww, Upstox and others) had made opening a trading account a five-minute job on a phone and had slashed the cost of a trade to almost nothing. Cheap smartphones and some of the cheapest mobile data in the world, the very thing the Airtel story is about, put a full-blown trading terminal in every pocket.",
+        "On top of that came a wave of social-media 'finfluencers' making options trading look easy and glamorous, and a long stretch of a rising market that made beginners feel like geniuses. Put it together, idle time, savings, free apps, cheap data, and loud online hype, and a hobby became a mania. The activity was enormous, fast, and highly speculative. It was, for a marketplace that charges a fee on every trade, an ocean of new traffic.",
+        "Here is the twist: for years, BSE had almost no share of this. Nearly all index-options trading happened on the rival NSE. BSE's own derivatives business was so small as to be a rounding error. Then, in May 2023, BSE relaunched its Sensex and Bankex weekly options and went after that ocean. The result over the next three years was staggering: revenue from equity derivatives went from about ₹20 lakh in a single quarter to nearly ₹1,128 crore in a quarter. From a rounding error to the main engine."
+      ]
+    },
+    {
+      "heading": "The masterstroke: owning a day of the week",
+      "body": [
+        "How did a latecomer grab so much of a market the rival already owned? With one clever, almost sneaky idea about the calendar. Every weekly option has an expiry day, the deadline when the bet is settled. And it turns out that the vast majority of all the trading in these options happens on that one expiry day, when the tickets are cheapest and the gambling is most frantic. Expiry day is the casino's busiest night.",
+        "The rival NSE held its big weekly expiry on one weekday. Instead of fighting NSE head-on for that same crowded day, BSE simply scheduled its Sensex expiry on a different weekday. In one stroke, it created a second frantic expiry day each week, one that belonged to BSE alone. Traders, who are happy to gamble any day of the week, now had two casino nights instead of one, and BSE hosted the new one.",
+        "It sounds almost too simple to matter. It mattered enormously. By owning its own expiry day, BSE stopped competing for a slice of NSE's traffic and started generating fresh traffic of its own."
+      ]
+    },
+    {
+      "heading": "The fee war that pulled the traffic in",
+      "body": [
+        "Owning a day gave traders a reason to show up. Price gave them a reason to stay. BSE deliberately undercut NSE on cost: its charge on options trades was a fraction of NSE's (roughly 0.005% against NSE's 0.0355%), and it charged nothing at all on futures. For the high-speed brokers, the automated 'algo' traders, and the professional desks that trade in gigantic volume, even a tiny difference in fees per trade adds up to a lot of money. Cheaper venue, so the volume came.",
+        "The scoreboard moved fast. BSE's share of the notional turnover in equity derivatives went from near zero to around 44%, and in April 2026 it briefly overtook NSE itself, with about 55% of the market. A business that had been an afterthought in derivatives was now, on some days, the biggest venue in the country.",
+        "One honest note so you are not misled by the biggest numbers in the headlines. You will see 'notional turnover' quoted in lakhs of crores, even in trillions. That notional figure is the total face value of all the contracts, and it is deliberately dramatic. BSE does not earn a fee on that gigantic notional number. It earns its tiny charge on the far smaller premium, the actual price of the tickets, that changes hands. Always separate the headline notional from the real, much smaller base that the fee is actually charged on."
+      ]
+    },
+    {
+      "heading": "Why the profit exploded even faster than the revenue",
+      "body": [
+        "Now bring back operating leverage, because this is where the stock's thirteen-fold rise is really made. Look at the two numbers side by side. Between FY23 and FY26, BSE's revenue grew about 5.5 times, from ₹925 crore to ₹5,124 crore. Impressive. But its profit grew about 12 times, from ₹206 crore to ₹2,487 crore. Profit grew more than twice as fast as revenue. How?",
+        "Because of that fixed cost base. All the extra derivatives fees poured in, while the cost of running the exchange barely rose. So the share of every rupee of revenue that survived as profit, the margin, roughly doubled, from about 22% to nearly 48%. The business was not just bigger; each rupee it earned was far more profitable than before. By FY26 it was earning a remarkable 46% on its equity.",
+        "This is what sent the stock vertical, and it is a two-part engine worth naming. First, profit itself multiplied twelve-fold. Second, the market looked at a business suddenly earning 46% on equity with a near-monopoly on its own expiry day, and decided such a business deserved a much richer valuation, so it re-rated the price to a high multiple on top of the higher profit. Higher profit multiplied by a higher multiple is how you get a thirteen-bagger in three years."
+      ]
+    },
+    {
+      "heading": "The 67% 'crash' that never happened",
+      "body": [
+        "One thing on the chart will confuse you, so let us clear it up, because it is a useful lesson in itself. In May 2025 the raw share price appears to fall off a cliff, from about ₹6,996 to about ₹2,335, a drop of roughly 67%. It looks like a disaster. It was nothing of the sort.",
+        "What happened was a bonus issue, in a 2-for-1 ratio. In a bonus, the company simply hands its existing shareholders extra shares for free. Here, for every share you held you received two more, so you ended up with three shares where you had one. Naturally, if the number of shares triples while the company is worth the same, the price of each share falls to about a third. Your total wealth did not change one paisa. You just held more shares, each worth proportionally less.",
+        "This is why every serious chart shows an 'adjusted' price that smooths out bonuses and splits, and on that adjusted view BSE's climb is a steady rocket, not a crash-and-recover. Never read a raw price drop on a bonus or split date as a loss. It is an accounting rearrangement, not a fall in value."
+      ]
+    },
+    {
+      "heading": "The shadow over the whole story: the regulator",
+      "body": [
+        "Every one of these case studies has a tension, and here is BSE's. The very frenzy that made BSE rich, millions of ordinary people gambling on cheap options, is exactly what alarmed the market regulator, SEBI. And SEBI did not rely on hunches; it went and counted. Its landmark study found that in the three years to FY24, about 93% of individual traders in equity options lost money. The losses were not small: taken together, retail traders lost on the order of ₹1.8 lakh crore over that period, roughly ₹2 lakh each for those who lost. Meanwhile the money flowed the other way, toward the fast, professional players: the proprietary desks, the automated algo traders, and the foreign funds on the opposite side of those trades.",
+        "Sit with that for a moment, because it reframes the whole boom. BSE's soaring profit was, in large part, a toll collected on a machine that was steadily transferring wealth from millions of amateurs to a handful of professionals. That is not a stable, respectable growth story a regulator wants to nurture. It is a social problem a regulator wants to shrink. The interests of BSE's shareholders and the interests of SEBI were now pointed in opposite directions.",
+        "So SEBI began to tighten the screws, in a package of measures rolled out from late 2024. Take them one at a time, because each one bites BSE in a specific way. First, it cut each exchange to a single weekly expiry. Remember that expiry day is where the volume lives, and remember BSE's masterstroke was owning its own expiry day. BSE was allowed to keep one, on the Sensex, but lost its weekly Bankex expiry, removing one of its busy casino nights outright.",
+        "Second, it roughly tripled the minimum size of a contract, from about ₹5 lakh of underlying value to ₹15 lakh. In plain terms, the smallest bet you were allowed to place got three times bigger, which prices the smallest, most casual gamblers out of the game entirely. Third, it forced brokers to collect the full option premium from buyers upfront, ending the practice of trading on money you did not yet have, which cools the sheer number of trades. Fourth, the government raised the transaction tax (the STT) on these trades, making each one costlier and denting the appeal of rapid-fire trading.",
+        "There was one more change, quieter but aimed straight at the exchange's own wallet. SEBI introduced what it called 'true-to-label' charges. For years, exchanges had charged brokers on a sliding scale, quietly keeping the difference between what brokers collected from clients and what they finally passed up. The new rule forced those fees to be charged transparently and uniformly, wiping out a slice of revenue that exchanges like BSE had been pocketing. This one did not just cool the traffic; it directly trimmed the toll.",
+        "Now, the honest other side. When these curbs landed, many expected BSE's engine to stall, and overall market volumes did dip. Yet BSE proved more resilient than the doomsayers feared, because it kept taking share from NSE even as the total pie shrank, so its own revenue held up and grew. The frenzy bent but did not break. That is the bull's comfort.",
+        "But it does not remove the risk; it only postpones the question. Roughly 60% of BSE's revenue still rides on this single, speculative, retail-driven stream, a stream the regulator has openly and repeatedly said it wants to calm, and can calm further with a single circular whenever it chooses. Layer on a valuation of around 57 times earnings and 22 times book value, prices that assume years more of near-flawless growth, and you have a genuinely wonderful business whose fuel supply is controlled by someone else. Wonderful and fragile are not opposites here; BSE is both at once."
+      ]
+    },
+    {
+      "heading": "The mirror to Airtel, and what both teach",
+      "body": [
+        "Put the two stories side by side and the lesson clicks into place. Here is the strange part: at heart, Airtel and BSE are the same kind of business. Both are fixed-cost machines. Airtel spends a fortune building a network, then serving one more customer costs it almost nothing. BSE spends money building an exchange, then processing one more trade costs it almost nothing. Both, in theory, should turn extra revenue into pure profit. So why did one stock sleep for thirteen years while the other rocketed thirteen-fold?",
+        "The answer is the missing ingredient: pricing power, and the traffic to use it on. A fixed-cost machine is only a blessing if revenue is actually pouring in. If it is not, those big fixed costs become a millstone, because you still have to pay for the network or the exchange whether or not the money arrives. For thirteen years Airtel had the machine but not the money: a brutal price war and a costly acquisition meant every rupee of growth was competed away or eaten by debt before it could reach the shareholder. The operating leverage was there the whole time, just working against it, spreading thin revenue over a huge fixed cost.",
+        "BSE had both halves at once. It had the fixed-cost machine, and then a flood of traffic arrived and it had the power to charge a fee on every unit of it, with no real rival on its own expiry day to undercut it. That is when operating leverage stops being a millstone and becomes a rocket: revenue floods in, costs barely move, and the gap between them, the profit, explodes. Notice that Airtel's own stock only woke up when the very same thing happened to it, when the industry consolidated, pricing power returned, and its long-dormant operating leverage finally fired. The two stories are not opposites at all. They are the same machine, photographed with the fuel switched off and then switched on.",
+        "So neither stock moved because of the size or the age or the fame of the company. Both moved, in opposite directions and then the same direction, purely on the economics of a single rupee of revenue: how much of it the business gets to keep, and whether it has the power to charge for it in the first place. That is the thread running through every case study on this site. Follow the money that actually reaches the owner, not the headline about how big or old or famous the company is. And then, because BSE's fuel is a speculative boom the regulator wants to cool, ask the last uncomfortable question this story forces on you: who controls the fuel?"
+      ]
+    }
+  ],
+  "evidence": {
+    "caption": "The numbers behind the re-rating",
+    "rows": [
+      {
+        "label": "Revenue, FY23 to FY26",
+        "value": "₹925 cr → ₹5,124 cr",
+        "source": "Screener / BSE FY26 results"
+      },
+      {
+        "label": "Net profit, FY23 to FY26",
+        "value": "₹206 cr → ₹2,487 cr",
+        "source": "Screener / BSE FY26 results"
+      },
+      {
+        "label": "PAT margin, FY23 to FY26",
+        "value": "~22% → ~48%",
+        "source": "Screener"
+      },
+      {
+        "label": "Return on equity / capital (FY26)",
+        "value": "46% / 60%",
+        "source": "Screener"
+      },
+      {
+        "label": "Equity-derivatives revenue per quarter",
+        "value": "₹20 lakh (Q1 FY24) → ~₹1,128 cr (Q4 FY26)",
+        "source": "BSE investor disclosures"
+      },
+      {
+        "label": "Options fee, BSE vs NSE",
+        "value": "~0.005% vs ~0.0355%",
+        "source": "Contemporaneous coverage"
+      },
+      {
+        "label": "BSE notional derivatives market share",
+        "value": "~0% → ~44% (55.4% in Apr 2026)",
+        "source": "Angel One / Business Standard"
+      },
+      {
+        "label": "Stock price CAGR, 3-year / 5-year (adjusted)",
+        "value": "~132% / ~92%",
+        "source": "Screener"
+      }
+    ],
+    "note": "Figures are bonus and split adjusted where relevant. The May 2025 2-for-1 bonus makes the unadjusted price look as if it fell 67% overnight, from about ₹6,996 to ₹2,335; that was the bonus taking effect, not a loss of value."
+  },
+  "sources": [
+    {
+      "label": "BSE FY26 results: revenue crosses ₹5,000 crore (Indian Masterminds)",
+      "url": "https://indianmasterminds.com/news/bse-record-fy26-results-revenue-crosses-5000-crore-202589/"
+    },
+    {
+      "label": "BSE surpasses NSE in F&O turnover, 55.4% share, April 2026 (Angel One)",
+      "url": "https://www.angelone.in/news/market-updates/bse-surpasses-nse-in-f-o-turnover-for-first-time-in-april-2026-capturing-55-4-market-share"
+    },
+    {
+      "label": "BSE corners a fifth of the derivatives market (Business Standard)",
+      "url": "https://www.business-standard.com/markets/news/bse-now-corners-a-fifth-of-derivatives-market-share-amid-wider-acceptance-124050100832_1.html"
+    },
+    {
+      "label": "SEBI study: 93% of individual F&O traders lost money, ₹1.8 lakh crore over 3 years (Business Standard)",
+      "url": "https://www.business-standard.com/markets/news/93-of-individual-f-o-traders-lost-money-during-fy22-24-sebi-study-124092300939_1.html"
+    },
+    {
+      "label": "SEBI's six measures to curb F&O speculation (Business Standard)",
+      "url": "https://www.business-standard.com/markets/news/sebi-announces-six-key-changes-to-curb-speculation-in-derivatives-trading-124100101316_1.html"
+    },
+    {
+      "label": "SEBI's new rules for index derivatives, explained (Zerodha Z-Connect)",
+      "url": "https://zerodha.com/z-connect/business-updates/sebis-new-rules-for-index-derivatives-heres-whats-changing"
+    },
+    {
+      "label": "Why BSE's raw price 'tanked' 67% from ₹6,996 to ₹2,335 (Business Standard)",
+      "url": "https://www.business-standard.com/amp/markets/news/why-did-bse-ltd-share-price-tank-67-stock-fell-to-2-335-from-6-996-125052300328_1.html"
+    }
+  ],
+  "timeline": [
+    {
+      "when": "Pre-2023",
+      "what": "BSE is a sleepy, unloved exchange with almost no share of the booming index-options market, which the NSE dominates."
+    },
+    {
+      "when": "May 2023",
+      "what": "BSE relaunches Sensex and Bankex weekly options and schedules its expiry on a different weekday from NSE."
+    },
+    {
+      "when": "FY24",
+      "what": "Derivatives volume and fees begin to explode as brokers and algo traders arrive, drawn by an owned expiry day and far lower charges."
+    },
+    {
+      "when": "FY24-FY26",
+      "what": "Revenue rises about 5.5x and profit about 12x as operating leverage doubles the margin toward 48%. The stock re-rates violently."
+    },
+    {
+      "when": "20 Nov 2024",
+      "what": "SEBI's F&O curbs take effect: one weekly expiry per exchange, larger lot sizes, upfront premium, higher taxes. The regulator targets the exact activity BSE monetises."
+    },
+    {
+      "when": "May 2025",
+      "what": "A 2-for-1 bonus triples the share count; the unadjusted price 'falls' about 67%, which is an accounting effect, not a loss."
+    },
+    {
+      "when": "Apr 2026",
+      "what": "BSE briefly overtakes NSE in notional derivatives turnover with about 55% market share."
+    },
+    {
+      "when": "FY26",
+      "what": "Record year: revenue past ₹5,000 crore, profit ₹2,487 crore, ROE 46%. The stock has roughly 13x'd in three years, on a rich ~57x earnings multiple."
+    }
+  ],
+  "lesson": "BSE is the Airtel lesson read backwards. Its stock did not rise because the company was old, famous, or large; it rose because a toll booth with almost entirely fixed costs suddenly collected a fee on a flood of trading, so nearly every new rupee of revenue became profit, and the market re-rated the whole business upward for it. That is operating leverage, and it is thrilling on the way up. But it cuts both ways, and here the fuel is a speculative, retail-driven boom that the regulator has openly set out to cool, bought at a valuation that assumes the good times never end. The travelling lesson from both stories is the same: a stock follows the economics of a single rupee of revenue, how much of it the business keeps and whether it has the power to charge for it, not the size or age of the name. And when a business is this dependent on one stream, always ask the last question BSE forces on you: who controls the fuel?"
+}

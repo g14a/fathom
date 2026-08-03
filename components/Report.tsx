@@ -1,7 +1,6 @@
 import type {
   TickerReport, Metric, FinancialRow, HoldingSlice, ChecklistItem, MoatStrength,
 } from '@/lib/types';
-import { VerdictBadge } from './Verdict';
 import { getSector } from '@/lib/sectors';
 import { getCaseStudiesForTicker } from '@/lib/caseStudies';
 import { withBase } from '@/lib/base';
@@ -118,13 +117,12 @@ export function Report({ r }: { r: TickerReport }) {
 
       <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 16, justifyContent: 'space-between' }}>
         <div>
-          <div className="eyebrow">{r.sector} · {r.industry}</div>
+          <div className="eyebrow">{r.sector === r.industry ? r.sector : `${r.sector} · ${r.industry}`}</div>
           <h1 className="report-title">{r.company}</h1>
           <div className="asof" style={{ marginTop: 8 }}>
             {r.ticker} · {r.dataVariant} · as of {r.asOf}
           </div>
         </div>
-        <VerdictBadge verdict={r.verdict} />
       </div>
 
       <p style={{ fontSize: 18, color: 'var(--ink-dim)', marginTop: 16, maxWidth: 720 }}>{r.oneLiner}</p>
