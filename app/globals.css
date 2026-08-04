@@ -398,6 +398,30 @@ section.block:first-of-type { border-top: none; }
 .pb-desc { display: block; font-size: 15px; color: var(--ink-dim); line-height: 1.6; }
 .pb-outro { margin-top: 16px !important; }
 
+/* ===================== Filings: document map ===================== */
+.doc-map { margin-top: 20px; max-width: 720px; display: flex; flex-direction: column; gap: 10px; }
+.doc-map-row { display: grid; grid-template-columns: 200px 20px 1fr; align-items: center; gap: 14px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; }
+.doc-map-row .dm-doc { font-family: var(--mono); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+.doc-map-row .dm-arrow { font-family: var(--mono); color: var(--ink-faint); font-size: 16px; }
+.doc-map-row .dm-body { display: flex; flex-direction: column; gap: 3px; }
+.doc-map-row .dm-q { font-family: var(--serif); font-size: 18px; font-weight: 600; color: var(--ink); line-height: 1.25; }
+.doc-map-row .dm-role { font-size: 13px; color: var(--ink-faint); font-style: italic; }
+@media (max-width: 640px) {
+  .doc-map-row { grid-template-columns: 1fr; gap: 6px; }
+  .doc-map-row .dm-arrow { display: none; }
+}
+
+/* ===================== Filings: golden rule ===================== */
+.golden-rule { margin-top: 20px; max-width: 680px; border-left: 3px solid var(--accent); background: var(--bg-card); border-radius: 0 10px 10px 0; padding: 14px 20px; }
+.golden-rule .gr-label { font-family: var(--mono); font-size: 11px; letter-spacing: 0.09em; text-transform: uppercase; color: var(--accent); font-weight: 600; display: block; margin-bottom: 5px; }
+.golden-rule p { margin: 0; font-family: var(--serif); font-size: 18px; font-style: italic; color: var(--ink); line-height: 1.45; }
+
+/* ===================== Filings: reading checklist ===================== */
+.read-checklist { list-style: none; margin: 20px 0 0; padding: 0; display: flex; flex-direction: column; gap: 12px; max-width: 680px; }
+.read-checklist li { display: flex; align-items: flex-start; gap: 14px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 18px; }
+.read-checklist .rc-box { flex: none; width: 18px; height: 18px; margin-top: 2px; border: 2px solid var(--accent-dim); border-radius: 4px; }
+.read-checklist .rc-text { font-size: 16px; color: var(--ink-dim); line-height: 1.55; }
+
 /* ===================== Stock report: sector primer CTA ===================== */
 .sector-cta {
   display: flex; align-items: center; justify-content: space-between; gap: 18px;

@@ -7,7 +7,23 @@ export const metadata: Metadata = {
 
 interface Bullet { term: string; desc: string }
 interface Blk { concept: string; body: string; bullets?: Bullet[]; outro?: string; example?: string }
-interface Sec { title: string; intro?: string; blocks: Blk[] }
+interface Sec { title: string; intro?: string; blocks: Blk[]; goldenRule?: string }
+
+const DOC_MAP: { doc: string; question: string; role: string }[] = [
+  { doc: 'Investor presentation', question: 'What does management want me to notice?', role: 'The suspect\'s own story' },
+  { doc: 'Annual report', question: 'What actually happened this year?', role: 'The official statement' },
+  { doc: 'Earnings call', question: 'What are the analysts worried about?', role: 'The cross-examination' },
+  { doc: 'Financial statements', question: 'Does the money agree with the story?', role: 'The forensic evidence' },
+  { doc: 'Notes and auditor', question: 'What is management hoping I skip?', role: 'The footnotes nobody reads' },
+];
+
+const CHECKLIST: string[] = [
+  'Did management explain what actually drove the growth, in specifics?',
+  'Did cash from the business grow alongside reported profit?',
+  'What one question kept coming back in the Q&A?',
+  'Did management own any mistake, or only sell the vision?',
+  'Did anything in the notes surprise me?',
+];
 
 const SECTIONS: Sec[] = [
   {
@@ -68,6 +84,7 @@ const SECTIONS: Sec[] = [
         example: 'A company reports record profit, but the notes show its unpaid tax disputes are larger than a year of that profit, and the auditor added a note of concern. The front of the report is a celebration. The back is a warning.',
       },
     ],
+    goldenRule: 'Ignore the glossy pages. Spend your time on the MD&A, the three statements, and the notes.',
   },
   {
     title: 'The earnings call: listening in on management',
@@ -94,6 +111,7 @@ const SECTIONS: Sec[] = [
         example: 'Management guided to 20% growth last year and delivered 8%, and now guides to 20% again. The new promise is worth very little. Their own track record just told you so.',
       },
     ],
+    goldenRule: 'Read the questions before you read the answers. The worries are the point.',
   },
   {
     title: 'Investor presentations: useful, but it is marketing',
@@ -110,20 +128,27 @@ const SECTIONS: Sec[] = [
         example: 'A slide shows a soaring three-year growth chart. You check the annual report and find the starting year was an unusually bad one, which makes the growth look far more dramatic than the real trend. The chart was not false, just framed to impress.',
       },
     ],
+    goldenRule: 'Treat the presentation as an introduction, never as evidence.',
   },
   {
     title: 'Red flags to hunt across everything',
     intro: 'As you read, keep a short list of warning signs in your head. Any one of these is a reason to slow down and dig deeper.',
     blocks: [
       {
-        concept: 'The warning signs that travel across companies',
-        body: 'These patterns show up again and again, in completely different businesses. None of them is proof of wrongdoing on its own, but each is a reason to ask harder questions before trusting the story.',
+        concept: 'Accounting red flags: does the money add up?',
+        body: 'The first family of warnings is about the numbers themselves, whether the reported profit is as real and as clean as it looks. These live in the statements and the notes.',
         bullets: [
-          { term: 'The auditor resigns or is replaced', desc: 'The outside referee leaving suddenly is one of the loudest signals there is. Always find out why.' },
-          { term: 'Lots of related-party dealings', desc: 'Money flowing between the company and its promoters or their other businesses. Ask whose pocket the profit really lands in.' },
-          { term: 'Rising promoter pledging', desc: 'When promoters borrow against their own shares and the pledged amount keeps climbing, a falling stock can force sales out of their hands.' },
           { term: 'Profit rising but cash is not', desc: 'The classic. If reported profit climbs while cash from the business stays weak and unpaid bills swell, the earnings may be more paper than real.' },
           { term: 'Contingent liabilities that dwarf profit', desc: 'Big potential payouts from disputes or lawsuits, hiding in the notes, that could swamp a year or more of earnings.' },
+          { term: 'The auditor resigns, is replaced, or hedges', desc: 'The outside referee leaving suddenly, or adding any note of concern to the accounts, is one of the loudest signals there is. Always find out why.' },
+        ],
+      },
+      {
+        concept: 'Governance red flags: whose company is it really?',
+        body: 'The second family is about the people in charge, whether they are running the company for all its owners or mostly for themselves. These live in the ownership and related-party disclosures.',
+        bullets: [
+          { term: 'Lots of related-party dealings', desc: 'Money flowing between the company and its promoters or their other businesses. Ask whose pocket the profit really lands in.' },
+          { term: 'Rising promoter pledging', desc: 'When promoters borrow against their own shares and the pledged amount keeps climbing, a falling stock can force sales out of their hands.' },
           { term: 'Constantly changing the story', desc: 'Management that reinvents its strategy or its favourite metric every year, and keeps missing its own guidance, is telling you something.' },
         ],
         outro: 'You do not need to find all of these to walk away, and finding one does not automatically mean fraud. But each one earns the company a harder look before you trust a single cheerful headline.',
@@ -139,10 +164,10 @@ const SECTIONS: Sec[] = [
         concept: 'A beginner\'s reading order',
         body: 'When you are short on time, read these few things, in this order. It gets you most of the understanding for a fraction of the effort.',
         bullets: [
-          { term: '1. The investor presentation', desc: 'Ten minutes to understand what the company does and its headline story. Treat it as the friendly introduction, nothing more.' },
-          { term: '2. The Management Discussion & Analysis', desc: 'The real explanation of what happened and why, in the annual report. This is the substance the presentation dressed up.' },
-          { term: '3. The cash flow statement', desc: 'Check that reported profit is actually turning into cash. If it is not, stop and find out why before you go any further.' },
-          { term: '4. The concall Q&A', desc: 'Skim the questions from the latest earnings call to see what analysts are worried about and whether management answers straight or dodges.' },
+          { term: '1. Investor presentation (10 min)', desc: 'Understand what the company does and its headline story. Treat it as the friendly introduction, nothing more.' },
+          { term: '2. Management Discussion & Analysis (5 min)', desc: 'The real explanation of what happened and why, in the annual report. This is the substance the presentation dressed up.' },
+          { term: '3. Cash flow statement (3 min)', desc: 'Check that reported profit is actually turning into cash. If it is not, stop and find out why before you go any further.' },
+          { term: '4. Concall Q&A (2 min)', desc: 'Skim the questions from the latest earnings call to see what analysts are worried about and whether management answers straight or dodges.' },
         ],
         outro: 'Do just these four and you already understand the company better than most people who own its shares, and far better than anyone acting on a tip.',
         example: 'Twenty focused minutes on the right four things beats an hour skimming the glossy pages, and beats a lifetime of acting on WhatsApp forwards.',
@@ -210,6 +235,27 @@ export default function FilingsPage() {
           </p>
         </div>
 
+        <section className="teach-section">
+          <h2 className="ts-title">Every filing answers one question</h2>
+          <p className="ts-intro">
+            The trick is to stop asking “which file should I open?” and start asking “which question am
+            I trying to answer?” Approach a company like an investigation: each document is a different
+            kind of witness, and each one has a job.
+          </p>
+          <div className="doc-map">
+            {DOC_MAP.map((d, i) => (
+              <div key={i} className="doc-map-row">
+                <div className="dm-doc">{d.doc}</div>
+                <div className="dm-arrow">→</div>
+                <div className="dm-body">
+                  <span className="dm-q">{d.question}</span>
+                  <span className="dm-role">{d.role}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
         {SECTIONS.map((sec, si) => (
           <section key={si} className="teach-section">
             <h2 className="ts-title">{sec.title}</h2>
@@ -219,14 +265,35 @@ export default function FilingsPage() {
                 <Block key={i} p={p} i={i} />
               ))}
             </div>
+            {sec.goldenRule && (
+              <div className="golden-rule">
+                <span className="gr-label">Golden rule</span>
+                <p>{sec.goldenRule}</p>
+              </div>
+            )}
           </section>
         ))}
 
+        <section className="teach-section">
+          <h2 className="ts-title">What to write down while you read</h2>
+          <p className="ts-intro">
+            Knowing where to read is half of it. The other half is reading with a pen. Keep these five
+            questions beside you, and turn passive skimming into an actual investigation.
+          </p>
+          <ul className="read-checklist">
+            {CHECKLIST.map((c, i) => (
+              <li key={i}>
+                <span className="rc-box" aria-hidden="true" />
+                <span className="rc-text">{c}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
         <div className="closer">
           <p>
-            The company will always tell you it had a wonderful year. The filings let you check whether
-            that is true, in its own numbers, for free. Learn to read them and you never have to take
-            anyone’s word for it again.
+            The story tells you what management wants you to believe. The filings let you decide whether
+            it is true. Learn to read them and you never have to take anyone’s word for it again.
           </p>
           <div className="attrib">The Fathom way. Trust the documents, not the tips.</div>
         </div>
