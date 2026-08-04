@@ -7,7 +7,151 @@
   "asOf": "2026-08-02",
   "verdict": "hold",
   "oneLiner": "A real compounder in a business that outlives every business cycle. The only open question is price, and at 46x with a quarter of the promoter stake pledged, price is not on your side yet.",
-  "overview": "Kalyan is the second-largest organised jeweller in India, behind Titan. It sells gold. That sounds boring until you notice what gold is in India: not a discretionary purchase but a social obligation. A father does not gift a Gold ETF at his daughter's wedding. That single fact is the whole investment case, because it means demand does not switch off in a downturn the way a phone or a car does. What Kalyan is doing on top of that durable demand is taking share from the neighbourhood jeweller, and since FY24 it has found a way to do it without spending its own money: the FOCO model, where the franchisee funds the store and the inventory while Kalyan runs it and keeps the brand. FOCO is now roughly 40% of revenue and it is why ROE sits at 25% on a business with 4% net margins.",
+  "overview": "Kalyan sells the same gold as every neighbourhood jeweller. That sounds like a terrible business until you realise customers are not really buying gold. They are buying trust. Gold jewellery is one of the few purchases where buyers usually cannot verify quality themselves: purity, weight and making charges all require faith in the seller. That turns reputation into the product. Kalyan is using that reputation to capture a market that has been fragmented for generations, and its opportunity is not convincing Indians to buy more gold. It is convincing them to buy the same gold from someone they trust.",
+  "editorial": {
+    "realBusiness": "Kalyan is not really in the jewellery business. It is in the trust business.",
+    "whyExists": "Gold is almost identical everywhere, but the customer cannot easily verify purity, weight or fair making charges. Kalyan deserves to exist because it lowers the fear of being cheated in a purchase where trust matters more than the metal itself.",
+    "whyNotAlreadyWon": "Because trust is slow to build and local jewellery buying is relationship-led. National brands can win share, but they have to earn family-level confidence store by store.",
+    "mentalModels": [
+      {
+        "model": "Trust",
+        "strength": 5,
+        "why": "Customers cannot verify purity, weight or fair making charges themselves."
+      },
+      {
+        "model": "Brand",
+        "strength": 5,
+        "why": "The brand reduces fear; it does not change the gold price."
+      },
+      {
+        "model": "Distribution",
+        "strength": 4,
+        "why": "National reach lets Kalyan capture formalisation across local markets."
+      },
+      {
+        "model": "Formalisation",
+        "strength": 4,
+        "why": "The big share shift is from neighbourhood stores to organised chains."
+      },
+      {
+        "model": "Asset-Light Expansion",
+        "strength": 4,
+        "why": "FOCO grows stores without Kalyan funding every location itself."
+      },
+      {
+        "model": "Working Capital",
+        "strength": 5,
+        "why": "Cash retail and franchise inventory improve cash conversion."
+      },
+      {
+        "model": "Pricing Power",
+        "strength": 2,
+        "why": "Gold is market-priced; only making charges and mix can move."
+      }
+    ],
+    "economicEngine": [
+      {
+        "label": "Base demand",
+        "value": "Weddings and festivals",
+        "note": "Gold buying is cultural, not just discretionary."
+      },
+      {
+        "label": "Share shift",
+        "value": "Formalisation",
+        "note": "More of the same demand moves to organised brands."
+      },
+      {
+        "label": "Volume",
+        "value": "More jewellery sold",
+        "note": "Kalyan wins by taking share, not by inventing gold demand."
+      },
+      {
+        "label": "Gross profit",
+        "value": "Making charges + studded mix",
+        "note": "The metal passes through; design and diamonds lift the take."
+      },
+      {
+        "label": "Operating profit",
+        "value": "Scale over store costs",
+        "note": "Volume matters because net margins are structurally thin."
+      },
+      {
+        "label": "Capital required",
+        "value": "FOCO reduces capital",
+        "note": "Franchisees fund expansion while Kalyan keeps the brand system."
+      },
+      {
+        "label": "Returns",
+        "value": "High ROE",
+        "note": "Thin margins become attractive when capital intensity falls."
+      }
+    ],
+    "strategicPosition": [
+      {
+        "label": "Local jeweller",
+        "description": "Cheapest relationship-led option, but lowest standardised trust.",
+        "tone": "weak"
+      },
+      {
+        "label": "Kalyan",
+        "description": "Growing national chain: more trusted than local stores, more value-conscious than Titan.",
+        "tone": "focus"
+      },
+      {
+        "label": "Titan / Tanishq",
+        "description": "Highest trust and highest premium in organised jewellery.",
+        "tone": "strong"
+      }
+    ],
+    "winningToday": [
+      "Formalisation is moving customers from local jewellers to trusted national brands.",
+      "Kalyan has a real trust asset in a category where trust is the product.",
+      "The FOCO model lets it add stores quickly without tying up as much of its own capital.",
+      "Cash conversion is clean because jewellery retail collects at the counter."
+    ],
+    "stopWinning": [
+      "A trust failure on purity, weight, billing or store conduct would damage the core product.",
+      "Promoter pledge stress could turn a business issue into a stock issue.",
+      "Fast FOCO expansion could weaken store control, inventory discipline or brand consistency.",
+      "Gold regulation, duty changes or sharp gold-price moves can hit demand and margins."
+    ],
+    "marketBets": [
+      "Formalisation continues.",
+      "FOCO keeps working without damaging store control.",
+      "Trust remains intact.",
+      "Margins stay stable despite gold and franchise mix.",
+      "The promoter pledge does not force a stock accident."
+    ],
+    "sectorModels": [
+      {
+        "model": "Pricing Power",
+        "reading": "Weak",
+        "note": "Kalyan cannot price gold; it can only price trust and making charges."
+      },
+      {
+        "model": "Brand",
+        "reading": "Strong",
+        "note": "Brand reduces the customer's fear of being cheated."
+      },
+      {
+        "model": "Distribution",
+        "reading": "Strong",
+        "note": "National scale and local store density matter in a fragmented market."
+      },
+      {
+        "model": "Working Capital",
+        "reading": "Excellent",
+        "note": "Low debtor days and FOCO improve capital efficiency."
+      },
+      {
+        "model": "Operating Leverage",
+        "reading": "Medium",
+        "note": "Volume helps, but gold and franchise sharing keep margins thin."
+      }
+    ],
+    "whyNow": "The business is improving while the stock has already de-rated. FOCO is scaling, formalisation remains alive, earnings are cash-backed, and the market is wrestling with multiple compression plus promoter pledge risk.",
+    "remember": "Kalyan is a volume-and-trust machine: gold gives it demand, trust gives it customers, and FOCO gives it returns."
+  },
   "ipoFlag": "Listed March 2021. No repackaging games. Kalyan is a decades-old name, not a shell that bolted 'AI' or 'Defence' onto its title before an IPO.",
   "business": {
     "unitOfRevenue": "A gram of gold, plus the making charge on top of it. The gold itself is a pass-through at the day's price, so Kalyan earns on making charges and on the mix of higher-value studded pieces. That is why the margin looks thin: most of the invoice is metal Kalyan does not mark up.",

@@ -56,6 +56,45 @@ export interface Lens {
   reading: string;
 }
 
+export interface EconomicEngineStep {
+  label: string;        // "Demand", "Revenue", "Margins"
+  value: string;        // "Weddings and festivals", "Gold volume"
+  note?: string;
+}
+
+export interface CompanyMentalModel {
+  model: string;        // "Trust"
+  strength: 1 | 2 | 3 | 4 | 5;
+  why: string;          // why it matters for this company
+}
+
+export interface StrategicPosition {
+  label: string;        // "Local jeweller"
+  description: string;  // "Cheapest, lowest trust"
+  tone?: 'weak' | 'focus' | 'strong';
+}
+
+export interface SectorMentalModel {
+  model: string;        // "Pricing Power"
+  reading: string;      // "Weak", "Strong", "Excellent"
+  note?: string;
+}
+
+export interface CompanyEditorial {
+  realBusiness: string;      // One-sentence mental model
+  whyExists: string;         // Why this company deserves to exist
+  whyNotAlreadyWon: string;  // Why someone else has not already captured the pool
+  mentalModels: CompanyMentalModel[];
+  economicEngine: EconomicEngineStep[];
+  strategicPosition: StrategicPosition[];
+  winningToday: string[];
+  stopWinning: string[];
+  marketBets: string[];
+  sectorModels: SectorMentalModel[];
+  whyNow: string;
+  remember: string;
+}
+
 export interface TickerReport {
   // header
   ticker: string;      // display symbol, e.g. "M&M"
@@ -73,6 +112,7 @@ export interface TickerReport {
   // 1. overview
   overview: string;
   ipoFlag?: string;
+  editorial?: CompanyEditorial;
 
   // 1b. business model
   business: {

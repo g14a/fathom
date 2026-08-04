@@ -7,7 +7,136 @@
   "asOf": "2026-08-02",
   "verdict": "accumulate",
   "oneLiner": "The rare Indian carmaker that is winning on both fronts at once, number one in SUVs and number one in tractors, and it is doing it at a multiple that does not yet ask you to pay up for perfection.",
-  "overview": "Mahindra is two great franchises stapled together. It is the market leader in Indian tractors, a business it has quietly dominated for decades, and it has become the leader in SUVs, the fastest and most profitable slice of the car market, overtaking Tata Motors in FY26. On top of that it runs a real electric-vehicle business that is actually selling, not just promising. Add a sprawl of listed subsidiaries in finance, IT and logistics, and you have a group that is far more than a carmaker. The core, though, is simple and powerful: sell more SUVs and tractors, and keep more profit on each one.",
+  "overview": "Mahindra is not just a car company. It is a machine for owning profitable niches where the customer wants capability, not the cheapest badge. In tractors, that capability is rural reliability and dealer reach. In SUVs, it is road presence, waiting lists and a product identity Maruti cannot easily copy. That makes Mahindra different from a generic automaker: the engine is not merely more vehicles, but more of the right vehicles. When the mix tilts toward premium SUVs, tractors and EVs that customers actually want, revenue per unit rises and the business keeps more profit on each sale.",
+  "editorial": {
+    "realBusiness": "Mahindra is not cars. It is leadership in profitable capability niches.",
+    "whyExists": "Customers buy Mahindra when they need vehicles that feel rugged, aspirational or useful in Indian conditions. The company deserves to exist because it has built credibility in tractors and SUVs where brand, dealer reach, product identity and financing all matter.",
+    "whyNotAlreadyWon": "Because autos are hard to win twice: product cycles change, customers punish weak launches, and tractors require a rural distribution machine that takes decades to build.",
+    "mentalModels": [
+      {
+        "model": "Category Leadership",
+        "strength": 5,
+        "why": "Mahindra leads tractors and sits in the SUV profit pool."
+      },
+      {
+        "model": "Mix Upgrade",
+        "strength": 5,
+        "why": "Premium SUVs and EVs lift revenue per vehicle."
+      },
+      {
+        "model": "Pricing Power",
+        "strength": 4,
+        "why": "Wanted models and waiting lists reduce discounting."
+      },
+      {
+        "model": "Distribution",
+        "strength": 4,
+        "why": "Rural dealer reach and financing help close tractor and utility sales."
+      },
+      {
+        "model": "Cyclicality",
+        "strength": 4,
+        "why": "Tractors follow rural income; autos follow consumer confidence."
+      },
+      {
+        "model": "Captive Finance",
+        "strength": 3,
+        "why": "Financing supports demand but makes group cash flow harder to read."
+      }
+    ],
+    "economicEngine": [
+      {
+        "label": "Demand",
+        "value": "SUV premiumisation + rural income",
+        "note": "SUVs are structurally gaining share; tractors follow farm income."
+      },
+      {
+        "label": "Volume",
+        "value": "Vehicles and tractors sold",
+        "note": "Leadership gives Mahindra scale in the segments that matter."
+      },
+      {
+        "label": "Margin",
+        "value": "Premium mix",
+        "note": "A Scorpio-N or XEV earns more than a basic utility vehicle."
+      },
+      {
+        "label": "Capital",
+        "value": "Platforms, EVs and finance",
+        "note": "The group funds product cycles and uses finance to close sales."
+      },
+      {
+        "label": "Returns",
+        "value": "Higher profit per unit",
+        "note": "The engine works when mix improves without losing volume discipline."
+      }
+    ],
+    "strategicPosition": [
+      {
+        "label": "Mass-market carmakers",
+        "description": "Higher volume, lower identity, more price competition.",
+        "tone": "weak"
+      },
+      {
+        "label": "Mahindra",
+        "description": "SUV and tractor leader with rugged brand pull and improving mix.",
+        "tone": "focus"
+      },
+      {
+        "label": "Premium global brands / Toyota-like reliability",
+        "description": "Higher trust or premium perception, but not Mahindra's rural depth.",
+        "tone": "strong"
+      }
+    ],
+    "winningToday": [
+      "Mahindra leads Indian tractors and has become a leader in SUVs, the industry's profit pool.",
+      "Its products have customer pull, shown through waiting periods and reduced discounting.",
+      "The EV business has moved beyond promise into actual sales.",
+      "Management has focused capital on winning franchises instead of spreading it thinly."
+    ],
+    "stopWinning": [
+      "A weak monsoon or rural slowdown can hit tractor demand.",
+      "SUV competition from Tata, Hyundai, Toyota or Maruti can pressure waiting lists and pricing.",
+      "EV execution can absorb capital if products fail to scale profitably.",
+      "A mix shift back toward lower-priced vehicles would quietly compress margins."
+    ],
+    "marketBets": [
+      "SUV demand keeps premiumising.",
+      "Mahindra's current models retain customer pull.",
+      "Tractor leadership survives rural cycles.",
+      "EV launches scale without destroying margins.",
+      "Management keeps capital focused on winning franchises."
+    ],
+    "sectorModels": [
+      {
+        "model": "Pricing Power",
+        "reading": "Strong today",
+        "note": "Wanted models create pricing power, but autos can lose it quickly."
+      },
+      {
+        "model": "Cyclicality",
+        "reading": "High",
+        "note": "Autos and tractors both move with income cycles."
+      },
+      {
+        "model": "Brand",
+        "reading": "Strong",
+        "note": "Mahindra owns a rugged SUV and tractor identity."
+      },
+      {
+        "model": "Distribution",
+        "reading": "Strong",
+        "note": "Dealer and rural reach are major advantages."
+      },
+      {
+        "model": "Operating Leverage",
+        "reading": "Medium",
+        "note": "Scale helps, but product cycles and input costs matter."
+      }
+    ],
+    "whyNow": "Mahindra is interesting because two engines are working at once: SUV premiumisation and tractor leadership. The valuation is not cheap, but it is less demanding than many Indian quality names while the business momentum is still visible.",
+    "remember": "Mahindra wins when it sells more capable vehicles at a richer mix, not merely when it sells more units."
+  },
   "ipoFlag": "Founded in 1945. One of India's oldest industrial houses. No repackaging, no narrative makeover.",
   "business": {
     "unitOfRevenue": "A vehicle or a tractor sold, plus the profit kept on each. The mix matters as much as the count: a loaded Scorpio-N or an electric XEV earns far more than a base Bolero.",

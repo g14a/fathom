@@ -7,7 +7,136 @@
   "asOf": "2026-08-02",
   "verdict": "hold",
   "oneLiner": "A textbook turnaround, from a loss-making laggard to a 29% margin machine, but a lot of that shine comes from US exclusivities that fade, so the real question is what the profit looks like once the jackpots roll off.",
-  "overview": "Lupin is a large Indian pharma company that lost its way, then found it again. Four years ago it was posting losses and trailing its peers. Since then it has cleaned up its US business, leaned into harder-to-make complex generics, and ridden a couple of lucrative first-to-file launches to a spectacular margin recovery. The US is now 40% of sales and the biggest growth driver, its India business remains a steady branded-generics franchise, and management is betting the next leg on respiratory drugs and biosimilars. The numbers are dazzling right now. The job of the analyst is to work out how much of that is durable.",
+  "overview": "Lupin is not really in the business of selling pills. It is in the business of turning regulatory permission and manufacturing complexity into temporary profit pools. A plain generic medicine becomes a price war the moment enough competitors can make it. The money appears when a company can file early, manufacture something difficult, survive regulatory scrutiny and launch before the crowd arrives. That is why Lupin's turnaround matters: it has moved away from plain commodity generics toward complex products, respiratory drugs and US exclusivities, while its India branded business gives it a steadier base. The numbers are dazzling right now. The hard question is how much of today's profit is a durable engine and how much is a jackpot that fades.",
+  "editorial": {
+    "realBusiness": "Lupin is not pills. It is regulated complexity converted into margin.",
+    "whyExists": "Healthcare systems need cheaper medicines after patents expire, but not every manufacturer can make difficult generics reliably or pass regulatory scrutiny. Lupin deserves to exist when it can manufacture complex products, file intelligently and sell trusted branded medicines in India.",
+    "whyNotAlreadyWon": "Because generic profit pools keep resetting. Competitors enter, prices fall, regulators inspect plants, and every company must keep rebuilding the pipeline to stay ahead.",
+    "mentalModels": [
+      {
+        "model": "Regulation",
+        "strength": 5,
+        "why": "Plant approvals and clean inspections decide which products can ship."
+      },
+      {
+        "model": "Complexity",
+        "strength": 5,
+        "why": "Harder products attract fewer competitors and better margins."
+      },
+      {
+        "model": "Exclusivity",
+        "strength": 4,
+        "why": "First-to-file launches create temporary profit spikes."
+      },
+      {
+        "model": "Mean Reversion",
+        "strength": 4,
+        "why": "US generic margins fade as rivals enter."
+      },
+      {
+        "model": "Brand",
+        "strength": 3,
+        "why": "India branded generics are stickier than plain US generics."
+      },
+      {
+        "model": "Pipeline Renewal",
+        "strength": 5,
+        "why": "The company must replace fading products with new launches."
+      }
+    ],
+    "economicEngine": [
+      {
+        "label": "Demand",
+        "value": "Prescriptions and patent expiries",
+        "note": "Chronic demand at home plus global generic opportunities."
+      },
+      {
+        "label": "Revenue",
+        "value": "India brands + US launches",
+        "note": "India gives steadier repeat revenue; the US adds lumpy upside."
+      },
+      {
+        "label": "Margins",
+        "value": "Complexity and exclusivity",
+        "note": "Margins rise when fewer competitors can make the product."
+      },
+      {
+        "label": "Capital",
+        "value": "R&D, filings and plants",
+        "note": "The company must keep spending to replace products that fade."
+      },
+      {
+        "label": "Returns",
+        "value": "Peak ROE if pipeline works",
+        "note": "Returns stay high only if new complex launches replace old windfalls."
+      }
+    ],
+    "strategicPosition": [
+      {
+        "label": "Plain generic manufacturers",
+        "description": "Compete mostly on price; margins erode fastest.",
+        "tone": "weak"
+      },
+      {
+        "label": "Lupin",
+        "description": "Turnaround player moving into complex generics with an India branded base.",
+        "tone": "focus"
+      },
+      {
+        "label": "Best-in-class pharma compounders",
+        "description": "Broader specialty, branded or complex pipelines with more durable margins.",
+        "tone": "strong"
+      }
+    ],
+    "winningToday": [
+      "The US business has been repaired after years of weak execution.",
+      "Complex generics and first-to-file launches have lifted margins sharply.",
+      "India branded generics provide a sticky, higher-quality earnings base.",
+      "Cash flow now supports the turnaround rather than contradicting it."
+    ],
+    "stopWinning": [
+      "US exclusivity products fade as competitors enter and prices erode.",
+      "Regulatory observations or plant issues can delay launches and damage credibility.",
+      "A weak pipeline would expose the difference between peak margin and normal margin.",
+      "Plain generic price erosion can offset gains from new launches."
+    ],
+    "marketBets": [
+      "The US turnaround is durable.",
+      "Complex launches replace fading exclusivity profits.",
+      "Regulatory execution stays clean.",
+      "India branded generics keep compounding steadily.",
+      "Current margins do not collapse back to commodity-generic levels."
+    ],
+    "sectorModels": [
+      {
+        "model": "Pricing Power",
+        "reading": "Mixed",
+        "note": "Weak in plain US generics, stronger in complex products and India brands."
+      },
+      {
+        "model": "Regulatory Risk",
+        "reading": "High",
+        "note": "Plant compliance is central to the business model."
+      },
+      {
+        "model": "Operating Leverage",
+        "reading": "High at peaks",
+        "note": "A successful launch can lift margins quickly."
+      },
+      {
+        "model": "Durability",
+        "reading": "Uneven",
+        "note": "Some profits are recurring; some are launch windfalls."
+      },
+      {
+        "model": "Capital Intensity",
+        "reading": "Medium",
+        "note": "R&D, filings and specialised manufacturing keep the engine alive."
+      }
+    ],
+    "whyNow": "The stock is interesting because the business has visibly turned around, margins are high and cash flow is real. The debate is whether current earnings are the new base or a peak helped by US exclusivities.",
+    "remember": "Lupin is a good turnaround, but pharma windfalls must be replaced before they deserve a permanent multiple."
+  },
   "ipoFlag": "Long-established Mumbai pharma house, listed for decades. No repackaging games.",
   "business": {
     "unitOfRevenue": "A pack of medicine sold. In India under trusted brand names at healthy margins; in the US as generics where price falls every year unless the product is complex or has exclusivity.",

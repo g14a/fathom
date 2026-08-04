@@ -8,7 +8,136 @@
   "asOf": "2026-08-03",
   "verdict": "hold",
   "oneLiner": "The lost decade is over. The pricing power that was missing for thirteen years has returned, and the market now pays a rich 46 times earnings for exactly that. A wonderful business, no longer a cheap one.",
-  "overview": "Bharti Airtel is one of three private mobile operators left standing in India after the price war, and the strongest of them. It sells mobile connections to over 650 million customers across India and Africa, and increasingly bundles home broadband, enterprise services and DTH on top. The story today is the mirror image of its own lost decade (2007 to 2020), when the business grew but the shareholder waited. Since the industry consolidated to three players, tariffs have risen repeatedly, revenue per user has climbed from about ₹104 to ₹257, and the cash the business could never keep before is now pouring in. Net debt is falling fast, free cash flow is large, and profit is compounding. The catch sits in the price: after that turn, the stock trades near all-time highs on a high multiple.",
+  "overview": "Airtel is not really selling phone calls or data packs. It is selling access to a fixed-cost network. Once the towers, spectrum, fibre and billing systems are built, the next rupee of ARPU is far more profitable than the first. That is why the industry structure matters more than the app icon on your phone. During the price war, the same network could not keep its cash because competition gave the customer all the economics. Now that India has consolidated to three private players and tariffs are rising, the fixed-cost network is finally allowed to behave like one: small monthly price increases, multiplied across hundreds of millions of customers, turn into very large cash flow.",
+  "editorial": {
+    "realBusiness": "Airtel is not telecom. It is a fixed-cost network with returning pricing power.",
+    "whyExists": "Mobile connectivity is essential, but only a few companies can afford the spectrum, towers, fibre, technology and service footprint needed to deliver it at national scale. Airtel deserves to exist because it is one of the few networks reliable enough and large enough to carry India's data demand.",
+    "whyNotAlreadyWon": "Because a nationwide network costs billions and a weak balance sheet cannot survive spectrum cycles, technology shifts and price wars. Scale is the entry ticket.",
+    "mentalModels": [
+      {
+        "model": "Fixed Costs",
+        "strength": 5,
+        "why": "The network is expensive to build, but cheap to serve incrementally."
+      },
+      {
+        "model": "Operating Leverage",
+        "strength": 5,
+        "why": "A tariff hike spreads across hundreds of millions of users."
+      },
+      {
+        "model": "Oligopoly",
+        "strength": 5,
+        "why": "Three private players make rational pricing possible again."
+      },
+      {
+        "model": "Pricing Power",
+        "strength": 4,
+        "why": "ARPU can rise when customers have few meaningfully cheaper alternatives."
+      },
+      {
+        "model": "Recurring Revenue",
+        "strength": 4,
+        "why": "Customers pay every month for an essential service."
+      },
+      {
+        "model": "Capital Intensity",
+        "strength": 5,
+        "why": "Spectrum and network capex keep weak players out."
+      }
+    ],
+    "economicEngine": [
+      {
+        "label": "Demand",
+        "value": "Data usage",
+        "note": "India keeps consuming more mobile and broadband data."
+      },
+      {
+        "label": "Revenue",
+        "value": "ARPU x subscribers",
+        "note": "Small tariff hikes become huge when spread across hundreds of millions of users."
+      },
+      {
+        "label": "Margins",
+        "value": "Fixed network costs",
+        "note": "Once built, extra revenue drops through at high incremental margins."
+      },
+      {
+        "label": "Capital",
+        "value": "Spectrum and network capex",
+        "note": "The business is capital heavy, but cash flow now funds the spend."
+      },
+      {
+        "label": "Returns",
+        "value": "FCF + lower debt",
+        "note": "Tariff repair converts the same asset base into free cash flow."
+      }
+    ],
+    "strategicPosition": [
+      {
+        "label": "Vodafone Idea / BSNL",
+        "description": "Weaker networks and balance sheets; price-sensitive survival position.",
+        "tone": "weak"
+      },
+      {
+        "label": "Airtel",
+        "description": "Premium scaled challenger with rising ARPU and strong cash generation.",
+        "tone": "focus"
+      },
+      {
+        "label": "Reliance Jio",
+        "description": "Scale leader and price-setter, now also focused on profit.",
+        "tone": "strong"
+      }
+    ],
+    "winningToday": [
+      "The market has consolidated from a brutal field of operators to a rational three-player structure.",
+      "Jio now also needs profit, so tariff hikes are more likely to stick.",
+      "Airtel's premium customer base and brand help it hold ARPU.",
+      "Free cash flow is now large enough to reduce debt while still funding the network."
+    ],
+    "stopWinning": [
+      "A renewed price war would give the economics back to customers.",
+      "Spectrum auctions or technology cycles could force heavy capex before returns arrive.",
+      "Regulatory intervention could cap tariff repair or change industry economics.",
+      "Africa currency, political or execution issues could dilute the India improvement."
+    ],
+    "marketBets": [
+      "Tariff hikes continue to stick.",
+      "Jio remains rational because it also wants profit.",
+      "Airtel keeps premium customers and ARPU leadership.",
+      "Network capex does not outrun cash flow.",
+      "Debt keeps falling."
+    ],
+    "sectorModels": [
+      {
+        "model": "Pricing Power",
+        "reading": "Returning",
+        "note": "Tariffs can rise because the industry is no longer fragmented."
+      },
+      {
+        "model": "Operating Leverage",
+        "reading": "High",
+        "note": "Network costs are largely fixed after deployment."
+      },
+      {
+        "model": "Capital Intensity",
+        "reading": "High",
+        "note": "Spectrum and network investment are the price of staying relevant."
+      },
+      {
+        "model": "Distribution",
+        "reading": "Strong",
+        "note": "National network reach and customer service footprint are hard to replicate."
+      },
+      {
+        "model": "Balance Sheet",
+        "reading": "Improving",
+        "note": "Free cash flow is finally reducing leverage."
+      }
+    ],
+    "whyNow": "The business quality has changed because industry structure changed. The lost decade ended when tariff discipline returned, but the market has noticed: Airtel now trades at a premium multiple, so the question is whether earnings growth can still outrun valuation risk.",
+    "remember": "Airtel's story is the same network moving from price-war survival to tariff-led cash generation."
+  },
   "ipoFlag": "Listed since 2002. No rebranding or narrative makeover. This is the same telecom operator it has always been, now in a far friendlier industry structure.",
   "business": {
     "unitOfRevenue": "One customer's monthly bill. The single most important number is ARPU, the average revenue per user per month, now about ₹257. Multiply that by hundreds of millions of customers, and the small monthly figure becomes an enormous, recurring revenue base.",

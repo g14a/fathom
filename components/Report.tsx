@@ -110,6 +110,119 @@ function Block({ num, title, children }: { num: string; title: string; children:
   );
 }
 
+function Stars({ value }: { value: number }) {
+  return (
+    <span className="stars" aria-label={`${value} out of 5`}>
+      {[1, 2, 3, 4, 5].map((n) => <span key={n} className={n <= value ? 'on' : ''}>★</span>)}
+    </span>
+  );
+}
+
+function EditorialModel({ r }: { r: TickerReport }) {
+  if (!r.editorial) return null;
+
+  const e = r.editorial;
+  return (
+    <section className="editorial-model">
+      <div className="editorial-hero">
+        <div className="ed-kicker">Mental model</div>
+        <h2>{e.realBusiness}</h2>
+        <p>{e.whyExists}</p>
+        <p className="ed-answer"><strong>Why has no one else already won?</strong> {e.whyNotAlreadyWon}</p>
+      </div>
+
+      <div className="ed-heatmap">
+        <div className="ed-label">Mental model heatmap</div>
+        <div className="model-rows">
+          {e.mentalModels.map((m) => (
+            <div key={m.model} className="model-row">
+              <div className="model-score"><Stars value={m.strength} /></div>
+              <div className="model-name">{m.model}</div>
+              <div className="model-why">{m.why}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="ed-engine">
+        <div className="ed-label">Economic engine</div>
+        <div className="engine-flow">
+          {e.economicEngine.map((step, i) => (
+            <div key={`${step.label}-${i}`} className="flow-step">
+              <div className="flow-label">{step.label}</div>
+              <div className="flow-value">{step.value}</div>
+              {step.note && <div className="flow-note">{step.note}</div>}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {e.strategicPosition.length > 0 && (
+        <div className="ed-position">
+          <div className="ed-label">Strategic position</div>
+          <div className="position-stack">
+            {e.strategicPosition.map((p, i) => (
+              <div key={p.label} className={`position-node ${p.tone ? `pos-${p.tone}` : ''}`}>
+                <div className="pos-label">{p.label}</div>
+                <div className="pos-desc">{p.description}</div>
+                {i < e.strategicPosition.length - 1 && <div className="pos-arrow">↓</div>}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <div className="ed-grid">
+        <div className="ed-panel">
+          <div className="ed-label">Why now</div>
+          <p>{e.whyNow}</p>
+        </div>
+
+        <div className="ed-panel">
+          <div className="ed-label">What the market is betting on</div>
+          <ul className="ed-list">
+            {e.marketBets.map((b) => <li key={b}>{b}</li>)}
+          </ul>
+        </div>
+      </div>
+
+      <div className="ed-grid">
+        <div className="ed-panel">
+          <div className="ed-label">Why it is winning</div>
+          <ul className="ed-list">
+            {e.winningToday.map((w) => <li key={w}>{w}</li>)}
+          </ul>
+        </div>
+
+        <div className="ed-panel">
+          <div className="ed-label">Why it could stop winning</div>
+          <ul className="ed-list">
+            {e.stopWinning.map((w) => <li key={w}>{w}</li>)}
+          </ul>
+        </div>
+      </div>
+
+      <div className="ed-sector">
+        <div className="ed-label">Sector mental models</div>
+        <div className="sector-models">
+          {e.sectorModels.map((m) => (
+            <div key={m.model} className="sector-model">
+              <div className="sm-model">{m.model}</div>
+              <div className="sm-reading">{m.reading}</div>
+              {m.note && <div className="sm-note">{m.note}</div>}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="ed-remember">
+        <div className="ed-label">One sentence to remember</div>
+        <p>{e.remember}</p>
+      </div>
+    </section>
+  );
+}
+
 export function Report({ r }: { r: TickerReport }) {
   return (
     <div className="wrap report">
@@ -149,6 +262,8 @@ export function Report({ r }: { r: TickerReport }) {
           </a>
         );
       })()}
+
+      <EditorialModel r={r} />
 
       <Block num="01" title="Company Overview">
         <p>{r.overview}</p>
