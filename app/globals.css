@@ -429,6 +429,13 @@ section.block:first-of-type { border-top: none; }
 .dg-oplev-cost { background: var(--ink-faint); opacity: 0.7; }
 .dg-oplev-profit { background: var(--good); }
 .dg-oplev-value { font-family: var(--mono); font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--ink); white-space: nowrap; }
+.dg-flywheel { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 14px; }
+.dg-fw-node { position: relative; min-height: 98px; padding: 14px 16px 14px 48px; background: var(--bg-raised); border: 1px solid var(--border); border-radius: 10px; }
+.dg-fw-node::after { content: '→'; position: absolute; right: 14px; top: 12px; color: var(--accent); font-family: var(--mono); opacity: .75; }
+.dg-fw-num { position: absolute; left: 14px; top: 15px; font-family: var(--mono); font-size: 12px; font-weight: 700; color: var(--accent); }
+.dg-fw-label { display: block; font-family: var(--serif); font-size: 18px; line-height: 1.2; color: var(--ink); padding-right: 20px; }
+.dg-fw-note { display: block; color: var(--ink-faint); font-size: 12.5px; line-height: 1.45; margin-top: 6px; }
+@media (max-width: 560px) { .dg-flywheel { grid-template-columns: 1fr; } }
 
 /* The five questions that explain a sector */
 .anatomy { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }

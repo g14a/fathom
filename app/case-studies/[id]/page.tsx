@@ -109,6 +109,37 @@ function renderDiagram(id: string): React.ReactNode {
       </figure>
     );
   }
+  if (id === 'paint-distribution') {
+    const nodes = [
+      { label: 'Dealer counter', note: 'where the painter and homeowner decide' },
+      { label: 'Tinting machine', note: 'last-mile factory inside the shop' },
+      { label: 'Fast replenishment', note: 'dealer can carry less inventory' },
+      { label: 'Working capital', note: 'faster turns make the brand profitable to stock' },
+      { label: 'Recommendation', note: 'dealer and painter push what is available now' },
+      { label: 'Volume', note: 'more offtake funds an even denser network' },
+    ];
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">The distribution flywheel</span>
+          <span className="dg-badge dg-badge-good">Asian Paints</span>
+        </div>
+        <div className="dg-flywheel">
+          {nodes.map((n, i) => (
+            <div key={n.label} className="dg-fw-node">
+              <span className="dg-fw-num">{String(i + 1).padStart(2, '0')}</span>
+              <span className="dg-fw-label">{n.label}</span>
+              <span className="dg-fw-note">{n.note}</span>
+            </div>
+          ))}
+        </div>
+        <figcaption className="dg-cap">
+          Paint distribution is not a pipe. It is a loop: availability creates dealer confidence, dealer confidence
+          creates recommendation, recommendation creates volume, and volume pays for even better availability.
+        </figcaption>
+      </figure>
+    );
+  }
   return null;
 }
 
