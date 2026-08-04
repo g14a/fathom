@@ -79,6 +79,36 @@ function renderDiagram(id: string): React.ReactNode {
       </figure>
     );
   }
+  if (id === 'operating-leverage') {
+    const rows = [
+      { label: 'Revenue', value: '× 5.5', width: '46%', cls: 'dg-oplev-rev' },
+      { label: 'Costs', value: '~ unchanged', width: '9%', cls: 'dg-oplev-cost' },
+      { label: 'Profit', value: '× 12', width: '100%', cls: 'dg-oplev-profit' },
+    ];
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">Why profit outran revenue</span>
+          <span className="dg-badge dg-badge-good">FY23 → FY26</span>
+        </div>
+        <div className="dg-oplev">
+          {rows.map((r) => (
+            <div key={r.label} className="dg-oplev-row">
+              <span className="dg-oplev-label">{r.label}</span>
+              <span className="dg-oplev-track">
+                <span className={`dg-oplev-bar ${r.cls}`} style={{ width: r.width }} />
+              </span>
+              <span className="dg-oplev-value">{r.value}</span>
+            </div>
+          ))}
+        </div>
+        <figcaption className="dg-cap">
+          Revenue grew about 5.5 times while the cost of running the exchange barely moved, so profit grew about 12
+          times. That gap between the two is operating leverage.
+        </figcaption>
+      </figure>
+    );
+  }
   return null;
 }
 
@@ -146,15 +176,15 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
               <div className="csd-score">
                 <div className="csd-score-label">The scorecard</div>
                 <div className="csd-score-row">
-                  <span className="csd-score-k csd-score-up">Grew</span>
+                  <span className="csd-score-k csd-score-up">{sec.scorecard.labels?.improved ?? 'Grew'}</span>
                   <span className="csd-score-v">{renderInline(sec.scorecard.improved)}</span>
                 </div>
                 <div className="csd-score-row">
-                  <span className="csd-score-k csd-score-down">Got worse</span>
+                  <span className="csd-score-k csd-score-down">{sec.scorecard.labels?.worsened ?? 'Got worse'}</span>
                   <span className="csd-score-v">{renderInline(sec.scorecard.worsened)}</span>
                 </div>
                 <div className="csd-score-row">
-                  <span className="csd-score-k csd-score-share">Shareholder</span>
+                  <span className="csd-score-k csd-score-share">{sec.scorecard.labels?.shareholder ?? 'Shareholder'}</span>
                   <span className="csd-score-v">{renderInline(sec.scorecard.shareholder)}</span>
                 </div>
               </div>

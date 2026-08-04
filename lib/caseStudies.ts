@@ -9,6 +9,11 @@ export interface CaseSection {
     improved: string;
     worsened: string;
     shareholder: string;
+    labels?: {      // optional row-label overrides (default: Grew / Got worse / Shareholder)
+      improved?: string;
+      worsened?: string;
+      shareholder?: string;
+    };
   };
   lens?: {          // optional framing callout: a recurring set of questions to carry through the study
     label: string;
