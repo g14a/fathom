@@ -26,6 +26,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
         {children}
+        <footer className="site-footer">
+          <div className="wrap">
+            <p className="site-footer-legal">
+              <strong>Educational use only.</strong> Fathom is not a SEBI-registered investment
+              adviser, and nothing on this site is a recommendation, an offer, or a solicitation
+              to buy or sell any security. Benchmarks and rules of thumb are teaching aids, not
+              thresholds to trade on. The content is general in nature, may contain errors or
+              omissions, and can become outdated; past performance never guarantees future
+              results. Any decision you take based on anything you read here is entirely your own
+              responsibility, and Fathom accepts no liability for any loss or damage that may
+              result. Always do your own research, and consult a SEBI-registered investment
+              adviser and your tax adviser before investing.
+            </p>
+          </div>
+        </footer>
       </body>
     </html>
   );

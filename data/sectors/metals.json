@@ -89,5 +89,29 @@
     "efficiency": "EBITDA/tonne",
     "capital": "ROCE",
     "risk": "Debt / commodity cycle"
-  }
+  },
+  "anatomy": {
+    "demand": "From everything the world builds and makes: construction, cars, machines, appliances, infrastructure. That ties metals tightly to global growth, and above all to China, which alone drives roughly half of world steel demand. Because building and manufacturing slow sharply in a downturn, demand is deeply cyclical and can fall off a cliff in a recession. This is a cycle no single Indian company controls; it simply rides it up and down.",
+    "pricing": "Nobody at the company. Steel is steel and aluminium is aluminium, so the price is set globally by how much the world is producing against how much it wants, and an Indian mill just takes whatever the market pays that day. When China overproduces and dumps the surplus abroad, prices can fall sharply and every producer's profit falls with them, well run or not. There is essentially no pricing power here; the company is a price taker.",
+    "limiting": "Cheap raw material and cheap power, ideally owned outright. The profit is the gap between the world price and your own cost, so the real prize is captive mines: your own iron ore or coal, dug at a fraction of the market price. A rival buying the same ore and power on the open market starts every tonne at a disadvantage that money alone cannot fix quickly, because mining leases and integrated plants take years and permissions to build.",
+    "leak": "Into raw material, energy and, above all, debt. Ore, coal and the vast electricity a furnace swallows are the day-to-day drains. The bigger leak is capital: a single plant expansion can cost tens of thousands of crores, funded with heavy borrowing, so interest keeps eating cash long after the plant is built. When the cycle turns down, that interest bill keeps arriving while revenue collapses.",
+    "killer": "The commodity cycle meeting a pile of debt. Companies borrow heavily to expand when prices are high and confidence is peaking, and that new capacity tends to arrive just as the cycle turns down. Prices fall, revenue shrinks, but the interest payments do not, and a high cost producer with too much debt can be crushed before prices recover. This exact combination, debt-funded expansion into a falling market, is the classic way metals companies go bankrupt.",
+    "moat": "Mostly cost, not brand, and it comes from captive raw materials and scale. The lowest cost producer survives every downturn and can even make money when rivals are bleeding, and that edge is built on owned mines, modern low-energy furnaces and sheer size. Those are genuinely hard to copy because they take years, licences and enormous capital to assemble. But on the product itself there is almost no moat: a tonne of steel is interchangeable, so a high cost producer with no captive supply has nothing protecting it when the cycle turns."
+  },
+  "beginnerQuestion": {
+    "q": "If a steel company cannot set its own price, how does it ever make good money?",
+    "a": "It cannot touch the price, so it fights on cost instead. Steel and aluminium prices are set globally by world supply and demand, above all by China, and an Indian mill simply takes whatever the market pays that day. Since the selling price is the same for everyone, the profit is just the gap between that price and your own cost per tonne, so the only real lever is being the cheapest producer. A company with its own captive mines and power makes each tonne for far less, so it survives every downturn when high-cost rivals are bleeding, and prints money in every upturn. The whole game is cost, because price is out of your hands."
+  },
+  "remember": "Metal makers cannot set their price, so the low-cost producer with captive raw material survives every cycle while the rest drown in debt.",
+  "mentalModels": [
+    "Commodity Price-Taker",
+    "Cost Leadership",
+    "Cyclicality",
+    "Capital Intensity"
+  ],
+  "relatedSectors": [
+    "cement",
+    "auto",
+    "infrastructure"
+  ]
 }

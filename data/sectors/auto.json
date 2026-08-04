@@ -97,5 +97,32 @@
     "efficiency": "Profit per vehicle",
     "capital": "ROCE",
     "risk": "EV shift / raw material costs"
-  }
+  },
+  "anatomy": {
+    "demand": "From households and businesses deciding to make a big, deferrable purchase. A vehicle is not a daily habit like toothpaste; most people buy one once every 5-7 years, so the decision gets postponed when incomes are weak, interest rates are high, or the mood is uncertain, and rushes back when conditions improve. That makes auto deeply cyclical and one of the most watched proxies for the health of the wider economy. Two-wheeler and tractor demand leans especially on rural cash flows, so a good monsoon and strong crop prices lift it.",
+    "pricing": "Mostly the market, through fierce competition. Vehicle prices are sticky and rivals are always ready to discount, so a carmaker cannot freely raise prices even when its own costs jump. What pricing power exists comes from product mix: if buyers trade up to costlier, better-loaded models, the average selling price rises and margin improves without any list-price hike. But raw list prices are hemmed in by competition, which is why a strong brand and a genuinely wanted model matter so much.",
+    "limiting": "A trusted brand, a wide dealer network and a hit model, none of which money buys instantly. A newcomer can build a factory, but it cannot manufacture the decades of reputation that make buyers trust a badge, nor conjure the thousands of dealers and service points that reach every town, nor guarantee that its next model actually sells. Getting a genuinely desirable vehicle to market, backed by reach and trust, is the real bottleneck.",
+    "leak": "Into raw materials and constant new-model investment. Steel, aluminium and, increasingly, battery materials are a large chunk of each vehicle's cost and swing with commodities the company does not control, squeezing margin the moment prices spike. On top of that, a carmaker must keep spending heavily to design and tool up new models and, now, whole electric platforms, just to stay relevant. The cash drains through input costs and the endless capital needed to refresh the range.",
+    "killer": "A technology shift and the demand cycle. The move from petrol and diesel to electric is not a minor update; an electric motor has a fraction of an engine's parts, so makers and suppliers built around engines, gearboxes and exhausts face a shrinking market over the coming decade. Layered on top is the ordinary cycle: a slowdown can be masked for a while by stuffing unsold stock onto dealer lots, so rising dealer inventory is the early warning before the headline sales even turn.",
+    "moat": "Brand and dealer network, sharpened by scale. A badge buyers trust and a service network that reaches every town are enormously hard for a rival to replicate, because both take years and huge sums to build, and they feed on themselves: more sales fund more dealers, which drive more sales. Scale also spreads fixed factory costs over more units, so the volume leader earns more on each vehicle. A carmaker without brand pull or dealer reach, competing only on price, has little protecting it."
+  },
+  "beginnerQuestion": {
+    "q": "Two cars can look similar, so why does one carmaker earn so much more per vehicle than another?",
+    "a": "The metal is similar, but the badge on the bonnet is not. A brand buyers already trust can charge a bit more for the same size of car, because people pay up for a name they believe will be reliable and easy to resell. Scale does the other half: the volume leader spreads its fixed factory costs over far more vehicles and buys parts more cheaply, so it spends less making each one. Add a wide dealer and service network that reaches every town, and a hit model people actually want, and the same shaped car earns a fatter profit than a no-name rival forced to discount to sell at all. Brand, scale and reach, not the sheet metal, decide the profit per vehicle."
+  },
+  "remember": "Carmakers live on cyclical demand, and the winners are the ones whose brand and dealer network let them earn more on every vehicle.",
+  "mentalModels": [
+    "Brand",
+    "Cyclicality",
+    "Operating Leverage",
+    "Distribution"
+  ],
+  "relatedSectors": [
+    "metals",
+    "airlines",
+    "ecommerce"
+  ],
+  "relatedCaseStudies": [
+    "mahindra-the-65pc-fall-2018-2020"
+  ]
 }

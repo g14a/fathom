@@ -212,5 +212,29 @@
     "efficiency": "Cost-to-Income",
     "capital": "ROA",
     "risk": "GNPA / NPAs"
-  }
+  },
+  "anatomy": {
+    "demand": "From anyone who needs money now and is willing to pay rent for it: a family buying a house, a shopkeeper stocking up, a company building a factory. When the economy is strong, people and businesses borrow more, so a bank's demand is really a geared-up bet on the country. It is structural over decades, because a growing economy always needs more credit, but it is cyclical year to year, because borrowing dries up the moment confidence wobbles.",
+    "pricing": "Partly the bank, but mostly forces above it. The RBI sets the base rate for the whole economy, and every bank's loan and deposit rates move with it. On top of that, competition decides how much a bank can charge: push loan rates too high and a rival will undercut you. The gap between what it earns on loans and pays on deposits, the NIM, is the price that matters, and it gets squeezed whenever deposits turn expensive faster than loans can reprice.",
+    "limiting": "Cheap, trusted deposits. Anyone with capital can start lending, but getting millions of people to leave their everyday salary and savings in your account, paying them almost nothing, takes decades of trust and a branch and app network people rely on. That pool of near-free money, what bankers call CASA, is the single biggest reason some banks are simply better than others, and it cannot be bought with money. You have to earn it, one relationship at a time.",
+    "leak": "Through loans that never come back. Lend ₹100 and see ₹5 go bad, and you do not just lose the interest, you can lose the whole ₹5. On top of that, a bank must keep a cushion of its own capital idle by law, and its margin quietly leaks away whenever deposits get pricier faster than loans reprice. The cash disappears into bad loans and into the buffer regulators force it to hold.",
+    "killer": "Bad loans, almost always. A bank can look gloriously profitable for years and then admit a big slab of its loans is never coming back, and years of profit vanish in a single quarter. The cruel trap is timing: the worst loans are made at the top of a boom, when everything feels safe, and only reveal themselves on the way down. Because a bank lends out ten times its own money, when the loans go bad, they go bad fast.",
+    "moat": "Trust, and the cheap deposit franchise that trust builds. A rival can copy a bank's products in a week, but it cannot copy the tens of millions of people who keep their salary and savings parked at HDFC or SBI out of decades of habit and confidence. That deep pool of cheap money lets a strong bank make the identical loan a weaker one makes and still walk away with far more profit. It is why NBFCs, which cannot take your deposits, can never quite match a good bank's cost of funds."
+  },
+  "beginnerQuestion": {
+    "q": "If the bank lends my money to someone else, how can I still withdraw it whenever I want?",
+    "a": "Because not everyone wants their money on the same day. On any given day a few people withdraw while many others are depositing, so the two roughly cancel out. The bank keeps a slice of all the deposits as ready cash, plus a safety buffer the RBI forces it to hold, and lends out the rest. Your money is not sitting in a drawer with your name on it; the bank simply owes you that amount and can always pay, because withdrawals and fresh deposits balance out. The one thing that breaks this is panic: if everyone demands their money at once, a bank run, no bank can pay, which is exactly why trust and the RBI's rules matter so much."
+  },
+  "remember": "Banks borrow cheaply, lend carefully, and survive or die by the quality of their loans.",
+  "mentalModels": [
+    "Cost of Funds",
+    "Trust",
+    "Leverage",
+    "Capital Allocation"
+  ],
+  "relatedSectors": [
+    "nbfcs",
+    "insurance",
+    "capitalmarkets"
+  ]
 }

@@ -218,5 +218,32 @@
     "efficiency": "Plant Load Factor",
     "capital": "Debt / EBITDA",
     "risk": "DISCOM receivables and debt load"
-  }
+  },
+  "anatomy": {
+    "demand": "From everyone, all the time. Homes, shops, factories and farms all need electricity every day, and that need barely dips in a recession, so power demand is structural and steady rather than boom-and-bust. As the economy grows and more of life runs on electricity, demand climbs gently and reliably year after year. This is the opposite of cement or steel: nobody postpones switching on the lights, so the question is rarely whether the power is wanted, but who has committed to buy a particular plant's output and whether they will pay.",
+    "pricing": "It depends which kind of company. A regulated player earns a return fixed in advance by a regulator, around the mid-teens, whether demand is high or low, so its price is essentially written into the rules and its earnings are bond-like. A merchant player has no such promise; it sells into the open market at whatever price the day gives, high when power is scarce, miserable when there is a glut. And a plant under a long PPA has locked its price for twenty-five years, trading away the upside for safety.",
+    "limiting": "A solid PPA with a buyer who will actually pay. Building the plant is mostly a matter of capital, but securing a long, fixed contract to sell its power to a reliable, solvent buyer is the scarce thing. That signed promise is what turns a risky construction project into a decades-long annuity, and money alone cannot conjure a creditworthy off-taker when most of the natural buyers, the state DISCOMs, are broke. A clean PPA with a payer you can trust is the real bottleneck.",
+    "leak": "Into debt and unpaid bills. Plants are funded mostly with heavy long-term loans, so a large slice of the cash goes straight to interest every month, by design. The more painful leak is on the way back in: a generator can produce the power, deliver it, book the sale, and then wait months or years to be paid by a cash-strapped DISCOM. So the money disappears both into the interest bill and into a swelling pile of receivables that may never fully arrive.",
+    "killer": "DISCOMs that cannot pay, meeting debt that must be paid. The state distribution companies that buy most of the power are deep in the red, often forced to sell below cost for political reasons, so they pay their suppliers late, partly, or not at all. When that cash falters while the monthly interest on a huge loan keeps arriving, the gap can sink an otherwise sound company within a year or two. Too much debt built against unreliable payers is what has broken power companies again and again.",
+    "moat": "Long fixed-price contracts and, for regulated assets, guaranteed returns. A portfolio of twenty-five-year PPAs with strong buyers gives visible, decades-long earnings a rival cannot easily take away, and a regulated return written into the rules is about as durable as an income gets. Owning the only transmission line or the cheapest, well-sited renewable capacity adds to it. The weakness is the reverse: a merchant player with no contracts has almost no moat, because it is simply exposed to whatever power prices do next."
+  },
+  "beginnerQuestion": {
+    "q": "If a power company has customers using electricity every day, how can it not get paid?",
+    "a": "The company that generates the power usually does not sell it to you directly. It sells in bulk to a state distribution company, a DISCOM, and those are frequently broke, often forced to sell electricity below cost for political reasons. So the generator can produce the power, deliver it, and book the sale as revenue, then wait months or years for the DISCOM to actually hand over the cash, if it ever does in full. This is why, in power, who buys the electricity and whether they can genuinely pay matters far more than how much the plant produces."
+  },
+  "remember": "A power company builds an asset once and sells its output for decades, and everything hinges on whether the buyer actually pays.",
+  "mentalModels": [
+    "Regulated Returns",
+    "Capital Intensity",
+    "Counterparty Risk",
+    "Contract Visibility"
+  ],
+  "relatedSectors": [
+    "infrastructure",
+    "metals",
+    "banks"
+  ],
+  "relatedCaseStudies": [
+    "suzlon-the-sadness-2008-2026"
+  ]
 }

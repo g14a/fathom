@@ -89,5 +89,29 @@
     "efficiency": "Logistics cost",
     "capital": "Contribution margin",
     "risk": "CAC / churn"
-  }
+  },
+  "anatomy": {
+    "demand": "From people placing orders online, for food, groceries, cosmetics or almost anything, through a platform that connects them to sellers. The catch is that a lot of this demand can be manufactured: give a big enough discount and people will buy almost anything, so a chunk of the orders exists only because someone is subsidising the price. Real, durable demand is the part that comes back and buys again once the discounts fade. Until you separate the two, you cannot tell habit from a one-time bargain hunt.",
+    "pricing": "Fierce competition, not the platform. With rivals one tap away and switching costs near zero, no platform can simply charge more; it competes on price, speed and selection, often by handing out discounts to win the order. The nearest thing to pricing power is take rate, the slice of each transaction the platform keeps, which only rises once it has enough scale and trust to charge sellers and buyers more without losing them. Early on, though, price is set by whoever is willing to burn the most cash.",
+    "limiting": "A dense, low-cost logistics network and customers who come back on their own. Anyone can build a website, but getting orders to doorsteps quickly and cheaply, at scale, takes years and enormous investment, and it only gets cheaper once enough orders flow through the same routes. Just as scarce is genuine repeat custom, because a platform that has to pay for every order through discounts never really owns its customers. Delivery density and real loyalty, not code, are the true bottlenecks.",
+    "leak": "Into customer acquisition and delivery subsidies. The cash pours out on discounts to pull people in, on the cost of acquiring each new customer through marketing, and on delivery that often costs more than the platform charges for it. If the company loses money on every order before even counting salaries and warehouses, then more orders simply mean bigger losses. The money disappears order by order, which is why contribution margin, what is left from an order after its own variable costs, is the number that cannot lie.",
+    "killer": "Cash burn and churn. Many of these companies subsidise prices below what the business can sustain, funded by investor money, which works only as long as fresh funding keeps arriving. The moment it slows, discounts have to shrink, the subsidy-dependent demand walks away, and the company that looked like it was scaling turns out to have been renting customers. Running out of runway before the unit economics turn positive, with customers churning as soon as the deals stop, is the dominant way these businesses die.",
+    "moat": "Logistics density and network effects. Once a platform carries enough orders, each delivery route and warehouse gets cheaper per order, so it can serve customers at a cost a smaller rival cannot match. At the same time more buyers attract more sellers, and more sellers bring more choice that attracts more buyers, a loop that feeds itself. A newcomer can copy the app in weeks but cannot conjure the order density or the two-sided network that took years and billions to build."
+  },
+  "beginnerQuestion": {
+    "q": "If an online store keeps offering discounts and free delivery, how will it ever make money?",
+    "a": "The heavy spending early on is a deliberate bet, not the plan forever. The company pours money into discounts and building a fast, dense delivery network to get people to try it and turn shopping there into a habit, accepting a loss on those first orders. The wager is that once ordering becomes routine, it can quietly pull back the discounts and each repeat order starts to pay for itself, because a loyal customer costs almost nothing to serve again. The danger is that the customers only ever came for the deals, so the moment the discounts shrink they vanish, and all that spending bought rented growth rather than a real habit."
+  },
+  "remember": "E-commerce spends heavily to build a habit and a delivery network, and only pays off if customers stay once the discounts stop.",
+  "mentalModels": [
+    "Network Effects",
+    "Customer Acquisition",
+    "Scale Economies",
+    "Operating Leverage"
+  ],
+  "relatedSectors": [
+    "retail",
+    "fmcg",
+    "telecom"
+  ]
 }

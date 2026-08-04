@@ -89,5 +89,29 @@
     "efficiency": "EBITDA/tonne",
     "capital": "ROCE",
     "risk": "Fuel / freight costs"
-  }
+  },
+  "anatomy": {
+    "demand": "From anything being built: houses, roads, offices, factories, dams. Roughly half comes from ordinary people building or extending homes, the rest from big government and business projects. That ties cement to the construction cycle and the broader economy, so it is deeply cyclical. When money is tight and building slows, demand sags; when housing and government capex pick up, it surges. And because cement is heavy and costly to move, demand has to be read region by region, not for the country as a whole.",
+    "pricing": "Nobody really sets it; the local supply and demand does. A bag of cement is much the same whoever makes it, so no company can charge a premium on brand. What decides price is how tight the regional market is: when nearby plants are running near full, companies gain the confidence to push prices up, and when there is too much capacity chasing too few orders, they undercut each other and prices sag. So pricing power is temporary and local, never a permanent feature of the company.",
+    "limiting": "Not money, but a good limestone deposit sitting close to a hungry market. Cement is made from limestone, so a company needs mining rights to a large, high-quality reserve, and those are limited and slow to secure. Just as hard is being physically near the customer, because freight eats the profit on anything trucked too far. A rival with all the cash in the world still cannot conjure a limestone hill next to your city.",
+    "leak": "Into fuel, freight and new plants. Fuel to fire the kilns, mainly coal and petcoke, is the single biggest cost and swings with global commodity prices the company cannot control. Freight to haul a heavy, low-value product to buyers is the next big drain. On top of that, adding capacity means sinking huge sums into new plants that take years to build, so cash regularly leaves the door faster than a soft-demand market can bring it back.",
+    "killer": "A fuel spike landing on sticky prices, and overcapacity turning into a price war. When coal or petcoke jumps and the market is too weak to pass the cost on, the whole increase lands straight on margin. Worse is when the region has built too many plants: to keep them running, companies slash prices to grab volume, and margins collapse for everyone at once, even the efficient ones, with nothing wrong at the plant itself.",
+    "moat": "Being physically close to the customer with a low cost per tonne. A plant sitting next to a big, growing market saves on freight and can quietly out-earn a rival far away making the identical product. Add a captive limestone reserve, cheap fuel and an efficient kiln, and that cost edge is genuinely hard to copy, because a competitor would have to find land, limestone and mining rights in the same spot. Beyond that local advantage, though, cement has little moat: the product is a commodity, so the edge is geography and cost, not brand."
+  },
+  "beginnerQuestion": {
+    "q": "Cement looks identical from every company, so why do some cement makers earn far more than others?",
+    "a": "Because cement is heavy and cheap, and trucking it a long way eats the whole profit before it reaches the buyer. So a cement maker does not really sell into one national market, it competes only within roughly 200-300 km of its plant, and the winner there is whoever sits closest to the buyer and spends the least on fuel and freight to serve them. A plant next to a busy city, running on cheaper fuel and an efficient kiln, quietly out-earns a rival making the exact same bag from farther away. The product is identical, so location and cost per tonne, not the cement itself, decide who makes money."
+  },
+  "remember": "Cement is too heavy to travel far, so profit is decided by who is closest to the buyer at the lowest cost per tonne.",
+  "mentalModels": [
+    "Regional Moat",
+    "Commodity Price-Taker",
+    "Cost Leadership",
+    "Cyclicality"
+  ],
+  "relatedSectors": [
+    "metals",
+    "infrastructure",
+    "realestate"
+  ]
 }

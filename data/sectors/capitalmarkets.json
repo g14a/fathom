@@ -97,5 +97,32 @@
     "efficiency": "Active clients",
     "capital": "ROE",
     "risk": "Market cycle / regulatory change"
-  }
+  },
+  "anatomy": {
+    "demand": "From every trade, investment and SIP that flows through the market, and there is more of it every year as Indians shift savings out of fixed deposits and gold into stocks and mutual funds. That long shift, called financialisation, is structural and powerful. But the demand these companies actually earn on is fiercely cyclical: a bull market floods them with activity, and a bear market drains it just as fast, because a nervous investor simply stops trading and the fee stops with them.",
+    "pricing": "Barely the company at all. A broker cannot easily raise what it charges per trade, because a rival will offer it cheaper, and the rise of zero-brokerage platforms has pushed plain trading fees toward nothing. An AMC's fee is squeezed by competition and capped by the regulator. Only a licensed near-monopoly like a depository has real pricing power, because there is nowhere else to go. For most of the industry, price is set by competition and regulation, not by choice.",
+    "limiting": "Liquidity and active clients, the pull that makes people trade on your platform rather than another. Traders go where other traders already are, because a busy market fills orders instantly at fair prices, and that self-reinforcing crowd is nearly impossible to buy or bribe away. A broker can spend heavily on marketing and still open millions of accounts that never trade. Getting people to actually keep trading, and building the trusted venue they choose, is the scarce thing money alone cannot manufacture.",
+    "leak": "Into technology and the fight to win clients. Platforms must be spent on constantly, kept fast and reliable, or traders leave in seconds. Brokers pour money into acquiring customers, many of whom go dormant and never earn it back. And the slow structural grind of fee compression means each rupee of trading volume earns less every year, so revenue quietly leaks away even as volumes rise. The cash drains into tech, into client acquisition, and into ever-thinner fees.",
+    "killer": "The market cycle turning, often with a regulatory blow on top. These companies report their best earnings right when markets are euphoric and their worst when investors are fearful, so a boom that looks like permanent growth can reverse hard the moment sentiment breaks. Regulation is the other blade: a single rule change on derivatives trading or fees can shrink a whole revenue line overnight, because so much of the industry runs on rules the regulator can rewrite at will.",
+    "moat": "For a few, a regulatory licence that makes them a near-monopoly: a depository like CDSL holds a position rivals are simply not allowed to copy, which is the strongest moat in the sector. For exchanges, it is liquidity, the self-feeding crowd of traders that keeps everyone coming to the venue with the most activity. For brokers, the moat is thinner and rests on trust, a reliable platform, and the switching friction of moving your shares and habits elsewhere, which is why the smart ones diversify into stickier, recurring income like asset management."
+  },
+  "beginnerQuestion": {
+    "q": "If the exchange or broker does not bet on the market, how does it make money whether the market goes up or down?",
+    "a": "It is a toll booth, not a driver. An exchange charges a tiny fee every time someone trades, a depository charges to hold your shares, and a broker takes a cut on every order, so they earn on the activity itself, not on which way prices move. A crash can actually be a busy, fee-rich day, because panic means more trading, not less. What genuinely hurts them is not a falling market but a quiet one, when investors lose interest and simply stop trading, so the fees dry up. So the number to watch is volume and the number of active users, never the direction of the index."
+  },
+  "remember": "Exchanges and brokers are toll booths on trading: they earn on activity and volume, not on whether the market rises or falls.",
+  "mentalModels": [
+    "Operating Leverage",
+    "Network Effects",
+    "Toll-Booth Economics",
+    "Regulatory Risk"
+  ],
+  "relatedSectors": [
+    "banks",
+    "insurance",
+    "nbfcs"
+  ],
+  "relatedCaseStudies": [
+    "bse-the-toll-booth-boom-2023-2026"
+  ]
 }

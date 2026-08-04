@@ -103,5 +103,29 @@
     "efficiency": "Collection efficiency",
     "capital": "ROA",
     "risk": "Stage 3 assets"
-  }
+  },
+  "anatomy": {
+    "demand": "From the borrowers banks often will not touch: a small trader with no credit history, a family wanting a gold loan today, a used-truck buyer, a first-time home borrower in a small town. NBFCs reach these customers faster and with fewer questions than a bank, so demand is real and growing as more Indians borrow. But it is cyclical and fragile, because these borrowers are the first to stop repaying when times get hard.",
+    "pricing": "The NBFC can charge more than a bank, because it lends to people with fewer options, so it has decent pricing power on the loan side. The trouble is the other side. It does not control what it pays to borrow, and when the RBI raises rates or lenders turn nervous, its cost of funds climbs before it can reprice its own loans. So the spread it lives on gets squeezed from a direction it cannot control.",
+    "limiting": "Cheap, dependable funding. An NBFC cannot take your everyday deposits, so it lives on money borrowed from banks and the bond market, and that money is costlier and far less stable than a bank's savings accounts. Access to it rests on the market's confidence, which money alone cannot buy: one downgrade or one scare and the tap closes, no matter how much capital you have. Reliable collections are the close second, because a book that does not get repaid scares lenders away fastest of all.",
+    "leak": "Two places. First, the cost of funds itself, which is permanently higher than a bank's and rises fastest when rates climb. Second, loans that go bad, because lending to riskier borrowers means more of them default, and every rupee that is not collected is a rupee gone. On top of that, the RBI makes it hold a capital cushion idle. The cash leaks into expensive borrowing and into loans that never come back.",
+    "killer": "A funding freeze, usually arriving hand in hand with bad loans. An NBFC's biggest risk is not its borrowers but its own lenders: because it survives by constantly rolling over borrowed money, any loss of confidence can cut off its funding overnight and kill an otherwise sound business. When IL&FS defaulted in 2018, lenders panicked and stopped funding NBFCs across the board, and several perfectly good ones nearly went under simply because they could not refinance.",
+    "moat": "A funding cost low enough to lend profitably where banks will not, plus the skill to collect from risky borrowers. The best NBFCs earn cheaper funding by building a long, spotless track record that lenders trust, which a newcomer cannot fake. On top of that sits deep expertise in one niche, gold loans, vehicle finance, small-business lending, knowing exactly whom to lend to and how to get the money back, built over many cycles. Rivals can raise capital, but they cannot instantly buy that reputation or that collection muscle."
+  },
+  "beginnerQuestion": {
+    "q": "If an NBFC cannot take my deposits like a bank, where does it get the money it lends out?",
+    "a": "It borrows the money first. A gold-loan or housing-finance company raises funds from banks and by selling bonds to the market, then lends that on at a higher rate and lives on the gap. The catch is that borrowed money is costlier and far less stable than the cheap savings deposits a bank enjoys, so when interest rates rise its funding cost climbs before it can reprice its own loans, and the spread gets squeezed. Worse, that funding depends entirely on lenders staying confident: one downgrade or one scare and the tap can close overnight, which is how a perfectly healthy NBFC can suddenly die. Its whole fate rests on how cheaply and how reliably it can keep borrowing."
+  },
+  "remember": "An NBFC borrows in order to lend, so it lives on the spread and dies the day its funding dries up or its loans go bad.",
+  "mentalModels": [
+    "Cost of Funds",
+    "Spread Economics",
+    "Leverage",
+    "Funding Risk"
+  ],
+  "relatedSectors": [
+    "banks",
+    "insurance",
+    "capitalmarkets"
+  ]
 }

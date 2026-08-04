@@ -284,9 +284,7 @@ export function Report({ r }: { r: TickerReport }) {
       </Block>
 
       <div className="disclaimer">
-        <strong>Educational use only.</strong> Fathom is not a SEBI-registered investment adviser.
-        Nothing here is a recommendation to buy or sell any security. Data is a point-in-time snapshot
-        (as of {r.asOf}) and may be stale. Do your own research.
+        Figures are a point-in-time snapshot as of {r.asOf} and may be stale.
       </div>
     </div>
   );

@@ -42,6 +42,28 @@ export interface Sector {
     capital: string;
     risk: string;
   };
+  // The six plain-language questions that explain any industry.
+  anatomy?: {
+    demand: string;    // Where does demand come from?
+    pricing: string;   // Who controls the price?
+    limiting: string;  // What's the hardest thing to get?
+    leak: string;      // Where does the money disappear?
+    killer: string;    // What usually breaks first?
+    moat: string;      // Why can't rivals just copy it?
+  };
+  // The single conceptual stumbling block a beginner hits first, answered upfront.
+  beginnerQuestion?: {
+    q: string;
+    a: string;
+  };
+  // A one-sentence memorable anchor for the whole industry, shown last.
+  remember?: string;
+  // Transferable concepts this sector teaches (labels, shown as chips).
+  mentalModels?: string[];
+  // Other sector ids with related economics.
+  relatedSectors?: string[];
+  // Case-study ids that demonstrate this sector's principles.
+  relatedCaseStudies?: string[];
 }
 
 // Curated display order for the index and nav.

@@ -85,5 +85,29 @@
     "efficiency": "EBITDA margin",
     "capital": "ROCE",
     "risk": "Capex / debt"
-  }
+  },
+  "anatomy": {
+    "demand": "From travellers, business and leisure, needing a room for the night, and it is one of the most cyclical kinds of demand there is. When the economy is strong, corporate travel budgets swell and tourism booms and hotels fill; when it slows, both dry up fast, and one-off shocks like a pandemic can crush occupancy almost overnight. So demand here is highly sensitive to the economic weather, and because so much of a hotel's cost is fixed, that swing hits profit far harder than it hits revenue.",
+    "pricing": "Supply and demand on the day. A hotel cannot set a fixed price and hold it; the room rate floats with how busy the city is that night, rising when demand is tight and rooms are scarce, and sliding when travel is slow and rivals are discounting to fill up. A strong brand and a good location earn a premium and defend their rate better in a downturn, but nobody escapes the daily tug of supply and demand. Because an unsold room tonight earns nothing forever, hotels will discount to fill a slow night rather than leave the room empty.",
+    "limiting": "The right property in the right place. A great hotel lives or dies on location, the prime plot near the airport, the beach or the business district, and such land is scarce and, once a rival builds on it, gone. Money can build a hotel anywhere, but it cannot manufacture the right spot with the right demand around it. That scarcity of good locations, more than capital, is what a hotel company competes over, which is why the smart modern move is to grow by managing other owners' well-placed hotels rather than buying land itself.",
+    "leak": "Into capex and debt for new hotels. Building or buying a hotel swallows enormous capital, often borrowed, and that debt then has to be serviced whether the rooms are full or empty. So cash drains into construction and interest, and a chain that borrowed heavily to build right before a downturn can find itself paying interest on empty rooms. The asset-light route, earning a fee to manage someone else's building, exists precisely to grow without pouring cash into bricks.",
+    "killer": "A demand downturn hitting a fixed-cost, debt-heavy business. Because running the building costs almost the same whether it is half full or nearly full, a slump in occupancy wipes out profit far faster than it cuts revenue, and if the company also borrowed heavily to expand, the interest bill lands every month regardless. That combination, a sharp cyclical fall in demand landing on high fixed costs and heavy debt, is what pushes hotel companies into deep losses, exactly the way it did in the 2020 shutdown.",
+    "moat": "Location and reputation. The best hotels sit on prime, hard-to-replicate plots that no rival can simply buy their way into, and years of consistent service build a trusted brand that pulls guests back and lets the hotel charge and defend a premium rate. A newcomer can construct a shiny new building, but it cannot conjure the same address or the decades of reputation that make travellers choose one name over another. Location scarcity plus brand trust is why the established chains keep their edge."
+  },
+  "beginnerQuestion": {
+    "q": "A hotel has the same rooms every night, so why do its profits swing so wildly?",
+    "a": "A hotel room is the most perishable thing there is: a night not sold is gone forever, you can never sell tonight's empty room tomorrow. Meanwhile the big costs of running the hotel, the loan on the building, the staff, the lights, are fixed and land whether the rooms are full or empty. So once enough bookings cover those near-fixed costs, the next room sold is almost pure profit, and an empty night is almost pure loss. That is why a small change in how full the hotel is, from say 65% to 80%, can swing profit enormously in both directions."
+  },
+  "remember": "A hotel room unsold tonight is lost forever, so on a fixed cost base small swings in occupancy swing profit enormously.",
+  "mentalModels": [
+    "Operating Leverage",
+    "Perishable Inventory",
+    "Cyclicality",
+    "Brand"
+  ],
+  "relatedSectors": [
+    "hospitals",
+    "airlines",
+    "realestate"
+  ]
 }

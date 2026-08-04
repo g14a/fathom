@@ -271,8 +271,8 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
       )}
 
       <div className="disclaimer" style={{ borderTop: 'none', paddingTop: 40 }}>
-        <strong>Educational use only.</strong> Fathom is not a SEBI-registered investment adviser.
-        Case studies describe past events for learning; they are not predictions or advice. Do your own research.
+        Case studies describe past events for learning. They are not predictions or advice, and
+        past performance never guarantees future results.
       </div>
     </div>
   );

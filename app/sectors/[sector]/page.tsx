@@ -1,5 +1,6 @@
 import { getAllSectors, getSector } from '@/lib/sectors';
 import type { PrimerBlock } from '@/lib/sectors';
+import { getCaseStudy } from '@/lib/caseStudies';
 import type { Metadata } from 'next';
 import { withBase } from '@/lib/base';
 
@@ -51,6 +52,15 @@ const FW = [
   { key: 'risk', label: 'Risk', cls: 'fw-risk' },
 ] as const;
 
+const ANATOMY = [
+  { key: 'demand', q: 'Where does demand come from?' },
+  { key: 'pricing', q: 'Who controls the price?' },
+  { key: 'limiting', q: "What's the hardest thing to get?" },
+  { key: 'leak', q: 'Where does the money disappear?' },
+  { key: 'killer', q: 'What usually breaks first?' },
+  { key: 'moat', q: "Why can't rivals just copy it?" },
+] as const;
+
 export default async function SectorPage({ params }: { params: Promise<{ sector: string }> }) {
   const { sector } = await params;
   const s = getSector(sector)!;
@@ -72,6 +82,29 @@ export default async function SectorPage({ params }: { params: Promise<{ sector:
 
       <div className="section-label" style={{ marginTop: 36 }}>How this business works</div>
       <p className="sub" style={{ fontSize: 17, lineHeight: 1.7, marginTop: 12 }}>{s.howItWorks}</p>
+
+      {s.anatomy && (
+        <>
+          <div className="section-label">The six questions that explain this business</div>
+          <p className="sub">Answer these six and you have understood the industry. The rest of the page is the detail behind them.</p>
+          <div className="anatomy">
+            {ANATOMY.map((a) => (
+              <div key={a.key} className="anatomy-item">
+                <div className="anatomy-q">{a.q}</div>
+                <div className="anatomy-a">{s.anatomy![a.key]}</div>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+
+      {s.beginnerQuestion && (
+        <div className="beginnerq">
+          <div className="beginnerq-label">The question beginners always ask</div>
+          <div className="beginnerq-q">{s.beginnerQuestion.q}</div>
+          <div className="beginnerq-a">{s.beginnerQuestion.a}</div>
+        </div>
+      )}
 
       {s.sections?.map((sec, si) => (
         <section key={si} className="teach-section">
@@ -128,10 +161,60 @@ export default async function SectorPage({ params }: { params: Promise<{ sector:
         </table>
       </div>
 
-      <div className="disclaimer">
-        <strong>Educational use only.</strong> Fathom is not a SEBI-registered investment adviser.
-        Benchmarks are rules of thumb, not thresholds to trade on. Do your own research.
-      </div>
+      {s.remember && (
+        <div className="remember">
+          <div className="remember-label">One sentence to remember</div>
+          <p className="remember-text">{s.remember}</p>
+        </div>
+      )}
+
+      {(() => {
+        const relSectors = (s.relatedSectors ?? []).map((id) => getSector(id)).filter(Boolean);
+        const relCases = (s.relatedCaseStudies ?? []).map((id) => getCaseStudy(id)).filter(Boolean);
+        const models = s.mentalModels ?? [];
+        if (!relSectors.length && !relCases.length && !models.length) return null;
+        return (
+          <>
+            <div className="section-label">Take these ideas further</div>
+            <div className="connections">
+              {models.length > 0 && (
+                <div className="conn-group">
+                  <div className="conn-label">Related mental models</div>
+                  <div className="conn-chips">
+                    {models.map((m) => <span key={m} className="conn-chip">{m}</span>)}
+                  </div>
+                </div>
+              )}
+              {relSectors.length > 0 && (
+                <div className="conn-group">
+                  <div className="conn-label">Related sectors</div>
+                  <div className="conn-links">
+                    {relSectors.map((r) => (
+                      <a key={r!.id} href={withBase(`/sectors/${r!.id}/`)} className="conn-link">
+                        <span className="conn-ico">{r!.icon}</span>{r!.name}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {relCases.length > 0 && (
+                <div className="conn-group">
+                  <div className="conn-label">Related case studies</div>
+                  <div className="conn-cases">
+                    {relCases.map((c) => (
+                      <a key={c!.id} href={withBase(`/case-studies/${c!.id}/`)} className="conn-case">
+                        <span className="conn-case-title">{c!.title}</span>
+                        <span className="conn-case-period">{c!.period}</span>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          </>
+        );
+      })()}
+
     </div>
   );
 }

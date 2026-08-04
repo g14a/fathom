@@ -194,5 +194,29 @@
     "efficiency": "ALOS",
     "capital": "ROCE",
     "risk": "Debt / new-bed ramp"
-  }
+  },
+  "anatomy": {
+    "demand": "From patients who are sick and need treatment, which makes it about as non-discretionary and steady as demand gets. People do not postpone a heart surgery or cancer care because the economy is weak, so a hospital's demand barely flinches in a downturn, and it grows structurally as India ages, gets richer and buys more health insurance. The real question is not whether patients exist but whether a given hospital can pull them in and fill its beds, because an empty bed earns nothing while still costing the same to keep ready.",
+    "pricing": "Largely the hospital, through the value of the work it does and who is paying for it. A hospital lifts what each bed earns by doing more complex, higher-value work like cardiac or cancer surgery, and by treating better-paying patients, so it holds real pricing power that a commodity business lacks. But two forces pull the other way: insurers and government schemes negotiate hard and pay slowly or barely above cost, and the government can cap the price of certain procedures or implants by decree, wiping out a margin overnight no matter how well the hospital is run.",
+    "limiting": "Trusted doctors and full beds. A hospital's pull comes from its best specialists, the surgeons patients travel across the state to see, and those reputations take years to build and can walk out the door any evening. Just as hard to get is genuine occupancy, because a brand-new hospital takes years to earn the trust that fills it to the roughly two-thirds mark where it finally makes money. Money can buy the building and the machines quickly, but not the doctors' reputation or the patient trust that fills the beds.",
+    "leak": "Into capex and debt for new hospitals and beds. Hospitals are enormously expensive to build, and the cash pours into construction, equipment and the borrowing that funds them, with the debt then needing to be serviced whether the beds are occupied or not. On top of that, every new hospital bleeds losses for years while it slowly fills, dragging down the profit of the healthy mature ones in the same set of numbers. So cash drains through heavy upfront investment and the long, loss-making ramp-up before a new hospital pays its way.",
+    "killer": "Debt and slow ramp-up of new beds. Expanding too fast on borrowed money is the classic trap: if the new hospitals fill on schedule it works, but if demand disappoints, the interest bill lands every month while the wards sit half empty, and bold growth turns into a cash squeeze. Alongside that sit two quieter risks, leaning too hard on a few star doctors who can leave and take their patients with them, and a government price cap that can gut the margin on a whole line of treatment from outside the business entirely.",
+    "moat": "Doctor trust and clinical reputation. A hospital known across the city as the place to go for heart or cancer care attracts the toughest, best-paying cases and the best doctors to handle them, and that reputation, built over years of results, is something a rival down the road cannot simply copy or buy. Complex specialties deepen the moat because they are hard to replicate and pay far more than routine work. Scale and a trusted network add to it, but at the core it is patient trust and clinical standing that keep the best hospitals ahead."
+  },
+  "beginnerQuestion": {
+    "q": "A hospital exists to treat sick people, so is it strange or wrong for it to be run to make a profit?",
+    "a": "A hospital is one of the most capital-heavy businesses there is: the building, the operating theatres and the expensive scanners cost enormous sums upfront, and all of that has to be paid for before a single patient is treated. It earns that money back only by keeping those costly beds occupied and by the revenue each occupied bed generates, doing more complex, higher-value work. The profit is not money skimmed off the sick; it is what funds the next hospital, more beds and better equipment, so the care can reach more people. Read plainly, occupancy and revenue per bed are simply how the business survives and grows, which is why they are the two numbers that explain a hospital."
+  },
+  "remember": "A hospital is a capital-heavy business that lives on keeping expensive beds full and earning enough from each one.",
+  "mentalModels": [
+    "Capital Intensity",
+    "Operating Leverage",
+    "Trust",
+    "Utilisation"
+  ],
+  "relatedSectors": [
+    "pharma",
+    "hotels",
+    "insurance"
+  ]
 }

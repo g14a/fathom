@@ -192,5 +192,28 @@
     "efficiency": "R&D spend %",
     "capital": "ROCE",
     "risk": "USFDA compliance"
-  }
+  },
+  "anatomy": {
+    "demand": "From two very different places. At home, from patients with long-term illnesses like heart disease, diabetes and thyroid trouble, who refill the same prescription every month for years, so the demand repeats like a subscription and rarely disappears, because people do not stop taking medicine when money is tight. Abroad, mostly in America, from the need for cheap copies of drugs whose patents have expired, enormous in volume but with no loyalty at all: the order simply goes to whoever is cheapest.",
+    "pricing": "It depends entirely on which half of the business you mean. In India the company sets its own price and can hold it, because doctors trust its brand and keep prescribing it. In America almost nobody has that power: as more makers pile onto a drug, the price only ever falls, year after year. On top of that, the Indian government caps the price of any medicine it puts on its essential-drugs list. So there is real pricing power at home and very little of it abroad.",
+    "limiting": "Not money or land, but two things you cannot simply buy. First, a clean factory the American regulator will approve, since every plant has to keep passing USFDA inspections to sell there. Second, a pipeline of new drugs to launch, because each new US generic needs an approval called an ANDA that takes years to earn. Approvals and inspections, not capital, are the true bottleneck.",
+    "leak": "Through a treadmill rather than through debt. US prices erode a little every year as rivals arrive, so revenue leaks away unless constantly replaced. R&D has to be spent year after year just to keep the pipeline full. And when a factory fails an inspection, the cost and lost sales of cleaning it up can be huge. The money drains slowly and continuously, not in one dramatic bill.",
+    "killer": "The regulator, above all. A single bad USFDA inspection at one important plant, a Warning Letter or an import alert, can freeze the most profitable exports overnight, however good the rest of the company looks. After that, the usual killers are leaning too heavily on one or two blockbuster drugs, and betting the whole company on America alone with no other markets to cushion a bad patch.",
+    "moat": "At home, the moat is a doctor's trust in a brand built over many years. A doctor who has prescribed your thyroid brand for a decade will not switch to a chemically identical pill, and that habit, repeated across thousands of doctors, cannot be bought quickly. On the export side the moat is difficulty: complex generics like inhalers, injectables and biosimilars that few rivals have the skill and the approved plants to make, which is why they hold their price while ordinary generics get competed to the floor. Plain generics have almost no moat, and that is exactly why that half of the business is such a grind."
+  },
+  "beginnerQuestion": {
+    "q": "If generics are chemically identical, why does one company make more money than another?",
+    "a": "The pill can be identical while the economics are not, because the money is made in three places the chemistry does not show. First, cost: whoever manufactures it more cheaply, in an approved plant and at large scale, simply keeps more of each sale. Second, timing: the company that launches a hard-to-copy generic early, before a crowd of rivals piles in, enjoys fat margins until they arrive. Third, trust at home: in India doctors keep prescribing a brand they have known for years, so the very same molecule earns a steady premium there. Identical molecule, very different profit."
+  },
+  "remember": "Pharma pairs a steady domestic prescription business with a brutally competitive export business, held together by the discipline of passing the regulator's inspections.",
+  "mentalModels": [
+    "Pricing Power",
+    "Regulatory Risk",
+    "Innovation",
+    "Brand"
+  ],
+  "relatedSectors": [
+    "hospitals",
+    "fmcg"
+  ]
 }

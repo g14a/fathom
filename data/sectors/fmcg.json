@@ -93,5 +93,29 @@
     "efficiency": "EBITDA margin",
     "capital": "ROCE",
     "risk": "Market share loss"
-  }
+  },
+  "anatomy": {
+    "demand": "From hundreds of millions of ordinary households buying small, cheap, everyday things: soap, shampoo, biscuits, tea. These are essentials people finish in weeks and buy again out of habit, so the demand repeats constantly and barely dips even when money is tight, because nobody stops washing or eating in a downturn. That makes it one of the most recurring and recession-resistant kinds of demand there is, growing structurally as more Indians can afford branded goods rather than swinging with the economic cycle.",
+    "pricing": "The company itself, quietly. Because a pack of biscuits costs ten rupees, nobody haggles or switches brands to save fifty paise, so a company can nudge prices up a little every year the way rent creeps, without anyone noticing. That habit and brand trust is real pricing power. The limit is raw materials: when commodities like palm oil or wheat spike, the company has to choose between passing the cost on and protecting its margin, which is why price hikes can quietly hide flat real demand.",
+    "limiting": "Not the recipe, which anyone can copy, but two things money cannot quickly buy: a trusted brand and a distribution network that reaches everywhere. Getting a product onto a shelf in a village of two thousand people, far from any city, and making it profitable to restock every month, takes decades to build store by store. A newcomer can match the formula in an afternoon and still be locked out of the shelves for years.",
+    "leak": "Mostly through advertising. To keep a brand alive in people's heads, a company has to spend heavily and endlessly on marketing, and the moment it cuts that spend to flatter short-term margins, the brand slowly weakens. Some cash also drains into commodity swings, since a jump in input costs quietly eats the margin until prices catch up. But the business needs very little factory investment, so most profit converts cleanly to cash.",
+    "killer": "Losing share to a nimbler rival. A brand that feels permanent can quietly bleed customers to a sharper new competitor, a regional challenger or a direct-to-consumer upstart, especially if it under-invests in advertising or misreads a shift in taste. The other slow killers are coasting on price hikes while real volume stalls, and hiding demand weakness by pushing customers toward pricier variants rather than reaching more people.",
+    "moat": "Brand and distribution reach, built over decades and impossible to shortcut. Millions of tiny shops already stock the product and millions of buyers already reach for it by habit, and a rival cannot buy either of those overnight. It has to earn a place on each shelf and in each shopper's routine, one store and one household at a time, while the incumbent keeps spending to stay familiar. That combination of physical reach and mental familiarity is why the leaders stay leaders for generations."
+  },
+  "beginnerQuestion": {
+    "q": "A soap or a biscuit sells for a few rupees, so how do these companies become so hugely valuable?",
+    "a": "The profit on a single soap bar is tiny, maybe a rupee or two, but that same soap is bought billions of times a year, every week, forever, by hundreds of millions of households. A minuscule profit repeated at that scale, and repeated again next month because people keep running out and buying more, adds up to an enormous, dependable stream of cash. What makes it durable is that the buying is a habit tied to a trusted brand, and the product reaches shelves in millions of tiny shops a rival cannot cheaply match. So the value is not in any one sale; it is in the volume, the endless repeat purchase, and the brand and distribution that lock both in."
+  },
+  "remember": "FMCG earns a tiny margin on everyday products sold billions of times, protected by brand trust and a vast distribution reach.",
+  "mentalModels": [
+    "Brand",
+    "Distribution",
+    "Pricing Power",
+    "Recurring Demand"
+  ],
+  "relatedSectors": [
+    "retail",
+    "ecommerce",
+    "pharma"
+  ]
 }

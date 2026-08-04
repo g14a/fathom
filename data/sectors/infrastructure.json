@@ -183,5 +183,29 @@
     "efficiency": "Working capital days",
     "capital": "ROCE",
     "risk": "Debt / execution delays"
-  }
+  },
+  "anatomy": {
+    "demand": "From whoever is commissioning big things to be built, and in India that is overwhelmingly the government: roads, railways, metros, ports, power lines, defence. So the single biggest driver is how much the government chooses to spend on building each year. That makes demand lumpy and cyclical: a budget that pours money into capex floods the sector with fresh contracts, while a tight year or an election freeze dries up new awards for everyone at once. Demand does not disappear in a downturn so much as get postponed by whoever holds the budget.",
+    "pricing": "Largely the customer, through competitive bidding. Contracts are won by tendering against rivals, so a builder cannot simply name its price; it bids low enough to win and hopes to execute well enough to keep a margin. Margins are thin for pure contractors precisely because many players chase the same tenders. The exception is the asset owner, a toll road or a port, which once built can earn fat, steady charges for decades, closer to setting its own price within a regulated frame.",
+    "limiting": "Winning the orders and then actually executing them. Two scarce things money cannot simply buy: a track record credible enough to keep winning large contracts, and the operational skill to build them on time while surviving the cash squeeze in between. Plenty of firms can win work; far fewer can execute it cleanly without letting orders rot in the book. That combination of a full order pipeline and reliable delivery is the real bottleneck.",
+    "leak": "Into working capital and debt. A builder pays for cement, steel, machines and wages now, while its customer, very often a slow government body, pays months after the work is done. That gap traps enormous amounts of cash in unpaid bills and half-built sites, so a company can report profit while its bank account is starved. Asset owners leak in a different way: they sink huge sums up front and carry heavy long-term debt whose interest must be paid whatever happens.",
+    "killer": "Cash trapped in projects meeting a pile of debt. The typical blow-up is a firm that over-borrows to chase growth, then hits execution delays: revenue freezes in stuck, unpaid work while the interest bill keeps arriving every month. Working capital balloons, cash dries up, and a company that looked profitable on paper is suddenly fighting to survive. Almost every infrastructure failure traces back to this same knot of frozen cash and debt.",
+    "moat": "An execution record and the order book it builds. A firm that has delivered large, complex projects on time earns the trust and the pre-qualifications to keep winning the biggest tenders, and that reputation compounds because it cannot be bought overnight. Asset owners have a stronger moat still: once you own the only toll road or port on a route, no rival can easily build a second one beside it. Pure contractors, though, have a thinner moat, since the product is a bid and the next tender is always open to competitors."
+  },
+  "beginnerQuestion": {
+    "q": "If a company has won huge government contracts worth thousands of crores, why can it still run out of cash?",
+    "a": "Winning the contract does not mean getting paid. The builder has to buy cement and steel and pay workers right now, month after month, while the government that hired it clears the bills slowly, often many months or even years after the work is done. So a company can be flat out busy and showing a healthy profit on paper, yet have almost no actual cash in the bank, because it has spent it all and is still waiting to be paid. That gap between spending and getting paid, called working capital, is where infrastructure companies quietly live or die, no matter how big the order book looks."
+  },
+  "remember": "Infrastructure lives off the order book it has already won, but survives only if it collects the cash before the debt comes due.",
+  "mentalModels": [
+    "Order Book",
+    "Working Capital",
+    "Execution",
+    "Capital Intensity"
+  ],
+  "relatedSectors": [
+    "cement",
+    "power",
+    "metals"
+  ]
 }

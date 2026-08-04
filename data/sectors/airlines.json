@@ -87,5 +87,29 @@
     "efficiency": "CASK",
     "capital": "Fleet utilisation",
     "risk": "Fuel cost / debt"
-  }
+  },
+  "anatomy": {
+    "demand": "From travellers, both people flying for work and people flying for holidays and family, and it rises and falls with the economy. When incomes are healthy people fly more; when money is tight, a trip is one of the first things they cut, so demand is cyclical. It is also intensely price-sensitive: most flyers will happily switch to whoever is a few hundred rupees cheaper, since a seat feels much the same on any airline. Reliable demand exists, but loyalty barely does.",
+    "pricing": "Almost nobody, really. A seat is a seat, and with a cheaper fare from a rival one click away, no airline can hold prices much above the market. Competition is brutal and close to commodity-like, so fares get driven down whenever rivals have empty seats to fill. An airline can nudge revenue up with add-ons like bags and seats, but it cannot dictate the base fare; the market does that for it.",
+    "limiting": "Not aircraft, which money can lease, but the things that make a route actually profitable: valuable slots at busy airports, good routes, and above all a genuinely lower cost of flying each seat. Slots at the best airports are scarce and tightly held. And a structurally lean cost base, the discipline to fly cheaper than everyone else, takes years of relentless focus to build and cannot simply be bought.",
+    "leak": "Into fuel, aircraft and debt. Jet fuel alone can eat a third to a half of revenue and swings with global crude the airline cannot control. On top of that sit the costs of leasing or buying planes, often funded with borrowing, so interest drains cash regardless of how full the flights are. With so much of every fare disappearing into fuel and financing, very little is left to reach shareholders.",
+    "killer": "A fuel spike or a price war on a business that is already thin-margined, high-fixed-cost and debt-heavy. Because so much cost is fixed and margins are wafer-thin, a jump in oil prices or a round of fare-cutting can flip a healthy airline into losses within a single quarter. Carrying debt into that leaves no cushion. This is why the sector has such a long history of bankruptcies; it takes very little to tip one over.",
+    "moat": "Honestly, very little that lasts, beyond being the lowest-cost operator. There is almost no brand loyalty when a cheaper fare is a click away, so an airline cannot lean on reputation the way a trusted brand can. The one durable edge is a structurally lower cost per seat, which lets a carrier stay profitable at fares that bleed its rivals, and that is the entire IndiGo story. Where even that edge is missing, there is no real moat at all, which is precisely why most airlines struggle."
+  },
+  "beginnerQuestion": {
+    "q": "Planes are always full and tickets feel expensive, so why do airlines keep losing money?",
+    "a": "The moment a plane leaves the gate, any empty seat is gone forever, so airlines slash fares to fill every last one. But the big costs, fuel, aircraft leases and crew, are huge and stay roughly the same whether the flight is full or half empty. And because a seat feels the same on any airline, rivals all cut prices to fill their own planes, so nobody has the power to charge more. Full planes at fares that barely cover those fixed costs is exactly how a busy airline still bleeds cash, which is why only the lowest-cost operator tends to survive."
+  },
+  "remember": "Airlines fly a perishable product at huge fixed cost with almost no pricing power, so only the lowest-cost operator survives.",
+  "mentalModels": [
+    "Cost Leadership",
+    "Operating Leverage",
+    "Cyclicality",
+    "Commodity Input Risk"
+  ],
+  "relatedSectors": [
+    "hotels",
+    "auto",
+    "infrastructure"
+  ]
 }

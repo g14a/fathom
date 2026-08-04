@@ -93,5 +93,29 @@
     "efficiency": "Inventory turnover",
     "capital": "ROCE",
     "risk": "Working capital"
-  }
+  },
+  "anatomy": {
+    "demand": "From shoppers walking into stores to buy clothes, groceries or household goods. How steady that demand is depends on what the retailer sells: everyday groceries and value items get bought in any weather, while fashion and discretionary goods swing with how confident and flush people feel, so they soften in a slowdown. Underneath the traffic sits the number that matters, whether the stores a company already has are selling more, because a chain can grow its top line just by opening new shops even as its existing ones quietly lose customers.",
+    "pricing": "Competition, mostly, not the retailer. Shoppers can compare prices down the street or on their phones, so a retailer rarely dictates price the way a strong brand does. The best players win not by charging more but by buying so well and running so lean that they can sell cheaper and still make money, turning low prices into a weapon. Pricing power here means squeezing suppliers and costs, not raising the sticker, which is why a value retailer like DMart competes on being the cheapest rather than the dearest.",
+    "limiting": "Prime store locations and inventory discipline. The right corner in the right neighbourhood is scarce and, once a rival takes it, gone, so good real estate is a genuine bottleneck money alone cannot always solve. Just as hard is the discipline of buying the right stock in the right quantity, because a retailer that over-orders ends up sitting on unsold goods that tie up cash and head for markdowns. Great locations and a tight sense of what will sell are the things that separate winners from a chain that just keeps opening shops.",
+    "leak": "Into working capital and inventory. A retailer's cash gets tied up in stock sitting on shelves and in warehouses, and if that stock moves slowly it drains cash and eventually gets marked down at a loss just to clear space. Rent on all that expensive floor space is a fixed drain whether the store is busy or empty. The very best flip this, getting customers to pay in cash before suppliers have to be paid, so growth funds itself instead of swallowing cash.",
+    "killer": "Working-capital and expansion blowups. A chain that expands too fast, borrowing to open stores while piling up inventory that does not sell, can find its cash swallowed by unsold stock and rent on underperforming shops. The classic trap is chasing store count while same-store sales stay flat, diluting returns across an ever bigger, less efficient base until the debt and the dead inventory catch up. Slow-moving stock and overreach, not any single bad quarter, are what usually break a retailer.",
+    "moat": "Scale and store economics. A retailer big enough to buy in enormous volume gets goods cheaper than any newcomer, and if it also runs each store more productively, selling more per square foot and turning stock faster, those small per-store advantages compound into a lead rivals cannot easily match. Add a supplier-funded cash cycle and the machine grows on its own money. A newcomer can copy the format, but not the buying power, the cost discipline and the years of proven store economics behind it."
+  },
+  "beginnerQuestion": {
+    "q": "A shop earns only a thin margin on each item, so how does a retailer make real money?",
+    "a": "The trick is not the margin on one sale but how many times that thin margin gets earned. A cheap item bought, sold and restocked twenty times a year earns its small margin twenty times over, while a pricey item that sits on the shelf for months earns its bigger margin just once. So a retailer making a few rupees on a bag of rice that flies off the shelf and gets reordered constantly can out-earn one selling expensive goods slowly. Fast inventory turnover on thin margins is the engine, and the cash coming back quickly can be poured straight into more stock, which is why the leanest, fastest-turning retailers win."
+  },
+  "remember": "Retail earns a thin margin many times over, so the winners turn their inventory fast and keep working capital under control.",
+  "mentalModels": [
+    "Inventory Turnover",
+    "Scale Economies",
+    "Working Capital",
+    "Operating Leverage"
+  ],
+  "relatedSectors": [
+    "fmcg",
+    "ecommerce",
+    "hotels"
+  ]
 }

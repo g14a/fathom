@@ -97,5 +97,29 @@
     "efficiency": "Gross margin",
     "capital": "FCF margin",
     "risk": "Churn"
-  }
+  },
+  "anatomy": {
+    "demand": "From businesses that pay a recurring subscription to run part of their work on the software, and keep paying every month or year because ripping it out would be painful. This makes demand unusually sticky and predictable: a company that has built its billing or its sales process around a tool does not casually drop it when times get hard. The best businesses see demand grow on its own, as existing customers add seats and use more, so revenue climbs even before a single new customer is won.",
+    "pricing": "The company can hold and raise prices when the product is woven into how a customer works, because leaving means retraining staff and rebuilding processes, and few will bother over a price rise. That is switching cost, and it is real pricing power. Where the software is easily swapped for a rival, that power vanishes and price becomes a race to discount. So pricing power is not the same for every SaaS company; it depends entirely on how deeply the product is embedded.",
+    "limiting": "Not money, but two things money struggles to buy quickly. First, genuinely good engineers who can keep building a product faster than rivals. Second, and harder still, a product customers will not leave, which takes years of solving a real problem better than anyone else. Capital can fund growth, but it cannot manufacture the deep workflow lock-in that makes a SaaS business durable.",
+    "leak": "Less than almost any other business, which is the whole appeal: serving the next customer costs close to nothing, so most of each new rupee stays as profit. Where it does leak is through churn, customers quietly leaving and taking their recurring revenue with them, and through the heavy cost of sales and marketing spent to win customers in the first place. Grow by burning cash on customers who do not stay, and the money drains away as fast as it comes in.",
+    "killer": "Churn, above everything. A leaky bucket destroys the compounding no matter how fast new customers pour in the top, and it usually signals a product people can live without. The other killer is a better competitor: because software is easy to switch when it is not deeply embedded, a sharper rival can peel away customers and turn healthy growth into a slow bleed.",
+    "moat": "Switching costs and workflow lock-in. Once a product runs a customer's daily work, holds their data and connects to their other tools, leaving means disruption, retraining and risk, so customers stay even when a cheaper option exists. That habit, multiplied across thousands of customers, is what lets the best SaaS businesses raise prices and keep compounding. Where the product is shallow and easily replaced, the moat is thin, and that is exactly why so much software is a grind despite the lovely economics."
+  },
+  "beginnerQuestion": {
+    "q": "If a software company sells the same product to a new customer, why is that so much more profitable than a normal business making one more unit?",
+    "a": "A carmaker has to buy steel, glass and tyres all over again to build the next car, so each extra sale carries a real, repeating cost. Software does not work that way. The product is already written, so handing it to the next customer costs the company almost nothing, and that customer then pays every month to keep using it. Because tearing out a tool that runs your daily work is painful, they rarely leave, so the same revenue arrives year after year. Near-zero cost to serve one more customer, plus recurring and sticky payments, is why software economics are unlike almost any other business."
+  },
+  "remember": "Software costs almost nothing to serve one more customer and gets paid every month, so sticky, recurring revenue compounds beautifully.",
+  "mentalModels": [
+    "Recurring Revenue",
+    "Switching Costs",
+    "Operating Leverage",
+    "Net Revenue Retention"
+  ],
+  "relatedSectors": [
+    "telecom",
+    "ecommerce",
+    "capitalmarkets"
+  ]
 }

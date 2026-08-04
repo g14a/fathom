@@ -89,5 +89,29 @@
     "efficiency": "Collections",
     "capital": "ROE",
     "risk": "Net debt"
-  }
+  },
+  "anatomy": {
+    "demand": "From people buying homes and businesses buying office space, and it swings hard with the economy. When incomes are rising, jobs feel secure and loans are cheap, buyers rush in and launches sell out; when interest rates climb and confidence wobbles, the same flats sit unsold for years. This makes demand deeply cyclical rather than steady, and unusually tied to interest rates, because most buyers purchase with a loan and a higher EMI cools their appetite fast.",
+    "pricing": "Mostly local supply and demand, set project by project rather than by any single company. A developer can charge more when it holds land in a sought-after location where buyers compete for scarce flats, and far less where supply is plentiful and demand thin. A trusted brand that reliably delivers on time can command a premium, but no developer can lift prices across a weak market by will alone; the location and the cycle set the ceiling.",
+    "limiting": "Land in the right place, together with the approvals to build on it. Money can buy land, but not land in a prime, well-connected location, which is genuinely scarce and fiercely contested. Even with the land, a developer needs a stack of government approvals before a single brick is laid, and those take time, relationships and patience. The true bottleneck is not capital but good land plus the permissions to develop it.",
+    "leak": "Into land and long build cycles, and through debt. A developer pours enormous sums into buying land and constructing towers years before it can book the revenue, so cash sits locked up for a long time. Because that gap is usually funded with borrowing, interest quietly drains money the whole while. And when collections slow, land that earns nothing keeps tying up capital while the debt payments carry on regardless.",
+    "killer": "Too much debt meeting a demand downturn. A developer that borrows heavily to buy land and launch projects in a boom looks fine until the cycle turns: sales stall, cash gets trapped in half-sold projects, yet the interest keeps coming due. Unable to sell fast enough to cover its borrowings, it is forced into distress sales or rescue fundraising. The 2013-2016 slowdown pushed several over-leveraged players exactly this way.",
+    "moat": "A well-located land bank and a brand buyers trust in a low-trust market. Prime land bought years ago cannot be replicated by a rival at today's prices, so it is a durable advantage. Just as powerful is reputation: in a sector long plagued by delayed and abandoned projects, a developer known for delivering on time earns buyers' confidence and can pre-sell faster and at better prices. Rules like RERA have widened this gap, rewarding the well-run and well-capitalised developers that customers believe will actually finish what they start."
+  },
+  "beginnerQuestion": {
+    "q": "A builder sells flats for crores, so why are so many of them drowning in debt?",
+    "a": "Picture a developer that buys a plot, then spends three or four years pouring money into land, approvals, cement, steel and labour before most of the flats are sold and paid for. All that cash goes out long before it comes back, and it is usually borrowed, so interest is ticking the whole time. If sales slow while the loans and interest keep running, the money gets trapped in half-sold projects and the debt does not wait. That is why a business that sounds rich can quietly go broke: real estate is a game of cash timing and borrowing, not simple selling."
+  },
+  "remember": "Real estate pays out cash for years before it sells, so it is really a business of managing debt and timing, not just selling flats.",
+  "mentalModels": [
+    "Working Capital",
+    "Debt & Timing",
+    "Cyclicality",
+    "Trust"
+  ],
+  "relatedSectors": [
+    "cement",
+    "infrastructure",
+    "hotels"
+  ]
 }
