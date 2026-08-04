@@ -1,0 +1,222 @@
+{
+  "name": "Power & Energy",
+  "icon": "⚡",
+  "tagline": "You build the plant once, then sell the same electricity for thirty years. The whole game is who pays you, and how sure that payment is.",
+  "examples": [
+    "NTPC",
+    "POWERGRID",
+    "TATAPOWER",
+    "ADANIGREEN",
+    "SUZLON"
+  ],
+  "howItWorks": "A power company spends an enormous amount of money up front to build something that makes electricity: a coal plant, a wind farm, a solar field, a dam. Then, for the next twenty or thirty years, it sells the electricity that thing produces. So the business is not really about this year's sales. It is about a giant asset built with borrowed money, and the long, steady stream of payments it throws off, if the people buying the power actually pay on time. The sections below explain how electricity gets from a plant to your home, why the same industry contains completely different kinds of businesses, and where the money quietly goes missing.",
+  "sections": [
+    {
+      "title": "First, how electricity actually reaches you",
+      "intro": "Power is not one business. It is three, bolted together in a chain, and each link makes money differently.",
+      "blocks": [
+        {
+          "concept": "Generation: making the electricity",
+          "body": "Someone has to actually produce the power. That is generation: a coal or gas plant burning fuel, a dam letting water fall, a wind farm, a solar field. This is the most capital-heavy step. You spend thousands of crores building the plant, and only then does it start producing anything to sell. Generators are the factories of the power world.",
+          "example": "NTPC, India's largest generator, owns huge coal and renewable plants. Building each one costs years and thousands of crores before it sends out a single unit of electricity."
+        },
+        {
+          "concept": "Transmission: carrying it across the country",
+          "body": "The electricity then has to travel, often hundreds of kilometres, from where it is made to where it is used. That job, the high-voltage highways of wires and towers, is transmission. A transmission company does not make or sell electricity. It owns the wires and charges a fixed fee for letting power flow through them, like a toll road for electrons.",
+          "example": "POWERGRID owns most of India's national transmission grid. It does not care who made the power or who buys it. It just collects a steady, regulated toll for carrying it."
+        },
+        {
+          "concept": "Distribution: the last mile to your meter",
+          "body": "Finally, the power has to be split up and delivered to millions of homes, shops and factories, and billed to each one. That last mile is distribution, run mostly by state-owned bodies called DISCOMs (distribution companies). Remember this word. The DISCOM is the one who actually collects your electricity bill, and, as you will see, the DISCOM is where the whole industry's money gets stuck.",
+          "example": "When you pay your monthly electricity bill, you are paying a DISCOM. It buys power in bulk from generators and resells it to you, and it is very often losing money doing so."
+        }
+      ]
+    },
+    {
+      "title": "The two kinds of power company, and why it matters",
+      "intro": "The word \"power\" hides two opposite animals. One is boring and safe. The other is a gamble. Confusing them is the most common beginner mistake.",
+      "blocks": [
+        {
+          "concept": "The regulated business: a fixed, guaranteed return",
+          "body": "Most of India's big power assets earn a return that a regulator sets in advance. The deal is simple: the company invests the capital, and the regulator lets it earn a fixed percentage on that money, year after year, almost regardless of what happens. This is boring by design, and boring is the point. The profit is predictable, the cash is steady, and the risk is low, because the return is written into the rules.",
+          "bullets": [
+            {
+              "term": "Regulated Return on Equity",
+              "desc": "The fixed percentage a regulator allows the company to earn on the money it has invested. For much of Indian power it sits around the mid-teens, guaranteed, whether demand is high or low."
+            },
+            {
+              "term": "Availability, not output",
+              "desc": "A regulated plant often gets paid simply for being ready to run, not only for how much it actually produces. Being available is the job."
+            }
+          ],
+          "example": "POWERGRID builds a transmission line, and the regulator lets it earn a set return on that investment for decades. Whether the country uses a lot of power or a little, the toll keeps coming. That is why it behaves like a bond, not a bet."
+        },
+        {
+          "concept": "The merchant business: selling power at the market price",
+          "body": "The other kind does not have a guaranteed buyer or a fixed return. It produces electricity and sells it into the open market at whatever price it can get that day, like a farmer taking vegetables to a market where the price swings hour to hour. When power is scarce, prices spike and merchant players make a killing. When there is a glut, prices crash and they can lose money. Same plant, wildly different fortunes, depending entirely on the market.",
+          "example": "A generator selling power on the exchange might get a high price on a hot summer evening when everyone runs air conditioners, and a miserable one on a mild night. Its earnings swing with the weather and the market, not a fixed rule."
+        },
+        {
+          "concept": "So always ask: who has promised to buy this power?",
+          "body": "This single question separates a safe power company from a risky one. If most of the electricity is sold under long, fixed contracts to reliable buyers, the future is visible and the earnings are steady. If a lot of it is sold merchant, into the open market, the earnings will lurch around and you are really betting on power prices. Two companies can own identical plants and be completely different investments, purely because of who has promised to buy their output.",
+          "example": "One solar company has signed away all its power for twenty-five years at a fixed price. Another sells a big chunk on the exchange. The first is a utility; the second is a commodity punt, however similar their panels look."
+        }
+      ]
+    },
+    {
+      "title": "The PPA: the contract the whole business rests on",
+      "intro": "In power, the most important document is not the balance sheet. It is a signed promise to buy the electricity for the next twenty-five years.",
+      "blocks": [
+        {
+          "concept": "What a PPA actually is",
+          "body": "A Power Purchase Agreement, or PPA, is a long contract where a buyer agrees to buy a plant's electricity, usually at a fixed price, for a very long time, often twenty-five years. This is the foundation of the whole business. Before a company builds a giant solar or wind plant, it wants a PPA in hand, because that signed promise is what turns a risky construction project into a predictable, decades-long stream of income. No PPA, and the plant is a gamble on prices. With a PPA, it is an annuity.",
+          "example": "A wind developer signs a PPA to sell all its power to a state DISCOM at a fixed rate for twenty-five years. From that day, it knows roughly what it will earn every year until 2050, long before the first turbine spins."
+        },
+        {
+          "concept": "Why the PPA both protects you and traps you",
+          "body": "The fixed price cuts both ways. It protects the company when market prices fall, because it still gets its agreed rate. But it also caps the upside, because if power prices soar, the company is stuck selling cheap under the old contract. A PPA trades away the thrill of high prices for the safety of a known one. For most utilities that is a good trade, and it is exactly why their earnings are so stable and so dull.",
+          "example": "A plant locked into an old, low-priced PPA watches market prices double during a shortage and cannot benefit at all. Its safety in bad times is paid for by missing out in good ones."
+        }
+      ]
+    },
+    {
+      "title": "The number that decides if a plant makes money",
+      "intro": "You built the asset. Now the only question is how hard it works. One ratio captures it.",
+      "blocks": [
+        {
+          "concept": "Plant Load Factor: how busy the plant is",
+          "body": "A power plant has a maximum it could produce if it ran flat out every hour of the year. What it actually produces is almost always less. The share of its full capacity that a plant genuinely delivers over a year is called the Plant Load Factor, or PLF. It is simply how busy the machine is. Because the cost of building the plant is fixed whether it runs a lot or a little, a higher PLF spreads that cost over more electricity and makes each unit far more profitable.",
+          "example": "Two identical coal plants cost the same to build. One runs at 80% of capacity, the other at 50%. The busy one sells far more power over the same fixed cost, so it earns much more. Same asset, very different profit, purely because one is worked harder."
+        },
+        {
+          "concept": "Why renewables have a naturally low PLF",
+          "body": "Here is a trap beginners fall into. A solar plant only makes power when the sun shines, and a wind farm only when the wind blows. So their PLF is naturally low, often just 20-25% for solar, because the sun is down half the day and weak the rest. That is not a sign of a bad plant. It is the nature of the fuel. You must judge each type of plant against what is normal for its kind, not compare a solar farm's PLF to a coal plant's and call it broken.",
+          "example": "A solar farm running at 22% PLF is doing fine, because the sun is simply not available most of the day. Judged by a coal plant's 70% standard it looks terrible, but that comparison is meaningless."
+        }
+      ]
+    },
+    {
+      "title": "The trap at the heart of Indian power",
+      "intro": "This is the one thing that has broken more power companies than anything else. If you learn only one section, learn this.",
+      "blocks": [
+        {
+          "concept": "The DISCOM problem: your customer cannot pay",
+          "body": "Remember the DISCOMs, the state bodies that sell power to homes and collect the bills. Most of them are in deep financial trouble. They are often forced to sell electricity below what it costs them, to farmers and households, for political reasons, so they lose money on every unit. And because they are broke, they pay the generators who supplied them slowly, or late, or not fully. So a generator can produce the power, deliver it, book the sale as revenue, and then wait months or years to actually be paid.",
+          "example": "A generator sells crores of electricity to a state DISCOM and dutifully books the revenue. But the DISCOM is bankrupt in all but name, so the cash arrives eight, twelve, eighteen months later, if at all. The profit is on paper; the money is stuck."
+        },
+        {
+          "concept": "So profit is an opinion; collected cash is the truth",
+          "body": "This is why you can never trust a power company's profit line on its own. Rising reported profit means little if the cash is trapped in unpaid bills from broke DISCOMs. You have to check whether the sales are actually turning into money in the bank, or just swelling a pile of receivables (bills raised but not yet collected). A company selling mostly to strong, paying buyers is far safer than one whose reported profits are really just IOUs from bankrupt state utilities.",
+          "example": "Two generators report the same rising profit. One sells to a solvent buyer and its cash grows. The other sells to a struggling DISCOM, and its receivables balloon while the bank balance thins. Same profit line, only one is really being paid."
+        }
+      ]
+    },
+    {
+      "title": "The debt problem, and why it can be fatal",
+      "intro": "Power is built with borrowed money on a scale that would sink most businesses. Understanding that debt is understanding the risk.",
+      "blocks": [
+        {
+          "concept": "Enormous debt is normal here, by design",
+          "body": "Building a power plant costs so much that companies fund most of it with long-term loans, repaid slowly over the twenty or thirty years the asset earns. So heavy debt is not automatically a warning sign in power the way it would be for a shampoo maker. It is how the industry is built. The real question is not whether the debt is large, but whether the asset reliably throws off enough steady cash to service it.",
+          "example": "A company borrows 70% of the cost of a new solar plant and repays it over twenty-five years from the fixed income of its PPA. That is a sound structure, because the loan is matched to a long, dependable stream of payments."
+        },
+        {
+          "concept": "When the cash stops but the interest does not",
+          "body": "The danger comes when the steady cash falters while the debt does not. If a DISCOM stops paying, or power prices crash for a merchant player, or a plant runs far below its expected PLF, the income shrinks, but the interest bill arrives every single month regardless. That gap, cash drying up while debt keeps demanding to be paid, is what has killed power companies again and again. A business that looked fine while the cash flowed can be fighting for survival within a year or two once it stops.",
+          "example": "A heavily borrowed generator hits a stretch of unpaid DISCOM bills. The revenue is frozen in receivables, but the lenders still want their interest each month. A company that looked solid is suddenly scrambling to refinance, sell assets, or raise fresh capital just to stay alive."
+        }
+      ]
+    },
+    {
+      "title": "The green shift, and what actually moves these stocks",
+      "intro": "The whole sector is being remade around renewables. Two forces drive the shares from here.",
+      "blocks": [
+        {
+          "concept": "The move from coal to solar and wind",
+          "body": "India is building enormous amounts of solar and wind and, slowly, leaning away from new coal. This is reshaping the sector. Renewable power is now often the cheapest to produce, which is a real advantage, but it comes with its own headaches: it only flows when the sun or wind cooperates, so it needs storage and grid upgrades to be reliable. The winners will be the companies that can build renewables cheaply, sign solid PPAs for them, and manage the debt without over-reaching.",
+          "example": "A developer that wins large solar projects at competitive prices, locks in twenty-five-year PPAs with reliable buyers, and keeps its debt in check is riding the green shift well. One that over-borrows to grab capacity at any cost is setting up the next blow-up."
+        },
+        {
+          "concept": "Government policy and the capacity chase",
+          "body": "Because so much of power is regulated, contracted through state auctions, and steered by national targets, government policy is the biggest force over the sector. Renewable auction volumes, tariff rules, DISCOM reforms and green energy targets can lift or sink the whole industry together. Alongside policy, watch how much new capacity a company is adding, because capacity added today under good PPAs becomes the earnings of five years from now.",
+          "example": "A national push that auctions huge new solar capacity and reforms DISCOM payments sends developers' order pipelines and share prices up together. A policy freeze or a tariff dispute can chill the entire sector at once."
+        }
+      ]
+    },
+    {
+      "title": "How to actually read a power company",
+      "intro": "The risks are specific, so the windows you look through are specific too. A plain profit multiple will mislead you here.",
+      "blocks": [
+        {
+          "concept": "The handful of numbers that matter",
+          "body": "Because reported profit can run far ahead of collected cash, and because debt is huge by design, you judge a power company through a different set of windows than a normal business.",
+          "bullets": [
+            {
+              "term": "PPA coverage",
+              "desc": "How much of the plant's output is sold under long, fixed contracts to reliable buyers versus sold merchant into the market. High, well-contracted coverage means visible, steady earnings; heavy merchant exposure means you are betting on power prices."
+            },
+            {
+              "term": "Plant Load Factor",
+              "desc": "How hard the asset is worked, judged against what is normal for its type. Rising PLF spreads fixed costs over more power and lifts profit; falling PLF quietly erodes it."
+            },
+            {
+              "term": "Receivable days",
+              "desc": "How long the company waits to actually collect its money. Ballooning receivables are the early warning that profits are really unpaid bills from weak DISCOMs, not cash."
+            },
+            {
+              "term": "Debt against operating cash",
+              "desc": "How heavy the borrowing is relative to the steady cash the assets throw off. Large debt is normal, so the real test is whether the operating cash comfortably covers the interest."
+            },
+            {
+              "term": "EV/EBITDA",
+              "desc": "A price gauge that counts the debt alongside the equity, which matters enormously in a capital-heavy, high-debt sector, and fits these businesses far better than a plain PE."
+            }
+          ],
+          "outro": "Together these tell you whether the earnings are contracted or a gamble, whether the plant is working hard, whether the profit is real cash or IOUs, and whether the debt is safe, which is exactly what a single profit multiple cannot show you in power.",
+          "example": "A generator with most of its output under solid PPAs, a healthy PLF, receivables under control and debt well covered by cash is a genuine utility. One with heavy merchant exposure, swelling unpaid DISCOM bills and stretched debt is a warning, however fast its reported profit is climbing."
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "Plant Load Factor (PLF)",
+      "why": "How much of full capacity a plant actually delivers. Fixed build cost spread over more output, so higher PLF means more profit per unit. Judge each fuel against its own norm (coal 60-85%, solar 20-25%)."
+    },
+    {
+      "metric": "PPA Coverage",
+      "why": "Share of output sold under long fixed contracts versus merchant. High coverage means visible, bond-like earnings; heavy merchant exposure means you are betting on volatile power prices."
+    },
+    {
+      "metric": "Regulated Return on Equity",
+      "why": "For regulated assets, the fixed percentage the regulator allows on invested capital, around the mid-teens. Makes earnings predictable regardless of demand."
+    },
+    {
+      "metric": "Receivable Days",
+      "why": "How long the company waits to be paid, mostly by cash-strapped DISCOMs. Rising receivables mean reported profit is really unpaid IOUs, not collected cash."
+    },
+    {
+      "metric": "Capacity Added (MW/GW)",
+      "why": "New generating capacity built and contracted. Capacity added today under good PPAs becomes the earnings of 4-5 years out; the sector's growth pipeline."
+    },
+    {
+      "metric": "Debt / EBITDA",
+      "why": "Power is built on heavy long-term debt by design. Large is normal; the real test is whether steady operating cash comfortably covers the interest."
+    },
+    {
+      "metric": "EV/EBITDA",
+      "why": "Counts debt alongside equity, essential in a high-debt, capital-heavy sector. Fits these asset-heavy businesses far better than plain PE."
+    },
+    {
+      "metric": "Government / Policy Cycle",
+      "why": "Renewable auction volumes, tariff rules, DISCOM reforms and green targets steer the whole sector. Policy is the single biggest external driver."
+    }
+  ],
+  "framework": {
+    "demand": "Capacity added and PPA coverage",
+    "pricing": "Regulated RoE / merchant tariff",
+    "efficiency": "Plant Load Factor",
+    "capital": "Debt / EBITDA",
+    "risk": "DISCOM receivables and debt load"
+  }
+}

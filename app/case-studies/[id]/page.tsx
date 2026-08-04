@@ -133,7 +133,32 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
           <section key={si} className="csd-section">
             <h2 className="csd-h2">{sec.heading}</h2>
             {sec.body.map((para, j) => <p key={j} className="cs-para">{renderInline(para)}</p>)}
+            {sec.lens && (
+              <div className="csd-lens">
+                <div className="csd-lens-label">{sec.lens.label}</div>
+                <ul className="csd-lens-list">
+                  {sec.lens.questions.map((q, j) => <li key={j}>{renderInline(q)}</li>)}
+                </ul>
+              </div>
+            )}
             {sec.diagram && renderDiagram(sec.diagram)}
+            {sec.scorecard && (
+              <div className="csd-score">
+                <div className="csd-score-label">The scorecard</div>
+                <div className="csd-score-row">
+                  <span className="csd-score-k csd-score-up">Grew</span>
+                  <span className="csd-score-v">{renderInline(sec.scorecard.improved)}</span>
+                </div>
+                <div className="csd-score-row">
+                  <span className="csd-score-k csd-score-down">Got worse</span>
+                  <span className="csd-score-v">{renderInline(sec.scorecard.worsened)}</span>
+                </div>
+                <div className="csd-score-row">
+                  <span className="csd-score-k csd-score-share">Shareholder</span>
+                  <span className="csd-score-v">{renderInline(sec.scorecard.shareholder)}</span>
+                </div>
+              </div>
+            )}
           </section>
         ))}
 

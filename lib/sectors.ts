@@ -47,7 +47,7 @@ export interface Sector {
 // Curated display order for the index and nav.
 const SECTOR_ORDER = [
   'banks', 'nbfcs', 'insurance', 'hospitals', 'pharma', 'saas', 'fmcg', 'retail',
-  'telecom', 'auto', 'cement', 'metals', 'airlines', 'realestate', 'hotels',
+  'telecom', 'power', 'auto', 'cement', 'metals', 'airlines', 'realestate', 'hotels',
   'ecommerce', 'infrastructure', 'capitalmarkets',
 ];
 

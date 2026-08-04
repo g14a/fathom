@@ -5,6 +5,15 @@ export interface CaseSection {
   heading: string;
   body: string[];
   diagram?: string; // id of an inline diagram to render after the body (see the page renderer)
+  scorecard?: {     // optional end-of-chapter recap: what grew, what worsened, why the owner still waited
+    improved: string;
+    worsened: string;
+    shareholder: string;
+  };
+  lens?: {          // optional framing callout: a recurring set of questions to carry through the study
+    label: string;
+    questions: string[];
+  };
 }
 
 export interface CaseStudy {
