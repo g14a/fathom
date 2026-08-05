@@ -1,0 +1,202 @@
+{
+  "ticker": "JETAIRWAYS",
+  "sectorId": "airlines",
+  "company": "Jet Airways (India) Ltd",
+  "title": "Jet Airways: why India's best airline still failed",
+  "period": "1993 → 2024",
+  "tags": [
+    "Fixed costs",
+    "Operating leverage",
+    "Debt",
+    "Fuel economics",
+    "Price wars"
+  ],
+  "relatedCaseStudies": [
+    "suzlon-the-sadness-2008-2026",
+    "airtel-the-lost-decade-2007-2020"
+  ],
+  "summary": "For most of two decades Jet Airways was the airline middle-class India grew up flying: the polished full-service name, the one business travellers trusted, the market leader that felt permanent. Then in April 2019 it simply stopped. This is not a history of that airline. It is an attempt to answer one uncomfortable question: why did India's best airline still fail? The answer is not a villain. It is the airline business itself, a structure so harsh that being the most-loved player was never the thing that made you safe. Debt, fuel, and a price war it could not win did the rest.",
+  "keyNumbers": [
+    { "label": "Founded", "value": "1993" },
+    { "label": "Grounded", "value": "17 Apr 2019" },
+    { "label": "Owed to banks", "value": "~₹8,500 cr" },
+    { "label": "Total claims in insolvency", "value": "~₹36,500 cr" },
+    { "label": "Share high → low", "value": "~₹1,379 → ₹13" }
+  ],
+  "intro": [
+    "If you flew anywhere in India between the mid-1990s and the mid-2010s, there is a good chance you flew Jet Airways. It was the private airline that felt like the grown-up choice: proper meals, a frequent-flyer card people actually valued, crisp uniforms, on-time departures. For years it was the largest private carrier in the country, the default for business travellers, the market leader in the plainest sense. To a whole generation it was simply what an airline was supposed to be.",
+    "On 17 April 2019 it flew its last flight and switched off. No merger, no rescue, no slow fade into a smaller version of itself. It stopped. Pilots and cabin crew who had not been paid for months watched the fleet get parked. A company that had carried tens of millions of passengers a year was suddenly worth almost nothing.",
+    "This case study is not a history of Jet Airways. There are plenty of those. It sets out to answer a single, more useful question: why did India's best airline still fail? Because if the best-run, best-loved, market-leading airline could go to zero, then the lesson is not about one company at all. It is about the business it was in. By the end, you'll see why a great airline can still be a terrible business."
+  ],
+  "sections": [
+    {
+      "heading": "The mystery: this was supposed to be the safe one",
+      "body": [
+        "Start with why the collapse shocked people. Jet was not a fly-by-night operator. It was widely seen as India's best airline for the better part of two decades. It won the loyalty of exactly the customers airlines most want: business travellers, who fly often, book late, and pay more. Its on-time record was strong, its service was a genuine cut above, and its JetPrivilege frequent-flyer programme was one people actively collected points on and planned trips around.",
+        "Before its decline it held the top position in the private market, and investors treated it as a blue-chip proxy for a whole country learning to fly. The share had traded as high as roughly ₹1,379. The story felt inevitable: a rising middle class, more disposable income, more flights every year, and the trusted premium brand sitting right in the middle of that wave.",
+        "So the puzzle is not why a bad airline failed. It is why the good one did. If Jet did most of the visible things right and still ended in liquidation, then the cause has to lie somewhere beneath service and brand, in the structure of the business. That is where the rest of this goes."
+      ],
+      "lens": {
+        "label": "The one question to carry through",
+        "questions": [
+          "Does this explain why Jet succeeded, why it failed, or what an investor can learn?",
+          "If a fact is just an award, a date, or a CEO anecdote, it does not belong here.",
+          "Keep asking: was this Jet's mistake, or the airline industry's nature?"
+        ]
+      }
+    },
+    {
+      "heading": "Why airlines are a structurally brutal business",
+      "body": [
+        "Most businesses can breathe when times get hard. A shop orders less stock, a factory slows its line, a software firm pauses hiring. Their costs shrink when their sales shrink. An airline cannot really do this, and that single fact is the root of everything that follows.",
+        "Look at what an airline pays for. Planes are bought or leased on long fixed contracts. The lease, the airport slots, the scheduled maintenance, the crew, the head office: all of it must be paid whether the seats sell or not. Those are fixed costs. The cost of carrying one more passenger, a meal and a little more fuel for their weight, is tiny beside them. Almost the entire cost of the flight is spent the moment the airline decides to fly the route at all.",
+        "Now the killer detail: the product cannot be stored. A seat on today's flight is worthless the instant the doors close, the way a hotel room left empty at midnight can never be sold for that night again. You cannot keep an unsold seat and offer it tomorrow. It is gone.",
+        "Put those together, high fixed costs plus a product that rots on departure, and you get a business that lives or dies on one number: how full the planes are. Fill them and the fixed costs get spread over many paying passengers and the airline mints money. Fly them half-empty and those same fixed costs land on a handful of tickets and the airline bleeds, with almost nothing it can cut fast enough to stop it. Jet spent its final years trapped on the wrong side of that maths."
+      ],
+      "diagram": "airline-cost-stack"
+    },
+    {
+      "heading": "The trap named: Operating Leverage",
+      "body": [
+        "Imagine one flight. 180 seats. It costs about ₹10 lakh to fly, and almost every rupee of that is fixed. Sell 150 seats at a fare that covers your costs and you make a little money. Sell 130 and you lose money. Nothing else changed. Same aircraft, same crew, same fuel, same route. Twenty empty seats turned a profit into a loss.",
+        "Investors call this operating leverage. When most of your costs are fixed, a small change in how much you sell swings profit wildly, both ways. The number of seats you have to sell just to break even is high, and it barely moves. Below that line, you bleed. Above it, the money is almost pure profit, because those last few seats cost you next to nothing to fill.",
+        "If you understand this one idea, most of what happened to Jet makes sense. Operating leverage is why the same airline can look like a licence to print money one year and a death trap the next, on nothing more than a few points of occupancy and a small move in fares. It flattered Jet when planes were full. When occupancy slipped and fares sagged, it punished Jet just as fast.",
+        "And notice what did not happen here. Nobody mismanaged that swing from profit to loss. The route was the same, the crew was the same, the plane was the same. The business was just built to exaggerate whatever the market handed it. Remember the question we said we would carry: was this Jet's mistake, or the industry's nature? This one is the industry's nature. Honestly, almost everything that follows is another version of this same problem."
+      ]
+    },
+    {
+      "heading": "Pricing power: why a loved airline still can't charge enough",
+      "body": [
+        "You might think a beloved premium brand can simply charge more to cover its higher costs. Airlines are the great exception. Imagine you are booking Chennai to Delhi. Jet is ₹6,000. IndiGo is ₹4,900. You like Jet. You have flown it for years, you have the card, the crew know your coffee. Are you really paying ₹1,100 extra for that? Most people, most of the time, are not. They book the ₹4,900 seat and quietly tell themselves they still prefer Jet.",
+        "That weak loyalty destroys pricing power. And the structure makes it worse, because of the empty seat. Since an unsold seat is worth nothing once the door shuts, and the flight is leaving regardless, every airline is tempted to dump its last seats at almost any price above the trivial cost of one more passenger. That is why fares fall as departure nears and why airlines routinely sell tickets below their true all-in cost: a seat sold for ₹2,000 that cost ₹3,000 to provide still beats an empty one worth zero. Every airline reasons identically, so fares get competed down toward the floor for everyone. This is how a price war starts, not from irrationality, but from each airline behaving sensibly on its own last seats.",
+        "Brand does matter, but only at the margin: it can win the traveller when fares are genuinely close, and it can command a small premium on routes and times where a rival has no equivalent. What brand cannot do is let a high-cost airline hold fares far above a low-cost rival on the same route. The instant Jet tried to price for its costs, a cheaper carrier took its passengers. So the most-loved airline in the country still could not earn an attractive margin, because love does not override the arithmetic of the empty seat."
+      ]
+    },
+    {
+      "heading": "Capital intensity: why growing an airline eats money",
+      "body": [
+        "This is where the debt enters. Airlines are staggeringly capital-hungry. A single modern aircraft costs the equivalent of hundreds of crores, and growing means adding planes, which means finding vast sums of money long before the new routes prove they can fill those seats.",
+        "There are two ways to fund a plane, and the difference matters. You can buy it, usually with borrowed money, which piles debt onto the balance sheet. Or you can lease it, renting it from a company that owns it, which keeps the purchase off your books but locks you into fixed monthly payments for years. Either way you have committed to a large, rigid cost far in advance of the revenue. Jet grew using heavy doses of both debt and leases, so its expansion came bolted to fixed obligations that would have to be paid in the bad years as well as the good.",
+        "Growth sounds like the safe thing to do. It usually isn't, in a business like this. Every new plane raises the break-even, the number of seats you must sell just to stand still, and it commits you to paying for that plane whether the passengers turn up or not."
+      ]
+    },
+    {
+      "heading": "The one bad deal that started the debt: Air Sahara",
+      "body": [
+        "At first glance, the Air Sahara deal looked sensible. In 2007, near the top of its powers, Jet bought a struggling rival, Air Sahara, for about ₹1,450 crore and rebranded it JetLite. Swallow a competitor, absorb its planes and its airport slots, get bigger. Here's the catch. Jet paid a rich price for a loss-making airline that several of founder Naresh Goyal's own advisers reportedly thought it should walk away from.",
+        "The problem was not the price but where the money came from. Jet borrowed heavily to fund it, and debt behaves nothing like selling shares. A shareholder can wait through a rough year, earning less and hoping the next is better. A lender cannot: the interest is due every month and the loan on its date, whether the airline is full or empty. Miss the payments and the lender can seize the planes.",
+        "So Jet had now bolted a heavy, fixed debt bill on top of a business whose costs already refused to shrink in a downturn. As long as demand and fares held, it could pay both. The moment they did not, both rigid burdens would come due at once.",
+        "Does this answer our question yet? Only partly. It explains why the debt became dangerous. It still does not explain why the business underneath was so fragile that the debt could kill it. We have seen one half of the answer already: with such weak pricing power, Jet could not simply raise fares to carry the loans. The other half sits in its single largest cost, and that is next."
+      ]
+    },
+    {
+      "heading": "Fuel: the giant cost management could not control",
+      "body": [
+        "The single biggest thing an airline buys is jet fuel, ATF, aviation turbine fuel. In India it is not a side item. In normal times fuel is around 40% of the cost of running a domestic airline, and when crude oil spikes it can climb toward half of everything. No other expense comes close, and crucially, it is the cost an airline can least control.",
+        "Two things make ATF especially cruel for an Indian carrier. First, oil is priced globally in US dollars, so when the rupee weakens, fuel gets dearer in rupees even if the world price has not moved. The airline earns in rupees from Indian passengers but pays for its largest input in a currency it does not earn. Second, India taxes jet fuel far more heavily than most countries, through state taxes that can add a large slab on top, so an Indian airline often pays more for fuel than a foreign rival on the identical route.",
+        "This is commodity exposure: a huge slice of your fate is set by a price you do not choose. In 2018 crude rose and the rupee fell together, and Jet's biggest cost jumped for reasons entirely outside its control, straight into a business that could not cut its other costs and still owed lenders a fixed sum every month.",
+        "Here is the part that surprised me when I first looked closely. Fuel was not really Jet's problem.",
+        "Every airline in India bought the same fuel, at the same dollar-linked, heavily taxed price. IndiGo paid it too. A fuel spike is an industry story, not a Jet story. What made it fatal for one and survivable for the other was everything around the fuel: IndiGo met the shock with low costs elsewhere and barely any debt, Jet met it with full-service costs and a mountain of loans. The fuel shock hit every airline. Jet was simply in the weakest position to survive it."
+      ]
+    },
+    {
+      "heading": "The Kingfisher era: when the whole industry's economics got worse",
+      "body": [
+        "It is tempting to blame Jet's management, but part of the answer is that the ground shifted under every full-service airline at once. In the mid-2000s Kingfisher Airlines, run by Vijay Mallya, arrived as an even more lavish premium carrier, and then in 2007 bought the low-cost pioneer Air Deccan. Suddenly there was a second big full-service player chasing the same premium travellers, and it competed on price to win them.",
+        "Kingfisher never made money and collapsed in 2012, grounded by its own debts. But its years of aggressive, loss-making competition did lasting damage: it helped train the market to expect low fares even for premium flying, and it dragged pricing down across the industry while it lasted. Its death did not restore the old economics, because by then the low-cost carriers had taken over as the price-setters.",
+        "A competitor does not have to survive to wreck an industry's economics. Kingfisher lost its own war and still left the ground harder for the premium segment it had fought in. You can argue Jet should have read the shift earlier and moved downmarket faster. Maybe. But even a sharper, better-run Jet would have been fighting the same math, in a segment that was quietly being squeezed out of existence."
+      ]
+    },
+    {
+      "heading": "IndiGo vs Jet: the same industry, a better machine",
+      "body": [
+        "The sharpest way to see why Jet failed is to compare it with the airline that thrived in the very same skies, under the same fuel taxes and the same rupee: IndiGo. IndiGo did not win on service or brand love. It won by designing its entire business around airline economics rather than around the passenger's comfort, and every choice it made attacked the industry's weak points.",
+        "It flew essentially one type of aircraft, the Airbus A320 family, so it needed only one set of spare parts, one kind of training, one maintenance routine. That standardisation slashed complexity and cost. It kept turnaround times, the minutes a plane sits on the ground between flights, extremely short, so each aircraft flew more hours a day and earned more, since a plane only makes money in the air. It bought planes in huge orders at deep discounts and often used sale-and-leaseback deals to keep the fleet young and the balance sheet lighter. It stripped out free meals and charged for extras, turning them into ancillary revenue, and it obsessed over the lowest possible cost per seat.",
+        "Jet, by design, did the opposite on almost every count, because it was selling a premium experience: mixed fleets, free service, higher staffing, the trappings that business travellers loved and that cost money. That was not stupidity; it was a different model. But it produced a higher cost per seat, and in a business with weak pricing power and vicious price wars, the airline with the lower cost per seat wins, because it can profitably sell a seat at a fare that loses the other airline money.",
+        "IndiGo built its model around these economics. Jet built its around the customer. When fuel spiked, the rupee fell, and fares stayed on the floor, IndiGo's low costs let it keep flying and Jet's high costs and debt did not. They flew the same routes and paid for the same fuel. What differed was how each airline was built, and that was enough to decide which one survived."
+      ],
+      "diagram": "indigo-vs-jet"
+    },
+    {
+      "heading": "The debt spiral: how operating problems became financial ones",
+      "body": [
+        "This is where the story changes. For years Jet had a business problem: costs it struggled to cover. Watch how quietly it becomes a financial one. Through the 2010s the price war held fares down while costs and interest crept up, so Jet's profits thinned and then turned into losses. Losses meant it could not fund itself from its own cash, so it leaned harder on borrowing, which raised the interest bill, which deepened the losses. That is a debt spiral: each turn of the wheel makes the next turn worse.",
+        "By 2018, with fuel spiking on top, the cash simply ran short, and Jet began to miss payments in the order a drowning household does. It delayed salaries, then stopped paying them. It fell behind on payments to the lessors who owned many of its planes, and they began repossessing aircraft, which meant fewer flights, which meant even less revenue, which made everything worse. It delayed loan repayments to its banks. Each unpaid bill shrank the airline and pushed it further down.",
+        "Notice what the debt actually did here. It did not start the trouble; the price war and the fuel bill did that. What the debt did was take away Jet's room to survive the trouble, because the loan payments kept coming due exactly when the business could least find the cash. A less indebted airline could have limped through the same bad years. Jet could not."
+      ],
+      "diagram": "debt-spiral-jet"
+    },
+    {
+      "heading": "Collapse: the trigger versus the cause",
+      "body": [
+        "The immediate trigger was mundane: on 17 April 2019 Jet ran out of cash to buy fuel and grounded every plane. A group of lenders led by State Bank of India had tried to arrange a rescue, take control, and find new investors, but no deal closed in time, and once a bank concludes it is throwing good money after bad, it stops. Etihad, the Abu Dhabi airline that had bought a 24% stake back in 2013 for about ₹2,060 crore, was not willing to keep funding a business it could not fix. With no fresh cash, the airline simply stopped.",
+        "But do not confuse the trigger with the cause. Running out of fuel money was the final trigger, nothing more. The cause was everything upstream: high fixed costs and punishing operating leverage, almost no pricing power in a price-war industry, a huge fuel bill it could not control, and a pile of debt that had used up all its slack. Any airline can have a bad month. Jet had a business that could not survive a bad stretch. The grounding wasn't the cause. It was the point where years of bad economics finally became impossible to ignore.",
+        "In the end it owed roughly ₹8,500 crore to banks alone, and once every unpaid lessor, vendor and employee was counted, claims against it in the insolvency process ran to around ₹36,500 crore. A 2021 plan to revive it never delivered the promised money, and in November 2024 the Supreme Court ordered Jet Airways liquidated: broken up and sold for parts. Founder Naresh Goyal was separately arrested in 2023 in a bank-fraud and money-laundering investigation. The market leader was formally wound up."
+      ]
+    },
+    {
+      "heading": "The counterintuitive facts worth keeping",
+      "body": [
+        "Several truths from this story feel wrong at first, and they generalise far beyond airlines. A fuller plane can still lose money: if fares have been competed down below cost, filling every seat just means losing a little on more passengers. Airlines rationally sell tickets below cost: an empty seat is worth zero, so any fare above the trivial cost of one extra passenger beats leaving it empty, even at a loss on the full accounting.",
+        "Adding routes can reduce profit: each new plane and route raises fixed costs and the break-even, so growth into a weak-pricing market can dig the hole deeper, not fill it. Premium service does not guarantee better returns: Jet delivered a superior experience and still could not out-earn a no-frills rival, because the extra cost of that service exceeded the extra fare customers would reliably pay. And low-cost carriers often beat premium ones not because passengers prefer them, but because a lower cost per seat is a structural weapon in a price war, and structure tends to win.",
+        "Every one of these surprises comes from the same place. We judge airlines as passengers, by the flight we had. The economics work a level below that, in the shape of the industry, where a better flight and a better business are not the same thing at all."
+      ]
+    },
+    {
+      "heading": "So who lost the money, and why it matters",
+      "body": [
+        "The loss did not fall on one group. Shareholders were close to wiped out; a share near ₹1,379 in the good years traded around ₹13 by 2020, and liquidation typically leaves ordinary shareholders with nothing, since they stand last in line. The banks, largely public-sector ones, were left holding thousands of crores they will recover only a fraction of, which ultimately lands on the public. The lessors lost planes' worth of value, vendors went unpaid, and employees lost months of salary they were owed.",
+        "That is worth remembering about debt. When a heavily borrowed business hits a downturn it cannot cost-cut its way out of, the losses do not stay with the shareholders. They spread to everyone who lent to it, supplied it, or worked for it. And the bigger the company, the more people that reaches."
+      ]
+    },
+    {
+      "heading": "If you only remember three things",
+      "body": [
+        "A great product is not a great business. Jet was arguably the best airline in India by the measures a passenger cares about, and it still failed, because the economics of the industry, high fixed costs, weak pricing power, uncontrollable fuel, ruthless price wars, overwhelmed how well it flew. When you judge a company as an investment, judge the industry's structure first and the product second.",
+        "High fixed costs and debt magnify everything, up and down. Operating leverage made Jet look brilliant when planes were full and fares held, and unsurvivable the moment they were not. Financial leverage did the same: debt sped its growth and then removed every scrap of flexibility exactly when it needed room to breathe. Businesses built on rigid, fixed obligations have no shock absorbers.",
+        "Being the leader is not the same as being safe. Jet was the biggest and most-loved private airline in the country and it went to zero, while a no-frills rival built around the industry's harsh economics thrived beside it. Size and reputation do not protect a company from a cost it cannot control, a competitor with a lower cost base, and a balance sheet with no give. Ask what a company owes, how much of its costs it actually controls, and whether a cheaper rival can undercut it and live."
+      ]
+    }
+  ],
+  "evidence": {
+    "caption": "The anatomy of a grounding",
+    "rows": [
+      { "label": "Founded", "value": "1993, by Naresh Goyal, a former ticketing agent", "source": "Company history" },
+      { "label": "Air Sahara acquisition (2007)", "value": "~₹1,450 cr, largely debt-funded, rebranded JetLite", "source": "Forbes India / Scroll" },
+      { "label": "Kingfisher + Air Deccan (2007)", "value": "Second full-service player intensifies price competition; Kingfisher itself collapses 2012", "source": "Industry history" },
+      { "label": "Etihad stake (2013)", "value": "24% for ~₹2,060 cr ($379m)", "source": "Business Standard / The National" },
+      { "label": "Fuel (ATF) as share of costs", "value": "~40% normally, toward half at high crude; priced in USD, heavily state-taxed", "source": "Federation of Indian Airlines / Outlook Business" },
+      { "label": "Grounded", "value": "17 April 2019, out of cash to buy fuel", "source": "BBC / Business Standard" },
+      { "label": "Owed to banks", "value": "~₹8,500 cr", "source": "Contemporaneous coverage" },
+      { "label": "Total claims in insolvency", "value": "~₹36,500 cr (banks, lessors, vendors, staff)", "source": "StartupTalky / insolvency filings" },
+      { "label": "Share price high → low", "value": "~₹1,379 (2005) → ₹13 (Mar 2020)", "source": "Exchange data" },
+      { "label": "Final outcome", "value": "Supreme Court ordered liquidation, 7 Nov 2024; founder arrested 2023", "source": "ThePrint / Supreme Court" }
+    ],
+    "note": "Cost-share and total-dues figures vary by source and by year because fuel's share moves with crude, and insolvency claims were tallied over time. The ~₹8,500 crore bank debt is the most consistently cited number; ~₹36,500 crore includes all admitted and claimed liabilities."
+  },
+  "sources": [
+    { "label": "Jet Airways: How Naresh Goyal lost the plot (Forbes India)", "url": "https://www.forbesindia.com/article/special/jet-airways-how-naresh-goyal-lost-the-plot/53123/1" },
+    { "label": "Crisis-hit Jet Airways is still dealing with the baggage from the Air Sahara deal (Scroll)", "url": "https://scroll.in/article/897458/crisis-hit-jet-airways-is-still-dealing-with-the-baggage-from-the-air-sahara-deal" },
+    { "label": "Etihad completes 24% stake purchase in Jet Airways (Business Standard)", "url": "https://www.business-standard.com/article/companies/etihad-checks-in-as-24-owner-of-jet-airways-113112000258_1.html" },
+    { "label": "How soaring ATF prices push Indian airlines to the brink (Outlook Business)", "url": "https://www.outlookbusiness.com/corporate/turbulence-ahead-how-soaring-atf-prices-are-pushing-indian-airlines-to-the-brink" },
+    { "label": "Jet Airways grounds planes as crisis grows (BBC)", "url": "https://feeds.bbci.co.uk/news/business-47626409" },
+    { "label": "Jet Airways case study: soaring high, crashing down (StartupTalky)", "url": "https://startuptalky.com/case-study-jet-airways-crises/" },
+    { "label": "Jet Airways smooth takeoff, turbulence and crash landing: key events to SC-ordered liquidation (ThePrint)", "url": "https://theprint.in/economy/jet-airways-smooth-takeoff-turbulence-crash-landing-key-events-leading-to-sc-ordered-liquidation/2347285/" }
+  ],
+  "timeline": [
+    { "when": "1993", "what": "Naresh Goyal, a former ticketing agent, founds Jet Airways as India reopens the skies to private carriers." },
+    { "when": "2000s", "what": "Jet becomes India's largest private airline and the full-service leader for a fast-growing flying middle class." },
+    { "when": "2005", "what": "Jet lists on the stock market; the share trades as high as about ₹1,379." },
+    { "when": "2007", "what": "Jet buys loss-making Air Sahara for ~₹1,450 crore, largely with debt, and rebrands it JetLite. Kingfisher buys Air Deccan, intensifying the fare war." },
+    { "when": "2012", "what": "Kingfisher collapses under its own debts, but the pricing damage to the premium segment lingers." },
+    { "when": "2013", "what": "Etihad buys a 24% stake for ~₹2,060 crore, easing strain but not fixing the cost-and-debt structure." },
+    { "when": "2010s", "what": "IndiGo's low-cost machine sets the price; Jet's higher cost per seat and rising debt erode its profits." },
+    { "when": "2018", "what": "Crude rises and the rupee falls together, spiking Jet's biggest cost as debt payments come due; losses mount and lessors start pulling planes." },
+    { "when": "17 Apr 2019", "what": "Out of cash to buy fuel, Jet grounds its entire fleet and suspends all operations; staff go unpaid." },
+    { "when": "2021", "what": "A consortium wins the bankruptcy process with a revival plan but never puts in the promised money on terms." },
+    { "when": "2023", "what": "Founder Naresh Goyal is arrested by the ED in a bank-fraud and money-laundering case tied to Jet-era loans." },
+    { "when": "7 Nov 2024", "what": "The Supreme Court orders Jet Airways liquidated, ending any hope of revival. The market leader is wound up." }
+  ],
+  "remember": "Customers judge an airline by the flight. Investors should judge it by the economics.",
+  "lesson": "So, can we answer our question now? Yes. Jet ran a genuinely excellent airline, and it still failed, because it sat inside an industry engineered to punish it. High fixed costs and severe operating leverage meant a small dip in how full the planes were flipped fat profits into deep losses. Weak pricing power and endless price wars meant even the most-loved brand could not charge enough to cover its fuller-service costs. A giant fuel bill, priced in dollars and taxed heavily, was a cost management could barely touch. And heavy debt, taken on to grow in exactly such a business, took away its room to survive the bad years when they came. IndiGo, flying the same routes under the same fuel taxes, survived because it built its model around those economics instead of around the passenger. None of this is unique to airlines. A great product does not guarantee a great business, the structure of an industry often matters more than how well a company is run, and when a business carries heavy fixed costs and heavy debt, an ordinary downturn can be enough to end it. Judge the structure first. Being the best airline wasn't enough."
+}

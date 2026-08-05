@@ -477,8 +477,10 @@ section.block:first-of-type { border-top: none; }
 /* Operating-leverage bar diagram (case studies) */
 .dg-badge-good { color: var(--good); border-color: var(--good); }
 .dg-oplev { display: flex; flex-direction: column; gap: 12px; margin: 4px 0 2px; }
-.dg-oplev-row { display: grid; grid-template-columns: 64px 1fr auto; align-items: center; gap: 12px; }
-.dg-oplev-label { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-dim); }
+.dg-oplev-row { display: grid; grid-template-columns: 168px 1fr auto; align-items: center; gap: 12px; }
+.dg-oplev-label { display: flex; flex-direction: column; gap: 2px; font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-dim); }
+.dg-oplev-sub { text-transform: none; letter-spacing: 0; font-size: 10px; color: var(--ink-faint); font-style: italic; }
+@media (max-width: 560px) { .dg-oplev-row { grid-template-columns: 120px 1fr auto; } }
 .dg-oplev-track { height: 16px; background: color-mix(in srgb, var(--ink-faint) 14%, transparent); border-radius: 4px; overflow: hidden; }
 .dg-oplev-bar { display: block; height: 100%; border-radius: 4px; }
 .dg-oplev-rev { background: var(--accent); opacity: 0.85; }
@@ -560,6 +562,25 @@ section.block:first-of-type { border-top: none; }
 .csd-section { margin-top: 40px; }
 .csd-h2 { font-family: var(--serif); font-size: 27px; font-weight: 600; letter-spacing: -0.01em; line-height: 1.15; margin: 0 0 6px; text-wrap: balance; padding-bottom: 8px; border-bottom: 2px solid var(--accent-dim); display: inline-block; }
 
+/* Journal layout: section heading sits in a left gutter beside the body */
+.csd-page { max-width: 1200px; }
+.csd-row { display: grid; grid-template-columns: 244px minmax(0, 1fr); gap: 48px; align-items: start; }
+.csd-row + .csd-row { margin-top: 44px; }
+.csd-section.csd-row { margin-top: 44px; }
+.csd-row-side { position: sticky; top: 24px; }
+.csd-row-side .csd-h2 { font-size: 24px; }
+.csd-row-main { min-width: 0; }
+.csd-row-main > .cs-para:first-child { margin-top: 0; }
+@media (max-width: 860px) {
+  .csd-page { max-width: 1040px; }
+  .csd-row { grid-template-columns: 1fr; gap: 0; }
+  .csd-section.csd-row { margin-top: 40px; }
+  .csd-row-side { position: static; top: auto; margin-bottom: 8px; }
+  .csd-lead .csd-row-side { display: none; }
+  .csd-row-side .csd-h2 { font-size: 27px; }
+  .csd-row-main > .cs-para:first-child { margin-top: 12px; }
+}
+
 /* timeline */
 .csd-timeline { margin-top: 44px; }
 ol.tl { list-style: none; margin: 20px 0 0; padding: 0; position: relative; }
@@ -580,12 +601,12 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .ev-row { display: grid; grid-template-columns: minmax(150px, 1fr) minmax(0, 1.3fr) auto; align-items: baseline; gap: 16px; padding: 14px 18px; border-top: 1px solid var(--border); }
 .ev-row:first-child { border-top: none; }
 .ev-label { font-size: 15px; color: var(--ink-dim); }
-.ev-value { font-family: var(--mono); font-size: 15px; font-weight: 600; color: var(--ink); text-align: right; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.ev-value { font-family: var(--mono); font-size: 13px; line-height: 1.5; font-weight: 600; color: var(--ink); text-align: right; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
 .ev-source { font-family: var(--mono); font-size: 11px; color: var(--ink-faint); text-align: right; min-width: 180px; }
 .ev-note { font-size: 14px; color: var(--ink-faint); margin-top: 16px; max-width: 700px; line-height: 1.6; }
 
 /* Inline case-study diagrams */
-.csd-diagram { margin: 26px 0 4px; padding: 20px 22px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; max-width: 720px; }
+.csd-diagram { margin: 26px 0 4px; padding: 20px 22px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; max-width: 100%; }
 .dg-title { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-dim); margin-bottom: 18px; }
 .dg-title-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 18px; }
 .dg-title-row .dg-title { margin-bottom: 0; }
@@ -611,6 +632,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 @media (max-width: 560px) {
   .dg-consol { grid-template-columns: 1fr; gap: 10px; }
   .dg-arrow { transform: rotate(90deg); }
+  .dg-arrow-vs { transform: none; }
 }
 .dg-svg { width: 100%; height: auto; max-width: 420px; display: block; }
 .dg-axis { stroke: var(--border); stroke-width: 1; }
@@ -644,11 +666,9 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 /* Report title: scale down on small screens (replaces a hard-coded inline size) */
 .report-title { font-family: var(--serif); font-size: clamp(27px, 6.5vw, 40px); font-weight: 600; letter-spacing: -0.02em; margin-top: 8px; line-height: 1.12; text-wrap: balance; }
 
-/* Document-image exhibits: let dense tables scroll instead of squashing */
+/* Document-image exhibits: scale to fit the screen, scroll only if the image is wider than its box */
 .ex-imgwrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-@media (max-width: 700px) {
-  .exhibit img { width: auto; min-width: 680px; }
-}
+.exhibit img { max-width: 100%; width: 100%; height: auto; }
 
 /* Top nav: stack under the brand and scroll horizontally on phones */
 @media (max-width: 720px) {

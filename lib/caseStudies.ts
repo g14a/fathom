@@ -44,6 +44,7 @@ export interface CaseStudy {
   sources?: { label: string; url: string }[];
   timeline: { when: string; what: string }[];
   lesson: string;
+  remember?: string; // one-sentence takeaway, rendered as the closing box
 }
 
 const CS_DIR = path.join(process.cwd(), 'data', 'case-studies');
