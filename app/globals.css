@@ -693,3 +693,137 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 /* inline links inside case-study prose */
 .cs-para a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
 .cs-para a:hover { text-decoration-thickness: 2px; }
+
+/* ===================== Signals ===================== */
+.sig-block { margin-top: 40px; }
+.sig-block > .cs-para:first-of-type { margin-top: 12px; }
+.sig-block .eyebrow { margin-bottom: 4px; }
+
+/* The trigger: the one business change, as an accent callout */
+.sig-trigger { margin-top: 34px; padding: 20px 24px; border-left: 3px solid var(--accent); background: color-mix(in srgb, var(--accent) 7%, var(--bg-card)); border-radius: 0 12px 12px 0; }
+.sig-trigger-label { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); font-weight: 700; }
+.sig-trigger-text { font-family: var(--serif); font-size: 20px; line-height: 1.45; color: var(--ink); margin-top: 8px; max-width: 760px; text-wrap: balance; }
+
+/* Mental models: cards */
+.sig-models { margin-top: 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.sig-model { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; border-top: 2px solid var(--accent-dim); }
+.sig-model-name { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); font-weight: 700; }
+.sig-model-why { color: var(--ink-dim); font-size: 15px; line-height: 1.6; margin-top: 8px; }
+@media (max-width: 680px) { .sig-models { grid-template-columns: 1fr; } }
+
+/* The chain of consequences: a vertical flow with connectors */
+.sig-chain { list-style: none; margin: 20px 0 0; padding: 0; max-width: 640px; }
+.sig-chain-step { position: relative; display: flex; align-items: flex-start; gap: 14px; padding: 14px 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; }
+.sig-chain-step + .sig-chain-step { margin-top: 26px; }
+.sig-chain-step + .sig-chain-step::before { content: '↓'; position: absolute; top: -22px; left: 26px; color: var(--accent); font-size: 16px; line-height: 1; }
+.sig-chain-num { font-family: var(--mono); font-size: 12px; font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; padding-top: 1px; }
+.sig-chain-text { color: var(--ink); font-size: 15.5px; line-height: 1.55; }
+
+/* Winners and losers */
+.sig-wl { margin-top: 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
+.sig-wl-col { border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px 6px; }
+.sig-wl-win { border-top: 2px solid var(--good); }
+.sig-wl-lose { border-top: 2px solid var(--bad); }
+.sig-wl-head { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; margin-bottom: 6px; }
+.sig-wl-win .sig-wl-head { color: var(--good); }
+.sig-wl-lose .sig-wl-head { color: var(--bad); }
+.sig-actor { padding: 12px 0; border-top: 1px solid var(--border); }
+.sig-actor:first-of-type { border-top: none; }
+.sig-actor-top { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.sig-actor-label { font-size: 15px; font-weight: 600; color: var(--ink); }
+.sig-actor-when { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-faint); white-space: nowrap; }
+.sig-actor-why { color: var(--ink-dim); font-size: 14.5px; line-height: 1.55; margin-top: 5px; }
+@media (max-width: 680px) { .sig-wl { grid-template-columns: 1fr; } }
+
+/* Better questions */
+.sig-questions { list-style: none; margin: 18px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; max-width: 720px; }
+.sig-questions li { position: relative; padding: 12px 16px 12px 40px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; color: var(--ink); font-size: 15.5px; line-height: 1.55; }
+.sig-questions li::before { content: '?'; position: absolute; left: 16px; top: 12px; font-family: var(--mono); font-weight: 700; color: var(--accent); }
+
+/* What history rhymes with */
+.sig-history { margin-top: 18px; display: flex; flex-direction: column; gap: 14px; }
+.sig-hist { border-left: 3px solid var(--amber); background: color-mix(in srgb, var(--amber) 5%, var(--bg-card)); border-radius: 0 10px 10px 0; padding: 14px 20px; }
+.sig-hist-when { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--amber); font-weight: 700; }
+.sig-hist-what { color: var(--ink); font-size: 15.5px; line-height: 1.6; margin-top: 6px; }
+.sig-hist-lesson { color: var(--ink-dim); font-size: 15px; line-height: 1.6; margin-top: 8px; font-style: italic; }
+
+.sig-connect .conn-link { text-decoration: none; }
+
+/* Signals: fan-out (one event, many outcomes) */
+.sig-fanout { border: 1px solid var(--border); border-radius: 14px; background: var(--bg-card); padding: 20px 22px; max-width: 640px; }
+.sig-fanout-head { font-family: var(--serif); font-size: 18px; font-weight: 600; color: var(--ink); text-align: center; padding-bottom: 16px; position: relative; }
+.sig-fanout-head::after { content: ''; position: absolute; left: 50%; bottom: 0; width: 1px; height: 12px; background: var(--border-strong); }
+.sig-fanout-branches { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+.sig-fanout-branch { display: flex; align-items: baseline; gap: 10px; padding: 10px 14px; border-radius: 9px; border: 1px solid var(--border); background: var(--bg); }
+.sig-fanout-mark { font-size: 11px; line-height: 1.4; }
+.sig-fanout-branch.sig-fx-up { border-left: 3px solid var(--good); }
+.sig-fanout-branch.sig-fx-down { border-left: 3px solid var(--bad); }
+.sig-fanout-branch.sig-fx-neutral { border-left: 3px solid var(--border-strong); }
+.sig-fx-up .sig-fanout-mark { color: var(--good); }
+.sig-fx-down .sig-fanout-mark { color: var(--bad); }
+.sig-fx-neutral .sig-fanout-mark { color: var(--ink-faint); }
+.sig-fanout-label { font-size: 15px; font-weight: 600; color: var(--ink); white-space: nowrap; }
+.sig-fanout-note { font-size: 14px; color: var(--ink-dim); line-height: 1.5; }
+.sig-fanout-cap { font-size: 14px; color: var(--ink-dim); line-height: 1.6; margin-top: 14px; font-style: italic; }
+
+/* Signals: horizon + rhymes tables */
+.sig-horizon-wrap { margin-top: 18px; overflow-x: auto; border: 1px solid var(--border); border-radius: 12px; }
+.sig-horizon { width: 100%; border-collapse: collapse; min-width: 560px; }
+.sig-horizon th { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-faint); text-align: left; padding: 12px 16px; background: var(--bg-card); border-bottom: 1px solid var(--border); font-weight: 700; }
+.sig-horizon td { font-size: 14.5px; color: var(--ink-dim); padding: 13px 16px; border-bottom: 1px solid var(--border); line-height: 1.5; vertical-align: top; }
+.sig-horizon tr:last-child td { border-bottom: none; }
+.sig-h-event { color: var(--ink) !important; font-weight: 600; }
+.sig-rhyme-model { font-family: var(--mono); font-size: 12px !important; color: var(--accent) !important; letter-spacing: 0.02em; }
+
+/* Signals: ignore vs watch */
+.sig-if { margin-top: 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
+.sig-if-col { border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; }
+.sig-if-ignore { border-top: 2px solid var(--bad); }
+.sig-if-focus { border-top: 2px solid var(--good); }
+.sig-if-head { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; margin-bottom: 10px; }
+.sig-if-ignore .sig-if-head { color: var(--bad); }
+.sig-if-focus .sig-if-head { color: var(--good); }
+.sig-if-col ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 9px; }
+.sig-if-col li { position: relative; padding-left: 24px; font-size: 15px; line-height: 1.5; color: var(--ink); }
+.sig-if-ignore li::before { content: '✕'; position: absolute; left: 0; color: var(--bad); font-size: 13px; font-weight: 700; }
+.sig-if-focus li::before { content: '✓'; position: absolute; left: 0; color: var(--good); font-size: 13px; font-weight: 700; }
+@media (max-width: 680px) { .sig-if { grid-template-columns: 1fr; } }
+
+/* Signals: your turn (interactive) */
+.sig-turn { border: 1px solid color-mix(in srgb, var(--accent) 30%, var(--border)); background: color-mix(in srgb, var(--accent) 6%, var(--bg-card)); border-radius: 14px; padding: 22px 24px; }
+.sig-turn-label { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); font-weight: 700; }
+.sig-turn-prompt { font-family: var(--serif); font-size: 19px; line-height: 1.45; color: var(--ink); margin-top: 8px; text-wrap: balance; }
+.sig-turn-q { margin: 14px 0 0; padding-left: 20px; display: flex; flex-direction: column; gap: 7px; color: var(--ink-dim); font-size: 15.5px; line-height: 1.5; }
+.sig-turn-reveal { margin-top: 16px; }
+.sig-turn-reveal summary { cursor: pointer; font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); font-weight: 600; list-style: none; user-select: none; display: inline-flex; align-items: center; gap: 8px; }
+.sig-turn-reveal summary::-webkit-details-marker { display: none; }
+.sig-turn-reveal summary::before { content: '▸'; transition: transform .18s ease; }
+.sig-turn-reveal[open] summary::before { transform: rotate(90deg); }
+.sig-turn-reveal ul { list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.sig-turn-reveal li { position: relative; padding: 12px 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; font-size: 15px; line-height: 1.55; color: var(--ink); }
+
+/* Signals: the signature "which moved?" lever band */
+.sig-lever { margin-top: 20px; padding: 18px 22px; border: 1px solid var(--border); border-radius: 12px; background: var(--bg-card); }
+.sig-lever-title { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-faint); font-weight: 700; }
+.sig-lever-items { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 12px; }
+.sig-lever-chip { display: inline-flex; align-items: center; gap: 9px; font-family: var(--mono); font-size: 14px; font-weight: 600; letter-spacing: 0.02em; color: var(--ink); padding: 8px 15px 8px 12px; border: 1px solid var(--border-strong); border-radius: 999px; }
+.sig-lever-box { display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; border: 1.5px solid var(--ink-faint); border-radius: 4px; font-size: 11px; font-weight: 700; }
+.sig-lv-yes { border-color: var(--good); color: var(--good); }
+.sig-lv-yes .sig-lever-box { border-color: var(--good); color: var(--good); }
+.sig-lv-no { border-color: var(--bad); color: var(--bad); }
+.sig-lv-no .sig-lever-box { border-color: var(--bad); color: var(--bad); }
+
+/* Signals: chain title (now attached to a section) */
+.sig-chainwrap { margin-top: 20px; }
+.sig-chain-title { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-faint); font-weight: 700; margin-bottom: 14px; }
+.sig-chainwrap .sig-chain { margin-top: 0; }
+
+/* Signals: the method map (the whole page in one diagram) */
+.sig-method { margin-top: 22px; max-width: 460px; display: flex; flex-direction: column; align-items: stretch; gap: 26px; }
+.sig-method-step { position: relative; text-align: center; padding: 14px 18px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; font-family: var(--serif); font-size: 17px; color: var(--ink); }
+.sig-method-step + .sig-method-step::before { content: '↓'; position: absolute; top: -22px; left: 50%; transform: translateX(-50%); color: var(--accent); font-size: 16px; line-height: 1; }
+.sig-method-branch { border-color: color-mix(in srgb, var(--accent) 34%, var(--border)); background: color-mix(in srgb, var(--accent) 7%, var(--bg-card)); display: flex; flex-direction: column; gap: 12px; }
+.sig-method-q { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); font-weight: 700; }
+.sig-method-picks { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; }
+.sig-method-picks span { font-family: var(--mono); font-size: 13px; font-weight: 600; color: var(--ink); border: 1px solid var(--border-strong); border-radius: 999px; padding: 5px 14px; }
+.sig-method-last { border-color: color-mix(in srgb, var(--good) 34%, var(--border)); background: color-mix(in srgb, var(--good) 6%, var(--bg-card)); }

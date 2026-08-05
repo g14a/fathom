@@ -1,0 +1,122 @@
+{
+  "title": "How to read a signal: three ideas that decode almost any headline",
+  "kind": "Primer",
+  "dateline": "Start here",
+  "tags": [
+    "Price, cost, volume",
+    "Second-order thinking",
+    "Pricing power"
+  ],
+  "summary": "A Budget, a rate cut, a new tariff, a fuel-price jump. Most coverage tells you what happened and how the market twitched that day, which is the least useful part. This primer keeps only three ideas. Learn them, and almost any headline becomes something you can reason about instead of react to.",
+  "event": [
+    "Every few weeks the news hands investors a big event. A Budget. The RBI moving rates. A tariff. A jump in fuel prices. The coverage is always the same shape: what happened, and how the market jumped that afternoon.",
+    "That afternoon move is the least useful part. Understanding a signal is not about guessing the headline. It is about working out who ends up earning more, who earns less, and why. And it comes down to three ideas. Learn these, and you can decode most of what the news throws at you."
+  ],
+  "trigger": "Profit is price, minus cost, times how much you sell. So the way to understand any signal is to ask how it changes one of those three: a price, a cost, or a volume. An event can touch more than one and set off a chain, but it always starts by moving one of them.",
+  "leverBand": {
+    "title": "So the first question is always: which does it move?",
+    "items": [
+      { "label": "Price", "mark": "ask" },
+      { "label": "Cost", "mark": "ask" },
+      { "label": "Volume", "mark": "ask" }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "The three ideas",
+      "body": [
+        "One. Every signal works by changing a price, a cost, or a volume. A tariff, a rate cut, a new rival, a Budget: each one matters only because it moves one of the three. Regulation is not the thing that matters. What matters is what it changes. Did it move a price, a cost, or a volume?",
+        "Two. That change travels. It does not stop at the first business it touches. A cheaper loan helps the bank, then the homebuyer, then the cement and paint makers, then the insurer who covers the new home. The obvious name is the first link; the interesting ones come after. Some of those links happen at once and others take months or years, so the timing matters as much as the chain.",
+        "Three. The business that keeps the gain is the one with pricing power. When a cost moves, whoever can pass it on to customers barely feels it, and whoever cannot watches their margin shrink. That is what separates the winners from the rest.",
+        "That is the whole method. Everything below is just watching it work."
+      ],
+      "diagram": "method"
+    },
+    {
+      "heading": "Watch it work: crude oil rises 20%",
+      "body": [
+        "Who wins? Most people say ONGC, and they are right. It produces the oil, so it now sells at a higher price. Who loses? Airlines, because fuel is a huge chunk of what they spend. Also right.",
+        "Now the interesting question: who else? The paint maker, whose raw materials come from crude. The tyre maker, for the same reason. Neither is in the headline, and both have just had a cost forced on them. Whether they actually lose comes down to idea three, whether they can raise their own prices to match. Producers generally benefit from costlier crude. The users lose unless they have pricing power."
+      ],
+      "diagram": "fanout:0"
+    },
+    {
+      "heading": "Watch it work: a rate cut",
+      "body": [
+        "A rate cut is idea two in motion. Banks borrow cheaper, so loans get cheaper, so more people buy homes and cars, which lifts cement, tiles and paint. The headline names the banks. The interesting part is two links down, where fewer people are looking.",
+        "It happened for real in 2020. The RBI cut hard, home-loan rates fell below about 7%, and over the next two years the paint and tiles makers saw the demand. But notice the timing, because it is the whole trap. The market re-priced in a day. The actual demand took quarters to arrive."
+      ],
+      "diagram": "chain"
+    },
+    {
+      "heading": "Watch it work: Jet and Airtel, the same shock",
+      "body": [
+        "Idea three decides who survives. Two companies, the same kind of cost shock, opposite endings.",
+        "Jet Airways. Fuel costs rose. It could not raise ticket prices. Margins collapsed.",
+        "Airtel. Network costs rose. It could not raise tariffs either. Then the industry consolidated to three players. Tariffs rose. Margins recovered.",
+        "Same shock. The one that could eventually raise its own prices lived. Pricing power was the difference, and it usually is."
+      ]
+    }
+  ],
+  "chainTitle": "A rate cut, traced two links past the headline",
+  "chain": [
+    "The RBI cuts the repo rate, so banks can borrow cheaper",
+    "Banks cut home and car loan rates, so big-ticket buying rises",
+    "Cement, tiles and paint demand rises with the new homes",
+    "The homes get furnished and insured, lifting durables and insurance"
+  ],
+  "fanouts": [
+    {
+      "head": "Crude oil rises 20%",
+      "branches": [
+        { "label": "ONGC", "effect": "up", "note": "it produces the oil, so it sells at a higher price" },
+        { "label": "Oil India", "effect": "up", "note": "same: a producer earns more when crude rises" },
+        { "label": "IndiGo", "effect": "down", "note": "fuel is a top cost; margins pinch unless fares rise" },
+        { "label": "Asian Paints", "effect": "down", "note": "crude-derived raw materials get dearer" },
+        { "label": "Tyre makers", "effect": "down", "note": "crude-based inputs cost more" }
+      ],
+      "caption": "One event, five businesses, opposite outcomes. The producers generally gain; the users lose unless they can raise their own prices. That difference is pricing power."
+    }
+  ],
+  "questions": [
+    "Which of the three moved: price, cost, or volume?",
+    "What is the second-order effect, one link past the obvious name?",
+    "Among those affected, who can pass the change on, and who has to absorb it?",
+    "Is the obvious winner already priced in?"
+  ],
+  "yourTurn": {
+    "prompt": "Now you try, using all three ideas. The government cuts GST on electric vehicles, making them noticeably cheaper to buy.",
+    "questions": [
+      "Which of the three moved: price, cost, or volume?",
+      "Who benefits first, and who benefits one link down the chain?",
+      "Among the beneficiaries, who actually has the pricing power to keep the gain?"
+    ],
+    "reveal": [
+      "It moves volume: a lower tax means a lower effective price, so more EVs get sold.",
+      "First, the EV makers. One link down, the battery, motor and charging-infrastructure companies every extra EV needs, plus the lenders financing the purchases.",
+      "Pricing power is the catch. If the EV makers are fighting a price war for share, the tax saving flows straight to buyers, and they get volume but little profit. If one has a real edge, it keeps some of the saving as margin. Same signal, and pricing power still picks the winner."
+    ]
+  },
+  "relatedSectors": [
+    "banks",
+    "auto",
+    "cement",
+    "realestate"
+  ],
+  "relatedCaseStudies": [
+    "jet-airways-the-market-leader-that-vanished-1993-2024",
+    "airtel-the-lost-decade-2007-2020"
+  ],
+  "sources": [
+    {
+      "label": "RBI monetary policy: how the repo rate works",
+      "url": "https://www.rbi.org.in/Scripts/BS_ViewMonetaryPolicy.aspx"
+    },
+    {
+      "label": "Union Budget documents (Ministry of Finance)",
+      "url": "https://www.indiabudget.gov.in/"
+    }
+  ],
+  "lesson": "Every signal moves a price, a cost, or a volume. Follow that change past the obvious first name, because the crowd stops there. And remember that pricing power decides who keeps the gain. Markets react in a day; businesses change over quarters. That is the whole page.",
+  "remember": "Every signal moves price, cost, or volume. Follow the chain past the obvious name. Pricing power decides who actually wins."
+}

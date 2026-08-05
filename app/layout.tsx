@@ -22,6 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <a href={withBase("/understand/filings/")}>Reading Filings</a>
               <a href={withBase("/sectors/")}>Sectors</a>
               <a href={withBase("/case-studies/")}>Case Studies</a>
+              <a href={withBase("/signals/")}>Signals</a>
             </nav>
           </div>
         </header>
