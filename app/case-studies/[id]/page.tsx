@@ -400,8 +400,11 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
           </div>
         )}
 
-        <div className="csd-timeline">
-          <h2 className="csd-h2">How it unfolded</h2>
+        <details className="csd-timeline">
+          <summary className="csd-timeline-summary">
+            <span className="csd-h2">How it unfolded</span>
+            <span className="csd-timeline-hint">{c.timeline.length} moments</span>
+          </summary>
           <ol className="tl">
             {c.timeline.map((t, j) => (
               <li key={j} className="tl-item">
@@ -410,7 +413,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
               </li>
             ))}
           </ol>
-        </div>
+        </details>
 
         <div className="cs-lesson csd-lesson">
           <span className="cs-lesson-label">The lesson</span>

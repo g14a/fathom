@@ -583,6 +583,13 @@ section.block:first-of-type { border-top: none; }
 
 /* timeline */
 .csd-timeline { margin-top: 44px; }
+.csd-timeline-summary { cursor: pointer; list-style: none; display: block; user-select: none; }
+.csd-timeline-summary::-webkit-details-marker { display: none; }
+.csd-timeline-summary .csd-h2 { display: table; }
+.csd-timeline-hint { display: inline-flex; align-items: center; gap: 7px; margin-top: 12px; font-family: var(--mono); font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); transition: color .16s ease; }
+.csd-timeline-hint::before { content: '▸'; font-family: var(--sans); font-size: 13px; color: var(--accent); transition: transform .18s ease; }
+.csd-timeline[open] .csd-timeline-hint::before { transform: rotate(90deg); }
+.csd-timeline-summary:hover .csd-timeline-hint { color: var(--accent); }
 ol.tl { list-style: none; margin: 20px 0 0; padding: 0; position: relative; }
 ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6px; width: 2px; background: var(--border); }
 .tl-item { position: relative; padding: 0 0 22px 34px; display: flex; flex-direction: column; gap: 4px; }
