@@ -4,6 +4,7 @@ import { getCaseStudy } from '@/lib/caseStudies';
 import { getAllTickers, getReport } from '@/lib/data';
 import type { Metadata } from 'next';
 import { withBase } from '@/lib/base';
+import Connections from '@/components/Connections';
 
 function Block({ p, i }: { p: PrimerBlock; i: number }) {
   return (
@@ -205,59 +206,16 @@ export default async function SectorPage({ params }: { params: Promise<{ sector:
         const tickers = getAllTickers();
         const relReports = (s.relatedReports ?? []).filter((t) => tickers.includes(t)).map(getReport);
         const models = s.mentalModels ?? [];
-        if (!relSectors.length && !relCases.length && !relReports.length && !models.length) return null;
         return (
-          <>
-            <div className="section-label">Take these ideas further</div>
-            <div className="connections">
-              {models.length > 0 && (
-                <div className="conn-group">
-                  <div className="conn-label">Related mental models</div>
-                  <div className="conn-chips">
-                    {models.map((m) => <span key={m} className="conn-chip">{m}</span>)}
-                  </div>
-                </div>
-              )}
-              {relSectors.length > 0 && (
-                <div className="conn-group">
-                  <div className="conn-label">Related sectors</div>
-                  <div className="conn-links">
-                    {relSectors.map((r) => (
-                      <a key={r!.id} href={withBase(`/sectors/${r!.id}/`)} className="conn-link">
-                        <span className="conn-ico">{r!.icon}</span>{r!.name}
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              )}
-              {relReports.length > 0 && (
-                <div className="conn-group">
-                  <div className="conn-label">Company reports from this sector</div>
-                  <div className="conn-cases">
-                    {relReports.map((r) => (
-                      <a key={r.slug} href={withBase(`/stocks/${r.slug}/`)} className="conn-case">
-                        <span className="conn-case-title">{r.company}</span>
-                        <span className="conn-case-period">{r.ticker}</span>
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              )}
-              {relCases.length > 0 && (
-                <div className="conn-group">
-                  <div className="conn-label">Related case studies</div>
-                  <div className="conn-cases">
-                    {relCases.map((c) => (
-                      <a key={c!.id} href={withBase(`/case-studies/${c!.id}/`)} className="conn-case">
-                        <span className="conn-case-title">{c!.title}</span>
-                        <span className="conn-case-period">{c!.period}</span>
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-          </>
+          <Connections
+            title="Take these ideas further"
+            chips={models}
+            items={[
+              ...relSectors.map((r) => ({ kicker: 'Sector', name: r!.name, href: `/sectors/${r!.id}/` })),
+              ...relReports.map((r) => ({ kicker: 'Report', name: r.company, href: `/stocks/${r.slug}/` })),
+              ...relCases.map((c) => ({ kicker: 'Case study', name: c!.title, href: `/case-studies/${c!.id}/`, variant: 'case' as const })),
+            ]}
+          />
         );
       })()}
 

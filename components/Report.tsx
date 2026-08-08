@@ -3,7 +3,7 @@ import type {
 } from '@/lib/types';
 import { getSector } from '@/lib/sectors';
 import { getCaseStudiesForTicker } from '@/lib/caseStudies';
-import { withBase } from '@/lib/base';
+import { withBase, formatDate } from '@/lib/base';
 
 const HOLD_COLORS: Record<string, string> = {
   Promoter: '#2dd4bf',
@@ -233,7 +233,7 @@ export function Report({ r }: { r: TickerReport }) {
           <div className="eyebrow">{r.sector === r.industry ? r.sector : `${r.sector} · ${r.industry}`}</div>
           <h1 className="report-title">{r.company}</h1>
           <div className="asof" style={{ marginTop: 8 }}>
-            {r.ticker} · {r.dataVariant} · as of {r.asOf}
+            {r.ticker} · {r.dataVariant} · as of {formatDate(r.asOf)}
           </div>
         </div>
       </div>
@@ -399,7 +399,7 @@ export function Report({ r }: { r: TickerReport }) {
       </Block>
 
       <div className="disclaimer">
-        Figures are a point-in-time snapshot as of {r.asOf} and may be stale.
+        Figures are a point-in-time snapshot as of {formatDate(r.asOf)} and may be stale.
       </div>
     </div>
   );

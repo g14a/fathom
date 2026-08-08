@@ -2,6 +2,7 @@ import { getAllCaseStudies, getCaseStudy } from '@/lib/caseStudies';
 import { getSector } from '@/lib/sectors';
 import type { Metadata } from 'next';
 import { withBase } from '@/lib/base';
+import Connections from '@/components/Connections';
 
 export function generateStaticParams() {
   return getAllCaseStudies().map((c) => ({ id: c.id }));
@@ -514,22 +515,13 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
         </div>
       </div>
 
-      {c.relatedCaseStudies && c.relatedCaseStudies.length > 0 && (
-        <div className="conn-group" style={{ marginTop: 36 }}>
-          <div className="conn-label">Related case studies</div>
-          <div className="conn-cases">
-            {c.relatedCaseStudies
-              .map((rid) => getCaseStudy(rid))
-              .filter((r): r is NonNullable<typeof r> => Boolean(r))
-              .map((r) => (
-                <a key={r.id} href={withBase(`/case-studies/${r.id}/`)} className="conn-case">
-                  <span className="conn-case-title">{r.title}</span>
-                  <span className="conn-case-period">{r.company} · {r.period}</span>
-                </a>
-              ))}
-          </div>
-        </div>
-      )}
+      <Connections
+        title="Related case studies"
+        items={(c.relatedCaseStudies ?? [])
+          .map((rid) => getCaseStudy(rid))
+          .filter((r): r is NonNullable<typeof r> => Boolean(r))
+          .map((r) => ({ kicker: 'Case study', name: r.title, href: `/case-studies/${r.id}/`, variant: 'case' as const }))}
+      />
 
       {c.stockSlug && (
         <a href={withBase(`/stocks/${c.stockSlug}/`)} className="sector-cta" style={{ marginTop: 36 }}>

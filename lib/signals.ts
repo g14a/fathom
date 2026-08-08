@@ -94,6 +94,7 @@ export interface SignalEvidence {
     summary: string;    // the one-line reading of the three rows together
   };
   banks: SignalEvidenceBank[];
+  deltaUnit?: string;      // how to render the change: 'bps' (default, for margins) or a unit like ' lakh cr'
   contextLine: string;     // the chart subtitle: the driver's move + what we expect to see
   directionLine: string;   // "both moved the way the framework predicted"
   causeEvidence?: string;  // primary evidence for the cause, not just the outcome

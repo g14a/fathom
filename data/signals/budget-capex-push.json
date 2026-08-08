@@ -38,8 +38,8 @@
   ],
   "winners": [
     { "label": "Large infrastructure contractors", "when": "delayed", "why": "L&T and its peers win the tenders, so the promise reaches them first, as order books. But an order is a promise of future work, not revenue. The market re-rates the stock on order inflow; the profits arrive years later, if execution holds." },
-    { "label": "Cement and steel makers", "when": "long-term", "why": "They sell to the builders, one link down. Their volumes move only when sites actually pour concrete, which is years after the speech. The advantage of this link: nobody has to win a tender. Every project, whoever builds it, buys cement and steel." },
-    { "label": "Lenders to the ecosystem", "when": "long-term", "why": "Contractors need working capital to survive the gap between building and being paid. Banks that fund this cycle grow their loan books alongside the capex, with the government's creditworthiness standing behind the end payment." }
+    { "label": "Cement and steel makers", "when": "long-term", "why": "They sell to the builders, one link down. Their volumes move only when sites actually pour concrete, years after the speech. But the advantage of this link is real: the cement maker does not have to win the tender. It only needs the project to actually happen. The contractor carries tender risk, the fear of losing the bid; the cement producer carries only execution risk, the fear that the project stalls. Whoever builds the road, they all buy cement and steel." },
+    { "label": "Lenders to the ecosystem", "when": "long-term", "why": "Contractors need working capital to survive the gap between building and being paid. Banks that finance that gap between work performed and cash received grow their loan books alongside the capex. The end customer is the government, which is good for eventual recovery, but government projects still carry real payment delays and receivables stress, so the lending is not risk-free." }
   ],
   "losers": [
     { "label": "Whoever the money is not going to", "when": "long-term", "why": "A Budget is a fixed purse. A record capex line is paid for somewhere: slower growth in subsidies or revenue spending elsewhere. The businesses that lived off the squeezed lines quietly feel it." },
@@ -60,10 +60,49 @@
       "body": [
         "Here is the leak most investors never check. The Budget number that moves markets in February is a target. The number that moves businesses is what actually gets spent by the following March, and the two can part ways.",
         "In the election year of 2024, capital spending ran well behind the announced pace for months, because governments slow decision-making around elections and new project approvals wait. The revised figures later confirmed the year's actual capex came in below the grand target the market had cheered. The stocks had priced the speech. The businesses received the spending, which was smaller and later.",
-        "The same gap appears at the state level, where a real share of announced projects stalls on land and clearances. None of this makes the capex theme false. The roads did get built and the spending did grow, year over year, into 2025 and 2026. But every rupee of it arrived later and leakier than the announcement suggested, and a stock priced on the announcement has no room for later and leakier. Follow the monthly accounts the government publishes, not the February speech. The speech is marketing. The monthly accounts are the till."
-      ]
+        "The same gap appears at the state level, where a real share of announced projects stalls on land and clearances. None of this makes the capex theme false. The roads did get built and the spending did grow, year over year, into 2025 and 2026. But every rupee of it arrived later and leakier than the announcement suggested, and a stock priced on the announcement has no room for later and leakier. Follow the monthly accounts the government publishes, not the February speech. The speech is marketing. The monthly accounts are the till.",
+        "You do not have to take that on faith. The gap between the announced number and the committed one is published every year. Let us line them up."
+      ],
+      "evidenceAfter": true
     }
   ],
+  "evidence": {
+    "heading": "Let's see how much of the promise arrived",
+    "metricLabel": "Union capital expenditure",
+    "unit": " lakh cr",
+    "deltaUnit": " lakh cr",
+    "contextLine": "Budget estimate versus the government's own revised estimate, its honest re-count near year end. If the framework is right, the second number should be lower.",
+    "prediction": "If the Budget headline were translating cleanly into real spending, the money the government actually commits should track the number it announced. If the framework is right, it will fall short, and by more in an election year, when approvals slow.",
+    "intro": [
+      "The method again: we do not have to prove the capex story false. We take the single number the market reacted to, the Budget target, and set it against the government's own revised estimate, the honest recount it publishes near year end. If the promise is leaking, the recount will be the smaller number."
+    ],
+    "banks": [
+      {
+        "name": "FY24 capex",
+        "basis": "Union government, budget vs revised estimate",
+        "beforeLabel": "Budgeted",
+        "before": 10.00,
+        "afterLabel": "Revised",
+        "after": 9.50,
+        "exposure": "the record target the market priced in on Budget day; the revised figure is what the government itself later expected to spend.",
+        "sourceUrl": "https://www.business-standard.com/economy/news/india-s-fy24-fiscal-deficit-better-than-expected-in-absolute-terms-124050901187_1.html"
+      },
+      {
+        "name": "FY25 capex",
+        "basis": "Union government, budget vs revised estimate",
+        "beforeLabel": "Budgeted",
+        "before": 11.11,
+        "afterLabel": "Revised",
+        "after": 10.18,
+        "exposure": "an election-year target, cut by about 93,000 crore as approvals slowed and the model code of conduct held up new projects.",
+        "sourceUrl": "https://www.business-standard.com/finance/news/govt-hopes-to-surpass-revised-estimates-for-capital-expenditure-in-fy25-125040600515_1.html"
+      }
+    ],
+    "directionLine": "Both years, the money the government committed came in below the number it announced: about half a lakh crore short in FY24, and roughly 0.9 lakh crore short in the election year FY25. The market reacted to the bigger number in February; businesses received the smaller one, later, over the following year.",
+    "causeEvidence": "The same gap shows up one link down, inside the biggest contractor. In FY25 L&T won a record 3.57 lakh crore of fresh orders and carried a record order book of about 5.8 lakh crore, yet booked only 2.56 lakh crore of actual revenue ([Business Standard](https://www.business-standard.com/companies/quarterly-results/lt-larsen-toubro-q4-results-fy25-net-profit-revenue-dividend-125050801264_1.html)). The order book is a queue worth more than two years of work, not money in the bank, and orders won that year outran work actually done. That is an order book behaving exactly like a promise, not a profit.",
+    "seasonalityNote": "Reading it fairly: the revised estimate is the government's own later count, not an outside guess, so this is not us calling the capex fake. Spending did grow every year, and the roads got built. The point is narrower, and it is the whole point. The money arrives smaller and later than the February headline, and a stock priced on the headline has no room for smaller and later.",
+    "caption": "You can watch the promise shrink. Eleven lakh crore announced, ten committed, and at the company that wins the work, two and a half lakh crore actually done in a year. An order is not revenue, and now you have seen the gap rather than been told about it."
+  },
   "horizons": [
     {
       "event": "A record capex Budget is announced",
@@ -76,18 +115,21 @@
     "How much of the announced number was actually spent last year? The gap between speech and till is the first thing to check.",
     "For any contractor: how fast do orders convert to revenue, and how much cash does each rupee of government work trap in receivables?",
     "Is this company a tender-winner, or a supplier to all tender-winners? The second needs no luck.",
+    "How much of the order book existed before this Budget? A backlog built over past years is not evidence that the new announcement is working.",
     "After years of the same announcement, what is already in the price?",
     "What happens to this stock if the spending arrives one year late? If the answer is a disaster, the price assumed perfection."
   ],
   "yourTurn": {
     "prompt": "Use the pipeline on a different promise. The government announces a production-linked incentive scheme paying electronics manufacturers a bonus on every phone made in India.",
     "questions": [
+      "What is the equivalent of an order here, the intermediate step between the government's announcement and a company's revenue? Name it before you go further.",
       "Which of the three moved: price, cost, or volume?",
       "Trace the pipeline from announcement to a company's cash. Where are the slow steps and the leaks?",
       "Who benefits one link down from the phone assemblers?",
       "What is the equivalent of the announced-versus-spent gap here?"
     ],
     "reveal": [
+      "The equivalent of the order is the scheme approval. A manufacturer applies and is registered under the PLI against agreed production targets. That approval is the promise, the counterpart of a won tender; the subsidy actually paid out years later is the cash. Spotting this intermediate step is the whole trick, because it stops you jumping straight from the announcement to a company's profit.",
       "It moves cost: the subsidy makes each phone cheaper to produce in India than the sticker cost suggests. That pulls assembly volume here.",
       "The pipeline: scheme announced, then companies apply and are approved, then factories are built, then production targets must be met, then claims are filed, then the subsidy is paid. Years from speech to cash, with verification at every step.",
       "One link down sit the component makers, the contract manufacturers' landlords, and the logistics firms moving parts. They gain from every approved player, whoever wins share, the same way cement gains from every road.",
@@ -103,12 +145,20 @@
   "relatedCaseStudies": [],
   "sources": [
     {
-      "label": "Union Budget documents (Ministry of Finance)",
-      "url": "https://www.indiabudget.gov.in/"
+      "label": "World Construction Network: India's FY25 Budget keeps capex target at 11.1 lakh crore",
+      "url": "https://www.worldconstructionnetwork.com/analyst-comment/india-fy25-budget-capex/"
     },
     {
-      "label": "Controller General of Accounts: monthly accounts of the Union government",
-      "url": "https://cga.nic.in/"
+      "label": "Business Standard: government hopes to surpass FY25 revised capex estimate of 10.18 lakh crore",
+      "url": "https://www.business-standard.com/finance/news/govt-hopes-to-surpass-revised-estimates-for-capital-expenditure-in-fy25-125040600515_1.html"
+    },
+    {
+      "label": "Business Standard: capex shrinks as fiscal deficit reaches 52% of FY25 estimate (CGA monthly data)",
+      "url": "https://www.business-standard.com/economy/news/capex-shrinks-as-fiscal-deficit-reaches-52-of-fy25-estimate-cga-data-124123100761_1.html"
+    },
+    {
+      "label": "Business Standard: L&T Q4 FY25 results (revenue 2.56 lakh crore, record order inflow 3.57 lakh crore, record order book)",
+      "url": "https://www.business-standard.com/companies/quarterly-results/lt-larsen-toubro-q4-results-fy25-net-profit-revenue-dividend-125050801264_1.html"
     }
   ],
   "lesson": "Government spending is real demand on a government clock. A Budget announcement must become tenders, then contracts, then construction, then payment, and it leaks and slips at every joint. The market prices the speech in an afternoon; the businesses receive the money over years. The durable trades in a capex cycle are the conversion questions nobody asks on Budget day: how fast, how leaky, how much cash trapped on the way.",

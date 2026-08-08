@@ -1,4 +1,5 @@
 import React from 'react';
+import Connections from '@/components/Connections';
 import { getAllSignals, getSignal } from '@/lib/signals';
 import { getSector } from '@/lib/sectors';
 import { getCaseStudy } from '@/lib/caseStudies';
@@ -113,6 +114,9 @@ function renderEvidence(ev: import('@/lib/signals').SignalEvidence, key: React.K
           {ev.banks.map((b, i) => {
             const c = EVIDENCE_COLORS[i % EVIDENCE_COLORS.length];
             const chg = (b.after - b.before);
+            const deltaText = ev.deltaUnit && ev.deltaUnit !== 'bps'
+              ? `${chg > 0 ? '+' : ''}${chg.toFixed(2)}${ev.deltaUnit}`
+              : `${chg > 0 ? '+' : ''}${(chg * 100).toFixed(0)} bps`;
             return (
               <div className="sig-db-row" key={i} style={{ color: c }}>
                 <div className="sig-db-bank">
@@ -130,7 +134,7 @@ function renderEvidence(ev: import('@/lib/signals').SignalEvidence, key: React.K
                     <em>{b.afterLabel}</em>
                   </span>
                 </div>
-                <div className="sig-db-change sig-ev-down">{chg > 0 ? '+' : ''}{(chg * 100).toFixed(0)} bps</div>
+                <div className="sig-db-change sig-ev-down">{deltaText}</div>
                 <div className="sig-db-why">Fits the mechanism: {b.exposure}</div>
               </div>
             );
@@ -462,28 +466,14 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
         )}
 
         {/* Connections */}
-        {(relSectors.length > 0 || relCases.length > 0) && (
-          <div className="sig-block sig-connect">
-            <h2 className="csd-h2">Follow the threads</h2>
-            <p className="sig-connect-lede">Where this signal plays out in depth: the sectors it moves and the companies that lived it.</p>
-            <div className="conn-grid">
-              {relSectors.map((sec) => (
-                <a key={sec!.id} href={withBase(`/sectors/${sec!.id}/`)} className="conn-card">
-                  <span className="conn-kicker">Sector</span>
-                  <span className="conn-name">{sec!.name}</span>
-                  <span className="arw">→</span>
-                </a>
-              ))}
-              {relCases.map((c) => (
-                <a key={c!.id} href={withBase(`/case-studies/${c!.id}/`)} className="conn-card conn-card-case">
-                  <span className="conn-kicker">Case study</span>
-                  <span className="conn-name">{c!.company}</span>
-                  <span className="arw">→</span>
-                </a>
-              ))}
-            </div>
-          </div>
-        )}
+        <Connections
+          title="Follow the threads"
+          lede="Where this signal plays out in depth: the sectors it moves and the companies that lived it."
+          items={[
+            ...relSectors.map((sec) => ({ kicker: 'Sector', name: sec!.name, href: `/sectors/${sec!.id}/` })),
+            ...relCases.map((c) => ({ kicker: 'Case study', name: c!.company, href: `/case-studies/${c!.id}/`, variant: 'case' as const })),
+          ]}
+        />
 
         {s.sources && s.sources.length > 0 && (
           <div className="sig-block">
