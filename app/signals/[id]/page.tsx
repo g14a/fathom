@@ -1,5 +1,6 @@
 import React from 'react';
 import Connections from '@/components/Connections';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import { getAllSignals, getSignal } from '@/lib/signals';
 import { getSector } from '@/lib/sectors';
 import { getCaseStudy } from '@/lib/caseStudies';
@@ -244,7 +245,7 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
 
   return (
     <div className="wrap report sig-page">
-      <a href={withBase("/signals/")} className="back">← All signals</a>
+      <Breadcrumbs items={[{ name: 'Signals', path: '/signals/' }, { name: s.title }]} />
 
       <div className="csd-head">
         <div className="cs-head">

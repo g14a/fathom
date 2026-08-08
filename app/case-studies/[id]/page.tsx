@@ -3,6 +3,7 @@ import { getSector } from '@/lib/sectors';
 import type { Metadata } from 'next';
 import { withBase, canonical } from '@/lib/base';
 import Connections from '@/components/Connections';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export function generateStaticParams() {
   return getAllCaseStudies().map((c) => ({ id: c.id }));
@@ -284,7 +285,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
 
   return (
     <div className="wrap report csd-page">
-      <a href={withBase("/case-studies/")} className="back">← All case studies</a>
+      <Breadcrumbs items={[{ name: 'Case Studies', path: '/case-studies/' }, { name: c.company }]} />
 
       <div className="csd-head">
         <div className="cs-head">

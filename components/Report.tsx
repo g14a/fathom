@@ -4,6 +4,7 @@ import type {
 import { getSector } from '@/lib/sectors';
 import { getCaseStudiesForTicker } from '@/lib/caseStudies';
 import { withBase, formatDate } from '@/lib/base';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 const HOLD_COLORS: Record<string, string> = {
   Promoter: '#2dd4bf',
@@ -224,9 +225,16 @@ function EditorialModel({ r }: { r: TickerReport }) {
 }
 
 export function Report({ r }: { r: TickerReport }) {
+  const crumbSector = r.sectorId ? getSector(r.sectorId) : undefined;
   return (
     <div className="wrap report">
-      <a href={withBase("/")} className="back">← All companies</a>
+      <Breadcrumbs
+        items={[
+          { name: 'Companies', path: '/' },
+          ...(crumbSector ? [{ name: crumbSector.name, path: `/sectors/${crumbSector.id}/` }] : []),
+          { name: r.company },
+        ]}
+      />
 
       <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 16, justifyContent: 'space-between' }}>
         <div>

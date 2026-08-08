@@ -517,6 +517,15 @@ section.block:first-of-type { border-top: none; }
 .remember-text { font-family: var(--serif); font-size: 22px; font-weight: 600; line-height: 1.45; color: var(--ink); text-wrap: balance; max-width: 760px; margin: 0 auto; }
 @media (max-width: 560px) { .remember-text { font-size: 19px; } }
 
+/* Breadcrumbs (Breadcrumbs.tsx) */
+.breadcrumbs { margin: 20px 0 14px; }
+.breadcrumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 0; }
+.breadcrumbs li { display: inline-flex; align-items: center; font-family: var(--mono); font-size: 12px; letter-spacing: 0.02em; color: var(--ink-faint); }
+.breadcrumbs a { color: var(--ink-dim); text-decoration: none; transition: color .15s ease; }
+.breadcrumbs a:hover { color: var(--accent); }
+.breadcrumbs [aria-current="page"] { color: var(--ink-faint); }
+.breadcrumbs .bc-sep { margin: 0 8px; color: var(--ink-faint); opacity: 0.6; }
+
 /* Shared connections block (Connections.tsx): related sectors / reports / case studies */
 .connections-block { margin-top: 44px; }
 .connections-lede { color: var(--ink-dim); font-size: 15px; line-height: 1.6; margin: 12px 0 0; max-width: 640px; }

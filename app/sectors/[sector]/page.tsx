@@ -5,6 +5,7 @@ import { getAllTickers, getReport } from '@/lib/data';
 import type { Metadata } from 'next';
 import { withBase, canonical } from '@/lib/base';
 import Connections from '@/components/Connections';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 function Block({ p, i }: { p: PrimerBlock; i: number }) {
   return (
@@ -78,7 +79,7 @@ export default async function SectorPage({ params }: { params: Promise<{ sector:
 
   return (
     <div className="wrap">
-      <a href={withBase("/sectors/")} className="back">← All sectors</a>
+      <Breadcrumbs items={[{ name: 'Sectors', path: '/sectors/' }, { name: s.name }]} />
 
       <div className="sector-hero">
         <h1>{s.name}</h1>
