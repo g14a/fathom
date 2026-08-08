@@ -215,5 +215,8 @@
   "relatedSectors": [
     "hospitals",
     "fmcg"
+  ],
+  "relatedReports": [
+    "LUPIN"
   ]
 }

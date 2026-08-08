@@ -57,16 +57,16 @@
       "heading": "The real wound: where the cash was going",
       "body": [
         "Now the heart of it. The thing that turned an industry downturn into a two-thirds collapse was capital allocation, which is just a formal way of saying: where did management choose to spend the shareholders' money? And the answer, for years, was a sprawl of ventures far from the core that quietly set fire to cash.",
-        "The most damaging by far was SsangYong, a South Korean carmaker Mahindra had bought out of bankruptcy in 2011, paying roughly ₹2,100 crore for a controlling stake. The logic sounded good on paper: a ready-made global carmaker with its own factories, engineers and export network, a shortcut to becoming a serious international player. For a while it even looked like it might work. Around 2016, on the back of a well-received compact SUV called the Tivoli, SsangYong came close to breaking even. That was as good as it got.",
+        "The most damaging by far was SsangYong, a South Korean carmaker Mahindra had bought out of bankruptcy in 2011, paying roughly ₹2,100 crore[^3] for a controlling stake. The logic sounded good on paper: a ready-made global carmaker with its own factories, engineers and export network, a shortcut to becoming a serious international player. For a while it even looked like it might work. Around 2016, on the back of a well-received compact SUV called the Tivoli, SsangYong came close to breaking even. That was as good as it got.",
         "After that it unravelled, and for reasons SsangYong could do little about. Its home market in Korea shifted steadily away from the diesel engines SsangYong was built around, toward petrol. Key export markets such as Iran, Chile, Egypt and parts of Western Europe dried up as geopolitics and a global slowdown bit. And crucially it was too small to afford the huge cost of designing new models and making the leap to electric, so its cars aged while rivals moved on. The losses widened relentlessly, from around 66 billion won in 2017 to 62 billion in 2018 and then a staggering 341 billion won in 2019, roughly a fivefold jump in a single year. Year after year, Mahindra kept injecting fresh capital just to keep it breathing, money that earned nothing and was unlikely ever to come back. By the time the board finally refused to put in more in April 2020, over ₹5,200 crore of losses from Mahindra's overseas arms in FY20 told the story. SsangYong later filed for court receivership and was eventually sold to Korea's KG Group.",
         "But SsangYong was only the headline. There was also GenZe, an electric-scooter venture in the United States. There was Peugeot Motocycles in France. There was an aerospace business, a dairy business, a stake in the Italian design house Pininfarina, and more. Grand-sounding, globe-spanning, and collectively a steady drain on the cash the good Indian businesses were generating.",
-        "The numbers make it stark. In FY20 the losses from Mahindra's international subsidiaries alone came to more than ₹5,200 crore, enough to wipe out most of the profit the good Indian businesses were working so hard to earn. The market had watched this pattern for years, and it drew the obvious conclusion: this was a management that could not be trusted to invest its cash wisely. And a company that is seen to destroy capital does not just earn less profit, it earns a steadily lower valuation multiple on that profit. That double blow, falling profits and a falling multiple, is why Mahindra dropped far more than the auto slowdown alone can explain."
+        "The numbers make it stark. In FY20 the losses from Mahindra's international subsidiaries alone came to more than ₹5,200 crore[^4], enough to wipe out most of the profit the good Indian businesses were working so hard to earn. The market had watched this pattern for years, and it drew the obvious conclusion: this was a management that could not be trusted to invest its cash wisely. And a company that is seen to destroy capital does not just earn less profit, it earns a steadily lower valuation multiple on that profit. That double blow, falling profits and a falling multiple, is why Mahindra dropped far more than the auto slowdown alone can explain."
       ]
     },
     {
       "heading": "The capitulation",
       "body": [
-        "It all came to a head in the March 2020 quarter. Mahindra reported a standalone net loss of ₹2,502 crore for those three months, its first quarterly loss in nearly nineteen years. And the audited accounts named the culprit in black and white. Buried in Note 4 of the results was a ₹2,780 crore \"exceptional item\", an impairment provision on the company's long-term investments in its subsidiaries. That is the accountant's polite way of admitting that the foreign bets, SsangYong chief among them, were worth far less than Mahindra had paid for them. The very same filing pointed to COVID-19 as the trigger for the write-down. The evidence section below shows these pages directly.",
+        "It all came to a head in the March 2020 quarter. Mahindra reported a standalone net loss of ₹2,502 crore[^1] for those three months, its first quarterly loss in nearly nineteen years. And the audited accounts named the culprit in black and white. Buried in Note 4 of the results was a ₹2,780 crore \"exceptional item\"[^2], an impairment provision on the company's long-term investments in its subsidiaries. That is the accountant's polite way of admitting that the foreign bets, SsangYong chief among them, were worth far less than Mahindra had paid for them. The very same filing pointed to COVID-19 as the trigger for the write-down. The evidence section below shows these pages directly.",
         "The market had already been voting with its feet. The stock, which had been sliding for two years, fell to around ₹248 by late March 2020, a nine-year low, having dropped by roughly half in that single brutal month. For a company that had been in the ₹1 lakh crore club at its peak, this was total capitulation.",
         "Investors who had held on through the whole two-year descent finally gave up. And, as so often happens in markets, that moment of maximum despair turned out to be almost exactly the turning point."
       ]
@@ -171,6 +171,41 @@
       "url": "https://www.business-standard.com/article/companies/mahindra-reports-first-quarterly-loss-in-19-years-net-sales-fall-26-yoy-120061201627_1.html"
     }
   ],
+  "exAnte": {
+    "intro": [
+      "The ₹2,780 crore write-off in the March 2020 quarter looked like a bolt from the sky, and the company pointed to COVID. It was not a bolt. A write-off is accounting catching up with cash that left years earlier, and where that cash was going had been disclosed, in the same annual reports, all along."
+    ],
+    "tells": [
+      {
+        "when": "Annual reports through FY18 and FY19",
+        "document": "The consolidated profit and loss account, read against the standalone one, plus the subsidiary schedule at the back of the annual report",
+        "check": "The gap between what Mahindra earned on its own and what the group earned once every subsidiary was included. Then the schedule that lists each subsidiary with its revenue and its profit or loss, SsangYong among them.",
+        "meaning": "That gap is the price of the sprawl. The tractor and SUV business was earning well and quietly handing the money to arms that could not earn a return on it. You did not need to predict an impairment. You only needed to notice that the money was already gone, year after year, and that a write-off is simply the day the balance sheet admits it.",
+        "lead": "Years ahead of the Q4 FY20 impairment"
+      },
+      {
+        "when": "Monthly, through FY19 and FY20",
+        "document": "The monthly sales numbers Mahindra and its rivals publish, and industry body data",
+        "check": "Mahindra's share of the SUV market falling from 23.8% to 18.7% while Kia, MG and Hyundai launched into the same segment.",
+        "meaning": "Market share is published every month by the companies themselves. A five point fall in the segment a company was famous for owning is not a subtle signal, and it arrives twelve times a year rather than four.",
+        "lead": "Roughly a year and a half of monthly evidence before the March 2020 low"
+      },
+      {
+        "when": "September 2018",
+        "document": "The IL&FS default, a dated public credit event",
+        "check": "Not a Mahindra document at all. IL&FS defaulting froze lending across vehicle finance, and most vehicles in India are bought with a loan.",
+        "meaning": "When the finance stops, demand stops, whoever makes the vehicle. This is the kind of tell that lives outside the company you are studying, and it told you the whole industry was about to have a bad two years before a single quarterly result showed it.",
+        "lead": "About 18 months before the trough"
+      }
+    ],
+    "blindSpot": "Two things were genuinely not visible in advance. The exact size of the impairment depended on judgements management made in one quarter, and the auditors signed the accounts as true and fair either way. And the pandemic that shut the showrooms was nobody's forecast. What was visible was the underlying condition: money being spent for years without earning a return. COVID chose the date. It did not choose the outcome."
+  },
+  "patternCard": {
+    "signal": "Consolidated profit sitting persistently and far below standalone profit.",
+    "mechanism": "That difference is what the subsidiaries lose. A good core business is quietly funding other people's bad ones, and because the loss only becomes a headline when it is written off, the write-off lands years after the cash actually left. By then it is old news dressed as a shock.",
+    "whereToCheck": "Put the consolidated profit and loss account next to the standalone one in the same annual report, and read the gap for five years running. Then turn to the subsidiary schedule, the AOC-1 at the back, which lists every subsidiary with its own revenue and profit. The losers are named.",
+    "counterexample": "A gap is not automatically a warning. A company deliberately building something new will lose money in subsidiaries for years and be entirely right to do so. The questions that separate the two are how long the losses have run, whether they are narrowing, and whether management has ever stated a return threshold and then actually honoured it. Mahindra's recovery began the day it set a hard 18% return rule and walked away from businesses that failed it, including one it had owned for a decade."
+  },
   "timeline": [
     {
       "when": "Apr 2018",
@@ -206,5 +241,27 @@
     }
   ],
   "lesson": "The fall was not really an auto-cycle story, it was a capital-allocation story. Mahindra collapsed because it was spending its cash badly across a sprawl of loss-makers, and it recovered because it stopped and focused the money on what earned a real return. This is why capital allocation, how management chooses to spend the shareholders' money, is one of the most important things to judge in any company. It rarely shows up in a single quarter's numbers, but over years it is the difference between compounding and destruction. When you look at Mahindra today, watch that discipline above all else, because you have now seen, in detail, exactly what it cost when the discipline was missing.",
-  "sectorId": "auto"
+  "sectorId": "auto",
+  "evidenceNotes": [
+    {
+      "id": 1,
+      "note": "The ₹2,502.42 crore standalone net loss for Q4 FY20 is from Mahindra's audited results filed with the exchanges in June 2020. Exact to the paisa in the filing.",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "note": "The ₹2,780.47 crore impairment on investments in subsidiaries sits in Note 4 of the same filed results, disclosed as an exceptional item. This is the single most checkable claim in the study: the note is in the public results document.",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "note": "The ~₹2,100 crore paid for control of SsangYong in 2011 is from contemporaneous deal coverage. The deal was priced in Korean won and dollars, so rupee figures vary a little by source and exchange rate.",
+      "confidence": "medium"
+    },
+    {
+      "id": 4,
+      "note": "The ₹5,200+ crore of FY20 losses across the overseas subsidiaries is an aggregate drawn from the consolidated results and segment disclosures. It depends on which entities you count as 'international', so treat it as a fair estimate of scale rather than a single filed line.",
+      "confidence": "medium"
+    }
+  ]
 }

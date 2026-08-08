@@ -1,0 +1,149 @@
+{
+  "name": "Chemicals",
+  "icon": "⚗️",
+  "tagline": "Commodity molecules sell a price. Specialty molecules sell a spec.",
+  "examples": [
+    "SRF",
+    "PIIND",
+    "DEEPAKNTR",
+    "NAVINFLUOR"
+  ],
+  "howItWorks": "The paracetamol in this morning's tablet, the paint on your wall, the pesticide sprayed on the wheat in your bread, the foam in your car seat: each one began as a specific molecule built in a chemical reactor. A chemicals company sells the molecules that everything else is made from. But the name hides two completely different businesses. One makes standard, bulk molecules like caustic soda or soda ash, where the product is identical to a rival's and the world sets the price; this is commodity chemicals, and it lives and dies by the cycle. The other makes complex, made-to-order molecules to a single customer's exact specification, an intermediate for one particular drug or crop chemical; this is specialty chemicals, and once your molecule is designed into the customer's product, replacing you is slow, risky, and expensive. The whole game is knowing which of the two you are looking at, because they earn money in opposite ways.",
+  "chain": {
+    "kicker": "The whole industry compressed into five boxes",
+    "steps": [
+      "Molecule",
+      "Qualification",
+      "Spec'd in",
+      "Repeat order",
+      "Cash"
+    ],
+    "note": "A new molecule is made, the customer puts it through months of qualification, it gets designed into their product and their regulatory filings, that lock turns into a stream of repeat orders no rival can easily interrupt, and the repeat orders become cash. The switching cost is the whole moat."
+  },
+  "checklist": {
+    "kicker": "The chemicals checklist",
+    "title": "Five questions to run against any chemicals company",
+    "items": [
+      "Is the revenue specialty (spec'd in) or commodity (price-taken)?",
+      "Are customers locked in by qualification, or free to swap on price?",
+      "Is capex earning a return? (ROCE above cost of capital through the cycle)",
+      "Is the margin durable, or a temporary commodity-cycle spike?",
+      "Is environmental compliance a strength, or a shutdown waiting to happen?"
+    ],
+    "foot": "Specialty, locked-in, ROCE-positive, durable, compliant, and you are looking at a compounder rather than a cyclical trade."
+  },
+  "sections": [
+    {
+      "title": "First, what is a chemicals business really?",
+      "intro": "Chemicals is not one industry but two, wearing the same lab coat. Tell them apart and everything else on this page follows.",
+      "blocks": [
+        {
+          "concept": "Commodity molecules sell a price. Specialty molecules sell a spec",
+          "body": "If two plants make the exact same caustic soda, who decides the price? Neither of them. The world does, through global supply and whatever new capacity China has just switched on. That is commodity chemicals: your output is identical to a rival's, you are a price-taker, and your margin swings with the cycle. Specialty chemicals is the opposite. You make a molecule to one customer's exact recipe, an intermediate that goes into a single patented drug or crop chemical, and it cannot be bought off any shelf. There you are closer to a price-setter, because the customer needs your specific molecule, not just any molecule.",
+          "example": "Caustic soda is a commodity: the same everywhere, priced by the market, margins that boom and bust. A fluorinated intermediate made for one company's patented medicine is specialty: made to spec, hard to source elsewhere, and priced on value, not on the going rate per tonne."
+        },
+        {
+          "concept": "Being designed in is the moat",
+          "body": "To win a specialty molecule, the customer runs your process through months, sometimes years, of qualification: testing purity, consistency batch after batch, and whether it fits their regulatory filings. Once you pass and your molecule is written into their product's specification, switching to a cheaper rival means re-qualifying that supplier from scratch and re-filing with regulators, while risking their own product in the meantime. So they do not. A specialty molecule takes years to get designed in, and once it is, it is just as slow to get designed out. That slowness is the whole moat, and it is why commodity and specialty players trade at completely different valuations."
+        }
+      ]
+    },
+    {
+      "title": "How to read a chemicals business",
+      "blocks": [
+        {
+          "concept": "First, split the revenue: specialty or commodity",
+          "body": "The company reports record profit. Will it last? That depends entirely on where the profit came from. A jump driven by specialty, spec'd-in volumes is durable, because the customers are locked in and keep re-ordering. A jump driven by a commodity price spike is borrowed from the cycle; when supply catches up, the price falls and the profit goes with it. So before you admire a growth number, find out how much of the business is specialty and how much is commodity tonnage riding a good year.",
+          "example": "Two companies both report profit up 40%. One earned it on a multi-year fluorochemical contract for a global agro major; that repeats. The other earned it on a caustic soda price spike; that reverses the moment new capacity lands. Same headline, opposite quality."
+        },
+        {
+          "concept": "Watch the spread, not the revenue",
+          "body": "Raw materials are mostly crude-oil derivatives and imported intermediates, a large share of them from China. When those input costs move, or Chinese supply floods or dries up, the spread between a chemical's selling price and its input cost moves with it. Gross spread, the margin left after raw materials, is where you see who has pricing power. A commodity player has almost none: costs rise, prices are set by the market, and the spread gets squeezed. A specialty player can hold its spread, because the locked-in customer absorbs a cost pass-through rather than re-qualify a new supplier.",
+          "example": "Crude jumps and a Chinese intermediate doubles in price. The commodity maker watches its spread collapse because it cannot lift prices. The specialty maker passes the cost through in its next contract, and its spread barely moves."
+        }
+      ]
+    },
+    {
+      "title": "Where chemicals breaks, and how to value it",
+      "blocks": [
+        {
+          "concept": "The killer is the down-cycle and Chinese oversupply",
+          "body": "A rival in China brings on a giant new plant. Does your caustic soda still command its price? No. When capacity floods the market, commodity prices collapse and thin margins turn straight into losses, and there is nothing a price-taker can do but wait. Even specialty players feel it when a molecule slowly drifts toward commodity as its patent protection fades and more suppliers qualify. The slower killers are customer concentration, where one big client de-specs you, and an environmental shutdown, where a pollution-control failure closes a plant overnight.",
+          "example": "A capacity glut out of China pushes a bulk chemical below cash cost. Every commodity producer bleeds until the weakest shut down and supply rebalances, which can take years. Nobody is spared, because nobody sets the price."
+        },
+        {
+          "concept": "A plant is easy to build. A return on it is not",
+          "body": "Management says the new plant will transform earnings. How do you check? Return on capital employed. Chemicals is capex-heavy, and a company can grow revenue for years just by pouring concrete and borrowing, while ROCE quietly sinks. The molecules that earn a genuinely high ROCE are the spec'd-in specialty ones; commodity tonnes rarely clear their cost of capital across a full cycle, however impressive the revenue line looks during a boom.",
+          "example": "A company doubles capacity and revenue climbs. But if ROCE drifts from 20% down to 11%, the growth was bought, not earned. The concrete is real; the return on it is not."
+        },
+        {
+          "concept": "Value it across a full cycle, and pay up only for stickiness",
+          "body": "The best specialty and contract-manufacturing (CDMO) businesses, with locked-in customers and high ROCE, earn rich multiples, often 40-60 times earnings, the same premium a strong consumer brand gets, and for the same reason: dependable, hard-to-replace cash. Commodity chemical earnings deserve the opposite treatment. Value them on mid-cycle profit, never the peak, because a boom in a price-taken product always mean-reverts. The trap is paying a specialty multiple for peak commodity earnings.",
+          "example": "Pay 45 times earnings for a spec'd-in specialty compounder and you may be right. Pay the same for a commodity producer at the top of its cycle and you are buying peak profit that is about to halve."
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "Specialty Revenue Mix",
+      "why": "How much revenue is spec'd in versus commodity. The higher the specialty share, the more durable and less cyclical the earnings."
+    },
+    {
+      "metric": "Gross Spread",
+      "why": "Selling price minus raw-material cost. Commodity spreads swing with the cycle; specialty spreads hold because the customer is locked in."
+    },
+    {
+      "metric": "EBITDA Margin",
+      "why": "Operating profitability. Specialty and CDMO run 20-25%+; commodity is thin and cyclical."
+    },
+    {
+      "metric": "ROCE",
+      "why": "Capital efficiency. Chemicals is capex-heavy; ROCE across a full cycle separates value-creating molecules from concrete-pouring growth."
+    },
+    {
+      "metric": "Capacity Utilisation",
+      "why": "How full the plants are. Heavy fixed costs mean profits swing hard with utilisation."
+    },
+    {
+      "metric": "Customer / Product Concentration",
+      "why": "Dependence on a few clients or molecules. Concentration is the de-spec risk."
+    },
+    {
+      "metric": "Export Share / China+1 Wins",
+      "why": "Exposure to global buyers diversifying supply away from China, the structural tailwind for Indian specialty makers."
+    }
+  ],
+  "framework": {
+    "demand": "End-market demand + China+1",
+    "pricing": "Specialty mix (spec'd in)",
+    "efficiency": "EBITDA margin",
+    "capital": "ROCE through the cycle",
+    "risk": "Commodity down-cycle"
+  },
+  "anatomy": {
+    "demand": "From every other industry. Chemicals sells the inputs to pharma, agriculture, autos, textiles, paints, and electronics, so its demand is derived: it rises and falls with those end markets rather than on its own. Two forces sit on top of that. Specialty demand is sticky, because locked-in customers keep re-ordering the molecule designed into their product. And a structural tailwind is pulling orders toward India as global buyers deliberately diversify their supply away from a single dependence on China, the shift usually called China+1.",
+    "pricing": "It depends entirely on which half you are in. In commodity chemicals the world sets the price; you are a price-taker, and your margin swings with global supply and whatever capacity China has just added. In specialty chemicals you set the price within reason, because the customer qualified your exact molecule and cannot swap it cheaply. The single dividing line between a price-taker and a price-setter is whether you have been spec'd in.",
+    "limiting": "Process know-how and a qualified, cleared plant. Anyone can read a molecule's structure; making it at high purity, high yield, and low cost, consistently, batch after batch, at industrial scale, is decades of hard-won chemistry that money cannot buy quickly. On top of that sit environmental clearances and pollution-control compliance, which in India are slow and expensive to obtain and can shut a plant overnight if breached. A newcomer can copy the chemistry on paper and still be years away from a plant that customers and regulators will trust.",
+    "leak": "Capex and compliance. Plants cost enormous sums and need constant reinvestment, and process R&D can run for years before a single molecule earns anything. Effluent treatment and environmental compliance are a permanent, unavoidable cost of staying open. On top of that, raw-material swings in crude derivatives and imported Chinese intermediates quietly eat the spread until higher prices can be passed through, if they can be passed through at all.",
+    "killer": "The commodity down-cycle. When China or a large rival brings on huge new capacity, prices collapse and thin commodity margins turn into losses, and a price-taker can only wait it out. The slower killers are customer concentration, where one big client de-specs you or in-sources the molecule; a specialty product drifting toward commodity as patents expire and more suppliers qualify; and an environmental shutdown that closes a plant with no notice.",
+    "moat": "Being designed in. Once a customer has qualified your molecule and written it into their product and their regulatory filings, replacing you means re-testing everything, re-filing with regulators, and risking their own product, so they stay for years. Layer on deep process know-how that lets you make the molecule cheaper than anyone, backward integration into the key intermediates, and scale, and the best specialty players compound quietly for decades. Commodity players have almost no moat at all, and that gap is the whole difference between the two halves of this industry."
+  },
+  "beginnerQuestion": {
+    "q": "If a chemical is just a formula anyone can look up, how does one company earn far more than another making the same thing?",
+    "a": "Because most of the value is not in the molecule, it is in being trusted to make it. For a simple bulk chemical you are right: everyone makes the identical thing and nobody earns much, because the buyer just picks the cheapest. But for a complex, made-to-order molecule, the customer spends months or years qualifying one supplier's exact process, checking purity and consistency, then writes that supplier into the product's specification and regulatory paperwork. Switching to a cheaper rival would mean re-testing everything and risking their own product, so they do not. The high earner is not the one with a secret formula; it is the one the customer cannot afford to replace."
+  },
+  "remember": "Chemicals is two businesses in one lab coat: commodity molecules sell a price the world sets, while specialty molecules sell a spec the customer cannot easily replace.",
+  "mentalModels": [
+    "Switching Costs",
+    "Spec'd-in Lock",
+    "Commodity Cycle",
+    "Capital Intensity",
+    "Process Know-how"
+  ],
+  "relatedSectors": [
+    "pharma",
+    "metals",
+    "auto"
+  ]
+}

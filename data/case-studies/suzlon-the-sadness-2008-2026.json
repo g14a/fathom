@@ -78,7 +78,7 @@
       "body": [
         "Two things went wrong at almost the same time. The 2008 financial crisis arrived first. Credit dried up everywhere, and expensive wind projects were exactly the sort of thing customers put off, so Suzlon's income fell away just when it needed the money most.",
         "Then there was the dollar debt. Suzlon had borrowed abroad because foreign loans were cheaper and easier to raise at the size it needed, and the German deal was priced in foreign currency anyway. But the company earned in rupees and had to repay in dollars, which was fine only for as long as the rupee held its ground. It did not. The rupee slid from about ₹44 to the dollar toward ₹55, and a loan that had cost ₹44 to service per dollar now cost ₹55, though Suzlon had not borrowed a rupee more. The debt swelled on its own, purely because of the currency it was written in.",
-        "Squeezed from both ends, the debt pushed past ₹13,000 crore. In 2012 Suzlon missed a foreign-bond repayment and defaulted, among the largest defaults India had seen, and a group of nineteen banks led by SBI stepped in to restructure thousands of crores of its loans."
+        "Squeezed from both ends, the debt pushed past ₹13,000 crore[^1]. In 2012 Suzlon missed a foreign-bond repayment and defaulted[^2], among the largest defaults India had seen, and a group of nineteen banks led by SBI stepped in to restructure thousands of crores of its loans."
       ]
     },
     {
@@ -102,7 +102,7 @@
     {
       "heading": "The story in five numbers",
       "body": [
-        "Debt peaked past ₹13,000 crore in the early 2010s, most of it those foreign-currency loans. Clearing it took the share count from about 850 crore shares to over 1,363 crore. Borrowings today are around ₹556 crore, a rounding error beside the old pile. The business now turns over about ₹16,700 crore a year. And a share still costs about ₹48."
+        "Debt peaked past ₹13,000 crore in the early 2010s, most of it those foreign-currency loans. Clearing it took the share count from about 850 crore shares to over 1,363 crore[^3]. Borrowings today are around ₹556 crore, a rounding error beside the old pile. The business now turns over about ₹16,700 crore a year. And a share still costs about ₹48."
       ]
     },
     {
@@ -111,7 +111,7 @@
         "Debt nearly killed Suzlon and dilution saved it, but the balance sheet is not the only place an investor can lose. Even once the finances are healed, there can be a problem with the people running the company.",
         "The turnaround is genuine, and worth saying plainly. Suzlon today is a far healthier company than the one that nearly folded: close to debt-free, profitable, sitting on a large order book as India builds out clean-energy capacity. The dollar-debt monster is gone, and the market has rewarded that.",
         "Two things still deserve a careful eye, both of them about trusting the picture you are handed. The first is those turnaround profits. A good chunk of the eye-catching numbers came not from selling turbines but from one-off accounting gains as old debt was written off in restructuring. Strip those out and the real, operating recovery is younger and less tested than the headline profit suggests.",
-        "The second is more serious. In May 2026 the market regulator, SEBI, penalised Suzlon and members of the founding Tanti family, including its top executives, about ₹29 crore in all, after finding that a series of past transactions had painted a misleading picture of the company's finances during its worst years. Alongside that, the promoter family now owns under 12% of the company and has been selling down, so the founders have relatively little of their own money left on the table. A real recovery and a shaky governance record sit side by side here, and both are worth taking seriously."
+        "The second is more serious. In May 2026 the market regulator, SEBI, penalised Suzlon and members of the founding Tanti family, including its top executives, about ₹29 crore in all[^4], after finding that a series of past transactions had painted a misleading picture of the company's finances during its worst years. Alongside that, the promoter family now owns under 12% of the company and has been selling down, so the founders have relatively little of their own money left on the table. A real recovery and a shaky governance record sit side by side here, and both are worth taking seriously."
       ]
     },
     {
@@ -191,6 +191,41 @@
       "url": "https://www.moneylife.in/article/suzlon-energy-promoters-and-former-executives-penalised-2895-crore-by-sebi-over-misleading-financial-statements/80617.html"
     }
   ],
+  "exAnte": {
+    "intro": [
+      "Suzlon's story has two separate losses, and they had very different amounts of warning. The debt disaster of 2008 to 2013 was written into the funding structure from the day the REpower deal was announced. The slower loss, the dilution that left a loyal owner behind even as the company recovered, was announced piece by piece and could be counted by anyone willing to look at one line of the balance sheet each year."
+    ],
+    "tells": [
+      {
+        "when": "2007",
+        "document": "The REpower acquisition announcement and the borrowings note in the annual report that followed",
+        "check": "About $760 million raised through foreign currency convertible bonds, meaning borrowings denominated in dollars. Then, in the same annual report, where Suzlon's revenue actually came from.",
+        "meaning": "The loan was fixed in a currency the company largely did not earn in. That is a mismatch, and it means the debt can grow heavier without the business doing anything wrong at all, simply because the rupee falls. It did. Total debt climbed past ₹13,000 crore and Suzlon defaulted on a foreign bond repayment.",
+        "lead": "About 5 years before the 2012 default"
+      },
+      {
+        "when": "Annual reports FY09 through FY12",
+        "document": "The borrowings note and the finance costs line in the profit and loss account",
+        "check": "The debt figure rising year after year, and interest as a share of operating profit. Read next to the published rupee-dollar rate, which anyone can look up for free.",
+        "meaning": "You could watch the trap tighten in slow motion across four annual reports. Demand for turbines was falling while the cost of the borrowing was rising, and the two lines were moving in opposite directions in a document the company published itself.",
+        "lead": "Roughly 3 to 4 years of visible deterioration"
+      },
+      {
+        "when": "Every rescue, 2013 to 2024",
+        "document": "The announcements themselves, then the equity capital line on the next balance sheet: a ₹1,200 crore rights issue, a ₹2,000 crore institutional placement, and debt converted into shares",
+        "check": "Divide equity capital by the face value of ₹2 to get the share count. It ran from about 850 crore shares in FY21 to about 1,363 crore in FY26. Every rescue was announced before it appeared there.",
+        "meaning": "This is the loss that hides in plain sight. The price on the screen never tells you your slice is shrinking. The share count does, it is one division on the face of the balance sheet, and it explained in advance why a real recovery in the business would not fully reach the owner who had held since 2008.",
+        "lead": "Announced in advance, then confirmed on every balance sheet since"
+      }
+    ],
+    "blindSpot": "And then the part nobody could have caught. In May 2026, SEBI penalised Suzlon and Tanti family executives about ₹29 crore over transactions that misrepresented the company's finances between FY15 and FY21. That is more than a decade after the earliest of those years, and the audited accounts of the time did not flag it. Reading filings carefully protects you from bad structures and bad arithmetic. It does not protect you from figures that were not true when they were printed."
+  },
+  "patternCard": {
+    "signal": "A company borrowing in a currency it does not earn in.",
+    "mechanism": "The loan is fixed in dollars while the revenue arrives in rupees. If the rupee weakens, the debt grows in the company's own books without management making a single new mistake, and it grows fastest in exactly the years when business is already bad.",
+    "whereToCheck": "The borrowings note in the annual report, which splits the debt by currency and by maturity. Read it against the revenue or segment note showing where sales actually come from. If the two do not match, the mismatch is the risk, and the size of it is the size of the debt.",
+    "counterexample": "Foreign borrowing is not a sin in itself. An exporter that earns dollars and borrows dollars is hedged by its own business, and pays a lower interest rate for the privilege. The danger is the mismatch, not the currency. And keep the second half of this story separate from the first: clearing debt by issuing new shares rescues the company, not the shareholder, so check the equity capital line every year whatever the debt is doing."
+  },
   "timeline": [
     {
       "when": "1995",
@@ -233,5 +268,27 @@
       "what": "SEBI penalises Suzlon and Tanti family executives about ₹29 crore for past transactions that misrepresented the company's finances."
     }
   ],
-  "lesson": "Suzlon's ambition to lead the world was reasonable enough. What undid it was paying for that ambition almost entirely with borrowed money, in a currency it did not earn in, so that a falling rupee could make the loan grow heavier on its own. A fundamentally good company went to the brink on the way it chose to fund its dreams. Getting out cost the shareholders, because debt does not simply vanish. When it is cleared by printing new shares, the owners are the ones who pay, their stake shrinking a little with every rescue, which is how Suzlon can be a ₹65,000 crore company and a ₹48 penny share at the same time, and how the loyal owner from 2008 came out behind even as the business came fully back to life. The habit worth keeping from all this is to watch the number of shares as closely as the price, to treat foreign-currency debt as its own kind of danger, and never to assume that a company getting well means its shareholders did too."
+  "lesson": "Suzlon's ambition to lead the world was reasonable enough. What undid it was paying for that ambition almost entirely with borrowed money, in a currency it did not earn in, so that a falling rupee could make the loan grow heavier on its own. A fundamentally good company went to the brink on the way it chose to fund its dreams. Getting out cost the shareholders, because debt does not simply vanish. When it is cleared by printing new shares, the owners are the ones who pay, their stake shrinking a little with every rescue, which is how Suzlon can be a ₹65,000 crore company and a ₹48 penny share at the same time, and how the loyal owner from 2008 came out behind even as the business came fully back to life. The habit worth keeping from all this is to watch the number of shares as closely as the price, to treat foreign-currency debt as its own kind of danger, and never to assume that a company getting well means its shareholders did too.",
+  "evidenceNotes": [
+    {
+      "id": 1,
+      "note": "Peak debt above ₹13,000 crore in the early 2010s comes from contemporaneous press coverage of the restructuring. Different reports date the peak slightly differently and include or exclude the foreign bonds; the order of magnitude is well documented.",
+      "confidence": "medium"
+    },
+    {
+      "id": 2,
+      "note": "The 2012 default on foreign convertible bonds (FCCBs) is a matter of record, widely reported at the time as one of the largest Indian convertible-bond defaults, and it led to the bank-led restructuring that followed.",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "note": "The share count going from ~850 crore to ~1,363 crore shares (FY21 to FY26) is computed from equity capital on the balance sheet, ₹1,702 crore to ₹2,745 crore at ₹2 face value, via Screener. Arithmetic on audited numbers.",
+      "confidence": "high"
+    },
+    {
+      "id": 4,
+      "note": "The May 2026 SEBI penalty of roughly ₹29 crore on Suzlon and members of the promoter family, for misleading financial statements over FY15 to FY21, is from the SEBI order as reported by Moneylife. The order may be appealed; the finding stands as of writing.",
+      "confidence": "high"
+    }
+  ]
 }

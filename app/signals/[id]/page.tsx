@@ -1,3 +1,4 @@
+import React from 'react';
 import { getAllSignals, getSignal } from '@/lib/signals';
 import { getSector } from '@/lib/sectors';
 import { getCaseStudy } from '@/lib/caseStudies';
@@ -23,9 +24,153 @@ const WHEN_LABEL: Record<string, string> = {
 
 const FANOUT_MARK = (e: string) => (e === 'up' ? '▲' : e === 'down' ? '▼' : '＝');
 
+// Renders inline [label](url) markdown links inside body strings, so a factual
+// claim can carry its source right where it is made. Everything else is plain text.
+function inline(text: string): React.ReactNode {
+  const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
+  return parts.map((part, i) => {
+    const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (!m) return part;
+    const [, label, url] = m;
+    const external = /^https?:/.test(url);
+    return (
+      <a
+        key={i}
+        href={external ? url : withBase(url)}
+        {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+      >
+        {label}
+      </a>
+    );
+  });
+}
+
+const EVIDENCE_COLORS = ['var(--accent)', 'var(--amber)', 'var(--ink-dim)'];
+
+// The evidence block: state the prediction, then go into the filings and check
+// it. The spread is taken apart in one lead bank (yield down, funding cost not),
+// then the NIM move is shown across banks as a before->after dumbbell. Two
+// measured endpoints and an arrow, never a diagonal that implies a trajectory.
+function renderEvidence(ev: import('@/lib/signals').SignalEvidence, key: React.Key) {
+  const bl = ev.banks[0]?.beforeLabel ?? '';
+  const al = ev.banks[0]?.afterLabel ?? '';
+  const d = ev.drivers;
+  return (
+    <div key={key} className="sig-block sig-evidence">
+      <h2 className="csd-h2">{ev.heading}</h2>
+
+      <div className="sig-prediction">
+        <span className="sig-prediction-label">The prediction</span>
+        <p>{inline(ev.prediction)}</p>
+      </div>
+
+      {ev.intro.map((p, j) => <p key={j} className="cs-para">{inline(p)}</p>)}
+
+      {d && (
+        <>
+          <p className="cs-para">{inline(d.intro)}</p>
+          <div className="sig-horizon-wrap">
+            <table className="sig-horizon sig-evidence-table">
+              <thead>
+                <tr>
+                  <th>{d.bankName}: the spread, taken apart</th>
+                  <th>{d.beforeLabel}</th>
+                  <th>{d.afterLabel}</th>
+                  <th>Change</th>
+                  <th>What it means</th>
+                </tr>
+              </thead>
+              <tbody>
+                {d.rows.map((r, i) => {
+                  const chg = r.after - r.before;
+                  const dir = chg < 0 ? 'sig-ev-down' : 'sig-ev-up';
+                  return (
+                    <tr key={i}>
+                      <td className="sig-h-event">{r.label}</td>
+                      <td className="sig-ev-num">{r.before.toFixed(2)}{r.unit}</td>
+                      <td className="sig-ev-num">{r.after.toFixed(2)}{r.unit}</td>
+                      <td className={`sig-ev-num ${dir}`}>{chg > 0 ? '+' : ''}{(chg * 100).toFixed(0)} bps</td>
+                      <td>{r.takeaway}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+          <p className="cs-para">
+            {inline(d.summary)}{' '}
+            <a href={d.sourceUrl} target="_blank" rel="noopener noreferrer">Source</a>.
+          </p>
+        </>
+      )}
+
+      <figure className="sig-slope">
+        <figcaption className="sig-slope-title">
+          {ev.metricLabel}: {bl} versus {al}
+          <span className="sig-slope-sub">{ev.contextLine}</span>
+        </figcaption>
+        <div className="sig-dumbbell">
+          {ev.banks.map((b, i) => {
+            const c = EVIDENCE_COLORS[i % EVIDENCE_COLORS.length];
+            const chg = (b.after - b.before);
+            return (
+              <div className="sig-db-row" key={i} style={{ color: c }}>
+                <div className="sig-db-bank">
+                  <a href={b.sourceUrl} target="_blank" rel="noopener noreferrer">{b.name}</a>
+                  <span className="sig-db-basis">{b.basis}</span>
+                </div>
+                <div className="sig-db-track">
+                  <span className="sig-db-pt sig-db-before">
+                    <b>{b.before.toFixed(2)}{ev.unit}</b>
+                    <em>{b.beforeLabel}</em>
+                  </span>
+                  <span className="sig-db-arrow" aria-hidden="true">→</span>
+                  <span className="sig-db-pt sig-db-after">
+                    <b>{b.after.toFixed(2)}{ev.unit}</b>
+                    <em>{b.afterLabel}</em>
+                  </span>
+                </div>
+                <div className="sig-db-change sig-ev-down">{chg > 0 ? '+' : ''}{(chg * 100).toFixed(0)} bps</div>
+                <div className="sig-db-why">Fits the mechanism: {b.exposure}</div>
+              </div>
+            );
+          })}
+        </div>
+      </figure>
+
+      <p className="cs-para"><strong>{inline(ev.directionLine)}</strong></p>
+      {ev.contrast && (
+        <div className="sig-ev-contrast">
+          <span className="sig-ev-contrast-label">The control case: a bank that barely moved</span>
+          <p>{inline(ev.contrast)}</p>
+        </div>
+      )}
+      <p className="cs-para">{inline(ev.seasonalityNote)}</p>
+
+      {ev.robustness && ev.robustness.length > 0 && (
+        <>
+          <h3 className="sig-ev-h3">Could it be something else?</h3>
+          {ev.robustness.map((p, j) => <p key={j} className="cs-para">{inline(p)}</p>)}
+        </>
+      )}
+
+      {ev.anticipation && <p className="cs-para">{inline(ev.anticipation)}</p>}
+
+      {ev.recovery && ev.recovery.length > 0 && (
+        <>
+          <h3 className="sig-ev-h3">Then the clock turns: the recovery</h3>
+          {ev.recovery.map((p, j) => <p key={j} className="cs-para">{inline(p)}</p>)}
+        </>
+      )}
+      {ev.caption && <p className="sig-ev-centerpiece">{inline(ev.caption)}</p>}
+    </div>
+  );
+}
+
 function renderFanout(f: import('@/lib/signals').SignalFanout, key: React.Key) {
   return (
     <div key={key} className="sig-fanout">
+      <div className="sig-fanout-kicker">The fan-out</div>
       <div className="sig-fanout-head">{f.head}</div>
       <div className="sig-fanout-branches">
         {f.branches.map((b, j) => (
@@ -54,6 +199,7 @@ function renderMethod(key: React.Key) {
       <div className="sig-method-step">Who feels it first?</div>
       <div className="sig-method-step">Who feels it next, one link down?</div>
       <div className="sig-method-step">Who has the pricing power?</div>
+      <div className="sig-method-step">Weeks, quarters, or years?</div>
       <div className="sig-method-step sig-method-last">Who is left standing?</div>
     </div>
   );
@@ -98,14 +244,17 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
         {/* What happened */}
         <div className="sig-block">
           <div className="eyebrow">What happened</div>
-          {s.event.map((p, j) => <p key={j} className="cs-para csd-lede">{p}</p>)}
+          {s.event.map((p, j) => <p key={j} className="cs-para csd-lede">{inline(p)}</p>)}
         </div>
 
-        {/* The trigger: the hero equation */}
+        {/* The trigger: the hero question */}
         {s.trigger && (
           <div className="sig-trigger">
-            <div className="sig-trigger-label">The one equation</div>
+            <div className="sig-trigger-label">{s.triggerLabel ?? 'The one equation'}</div>
             <p className="sig-trigger-text">{s.trigger}</p>
+            {s.triggerBody && s.triggerBody.map((p, j) => (
+              <p key={j} className="sig-trigger-body">{inline(p)}</p>
+            ))}
           </div>
         )}
 
@@ -174,19 +323,25 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
             const idx = Number(sec.diagram.split(':')[1]);
             if (s.fanouts[idx]) diagram = renderFanout(s.fanouts[idx], `d-${si}`);
           }
+          // The evidence block lands right after whichever section is flagged
+          // evidenceAfter, so the numbers follow the explanation they prove.
+          const showEvidence = sec.evidenceAfter && s.evidence;
           return (
-            <div key={si} className="sig-block">
-              <h2 className="csd-h2">{sec.heading}</h2>
-              {sec.body.map((p, j) => <p key={j} className="cs-para">{p}</p>)}
-              {diagram}
-            </div>
+            <React.Fragment key={si}>
+              <div className="sig-block">
+                <h2 className="csd-h2">{sec.heading}</h2>
+                {sec.body.map((p, j) => <p key={j} className="cs-para">{inline(p)}</p>)}
+                {diagram}
+              </div>
+              {showEvidence && renderEvidence(s.evidence!, `ev-${si}`)}
+            </React.Fragment>
           );
         })}
 
         {/* Time horizon table */}
         {s.horizons && s.horizons.length > 0 && (
           <div className="sig-block">
-            <h2 className="csd-h2">The same event, at three distances in time</h2>
+            <h2 className="csd-h2">{s.horizonsTitle ?? 'The same event, at three distances in time'}</h2>
             <div className="sig-horizon-wrap">
               <table className="sig-horizon">
                 <thead>
@@ -309,24 +464,23 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
         {(relSectors.length > 0 || relCases.length > 0) && (
           <div className="sig-block sig-connect">
             <h2 className="csd-h2">Follow the threads</h2>
-            {relSectors.length > 0 && (
-              <div className="conn-links">
-                {relSectors.map((sec) => (
-                  <a key={sec!.id} href={withBase(`/sectors/${sec!.id}/`)} className="conn-link">
-                    {sec!.name} <span className="arw">→</span>
-                  </a>
-                ))}
-              </div>
-            )}
-            {relCases.length > 0 && (
-              <div className="conn-links" style={{ marginTop: 10 }}>
-                {relCases.map((c) => (
-                  <a key={c!.id} href={withBase(`/case-studies/${c!.id}/`)} className="conn-link">
-                    {c!.company} case study <span className="arw">→</span>
-                  </a>
-                ))}
-              </div>
-            )}
+            <p className="sig-connect-lede">Where this signal plays out in depth: the sectors it moves and the companies that lived it.</p>
+            <div className="conn-grid">
+              {relSectors.map((sec) => (
+                <a key={sec!.id} href={withBase(`/sectors/${sec!.id}/`)} className="conn-card">
+                  <span className="conn-kicker">Sector</span>
+                  <span className="conn-name">{sec!.name}</span>
+                  <span className="arw">→</span>
+                </a>
+              ))}
+              {relCases.map((c) => (
+                <a key={c!.id} href={withBase(`/case-studies/${c!.id}/`)} className="conn-card conn-card-case">
+                  <span className="conn-kicker">Case study</span>
+                  <span className="conn-name">{c!.company}</span>
+                  <span className="arw">→</span>
+                </a>
+              ))}
+            </div>
           </div>
         )}
 

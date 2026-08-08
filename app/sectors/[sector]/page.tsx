@@ -1,6 +1,7 @@
 import { getAllSectors, getSector } from '@/lib/sectors';
 import type { PrimerBlock } from '@/lib/sectors';
 import { getCaseStudy } from '@/lib/caseStudies';
+import { getAllTickers, getReport } from '@/lib/data';
 import type { Metadata } from 'next';
 import { withBase } from '@/lib/base';
 
@@ -82,6 +83,36 @@ export default async function SectorPage({ params }: { params: Promise<{ sector:
 
       <div className="section-label" style={{ marginTop: 36 }}>How this business works</div>
       <p className="sub" style={{ fontSize: 17, lineHeight: 1.7, marginTop: 12 }}>{s.howItWorks}</p>
+
+      {s.chain && (
+        <div className="flowmap">
+          <div className="flowmap-k">{s.chain.kicker}</div>
+          <div className="flowmap-chain">
+            {s.chain.steps.map((step, i) => (
+              <div key={step} className="flowmap-node">
+                <span className="flowmap-step">{step}</span>
+                {i < s.chain!.steps.length - 1 && <span className="flowmap-arw" aria-hidden="true">↓</span>}
+              </div>
+            ))}
+          </div>
+          <p className="flowmap-note">{s.chain.note}</p>
+        </div>
+      )}
+
+      {s.checklist && (
+        <div className="checklist">
+          <div className="checklist-head">
+            <div className="k">{s.checklist.kicker}</div>
+            <h3>{s.checklist.title}</h3>
+          </div>
+          <ul>
+            {s.checklist.items.map((item) => (
+              <li key={item}><span className="box" aria-hidden="true" />{item}</li>
+            ))}
+          </ul>
+          {s.checklist.foot && <p className="checklist-foot">{s.checklist.foot}</p>}
+        </div>
+      )}
 
       {s.anatomy && (
         <>
@@ -171,8 +202,10 @@ export default async function SectorPage({ params }: { params: Promise<{ sector:
       {(() => {
         const relSectors = (s.relatedSectors ?? []).map((id) => getSector(id)).filter(Boolean);
         const relCases = (s.relatedCaseStudies ?? []).map((id) => getCaseStudy(id)).filter(Boolean);
+        const tickers = getAllTickers();
+        const relReports = (s.relatedReports ?? []).filter((t) => tickers.includes(t)).map(getReport);
         const models = s.mentalModels ?? [];
-        if (!relSectors.length && !relCases.length && !models.length) return null;
+        if (!relSectors.length && !relCases.length && !relReports.length && !models.length) return null;
         return (
           <>
             <div className="section-label">Take these ideas further</div>
@@ -192,6 +225,19 @@ export default async function SectorPage({ params }: { params: Promise<{ sector:
                     {relSectors.map((r) => (
                       <a key={r!.id} href={withBase(`/sectors/${r!.id}/`)} className="conn-link">
                         <span className="conn-ico">{r!.icon}</span>{r!.name}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {relReports.length > 0 && (
+                <div className="conn-group">
+                  <div className="conn-label">Company reports from this sector</div>
+                  <div className="conn-cases">
+                    {relReports.map((r) => (
+                      <a key={r.slug} href={withBase(`/stocks/${r.slug}/`)} className="conn-case">
+                        <span className="conn-case-title">{r.company}</span>
+                        <span className="conn-case-period">{r.ticker}</span>
                       </a>
                     ))}
                   </div>

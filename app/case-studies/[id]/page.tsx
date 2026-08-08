@@ -14,22 +14,31 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   return { title: `${c.title} | ${c.company} | Fathom`, description: c.summary };
 }
 
-// Render a paragraph with inline markdown links: [text](/path) or [text](https://...)
+// Render a paragraph with inline markdown links: [text](/path) or [text](https://...),
+// plus evidence-note superscripts: [^1] links down to the matching evidence note.
 function renderInline(text: string): React.ReactNode[] {
   const parts: React.ReactNode[] = [];
-  const re = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const re = /\[\^(\d+)\]|\[([^\]]+)\]\(([^)]+)\)/g;
   let last = 0;
   let m: RegExpExecArray | null;
   let k = 0;
   while ((m = re.exec(text)) !== null) {
     if (m.index > last) parts.push(text.slice(last, m.index));
-    const [, label, url] = m;
-    const external = /^https?:/.test(url);
-    parts.push(
-      <a key={k++} href={external ? url : withBase(url)} {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
-        {label}
-      </a>
-    );
+    const [, supId, label, url] = m;
+    if (supId) {
+      parts.push(
+        <sup key={k++} className="ev-sup">
+          <a href={`#evidence-note-${supId}`} aria-label={`Evidence note ${supId}`}>{supId}</a>
+        </sup>
+      );
+    } else {
+      const external = /^https?:/.test(url);
+      parts.push(
+        <a key={k++} href={external ? url : withBase(url)} {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
+          {label}
+        </a>
+      );
+    }
     last = re.lastIndex;
   }
   if (last < text.length) parts.push(text.slice(last));
@@ -349,6 +358,42 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
           </section>
         ))}
 
+        {c.exAnte && (
+          <section className="csd-section csd-row">
+            <div className="csd-row-side">
+              <h2 className="csd-h2">{c.exAnte.heading ?? 'What you could have seen, and when'}</h2>
+            </div>
+            <div className="csd-row-main">
+              {(c.exAnte.intro ?? []).map((para, j) => <p key={j} className="cs-para">{renderInline(para)}</p>)}
+              <ol className="csd-tells">
+                {c.exAnte.tells.map((t, j) => (
+                  <li key={j} className="csd-tell">
+                    <div className="csd-tell-head">
+                      <span className="csd-tell-when">{t.when}</span>
+                      <span className="csd-tell-lead">{t.lead}</span>
+                    </div>
+                    <div className="csd-tell-doc">{renderInline(t.document)}</div>
+                    <div className="csd-tell-check">
+                      <span className="csd-tell-k">Look up</span>
+                      <span className="csd-tell-v">{renderInline(t.check)}</span>
+                    </div>
+                    <div className="csd-tell-check">
+                      <span className="csd-tell-k">It told you</span>
+                      <span className="csd-tell-v">{renderInline(t.meaning)}</span>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+              {c.exAnte.blindSpot && (
+                <div className="csd-blindspot">
+                  <div className="csd-blindspot-label">And this part you could not have seen</div>
+                  <p>{renderInline(c.exAnte.blindSpot)}</p>
+                </div>
+              )}
+            </div>
+          </section>
+        )}
+
         <div className="csd-row csd-tail">
           <div className="csd-row-side" aria-hidden="true" />
           <div className="csd-row-main">
@@ -420,15 +465,71 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
           <p>{c.lesson}</p>
         </div>
 
+        {c.patternCard && (
+          <div className="pattern-card">
+            <div className="pattern-card-label">The pattern card</div>
+            <div className="pc-row">
+              <span className="pc-k">Signal</span>
+              <span className="pc-v">{renderInline(c.patternCard.signal)}</span>
+            </div>
+            <div className="pc-row">
+              <span className="pc-k">Mechanism</span>
+              <span className="pc-v">{renderInline(c.patternCard.mechanism)}</span>
+            </div>
+            <div className="pc-row">
+              <span className="pc-k">Where to check</span>
+              <span className="pc-v">{renderInline(c.patternCard.whereToCheck)}</span>
+            </div>
+            <p className="pc-counter">
+              <span className="pc-counter-k">But not always.</span> {renderInline(c.patternCard.counterexample)}
+            </p>
+          </div>
+        )}
+
         {c.remember && (
           <div className="remember">
             <div className="remember-label">One sentence to remember</div>
             <p className="remember-text">{c.remember}</p>
           </div>
         )}
+
+        {c.evidenceNotes && c.evidenceNotes.length > 0 && (
+          <div className="csd-evnotes">
+            <div className="csd-evnotes-label">Evidence notes</div>
+            <p className="csd-evnotes-intro">
+              The small numbers in the text mark the claims this story leans on. Here is where each
+              one comes from, and how solid it is.
+            </p>
+            <ol className="csd-evnotes-list">
+              {c.evidenceNotes.map((n) => (
+                <li key={n.id} id={`evidence-note-${n.id}`}>
+                  <span className="csd-evnote-num">{n.id}</span>
+                  <span className="csd-evnote-text">{renderInline(n.note)}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        )}
           </div>
         </div>
       </div>
+
+      {c.relatedCaseStudies && c.relatedCaseStudies.length > 0 && (
+        <div className="conn-group" style={{ marginTop: 36 }}>
+          <div className="conn-label">Related case studies</div>
+          <div className="conn-cases">
+            {c.relatedCaseStudies
+              .map((rid) => getCaseStudy(rid))
+              .filter((r): r is NonNullable<typeof r> => Boolean(r))
+              .map((r) => (
+                <a key={r.id} href={withBase(`/case-studies/${r.id}/`)} className="conn-case">
+                  <span className="conn-case-title">{r.title}</span>
+                  <span className="conn-case-period">{r.company} · {r.period}</span>
+                </a>
+              ))}
+          </div>
+        </div>
+      )}
 
       {c.stockSlug && (
         <a href={withBase(`/stocks/${c.stockSlug}/`)} className="sector-cta" style={{ marginTop: 36 }}>

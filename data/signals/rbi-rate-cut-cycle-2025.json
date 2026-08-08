@@ -1,0 +1,214 @@
+{
+  "title": "The RBI cuts rates: who feels it first, and when?",
+  "kind": "Rate decision",
+  "dateline": "Feb 2025 onward",
+  "tags": [
+    "Cost of money",
+    "Banks and NBFCs",
+    "Timing",
+    "Spread math"
+  ],
+  "summary": "Between February and June 2025 the RBI cut the repo rate from 6.5% to 5.5%. The headlines said banks win. The truth is stranger: banks feel pain first, borrowers feel relief next, and the builders and paint makers at the end of the chain wait years. This is the clearest lesson in clocks the market offers.",
+  "event": [
+    "Starting in February 2025, the RBI began cutting the repo rate, the rate at which it lends to banks. It came in three steps: a quarter-point in February, to 6.25% ([Business Standard](https://www.business-standard.com/finance/news/rbi-mpc-monetary-policy-committee-rate-cuts-gdp-inflation-sanjay-malhotra-125020700340_1.html)), another quarter-point in April, to 6.0% ([Business Standard](https://www.business-standard.com/markets/news/rbi-cuts-rate-by-25bps-amid-tariff-war-here-s-how-experts-interpret-it-125040900648_1.html)), and a bigger half-point in June, to 5.5% ([Business Standard](https://www.business-standard.com/markets/capital-market-news/rbi-cuts-repo-rate-by-50bps-to-5-50-crr-by-100-bps-125060600238_1.html)). By June the repo had come down a full percentage point, from 6.5% to 5.5%, and the RBI also freed up bank money by cutting the share of deposits banks must park with it.",
+    "The repo rate is the price of money for the whole economy. When it falls, every loan in the country gets a nudge downward: home loans, car loans, business loans. The news covered it as one afternoon's stock move. The real story plays out over three years, at three different speeds, and the order in which it reaches each business is the whole game."
+  ],
+  "trigger": "Who reprices first?",
+  "triggerLabel": "The one question",
+  "triggerBody": [
+    "Money got cheaper. That is the entire event. But businesses do not all feel that cheaper money at the same moment. A bank's loans can reprice before its deposits. A family's EMI can fall before they decide to buy. A builder may not see the resulting demand for years.",
+    "So the useful question is never whether a rate cut helps. It is who feels it first, and who waits. Answer that for each business and the whole signal falls into place."
+  ],
+  "leverBand": {
+    "title": "Which did it move?",
+    "items": [
+      { "label": "Price", "mark": "no" },
+      { "label": "Cost", "mark": "yes" },
+      { "label": "Volume", "mark": "yes" }
+    ]
+  },
+  "mentalModels": [
+    { "name": "Spread math", "why": "A bank earns the gap between what it charges borrowers and what it pays depositors. A rate cut moves both sides of that gap, but not at the same speed. The sequence decides whether the bank's year is good or bad." },
+    { "name": "Cost of capital", "why": "A business that runs on borrowed money, an NBFC, a builder, an infrastructure company, gets a direct cost cut. The more leveraged the business, the bigger the gift." },
+    { "name": "Demand elasticity", "why": "Cheaper EMIs pull fence-sitters into showrooms and site visits. Big-ticket, loan-funded purchases respond to rates. Soap does not." }
+  ],
+  "chainTitle": "One cut, four clocks",
+  "chain": [
+    "The RBI cuts the repo rate, so money gets cheaper for banks. Clock: the same day",
+    "Banks cut loan rates, and many newer home loans reprice within a quarter because they are linked to an external benchmark like the repo. Clock: weeks",
+    "Families who were waiting for a cheaper EMI commit to flats and cars. Clock: quarters",
+    "The flats get built and finished, so cement, steel, tiles and paint see the volume. Clock: years"
+  ],
+  "winners": [
+    { "label": "NBFCs: watch the funding spread", "when": "delayed", "why": "They borrow from banks and markets, so their cost of funds falls. If that funding cost drops faster than the yields on the loans they have already made, their spread widens for a while. Whether it actually does depends on the mix of their borrowing and how fast their own loans reprice. So the thing to watch is the funding spread, not a guaranteed win." },
+    { "label": "Auto makers and real estate developers", "when": "delayed", "why": "Cars and flats are bought with EMIs. When the EMI falls, the showroom fills over the following quarters. Nothing shows in the very next results, which is exactly when impatient investors give up." },
+    { "label": "Cement, tiles and paint makers", "when": "long-term", "why": "They sit at the end of the chain. A flat booked this year gets plastered and painted two or three years from now. The demand is real and it is coming, just not on the market's clock." },
+    { "label": "Heavily indebted businesses", "when": "delayed", "why": "Any company carrying large debt gets its interest bill trimmed as loans reprice. The weaker the balance sheet, the bigger the relief, which is why low-quality stocks often bounce hardest on rate cuts." }
+  ],
+  "losers": [
+    { "label": "Banks, at first", "when": "immediate", "why": "This surprises people. Most bank loans are linked to the repo and reprice within weeks, but deposits are locked at old rates for months or years. So the bank's income falls before its costs do, and the spread gets squeezed for two or three quarters. The headline said banks win. Their next two results said otherwise." },
+    { "label": "Depositors and savers", "when": "immediate", "why": "Fixed deposit rates follow the repo down. Anyone living on interest income, including many retirees, takes a quiet pay cut that never makes the front page." },
+    { "label": "Insurers sitting on long promises", "when": "long-term", "why": "Companies that promised customers fixed returns years ago must now earn those returns in a cheaper-money world. Falling rates make old guarantees more expensive to keep." }
+  ],
+  "sections": [
+    {
+      "heading": "The part everyone gets backwards",
+      "body": [
+        "Ask anyone who wins from a rate cut and they will say banks. Watch what actually happens to a bank's accounts and you see the opposite, at least at first.",
+        "Many newer floating-rate retail loans in India are linked to an external benchmark such as the repo rate ([Business Standard](https://www.business-standard.com/article/finance/rate-transmission-pace-to-improve-for-external-benchmarked-loans-rbi-study-122041801133_1.html)), so those loans reprice relatively quickly, within about a quarter of a cut. But the bank's own cost, the interest it pays on your fixed deposit, is locked until that deposit matures. So for two or three quarters the bank earns less on those loans while still paying old, higher rates on deposits. The spread compresses.",
+        "Then the clock catches up. Old deposits mature, new ones are booked cheaper, the cost side falls to meet the income side, and the spread heals. Meanwhile cheaper loans have pulled in more borrowers, so the bank is now earning a normal spread on a bigger book. The rate cut does help banks. It just hurts them first. If you only looked at one quarter, you would learn the wrong lesson."
+      ],
+      "diagram": "chain",
+      "evidenceAfter": true
+    },
+    {
+      "heading": "Watch it break: the cut that demand ignored",
+      "body": [
+        "Here is the honest part. Cheaper loans only create demand if the loan was the thing holding the buyer back.",
+        "The RBI cut rates hard in 2019 too, well before the pandemic, taking the repo down through the year. The textbook chain said auto sales should recover. They did not. Passenger-vehicle and two-wheeler sales kept falling through 2019 ([Business Standard](https://www.business-standard.com/article/pti-stories/2019-witnesses-worst-ever-decline-in-auto-sales-siam-120011001140_1.html)), the worst year for auto sales in over two decades, because the problem was not the EMI. Incomes were weak, insurance costs had jumped, and lenders in the shadow-banking system had just been burnt and did not want to lend at any rate. Money was cheaper, but nobody confident was asking for it, and nobody nervous was offering it.",
+        "The hidden assumption is confidence. The chain only works if a willing borrower meets a willing lender, and a rate cut can lower the price of money without making anyone more willing to use it. When the RBI is cutting because the economy is weakening, the cut and the weakness arrive together, and the weakness sometimes wins. So before trusting the chain, ask why the RBI is cutting. A cut into a healthy economy is fuel. A cut into a frightened one is a bandage."
+      ]
+    }
+  ],
+  "evidence": {
+    "heading": "The first hit: let's check the numbers",
+    "metricLabel": "Net interest margin (NIM)",
+    "unit": "%",
+    "contextLine": "Two measured quarters, a year apart, not a monthly track. The repo fell from 6.5% to 5.5% in between. If the framework is right, each margin should be lower on the right.",
+    "prediction": "If the framework is right, the banks with fast-repricing loans and slower-repricing deposits should be the first to feel a squeeze, and it should show up in one number above all: the net interest margin, the gap between what a bank earns on its loans and what it pays on its deposits.",
+    "intro": [
+      "So the metric to watch is not revenue, which is noisy, but the NIM, because the mechanism is specifically about the spread between what a bank earns on assets and what it pays for funding. That makes the NIM the cleanest possible proof.",
+      "Then the banks. We have not ranked every lender by exposure, and we are not claiming these are the most exposed in the system. We just need two that clearly fit the mechanism, a large floating-rate loan book that reprices fast, funded by deposits that reprice slowly. State Bank of India and Bank of Baroda both fit, so we go into their filings and compare each with the very same quarter a year earlier."
+    ],
+    "drivers": {
+      "bankName": "State Bank of India",
+      "beforeLabel": "Q1 FY25",
+      "afterLabel": "Q1 FY26",
+      "sourceUrl": "https://www.business-standard.com/markets/capital-market-news/sbi-q1-pat-rises-12-48-yoy-to-rs-19-160-crore-125080800992_1.html",
+      "intro": "Take SBI first, and rather than jump to the margin, take the spread apart into the two forces that make it, both on a domestic-operations basis. They moved in opposite, unhelpful directions.",
+      "rows": [
+        { "label": "Yield on advances", "before": 8.89, "after": 8.78, "unit": "%", "takeaway": "What SBI earns on loans fell, as repo-linked loans repriced down." },
+        { "label": "Cost of deposits", "before": 5.00, "after": 5.21, "unit": "%", "takeaway": "What SBI pays for deposits actually kept rising, as older high-rate deposits had not yet matured." },
+        { "label": "Net interest margin", "before": 3.35, "after": 3.02, "unit": "%", "takeaway": "Income down, funding cost up, so the spread was squeezed from both sides at once." }
+      ],
+      "summary": "This is the mechanism, not a guess. You can watch the income side fall while the funding side refuses to, and the margin give way in the middle. That is exactly why NIM, not revenue, is the honest place to look."
+    },
+    "banks": [
+      {
+        "name": "State Bank of India",
+        "basis": "domestic NIM",
+        "beforeLabel": "Q1 FY25",
+        "before": 3.35,
+        "afterLabel": "Q1 FY26",
+        "after": 3.02,
+        "exposure": "a vast book of repo-linked and MCLR loans repricing within a quarter, funded by slow-maturing deposits.",
+        "sourceUrl": "https://www.business-standard.com/markets/capital-market-news/sbi-q1-pat-rises-12-48-yoy-to-rs-19-160-crore-125080800992_1.html"
+      },
+      {
+        "name": "Bank of Baroda",
+        "basis": "global NIM",
+        "beforeLabel": "Q1 FY25",
+        "before": 3.18,
+        "afterLabel": "Q1 FY26",
+        "after": 2.91,
+        "exposure": "a large floating-rate loan book funded by a slow-moving deposit base, the textbook fast-asset, slow-liability shape.",
+        "sourceUrl": "https://www.business-standard.com/companies/news/bob-q1-net-up-1-9-margins-compress-125072501504_1.html"
+      }
+    ],
+    "directionLine": "Both banks showed the direction the framework predicted: their margins compressed in the first quarter after the rate-cut cycle began.",
+    "contrast": "Not every bank compressed equally, and that is exactly the point. ICICI Bank, where low-cost current and savings deposits fund a much larger share of the book, saw its margin barely move, from 4.36% to 4.34% over the same year ([ICICI Bank](https://www.icici.bank.in/about-us/news-room/2025/performance-review-quarter-ended-june-30-2025)). A deeper cushion of cheap, sticky deposits means less of your funding reprices against you when rates fall. So the squeeze is not about being a bank; it is about the shape of the balance sheet. Fast-repricing assets sitting on slow, cheap liabilities feel it first and worst, which is why SBI and Bank of Baroda are the sharper test cases here.",
+    "seasonalityNote": "Two notes on reading this fairly. First, we compare each bank with the same quarter a year earlier, not with the quarter just before, so that a bank's ordinary seasonal swings do not get mistaken for the rate-cut effect. Second, SBI's figure is its domestic-operations margin and Bank of Baroda's is its bank-wide global margin, because that is what each bank reports cleanly; since each bank is measured only against its own year-ago quarter, the different bases do not distort the one thing that matters here, which is that both margins fell. Bank of Baroda's own management named the cause: the cost of deposits, it said, would take more time to realign while the loans had already repriced down ([Business Standard](https://www.business-standard.com/companies/news/bob-q1-net-up-1-9-margins-compress-125072501504_1.html)).",
+    "robustness": [
+      "A fair challenge, and the one that could sink us if we skipped it: how do we know the repo cut squeezed these margins, and not something else wearing the same clothes? A bank's NIM can move for at least three other reasons at once. Its loan mix can drift toward lower-yielding corporate loans. Competition for deposits can heat up on its own. And the tail of the previous rate-hiking cycle can still be biting, as expensive deposits booked at the old peak keep maturing and drag the average funding cost up. That last one is not a hypothetical here: SBI's cost of deposits actually rose over the year, which is the old cycle unwinding, not the new one.",
+      "Two things keep the attribution honest. First, the asset side is mechanical, not a correlation we are hoping into being: a large share of these loans is linked to the repo by regulation and reprices down within a quarter of a cut, which is precisely why the yield fell first and fastest. Second, and stronger, the control case above. Same economy, same quarter, same rate cut, yet a bank built on cheap, sticky deposits barely moved. If a broad macro force were doing this, ICICI would have been dragged down too. What separated the squeezed banks from the unsqueezed one was the exact balance-sheet shape the framework named, which is what a cause is supposed to look like.",
+      "So here is the claim, stated at its honest edge: the cut was the primary driver of the asset-side squeeze, not the sole author of every basis point. Some of the funding-cost stickiness belongs to the old hiking cycle, and we say so. That is why we did not stop at one bank falling. We went looking for a bank that should not have moved, and checked that it did not.",
+      "And it was not a shock to the market either. Before these results printed, Fitch had already flagged that roughly 45% of system loans reprice down almost at once, and pencilled in about a 30 basis point margin contraction for banks over the year ([Business Standard](https://www.business-standard.com/finance/news/fitch-sees-30bps-nim-contraction-for-indian-banks-in-fy26-125071601183_1.html)). We are not claiming any bank stock fell on a given day because of this. The claim is narrower and stronger: the specific number the framework pointed at, the margin, actually deteriorated, roughly as much as the people who model this for a living expected, for the reason the framework gave."
+    ],
+    "recovery": [
+      "Now the second half of the clock, in the same number. SBI's domestic margin bottomed at 3.02% in the June quarter, then ticked back up to 3.09% in the September quarter as cheaper deposits finally began to replace the old expensive ones ([Business Standard](https://www.business-standard.com/companies/quarterly-results/sbi-q2-net-profit-rises-10-yes-bank-stake-sale-2025-125110401301_1.html)). The funding side was catching the loan side, exactly as the mechanism said it would, and S&P Global was by then expecting bank margins to keep improving through the second half of the year ([Business Standard](https://www.business-standard.com/finance/news/indian-bank-nims-to-improve-in-h2-fy26-says-sp-global-125082800730_1.html)).",
+      "Behind the margin, the rest of the chain is only just getting going: cheaper loans pull in more borrowers, the loan book grows, and the demand works its way out to autos, housing and eventually cement and paint. Rate cut, then margin pressure, then funding costs catch up, then margin recovery, then loan growth, then downstream demand. The clock, proven one tick at a time."
+    ],
+    "caption": "The thing the framework predicted, a first-quarter squeeze in the margin, is sitting right there in the filings. That is what Fathom is for: make the prediction, then go check whether reality agrees."
+  },
+  "questions": [
+    "Which reprices faster for this business: what it earns, or what it pays? That single question sorts the immediate winners from the immediate losers.",
+    "Is the loan the real obstacle for the end buyer, or is it confidence or income? A cut only unlocks demand that was queued behind the EMI.",
+    "Why is the RBI cutting? Into strength or into weakness?",
+    "For the businesses at the end of the chain, am I willing to wait the two or three years the demand takes to arrive?",
+    "How much of the cut is already priced into the stock on day one?"
+  ],
+  "yourTurn": {
+    "prompt": "Now reverse the signal. The RBI raises the repo rate by one percentage point to fight inflation. Do not repeat the terms above. Rebuild the transmission yourself, from the cut to the last business that feels it.",
+    "questions": [
+      "Who feels it first?",
+      "Whose costs rise before their revenue changes?",
+      "Which demand disappears next?",
+      "Which businesses feel it only years later?"
+    ],
+    "reveal": [
+      "Banks feel it first, and pleasantly this time. Their loans reprice up in weeks while deposits stay cheap for months, so the spread widens. The mirror image of the cut.",
+      "Heavily indebted businesses. Their floating-rate interest bills climb well before higher rates do anything to what they earn. The weaker the balance sheet, the sharper the pinch.",
+      "Anything bought on credit. As EMIs rise, cars and flats slow over the following quarters, and the fence-sitters walk away. Savers, for once, are on the winning side as deposit rates finally climb.",
+      "Cement, tiles and paint, at the very end. The flats that never get booked in a costlier-money year never need plastering or painting two or three years later. The clock runs the same way in reverse, and so does the market's impatience."
+    ]
+  },
+  "relatedSectors": [
+    "banks",
+    "nbfcs",
+    "realestate",
+    "cement"
+  ],
+  "relatedCaseStudies": [],
+  "sources": [
+    {
+      "label": "Business Standard: RBI cuts repo rate by 25 bps to 6.25%, first cut in five years (February 2025)",
+      "url": "https://www.business-standard.com/finance/news/rbi-mpc-monetary-policy-committee-rate-cuts-gdp-inflation-sanjay-malhotra-125020700340_1.html"
+    },
+    {
+      "label": "Business Standard: RBI cuts repo rate by 25 bps to 6.0%, second cut (April 2025)",
+      "url": "https://www.business-standard.com/markets/news/rbi-cuts-rate-by-25bps-amid-tariff-war-here-s-how-experts-interpret-it-125040900648_1.html"
+    },
+    {
+      "label": "Business Standard: RBI cuts repo rate by 50 bps to 5.50%, CRR by 100 bps (June 2025)",
+      "url": "https://www.business-standard.com/markets/capital-market-news/rbi-cuts-repo-rate-by-50bps-to-5-50-crr-by-100-bps-125060600238_1.html"
+    },
+    {
+      "label": "Business Standard: rate transmission is faster for external-benchmark-linked loans (RBI study)",
+      "url": "https://www.business-standard.com/article/finance/rate-transmission-pace-to-improve-for-external-benchmarked-loans-rbi-study-122041801133_1.html"
+    },
+    {
+      "label": "Business Standard: 2019 witnesses worst-ever decline in auto sales, SIAM (January 2020)",
+      "url": "https://www.business-standard.com/article/pti-stories/2019-witnesses-worst-ever-decline-in-auto-sales-siam-120011001140_1.html"
+    },
+    {
+      "label": "Business Standard: SBI Q1 FY26 results, yield, cost of deposits and NIM (August 2025)",
+      "url": "https://www.business-standard.com/markets/capital-market-news/sbi-q1-pat-rises-12-48-yoy-to-rs-19-160-crore-125080800992_1.html"
+    },
+    {
+      "label": "Business Standard: SBI Q2 FY26 results, domestic NIM recovers to 3.09% (November 2025)",
+      "url": "https://www.business-standard.com/companies/quarterly-results/sbi-q2-net-profit-rises-10-yes-bank-stake-sale-2025-125110401301_1.html"
+    },
+    {
+      "label": "Business Standard: Bank of Baroda Q1 FY25 PAT up 9%, global NIM 3.18% (August 2024)",
+      "url": "https://www.business-standard.com/markets/capital-market-news/bank-of-baroda-q1-pat-rises-9-yoy-to-rs-4-458-cr-124080100265_1.html"
+    },
+    {
+      "label": "Business Standard: Bank of Baroda Q1 FY26 net up 1.9%, margins compress (July 2025)",
+      "url": "https://www.business-standard.com/companies/news/bob-q1-net-up-1-9-margins-compress-125072501504_1.html"
+    },
+    {
+      "label": "Business Standard: Fitch sees 30 bps NIM contraction for Indian banks in FY26",
+      "url": "https://www.business-standard.com/finance/news/fitch-sees-30bps-nim-contraction-for-indian-banks-in-fy26-125071601183_1.html"
+    },
+    {
+      "label": "Business Standard: Indian bank NIMs to improve in H2 FY26, S&P Global",
+      "url": "https://www.business-standard.com/finance/news/indian-bank-nims-to-improve-in-h2-fy26-says-sp-global-125082800730_1.html"
+    },
+    {
+      "label": "ICICI Bank: performance review, quarter ended June 30, 2025 (NIM held at 4.34%)",
+      "url": "https://www.icici.bank.in/about-us/news-room/2025/performance-review-quarter-ended-june-30-2025"
+    }
+  ],
+  "lesson": "A rate cut is a cost cut for borrowers and a pay cut for lenders and savers, delivered on four different clocks. Banks hurt before they heal, borrowers act over quarters, and the builders at the end of the chain wait years. And the chain only works if a willing borrower meets a willing lender: a cut into a frightened economy can vanish without creating a single new sale.",
+  "remember": "When money gets cheaper, ask who reprices first."
+}

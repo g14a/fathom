@@ -42,7 +42,32 @@ export interface CaseStudy {
   };
   exhibits?: { src: string; caption: string; source: string }[];
   sources?: { label: string; url: string }[];
+  // "What you could have seen, and when": ex-ante tells, each anchored to a dated
+  // public document and the specific line a reader could have checked at the time.
+  exAnte?: {
+    heading?: string;   // defaults to "What you could have seen, and when"
+    intro?: string[];
+    tells: {
+      when: string;     // the date or period of the document
+      document: string; // the specific public document
+      check: string;    // the line or number a reader could have looked up
+      meaning: string;  // what it told you, in plain words
+      lead: string;     // how far ahead of the outcome it was
+    }[];
+    blindSpot?: string; // the honest "and this part you could not have seen" note
+  };
+  // The reusable closing card: signal, mechanism, where to check it in a filing,
+  // plus the condition under which the naive version of the lesson is wrong.
+  patternCard?: {
+    signal: string;
+    mechanism: string;
+    whereToCheck: string;
+    counterexample: string;
+  };
   timeline: { when: string; what: string }[];
+  // Endnotes for the [^n] superscript markers in body text: where a load-bearing
+  // claim comes from and how solid it is, in prose.
+  evidenceNotes?: { id: number; note: string; confidence?: 'high' | 'medium' | 'low' }[];
   lesson: string;
   remember?: string; // one-sentence takeaway, rendered as the closing box
 }

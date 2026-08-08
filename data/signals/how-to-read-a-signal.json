@@ -1,16 +1,17 @@
 {
-  "title": "How to read a signal: three ideas that decode almost any headline",
+  "title": "How to read a signal: four ideas that decode almost any headline",
   "kind": "Primer",
   "dateline": "Start here",
   "tags": [
     "Price, cost, volume",
     "Second-order thinking",
-    "Pricing power"
+    "Pricing power",
+    "Timing"
   ],
-  "summary": "A Budget, a rate cut, a new tariff, a fuel-price jump. Most coverage tells you what happened and how the market twitched that day, which is the least useful part. This primer keeps only three ideas. Learn them, and almost any headline becomes something you can reason about instead of react to.",
+  "summary": "A Budget, a rate cut, a new tariff, a fuel-price jump. Most coverage tells you what happened and how the market twitched that day, which is the least useful part. This primer keeps only four ideas. Learn them, and almost any headline becomes something you can reason about instead of react to.",
   "event": [
     "Every few weeks the news hands investors a big event. A Budget. The RBI moving rates. A tariff. A jump in fuel prices. The coverage is always the same shape: what happened, and how the market jumped that afternoon.",
-    "That afternoon move is the least useful part. Understanding a signal is not about guessing the headline. It is about working out who ends up earning more, who earns less, and why. And it comes down to three ideas. Learn these, and you can decode most of what the news throws at you."
+    "That afternoon move is the least useful part. Understanding a signal is not about guessing the headline. It is about working out who ends up earning more, who earns less, and why. And it comes down to four ideas. Learn these, and you can decode most of what the news throws at you."
   ],
   "trigger": "Profit is price, minus cost, times how much you sell. So the way to understand any signal is to ask how it changes one of those three: a price, a cost, or a volume. An event can touch more than one and set off a chain, but it always starts by moving one of them.",
   "leverBand": {
@@ -23,12 +24,15 @@
   },
   "sections": [
     {
-      "heading": "The three ideas",
+      "heading": "The four ideas",
       "body": [
         "One. Every signal works by changing a price, a cost, or a volume. A tariff, a rate cut, a new rival, a Budget: each one matters only because it moves one of the three. Regulation is not the thing that matters. What matters is what it changes. Did it move a price, a cost, or a volume?",
-        "Two. That change travels. It does not stop at the first business it touches. A cheaper loan helps the bank, then the homebuyer, then the cement and paint makers, then the insurer who covers the new home. The obvious name is the first link; the interesting ones come after. Some of those links happen at once and others take months or years, so the timing matters as much as the chain.",
+        "Two. That change travels. It does not stop at the first business it touches. A cheaper loan helps the bank, then the homebuyer, then the cement and paint makers, then the insurer who covers the new home. The obvious name is the first link; the interesting ones come after.",
         "Three. The business that keeps the gain is the one with pricing power. When a cost moves, whoever can pass it on to customers barely feels it, and whoever cannot watches their margin shrink. That is what separates the winners from the rest.",
-        "That is the whole method. Everything below is just watching it work."
+        "Four. Every link in that chain runs on its own clock. A rate cut reaches the bank in weeks, because it only has to change a number on a loan sheet. It reaches the homebuyer over a few quarters, because a family takes months to decide to buy a flat. It reaches the cement, tiles and paint makers over years, because the flat has to be built before anyone plasters or paints it. Same chain, three very different speeds.",
+        "That fourth idea is where most small investors actually lose money. They are right about the chain and wrong about the clock. They buy the paint maker the week of the rate cut, sit through four flat quarters while nothing shows up in the results, get bored or frightened, sell, and then the demand finally arrives for somebody else. Being early and impatient looks exactly like being wrong.",
+        "So after you have traced a chain, put a rough date on each link. Not a precise one, nobody has that. Just an honest answer to: is this a weeks thing, a quarters thing, or a years thing? Then ask whether you are willing to wait that long, and whether the price you are paying today already assumes the wait is over.",
+        "That is the whole method. Everything below is just watching it work, and once, watching it break."
       ],
       "diagram": "method"
     },
@@ -44,7 +48,8 @@
       "heading": "Watch it work: a rate cut",
       "body": [
         "A rate cut is idea two in motion. Banks borrow cheaper, so loans get cheaper, so more people buy homes and cars, which lifts cement, tiles and paint. The headline names the banks. The interesting part is two links down, where fewer people are looking.",
-        "It happened for real in 2020. The RBI cut hard, home-loan rates fell below about 7%, and over the next two years the paint and tiles makers saw the demand. But notice the timing, because it is the whole trap. The market re-priced in a day. The actual demand took quarters to arrive."
+        "It happened for real in 2020. The RBI cut hard, home-loan rates fell below about 7%, and over the next two years the paint and tiles makers saw the demand. But notice the timing, because it is the whole trap. The market re-priced in a day. The banks repriced their loan books in weeks. Buyers took quarters to commit. The tiles and paint demand showed up years later, once the flats were actually being finished.",
+        "That is idea four in one sentence. The chain was right. Anyone who bought the paint maker expecting a good quarter in three months was still right about the chain and still lost money, because they had the clock wrong."
       ],
       "diagram": "chain"
     },
@@ -56,6 +61,18 @@
         "Airtel. Network costs rose. It could not raise tariffs either. Then the industry consolidated to three players. Tariffs rose. Margins recovered.",
         "Same shock. The one that could eventually raise its own prices lived. Pricing power was the difference, and it usually is."
       ]
+    },
+    {
+      "heading": "Watch it break: cheaper crude that never became profit",
+      "body": [
+        "Every example so far worked. Here is one that did not, because chains are conditional, not automatic.",
+        "Run the textbook logic. Crude oil softens through 2024 and into 2025. A large share of what a paint company puts in a tin is crude-derived: solvents, resins, additives. So the cost of making paint falls. Idea one says a cost moved. Idea two says the paint makers are the link that benefits. Every screen and every broker note said the same thing: input costs down, so paint margins up.",
+        "It did not happen that way. In 2024 the Aditya Birla group launched Birla Opus, a full-scale entry into decorative paints backed by serious money, a large new plant network and an aggressive push for shelf space with dealers. A well-funded newcomer that wants share does not enter quietly. It enters with discounts, dealer incentives and pricing that the incumbents have to answer.",
+        "So the cost saving arrived, and then it left. The incumbents, Asian Paints included, spent it defending their position instead of banking it: sharper pricing, more support to dealers, more spending to hold the customer. The saving was real, but it was handed to buyers and to the distribution channel, not kept as margin. Through 2024 and 2025 Asian Paints was widely reported as struggling with weak volume growth and pressure on profitability, in exactly the stretch when the naive cost logic promised the opposite.",
+        "The lesson is that idea three works in both directions, and this is the half people forget. Everyone remembers that pricing power protects you when a cost goes up. The same power decides what happens when a cost goes down. If you have it, a cost windfall stays with you as profit. If you have lost it, because a rival just arrived and started buying market share, the windfall leaks straight out to customers, and the margin you were waiting for never shows up in the results.",
+        "Which gives you one more question to ask before you trust any chain. Not only which link benefits, but who else is standing at that link. A cost saving is only a gain if the industry lets you keep it."
+      ],
+      "diagram": "fanout:1"
     }
   ],
   "chainTitle": "A rate cut, traced two links past the headline",
@@ -76,25 +93,60 @@
         { "label": "Tyre makers", "effect": "down", "note": "crude-based inputs cost more" }
       ],
       "caption": "One event, five businesses, opposite outcomes. The producers generally gain; the users lose unless they can raise their own prices. That difference is pricing power."
+    },
+    {
+      "head": "Crude softens, and a big new rival enters paints (2024-25)",
+      "branches": [
+        { "label": "Paint input costs", "effect": "down", "note": "solvents and resins come from crude, so making a tin gets cheaper" },
+        { "label": "Expected paint margin", "effect": "up", "note": "the textbook chain: lower cost, same price, wider margin" },
+        { "label": "Birla Opus enters", "effect": "down", "note": "a well-funded newcomer buys shelf space with discounts and dealer incentives" },
+        { "label": "Incumbent pricing", "effect": "down", "note": "the saving gets spent defending share instead of banked" },
+        { "label": "Actual paint margin", "effect": "down", "note": "the windfall reaches the customer, not the profit line" }
+      ],
+      "caption": "The chain was correct and the conclusion was still wrong. A cost saving only becomes profit if the industry lets you keep it. Pricing power decides that in both directions, not just when costs rise."
+    }
+  ],
+  "horizons": [
+    {
+      "event": "The RBI cuts the repo rate",
+      "immediate": "Bank and rate-sensitive stocks re-price the same afternoon. Nothing has actually happened in any business yet.",
+      "sixMonths": "Banks have repriced loans and home-loan enquiries pick up. Buyers are deciding, not yet building.",
+      "twoYears": "The flats get built and finished, so cement, tiles and paint finally see the volume."
+    },
+    {
+      "event": "A tariff protects a domestic manufacturer",
+      "immediate": "The protected name jumps on the announcement.",
+      "sixMonths": "Import orders taper and domestic order books start filling.",
+      "twoYears": "Capacity gets added, and whether the gain lasts depends on whether the protection does."
+    },
+    {
+      "event": "Crude oil falls hard",
+      "immediate": "Every crude user rallies on the cost-saving story.",
+      "sixMonths": "Old expensive inventory clears and the saving starts reaching reported margins.",
+      "twoYears": "Competition decides who kept it. Where rivals fought for share, the saving went to customers."
     }
   ],
   "questions": [
     "Which of the three moved: price, cost, or volume?",
     "What is the second-order effect, one link past the obvious name?",
     "Among those affected, who can pass the change on, and who has to absorb it?",
+    "How long does each link take: weeks, quarters, or years? And am I willing to wait that long?",
+    "Who else is standing at the link I like, and will the industry let the gain be kept?",
     "Is the obvious winner already priced in?"
   ],
   "yourTurn": {
-    "prompt": "Now you try, using all three ideas. The government cuts GST on electric vehicles, making them noticeably cheaper to buy.",
+    "prompt": "Now you try, using all four ideas. The government cuts GST on electric vehicles, making them noticeably cheaper to buy.",
     "questions": [
-      "Which of the three moved: price, cost, or volume?",
+      "Which of the four moved: price, cost, or volume?",
       "Who benefits first, and who benefits one link down the chain?",
-      "Among the beneficiaries, who actually has the pricing power to keep the gain?"
+      "Among the beneficiaries, who actually has the pricing power to keep the gain?",
+      "Put a clock on it. Which of those links shows up in results in weeks, which in quarters, and which only in years?"
     ],
     "reveal": [
       "It moves volume: a lower tax means a lower effective price, so more EVs get sold.",
       "First, the EV makers. One link down, the battery, motor and charging-infrastructure companies every extra EV needs, plus the lenders financing the purchases.",
-      "Pricing power is the catch. If the EV makers are fighting a price war for share, the tax saving flows straight to buyers, and they get volume but little profit. If one has a real edge, it keeps some of the saving as margin. Same signal, and pricing power still picks the winner."
+      "Pricing power is the catch. If the EV makers are fighting a price war for share, the tax saving flows straight to buyers, and they get volume but little profit. If one has a real edge, it keeps some of the saving as margin. Same signal, and pricing power still picks the winner.",
+      "The clock. Showroom prices change in weeks, so the sales numbers move first. The parts makers follow over a few quarters, once the vehicle makers actually raise their build plans and place orders. Charging infrastructure is a years story, because it takes land, permissions and capital, and it only gets built after the vehicles are visibly on the road. The link you like most is usually the slowest one, which is exactly why people give up on it too early."
     ]
   },
   "relatedSectors": [
@@ -117,6 +169,6 @@
       "url": "https://www.indiabudget.gov.in/"
     }
   ],
-  "lesson": "Every signal moves a price, a cost, or a volume. Follow that change past the obvious first name, because the crowd stops there. And remember that pricing power decides who keeps the gain. Markets react in a day; businesses change over quarters. That is the whole page.",
-  "remember": "Every signal moves price, cost, or volume. Follow the chain past the obvious name. Pricing power decides who actually wins."
+  "lesson": "Every signal moves a price, a cost, or a volume. Follow that change past the obvious first name, because the crowd stops there. Pricing power decides who keeps the gain, and it decides that whether costs rise or fall. Then put a clock on every link, because markets react in a day and businesses change over quarters and years. Most people who lose money on a good idea were right about the chain and wrong about the timing.",
+  "remember": "Every signal moves price, cost, or volume. Follow the chain past the obvious name. Pricing power decides who keeps the gain, and the clock decides when you find out."
 }

@@ -33,6 +33,21 @@ export interface Sector {
   examples: string[];
   howItWorks: string;
   primer?: PrimerBlock[];
+  // A signature visual chain: the whole industry compressed into a few boxes,
+  // rendered as a centred vertical flow map near the top of the page.
+  chain?: {
+    kicker: string;
+    steps: string[];
+    note: string;
+  };
+  // A reusable diagnostic: the questions to run against any company in the
+  // sector, rendered as the Fathom checklist box.
+  checklist?: {
+    kicker: string;
+    title: string;
+    items: string[];
+    foot?: string;
+  };
   sections?: SectorSection[];
   metrics: SectorMetric[];
   framework: {
@@ -64,12 +79,14 @@ export interface Sector {
   relatedSectors?: string[];
   // Case-study ids that demonstrate this sector's principles.
   relatedCaseStudies?: string[];
+  // Ticker slugs of full company reports in this sector.
+  relatedReports?: string[];
 }
 
 // Curated display order for the index and nav.
 const SECTOR_ORDER = [
   'banks', 'nbfcs', 'insurance', 'hospitals', 'pharma', 'saas', 'fmcg', 'retail',
-  'telecom', 'power', 'auto', 'cement', 'metals', 'airlines', 'realestate', 'hotels',
+  'telecom', 'power', 'auto', 'cement', 'metals', 'chemicals', 'airlines', 'realestate', 'hotels',
   'ecommerce', 'infrastructure', 'capitalmarkets',
 ];
 

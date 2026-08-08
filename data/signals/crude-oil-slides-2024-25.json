@@ -1,0 +1,164 @@
+{
+  "title": "Crude oil slides: a cost windfall goes looking for an owner",
+  "kind": "Commodity move",
+  "dateline": "2024 to 2025",
+  "tags": [
+    "Input costs",
+    "Pricing power",
+    "Commodity exposure",
+    "Timing"
+  ],
+  "summary": "Through 2024 and into 2025, crude oil drifted down from around 90 dollars a barrel to the range of 65 to 70. For a country that imports most of its oil, that is a nationwide cost cut. But a falling cost is not profit. It is a windfall in motion, and where it finally comes to rest depends entirely on who has pricing power at each stop.",
+  "event": [
+    "Crude oil spent 2024 and early 2025 drifting lower, from roughly 90 dollars a barrel to somewhere in the 60s, as supply stayed plentiful and the world's demand grew slower than expected.",
+    "India imports the large majority of the oil it burns, so a cheaper barrel is a pay rise for the whole country: every truck, flight, paint tin and plastic chair contains some crude. The lazy reading is that every company that uses oil just got richer. The correct reading is that a large cost saving has entered the economy and is now being fought over, link by link, between companies, their rivals, their customers and the government. Watching who kept it is one of the best pricing-power lessons the market ever runs."
+  ],
+  "trigger": "Who gets to keep the saving?",
+  "triggerLabel": "The one question",
+  "triggerBody": [
+    "A cost fell across the whole economy at once. Nobody's product got better and nobody's customer got richer. A pool of value simply appeared, and now it has to find an owner.",
+    "Picture the windfall as a bag of money dropped between four hands: the company, its rivals, its customers and the government. Who ends up holding it is not decided by the barrel. It is decided by bargaining power. The business with pricing power keeps its share; the one caught in a knife fight watches it leak away. So the only question worth asking of each company is not whether its cost fell, but whether it is strong enough to hold on to the saving."
+  ],
+  "leverBand": {
+    "title": "Which did it move?",
+    "items": [
+      { "label": "Price", "mark": "no" },
+      { "label": "Cost", "mark": "yes" },
+      { "label": "Volume", "mark": "no" }
+    ]
+  },
+  "mentalModels": [
+    { "name": "Pricing power, in reverse", "why": "Everyone remembers pricing power protects you when costs rise. The same power decides whether you keep a windfall when costs fall. No power means competition hands your saving to customers." },
+    { "name": "Commodity exposure", "why": "Producers and users of a commodity sit on opposite ends of a seesaw. A falling barrel that delights the airline is the same barrel that starves the producer." },
+    { "name": "Regulated pass-through", "why": "Between the barrel and the petrol pump stands the government. When crude falls, it can let pump prices fall, or hold them and let someone in the chain keep the gap. Politics, not economics, decides." }
+  ],
+  "fanouts": [
+    {
+      "head": "Crude falls from about 90 dollars to the 60s",
+      "branches": [
+        { "label": "ONGC and Oil India", "effect": "down", "note": "producers sell every barrel cheaper; the seesaw's losing end" },
+        { "label": "Oil marketing companies", "effect": "up", "note": "if pump prices hold while the barrel falls, the gap is theirs, until the government wants it back" },
+        { "label": "Airlines", "effect": "up", "note": "fuel is their biggest cost and they reprice tickets constantly, so the saving reaches profit fast" },
+        { "label": "Paint and tyre makers", "effect": "neutral", "note": "inputs get cheaper, but whether the saving survives depends on how hard rivals are fighting" },
+        { "label": "The government", "effect": "up", "note": "a cheaper import bill eases inflation and the trade gap, and it can capture part of the saving through fuel taxes or other policy changes" }
+      ],
+      "caption": "One falling barrel, five different fates. The producer must lose. Everyone else's outcome is decided by bargaining power, not by the barrel."
+    }
+  ],
+  "winners": [
+    { "label": "Airlines", "when": "immediate", "why": "Fuel is the single biggest cost of flying, and tickets reprice every day. A cheaper barrel flows to the profit line within a quarter or two, faster than almost any other business in the chain. The catch is the same as ever: if airlines start a fare war with the savings, passengers keep it instead." },
+    { "label": "Oil marketing companies", "when": "immediate", "why": "They buy crude and sell petrol, diesel and cooking gas. When the barrel falls and pump prices stay put, their margin per litre swells. But this profit lives at the government's pleasure: a tax hike or an ordered price cut can reclaim it overnight." },
+    { "label": "Consumers, eventually", "when": "delayed", "why": "Cheaper freight and cheaper inputs can soften price rises across the shop shelf, and cooler inflation gives the RBI room to cut rates. But consumers do not automatically receive the saving. How much reaches them depends on freight competition, retailer pricing and taxes. Where businesses have pricing power, the saving stops before the shelf; where they are fighting, it flows through to the wallet. That is the same framework, seen from the far end." }
+  ],
+  "losers": [
+    { "label": "Oil producers", "when": "immediate", "why": "ONGC and Oil India sell the barrel itself. Their cost of pulling it out of the ground barely changes, so a cheaper barrel comes straight out of profit. No pricing power can save you when the thing you sell is the commodity." },
+    { "label": "Businesses that were counting the windfall early", "when": "delayed", "why": "Broker notes in 2024 pencilled the crude saving straight into paint and chemical margins. Where competition was fierce, the saving never arrived. The spreadsheet knew the cost. It did not know the neighbourhood." }
+  ],
+  "sections": [
+    {
+      "heading": "A windfall is not profit. It is a fight.",
+      "body": [
+        "Think of a falling input cost as a bag of money dropped between four people: the company, its rivals, its customers and the government. Everyone gets to grab. What the company keeps is decided by how strong the other three hands are.",
+        "The airline keeps a lot, for a while, because passengers do not know or care what jet fuel costs this week. The oil marketing company keeps what the government lets it. The paint maker was supposed to keep plenty, and here the story turns.",
+        "The rule of thumb: trace the windfall to the first link where competition is intense, and expect it to leak out there. A cost saving flows through a chain like water, and it escapes at the weakest joint."
+      ],
+      "diagram": "fanout:0"
+    },
+    {
+      "heading": "Watch it break: the paint saving that customers kept",
+      "body": [
+        "The cleanest broken chain of this whole episode happened in paints, and it is worth studying because every step of the wrong logic was reasonable.",
+        "A large share of what goes into a tin of paint is crude-derived: solvents, resins, additives. Crude fell, so the cost of making paint fell. Every model said margins for Asian Paints and the other incumbents should widen. Instead, 2024 brought Birla Opus, a new rival with serious money, new plants and a hunger for shelf space. To defend their dealers and their share, the incumbents cut prices and spent on the channel. The crude windfall arrived on schedule, and left immediately, into the hands of painters and homeowners.",
+        "Nothing about the chain was wrong. Costs really fell. What the chain missed was who else was standing at that link when the money arrived. A windfall makes a business worth fighting over, and sometimes the fight consumes the windfall. The full story of what Birla Opus did to the paint incumbents, and why the moat had already thinned before the rival arrived, is in the Asian Paints case study linked below.",
+        "You do not have to take this on faith. The footprint of the windfall leaking away is sitting in Asian Paints' own results. Let us go and look."
+      ],
+      "evidenceAfter": true
+    },
+    {
+      "heading": "The seesaw nobody escapes",
+      "body": [
+        "One more discipline this event teaches: for every user of a commodity, there is a producer, and a price cannot be good news for both.",
+        "When you cheer cheap crude for the airline, you are describing ONGC's bad year. When you cheer expensive crude for ONGC, you are describing the airline's crisis. Any portfolio holding both is betting against itself on that axis, which is fine if you know it and dangerous if you do not. Commodity moves do not create or destroy value in the chain so much as slide it from one end to the other. The investing question is never whether the barrel is good or bad. It is which end of the seesaw you are sitting on, and whether the company at your end can hold on to what slides its way."
+      ]
+    },
+    {
+      "heading": "Why tomorrow's cheaper barrel is not tomorrow's profit",
+      "body": [
+        "One question beginners always ask: crude fell today, so why does the company's margin not improve tomorrow? The answer is sitting in the warehouse.",
+        "Say you are a paint maker and you bought 100 barrels of inputs at 90 dollars. Crude then falls to 65. You have not magically acquired 65 dollar oil. Your shelves still hold the expensive stuff, and you keep making and selling paint out of it for weeks or months. The lower cost only reaches your profit line as that old inventory is used up and replaced with cheaper barrels. So a cost saving is always late, and the slower the inventory turns, the later it arrives. This is exactly why the stock can rally the day crude falls while the results show nothing for two or three quarters: the market is pricing a saving the accounts have not yet received."
+      ]
+    }
+  ],
+  "evidence": {
+    "heading": "Let's see where the windfall went",
+    "metricLabel": "Operating (EBITDA) margin",
+    "unit": "%",
+    "contextLine": "Two full financial years, before and after crude slid from about 90 dollars a barrel to the 60s. If the framework is right, the paint leader's margin should be lower on the right, not higher.",
+    "prediction": "If the framework is right, the crude windfall should not have turned into fatter profits for the paint leader. With a well-funded new rival attacking its shelf, Asian Paints should have handed the saving to customers to defend its share, and its margin should have fallen, not risen.",
+    "intro": [
+      "A large share of a tin of paint is crude-derived: solvents, resins, additives. As crude fell through 2024 and into 2025, the cost of making paint eased, and on paper the incumbents' margins had room to widen. Then Birla Opus arrived, a deep-pocketed new entrant, into an already weak-demand market.",
+      "So watch the market leader, Asian Paints, the company with the most shelf space to defend and therefore the most reason to spend defending it. Put its full year against the year before."
+    ],
+    "banks": [
+      {
+        "name": "Asian Paints",
+        "basis": "consolidated PBDIT margin, FY24 to FY25",
+        "beforeLabel": "FY24",
+        "before": 21.4,
+        "afterLabel": "FY25",
+        "after": 17.8,
+        "exposure": "the market leader with the most shelf space to defend when Birla Opus entered, so it cut prices and spent on the channel instead of banking the input saving.",
+        "sourceUrl": "https://www.coatingsworld.com/breaking-news/asian-paints-reports-4q-full-fy-2025-results/"
+      }
+    ],
+    "directionLine": "The prediction held. The crude windfall did not become profit. Asian Paints' operating margin fell 3.6 percentage points, its revenue shrank about 4.5% to roughly 33,800 crore, and its full-year profit dropped about a third, its first annual profit decline in roughly seventeen years ([Coatings World](https://www.coatingsworld.com/breaking-news/asian-paints-reports-4q-full-fy-2025-results/)).",
+    "contrast": "And it was not simply that inputs were dear. Berger Paints, the smaller challenger, grew its revenue about 3% over the same year and reported its best gross margin in twelve quarters ([Business Standard](https://www.business-standard.com/markets/capital-market-news/berger-paints-gains-after-q4-pat-rises-18-yoy-to-rs-262-cr-125051400904_1.html)). The input windfall was real; the paint on the shelf got cheaper to make for everyone. What differed was who kept it. The leader with the most to defend gave its share away; the challenger gaining ground held on to more. The saving was captured by customers and competition, exactly where the framework said to look.",
+    "seasonalityNote": "Two notes on reading this fairly. We compare full financial years, not single quarters, to smooth out the seasonal painting cycle, and we read the operating margin rather than the headline profit, because margin strips out one-off gains and shows the core economics. One honest caveat: a tin of paint is only partly crude, and other inputs moved too, so we are not pinning every basis point on the barrel.",
+    "robustness": [
+      "Could it be something else? Weak urban demand was real that year, and it pressed on everyone. But a demand problem on its own shows up as flat volumes at steady margins. What actually happened was a 3.6 point collapse in the operating margin, driven by price cuts and channel spending, which is the signature of a share fight, not merely a soft market.",
+      "And the control case settles it. Berger faced the same weak demand and the same input prices, yet it grew and defended its margin. Same weather, different boat. What separated the two was competitive position: the incumbent had the most to protect and spent the windfall protecting it. That is the framework's fingerprint, not a coincidence."
+    ],
+    "caption": "This is the footprint of a windfall disappearing. The cost fell, the saving was real, and the market leader kept almost none of it. When a cost falls, the number to watch is not the input line. It is the margin, and whether a fight is on."
+  },
+  "horizonsTitle": "One falling barrel, three clocks",
+  "horizons": [
+    {
+      "event": "Crude falls a quarter of its price",
+      "immediate": "Markets price the expected windfall at once, and every crude-user stock rallies on the cost story. Old expensive inventory is still being burnt, so nothing has reached actual results yet.",
+      "sixMonths": "Inventory clears and the lower cost starts showing in reported margins, airlines and oil marketers first. Where competition is fierce, the saving is already being handed to customers through prices.",
+      "twoYears": "Competition has decided who kept the economics. Businesses with pricing power banked the windfall, businesses in a fight spent it, and the producers ate the loss."
+    }
+  ],
+  "questions": [
+    "Is this business the producer of the commodity or the user? Which end of the seesaw?",
+    "Between the barrel and this company's profit line, who else can grab the saving: the government, a price war, a big customer?",
+    "How fast does old, expensively bought inventory clear? The saving cannot show up in results before it does.",
+    "Is a well-funded rival attacking exactly now? A windfall in a fight becomes ammunition, not profit.",
+    "By the time I have understood all this, how much has the stock already moved?"
+  ],
+  "relatedSectors": [
+    "airlines",
+    "chemicals",
+    "power"
+  ],
+  "relatedCaseStudies": [
+    "asian-paints-distribution-machine-2000-2026",
+    "jet-airways-the-market-leader-that-vanished-1993-2024"
+  ],
+  "sources": [
+    {
+      "label": "World Bank: oil market glut, surging output and sluggish demand pull crude to the 60s (2025)",
+      "url": "https://blogs.worldbank.org/en/opendata/oil-market-glut--surging-output-and-sluggish-demand-pressure-pri"
+    },
+    {
+      "label": "Coatings World: Asian Paints reports Q4 and full FY25 results (revenue, margin and profit decline)",
+      "url": "https://www.coatingsworld.com/breaking-news/asian-paints-reports-4q-full-fy-2025-results/"
+    },
+    {
+      "label": "Business Standard: Berger Paints Q4 FY25 PAT up 18%, best gross margin in 12 quarters",
+      "url": "https://www.business-standard.com/markets/capital-market-news/berger-paints-gains-after-q4-pat-rises-18-yoy-to-rs-262-cr-125051400904_1.html"
+    }
+  ],
+  "lesson": "A falling input cost is a windfall in motion, not a profit. It travels down the chain and leaks out at the weakest competitive joint: to customers where rivals are fighting, to the government where prices are managed, to nobody at all where inventory is slow. Pricing power decides who keeps a windfall exactly as it decides who survives a shock. It works in both directions, and the market repeatedly forgets the second one.",
+  "remember": "When a cost falls, do not ask who saves money. Ask who gets to keep the saving. They are rarely the same list."
+}

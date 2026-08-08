@@ -17,11 +17,26 @@
   ],
   "summary": "For most of two decades Jet Airways was the airline middle-class India grew up flying: the polished full-service name, the one business travellers trusted, the market leader that felt permanent. Then in April 2019 it simply stopped. This is not a history of that airline. It is an attempt to answer one uncomfortable question: why did India's best airline still fail? The answer is not a villain. It is the airline business itself, a structure so harsh that being the most-loved player was never the thing that made you safe. Debt, fuel, and a price war it could not win did the rest.",
   "keyNumbers": [
-    { "label": "Founded", "value": "1993" },
-    { "label": "Grounded", "value": "17 Apr 2019" },
-    { "label": "Owed to banks", "value": "~₹8,500 cr" },
-    { "label": "Total claims in insolvency", "value": "~₹36,500 cr" },
-    { "label": "Share high → low", "value": "~₹1,379 → ₹13" }
+    {
+      "label": "Founded",
+      "value": "1993"
+    },
+    {
+      "label": "Grounded",
+      "value": "17 Apr 2019"
+    },
+    {
+      "label": "Owed to banks",
+      "value": "~₹8,500 cr"
+    },
+    {
+      "label": "Total claims in insolvency",
+      "value": "~₹36,500 cr"
+    },
+    {
+      "label": "Share high → low",
+      "value": "~₹1,379 → ₹13"
+    }
   ],
   "intro": [
     "If you flew anywhere in India between the mid-1990s and the mid-2010s, there is a good chance you flew Jet Airways. It was the private airline that felt like the grown-up choice: proper meals, a frequent-flyer card people actually valued, crisp uniforms, on-time departures. For years it was the largest private carrier in the country, the default for business travellers, the market leader in the plainest sense. To a whole generation it was simply what an airline was supposed to be.",
@@ -83,7 +98,7 @@
     {
       "heading": "The one bad deal that started the debt: Air Sahara",
       "body": [
-        "At first glance, the Air Sahara deal looked sensible. In 2007, near the top of its powers, Jet bought a struggling rival, Air Sahara, for about ₹1,450 crore and rebranded it JetLite. Swallow a competitor, absorb its planes and its airport slots, get bigger. Here's the catch. Jet paid a rich price for a loss-making airline that several of founder Naresh Goyal's own advisers reportedly thought it should walk away from.",
+        "At first glance, the Air Sahara deal looked sensible. In 2007, near the top of its powers, Jet bought a struggling rival, Air Sahara, for about ₹1,450 crore[^1] and rebranded it JetLite. Swallow a competitor, absorb its planes and its airport slots, get bigger. Here's the catch. Jet paid a rich price for a loss-making airline that several of founder Naresh Goyal's own advisers reportedly thought it should walk away from.",
         "The problem was not the price but where the money came from. Jet borrowed heavily to fund it, and debt behaves nothing like selling shares. A shareholder can wait through a rough year, earning less and hoping the next is better. A lender cannot: the interest is due every month and the loan on its date, whether the airline is full or empty. Miss the payments and the lender can seize the planes.",
         "So Jet had now bolted a heavy, fixed debt bill on top of a business whose costs already refused to shrink in a downturn. As long as demand and fares held, it could pay both. The moment they did not, both rigid burdens would come due at once.",
         "Does this answer our question yet? Only partly. It explains why the debt became dangerous. It still does not explain why the business underneath was so fragile that the debt could kill it. We have seen one half of the answer already: with such weak pricing power, Jet could not simply raise fares to carry the loans. The other half sits in its single largest cost, and that is next."
@@ -131,7 +146,7 @@
       "body": [
         "The immediate trigger was mundane: on 17 April 2019 Jet ran out of cash to buy fuel and grounded every plane. A group of lenders led by State Bank of India had tried to arrange a rescue, take control, and find new investors, but no deal closed in time, and once a bank concludes it is throwing good money after bad, it stops. Etihad, the Abu Dhabi airline that had bought a 24% stake back in 2013 for about ₹2,060 crore, was not willing to keep funding a business it could not fix. With no fresh cash, the airline simply stopped.",
         "But do not confuse the trigger with the cause. Running out of fuel money was the final trigger, nothing more. The cause was everything upstream: high fixed costs and punishing operating leverage, almost no pricing power in a price-war industry, a huge fuel bill it could not control, and a pile of debt that had used up all its slack. Any airline can have a bad month. Jet had a business that could not survive a bad stretch. The grounding wasn't the cause. It was the point where years of bad economics finally became impossible to ignore.",
-        "In the end it owed roughly ₹8,500 crore to banks alone, and once every unpaid lessor, vendor and employee was counted, claims against it in the insolvency process ran to around ₹36,500 crore. A 2021 plan to revive it never delivered the promised money, and in November 2024 the Supreme Court ordered Jet Airways liquidated: broken up and sold for parts. Founder Naresh Goyal was separately arrested in 2023 in a bank-fraud and money-laundering investigation. The market leader was formally wound up."
+        "In the end it owed roughly ₹8,500 crore to banks alone[^2], and once every unpaid lessor, vendor and employee was counted, claims against it in the insolvency process ran to around ₹36,500 crore[^3]. A 2021 plan to revive it never delivered the promised money, and in November 2024 the Supreme Court ordered Jet Airways liquidated: broken up and sold for parts. Founder Naresh Goyal was separately arrested in 2023 in a bank-fraud and money-laundering investigation. The market leader was formally wound up."
       ]
     },
     {
@@ -145,7 +160,7 @@
     {
       "heading": "So who lost the money, and why it matters",
       "body": [
-        "The loss did not fall on one group. Shareholders were close to wiped out; a share near ₹1,379 in the good years traded around ₹13 by 2020, and liquidation typically leaves ordinary shareholders with nothing, since they stand last in line. The banks, largely public-sector ones, were left holding thousands of crores they will recover only a fraction of, which ultimately lands on the public. The lessors lost planes' worth of value, vendors went unpaid, and employees lost months of salary they were owed.",
+        "The loss did not fall on one group. Shareholders were close to wiped out; a share near ₹1,379 in the good years traded around ₹13 by 2020[^4], and liquidation typically leaves ordinary shareholders with nothing, since they stand last in line. The banks, largely public-sector ones, were left holding thousands of crores they will recover only a fraction of, which ultimately lands on the public. The lessors lost planes' worth of value, vendors went unpaid, and employees lost months of salary they were owed.",
         "That is worth remembering about debt. When a heavily borrowed business hits a downturn it cannot cost-cut its way out of, the losses do not stay with the shareholders. They spread to everyone who lent to it, supplied it, or worked for it. And the bigger the company, the more people that reaches."
       ]
     },
@@ -161,42 +176,203 @@
   "evidence": {
     "caption": "The anatomy of a grounding",
     "rows": [
-      { "label": "Founded", "value": "1993, by Naresh Goyal, a former ticketing agent", "source": "Company history" },
-      { "label": "Air Sahara acquisition (2007)", "value": "~₹1,450 cr, largely debt-funded, rebranded JetLite", "source": "Forbes India / Scroll" },
-      { "label": "Kingfisher + Air Deccan (2007)", "value": "Second full-service player intensifies price competition; Kingfisher itself collapses 2012", "source": "Industry history" },
-      { "label": "Etihad stake (2013)", "value": "24% for ~₹2,060 cr ($379m)", "source": "Business Standard / The National" },
-      { "label": "Fuel (ATF) as share of costs", "value": "~40% normally, toward half at high crude; priced in USD, heavily state-taxed", "source": "Federation of Indian Airlines / Outlook Business" },
-      { "label": "Grounded", "value": "17 April 2019, out of cash to buy fuel", "source": "BBC / Business Standard" },
-      { "label": "Owed to banks", "value": "~₹8,500 cr", "source": "Contemporaneous coverage" },
-      { "label": "Total claims in insolvency", "value": "~₹36,500 cr (banks, lessors, vendors, staff)", "source": "StartupTalky / insolvency filings" },
-      { "label": "Share price high → low", "value": "~₹1,379 (2005) → ₹13 (Mar 2020)", "source": "Exchange data" },
-      { "label": "Final outcome", "value": "Supreme Court ordered liquidation, 7 Nov 2024; founder arrested 2023", "source": "ThePrint / Supreme Court" }
+      {
+        "label": "Founded",
+        "value": "1993, by Naresh Goyal, a former ticketing agent",
+        "source": "Company history"
+      },
+      {
+        "label": "Air Sahara acquisition (2007)",
+        "value": "~₹1,450 cr, largely debt-funded, rebranded JetLite",
+        "source": "Forbes India / Scroll"
+      },
+      {
+        "label": "Kingfisher + Air Deccan (2007)",
+        "value": "Second full-service player intensifies price competition; Kingfisher itself collapses 2012",
+        "source": "Industry history"
+      },
+      {
+        "label": "Etihad stake (2013)",
+        "value": "24% for ~₹2,060 cr ($379m)",
+        "source": "Business Standard / The National"
+      },
+      {
+        "label": "Fuel (ATF) as share of costs",
+        "value": "~40% normally, toward half at high crude; priced in USD, heavily state-taxed",
+        "source": "Federation of Indian Airlines / Outlook Business"
+      },
+      {
+        "label": "Grounded",
+        "value": "17 April 2019, out of cash to buy fuel",
+        "source": "BBC / Business Standard"
+      },
+      {
+        "label": "Owed to banks",
+        "value": "~₹8,500 cr",
+        "source": "Contemporaneous coverage"
+      },
+      {
+        "label": "Total claims in insolvency",
+        "value": "~₹36,500 cr (banks, lessors, vendors, staff)",
+        "source": "StartupTalky / insolvency filings"
+      },
+      {
+        "label": "Share price high → low",
+        "value": "~₹1,379 (2005) → ₹13 (Mar 2020)",
+        "source": "Exchange data"
+      },
+      {
+        "label": "Final outcome",
+        "value": "Supreme Court ordered liquidation, 7 Nov 2024; founder arrested 2023",
+        "source": "ThePrint / Supreme Court"
+      }
     ],
     "note": "Cost-share and total-dues figures vary by source and by year because fuel's share moves with crude, and insolvency claims were tallied over time. The ~₹8,500 crore bank debt is the most consistently cited number; ~₹36,500 crore includes all admitted and claimed liabilities."
   },
   "sources": [
-    { "label": "Jet Airways: How Naresh Goyal lost the plot (Forbes India)", "url": "https://www.forbesindia.com/article/special/jet-airways-how-naresh-goyal-lost-the-plot/53123/1" },
-    { "label": "Crisis-hit Jet Airways is still dealing with the baggage from the Air Sahara deal (Scroll)", "url": "https://scroll.in/article/897458/crisis-hit-jet-airways-is-still-dealing-with-the-baggage-from-the-air-sahara-deal" },
-    { "label": "Etihad completes 24% stake purchase in Jet Airways (Business Standard)", "url": "https://www.business-standard.com/article/companies/etihad-checks-in-as-24-owner-of-jet-airways-113112000258_1.html" },
-    { "label": "How soaring ATF prices push Indian airlines to the brink (Outlook Business)", "url": "https://www.outlookbusiness.com/corporate/turbulence-ahead-how-soaring-atf-prices-are-pushing-indian-airlines-to-the-brink" },
-    { "label": "Jet Airways grounds planes as crisis grows (BBC)", "url": "https://feeds.bbci.co.uk/news/business-47626409" },
-    { "label": "Jet Airways case study: soaring high, crashing down (StartupTalky)", "url": "https://startuptalky.com/case-study-jet-airways-crises/" },
-    { "label": "Jet Airways smooth takeoff, turbulence and crash landing: key events to SC-ordered liquidation (ThePrint)", "url": "https://theprint.in/economy/jet-airways-smooth-takeoff-turbulence-crash-landing-key-events-leading-to-sc-ordered-liquidation/2347285/" }
+    {
+      "label": "Jet Airways: How Naresh Goyal lost the plot (Forbes India)",
+      "url": "https://www.forbesindia.com/article/special/jet-airways-how-naresh-goyal-lost-the-plot/53123/1"
+    },
+    {
+      "label": "Crisis-hit Jet Airways is still dealing with the baggage from the Air Sahara deal (Scroll)",
+      "url": "https://scroll.in/article/897458/crisis-hit-jet-airways-is-still-dealing-with-the-baggage-from-the-air-sahara-deal"
+    },
+    {
+      "label": "Etihad completes 24% stake purchase in Jet Airways (Business Standard)",
+      "url": "https://www.business-standard.com/article/companies/etihad-checks-in-as-24-owner-of-jet-airways-113112000258_1.html"
+    },
+    {
+      "label": "How soaring ATF prices push Indian airlines to the brink (Outlook Business)",
+      "url": "https://www.outlookbusiness.com/corporate/turbulence-ahead-how-soaring-atf-prices-are-pushing-indian-airlines-to-the-brink"
+    },
+    {
+      "label": "Jet Airways grounds planes as crisis grows (BBC)",
+      "url": "https://feeds.bbci.co.uk/news/business-47626409"
+    },
+    {
+      "label": "Jet Airways case study: soaring high, crashing down (StartupTalky)",
+      "url": "https://startuptalky.com/case-study-jet-airways-crises/"
+    },
+    {
+      "label": "Jet Airways smooth takeoff, turbulence and crash landing: key events to SC-ordered liquidation (ThePrint)",
+      "url": "https://theprint.in/economy/jet-airways-smooth-takeoff-turbulence-crash-landing-key-events-leading-to-sc-ordered-liquidation/2347285/"
+    }
   ],
+  "exAnte": {
+    "intro": [
+      "Of all six studies, this is the one where the ordinary reader had the most warning and the longest to act on it. Jet did not fall over suddenly in April 2019. The structure that killed it was assembled in public, in filings, more than a decade earlier, and every year after that the accounts said the same thing more loudly."
+    ],
+    "tells": [
+      {
+        "when": "2007",
+        "document": "The Air Sahara acquisition announcement, and the note on the acquisition in the annual report of that year",
+        "check": "The price, about ₹1,450 crore, funded largely with debt, paid for an airline that was already losing money. Then follow the borrowings line and finance costs in the profit and loss account for the three years after.",
+        "meaning": "Jet had taken on a permanent, fixed obligation in order to buy a business that was consuming cash. Interest is contractual, the savings from a merger are a plan. In an industry that can barely raise fares, the plan has to work every single year or the interest eats the airline.",
+        "lead": "12 years before the grounding"
+      },
+      {
+        "when": "Any annual report, any year",
+        "document": "The breakdown of operating expenses in Jet's accounts, next to the daily crude price and the rupee rate",
+        "check": "Fuel at roughly 40% of costs in a normal year, priced in dollars and heavily taxed by states, moving toward half of costs when crude ran high. Aircraft leases and staff sitting fixed underneath it.",
+        "meaning": "You could stress-test this at a kitchen table with no special information. Take a company whose largest cost is a dollar commodity it does not control, add borrowings that must be paid whatever happens, and ask what a 30% rise in crude and a weaker rupee does at the same time. That is exactly what 2018 delivered. The arithmetic was available every year.",
+        "lead": "Available continuously, and it played out precisely in 2018"
+      },
+      {
+        "when": "The balance sheet, for years before 2019",
+        "document": "Jet's own audited balance sheet, the shareholders' funds line",
+        "check": "Whether accumulated losses had eaten through the share capital and reserves, leaving shareholders' funds negative, and whether short-term dues kept exceeding what the company held to pay them with.",
+        "meaning": "A negative shareholders' funds line means the company owes more than it owns. It is printed on the face of the balance sheet and requires no analysis at all. It does not tell you when a company will fail, but it tells you it now has no cushion, so it survives only for as long as lenders choose to let it.",
+        "lead": "Several years of standing warning"
+      },
+      {
+        "when": "Through 2018",
+        "document": "Delayed results, mounting reported losses, and lessors publicly beginning to take aircraft back",
+        "check": "Missed and late filings are themselves a disclosure. Read them alongside reports of unpaid salaries and grounded planes.",
+        "meaning": "By this point the story had moved from the balance sheet to the tarmac. When an airline stops paying staff and lessors start removing aircraft, revenue falls while the fixed costs stay, which is the spiral. This was the last and loudest warning, and it still came about a year before the fleet stopped flying.",
+        "lead": "About 12 months before 17 April 2019"
+      }
+    ],
+    "blindSpot": "What no filing showed was the alleged fraud. The arrest of the founder in 2023, in a case tied to Jet-era bank loans, came four years after the grounding. Audited accounts had not flagged it. That is the boundary of this method: filings can tell you a structure is fragile, they cannot reliably tell you whether people are honest."
+  },
+  "patternCard": {
+    "signal": "A company buying a loss-making competitor with borrowed money, in an industry that already struggles to earn a decent return.",
+    "mechanism": "The debt is fixed and permanent. The savings the deal promises are neither. In a business with no power to raise prices, the interest has to come out of a margin that the next price war will take away, so the company loses the room it needs to survive an ordinary bad year.",
+    "whereToCheck": "The acquisition note in the annual report of the year of the deal, for what was paid and how it was funded. Then borrowings and finance costs in the three annual reports that follow. Then the shareholders' funds line on the balance sheet, which tells you how much cushion is left.",
+    "counterexample": "Buying a rival with debt is not always ruinous. It works when the purchase removes a competitor from a market that can then charge more, which is roughly what happened to Airtel when a dozen operators became three and tariffs finally rose. Jet's purchase added fixed cost to a fare war it could not end. So the test is not the size of the cheque, it is whether the deal leaves the industry with fewer people willing to cut prices."
+  },
   "timeline": [
-    { "when": "1993", "what": "Naresh Goyal, a former ticketing agent, founds Jet Airways as India reopens the skies to private carriers." },
-    { "when": "2000s", "what": "Jet becomes India's largest private airline and the full-service leader for a fast-growing flying middle class." },
-    { "when": "2005", "what": "Jet lists on the stock market; the share trades as high as about ₹1,379." },
-    { "when": "2007", "what": "Jet buys loss-making Air Sahara for ~₹1,450 crore, largely with debt, and rebrands it JetLite. Kingfisher buys Air Deccan, intensifying the fare war." },
-    { "when": "2012", "what": "Kingfisher collapses under its own debts, but the pricing damage to the premium segment lingers." },
-    { "when": "2013", "what": "Etihad buys a 24% stake for ~₹2,060 crore, easing strain but not fixing the cost-and-debt structure." },
-    { "when": "2010s", "what": "IndiGo's low-cost machine sets the price; Jet's higher cost per seat and rising debt erode its profits." },
-    { "when": "2018", "what": "Crude rises and the rupee falls together, spiking Jet's biggest cost as debt payments come due; losses mount and lessors start pulling planes." },
-    { "when": "17 Apr 2019", "what": "Out of cash to buy fuel, Jet grounds its entire fleet and suspends all operations; staff go unpaid." },
-    { "when": "2021", "what": "A consortium wins the bankruptcy process with a revival plan but never puts in the promised money on terms." },
-    { "when": "2023", "what": "Founder Naresh Goyal is arrested by the ED in a bank-fraud and money-laundering case tied to Jet-era loans." },
-    { "when": "7 Nov 2024", "what": "The Supreme Court orders Jet Airways liquidated, ending any hope of revival. The market leader is wound up." }
+    {
+      "when": "1993",
+      "what": "Naresh Goyal, a former ticketing agent, founds Jet Airways as India reopens the skies to private carriers."
+    },
+    {
+      "when": "2000s",
+      "what": "Jet becomes India's largest private airline and the full-service leader for a fast-growing flying middle class."
+    },
+    {
+      "when": "2005",
+      "what": "Jet lists on the stock market; the share trades as high as about ₹1,379."
+    },
+    {
+      "when": "2007",
+      "what": "Jet buys loss-making Air Sahara for ~₹1,450 crore, largely with debt, and rebrands it JetLite. Kingfisher buys Air Deccan, intensifying the fare war."
+    },
+    {
+      "when": "2012",
+      "what": "Kingfisher collapses under its own debts, but the pricing damage to the premium segment lingers."
+    },
+    {
+      "when": "2013",
+      "what": "Etihad buys a 24% stake for ~₹2,060 crore, easing strain but not fixing the cost-and-debt structure."
+    },
+    {
+      "when": "2010s",
+      "what": "IndiGo's low-cost machine sets the price; Jet's higher cost per seat and rising debt erode its profits."
+    },
+    {
+      "when": "2018",
+      "what": "Crude rises and the rupee falls together, spiking Jet's biggest cost as debt payments come due; losses mount and lessors start pulling planes."
+    },
+    {
+      "when": "17 Apr 2019",
+      "what": "Out of cash to buy fuel, Jet grounds its entire fleet and suspends all operations; staff go unpaid."
+    },
+    {
+      "when": "2021",
+      "what": "A consortium wins the bankruptcy process with a revival plan but never puts in the promised money on terms."
+    },
+    {
+      "when": "2023",
+      "what": "Founder Naresh Goyal is arrested by the ED in a bank-fraud and money-laundering case tied to Jet-era loans."
+    },
+    {
+      "when": "7 Nov 2024",
+      "what": "The Supreme Court orders Jet Airways liquidated, ending any hope of revival. The market leader is wound up."
+    }
   ],
   "remember": "Customers judge an airline by the flight. Investors should judge it by the economics.",
-  "lesson": "So, can we answer our question now? Yes. Jet ran a genuinely excellent airline, and it still failed, because it sat inside an industry engineered to punish it. High fixed costs and severe operating leverage meant a small dip in how full the planes were flipped fat profits into deep losses. Weak pricing power and endless price wars meant even the most-loved brand could not charge enough to cover its fuller-service costs. A giant fuel bill, priced in dollars and taxed heavily, was a cost management could barely touch. And heavy debt, taken on to grow in exactly such a business, took away its room to survive the bad years when they came. IndiGo, flying the same routes under the same fuel taxes, survived because it built its model around those economics instead of around the passenger. None of this is unique to airlines. A great product does not guarantee a great business, the structure of an industry often matters more than how well a company is run, and when a business carries heavy fixed costs and heavy debt, an ordinary downturn can be enough to end it. Judge the structure first. Being the best airline wasn't enough."
+  "lesson": "So, can we answer our question now? Yes. Jet ran a genuinely excellent airline, and it still failed, because it sat inside an industry engineered to punish it. High fixed costs and severe operating leverage meant a small dip in how full the planes were flipped fat profits into deep losses. Weak pricing power and endless price wars meant even the most-loved brand could not charge enough to cover its fuller-service costs. A giant fuel bill, priced in dollars and taxed heavily, was a cost management could barely touch. And heavy debt, taken on to grow in exactly such a business, took away its room to survive the bad years when they came. IndiGo, flying the same routes under the same fuel taxes, survived because it built its model around those economics instead of around the passenger. None of this is unique to airlines. A great product does not guarantee a great business, the structure of an industry often matters more than how well a company is run, and when a business carries heavy fixed costs and heavy debt, an ordinary downturn can be enough to end it. Judge the structure first. Being the best airline wasn't enough.",
+  "evidenceNotes": [
+    {
+      "id": 1,
+      "note": "The ~₹1,450 crore price for Air Sahara and its debt funding come from contemporaneous business press (Forbes India, Scroll) and were disclosed in Jet's own filings at the time. The figure is the renegotiated 2007 price; the originally agreed 2006 price was higher. Solid.",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "note": "The ~₹8,500 crore owed to banks is the figure lenders and press reported around the April 2019 grounding. Different reports round it slightly differently, but the scale is not in dispute.",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "note": "Total insolvency claims of ~₹36,500 crore is the aggregate of claims filed with the resolution professional, as reported in coverage of the insolvency process. Claims filed are not the same as claims admitted, so treat it as the upper bound of what was owed.",
+      "confidence": "medium"
+    },
+    {
+      "id": 4,
+      "note": "Share prices (~₹1,379 high, ~₹13 by March 2020) are from exchange data. Exact highs differ a little by source depending on adjustment; the roughly 99% loss does not.",
+      "confidence": "high"
+    }
+  ]
 }

@@ -70,10 +70,14 @@
       "body": [
         "The flood, then, was a boom in index options: a cheap, short-dated bet on where an index like the Sensex will sit by a particular day. You pay a small amount for the ticket. If the index moves your way in time, it can be worth a lot; if not, it expires worthless. Most expire worthless. It is closer to a lottery ticket than to investing, and the market knows it.",
         "The pandemic accelerated a shift that was already beginning. Millions of first-time investors downloaded cheap brokerage apps like Zerodha, Groww and Upstox, which had turned opening an account into a five-minute job and cut the cost of a trade close to zero; social media made options trading look easy; and a long rising market rewarded early risk-taking. Cheap smartphones and some of the world's cheapest mobile data, the very thing the Airtel story is about, put a trading terminal in every pocket. Together they created a trading boom unlike anything India had seen.",
-        "For a marketplace that charges a fee on every trade, this was an ocean of new traffic, and for years BSE had almost none of it. Nearly all index-options trading happened on the rival NSE; BSE's own derivatives business was a rounding error. Then, in May 2023, it relaunched its Sensex and Bankex weekly options and went after that ocean. Over the next three years its equity-derivatives revenue went from about ₹20 lakh in a quarter to nearly ₹1,128 crore in a quarter."
+        "For a marketplace that charges a fee on every trade, this was an ocean of new traffic, and for years BSE had almost none of it. Nearly all index-options trading happened on the rival NSE; BSE's own derivatives business was a rounding error. Then, in May 2023, it relaunched its Sensex and Bankex weekly options and went after that ocean. Over the next three years its equity-derivatives revenue went from about ₹20 lakh in a quarter to nearly ₹1,128 crore in a quarter[^1]."
       ],
       "scorecard": {
-        "labels": { "improved": "What grew", "worsened": "The catch", "shareholder": "For the owner" },
+        "labels": {
+          "improved": "What grew",
+          "worsened": "The catch",
+          "shareholder": "For the owner"
+        },
         "improved": "A rounding error became the main engine: equity-derivatives revenue ran from about ₹20 lakh a quarter to nearly ₹1,128 crore.",
         "worsened": "The traffic was speculative and retail-driven, the kind of activity a regulator watches closely.",
         "shareholder": "Almost every new rupee could fall to profit. Keeps the cash: yes. Controls the traffic: not really, it belongs to the crowd."
@@ -87,7 +91,11 @@
         "It sounds too simple to matter, and it mattered enormously. By owning its own expiry day, BSE stopped competing for a slice of NSE's traffic and began generating traffic of its own."
       ],
       "scorecard": {
-        "labels": { "improved": "What grew", "worsened": "The catch", "shareholder": "For the owner" },
+        "labels": {
+          "improved": "What grew",
+          "worsened": "The catch",
+          "shareholder": "For the owner"
+        },
         "improved": "A second weekly expiry day that was entirely BSE's, generating fresh traffic instead of fighting for NSE's.",
         "worsened": "An expiry day exists only because the regulator permits it, and what SEBI grants it can later take away.",
         "shareholder": "For now BSE controlled its own busiest night of trading. Controls the price of admission: yes, at the regulator's pleasure."
@@ -101,7 +109,11 @@
         "One caution so the headline numbers do not mislead you. 'Notional turnover' gets quoted in lakhs of crores, even trillions, but that is the total face value of all the contracts, and BSE earns nothing on that figure. Its tiny fee is charged on the premium, the actual price of the tickets, which is far smaller. Keep the dramatic notional apart from the modest base the fee really lands on."
       ],
       "scorecard": {
-        "labels": { "improved": "What grew", "worsened": "The catch", "shareholder": "For the owner" },
+        "labels": {
+          "improved": "What grew",
+          "worsened": "The catch",
+          "shareholder": "For the owner"
+        },
         "improved": "Undercutting NSE pulled in the high-volume desks; BSE's derivatives share went from near zero to about 44%, briefly 55%.",
         "worsened": "A fee edge can be matched, and the eye-catching notional turnover is far bigger than the premium BSE actually charges on.",
         "shareholder": "Volume flooded a booth whose costs barely moved. Keeps the cash: yes, as long as it can hold the traffic."
@@ -110,13 +122,17 @@
     {
       "heading": "Why the profit exploded even faster than the revenue",
       "body": [
-        "This is where the thirteen-fold rise is really made. Between FY23 and FY26 BSE's revenue grew about 5.5 times, from ₹925 crore to ₹5,124 crore. Its profit grew about 12 times over the same span, from ₹206 crore to ₹2,487 crore, more than twice as fast as revenue.",
+        "This is where the thirteen-fold rise is really made. Between FY23 and FY26 BSE's revenue grew about 5.5 times, from ₹925 crore to ₹5,124 crore[^2]. Its profit grew about 12 times over the same span, from ₹206 crore to ₹2,487 crore[^3], more than twice as fast as revenue.",
         "The gap is the fixed cost base. The derivatives fees poured in while the cost of running the exchange barely rose, so the share of each rupee of revenue that survived as profit, the margin, roughly doubled, from about 22% to nearly 48%. The business was not just bigger; each rupee it earned was far more profitable than before, and by FY26 it was making about 46% on its equity.",
         "Two things then multiplied together. Profit itself had gone up twelve-fold. And the market, seeing a business earning 46% on equity with a near-monopoly on its own expiry day, decided it deserved a far richer valuation and re-rated the price to a high multiple on top of the higher profit. A higher profit times a higher multiple is how a stock rises thirteen-fold in three years."
       ],
       "diagram": "operating-leverage",
       "scorecard": {
-        "labels": { "improved": "What grew", "worsened": "The catch", "shareholder": "For the owner" },
+        "labels": {
+          "improved": "What grew",
+          "worsened": "The catch",
+          "shareholder": "For the owner"
+        },
         "improved": "Revenue grew about 5.5x while profit grew about 12x; margin roughly doubled to near 48% and return on equity reached 46%.",
         "worsened": "Operating leverage runs both ways: if the traffic thins, profit falls faster than revenue, not slower.",
         "shareholder": "This is the engine of the thirteen-fold stock, higher profit times a higher valuation. Keeps the cash: emphatically."
@@ -141,7 +157,11 @@
         "That postpones the question rather than answering it. Roughly 60% of BSE's revenue still rides on one speculative, retail-driven stream, one the regulator has openly and repeatedly said it wants to calm, and can calm further with a single circular. Put that beside a valuation of around 57 times earnings and 22 times book, prices that assume years more of near-flawless growth, and you have a genuinely fine business whose fuel supply is held in someone else's hand."
       ],
       "scorecard": {
-        "labels": { "improved": "Held up", "worsened": "The catch", "shareholder": "For the owner" },
+        "labels": {
+          "improved": "Held up",
+          "worsened": "The catch",
+          "shareholder": "For the owner"
+        },
         "improved": "Even as SEBI's curbs hit and market volumes dipped, BSE kept taking share from NSE, so its revenue held up and grew.",
         "worsened": "About 60% of revenue still rides on one speculative stream the regulator wants to cool, and can cool with a single circular.",
         "shareholder": "A wonderful business whose fuel supply someone else controls. Controls the price: only until the regulator decides otherwise."
@@ -233,6 +253,41 @@
       "url": "https://www.business-standard.com/amp/markets/news/why-did-bse-ltd-share-price-tank-67-stock-fell-to-2-335-from-6-996-125052300328_1.html"
     }
   ],
+  "exAnte": {
+    "intro": [
+      "This one is unusual, and it is worth being straight about why. Most of what created BSE's boom was announced in public before the money arrived, so the upside was genuinely knowable. The risk that hangs over it is not, because it lives in the mind of a regulator, and regulators do not file quarterly results."
+    ],
+    "tells": [
+      {
+        "when": "May 2023",
+        "document": "BSE's own exchange notice relaunching Sensex and Bankex weekly options",
+        "check": "The one detail that mattered was not a number, it was a weekday. BSE scheduled its expiry on a different day from the NSE's.",
+        "meaning": "It gave BSE a day of the week nobody else was competing for. In a business where traders go where the action is, owning a day is owning the traffic. The whole revenue explosion followed from a scheduling choice published in an ordinary circular, months before it showed up anywhere in the accounts.",
+        "lead": "Roughly a year before the FY24 profits took off"
+      },
+      {
+        "when": "Every quarter from Q1 FY24",
+        "document": "BSE's quarterly results and segment disclosures",
+        "check": "Equity derivatives revenue: about ₹20 lakh in Q1 FY24, rising toward roughly ₹1,128 crore by Q4 FY26. In the same statements, put total expenses next to total revenue.",
+        "meaning": "Two things at once. First, the growth was reported quarter by quarter as it happened, so nobody had to guess. Second, the cost line barely moved while revenue rose about 5.5 times, which is the whole reason profit rose about 12 times. That gap is operating leverage, and you can see it forming a year before the market fully paid for it.",
+        "lead": "Reported in real time, about two years before the FY26 record"
+      },
+      {
+        "when": "July to October 2024",
+        "document": "SEBI's consultation paper on index derivatives, then the circular of 1 October 2024, effective 20 November 2024",
+        "check": "The measures themselves: one weekly expiry per exchange, larger contract sizes, premium collected upfront. Alongside them, SEBI's own published study finding that about 93% of individual traders in this market lost money, roughly ₹1.8 lakh crore over three years.",
+        "meaning": "The regulator said out loud, in a dated public document, that it wanted less of the exact activity BSE earns its money from. You could not know how much damage it would do, but you could know the intent, and you could know it before the rules took effect.",
+        "lead": "About four months of public notice before the curbs came into force"
+      }
+    ],
+    "blindSpot": "Beyond that, honesty requires admitting how little is knowable here. Nothing in BSE's filings tells you what SEBI will do next, and no analysis of the accounts tells you when a speculative boom in retail options stops. What the filings do tell you, and what you can check any day, is how concentrated the company is on that one stream, and what multiple of earnings you are paying for a stream somebody else controls. Concentration and price are facts. The future of the fuel is not."
+  },
+  "patternCard": {
+    "signal": "One revenue stream growing far faster than everything else, in an activity a regulator has publicly said it wants to reduce.",
+    "mechanism": "Fixed costs mean nearly every extra rupee of that revenue becomes profit on the way up, which is thrilling, and nearly every lost rupee becomes lost profit on the way down, which is not. If the volume depends on somebody else's policy, they hold the switch and you hold the shares.",
+    "whereToCheck": "The segment reporting note in the annual report tells you what share of revenue comes from the one stream. Total expenses against total revenue over the last eight quarters tells you how much leverage is in the machine. Then read the regulator's own consultation papers and circulars, which are free and dated.",
+    "counterexample": "Concentration is not automatically a flaw. Asian Paints depended on one product line for decades and it was among the safest businesses in India, because repainting a house is ordinary, needed and unregulated. Concentration turns dangerous when the single stream is both discretionary, meaning people can simply stop, and supervised, meaning somebody can make them stop. Ask those two questions about the stream, not about its size."
+  },
   "timeline": [
     {
       "when": "Pre-2023",
@@ -267,5 +322,22 @@
       "what": "Record year: revenue past ₹5,000 crore, profit ₹2,487 crore, ROE 46%. The stock has roughly 13x'd in three years, on a rich ~57x earnings multiple."
     }
   ],
-  "lesson": "BSE is the Airtel lesson turned the other way up. Its stock did not rise because the company was old, famous or large; it rose because a toll booth with almost entirely fixed costs suddenly collected a fee on a flood of trading, so nearly every new rupee of revenue became profit, and the market re-rated the whole business upward for it. That is operating leverage, thrilling on the way up. It cuts both ways, though, and here the fuel is a speculative, retail-driven boom the regulator has openly set out to cool, bought at a valuation that assumes the good times never end. Both stories leave you with the same two questions to carry into any business: how much of each rupee of revenue does the company get to keep, and does it have the power to charge for what it sells? Size and age answer neither. And when a business leans this hard on one stream, there is a third question BSE forces on you: who controls the fuel?"
+  "lesson": "BSE is the Airtel lesson turned the other way up. Its stock did not rise because the company was old, famous or large; it rose because a toll booth with almost entirely fixed costs suddenly collected a fee on a flood of trading, so nearly every new rupee of revenue became profit, and the market re-rated the whole business upward for it. That is operating leverage, thrilling on the way up. It cuts both ways, though, and here the fuel is a speculative, retail-driven boom the regulator has openly set out to cool, bought at a valuation that assumes the good times never end. Both stories leave you with the same two questions to carry into any business: how much of each rupee of revenue does the company get to keep, and does it have the power to charge for what it sells? Size and age answer neither. And when a business leans this hard on one stream, there is a third question BSE forces on you: who controls the fuel?",
+  "evidenceNotes": [
+    {
+      "id": 1,
+      "note": "Quarterly equity-derivatives revenue, from about ₹20 lakh in Q1 FY24 to roughly ₹1,128 crore in Q4 FY26, is from BSE's own quarterly results and investor presentations. The starting number is tiny and the ending one large, but both are the exchange's reported segment figures.",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "note": "Revenue of ₹925 crore (FY23) to ₹5,124 crore (FY26) is from BSE's audited annual results, via Screener. Solid.",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "note": "Net profit of ₹206 crore (FY23) to ₹2,487 crore (FY26) is from the same audited results. The 12x profit versus 5.5x revenue gap, the operating leverage this study leans on, is arithmetic on those two lines.",
+      "confidence": "high"
+    }
+  ]
 }

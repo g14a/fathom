@@ -57,7 +57,7 @@
       "heading": "Mouth one: the African adventure",
       "body": [
         "In March 2010 Airtel made the biggest bet of its life. It bought the African operations of Zain, a Middle Eastern telecom group, for $10.7 billion, paid for almost entirely with borrowed money. Overnight it inherited around 42 million customers and networks in fifteen African countries. The appeal was plain enough: Airtel had already shown it could sell cheap mobile service to hundreds of millions in India, and Africa had a billion people and few phones. The same recipe, surely, would work again.",
-        "The price of the bet was the balance sheet. Before the deal Airtel owed almost nothing. After it, net debt swelled toward ₹60,000 crore, more than the entire company had been worth on its own, and that debt had to be serviced every year whether Africa made money or not.",
+        "The price of the bet was the balance sheet. Before the deal Airtel owed almost nothing. After it, net debt swelled toward ₹60,000 crore[^1], more than the entire company had been worth on its own, and that debt had to be serviced every year whether Africa made money or not.",
         "The recipe did not travel. India was one country and one currency; Africa was fifteen governments and fifteen currencies, and those currencies kept losing value. Airtel earned in local money like the Nigerian naira but owed in dollars. Each time the naira weakened, the same African profit bought fewer dollars, so it covered less of the loan, even though the loan itself never shrank.",
         "Running the network cost more than at home, too. A tower needs steady power, and mains electricity across much of Africa was unreliable, so Airtel had to bolt a diesel generator onto tower after tower and burn fuel around the clock. Thousands of towers drinking diesel was a permanent cost its Indian towers, plugged into the grid, never carried. The good customers, meanwhile, were already taken: MTN and Vodacom had been there for years and were happy to cut their own prices rather than hand anyone to a newcomer.",
         "Airtel tried to stop the bleeding. It sold its towers to specialists and paid rent instead of owning them, and it exited some of the worst markets. None of it fixed the core problem: thin profit on each customer, sitting on top of a large pile of acquisition debt. The unit lost money year after year, and every year of those losses and interest was paid for by the Indian shareholder, who saw nothing come back.",
@@ -89,7 +89,7 @@
         "On 5 September 2016, a new rival arrived. Reliance Jio, backed by Mukesh Ambani, launched with free voice calls and months of free data, then near-zero prices after that. It was the most aggressive launch Indian business had seen, and it was designed to drag the established operators into a fight they could not win.",
         "How does a company give its product away and live? Deep pockets and a long game. Reliance could afford to lose money for years to buy the market, and Jio's network was built only for data, which made it cheaper to run than the older networks its rivals were still patching up. Hook hundreds of millions on cheap data now, worry about profit later. Free was not generosity; it was a way to take the whole market at once.",
         "Now put yourself in Airtel's management, because the position was genuinely impossible. There were two doors, and both were bad. Keep prices where they were, and customers would walk straight to a free rival, shrinking the business Airtel had spent a decade building. Cut prices down to Jio's and keep the customers, but watch the profit on each one collapse. There was no third door that spared the shareholder. Airtel chose the customers, slashing prices to hold its base and accepting that earnings would crater, betting that if it could just outlast the war, the war would eventually end.",
-        "The choice shows up in one figure, the money Airtel collected from each customer a month, which the industry calls average revenue per user, or ARPU. It fell from about ₹202 in 2014 to roughly ₹104 after the war, and stayed down for years, because Jio kept prices on the floor and Airtel had to keep matching. The same customers, paying close to half as much.",
+        "The choice shows up in one figure, the money Airtel collected from each customer a month, which the industry calls average revenue per user, or ARPU. It fell from about ₹202 in 2014 to roughly ₹104[^3] after the war, and stayed down for years, because Jio kept prices on the floor and Airtel had to keep matching. The same customers, paying close to half as much.",
         "The whole industry bled together. Charging almost nothing, the weaker operators could not cover their costs, and a field of about a dozen mobile companies was crushed to three, as the diagram below lays out: Jio, Airtel, and a merged Vodafone Idea. Simply surviving that cull was an achievement. It also planted the one thing that would matter at the very end, though nobody was paid for it yet: with only three left, prices might one day be able to rise again."
       ],
       "diagram": "consolidation",
@@ -105,7 +105,7 @@
         "Then came a bill almost nobody had braced for. Besides buying spectrum at auctions, telecom companies had agreed, as a condition of their licence, to hand the government a slice of their revenue every year, a kind of running rent for the right to operate. The more you earn, the more you owe.",
         "The fight was over which revenue got sliced. Its name is adjusted gross revenue, or AGR. The companies said it should mean only what they made from phones, the calls and the data. The government said it should mean almost everything they earned, including unrelated income like interest on cash sitting in the bank. The government's version was far wider, and so far larger.",
         "On 24 October 2019, after more than a decade in court, the Supreme Court sided fully with the government, and the ruling reached backwards. It did not just raise fees from then on; it let the government recompute some fifteen years of past fees on the wider definition and demand the shortfall, with interest and penalties, all at once. For companies that had paid on the narrower figure the whole time, the back-dues were staggering.",
-        "Airtel had to set aside ₹28,450 crore in a single quarter, producing a ₹23,045 crore loss for July to September 2019, its largest ever and one of the biggest in Indian corporate history. The number tells a story once you see what the loss would have been without the ruling: ₹1,123 crore, small for a company this size. The everyday business was bruised but standing. Almost the entire record loss was one backdated government bill, landed overnight."
+        "Airtel had to set aside ₹28,450 crore in a single quarter, producing a ₹23,045 crore loss[^2] for July to September 2019, its largest ever and one of the biggest in Indian corporate history. The number tells a story once you see what the loss would have been without the ruling: ₹1,123 crore, small for a company this size. The everyday business was bruised but standing. Almost the entire record loss was one backdated government bill, landed overnight."
       ],
       "scorecard": {
         "improved": "Nothing new; stripped of the ruling, the day-to-day business made only a small ₹1,123 crore operating loss.",
@@ -203,6 +203,41 @@
       "url": "https://www.business-standard.com/article/markets/telecom-share-rally-on-tariff-hike-bharti-airtel-surges-10-ril-at-new-high-119120200182_1.html"
     }
   ],
+  "exAnte": {
+    "intro": [
+      "It is easy to read this back and say the answer was obvious. It was not. But three of the four mouths eating Airtel's growth were visible in ordinary public documents, years before the stock finally moved, and none of them needed a forecast. They needed a reader willing to open the cash-flow statement."
+    ],
+    "tells": [
+      {
+        "when": "March 2010",
+        "document": "The Zain deal announcement, and the borrowings note in the annual report that followed",
+        "check": "The price, $10.7 billion, next to the borrowings line on the balance sheet. Net debt swelled toward about ₹60,000 crore. Then the finance costs line in the profit and loss account for the years after.",
+        "meaning": "Airtel had bought its growth with borrowed money. From then on, the first claim on every rupee the business earned belonged to lenders, not owners. You did not need to know Africa would disappoint. You only needed to see that the interest bill was now permanent while the profits from Africa were only a hope.",
+        "lead": "9 years before the 2019 London listing valued Africa near $3.9 bn"
+      },
+      {
+        "when": "Every quarter from late 2016",
+        "document": "Airtel's own quarterly results presentation, which reports average revenue per user",
+        "check": "The single figure Airtel calls ARPU, average revenue per user, meaning how much money it collects per customer per month. It fell from about ₹202 in 2014 toward about ₹104.",
+        "meaning": "Customers were still being added, and the money per customer was halving. That is the plainest possible statement that a company has no power to price. Growth in subscriber numbers was hiding a shrinking business.",
+        "lead": "3 years of quarterly warnings before the record loss of Nov 2019"
+      },
+      {
+        "when": "Every annual report, 2010 onward",
+        "document": "The cash-flow statement in Airtel's annual report",
+        "check": "Compare two lines: cash generated from operations, and purchase of fixed assets plus spectrum payments under investing activities. Read them side by side for five years running.",
+        "meaning": "A telecom network has to be rebuilt every few years, so the cash the business earns keeps going straight back into towers and spectrum. When the second line keeps swallowing the first, there is nothing left over for the owner, however fast revenue grows. This is the mouth that never closes, and it is arithmetic, not opinion.",
+        "lead": "Visible continuously through the entire lost decade"
+      }
+    ],
+    "blindSpot": "The AGR bill is the honest exception. The licence-fee dispute with the government did sit in the contingent liabilities note at the back of the accounts for years, so a careful reader knew a fight existed. But the size of it, ₹28,450 crore provided in a single quarter, depended entirely on how the Supreme Court would read one word in a contract, and that was not knowable until 24 October 2019. Some risks you can measure. Some you can only know are there."
+  },
+  "patternCard": {
+    "signal": "Revenue keeps growing for years while the share price does not move at all.",
+    "mechanism": "Something is standing between the growth and the owner, and it is usually one of three things: interest on borrowed money, capital spending that has to be repeated forever, or a price war that takes back every rupee of extra volume. The business gets bigger. The owner gets nothing.",
+    "whereToCheck": "The cash-flow statement in the annual report. Put cash from operations next to purchase of fixed assets, and put finance costs next to profit before tax. If capital spending and interest keep eating what the business earns, you are funding growth for somebody else.",
+    "counterexample": "This is not a rule that debt kills. Airtel carried an enormous debt and survived it, because the money had bought a national network, and once a dozen operators had shrunk to three, that network could finally raise prices and make them stick. Suzlon's debt bought a business with no such power. So the question is never how much debt, it is what the debt bought and who is left to compete with you afterwards."
+  },
   "timeline": [
     {
       "when": "2007-08",
@@ -250,5 +285,27 @@
     }
   ],
   "lesson": "Airtel spent thirteen years showing that a growing business and a rewarding stock are not the same thing. The customers and the revenue grew the whole time, but the growth kept being eaten before it reached the owner, by an acquisition, by the endless cost of the network, by a price war, and by a backdated government bill. What finally paid shareholders was not more growth, which had always been there. It was pricing power and the free cash flow that came with it, once the industry had shrunk to three players who could raise prices and make them stick. You will find the same pattern in many industries where capital, competition, or regulation stands between a growing business and its shareholders. A rising top line is not a rising return. What reaches you is the cash a business keeps and its freedom to charge for what it sells, not the number of customers it counts, and a fine, growing business without the power to price can keep you waiting a very long time.",
-  "sectorId": "telecom"
+  "sectorId": "telecom",
+  "relatedCaseStudies": [
+    "jet-airways-the-market-leader-that-vanished-1993-2024",
+    "suzlon-the-sadness-2008-2026",
+    "bse-the-toll-booth-boom-2023-2026"
+  ],
+  "evidenceNotes": [
+    {
+      "id": 1,
+      "note": "The $10.7 billion Zain price and net debt rising toward ₹60,000 crore afterwards are from deal filings and contemporaneous coverage of the 2010 acquisition. The rupee debt figure moves with the exchange rate assumption; the scale is not in doubt.",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "note": "The ₹28,450 crore AGR provision and the resulting ₹23,045 crore quarterly loss (Jul-Sep 2019) are from Airtel's own filed quarterly results after the Supreme Court's AGR ruling. Filed numbers, exact.",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "note": "Average revenue per user falling from about ₹202 (2014) to about ₹104 after Jio's entry is from Airtel's quarterly disclosures. ARPU definitions shifted slightly over the period, so the exact endpoints vary by a few rupees depending on the quarter chosen; the halving is real.",
+      "confidence": "medium"
+    }
+  ]
 }

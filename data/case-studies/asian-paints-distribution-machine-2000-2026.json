@@ -1,6 +1,10 @@
 {
   "ticker": "ASIANPAINT",
   "company": "Asian Paints",
+  "sectorId": "fmcg",
+  "relatedCaseStudies": [
+    "airtel-the-lost-decade-2007-2020"
+  ],
   "title": "Asian Paints: Paint was never the moat",
   "period": "2000 → 2026",
   "tags": [
@@ -63,7 +67,11 @@
       ],
       "diagram": "paint-distribution",
       "scorecard": {
-        "labels": { "improved": "What improved", "worsened": "The catch", "shareholder": "For the owner" },
+        "labels": {
+          "improved": "What improved",
+          "worsened": "The catch",
+          "shareholder": "For the owner"
+        },
         "improved": "Dealers could offer far more shades without holding every shade as inventory.",
         "worsened": "The system required machines, service, forecasting and replenishment discipline, not just brand advertising.",
         "shareholder": "The company that made the dealer's inventory turn faster earned the dealer's counter space."
@@ -87,7 +95,11 @@
         "Asian Paints' 2024-25 annual report still shows the scale of that system: 169,000-plus retail touchpoints across India and 2.29 million KL of installed in-house decorative paint capacity. Scale by itself is not the moat. What matters is that the scale is wired into the dealer's economics."
       ],
       "scorecard": {
-        "labels": { "improved": "What improved", "worsened": "The catch", "shareholder": "For the owner" },
+        "labels": {
+          "improved": "What improved",
+          "worsened": "The catch",
+          "shareholder": "For the owner"
+        },
         "improved": "Dealer inventory turns, recommendation power and replenishment confidence all improved together.",
         "worsened": "A moat built through dealer economics can be attacked through dealer economics.",
         "shareholder": "High returns came from making the channel more productive, not from paint chemistry alone."
@@ -96,7 +108,7 @@
     {
       "heading": "The prime years: a distribution company with a consumer brand on top",
       "body": [
-        "By FY20, before the full inflation and competition cycle changed the discussion, Asian Paints had already reached standalone revenue of ₹17,194 crore, EBITDA of ₹4,215 crore and profit after tax of ₹2,654 crore. The operating quality was obvious: strong brand, high returns, clean cash generation and a balance sheet that did not need leverage to grow.",
+        "By FY20, before the full inflation and competition cycle changed the discussion, Asian Paints had already reached standalone revenue of ₹17,194 crore[^1], EBITDA of ₹4,215 crore and profit after tax of ₹2,654 crore. The operating quality was obvious: strong brand, high returns, clean cash generation and a balance sheet that did not need leverage to grow.",
         "The company also kept widening the category. Waterproofing, wood finishes, adhesives, bath fittings, kitchens, services and later home decor were all attempts to use the same brand-and-channel machinery on a wider home-improvement wallet. That strategy made sense because the original asset was not a paint formula. It was access to the home-improvement decision chain.",
         "But this also created a harder question. If the original moat was distribution, could the same distribution machine carry every adjacent category? Paint dealers, painters and homeowners all connect naturally to wall finishes. Kitchens, bath fittings and decor are deeper decisions, longer cycles and different sales motions. The distribution machine could open doors, but it could not automatically make every new category as profitable as paint."
       ]
@@ -104,12 +116,16 @@
     {
       "heading": "What changed in the last five years",
       "body": [
-        "The last five years did not destroy Asian Paints. They made the story more honest. Consolidated sales grew from about ₹20,211 crore in FY20 to about ₹35,584 crore in FY26, but the recent engine was no longer smooth. Screener's consolidated history shows sales growth of only about 1% over three years and profit growth of about 2% over the same period. FY25 was especially uncomfortable: demand softened, the industry slowed, and margins came under pressure.",
+        "The last five years did not destroy Asian Paints. They made the story more honest. Consolidated sales grew from about ₹20,211 crore in FY20 to about ₹35,584 crore in FY26[^2], but the recent engine was no longer smooth. Screener's consolidated history shows sales growth of only about 1% over three years and profit growth of about 2% over the same period. FY25 was especially uncomfortable: demand softened, the industry slowed, and margins came under pressure.",
         "Asian Paints' own FY24-25 message called the year challenging and noted that the domestic coatings industry saw demand tapering, with revenue ranging from low single-digit decline to flat performance. In other words, the category itself was not providing the old easy tailwind.",
-        "Then came the more important change: serious new competition with a serious balance sheet. Grasim's Birla Opus entered paints not as a small challenger nibbling at the edges, but as an Aditya Birla group bet with capacity, factories, advertising and dealer incentives. By FY25, Grasim said its paints business had crossed 10% revenue market share when Birla Opus and Birla White Putty were combined, and that its current paints capacity represented 21% of the organised decorative paints industry."
+        "Then came the more important change: serious new competition with a serious balance sheet. Grasim's Birla Opus entered paints not as a small challenger nibbling at the edges, but as an Aditya Birla group bet with capacity, factories, advertising and dealer incentives[^3]. By FY25, Grasim said its paints business had crossed 10% revenue market share when Birla Opus and Birla White Putty were combined, and that its current paints capacity represented 21% of the organised decorative paints industry."
       ],
       "scorecard": {
-        "labels": { "improved": "Still strong", "worsened": "What changed", "shareholder": "For the owner" },
+        "labels": {
+          "improved": "Still strong",
+          "worsened": "What changed",
+          "shareholder": "For the owner"
+        },
         "improved": "Asian Paints remained the leader, cash generative, and in FY26 reported ₹30,680 crore revenue, ₹7,113 crore EBITDA, ₹5,567 crore free cash flow and 28.9% RoCE.",
         "worsened": "The category slowed and a large rival began subsidising the channel at scale.",
         "shareholder": "The moat still existed, but the market could no longer treat it as uncontested."
@@ -210,6 +226,41 @@
       "url": "https://www.screener.in/company/ASIANPAINT/consolidated/"
     }
   ],
+  "exAnte": {
+    "intro": [
+      "This is a study of a winner, so the interesting question flips. Not what warned you it would fail, but what warned you the machine was being attacked. Two of those signals were in public documents well before they showed up in Asian Paints' results, and one of them was not in Asian Paints' filings at all. It was in a competitor's."
+    ],
+    "tells": [
+      {
+        "when": "Grasim's annual reports and results releases, from 2021 onward",
+        "document": "The capital expenditure and capital work in progress lines in Grasim Industries' accounts, and its own statements about the paints capacity it was building",
+        "check": "How much money Grasim said it was putting into paint plants, and the capacity those plants would have. By FY25 the group was reporting capacity equal to about 21% of the organised decorative paints market, and more than 10% revenue share.",
+        "meaning": "A factory takes years to build and is announced long before it makes anything. Once that capacity exists it has to be filled, and a new entrant fills capacity by cutting price and paying dealers more to stock it. The pressure on Asian Paints' margins was scheduled in someone else's accounts before it arrived in its own.",
+        "lead": "Several years between the capex disclosure and the FY24-FY25 revenue impact"
+      },
+      {
+        "when": "Every annual report, and every quarter",
+        "document": "Asian Paints' own reported retail touchpoints, and its balance sheet working capital",
+        "check": "Touchpoints went from about 145,000 in FY22 to 169,000-plus in FY25. Alongside that, read inventory days and receivable days, meaning how long stock sits and how long dealers take to pay.",
+        "meaning": "Touchpoints are a number management chooses to report, and you take it partly on trust. Working capital is audited. If the channel ever stops being the most profitable one for a dealer to stock, it shows up as slower inventory and slower collections before it shows up in the story.",
+        "lead": "Continuous, and it is the harder number to spin"
+      },
+      {
+        "when": "FY24 and FY25 results",
+        "document": "The quarterly results themselves, and the consolidated history any screening site rebuilds from them",
+        "check": "Three-year sales growth of roughly 1% a year and three-year profit growth of roughly 2% a year, against a company that had spent two decades compounding much faster.",
+        "meaning": "The slowdown was arithmetic in published results, not a view. Management called FY25 challenging in the same period. When the growth rate of a premium-rated business halves for three years running, the premium is being asked a question, and you can date exactly when the question started.",
+        "lead": "Visible quarter by quarter, ahead of any change in the narrative"
+      }
+    ],
+    "blindSpot": "What you could never verify from a filing is the thing the whole case study is about. No annual report tells you whether a painter in Nashik still reaches for the same tin, or whether a dealer feels a brand is worth the shelf space. Distribution strength is real, it is just not a disclosed number. The honest position is that you can watch its consequences, in working capital and in growth, but you cannot audit the moat itself."
+  },
+  "patternCard": {
+    "signal": "A competitor announces capital spending large enough to change the total capacity of an industry.",
+    "mechanism": "Capacity arrives years after it is announced, and once built it must be filled. It gets filled with lower prices and better terms for the channel. The incumbent's margin is what pays for the newcomer's factory being busy.",
+    "whereToCheck": "Not the incumbent's filings. Open the challenger's annual report: capital expenditure and capital work in progress in the cash-flow statement, plus whatever the company says about installed capacity. Then set that capacity against the size of the industry.",
+    "counterexample": "New capacity does not automatically break an incumbent. It bites only where customers can switch cheaply. Asian Paints kept growing revenue through the attack because the moat was never the paint, it was that dealers and painters made more money by carrying it. So ask what the moat actually is. If it is the product, new capacity is dangerous. If it is your partner's economics, the newcomer has to outbid you for a relationship, which is slower and far more expensive."
+  },
   "timeline": [
     {
       "when": "1950s-1970s",
@@ -240,5 +291,22 @@
       "what": "Asian Paints remains highly cash-generative, with ₹30,680 crore revenue, ₹5,567 crore free cash flow and 28.9% RoCE, but the moat is now visibly contested."
     }
   ],
-  "lesson": "Read this case at three levels. What happened: Asian Paints built the best distribution network. Why it happened: it made dealers and painters more profitable and more certain than any rival. The principle to reuse: a moat is strongest when your partners earn more money because you exist. Paint was never the moat. The dealer's economics were, tinting machines, fast replenishment, working-capital turns, painter trust and brand pull working as one system. A distribution moat survives only as long as you remain the channel's most profitable partner. That last idea travels far beyond paint, into software resellers, hospital referral networks, payment ecosystems and auto dealerships."
+  "lesson": "Read this case at three levels. What happened: Asian Paints built the best distribution network. Why it happened: it made dealers and painters more profitable and more certain than any rival. The principle to reuse: a moat is strongest when your partners earn more money because you exist. Paint was never the moat. The dealer's economics were, tinting machines, fast replenishment, working-capital turns, painter trust and brand pull working as one system. A distribution moat survives only as long as you remain the channel's most profitable partner. That last idea travels far beyond paint, into software resellers, hospital referral networks, payment ecosystems and auto dealerships.",
+  "evidenceNotes": [
+    {
+      "id": 1,
+      "note": "FY20 standalone revenue of ₹17,194 crore, with EBITDA and PAT alongside, is from Asian Paints' audited annual results. Solid.",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "note": "Consolidated sales of ₹20,211 crore (FY20) to ₹35,584 crore (FY26), and the ~1% three-year sales CAGR behind the slowdown claim, are from audited results via Screener. The CAGR is sensitive to the start year chosen; the flattening is visible whichever recent window you pick.",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "note": "Birla Opus reaching a double-digit revenue share of organised decorative paint in its first full year, with capacity around a fifth of the organised market, is from Grasim's investor communications and press coverage. Company-claimed figures, not yet a full audited history, so treat the precise share as directional.",
+      "confidence": "medium"
+    }
+  ]
 }

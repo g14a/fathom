@@ -19,6 +19,7 @@ export interface SignalSection {
   heading: string;
   body: string[];
   diagram?: string; // 'chain', or 'fanout:N' to render fanouts[N] after the body
+  evidenceAfter?: boolean; // render the evidence block right after this section
 }
 
 // The signature "which moved?" band: price / cost / volume, each asked or marked.
@@ -56,6 +57,53 @@ export interface SignalRhyme {
   model: string;
 }
 
+// Proof block: show the framework's predicted metric actually moving, in real
+// company numbers, before vs after the event. Kept honest and sourced.
+export interface SignalEvidenceBank {
+  name: string;
+  basis: string;        // which NIM is quoted, e.g. "whole-bank NIM" / "domestic NIM"
+  beforeLabel: string;  // e.g. "Q1 FY25"
+  before: number;       // the metric a year earlier, apples-to-apples
+  afterLabel: string;   // e.g. "Q1 FY26"
+  after: number;        // the metric after the event
+  exposure: string;     // why this bank sits in the fast-repricing bucket
+  sourceUrl: string;    // primary/named coverage for this bank's numbers
+}
+// One driver line inside the mechanism table: a component of the spread, shown
+// before vs after, so the reader watches the squeeze form rather than being told.
+export interface SignalEvidenceDriver {
+  label: string;   // e.g. "Yield on advances"
+  before: number;
+  after: number;
+  unit: string;    // e.g. "%"
+  takeaway: string;// what this line means for the spread
+}
+export interface SignalEvidence {
+  heading: string;      // section heading, framed as an investigation
+  metricLabel: string;  // e.g. "Net interest margin (NIM)"
+  unit: string;         // e.g. "%"
+  prediction: string;   // the explicit if-then before any number is shown
+  intro: string[];      // who fits the mechanism (examples, not a ranked claim)
+  drivers?: {           // the spread taken apart, in one lead bank
+    bankName: string;
+    beforeLabel: string;
+    afterLabel: string;
+    sourceUrl: string;
+    intro: string;
+    rows: SignalEvidenceDriver[];
+    summary: string;    // the one-line reading of the three rows together
+  };
+  banks: SignalEvidenceBank[];
+  contextLine: string;     // the chart subtitle: the driver's move + what we expect to see
+  directionLine: string;   // "both moved the way the framework predicted"
+  contrast?: string;       // an entity that barely moved, proving it is the shape/position that matters
+  seasonalityNote: string; // why we compare the way we do, plus any honest caveat
+  robustness?: string[];   // try to break the attribution: what else could move the metric, and why the event still leads
+  anticipation?: string;   // whether the move was forecast ahead of time
+  recovery?: string[];     // the second half of the clock, where the event has one
+  caption?: string;
+}
+
 // An end-of-article exercise: pose a fresh event, then reveal how to reason it.
 export interface SignalYourTurn {
   prompt: string;
@@ -72,6 +120,8 @@ export interface Signal {
   summary: string;     // one-line hook for the index card
   event: string[];     // what happened, in plain words (aim for 100-150 words)
   trigger?: string;    // the single business change the event reduces to
+  triggerLabel?: string; // overrides the default "The one equation" kicker
+  triggerBody?: string[]; // optional explanation paragraphs under the trigger hero
   leverBand?: SignalLeverBand; // the "which moved?" price/cost/volume band
   mentalModels?: SignalModel[];
   fanouts?: SignalFanout[];   // one event, many businesses, different outcomes
@@ -80,6 +130,8 @@ export interface Signal {
   winners?: SignalActor[];
   losers?: SignalActor[];
   sections?: SignalSection[]; // freeform teaching blocks
+  evidence?: SignalEvidence;  // real numbers proving the predicted metric moved
+  horizonsTitle?: string;     // overrides the default heading over the horizons table
   horizons?: SignalHorizon[]; // the same event across immediate / 6 months / 2 years
   ignore?: string[];          // what to tune out
   focus?: string[];           // what to actually watch

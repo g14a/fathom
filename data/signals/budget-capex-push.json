@@ -1,0 +1,116 @@
+{
+  "title": "The Budget promises a capex push: an order is not revenue",
+  "kind": "Union Budget",
+  "dateline": "2023 to 2026",
+  "tags": [
+    "Government demand",
+    "Order books",
+    "Execution",
+    "Timing"
+  ],
+  "summary": "For several Budgets running, the government made infrastructure capital spending its centrepiece, lifting the target to ten lakh crore rupees in 2023 and above eleven lakh crore after that. Roads, railways, ports, power. The market cheers on Budget afternoon. But between the speech and a company's profit line stand four slow steps, and each one leaks. This signal is about those steps.",
+  "event": [
+    "In the 2023 Budget, the government raised its capital expenditure target to about ten lakh crore rupees, a record, and kept the number above eleven lakh crore in the Budgets that followed. Capital expenditure means building things: highways, railway lines, ports, power transmission, defence equipment.",
+    "This is the state acting as the economy's biggest customer. When the largest buyer in the country announces it will spend more, the businesses that build, and the businesses that supply the builders, all stand to gain. The market's mistake is not the direction. It is the speed. A Budget number is an intention. It has to become a tender, then a contract, then construction, then a payment, and every one of those steps runs on its own slow clock and loses something along the way."
+  ],
+  "trigger": "Demand rose, or more precisely, a promise of demand was announced. The government declared it would buy more construction than last year. Everything else is the long journey from that sentence to cash in a company's bank account.",
+  "leverBand": {
+    "title": "Which did it move?",
+    "items": [
+      { "label": "Price", "mark": "no" },
+      { "label": "Cost", "mark": "no" },
+      { "label": "Volume", "mark": "yes" }
+    ]
+  },
+  "mentalModels": [
+    { "name": "Government demand", "why": "The state is a giant customer with one quirk: it always pays eventually, but rarely on time. Selling to it means real volume with slow, lumpy cash." },
+    { "name": "Operating leverage", "why": "Construction firms and equipment makers carry heavy fixed costs. When volumes rise, profits rise faster than sales. The same machinery cuts the other way in a slowdown." },
+    { "name": "Execution risk", "why": "Between an announced project and a finished one stand land, clearances, monsoons and contractors. Announcement counts headlines. Execution counts money." },
+    { "name": "Priced-in expectations", "why": "By the third year of capex Budgets, the surprise was gone. A stock can fall on a good announcement if the market had priced a great one." }
+  ],
+  "chainTitle": "From speech to cash: the leaky pipeline",
+  "chain": [
+    "The Budget announces the capex number. Clock: one afternoon. Stocks re-price the same day",
+    "Ministries turn allocations into tenders, and companies bid. Clock: quarters. Order books swell",
+    "Winners mobilise and build, and revenue is booked as work completes. Clock: years",
+    "The government inspects, certifies and pays. Clock: more quarters. Cash arrives long after the concrete has set",
+    "Cement, steel and equipment suppliers feel the pull as sites actually consume material. Clock: years, spread along the whole build"
+  ],
+  "winners": [
+    { "label": "Large infrastructure contractors", "when": "delayed", "why": "L&T and its peers win the tenders, so the promise reaches them first, as order books. But an order is a promise of future work, not revenue. The market re-rates the stock on order inflow; the profits arrive years later, if execution holds." },
+    { "label": "Cement and steel makers", "when": "long-term", "why": "They sell to the builders, one link down. Their volumes move only when sites actually pour concrete, which is years after the speech. The advantage of this link: nobody has to win a tender. Every project, whoever builds it, buys cement and steel." },
+    { "label": "Lenders to the ecosystem", "when": "long-term", "why": "Contractors need working capital to survive the gap between building and being paid. Banks that fund this cycle grow their loan books alongside the capex, with the government's creditworthiness standing behind the end payment." }
+  ],
+  "losers": [
+    { "label": "Whoever the money is not going to", "when": "long-term", "why": "A Budget is a fixed purse. A record capex line is paid for somewhere: slower growth in subsidies or revenue spending elsewhere. The businesses that lived off the squeezed lines quietly feel it." },
+    { "label": "Latecomers to a priced-in story", "when": "immediate", "why": "Investors who bought infrastructure and railway stocks after two years of capex Budgets, at rich valuations, owned the right theme at the wrong price. Several of those stocks corrected sharply in late 2024 and 2025 even as the actual spending continued." }
+  ],
+  "sections": [
+    {
+      "heading": "An order book is a promise, not a business",
+      "body": [
+        "The single most useful habit this signal teaches: when a company announces a huge government order, do not read it as revenue. Read it as a queue.",
+        "The order will convert to revenue over five or seven years, at whatever pace land, clearances and the contractor's own capacity allow. Some of it will be delayed. Some will be renegotiated. The cash will trail the work by quarters, because the government certifies before it pays. A company can hold a record order book and still have a miserable year in cash terms.",
+        "So the questions that matter are conversion questions. How fast does this company historically turn orders into revenue? What share of past orders slipped? How much working capital does each rupee of government revenue trap on the balance sheet, and for how long? Two contractors with identical order books can be a good business and a terrible one, separated only by those three answers."
+      ],
+      "diagram": "chain"
+    },
+    {
+      "heading": "Watch it break: the announced number is not the spent number",
+      "body": [
+        "Here is the leak most investors never check. The Budget number that moves markets in February is a target. The number that moves businesses is what actually gets spent by the following March, and the two can part ways.",
+        "In the election year of 2024, capital spending ran well behind the announced pace for months, because governments slow decision-making around elections and new project approvals wait. The revised figures later confirmed the year's actual capex came in below the grand target the market had cheered. The stocks had priced the speech. The businesses received the spending, which was smaller and later.",
+        "The same gap appears at the state level, where a real share of announced projects stalls on land and clearances. None of this makes the capex theme false. The roads did get built and the spending did grow, year over year, into 2025 and 2026. But every rupee of it arrived later and leakier than the announcement suggested, and a stock priced on the announcement has no room for later and leakier. Follow the monthly accounts the government publishes, not the February speech. The speech is marketing. The monthly accounts are the till."
+      ]
+    }
+  ],
+  "horizons": [
+    {
+      "event": "A record capex Budget is announced",
+      "immediate": "Infra, railway and defence stocks re-price that afternoon. Not one tender has been issued.",
+      "sixMonths": "Tenders flow and order books swell. Revenue has barely moved, and impatient money starts leaving.",
+      "twoYears": "Construction is underway, contractor revenue and cement volumes show the push, and the market has moved on to worrying about the next Budget."
+    }
+  ],
+  "questions": [
+    "How much of the announced number was actually spent last year? The gap between speech and till is the first thing to check.",
+    "For any contractor: how fast do orders convert to revenue, and how much cash does each rupee of government work trap in receivables?",
+    "Is this company a tender-winner, or a supplier to all tender-winners? The second needs no luck.",
+    "After years of the same announcement, what is already in the price?",
+    "What happens to this stock if the spending arrives one year late? If the answer is a disaster, the price assumed perfection."
+  ],
+  "yourTurn": {
+    "prompt": "Use the pipeline on a different promise. The government announces a production-linked incentive scheme paying electronics manufacturers a bonus on every phone made in India.",
+    "questions": [
+      "Which of the three moved: price, cost, or volume?",
+      "Trace the pipeline from announcement to a company's cash. Where are the slow steps and the leaks?",
+      "Who benefits one link down from the phone assemblers?",
+      "What is the equivalent of the announced-versus-spent gap here?"
+    ],
+    "reveal": [
+      "It moves cost: the subsidy makes each phone cheaper to produce in India than the sticker cost suggests. That pulls assembly volume here.",
+      "The pipeline: scheme announced, then companies apply and are approved, then factories are built, then production targets must be met, then claims are filed, then the subsidy is paid. Years from speech to cash, with verification at every step.",
+      "One link down sit the component makers, the contract manufacturers' landlords, and the logistics firms moving parts. They gain from every approved player, whoever wins share, the same way cement gains from every road.",
+      "The gap: schemes are approved against targets, and payouts happen only when targets are met and verified. Announced scheme size is the Budget speech. Disbursed subsidy is the till. History says the second number runs well behind the first, and businesses priced on the first get hurt by the second."
+    ]
+  },
+  "relatedSectors": [
+    "infrastructure",
+    "cement",
+    "banks",
+    "metals"
+  ],
+  "relatedCaseStudies": [],
+  "sources": [
+    {
+      "label": "Union Budget documents (Ministry of Finance)",
+      "url": "https://www.indiabudget.gov.in/"
+    },
+    {
+      "label": "Controller General of Accounts: monthly accounts of the Union government",
+      "url": "https://cga.nic.in/"
+    }
+  ],
+  "lesson": "Government spending is real demand on a government clock. A Budget announcement must become tenders, then contracts, then construction, then payment, and it leaks and slips at every joint. The market prices the speech in an afternoon; the businesses receive the money over years. The durable trades in a capex cycle are the conversion questions nobody asks on Budget day: how fast, how leaky, how much cash trapped on the way.",
+  "remember": "The speech is marketing, the monthly accounts are the till. An order is a promise, revenue is work done, and cash is a certified bill finally paid. Price the till, not the speech."
+}

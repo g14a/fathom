@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withBase } from '@/lib/base';
 
 export const metadata: Metadata = {
   title: 'Reading the Filings | Fathom',
@@ -6,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 interface Bullet { term: string; desc: string }
-interface Blk { concept: string; body: string; bullets?: Bullet[]; outro?: string; example?: string }
+interface Blk { concept: string; body: string; bullets?: Bullet[]; outro?: string; example?: string; link?: { href: string; kicker: string; label: string } }
 interface Sec { title: string; intro?: string; blocks: Blk[]; goldenRule?: string }
 
 const DOC_MAP: { doc: string; question: string; role: string }[] = [
@@ -70,6 +71,11 @@ const SECTIONS: Sec[] = [
         concept: 'The financial statements: the three that matter',
         body: 'At the heart of the report sit three tables, and you already know the ideas behind them. The profit and loss statement shows what the company earned and spent. The balance sheet shows what it owns and what it owes on one day. And the cash flow statement shows the actual cash that moved, which, as we keep saying, is the one hardest to fake. You do not need to be an accountant. You need to read the three together and notice when they disagree.',
         example: 'The profit and loss can show a healthy profit while the cash flow statement shows very little cash came in. That gap is one of the most useful warnings in all of investing, and it is sitting right there for free.',
+        link: {
+          href: '/case-studies/mahindra-the-65pc-fall-2018-2020/',
+          kicker: 'Want to see two statements disagree, years before the write-off?',
+          label: 'Read Mahindra: the 65% fall',
+        },
       },
       {
         concept: 'The notes and the auditor: where the awkward truths hide',
@@ -82,6 +88,11 @@ const SECTIONS: Sec[] = [
         ],
         outro: 'None of these needs accounting skill to spot. They just need you to turn to the back of the report, which is exactly why so few people do.',
         example: 'A company reports record profit, but the notes show its unpaid tax disputes are larger than a year of that profit, and the auditor added a note of concern. The front of the report is a celebration. The back is a warning.',
+        link: {
+          href: '/case-studies/jet-airways-the-market-leader-that-vanished-1993-2024/',
+          kicker: 'One debt note in 2007 gave twelve years of warning.',
+          label: 'Read Jet Airways: the market leader that vanished',
+        },
       },
     ],
     goldenRule: 'Ignore the glossy pages. Spend your time on the MD&A, the three statements, and the notes.',
@@ -200,6 +211,12 @@ function Block({ p, i }: { p: Blk; i: number }) {
             {p.example}
           </div>
         )}
+        {p.link && (
+          <a href={withBase(p.link.href)} className="qlink">
+            <span className="qlink-k">{p.link.kicker}</span>
+            <span className="qlink-go">{p.link.label} <span className="arw">→</span></span>
+          </a>
+        )}
       </div>
     </div>
   );
@@ -289,6 +306,17 @@ export default function FilingsPage() {
             ))}
           </ul>
         </section>
+
+        <a href={withBase('/sectors/')} className="sector-cta" style={{ marginTop: 40 }}>
+          <div className="sc-cta-text">
+            <div className="sc-cta-kicker">Next step</div>
+            <div className="sc-cta-line">
+              Filings make far more sense when you know <strong>how the sector works</strong>: what
+              normal looks like for a bank is a red flag for a retailer.
+            </div>
+          </div>
+          <span className="sc-cta-go">Browse the sectors <span className="arw">→</span></span>
+        </a>
 
         <div className="closer">
           <p>
