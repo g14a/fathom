@@ -2,6 +2,7 @@ import React from 'react';
 import Connections from '@/components/Connections';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { getAllSignals, getSignal } from '@/lib/signals';
+import { getAllReports } from '@/lib/data';
 import { getSector } from '@/lib/sectors';
 import { getCaseStudy } from '@/lib/caseStudies';
 import { withBase, canonical } from '@/lib/base';
@@ -242,6 +243,8 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
 
   const relSectors = (s.relatedSectors ?? []).map((sid) => getSector(sid)).filter(Boolean);
   const relCases = (s.relatedCaseStudies ?? []).map((cid) => getCaseStudy(cid)).filter(Boolean);
+  // Company reports whose sector this signal moves.
+  const relReports = getAllReports().filter((r) => (s.relatedSectors ?? []).includes(r.sectorId ?? ''));
 
   return (
     <div className="wrap report sig-page">
@@ -253,6 +256,7 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
           <span className="cs-period">{s.dateline}</span>
         </div>
         <h1 className="csd-title" style={{ marginTop: 14 }}>{s.title}</h1>
+        {s.seoDescription && <p className="csd-subtitle">{s.seoDescription}</p>}
       </div>
 
       <div className="csd-body">
@@ -480,6 +484,7 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
           title="Follow the threads"
           lede="Where this signal plays out in depth: the sectors it moves and the companies that lived it."
           items={[
+            ...relReports.map((r) => ({ kicker: 'Company', name: r.company, href: `/stocks/${r.slug}/` })),
             ...relSectors.map((sec) => ({ kicker: 'Sector', name: sec!.name, href: `/sectors/${sec!.id}/` })),
             ...relCases.map((c) => ({ kicker: 'Case study', name: c!.company, href: `/case-studies/${c!.id}/`, variant: 'case' as const })),
           ]}

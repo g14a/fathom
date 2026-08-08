@@ -583,6 +583,7 @@ section.block:first-of-type { border-top: none; }
 /* ===================== Case study detail ===================== */
 .csd-head { padding: 8px 0 28px; border-bottom: 1px solid var(--border); }
 .csd-title { font-family: var(--serif); font-size: 40px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.08; margin: 12px 0 0; text-wrap: balance; }
+.csd-subtitle { font-family: var(--sans); font-size: 17px; line-height: 1.55; color: var(--ink-dim); margin: 12px 0 0; max-width: 660px; }
 .csd-body { padding: 28px 0 8px; }
 @media (max-width: 640px) { .csd-title { font-size: 30px; } .cs-grid { grid-template-columns: 1fr; } }
 

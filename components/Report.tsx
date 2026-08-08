@@ -3,8 +3,10 @@ import type {
 } from '@/lib/types';
 import { getSector } from '@/lib/sectors';
 import { getCaseStudiesForTicker } from '@/lib/caseStudies';
+import { getAllSignals } from '@/lib/signals';
 import { withBase, formatDate } from '@/lib/base';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import Connections from '@/components/Connections';
 
 const HOLD_COLORS: Record<string, string> = {
   Promoter: '#2dd4bf',
@@ -226,6 +228,11 @@ function EditorialModel({ r }: { r: TickerReport }) {
 
 export function Report({ r }: { r: TickerReport }) {
   const crumbSector = r.sectorId ? getSector(r.sectorId) : undefined;
+  // Signals that move this company's sector, and case studies about this company.
+  const relatedSignals = crumbSector
+    ? getAllSignals().filter((s) => s.kind !== 'Primer' && (s.relatedSectors ?? []).includes(crumbSector.id))
+    : [];
+  const relatedCases = getCaseStudiesForTicker(r.ticker);
   return (
     <div className="wrap report">
       <Breadcrumbs
@@ -405,6 +412,15 @@ export function Report({ r }: { r: TickerReport }) {
       <Block num="16" title="Summary">
         <p style={{ fontSize: 17 }}>{r.summary}</p>
       </Block>
+
+      <Connections
+        title="Take these ideas further"
+        items={[
+          ...(crumbSector ? [{ kicker: 'Sector', name: `How ${crumbSector.name} businesses work`, href: `/sectors/${crumbSector.id}/` }] : []),
+          ...relatedSignals.map((s) => ({ kicker: 'Signal', name: s.title, href: `/signals/${s.id}/` })),
+          ...relatedCases.map((cs) => ({ kicker: 'Case study', name: cs.title, href: `/case-studies/${cs.id}/`, variant: 'case' as const })),
+        ]}
+      />
 
       <div className="disclaimer">
         Figures are a point-in-time snapshot as of {formatDate(r.asOf)} and may be stale.
