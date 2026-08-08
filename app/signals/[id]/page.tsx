@@ -107,7 +107,7 @@ function renderEvidence(ev: import('@/lib/signals').SignalEvidence, key: React.K
       <figure className="sig-slope">
         <figcaption className="sig-slope-title">
           {ev.metricLabel}: {bl} versus {al}
-          <span className="sig-slope-sub">{ev.contextLine}</span>
+          {ev.contextLine && <span className="sig-slope-sub">{ev.contextLine}</span>}
         </figcaption>
         <div className="sig-dumbbell">
           {ev.banks.map((b, i) => {
@@ -139,9 +139,10 @@ function renderEvidence(ev: import('@/lib/signals').SignalEvidence, key: React.K
       </figure>
 
       <p className="cs-para"><strong>{inline(ev.directionLine)}</strong></p>
+      {ev.causeEvidence && <p className="cs-para">{inline(ev.causeEvidence)}</p>}
       {ev.contrast && (
         <div className="sig-ev-contrast">
-          <span className="sig-ev-contrast-label">The control case: a bank that barely moved</span>
+          <span className="sig-ev-contrast-label">The control case: the one that barely moved</span>
           <p>{inline(ev.contrast)}</p>
         </div>
       )}

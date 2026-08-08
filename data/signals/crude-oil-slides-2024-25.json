@@ -68,8 +68,8 @@
       "heading": "Watch it break: the paint saving that customers kept",
       "body": [
         "The cleanest broken chain of this whole episode happened in paints, and it is worth studying because every step of the wrong logic was reasonable.",
-        "A large share of what goes into a tin of paint is crude-derived: solvents, resins, additives. Crude fell, so the cost of making paint fell. Every model said margins for Asian Paints and the other incumbents should widen. Instead, 2024 brought Birla Opus, a new rival with serious money, new plants and a hunger for shelf space. To defend their dealers and their share, the incumbents cut prices and spent on the channel. The crude windfall arrived on schedule, and left immediately, into the hands of painters and homeowners.",
-        "Nothing about the chain was wrong. Costs really fell. What the chain missed was who else was standing at that link when the money arrived. A windfall makes a business worth fighting over, and sometimes the fight consumes the windfall. The full story of what Birla Opus did to the paint incumbents, and why the moat had already thinned before the rival arrived, is in the Asian Paints case study linked below.",
+        "A large share of what goes into a tin of paint is crude-derived: solvents, resins, additives. Crude fell, so the cost of making paint fell. Every model said margins for Asian Paints and the other established players should widen. Instead, 2024 brought Birla Opus, a new rival with serious money, new plants and a hunger for shelf space. To defend their dealers and their share, the companies already in the market cut prices and spent heavily on winning over shops and painters. The crude windfall arrived on schedule, and left immediately, into the hands of painters and homeowners.",
+        "Nothing about the chain was wrong. Costs really fell. What the chain missed was who else was standing at that link when the money arrived. A windfall makes a business worth fighting over, and sometimes the fight consumes the windfall. The full story of what Birla Opus did to the established paint leaders, and why the moat had already thinned before the rival arrived, is in the Asian Paints case study linked below.",
         "You do not have to take this on faith. The footprint of the windfall leaking away is sitting in Asian Paints' own results. Let us go and look."
       ],
       "evidenceAfter": true
@@ -93,11 +93,11 @@
     "heading": "Let's see where the windfall went",
     "metricLabel": "Operating (EBITDA) margin",
     "unit": "%",
-    "contextLine": "Two full financial years, before and after crude slid from about 90 dollars a barrel to the 60s. If the framework is right, the paint leader's margin should be lower on the right, not higher.",
+    "contextLine": "",
     "prediction": "If the framework is right, the crude windfall should not have turned into fatter profits for the paint leader. With a well-funded new rival attacking its shelf, Asian Paints should have handed the saving to customers to defend its share, and its margin should have fallen, not risen.",
     "intro": [
-      "A large share of a tin of paint is crude-derived: solvents, resins, additives. As crude fell through 2024 and into 2025, the cost of making paint eased, and on paper the incumbents' margins had room to widen. Then Birla Opus arrived, a deep-pocketed new entrant, into an already weak-demand market.",
-      "So watch the market leader, Asian Paints, the company with the most shelf space to defend and therefore the most reason to spend defending it. Put its full year against the year before."
+      "The method here is worth naming, because it is how Fathom checks a claim. We do not need the whole industry to behave perfectly. We find the business where the prediction should be strongest, then look at whether the numbers carry the fingerprint the framework expects.",
+      "That business is the market leader, Asian Paints, the company with the most shelf space to defend and therefore the most reason to spend defending it. Put its full year against the year before, straddling the crude fall and Birla Opus's arrival."
     ],
     "banks": [
       {
@@ -111,12 +111,13 @@
         "sourceUrl": "https://www.coatingsworld.com/breaking-news/asian-paints-reports-4q-full-fy-2025-results/"
       }
     ],
-    "directionLine": "The prediction held. The crude windfall did not become profit. Asian Paints' operating margin fell 3.6 percentage points, its revenue shrank about 4.5% to roughly 33,800 crore, and its full-year profit dropped about a third, its first annual profit decline in roughly seventeen years ([Coatings World](https://www.coatingsworld.com/breaking-news/asian-paints-reports-4q-full-fy-2025-results/)).",
+    "directionLine": "The prediction fits the numbers: the crude windfall did not show up as higher operating margins. Asian Paints' operating margin fell 3.6 percentage points, its revenue shrank about 4.5% to roughly 33,800 crore, and its full-year profit dropped about a third, its first annual profit decline in roughly seventeen years ([Coatings World](https://www.coatingsworld.com/breaking-news/asian-paints-reports-4q-full-fy-2025-results/)).",
+    "causeEvidence": "And the cause is on the record, not inferred. To defend its shelf, Asian Paints cut prices by roughly 2 to 3% and raised advertising spend about 18%, and still watched its share of the organised paint market slide from about 59% to 52% over the year as Birla Opus took roughly a tenth of it ([Business Standard](https://www.business-standard.com/markets/news/asian-paints-stares-at-weak-fy26-on-margin-strain-market-share-loss-125051200827_1.html)). The windfall was not misplaced by bad luck. It was deliberately handed to customers and spent on the fight, which is exactly the price cut and channel spend the framework predicts at a contested link.",
     "contrast": "And it was not simply that inputs were dear. Berger Paints, the smaller challenger, grew its revenue about 3% over the same year and reported its best gross margin in twelve quarters ([Business Standard](https://www.business-standard.com/markets/capital-market-news/berger-paints-gains-after-q4-pat-rises-18-yoy-to-rs-262-cr-125051400904_1.html)). The input windfall was real; the paint on the shelf got cheaper to make for everyone. What differed was who kept it. The leader with the most to defend gave its share away; the challenger gaining ground held on to more. The saving was captured by customers and competition, exactly where the framework said to look.",
     "seasonalityNote": "Two notes on reading this fairly. We compare full financial years, not single quarters, to smooth out the seasonal painting cycle, and we read the operating margin rather than the headline profit, because margin strips out one-off gains and shows the core economics. One honest caveat: a tin of paint is only partly crude, and other inputs moved too, so we are not pinning every basis point on the barrel.",
     "robustness": [
       "Could it be something else? Weak urban demand was real that year, and it pressed on everyone. But a demand problem on its own shows up as flat volumes at steady margins. What actually happened was a 3.6 point collapse in the operating margin, driven by price cuts and channel spending, which is the signature of a share fight, not merely a soft market.",
-      "And the control case settles it. Berger faced the same weak demand and the same input prices, yet it grew and defended its margin. Same weather, different boat. What separated the two was competitive position: the incumbent had the most to protect and spent the windfall protecting it. That is the framework's fingerprint, not a coincidence."
+      "And the control case makes that explanation hard to ignore. Berger faced the same weak demand and the same input prices, yet it grew and defended its margin. Same weather, different boat. The two are not identical businesses, and their results can differ for many reasons, so this is evidence, not proof. But the thing that most cleanly separates them, competitive position, is exactly the lever the framework points at, which is hard to wave away as coincidence."
     ],
     "caption": "This is the footprint of a windfall disappearing. The cost fell, the saving was real, and the market leader kept almost none of it. When a cost falls, the number to watch is not the input line. It is the margin, and whether a fight is on."
   },
@@ -157,6 +158,10 @@
     {
       "label": "Business Standard: Berger Paints Q4 FY25 PAT up 18%, best gross margin in 12 quarters",
       "url": "https://www.business-standard.com/markets/capital-market-news/berger-paints-gains-after-q4-pat-rises-18-yoy-to-rs-262-cr-125051400904_1.html"
+    },
+    {
+      "label": "Business Standard: Asian Paints on margin strain and market share loss (price cuts, higher ad spend, share to Birla Opus)",
+      "url": "https://www.business-standard.com/markets/news/asian-paints-stares-at-weak-fy26-on-margin-strain-market-share-loss-125051200827_1.html"
     }
   ],
   "lesson": "A falling input cost is a windfall in motion, not a profit. It travels down the chain and leaks out at the weakest competitive joint: to customers where rivals are fighting, to the government where prices are managed, to nobody at all where inventory is slow. Pricing power decides who keeps a windfall exactly as it decides who survives a shock. It works in both directions, and the market repeatedly forgets the second one.",

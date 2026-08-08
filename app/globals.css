@@ -843,6 +843,8 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .sig-ev-contrast { margin: 20px 0 0; padding: 14px 18px; border-left: 3px solid var(--border-strong); background: var(--bg-card); border-radius: 0 10px 10px 0; }
 .sig-ev-contrast .sig-ev-contrast-label { display: block; font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.09em; color: var(--ink-faint); font-weight: 700; margin-bottom: 5px; }
 .sig-ev-contrast p { margin: 0; font-size: 15.5px; line-height: 1.6; color: var(--ink-dim); max-width: 720px; }
+.sig-ev-contrast a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
+.sig-ev-contrast a:hover { text-decoration-thickness: 2px; }
 .sig-db-row:first-child { border-top: none; }
 .sig-db-bank { font-family: var(--serif); font-size: 16px; font-weight: 600; color: var(--ink); line-height: 1.2; }
 .sig-db-basis { display: block; font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-faint); font-weight: 400; margin-top: 3px; }

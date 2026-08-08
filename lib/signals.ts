@@ -96,6 +96,7 @@ export interface SignalEvidence {
   banks: SignalEvidenceBank[];
   contextLine: string;     // the chart subtitle: the driver's move + what we expect to see
   directionLine: string;   // "both moved the way the framework predicted"
+  causeEvidence?: string;  // primary evidence for the cause, not just the outcome
   contrast?: string;       // an entity that barely moved, proving it is the shape/position that matters
   seasonalityNote: string; // why we compare the way we do, plus any honest caveat
   robustness?: string[];   // try to break the attribution: what else could move the metric, and why the event still leads
