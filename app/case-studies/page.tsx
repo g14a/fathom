@@ -24,6 +24,15 @@ export default function CaseStudiesIndex() {
       </div>
 
       <div className="wrap">
+        <div className="u-intro">
+          <p>
+            Each case study is a deep dive into one real Indian company and one thing that happened to
+            it: a collapse, a quiet compounding, a trap that caught the whole market. We rebuild the
+            story from the filings, explain why it played out that way, and pull out the single
+            durable lesson worth carrying to the next company. They are stories first and teaching
+            tools second.
+          </p>
+        </div>
         <div className="cs-grid">
           {getAllCaseStudies().map((c) => (
             <a key={c.id} href={withBase(`/case-studies/${c.id}/`)} className="cs-card">

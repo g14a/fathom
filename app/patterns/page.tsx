@@ -45,6 +45,15 @@ export default function PatternsPage() {
       </div>
 
       <div className="wrap">
+        <div className="u-intro">
+          <p>
+            A pattern is the reusable shape underneath a company's story: debt-funded growth into
+            losses, a moat under attack, profit that never reaches the owner. Companies fail in fresh
+            headlines but old shapes, so learning the shapes lets you spot trouble early, even in a
+            business you have never seen before. Every pattern below is drawn from a real Fathom case
+            study and points to the exact line in a filing where you can check it.
+          </p>
+        </div>
         <div className="patterns-list">
           {cards.map((p) => (
             <div key={p.id} className="pattern-card" style={{ marginTop: 24 }}>

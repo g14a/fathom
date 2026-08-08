@@ -44,6 +44,15 @@ export default function SectorsIndex() {
       </div>
 
       <div className="wrap">
+        <div className="u-intro">
+          <p>
+            A sector page explains how an entire industry works before you look at any single company
+            in it: how the businesses make money, what customers actually buy, what drives demand and
+            margins, and the one or two numbers that decide the story. The right yardstick changes
+            from sector to sector, which is why the same metric can flatter a bank and damn a cement
+            maker. Start with the sector, then read any company in it on its own terms.
+          </p>
+        </div>
         <div className="sector-grid">
           {getAllSectors().map((s) => (
             <a key={s.id} href={withBase(`/sectors/${s.id}/`)} className="sector-card">

@@ -25,6 +25,15 @@ export default function SignalsIndex() {
       </div>
 
       <div className="wrap">
+        <div className="u-intro">
+          <p>
+            A signal is a big, market-moving event, a Budget, an RBI rate decision, a commodity swing,
+            a tariff, reduced to the single thing that actually changes for businesses. Rather than
+            report what happened, each one follows that change through the economy: who earns more,
+            who earns less, who feels it first, and how long the money takes to arrive. The point is
+            to hand you a reusable way to reason about the next event, not just this one.
+          </p>
+        </div>
         <div className="cs-grid">
           {getAllSignals().map((s) => (
             <a key={s.id} href={withBase(`/signals/${s.id}/`)} className="cs-card">
