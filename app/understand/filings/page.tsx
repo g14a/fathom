@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
-import { withBase } from '@/lib/base';
+import { withBase, canonical } from '@/lib/base';
 
 export const metadata: Metadata = {
-  title: 'Reading the Filings | Fathom',
-  description: 'Where the truth actually lives: how to read an annual report, an earnings call, and a company presentation without drowning.',
+  title: 'How to Read Company Filings: Annual Reports, Concalls & Red Flags | Fathom',
+  description: 'How to read an annual report, an earnings call and an investor presentation without drowning: which few parts matter, and where companies hide the awkward bits.',
+  alternates: { canonical: canonical('/understand/filings/') },
 };
 
 interface Bullet { term: string; desc: string }

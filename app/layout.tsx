@@ -1,10 +1,29 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { withBase } from '@/lib/base';
+import { withBase, SITE_URL, canonical } from '@/lib/base';
 
 export const metadata: Metadata = {
-  title: 'Fathom | Indian Equity Research',
-  description: 'Deep, structured research on NSE-listed companies. Educational use only.',
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: 'Fathom: Indian Equity Research, Explained From First Principles',
+    template: '%s',
+  },
+  description: 'Beginner-friendly research on NSE-listed companies: how each business makes money, the sectors and mental models behind it, and the events that move it.',
+  alternates: { canonical: canonical('/') },
+  applicationName: 'Fathom',
+  openGraph: {
+    siteName: 'Fathom',
+    type: 'website',
+    locale: 'en_IN',
+    url: canonical('/'),
+    title: 'Fathom: Indian Equity Research, Explained From First Principles',
+    description: 'How Indian businesses actually make money, the sectors and mental models behind them, and the events that move them.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Fathom: Indian Equity Research, Explained',
+    description: 'How Indian businesses actually make money, and the events that move them.',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

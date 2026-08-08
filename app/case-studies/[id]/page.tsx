@@ -1,7 +1,7 @@
 import { getAllCaseStudies, getCaseStudy } from '@/lib/caseStudies';
 import { getSector } from '@/lib/sectors';
 import type { Metadata } from 'next';
-import { withBase } from '@/lib/base';
+import { withBase, canonical } from '@/lib/base';
 import Connections from '@/components/Connections';
 
 export function generateStaticParams() {
@@ -12,7 +12,15 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const { id } = await params;
   const c = getCaseStudy(id);
   if (!c) return { title: 'Case Study | Fathom' };
-  return { title: `${c.title} | ${c.company} | Fathom`, description: c.summary };
+  const title = `${c.company}: Business Case Study | Fathom`;
+  const url = canonical(`/case-studies/${id}/`);
+  return {
+    title,
+    description: c.summary,
+    alternates: { canonical: url },
+    openGraph: { title, description: c.summary, url, type: 'article' },
+    twitter: { title, description: c.summary },
+  };
 }
 
 // Render a paragraph with inline markdown links: [text](/path) or [text](https://...),

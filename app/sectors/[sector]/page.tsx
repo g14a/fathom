@@ -3,7 +3,7 @@ import type { PrimerBlock } from '@/lib/sectors';
 import { getCaseStudy } from '@/lib/caseStudies';
 import { getAllTickers, getReport } from '@/lib/data';
 import type { Metadata } from 'next';
-import { withBase } from '@/lib/base';
+import { withBase, canonical } from '@/lib/base';
 import Connections from '@/components/Connections';
 
 function Block({ p, i }: { p: PrimerBlock; i: number }) {
@@ -43,7 +43,16 @@ export async function generateMetadata({ params }: { params: Promise<{ sector: s
   const { sector } = await params;
   const s = getSector(sector);
   if (!s) return { title: 'Sector | Fathom' };
-  return { title: `${s.name}: how the sector works | Fathom`, description: s.tagline };
+  const title = `${s.name}: How the Industry Works, Economics & Key Drivers | Fathom`;
+  const description = `How the ${s.name} industry works: how companies make money, what customers buy, what drives demand and margins, and the metrics that decide the story.`;
+  const url = canonical(`/sectors/${sector}/`);
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: { title, description, url, type: 'article' },
+    twitter: { title, description },
+  };
 }
 
 const FW = [

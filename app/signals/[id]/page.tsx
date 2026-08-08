@@ -3,7 +3,7 @@ import Connections from '@/components/Connections';
 import { getAllSignals, getSignal } from '@/lib/signals';
 import { getSector } from '@/lib/sectors';
 import { getCaseStudy } from '@/lib/caseStudies';
-import { withBase } from '@/lib/base';
+import { withBase, canonical } from '@/lib/base';
 import type { Metadata } from 'next';
 
 export function generateStaticParams() {
@@ -14,7 +14,16 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const { id } = await params;
   const s = getSignal(id);
   if (!s) return {};
-  return { title: `${s.title} | Fathom Signals`, description: s.summary };
+  const title = s.seoTitle ? `${s.seoTitle} | Fathom` : `${s.title} | Fathom Signals`;
+  const description = s.seoDescription ?? s.summary;
+  const url = canonical(`/signals/${id}/`);
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: { title, description, url, type: 'article' },
+    twitter: { title, description },
+  };
 }
 
 const WHEN_LABEL: Record<string, string> = {

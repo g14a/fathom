@@ -1,10 +1,11 @@
 import { getAllCaseStudies } from '@/lib/caseStudies';
 import type { Metadata } from 'next';
-import { withBase } from '@/lib/base';
+import { withBase, canonical } from '@/lib/base';
 
 export const metadata: Metadata = {
-  title: 'Patterns | Fathom',
-  description: 'The handful of ways companies get into trouble, and where each one shows up in a filing.',
+  title: 'Business & Investing Patterns: Reusable Mental Models | Fathom',
+  description: 'The reusable mental models behind good businesses and bad ones, from pricing power to working capital, and where each one shows up in a company’s filings.',
+  alternates: { canonical: canonical('/patterns/') },
 };
 
 // Derived pattern names and a teachable order; everything else comes from the

@@ -3,9 +3,19 @@
 // so we prefix those manually via withBase().
 export const BASE = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
+// The canonical production origin (no trailing slash). Overridable per deploy.
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://fathomjournal.in').replace(/\/$/, '');
+
 export function withBase(path: string): string {
   if (!path.startsWith('/')) return path; // external or relative, leave as-is
   return BASE + path;
+}
+
+// Absolute canonical URL for a site path, honouring basePath and trailingSlash.
+export function canonical(path: string): string {
+  const p = withBase(path);
+  const slashed = p.endsWith('/') ? p : `${p}/`;
+  return SITE_URL + slashed;
 }
 
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];

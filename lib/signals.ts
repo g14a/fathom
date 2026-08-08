@@ -120,6 +120,8 @@ export interface Signal {
   dateline: string;    // e.g. "Start here" or "Feb 2025"
   tags: string[];
   summary: string;     // one-line hook for the index card
+  seoTitle?: string;   // search-oriented <title> (the visible H1 stays editorial)
+  seoDescription?: string; // search-oriented meta description
   event: string[];     // what happened, in plain words (aim for 100-150 words)
   trigger?: string;    // the single business change the event reduces to
   triggerLabel?: string; // overrides the default "The one equation" kicker

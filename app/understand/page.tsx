@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
-import { withBase } from '@/lib/base';
+import { withBase, canonical } from '@/lib/base';
 
 export const metadata: Metadata = {
-  title: 'Understand a Business | Fathom',
-  description: 'Eight plain questions that turn any ticker into a business you actually understand.',
+  title: 'How to Understand a Business: 8 Questions for Investors | Fathom',
+  description: 'Eight plain questions that turn any ticker into a business you actually understand: how it makes money, why customers buy, who sets the price, and what could break it.',
+  alternates: { canonical: canonical('/understand/') },
 };
 
 interface QLink {

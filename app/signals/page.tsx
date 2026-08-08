@@ -1,10 +1,11 @@
 import { getAllSignals } from '@/lib/signals';
 import type { Metadata } from 'next';
-import { withBase } from '@/lib/base';
+import { withBase, canonical } from '@/lib/base';
 
 export const metadata: Metadata = {
-  title: 'Signals | Fathom',
-  description: 'How to read the big market-moving events. Budgets, rate decisions, tariffs, explained as changes to business economics, not news.',
+  title: 'Market Signals: How Big Events Move Indian Businesses | Fathom',
+  description: 'How to read the big market-moving events. Budgets, RBI rate decisions, commodity moves and tariffs, explained as changes to business economics, not news.',
+  alternates: { canonical: canonical('/signals/') },
 };
 
 export default function SignalsIndex() {

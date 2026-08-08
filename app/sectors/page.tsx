@@ -1,10 +1,11 @@
 import { getAllSectors } from '@/lib/sectors';
 import type { Metadata } from 'next';
-import { withBase } from '@/lib/base';
+import { withBase, canonical } from '@/lib/base';
 
 export const metadata: Metadata = {
-  title: 'Sectors | Fathom',
-  description: 'How each sector actually works, and the handful of metrics that decide the story.',
+  title: 'Sectors: How Indian Industries Work & Make Money | Fathom',
+  description: 'How each Indian sector actually works: how companies make money, what drives demand and margins, and the handful of metrics that decide the story.',
+  alternates: { canonical: canonical('/sectors/') },
 };
 
 export default function SectorsIndex() {

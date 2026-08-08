@@ -1,10 +1,11 @@
 import { getAllCaseStudies } from '@/lib/caseStudies';
 import type { Metadata } from 'next';
-import { withBase } from '@/lib/base';
+import { withBase, canonical } from '@/lib/base';
 
 export const metadata: Metadata = {
-  title: 'Case Studies | Fathom',
-  description: 'Real stories from Indian markets, and the one lesson each one teaches.',
+  title: 'Business Case Studies from Indian Markets | Fathom',
+  description: 'Deep-dive business case studies from Indian markets: what happened, why, and the one durable lesson each one teaches an investor.',
+  alternates: { canonical: canonical('/case-studies/') },
 };
 
 export default function CaseStudiesIndex() {
