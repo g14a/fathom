@@ -56,6 +56,38 @@ export interface Lens {
   reading: string;
 }
 
+// Optional bespoke visuals (currently used by ECLERX to frame the AI debate).
+export interface ForkBranch {
+  label: string;        // "eClerx captures the value"
+  outcomes: string[];   // ["Outcome pricing", "Revenue per employee ↑"]
+  tone: 'good' | 'bad';
+}
+
+export interface AiFork {
+  premise: string;      // the framing sentence above the diagram
+  trigger: string;      // the shared cause, e.g. "AI arrives → human effort falls"
+  branches: ForkBranch[]; // exactly two: the two ways the value can flow
+  takeaway: string;     // one line under the fork
+}
+
+export interface Scorecard {
+  intro?: string;       // one line: what this table is for
+  rows: { metric: string; good: string; bad: string; why: string }[];
+  note?: string;
+}
+
+export interface Counterpoint {
+  heading: string;      // "What if AI makes outsourcing more valuable?"
+  body: string;         // the steelman
+  caveat: string;       // the honest qualifier
+}
+
+export interface MoneyFlow {
+  intro?: string;       // optional lead-in
+  steps: { label: string; value: string }[]; // vertical flow, top to bottom
+  spread: string;       // the punchline: what the spread is
+}
+
 export interface EconomicEngineStep {
   label: string;        // "Demand", "Revenue", "Margins"
   value: string;        // "Weddings and festivals", "Gold volume"
@@ -113,6 +145,12 @@ export interface TickerReport {
   overview: string;
   ipoFlag?: string;
   editorial?: CompanyEditorial;
+
+  // optional bespoke visuals
+  moneyFlow?: MoneyFlow;   // rendered inside the business model block
+  aiFork?: AiFork;         // rendered as a standalone framing section
+  counterpoint?: Counterpoint; // the steelman, rendered under the AI fork
+  scorecard?: Scorecard;   // rendered before the summary
 
   // 1b. business model
   business: {

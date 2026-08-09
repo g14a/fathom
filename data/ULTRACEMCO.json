@@ -168,10 +168,6 @@
   },
   "valuation": [
     {
-      "label": "Price",
-      "value": "₹11,903"
-    },
-    {
       "label": "Market Cap",
       "value": "₹3,50,757 cr"
     },
@@ -195,10 +191,6 @@
       "value": "₹277.10"
     },
     {
-      "label": "Div Yield",
-      "value": "2.02%"
-    },
-    {
       "label": "Book Value",
       "value": "₹2,600"
     }
@@ -216,7 +208,7 @@
       "revenue": 63240,
       "netProfit": 5073,
       "eps": 175.41,
-      "patMargin": 8.0
+      "patMargin": 8
     },
     {
       "year": "FY24",
@@ -230,7 +222,7 @@
       "revenue": 75955,
       "netProfit": 6040,
       "eps": 204.94,
-      "patMargin": 8.0
+      "patMargin": 8
     },
     {
       "year": "FY26",

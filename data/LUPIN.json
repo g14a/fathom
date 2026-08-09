@@ -173,10 +173,6 @@
   },
   "valuation": [
     {
-      "label": "Price",
-      "value": "₹2,415"
-    },
-    {
       "label": "Market Cap",
       "value": "₹1,10,422 cr"
     },
@@ -198,10 +194,6 @@
     {
       "label": "EPS (TTM)",
       "value": "₹116.65"
-    },
-    {
-      "label": "Div Yield",
-      "value": "0.75%"
     },
     {
       "label": "Book Value",

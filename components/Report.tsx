@@ -1,5 +1,7 @@
 import type {
   TickerReport, Metric, FinancialRow, HoldingSlice, ChecklistItem, MoatStrength,
+  MoneyFlow as MoneyFlowT, AiFork as AiForkT, Scorecard as ScorecardT,
+  Counterpoint as CounterpointT,
 } from '@/lib/types';
 import { getSector } from '@/lib/sectors';
 import { getCaseStudiesForTicker } from '@/lib/caseStudies';
@@ -100,6 +102,79 @@ function Checklist({ items }: { items: ChecklistItem[] }) {
           </div>
         </div>
       ))}
+    </div>
+  );
+}
+
+function MoneyFlow({ f }: { f: MoneyFlowT }) {
+  return (
+    <div className="money-flow">
+      {f.intro && <p className="tight" style={{ color: 'var(--ink-dim)' }}>{f.intro}</p>}
+      <div className="mf-chain">
+        {f.steps.map((s, i) => (
+          <div key={i} className="mf-node">
+            <div className="mf-label">{s.label}</div>
+            <div className="mf-value">{s.value}</div>
+            {i < f.steps.length - 1 && <div className="mf-arrow">↓</div>}
+          </div>
+        ))}
+      </div>
+      <div className="mf-spread">{f.spread}</div>
+    </div>
+  );
+}
+
+function AiFork({ f }: { f: AiForkT }) {
+  return (
+    <section className="ai-fork">
+      <div className="af-kicker">The AI fork</div>
+      <p className="af-premise">{f.premise}</p>
+      <div className="af-trigger">{f.trigger}</div>
+      <div className="af-split-arrow">↓</div>
+      <div className="af-branches">
+        {f.branches.map((b, i) => (
+          <div key={i} className={`af-branch af-${b.tone}`}>
+            <div className="af-branch-label">{b.label}</div>
+            <ul className="af-outcomes">
+              {b.outcomes.map((o) => <li key={o}>{o}</li>)}
+            </ul>
+          </div>
+        ))}
+      </div>
+      <p className="af-takeaway">{f.takeaway}</p>
+    </section>
+  );
+}
+
+function Counterpoint({ c }: { c: CounterpointT }) {
+  return (
+    <section className="counterpoint">
+      <div className="cp-kicker">The counterargument</div>
+      <h3>{c.heading}</h3>
+      <p>{c.body}</p>
+      <p className="cp-caveat">{c.caveat}</p>
+    </section>
+  );
+}
+
+function Scorecard({ s }: { s: ScorecardT }) {
+  return (
+    <div className="scorecard">
+      {s.intro && <p className="tight" style={{ color: 'var(--ink-dim)' }}>{s.intro}</p>}
+      <div className="sc-table">
+        <div className="sc-head">
+          <span>Metric</span><span className="sc-good">Good sign</span><span className="sc-bad">Bad sign</span><span>Why it matters</span>
+        </div>
+        {s.rows.map((row, i) => (
+          <div key={i} className="sc-row">
+            <span className="sc-metric">{row.metric}</span>
+            <span className="sc-good">{row.good}</span>
+            <span className="sc-bad">{row.bad}</span>
+            <span className="sc-why">{row.why}</span>
+          </div>
+        ))}
+      </div>
+      {s.note && <p className="tight" style={{ color: 'var(--ink-faint)' }}>{s.note}</p>}
     </div>
   );
 }
@@ -280,6 +355,9 @@ export function Report({ r }: { r: TickerReport }) {
 
       <EditorialModel r={r} />
 
+      {r.aiFork && <AiFork f={r.aiFork} />}
+      {r.counterpoint && <Counterpoint c={r.counterpoint} />}
+
       <Block num="01" title="Company Overview">
         <p>{r.overview}</p>
         {r.ipoFlag && <p className="tight" style={{ color: 'var(--ink-faint)' }}>{r.ipoFlag}</p>}
@@ -288,6 +366,7 @@ export function Report({ r }: { r: TickerReport }) {
       <Block num="02" title="Business Model & Industry">
         <p><strong style={{ color: 'var(--ink)' }}>Unit of revenue:</strong> {r.business.unitOfRevenue}</p>
         <p className="tight"><strong style={{ color: 'var(--ink)' }}>Model:</strong> {r.business.revenueModel}</p>
+        {r.moneyFlow && <MoneyFlow f={r.moneyFlow} />}
         <div className="chips">
           {r.business.segments.map((s) => (
             <span key={s.name} className="chip">{s.name} — {s.pct}% · {s.marginProfile}</span>
@@ -362,6 +441,14 @@ export function Report({ r }: { r: TickerReport }) {
         <p className="tight"><strong style={{ color: 'var(--ink)' }}>Price action (12M):</strong> {r.priceAction}</p>
       </Block>
 
+      {r.caseStudies?.map((cs, i) => (
+        <Block key={i} num={`11.${i + 1}`} title={cs.title}>
+          {cs.period && <div className="eyebrow" style={{ marginBottom: 10 }}>{cs.period}</div>}
+          {cs.body.map((p, j) => <p key={j} className={j > 0 ? 'tight' : undefined}>{p}</p>)}
+          {cs.lesson && <div className="cs-lesson" style={{ marginTop: 14 }}>{cs.lesson}</div>}
+        </Block>
+      ))}
+
       {getCaseStudiesForTicker(r.ticker).map((cs) => (
         <a key={cs.id} href={withBase(`/case-studies/${cs.id}/`)} className="sector-cta" style={{ marginTop: 22 }}>
           <div className="sc-cta-text">
@@ -408,6 +495,12 @@ export function Report({ r }: { r: TickerReport }) {
           ))}
         </div>
       </Block>
+
+      {r.scorecard && (
+        <Block num="15.1" title="AI Transition Scorecard">
+          <Scorecard s={r.scorecard} />
+        </Block>
+      )}
 
       <Block num="16" title="Summary">
         <p style={{ fontSize: 17 }}>{r.summary}</p>

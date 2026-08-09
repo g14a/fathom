@@ -1,0 +1,469 @@
+{
+  "ticker": "BLS",
+  "company": "BLS International Services Ltd",
+  "sector": "Business Services",
+  "industry": "Visa & Consular Outsourcing",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-08-08",
+  "verdict": "accumulate",
+  "oneLiner": "A genuinely good business (visa outsourcing is a global two-horse race with fat margins and clean cash) that the market knocked down 36% on a government tender ban (since overturned by the Delhi High Court) and a low-margin acquisition spree. The core is intact. The question is whether the edges are getting muddier.",
+  "overview": "When you apply for a visa, you rarely deal with the embassy directly. You hand your passport, photos and forms to an office in a mall, pay a service fee, and that office does the paperwork, checks your documents and passes them to the government. BLS is one of the two companies that runs those offices for governments around the world. It gets paid a fee for every application it processes. That is the whole business: a government does not want to run visa counters itself, so it outsources the queue, the forms and the front desk to BLS. The company does this in 80+ countries for 46+ government clients, which makes it the number-two player globally behind VFS Global.",
+  "editorial": {
+    "realBusiness": "BLS is not really in the paperwork business. It is in the trusted-middleman business between travellers and governments.",
+    "whyExists": "Governments have limited counters and limited staff, but visa demand is lumpy and huge. BLS deserves to exist because it takes the messy, high-volume front desk off the government's hands, and once a government hands you that job across a country, it does not casually take it back.",
+    "whyNotAlreadyWon": "Because winning means signing governments one by one, building physical centres, and clearing security and data vetting in each country. That is slow, unglamorous work, which is exactly why only two players have real global scale.",
+    "mentalModels": [
+      {
+        "model": "Switching Cost",
+        "strength": 4,
+        "why": "Once a government routes its visa pipeline through you, re-tendering and re-migrating is painful and risky."
+      },
+      {
+        "model": "Scale / Network",
+        "strength": 4,
+        "why": "80+ country footprint lets BLS win multi-country mandates a small local player cannot."
+      },
+      {
+        "model": "Duopoly Structure",
+        "strength": 4,
+        "why": "Two serious global players means pricing is not a race to zero."
+      },
+      {
+        "model": "Trust / Vetting",
+        "strength": 4,
+        "why": "Handling passports and personal data means governments only trust a short, vetted list of vendors."
+      },
+      {
+        "model": "Cash Conversion",
+        "strength": 5,
+        "why": "Fees are collected up front from applicants, so cash comes in fast and receivables stay tiny."
+      },
+      {
+        "model": "Margin-Mix Risk",
+        "strength": 2,
+        "why": "The new digital and loan-distribution business earns far thinner margins and drags the blend down."
+      }
+    ],
+    "economicEngine": [
+      {
+        "label": "Base demand",
+        "value": "Cross-border travel and migration",
+        "note": "More people travelling and moving means more visa applications."
+      },
+      {
+        "label": "Unit",
+        "value": "One visa application",
+        "note": "BLS earns a service fee on every application it processes."
+      },
+      {
+        "label": "Volume",
+        "value": "4.41 million applications (FY26)",
+        "note": "Growth comes from new government mandates plus rising travel."
+      },
+      {
+        "label": "Gross take",
+        "value": "~Rs 3,302 net revenue per application",
+        "note": "Value-added services (courier, premium lounge, form help) lift the take."
+      },
+      {
+        "label": "Operating profit",
+        "value": "~40% EBITDA on the visa segment",
+        "note": "The self-managed model keeps more of each fee than the old partner model did."
+      },
+      {
+        "label": "Capital required",
+        "value": "Light for visa, heavy for M&A",
+        "note": "Visa centres are cheap. Acquisitions are where the cash goes now."
+      },
+      {
+        "label": "Returns",
+        "value": "ROCE 29%, ROE 33%",
+        "note": "High returns because the core needs little capital to grow."
+      }
+    ],
+    "strategicPosition": [
+      {
+        "label": "Local / regional vendor",
+        "description": "Can win one country, but cannot service a global government mandate.",
+        "tone": "weak"
+      },
+      {
+        "label": "BLS",
+        "description": "Global number two: fewer countries than VFS, but real scale and a growing footprint.",
+        "tone": "focus"
+      },
+      {
+        "label": "VFS Global",
+        "description": "The global leader with the widest government-client base. Unlisted.",
+        "tone": "strong"
+      }
+    ],
+    "winningToday": [
+      "Governments keep outsourcing visa front desks, and the pie itself is growing with travel.",
+      "The shift to a self-managed model lifted visa-segment margins toward 40%.",
+      "Cash conversion is excellent: fees are collected up front, debtor days sit around 21.",
+      "It is a global duopoly, so pricing is not a knife-fight to the bottom."
+    ],
+    "stopWinning": [
+      "A single regulator can hurt it: the MEA barred BLS from new Indian-mission tenders for two years, and even though the Delhi High Court set the order aside, it showed how one government can dent the story overnight.",
+      "The digital and loan-distribution push earns 4-5% margins and dilutes the blended quality.",
+      "Buying growth (iDATA, Citizenship Invest, Aadifidelis, RDWA) risks overpaying and messy integration.",
+      "Government contracts do eventually re-tender, and reputation matters when they do."
+    ],
+    "marketBets": [
+      "Travel and migration keep growing.",
+      "The MEA episode stays a one-off (the court has already set the ban aside), not the first of many regulator fights.",
+      "The visa core holds its ~40% margin as digital scales.",
+      "Acquisitions earn their price rather than just adding low-margin revenue."
+    ],
+    "sectorModels": [
+      {
+        "model": "Pricing Power",
+        "reading": "Medium",
+        "note": "A duopoly with sticky government contracts, but governments are still large buyers."
+      },
+      {
+        "model": "Switching Cost",
+        "reading": "Strong",
+        "note": "Re-migrating a live visa pipeline is risky, so incumbents tend to stay."
+      },
+      {
+        "model": "Working Capital",
+        "reading": "Excellent",
+        "note": "Fees collected up front; debtor days around 21."
+      },
+      {
+        "model": "Regulatory Risk",
+        "reading": "High",
+        "note": "One government's decision can dent sentiment, as the MEA ban showed before the court reversed it."
+      },
+      {
+        "model": "Margin-Mix",
+        "reading": "Deteriorating",
+        "note": "Fast-growing digital earns a fraction of the visa margin."
+      }
+    ],
+    "whyNow": "The business kept compounding while the stock fell 36%. Cash flow is clean, ROE is stable near 33%, and the multiple has compressed to about 15x. Much of what spooked the market has since eased: the Delhi High Court set aside the MEA tender ban in December 2025. What lingers is foreign investors trimming and the worry that the digital push dilutes the crown jewel.",
+    "remember": "BLS is a fee-per-application machine wrapped in a global duopoly. The core is excellent. Watch that the digital detour and one angry regulator do not spoil it."
+  },
+  "ipoFlag": "No repackaging games. BLS is an established, long-listed company, not a shell that bolted 'Tech', 'AI' or 'Defence' onto its name before an IPO.",
+  "business": {
+    "unitOfRevenue": "One visa (or passport or consular) application. Think of it like a tea stall paid per cup: BLS earns a service fee every time someone applies, plus extras for add-ons like courier delivery, premium lounges and form assistance. In FY26 it processed 4.41 million applications at roughly Rs 3,302 of net revenue each in the core segment.",
+    "revenueModel": "Fee per transaction, under multi-year government mandates. BLS bids for and wins the right to run a government's visa or consular front office, then earns on every application for the life of that contract.",
+    "segments": [
+      {
+        "name": "Visa & Consular Services",
+        "pct": 61,
+        "marginProfile": "The crown jewel. About 40% segment EBITDA margin."
+      },
+      {
+        "name": "Digital Services",
+        "pct": 39,
+        "marginProfile": "Thin. Roughly 4-5% EBITDA (loan distribution, e-governance)."
+      }
+    ],
+    "revenuePerUnitTrend": "Revenue per application in the visa business is holding up and even rising as BLS sells more add-on services on top of the base fee. The problem is not the visa fee. It is the mix. The digital business is growing far faster (revenue doubled year on year) but earns a fraction of the margin, so the blended margin gets pulled down even as the company grows. This is the single most important thing to watch: do not apply the fat visa margin to the whole company.",
+    "industry": {
+      "structure": "Global duopoly. BLS and VFS Global are the two players with real global scale; a long tail of small regional vendors sits below them.",
+      "competitors": "VFS Global is the clear leader with the widest government-client base (unlisted). TLScontact and smaller regional firms fill gaps. BLS is the global number two.",
+      "pricingPower": "Sits mostly with BLS once a contract is won, because switching a live visa pipeline is risky. But governments are large buyers, and tenders can be competitive, so it is not unlimited.",
+      "demandDriver": "Cross-border travel and migration. Every person who needs a visa is a potential application. More travel, more students moving abroad, more workers migrating: all of it feeds the counter.",
+      "driverType": "Structural (rising global travel and the long trend of governments outsourcing) sitting on top of a cyclical travel base.",
+      "tam": "Large and growing global visa-outsourcing market. In 2024 BLS held about 17% by value and 10% by volume (excluding the US), so there is real room to take share.",
+      "penetration": "Under-penetrated. Growth is a mix of the pie growing (more travel) and formalisation (more governments outsourcing what they used to run themselves), not just fighting over a fixed number of applications.",
+      "valueChainPosition": "The trusted middleman between the traveller and the government. That position is defensible because governments hand it out slowly and take it back reluctantly."
+    },
+    "qualityVerdict": "The core visa business is genuinely high quality: a global duopoly, sticky government contracts, ~40% segment margins, and cash collected up front so the books are clean. That is a rare combination. The honest catch is two-fold. First, the digital and loan-distribution push earns 4-5% margins and is diluting the blend even as it flatters revenue, so watch segment margins, not the headline. Second, a single regulator can bite: the MEA barred BLS from new Indian-mission tenders for two years, and though the Delhi High Court set that order aside in December 2025, the episode showed the vulnerability is real. Own it for the duopoly core, but keep one eye on the mix and the regulator."
+  },
+  "valuation": [
+    {
+      "label": "Market Cap",
+      "value": "₹10,472 cr"
+    },
+    {
+      "label": "52W High / Low",
+      "value": "₹399 / ₹218"
+    },
+    {
+      "label": "Stock P/E",
+      "value": "14.8",
+      "hint": "check: 254 / 16.68 = 15.2",
+      "tone": "good"
+    },
+    {
+      "label": "P/B",
+      "value": "4.24",
+      "tone": "neutral"
+    },
+    {
+      "label": "EPS (TTM)",
+      "value": "₹16.68"
+    },
+    {
+      "label": "Book Value",
+      "value": "₹59.8"
+    }
+  ],
+  "financials": [
+    {
+      "year": "FY22",
+      "revenue": 850,
+      "netProfit": 111,
+      "eps": 2.72,
+      "patMargin": 13
+    },
+    {
+      "year": "FY23",
+      "revenue": 1516,
+      "netProfit": 204,
+      "eps": 4.89,
+      "patMargin": 13
+    },
+    {
+      "year": "FY24",
+      "revenue": 1677,
+      "netProfit": 326,
+      "eps": 7.6,
+      "patMargin": 19
+    },
+    {
+      "year": "FY25",
+      "revenue": 2193,
+      "netProfit": 540,
+      "eps": 12.34,
+      "patMargin": 25
+    },
+    {
+      "year": "FY26",
+      "revenue": 2998,
+      "netProfit": 724,
+      "eps": 16.68,
+      "patMargin": 24
+    }
+  ],
+  "ratios": [
+    {
+      "label": "ROE",
+      "value": "33%",
+      "tone": "good"
+    },
+    {
+      "label": "ROCE",
+      "value": "29.3%",
+      "tone": "good"
+    },
+    {
+      "label": "PAT Margin",
+      "value": "~24%",
+      "hint": "watch the digital dilution",
+      "tone": "good"
+    },
+    {
+      "label": "P/B",
+      "value": "4.24",
+      "tone": "neutral"
+    },
+    {
+      "label": "Debtor Days",
+      "value": "21",
+      "hint": "fees collected up front",
+      "tone": "good"
+    }
+  ],
+  "cashFlow": [
+    {
+      "year": "FY24",
+      "ocf": 350,
+      "capex": 260,
+      "fcf": 286
+    },
+    {
+      "year": "FY25",
+      "ocf": 829,
+      "capex": 1119,
+      "fcf": 668
+    },
+    {
+      "year": "FY26",
+      "ocf": 903,
+      "capex": 446,
+      "fcf": 766
+    }
+  ],
+  "cashFlowNote": "This is the strong part of the story. Operating cash flow beats reported profit every year (about 125% of profit in FY26), free cash flow is comfortably positive, and debtor days sit around 21 because applicants pay their fee up front. There is no revenue booked on someone else's promise to pay later, no percentage-of-completion trickery. The one line that looks odd is FY25 capex of Rs 1,119 cr, but that is the acquisition spree (iDATA, Citizenship Invest and others), not a hole in the operating business. When a fast-growing company also throws off cash like this, the growth is real.",
+  "growth": [
+    {
+      "label": "Sales CAGR 5Y",
+      "value": "44%",
+      "tone": "good"
+    },
+    {
+      "label": "Profit CAGR 5Y",
+      "value": "69%",
+      "hint": "FY22 was a COVID-suppressed base",
+      "tone": "neutral"
+    },
+    {
+      "label": "Profit CAGR 3Y",
+      "value": "~49%",
+      "tone": "good"
+    },
+    {
+      "label": "Q1 FY27 PAT",
+      "value": "+11%",
+      "hint": "vs revenue +25%: the mix drag showing up",
+      "tone": "warn"
+    },
+    {
+      "label": "Stock CAGR 5Y",
+      "value": "47%",
+      "hint": "profit grew faster (69%): PE compressed",
+      "tone": "neutral"
+    }
+  ],
+  "management": "Promoter-led, with the family holding 70.39%. Judge them by what they did: the shift from a partner-run to a self-managed model lifted visa-segment margins meaningfully, and operating cash flow consistently beats profit, which is an operator's scorecard. The worry is the other half of their behaviour. They have gone on an acquisition spree (iDATA in Turkey for about Rs 450 cr, Citizenship Invest, Aadifidelis, RDWA, a stake in SLW Media), and much of that has pushed BLS into low-margin loan distribution and media. That looks more like buying revenue and chasing themes than deepening the core. It is not a red flag on honesty; it is a question about focus and capital allocation. Watch whether these deals earn their price or just pad the top line.",
+  "holding": [
+    {
+      "label": "Promoter",
+      "pct": 70.39,
+      "qoqChange": 0
+    },
+    {
+      "label": "Retail",
+      "pct": 22.33,
+      "qoqChange": 1.91
+    },
+    {
+      "label": "FII",
+      "pct": 4.14,
+      "qoqChange": -2.23
+    },
+    {
+      "label": "DII",
+      "pct": 3.1,
+      "qoqChange": 0.11
+    }
+  ],
+  "moat": {
+    "strength": "narrow",
+    "sources": [
+      "Global duopoly structure (only two players at scale)",
+      "Switching cost on live government contracts",
+      "80+ country footprint for multi-country mandates",
+      "Trust and data vetting: governments use a short approved list"
+    ],
+    "note": "The moat is real. A government does not casually re-tender a running visa pipeline, and only two firms can service a global mandate, so pricing does not collapse. But be honest about the ceiling and the flank. VFS sits above BLS on client breadth, and the moat protects against small local rivals, not against a determined regulator. The MEA tender ban was exactly that flank attack: not a competitor beating BLS, but one government slamming a door (the Delhi High Court reopened it in December 2025). Narrow, genuine, worth defending, but exposed on the regulatory side."
+  },
+  "caseStudies": [
+    {
+      "title": "The MEA tender ban, explained (and overturned)",
+      "period": "October to December 2025",
+      "body": [
+        "MEA stands for the Ministry of External Affairs, the Indian government department that runs India's embassies and consulates abroad (called Indian Missions). When an Indian living overseas renews a passport, or a foreigner applies for an Indian visa, the paperwork often flows through a private company the MEA has hired to run the counters. BLS is one of those hired companies.",
+        "On 9 October 2025 the MEA issued an order barring BLS from bidding on any new MEA and Indian-Mission contracts for two years. A tender is simply a bidding contest: the government says it needs someone to run its visa or passport counters in a country, companies bid, and the winner gets the contract. The ban means that for two years BLS is not allowed to enter those contests for Indian-government work.",
+        "The reason, per the order, was a mix of court cases involving the company and complaints from passport applicants about its service. Neither BLS nor the MEA disclosed the specific incidents. So this is a service-quality and reputation matter, not a fraud or accounting one. That distinction matters: the books are clean, the trust with one client got dented.",
+        "Here is the part that kept it from being fatal even at the time. The ban applied only to future tenders. Existing contracts kept running, so the visa and passport services BLS operates for Indian missions continued without disruption, and Indian missions were only about 12% of revenue (Q1 FY26). The stock still fell around 18% on the day, because the market cared less about the 12% and more about what the order revealed: a single regulator can hurt BLS with one decision.",
+        "Then it got resolved. BLS challenged the order in court, and on 18 December 2025 the Delhi High Court set the debarment aside, restoring the company's right to bid for MEA and Indian-mission tenders. The stock rallied about 7% on the news. A word of caution: a High Court can quash an order on procedural grounds (for example, if the government did not follow fair process before debarring), which is not the same as the underlying complaints being found baseless, and the government can in principle appeal or re-issue a cleaner order. So treat the overhang as lifted, not erased."
+      ],
+      "lesson": "Think of BLS as a caterer running the food counter at many government offices. One department got complaints and told BLS it could keep its current contracts but could not bid for new ones for two years. BLS went to court, and the judge threw the order out. Annoying while it lasted, reputationally bruising, but reversible. The real lesson is not this one order, it is that the business is exposed to a single regulator's mood, so watch whether a second one ever follows."
+    }
+  ],
+  "narrative": "BLS came out of the COVID travel trough in FY22 and then hit a different gear. The switch to a self-managed model pushed margins from 13% to the mid-20s, revenue more than tripled to Rs 2,998 cr in four years, and profit went from Rs 111 cr to Rs 724 cr. Then two things spooked the market. In October 2025 the Ministry of External Affairs barred BLS from bidding on new Indian-mission tenders for two years (Indian missions were about 12% of Q1 FY26 revenue, and existing contracts continued). The Delhi High Court set that order aside in December 2025 and the stock bounced about 7%, so the biggest overhang has lifted. The second worry is slower to fade: through FY25 and FY26 the company bought its way into low-margin digital and loan distribution, raising questions about focus. Foreign investors cut their stake from about 6.8% to 4.1%, and the stock fell roughly 36% from its high even as earnings kept growing. So the business improved and the price went down.",
+  "priceAction": "About ₹399 down to ₹254 over twelve months, a fall of roughly 36%, and down around 39% for the year against a small-cap index that barely moved. The cause is mostly narrative, not a broken business. FY26 revenue rose 37% and profit kept climbing, so nothing in the numbers justifies a fall of that size on its own. What actually moved the price: the MEA tender ban in October 2025 (an 18% single-day drop), foreign investors trimming their stake, and a growing worry that the digital push is diluting the quality of the earnings. The ban itself was reversed by the Delhi High Court in December 2025, which removes the sharpest of those fears. When a stock falls on optics while the core keeps compounding, the two usually reconverge. The open question now is the mix drag, not the ban.",
+  "risks": [
+    "Regulatory single-point risk. One government (here, the MEA) barred BLS from new tenders for two years. The Delhi High Court set that order aside in December 2025, but the government could appeal or re-issue a cleaner order, and the episode proves a single regulator can dent the story fast. Medium.",
+    "Margin-mix dilution. The digital and loan-distribution business earns 4-5% margins and is growing fastest, so the blended margin keeps getting pulled down even as revenue grows. Medium-High.",
+    "Acquisition risk. A rapid buying spree (iDATA, Citizenship Invest, Aadifidelis, RDWA, SLW Media) risks overpaying and messy integration, and much of it is into lower-quality lines. Medium.",
+    "Foreign selling. FIIs have cut their stake sharply, and that alone can cap the stock regardless of results. Medium.",
+    "Government as buyer. Contracts eventually re-tender, and large government buyers can squeeze pricing over time. Medium."
+  ],
+  "trapChecklist": [
+    {
+      "label": "Profit up, cash flow not",
+      "status": "pass",
+      "note": "OCF beats profit every year (~125% in FY26)"
+    },
+    {
+      "label": "Receivables blowing up",
+      "status": "pass",
+      "note": "Debtor days around 21; fees collected up front"
+    },
+    {
+      "label": "Project / POC accounting",
+      "status": "na",
+      "note": "Fee-per-application, not project accounting"
+    },
+    {
+      "label": "Promoter pledging",
+      "status": "pass",
+      "note": "No material pledge flagged"
+    },
+    {
+      "label": "FII exit into retail",
+      "status": "warn",
+      "note": "FII cut from ~6.8% to 4.1%; retail rose"
+    },
+    {
+      "label": "Margin-mix trap",
+      "status": "warn",
+      "note": "Low-margin digital growing fastest, diluting the blend"
+    },
+    {
+      "label": "Narrative sprawl",
+      "status": "warn",
+      "note": "Visa plus digital plus loans plus media: watch focus"
+    }
+  ],
+  "sectorChecklist": [
+    {
+      "label": "Duopoly structure",
+      "status": "pass",
+      "note": "Only BLS and VFS at global scale; pricing holds"
+    },
+    {
+      "label": "Cash conversion",
+      "status": "pass",
+      "note": "Fees up front, OCF beats profit, debtor days ~21"
+    },
+    {
+      "label": "Contract stickiness",
+      "status": "pass",
+      "note": "Re-migrating a live visa pipeline is risky for governments"
+    },
+    {
+      "label": "Regulatory exposure",
+      "status": "warn",
+      "note": "MEA ban (since overturned in court) showed single-regulator risk"
+    },
+    {
+      "label": "Segment margin trend",
+      "status": "warn",
+      "note": "Digital at 4-5% is diluting the ~40% visa margin"
+    }
+  ],
+  "summary": "BLS deserves a place on the watchlist. The core visa business is one of only two at global scale, earns roughly 40% segment margins, and collects its fees up front so the cash is real and the books are clean. It now trades at about 15x earnings after a 36% fall, and the fall was a de-rating driven by sentiment (a tender ban, foreign selling, mix worry), not by any crack in cash flow or returns. One of those fears has already cleared: the Delhi High Court set the MEA ban aside in December 2025. What keeps this at Accumulate rather than a stronger call is the remaining honest overhang, a low-margin acquisition spree that is diluting the quality of the earnings, plus the reminder that a single regulator can still bite. The sensible posture is to stage in rather than buy all at once and watch whether segment margins hold as digital scales. Not a buy or sell call. Do your own work and talk to a SEBI-registered adviser.",
+  "engine": {
+    "state": "multiple-drift",
+    "earnings": "The earnings engine is strong and, crucially, cash-backed: operating cash flow beats profit every year, ROE sits near 33%, and 5Y profit growth has run about 69%. But it is decelerating (69% over 5Y, ~49% over 3Y, and Q1 FY27 PAT growth of just 11% against revenue up 25%), and the deceleration is the mix drag from low-margin digital. The forward catalyst is real (full-year contribution from iDATA and other acquisitions, plus rising travel volumes), but so is the drag.",
+    "multiple": "The multiple engine has already fired against the stock. Over five years profit compounded about 69% while the stock only did 47%, so the PE compressed rather than expanded. That works out to a multiple drift of roughly minus 13% a year: the business grew faster than the price. At about 15x on a 33% ROE business, the multiple is not stretched.",
+    "verdict": "This is a coiled-spring setup in spirit: the business compounded while the multiple compressed, and because ROE stayed stable near 33% the compression looks driven by sentiment, not by any fall in the quality of returns. That makes re-rating free optionality on top of earnings growth. The caveats are why it is not a slam dunk: the engine is decelerating on mix. The MEA ban, once the sharpest overhang, was overturned in court in December 2025, which removes a key risk to the thesis. Odds: Neutral to favourable. Size conservatively, stage in, and watch the next couple of quarters for whether segment margins hold."
+  },
+  "lenses": [
+    {
+      "name": "The price fell while the business grew",
+      "reading": "Over five years profit compounded about 69% but the stock only 47%, so the multiple compressed rather than expanded. ROE stayed near 33% the whole time, which means the de-rating is about sentiment (a tender ban, foreign selling), not a fall in the quality of the business. That is the classic coiled-spring shape."
+    },
+    {
+      "name": "The moat is flanked, not beaten",
+      "reading": "No competitor took share from BLS. What hurt it was one government slamming a door: the MEA barred it from new Indian-mission tenders for two years, before the Delhi High Court reopened it in December 2025. Moats in this business get attacked from the regulatory flank, not head-on, so the risk to monitor is the next regulator, not the next rival."
+    },
+    {
+      "name": "Watch the mix, not the headline",
+      "reading": "The visa core earns about 40% margins; the fast-growing digital and loan business earns 4-5%. Apply the visa margin to the whole company and you will overrate it. Q1 FY27 already showed the drag: revenue up 25% but profit up only 11%. This is the single most important number to track."
+    },
+    {
+      "name": "The first slowdown tremor",
+      "reading": "Q1 FY27 is the first quarter where profit growth (11%) fell well below revenue growth (25%). First tremors deserve respect, not a quick rebound bet. Watch whether the next quarter confirms the mix drag or shrugs it off before sizing up."
+    }
+  ]
+}

@@ -173,10 +173,6 @@
   },
   "valuation": [
     {
-      "label": "Price",
-      "value": "₹3,398"
-    },
-    {
       "label": "Market Cap",
       "value": "₹4,22,613 cr"
     },
@@ -200,10 +196,6 @@
       "value": "₹137.50"
     },
     {
-      "label": "Div Yield",
-      "value": "0.97%"
-    },
-    {
       "label": "Book Value",
       "value": "₹749"
     }
@@ -214,7 +206,7 @@
       "revenue": 90171,
       "netProfit": 7253,
       "eps": 52.91,
-      "patMargin": 8.0
+      "patMargin": 8
     },
     {
       "year": "FY23",

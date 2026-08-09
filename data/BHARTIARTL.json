@@ -174,10 +174,6 @@
   },
   "valuation": [
     {
-      "label": "Price",
-      "value": "₹1,970"
-    },
-    {
       "label": "Market Cap",
       "value": "₹12,30,130 cr"
     },
@@ -199,10 +195,6 @@
     {
       "label": "EPS (TTM)",
       "value": "₹43.81"
-    },
-    {
-      "label": "Div Yield",
-      "value": "1.22%"
     },
     {
       "label": "Book Value",
@@ -228,7 +220,7 @@
       "year": "FY24",
       "revenue": 149982,
       "netProfit": 8558,
-      "eps": 13.20,
+      "eps": 13.2,
       "patMargin": 5.7
     },
     {
@@ -243,7 +235,7 @@
       "revenue": 210973,
       "netProfit": 33823,
       "eps": 43.81,
-      "patMargin": 16.0
+      "patMargin": 16
     }
   ],
   "ratios": [
@@ -336,7 +328,7 @@
     {
       "label": "Promoter",
       "pct": 50.07,
-      "qoqChange": 1.20
+      "qoqChange": 1.2
     },
     {
       "label": "FII",
