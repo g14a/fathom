@@ -157,6 +157,34 @@ a component/UI library.** Extend `globals.css`.
    - `capex`/`fcf` are optional — omit rather than invent them.
 3. `npm run build` and confirm the page generates.
 
+#### No-repeat rule: one job per prose slot (enforced)
+
+A report has ~13 prose fields, and the failure mode is every one of them
+re-arguing the same thesis. A reader then hits the AI-vs-moat point (or whatever
+the core tension is) a dozen times. State each idea **once**, in the slot that
+owns it, and let the other slots reference it, not re-argue it. Assign jobs:
+
+| Slot | Its ONE job | Does NOT |
+|---|---|---|
+| `oneLiner` | The full thesis, in one sentence. This is the only place it lives in full. | — |
+| `overview` | What the business *does*, in plain words. One hook to the tension, no verdict. | re-state returns/valuation |
+| `editorial.whyNotAlreadyWon` | Why the moat exists. | re-argue the risk in depth |
+| `editorial.whyNow` | Why the price/multiple is where it is *now*. | repeat the full thesis |
+| `business.qualityVerdict` | Operator quality (is it well run?). | re-argue the structural risk |
+| `moat.note` | What the moat is and its single honest caveat. | expand the caveat into the lens's argument |
+| `narrative` | The *history and numbers* story only. | re-state the price-vs-earnings line |
+| `priceAction` | Price mechanics only (levels, range). | explain *why* (that is engine's job) |
+| `engine.*` | The earnings/multiple/re-rating mechanics. | restate the business model |
+| `lenses[]` | Each = one distinct *angle*, argued in full here. | duplicate moat.note or engine |
+| `summary` | A 3-line recap that *references*, never re-argues. | introduce a new argument |
+| `editorial.remember` | One memorable sentence. | be a paragraph |
+
+Concrete tells to grep for before shipping a report: a headline data point
+(e.g. "stock fell 14% while profit rose 30%") should appear **once** as prose,
+plus optionally once as a metric `hint`. If it shows up in 5+ prose fields, cut
+it down. Same for the core tension: name it in `oneLiner`, develop it in its
+owning block (`aiFork`/`counterpoint`/a `lens`), reference it elsewhere.
+
 ### A new sector explainer
 Add/extend an entry in `SECTORS[]` (`lib/sectors.ts`). Give it `howItWorks`, and
 for full depth a `sections[]` array of teaching blocks (banks is the reference
