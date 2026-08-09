@@ -1,8 +1,16 @@
 import { getAllReports } from '@/lib/data';
-import { withBase } from '@/lib/base';
+import CompanySearch from '@/components/CompanySearch';
 
 export default function Home() {
   const reports = getAllReports();
+  const cards = reports.map((r) => ({
+    slug: r.slug!,
+    ticker: r.ticker,
+    company: r.company,
+    sector: r.sector,
+    industry: r.industry,
+    oneLiner: r.oneLiner,
+  }));
   return (
     <>
       <div className="hero">
@@ -18,18 +26,7 @@ export default function Home() {
       </div>
 
       <div className="wrap">
-        <div className="grid">
-          {reports.map((r) => (
-            <a key={r.slug} href={withBase(`/stocks/${r.slug}/`)} className="tcard">
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <span className="sym">{r.ticker}</span>
-              </div>
-              <div className="co">{r.company}</div>
-              <div className="meta">{r.sector === r.industry ? r.sector : `${r.sector} · ${r.industry}`}</div>
-              <div className="thesis">{r.oneLiner}</div>
-            </a>
-          ))}
-        </div>
+        <CompanySearch reports={cards} />
       </div>
     </>
   );
