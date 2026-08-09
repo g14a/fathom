@@ -515,7 +515,7 @@ export function Report({ r }: { r: TickerReport }) {
         ]}
       />
 
-      <div className="disclaimer">
+      <div className="disclaimer" style={{ borderTop: 'none', paddingTop: 40 }}>
         Figures are a point-in-time snapshot as of {formatDate(r.asOf)} and may be stale.
       </div>
     </div>
