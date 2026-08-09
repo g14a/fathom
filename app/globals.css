@@ -571,6 +571,36 @@ section.block:first-of-type { border-top: none; }
 .dg-fw-note { display: block; color: var(--ink-faint); font-size: 12.5px; line-height: 1.45; margin-top: 6px; }
 @media (max-width: 560px) { .dg-flywheel { grid-template-columns: 1fr; } }
 
+/* Price = EPS x P/E identity diagram (case studies) */
+.dg-eq { display: flex; align-items: stretch; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 16px 0 6px; }
+.dg-eq-term { flex: 1 1 180px; min-width: 150px; display: flex; flex-direction: column; gap: 6px; padding: 14px 16px; background: var(--bg-raised); border: 1px solid var(--border); border-radius: 10px; }
+.dg-eq-price { border-color: color-mix(in srgb, var(--good) 45%, var(--border)); }
+.dg-eq-pe { border-color: color-mix(in srgb, var(--accent) 50%, var(--border)); }
+.dg-eq-sym { font-family: var(--serif); font-size: 22px; font-weight: 600; color: var(--ink); }
+.dg-eq-price .dg-eq-sym { color: var(--good); }
+.dg-eq-pe .dg-eq-sym { color: var(--accent); }
+.dg-eq-note { font-size: 12.5px; line-height: 1.4; color: var(--ink-faint); }
+.dg-eq-op { display: flex; align-items: center; font-family: var(--mono); font-size: 22px; font-weight: 700; color: var(--ink-dim); padding: 0 2px; }
+@media (max-width: 560px) {
+  .dg-eq { flex-direction: column; }
+  .dg-eq-op { justify-content: center; padding: 2px 0; }
+}
+
+/* Three-forces cards (case studies) */
+.dg-forces { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 14px 0 6px; }
+.dg-force { position: relative; display: flex; flex-direction: column; gap: 6px; padding: 16px 16px 16px; background: var(--bg-raised); border: 1px solid var(--border); border-top: 2px solid var(--border-strong); border-radius: 10px; }
+.dg-force-good { border-top-color: var(--good); }
+.dg-force-accent { border-top-color: var(--accent); }
+.dg-force-dim { border-top-color: var(--ink-faint); }
+.dg-force-num { font-family: var(--mono); font-size: 11px; font-weight: 700; color: var(--ink-faint); }
+.dg-force-sym { font-family: var(--mono); font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--ink); }
+.dg-force-good .dg-force-sym { color: var(--good); }
+.dg-force-accent .dg-force-sym { color: var(--accent); }
+.dg-force-name { font-family: var(--serif); font-size: 17px; line-height: 1.2; color: var(--ink); }
+.dg-force-tag { font-family: var(--mono); font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.07em; font-weight: 700; color: var(--ink-faint); }
+.dg-force-note { font-size: 12.5px; line-height: 1.45; color: var(--ink-faint); }
+@media (max-width: 620px) { .dg-forces { grid-template-columns: 1fr; } }
+
 /* The five questions that explain a sector */
 .anatomy { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
 .anatomy-item { padding: 14px 18px; background: var(--bg-card); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; }

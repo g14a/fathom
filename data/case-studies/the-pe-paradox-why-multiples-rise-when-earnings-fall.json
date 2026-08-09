@@ -1,0 +1,169 @@
+{
+  "ticker": "VINATI",
+  "company": "Vinati Organics",
+  "title": "Why does a stock get more expensive when its earnings fall?",
+  "period": "FY20 → FY21",
+  "tags": ["Valuation", "Re-rating", "Framework"],
+  "summary": "A stock's price is earnings times a multiple. When the earnings drop but the price climbs, the multiple did all the work. Here is the mechanism, using Vinati Organics in COVID.",
+  "keyNumbers": [
+    { "label": "FY20 EPS", "value": "₹32.5" },
+    { "label": "FY21 EPS", "value": "₹26.2" },
+    { "label": "Earnings change", "value": "−19%" },
+    { "label": "The stock", "value": "Made new highs" }
+  ],
+  "intro": [
+    "Here is a paradox that trips up almost every beginner. A company's profit falls. Its earnings per share drops nearly a fifth. And over the very same stretch, the stock does not fall. It recovers, and then climbs to new highs. On paper the business got worse, yet the market decided it was worth more per rupee of profit than before.",
+    "This is not a glitch, and it is not the market being irrational. It is the single most important idea in valuation, and once you see the machinery behind it you will never read a P/E ratio the same way again. We will build the whole thing from one equation, and use a real Indian company, Vinati Organics, as the worked example."
+  ],
+  "sections": [
+    {
+      "heading": "The paradox, stated plainly",
+      "body": [
+        "Vinati Organics makes speciality chemicals. In the year to March 2020 (FY20) it earned about ₹32.5 of profit per share. The next year, FY21, its plants were shut for weeks in the COVID lockdown and demand for one of its key products softened. Earnings per share fell to about ₹26.2, a drop of roughly 19%.[^1]",
+        "A beginner would expect the stock to fall with the profit. It did the opposite. After the March 2020 crash it recovered and went on to new highs. So the market was paying a higher price relative to the earnings the business had just reported. How?",
+        "The answer is that the price of a stock is not the earnings. It is the earnings multiplied by something else. And that something else moved far more than the earnings did."
+      ]
+    },
+    {
+      "heading": "The whole thing is one equation",
+      "body": [
+        "We can take any stock price and split it into two numbers: the earnings the company has already reported per share, and the multiple investors are paying for those earnings. Price equals EPS times P/E.",
+        "That multiple is the price-to-earnings ratio, the P/E. It is simply how many rupees investors pay today for one rupee of the company's trailing earnings. A P/E of 30 means investors are paying ₹30 for every ₹1 of those trailing earnings.",
+        "One caveat, and it matters. This is an identity, not a theory of how the market sets prices. The P/E is defined using the price, so we are not claiming EPS and P/E cause the price. We are only decomposing it. The usefulness is exactly that: it lets us separate how much of a move came from earnings changing and how much came from the valuation changing. Read it slowly, because everything else here is a consequence of it: if the price moves, one of the two on the right moved, and it is worth knowing which."
+      ],
+      "diagram": "pe-identity"
+    },
+    {
+      "heading": "So a stock moves for two separate reasons",
+      "body": [
+        "Because price is earnings times a multiple, a rising stock can be doing one of two very different things. Either the earnings grew, or the multiple people pay for those earnings grew. Usually it is some of both.",
+        "This gives you a framework you can point at any stock, ever, and it is exact, not a rule of thumb. The ratio of the new price to the old is the ratio of the new EPS to the old, times the ratio of the new P/E to the old: P1/P0 = (EPS1/EPS0) times (PE1/PE0). In plain words, the change in your stock price is earnings growth combined with multiple expansion or contraction. So if a company grows profit 50% and the market also pays a 50% richer multiple, you do not make 50%, you make 125%, because 1.5 times 1.5, minus 1, is 125%. And if profit grows 50% while the multiple halves, you make almost nothing. The business did well and you still went nowhere.",
+        "This is why two investors can look at the same wonderful company and one triples his money while the other loses. They did not disagree about the business. They paid different multiples going in, and the multiple is half the engine."
+      ],
+      "lens": {
+        "label": "Carry these two questions through every case",
+        "questions": [
+          "Of the return this stock gave, how much came from earnings growing?",
+          "And how much came only from the market agreeing to pay a higher multiple?"
+        ]
+      }
+    },
+    {
+      "heading": "Why the two can pull in opposite directions: the time mismatch",
+      "body": [
+        "Now the crucial part. Why would the multiple rise exactly when earnings fall? Because the two numbers are looking in opposite directions in time.",
+        "Reported EPS is backward-looking. It is a photograph of a year that has already ended. The FY21 EPS is a fact about the past, and COVID is baked into it forever.",
+        "The price is forward-looking. Nobody buys a share for the profit the company made last year. They buy it for the stream of profits it will make in all the years ahead. The market can see a recovery coming months, sometimes years, before that recovery ever shows up in a reported number.",
+        "So in FY21 the market was doing something quite reasonable. It looked past a temporarily damaged year, saw a chemicals business with new capacity coming on and demand returning, and priced the future it expected, not the dented present it was handed. Earnings looked backward at the damage. Price looked forward past it. The gap between those two views is the expanding multiple."
+      ]
+    },
+    {
+      "heading": "Vinati Organics: the textbook case",
+      "body": [
+        "Put the pieces together on the real company. FY21 was Vinati's weak year: plants shut in the lockdown, softer demand, EPS down about 19% to ₹26.2. That is the denominator of the P/E falling.",
+        "Meanwhile the price, after crashing with the whole market in March 2020, recovered and pushed to new highs. That is the numerator rising. By the identity, if the price is up and EPS is down, the P/E must have risen by even more than the price did. The stock got more expensive on both counts at once.",
+        "And the recovery the market was pricing eventually arrived. Earnings snapped back the very next year: FY22 EPS returned to about ₹33.7, and FY23 rose further to about ₹40.8, comfortably past the pre-COVID level.[^2] The investors paying up in FY21 were, it turned out, paying for a recovery that arrived."
+      ],
+      "scorecard": {
+        "improved": "The share price. It recovered the COVID crash and made new highs while the profit was still down.",
+        "worsened": "Reported earnings. FY21 EPS fell about 19% to ₹26.2 as plants shut and demand softened.",
+        "shareholder": "Was rewarded, because the recovery the price was betting on actually showed up in FY22 and FY23.",
+        "labels": { "improved": "Price", "worsened": "Earnings", "shareholder": "The bet" }
+      }
+    },
+    {
+      "heading": "Two kinds of P/E expansion, and why the difference is everything",
+      "body": [
+        "A rising P/E is not one thing. It is two things that look identical on a screener and mean opposite things.",
+        "The first is price-led. The price goes up while earnings hold steady, so the market is genuinely paying more for the same earnings. This is a real re-rating: a change of opinion about the future. It might be right or wrong, but the market is now willing to pay more for the same rupee of earnings.",
+        "The second is earnings-led, and it is a trap for the unwary. The price barely moves, but earnings fall, so the P/E rises all by itself. Nobody re-rated anything. The denominator just shrank. A stock can look more and more 'expensive' on trailing P/E while the market is actually getting more worried about it, not less.",
+        "Vinati in FY21 had both working the same way: the price rose and earnings fell, so the multiple was lifted from the top and the bottom at once. But you must always ask which term is moving, because the same number, a higher P/E, can mean 'the market loves this' or merely 'last year was bad'."
+      ],
+      "diagram": "two-expansions"
+    },
+    {
+      "heading": "The deeper cut: three engines, not one",
+      "body": [
+        "Most people are taught a single sentence: a P/E rises when the market expects growth. It is not wrong, but it hides the most useful distinction in valuation. There are really three separate things at work here, and it pays to keep them in two boxes, not one.",
+        "Two of them are engines of your return. Earnings growth: the company genuinely earns more. And multiple expansion or contraction: the market chooses to pay more, or less, for each rupee of earnings, a real re-rating. Those two, multiplied together, are your entire return, exactly as the identity above showed.",
+        "The third is different, and it is the one that fools people. Call it denominator distortion: earnings fall, so the trailing P/E rises all by itself. Notice this one moves no share price at all. If EPS drops from ₹30 to ₹20 while the price sits still at ₹1,000, the P/E jumps from about 33 to 50 and the stock has not moved a rupee. It is not an engine of return; it is a way the reported multiple can mislead you.",
+        "This is what makes the Vinati chart worth staring at. Two things happened at once: the price genuinely rose (multiple expansion) while earnings fell (distortion), so the trailing P/E leapt from both ends together. And that is the point most beginners never reach: a rising P/E does not necessarily mean investors became more optimistic. Sometimes the multiple rises simply because the denominator shrank. When you see a P/E move on any screener, the useful question is not 'is this expensive?' but 'which of the three just fired: real earnings, the market's valuation, or only the denominator?'"
+      ],
+      "diagram": "three-forces"
+    },
+    {
+      "heading": "What a P/E ratio actually prices",
+      "body": [
+        "Here is the reframe that makes all of this click. The market never really asks 'what did this company earn last year?' It asks 'what will the whole stream of earnings look like over the years I am paying for today?'",
+        "The stock price reflects the market's assessment of the company's future. The P/E simply tells us how large that price is relative to the earnings the company has already reported. So a high P/E on a depressed earnings year can be the market saying that it does not believe the depressed year represents the company's true earnings power.",
+        "Those are the terms to keep: when the multiple rises it is a re-rating (or multiple expansion); when it falls it is a de-rating (or multiple contraction). And the return you finally pocket is earnings growth and the re-rating, multiplied together."
+      ]
+    },
+    {
+      "heading": "The honest other side",
+      "body": [
+        "None of this says a falling earnings number is good news, or that a rising multiple is a signal to buy. It is not. A rising P/E on falling earnings is the market placing a bet that the future is brighter than the reported present. Vinati's bet paid off. Plenty do not.",
+        "When the recovery the price was counting on fails to arrive, the same machinery runs in reverse. Earnings stay weak, the market loses faith, and the multiple contracts. Now both terms fall together and the stock drops hard, because it was carrying a hopeful multiple on top of weak earnings. That is de-rating, and it is exactly as brutal as re-rating is kind.",
+        "So the useful skill is not spotting that a multiple expanded. It is judging whether the future the expanded multiple is paying for is actually likely to show up. That judgement is the whole game, and this framework only tells you where to point it, not what the answer is."
+      ]
+    },
+    {
+      "heading": "Using this yourself",
+      "body": [
+        "Here is the habit to carry away, and it works on any stock screener. A screener only knows today's number. It shows you a P/E, and sometimes that the P/E has risen, but it cannot tell you why it rose. It cannot see the company's own history. So it can never, on its own, tell a genuine re-rating apart from a denominator that simply shrank.",
+        "That is what the chart in this piece is for. Pull up any company's P/E against its own long-run median, with its earnings alongside, and the answer becomes visible in one look. Is the multiple sitting above its own history while earnings hold steady or rise? That is real optimism, a price-led re-rating. Is the P/E high only because the earnings bars dipped? That is the trap, the multiple inflating on a falling denominator while nothing hopeful has actually happened.",
+        "Two cautions before you trust what you see. First, mismatched clocks: comparing a one-year price move against multi-year earnings growth can make an ordinary year look like a re-rating, so line up the same period on both sides. Second, cyclicals: in a business whose profits swing with a commodity or a demand cycle, a high trailing P/E often just means earnings are near a low, not that the market has fallen in love. In those, a low P/E on peak earnings can be the more dangerous number.",
+        "None of this tells you what to buy. It tells you which question you are actually answering. Not 'is this P/E high?', but 'which engine moved it, and do I believe the future it is paying for?'"
+      ],
+      "lens": {
+        "label": "Two steps, every time",
+        "questions": [
+          "Narrow with the screener, but never trust it to explain a P/E: it cannot see the past.",
+          "Confirm on the P/E-vs-median chart: multiple above its history with earnings holding is optimism; a P/E up only because earnings fell is the trap."
+        ]
+      }
+    }
+  ],
+  "evidence": {
+    "caption": "The numbers behind the paradox",
+    "rows": [
+      { "label": "FY19 EPS", "value": "₹27.5", "source": "Screener.in" },
+      { "label": "FY20 EPS", "value": "₹32.5", "source": "Screener.in" },
+      { "label": "FY21 EPS (COVID year)", "value": "₹26.2", "source": "Screener.in" },
+      { "label": "FY22 EPS (recovery)", "value": "₹33.7", "source": "Screener.in" },
+      { "label": "FY23 EPS", "value": "₹40.8", "source": "Screener.in" },
+      { "label": "FY21 earnings change", "value": "−19% vs FY20", "source": "Derived from the above" }
+    ],
+    "note": "The point is the shape, not the decimals: earnings dipped in FY21 and recovered strongly after, while the price never waited for the dip to pass. That gap is the expanding multiple."
+  },
+  "exhibits": [
+    {
+      "src": "/case-studies/vinati-pe-vs-eps.png",
+      "caption": "The paradox in one picture. The pale bars are trailing (TTM) earnings per share; the purple line is the P/E. Follow the COVID window, roughly Jun 2020 to Sep 2021: the earnings bars sag while the P/E line climbs to its highest point on the chart. Price was racing ahead of a dented earnings number. The multiple was doing the apparent lifting. Notice the mirror image on the right, 2024 into 2025: earnings keep rising to fresh highs while the P/E line falls back below its median, a de-rating, the same machinery in reverse. The EPS bars here are trailing twelve-month (TTM) EPS, the same denominator as the P/E line. The annual figures in the evidence table below are reported full-year EPS, a slightly different measure, which is why the two will not match to the decimal.",
+      "source": "Screener.in, 10-year PE Ratio vs TTM EPS, Vinati Organics"
+    }
+  ],
+  "sources": [
+    { "label": "Vinati Organics financials, Screener.in", "url": "https://www.screener.in/company/VINATIORGA/consolidated/" },
+    { "label": "Vinati Q3 FY21 results: COVID-hit quarter (Business Standard)", "url": "https://www.business-standard.com/article/news-cm/vinati-organics-consolidated-net-profit-declines-5-06-in-the-march-2021-quarter-121051300662_1.html" }
+  ],
+  "evidenceNotes": [
+    { "id": 1, "note": "FY20 and FY21 EPS of about ₹32.5 and ₹26.2 are from Screener.in, a roughly 19% year-on-year fall. The company's own quarterly commentary attributed the weakness to the COVID lockdown (plants suspended from 26 March 2020, resumed 20 April 2020) and softer demand.", "confidence": "high" },
+    { "id": 2, "note": "FY22 and FY23 EPS of about ₹33.7 and ₹40.8 are from Screener.in, showing earnings recovered past the pre-COVID level within two years.", "confidence": "high" }
+  ],
+  "timeline": [
+    { "when": "26 Mar 2020", "what": "Vinati suspends plant operations as the national COVID lockdown begins; the whole market has already crashed." },
+    { "when": "20 Apr 2020", "what": "Operations resume, but the FY21 year will carry the damage of the shutdown and softer demand." },
+    { "when": "Through FY21", "what": "Reported EPS falls about 19% to ₹26.2, even as the share price recovers the crash and pushes to new highs. The trailing P/E expands from both ends." },
+    { "when": "FY22", "what": "EPS returns to about ₹33.7, back above the pre-COVID level: the recovery the price had bet on arrives." },
+    { "when": "FY23", "what": "EPS rises further to about ₹40.8, confirming FY21 was a dip, not the true earnings power." }
+  ],
+  "patternCard": {
+    "signal": "A stock's trailing P/E rises while its reported earnings fall.",
+    "mechanism": "Price equals EPS times P/E. EPS is a photograph of a past year; price is a bet on all future years. When the market looks past a temporarily weak year to a recovery it can already see, price rises while EPS falls, so the multiple expands from both ends.",
+    "whereToCheck": "Compare the price chart against the yearly EPS line (both on any screener). If price rose while EPS fell, the multiple did the work. Then split any return into earnings growth times multiple change to see which lever actually paid you.",
+    "counterexample": "A rising multiple on falling earnings is a bet on recovery, not proof of one. When the recovery never arrives, the multiple contracts and both terms fall together, so the stock drops harder than the earnings alone would suggest."
+  },
+  "lesson": "When a P/E changes, ask which of three engines moved it: earnings grew, the market paid a higher multiple, or earnings fell so the multiple rose on its own. The stock price reflects the market's assessment of the company's future; the P/E only tells you how large that price is relative to the earnings already reported. That is why the multiple can rise while earnings fall, and why a rising P/E does not, by itself, mean the market turned more optimistic.",
+  "remember": "When a P/E rises while earnings fall, first ask whether the price actually rose. If it did, the market may be looking beyond the current earnings number; if it did not, the multiple may have risen only because the denominator shrank. In either case, the real question is whether the future implied by the valuation actually arrives."
+}

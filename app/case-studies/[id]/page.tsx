@@ -276,6 +276,132 @@ function renderDiagram(id: string): React.ReactNode {
       </figure>
     );
   }
+  if (id === 'pe-identity') {
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">The whole framework in one line</span>
+          <span className="dg-badge">Identity</span>
+        </div>
+        <div className="dg-eq">
+          <div className="dg-eq-term dg-eq-price">
+            <span className="dg-eq-sym">Price</span>
+            <span className="dg-eq-note">what investors are willing to pay today. Forward-looking.</span>
+          </div>
+          <span className="dg-eq-op" aria-hidden="true">=</span>
+          <div className="dg-eq-term">
+            <span className="dg-eq-sym">EPS</span>
+            <span className="dg-eq-note">earnings already reported. Backward-looking.</span>
+          </div>
+          <span className="dg-eq-op" aria-hidden="true">×</span>
+          <div className="dg-eq-term dg-eq-pe">
+            <span className="dg-eq-sym">P / E</span>
+            <span className="dg-eq-note">the valuation multiple implied by today's price relative to those earnings.</span>
+          </div>
+        </div>
+        <figcaption className="dg-cap">
+          Careful with the directions. The price is forward-looking: it is a bet on all future years. The EPS is
+          backward-looking: a fact about a year that has ended. The P/E is neither. It is simply the ratio between the
+          two, telling you how large the price is relative to the earnings already reported. Keep those roles straight
+          and most confusion about valuation disappears.
+        </figcaption>
+      </figure>
+    );
+  }
+  if (id === 'two-expansions') {
+    const priceLed = [
+      'Price rises, EPS roughly flat',
+      'The market now pays more for the same rupee of earnings',
+      'This is a genuine re-rating: a change of opinion',
+      'It is a bet on the future, and it can be right or wrong',
+    ];
+    const denominatorDriven = [
+      'Price roughly flat, EPS falls',
+      'The multiple rises on its own, mechanically',
+      'Nobody re-rated anything: the denominator just shrank',
+      'A cheap-looking business can get "expensive" while doing nothing',
+    ];
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">Two ways a P/E goes up</span>
+          <span className="dg-badge">Same number, opposite meanings</span>
+        </div>
+        <div className="dg-consol">
+          <div className="dg-col">
+            <div className="dg-col-head">Price-led: the market re-rates</div>
+            <ul className="dg-namelist dg-namelist-live">
+              {priceLed.map((n) => <li key={n}>{n}</li>)}
+            </ul>
+          </div>
+          <div className="dg-arrow dg-arrow-vs" aria-hidden="true">vs</div>
+          <div className="dg-col">
+            <div className="dg-col-head">Denominator-driven: the denominator shrinks</div>
+            <ul className="dg-namelist dg-namelist-dim">
+              {denominatorDriven.map((n) => <li key={n}>{n}</li>)}
+            </ul>
+          </div>
+        </div>
+        <figcaption className="dg-cap">
+          A rising trailing P/E tells you nothing on its own. You have to ask which term moved. If the price did the
+          work, the market changed its mind about the future. If falling earnings did the work, the multiple rose while
+          the market was arguably getting more worried, not less. So a rising P/E does not necessarily mean investors
+          became more optimistic.
+        </figcaption>
+      </figure>
+    );
+  }
+  if (id === 'three-forces') {
+    const cards = [
+      {
+        name: 'Earnings growth',
+        sym: 'EPS ↑',
+        tag: 'Engine of return',
+        cls: 'dg-force-good',
+        note: 'The company genuinely earns more. This is the honest engine, and it moves the stock price.',
+      },
+      {
+        name: 'Multiple expansion',
+        sym: 'P/E ↑',
+        tag: 'Engine of return',
+        cls: 'dg-force-accent',
+        note: 'The market pays more for each rupee of earnings. A real re-rating. It moves the price too, and can be right or wrong.',
+      },
+      {
+        name: 'Denominator distortion',
+        sym: 'EPS ↓ ⇒ P/E ↑',
+        tag: 'Distorts the multiple',
+        cls: 'dg-force-dim',
+        note: 'Earnings fall, so the trailing P/E rises on its own. The share price need not move at all. Not a return, just a way the number misleads.',
+      },
+    ];
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">Two engines, and one distortion</span>
+          <span className="dg-badge">Which one just fired?</span>
+        </div>
+        <div className="dg-forces">
+          {cards.map((c, i) => (
+            <div key={c.name} className={`dg-force ${c.cls}`}>
+              <span className="dg-force-num">{String(i + 1).padStart(2, '0')}</span>
+              <span className="dg-force-sym">{c.sym}</span>
+              <span className="dg-force-name">{c.name}</span>
+              <span className="dg-force-tag">{c.tag}</span>
+              <span className="dg-force-note">{c.note}</span>
+            </div>
+          ))}
+        </div>
+        <figcaption className="dg-cap">
+          The lazy summary is "P/E rises when the market expects growth." The truer picture: two of these are engines of
+          your return (earnings growth and the change in the multiple, which multiply together), and the third is not a
+          return at all, only a way falling earnings can inflate the reported P/E. Vinati mixed one of each: the price
+          genuinely rose (expansion) while earnings fell (distortion), so the multiple leapt from both ends. Keeping the
+          two boxes apart is the whole skill.
+        </figcaption>
+      </figure>
+    );
+  }
   return null;
 }
 
