@@ -17,6 +17,7 @@ const PATTERN_META: { id: string; name: string }[] = [
   { id: 'airtel-the-lost-decade-2007-2020', name: 'Growth that never reaches the owner' },
   { id: 'bse-the-toll-booth-boom-2023-2026', name: 'A toll booth on someone else’s boom' },
   { id: 'asian-paints-distribution-machine-2000-2026', name: 'The capacity attack on a moat' },
+  { id: 'nse-vs-bse-the-moat-that-moved-1875-2026', name: 'A liquidity moat that outlasts the technology' },
 ];
 
 // Body text may carry [^n] evidence markers meant for the full study; strip them here.
@@ -86,7 +87,7 @@ export default function PatternsPage() {
             A pattern is not a verdict. It is a reason to open the filing and look. The counterexample
             on each card is there so the lesson never hardens into a superstition.
           </p>
-          <div className="attrib">Six stories. Six shapes. One habit: check the note, not the headline.</div>
+          <div className="attrib">Seven stories. Seven shapes. One habit: check the note, not the headline.</div>
         </div>
       </div>
     </>
