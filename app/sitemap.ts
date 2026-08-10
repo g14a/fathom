@@ -25,8 +25,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const all = [...staticPaths, ...companyPaths, ...sectorPaths, ...signalPaths, ...casePaths];
 
+  const lastModified = new Date();
+
   return all.map((path) => ({
     url: canonical(path),
+    lastModified,
     changeFrequency: path === '/' ? 'weekly' : 'monthly',
     priority: path === '/' ? 1 : path.split('/').filter(Boolean).length <= 1 ? 0.8 : 0.6,
   }));
