@@ -62,7 +62,7 @@
       "heading": "Why NSE was created",
       "body": [
         "The push to build a rival was already underway before the scandal that most people associate with it. A committee led by Manohar Pherwani, chairman of UTI, had been examining India's exchange structure since 1991, and its answer was blunt. India needed an exchange that was demutualised, meaning owned by shareholders rather than by the very brokers who traded on it, so that the people running the exchange and the people trading on it were not the same people policing themselves. It needed trading that happened on screens rather than a floor, with prices visible to everyone at once rather than shouted into a pit that only a few hundred people could hear. And it needed settlement that a regulator could actually audit.",
-        "Then, in April 1992, journalist Sucheta Dalal broke the story of what became known as the Harshad Mehta scam, a stockbroker who had exploited weak settlement checks between banks and the exchange to divert money into rigging share prices. The scandal did not invent the case for reform; the Pherwani committee had already made it. What the scandal did was turn a technical committee recommendation into an urgent political one. It made SEBI, until then a toothless watchdog, into a statutory regulator with real power, and it removed any remaining argument for leaving BSE's opaque, broker-run structure alone. The reform was already designed. The scandal appears to have accelerated the political push for those reforms.",
+        "The timing here is easy to get backwards, so it is worth being precise. SEBI's statutory powers came from an ordinance the government issued in late January 1992, and Parliament passed the SEBI Act itself in early April 1992, giving SEBI real regulatory teeth for the first time. It was only later that month, on 23 April 1992, that journalist Sucheta Dalal broke the story of what became known as the Harshad Mehta scam, a stockbroker who had exploited weak settlement checks between banks and the exchange to divert money into rigging share prices. So SEBI was already a statutory regulator when the scandal became public, not created because of it. What the scandal did was remove any remaining argument for leaving BSE's opaque, broker-run structure alone, and keep the pressure on for the reforms the Pherwani committee had already recommended and the government had already begun enacting.",
         "The National Stock Exchange was incorporated in November 1992, promoted by IDBI and other financial institutions rather than by brokers, structured from day one the way the Pherwani committee had recommended, and recognised by SEBI in April 1993. It began trading its wholesale debt segment on 30 June 1994 and its equity (capital market) segment on 3 November 1994, connected nationwide by satellite links (VSAT) so a broker in Ahmedabad or Kolkata saw the identical live price a broker in Mumbai saw. There was no floor to be physically present on. The whole point was that presence no longer mattered."
       ]
     },
@@ -78,7 +78,7 @@
       "heading": "The twist: BSE got to derivatives first, and still lost",
       "body": [
         "If the story stopped there, you might still conclude that NSE's technology was simply superior and BSE's was not, and that this explains everything. One of the clearest pieces of evidence against that reading is derivatives, because there BSE was not behind. It was first.",
-        "On 9 June 2000, BSE launched Sensex futures, the first index derivative to trade on an Indian exchange. NSE launched its own Nifty futures three days later, on 12 June 2000[^2]. For a few days, BSE genuinely had the more modern product and a head start on its biggest rival. It did not matter. NSE went on to capture the overwhelming majority of India's derivatives turnover, with its share reported above 95% at various points over the following two decades. BSE's derivatives segment, despite being first out of the gate, 'found no takers,' in the words of contemporaneous market reporting, and effectively went quiet for the better part of twenty years.",
+        "On 9 June 2000, BSE launched Sensex futures, the first index derivative to trade on an Indian exchange. NSE launched its own Nifty futures three days later, on 12 June 2000[^2]. For a moment BSE's head start actually showed: in that first month it held around 61% of the small, new combined derivatives market. It did not last. Within about eighteen months, by November 2001, NSE's volumes had multiplied roughly 250-fold against BSE's much smaller gain, and NSE's share had climbed to around 99%. BSE tried again more than once after that, including a relaunch attempt in 2010 with a new settlement structure and a different expiry cycle, and each attempt 'found no takers,' in the words of contemporaneous market reporting. Its derivatives segment stayed a rounding error for the better part of twenty years, not for lack of trying but because trying wasn't the constraint.",
         "Why would liquidity follow NSE into a brand-new product it hadn't even launched first? Because the crowd was already standing there for a different reason. Traders already had their cash-market accounts, broker relationships and trading habits on NSE, and the Nifty index was already the more familiar benchmark to them. When index derivatives arrived, traders didn't have to go looking for a new venue to trade a new product; they just added it to the exchange they were already on. Liquidity, in other words, doesn't only compound within one product. It can spill from one product into the next, as long as they share the same exchange and the same crowd.",
         "That is the fact that breaks the easy technology story. Being first to market with the modern product did not save BSE, because the modern product was never the thing that mattered. What mattered was whether traders believed a counterparty would be waiting on the other side of their order, and by 2000 traders already believed that about NSE and not about BSE, for reasons that had nothing to do with derivatives at all. The moat had already moved, before this particular battle even began."
       ]
@@ -108,7 +108,7 @@
     {
       "heading": "BSE finds a new battlefield",
       "body": [
-        "The most interesting twist in this whole story happened decades after most people had stopped watching. Rather than trying to out-build NSE in the exact same product, BSE went looking for a corner of the derivatives market NSE didn't already own outright, and it found one in the calendar itself: NSE's weekly index-options expiry sat on one weekday, so BSE scheduled its own Sensex weekly expiry on a different weekday, undercut NSE sharply on fees, and by April 2026 briefly reported more derivatives market share than NSE for the first time (a figure that, as the evidence notes below flag, rests on press coverage rather than a primary exchange dataset). That story, the toll booth that caught a boom, is told in full in the companion case study on BSE's 2023 to 2026 re-rating.",
+        "The most interesting twist in this whole story happened decades after most people had stopped watching. Rather than trying to out-build NSE in the exact same product, BSE went looking for a corner of the derivatives market NSE didn't already own outright, and it found one in the calendar itself: NSE's weekly index-options expiry sat on one weekday, so BSE scheduled its own Sensex weekly expiry on a different weekday, undercut NSE sharply on fees, and by April 2026 briefly reported more derivatives market share than NSE for the first time (a figure that, as the evidence notes below flag, rests on press coverage rather than a primary exchange dataset). That story, [the toll booth that caught a boom](/case-studies/bse-the-toll-booth-boom-2023-2026/), is told in full in the companion case study on BSE's 2023 to 2026 re-rating.",
         "The move worked for a specific reason that fits everything above: BSE stopped trying to pull traders away from NSE's expiry day, and instead created a new day with a pool of its own. It didn't beat the network effect. It built a smaller one that NSE didn't already have a lock on."
       ]
     },
@@ -147,6 +147,11 @@
         "label": "First index derivative in India",
         "value": "BSE Sensex futures, 9 Jun 2000 (NSE Nifty futures followed 12 Jun 2000)",
         "source": "Business Standard"
+      },
+      {
+        "label": "Derivatives share, BSE vs NSE, first month vs 18 months later",
+        "value": "BSE ~61% (Jun 2000) → NSE ~99% (Nov 2001)",
+        "source": "Business Standard, \"The battle of the bourses\""
       },
       {
         "label": "NSE's derivatives market share, 2000s-2010s",
@@ -217,6 +222,14 @@
       "url": "https://www.business-standard.com/amp/article/markets/new-derivatives-cycle-fails-to-click-for-bse-110022600006_1.html"
     },
     {
+      "label": "The battle of the bourses (Business Standard)",
+      "url": "https://www.business-standard.com/amp/article/management/the-battle-of-the-bourses-110071900037_1.html"
+    },
+    {
+      "label": "SEBI Act timeline: ordinance and passage, Jan-Apr 1992 (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Securities_and_Exchange_Board_of_India"
+    },
+    {
       "label": "What is BSE StAR MF (Flattrade)",
       "url": "https://flattrade.in/support/knowledge-base/what-is-bse-star-mf/"
     },
@@ -243,7 +256,7 @@
         "document": "The Pherwani Committee report, and NSE's incorporation documents",
         "check": "NSE was chartered from the start as demutualised (broker-owned trading rights separated from exchange ownership) and screen-based, structurally unlike BSE.",
         "meaning": "It was a clue, not a verdict: the two exchanges were being built around fundamentally different ways of accessing the market, one open to anyone with a terminal, the other requiring a physical seat. Nobody could yet know NSE would win. The design difference just told you the two could not compete on equal footing.",
-        "lead": "~2-3 years before the crossover"
+        "lead": "~4-5 years before the crossover"
       },
       {
         "when": "August 1996",
@@ -282,11 +295,15 @@
       "what": "The Pherwani Committee begins recommending a demutualised, screen-based national exchange, ahead of any scandal."
     },
     {
-      "when": "April 1992",
-      "what": "The Harshad Mehta scam is exposed, turning the committee's recommendation into an urgent one; SEBI is made a statutory regulator."
+      "when": "Jan-Apr 1992",
+      "what": "SEBI is made a statutory regulator by ordinance, then the SEBI Act, on the Pherwani committee's recommendation."
     },
     {
-      "when": "1992",
+      "when": "23 Apr 1992",
+      "what": "The Harshad Mehta scam is exposed, after SEBI already had statutory power; it keeps the pressure on for the reforms already underway."
+    },
+    {
+      "when": "Nov 1992",
       "what": "NSE is incorporated on the Pherwani committee's design: demutualised, screen-based, promoted by financial institutions, not brokers."
     },
     {
@@ -299,7 +316,7 @@
     },
     {
       "when": "9-12 June 2000",
-      "what": "BSE launches Sensex futures, India's first index derivative; NSE launches Nifty futures three days later and goes on to capture the overwhelming majority of derivatives turnover for the next two decades."
+      "what": "BSE launches Sensex futures, India's first index derivative, with about 61% of the new combined market in its first month; NSE launches Nifty futures three days later and, within 18 months, holds around 99% of it."
     },
     {
       "when": "2000s-2010s",
@@ -323,12 +340,12 @@
   "evidenceNotes": [
     {
       "id": 1,
-      "note": "Monthly turnover figures for BSE (~₹480 cr) and NSE (~₹1,035 cr) around August 1996 are drawn from contemporaneous Business Standard market reporting. Treated as directionally solid (NSE clearly ahead within about two years of its equity launch); exact monthly figures from a single archival news report carry medium confidence, not audited-filing-level certainty.",
-      "confidence": "medium"
+      "note": "Monthly turnover figures for BSE (~₹480 cr) and NSE (~₹1,035 cr) around August 1996 match precisely across contemporaneous Business Standard reporting. High confidence on the figures and the roughly two-year timeline from NSE's equity launch.",
+      "confidence": "high"
     },
     {
       "id": 2,
-      "note": "BSE launching Sensex futures on 9 June 2000, three days ahead of NSE's Nifty futures on 12 June 2000, and BSE's subsequent two decades of negligible derivatives volume, are both drawn from Business Standard market reporting from the period. High confidence on the sequence and dates; the exact share BSE held over those two decades is not precisely quantified here beyond '95%+ to NSE' as reported at various points.",
+      "note": "BSE launching Sensex futures on 9 June 2000, three days ahead of NSE's Nifty futures on 12 June 2000, is confirmed across multiple contemporaneous sources: high confidence. BSE's ~61% share in the first month, falling to NSE's ~99% by November 2001, and BSE's failed 2010 relaunch attempt, are also sourced to Business Standard reporting from the period: high confidence on the sequence and direction, medium on the exact percentages. The claim that BSE's share stayed negligible for most of the following two decades is not precisely quantified year by year here and remains medium confidence.",
       "confidence": "medium"
     },
     {
