@@ -20,6 +20,7 @@ export interface SignalSection {
   body: string[];
   diagram?: string; // 'chain', or 'fanout:N' to render fanouts[N] after the body
   evidenceAfter?: boolean; // render the evidence block right after this section
+  image?: { src: string; alt: string; caption?: string }; // a figure rendered after the body
 }
 
 // The signature "which moved?" band: price / cost / volume, each asked or marked.
@@ -83,6 +84,7 @@ export interface SignalEvidence {
   metricLabel: string;  // e.g. "Net interest margin (NIM)"
   unit: string;         // e.g. "%"
   prediction: string;   // the explicit if-then before any number is shown
+  predictionLabel?: string; // overrides the default "The prediction" kicker
   intro: string[];      // who fits the mechanism (examples, not a ranked claim)
   drivers?: {           // the spread taken apart, in one lead bank
     bankName: string;

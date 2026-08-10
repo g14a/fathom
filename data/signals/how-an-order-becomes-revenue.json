@@ -1,0 +1,248 @@
+{
+  "title": "What Happens After a Company Wins a Big Order?",
+  "kind": "Order books",
+  "dateline": "Dec 2021 to 2026",
+  "tags": [
+    "Order books",
+    "Execution",
+    "Book-to-bill",
+    "Cash conversion"
+  ],
+  "summary": "On 16 December 2021, Bharat Electronics said it had won a 2,400 crore order from HAL to build the avionics for 83 Tejas Mk1A fighters. The market cheered the same afternoon. But the money BEL will actually earn from that order was, on that day, still years away and not yet guaranteed. This signal follows that one order the whole way down the chain, so you learn to read every order announcement the same way.",
+  "seoTitle": "How an Order Becomes Revenue: Bharat Electronics (BEL) Tejas Avionics Order",
+  "seoDescription": "Follow one real Bharat Electronics order, the 2,400 crore HAL Tejas Mk1A avionics contract, from announcement through backlog, execution, revenue, profit and cash. Learn book-to-bill, order-book quality and why an order is not revenue.",
+  "event": [
+    "On 16 December 2021, Bharat Electronics (BEL) announced its largest ever avionics order: 2,400 crore rupees from Hindustan Aeronautics (HAL), to build 20 types of airborne electronic systems for 83 LCA Tejas Mk1A fighters. The next morning the headline read '2,400 crore order' and the stock reacted. It sounds simple. But what does that 2,400 crore actually mean for BEL's financials?",
+    "That is the question worth being curious about, because the honest answer is 'not what most people assume'. The number is not money BEL earned. It is not even money BEL will definitely earn. It is a promise of future work, and a promise raises four separate questions, each with a slower answer than the headline suggests. When does this order actually become revenue? How much profit is hidden inside it? When does BEL get paid the cash? And how much of any of this can we truly know from public filings, versus guess?",
+    "Hold those four questions in your head. To answer them, you have to follow this one order the whole way down a chain that most announcements hide: Order to Backlog to Execution to Revenue to Profit to Cash. Every arrow takes time, and each one introduces a different risk. Let us walk the 2,400 crore down it, one step at a time."
+  ],
+  "trigger": "An order is a promise of future work, not revenue. Everything else is the journey from that promise to cash in BEL's bank account.",
+  "triggerLabel": "The one idea",
+  "triggerBody": [
+    "Say it in three lines and you have the whole article: an order is not revenue, revenue is not profit, and profit is not cash. Each arrow in that chain takes time, and each one carries its own risk.",
+    "So when any company announces a big number, do not read it as money earned. Read it as the top of a pipeline, and start asking how fast, how profitably and how completely it will flow down."
+  ],
+  "leverBand": {
+    "title": "Which did the announcement move?",
+    "items": [
+      { "label": "Price", "mark": "no" },
+      { "label": "Cost", "mark": "no" },
+      { "label": "Volume (future)", "mark": "yes" }
+    ]
+  },
+  "mentalModels": [
+    { "name": "Order is not revenue", "why": "A won order is contracted future work. It becomes revenue only as the work is done and accepted, slice by slice, over years." },
+    { "name": "Book-to-bill", "why": "New orders divided by revenue. Above 1, the backlog is growing faster than it is being worked off. Below 1, the company is executing its pile faster than it is refilling it." },
+    { "name": "Execution capacity", "why": "The order book tells you what BEL has won. Its factories, people and supply chain decide how fast that backlog can turn into revenue." },
+    { "name": "Order-book quality", "why": "Two companies with the same 10,000 crore backlog can have completely different futures, depending on customer, margin, execution time and how quickly the cash arrives." },
+    { "name": "Revenue is not cash", "why": "Booking revenue records that work was delivered. The customer may pay upfront, on milestones, on acceptance, or months later. Cash is a separate, slower event." }
+  ],
+  "chainTitle": "From announcement to cash: follow the Tejas order",
+  "chain": [
+    "BEL announces the 2,400 crore HAL order. Clock: one afternoon. The market can re-price on the headline",
+    "The order joins BEL's backlog, the list of work it has won but not yet built. Clock: instant. Nothing is earned yet",
+    "BEL designs, procures, builds, integrates and tests the avionics units. Clock: years, roughly 2023 to 2028",
+    "As the work is delivered and control passes to HAL, that slice can be recognised as revenue. Clock: spread across the whole period",
+    "Revenue minus the cost of building the units is the profit inside the order. Clock: booked in the same quarter as the revenue",
+    "HAL pays according to the contract's payment terms. Clock: its own. Cash can arrive before or after the related revenue is recognised"
+  ],
+  "sections": [
+    {
+      "heading": "First, what exactly did BEL win?",
+      "body": [
+        "If you use a broker app, you have almost certainly seen alerts exactly like the ones below: a one-line flash that BEL has 'secured orders' worth some crore figure, tagged as boosting its order book and revenue visibility. That is how nearly every order reaches you, as a headline. This whole article is about what actually sits behind one of those lines.",
+        "Start with the one idea that fixes everything else: an order is a contract to do specific work, not 2,400 crore sitting in BEL's bank account. Nothing was received on 16 December 2021. BEL simply agreed to build things, and to be paid for them later, as and when they are built and accepted.",
+        "So what did the contract actually commit BEL to? Here is what the announcement plainly tells us. The customer is HAL, the state-owned company that assembles the Tejas aircraft, so BEL sits one link up the chain, supplying HAL rather than the Air Force directly. What BEL has to deliver is 20 types of airborne electronic systems, the industry calls them Line Replaceable Units, including the flight-control computer, the air-data computer, the weapons computer, the radar-warning receiver and the head-up display, enough to equip 83 Tejas Mk1A jets. The work is assigned to two BEL units, Bengaluru and Panchkula. And the timing is five years, reported as 2023 to 2028, tracking HAL's own aircraft delivery schedule. That alone tells you why the 2,400 crore was never going to land in one quarter: it arrives in slices, as jets get built.",
+        "Now be just as clear about what the announcement does not tell us, because this is where careless writing invents things. It does not disclose the margin inside the order, so we cannot say how profitable it is. It does not spell out the payment terms, so we cannot say when the cash arrives. It does not give a unit-by-unit delivery schedule, so we cannot pin revenue to specific quarters. Those are genuine unknowns, and we will treat them as unknowns rather than guesses. What we can safely say is only this: BEL has a firm, multi-year contract from a credible customer to build a defined set of avionics, and the financial impact follows the contract's execution and payment terms, not the headline."
+      ],
+      "image": {
+        "src": "/signals/bel-order-news.png",
+        "alt": "Broker-app news alerts announcing that Bharat Electronics has secured new orders worth 541 crore rupees",
+        "caption": "The kind of order alert you see in a broker app. (This is a separate, later BEL order, worth 541 crore, not the 2,400 crore Tejas order we follow here; it is shown only to illustrate how these headlines arrive.) Notice the framing: 'enhancing order book', 'boosts near-term revenue visibility'. True, but every one of those words hides the multi-year chain this article unpacks."
+      },
+      "diagram": "chain"
+    },
+    {
+      "heading": "Where the order goes: into the backlog",
+      "body": [
+        "The moment BEL signs, the 2,400 crore does not touch the profit and loss statement. It joins the order book, also called the backlog: the total value of work BEL has won but not yet delivered. Think of it as a pool of contracted work: BEL draws it down as it builds, and tops it up as it wins new orders.",
+        "If you have worked on a software team, you already know this shape. Every request that comes in becomes a ticket, and all the tickets pile up in a backlog. Nobody expects the backlog to be finished this week. The team pulls a few tickets into each sprint and closes them one by one, on a timeline the backlog itself does not set. A won order is similar: it sits in the backlog until the company performs the work that lets it recognise revenue. BEL's roughly 57,500 crore backlog is its ticket queue, and the Tejas order is one more ticket that joined the pile in December 2021, to be worked through over the sprints that follow, here measured in years rather than weeks.",
+        "That pool moves by one simple equation: opening backlog, plus new orders won, minus work executed and recognised as revenue, equals closing backlog. Put BEL's own reported numbers around the Tejas order into it. Its order book stood at about 57,530 crore at the close of FY22 (March 2022), against that year's sales of 15,368 crore. So the 2,400 crore Tejas order added a little over 4 percent to an already deep pool. That ratio, roughly 57,500 crore of backlog against 15,368 crore of yearly revenue, is the first useful reading: close to four years of work in hand.",
+        "But do not treat the backlog as next year's revenue. A pool of roughly 57,500 crore does not become 57,500 crore of sales next year; it converts over several years, at whatever speed execution allows, while new orders keep topping it up. And you cannot cleanly back out the closing backlog just by subtracting a year's revenue, because BEL also wins new orders through the year, occasionally revises or cancels old ones, and reports the figure on its own dates and definitions. Trust BEL's disclosed backlog, not your own arithmetic on annual sales. Which leaves the question that actually matters, and that the next section is about: how quickly, and how reliably, does BEL turn that pool into revenue?"
+      ]
+    },
+    {
+      "heading": "How BEL actually executes the Tejas order",
+      "body": [
+        "Winning is not delivering. Follow this specific contract through the steps BEL has to complete before a single rupee of it can become revenue, and at each step notice what could stall the conversion. The designs are largely settled up front: these are established Line Replaceable Units, several developed with DRDO labs, so this is a build-to-spec production order more than a fresh invention. Fact: the announcement lists 20 defined system types, which points to production rather than open-ended R&D.",
+        "First, procurement. Each avionics box needs components, and defence electronics lean heavily on specialised and imported parts, including semiconductors. This is the step most exposed to the outside world: the order was signed into the teeth of a global chip shortage, and a part that will not arrive holds up the whole unit. Next, manufacturing at the two assigned units, Bengaluru and Panchkula, where capacity and skilled labour set the pace; a plant already full of other defence work cannot instantly double Tejas output. Then integration and testing, where the boxes are proven to demanding military standards. A unit that fails testing is reworked, not shipped, and that pushes the whole timeline right. Finally, delivery to HAL and formal acceptance. Somewhere around this delivery-and-acceptance stage, once control of the goods has passed, the work can be booked as revenue. Exactly when, we treat as a general accounting question in the next section rather than assert for this specific contract, because BEL does not publish the treatment of this individual order.",
+        "Two of these steps sit outside BEL's control, and both are real risks to the schedule, not decorative worries. The first is components, just discussed. The second is that BEL cannot deliver faster than HAL can absorb: these avionics go into aircraft HAL is assembling on its own timeline, and the Tejas Mk1A programme has publicly slipped, largely on engine supply from the American vendor. Inference, clearly labelled: if HAL's jets are late, BEL's matching avionics deliveries and therefore its revenue on this order can be late too, however ready BEL is. So the backlog tells you what BEL has won, but its own execution, its suppliers and HAL's schedule decide how fast that becomes revenue. A firm, funded, credible order still converts at the speed of the slowest step, not the speed of the announcement."
+      ]
+    },
+    {
+      "heading": "When does the order actually become revenue?",
+      "body": [
+        "This is the section to slow down on, because the order date and the revenue date are two different things, sometimes years apart. BEL won this order on 16 December 2021. That is the order date. The revenue date is whenever BEL is allowed to record the work as sold, and that is governed by accounting rules, not by the press release.",
+        "Under the current standard (Ind AS 115), a company recognises revenue when control of the goods passes to the customer. For a supply-of-equipment contract like this, that generally means as batches of avionics are delivered and accepted by HAL, not when the contract is signed and not evenly by calendar. The important warning: do not assume delivery automatically equals a neat revenue entry. The precise trigger, whether revenue is booked at each acceptance or spread as the work progresses, depends on the exact contract terms, and BEL does not publish the accounting treatment of this single order. So we know the principle (revenue follows control, over the build) and we honestly do not know the order's exact quarter-by-quarter schedule.",
+        "A rough, clearly-labelled illustration of the shape, not a forecast: order won in December 2021, production and procurement through the years that follow, avionics delivered to HAL and accepted in batches, and revenue recognised on each accepted batch, stretched out towards the programme's roughly-2028 horizon. Do not divide 2,400 crore by five and call it an annual number; the real profile is lumpy and tied to HAL's aircraft schedule. So BEL could announce 2,400 crore in December 2021, record almost none of it as revenue that year, and still be doing exactly what it promised. A big order can take several years to show up in the reported top line."
+      ]
+    },
+    {
+      "heading": "How fast is the whole pool converting? Book-to-bill",
+      "body": [
+        "Zoom out from the one order to the whole company, and there is a single number that tells you whether the backlog is filling faster than it empties: book-to-bill. It is new orders won in a period, divided by revenue in that period. Above 1, orders are arriving faster than the company is working them off, so the pool is growing. Below 1, the company is delivering faster than it is refilling, so the pool shrinks, even if it is still enormous.",
+        "BEL is the ideal example because the number flipped. For years its book-to-bill sat comfortably above 1 and the backlog swelled. Then in the year to March 2025, BEL won about 19,485 crore of new orders (its 1 April provisional figure was 18,715 crore) against revenue of 23,769 crore. Divide one by the other and book-to-bill was about 0.8, below 1 for the year. The pool was still huge, around 71,650 crore at the start of April 2025, about three times annual revenue. But new orders had, for once, come in slower than the company was billing. That single ratio tells you something the raw backlog cannot: which way the pool is heading, not just how big it is."
+      ]
+    },
+    {
+      "heading": "How much profit is actually inside the 2,400 crore?",
+      "body": [
+        "2,400 crore of revenue does not tell you 2,400 crore of economic value. The value depends on the margin, and margin is exactly what an order announcement never states. Take two orders of the identical 1,000 crore headline. At a 10 percent margin, one throws off 100 crore of profit. At a 30 percent margin, the other throws off 300 crore, three times as much from the same-sized headline. Order size measures how much work exists. It says almost nothing about how good that work is.",
+        "So how good is the Tejas order? Here is where you must separate fact, inference and unknown, and refuse to blur them. Fact: at the company level, BEL's profitability is genuinely strong, with EBITDA (operating) margin near 29 percent in FY25 and management guiding to around 27 percent for the year ahead, helped by a high share of indigenous, higher-value electronics. Inference (labelled as such): an indigenous, design-led avionics order plausibly sits somewhere in the neighbourhood of BEL's usual work, so it is probably not a low-margin outlier. Unknown, and it stays unknown: the actual margin inside these specific 2,400 crore, because BEL does not disclose per-order economics, and nothing in the announcement or filings lets us calculate it. Anyone who quotes you a precise profit figure for this order is guessing and calling it a fact.",
+        "A large order book can be genuinely valuable. But its size alone tells you very little about the economics inside it, so treat the headline as the start of the margin question, not the answer to it."
+      ]
+    },
+    {
+      "heading": "Revenue and cash run on two different clocks",
+      "body": [
+        "It is tempting to picture cash as the last domino: work, then revenue, then, some time later, the money. Sometimes it is. But revenue and cash are really two separate clocks, and cash does not always come second. On defence contracts the customer often pays an advance up front and further sums at milestones, so real money can reach BEL before the matching revenue is ever recognised. Revenue recognition asks 'has control of the work passed to the customer?' Cash asks 'has the money actually arrived?' The two questions have different answers on different dates, in both directions.",
+        "You do not judge which clock is winning by reading the profit line; you read the balance sheet and the cash flow statement. Two items tell the story. Receivables are revenue already booked but not yet collected, money the customer owes. Advances, shown as contract liabilities, are the opposite, cash collected before the work is recognised. When receivables swell faster than sales, reported revenue is running ahead of cash. When advances are large, cash is running ahead of revenue.",
+        "BEL shows both sides. It collects advances on large defence orders, which brings cash in early. But it also carries heavy receivables, around 140 days of sales, because government customers certify and settle slowly, so a big pile of already-earned revenue sits waiting to be paid. And its own accounts show the gap opening up: in FY25 profit after tax was about 5,323 crore, yet operating cash flow was only about 1,219 crore, down from 4,826 crore the year before, as receivables and inventory rose and advances fell in a weaker order year. Profit up sharply, cash down sharply, in the same twelve months. Revenue tells you the work was recognised; the cash flow statement tells you whether the money actually reached the company. Both are worth checking."
+      ]
+    },
+    {
+      "heading": "The whole chain, and the risk at each step",
+      "body": [
+        "Six stages, and under each one the single risk that can stop the rupee moving:",
+        "Order. Risk: cancellation, delay, or a customer whose funding wobbles.",
+        "Backlog. Risk: slow execution, so the pool barely drains.",
+        "Execution. Risk: capacity limits, a supply-chain gap (those semiconductors), or cost overruns.",
+        "Revenue. Risk: recognition timing, so it lands later than hoped.",
+        "Profit. Risk: thin pricing or cost escalation eating the margin.",
+        "Cash. Risk: stretched receivables, so the money arrives long after the work.",
+        "The announcement tells you almost none of this. These are the six things you need to keep track of."
+      ]
+    },
+    {
+      "heading": "Now zoom out: does BEL actually convert its backlog?",
+      "body": [
+        "One order taught the mechanics. The real test of a company is whether the same pattern holds across the whole business, over several years rather than one snapshot. So line up four BEL numbers across time and watch how they move together: new order inflow (what goes into the pool), closing order book (the pool itself), revenue (what comes out), and cash (whether the money follows).",
+        "Revenue first, because that is the conversion you most want to confirm. BEL's sales climbed from 15,368 crore in the year of the Tejas order (to March 2022), to 17,734 crore the next year, 20,268 crore to March 2024 and 23,769 crore to March 2025. Steady mid-teens growth, year after year. The order book grew alongside it: about 57,530 crore at the close of FY22, up to 75,934 crore after a bumper FY24, and 71,650 crore at the start of April 2025. Crucially, the backlog stayed at roughly three to nearly four times annual revenue throughout, so-called backlog coverage. That coverage gives BEL substantial contracted work relative to its current revenue base, though the actual conversion still depends on execution and on new order inflow.",
+        "Now the part that is easy to miss if you only stare at the backlog: inflow and revenue did not always move the same way. FY24 was a bumper order year, inflow of about 35,512 crore against revenue of 20,268 crore, a book-to-bill of about 1.75, so the pool filled far faster than it drained. FY25 was the reverse: inflow of about 19,485 crore against revenue of 23,769 crore, a book-to-bill of roughly 0.8, so for once the pool drained faster than it filled. That divergence is not a contradiction; it is the normal lumpiness of a business that wins a few very large orders in bursts. A single year's inflow is noisy, so conversion is better judged over three to five years, and on that horizon BEL's record is clear: the backlog has genuinely been turning into growing revenue. The one thing worth watching is cash, and in FY25 it plainly lagged: operating cash flow fell to about 1,219 crore even as profit after tax rose to about 5,323 crore, because receivables and inventory rose and advances fell. A growing backlog is only worth something if the company can convert it, all the way to cash."
+      ],
+      "evidenceAfter": true
+    },
+    {
+      "heading": "What can we actually know about this order?",
+      "body": [
+        "For this one 2,400 crore order, sort every claim into three honest buckets: what we know from primary sources, what we can reasonably estimate, and what we simply cannot know from public disclosures.",
+        "What we can know, as fact: the order value (2,400 crore), the customer (HAL), what BEL must deliver (20 types of avionics for 83 Tejas Mk1A jets), the two units executing it, the multi-year period running towards roughly 2028, and BEL's company-level margins and receivable days from its filings.",
+        "What we can only estimate, and must label as an estimate: the rough pace of execution, so the rough revenue contribution per year, and the order's incremental effect on the backlog. These are reasoned ranges built on BEL's history and the disclosed timeline, not disclosed numbers.",
+        "What we cannot know, and should stop pretending to: the exact margin inside this order, the exact cash it collects and when, and the exact future delays. And here is why that information is missing rather than hidden. A company does not publish per-order economics because doing so would hand competitors its pricing on every bid, and because a single order's revenue and cash are blended into thousands of contracts in the consolidated accounts. So the gap is structural, not a lapse. The important thing is to keep those three categories separate. Facts are facts, estimates are estimates, and some things simply are not knowable from public filings."
+      ]
+    },
+    {
+      "heading": "The market does not wait for the revenue",
+      "body": [
+        "There is a reason the stock can move the morning after an announcement even though the revenue is years away: the market and the business run on two different clocks. The business clock is the slow one we have followed all article: order, execution, revenue, profit, cash, ticking over several years. The market clock is fast. It runs: announcement, revised expectations, new share price, often within a single session. The market is not pricing today's revenue from the order; it is pricing its guess about the future execution, margin and cash the order implies.",
+        "That is exactly what a Fathom signal is. The order announcement is the signal, a single dated event. But the economic impact it points to unfolds slowly and imperfectly along the business clock, and the trick is not to let the fast clock fool you into misreading the slow one. When the two diverge, both opportunity and mistakes appear: a stock priced for flawless conversion has no room if execution slips, and one the market has given up on can be cheap if the backlog quietly keeps converting.",
+        "BEL itself shows the fast clock at work, and you do not have to guess at it. In early April 2025, when BEL's provisional update pegged full-year order inflow near 18,715 crore (later finalised around 19,485 crore), short of its own guidance of about 25,000 crore, the stock fell about 8 percent over two sessions, even though its backlog was still around 71,650 crore and its revenue was still growing. The business clock had barely moved; the market clock re-priced expectations about future order flow almost immediately. Read every announcement knowing which clock you are looking at."
+      ]
+    },
+    {
+      "heading": "Not all order books are equal",
+      "body": [
+        "Two companies can both announce a 10,000 crore order book and face completely different futures, because what separates them is quality, not size.",
+        "A high-quality backlog has a credible, funded customer, a clear delivery schedule, attractive margins, a short execution cycle and cash that actually arrives on time. A low-quality backlog has an uncertain or underfunded customer, a long and slippage-prone execution period, thin margins, heavy working-capital demands and a slow, painful acceptance-and-payment process. BEL's HAL order scores well on customer credibility, while its long execution period and uncertain payment timing make speed and cash conversion less attractive. That mixed scorecard, not the 2,400 crore headline, is the real description of the order."
+      ]
+    },
+    {
+      "heading": "Same model, different sectors",
+      "body": [
+        "The point of learning this on BEL is that it travels. Almost every business has some store of future demand that converts into revenue over time; only the name and the mechanism change. Read each of these as three things: what represents future demand, how that demand becomes revenue, and the one metric to watch.",
+        "Defence and construction (BEL, L&T): future demand is the order book; it becomes revenue as the contracted work is executed and accepted; watch order inflow and book-to-bill. IT services (TCS, Infosys): future demand is signed deal wins, measured as total contract value; it becomes revenue as clients ramp up and the work is delivered; watch new deal TCV and the book-to-bill of bookings against sales. Airlines (IndiGo): future demand is the aircraft order book; it becomes revenue only after deliveries add seats, those seats are filled, and passengers actually fly; watch fleet deliveries and how full the planes are. SaaS (a subscription software firm): future demand is signed contracts and bookings; it becomes recurring revenue once the product is implemented and live; watch bookings and net revenue retention. Semiconductors (a chip maker): future demand is the order backlog; it becomes revenue through capacity, production and shipment; watch bookings and how full the factories are.",
+        "Five very different businesses, one identical question: what has to happen before today's future demand becomes tomorrow's revenue? Answer that, at every step, and you can read the engine inside almost any company."
+      ]
+    }
+  ],
+  "evidence": {
+    "heading": "Let's check: is the backlog actually turning into revenue?",
+    "metricLabel": "Orders and revenue",
+    "unit": " cr",
+    "deltaUnit": " cr",
+    "contextLine": "Two honest tests. First, did the year's new orders really beat guidance? Second, did revenue keep rising as older backlog converted?",
+    "directionLine": "Both numbers behaved exactly as the framework predicts: the inflow miss punished the priced-in stock, while revenue kept climbing as the backlog converted.",
+    "seasonalityNote": "We compare full financial years (April to March) so seasonality and quarter-to-quarter lumpiness wash out. The revenue and inflow figures are BEL's own reported results for the year, not estimates.",
+    "predictionLabel": "Let's test the idea",
+    "prediction": "If the framework is useful, we should be able to explain two things in BEL's numbers: why a weak order-inflow year matters even when the backlog is large, and why revenue can keep growing while new orders slow.",
+    "intro": [
+      "We do not need to prove the order book fake. We take BEL's own reported figures and ask the two questions the mechanics raise. Did new orders match what management promised? And is the backlog actually becoming revenue, year after year?"
+    ],
+    "banks": [
+      {
+        "name": "FY25 order inflow",
+        "basis": "new orders won in the year to March 2025, guidance vs actual",
+        "beforeLabel": "Guided",
+        "before": 25000,
+        "afterLabel": "Actual",
+        "after": 18715,
+        "exposure": "management had guided to about 25,000 crore of new orders; BEL's 1 April 2025 provisional update showed about 18,715 crore (later finalised near 19,485 crore). Either way a clear miss, and a stock priced on relentless inflow fell about 8 percent over two sessions, exactly the priced-in-expectations trap.",
+        "sourceUrl": "https://www.business-standard.com/markets/capital-market-news/bel-corrects-8-in-two-session-as-order-inflows-miss-fy25-target-125040200338_1.html"
+      },
+      {
+        "name": "Revenue, FY24 to FY25",
+        "basis": "BEL total revenue, year to March 2024 vs year to March 2025",
+        "beforeLabel": "FY24",
+        "before": 20268,
+        "afterLabel": "FY25",
+        "after": 23769,
+        "exposure": "even in a weak order-inflow year, revenue rose about 17 percent as older backlog converted. This is the reassuring half: the growing order book really has been showing up as growing revenue.",
+        "sourceUrl": "https://www.icicidirect.com/mailcontent/idirect_bharatelectronics_q4fy25.pdf"
+      }
+    ]
+  },
+  "questions": [
+    "What is the company's book-to-bill (new orders divided by revenue), and is it above or below 1?",
+    "How fast has this company historically turned backlog into revenue, and what share of old orders slipped?",
+    "What is the operating margin, and is there any hint about the margin inside this particular order?",
+    "How many days of receivables does it carry, and is operating cash flow keeping pace with profit?",
+    "Is the customer credible and funded, and can the order be cancelled or delayed?"
+  ],
+  "ignore": [
+    "The raw headline number on announcement day, read as if it were revenue",
+    "The size of the order book on its own, with no reference to margin, speed or cash"
+  ],
+  "focus": [
+    "Book-to-bill over several years, not one snapshot",
+    "Revenue actually rising as backlog converts",
+    "Operating margin holding up",
+    "Receivables and operating cash flow, to see if the money follows the profit"
+  ],
+  "yourTurn": {
+    "prompt": "Now do the analysis yourself. An infrastructure company you are studying reports: current annual revenue 8,000 crore, existing order backlog 12,000 crore, and it has just won a new order worth 5,000 crore to be built over 4 years. Its operating margin is 12 percent, and it collects its receivables in about 180 days. The stock jumps on the announcement. Before you agree with the market, work out: is this actually a big order, how much revenue and profit could it add each year, how much work does the company now have in hand, and where is the risk? Try it with a calculator before reading on.",
+    "questions": [
+      "Annual revenue contribution: 5,000 crore over 4 years is how much per year, and what percent of current 8,000 crore revenue is that?",
+      "Backlog coverage: add the new order to the existing backlog. How many years of current revenue does the company now have in hand?",
+      "Profit contribution: at a 12 percent operating margin, how much operating profit does one year of this order represent?",
+      "Working-capital risk: at 180 days of receivables, roughly how much cash from this order sits uncollected at any time, and is that comfortable on a 12 percent margin?"
+    ],
+    "reveal": [
+      "Annual revenue: 5,000 divided by 4 is about 1,250 crore a year (an even-split illustration; real profiles are lumpy). Against 8,000 crore of revenue that is a roughly 16 percent uplift a year. Yes, on size alone this is a meaningful order, not a rounding error.",
+      "Backlog coverage: existing 12,000 plus the new 5,000 is 17,000 crore of contracted work, against 8,000 crore of annual revenue. That is a bit over 2 years of work in hand, decent visibility, though not as deep as BEL's three-times-plus coverage.",
+      "Profit: 1,250 crore of revenue at a 12 percent operating margin is about 150 crore of operating profit a year. Notice how the 5,000 crore headline shrinks to roughly 150 crore of yearly profit once you pass it through time and margin.",
+      "Working capital and the verdict: 180 days is half a year of sales tied up as receivables. On this order's ~1,250 crore of annual revenue, that is around 600 crore of cash sitting uncollected at any moment, against only ~150 crore of annual operating profit. So a thin 12 percent margin plus slow 180-day collection makes this order revenue-meaningful but cash-hungry: it will grow the top line while straining cash. Same chain as BEL, order to backlog to revenue to profit to cash, and you have just found the leak yourself, at the cash step."
+    ]
+  },
+  "relatedSectors": ["infrastructure"],
+  "sources": [
+    { "label": "BEL: biggest ever avionics order from HAL for LCA Tejas (company release)", "url": "https://bel-india.in/news-bel/bel-receives-biggest-avionics-order-ever-from-hal-for-lca-tejas-fighter-aircraft-programme-3/" },
+    { "label": "Deccan Herald: HAL signs 2,400 crore deal with BEL for Tejas systems", "url": "https://www.deccanherald.com/india/karnataka/hal-signs-rs-2400-crore-deal-with-bel-for-tejas-systems-1062090.html" },
+    { "label": "DefenseMirror: BEL bags $315m order for LCA Mk1A electronic systems (2023-2028)", "url": "https://www.defensemirror.com/news/31013/India___s_BEL_Bags__315_Million_Order_for_LCA_Mk1A_Fighter_Aircraft___s_Electronic_Systems" },
+    { "label": "SPS Aviation: BEL receives biggest avionics order ever from HAL for LCA Tejas (20 systems, 2023-2028)", "url": "https://www.sps-aviation.com/story/?id=3069&h=BEL-Receives-Biggest-Avionics-Order-Ever-from-HAL-for-LCA-Tejas" },
+    { "label": "Business Standard: BEL corrects 8% as FY25 order inflows miss target", "url": "https://www.business-standard.com/markets/capital-market-news/bel-corrects-8-in-two-session-as-order-inflows-miss-fy25-target-125040200338_1.html" },
+    { "label": "ICICI Direct: BEL Q4/FY25 result update, 20 May 2025 (revenue, EBITDA margin, order book and inflow trend, cash flow)", "url": "https://www.icicidirect.com/mailcontent/idirect_bharatelectronics_q4fy25.pdf" },
+    { "label": "Business Standard: strong order book keeps BEL in good stead (backlog, receivables)", "url": "https://www.business-standard.com/amp/markets/stock-market-news/strong-order-book-key-to-keeping-bharat-electronics-in-good-stead-124112201074_1.html" }
+  ],
+  "lesson": "An order announcement is the top of a pipeline, not money in the bank. Between the 2,400 crore headline and BEL's cash sit execution, revenue recognition, margin and collection, and each one takes time and carries its own risk. Read every order the way you now read this one: how fast does it convert, how much profit is inside it, and does the cash ever actually arrive?",
+  "remember": "An order is only the beginning. The real questions are how quickly it becomes revenue, how much profit is inside it, and whether the cash ever arrives."
+}

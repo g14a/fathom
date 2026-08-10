@@ -72,7 +72,7 @@ function renderEvidence(ev: import('@/lib/signals').SignalEvidence, key: React.K
       <h2 className="csd-h2">{ev.heading}</h2>
 
       <div className="sig-prediction">
-        <span className="sig-prediction-label">The prediction</span>
+        <span className="sig-prediction-label">{ev.predictionLabel ?? 'The prediction'}</span>
         <p>{inline(ev.prediction)}</p>
       </div>
 
@@ -125,28 +125,30 @@ function renderEvidence(ev: import('@/lib/signals').SignalEvidence, key: React.K
           {ev.banks.map((b, i) => {
             const c = EVIDENCE_COLORS[i % EVIDENCE_COLORS.length];
             const chg = (b.after - b.before);
-            const deltaText = ev.deltaUnit && ev.deltaUnit !== 'bps'
-              ? `${chg > 0 ? '+' : ''}${chg.toFixed(2)}${ev.deltaUnit}`
+            const fmt = (n: number) => n.toLocaleString('en-IN', { maximumFractionDigits: 2 });
+            const isAbs = ev.deltaUnit && ev.deltaUnit !== 'bps';
+            const deltaText = isAbs
+              ? `${chg > 0 ? '+' : ''}${fmt(chg)}${ev.deltaUnit}`
               : `${chg > 0 ? '+' : ''}${(chg * 100).toFixed(0)} bps`;
+            const deltaClass = chg >= 0 ? 'sig-ev-up' : 'sig-ev-down';
             return (
               <div className="sig-db-row" key={i} style={{ color: c }}>
                 <div className="sig-db-bank">
                   <a href={b.sourceUrl} target="_blank" rel="noopener noreferrer">{b.name}</a>
-                  <span className="sig-db-basis">{b.basis}</span>
                 </div>
                 <div className="sig-db-track">
                   <span className="sig-db-pt sig-db-before">
-                    <b>{b.before.toFixed(2)}{ev.unit}</b>
+                    <b>{fmt(b.before)}{ev.unit}</b>
                     <em>{b.beforeLabel}</em>
                   </span>
                   <span className="sig-db-arrow" aria-hidden="true">→</span>
                   <span className="sig-db-pt sig-db-after">
-                    <b>{b.after.toFixed(2)}{ev.unit}</b>
+                    <b>{fmt(b.after)}{ev.unit}</b>
                     <em>{b.afterLabel}</em>
                   </span>
                 </div>
-                <div className="sig-db-change sig-ev-down">{deltaText}</div>
-                <div className="sig-db-why">Fits the mechanism: {b.exposure}</div>
+                <div className={`sig-db-change ${deltaClass}`}>{deltaText}</div>
+                <div className="sig-db-why">{b.exposure}</div>
               </div>
             );
           })}
@@ -350,6 +352,12 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
               <div className="sig-block">
                 <h2 className="csd-h2">{sec.heading}</h2>
                 {sec.body.map((p, j) => <p key={j} className="cs-para">{inline(p)}</p>)}
+                {sec.image && (
+                  <figure className="sig-figure">
+                    <img src={withBase(sec.image.src)} alt={sec.image.alt} loading="lazy" />
+                    {sec.image.caption && <figcaption>{inline(sec.image.caption)}</figcaption>}
+                  </figure>
+                )}
                 {diagram}
               </div>
               {showEvidence && renderEvidence(s.evidence!, `ev-${si}`)}
