@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const { id } = await params;
   const c = getCaseStudy(id);
   if (!c) return { title: 'Case Study | Fathom' };
-  const title = `${c.company}: Business Case Study | Fathom`;
+  const title = `${c.title} | Fathom`;
   const url = canonical(`/case-studies/${id}/`);
   return {
     title,
