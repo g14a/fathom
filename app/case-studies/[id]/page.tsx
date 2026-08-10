@@ -402,6 +402,38 @@ function renderDiagram(id: string): React.ReactNode {
       </figure>
     );
   }
+  if (id === 'liquidity-flywheel') {
+    const nodes = [
+      { label: 'More brokers present', note: 'a bigger crowd shows up to trade' },
+      { label: 'More buyers and sellers', note: 'each side has more counterparties to meet' },
+      { label: 'Tighter spreads', note: 'less gap between what buyers offer and sellers ask' },
+      { label: 'Better execution', note: 'orders fill closer to the price you wanted' },
+      { label: 'A more attractive exchange', note: 'traders prefer the venue with the better fills' },
+      { label: 'More brokers present', note: 'the loop feeds itself' },
+    ];
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">The liquidity flywheel</span>
+          <span className="dg-badge">Why the crowd doesn&apos;t move back</span>
+        </div>
+        <div className="dg-flywheel">
+          {nodes.map((n, i) => (
+            <div key={`${n.label}-${i}`} className="dg-fw-node">
+              <span className="dg-fw-num">{String(i + 1).padStart(2, '0')}</span>
+              <span className="dg-fw-label">{n.label}</span>
+              <span className="dg-fw-note">{n.note}</span>
+            </div>
+          ))}
+        </div>
+        <figcaption className="dg-cap">
+          For most businesses, more customers just means more revenue. For an exchange, more participants make the
+          product itself better, tighter spreads, more reliable fills, which pulls in the next participant. Once this
+          loop starts running on one exchange, a rival cannot beat it just by matching the technology.
+        </figcaption>
+      </figure>
+    );
+  }
   return null;
 }
 

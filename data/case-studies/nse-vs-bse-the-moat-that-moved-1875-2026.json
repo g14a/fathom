@@ -1,0 +1,340 @@
+{
+  "ticker": "BSE",
+  "company": "BSE Ltd",
+  "title": "NSE vs BSE: how BSE lost the market it invented",
+  "period": "1875 → 2026",
+  "tags": [
+    "Network effects",
+    "Liquidity",
+    "Switching costs",
+    "Incumbent disruption",
+    "Strategic retreat"
+  ],
+  "sectorId": "capitalmarkets",
+  "relatedCaseStudies": [
+    "bse-the-toll-booth-boom-2023-2026"
+  ],
+  "summary": "For well over a century, if you wanted to buy or sell an Indian share, you went to one address: BSE's trading floor on Dalal Street. A new exchange arrived in 1994 with screen-based trading, and within about two years it was doing more business than BSE. Technology opened the door. What actually kept BSE out of its own market once the door was open was liquidity.",
+  "keyNumbers": [
+    {
+      "label": "BSE founded",
+      "value": "1875, Asia's oldest exchange"
+    },
+    {
+      "label": "Monthly turnover, Aug 1996: BSE vs NSE",
+      "value": "~₹480 cr vs ~₹1,035 cr"
+    },
+    {
+      "label": "Time for NSE to out-turnover BSE",
+      "value": "~2 years from its 1994 launch"
+    },
+    {
+      "label": "BSE's cash equity market share today",
+      "value": "~7% (NSE ~93%)"
+    },
+    {
+      "label": "BSE's derivatives struggle despite launching first",
+      "value": "20+ years of near-zero volume, 2000 to 2023"
+    }
+  ],
+  "intro": [
+    "Picture Bombay in 1994. If you wanted to buy or sell shares in an Indian company, there was really one place that mattered: the trading floor of the Bombay Stock Exchange, a crowd of brokers on Dalal Street shouting prices at each other by hand signal, a system that had worked, more or less unchanged, since 1875. BSE was not merely the biggest exchange. For most practical purposes it was the market.",
+    "Then a new exchange opened for business, built by financial institutions rather than brokers, running on computers instead of a trading pit. Within about two years, it was doing more turnover than BSE. Within two decades, BSE's share of the market it had invented had shrunk to a rounding error in most of the businesses that matter. Technology opened the door for that new exchange. But technology alone doesn't explain why BSE could never walk back through it, because BSE did eventually build the same kind of electronic trading, and in one major product it even got there first. It still lost. What actually kept the door shut is the subject of this story: liquidity, and how hard it is to move once it settles somewhere."
+  ],
+  "sections": [
+    {
+      "heading": "Before NSE, BSE was the market",
+      "body": [
+        "It's worth sitting with how strong BSE's position was before any of this started, because otherwise the disruption looks inevitable in a way it never was. Formed by a handful of brokers meeting under a banyan tree in the 1850s, formalised in 1875 as the Native Share and Stock Brokers' Association, BSE was Asia's first stock exchange and had more than a century's head start on anyone who might challenge it.",
+        "Trading happened by open outcry, brokers standing in a physical pit on the exchange floor, shouting bids and offers and confirming trades with hand signals. To trade at all, you needed a seat on that floor, or a relationship with someone who had one. That is a strange way to run a national market, but it worked precisely because everyone who mattered was already there. A buyer's broker and a seller's broker both stood in the same room, so a trade could actually happen. If you set up shop somewhere else, you would be trading with a much smaller, thinner crowd, at worse prices, if you could find a counterparty at all.",
+        "That is the specific shape of BSE's advantage, and it has a name."
+      ],
+      "diagram": "liquidity-flywheel",
+      "lens": {
+        "label": "The question to carry through this story",
+        "questions": [
+          "Where does the exchange's moat actually live: in its technology, its history, or in the crowd of buyers and sellers itself?",
+          "If you already own the crowd, what could possibly make it leave?"
+        ]
+      }
+    },
+    {
+      "heading": "Why NSE was created",
+      "body": [
+        "The push to build a rival was already underway before the scandal that most people associate with it. A committee led by Manohar Pherwani, chairman of UTI, had been examining India's exchange structure since 1991, and its answer was blunt. India needed an exchange that was demutualised, meaning owned by shareholders rather than by the very brokers who traded on it, so that the people running the exchange and the people trading on it were not the same people policing themselves. It needed trading that happened on screens rather than a floor, with prices visible to everyone at once rather than shouted into a pit that only a few hundred people could hear. And it needed settlement that a regulator could actually audit.",
+        "Then, in April 1992, journalist Sucheta Dalal broke the story of what became known as the Harshad Mehta scam, a stockbroker who had exploited weak settlement checks between banks and the exchange to divert money into rigging share prices. The scandal did not invent the case for reform; the Pherwani committee had already made it. What the scandal did was turn a technical committee recommendation into an urgent political one. It made SEBI, until then a toothless watchdog, into a statutory regulator with real power, and it removed any remaining argument for leaving BSE's opaque, broker-run structure alone. The reform was already designed. The scandal appears to have accelerated the political push for those reforms.",
+        "The National Stock Exchange was incorporated in November 1992, promoted by IDBI and other financial institutions rather than by brokers, structured from day one the way the Pherwani committee had recommended, and recognised by SEBI in April 1993. It began trading its wholesale debt segment on 30 June 1994 and its equity (capital market) segment on 3 November 1994, connected nationwide by satellite links (VSAT) so a broker in Ahmedabad or Kolkata saw the identical live price a broker in Mumbai saw. There was no floor to be physically present on. The whole point was that presence no longer mattered."
+      ]
+    },
+    {
+      "heading": "Technology opened the door. Liquidity kept it open.",
+      "body": [
+        "Here is where the story gets interesting, because the obvious next line is 'and NSE's better technology won.' That is true as far as it goes, but it skips the part that actually explains why NSE won so fast.",
+        "Screen-based trading did one very specific thing: it let a buyer and a seller who were nowhere near each other, and had never heard of each other, still find one another and agree on a price. That is not really a claim about speed. It is a claim about who is allowed to show up. BSE's floor could only ever hold as many brokers as could physically stand in the room. NSE's terminals could sit in any city with a phone line and a satellite dish.",
+        "That single change is why NSE grew so fast. By August 1996, not even two years after it opened its equity segment, NSE's monthly turnover (about ₹1,035 crore) was already roughly double BSE's (about ₹480 crore)[^1]. The important advantage wasn't simply that trading happened faster. It was that the market could suddenly reach participants across the country who had never had a seat on Dalal Street, and a market with more participants is a better market, because a better market is nothing more than a bigger crowd with a fair way to match itself up."
+      ]
+    },
+    {
+      "heading": "The twist: BSE got to derivatives first, and still lost",
+      "body": [
+        "If the story stopped there, you might still conclude that NSE's technology was simply superior and BSE's was not, and that this explains everything. One of the clearest pieces of evidence against that reading is derivatives, because there BSE was not behind. It was first.",
+        "On 9 June 2000, BSE launched Sensex futures, the first index derivative to trade on an Indian exchange. NSE launched its own Nifty futures three days later, on 12 June 2000[^2]. For a few days, BSE genuinely had the more modern product and a head start on its biggest rival. It did not matter. NSE went on to capture the overwhelming majority of India's derivatives turnover, with its share reported above 95% at various points over the following two decades. BSE's derivatives segment, despite being first out of the gate, 'found no takers,' in the words of contemporaneous market reporting, and effectively went quiet for the better part of twenty years.",
+        "Why would liquidity follow NSE into a brand-new product it hadn't even launched first? Because the crowd was already standing there for a different reason. Traders already had their cash-market accounts, broker relationships and trading habits on NSE, and the Nifty index was already the more familiar benchmark to them. When index derivatives arrived, traders didn't have to go looking for a new venue to trade a new product; they just added it to the exchange they were already on. Liquidity, in other words, doesn't only compound within one product. It can spill from one product into the next, as long as they share the same exchange and the same crowd.",
+        "That is the fact that breaks the easy technology story. Being first to market with the modern product did not save BSE, because the modern product was never the thing that mattered. What mattered was whether traders believed a counterparty would be waiting on the other side of their order, and by 2000 traders already believed that about NSE and not about BSE, for reasons that had nothing to do with derivatives at all. The moat had already moved, before this particular battle even began."
+      ]
+    },
+    {
+      "heading": "The liquidity flywheel: why the crowd, once formed, doesn't move back",
+      "body": [
+        "It's worth being precise about why a crowd, once it forms somewhere, is so hard to dislodge, because 'network effects' can sound abstract until you see the mechanism.",
+        "Say you want to sell 1,000 shares of a company. If only ten buyers are looking at that stock right now, you may have to cut your price meaningfully to find one of them willing to take your size. If 100,000 buyers are looking at it, someone is very likely willing to buy close to the price you actually want. That gap, how much you have to give up to get a trade done right now, is called the spread, and a market with more participants on both sides has a tighter one.",
+        "A tighter spread is, on its own, a reason to trade on that exchange rather than a rival with a wider one. So more participants produce a better product (tighter spreads, more reliable execution), a better product attracts more participants, who make the product better still. Once that loop gets going on one exchange, a rival cannot beat it by simply matching the technology. It has to somehow beat it on liquidity itself, which is the hardest thing to build from scratch, because nobody wants to be the first trader standing in an empty room."
+      ]
+    },
+    {
+      "heading": "When the moat moved",
+      "body": [
+        "It didn't happen in one dramatic day. The cash-market crossover was fast, NSE's reach out-drew BSE's floor within about two years. The derivatives crossover took longer to even begin, and then locked in for two decades, because a derivatives market benefits enormously from an already-liquid cash market sitting underneath it, and NSE simply had the bigger one to build on. By the 2020s, NSE held around 93% of cash equity turnover, and its derivatives share had been reported above 95% at various points over the two decades from 2000."
+      ]
+    },
+    {
+      "heading": "Was BSE actually destroyed?",
+      "body": [
+        "Not exactly, and the distinction matters. BSE lost market leadership in the two businesses that made it famous, cash equity trading and equity derivatives. It did not vanish, and it did not stop finding places to compete.",
+        "Rather than keep fighting NSE head-on for the same traders, BSE diversified into businesses where scale came from something other than trading liquidity. BSE StAR MF grew into one of the country's largest platforms for buying and redeeming mutual fund units, a business with almost nothing to do with share-trading liquidity. BSE was the founding promoter of CDSL, the depository that holds Indian investors' shares and mutual fund units electronically; when SEBI's ownership rules forced BSE to sell down its stake, it did so through CDSL's own IPO in June 2017, turning a regulatory constraint into a partial cash-out of a business it had built early. BSE itself listed that same year, 2017, becoming a public company in its own right.",
+        "None of that reclaimed the cash-equity crowd. What it did was give BSE cash flows and a balance sheet that did not depend on winning a fight it had already lost."
+      ]
+    },
+    {
+      "heading": "BSE finds a new battlefield",
+      "body": [
+        "The most interesting twist in this whole story happened decades after most people had stopped watching. Rather than trying to out-build NSE in the exact same product, BSE went looking for a corner of the derivatives market NSE didn't already own outright, and it found one in the calendar itself: NSE's weekly index-options expiry sat on one weekday, so BSE scheduled its own Sensex weekly expiry on a different weekday, undercut NSE sharply on fees, and by April 2026 briefly reported more derivatives market share than NSE for the first time (a figure that, as the evidence notes below flag, rests on press coverage rather than a primary exchange dataset). That story, the toll booth that caught a boom, is told in full in the companion case study on BSE's 2023 to 2026 re-rating.",
+        "The move worked for a specific reason that fits everything above: BSE stopped trying to pull traders away from NSE's expiry day, and instead created a new day with a pool of its own. It didn't beat the network effect. It built a smaller one that NSE didn't already have a lock on."
+      ]
+    },
+    {
+      "heading": "The modern battlefield",
+      "body": [
+        "Today NSE still holds the commanding share of both cash equity and, on most days, derivatives turnover; BSE still holds roughly 7% of cash equity trading. Neither number has reversed in any lasting way. Liquidity does not change hands easily, because the whole point of the flywheel is that it resists exactly that.",
+        "The more useful strategic question was never 'can BSE overtake NSE.' It was 'can BSE build businesses that don't require it to win that fight?' A mutual-fund platform, a depository stake, an SME listing venue, and, as it turned out, one very specific corner of the derivatives calendar that nobody else had claimed, all answer that second question without touching the first. Judged against it, BSE's last decade looks less like a slow loss and more like a company that found where its remaining advantages actually were."
+      ]
+    }
+  ],
+  "evidence": {
+    "caption": "The moat, tracked over 130 years",
+    "rows": [
+      {
+        "label": "BSE founded",
+        "value": "1875 (formalised; informal trading from the 1850s)",
+        "source": "Wikipedia / Britannica (background)"
+      },
+      {
+        "label": "NSE incorporated / SEBI-recognised / WDM launch / equity trading begins",
+        "value": "Nov 1992 / Apr 1993 / 30 Jun 1994 / 3 Nov 1994",
+        "source": "NSE India, History & Milestones (nseindia.com, primary)"
+      },
+      {
+        "label": "SEBI made a statutory regulator",
+        "value": "SEBI Act, 1992, presidential assent 4 April 1992",
+        "source": "SEBI Act, 1992 (sebi.gov.in)"
+      },
+      {
+        "label": "Monthly turnover, Aug 1996: BSE vs NSE",
+        "value": "~₹480 cr vs ~₹1,035 cr",
+        "source": "Business Standard"
+      },
+      {
+        "label": "First index derivative in India",
+        "value": "BSE Sensex futures, 9 Jun 2000 (NSE Nifty futures followed 12 Jun 2000)",
+        "source": "Business Standard"
+      },
+      {
+        "label": "NSE's derivatives market share, 2000s-2010s",
+        "value": ">95% reported at various points, 2000s-2010s",
+        "source": "Business Standard, \"New derivatives cycle fails to click for BSE\""
+      },
+      {
+        "label": "NSE's cash equity market share today",
+        "value": "~93% (BSE ~7%)",
+        "source": "Market turnover data, 2025-26"
+      },
+      {
+        "label": "CDSL IPO (BSE's forced stake sell-down)",
+        "value": "June 2017, price band ₹145-149",
+        "source": "Business Standard"
+      },
+      {
+        "label": "BSE's own IPO",
+        "value": "23-25 Jan 2017, ₹805-806/share, listed on NSE (self-listing barred) 3 Feb 2017",
+        "source": "BSE Limited prospectus, 28 Jan 2017 (primary); Business Standard"
+      }
+    ],
+    "note": "BSE's 2023-2026 derivatives strategy (briefly ~55% share, April 2026) is covered in depth in the companion case study, \"BSE Story: The toll booth that caught a boom.\" One documented exception to NSE's cash-turnover lead: a 2011 spike where a single large block deal (Cairn) briefly pushed BSE's cash turnover above NSE's for a day, a deal-driven anomaly, not a trend reversal."
+  },
+  "sources": [
+    {
+      "label": "Bombay Stock Exchange (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bombay_Stock_Exchange"
+    },
+    {
+      "label": "Bombay Stock Exchange (Britannica)",
+      "url": "https://www.britannica.com/money/Bombay-Stock-Exchange"
+    },
+    {
+      "label": "History & Milestones (NSE India, primary)",
+      "url": "https://www.nseindia.com/static/national-stock-exchange/history-milestones"
+    },
+    {
+      "label": "Commemorating 30 years of NSE (StockEdge, background)",
+      "url": "https://blog.stockedge.com/commemorating-30-years-of-nse/"
+    },
+    {
+      "label": "Manohar J. Pherwani (Wikipedia, background only)",
+      "url": "https://en.wikipedia.org/wiki/Manohar_J._Pherwani"
+    },
+    {
+      "label": "SEBI Act, 1992, full text (SEBI, primary)",
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1456380272563.pdf"
+    },
+    {
+      "label": "About SEBI (SEBI, primary)",
+      "url": "https://www.sebi.gov.in/about-sebi.html"
+    },
+    {
+      "label": "Scam 1992: the Harshad Mehta scam story (5paisa)",
+      "url": "https://www.5paisa.com/blog/scam-1992-harshad-mehta-scam-story"
+    },
+    {
+      "label": "NSE pips BSE to corner bulk of turnover (Business Standard)",
+      "url": "https://www.business-standard.com/article/markets/nse-pips-bse-to-corner-bulk-of-turnover-in-jan-nov-101121201058_1.html"
+    },
+    {
+      "label": "NSE steals a march over BSE again (Business Standard)",
+      "url": "https://www.business-standard.com/amp/article/markets/nse-steals-a-march-over-bse-again-108082701075_1.html"
+    },
+    {
+      "label": "New derivatives cycle fails to click for BSE (Business Standard)",
+      "url": "https://www.business-standard.com/amp/article/markets/new-derivatives-cycle-fails-to-click-for-bse-110022600006_1.html"
+    },
+    {
+      "label": "What is BSE StAR MF (Flattrade)",
+      "url": "https://flattrade.in/support/knowledge-base/what-is-bse-star-mf/"
+    },
+    {
+      "label": "CDSL to launch ₹524 cr IPO (Business Standard)",
+      "url": "https://www.business-standard.com/amp/article/markets/cdsl-to-launch-rs-524-cr-ipo-on-june-19-117061200793_1.html"
+    },
+    {
+      "label": "BSE Limited prospectus, 28 Jan 2017 (Axis Capital, primary)",
+      "url": "https://www.axiscapital.co.in/public/contents/BSE-Limited-Prospectus.pdf"
+    },
+    {
+      "label": "BSE's ₹1,500-crore IPO to open Jan 23, list on NSE (Business Standard)",
+      "url": "https://www.business-standard.com/amp/article/markets/bse-s-rs-1-500-crore-ipo-to-open-on-jan-23-to-list-on-nse-117011400037_1.html"
+    }
+  ],
+  "exAnte": {
+    "intro": [
+      "Most of this story wasn't hidden. Every structural choice that decided it was published, and dated, years before the market share numbers caught up."
+    ],
+    "tells": [
+      {
+        "when": "1991-92",
+        "document": "The Pherwani Committee report, and NSE's incorporation documents",
+        "check": "NSE was chartered from the start as demutualised (broker-owned trading rights separated from exchange ownership) and screen-based, structurally unlike BSE.",
+        "meaning": "It was a clue, not a verdict: the two exchanges were being built around fundamentally different ways of accessing the market, one open to anyone with a terminal, the other requiring a physical seat. Nobody could yet know NSE would win. The design difference just told you the two could not compete on equal footing.",
+        "lead": "~2-3 years before the crossover"
+      },
+      {
+        "when": "August 1996",
+        "document": "Contemporaneous market turnover reporting",
+        "check": "NSE's monthly turnover already roughly double BSE's, under two years after NSE's equity segment opened.",
+        "meaning": "The crossover was visible in ordinary published trading data almost as soon as it happened. Nobody had to wait a decade to see which way the market was moving.",
+        "lead": "~2 years after NSE's launch"
+      },
+      {
+        "when": "2000-2010",
+        "document": "Trade press coverage of BSE's derivatives relaunches",
+        "check": "Multiple reports over the decade describe BSE's derivatives volumes as negligible despite BSE having launched the product category first.",
+        "meaning": "Being first to market was public and verifiable, and so was its failure to convert into share. That gap, first mover with no liquidity to show for it, was the clearest possible evidence that technology and timing were not the constraint.",
+        "lead": "~2 decades before BSE's 2023 shift"
+      }
+    ],
+    "blindSpot": "What nobody could have called in advance was the specific shape of BSE's eventual response: a different weekday for its options expiry. That was a tactical, almost accidental-sounding insight, not something visible in any filing years ahead of time. The broad pattern (liquidity concentrates, and dislodging it needs a genuinely new pool rather than a copy of the old one) was knowable for decades. The exact tactic that finally worked was not."
+  },
+  "patternCard": {
+    "signal": "An incumbent with a century of history and an obvious structural weakness (opacity, exclusivity, a physical bottleneck) facing a new entrant with better-designed access.",
+    "mechanism": "Whoever accumulates the deeper pool of participants gets a self-reinforcing edge (tighter pricing, more reliable execution) that compounds regardless of who had the better technology on a given day. The entrant does not need to be more advanced forever. It only needs to win the first lap of the flywheel.",
+    "whereToCheck": "For an exchange or marketplace business, check market share of turnover or transaction volume over time, not just the technology roadmap. A first-mover on a specific product (BSE's Sensex futures) that still fails to gather volume is a strong tell that the moat lives in liquidity, not features.",
+    "counterexample": "Being first and having deeper liquidity does not guarantee permanence either. BSE itself shows the flywheel can be restarted in a corner the incumbent hasn't claimed, an owned expiry day, a niche product, a distribution platform. The lesson is not 'network effects are undefeatable.' It is that beating one usually requires building a new pool, not fighting for the old one. What would prove this reading wrong: if BSE's derivatives share kept growing not by opening a pool of its own but by pulling volume straight out of NSE's existing pool on NSE's own terms, that would show an incumbent's liquidity moat can be beaten head-on, not just outflanked."
+  },
+  "timeline": [
+    {
+      "when": "1850s-1875",
+      "what": "Brokers meeting informally in Bombay formalise into what becomes BSE, Asia's first stock exchange."
+    },
+    {
+      "when": "1875-1992",
+      "what": "BSE operates as the dominant Indian exchange, open-outcry floor trading, broker-owned and broker-run."
+    },
+    {
+      "when": "1991",
+      "what": "The Pherwani Committee begins recommending a demutualised, screen-based national exchange, ahead of any scandal."
+    },
+    {
+      "when": "April 1992",
+      "what": "The Harshad Mehta scam is exposed, turning the committee's recommendation into an urgent one; SEBI is made a statutory regulator."
+    },
+    {
+      "when": "1992",
+      "what": "NSE is incorporated on the Pherwani committee's design: demutualised, screen-based, promoted by financial institutions, not brokers."
+    },
+    {
+      "when": "Jun-Nov 1994",
+      "what": "NSE begins trading: wholesale debt segment on 30 June, equity (capital market) segment on 3 November, on nationwide VSAT links."
+    },
+    {
+      "when": "Aug 1996",
+      "what": "NSE's monthly turnover (~₹1,035 cr) is already roughly double BSE's (~₹480 cr), under two years after NSE's equity launch."
+    },
+    {
+      "when": "9-12 June 2000",
+      "what": "BSE launches Sensex futures, India's first index derivative; NSE launches Nifty futures three days later and goes on to capture the overwhelming majority of derivatives turnover for the next two decades."
+    },
+    {
+      "when": "2000s-2010s",
+      "what": "BSE's derivatives segment stays largely dormant despite its head start; NSE's cash and derivatives dominance both compound."
+    },
+    {
+      "when": "2017",
+      "what": "BSE lists on its own exchange; its depository arm CDSL, forced to sell down BSE's stake under SEBI ownership rules, lists via its own IPO the same year."
+    },
+    {
+      "when": "May 2023",
+      "what": "BSE relaunches Sensex and Bankex weekly options on a separate expiry day from NSE's, the opening move of a derivatives strategy shift told in full in the companion case study."
+    },
+    {
+      "when": "April 2026",
+      "what": "BSE briefly overtakes NSE in notional derivatives turnover, about 55% share, the first time the balance has tipped its way in over two decades."
+    }
+  ],
+  "lesson": "BSE didn't lose the market it invented because its rival had better technology. Technology only opened the door; NSE used it to build a bigger crowd, and once that crowd formed, it kept compounding its own advantage. One of the clearest pieces of evidence for that is BSE's own derivatives history: it launched India's first index future, three days ahead of NSE, and still spent the next twenty years unable to gather meaningful volume, because the liquidity that mattered was already sitting on the other exchange for reasons that had nothing to do with that product. The deeper problem for BSE was never just that its crowd had left. It was that matching NSE feature for feature wasn't enough to bring that crowd back. The honest sequel isn't that BSE clawed its old market back. It's that BSE eventually stopped trying to win NSE's game and built a new corner of the derivatives calendar nobody else had claimed, a reminder that a lost network effect is rarely won back by fighting for the old pool. It's won by building a new one.",
+  "remember": "BSE didn't lose to better technology. It lost its crowd to NSE, and once it couldn't win that crowd back, it had to go find a different one.",
+  "evidenceNotes": [
+    {
+      "id": 1,
+      "note": "Monthly turnover figures for BSE (~₹480 cr) and NSE (~₹1,035 cr) around August 1996 are drawn from contemporaneous Business Standard market reporting. Treated as directionally solid (NSE clearly ahead within about two years of its equity launch); exact monthly figures from a single archival news report carry medium confidence, not audited-filing-level certainty.",
+      "confidence": "medium"
+    },
+    {
+      "id": 2,
+      "note": "BSE launching Sensex futures on 9 June 2000, three days ahead of NSE's Nifty futures on 12 June 2000, and BSE's subsequent two decades of negligible derivatives volume, are both drawn from Business Standard market reporting from the period. High confidence on the sequence and dates; the exact share BSE held over those two decades is not precisely quantified here beyond '95%+ to NSE' as reported at various points.",
+      "confidence": "medium"
+    },
+    {
+      "id": 3,
+      "note": "The April 2026 claim that BSE briefly held about 55% notional derivatives turnover, ahead of NSE, is carried over from the companion case study on BSE's 2023-2026 re-rating, which sourced it to financial-press coverage (Angel One, Business Standard) rather than a primary exchange or SEBI dataset. Directionally credible given BSE's documented 2023-2026 fee and expiry-day strategy, but this specific figure has not been cross-checked against NSE/BSE's own published turnover data or a SEBI bulletin, and should be treated as medium confidence pending that check.",
+      "confidence": "medium"
+    }
+  ]
+}
