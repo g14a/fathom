@@ -13,7 +13,7 @@
   ],
   "intro": [
     "Here is a paradox that trips up almost every beginner. A company's profit falls. Its earnings per share drops nearly a fifth. And over the very same stretch, the stock does not fall. It recovers, and then climbs to new highs. On paper the business got worse, yet the market decided it was worth more per rupee of profit than before.",
-    "This is not a glitch, and it is not the market being irrational. It is the single most important idea in valuation, and once you see the machinery behind it you will never read a P/E ratio the same way again. We will build the whole thing from one equation, and use a real Indian company, Vinati Organics, as the worked example."
+    "This is not a glitch, and it is not the market being irrational. It is one of the most useful ideas in valuation, and once you see the machinery behind it you will never read a P/E ratio the same way again. We will build the whole thing from one equation, and use a real Indian company, Vinati Organics, as the worked example."
   ],
   "sections": [
     {
@@ -54,14 +54,14 @@
         "Now the crucial part. Why would the multiple rise exactly when earnings fall? Because the two numbers are looking in opposite directions in time.",
         "Reported EPS is backward-looking. It is a photograph of a year that has already ended. The FY21 EPS is a fact about the past, and COVID is baked into it forever.",
         "The price is forward-looking. Nobody buys a share for the profit the company made last year. They buy it for the stream of profits it will make in all the years ahead. The market can see a recovery coming months, sometimes years, before that recovery ever shows up in a reported number.",
-        "So in FY21 the market was doing something quite reasonable. It looked past a temporarily damaged year, saw a chemicals business with new capacity coming on and demand returning, and priced the future it expected, not the dented present it was handed. Earnings looked backward at the damage. Price looked forward past it. The gap between those two views is the expanding multiple."
+        "So in FY21 the market was looking past a temporarily damaged year. It saw a chemicals business with new capacity coming on and demand returning, and priced the future it expected, not the dented present it was handed. Earnings looked backward at the damage. Price looked forward past it. The gap between those two views is the expanding multiple."
       ]
     },
     {
-      "heading": "Vinati Organics: the textbook case",
+      "heading": "Vinati Organics: when earnings fall, but the multiple rises",
       "body": [
         "Put the pieces together on the real company. FY21 was Vinati's weak year: plants shut in the lockdown, softer demand, EPS down about 19% to ₹26.2. That is the denominator of the P/E falling.",
-        "Meanwhile the price, after crashing with the whole market in March 2020, recovered and pushed to new highs. That is the numerator rising. By the identity, if the price is up and EPS is down, the P/E must have risen by even more than the price did. The stock got more expensive on both counts at once.",
+        "Meanwhile the price, after crashing with the whole market in March 2020, recovered and pushed to new highs. That is the numerator rising. By the identity, if the price is up and EPS is down, the P/E must have risen by even more than the price did. The P/E expanded from both ends at once.",
         "And the recovery the market was pricing eventually arrived. Earnings snapped back the very next year: FY22 EPS returned to about ₹33.7, and FY23 rose further to about ₹40.8, comfortably past the pre-COVID level.[^2] The investors paying up in FY21 were, it turned out, paying for a recovery that arrived."
       ],
       "scorecard": {
@@ -75,8 +75,8 @@
       "heading": "Two kinds of P/E expansion, and why the difference is everything",
       "body": [
         "A rising P/E is not one thing. It is two things that look identical on a screener and mean opposite things.",
-        "The first is price-led. The price goes up while earnings hold steady, so the market is genuinely paying more for the same earnings. This is a real re-rating: a change of opinion about the future. It might be right or wrong, but the market is now willing to pay more for the same rupee of earnings.",
-        "The second is earnings-led, and it is a trap for the unwary. The price barely moves, but earnings fall, so the P/E rises all by itself. Nobody re-rated anything. The denominator just shrank. A stock can look more and more 'expensive' on trailing P/E while the market is actually getting more worried about it, not less.",
+        "The first is price-led. The price rises faster than earnings, so the market is paying more for each rupee of earnings. This is a real re-rating: a change of opinion about the future. It might be right or wrong, but the market is now willing to pay more for the same rupee of earnings.",
+        "The second is earnings-led, and it is a trap for the unwary. Earnings fall faster than the price, so the P/E rises mechanically. Nobody re-rated anything. The denominator just shrank. A stock can look more and more 'expensive' on trailing P/E while the market is actually getting more worried about it, not less.",
         "Vinati in FY21 had both working the same way: the price rose and earnings fell, so the multiple was lifted from the top and the bottom at once. But you must always ask which term is moving, because the same number, a higher P/E, can mean 'the market loves this' or merely 'last year was bad'."
       ],
       "diagram": "two-expansions"
@@ -87,15 +87,14 @@
         "Most people are taught a single sentence: a P/E rises when the market expects growth. It is not wrong, but it hides the most useful distinction in valuation. There are really three separate things at work here, and it pays to keep them in two boxes, not one.",
         "Two of them are engines of your return. Earnings growth: the company genuinely earns more. And multiple expansion or contraction: the market chooses to pay more, or less, for each rupee of earnings, a real re-rating. Those two, multiplied together, are your entire return, exactly as the identity above showed.",
         "The third is different, and it is the one that fools people. Call it denominator distortion: earnings fall, so the trailing P/E rises all by itself. Notice this one moves no share price at all. If EPS drops from ₹30 to ₹20 while the price sits still at ₹1,000, the P/E jumps from about 33 to 50 and the stock has not moved a rupee. It is not an engine of return; it is a way the reported multiple can mislead you.",
-        "This is what makes the Vinati chart worth staring at. Two things happened at once: the price genuinely rose (multiple expansion) while earnings fell (distortion), so the trailing P/E leapt from both ends together. And that is the point most beginners never reach: a rising P/E does not necessarily mean investors became more optimistic. Sometimes the multiple rises simply because the denominator shrank. When you see a P/E move on any screener, the useful question is not 'is this expensive?' but 'which of the three just fired: real earnings, the market's valuation, or only the denominator?'"
+        "That is the point most beginners never reach: a rising P/E does not necessarily mean investors became more optimistic. Sometimes the multiple rises simply because the denominator shrank. When you see a P/E move on any screener, the useful question is not 'is this expensive?' but 'which of the three just fired: real earnings, the market's valuation, or only the denominator?'"
       ],
       "diagram": "three-forces"
     },
     {
       "heading": "What a P/E ratio actually prices",
       "body": [
-        "Here is the reframe that makes all of this click. The market never really asks 'what did this company earn last year?' It asks 'what will the whole stream of earnings look like over the years I am paying for today?'",
-        "The stock price reflects the market's assessment of the company's future. The P/E simply tells us how large that price is relative to the earnings the company has already reported. So a high P/E on a depressed earnings year can be the market saying that it does not believe the depressed year represents the company's true earnings power.",
+        "The stock price reflects the market's assessment of the company's future, while the P/E only tells you how large that price is relative to the earnings already reported. So a high P/E on a depressed earnings year can be the market saying that it does not believe the depressed year represents the company's true earnings power.",
         "Those are the terms to keep: when the multiple rises it is a re-rating (or multiple expansion); when it falls it is a de-rating (or multiple contraction). And the return you finally pocket is earnings growth and the re-rating, multiplied together."
       ]
     },
@@ -108,10 +107,35 @@
       ]
     },
     {
+      "heading": "BLS International: when earnings rise, but the multiple falls",
+      "body": [
+        "Everything so far has run in one direction: earnings fell and the multiple rose. Turn the whole thing over and you get the case that confuses beginners just as much. The earnings climb, year after year, and the multiple falls anyway. The business is visibly getting better, but the market is paying progressively less for each rupee of profit. Same identity, opposite term moving.",
+        "The clean Indian example is BLS International, the visa-outsourcing company. Look at the chart. The pale bars are trailing earnings per share and they march almost straight up, from under ₹2 to about ₹17 over the window. The purple P/E line does the reverse: it starts in the 40s, drifts down through its own median of 36.3, and ends near 14. Earnings did nothing but rise. The multiple did nothing but fall. The two fought each other the entire way.",
+        "The exact figures let us split the move directly, no CAGR arithmetic needed. Reported EPS went from about ₹1.22 in FY21 to ₹16.68 in FY26, so earnings grew about 13.7 times.[^3] Over the same window the share price grew only about 7 times (a compounding of roughly 48% a year). By the identity, price equals EPS times P/E, so the whole gap between those two must be the multiple. The chart bears that out: the P/E falls from roughly 30 times earnings to roughly 15 (chart-read, approximate), about a halving. And it ties out: 13.7 times a half is about 7. So the earnings did the heavy lifting, the shrinking multiple handed part of it back, and what was left was still an exceptional return, just well short of what the earnings growth alone would have suggested.",
+        "Why would the market pay less for each rupee even as earnings pile up? Because the price is a bet on the future, and the market's view of that future can change even while reported earnings keep improving. In BLS's case, concerns about government-contract concentration, the company's move into lower-margin digital and loan-distribution businesses, and more recently the October 2025 MEA debarment (set aside by the Delhi High Court that December) all gave investors reasons to reassess what those future earnings were worth. These are possible explanations for the de-rating, not proof that any one of them caused it. The multiple spans years; most of these worries do not, so treat them as candidates, not a verdict.",
+        "This is a de-rating, the same machinery as Vinati but running the other way, and it carries the opposite lesson. A falling P/E does not mean the business is failing, exactly as a rising P/E did not mean it was thriving. Sometimes the multiple falls simply because the market has decided the future is less bright, or less certain, than the earnings trend alone would imply. Whether it is right is the whole question. If BLS holds its margins, a compressed multiple on a compounding business is the kind of setup that can re-rate back up. If the mix keeps thinning the profit, the low multiple was the market seeing it early. The framework only tells you the multiple did the work; it does not tell you who is right."
+      ],
+      "scorecard": {
+        "improved": "Reported earnings. EPS grew about 13.7 times, from about ₹1.22 in FY21 to ₹16.68 in FY26.",
+        "worsened": "The multiple. The P/E roughly halved, from about 30 times earnings to about 15, falling through its 36.3 median. The market kept paying less for each rupee of a growing profit.",
+        "shareholder": "The price still grew about 7 times (about 48% a year), an exceptional return, but well short of the earnings growth, because the shrinking multiple handed part of it back.",
+        "labels": { "improved": "Earnings", "worsened": "Multiple", "shareholder": "The return" }
+      }
+    },
+    {
+      "heading": "Two companies, one equation, opposite outcomes",
+      "body": [
+        "Set the two cases side by side, because they are the same equation viewed from opposite ends. At Vinati, EPS fell while the P/E rose: the market looked past a temporarily weak year to a recovery it could already see. At BLS, EPS rose while the P/E fell: the business kept improving, but the market became willing to pay less for each rupee of that improving profit. In both, the business and the valuation were moving in opposite directions, and the stock did something a beginner would call impossible.",
+        "So the lesson is not only the one you started with, do not read a P/E in isolation. It is also its twin: do not read earnings growth in isolation either. Great earnings growth stacked under a contracting multiple can leave you with a mediocre return. Falling earnings under an expanding multiple, as Vinati showed, can leave you with a surprisingly strong one. The two levers are separate, and either can quietly cancel the other.",
+        "That is the whole case study in one line. Your return is earnings growth multiplied by the change in the valuation the market puts on those earnings. Watch both. A wonderful business bought at a multiple that then contracts for years is how you can be completely right about the company and still disappointed by the stock."
+      ],
+      "diagram": "mirror-compare"
+    },
+    {
       "heading": "Using this yourself",
       "body": [
         "Here is the habit to carry away, and it works on any stock screener. A screener only knows today's number. It shows you a P/E, and sometimes that the P/E has risen, but it cannot tell you why it rose. It cannot see the company's own history. So it can never, on its own, tell a genuine re-rating apart from a denominator that simply shrank.",
-        "That is what the chart in this piece is for. Pull up any company's P/E against its own long-run median, with its earnings alongside, and the answer becomes visible in one look. Is the multiple sitting above its own history while earnings hold steady or rise? That is real optimism, a price-led re-rating. Is the P/E high only because the earnings bars dipped? That is the trap, the multiple inflating on a falling denominator while nothing hopeful has actually happened.",
+        "That is what the chart in this piece is for. Pull up any company's P/E against its own long-run median, with its earnings alongside, and the answer becomes visible in one look. Is the multiple sitting above its own history while earnings hold steady or rise? That may indicate a price-led re-rating. Is the P/E high only because the earnings bars dipped? That is the trap, the multiple inflating on a falling denominator while nothing hopeful has actually happened.",
         "Two cautions before you trust what you see. First, mismatched clocks: comparing a one-year price move against multi-year earnings growth can make an ordinary year look like a re-rating, so line up the same period on both sides. Second, cyclicals: in a business whose profits swing with a commodity or a demand cycle, a high trailing P/E often just means earnings are near a low, not that the market has fallen in love. In those, a low P/E on peak earnings can be the more dangerous number.",
         "None of this tells you what to buy. It tells you which question you are actually answering. Not 'is this P/E high?', but 'which engine moved it, and do I believe the future it is paying for?'"
       ],
@@ -141,15 +165,22 @@
       "src": "/case-studies/vinati-pe-vs-eps.png",
       "caption": "The paradox in one picture. The pale bars are trailing (TTM) earnings per share; the purple line is the P/E. Follow the COVID window, roughly Jun 2020 to Sep 2021: the earnings bars sag while the P/E line climbs to its highest point on the chart. Price was racing ahead of a dented earnings number. The multiple was doing the apparent lifting. Notice the mirror image on the right, 2024 into 2025: earnings keep rising to fresh highs while the P/E line falls back below its median, a de-rating, the same machinery in reverse. The EPS bars here are trailing twelve-month (TTM) EPS, the same denominator as the P/E line. The annual figures in the evidence table below are reported full-year EPS, a slightly different measure, which is why the two will not match to the decimal.",
       "source": "Screener.in, 10-year PE Ratio vs TTM EPS, Vinati Organics"
+    },
+    {
+      "src": "/case-studies/bls-pe-vs-eps.png",
+      "caption": "The mirror image, in one picture. The pale bars are trailing (TTM) earnings per share; the purple line is the P/E. Here the bars climb almost without a pause, from under ₹2 to about ₹17, while the P/E line does the opposite: it starts in the 40s, crosses below its own 36.3 median, and ends near 14. Earnings did all the rising; the multiple did all the falling. This is a de-rating on a growing business, the exact reverse of the Vinati chart above, and the reason a compounding company can still get cheaper on every rupee of profit.",
+      "source": "Screener.in, 5-year PE Ratio vs TTM EPS, BLS International"
     }
   ],
   "sources": [
     { "label": "Vinati Organics financials, Screener.in", "url": "https://www.screener.in/company/VINATIORGA/consolidated/" },
-    { "label": "Vinati Q3 FY21 results: COVID-hit quarter (Business Standard)", "url": "https://www.business-standard.com/article/news-cm/vinati-organics-consolidated-net-profit-declines-5-06-in-the-march-2021-quarter-121051300662_1.html" }
+    { "label": "Vinati Q3 FY21 results: COVID-hit quarter (Business Standard)", "url": "https://www.business-standard.com/article/news-cm/vinati-organics-consolidated-net-profit-declines-5-06-in-the-march-2021-quarter-121051300662_1.html" },
+    { "label": "BLS International financials, Screener.in", "url": "https://www.screener.in/company/BLS/consolidated/" }
   ],
   "evidenceNotes": [
     { "id": 1, "note": "FY20 and FY21 EPS of about ₹32.5 and ₹26.2 are from Screener.in, a roughly 19% year-on-year fall. The company's own quarterly commentary attributed the weakness to the COVID lockdown (plants suspended from 26 March 2020, resumed 20 April 2020) and softer demand.", "confidence": "high" },
-    { "id": 2, "note": "FY22 and FY23 EPS of about ₹33.7 and ₹40.8 are from Screener.in, showing earnings recovered past the pre-COVID level within two years.", "confidence": "high" }
+    { "id": 2, "note": "FY22 and FY23 EPS of about ₹33.7 and ₹40.8 are from Screener.in, showing earnings recovered past the pre-COVID level within two years.", "confidence": "high" },
+    { "id": 3, "note": "BLS International: FY21 EPS of about ₹1.22 and FY26 EPS of ₹16.68 are from Screener.in, a roughly 69% five-year compounded growth, against a stock CAGR of about 48% over the same period, so the P/E compressed as earnings grew. The MEA debarment (9 October 2025) and its reversal by the Delhi High Court (18 December 2025) are documented in the BLS company report on this site. The listed reasons for the multi-year de-rating are candidate explanations, not established causes.", "confidence": "medium" }
   ],
   "timeline": [
     { "when": "26 Mar 2020", "what": "Vinati suspends plant operations as the national COVID lockdown begins; the whole market has already crashed." },
@@ -161,7 +192,7 @@
   "patternCard": {
     "signal": "A stock's trailing P/E rises while its reported earnings fall.",
     "mechanism": "Price equals EPS times P/E. EPS is a photograph of a past year; price is a bet on all future years. When the market looks past a temporarily weak year to a recovery it can already see, price rises while EPS falls, so the multiple expands from both ends.",
-    "whereToCheck": "Compare the price chart against the yearly EPS line (both on any screener). If price rose while EPS fell, the multiple did the work. Then split any return into earnings growth times multiple change to see which lever actually paid you.",
+    "whereToCheck": "Compare the price chart against the yearly EPS line (both on any screener). If price rose while EPS fell, the multiple expanded from both directions. Then split the stock's return into earnings growth and multiple change to see which lever actually paid you.",
     "counterexample": "A rising multiple on falling earnings is a bet on recovery, not proof of one. When the recovery never arrives, the multiple contracts and both terms fall together, so the stock drops harder than the earnings alone would suggest."
   },
   "lesson": "When a P/E changes, ask which of three engines moved it: earnings grew, the market paid a higher multiple, or earnings fell so the multiple rose on its own. The stock price reflects the market's assessment of the company's future; the P/E only tells you how large that price is relative to the earnings already reported. That is why the multiple can rise while earnings fall, and why a rising P/E does not, by itself, mean the market turned more optimistic.",

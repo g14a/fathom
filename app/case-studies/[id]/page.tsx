@@ -402,6 +402,48 @@ function renderDiagram(id: string): React.ReactNode {
       </figure>
     );
   }
+  if (id === 'mirror-compare') {
+    const vinati = [
+      'EPS: fell (down about 19%)',
+      'P/E: rose sharply, from both ends',
+      'What happened: re-rating plus a shrinking denominator',
+      'Result: the price outran the earnings',
+    ];
+    const bls = [
+      'EPS: rose (about 13.7 times over five years)',
+      'P/E: fell, roughly halving',
+      'What happened: strong earnings growth against a de-rating',
+      'Result: the earnings outran the price',
+    ];
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">Two companies, one equation</span>
+          <span className="dg-badge">Opposite outcomes</span>
+        </div>
+        <div className="dg-consol">
+          <div className="dg-col">
+            <div className="dg-col-head">Vinati: the market ran ahead of the earnings</div>
+            <ul className="dg-namelist dg-namelist-live">
+              {vinati.map((n) => <li key={n}>{n}</li>)}
+            </ul>
+          </div>
+          <div className="dg-arrow dg-arrow-vs" aria-hidden="true">vs</div>
+          <div className="dg-col">
+            <div className="dg-col-head">BLS: the earnings ran ahead of the market</div>
+            <ul className="dg-namelist dg-namelist-dim">
+              {bls.map((n) => <li key={n}>{n}</li>)}
+            </ul>
+          </div>
+        </div>
+        <figcaption className="dg-cap">
+          The same identity, read from opposite ends. At Vinati the earnings fell while the multiple rose, so the price
+          moved ahead of the profit. At BLS the earnings climbed while the multiple fell, so the profit moved ahead of
+          the price. In both, the business and its valuation pointed in opposite directions.
+        </figcaption>
+      </figure>
+    );
+  }
   if (id === 'liquidity-flywheel') {
     const nodes = [
       { label: 'More brokers present', note: 'a bigger crowd shows up to trade' },
