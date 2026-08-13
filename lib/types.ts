@@ -56,6 +56,31 @@ export interface Lens {
   reading: string;
 }
 
+// Forward view. Its ONE job is the future, and its discipline is to MONITOR, not
+// conclude: for each area, state what has already happened (facts), then the open
+// question the reader can watch. It never predicts; it hands the reader the dials.
+export interface Outlook {
+  intro?: string;
+
+  // the areas to monitor: facts that have happened, then the question to watch
+  areas: {
+    title: string;      // "The core business"
+    facts: string[];    // what has already happened (sourced numbers)
+    watch: string;      // the open question, phrased as something to monitor
+  }[];
+
+  // acquired/contracted capacity that has NOT hit reported earnings yet.
+  // The one metaphor that earns its place: capacity won vs profit reported.
+  loadingEngines?: {
+    name: string;
+    whatItIs: string;   // plain-words: what it becomes
+    notYetInPnL: string;// why today's numbers don't show it
+    whenItLands: string;// "FY27-28"
+  }[];
+
+  closer?: string;      // one line: "The next few quarters should answer these."
+}
+
 // Optional bespoke visuals (currently used by ECLERX to frame the AI debate).
 export interface ForkBranch {
   label: string;        // "eClerx captures the value"
@@ -223,4 +248,7 @@ export interface TickerReport {
 
   // 14. lenses
   lenses: Lens[];
+
+  // 15. forward view (optional): what the numbers don't show yet
+  outlook?: Outlook;
 }

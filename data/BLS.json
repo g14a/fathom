@@ -465,5 +465,74 @@
       "name": "The first slowdown tremor",
       "reading": "Q1 FY27 is the first quarter where profit growth (11%) fell well below revenue growth (25%). The next quarter will tell us whether this is a temporary mix effect or the beginning of a more persistent slowdown."
     }
-  ]
+  ],
+  "outlook": {
+    "intro": "The five-year history is settled: revenue tripled, margins rose, the stock still fell 36%. What is not settled is the future. This section does not predict it. It lays out what has already happened in each part of the business, then the one open question you can watch to figure out where it goes. All figures are from the Q1 FY27 investor presentation (quarter ended June 2026).",
+    "areas": [
+      {
+        "title": "The core business",
+        "facts": [
+          "Visa and consular EBITDA margin was 40.1% in Q1 FY27, holding near the 40.6% it hit in FY26.",
+          "It processed 11.3 lakh applications in the quarter, and net revenue per application rose 11.2% YoY.",
+          "Visa and consular revenue grew 21.6% YoY; segment EBITDA grew 21.5%.",
+          "The self-managed model lifted that segment margin from 14.6% in FY22 to 40.6% in FY26."
+        ],
+        "watch": "Does the visa segment margin stay around 40%? That is the crown jewel. If it slips, the core thesis is what is changing, not the mix around it."
+      },
+      {
+        "title": "The new businesses",
+        "facts": [
+          "Digital services sit in BLS E-Services, a separately listed 51% subsidiary, and earn far thinner margins than visa.",
+          "Consolidated EBITDA grew 23.6% YoY, slightly faster than the visa segment's 21.5%, so digital and the acquisitions added to profit this quarter rather than only diluting it.",
+          "iDATA (Turkey), Citizenship Invest and Aadifidelis are now consolidated into the group."
+        ],
+        "watch": "Do the new businesses start contributing profit faster than they dilute the group? One quarter of help is not a trend; watch whether it holds."
+      },
+      {
+        "title": "The regulatory question",
+        "facts": [
+          "The MEA barred BLS from new Indian-mission tenders in October 2025; the Delhi High Court set that order aside in December 2025.",
+          "Existing contracts ran uninterrupted throughout, and Indian missions were only about 12% of Q1 FY26 revenue.",
+          "BLS kept winning government work through the episode: a 5-year global contract with Slovakia, a Cyprus contract across 15+ countries, and a 3-year MEA contract to run Indian visa centres in China."
+        ],
+        "watch": "Does another major government client ever create a similar problem? One reversal is a one-off; a second would be a pattern."
+      },
+      {
+        "title": "The valuation question",
+        "facts": [
+          "The stock trades around 15x earnings after a 36% fall, while profit kept growing.",
+          "In Q1 FY27, EBITDA grew 23.6% but PAT grew only 11.4%. The gap is mostly below EBITDA: depreciation rose 39% (Rs 22.8 cr to Rs 31.7 cr) as the acquisitions and centres get written down.",
+          "Over five years profit compounded far faster than the stock, so the PE compressed rather than expanded, while ROE held near 33%."
+        ],
+        "watch": "Does earnings growth stay strong enough to offset the depreciation and integration drag from the acquisitions?"
+      }
+    ],
+    "loadingEngines": [
+      {
+        "name": "Slovakia (5-year global)",
+        "whatItIs": "A 5-year contract to run visa application centres for Slovakia across 80+ countries.",
+        "notYetInPnL": "Centres are being opened; the volume flows into revenue only as they go live, not on the day the contract was signed.",
+        "whenItLands": "FY27-28"
+      },
+      {
+        "name": "Cyprus (15+ countries)",
+        "whatItIs": "A visa outsourcing mandate extending BLS across 15+ new countries.",
+        "notYetInPnL": "Ramp-up is gradual as each country's centre starts processing.",
+        "whenItLands": "FY27-28"
+      },
+      {
+        "name": "MEA China contract",
+        "whatItIs": "A 3-year contract to run Indian visa application centres across China, won after the tender ban was overturned.",
+        "notYetInPnL": "Signed in FY26; the run-rate has not fully shown up in reported revenue yet.",
+        "whenItLands": "FY27"
+      },
+      {
+        "name": "iDATA (Turkey) full-year",
+        "whatItIs": "The largest acquisition (about Rs 450 cr) contributing a full year of visa volume for the first time.",
+        "notYetInPnL": "FY26 captured only a partial year; the full annualised run-rate is still building.",
+        "whenItLands": "FY27"
+      }
+    ],
+    "closer": "The next few quarters should answer these questions. Watch the four dials, not the headline PAT line."
+  }
 }

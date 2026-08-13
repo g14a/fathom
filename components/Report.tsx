@@ -1,7 +1,7 @@
 import type {
   TickerReport, Metric, FinancialRow, HoldingSlice, ChecklistItem, MoatStrength,
   MoneyFlow as MoneyFlowT, AiFork as AiForkT, Scorecard as ScorecardT,
-  Counterpoint as CounterpointT,
+  Counterpoint as CounterpointT, Outlook as OutlookT,
 } from '@/lib/types';
 import { getSector } from '@/lib/sectors';
 import { getCaseStudiesForTicker } from '@/lib/caseStudies';
@@ -175,6 +175,53 @@ function Scorecard({ s }: { s: ScorecardT }) {
         ))}
       </div>
       {s.note && <p className="tight" style={{ color: 'var(--ink-faint)' }}>{s.note}</p>}
+    </div>
+  );
+}
+
+function Outlook({ o }: { o: OutlookT }) {
+  return (
+    <div className="outlook">
+      {o.intro && <p style={{ color: 'var(--ink-dim)' }}>{o.intro}</p>}
+
+      <div className="ol-areas">
+        {o.areas.map((a, i) => (
+          <div key={i} className="ol-area">
+            <div className="ol-area-head">
+              <span className="ol-area-num">{String(i + 1).padStart(2, '0')}</span>
+              <h3 className="ol-area-title">{a.title}</h3>
+            </div>
+            <ul className="ol-facts">
+              {a.facts.map((f, j) => <li key={j}>{f}</li>)}
+            </ul>
+            <div className="ol-watch">
+              <span className="ol-watch-tag">What to watch</span>
+              <span className="ol-watch-q">{a.watch}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {o.loadingEngines && o.loadingEngines.length > 0 && (
+        <div className="ol-section">
+          <div className="ol-label">Engines loaded, not yet in the P&amp;L</div>
+          <p className="ol-sub">Capacity already won or acquired, but not yet showing up in reported earnings.</p>
+          <div className="ol-engines">
+            {o.loadingEngines.map((e, i) => (
+              <div key={i} className="ol-engine">
+                <div className="ol-eng-head">
+                  <span className="ol-eng-name">{e.name}</span>
+                  <span className="ol-eng-when">{e.whenItLands}</span>
+                </div>
+                <p className="ol-eng-what">{e.whatItIs}</p>
+                <p className="ol-eng-hidden">{e.notYetInPnL}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {o.closer && <p className="ol-closer">{o.closer}</p>}
     </div>
   );
 }
@@ -502,7 +549,13 @@ export function Report({ r }: { r: TickerReport }) {
         </Block>
       )}
 
-      <Block num="16" title="Summary">
+      {r.outlook && (
+        <Block num="16" title="Outlook: What Happens Next?">
+          <Outlook o={r.outlook} />
+        </Block>
+      )}
+
+      <Block num="17" title="Summary">
         <p style={{ fontSize: 17 }}>{r.summary}</p>
       </Block>
 

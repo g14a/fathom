@@ -1061,3 +1061,34 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .csd-evnotes-list li:target .csd-evnote-text { color: var(--ink); }
 .csd-evnote-num { font-family: var(--mono); font-size: 11px; font-weight: 700; color: var(--accent); }
 .csd-evnote-text { font-size: 13.5px; line-height: 1.65; color: var(--ink-dim); }
+
+/* --- Outlook: what happens next (block 16) --- */
+.outlook { margin-top: 8px; display: flex; flex-direction: column; gap: 26px; }
+.ol-section { display: flex; flex-direction: column; gap: 10px; }
+.ol-label { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-faint); }
+.ol-sub { font-size: 13.5px; color: var(--ink-dim); margin: 0; }
+
+.ol-areas { display: flex; flex-direction: column; gap: 14px; }
+.ol-area { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; }
+.ol-area-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px; }
+.ol-area-num { font-family: var(--mono); font-size: 12px; font-weight: 700; color: var(--accent); }
+.ol-area-title { font-family: var(--serif); font-size: 18px; font-weight: 600; margin: 0; color: var(--ink); }
+.ol-facts { margin: 0 0 14px; padding-left: 18px; display: flex; flex-direction: column; gap: 5px; }
+.ol-facts li { font-size: 14px; color: var(--ink-dim); font-variant-numeric: tabular-nums; }
+.ol-watch { display: flex; flex-direction: column; gap: 4px; border-left: 3px solid var(--accent); background: var(--accent-dim); padding: 10px 14px; border-radius: 0 8px 8px 0; }
+.ol-watch-tag { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--accent); }
+.ol-watch-q { font-size: 14.5px; color: var(--ink); }
+
+.ol-engines { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.ol-engine { background: var(--bg-card); border: 1px solid var(--border); border-top: 2px solid var(--accent-dim); border-radius: 10px; padding: 14px 16px; }
+.ol-eng-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 8px; }
+.ol-eng-name { font-family: var(--serif); font-size: 16px; color: var(--ink); }
+.ol-eng-when { font-family: var(--mono); font-size: 11px; color: var(--accent); white-space: nowrap; }
+.ol-eng-what { font-size: 14px; color: var(--ink-dim); margin: 0 0 6px; }
+.ol-eng-hidden { font-size: 13px; color: var(--ink-faint); margin: 0; font-style: italic; }
+
+.ol-closer { font-family: var(--serif); font-size: 16px; color: var(--ink); margin: 0; }
+
+@media (max-width: 640px) {
+  .ol-engines { grid-template-columns: 1fr; }
+}
