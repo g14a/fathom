@@ -1,7 +1,7 @@
 import { getAllCaseStudies, getCaseStudy } from '@/lib/caseStudies';
 import { getSector } from '@/lib/sectors';
 import type { Metadata } from 'next';
-import { withBase, canonical } from '@/lib/base';
+import { withBase, canonical, formatDate } from '@/lib/base';
 import Connections from '@/components/Connections';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import JsonLd, { ORG } from '@/components/JsonLd';
@@ -641,6 +641,10 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
         </div>
         <div className="eyebrow" style={{ marginTop: 14 }}>{c.company} · {c.ticker}</div>
         <h1 className="csd-title">{c.title}</h1>
+        <div className="asof" style={{ marginTop: 12 }}>
+          <a href={withBase('/about/')} className="byline-link">Fathom Research</a>
+          {c.published ? ` · published ${formatDate(c.published)}` : ''}
+        </div>
       </div>
 
       <div className="csd-stats">

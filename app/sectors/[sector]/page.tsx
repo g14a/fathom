@@ -1,7 +1,7 @@
 import { getAllSectors, getSector } from '@/lib/sectors';
 import type { PrimerBlock } from '@/lib/sectors';
 import { getCaseStudy } from '@/lib/caseStudies';
-import { getAllTickers, getReport } from '@/lib/data';
+import { getAllTickers, getReport, getAllReports } from '@/lib/data';
 import type { Metadata } from 'next';
 import { withBase, canonical } from '@/lib/base';
 import Connections from '@/components/Connections';
@@ -214,7 +214,11 @@ export default async function SectorPage({ params }: { params: Promise<{ sector:
         const relSectors = (s.relatedSectors ?? []).map((id) => getSector(id)).filter(Boolean);
         const relCases = (s.relatedCaseStudies ?? []).map((id) => getCaseStudy(id)).filter(Boolean);
         const tickers = getAllTickers();
-        const relReports = (s.relatedReports ?? []).filter((t) => tickers.includes(t)).map(getReport);
+        // Every report tagged to this sector, plus any curated extras, deduped: a
+        // complete two-way link cluster between the sector and its companies.
+        const curated = (s.relatedReports ?? []).filter((t) => tickers.includes(t)).map(getReport);
+        const bySector = getAllReports().filter((rp) => rp.sectorId === s.id);
+        const relReports = [...new Map([...bySector, ...curated].map((rp) => [rp.slug, rp])).values()];
         const models = s.mentalModels ?? [];
         return (
           <Connections

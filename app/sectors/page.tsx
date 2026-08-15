@@ -1,6 +1,7 @@
 import { getAllSectors } from '@/lib/sectors';
 import type { Metadata } from 'next';
 import { withBase, canonical } from '@/lib/base';
+import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = {
   title: 'Sectors: How Indian Industries Work & Make Money | Fathom',
@@ -9,8 +10,20 @@ export const metadata: Metadata = {
 };
 
 export default function SectorsIndex() {
+  const itemListLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Sector explainers',
+    itemListElement: getAllSectors().map((s, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: canonical(`/sectors/${s.id}/`),
+      name: s.name,
+    })),
+  };
   return (
     <>
+      <JsonLd data={itemListLd} />
       <div className="hero">
         <div className="wrap">
           <div className="eyebrow">The map</div>

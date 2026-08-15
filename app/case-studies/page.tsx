@@ -1,6 +1,7 @@
 import { getAllCaseStudies } from '@/lib/caseStudies';
 import type { Metadata } from 'next';
 import { withBase, canonical } from '@/lib/base';
+import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = {
   title: 'Business Case Studies from Indian Markets | Fathom',
@@ -9,8 +10,21 @@ export const metadata: Metadata = {
 };
 
 export default function CaseStudiesIndex() {
+  const studies = getAllCaseStudies();
+  const itemListLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Business case studies',
+    itemListElement: studies.map((c, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: canonical(`/case-studies/${c.id}/`),
+      name: c.title,
+    })),
+  };
   return (
     <>
+      <JsonLd data={itemListLd} />
       <div className="hero">
         <div className="wrap">
           <div className="eyebrow">Learn from what happened</div>
@@ -34,7 +48,7 @@ export default function CaseStudiesIndex() {
           </p>
         </div>
         <div className="cs-grid">
-          {getAllCaseStudies().map((c) => (
+          {studies.map((c) => (
             <a key={c.id} href={withBase(`/case-studies/${c.id}/`)} className="cs-card">
               <div className="cs-card-top">
                 <span className="cs-card-company">{c.company}</span>

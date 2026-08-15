@@ -115,6 +115,7 @@ gtag('config', '${GA_ID}');`}
               <a href={withBase("/case-studies/")}>Case Studies</a>
               <a href={withBase("/patterns/")}>Patterns</a>
               <a href={withBase("/signals/")}>Signals</a>
+              <a href={withBase("/about/")}>About</a>
             </nav>
           </div>
         </header>
@@ -131,6 +132,13 @@ gtag('config', '${GA_ID}');`}
               responsibility, and Fathom accepts no liability for any loss or damage that may
               result. Always do your own research, and consult a SEBI-registered investment
               adviser and your tax adviser before investing.
+            </p>
+            <p className="site-footer-links">
+              <a href={withBase('/about/')}>About &amp; methodology</a>
+              <span aria-hidden="true"> · </span>
+              <a href={withBase('/case-studies/')}>Case studies</a>
+              <span aria-hidden="true"> · </span>
+              <a href={withBase('/sectors/')}>Sectors</a>
             </p>
           </div>
         </footer>

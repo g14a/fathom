@@ -6,6 +6,7 @@ import type {
 import { getSector } from '@/lib/sectors';
 import { getCaseStudiesForTicker } from '@/lib/caseStudies';
 import { getAllSignals } from '@/lib/signals';
+import { getAllReports } from '@/lib/data';
 import { withBase, formatDate } from '@/lib/base';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Connections from '@/components/Connections';
@@ -355,6 +356,11 @@ export function Report({ r }: { r: TickerReport }) {
     ? getAllSignals().filter((s) => s.kind !== 'Primer' && (s.relatedSectors ?? []).includes(crumbSector.id))
     : [];
   const relatedCases = getCaseStudiesForTicker(r.ticker);
+  // Other companies in the same sector, so every report links to its siblings both
+  // ways and the sector forms a tight internal-link cluster.
+  const siblingCompanies = r.sectorId
+    ? getAllReports().filter((x) => x.sectorId === r.sectorId && x.slug !== r.slug)
+    : [];
   return (
     <div className="wrap report">
       <Breadcrumbs
@@ -370,7 +376,7 @@ export function Report({ r }: { r: TickerReport }) {
           <div className="eyebrow">{r.sector === r.industry ? r.sector : `${r.sector} · ${r.industry}`}</div>
           <h1 className="report-title">{r.company}</h1>
           <div className="asof" style={{ marginTop: 8 }}>
-            {r.ticker} · {r.dataVariant} · as of {formatDate(r.asOf)}
+            <a href={withBase('/about/')} className="byline-link">Fathom Research</a> · {r.ticker} · {r.dataVariant} · as of {formatDate(r.asOf)}
           </div>
         </div>
       </div>
@@ -563,6 +569,7 @@ export function Report({ r }: { r: TickerReport }) {
         title="Take these ideas further"
         items={[
           ...(crumbSector ? [{ kicker: 'Sector', name: `How ${crumbSector.name} businesses work`, href: `/sectors/${crumbSector.id}/` }] : []),
+          ...siblingCompanies.map((x) => ({ kicker: 'Company', name: x.company, href: `/stocks/${x.slug}/` })),
           ...relatedSignals.map((s) => ({ kicker: 'Signal', name: s.title, href: `/signals/${s.id}/` })),
           ...relatedCases.map((cs) => ({ kicker: 'Case study', name: cs.title, href: `/case-studies/${cs.id}/`, variant: 'case' as const })),
         ]}

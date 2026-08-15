@@ -7,7 +7,7 @@ import { canonical } from '@/lib/base';
 
 export const dynamic = 'force-static';
 
-type Entry = { path: string; lastModified?: string | Date; priority: number; changeFrequency: 'weekly' | 'monthly' };
+type Entry = { path: string; lastModified?: string | Date; priority: number; changeFrequency: 'weekly' | 'monthly' | 'yearly' };
 
 // Only accept plain ISO dates for lastmod, so a bad value never poisons the sitemap.
 function isoDate(v?: string): string | undefined {
@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/signals/', priority: 0.7, changeFrequency: 'weekly' },
     { path: '/case-studies/', priority: 0.8, changeFrequency: 'weekly' },
     { path: '/patterns/', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/about/', priority: 0.5, changeFrequency: 'yearly' },
   ];
 
   // Real per-page dates where the data carries one, so genuine freshness stands out

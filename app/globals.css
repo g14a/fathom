@@ -279,6 +279,9 @@ section.block:first-of-type { border-top: none; }
 .site-footer { border-top: 1px solid var(--border); margin-top: 64px; padding: 28px 0 56px; background: var(--bg-raised); }
 .site-footer-legal { max-width: 900px; margin: 0 auto; color: var(--ink-faint); font-size: 12.5px; line-height: 1.65; }
 .site-footer-legal strong { color: var(--ink-dim); }
+.site-footer-links { max-width: 900px; margin: 16px auto 0; font-family: var(--mono); font-size: 12px; letter-spacing: 0.03em; color: var(--ink-faint); }
+.site-footer-links a { color: var(--ink-dim); text-decoration: none; }
+.site-footer-links a:hover { color: var(--accent); }
 .disclaimer strong { color: var(--ink-dim); }
 
 .back { font-size: 14px; color: var(--ink-dim); display: inline-block; margin: 20px 0 14px; }
@@ -316,6 +319,18 @@ section.block:first-of-type { border-top: none; }
 .u-intro p { color: var(--ink-dim); font-size: 17px; max-width: 680px; }
 .u-intro p + p { margin-top: 16px; }
 .u-intro em { color: var(--ink); font-style: italic; }
+
+/* About / methodology prose */
+.u-body { padding-top: 44px; padding-bottom: 80px; }
+.u-sec { max-width: 720px; margin-bottom: 40px; }
+.u-sec h2 { font-family: var(--serif); font-size: 26px; font-weight: 600; letter-spacing: -0.01em; margin: 0 0 12px; text-wrap: balance; }
+.u-sec p { color: var(--ink-dim); font-size: 16.5px; line-height: 1.7; }
+.about-list { list-style: none; padding: 0; margin: 4px 0 0; display: flex; flex-direction: column; gap: 14px; }
+.about-list li { color: var(--ink-dim); font-size: 16.5px; line-height: 1.6; padding-left: 18px; position: relative; }
+.about-list li::before { content: ''; position: absolute; left: 0; top: 11px; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+.about-list strong { color: var(--ink); }
+.byline-link { color: var(--accent); text-decoration: none; }
+.byline-link:hover { text-decoration: underline; }
 
 .qlist { padding: 20px 0 20px; }
 .q { border-top: 1px solid var(--border); padding: 34px 0; display: grid; grid-template-columns: 54px 1fr; gap: 22px; }
