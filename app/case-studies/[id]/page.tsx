@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { withBase, canonical } from '@/lib/base';
 import Connections from '@/components/Connections';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import JsonLd, { ORG } from '@/components/JsonLd';
 
 export function generateStaticParams() {
   return getAllCaseStudies().map((c) => ({ id: c.id }));
@@ -19,8 +20,8 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
     title,
     description: c.summary,
     alternates: { canonical: url },
-    openGraph: { title, description: c.summary, url, type: 'article' },
-    twitter: { title, description: c.summary },
+    openGraph: { title, description: c.summary, url, type: 'article', images: ['/og.png'] },
+    twitter: { title, description: c.summary, images: ['/og.png'] },
   };
 }
 
@@ -614,8 +615,23 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
   const { id } = await params;
   const c = getCaseStudy(id)!;
 
+  const articleLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: c.title,
+    description: c.summary,
+    articleSection: 'Case study',
+    keywords: c.tags.join(', '),
+    mainEntityOfPage: canonical(`/case-studies/${c.id}/`),
+    author: ORG,
+    publisher: ORG,
+    ...(c.published ? { datePublished: c.published, dateModified: c.published } : {}),
+    about: { '@type': 'Corporation', name: c.company },
+  };
+
   return (
     <div className="wrap report csd-page">
+      <JsonLd data={articleLd} />
       <Breadcrumbs items={[{ name: 'Case Studies', path: '/case-studies/' }, { name: c.company }]} />
 
       <div className="csd-head">

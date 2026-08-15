@@ -23,8 +23,8 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
     title,
     description,
     alternates: { canonical: url },
-    openGraph: { title, description, url, type: 'article' },
-    twitter: { title, description },
+    openGraph: { title, description, url, type: 'article', images: ['/og.png'] },
+    twitter: { title, description, images: ['/og.png'] },
   };
 }
 

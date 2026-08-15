@@ -3,6 +3,29 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import { withBase, SITE_URL, canonical } from '@/lib/base';
 import { getFeaturedCaseStudies } from '@/lib/caseStudies';
+import JsonLd from '@/components/JsonLd';
+
+const SITE_JSONLD = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': `${SITE_URL}/#org`,
+      name: 'Fathom',
+      url: `${SITE_URL}/`,
+      description:
+        'Beginner-friendly research on NSE-listed companies: how each business makes money, the sectors and mental models behind it, and the events that move it.',
+    },
+    {
+      '@type': 'WebSite',
+      '@id': `${SITE_URL}/#site`,
+      name: 'Fathom',
+      url: `${SITE_URL}/`,
+      publisher: { '@id': `${SITE_URL}/#org` },
+      inLanguage: 'en-IN',
+    },
+  ],
+};
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID || 'G-HESW7D5M5H';
 
@@ -22,11 +45,13 @@ export const metadata: Metadata = {
     url: canonical('/'),
     title: 'Fathom: Indian Equity Research, Explained From First Principles',
     description: 'How Indian businesses actually make money, the sectors and mental models behind them, and the events that move them.',
+    images: [{ url: '/og.png', width: 1200, height: 630, alt: 'Fathom' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Fathom: Indian Equity Research, Explained',
     description: 'How Indian businesses actually make money, and the events that move them.',
+    images: ['/og.png'],
   },
 };
 
@@ -35,6 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
+        <JsonLd data={SITE_JSONLD} />
         {GA_ID && (
           <>
             <Script
