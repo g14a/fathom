@@ -476,6 +476,137 @@ function renderDiagram(id: string): React.ReactNode {
       </figure>
     );
   }
+  if (id === 'cupid-float') {
+    const before = [
+      'Market cap: about ₹380 crore',
+      'Promoter holding: 41.84%',
+      'Freely tradeable (non-promoter): 58%',
+      'Value of that entire float: about ₹220 crore',
+      'A few tens of crore of buying meets very few shares',
+    ];
+    const after = [
+      'Market cap: about ₹37,000 crore',
+      'Promoter holding: ~46%',
+      'Freely tradeable (non-promoter): ~54%',
+      'Value of that float: about ₹20,000 crore',
+      'Now it takes an ocean of buying to move the price',
+    ];
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">Why a small stock re-rates violently</span>
+          <span className="dg-badge">Sept 2023 → Aug 2026</span>
+        </div>
+        <div className="dg-consol">
+          <div className="dg-col">
+            <div className="dg-col-head">At the takeover: a tiny, tightly held stock</div>
+            <ul className="dg-namelist dg-namelist-dim">
+              {before.map((n) => <li key={n}>{n}</li>)}
+            </ul>
+          </div>
+          <div className="dg-arrow" aria-hidden="true">→</div>
+          <div className="dg-col">
+            <div className="dg-col-head">After the move: a large one</div>
+            <ul className="dg-namelist dg-namelist-live">
+              {after.map((n) => <li key={n}>{n}</li>)}
+            </ul>
+          </div>
+        </div>
+        <figcaption className="dg-cap">
+          Before the re-rating, the whole tradeable float was worth only about ₹220 crore. A pool of shares that small can
+          be re-priced enormously without a large sum of money changing hands, which is what makes so violent a move
+          possible in a small-cap and not in a large, liquid company. Note the limit of the claim: this shows the float was
+          small, so a violent repricing was possible, not that the float itself amplified the move, which would need
+          trading-volume and order-book data we do not have here. The ₹380 crore market cap is the value implied by the
+          promoters' own stake sale (41.84% for about ₹159 crore); float values are that market cap times the non-promoter
+          share.
+        </figcaption>
+      </figure>
+    );
+  }
+  if (id === 'cupid-waterfall') {
+    // Log-scaled widths (share of ln(94)) so the bars compare fairly: earnings did
+    // about a third of the work, the multiple about two-thirds, the stock the whole.
+    const rows = [
+      { label: 'Earnings (EPS)', value: '× 4.3', tag: 'the business actually earning more', width: '32%', cls: 'dg-oplev-rev' },
+      { label: 'Valuation (P/E)', value: '× 22', tag: 'the market paying more per rupee', width: '68%', cls: 'dg-oplev-profit' },
+      { label: 'Share price', value: '× 94', tag: 'the two multiplied together', width: '100%', cls: 'dg-oplev-cost' },
+    ];
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">Where the 94x came from</span>
+          <span className="dg-badge">≈2023 → 2026</span>
+        </div>
+        <div className="dg-oplev">
+          {rows.map((r) => (
+            <div key={r.label} className="dg-oplev-row">
+              <span className="dg-oplev-label">
+                {r.label}
+                <span className="dg-oplev-sub">{r.tag}</span>
+              </span>
+              <span className="dg-oplev-track">
+                <span className={`dg-oplev-bar ${r.cls}`} style={{ width: r.width }} />
+              </span>
+              <span className="dg-oplev-value">{r.value}</span>
+            </div>
+          ))}
+        </div>
+        <figcaption className="dg-cap">
+          Price = EPS times P/E, so a 94-fold share price is a 4.3-fold rise in earnings multiplied by a 22-fold rise in
+          the multiple the market pays for them. The bars are on a log scale so the two contributions compare fairly: the
+          earnings did roughly a third of the work, the re-rating roughly two-thirds. Cupid became a better business. But
+          the market's valuation of it changed much more than the business itself. Figures are approximate and split and
+          bonus adjusted.
+        </figcaption>
+      </figure>
+    );
+  }
+  if (id === 'cupid-two-phases') {
+    const phaseOne = [
+      'Roughly 2023 to end-2024',
+      'EPS barely moved: about ₹0.24 to ₹0.30',
+      'P/E leapt from the low teens to about 250',
+      'The price did roughly 20x almost entirely on the multiple',
+      'The re-rating: a change of opinion, ahead of the numbers',
+    ];
+    const phaseTwo = [
+      'End-2024 to 2026',
+      'EPS: about ₹0.30 to ₹0.81 (FY26), ~₹1.02 trailing by Aug 2026',
+      'P/E stayed high and roughly flat (about 250 to 290)',
+      'The price did about 3.9x, this time on the earnings',
+      'The validation: profit catching up to the opinion',
+    ];
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">The valuation moved first. The earnings came later.</span>
+          <span className="dg-badge">Two phases</span>
+        </div>
+        <div className="dg-consol">
+          <div className="dg-col">
+            <div className="dg-col-head">Phase 1: the market re-rates</div>
+            <ul className="dg-namelist dg-namelist-live">
+              {phaseOne.map((n) => <li key={n}>{n}</li>)}
+            </ul>
+          </div>
+          <div className="dg-arrow" aria-hidden="true">→</div>
+          <div className="dg-col">
+            <div className="dg-col-head">Phase 2: the earnings arrive</div>
+            <ul className="dg-namelist dg-namelist-live">
+              {phaseTwo.map((n) => <li key={n}>{n}</li>)}
+            </ul>
+          </div>
+        </div>
+        <figcaption className="dg-cap">
+          Split in two, the story answers its own key question. The stock did not wait for the earnings. The valuation
+          moved first, as investors began pricing in the new owner's plan, when profit had hardly changed. The earnings
+          followed later, more than tripling on a trailing basis and growing into the price the market had already paid.
+          The forecast moved ahead of the fact here; it did not follow it.
+        </figcaption>
+      </figure>
+    );
+  }
   return null;
 }
 

@@ -1,0 +1,395 @@
+{
+  "ticker": "CUPID",
+  "company": "Cupid Ltd",
+  "title": "Cupid: how does a stock go up 90x?",
+  "period": "2023 → 2026",
+  "tags": [
+    "Re-rating",
+    "Expectations",
+    "P/E expansion",
+    "Small-cap",
+    "Promoter change"
+  ],
+  "relatedCaseStudies": [
+    "the-pe-paradox-why-multiples-rise-when-earnings-fall",
+    "bse-the-toll-booth-boom-2023-2026"
+  ],
+  "summary": "A business can improve four-fold while the market's valuation of it rises twenty-two-fold. Here is how both happen at once. Cupid, a thirty-year-old maker of condoms, rose roughly ninety-fold in three years, and the more interesting half of the story is why the market changed its mind so completely before the profit arrived.",
+  "keyNumbers": [
+    {
+      "label": "Share price, ≈2023 to 2026",
+      "value": "~90x (adjusted)"
+    },
+    {
+      "label": "EPS, FY23 to TTM Aug-2026",
+      "value": "₹0.24 → ₹1.02 (~4.3x)"
+    },
+    {
+      "label": "P/E, then to now",
+      "value": "~13x → ~288x (~22x)"
+    },
+    {
+      "label": "Revenue, FY25 to FY26",
+      "value": "₹183 cr → ~₹390 cr"
+    },
+    {
+      "label": "Price / book today",
+      "value": "~88x"
+    }
+  ],
+  "intro": [
+    "At first glance the numbers do not make much sense. Cupid Ltd makes condoms. It was founded in 1993, it is based in Nashik, and for most of its listed life it was a small, quiet exporter that almost nobody talked about. In August 2026 the market valued this company at roughly ₹37,000 crore, more than 280 times its annual profit and about 88 times the entire net worth on its books[^1]. Its shares had risen something like ninety-fold in three years, once you adjust for a share split and bonus along the way.",
+    "A move that large is easy to explain lazily: Cupid went up because it launched new products, won new orders and grew its profit. All of that is true, and all of it together does not come close to explaining a ninety-fold move. The interesting question is how much of the move came from the business earning more, and how much from the market simply paying more for the same rupee of earnings. There is a single piece of arithmetic that separates the two, and we are going to do it, using only what was public at each step, and let the numbers say which force did the work.",
+    "One honesty note before we start. This is an explanation of a mechanism, not a view on whether Cupid is worth its price today. Nothing here is a recommendation to buy or sell anything."
+  ],
+  "sections": [
+    {
+      "heading": "First, separate the two numbers",
+      "body": [
+        "There are two numbers you need to hold apart before you look at Cupid, because the entire study hangs on keeping them separate.",
+        "The first is what the company earns. More sales, fatter margins, a bigger profit landing in the shareholder's lap. This is a fact about a year that has already ended, printed in an audited account.",
+        "The second is what the market is willing to pay for those earnings. The same rupee of profit can be worth more or less to a buyer depending on how bright the future looks. When buyers grow more hopeful, they pay a higher multiple of today's earnings for a share, and the price rises even if the profit sat still. This is not a fact about the past; it is an opinion about the future.",
+        "A share price is the two multiplied together, and the whole task in the Cupid story is to measure each one separately, and then to ask the harder question: what made the second one move so far, so early. Carry the questions below through everything that follows."
+      ],
+      "lens": {
+        "label": "Carry these questions through the story",
+        "questions": [
+          "How much more is Cupid actually earning than before, as a hard, reported fact?",
+          "How much more is the market paying for each rupee of that earning, as a matter of opinion?",
+          "And the real puzzle: why did that opinion change so violently before the earnings did?"
+        ]
+      }
+    },
+    {
+      "heading": "What Cupid was, and why it was cheap",
+      "body": [
+        "To measure how far the opinion travelled, you first have to know where it started. For years, the market looked at Cupid and shrugged, and its reasons were sound.",
+        "The business was genuinely unusual in one respect. Cupid is one of a tiny handful of companies in the world that makes female condoms to a standard the global health agencies accept, its variant carrying WHO and UNFPA prequalification since 2012[^2]. That sounds like a powerful niche, and in a way it is. But look at how the money actually came in, and the shine dulls. Roughly nine in ten of the condoms it made were exported, and a great deal of the revenue came from bulk institutional and government tenders: a health ministry in South Africa or Brazil, or a United Nations agency, buying millions of pieces at a time[^3]. It was a business-to-business supplier, not a brand you would recognise on a shelf.",
+        "That kind of revenue has a specific weakness the market dislikes. A tender is lumpy and uncertain. Win a big one and a year looks wonderful; lose it, or wait for the next tender cycle, and the next year sags. You can see this jitter right in the record: sales of about ₹160 crore in FY20 fell to ₹133 crore by FY22, and profit swung from ₹40 crore down to ₹17 crore over the same two years[^4]. A business whose fortunes depend on when a foreign government next places an order, with real customer and geographic concentration behind it, is hard to value highly however good its product is.",
+        "Investors therefore valued it at a modest multiple, broadly in the low teens of earnings, treating it as what it looked like: a small, well-run, debt-free but lumpy exporter of a commodity health product, the sort of business you do not expect to change much. That cheapness is the starting line, and the distance the multiple later travelled is measured from there."
+      ]
+    },
+    {
+      "heading": "The one identity this whole story runs on",
+      "body": [
+        "The tool we will measure the move with is a single identity, always exactly true: a share's price equals its earnings per share multiplied by the price-to-earnings multiple. Price equals EPS times P/E. It has to hold, because the P/E is simply the price divided by the EPS, so multiplying it back by the EPS returns the price. There is no assumption hidden in it. If you want it built up slowly from scratch, we did that in the companion study, [why multiples rise even when earnings fall](/case-studies/the-pe-paradox-why-multiples-rise-when-earnings-fall/); here we just put it to work.",
+        "Its usefulness is that it splits any share-price move cleanly into our two numbers. Whatever part of a rise the growth in earnings per share does not account for can only have come from the multiple expanding, from the market paying more per rupee. Run Cupid through it and the two forces fall out on their own, no opinion required."
+      ]
+    },
+    {
+      "heading": "The trigger was a new owner, not a new product",
+      "body": [
+        "The first major change came from the shareholder register, not the factory. In late 2023 control of Cupid changed hands. The Universal-Halwasiya group, led by Aditya Kumar Halwasiya, bought out the founding promoters and took command, an open offer of about ₹113 crore alongside the purchase, with the outgoing founders receiving around ₹159 crore for their stake[^5]. Aditya Halwasiya became Chairman and Managing Director. A conservative, dividend-minded family business that had been run for scale-when-it-came suddenly had owners who talked about scale as the whole point: building a consumer brand, widening the product range, chasing growth rather than banking a steady tender business.",
+        "Notice what had, and had not, happened at this moment. The ambition was entirely new. The results were not. On the day the narrative changed, Cupid was still the same ₹170-odd crore exporter it had been the week before, earning about the same profit from the same tenders. Not a single new rupee had yet arrived. What had arrived was a reason to imagine future rupees, and someone credible saying they would come. That distinction matters: the story had changed before the numbers did."
+      ]
+    },
+    {
+      "heading": "Phase one: the valuation moved first",
+      "body": [
+        "In the roughly fifteen months after the takeover, through the end of 2024, the market re-rated Cupid violently. On an adjusted basis the shares climbed to about ₹75.81 by the last day of 2024[^6], while the earnings barely moved: profit was about ₹40 crore in FY24 and roughly the same in FY25, and earnings per share sat around ₹0.30, where it had long been[^4]. Price up hard, EPS flat, means by definition the whole move was the multiple. At ₹75.81 on ₹0.30 a share, the market was paying something like 250 times earnings by the end of 2024[^7]. A business valued at roughly 13 times earnings a little earlier was now valued at around 250, on the same profit.",
+        "It is tempting to stop there and say the multiple expanded. But that only renames the puzzle. The real question, the one that makes Cupid worth studying, is why any market would agree to pay 250 times earnings for a small condom exporter before a single new rupee of that growth had shown up. Three things, working together, made it possible.",
+        "First, control itself changed what investors thought Cupid could become. A moneyed group had bought the company outright, at ₹285 a share, and said on the record it would turn a sleepy exporter into a branded consumer and diagnostics business[^5]. A new owner with capital and a specific plan is exactly the kind of event that lets the market imagine a different future and start pricing it.",
+        "Second, the plan was believable because Cupid was not starting from nothing. Underneath the lumpy tender business sat a genuinely hard asset: one of the world's few WHO and UNFPA prequalified female-condom lines, real factories, and export approvals into dozens of countries. Bolting a consumer brand and a diagnostics arm onto an established regulated manufacturer is a far more plausible story than a shell promising to build one, so the imagined future did not feel absurd.",
+        "Third, Cupid was tiny, and this is what made so violent a repricing possible in the first place. At the takeover the whole company was worth only about ₹380 crore, the value implied by the founders selling their 41.84% stake for roughly ₹159 crore[^5]. With promoters holding that stake, the freely tradeable float was worth barely ₹220 crore. A pool of shares that small can be re-priced enormously without a large sum of money changing hands, in a way a big, liquid company cannot. Be careful with the causation, though. What the numbers below establish is that the float was small, so a violent move was possible. How much the thin float actually amplified the move, versus simply permitting the change of opinion to express itself, is harder to prove without the contemporaneous trading-volume and order-book data, which we do not have. Small float made the fireworks possible; it is not, on this evidence alone, proof that it lit them."
+      ],
+      "diagram": "cupid-float",
+      "scorecard": {
+        "labels": {
+          "improved": "What moved",
+          "worsened": "What did not",
+          "shareholder": "For the owner"
+        },
+        "improved": "The multiple. The P/E went from the low teens to roughly 250 on a credible owner and a believable plan, a repricing a tiny float made possible without much money changing hands.",
+        "worsened": "The earnings. Profit and EPS were essentially flat across the same fifteen months. Nothing had yet been delivered.",
+        "shareholder": "A roughly 20-fold gain in a stock small enough for a change of opinion to move it a long way. At this point the gain reflected changed expectations, not delivered earnings."
+      }
+    },
+    {
+      "heading": "Phase two: the earnings finally showed up",
+      "body": [
+        "A valuation that high needs the business to deliver, or the price becomes a trap. Through 2025 and into 2026, the business started delivering.",
+        "The new plan turned into revenue on three fronts at once. A branded consumer business, the thing old Cupid never had, was built almost from scratch and crossed ₹50 crore in its first year, pushed through more than a lakh retail outlets by a sales force of a few hundred people[^8]. A diagnostics arm, making rapid test kits for things like HIV, hepatitis and pregnancy, won the European CE certifications that open export markets[^9]. And the core export engine kept winning, most notably a five-year national tender in South Africa running from 2025 to 2030, worth on the order of ₹115 crore a year, more than half of the company's entire FY25 revenue in a single contract[^10].",
+        "The improvement then showed up in the financials. For the full year FY26 revenue roughly doubled, to about ₹390 crore, and net profit rose from ₹41 crore to ₹108 crore, lifting full-year earnings per share from about ₹0.30 to ₹0.81[^4]. Momentum then carried on: the June 2026 quarter alone saw profit up nearly 194% from a year earlier, so that by August 2026 the trailing-twelve-month EPS (the last four reported quarters, running past the FY26 year-end) had reached about ₹1.02, and management raised its FY27 revenue guidance to ₹725 to ₹750 crore, roughly double again[^11]. This was real operating improvement, margins widening as it came, not a mirage.",
+        "But watch the identity through this second phase, because it behaves in the exact opposite way to the first. Now the earnings did the heavy lifting: EPS more than tripled, from about ₹0.30 to that ₹1.02 trailing figure, while the multiple, already stretched to around 250, stayed high and roughly flat. So this phase's further four-fold gain was, in the main, the earnings at last growing into the enormous multiple the market had handed out a year earlier. The profit was catching up to the price, not the other way around."
+      ],
+      "diagram": "cupid-two-phases",
+      "scorecard": {
+        "labels": {
+          "improved": "What moved",
+          "worsened": "The catch",
+          "shareholder": "For the owner"
+        },
+        "improved": "The earnings. Revenue doubled, profit went from ₹41 crore to ₹108 crore, and EPS more than tripled on a trailing basis, on real new products, orders and margins.",
+        "worsened": "The multiple was already near 250 before any of this landed. The good news had, in large part, been paid for in advance.",
+        "shareholder": "The delivery that justified phase one. But an owner who bought at the top of phase one paid for this growth before it existed."
+      }
+    },
+    {
+      "heading": "Now do the arithmetic",
+      "body": [
+        "Set the two phases end to end and split the whole move with the identity. Take the pre-takeover starting point, an EPS of about ₹0.24 at a multiple of roughly 13, which puts the adjusted price near ₹3. Take the endpoint, an EPS of about ₹1.02 over the trailing year at a multiple of about 288, giving the ₹294 the shares fetched in August 2026[^7]. The earnings per share grew about 4.3 times. The multiple grew about 22 times. Multiply them, 4.3 by 22, and you get roughly 94, the ninety-fold move.",
+        "The cleanest way to feel the imbalance is to switch off one term. If Cupid's profit had quadrupled exactly as it did, but the market had gone on paying the old 13 times earnings, the shares would have risen about four-fold, from ₹3 to roughly ₹13, and stopped. The entire journey from ₹13 to ₹294 is the re-rating, and nothing else. The change of opinion was worth more than twenty times the whole contribution of the actual business growth."
+      ],
+      "diagram": "cupid-waterfall"
+    },
+    {
+      "heading": "Separate the business, the forecast and the valuation",
+      "body": [
+        "The arithmetic has been making a distinction worth pulling into the open, because beginners blur three different things into a single word, growth, and they are not the same.",
+        "Business improvement is Cupid genuinely earning more: profit from ₹41 crore to ₹108 crore, roughly a four-fold gain per share. The first is a fact. Expectation improvement is the market's belief about what Cupid will earn in years still to come, the thing the ₹725 to ₹750 crore guidance speaks to. The second is a forecast. Valuation improvement is the multiple itself, the rupees a buyer will pay today for one rupee of current profit, which went from about 13 to about 288. The third is a price.",
+        "A fact, a forecast, and a price. Cupid's stock is all three stacked together, and the reason it is so vast is that the forecast and the price, not the fact, did most of the lifting. So whenever you hear that a company became a much better business, the useful reflex is to ask: better by how much in the actual numbers, and how much of the stock is that fact, versus how much is the world simply believing more?"
+      ]
+    },
+    {
+      "heading": "What the orders and the capacity can, and cannot, promise",
+      "body": [
+        "A fair question at this point is whether the high multiple is really so speculative, given how much future revenue Cupid has already lined up. The company has, after all, a five-year South African tender and a doubled guidance and expanded capacity to back it. So look honestly at what those promise, and what they do not.",
+        "The visibility is genuine and worth respecting. A five-year tender worth around ₹115 crore a year is a real, contracted stream, and management has reported building capacity to roughly two and a half times its old level to serve the growth, funded without taking on debt[^8][^10]. This is not a company promising growth with no means to make it. It has orders and it has factories.",
+        "But two cautions keep the visibility in proportion. First, an announced order value is not the same as delivered revenue or, still less, delivered profit; tenders can be phased, repriced or delayed, and the concentration that made old Cupid cheap, a big slice of the business riding on a few large institutional buyers, has not vanished just because the buyers are now framed as growth. Second, and this is the decisive point, even the doubled FY27 guidance of about ₹725 to ₹750 crore, if achieved in full at healthy margins, would still leave the shares at a very high multiple of those larger earnings. The market cap of around ₹37,000 crore is not priced for the guidance. It is priced for the guidance to be a step on a much longer climb. The order book supports the story; it does not, by itself, support the price."
+      ]
+    },
+    {
+      "heading": "Run the same machine backwards",
+      "body": [
+        "The reason this matters, and the reason the study is useful well beyond Cupid, is that the mechanism that lifted the stock is perfectly reversible, and it runs faster downhill.",
+        "A multiple of nearly 290 is not a neutral fact; it is a stored expectation. It is the market saying it is near-certain the growth continues for years. The moment that certainty cracks, the same identity that built the rise dismantles it. Suppose the earnings simply disappoint, a tender slips, a new product stalls, a margin gives way. Two things then happen together, not one. The EPS, the first term, comes in lower than hoped. And the multiple, the second term, contracts, because the market that was paying 288 times for guaranteed-feeling growth will not pay it for growth that has just shown it can stumble. Both terms fall at once, and because the price is their product, it falls faster than either.",
+        "That is the risk of a high multiple. On the way up, a flat profit with a rising multiple can still soar, as phase one showed. On the way down, a modestly lower profit with a shrinking multiple can fall a long way, because the fall in earnings and the fall in optimism multiply against you exactly as they multiplied for you. A stock priced for perfection does not need bad news to fall hard; it only needs less-good news than the price assumed. The same mechanism that drove the stock up can work against shareholders if earnings disappoint and the multiple contracts."
+      ],
+      "scorecard": {
+        "labels": {
+          "improved": "The mechanism up",
+          "worsened": "The mechanism down",
+          "shareholder": "The lesson"
+        },
+        "improved": "Rising EPS times a rising multiple compounds: even flat earnings soared once the multiple leapt to 250.",
+        "worsened": "Falling EPS times a shrinking multiple compounds the other way: the price drops faster than the earnings ever do.",
+        "shareholder": "The higher the multiple, the more of the price is stored expectation, and the more there is to lose when the expectation is merely trimmed, not even broken."
+      }
+    },
+    {
+      "heading": "So which was it?",
+      "body": [
+        "Back to the question we started with. Did Cupid become a much better business, or did investors become much more optimistic about it? Both, and the value of doing the arithmetic is that it gives the proportions opinion usually hides: the business improved a lot, and the market's willingness to pay for it improved several times more.",
+        "The point is not that the optimism was wrong. The earnings have been growing into it. The point is what the split means for whoever buys next. When almost all of a past move was the multiple, you are no longer being paid for what the company has already done; that is spent. You are being paid, if you buy now, for it continuing to exceed expectations that are already extraordinarily high. The useful question, in Cupid or anywhere, is how much of a past return came from higher earnings and how much from investors paying a higher multiple, because only the first is money the business itself put on the table."
+      ]
+    }
+  ],
+  "evidence": {
+    "caption": "The move, split into its two ingredients",
+    "rows": [
+      {
+        "label": "EPS, FY23 to trailing (adjusted)",
+        "value": "₹0.24 → ₹0.81 (FY26) → ~₹1.02 (TTM Aug-2026); ~4.3x",
+        "source": "Screener P&L"
+      },
+      {
+        "label": "P/E, pre-takeover to Aug 2026",
+        "value": "~13x → ~288x (~22x)",
+        "source": "Calculation from price and EPS"
+      },
+      {
+        "label": "Share price, ≈2023 to Aug 2026 (adjusted)",
+        "value": "~₹3 → ~₹294 (~90-94x)",
+        "source": "Calculation; Screener / Tickertape"
+      },
+      {
+        "label": "Adjusted price, 31 Dec 2024",
+        "value": "~₹75.81 (implied P/E ~250 on flat EPS)",
+        "source": "Business Standard"
+      },
+      {
+        "label": "Revenue, FY25 to FY26",
+        "value": "₹183 cr → ~₹390 cr",
+        "source": "Screener / company results"
+      },
+      {
+        "label": "Net profit, FY25 to FY26",
+        "value": "₹41 cr → ₹108 cr",
+        "source": "Screener / company results"
+      },
+      {
+        "label": "FY27 revenue guidance",
+        "value": "₹725-750 cr",
+        "source": "Q1 FY27 results / coverage"
+      },
+      {
+        "label": "Market cap / price-to-book, Aug 2026",
+        "value": "~₹37,000 cr / ~88x book",
+        "source": "Screener / Tickertape"
+      },
+      {
+        "label": "Market cap at takeover (Sept 2023)",
+        "value": "~₹380 cr (implied by 41.84% stake sold for ₹159 cr)",
+        "source": "PR Newswire / calculation"
+      },
+      {
+        "label": "Free-float value, takeover vs now",
+        "value": "~₹220 cr → ~₹20,000 cr",
+        "source": "Calculation (market cap × non-promoter %)"
+      }
+    ],
+    "note": "Cupid carried out a 1:10 stock split with a 1:1 bonus in April 2024, so one old share became twenty. Raw multi-year return figures are badly distorted by this, and different sources adjust it differently, which is why this study leans on dated, adjusted price points and on the P/E rather than on headline CAGR percentages. The starting price of about ₹3 and the roughly 13x starting multiple are approximate, representing the pre-takeover valuation; the endpoint figures are current."
+  },
+  "sources": [
+    {
+      "label": "Cupid Ltd financials (Screener)",
+      "url": "https://www.screener.in/company/CUPID/"
+    },
+    {
+      "label": "This smallcap turned 5x in 2025: what changed (Swastika)",
+      "url": "https://www.swastika.co.in/blog/this-smallcap-stock-turned-5x-in-2025--what-changed"
+    },
+    {
+      "label": "Cupid rings in a new management, outgoing promoters received Rs 159 crore (PR Newswire)",
+      "url": "https://www.prnewswire.com/in/news-releases/cupid-rings-in-a-new-management-outgoing-promoters-received-rs-159-crores-301965333.html"
+    },
+    {
+      "label": "Aditya Kumar Halwasiya strengthens his stake in Cupid Limited (ThePrint / ANI)",
+      "url": "https://theprint.in/ani-press-releases/aditya-kumar-halwasiya-strengthens-his-stake-in-cupid-limited-reaffirming-strong-promoter-confidence-in-the-companys-long-term-growth/2849916/"
+    },
+    {
+      "label": "Cupid gets female condom variant UNFPA prequalified to supply 100% of South Africa tender (Indian Pharma Post)",
+      "url": "https://www.indianpharmapost.com/news/cupid-gets-female-condom-variant-unfpa-prequalified-to-supply-100-of-upcoming-south-africa-tender-16706"
+    },
+    {
+      "label": "Cupid achieves CE (EU IVDR) certification for HIV and Hepatitis B test kits (Indian Pharma Post)",
+      "url": "https://www.indianpharmapost.com/news/cupid-achieves-ce-eu-ivdr-certification-for-pregnancy-and-syphilis-test-kits-18033"
+    },
+    {
+      "label": "India's Cupid is a rare company making female condoms (Forbes, 2016)",
+      "url": "https://www.forbes.com/sites/anuraghunathan/2016/08/04/indias-cupid-is-a-rare-company-making-female-condoms/"
+    },
+    {
+      "label": "Cupid soars 45% in Dec, up 529% in 2025: what's driving the smallcap (Business Standard)",
+      "url": "https://www.business-standard.com/markets/news/cupid-soars-45-in-dec-stock-up-529-in-2025-what-s-driving-smallcap-125122600188_1.html"
+    },
+    {
+      "label": "Universal-Halwasiya group to make Rs 113 crore open offer for 26% of Cupid (PR Newswire)",
+      "url": "https://www.prnewswire.com/in/news-releases/universal-halwasiya-group-to-make-rs-113-crore-open-offer-to-acquire-26-per-cent-in-cupid-limited-301925910.html"
+    }
+  ],
+  "exAnte": {
+    "intro": [
+      "The interesting thing about Cupid is how much of the mechanism was visible in ordinary public documents as it happened. You could not have known the stock would ninety-fold. But you could have watched the two ingredients separate in real time, which is the more useful skill."
+    ],
+    "tells": [
+      {
+        "when": "October to December 2023",
+        "document": "The open-offer filings and press releases around the Universal-Halwasiya group's takeover",
+        "check": "That control had changed hands, that the outgoing founders received about ₹159 crore, and that the new owners spoke of building a brand and scaling, while the last reported results were unchanged.",
+        "meaning": "The story had changed before the numbers had. This was the moment to note that any re-rating from here would, at first, be pure opinion, running ahead of the accounts. It let you label the early move for what it was: a bet, not a result.",
+        "lead": "Over a year before the earnings"
+      },
+      {
+        "when": "Each quarter, 2024 into 2025",
+        "document": "Cupid's quarterly results and the reported trailing EPS, set against the traded price",
+        "check": "Divide the price by the trailing EPS. By end-2024 an adjusted price near ₹75.81 on EPS of about ₹0.30 was a P/E around 250, while profit was flat.",
+        "meaning": "You could see, quarter by quarter, that the multiple, not the earnings, was doing the work. A P/E of 250 on flat profit is the market pricing in years of growth not yet delivered. That is knowable arithmetic, not a forecast.",
+        "lead": "Visible each quarter, in real time"
+      },
+      {
+        "when": "2025 into 2026",
+        "document": "Company announcements of the FMCG rollout, the CE-certified diagnostics, the South Africa tender, and the raised FY27 guidance",
+        "check": "The announced order value and guidance against the current revenue: a single tender worth more than half of FY25 sales, guidance of about double FY26.",
+        "meaning": "The delivery was real and reported as it came, so you could watch the earnings begin to grow into the multiple. Equally, you could hold the announced numbers against the ₹37,000 crore valuation and see that even full delivery left the price rich. Both facts were public.",
+        "lead": "As the second phase played out"
+      }
+    ],
+    "blindSpot": "What no filing could tell you is the thing that matters most from here: whether the extraordinary optimism proves right. The accounts confirm the past. They cannot confirm that a company guided to ₹750 crore will one day earn enough to justify a multiple of nearly 290, or that the enthusiasm will hold long enough for the earnings to arrive. Concentration on a few large buyers, the pace of the consumer build-out, and the durability of the multiple are the open questions, and they are open by nature."
+  },
+  "patternCard": {
+    "signal": "A stock that has risen far more than its earnings have, so that most of the move sits in a P/E multiple that has expanded several-fold, often after a change of owner, story or category rather than a change in the numbers.",
+    "mechanism": "Price equals EPS times P/E. When the multiple does most of the rising, the return is being paid for a change of opinion about the future, not for profit already earned. That can be right, but it front-loads years of hoped-for growth into today's price, and it reverses hard: a disappointment shrinks the earnings and the multiple at the same time, so the price falls faster than the profit.",
+    "whereToCheck": "Take the trailing EPS from the P&L at two dates and the price at those dates, and split the move: how much is the EPS ratio, how much is the P/E ratio. Read the guidance and order announcements, then ask whether even full delivery justifies the current multiple. The annual report's segment note tells you how concentrated the revenue still is.",
+    "counterexample": "A multiple expanding is not automatically a warning. When a business genuinely and durably improves, from cyclical to steady, from commodity to brand, from lumpy to recurring, a higher multiple is deserved and can persist for years. The question is never just 'has the P/E risen', but 'has the business changed enough to hold the higher multiple, and how much of the future is already in the price'. A four-fold better business can deserve a re-rating; whether it deserves a twenty-two-fold one is the judgement the arithmetic forces you to make consciously."
+  },
+  "timeline": [
+    {
+      "when": "1993 onwards",
+      "what": "Cupid is founded in Nashik; over time it becomes one of few makers of WHO/UNFPA-prequalified female condoms, exporting about 90% of output, largely through lumpy government and institutional tenders."
+    },
+    {
+      "when": "Pre-2023",
+      "what": "The market values Cupid modestly, broadly in the low teens of earnings, as a small, debt-free but tender-dependent exporter with no consumer brand."
+    },
+    {
+      "when": "Late 2023",
+      "what": "The Universal-Halwasiya group takes control; Aditya Kumar Halwasiya becomes CMD. The strategy shifts from steady exporter to growth and brand-building. Reported earnings are, as yet, unchanged."
+    },
+    {
+      "when": "April 2024",
+      "what": "A 1:10 stock split plus a 1:1 bonus turns one share into twenty, improving liquidity and distorting raw return figures thereafter."
+    },
+    {
+      "when": "Through end-2024",
+      "what": "Phase one: the shares re-rate to an adjusted ~₹75.81 while EPS stays near ₹0.30, implying a P/E around 250. The multiple, not the profit, drives the move."
+    },
+    {
+      "when": "2025 to 2026",
+      "what": "Phase two: a consumer FMCG line crosses ₹50 crore, diagnostics win CE certification, a five-year South Africa tender (~₹115 cr/year) lands. FY26 revenue roughly doubles to ~₹390 crore and profit rises to ₹108 crore."
+    },
+    {
+      "when": "Aug 2026",
+      "what": "The shares trade near ₹294 (a ~90x adjusted three-year move), valuing Cupid at ~₹37,000 crore, ~288x earnings and ~88x book. FY27 guidance is raised to ₹725-750 crore."
+    }
+  ],
+  "evidenceNotes": [
+    {
+      "id": 1,
+      "note": "Current price ~₹294, market cap ~₹37,000-39,500 crore, P/E ~288 and P/B ~88 are from Screener and Tickertape as of 14 August 2026. Market cap varies slightly by source and share count; the point, an extreme multiple of both earnings and book, holds across them.",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "note": "Cupid's female condom holding WHO/UNFPA prequalification since 2012, and its status as one of very few such global makers, is well documented in company materials and independent coverage (Forbes 2016, UNFPA/RHSC).",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "note": "That roughly 90% of output was exported and much revenue came from institutional/government tenders is from company disclosures and profiles. The exact export share moves year to year.",
+      "confidence": "high"
+    },
+    {
+      "id": 4,
+      "note": "Yearly revenue, profit and EPS (FY20 ~₹160 cr/₹40 cr; FY22 ~₹133 cr/₹17 cr; FY25 ₹183 cr/₹41 cr; FY26 ~₹390 cr/₹108 cr) are from Screener's P&L, drawn from audited results. Two EPS figures are used deliberately and should not be confused: the full-year FY26 EPS is about ₹0.81 (on ₹108 cr profit), while the trailing-twelve-month EPS as of August 2026 is about ₹1.02, higher because it includes the strong June 2026 quarter and drops the weaker year-earlier one. The ~4.3x EPS growth and the ~288 P/E both use the ₹1.02 trailing figure against the current price; on the FY26 annual ₹0.81 the growth is about 3.4x and the P/E about 363. FY26 revenue also differs between standalone (~₹391 cr) and consolidated (~₹358 cr); 'about ₹390 crore' is the standalone figure.",
+      "confidence": "high"
+    },
+    {
+      "id": 5,
+      "note": "The late-2023 change of control, the ~₹113 crore open offer, and Aditya Kumar Halwasiya becoming CMD are from the company's own PR Newswire releases. The Garg family sold its 41.84% stake at ₹285 a share for about ₹159 crore, which implies a whole-company value of roughly ₹380 crore at the takeover (159 / 0.4184). The ~₹220 crore takeover float and ~₹20,000 crore current float are that market cap times the non-promoter share (~58% then, ~54% now); they demonstrate the liquidity point rather than being reported figures. Precise daily traded-volume data is not shown here, so the float value, not turnover, carries the argument.",
+      "confidence": "high"
+    },
+    {
+      "id": 6,
+      "note": "The adjusted price of ~₹75.81 on 31 December 2024 is from Business Standard's reporting (the '529% in 2025 from ₹75.81' framing). Treated as a dated, split/bonus-adjusted reference point rather than as a precise close.",
+      "confidence": "medium"
+    },
+    {
+      "id": 7,
+      "note": "The P/E figures are calculations: price divided by trailing EPS. ~250 at end-2024 uses ₹75.81 over ~₹0.30; ~288 now uses ₹294 over ~₹1.02 trailing. The pre-takeover ~13x and implied ~₹3 starting price are approximate, representing the pre-2023 valuation; small changes in the exact starting multiple do not change the conclusion that the re-rating dwarfed the earnings growth.",
+      "confidence": "medium"
+    },
+    {
+      "id": 8,
+      "note": "The FMCG business crossing ₹50 crore in year one, distribution across ~1.2 lakh outlets with a few-hundred-person sales force, and capacity expansion of ~2.5x funded through internal accruals are from company commentary and secondary coverage (Swastika). Directionally solid; exact figures are management-reported.",
+      "confidence": "medium"
+    },
+    {
+      "id": 9,
+      "note": "CE (EU IVDR) certification for diagnostic test kits including HIV, Hepatitis B, pregnancy and syphilis is from company announcements reported by Indian Pharma Post and others.",
+      "confidence": "high"
+    },
+    {
+      "id": 10,
+      "note": "The five-year South Africa national tender (2025-2030), ~₹115 crore a year and more than half of FY25 revenue, and the UNFPA prequalification of the female condom variant to supply it, are from company announcements and coverage (APN News, Indian Pharma Post, Swastika).",
+      "confidence": "medium"
+    },
+    {
+      "id": 11,
+      "note": "Q1 FY27 net profit up ~194% year on year and FY27 revenue guidance of ₹725-750 crore are from the company's Q1 FY27 results and contemporaneous coverage. Guidance is a management forecast, not a result.",
+      "confidence": "medium"
+    }
+  ],
+  "lesson": "Cupid shows clearly how a share price is built. Price equals earnings per share times the multiple the market pays for them, and any large move can be split into those two parts. Split Cupid's roughly ninety-fold, three-year move and the parts are lopsided: the business, measured by profit per share, grew a little over four times, while the multiple the market paid grew about twenty-two times. Most of the stock was not the company earning more; it was the market deciding, after a change of owner and a new plan, to pay far more for each rupee it earned, and pricing years of hoped-for growth in before the growth arrived. The earnings have since been growing into that price. But the mechanism works both ways: a multiple near 290 is stored optimism, and if the optimism is trimmed, the falling earnings and the shrinking multiple multiply against shareholders exactly as they once multiplied for them. A multibagger does not require a business to become ten times better. It can happen when earnings grow, the future becomes more believable, and the market agrees to pay a higher multiple for those earnings, all at once. The question to carry away is how much of a return came from higher earnings and how much from a higher multiple, because only the first is money the business itself earned.",
+  "remember": "A ninety-fold stock did not need a ninety-fold business. Cupid's profit grew about four times; the multiple the market paid grew about twenty-two times, and twenty-two times four is ninety. Most of the move was a change of mind, not a change in the numbers."
+}
