@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { withBase, SITE_URL, canonical } from '@/lib/base';
+import { getFeaturedCaseStudies } from '@/lib/caseStudies';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -27,9 +28,34 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const featured = getFeaturedCaseStudies(2);
   return (
     <html lang="en">
       <body>
+        {featured.length > 0 && (
+          <div className="whatsnew">
+            <div className="wrap whatsnew-inner">
+              <span className="whatsnew-tag">New case studies</span>
+              <div className="whatsnew-marquee">
+                <div className="whatsnew-track">
+                  {[...featured, ...featured].map((c, i) => (
+                    <a
+                      key={i}
+                      href={withBase(`/case-studies/${c.id}/`)}
+                      className="whatsnew-item"
+                      aria-hidden={i >= featured.length ? true : undefined}
+                      tabIndex={i >= featured.length ? -1 : undefined}
+                    >
+                      <span className="whatsnew-item-co">{c.ticker}</span>
+                      <span className="whatsnew-item-title">{c.title}</span>
+                      <span className="arw">→</span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
         <header className="topbar">
           <div className="wrap topbar-inner">
             <a href={withBase("/")}>

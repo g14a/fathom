@@ -64,6 +64,7 @@ export interface CaseStudy {
     whereToCheck: string;
     counterexample: string;
   };
+  published?: string; // ISO date (YYYY-MM-DD) this study went live; drives "latest" ordering
   timeline: { when: string; what: string }[];
   // Endnotes for the [^n] superscript markers in body text: where a load-bearing
   // claim comes from and how solid it is, in prose.
@@ -96,4 +97,16 @@ export function getAllCaseStudies(): CaseStudy[] {
 
 export function getCaseStudiesForTicker(ticker: string): CaseStudy[] {
   return getAllCaseStudies().filter((c) => c.ticker === ticker);
+}
+
+// Newest first, by explicit `published` date; those without one sort last.
+export function getFeaturedCaseStudies(n = 2): CaseStudy[] {
+  return [...getAllCaseStudies()]
+    .sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''))
+    .filter((c) => c.published)
+    .slice(0, n);
+}
+
+export function getLatestCaseStudy(): CaseStudy | undefined {
+  return getFeaturedCaseStudies(1)[0];
 }
