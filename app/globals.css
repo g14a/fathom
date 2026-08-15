@@ -683,10 +683,10 @@ section.block:first-of-type { border-top: none; }
 .cs-tag { font-family: var(--mono); font-size: 11px; letter-spacing: 0.03em; color: var(--ink-dim); background: var(--bg-raised); border: 1px solid var(--border); border-radius: 999px; padding: 3px 10px; }
 
 /* "What's new" running banner */
-.whatsnew { background: color-mix(in srgb, var(--accent) 9%, var(--bg)); border-bottom: 1px solid var(--border); }
+.whatsnew { background: var(--bg); }
 .whatsnew-inner { display: flex; align-items: center; gap: 14px; padding: 8px 0; }
 .whatsnew-tag { flex: none; font-family: var(--mono); font-size: 10.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent); border-radius: 999px; padding: 3px 9px; }
-.whatsnew-marquee { flex: 1 1 auto; min-width: 0; overflow: hidden; -webkit-mask: linear-gradient(90deg, transparent, #000 28px, #000 calc(100% - 28px), transparent); mask: linear-gradient(90deg, transparent, #000 28px, #000 calc(100% - 28px), transparent); }
+.whatsnew-marquee { flex: 1 1 auto; min-width: 0; overflow: hidden; -webkit-mask: linear-gradient(90deg, transparent 0, #000 64px, #000 calc(100% - 56px), transparent 100%); mask: linear-gradient(90deg, transparent 0, #000 64px, #000 calc(100% - 56px), transparent 100%); }
 .whatsnew-track { display: inline-flex; align-items: center; gap: 44px; white-space: nowrap; will-change: transform; animation: whatsnew-scroll 28s linear infinite; }
 .whatsnew:hover .whatsnew-track { animation-play-state: paused; }
 .whatsnew-item { display: inline-flex; align-items: center; gap: 9px; font-size: 13.5px; color: var(--ink-dim); text-decoration: none; transition: color .16s ease; }
@@ -694,8 +694,17 @@ section.block:first-of-type { border-top: none; }
 .whatsnew-item-co { font-family: var(--mono); font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); }
 .whatsnew-item .arw { color: var(--accent); display: inline-block; transition: transform .18s ease; }
 .whatsnew-item:hover .arw { transform: translateX(3px); }
+.wn-tag-short { display: none; }
 @keyframes whatsnew-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 @media (prefers-reduced-motion: reduce) { .whatsnew-track { animation: none; } }
+@media (max-width: 640px) {
+  .whatsnew-inner { gap: 10px; padding: 7px 0; }
+  .whatsnew-tag { display: none; }
+  .whatsnew-marquee { -webkit-mask: linear-gradient(90deg, transparent 0, #000 40px, #000 calc(100% - 36px), transparent 100%); mask: linear-gradient(90deg, transparent 0, #000 40px, #000 calc(100% - 36px), transparent 100%); }
+  .whatsnew-track { gap: 30px; animation-duration: 22s; }
+  .whatsnew-item { font-size: 12.5px; gap: 7px; }
+  .whatsnew-item-co { font-size: 10px; }
+}
 
 /* ===================== Case study detail ===================== */
 .csd-head { padding: 8px 0 28px; border-bottom: 1px solid var(--border); }

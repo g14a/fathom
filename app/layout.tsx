@@ -78,7 +78,10 @@ gtag('config', '${GA_ID}');`}
         {featured.length > 0 && (
           <div className="whatsnew">
             <div className="wrap whatsnew-inner">
-              <span className="whatsnew-tag">New case studies</span>
+              <span className="whatsnew-tag">
+                <span className="wn-tag-full">New case studies</span>
+                <span className="wn-tag-short">New</span>
+              </span>
               <div className="whatsnew-marquee">
                 <div className="whatsnew-track">
                   {[...featured, ...featured].map((c, i) => (
