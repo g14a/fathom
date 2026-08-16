@@ -520,7 +520,7 @@ export function Report({ r }: { r: TickerReport }) {
         </div>
       </Block>
 
-      <Block num="13" title="Trap Detection">
+      <Block num="13" title="Where the Numbers Could Mislead">
         <Checklist items={r.trapChecklist} />
         {r.sectorChecklist.length > 0 && (
           <>
