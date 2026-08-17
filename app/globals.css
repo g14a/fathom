@@ -332,8 +332,9 @@ section.block:first-of-type { border-top: none; }
 .byline-link { color: var(--accent); text-decoration: none; }
 .byline-link:hover { text-decoration: underline; }
 
-.qlist { padding: 20px 0 20px; }
+.qlist { padding: 20px 0 0; }
 .q { border-top: 1px solid var(--border); padding: 34px 0; display: grid; grid-template-columns: 54px 1fr; gap: 22px; }
+.q > div { min-width: 0; }
 .q-num { font-family: var(--mono); font-size: 15px; color: var(--accent); font-weight: 600; padding-top: 6px; }
 .q h2 { font-family: var(--serif); font-size: 27px; font-weight: 600; letter-spacing: -0.01em; margin: 0; line-height: 1.15; text-wrap: balance; }
 .q .ask { font-size: 13px; font-family: var(--mono); color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.06em; margin: 10px 0 0; }
@@ -373,12 +374,12 @@ section.block:first-of-type { border-top: none; }
 .qlink { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin-top: 14px; padding: 12px 16px; border: 1px solid color-mix(in srgb, var(--accent) 30%, var(--border)); border-radius: 10px; background: color-mix(in srgb, var(--accent) 6%, transparent); text-decoration: none; transition: background .18s ease, transform .18s ease; }
 .qlink:hover { background: color-mix(in srgb, var(--accent) 11%, transparent); transform: translateY(-1px); }
 .qlink-k { font-size: 14px; color: var(--ink-dim); }
-.qlink-go { font-family: var(--mono); font-size: 13px; font-weight: 600; color: var(--accent); white-space: nowrap; }
+.qlink-go { font-family: var(--mono); font-size: 13px; font-weight: 600; color: var(--accent); min-width: 0; overflow-wrap: anywhere; }
 .qlink:hover .arw { margin-left: 3px; }
 .qlink .arw { transition: margin-left .18s ease; }
 
 /* congratulations transition */
-.congrats { margin-top: 44px; border-top: 1px solid var(--border); padding-top: 36px; }
+.congrats { margin-top: 8px; border-top: 1px solid var(--border); padding-top: 32px; }
 .congrats .k { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); }
 .congrats p { font-family: var(--serif); font-size: 21px; line-height: 1.5; color: var(--ink); max-width: 660px; margin: 12px 0 0; }
 .congrats p strong { font-style: italic; }
