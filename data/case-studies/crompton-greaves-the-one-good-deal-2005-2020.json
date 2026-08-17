@@ -1,0 +1,460 @@
+{
+  "ticker": "CGPOWER",
+  "sectorId": "power",
+  "company": "Crompton Greaves (now CG Power)",
+  "title": "Crompton Greaves: the one good deal that undid the company",
+  "period": "2005 → 2020",
+  "tags": [
+    "Serial acquisitions",
+    "Capital allocation",
+    "Overseas expansion",
+    "Overconfidence"
+  ],
+  "relatedCaseStudies": [
+    "suzlon-the-sadness-2008-2026",
+    "jet-airways-the-market-leader-that-vanished-1993-2024"
+  ],
+  "summary": "In 2005 Crompton bought a distressed Belgian transformer maker, Pauwels, cheaply, fixed it, and doubled overnight. A masterstroke, and for a while it was. Then it decided it had a repeatable formula, bought eight more companies on borrowed money, and a decade later the whole overseas empire was sold or liquidated. How one good deal became the reason for a disastrous one.",
+  "keyNumbers": [
+    {
+      "label": "Pauwels price (2005)",
+      "value": "~€32m"
+    },
+    {
+      "label": "Pauwels loss before sale (2003)",
+      "value": "~€20m"
+    },
+    {
+      "label": "Overseas companies bought",
+      "value": "9 (2005-2012)"
+    },
+    {
+      "label": "Overseas revenue (FY15)",
+      "value": "~₹4,800 cr"
+    },
+    {
+      "label": "Peak group debt (Mar 2014)",
+      "value": "~₹7,500 cr"
+    }
+  ],
+  "intro": [
+    "There is a kind of business mistake that does not look like a mistake at the time, because it grows out of a real success. Crompton Greaves made one of the most admired acquisitions in Indian corporate history in 2005, and then spent the next ten years being destroyed by the lesson it thought that acquisition had taught it.",
+    "The rule most people take from this story is the wrong one. It is not 'do not buy companies abroad', and it is certainly not 'the Pauwels deal was foolish'. Pauwels was a good deal. The trap was subtler and more human: a company did something difficult and rare, decided it could do the same thing again and again, and kept buying until the strategy nearly broke it. To understand it properly you have to start in 2005, before anyone knew how it ended, and ask a simple question: what would have made this decision rational at the time?"
+  ],
+  "sections": [
+    {
+      "heading": "The deal that looked like genius",
+      "body": [
+        "In May 2005, Crompton Greaves, then the flagship of the Thapar family's Avantha group, bought the transformer business of Pauwels, a family-owned Belgian company, for roughly €32 million, about ₹200 crore in the money of the day[^1].",
+        "For that price it got a lot. Pauwels was one of the top five makers of large three-phase transformers in the world, with factories in Belgium, Ireland, Canada, the United States and Indonesia, and customers among utilities across Europe and North America. It was not a small bolt-on. In FY06, its first full year inside Crompton, consolidated net sales were ₹4,127 crore against ₹2,521 crore for the standalone Indian business, so the acquired operations added roughly ₹1,600 crore of revenue and lifted profit after tax from ₹163 crore to ₹233 crore. Consolidated sales were about double the prior year's, and the deal put Crompton among the world's ten largest transformer makers[^2].",
+        "So a mid-sized Indian company spent about ₹200 crore and doubled in size, entering markets it could not otherwise have touched. On its face that is close to a perfect trade. The interesting part is why the price was so low, and what the low price should have told everyone."
+      ],
+      "lens": {
+        "label": "What explains the Pauwels outcome? Five candidates, answered later",
+        "questions": [
+          "The purchase price, against what the assets were worth.",
+          "A cost advantage the previous owner did not have.",
+          "Market access that could not be built quickly.",
+          "How fixable the underlying business actually was.",
+          "The industry cycle."
+        ]
+      }
+    },
+    {
+      "heading": "What €32 million actually bought",
+      "body": [
+        "The usual yardstick, purchase price against profit, does not apply: Pauwels had no profit to divide into, which is the whole reason it was for sale. So measure price against sales. Crompton paid about €32 million for a business doing roughly €280 million of revenue a year. That is about 0.11 times sales, for a top-five global maker of large power transformers with five plants on three continents.",
+        "What that €32 million bought was five qualified plants, the utility approvals, the customer relationships, and, within a year, a business earning about 20% on capital. What it would have cost to build the same platform from scratch is not in the public record, so there is no replacement-cost figure here. The 0.11 times sales is enough."
+      ],
+      "diagram": "crompton-32m"
+    },
+    {
+      "heading": "First, why you cannot just start a transformer business",
+      "body": [
+        "A power transformer is the large grey box that sits in a substation and steps electricity up to a high voltage for long-distance travel, then back down again near your home. A grid cannot run without them, and when one fails a whole area can go dark. Because of that, utilities do not buy transformers from whoever is cheapest. They buy from suppliers they have tested, trusted and used for years.",
+        "That trust is the real barrier to entry, and it is why this is a hard business to break into from outside. Before a big Western or American utility will let your transformer into its network, it wants to see that your product has passed independent high-voltage tests, that you have a track record of units running for a decade without failing, and often that you have a factory and service team on its own continent. Building all of that from a standing start takes many years and a lot of failed bids, because your first customers have no reason to take the risk.",
+        "To reach those utilities on its own, Crompton would have had to build or buy Western factories, put its transformers through years of independent high-voltage certification, install reference units and wait a decade to prove they did not fail, hire local sales and service teams on two continents, and then lose bid after bid until a first utility took a chance on an unknown Indian name. That is the better part of a decade and a large budget, with a real chance of never fully arriving. In 2005 Crompton was a competent Indian transformer maker with almost no presence in Europe or the Americas; Pauwels already had all of it. You are not paying for steel and buildings in a deal like this. You are paying to skip the decade.",
+        "Pauwels is often described as a company 'on the verge of bankruptcy', which is roughly fair: it had posted a loss of about €20 million in 2003 and the founding family, after decades in control, was selling because it could no longer make the business pay[^3]. A very similar phrase attaches to Crompton itself ten years later. The two are not the same event."
+      ]
+    },
+    {
+      "heading": "What would have made this rational in 2005",
+      "body": [
+        "Put yourself in the decision, without knowing the ending. Why would a careful buyer pay ₹200 crore for a loss-making European transformer maker?",
+        "Because the price was low against what the thing would cost to build. Pauwels was losing money, which is why it was cheap, but its factories, its test approvals and above all its customer relationships would have taken Crompton the better part of a decade and a great deal of money to reproduce from scratch, if it could be done at all. Buying below the cost of building is the oldest good reason to acquire anything.",
+        "Because the losses looked fixable rather than fatal. Pauwels did not have a broken product; utilities still wanted its transformers. What it had was a high-cost Western manufacturing base making commodity-ish units it could not price high enough to cover. That is exactly the kind of problem an Indian owner might plausibly fix, by moving the price-sensitive work to lower-cost engineering and factories in India while keeping the Western plants for the high-end units and the local presence the customers demanded.",
+        "And because of what it unlocked. Overnight, Crompton could sell into European and American utilities under a name they already trusted, and it could offer Pauwels' customers a wider range at a better cost. On paper this was the best kind of acquisition: cheap, fixable, and a shortcut past a barrier that money alone could not buy. Notice that none of this reasoning needs hindsight. It was a defensible bet in 2005."
+      ]
+    },
+    {
+      "heading": "Why it worked, at first",
+      "body": [
+        "And the bet paid off, quickly and visibly. Crompton did roughly what the plan implied. It kept the Western factories and their approvals, leaned on cheaper Indian engineering and sourcing for the parts of the work that allowed it, and pushed more volume through plants that had been running half-empty. The acquired business swung from losses to profit fast: by FY06, its first full year inside Crompton, it was reported to be earning a return on capital of about 20%, which for a business that had been losing money a year or two earlier is a genuine turnaround, not a paper one[^16]. And Crompton's consolidated numbers jumped, because a company its own size had been added to it[^2].",
+        "The timing helped. The years after 2005 were a global boom in power investment, and transformer demand was strong.",
+        "For a few years Crompton looked like a company that had cracked something genuinely difficult: taking a tired Western industrial asset and making it earn its keep with Indian costs and a rising market. The stock was rewarded, the management was praised. That is where the trouble starts."
+      ]
+    },
+    {
+      "heading": "A pause: the trap of the good first deal",
+      "body": [
+        "When something works once, it is hard to tell repeatable skill from a smart move helped by circumstances that will not repeat. A mediocre deal teaches caution. A brilliant deal teaches you that you have a machine.",
+        "'Pauwels was a good deal' bundles four edges that rarely travel together: asset arbitrage (buying assets for less than they cost to build), capability arbitrage (putting an underperforming capability onto Indian costs), market-access arbitrage (buying utility relationships and approvals that cannot be built quickly), and cycle arbitrage (buying into a depressed industry as it recovers). Pauwels had all four at once, and Crompton treated the combination as one repeatable skill."
+      ]
+    },
+    {
+      "heading": "The playbook becomes a spree",
+      "body": [
+        "What followed was not one more deal but a decade of them. From 2005, Crompton acquired around nine businesses abroad: Ganz in Hungary in 2006, Microsol in Ireland in 2008, Sonomatra in France, MSE Power Systems in the United States, QEI in the United States, Emotron in Sweden, and, the largest and last of the run, the Spanish smart-grid company ZIV in 2012[^4].",
+        "The rationale each time echoed Pauwels: a Western company with capabilities or customers, at a reasonable price, which Crompton would improve with Indian engineering costs. The appetite was explicit. Crompton's then managing director, S M Trehan, liked to say it was better to be a small fish in an ocean than a big frog in a well[^13].",
+        "The money to buy them increasingly came from borrowing. Crompton's own consolidated borrowings roughly doubled in the single year to March 2012, from about ₹395 crore to ₹985 crore, with the term loans secured against assets in Ireland and the United States, the overseas plants themselves[^17]. At the wider Avantha group level the borrowing reached around ₹7,500 crore by March 2014[^5]."
+      ]
+    },
+    {
+      "heading": "The replication test",
+      "body": [
+        "Take the conditions that made Pauwels work and ask, for each later acquisition, whether it was there. Most of them were absent by the later deals.",
+        "ZIV, the Spanish smart-grid company bought in 2012, is the clearest inversion. It was the mirror image of Pauwels in almost every box: not distressed but growing and profitable, bought near a full price (its private-equity seller booked a 29% annual return on the exit), in electronics where Indian labour cost saves little, funded with debt, and well after the boom had turned[^15]. Same playbook, opposite starting conditions. The most revealing case, though, is not the opposite of Pauwels but the one that looked most like it, and still failed. That is Ganz, and it is worth its own look."
+      ],
+      "diagram": "pauwels-replication"
+    },
+    {
+      "heading": "Ganz: distressed, but not another Pauwels",
+      "body": [
+        "A year after Pauwels, in 2006, Crompton bought Ganz, a 130-year-old Hungarian maker of transformers, switchgear and rotating machines, for an enterprise value of about €35 million. It even bought it through the Pauwels subsidiary itself, which tells you how consciously this was Pauwels being run again[^14].",
+        "On the label, Ganz was the perfect sequel: another storied European transformer maker, another distressed seller, a similar headline price. And that is exactly the trap, because distress was the only thing the two deals really had in common. Line them up and the differences are the whole story.",
+        "Pauwels was cheap against its sales and came without a flagged pile of debt; Ganz came at a similar price but with the wider Transelektro group's loan liabilities attached, so what Crompton actually took on was larger and heavier than the sticker[^14]. Pauwels had a fixable problem, a good product mispriced by a high-cost base, and the proof is that it was earning a healthy return within a year. Ganz's problems ran deeper and were never fixed; the Hungarian operation limped on inside Crompton for over a decade and was finally pushed into liquidation in 2020[^14]. Add a weaker fit for Indian-cost savings, more moving parts to integrate, and a cycle that turned soon after entry, and the sequel had almost none of the economics of the original.",
+        "This is the sharpest single lesson in the whole story. Crompton went looking for another Pauwels and found another distressed transformer maker, which is not the same thing. Distress is easy to match. The other five conditions are not, and it was the other five that did the work."
+      ],
+      "diagram": "pauwels-vs-ganz"
+    },
+    {
+      "heading": "Why the copies did not copy",
+      "body": [
+        "The cycle turned. The global power-equipment boom that had made the Pauwels turnaround look easy faded after the 2008 financial crisis. Western utility spending slowed, and the transformer industry ended up with too many factories chasing too few orders, which crushed prices.",
+        "Integration got harder. Buying one distressed company and fixing it is a project. Running a scattered collection of plants across Belgium, Hungary, Ireland, Canada, the United States, Indonesia, Sweden and Spain, each with its own costs, unions, regulators and currency, is a different and far harder job. And the Indian-cost savings had a limit: you cannot move a European utility's approved factory to India without losing the very approvals and local presence you paid for.",
+        "So the losses spread. By around FY13 Crompton posted its first annual loss in roughly a decade, the overseas operations the main reason, even as the Indian business kept making money[^6]."
+      ]
+    },
+    {
+      "heading": "The numbers turn",
+      "body": [
+        "The turn is written into Crompton's own consolidated annual report for FY2011-12[^17]. In that single year, overseas sales rose from about ₹4,952 crore to ₹5,534 crore, and by then nearly half the company's revenue and about two-thirds of its fixed assets sat outside India. The Power Systems segment, which houses those overseas transformer plants, saw its profit fall from about ₹807 crore to ₹239 crore, roughly 70% in twelve months. Consolidated profit before tax more than halved. Finance costs jumped from about ₹20 crore to ₹46 crore, and the company's own consolidated borrowings roughly doubled, from about ₹395 crore to ₹985 crore. Rising sales, rising assets, rising debt, falling profit: scale bought with borrowed money and no longer paying.",
+        "It steepened from there. By around FY13 the group posted its first annual loss in about a decade, the overseas operations the main reason[^6]. By FY15 the international arm still turned over roughly ₹4,800 crore, all of it loss-making[^7]. Then Crompton reported a consolidated net loss of about ₹107 crore for the quarter ending December 2015, against a healthy profit a year earlier, and the stock fell sharply[^8].",
+        "The interest had to be paid whether the foreign plants earned it or not, and they did not. By 2014-2015 the survival of the group was in question, and the phrase 'on the verge of bankruptcy' now attached to Crompton itself[^9]. One note on scale: the ₹7,500 crore of debt often quoted for March 2014 is the wider Avantha group, not this listed company alone, whose own borrowings were smaller but climbing on the trajectory the FY12 report already showed[^5]."
+      ],
+      "diagram": "crompton-warning-signature"
+    },
+    {
+      "heading": "The unwind",
+      "body": [
+        "The rescue was, in effect, the whole strategy run in reverse: sell everything the spree had bought, and split the company in two so the healthy half could be saved.",
+        "First, the split. In 2015 the group carved out the consumer business, the fans, pumps and lighting that most Indians actually associate with the Crompton name, and sold a controlling stake in it to the private-equity investors Advent International and Temasek for about ₹2,000 crore. That business was later listed separately as Crompton Greaves Consumer Electricals, and it went on to do well. It is a different company from the one this study is about[^10].",
+        "Then, the great sell-off of the overseas empire. In 2016 Crompton agreed to sell its foreign transmission-and-distribution business, the heart of the acquisition spree, to the buyout firm First Reserve for an enterprise value of about €115 million. The Spanish smart-grid unit ZIV was sold to the Saudi group Alfanar for an enterprise value of around €120 million. The American operations went to Brazil's WEG for about €37 million in 2017, and the Canadian plant to a group called PTI Holdings for about $20 million. What could not be sold was eventually wound up: the Belgian, Irish and Indonesian units went into liquidation around 2020[^11].",
+        "Stand back and look at the arithmetic of a decade. Crompton had spent years and a rising mountain of debt buying up businesses across two continents on the theory that it could repeat Pauwels. It exited nearly all of them through sales or liquidation, with individual disposal values generally in the same broad order of magnitude as the original acquisition prices, after years of losses in between. The remaining Indian power business became CG Power and Industrial Solutions. Weakened and heavily indebted, it went on to suffer a separate accounting-fraud scandal in 2019, the Thapar group lost control, and in 2020 the Murugappa group's Tube Investments stepped in to take it over[^12]."
+      ]
+    },
+    {
+      "heading": "So, was Pauwels a good deal?",
+      "body": [
+        "Take the five candidates from the start. Every one checks out.",
+        "Every one was present at once. That was the advantage Crompton mistook for a repeatable skill.",
+        "It is worth being precise about the claim, because here fact shades into interpretation. The fact is that the acquisition spree, the debt that funded it, and the overseas losses that followed were a large and direct part of Crompton's collapse. The interpretation, strongly supported but not documented, is why the spree happened at all: the belief, drawn from Pauwels, that Crompton could turn distressed Western assets into profit almost anywhere. Pauwels did not undo Crompton; the deal was good. The interpretation of Pauwels did."
+      ],
+      "diagram": "pauwels-verdict"
+    }
+  ],
+  "evidence": {
+    "caption": "One good deal, and the decade it set off",
+    "rows": [
+      {
+        "label": "Pauwels purchase (May 2005)",
+        "value": "~€32m / ~$34.7m (~₹200 cr) for the transformer business",
+        "noteRef": 1
+      },
+      {
+        "label": "Pauwels loss before sale (2003)",
+        "value": "~€20m; family-owned, selling after decades in control",
+        "noteRef": 3
+      },
+      {
+        "label": "Pauwels first full year in Crompton (FY06)",
+        "value": "~₹1,600 cr revenue, ~₹39 cr profit added; consolidated sales roughly doubled; ~20% ROCE",
+        "noteRef": 2
+      },
+      {
+        "label": "Overseas acquisitions (2005-2012)",
+        "value": "~9, incl. Ganz (Hungary), Microsol (Ireland), Sonomatra (France), MSE & QEI (US), Emotron (Sweden), ZIV (Spain)",
+        "noteRef": 4
+      },
+      {
+        "label": "Ganz (Hungary), 2006",
+        "value": "EV ~€35m, distressed; wider Transelektro group's loan liabilities assumed; liquidated 2020",
+        "noteRef": 14
+      },
+      {
+        "label": "Overseas sales, FY11 → FY12 [tier A]",
+        "value": "₹4,952 cr → ₹5,534 cr (about 49% of total sales; overseas fixed assets ₹1,534 cr vs ₹723 cr at home)",
+        "noteRef": 17
+      },
+      {
+        "label": "Power Systems result (PBIT), FY11 → FY12 [tier A]",
+        "value": "₹807 cr → ₹239 cr (down ~70%); consolidated PBT ₹1,229 cr → ₹550 cr",
+        "noteRef": 17
+      },
+      {
+        "label": "Finance costs + borrowings, FY11 → FY12 [tier A]",
+        "value": "finance costs ₹20 cr → ₹46 cr; consolidated borrowings ₹395 cr → ₹985 cr (term loans secured on Ireland and US assets)",
+        "noteRef": 17
+      },
+      {
+        "label": "Avantha group debt (Mar 2014)",
+        "value": "~₹7,500 cr (wider group, several companies, not the listed company alone)",
+        "noteRef": 5
+      },
+      {
+        "label": "Overseas revenue (FY15)",
+        "value": "~₹4,800 cr, loss-making",
+        "noteRef": 7
+      },
+      {
+        "label": "Q3 FY16 result (Dec 2015)",
+        "value": "consolidated net loss ~₹107 cr vs ~₹274 cr profit a year earlier; stock fell ~20%",
+        "noteRef": 8
+      },
+      {
+        "label": "Consumer business sold (2015)",
+        "value": "controlling stake to Advent + Temasek for ~₹2,000 cr; later listed as Crompton Greaves Consumer Electricals",
+        "noteRef": 10
+      },
+      {
+        "label": "Overseas empire sold/wound up (2016-2020)",
+        "value": "foreign T&D to First Reserve (EV ~€115m); ZIV to Alfanar (EV ~€120m); US to WEG (~€37m); Canada to PTI (~$20m); Belgium/Ireland/Indonesia liquidated",
+        "noteRef": 11
+      }
+    ],
+    "note": "The rows marked [tier A] are lifted directly from Crompton Greaves' own FY2011-12 consolidated annual report and are the hardest evidence in this study; the FY11 to FY12 turn (rising sales and overseas assets against collapsing Power Systems profit, doubling finance costs and doubling borrowings) is visible in a single filing. Purchase and sale prices elsewhere are enterprise values or headline deal values from contemporaneous reporting and can differ from the cash that actually changed hands after debt and liabilities. The direction is not in doubt: an empire assembled over a decade was dismantled for sums of the same modest order as the pieces had cost."
+  },
+  "sources": [
+    {
+      "label": "Will the Pauwels phoenix rise from the ashes of CG transformers? (Transformer Magazine)",
+      "url": "https://transformer-magazine.com/news/will-the-pauwels-phoenix-rise-from-the-ashes-of-cg-transformers/"
+    },
+    {
+      "label": "CG buys transformer biz of Pauwels (Business Standard, 2005)",
+      "url": "https://www.business-standard.com/article/companies/cg-buys-transformer-biz-of-pauwels-105022500019_1.html"
+    },
+    {
+      "label": "Pauwels Transformers sold to Indian company (Missourian)",
+      "url": "https://www.missourian.com/local_news/washington/pauwels-transformers-sold-to-indian-company/article_9f0daf92-c661-50ce-ba25-f1e25ae1f2b6.html"
+    },
+    {
+      "label": "Avantha pays the price for gamble on growth (Business Standard)",
+      "url": "https://www.business-standard.com/article/specials/avantha-pays-the-price-for-gamble-on-growth-116071400864_1.html"
+    },
+    {
+      "label": "Crompton Greaves to sell foreign T&D business (Business Standard)",
+      "url": "https://www.business-standard.com/amp/article/companies/crompton-greaves-to-sell-foreign-t-d-business-116030900299_1.html"
+    },
+    {
+      "label": "Crompton Greaves reported Rs 107.03 cr loss in Q3 (Business Standard / PTI)",
+      "url": "https://www.business-standard.com/amp/article/pti-stories/crompton-greaves-reported-rs-107-03-cr-loss-in-q3-116020201318_1.html"
+    },
+    {
+      "label": "How the 146-year-old Crompton has managed to stay afloat (Forbes India)",
+      "url": "https://www.forbesindia.com/article/leadership/how-the-146yearold-crompton-has-managed-to-stay-afloat/93934/1"
+    },
+    {
+      "label": "Crompton Greaves Limited 75th Annual Report (FY2011-12), consolidated financials and segment notes (BSE)",
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500093/5000930312.pdf"
+    },
+    {
+      "label": "CG International BV acquires Ganz Transelektro (Windtech International, 2006)",
+      "url": "https://www.windtech-international.com/company-news/cg-international-bv-acquires-ganz-transelektro-villamossgi-zrt"
+    },
+    {
+      "label": "CG Hungary (Ganz) liquidation proceedings initiated (Transformers Magazine)",
+      "url": "https://transformers-magazine.com/tm-news/cg-hungary-liquidation-proceedings-initiated/"
+    },
+    {
+      "label": "Arab firm Alfanar acquires Spanish smart-grid provider ZIV; Dinamia/N+1 exit at a 29% IRR (Baker Tilly Tech M&A)",
+      "url": "https://techma.bakertilly.es/en/arab-company-alfanar-acquires-spanish-smart-grid-provider-ziv/"
+    },
+    {
+      "label": "CG Power and Industrial Solutions (Wikipedia, for the post-2016 corporate timeline)",
+      "url": "https://en.wikipedia.org/wiki/CG_Power_and_Industrial_Solutions"
+    }
+  ],
+  "exAnte": {
+    "intro": [
+      "This is a harder case than most for spotting trouble early, because for years the numbers looked good and the strategy looked vindicated. But the shape of the risk was visible to anyone reading the annual reports, if they watched the right lines rather than the headline growth."
+    ],
+    "tells": [
+      {
+        "when": "Annual reports, 2006 onwards",
+        "document": "The acquisitions and goodwill notes, and the segment note splitting India from overseas",
+        "check": "The steady stream of new foreign acquisitions year after year, and how much of the group's revenue and, crucially, its profit came from overseas versus from India.",
+        "meaning": "A company buying something abroad almost every year is increasingly dependent on finding another good deal and integrating it successfully. That is not automatically bad; a disciplined serial acquirer paying with cash can compound beautifully. It is a warning specifically when the buying is debt-funded and the acquired segment's returns are already slipping, because then it is a bet on a pipeline of bargains that tends to run dry.",
+        "lead": "Years before the losses, while the story still looked like a triumph"
+      },
+      {
+        "when": "The FY2011-12 consolidated annual report",
+        "document": "The segment note (geography and business) and the borrowings note, read together on facing pages",
+        "check": "The composite pattern, all in one report: overseas sales up (₹4,952 to ₹5,534 crore) and overseas assets up (₹1,016 to ₹1,534 crore, against just ₹723 crore at home), while Power Systems profit fell about 70% (₹807 to ₹239 crore), finance costs more than doubled (₹20 to ₹46 crore), and the company's own borrowings roughly doubled (₹395 to ₹985 crore).",
+        "meaning": "This is the actual warning signature, and it is quantitative and primary. Any one line is explainable; all of them moving together says the strategy is buying revenue and assets that no longer earn, on borrowed money. A business that is a growing share of your sales and assets but a shrinking share of your profit is scale being mistaken for success, and here you could read it a full year before the first annual loss.",
+        "lead": "Visible in the FY12 report, about a year before the first annual loss"
+      },
+      {
+        "when": "Annual reports, FY09 through FY13",
+        "document": "The borrowings note and the finance-costs line, read against the segment profit",
+        "check": "Debt rising toward ₹7,500 crore while the overseas segment's profit thinned and then turned negative. The Indian business was carrying the group.",
+        "meaning": "The tell is not any single number but the divergence: borrowing to fund a strategy whose returns were falling. When new debt funds businesses earning less each year, the arithmetic only ends one way.",
+        "lead": "Roughly 3 to 5 years of visible deterioration before the crisis broke"
+      },
+      {
+        "when": "FY13 results",
+        "document": "The consolidated profit-and-loss account",
+        "check": "The first annual loss in about a decade, explicitly blamed on the overseas operations while the Indian business stayed profitable.",
+        "meaning": "This was the moment the doctrine failed in plain sight. The foreign empire that was supposed to be the growth engine was now the reason the group lost money. Everything after was consequence, not surprise.",
+        "lead": "About 2 to 3 years before the forced break-up and sales"
+      }
+    ],
+    "blindSpot": "What careful filing-reading would not have caught was the separate accounting-fraud scandal that hit the remaining power company (CG Power) in 2019, well after the overseas story had played out. Reading annual reports protects you from a visible strategy going wrong. It does not protect you from figures that were misstated in the first place."
+  },
+  "patternCard": {
+    "signal": "A company that keeps citing one celebrated past acquisition as the reason to make the next one.",
+    "mechanism": "A brilliant first deal is read as proof of a repeatable skill, when it was really a rare alignment of a cheap distressed seller, a fixable problem, unbuyable market access and a rising cycle. Management repeats the move on assets that lack one or more of those ingredients, usually funding it with debt, and the misses accumulate faster than the one hit can cover.",
+    "whereToCheck": "The acquisitions and goodwill notes and the segment disclosures across several annual reports. Look for a repeated cadence of buying, rising debt funding it, and the acquired segment's profit share falling even as its revenue share climbs. Large and loss-making overseas revenue is the warning, not large revenue.",
+    "counterexample": "Serial acquisition is not always a trap. Some companies genuinely industrialise it, with a disciplined price ceiling, cash rather than debt funding, and a real integration engine that has worked across many deals, not one. The danger sign is specifically the single-triumph justification and debt-funded expansion into assets that do not share the reasons the first one worked."
+  },
+  "timeline": [
+    {
+      "when": "1958",
+      "what": "Emmanuel Pauwels founds the transformer company in Mechelen, Belgium; it grows into a top-five global three-phase transformer maker over the following decades."
+    },
+    {
+      "when": "2003",
+      "what": "Pauwels posts a loss of about €20m; the founding family, after decades in control, looks to sell."
+    },
+    {
+      "when": "May 2005",
+      "what": "Crompton Greaves buys the Pauwels transformer business for about €32m, doubling its size and becoming a top-ten global transformer maker."
+    },
+    {
+      "when": "2006-2012",
+      "what": "Crompton buys around eight more businesses abroad, including Ganz (Hungary), Microsol (Ireland), MSE and QEI (US), Emotron (Sweden) and ZIV (Spain), largely with borrowed money."
+    },
+    {
+      "when": "FY13",
+      "what": "Crompton reports its first annual loss in about a decade, with the overseas operations the main drag while the Indian business stays profitable."
+    },
+    {
+      "when": "Mar 2014",
+      "what": "Group debt reaches around ₹7,500 crore as the debt-funded acquisitions weigh on the balance sheet."
+    },
+    {
+      "when": "2015",
+      "what": "The consumer business is carved out and a controlling stake sold to Advent and Temasek for about ₹2,000 crore; later listed as Crompton Greaves Consumer Electricals."
+    },
+    {
+      "when": "2016",
+      "what": "Crompton agrees to sell its foreign T&D business to First Reserve (EV ~€115m) and ZIV to Alfanar (EV ~€120m), dismantling the overseas empire."
+    },
+    {
+      "when": "2017-2020",
+      "what": "US operations sold to WEG, Canada to PTI Holdings; Belgian, Irish and Indonesian units liquidated by around 2020."
+    },
+    {
+      "when": "2019-2020",
+      "what": "The remaining Indian power company (CG Power) is hit by an accounting-fraud scandal; the Thapar group loses control and Tube Investments (Murugappa group) takes it over."
+    }
+  ],
+  "evidenceNotes": [
+    {
+      "id": 1,
+      "note": "Source tier C (reputable contemporary reporting). The ~€32m / ~$34.7m Pauwels purchase price and May 2005 date are consistently reported across Transformer Magazine, Business Standard and US local coverage of the Washington, Missouri plant. The ₹200 crore rupee figure is an approximate conversion at then-prevailing rates and is indicative, not exact. Would upgrade to A/B against Crompton's FY05-FY06 annual report.",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "note": "Source tier A (audited annual report). The FY06 figures come from Crompton Greaves' own Ten Years' Financial Highlights in the FY2011-12 annual report: consolidated net sales ₹4,127 cr versus standalone ₹2,521 cr, a difference of about ₹1,600 cr from the acquired overseas operations, and consolidated profit after tax ₹233 cr versus standalone ₹163 cr. Consolidated net sales were roughly double the prior year's standalone ₹1,973 cr. The ~€280m revenue behind the 0.11x price-to-sales ratio is this ₹1,600 cr converted at the era's rate, so 0.11x is an order-of-magnitude figure. The 'top five / among the ten largest' ranking is contemporaneous coverage (tier C); an earlier 'seventh-largest' phrasing was softened accordingly.",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "note": "Source tier C. Pauwels' ~€20m loss in 2003 and the family sale after decades of ownership are reported by Transformer Magazine and US local press covering the acquisition. That Pauwels itself was genuinely distressed is well established across sources.",
+      "confidence": "high"
+    },
+    {
+      "id": 4,
+      "note": "Source tier B/C (company disclosures plus reporting). The count of roughly nine overseas acquisitions and the named targets (Ganz, Microsol, Sonomatra, MSE, QEI, Emotron, ZIV) are drawn from contemporaneous coverage and company disclosures. Different sources count slightly differently depending on whether small units and joint ventures are included, so 'around nine' is the safe figure.",
+      "confidence": "high"
+    },
+    {
+      "id": 5,
+      "note": "The company's own borrowings are tier A. Crompton's Ten Years' Financial Highlights (FY2011-12 annual report) show consolidated borrowings falling from ₹904 cr (FY07) to ₹470 cr (FY11), then jumping to about ₹1,044 cr in FY12 (this includes current maturities; the itemised balance-sheet notes give ₹985 cr of long plus short-term borrowings). The ~₹7,500 crore figure for March 2014 is the wider Avantha group across several companies (Business Standard, tier C/D), not this listed company alone.",
+      "confidence": "high"
+    },
+    {
+      "id": 6,
+      "note": "Source tier C. That FY13 was Crompton's first annual loss in about a decade, driven by the overseas business, is supported by contemporaneous reporting. The precise full-year loss figure varies between sources and quarters, so the study deliberately describes the fact of the loss rather than a single rupee number.",
+      "confidence": "medium"
+    },
+    {
+      "id": 7,
+      "note": "Source tier C. Overseas revenue of about ₹4,800 crore in FY15 comes from Business Standard's reporting around the sale of the foreign business. That the overseas operations were loss-making at that point is consistently reported. The overseas return-on-capital and profit-share pattern described in the ex-ante section is directional, inferred from the segment splitting into losses while carrying rising revenue; the exact segment ROCE series would need the annual reports to state precisely.",
+      "confidence": "medium"
+    },
+    {
+      "id": 8,
+      "note": "Source tier C (contemporaneous). The Q3 FY16 (quarter ended December 2015) consolidated net loss of about ₹107 crore, against a profit of roughly ₹274 crore a year earlier, and the sharp fall in the stock, are from Business Standard / PTI reporting at the time.",
+      "confidence": "high"
+    },
+    {
+      "id": 9,
+      "note": "Source tier D, interpretation. The description of Crompton itself as near bankruptcy by 2014-2015 reflects Forbes India and Business Standard coverage of the group's distress and forced restructuring. It is an interpretation supported by the debt load and losses, not a formal insolvency filing at that date.",
+      "confidence": "medium"
+    },
+    {
+      "id": 10,
+      "note": "Source tier C. The 2015 sale of a controlling stake in the consumer business to Advent International and Temasek for about ₹2,000 crore, and its later separate listing as Crompton Greaves Consumer Electricals, are well documented (Forbes India, Business Standard). This consumer company is distinct from the power company this study concerns.",
+      "confidence": "high"
+    },
+    {
+      "id": 11,
+      "note": "Source tier C. The overseas disposals (First Reserve EV ~€115m for the foreign T&D business; ZIV to Alfanar EV ~€120m; US to WEG ~€37m; Canada to PTI ~$20m; liquidation of Belgian, Irish and Indonesian units around 2020) are from Business Standard and Transformer Magazine. Enterprise values differ from net cash received; some announced deals were later restructured, but the overall dismantling is well established.",
+      "confidence": "medium"
+    },
+    {
+      "id": 12,
+      "note": "Source tier C. The 2019 accounting-fraud episode at CG Power, the Thapar group losing control, and Tube Investments (Murugappa group) taking over in 2020 are widely reported and are summarised on the CG Power corporate record. These events are downstream of, and separate from, the acquisition strategy that is this study's subject.",
+      "confidence": "high"
+    },
+    {
+      "id": 13,
+      "note": "Source tier C/D. The 'small fish in an ocean' framing is attributed to Crompton's then managing director S M Trehan in retrospective coverage of the group's overseas strategy. It is used here as an illustration of stated appetite, not as a load-bearing number.",
+      "confidence": "medium"
+    },
+    {
+      "id": 14,
+      "note": "Source tier B/C. The Ganz (Transelektro) acquisition in 2006 at an enterprise value of about €35m, the assumption of the wider Transelektro group's loan liabilities, and the 2020 liquidation of the Hungarian operation are from the contemporaneous CG International announcement (Windtech International) and later Transformers Magazine reporting. The characterisation of Ganz as never turned around is an interpretation consistent with its loss-making history and eventual liquidation.",
+      "confidence": "medium"
+    },
+    {
+      "id": 15,
+      "note": "Source tier C. That ZIV was a growing, profitable smart-grid company rather than a distressed one, and that its private-equity seller (Dinamia / N+1) exited in 2012 at roughly a 29% annual return, are from Baker Tilly's account of the later Alfanar sale. This is the basis for treating ZIV as the inversion of Pauwels; the ✓/✗ marks in the replication matrix are interpretation built on these facts, with genuinely unestablished cells left as '?'.",
+      "confidence": "medium"
+    },
+    {
+      "id": 16,
+      "note": "Two returns support the 'genuine turnaround' claim. At group level, Crompton's own Ten Years' Financial Highlights (FY2011-12 annual report) show Return on Tangible Net Worth of about 31% for FY06 (tier A). For the acquired Pauwels business specifically, Windtech International cites about 40% revenue growth and 20.4% ROCE for fiscal 2005-06 (tier B/C). The unit had lost about €20m in 2003 and was earning a healthy return within a year of the 2005 acquisition.",
+      "confidence": "high"
+    },
+    {
+      "id": 17,
+      "note": "Source tier A (audited annual report), the hardest evidence here. The FY2011-12 figures are taken directly from Crompton Greaves' 75th (FY2011-12) consolidated annual report: overseas sales ₹4,951.90 cr to ₹5,533.88 cr; overseas fixed assets ₹1,534.43 cr against ₹723.10 cr domestic; Power Systems segment result ₹806.84 cr to ₹239.38 cr; consolidated profit before tax ₹1,229.13 cr to ₹549.74 cr; finance costs ₹20.06 cr to ₹46.34 cr; consolidated borrowings (long plus short term) ₹395.49 cr to ₹984.85 cr, with term loans secured on assets in Ireland and the USA. Segment results are reported by business, not geography, so the profit collapse is shown for Power Systems, which houses the overseas transformer operations, read alongside the geographic split of sales and assets. Figures are rounded in the prose.",
+      "confidence": "high"
+    }
+  ],
+  "remember": "A brilliant first deal is more dangerous than a mediocre one, because it convinces you that luck was a formula.",
+  "published": "2026-08-17"
+}

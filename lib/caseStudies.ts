@@ -37,7 +37,9 @@ export interface CaseStudy {
   sections: CaseSection[];
   evidence?: {
     caption: string;
-    rows: { label: string; value: string; source?: string }[];
+    // `noteRef` renders a small superscript on the row linking to the matching
+    // evidence note (which carries the source and confidence tier).
+    rows: { label: string; value: string; source?: string; noteRef?: number }[];
     note?: string;
   };
   exhibits?: { src: string; caption: string; source: string }[];
@@ -69,7 +71,7 @@ export interface CaseStudy {
   // Endnotes for the [^n] superscript markers in body text: where a load-bearing
   // claim comes from and how solid it is, in prose.
   evidenceNotes?: { id: number; note: string; confidence?: 'high' | 'medium' | 'low' }[];
-  lesson: string;
+  lesson?: string;
   remember?: string; // one-sentence takeaway, rendered as the closing box
 }
 

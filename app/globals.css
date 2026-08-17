@@ -43,7 +43,7 @@ a { color: inherit; text-decoration: none; }
   backdrop-filter: blur(8px);
   position: sticky; top: 0; z-index: 50;
 }
-.topbar-inner { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+.topbar-inner { display: flex; align-items: center; justify-content: space-between; height: 68px; }
 .brand { font-family: var(--serif); font-size: 22px; font-weight: 600; letter-spacing: -0.01em; }
 .brand .dot { color: var(--accent); }
 .brand-sub { font-size: 11px; color: var(--ink-faint); letter-spacing: 0.14em; text-transform: uppercase; }
@@ -309,7 +309,7 @@ section.block:first-of-type { border-top: none; }
 
 /* ===================== Nav ===================== */
 .nav { display: flex; gap: 22px; font-size: 14px; align-items: center; }
-.nav a { color: var(--ink-dim); }
+.nav a { color: var(--ink-dim); white-space: nowrap; }
 .nav a:hover { color: var(--ink); }
 .nav a.active { color: var(--accent); }
 @media (max-width: 640px) { .nav { gap: 14px; font-size: 13px; } }
@@ -699,7 +699,7 @@ section.block:first-of-type { border-top: none; }
 
 /* "What's new" running banner */
 .whatsnew { background: var(--bg); }
-.whatsnew-inner { display: flex; align-items: center; gap: 14px; padding: 8px 0; }
+.whatsnew-inner { display: flex; align-items: center; gap: 14px; padding: 11px 0; }
 .whatsnew-tag { flex: none; font-family: var(--mono); font-size: 10.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent); border-radius: 999px; padding: 3px 9px; }
 .whatsnew-marquee { flex: 1 1 auto; min-width: 0; overflow: hidden; -webkit-mask: linear-gradient(90deg, transparent 0, #000 64px, #000 calc(100% - 56px), transparent 100%); mask: linear-gradient(90deg, transparent 0, #000 64px, #000 calc(100% - 56px), transparent 100%); }
 .whatsnew-track { display: inline-flex; align-items: center; gap: 44px; white-space: nowrap; will-change: transform; animation: whatsnew-scroll 28s linear infinite; }
@@ -713,7 +713,7 @@ section.block:first-of-type { border-top: none; }
 @keyframes whatsnew-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 @media (prefers-reduced-motion: reduce) { .whatsnew-track { animation: none; } }
 @media (max-width: 640px) {
-  .whatsnew-inner { gap: 10px; padding: 7px 0; }
+  .whatsnew-inner { gap: 10px; padding: 10px 0 14px; }
   .whatsnew-tag { display: none; }
   .whatsnew-marquee { -webkit-mask: linear-gradient(90deg, transparent 0, #000 40px, #000 calc(100% - 36px), transparent 100%); mask: linear-gradient(90deg, transparent 0, #000 40px, #000 calc(100% - 36px), transparent 100%); }
   .whatsnew-track { gap: 30px; animation-duration: 22s; }
@@ -747,6 +747,10 @@ section.block:first-of-type { border-top: none; }
 .csd-row-side .csd-h2 { font-size: 24px; }
 .csd-row-main { min-width: 0; }
 .csd-row-main > .cs-para:first-child { margin-top: 0; }
+/* The evidence/appendix tail drops the empty heading gutter and uses the full width,
+   so wide content (the evidence table, pattern card, diagrams) can breathe. */
+.csd-tail { grid-template-columns: 1fr; gap: 0; }
+.csd-tail .csd-row-side { display: none; }
 @media (max-width: 860px) {
   .csd-page { max-width: 1040px; }
   .csd-row { grid-template-columns: 1fr; gap: 0; }
@@ -810,11 +814,13 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .csd-evidence { margin-top: 44px; }
 .ev-kicker { color: var(--amber); border-color: color-mix(in srgb, var(--amber) 40%, transparent); }
 .ev-table { border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin-top: 20px; }
-.ev-row { display: grid; grid-template-columns: minmax(150px, 1fr) minmax(0, 1.3fr) auto; align-items: baseline; gap: 16px; padding: 14px 18px; border-top: 1px solid var(--border); }
+.ev-row { display: grid; grid-template-columns: minmax(160px, 1fr) minmax(0, 1.7fr); align-items: baseline; gap: 24px; padding: 14px 20px; border-top: 1px solid var(--border); }
 .ev-row:first-child { border-top: none; }
 .ev-label { font-size: 15px; color: var(--ink-dim); }
-.ev-value { font-family: var(--mono); font-size: 13px; line-height: 1.5; font-weight: 600; color: var(--ink); text-align: right; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
-.ev-source { font-family: var(--mono); font-size: 11px; color: var(--ink-faint); text-align: right; min-width: 180px; }
+.ev-value { display: flex; flex-direction: column; gap: 3px; font-family: var(--mono); font-size: 13px; line-height: 1.55; font-weight: 600; color: var(--ink); text-align: left; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.ev-src-line { font-size: 11px; font-weight: 400; color: var(--ink-faint); letter-spacing: 0.02em; }
+.ev-rowref { margin-left: 4px; }
+.ev-rowref a { color: var(--accent); }
 .ev-note { font-size: 14px; color: var(--ink-faint); margin-top: 16px; max-width: 700px; line-height: 1.6; }
 
 /* Inline case-study diagrams */
@@ -854,6 +860,68 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .dg-svg-val { fill: var(--ink); font-family: var(--mono); font-size: 13px; font-weight: 600; }
 .dg-svg-lbl { fill: var(--ink-faint); font-family: var(--mono); font-size: 10px; letter-spacing: 0.05em; }
 
+/* "What €32m bought" anatomy table */
+.dg-buy { display: flex; flex-direction: column; gap: 2px; }
+.dg-buy-row { display: grid; grid-template-columns: 1fr auto; grid-template-areas: "k v" "note note"; column-gap: 14px; row-gap: 2px; padding: 11px 0; border-bottom: 1px solid var(--border); }
+.dg-buy-row:last-child { border-bottom: none; }
+.dg-buy-k { grid-area: k; font-size: 14px; color: var(--ink-dim); }
+.dg-buy-v { grid-area: v; font-family: var(--mono); font-size: 15px; font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.dg-buy-note { grid-area: note; font-family: var(--mono); font-size: 11px; color: var(--ink-faint); letter-spacing: 0.02em; }
+.dg-buy-ratio { margin-top: 16px; padding: 16px 18px; background: var(--bg-raised); border: 1px solid var(--accent-dim); border-left: 3px solid var(--accent); border-radius: 10px; display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+.dg-buy-ratio-num { font-family: var(--mono); font-size: 26px; font-weight: 600; color: var(--accent); font-variant-numeric: tabular-nums; }
+.dg-buy-ratio-lab { font-size: 13.5px; color: var(--ink-dim); line-height: 1.5; flex: 1 1 220px; }
+
+/* Replication-test matrix */
+.dg-rep-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.dg-rep { min-width: 560px; display: flex; flex-direction: column; }
+.dg-rep-row { display: grid; grid-template-columns: minmax(200px, 1.7fr) repeat(4, 1fr); align-items: center; border-bottom: 1px solid var(--border); }
+.dg-rep-row:last-child { border-bottom: none; }
+.dg-rep-head { border-bottom: 1px solid var(--border-strong); }
+.dg-rep-head .dg-rep-ing { color: var(--ink-dim); }
+.dg-rep-ing { font-size: 13px; color: var(--ink); padding: 11px 12px 11px 0; line-height: 1.35; }
+.dg-rep-col { font-family: var(--mono); font-size: 10px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-faint); text-align: center; padding: 10px 4px; line-height: 1.3; }
+.dg-rep-cell { font-family: var(--mono); font-size: 17px; font-weight: 600; text-align: center; padding: 11px 4px; }
+.dg-rep-cell.dg-yes { color: var(--good); }
+.dg-rep-cell.dg-part { color: var(--amber); }
+.dg-rep-cell.dg-no { color: var(--bad); }
+.dg-rep-cell.dg-unk { color: var(--ink-faint); }
+
+/* Verdict checklist (why Pauwels worked) */
+.dg-verdict { display: flex; flex-direction: column; }
+.dg-verdict-row { display: grid; grid-template-columns: 22px minmax(120px, 0.9fr) 1.4fr; align-items: baseline; gap: 12px; padding: 11px 0; border-bottom: 1px solid var(--border); }
+.dg-verdict-row:last-child { border-bottom: none; }
+.dg-verdict-check { font-family: var(--mono); font-size: 15px; font-weight: 600; color: var(--good); }
+.dg-verdict-k { font-size: 14px; color: var(--ink); }
+.dg-verdict-v { font-family: var(--mono); font-size: 12.5px; color: var(--ink-dim); line-height: 1.4; }
+
+/* Divergence bars: FY-indexed, some growing, some collapsing */
+.dg-div { display: flex; flex-direction: column; gap: 9px; margin-bottom: 22px; }
+.dg-div-cap { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 2px; }
+.dg-div-row { display: grid; grid-template-columns: 150px 1fr 56px; align-items: center; gap: 12px; }
+.dg-div-label { font-size: 12.5px; color: var(--ink-dim); line-height: 1.25; }
+.dg-div-track { position: relative; height: 20px; background: var(--bg-raised); border-radius: 4px; overflow: hidden; }
+.dg-div-baseline { position: absolute; top: 0; bottom: 0; width: 0; border-left: 1px dashed var(--border-strong); z-index: 1; }
+.dg-div-bar { position: absolute; top: 0; bottom: 0; left: 0; border-radius: 0 4px 4px 0; }
+.dg-div-bar.dg-div-up { background: var(--amber); opacity: 0.85; }
+.dg-div-bar.dg-div-down { background: var(--bad); }
+.dg-div-val { font-family: var(--mono); font-size: 12.5px; font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; }
+.dg-div-val.dg-div-up { color: var(--amber); }
+.dg-div-val.dg-div-down { color: var(--bad); }
+.dg-div-note { font-size: 12.5px; color: var(--ink-faint); line-height: 1.55; margin-top: 6px; }
+@media (max-width: 560px) { .dg-div-row { grid-template-columns: 110px 1fr 46px; gap: 8px; } .dg-div-label { font-size: 11.5px; } }
+
+/* Two-way comparison table (Pauwels vs Ganz) */
+.dg-cmp { min-width: 560px; display: flex; flex-direction: column; }
+.dg-cmp-row { display: grid; grid-template-columns: minmax(180px, 1.2fr) 1fr 1fr; align-items: stretch; border-bottom: 1px solid var(--border); }
+.dg-cmp-row:last-child { border-bottom: none; }
+.dg-cmp-head { border-bottom: 1px solid var(--border-strong); }
+.dg-cmp-head .dg-cmp-val { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-dim); }
+.dg-cmp-metric { font-size: 13px; color: var(--ink-dim); padding: 11px 14px 11px 0; line-height: 1.35; display: flex; align-items: center; }
+.dg-cmp-val { font-size: 13px; color: var(--ink); padding: 11px 12px; line-height: 1.35; border-left: 1px solid var(--border); display: flex; align-items: center; }
+.dg-cmp-good { color: var(--good); }
+.dg-cmp-warn { color: var(--amber); }
+.dg-cmp-bad { color: var(--bad); }
+
 .csd-sources { margin-top: 44px; }
 .src-list { list-style: none; margin: 18px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
 .src-list a { font-size: 15px; color: var(--accent); }
@@ -861,8 +929,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .src-arw { font-size: 12px; opacity: .8; }
 
 @media (max-width: 640px) {
-  .ev-row { grid-template-columns: 1fr auto; }
-  .ev-source { grid-column: 1 / -1; text-align: left; min-width: 0; }
+  .ev-row { grid-template-columns: 1fr; gap: 4px; }
 }
 
 /* ===================== Case study exhibits (document images) ===================== */
@@ -882,14 +949,34 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .ex-imgwrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .exhibit img { max-width: 100%; width: 100%; height: auto; }
 
-/* Top nav: stack under the brand and scroll horizontally on phones */
-@media (max-width: 720px) {
+/* Top nav: stack under the brand and scroll horizontally once the row stops fitting (phones + iPad portrait) */
+@media (max-width: 940px) {
   .wrap { padding: 0 20px; }
   .topbar { position: static; }
-  .topbar-inner { flex-direction: column; height: auto; align-items: stretch; gap: 10px; padding-top: 12px; padding-bottom: 12px; }
-  .nav { flex-wrap: wrap; gap: 10px 18px; }
-  .hero { padding: 40px 0 32px; }
+  .topbar-inner { flex-direction: column; height: auto; align-items: stretch; gap: 12px; padding-top: 18px; padding-bottom: 10px; }
+  /* one swipeable row, never a cramped wrap; bleed to the screen edge and re-inset with padding */
+  .nav {
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    margin: 0 -20px;
+    padding: 2px 20px 6px;
+    -webkit-mask: linear-gradient(90deg, #000 calc(100% - 24px), transparent 100%);
+    mask: linear-gradient(90deg, #000 calc(100% - 24px), transparent 100%);
+  }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a { white-space: nowrap; flex: none; padding: 2px 0; }
+  .hero { padding: 36px 0 30px; }
   .report { padding-top: 28px; padding-bottom: 72px; }
+  /* the "New case studies" pill is a desktop-only flourish */
+  .whatsnew-tag { display: none; }
+}
+
+/* Phones only: extra breathing room between the running banner and the brand */
+@media (max-width: 640px) {
+  .topbar-inner { padding-top: 28px; }
 }
 
 /* ===================== Case study cross-links (sector + related study) ===================== */
