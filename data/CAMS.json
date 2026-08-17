@@ -37,7 +37,7 @@
       {
         "model": "Regulatory Moat",
         "strength": 3,
-        "why": "SEBI's stringent rules on RTA competence, integration, and reliability mean that only a few firms can legally operate. CAMS benefits from this fortress. The same regulator, though, caps the fund's total expense ratio, and that cap squeezes what fund houses can pay every vendor, the RTA included."
+        "why": "SEBI's stringent rules on RTA competence, integration, and reliability mean that only a few firms can legally operate. CAMS benefits from this barrier. The same regulator, though, caps the fund's total expense ratio, and that cap squeezes what fund houses can pay every vendor, the RTA included."
       }
     ],
     "economicEngine": [
@@ -406,7 +406,7 @@
       "note": "New businesses (payments, KYC, insurance repo) are 14% of revenue, growing fast (24-25%), but unproven at scale and profitability. This is the hope; execution risk is real."
     }
   ],
-  "summary": "CAMS holds a 68-31 duopoly, earns 47% ROCE on almost no capital, and converts nearly all its profit to cash. None of that is in doubt. The tension is the price. You pay 38 times earnings for a company whose profit grew 1.2% last year, because its fee rate is squeezed downward even as the assets it services grow. This is not a company falling apart; it is a toll collector whose tolls are negotiated down as traffic rises, betting on its non-MF businesses to replace the lost growth. That bet is plausible but unproven. So the price already assumes the non-MF engine works and fee compression eases, and if either misfires the multiple has room to fall. Not a conviction buy. Worth watching if non-MF accelerates or the valuation compresses. Do your own work and consult a SEBI-registered adviser.",
+  "summary": "CAMS holds a 68-31 duopoly, earns 47% ROCE on almost no capital, and converts nearly all its profit to cash. None of that is in doubt. What holds it back is the price. You pay 38 times earnings for a company whose profit grew 1.2% last year, because its fee rate is squeezed downward even as the assets it services grow. This is not a company falling apart; it is a toll collector whose tolls are negotiated down as traffic rises, betting on its non-MF businesses to replace the lost growth. That bet is plausible but unproven. So the price already assumes the non-MF engine works and fee compression eases, and if either misfires the multiple has room to fall. Not a conviction buy. Worth watching if non-MF accelerates or the valuation compresses. Do your own work and consult a SEBI-registered adviser.",
   "engine": {
     "state": "both-stalling",
     "earnings": "The earnings engine has stalled. Despite the mutual-fund AUM being strong and CAMS processing 1,070 million transactions, FY26 profit grew only 1.2%. The culprit is fee compression: the rate per rupee of AUM is falling faster than volume can compensate. FY26 revenue grew 6.6%, a far cry from the historical 16-17% sales CAGR. Profit margins held at 31% (stable), so the slowdown is all growth. This is a structural squeeze, not a cyclical dip. For the earnings engine to wake, CAMS would need to either win back fee rates (unlikely given SEBI's stance), accelerate non-MF to 25-30% of revenue at high margins (not there yet), or see AUM growth spike to 20%+ (possible but not assured).",

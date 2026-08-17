@@ -43,18 +43,20 @@ function Financials({ rows }: { rows: FinancialRow[] }) {
       {rows.map((r) => (
         <div key={r.year} className="fin-row">
           <span className="yr">{r.year}</span>
-          <div className="bar-track">
+          <div className="bar-track" title={`Revenue ₹${r.revenue.toLocaleString('en-IN')} · net profit ₹${r.netProfit.toLocaleString('en-IN')} (₹ crore)`}>
             <div className="bar-fill" style={{ width: `${(r.revenue / max) * 100}%` }} />
+            <div className="bar-profit" style={{ width: `${(r.netProfit / max) * 100}%` }} />
           </div>
-          <span className="amt">₹{r.revenue.toLocaleString('en-IN')}cr</span>
+          <div className="fin-amt">
+            <span className="amt">₹{r.revenue.toLocaleString('en-IN')}</span>
+            <span className="amt-sub">net ₹{r.netProfit.toLocaleString('en-IN')} · {r.patMargin}%</span>
+          </div>
         </div>
       ))}
-      <div className="fin-row" style={{ marginTop: 4 }}>
-        <span className="yr" />
-        <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12, color: 'var(--ink-faint)' }}>
-          <span>Net profit → {rows.map((r) => `₹${r.netProfit}cr`).join('  ·  ')}</span>
-        </div>
-        <span />
+      <div className="fin-legend">
+        <span className="fin-key"><span className="fin-key-sw rev" />Revenue</span>
+        <span className="fin-key"><span className="fin-key-sw prof" />Net profit</span>
+        <span className="fin-key-note">₹ crore · % = PAT margin</span>
       </div>
     </div>
   );
@@ -371,17 +373,17 @@ export function Report({ r }: { r: TickerReport }) {
         ]}
       />
 
-      <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 16, justifyContent: 'space-between' }}>
-        <div>
-          <div className="eyebrow">{r.sector === r.industry ? r.sector : `${r.sector} · ${r.industry}`}</div>
-          <h1 className="report-title">{r.company}</h1>
-          <div className="asof" style={{ marginTop: 8 }}>
+      <div className="report-masthead">
+        <div className="eyebrow">{r.sector === r.industry ? r.sector : `${r.sector} · ${r.industry}`}</div>
+        <h1 className="report-title">{r.company}</h1>
+        <div className="report-meta">
+          <span className="asof">
             <a href={withBase('/about/')} className="byline-link">Fathom Research</a> · {r.ticker} · {r.dataVariant} · as of {formatDate(r.asOf)}
-          </div>
+          </span>
         </div>
       </div>
 
-      <p style={{ fontSize: 18, color: 'var(--ink-dim)', marginTop: 16, maxWidth: 720 }}>{r.oneLiner}</p>
+      <p className="report-lede">{r.oneLiner}</p>
 
       {r.isSample && (
         <div className="sample-banner">
@@ -420,9 +422,16 @@ export function Report({ r }: { r: TickerReport }) {
         <p><strong style={{ color: 'var(--ink)' }}>Unit of revenue:</strong> {r.business.unitOfRevenue}</p>
         <p className="tight"><strong style={{ color: 'var(--ink)' }}>Model:</strong> {r.business.revenueModel}</p>
         {r.moneyFlow && <MoneyFlow f={r.moneyFlow} />}
-        <div className="chips">
+        <div className="segments">
           {r.business.segments.map((s) => (
-            <span key={s.name} className="chip">{s.name} — {s.pct}% · {s.marginProfile}</span>
+            <div key={s.name} className="seg">
+              <div className="seg-top">
+                <span className="seg-name">{s.name}</span>
+                <span className="seg-pct">{s.pct}%</span>
+              </div>
+              <div className="seg-track"><div className="seg-fill" style={{ width: `${s.pct}%` }} /></div>
+              <div className="seg-margin">{s.marginProfile}</div>
+            </div>
           ))}
         </div>
         <dl className="dl">
@@ -439,25 +448,28 @@ export function Report({ r }: { r: TickerReport }) {
 
       <Block num="03" title="Valuation Snapshot"><Metrics items={r.valuation} /></Block>
 
-      <Block num="04" title="Financial Performance (5Y)">
+      <Block num="04" title="Financial Performance (5Y, in Crores)">
         <Financials rows={r.financials} />
       </Block>
 
       <Block num="05" title="Key Ratios"><Metrics items={r.ratios} /></Block>
 
-      <Block num="06" title="Cash Flow Forensics">
-        <div className="fin" style={{ marginTop: 8 }}>
+      <Block num="06" title="Cash Flow Forensics (in Crores)">
+        <div className="cashflow">
           {r.cashFlow.map((c) => (
-            <div key={c.year} className="fin-row">
-              <span className="yr">{c.year}</span>
-              <div style={{ fontSize: 14, color: 'var(--ink-dim)' }}>
-                {c.capex != null ? `OCF ₹${c.ocf}cr, capex ₹${c.capex}cr` : `Operating cash flow ₹${c.ocf.toLocaleString('en-IN')}cr`}
+            <div key={c.year} className="cf-row">
+              <span className="cf-year">{c.year}</span>
+              <div className="cf-items">
+                <span className="cf-item"><span className="cf-k">OCF</span><span className="cf-v">₹{c.ocf.toLocaleString('en-IN')}</span></span>
+                {c.capex != null && (
+                  <span className="cf-item"><span className="cf-k">Capex</span><span className="cf-v">₹{c.capex.toLocaleString('en-IN')}</span></span>
+                )}
+                {c.fcf != null ? (
+                  <span className="cf-item"><span className="cf-k">FCF</span><span className="cf-v" style={{ color: c.fcf > 0 ? 'var(--good)' : 'var(--bad)' }}>₹{c.fcf.toLocaleString('en-IN')}</span></span>
+                ) : (
+                  <span className="cf-item"><span className="cf-k">Cash</span><span className="cf-v" style={{ color: c.ocf > 0 ? 'var(--good)' : 'var(--bad)' }}>{c.ocf > 0 ? 'positive' : 'negative'}</span></span>
+                )}
               </div>
-              {c.fcf != null ? (
-                <span className="amt" style={{ color: c.fcf > 0 ? 'var(--good)' : 'var(--bad)' }}>FCF ₹{c.fcf}cr</span>
-              ) : (
-                <span className="amt" style={{ color: c.ocf > 0 ? 'var(--good)' : 'var(--bad)' }}>{c.ocf > 0 ? 'positive' : 'negative'}</span>
-              )}
             </div>
           ))}
         </div>
@@ -483,9 +495,9 @@ export function Report({ r }: { r: TickerReport }) {
         <div style={{ fontSize: 13, color: 'var(--ink-faint)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
           {r.moat.strength} moat
         </div>
-        <div className="chips">
-          {r.moat.sources.map((s) => <span key={s} className="chip">{s}</span>)}
-        </div>
+        <ul className="moat-sources">
+          {r.moat.sources.map((s) => <li key={s}>{s}</li>)}
+        </ul>
         <p>{r.moat.note}</p>
       </Block>
 

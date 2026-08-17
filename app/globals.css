@@ -1131,3 +1131,102 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 @media (max-width: 640px) {
   .ol-engines { grid-template-columns: 1fr; }
 }
+
+/* ===================== Report masthead + financials refinements ===================== */
+.report-masthead { display: flex; flex-direction: column; }
+.report-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin-top: 12px; }
+/* the one-liner is the thesis: give it serif presence, but keep it under the editorial hero */
+.report-lede {
+  font-family: var(--serif); font-size: clamp(18px, 2.4vw, 21px); line-height: 1.5;
+  color: var(--ink); max-width: 768px; margin-top: 22px; text-wrap: pretty;
+}
+
+/* Financials: overlay net-profit bar inside the revenue bar, show margin per year */
+.fin-row { grid-template-columns: 52px 1fr 140px; }
+.fin .bar-track { position: relative; }
+.fin .bar-fill { position: absolute; inset: 0 auto 0 0; background: var(--accent-dim); }
+.bar-profit { position: absolute; left: 0; top: 0; bottom: 0; background: var(--accent); border-radius: 6px; }
+.fin-amt { display: flex; flex-direction: column; text-align: right; gap: 1px; }
+.fin-amt .amt { font-size: 13px; }
+.amt-sub { font-family: var(--mono); font-size: 11px; color: var(--ink-faint); text-align: right; font-variant-numeric: tabular-nums; }
+.fin-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-top: 10px; padding-left: 66px; }
+.fin-key { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ink-faint); }
+.fin-key-sw { width: 11px; height: 11px; border-radius: 3px; }
+.fin-key-sw.rev { background: var(--accent-dim); }
+.fin-key-sw.prof { background: var(--accent); }
+.fin-key-note { font-family: var(--mono); font-size: 11px; color: var(--ink-faint); margin-left: auto; }
+@media (max-width: 640px) {
+  .fin-row { grid-template-columns: 44px 1fr 116px; }
+  .fin-legend { padding-left: 0; }
+}
+
+/* ===================== Report: comprehensive mobile pass (applies to every company report) ===================== */
+@media (max-width: 640px) {
+  .wrap { padding: 0 16px; }
+  .report { padding-top: 28px; padding-bottom: 72px; }
+  section.block { padding: 26px 0; }
+  .block h2 { font-size: 21px; }
+  .block p { font-size: 15.5px; }
+  .report-lede { margin-top: 18px; }
+  .editorial-model { margin-top: 26px; padding-top: 22px; }
+  .editorial-hero p { font-size: 16px; }
+  .editorial-hero .ed-answer { font-size: 15px; padding-left: 13px; }
+  .ed-grid { gap: 12px; }
+  .ed-panel, .ed-heatmap, .ed-engine, .ed-position, .ed-sector, .ed-remember { padding: 15px 16px; }
+  /* metric grids (valuation / ratios / growth): comfortable 2-up, smaller value */
+  .metrics { grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); }
+  .metric { padding: 13px 14px; }
+  .metric .m-value { font-size: 19px; }
+  /* two-engine + lenses already stack; tighten their padding */
+  .engine-box, .lens { padding: 15px 16px; }
+  .engine-verdict { padding: 14px 16px; font-size: 14.5px; }
+  /* moat pips shrink so 4 always fit */
+  .moat-pip { width: 26px; }
+  /* financials: drop the third column, stack revenue + net under the bar */
+  .fin-row { grid-template-columns: 40px 1fr; column-gap: 10px; row-gap: 4px; }
+  .fin-amt { grid-column: 1 / -1; flex-direction: column; align-items: flex-start; text-align: left; padding-left: 50px; gap: 2px; }
+  .fin-amt .amt, .fin-amt .amt-sub { text-align: left; }
+  .fin-legend { padding-left: 0; }
+  /* risks + checklist: a touch more compact */
+  .risk { padding: 12px 14px; font-size: 13.5px; }
+  .check { padding: 10px 12px; }
+}
+@media (max-width: 380px) {
+  .metrics { grid-template-columns: 1fr 1fr; }
+  .block h2 { font-size: 20px; }
+  .report-title { font-size: 26px; }
+  .fin-amt { flex-direction: column; gap: 1px; }
+}
+
+/* ===================== Report: segments, cash-flow rows, moat sources (replace pill misuse) ===================== */
+/* Business-model segments: a card per segment with a share bar, not a pill */
+.segments { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 18px; }
+.seg { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 15px 16px; }
+.seg-top { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.seg-name { font-family: var(--serif); font-size: 17px; color: var(--ink); line-height: 1.2; }
+.seg-pct { font-family: var(--mono); font-size: 15px; font-weight: 600; color: var(--accent); font-variant-numeric: tabular-nums; }
+.seg-track { height: 5px; background: var(--bg-raised); border-radius: 3px; overflow: hidden; margin: 10px 0; }
+.seg-fill { height: 100%; background: var(--accent); border-radius: 3px; }
+.seg-margin { font-size: 13.5px; color: var(--ink-dim); line-height: 1.55; }
+
+/* Cash-flow forensics: one clean row per year, comma-formatted, no wrap-break */
+.cashflow { margin-top: 16px; display: flex; flex-direction: column; gap: 8px; }
+.cf-row { display: grid; grid-template-columns: 58px 1fr; align-items: center; gap: 14px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px; }
+.cf-year { font-family: var(--mono); font-size: 13px; color: var(--ink-faint); }
+.cf-items { display: flex; flex-wrap: wrap; gap: 7px 22px; }
+.cf-item { display: inline-flex; align-items: baseline; gap: 7px; white-space: nowrap; }
+.cf-k { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-faint); }
+.cf-v { font-family: var(--mono); font-size: 14px; color: var(--ink); font-variant-numeric: tabular-nums; }
+
+/* Moat sources: readable list with a teal marker, not a multi-line pill */
+.moat-sources { list-style: none; margin: 16px 0 0; padding: 0; display: flex; flex-direction: column; gap: 8px; max-width: 720px; }
+.moat-sources li { position: relative; padding: 12px 16px 12px 34px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; font-size: 14.5px; color: var(--ink-dim); line-height: 1.55; }
+.moat-sources li::before { content: ''; position: absolute; left: 15px; top: 1.15em; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+
+@media (max-width: 640px) {
+  .segments { grid-template-columns: 1fr; gap: 10px; }
+  .cf-row { grid-template-columns: 1fr; gap: 6px; padding: 11px 14px; }
+  .cf-items { gap: 6px 18px; }
+  .moat-sources li { padding: 11px 14px 11px 30px; }
+  .moat-sources li::before { left: 13px; }
+}
