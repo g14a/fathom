@@ -12,12 +12,14 @@ export const metadata: Metadata = {
 // case-study JSONs at build time.
 const PATTERN_META: { id: string; name: string }[] = [
   { id: 'jet-airways-the-market-leader-that-vanished-1993-2024', name: 'Debt-funded acquisition into losses' },
+  { id: 'crompton-greaves-the-one-good-deal-2005-2020', name: 'One good deal mistaken for a formula' },
   { id: 'suzlon-the-sadness-2008-2026', name: 'Currency-mismatched debt' },
   { id: 'mahindra-the-65pc-fall-2018-2020', name: 'The consolidated vs standalone gap' },
   { id: 'airtel-the-lost-decade-2007-2020', name: 'Growth that never reaches the owner' },
   { id: 'bse-the-toll-booth-boom-2023-2026', name: 'A toll booth on someone else’s boom' },
   { id: 'cupid-the-rerating-machine-2023-2026', name: 'A re-rating that outran the earnings' },
   { id: 'asian-paints-distribution-machine-2000-2026', name: 'The capacity attack on a moat' },
+  { id: 'what-happened-to-the-paint-industry', name: 'A premium that outlived the returns' },
   { id: 'nse-vs-bse-the-moat-that-moved-1875-2026', name: 'A liquidity moat that outlasts the technology' },
 ];
 
@@ -88,7 +90,7 @@ export default function PatternsPage() {
             A pattern is not a verdict. It is a reason to open the filing and look. The counterexample
             on each card is there so the lesson never hardens into a superstition.
           </p>
-          <div className="attrib">Eight stories. Eight shapes. One habit: check the note, not the headline.</div>
+          <div className="attrib">Ten stories. Ten shapes. One habit: check the note, not the headline.</div>
         </div>
       </div>
     </>

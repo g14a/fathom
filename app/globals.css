@@ -784,7 +784,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .csd-tell { padding: 16px 18px; background: var(--bg-card); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 12px 12px 0; }
 .csd-tell-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 .csd-tell-when { font-family: var(--mono); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--accent); }
-.csd-tell-lead { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-faint); border: 1px solid var(--border); border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
+.csd-tell-lead { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-faint); border: 1px solid var(--border); border-radius: 10px; padding: 2px 9px; max-width: 100%; overflow-wrap: anywhere; line-height: 1.4; }
 .csd-tell-doc { font-family: var(--serif); font-size: 16px; font-weight: 600; color: var(--ink); line-height: 1.45; margin-top: 7px; }
 .csd-tell-check { display: grid; grid-template-columns: 92px 1fr; gap: 14px; align-items: baseline; padding: 9px 0 0; }
 .csd-tell-check + .csd-tell-check { border-top: 1px solid var(--border); margin-top: 9px; }
@@ -922,6 +922,8 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .dg-cmp-good { color: var(--good); }
 .dg-cmp-warn { color: var(--amber); }
 .dg-cmp-bad { color: var(--bad); }
+.dg-cmp-4 { min-width: 680px; }
+.dg-cmp-4 .dg-cmp-row { grid-template-columns: minmax(120px, 0.9fr) 1.1fr 1fr 1fr; }
 
 .csd-sources { margin-top: 44px; }
 .src-list { list-style: none; margin: 18px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }

@@ -1,0 +1,357 @@
+{
+  "ticker": "ASIANPAINT",
+  "company": "Indian Paint Industry",
+  "relatedCaseStudies": [
+    "asian-paints-distribution-machine-2000-2026",
+    "the-pe-paradox-why-multiples-rise-when-earnings-fall"
+  ],
+  "title": "What happened to the paint industry?",
+  "period": "2019 → 2026",
+  "tags": [
+    "Valuation",
+    "Pricing power",
+    "Competition",
+    "Capital intensity"
+  ],
+  "summary": "Paint stocks fell for years while the paint market kept growing. Reconstructed from the numbers: most of the drop was valuation, on returns that had been fading for a decade, with new competition as the accelerant rather than the sole cause.",
+  "keyNumbers": [
+    {
+      "label": "Asian Paints EPS, FY19 → FY26",
+      "value": "₹22.5 → ~₹45"
+    },
+    {
+      "label": "Asian Paints, 2022 peak → Aug 2026",
+      "value": "₹3,590 → ~₹2,631 (about -27%)"
+    },
+    {
+      "label": "Peak P/E → now",
+      "value": "~110x → ~53x"
+    },
+    {
+      "label": "Birla Opus investment",
+      "value": "₹10,000 cr, ~40% of industry capacity"
+    },
+    {
+      "label": "JSW buys Akzo Nobel India",
+      "value": "up to ~75% stake, ~₹8,986 cr"
+    },
+    {
+      "label": "Asian Paints ROCE, FY15 → FY26",
+      "value": "~42% → ~26%"
+    }
+  ],
+  "intro": [
+    "The usual way to open this story is to ask why paint stocks fell because of competition. That question already assumes the answer. A cleaner one, and the one this study starts from, is: between 2019 and 2026, what actually changed in the economics of India's paint industry?",
+    "The puzzle is that the Indian paint market kept growing the whole time. People kept repainting homes, builders kept handing over flats, the category got bigger almost every year. Yet the paint stocks, which for two decades were among the market's most admired compounders, delivered years of poor returns. Asian Paints trades roughly a quarter below where it stood in early 2022. Indigo Paints, priced for stardom at listing, is worth less than half its debut price.",
+    "A growing market and falling stocks is not a contradiction. It just means the problem is not whether people buy paint. It is one layer down: either the business became less profitable, or investors became willing to pay less for those profits. Or both. This study takes those two apart, and only names a cause once the numbers support one."
+  ],
+  "sections": [
+    {
+      "heading": "Did earnings fall, or did the multiple fall?",
+      "body": [
+        "Any stock's price is just two things multiplied: the earnings the company makes, and the multiple (the P/E) investors are willing to pay for those earnings. Price equals EPS times P/E. So when a stock falls, exactly one question matters first: which of the two shrank? Because the answers are completely different stories. If earnings fell, the business got worse. If only the multiple fell, the business may be fine and investors simply stopped overpaying.",
+        "Take Asian Paints, the cleanest case because it has the longest record. In FY19 it earned ₹22.48 per share. By FY26 it earned roughly ₹45 per share[^1]. Earnings did not fall over these years. They roughly doubled. Net profit went from about ₹2,208 crore to about ₹4,395 crore. So the falling stock cannot be a story of collapsing profit across the full period.",
+        "The price tells a different story. In March 2019 the share was around ₹1,356. It peaked at ₹3,590 in January 2022, then fell to near ₹2,631 by August 2026. Measured from 2019, the stock roughly doubled, tracking earnings almost exactly. Measured from the 2022 peak, it is down about 27%, even though the company earns more today than it did at that peak. So the drop from the top is the multiple, not the profit.",
+        "At the January 2022 peak, investors were paying roughly 110 times trailing earnings for Asian Paints[^2]. Today they pay around 53 times. Earnings kept climbing while the price paid for each rupee of them was cut in half.",
+        "The other listed players did not all fall the same way, and the difference matters. For Asian Paints and Berger, the multiple did most of the work while earnings rose. For Indigo Paints the fall was even more one-sidedly a valuation reset, from a wilder starting point. Kansai Nerolac is the exception: a big part of its business is industrial and automotive coatings, so its earnings genuinely softened too, and both the earnings and the multiple contributed to its decline. Keep those apart before drawing any lesson."
+      ],
+      "diagram": "paint-decomposition",
+      "lens": {
+        "label": "Four moats to keep separate",
+        "questions": [
+          "Demand moat: will people keep buying paint?",
+          "Distribution moat: can rivals reach the dealers?",
+          "Pricing moat: can the leader still charge a premium?",
+          "Returns: does the business still convert its advantages into high ROCE?"
+        ]
+      }
+    },
+    {
+      "heading": "Was demand the problem? No.",
+      "body": [
+        "Paint demand was not the problem. The decorative market kept growing (the organised part was around ₹62,000 crore by FY23 and larger since[^3]), and the major players kept reporting healthy volume growth. Even FY25's weak value growth came alongside positive decorative volumes: people were buying more litres, not fewer. So the pressure on profit, and on the price paid for that profit, has to come from somewhere else: the cost of making the paint, or the competition for selling it. The rest of this study is about those two."
+      ]
+    },
+    {
+      "heading": "The margin cycle: two dips that look the same and are not",
+      "body": [
+        "Paint is made mostly from crude-oil derivatives. Roughly half or more of a can's cost is raw materials: titanium dioxide (the white pigment, called TiO2), resins, monomers and solvents, all of which track crude and global petrochemical prices. So paint margins move with the commodity cycle, and Asian Paints' operating margin shows it year by year.",
+        "In FY21, with crude cheap after the COVID crash, the operating margin reached about 22%. Then crude and TiO2 spiked in FY22 and it fell to about 17%. That was a raw-material problem, and the whole industry felt it the same way. As commodities cooled through FY23 and FY24, the margin recovered to about 21%. Cost up, margin down; cost down, margin back up.",
+        "FY25 breaks the pattern. The operating margin fell again, to about 18%, but this time crude was not spiking and raw materials were benign. A margin that falls while input costs are calm is not a cost problem. That does not automatically make it a competition problem either, and the next section pulls the FY25 decline apart to see what actually moved. What is safe to say here is only this: the FY22 dip was the commodity cycle, which reverses, and the FY25 dip was not the commodity cycle, so its cause has to be found elsewhere."
+      ],
+      "diagram": "paint-margin-cycle"
+    },
+    {
+      "heading": "What the FY25 fall was actually made of",
+      "body": [
+        "It is tempting to jump straight from \"margin fell in calm commodity conditions\" to \"competition destroyed pricing power.\" The numbers do not support that leap, and the real story is more interesting. Break the FY25 profit-and-loss into its parts and the surprise is where the damage was not.",
+        "Start at the top. Gross margin, what is left after raw materials, was about 43.4% in FY25, close to a record high. Cheap crude and TiO2 saw to that. So the raw-material line was actively helping, and pricing power at the gross level had not visibly collapsed: if rivals had forced Asian Paints to slash prices across the board, gross margin would have fallen, and it did the opposite. The squeeze happened below the gross line, between gross margin and operating profit.",
+        "Two things drove it, and neither is a simple price war. First, revenue actually shrank, from about ₹35,495 crore in FY24 to about ₹33,906 crore in FY25, as demand softened. When revenue falls, fixed costs (staff, factories, the network) are spread over fewer rupees, so margin drops even if nothing is mismanaged. That is negative operating leverage. Second, channel-related spending and trade support became more expensive relative to that shrinking revenue, even as headline advertising was actually trimmed slightly to about ₹1,297 crore. Net profit fell about a third, to roughly ₹3,700 crore[^7].",
+        "So the problem was not the cost of paint. It was what happened after the paint was made: weaker revenue and a more expensive fight for the channel. That is more defensible than \"pricing power collapsed,\" and it points at a newcomer rather than proving one caused it. So the next step is to look at the newcomer."
+      ]
+    },
+    {
+      "heading": "Birla Opus: the ₹10,000 crore that changed the arithmetic",
+      "body": [
+        "In February 2024, the Aditya Birla group launched a paint brand, Birla Opus, through Grasim. It was not a small challenger. Grasim committed about ₹10,000 crore, built six large plants, and aimed for capacity of around 1,332 million litres a year, roughly a 40% addition to the entire organised industry[^4]. It entered with aggressive dealer economics (higher dealer margins, free or subsidised tinting machines, extended credit, launch discounts), and by FY25 Grasim said the business had crossed 10% revenue market share, counting Birla White putty[^5].",
+        "So a large, well-funded competitor had arrived with enough capital to change the industry's economics. Two cautions, though. The dealer terms are documented, but reading them as a deliberate rush to fill new capacity is an inference, not a fact. And the timing lines up with the FY25 pressure, but timing is not proof: Birla Opus is one force among several, to be weighed against the others rather than crowned the cause."
+      ]
+    },
+    {
+      "heading": "Then JSW bought Akzo, and one entrant became two",
+      "body": [
+        "If Birla Opus were the only new entrant, you could dismiss it as a single bet that might fail. But in June 2025 a second industrial house committed. JSW Paints, part of the JSW steel-and-energy group, agreed to buy up to about 75% of Akzo Nobel India, the maker of the Dulux brand, for around ₹8,986 crore, with the whole transaction valued at roughly ₹12,915 crore including the open offer and debt. The deal closed in December 2025[^6].",
+        "The route matters. Akzo Nobel India was already a profitable, established player with a real brand, so JSW bought scale and distribution rather than building a plant and waiting, and added it to a group that had been building its own paint business since 2019. The combined entity became roughly the number four decorative player, with about 7% of the market.",
+        "Two large, unrelated industrial groups, Aditya Birla and JSW, each decided within two years that Indian paints was worth tens of thousands of crores. That reads two ways. It can mean the industry's economics are attractive enough to draw serious capital, or it can mean those economics are about to worsen, because a lot of capital arriving at once tends to make a good business more crowded. The way to choose between them is to ask what happens when all this new capacity meets a market that is growing, but nowhere near 40% a year."
+      ]
+    },
+    {
+      "heading": "Is this an overcapacity story? Not proven.",
+      "body": [
+        "It is tempting to call this an overcapacity story: too many new plants, all cutting price to fill themselves. But capacity added and annual demand growth are not directly comparable. \"Birla Opus added about 40% to capacity while the market grows 9-12% a year\" sets a one-off jump against a yearly flow. If the industry had significant spare capacity to begin with, a large addition could be absorbed without ever creating a glut. To prove overcapacity you would need industry installed capacity, production and utilisation across FY21 to FY26, and that data is not cleanly public. Until it is, treat oversupply as a risk, not a fact. What is safe to say is narrower: the new capacity exists and must be filled, and filling it has already meant paying the channel, which is one reason defending the incumbent's position now costs more."
+      ]
+    },
+    {
+      "heading": "Returns: ROCE has been sliding for a decade",
+      "body": [
+        "If the industry really moved to lower returns, it should show up in the one number that measures how well a company turns capital into profit: return on capital employed, ROCE. For Asian Paints, the record is revealing, and it does not say what the competition story alone would predict. ROCE was about 42% in FY15, around 33% by FY19, and about 26% in FY25 and FY26[^8]. The high returns have been drifting down for the better part of a decade.",
+        "This reframes the whole story. The returns were already normalising before Birla Opus existed, as the company grew much larger and expanded into more capital-intensive businesses (kitchens, bath, decor). So the story is less \"new competition damaged a great industry\" and more \"the economics were already coming down to earth, and new competition arrived while that was happening.\" And 26% ROCE is still an excellent number, just not one that justifies the same expectations as 40%-plus. That gap, between the returns the market kept extrapolating and the returns the company now earns, is a large part of what fell."
+      ],
+      "diagram": "paint-roce-slide"
+    },
+    {
+      "heading": "Not every 'paint stock' is the same business",
+      "body": [
+        "A warning before you lump these companies together, because their economics genuinely differ. Kansai Nerolac is not a pure decorative play; a large slice of its business is industrial and automotive coatings, which follows the car cycle and carries lower margins. Its stock fell harder (down more than half from its 2021 peak) partly for reasons that have little to do with the wall-paint fight. Judging Kansai by the decorative story alone would mislead you.",
+        "Indigo Paints is the opposite end: a small, fast-growing premium challenger that listed in 2021 at a euphoric valuation. Its debut-day price near ₹3,129 has since more than halved to around ₹1,191, yet its earnings kept growing (EPS was about ₹30 in FY26). The common thread with Asian Paints is that valuation compression, not falling earnings, did the damage. But Indigo's case is more extreme than similar, because its starting multiple was wilder, its scale is a fraction of the leaders', and its future depends far more on its own execution than on the industry average.",
+        "Smaller names such as Sirca, Kamdhenu Ventures and Shalimar, and micro-cap coatings companies like Siddhika and Retina, have different business models (Sirca is largely imported wood coatings, not wall paint) and much weaker disclosure. They should not automatically be treated as copies of Asian Paints. The honest move is to say so, rather than force them into the same table."
+      ]
+    },
+    {
+      "heading": "So, what actually happened?",
+      "body": [
+        "Three things did the work: valuation compressed (110 times earnings fell to a still-rich 53), returns had already been drifting down for years (about 42% ROCE a decade ago to the mid-20s), and competition made those returns harder to defend. The commodity cycle was temporary, demand was never the problem, and true overcapacity remains unproven.",
+        "Nothing dramatic broke. A great business became a somewhat less great one, while the market finally stopped pricing it as though nothing could ever change.",
+        "What remains genuinely unknown is how far the competitive pressure runs: it depends on how long Birla Opus and JSW keep funding the fight, and on whether the new capacity ever tips into true oversupply, which the utilisation numbers have not yet shown. The re-rating has largely happened. That question is still open."
+      ]
+    }
+  ],
+  "evidence": {
+    "caption": "The numbers behind the decomposition",
+    "rows": [
+      {
+        "label": "Asian Paints EPS, FY19 → FY26",
+        "value": "₹22.48 → ~₹45.09",
+        "source": "Screener (audited annual results)",
+        "noteRef": 1
+      },
+      {
+        "label": "Asian Paints net profit, FY19 → FY26",
+        "value": "₹2,208 cr → ~₹4,395 cr",
+        "source": "Screener"
+      },
+      {
+        "label": "Asian Paints operating margin cycle",
+        "value": "FY21 ~22%, FY22 ~17%, FY24 ~21%, FY25 ~18%",
+        "source": "Screener"
+      },
+      {
+        "label": "Asian Paints FY25: gross margin vs profit",
+        "value": "gross margin ~43.4% (near record); net profit down ~33% to ~₹3,710 cr",
+        "source": "Company results / coverage",
+        "noteRef": 7
+      },
+      {
+        "label": "Asian Paints ROCE, FY15 → FY26",
+        "value": "~42% → 33% (FY19) → 26% (FY25-26)",
+        "source": "Screener (consolidated)",
+        "noteRef": 8
+      },
+      {
+        "label": "Asian Paints share, 2022 peak → Aug 2026",
+        "value": "₹3,590 (Jan 2022) → ~₹2,631 (about -27%)",
+        "source": "Exchange data"
+      },
+      {
+        "label": "Asian Paints P/E, peak → now",
+        "value": "~110x → ~53x",
+        "source": "Derived from price and trailing EPS",
+        "noteRef": 2
+      },
+      {
+        "label": "Organised decorative paints market, FY23",
+        "value": "~₹62,000 cr; top 5 ~90% of it",
+        "source": "Industry reports",
+        "noteRef": 3
+      },
+      {
+        "label": "Birla Opus investment and capacity",
+        "value": "~₹10,000 cr; ~1,332 MLPA (~40% of industry capacity)",
+        "source": "Grasim / Aditya Birla Group",
+        "noteRef": 4
+      },
+      {
+        "label": "Grasim paints share and capacity, FY25",
+        "value": ">10% revenue share; ~21% of organised decorative capacity",
+        "source": "Grasim FY25 release",
+        "noteRef": 5
+      },
+      {
+        "label": "JSW Paints acquires Akzo Nobel India",
+        "value": "up to ~75% for ~₹8,986 cr; deal ~₹12,915 cr incl open offer/debt",
+        "source": "JSW Paints / exchange filings",
+        "noteRef": 6
+      },
+      {
+        "label": "Indigo Paints, debut → Aug 2026",
+        "value": "~₹3,129 → ~₹1,191, with EPS still rising",
+        "source": "Exchange data; Screener"
+      }
+    ],
+    "note": "Figures mix standalone and consolidated bases and management-reported metrics where noted; labels identify the basis. Prices are approximate and for illustration of the decomposition, not a valuation call. This case is about industry mechanics, not a buy or sell view on any stock."
+  },
+  "exhibits": [],
+  "sources": [
+    {
+      "label": "Screener: Asian Paints consolidated financials",
+      "url": "https://www.screener.in/company/ASIANPAINT/consolidated/"
+    },
+    {
+      "label": "Grasim: Aditya Birla Group set to disrupt paints with Birla Opus (40% capacity addition)",
+      "url": "https://www.grasim.com/media/press-releases/aditya-birla-group-set-disrupt-paint-industry-40-percent-addition-industry-capacity-birla-opus"
+    },
+    {
+      "label": "Aditya Birla Group / Grasim FY25 results (paints market share and capacity)",
+      "url": "https://www.adityabirla.com/media/press-releases/grasim-q4fy25-and-fy2025-financial-results-creating-and-scaling-growth-engines-for-viksit-bharat/"
+    },
+    {
+      "label": "JSW Paints completes acquisition of Akzo Nobel India",
+      "url": "https://www.jsw.in/newsroom/press-releases/jsw-paints-completes-the-acquisition-process-of-akzo-nobel-india/"
+    },
+    {
+      "label": "Screener: Indigo Paints financials",
+      "url": "https://www.screener.in/company/INDIGOPNTS/"
+    },
+    {
+      "label": "IMARC: India decorative paint market size",
+      "url": "https://www.imarcgroup.com/india-decorative-paint-market"
+    }
+  ],
+  "exAnte": {
+    "intro": [
+      "This industry did not fail, so the warning to look for was never a coming collapse. It was that the unusually high returns were starting to normalise. Two of those signals were in plain view, and one was not in any paint company's filings at all. It was in a rival's capex plan."
+    ],
+    "tells": [
+      {
+        "when": "2020 and 2021, at the market top",
+        "document": "Any screening site's valuation line for Asian Paints, Berger or Indigo",
+        "check": "The trailing P/E. Asian Paints was near 90-110 times earnings; Indigo listed even richer.",
+        "meaning": "A multiple that high is a bet on flawless execution for years. You did not need to predict the bad news, only to notice the price left no room for any.",
+        "lead": "One to two years before the de-rating"
+      },
+      {
+        "when": "From 2021, in Grasim's own accounts and announcements",
+        "document": "Grasim Industries' capital expenditure disclosures and its Birla Opus capacity statements",
+        "check": "How much Grasim said it was spending on paint plants (heading toward ₹10,000 crore) and the capacity being built (~40% of the whole industry).",
+        "meaning": "Capacity is announced years before it produces anything, and once built it must be filled with lower prices and better dealer terms. The pressure on incumbent margins was scheduled in a rival's accounts before it showed up in the incumbents'.",
+        "lead": "About two to three years between the capex disclosure and the FY25 margin impact"
+      },
+      {
+        "when": "Across the decade, and sharpest in FY25",
+        "document": "Asian Paints' consolidated ROCE and its FY25 results",
+        "check": "ROCE sliding from about 42% (FY15) toward the low 30s (FY19) and then the mid-20s, a gentle years-long drift. Then, in FY25, operating margin and net profit falling even though raw materials were benign and gross margin was near a record.",
+        "meaning": "Returns were deteriorating before the market recognised it. The long ROCE slide said the exceptional phase was ending on its own, and FY25 confirmed it with profit falling while costs were low. A premium multiple assumed returns would stay near their peak; the numbers quietly said otherwise.",
+        "lead": "Years of warning, hidden by a still-high headline ROCE"
+      }
+    ],
+    "blindSpot": "What no filing could tell you is how far the pricing pressure ultimately runs, because that depends on choices Birla Opus and JSW have not finished making: how long they are willing to fund losses to buy share, and when they decide their plants are full enough to stop discounting. You could see the capacity being built. You could not see how patient the money behind it would turn out to be."
+  },
+  "patternCard": {
+    "signal": "A beloved, high-multiple business whose stock falls while its earnings keep rising.",
+    "mechanism": "When a great business gets cheaper while its earnings keep rising, the reflex is to call it a bargain. First ask the opposite: whether the market is finally pricing in lower returns. Often the trigger is that ROCE has been quietly drifting down for years, with new competition accelerating the drift, so the lower multiple is the correct multiple rather than a discount.",
+    "whereToCheck": "Work through it in order: earnings (did profit actually fall, usually no), then ROCE (are returns fading, often yes), then the historical P/E (how much of the old premium was extrapolation), then competitive capacity (is new supply coming, and from whom). To test an overcapacity claim, find installed capacity, production and utilisation over several years, and read the challenger's capex, not just the incumbent's.",
+    "counterexample": "A falling multiple is not automatically a bargain. Sometimes the market is right that returns stepped down, and the lower multiple is the new correct one, not a discount. And beware the tidy overcapacity story: a big capacity addition into an industry that was under-utilised to begin with need not create a glut at all. Prove the utilisation actually fell before you blame oversupply, and check whether returns are merely lower or genuinely impaired, because those deserve very different prices."
+  },
+  "published": "2026-08-19",
+  "timeline": [
+    {
+      "when": "2019",
+      "what": "Paint majors are premium blue chips. Asian Paints earns ₹22.48 per share and trades around 60 times earnings. The organised decorative market is large and growing."
+    },
+    {
+      "when": "2020",
+      "what": "COVID disrupts demand briefly, then crude and raw-material prices crash, lifting FY21 margins to about 22%. Stocks recover fast and keep climbing."
+    },
+    {
+      "when": "Jan 2021 to Jan 2022",
+      "what": "Valuation peak. Indigo Paints lists in Feb 2021 and doubles on debut. Asian Paints peaks at ₹3,590 in January 2022, near 110 times earnings."
+    },
+    {
+      "when": "FY22",
+      "what": "Crude and TiO2 inflation hits. Asian Paints' operating margin falls to about 17%. This is a raw-material shock, felt across the industry, and it later reverses."
+    },
+    {
+      "when": "FY23-FY24",
+      "what": "Raw materials cool. Margins recover to about 21% by FY24. Earnings keep growing, but the stocks do not reclaim their peaks: the de-rating has begun."
+    },
+    {
+      "when": "Feb 2024",
+      "what": "Grasim launches Birla Opus with about ₹10,000 crore and roughly a 40% addition to industry capacity. The competitive structure changes."
+    },
+    {
+      "when": "FY25",
+      "what": "Margins fall again to about 18%, this time with benign raw materials. Volume grows while value stays flat. Pricing power visibly slips as new capacity fills up."
+    },
+    {
+      "when": "Jun to Dec 2025",
+      "what": "JSW Paints agrees to buy up to ~75% of Akzo Nobel India (Dulux) for about ₹8,986 crore, closing in December. A second industrial group is now committed to paints."
+    },
+    {
+      "when": "Aug 2026",
+      "what": "Asian Paints trades near ₹2,631, about 27% below its 2022 peak, on a P/E near 53 versus about 110 at the top, even though it now earns more. The fall is the multiple, not the profit."
+    }
+  ],
+  "evidenceNotes": [
+    {
+      "id": 1,
+      "note": "Asian Paints EPS of ₹22.48 in FY19 rising to roughly ₹45 in FY26, with net profit roughly doubling from ₹2,208 crore, is from audited annual results via Screener (consolidated). The FY26 figure blends reported and trailing-twelve-month numbers, so treat it as approximate; the doubling across the period is robust to which recent quarter you end on.",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "note": "The peak P/E of roughly 110x is derived from the January 2022 price of ₹3,590 against trailing EPS of about ₹31-33. The current P/E near 53x is derived from a price around ₹2,631 against trailing EPS in the mid-40s to high-40s. Both are simple derivations from public price and earnings, so the exact figure shifts a few points depending on which trailing EPS you use, but the halving of the multiple is not sensitive to that choice.",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "note": "The organised decorative market near ₹62,000 crore by FY23 with the top five holding about 90%, and total paints-and-coatings near ₹1.35 lakh crore in 2024 with decorative about three-quarters, are from third-party industry reports. These vary meaningfully by source and definition, so they are directional context, not precise figures.",
+      "confidence": "medium"
+    },
+    {
+      "id": 4,
+      "note": "Birla Opus's roughly ₹10,000 crore investment, six plants, ~1,332 million litres per annum capacity, and the framing as about a 40% addition to organised industry capacity, are from Grasim's own press releases and results commentary. Company-stated plans; actual commissioned capacity and utilisation ramp over time.",
+      "confidence": "high"
+    },
+    {
+      "id": 5,
+      "note": "Grasim's claim of crossing 10% revenue market share (including Birla White putty) and capacity equal to about 21% of organised decorative paints in FY25 is from its own investor communications. Company-claimed, combining putty with paint, and not yet a full audited standalone history, so treat the precise share as directional.",
+      "confidence": "medium"
+    },
+    {
+      "id": 6,
+      "note": "JSW Paints acquiring up to about 74.76% of Akzo Nobel India for about ₹8,986 crore at ₹2,762.05 per share, with an open offer valuing the whole transaction near ₹12,915 crore including debt, and closing in December 2025, is from JSW and Akzo filings and contemporaneous reporting. Reported final holdings after the open offer vary in coverage; the scale and intent are not in doubt.",
+      "confidence": "high"
+    },
+    {
+      "id": 7,
+      "note": "Asian Paints' FY25 consolidated net profit of about ₹3,710 crore (Screener; some sources report about ₹3,667 crore after minority interest), down roughly a third from FY24's about ₹5,558 crore, and revenue declining from about ₹35,495 crore (FY24) to ₹33,906 crore (FY25), are from audited results via Screener and contemporaneous coverage. The gross margin near 43.4% is from coverage of the results; gross-margin definitions vary slightly by source, but the load-bearing point, a high gross margin alongside a much lower profit, is consistent across them.",
+      "confidence": "medium"
+    },
+    {
+      "id": 8,
+      "note": "Asian Paints' consolidated ROCE of about 42% in FY15, roughly 33% in FY19, and about 26% in FY25 and FY26 is from Screener. The multi-year downward drift is robust; individual years (FY24 read about 38%) swing with one-offs and the exact capital-employed definition, so read the trend, not any single point.",
+      "confidence": "high"
+    }
+  ],
+  "remember": "The paint market kept growing. What changed was the economics of owning the leaders: returns drifted lower, competition made the franchise more expensive to defend, and investors stopped paying the old premium for it."
+}

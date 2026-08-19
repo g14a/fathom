@@ -652,14 +652,11 @@ function renderDiagram(id: string): React.ReactNode {
     const cols = ['Pauwels 2005', 'Ganz 2006', 'Microsol 2008', 'ZIV 2012'];
     // yes / part / no / unknown, in Pauwels, Ganz, Microsol, ZIV order
     const rows: { ing: string; cells: ('y' | 'p' | 'n' | 'u')[] }[] = [
-      { ing: 'A distressed seller who had to sell', cells: ['y', 'y', 'u', 'n'] },
-      { ing: 'Price far below replacement cost', cells: ['y', 'n', 'u', 'n'] },
-      { ing: 'Losses that were fixable, not structural', cells: ['y', 'n', 'u', 'n'] },
-      { ing: 'Western utility access you cannot build fast', cells: ['y', 'p', 'y', 'y'] },
-      { ing: "India's cost advantage actually applies", cells: ['y', 'p', 'n', 'n'] },
-      { ing: 'An industry cycle rising, not falling', cells: ['y', 'p', 'n', 'n'] },
-      { ing: 'Simple to integrate', cells: ['y', 'n', 'n', 'n'] },
-      { ing: 'Little or no debt needed to buy it', cells: ['y', 'n', 'n', 'n'] },
+      { ing: 'Bought cheaply', cells: ['y', 'n', 'u', 'n'] },
+      { ing: 'Losses that were fixable', cells: ['y', 'n', 'u', 'n'] },
+      { ing: "India's cost advantage applies", cells: ['y', 'p', 'n', 'n'] },
+      { ing: 'Unbuyable utility access', cells: ['y', 'p', 'y', 'y'] },
+      { ing: 'A rising industry cycle', cells: ['y', 'p', 'n', 'n'] },
     ];
     const mark = (c: 'y' | 'p' | 'n' | 'u') =>
       c === 'y' ? '✓' : c === 'p' ? '~' : c === 'n' ? '✗' : '?';
@@ -744,36 +741,11 @@ function renderDiagram(id: string): React.ReactNode {
       { metric: 'Finance costs', y11: '20', y12: '46  (+131%)', tone: 'bad' },
       { metric: 'Total borrowings', y11: '395', y12: '985  (+149%)', tone: 'bad' },
     ];
-    // Same figures, indexed to FY2011 = 100, so the divergence is impossible to miss.
-    const bars: { label: string; idx: number; delta: string; dir: 'up' | 'down' }[] = [
-      { label: 'Overseas sales', idx: 112, delta: '+12%', dir: 'up' },
-      { label: 'Overseas fixed assets', idx: 151, delta: '+51%', dir: 'up' },
-      { label: 'Total borrowings', idx: 249, delta: '+149%', dir: 'up' },
-      { label: 'Finance costs', idx: 231, delta: '+131%', dir: 'up' },
-      { label: 'Power Systems PBIT', idx: 30, delta: '−70%', dir: 'down' },
-      { label: 'Consolidated PBT', idx: 45, delta: '−55%', dir: 'down' },
-    ];
-    const MAX = 249;
-    const basePct = (100 / MAX) * 100;
     return (
       <figure className="csd-diagram">
         <div className="dg-title-row">
           <span className="dg-title">The warning signature, in one report</span>
           <span className="dg-badge">FY2011 → FY2012 · ₹ crore</span>
-        </div>
-        <div className="dg-div">
-          <div className="dg-div-cap">Each FY2012 figure indexed to its FY2011 level (the dotted line = 100)</div>
-          {bars.map((b) => (
-            <div key={b.label} className="dg-div-row">
-              <span className="dg-div-label">{b.label}</span>
-              <span className="dg-div-track">
-                <span className="dg-div-baseline" style={{ left: `${basePct}%` }} aria-hidden="true" />
-                <span className={`dg-div-bar dg-div-${b.dir}`} style={{ width: `${(b.idx / MAX) * 100}%` }} />
-              </span>
-              <span className={`dg-div-val dg-div-${b.dir}`}>{b.delta}</span>
-            </div>
-          ))}
-          <div className="dg-div-note">Four measures grew. The two that decide whether the business was actually working, segment profit and pre-tax profit, fell by more than half. It got bigger and less profitable at the same time.</div>
         </div>
         <div className="dg-rep-scroll">
           <div className="dg-cmp" role="table">
@@ -803,17 +775,135 @@ function renderDiagram(id: string): React.ReactNode {
       </figure>
     );
   }
+  if (id === 'paint-decomposition') {
+    // gtone tints the "what moved" cell: bad = mostly a de-rating, warn = mixed
+    const rows: { metric: string; eps: string; stock: string; moved: string; tone?: 'good' | 'bad' | 'warn' }[] = [
+      { metric: 'Asian Paints', eps: '~doubled (₹22 → ~₹45)', stock: 'about -27% from 2022 peak', moved: 'P/E: ~110x → ~53x', tone: 'bad' },
+      { metric: 'Berger Paints', eps: 'roughly doubled (₹5 → ₹10)', stock: 'about -25% from 2021 peak', moved: 'Mostly the multiple', tone: 'bad' },
+      { metric: 'Indigo Paints', eps: 'kept rising (~₹30 FY26)', stock: 'more than halved from debut', moved: 'Mostly the multiple', tone: 'bad' },
+      { metric: 'Kansai Nerolac', eps: 'flatter (more industrial mix)', stock: 'more than halved from peak', moved: 'Earnings AND multiple', tone: 'warn' },
+    ];
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">Where did the fall come from?</span>
+          <span className="dg-badge">Earnings vs multiple</span>
+        </div>
+        <div className="dg-rep-scroll">
+          <div className="dg-cmp dg-cmp-4" role="table">
+            <div className="dg-cmp-row dg-cmp-head" role="row">
+              <span className="dg-cmp-metric" role="columnheader"></span>
+              <span className="dg-cmp-val" role="columnheader">Earnings, FY19 → FY26</span>
+              <span className="dg-cmp-val" role="columnheader">Stock, peak → now</span>
+              <span className="dg-cmp-val" role="columnheader">So the fall was</span>
+            </div>
+            {rows.map((r) => (
+              <div key={r.metric} className="dg-cmp-row" role="row">
+                <span className="dg-cmp-metric" role="cell">{r.metric}</span>
+                <span className="dg-cmp-val dg-cmp-good" role="cell">{r.eps}</span>
+                <span className="dg-cmp-val" role="cell">{r.stock}</span>
+                <span className={`dg-cmp-val ${r.tone ? `dg-cmp-${r.tone}` : ''}`} role="cell">{r.moved}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+        <figcaption className="dg-cap">
+          Across all four, earnings did not collapse. At the leaders, profit grew, in some cases doubling, while the
+          share price fell. When earnings rise and the price falls, only one thing can be doing the work: the multiple.
+          Investors stopped paying a perfection price. Kansai is the partial exception, because a big slice of its
+          business is industrial and automotive coatings, so its earnings were genuinely softer too. That is why you
+          separate the two before deciding whether a business is broken or just re-priced.
+        </figcaption>
+      </figure>
+    );
+  }
+  if (id === 'paint-margin-cycle') {
+    const rows: { metric: string; opm: string; cause: string; tone?: 'good' | 'bad' | 'warn' }[] = [
+      { metric: 'FY21', opm: '~22% (a high)', cause: 'Crude cheap after COVID crash. Raw materials low.', tone: 'good' },
+      { metric: 'FY22', opm: '~17%', cause: 'Crude and TiO2 spike. A raw-material shock, felt industry-wide.', tone: 'warn' },
+      { metric: 'FY24', opm: '~21%', cause: 'Commodities cool. The FY22 dip reverses, as cost dips always do.', tone: 'good' },
+      { metric: 'FY25', opm: '~18%', cause: 'Raw materials benign, yet margin falls. Not a cost problem. Something structural.', tone: 'bad' },
+    ];
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">Two margin dips, two different causes</span>
+          <span className="dg-badge">Asian Paints operating margin</span>
+        </div>
+        <div className="dg-rep-scroll">
+          <div className="dg-cmp" role="table">
+            <div className="dg-cmp-row dg-cmp-head" role="row">
+              <span className="dg-cmp-metric" role="columnheader">Year</span>
+              <span className="dg-cmp-val" role="columnheader">Operating margin</span>
+              <span className="dg-cmp-val" role="columnheader">What drove it</span>
+            </div>
+            {rows.map((r) => (
+              <div key={r.metric} className="dg-cmp-row" role="row">
+                <span className="dg-cmp-metric" role="cell">{r.metric}</span>
+                <span className="dg-cmp-val" role="cell">{r.opm}</span>
+                <span className={`dg-cmp-val ${r.tone ? `dg-cmp-${r.tone}` : ''}`} role="cell">{r.cause}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+        <figcaption className="dg-cap">
+          The FY22 dip and the FY25 dip look identical on a chart, both are margins falling, but they mean different
+          things. FY22 was the commodity cycle, which always turns, and it did by FY24. FY25's fall came with cheap raw
+          materials, so cost cannot explain it. That does not by itself prove a price war, though: the cause sits below
+          the gross-margin line, in operating leverage and the cost of defending the channel, which the next section
+          pulls apart.
+        </figcaption>
+      </figure>
+    );
+  }
+  if (id === 'paint-roce-slide') {
+    const rows: { metric: string; roce: string; note: string; tone?: 'good' | 'bad' | 'warn' }[] = [
+      { metric: 'FY15', roce: '~42%', note: 'The extraordinary phase. Very little capital, very high return.', tone: 'good' },
+      { metric: 'FY19', roce: '~33%', note: 'Already fading, years before any new rival appeared.', tone: 'warn' },
+      { metric: 'FY24', roce: '~38%', note: 'A strong year (partly a high base), masking the trend.', tone: 'good' },
+      { metric: 'FY25-FY26', roce: '~26%', note: 'Still excellent, but no longer extraordinary. Competition and soft demand on top of the drift.', tone: 'warn' },
+    ];
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">The returns moat faded slowly, not suddenly</span>
+          <span className="dg-badge">Asian Paints ROCE</span>
+        </div>
+        <div className="dg-rep-scroll">
+          <div className="dg-cmp" role="table">
+            <div className="dg-cmp-row dg-cmp-head" role="row">
+              <span className="dg-cmp-metric" role="columnheader">Year</span>
+              <span className="dg-cmp-val" role="columnheader">ROCE</span>
+              <span className="dg-cmp-val" role="columnheader">What it says</span>
+            </div>
+            {rows.map((r) => (
+              <div key={r.metric} className="dg-cmp-row" role="row">
+                <span className="dg-cmp-metric" role="cell">{r.metric}</span>
+                <span className={`dg-cmp-val ${r.tone ? `dg-cmp-${r.tone}` : ''}`} role="cell">{r.roce}</span>
+                <span className="dg-cmp-val" role="cell">{r.note}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+        <figcaption className="dg-cap">
+          Return on capital employed is how much profit the business earns on the money tied up in it, and it is the
+          honest test of whether an advantage is still extraordinary. Asian Paints' has been drifting down for the better
+          part of a decade, from around 42% to the mid-20s, long before Birla Opus existed. That matters two ways: the
+          returns compression is not just a competition event, and 26% is still an excellent number. This is a very good
+          business that stopped being an extraordinary one, gradually, which is exactly what a falling multiple should
+          reflect. Individual years swing with one-offs and how capital employed is defined, so read the trend, not any
+          single point.
+        </figcaption>
+      </figure>
+    );
+  }
   if (id === 'pauwels-vs-ganz') {
     // tone: 'good' | 'bad' | 'warn' | undefined tints the Ganz cell (the tell)
     const rows: { metric: string; p: string; g: string; gtone?: 'good' | 'bad' | 'warn' }[] = [
       { metric: 'Seller had to sell (distress)', p: 'Yes', g: 'Yes' },
-      { metric: 'Price vs what it was worth', p: '~€32m, ≈0.11× sales', g: '~€35m, plus assumed group loans', gtone: 'warn' },
       { metric: 'Liabilities taken on', p: 'Not flagged as large', g: "The Transelektro group's debt", gtone: 'bad' },
       { metric: 'Was the problem fixable?', p: 'Yes (≈20% ROCE by FY06)', g: 'Apparently not', gtone: 'bad' },
       { metric: "India's cost edge applied?", p: 'Strongly', g: 'Only partly', gtone: 'warn' },
-      { metric: 'Western market access', p: 'Strong (EU + US utilities)', g: 'Real (Europe, CIS)' },
-      { metric: 'Industry cycle at entry', p: 'Rising', g: 'Rising, then turned', gtone: 'warn' },
-      { metric: 'Integration complexity', p: 'One group, five plants', g: 'Higher: new country, mixed divisions', gtone: 'warn' },
       { metric: 'What actually happened', p: 'Turnaround', g: 'Liquidation, 2020', gtone: 'bad' },
     ];
     return (
@@ -839,13 +929,9 @@ function renderDiagram(id: string): React.ReactNode {
           </div>
         </div>
         <figcaption className="dg-cap">
-          Crompton did find another distressed transformer maker, and even bought it through the Pauwels subsidiary
-          itself. But distress was the only box the two shared. Ganz came with the wider group&apos;s debt attached, a
-          problem that turned out to be structural rather than fixable, a weaker fit for Indian-cost savings, and more
-          moving parts to integrate, and it entered just as the cycle was about to roll over. Same starting label,
-          almost none of the same economics, opposite ending. The price columns are enterprise values, not the cash that
-          changed hands; several Ganz figures (its revenue, the exact liabilities) are not in the public record, so the
-          comparison rests on what is documented plus clearly-labelled interpretation, not invented numbers.
+          Distress was the only box the two deals shared. Several Ganz figures (its revenue, the exact liabilities) are
+          not in the public record, so this comparison rests on what is documented plus clearly-labelled interpretation,
+          not invented numbers.
         </figcaption>
       </figure>
     );
