@@ -64,6 +64,88 @@ export default function AboutPage() {
         </section>
 
         <section className="u-sec">
+          <h2>How we grade the evidence</h2>
+          <p>
+            Not every fact is equally solid, so on the load-bearing claims in our case studies we label
+            two different things: what kind of source a number came from, and how confident we are in
+            the claim itself. The first is a source tier.
+          </p>
+          <ul className="about-list">
+            <li>
+              <strong>Tier A: audited and primary.</strong> Annual reports, audited financial
+              statements and statutory filings. The hardest evidence there is, and the kind we build a
+              case on wherever we can.
+            </li>
+            <li>
+              <strong>Tier B: official but unaudited.</strong> A company's own press releases, investor
+              presentations and exchange announcements. Straight from the source, but not yet audited.
+            </li>
+            <li>
+              <strong>Tier C: reputable contemporaneous reporting.</strong> Named news and trade press,
+              used when no primary document is public. Always linked, never anonymous.
+            </li>
+            <li>
+              <strong>Tier D: interpretation.</strong> A reading that the evidence supports but that no
+              document actually states. We label it as ours, so you can agree or disagree with the
+              inference rather than mistake it for a fact.
+            </li>
+          </ul>
+          <p>
+            Separately, we mark our confidence in the claim as high, medium or low. High means several
+            independent sources agree; medium means the evidence supports it but leaves room for
+            judgement; low means it is an idea worth raising but thin on proof, kept only when it is
+            clearly flagged as such. The two labels are independent: a tier C number that many outlets
+            report the same way can still be high confidence, and a tier A figure can be low confidence
+            if it hinges on a definition that shifts year to year.
+          </p>
+        </section>
+
+        <section className="u-sec">
+          <h2>What we keep separate</h2>
+          <ul className="about-list">
+            <li>
+              <strong>Fact, interpretation and thesis.</strong> A fact is objectively checkable. An
+              interpretation rests on several facts and could reasonably be read another way. The thesis
+              is the argument the piece is making. We never dress an interpretation up as a fact, or
+              pretend a thesis is proven when it is strongly supported.
+            </li>
+            <li>
+              <strong>The reporting basis.</strong> A company's standalone accounts and its consolidated
+              accounts can tell very different stories, so we say which one a number is on, and mix the
+              two only where we flag it. Several of our case studies turn on exactly that gap.
+            </li>
+            <li>
+              <strong>The number and the point it makes.</strong> A precise figure can be shaky while
+              the direction it shows is not. Where a rupee value moves with the source, we lean on the
+              trend and say the exact number is approximate, rather than borrow a false precision.
+            </li>
+          </ul>
+        </section>
+
+        <section className="u-sec">
+          <h2>How we stress-test a story</h2>
+          <p>
+            Every case study is written to survive disagreement, not just to read well. We try to
+            disprove our own conclusion, present the strongest opposing view, and keep only what holds
+            up. Two habits show on the page.
+          </p>
+          <ul className="about-list">
+            <li>
+              <strong>What you could have seen, and when.</strong> Most studies end with the warning
+              signs that were visible in public documents before the outcome, each tied to a dated
+              filing and the exact line to look up, plus an honest note on what no filing could have
+              told you at the time. Hindsight is only useful if it points to something you could
+              actually have checked.
+            </li>
+            <li>
+              <strong>Every pattern carries its counterexample.</strong> The reusable lesson at the end
+              of a study always ships with the case where the naive version of it is wrong, so a pattern
+              stays a reason to open the filing and look, never a superstition to trade on.
+            </li>
+          </ul>
+        </section>
+
+        <section className="u-sec">
           <h2>The rules we hold to</h2>
           <ul className="about-list">
             <li>
