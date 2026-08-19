@@ -105,7 +105,8 @@
     {
       "heading": "Why the formula stopped working",
       "body": [
-        "Two things worked against the later deals. The cycle turned: the power-equipment boom faded after the 2008 crisis, Western utility spending slowed, and too many factories chased too few orders, crushing prices. And integration got harder. Fixing one distressed company is a project; running scattered plants across Belgium, Hungary, Ireland, Canada, the US, Indonesia, Sweden and Spain, each with its own costs, unions, regulators and currency, is a far harder job. The Indian-cost saving also had a limit, because you cannot move a utility's approved factory to India without losing the approvals you paid for.",
+        "Two things worked against the later deals. First, the cycle turned. The 2007-2010 power boom pulled a wave of new capacity into the transformer industry, and then demand rolled over: after 2008 Western utility spending stayed weak, the euro-zone crisis hit Europe through 2012, and Indian grid and power projects slowed. Supply had grown into a market that stopped growing. In India, transformer capacity more than doubled in about five years while the end-market grew under 4% a year, and the resulting over-capacity turned into heavy price competition that hit every maker's profitability[^18]. Crompton's own FY2011-12 report said as much, calling the outlook for the year ahead depressed, with Greece, Spain and a slow US recovery all named.",
+        "Second, integration got harder. Fixing one distressed company is a project; running scattered plants across Belgium, Hungary, Ireland, Canada, the US, Indonesia, Sweden and Spain, each with its own costs, unions, regulators and currency, is a far harder job. The Indian-cost saving also had a limit, because you cannot move a utility's approved factory to India without losing the approvals you paid for.",
         "So the losses spread. By around FY13 Crompton posted its first annual loss in roughly a decade, the overseas operations the main reason, even as the Indian business kept making money[^6]."
       ]
     },
@@ -264,6 +265,10 @@
     {
       "label": "Arab firm Alfanar acquires Spanish smart-grid provider ZIV; Dinamia/N+1 exit at a 29% IRR (Baker Tilly Tech M&A)",
       "url": "https://techma.bakertilly.es/en/arab-company-alfanar-acquires-spanish-smart-grid-provider-ziv/"
+    },
+    {
+      "label": "Indian transformer industry: over-capacity and pricing pressure (Electrical India)",
+      "url": "https://www.electricalindia.in/on-a-threshold-of-transformation-indias-transformer-industry/"
     },
     {
       "label": "CG Power and Industrial Solutions (Wikipedia, for the post-2016 corporate timeline)",
@@ -425,6 +430,11 @@
       "id": 17,
       "note": "Source tier A (audited annual report), the hardest evidence here. The FY2011-12 figures are taken directly from Crompton Greaves' 75th (FY2011-12) consolidated annual report: overseas sales ₹4,951.90 cr to ₹5,533.88 cr; overseas fixed assets ₹1,534.43 cr against ₹723.10 cr domestic; Power Systems segment result ₹806.84 cr to ₹239.38 cr; consolidated profit before tax ₹1,229.13 cr to ₹549.74 cr; finance costs ₹20.06 cr to ₹46.34 cr; consolidated borrowings (long plus short term) ₹395.49 cr to ₹984.85 cr, with term loans secured on assets in Ireland and the USA. Segment results are reported by business, not geography, so the profit collapse is shown for Power Systems, which houses the overseas transformer operations, read alongside the geographic split of sales and assets. Figures are rounded in the prose.",
       "confidence": "high"
+    },
+    {
+      "id": 18,
+      "note": "The industry-cycle claim rests on two kinds of evidence. Tier C (industry/trade coverage): Indian transformer manufacturing capacity more than doubled in about five years while the end-market slowed to under 4% annual growth, producing over-capacity and heavy price competition that hurt every maker's profitability, with capacity-utilisation estimates clustering around 60-70% in that period (Electrical India; broadly corroborated by other sector coverage that puts utilisation falling from the mid-80s in 2008-09 toward the high-40s by 2014-15). Tier A (primary): Crompton's own FY2011-12 annual report calls the outlook for FY2013 'depressed', citing Greece, Spain, Portugal and a slow US recovery. Note the honest limit: the cycle is the backdrop that made the later deals hard, not the proximate cause of the single FY12 overseas loss, which management attributed mainly to raw-material costs and re-work at the Belgian and Canadian plants.",
+      "confidence": "medium"
     }
   ],
   "remember": "A brilliant first deal is dangerous because it can make a rare set of circumstances look like a repeatable skill.",
