@@ -1,0 +1,350 @@
+{
+  "ticker": "CGPOWER",
+  "sectorId": "power",
+  "company": "CG Power (Act 3)",
+  "title": "CG Power: what survived the collapse",
+  "period": "2020 → 2026",
+  "tags": [
+    "Turnaround",
+    "Governance reset",
+    "Balance-sheet repair",
+    "Rerating"
+  ],
+  "relatedCaseStudies": [
+    "crompton-greaves-the-one-good-deal-2005-2020",
+    "suzlon-the-sadness-2008-2026"
+  ],
+  "summary": "This is the sequel to the Crompton story. By 2020 the company that had been Crompton Greaves was a wreck: an accounting fraud, a negative net worth, and a share price under ₹5. Then a new owner, the Murugappa group's Tube Investments, took control. Six years later the stock is around ₹863 and the company is worth over a lakh crore. This asks the honest question: how much of that was a viable business getting fixed, and how much was a near-dead stock simply being repriced?",
+  "keyNumbers": [
+    {
+      "label": "Low (Mar 2020)",
+      "value": "~₹4.7"
+    },
+    {
+      "label": "Tube Investments stake (Nov 2020)",
+      "value": "50.62%"
+    },
+    {
+      "label": "Rescue shares priced at",
+      "value": "₹8.56"
+    },
+    {
+      "label": "Borrowings, FY20 → FY23",
+      "value": "₹2,757 cr → ₹16 cr"
+    },
+    {
+      "label": "Price / market cap (Aug 2026)",
+      "value": "₹863 / ₹1.36 lakh cr"
+    }
+  ],
+  "intro": [
+    "The first part of this story, told in [a separate case study](/case-studies/crompton-greaves-the-one-good-deal-2005-2020/), ended badly. Crompton Greaves spent a decade buying companies abroad on borrowed money, the overseas empire lost money and was sold off piece by piece, and what remained was the Indian power business, renamed CG Power. Then, in 2019, that remnant was hit by something the acquisition story had nothing to do with: an accounting fraud. Money had been routed out of the company without authorisation, and once auditors and regulators started pulling the thread, the equity looked close to worthless.",
+    "And then the story changed. By early 2020 CG Power traded under ₹5 a share, the balance sheet showed a negative net worth, and lenders were circling. Then the Murugappa group stepped in. Six years on, by August 2026, the same stock traded around ₹863 and the company was worth more than a lakh crore rupees. This study is about that second act, and it tries hard not to tell it backwards. The interesting question is not that a distressed company recovered. It is how much of this was a genuinely valuable industrial franchise being un-buried, and how much was a stock that had been priced for death being re-priced for life."
+  ],
+  "sections": [
+    {
+      "heading": "What ₹5 was actually pricing",
+      "body": [
+        "Start at the bottom. On 13 March 2020, in the depth of the COVID crash and with the fraud still fresh, CG Power touched about ₹4.7 a share, an all-time low[^1]. At that price the whole equity was worth only about ₹300 crore, against borrowings of roughly ₹2,757 crore[^2]. Revenue for the year to March 2020 had fallen to about ₹5,110 crore and the company reported a net loss of around ₹1,331 crore, with reserves already wiped out to a negative ₹2,081 crore[^2].",
+        "It is tempting to say the company was worth ₹5. That is the wrong way to read a price like this. A share price is not a measure of what a business is worth in total; it is what the leftover slice, the equity, is worth after the lenders are paid. When a company owes ₹2,757 crore and is losing money, the equity is close to an option on survival. A price of ₹5 was the market saying: the lenders might take everything, and the shareholders might be left with little or nothing. It was not calling the factories worthless. It was pricing the chance that shareholders would never see them again."
+      ]
+    },
+    {
+      "heading": "Separate what was actually broken",
+      "body": [
+        "The single most useful thing you can do with a wreck like this is refuse to call it, vaguely, broken. Three very different things were wrong, and they mattered in very different ways.",
+        "The underlying business was arguably the least broken part. CG Power still had real customers, established products, and manufacturing assets: transformers, switchgear, motors, drives and railway equipment for Indian industry and the grid. Even in the bad years the Indian operations kept turning over thousands of crore of revenue. Utilisation was low and margins were thin, but this looked like an ordinary industrial business having a hard time, not a fundamentally bad one.",
+        "The balance sheet was badly broken. Years of debt, plus liabilities the fraud had hidden, meant the company owed far more than a business its size could comfortably service, and the interest bill had to be paid whether the plants earned it or not.",
+        "The governance was the rot at the centre. An internal probe disclosed in August 2019 found that the company's liabilities had been understated by about ₹1,053 crore and advances to related parties understated by about ₹1,990 crore as of March 2018; assets had been pledged and the company made a co-borrower or guarantor for loans without proper authorisation, and the money raised was routed out[^3]. The board removed the chairman, Gautam Thapar, and the chief financial officer that month; SEBI later barred Thapar and others, and the CBI filed a charge sheet in a bank-fraud case[^3]. Keep these three separate, because the whole investment question turns on the difference between a bad business and a decent business ruined by leverage and dishonest management."
+      ]
+    },
+    {
+      "heading": "Why would anyone buy something at ₹5?",
+      "body": [
+        "In August 2020 the board of Tube Investments of India, the engineering arm of the Chennai-based Murugappa group, approved a binding bid for control of CG Power[^4]. The deal closed that November. Tube Investments was issued about 64.25 crore new shares at ₹8.56 each, roughly ₹550 crore, plus warrants for another ₹150 crore, and ended up with 50.62% of the company[^4]. Separately, a settlement was struck with the lenders: a master agreement dated 20 November 2020 under which about ₹650 crore was paid upfront to compromise and clear the tangled funded and guaranteed debt[^5].",
+        "So why buy into a company the market had almost written off? Not because ₹5 looked cheap in the abstract. The buyer was not paying ₹5; it was injecting fresh capital at ₹8.56 and separately settling the debt, and what it got for the combined outlay was control of an established Indian industrial franchise with real plants, real approvals and real customers, at a moment when the price was set by distress rather than by the business. The two problems that had buried that franchise, the debt and the governance, were problems a well-capitalised owner with credible governance believed it could fix. The buyer was betting that once those two were removed, a viable industrial business would be left standing. That is a specific, checkable bet, not a hope that a penny stock would bounce."
+      ]
+    },
+    {
+      "heading": "The people changed, not just the money",
+      "body": [
+        "This is the part that separates a rescue from a mere bailout. Money alone would have paid down debt and changed nothing else. What Murugappa did first was change who was in charge.",
+        "On 26 November 2020, the day control passed, the board was reconstituted. Vellayan Subbiah became chairman, N. Srinivasan was appointed managing director, and new independent directors were brought on[^6]. The reporting, the internal controls and the audit were reset under that new board. The sequence matters: the company was not simply handed a cheque. The single biggest thing that had gone wrong, the people and the controls, was replaced before the operating recovery even began. You cannot fix numbers that were being falsified without first fixing who produces them."
+      ]
+    },
+    {
+      "heading": "The clean-up",
+      "body": [
+        "The first eighteen months were mostly repair, not growth. The lender settlement cleared the worst of the old debt, and the borrowings fell fast: from about ₹2,757 crore in FY20 to ₹1,484 crore in FY21, then ₹367 crore in FY22, and just ₹16 crore by FY23[^2]. In plain terms, a company that had been drowning in debt became effectively debt-free within about three years. The accounts were restated and re-audited under the new board, and the reserves, deep in negative territory at a negative ₹2,081 crore in FY20, climbed back above zero by FY22[^2].",
+        "This is the answer to a simple but important question: when did the balance sheet stop being the problem? Roughly by FY22 to FY23. After that, the debate about CG Power was no longer whether it would survive, but how good the surviving business actually was."
+      ]
+    },
+    {
+      "heading": "Don't confuse the accounting profit with a turnaround",
+      "body": [
+        "This is where it is easy to get fooled. Look at the profit line. In FY21, CG Power reported a net profit of about ₹1,280 crore. That looks like an instant turnaround. It was not an operating one.",
+        "The clue is that revenue in FY21 actually fell, to about ₹2,964 crore, and the operating margin was still only about 4%[^2]. A business does not earn a ₹1,280 crore profit on 4% operating margins from selling transformers. The profit came from one-time items, not operations. In the March 2021 quarter alone, the standalone accounts show a deferred-tax write-back of about ₹737 crore and exceptional income of about ₹85 crore, against a profit before those items of just ₹28 crore[^7]. A deferred-tax write-back is an accounting entry: once a company expects to make money again, it is allowed to book the future tax value of its past losses today. It is a real credit, but it tells you nothing about whether the factories are working better.",
+        "The genuine operating turn came a year later. In FY22 the operating margin jumped from about 4% to 12%, and operating profit rose from roughly ₹116 crore to ₹647 crore on revenue that more than doubled to ₹5,484 crore[^2]. That is the number that reflects plants running fuller and a business actually earning its keep, and it is the first year an outside investor could reasonably have said the recovery was operational, not just financial."
+      ]
+    },
+    {
+      "heading": "The recovery, in the company's own numbers",
+      "body": [
+        "From FY22, the operating recovery becomes visible in the numbers. Revenue rose from ₹5,484 crore (FY22) to ₹6,973 crore (FY23), ₹8,046 crore (FY24), ₹9,909 crore (FY25) and ₹12,418 crore (FY26). Operating margin settled in the 13-14% band, up from under 4% before the takeover. Return on capital employed, the cleanest single measure of whether a business is using its money well, went from negative in FY20 to about 42% in FY22 and a remarkable 61% in FY23[^2].",
+        "But the returns then fall: ROCE eases to about 47% (FY24), 37% (FY25) and 27% (FY26)[^2]. That decline does not necessarily mean the business is getting worse. The company is also getting much bigger: it began raising fresh equity and pouring capital into new capacity and new lines, so reserves swelled from about ₹1,485 crore (FY23) to ₹7,655 crore (FY26)[^2]. A far larger pile of capital earns a lower percentage return unless the new money earns as well as the old did. So the harder and more interesting question is whether that incremental capital will eventually earn returns anywhere close to the old business. The peak ROCE came when a relatively lean business had started earning much more from its existing assets; where it settles from here depends on how well the growth is spent."
+      ]
+    },
+    {
+      "heading": "What happened to the stock, and why",
+      "body": [
+        "The share price ran from under ₹5 in March 2020 to about ₹863 by August 2026, a market value of over ₹1.36 lakh crore[^8]. It is a spectacular chart, and it tempts a simple story. But the ₹5 to ₹863 journey was not one rally; it was three different repricings layered on top of each other. The first, through 2020 and into 2021, was survival: once Tube Investments took control and the settlement removed the threat of a wipeout, the equity could rise sharply without the business earning an extra rupee, simply because the risk of failure receded. The second, through FY22 and FY23, was earnings genuinely recovering, the operating margin climbing from about 4% to 14%; that part the business earned. The third and most recent is the multiple expanding: CG Power now trades at around 107 times earnings[^8], yet profit grew nowhere near as fast as the price (net profit rose from about ₹913 crore in FY22 to ₹1,199 crore in FY26[^2]), so the extra is investors paying more for each rupee of profit, on the strength of what it might earn next."
+      ],
+      "diagram": "cgpower-legs"
+    },
+    {
+      "heading": "A better business, or just a less broken one?",
+      "body": [
+        "Both, and it is worth being precise about which is which. On the operating measures, CG Power is genuinely a better business than the one that collapsed: margins are structurally higher, the balance sheet went from deeply indebted to net cash, and returns on capital were excellent. That is not financial engineering. The operating business is earning substantially more from the capital it employs.",
+        "The newest chapter, though, is a fresh bet rather than a proven result. CG Power has moved into semiconductors: through a subsidiary, CG Semi, it has built India's first outsourced assembly and test (OSAT) plant at Sanand in Gujarat, a project of about ₹7,600 crore in a joint venture with Japan's Renesas and Thailand's Stars Microelectronics, supported by a government subsidy of about ₹3,501 crore, with the plant inaugurated in August 2025[^9]. This is a real, ambitious use of the balance sheet the turnaround rebuilt. It may also be part of what investors are pricing into the stock at a multiple as high as 107 times: on that reading, they are paying today for a growth story that has barely begun to earn. The core business recovery is visible in the numbers; the semiconductor economics are still prospective. Part of the valuation now rests on a future that is promised, not delivered."
+      ]
+    },
+    {
+      "heading": "What Murugappa did differently",
+      "body": [
+        "This is the point where Act 3 rhymes against the first two acts, and the contrast is the whole lesson. The old Crompton created value, once, by buying a business (Pauwels), then destroyed it by buying more and more businesses on debt until the complexity and the borrowing sank it. The new CG Power created value by doing almost the opposite: it fixed the businesses that were already there.",
+        "The pattern reverses at every point. Crompton expanded across nine countries; CG Power had already exited the overseas empire and now concentrated on its Indian core. Crompton funded its growth with debt; CG Power cleared its debt first and only later raised equity for growth. Crompton added complexity; CG Power added focus and clean governance. The engine of Act 2 was acquisition; the engine of Act 3 was operational discipline and a fixed balance sheet. It is not that buying companies is always wrong and fixing them is always right. It is that Crompton bought when the conditions were poor and it was already stretched, and Murugappa fixed a franchise whose problems were, at their core, fixable. The reusable point is that capital allocation has to fit the condition of the balance sheet and the quality of the management: the same move that builds value from a position of strength can destroy it from a position of weakness."
+      ],
+      "diagram": "cgpower-two-acts"
+    },
+    {
+      "heading": "Don't romanticise it",
+      "body": [
+        "A clean chart hides real losses. First, today's CG Power is only the domestic industrial franchise that survived the collapse; the overseas empire Crompton assembled was sold or liquidated for a fraction of its cost, and years of shareholder money went with it. Very little of what this company once owned survives.",
+        "Second, notice how the equity was rescued. Because Tube Investments came in through a fresh share issue at ₹8.56, rather than an insolvency, existing shareholders were not wiped out; they were diluted by about half but kept their shares, and anyone who held through the bottom rode from under ₹5 to ₹863.",
+        "Third, the valuation now carries its own risk. A business bought when it was priced for death is now priced for a semiconductor future that has to actually arrive. At 107 times earnings, a lot has to go right, and returns on the growing capital base have already come down from their peak. The recovery was real. Whether the current price is a fair estimate of what comes next is a separate, and much more open, question."
+      ]
+    },
+    {
+      "heading": "So, which turnaround was it?",
+      "body": [
+        "It is tempting to pick a single cause; the evidence does not support one. This was a governance reset that made the accounts trustworthy again, a balance-sheet repair that removed the threat of a wipeout, and an operational improvement that made the profit real, with a large valuation re-rating layered on top. Only the operational improvement is the business itself proving what it can earn. The other two are the market changing what it is willing to pay: first for survival, then for future growth."
+      ]
+    }
+  ],
+  "evidence": {
+    "caption": "The turnaround in the company's own numbers (consolidated, ₹ crore)",
+    "rows": [
+      {
+        "label": "Revenue, FY20 → FY26",
+        "value": "5,110 → 2,964 (FY21) → 5,484 → 6,973 → 8,046 → 9,909 → 12,418",
+        "noteRef": 2
+      },
+      {
+        "label": "Operating margin, FY20 → FY26",
+        "value": "~0.6% → ~4% → ~12% → ~14% → ~14% → ~13% → ~13%",
+        "noteRef": 2
+      },
+      {
+        "label": "Net profit, FY20 → FY26",
+        "value": "(1,331) loss → 1,280 (mostly one-time items: a ~₹737 cr deferred-tax write-back and exceptional income) → 913 → 963 → 1,428 → 973 → 1,199",
+        "noteRef": 7
+      },
+      {
+        "label": "Borrowings, FY20 → FY26",
+        "value": "2,757 → 1,484 → 367 → 16 → 17 → 41 → 118 (effectively debt-free by FY23)",
+        "noteRef": 2
+      },
+      {
+        "label": "Reserves, FY20 → FY26",
+        "value": "(2,081) → (352) → 715 → 1,485 → 2,712 → 3,538 → 7,655 (the last jump is fresh equity for growth)",
+        "noteRef": 2
+      },
+      {
+        "label": "Return on capital employed, FY20 → FY26",
+        "value": "negative → 8% → 42% → 61% → 47% → 37% → 27%",
+        "noteRef": 2
+      },
+      {
+        "label": "Tube Investments takeover (Nov 2020)",
+        "value": "~64.25 cr shares at ₹8.56 (~₹550 cr) + ₹150 cr warrants for 50.62% control; ~₹650 cr paid upfront to settle lender debt",
+        "noteRef": 4
+      },
+      {
+        "label": "The 2019 fraud, as disclosed",
+        "value": "liabilities understated ~₹1,053 cr; related-party advances understated ~₹1,990 cr (as of Mar 2018); assets pledged and funds routed out without authorisation",
+        "noteRef": 3
+      },
+      {
+        "label": "Price / market cap (Aug 2026)",
+        "value": "~₹863 / ~₹1.36 lakh cr; P/E ~107; 52-week range ₹526-981",
+        "noteRef": 8
+      }
+    ],
+    "note": "The year-by-year series is drawn from the company's consolidated financials as aggregated on screener.in, which compiles the audited annual reports. The FY21 net profit is flagged because it is dominated by one-time items (notably a large deferred-tax write-back), not by operations, which is the whole point of the section on it. Deal terms and the fraud figures are from contemporaneous reporting and the company's own disclosures. Prices are as of August 2026 and move daily."
+  },
+  "sources": [
+    {
+      "label": "CG Power & Industrial Solutions, consolidated financials (Screener)",
+      "url": "https://www.screener.in/company/CGPOWER/consolidated/"
+    },
+    {
+      "label": "Tube Investments acquires 50.62% stake in CG Power (Business Standard)",
+      "url": "https://www.business-standard.com/article/news-cm/tube-investment-of-india-acquires-50-62-stake-in-cg-power-120112601162_1.html"
+    },
+    {
+      "label": "Murugappa group signs agreement for settling CG Power's dues, loan recast (Business Standard)",
+      "url": "https://www.business-standard.com/article/companies/murugappa-group-signs-agreement-for-settling-cg-power-s-dues-loan-recast-120122800779_1.html"
+    },
+    {
+      "label": "Gautam Thapar's CG Power says major financial lapses found, unauthorised advances (Business Standard / PTI)",
+      "url": "https://www.business-standard.com/article/pti-stories/gautam-thapar-s-cg-power-says-major-financial-lapses-found-unauthorised-advances-119082000934_1.html"
+    },
+    {
+      "label": "CBI charge-sheets CG Power, ex-promoter Thapar in Rs 2,435-cr fraud case (Business Standard)",
+      "url": "https://www.business-standard.com/article/companies/cbi-chargesheets-cg-power-ex-promoter-thapar-in-rs-2-435-cr-fraud-case-123010401140_1.html"
+    },
+    {
+      "label": "Murugappa Group takes over CG Power and Industrial Solutions, appoints directors (India TV)",
+      "url": "https://www.indiatvnews.com/business/news-murugappa-group-takes-over-cg-power-and-industrial-solutions-appoints-directors-667586"
+    },
+    {
+      "label": "CG Power records all-time low of Rs 4.75 (Mar 2020); zoomed off that base (Business Standard)",
+      "url": "https://www.business-standard.com/article/markets/this-murugappa-group-stock-has-zoomed-100-in-11-weeks-121102700603_1.html"
+    },
+    {
+      "label": "CG Power reports record FY26 revenue and profit, order book surges (Murugappa press release)",
+      "url": "https://www.murugappa.com/uploads/Press_Release_CG_Power_Q4_FY_2025_26_188d756928.pdf"
+    },
+    {
+      "label": "PM inaugurates CG Semi OSAT facility in Sanand, Gujarat (PMO)",
+      "url": "https://www.pmindia.gov.in/en/news_updates/pm-inaugurates-the-cg-semi-outsourced-semiconductor-assembly-and-test-osat-facility-in-sanand-gujarat/"
+    },
+    {
+      "label": "CG Power receives government subsidy to build OSAT facility in India (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/cg-power-receives-government-subsidy-to-build-osat-facility-in-india-302358478.html"
+    }
+  ],
+  "exAnte": {
+    "heading": "What you could have seen, and when",
+    "intro": [
+      "The whole point of this study is that the ₹5-to-₹863 chart should not be read backwards. So here are the three moments when an ordinary investor, reading public news and the filings, could have concluded that the odds had changed, in the order they actually happened. None of them required knowing the ending."
+    ],
+    "tells": [
+      {
+        "when": "August to November 2020",
+        "document": "The stock-exchange announcements of the Tube Investments deal and the lender settlement",
+        "check": "A well-capitalised industrial group with credible governance injecting capital at ₹8.56 a share for control, and a settlement clearing the old lender debt.",
+        "meaning": "The survival signal. A credible owner putting in real money, plus a debt settlement, is what removes the risk of a shareholder wipeout. It says the company will probably still exist, which is the thing a near-zero price was doubting. It does not promise the business will thrive.",
+        "lead": "The starting gun, before any operating recovery was visible"
+      },
+      {
+        "when": "The FY22 results (mid 2022)",
+        "document": "The FY22 profit-and-loss statement and the borrowings note",
+        "check": "Operating margin up from about 4% to 12% on revenue that more than doubled, while borrowings fell to about ₹367 crore from ₹2,757 crore two years earlier.",
+        "meaning": "The operating signal, and the one that separates a real turnaround from an accounting profit. Margins recovering on rising volume, with debt still falling, is the business itself getting healthy. You could see the operating recovery before the market eventually assigned the stock a much higher multiple.",
+        "lead": "Well before the stock re-rated to a growth multiple"
+      },
+      {
+        "when": "FY23 onwards",
+        "document": "The annual reports: the returns, then the capital-raising and capex disclosures",
+        "check": "Return on capital reaching about 61% in FY23 and the company turning net-cash, then, from FY24, large equity raises and the semiconductor capex.",
+        "meaning": "The economics were confirmed, and then the question changed. Excellent returns on a relatively small asset base showed that the core could generate very attractive returns on capital. But once the company began raising equity and building the semiconductor plant, the question shifted from 'is it fixed' (answered: yes) to 'can management repeat those returns at a much larger scale' (open).",
+        "lead": "Concurrent with the re-rating, not ahead of it"
+      }
+    ],
+    "blindSpot": "What none of this could have told you in advance is how far the multiple would run. Judging that a business will survive and recover is a matter of reading filings. Judging whether the market will pay 20 times earnings or 107 times for that recovery is not in any filing; it is a guess about other investors' mood, and it accounts for a large slice of the total return here."
+  },
+  "patternCard": {
+    "signal": "A company whose share price has collapsed toward zero, where the loud problems are debt and governance rather than the product it actually sells.",
+    "mechanism": "Leverage and dishonest management can bury a perfectly ordinary business until the equity is priced as an option on survival. If a credible owner removes those two problems, with fresh capital and a debt settlement, the surviving operating business can re-emerge, and the stock can re-rate in stages: first as survival becomes more likely, then as the business proves its economics, and finally if investors begin pricing in future growth.",
+    "whereToCheck": "Read the three things in order: the announcement of who is taking control and on what terms (is the buyer credible, is fresh money going in, is the debt being settled); then, a year later, the operating margin and the debt trend in the results (is the recovery operational or just a one-time accounting gain); then the returns and any capital-raising (is the good business now being asked to justify a growth price).",
+    "counterexample": "Most collapsed stocks are cheap for good reasons and stay cheap or go to zero. The pattern only works when there is a genuinely valuable industrial franchise under the wreckage and a credible, well-capitalised owner willing to fix it. Absent both, 'it fell 99%, so it must be a bargain' is how you lose the rest. And even when it works, buying after the re-rating is a different bet entirely: you are no longer buying survival. You are buying the future."
+  },
+  "timeline": [
+    {
+      "when": "August 2019",
+      "what": "An internal probe discloses major financial lapses at CG Power: understated liabilities and related-party advances, and funds routed out without authorisation. The chairman Gautam Thapar and the CFO are removed; SEBI bars Thapar and others."
+    },
+    {
+      "when": "March 2020",
+      "what": "In the COVID crash and with the fraud unresolved, the share price touches about ₹4.7, an all-time low. Net worth is negative and borrowings are about ₹2,757 crore."
+    },
+    {
+      "when": "August 2020",
+      "what": "The board of Tube Investments of India (Murugappa group) approves a binding bid for controlling interest in CG Power."
+    },
+    {
+      "when": "November 2020",
+      "what": "Tube Investments takes 50.62% control via a preferential issue at ₹8.56 a share plus warrants; a master settlement clears the lender debt with about ₹650 crore paid upfront. A new chairman, managing director and independent directors are appointed."
+    },
+    {
+      "when": "FY21",
+      "what": "Reported net profit of about ₹1,280 crore, but revenue falls and margins stay near 4%: the profit is mostly the one-time gain from the debt settlement, not an operating recovery."
+    },
+    {
+      "when": "FY22",
+      "what": "The genuine operating turn: operating margin rises from about 4% to 12%, revenue more than doubles to about ₹5,484 crore, and borrowings fall to about ₹367 crore."
+    },
+    {
+      "when": "FY23",
+      "what": "The company is effectively debt-free (borrowings about ₹16 crore) and return on capital reaches about 61%. The survival question is settled; the debate is now about quality and growth."
+    },
+    {
+      "when": "August 2025",
+      "what": "CG Semi inaugurates India's first OSAT (semiconductor assembly and test) plant at Sanand, a roughly ₹7,600 crore project with Renesas and Stars Microelectronics, backed by a government subsidy of about ₹3,501 crore."
+    },
+    {
+      "when": "FY26",
+      "what": "Record consolidated revenue of about ₹12,418 crore and net profit of about ₹1,199 crore. The stock trades around ₹863 at a market value above ₹1.36 lakh crore, on a P/E near 107."
+    }
+  ],
+  "evidenceNotes": [
+    {
+      "id": 1,
+      "note": "Source tier C (contemporaneous reporting). The all-time low of about ₹4.7 to ₹4.75 on 13 March 2020 is reported by Business Standard and market data providers; the exact intraday figure varies slightly by source, so the study uses 'under ₹5' and 'about ₹4.7'. The low coincided with both the COVID-19 crash and the unresolved fraud.",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "note": "Source tier B (aggregated audited filings). The full consolidated series, revenue, operating margin, net profit, borrowings, reserves and return on capital for FY19 through FY26, is taken from screener.in's compilation of CG Power's audited annual reports. Figures are rounded in the prose. The FY20 net loss is shown as about ₹1,331 crore on this basis; some contemporaneous reports cited a larger loss (around ₹2,166 crore) on measures that included discontinued operations and additional impairments, so the exact loss depends on the basis used, but the direction, a heavy loss and a negative net worth, is not in doubt.",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "note": "Source tier C, plus the company's own disclosure. The understated liabilities (about ₹1,053.5 crore) and related-party advances (about ₹1,990.4 crore) as of 31 March 2018, and the description of unauthorised pledging and routing of funds, are from CG Power's August 2019 stock-exchange disclosure as reported by Business Standard/PTI. The removal of Gautam Thapar and the CFO, SEBI's restraint orders, and the later CBI charge sheet in a ₹2,435 crore bank-fraud case are widely reported. These governance events are separate from the operating business.",
+      "confidence": "high"
+    },
+    {
+      "id": 4,
+      "note": "Source tier C. The Tube Investments takeover terms, about 64.25 crore shares at ₹8.56 (roughly ₹550 crore) plus ₹150 crore of warrants, for 50.62% control effective 26 November 2020, are from Business Standard and ICICIdirect reporting of the preferential issue. Exact share and warrant counts differ marginally across sources depending on whether later warrant conversions are included.",
+      "confidence": "high"
+    },
+    {
+      "id": 5,
+      "note": "Source tier C. The Master Implementation-cum-Compromise Settlement Agreement dated 20 November 2020, with about ₹650 crore paid upfront to compromise and resolve the funded and guaranteed lender debt, is from Business Standard's reporting of the settlement. The precise composition of what was settled is complex; the ₹650 crore is the reported upfront figure, not the full face value of the debt extinguished.",
+      "confidence": "medium"
+    },
+    {
+      "id": 6,
+      "note": "Source tier C. The 26 November 2020 board reconstitution, Vellayan Subbiah as chairman, N. Srinivasan as managing director, and new independent directors, is reported by India TV and others. The characterisation of tightened governance and controls under the Murugappa group is a reasonable interpretation of the group's stated practices and the subsequent restatement, not a line item.",
+      "confidence": "high"
+    },
+    {
+      "id": 7,
+      "note": "Source tier C (contemporaneous reporting of the results). The FY21 net profit of about ₹1,280 crore (consolidated) was not operational. In the March 2021 quarter the standalone accounts carried a deferred-tax write-back of about ₹737 crore and exceptional income of about ₹85 crore, against a profit before those items of just ₹28 crore (Business Standard's reporting of the Q4 FY21 versus Q4 FY22 comparison). A deferred-tax credit recognises the future tax value of past losses once profits are expected again; it is a real accounting entry, not an operating gain. The full-year profit was similarly lifted by one-time items rather than by operations, which is the point of the section.",
+      "confidence": "high"
+    },
+    {
+      "id": 8,
+      "note": "Source tier B/C. The August 2026 price of about ₹863, market capitalisation above ₹1.36 lakh crore, P/E near 107, and 52-week range of about ₹526 to ₹981 are from screener.in as of that date. Prices move daily and these are a snapshot; the analytical point (that the recent leg of the return is dominated by multiple expansion) holds across a range of nearby prices.",
+      "confidence": "high"
+    },
+    {
+      "id": 9,
+      "note": "Source tier C, plus government and company statements. The CG Semi OSAT plant at Sanand, a roughly ₹7,600 crore project in a joint venture with Renesas (Japan) and Stars Microelectronics (Thailand), the government subsidy of about ₹3,501 crore (around half the eligible capex), and the August 2025 inauguration are from the PMO release, PR Newswire and company disclosures. This business is new and had barely begun commercial production at the time of writing, so its contribution to profit is prospective, which is precisely the study's caution about the current valuation.",
+      "confidence": "high"
+    }
+  ],
+  "remember": "A broken balance sheet and a dishonest boss can make a good business look worthless. The hard part is not spotting the low price. It is knowing what still stands underneath it, and how much you are paying once everyone else can see it too.",
+  "published": "2026-08-20"
+}

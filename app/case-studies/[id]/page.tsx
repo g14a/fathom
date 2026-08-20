@@ -897,6 +897,80 @@ function renderDiagram(id: string): React.ReactNode {
       </figure>
     );
   }
+  if (id === 'cgpower-legs') {
+    // Illustrative: the three stacked rallies in CG Power's 2020-2026 rise.
+    // Bar widths are indicative of "how much of the move each leg carried", not exact.
+    const rows = [
+      { label: 'Survival repriced (2020-21)', value: 'near-zero → a going concern', width: '38%', cls: 'dg-oplev-rev' },
+      { label: 'Earnings recovered (FY22-23)', value: 'margin ~4% → ~14%', width: '62%', cls: 'dg-oplev-profit' },
+      { label: 'Multiple expanded (FY23-26)', value: 'to ~107× earnings', width: '100%', cls: 'dg-oplev-cost' },
+    ];
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">Three rallies in one chart</span>
+          <span className="dg-badge">₹4.7 → ₹863</span>
+        </div>
+        <div className="dg-oplev">
+          {rows.map((r) => (
+            <div key={r.label} className="dg-oplev-row">
+              <span className="dg-oplev-label">{r.label}</span>
+              <span className="dg-oplev-track">
+                <span className={`dg-oplev-bar ${r.cls}`} style={{ width: r.width }} />
+              </span>
+              <span className="dg-oplev-value">{r.value}</span>
+            </div>
+          ))}
+        </div>
+        <figcaption className="dg-cap">
+          The rise was not one turnaround but three different rallies stacked on top of each other, each pricing a
+          different thing. Only the middle one, earnings actually recovering, is the business proving what it can earn.
+          The first was the removal of the wipeout risk; the most recent is investors paying far more for each rupee of
+          profit than they did before. The widths are illustrative, not measured.
+        </figcaption>
+      </figure>
+    );
+  }
+  if (id === 'cgpower-two-acts') {
+    // tone tints the Act 3 cell where it is the healthier choice
+    const rows: { metric: string; a2: string; a3: string; tone?: 'good' | 'bad' | 'warn' }[] = [
+      { metric: 'How value was created', a2: 'Buying more businesses', a3: 'Fixing the ones already there', tone: 'good' },
+      { metric: 'Funded by', a2: 'Debt', a3: 'A lender settlement, then equity', tone: 'good' },
+      { metric: 'Direction', a2: 'Expansion, complexity', a3: 'Focus, simplification', tone: 'good' },
+      { metric: 'Overseas', a2: 'Nine countries', a3: 'Exited; Indian core only', tone: 'good' },
+      { metric: 'Balance sheet', a2: 'Debt rising to fund deals', a3: 'Cleared, then cash raised for growth', tone: 'good' },
+      { metric: 'How it ended', a2: 'First loss, then collapse', a3: 'Margins ~4% → ~14%, net cash by FY23', tone: 'good' },
+    ];
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">The same company, run two ways</span>
+          <span className="dg-badge">Act 2 vs Act 3</span>
+        </div>
+        <div className="dg-rep-scroll">
+          <div className="dg-cmp" role="table">
+            <div className="dg-cmp-row dg-cmp-head" role="row">
+              <span className="dg-cmp-metric" role="columnheader"></span>
+              <span className="dg-cmp-val" role="columnheader">Old Crompton (Act 2)</span>
+              <span className="dg-cmp-val" role="columnheader">New CG Power (Act 3)</span>
+            </div>
+            {rows.map((r) => (
+              <div key={r.metric} className="dg-cmp-row" role="row">
+                <span className="dg-cmp-metric" role="cell">{r.metric}</span>
+                <span className="dg-cmp-val dg-cmp-bad" role="cell">{r.a2}</span>
+                <span className={`dg-cmp-val ${r.tone ? `dg-cmp-${r.tone}` : ''}`} role="cell">{r.a3}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+        <figcaption className="dg-cap">
+          Act 3 reverses Act 2 at almost every point. The lesson is not that buying businesses is always wrong and
+          fixing them is always right. It is that Crompton bought when the conditions were poor and it was already
+          stretched, while Murugappa fixed a franchise whose problems, at their core, could be fixed.
+        </figcaption>
+      </figure>
+    );
+  }
   if (id === 'pauwels-vs-ganz') {
     // tone: 'good' | 'bad' | 'warn' | undefined tints the Ganz cell (the tell)
     const rows: { metric: string; p: string; g: string; gtone?: 'good' | 'bad' | 'warn' }[] = [
