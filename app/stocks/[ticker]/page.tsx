@@ -11,8 +11,9 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ ticker: string }> }): Promise<Metadata> {
   const { ticker } = await params;
   const r = getReport(ticker);
-  const title = `${r.company}: Business Model, Competitive Advantage & Financial Analysis | Fathom`;
-  const description = `Understand how ${r.company} makes money, what drives its growth, where its cash goes, and what could weaken its competitive advantage.`;
+  const shortLiner = r.oneLiner ? r.oneLiner.slice(0, 155).replace(/:$/, '') : '';
+  const title = `${r.company} (${r.ticker}): Business Model, Valuation & Analysis | Fathom`;
+  const description = shortLiner;
   const url = canonical(`/stocks/${ticker}/`);
   return {
     title,

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { withBase, canonical } from '@/lib/base';
+import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = {
   title: 'How to Read Company Filings: Annual Reports, Concalls & Red Flags | Fathom',
@@ -224,8 +225,23 @@ function Block({ p, i }: { p: Blk; i: number }) {
 }
 
 export default function FilingsPage() {
+  const faqQuestions = [
+    ...DOC_MAP.map((d) => ({
+      '@type': 'Question' as const,
+      name: d.question,
+      acceptedAnswer: { '@type': 'Answer' as const, text: `${d.doc}: ${d.role}. Ask this when you open every filing.` },
+    })),
+    ...SECTIONS.slice(0, 5).map((s) => ({
+      '@type': 'Question' as const,
+      name: s.title,
+      acceptedAnswer: { '@type': 'Answer' as const, text: s.intro || '' },
+    })),
+  ];
+  const faqLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqQuestions };
+
   return (
     <>
+      <JsonLd data={faqLd} />
       <div className="hero">
         <div className="wrap">
           <div className="eyebrow">Reading the filings</div>

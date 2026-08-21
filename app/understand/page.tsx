@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { withBase, canonical } from '@/lib/base';
+import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = {
   title: 'How to Understand a Business: 8 Questions for Investors | Fathom',
@@ -155,9 +156,31 @@ const CHECKLIST = [
 
 const FLOW = ['Business', 'Customers', 'Revenue', 'Profit', 'Cash', 'Returns', 'You, the owner'];
 
+const FAQ_LD = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: QUESTIONS.map((q) => ({
+    '@type': 'Question',
+    name: q.title,
+    acceptedAnswer: { '@type': 'Answer', text: q.ask + ' ' + stripReactText(q.body) },
+  })),
+};
+
+// Strip React nodes to plain text for JSON-LD (keeps only text, no JSX)
+function stripReactText(n: React.ReactNode): string {
+  if (typeof n === 'string') return n;
+  if (typeof n === 'number' || typeof n === 'boolean') return String(n);
+  if (Array.isArray(n)) return n.map(stripReactText).join(' ');
+  if (n && typeof n === 'object' && 'props' in n) {
+    return stripReactText((n as any).props.children);
+  }
+  return '';
+}
+
 export default function UnderstandPage() {
   return (
     <>
+      <JsonLd data={FAQ_LD} />
       <div className="hero">
         <div className="wrap">
           <div className="eyebrow">Start here</div>

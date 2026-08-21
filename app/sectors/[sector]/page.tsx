@@ -1,10 +1,11 @@
 import { getAllSectors, getSector } from '@/lib/sectors';
 import type { PrimerBlock } from '@/lib/sectors';
-import { getCaseStudy } from '@/lib/caseStudies';
+import { getCaseStudy, getAllCaseStudies } from '@/lib/caseStudies';
 import { getAllTickers, getReport, getAllReports } from '@/lib/data';
 import type { Metadata } from 'next';
 import { withBase, canonical } from '@/lib/base';
 import Connections from '@/components/Connections';
+import JsonLd from '@/components/JsonLd';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 function Block({ p, i }: { p: PrimerBlock; i: number }) {
@@ -77,8 +78,20 @@ export default async function SectorPage({ params }: { params: Promise<{ sector:
   const { sector } = await params;
   const s = getSector(sector)!;
 
+  // Build FAQ schema from the beginnerQuestion if present
+  const faqLd = s.beginnerQuestion ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [{
+      '@type': 'Question',
+      name: s.beginnerQuestion.q,
+      acceptedAnswer: { '@type': 'Answer', text: s.beginnerQuestion.a },
+    }],
+  } : null;
+
   return (
     <div className="wrap">
+      {faqLd && <JsonLd data={faqLd} />}
       <Breadcrumbs items={[{ name: 'Sectors', path: '/sectors/' }, { name: s.name }]} />
 
       <div className="sector-hero">
@@ -211,8 +224,11 @@ export default async function SectorPage({ params }: { params: Promise<{ sector:
       )}
 
       {(() => {
-        const relSectors = (s.relatedSectors ?? []).map((id) => getSector(id)).filter(Boolean);
-        const relCases = (s.relatedCaseStudies ?? []).map((id) => getCaseStudy(id)).filter(Boolean);
+        const relSectors = (s.relatedSectors ?? []).map((id) => getSector(id)).filter((s): s is NonNullable<typeof s> => !!s);
+        const relCases = (s.relatedCaseStudies ?? []).map((id) => getCaseStudy(id)).filter((c): c is NonNullable<typeof c> => !!c);
+        const allCases = getAllCaseStudies().filter((c) => c.sectorId === s.id);
+        // Auto-discover case studies in this sector, then add curated ones, deduped
+        const mergedCases = [...new Map([...allCases, ...relCases].map((c) => [c.id, c])).values()];
         const tickers = getAllTickers();
         // Every report tagged to this sector, plus any curated extras, deduped: a
         // complete two-way link cluster between the sector and its companies.
@@ -227,7 +243,7 @@ export default async function SectorPage({ params }: { params: Promise<{ sector:
             items={[
               ...relSectors.map((r) => ({ kicker: 'Sector', name: r!.name, href: `/sectors/${r!.id}/` })),
               ...relReports.map((r) => ({ kicker: 'Report', name: r.company, href: `/stocks/${r.slug}/` })),
-              ...relCases.map((c) => ({ kicker: 'Case study', name: c!.title, href: `/case-studies/${c!.id}/`, variant: 'case' as const })),
+              ...mergedCases.map((c) => ({ kicker: 'Case study', name: c.title, href: `/case-studies/${c.id}/`, variant: 'case' as const })),
             ]}
           />
         );

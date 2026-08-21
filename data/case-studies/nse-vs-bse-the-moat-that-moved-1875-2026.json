@@ -39,7 +39,8 @@
   ],
   "intro": [
     "Picture Bombay in 1994. If you wanted to buy or sell shares in an Indian company, there was really one place that mattered: the trading floor of the Bombay Stock Exchange, a crowd of brokers on Dalal Street shouting prices at each other by hand signal, a system that had worked, more or less unchanged, since 1875. BSE was not merely the biggest exchange. For most practical purposes it was the market.",
-    "Then a new exchange opened for business, built by financial institutions rather than brokers, running on computers instead of a trading pit. Within about two years, it was doing more turnover than BSE. Within two decades, BSE's share of the market it had invented had shrunk to a rounding error in most of the businesses that matter. Technology opened the door for that new exchange. But technology alone doesn't explain why BSE could never walk back through it, because BSE did eventually build the same kind of electronic trading, and in one major product it even got there first. It still lost. What actually kept the door shut is the subject of this story: liquidity, and how hard it is to move once it settles somewhere."
+    "Then a new exchange opened for business, built by financial institutions rather than brokers, running on computers instead of a trading pit. Within about two years, it was doing more turnover than BSE. Within two decades, BSE's share of the market it had invented had shrunk to a rounding error in most of the businesses that matter.",
+    "Technology opened the door for that new exchange. But here is the interesting part: technology alone does not explain why BSE could never walk back through it, because BSE did eventually build the same kind of electronic trading, and in one major product it even got there first. It still lost. What actually kept the door shut is the subject of this story: liquidity, and how hard it is to move once it settles somewhere."
   ],
   "sections": [
     {
