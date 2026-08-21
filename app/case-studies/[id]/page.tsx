@@ -898,7 +898,7 @@ function renderDiagram(id: string): React.ReactNode {
     );
   }
   if (id === 'cgpower-legs') {
-    // Illustrative: the three stacked rallies in CG Power's 2020-2026 rise.
+    // Illustrative: the three stacked repricings in CG Power's 2020-2026 rise.
     // Bar widths are indicative of "how much of the move each leg carried", not exact.
     const rows = [
       { label: 'Survival repriced (2020-21)', value: 'near-zero → a going concern', width: '38%', cls: 'dg-oplev-rev' },
@@ -908,7 +908,7 @@ function renderDiagram(id: string): React.ReactNode {
     return (
       <figure className="csd-diagram">
         <div className="dg-title-row">
-          <span className="dg-title">Three rallies in one chart</span>
+          <span className="dg-title">Three repricings in one chart</span>
           <span className="dg-badge">₹4.7 → ₹863</span>
         </div>
         <div className="dg-oplev">
@@ -923,7 +923,7 @@ function renderDiagram(id: string): React.ReactNode {
           ))}
         </div>
         <figcaption className="dg-cap">
-          The rise was not one turnaround but three different rallies stacked on top of each other, each pricing a
+          The rise was not one turnaround but three different repricings layered on top of each other, each pricing a
           different thing. Only the middle one, earnings actually recovering, is the business proving what it can earn.
           The first was the removal of the wipeout risk; the most recent is investors paying far more for each rupee of
           profit than they did before. The widths are illustrative, not measured.
@@ -939,7 +939,7 @@ function renderDiagram(id: string): React.ReactNode {
       { metric: 'Direction', a2: 'Expansion, complexity', a3: 'Focus, simplification', tone: 'good' },
       { metric: 'Overseas', a2: 'Nine countries', a3: 'Exited; Indian core only', tone: 'good' },
       { metric: 'Balance sheet', a2: 'Debt rising to fund deals', a3: 'Cleared, then cash raised for growth', tone: 'good' },
-      { metric: 'How it ended', a2: 'First loss, then collapse', a3: 'Margins ~4% → ~14%, net cash by FY23', tone: 'good' },
+      { metric: 'How it ended', a2: 'First loss, then collapse', a3: 'Margins ~4% → ~14%, debt-free by FY23', tone: 'good' },
     ];
     return (
       <figure className="csd-diagram">
