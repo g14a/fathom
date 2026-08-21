@@ -85,16 +85,6 @@ a { color: inherit; text-decoration: none; }
 .tcard .meta { font-size: 13px; color: var(--ink-faint); }
 .tcard .thesis { font-size: 14px; color: var(--ink-dim); margin-top: 12px; }
 
-/* ---------- verdict badge ---------- */
-.verdict {
-  display: inline-flex; align-items: center; gap: 6px;
-  font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
-  padding: 5px 12px; border-radius: 999px; border: 1px solid;
-}
-.v-strong-buy, .v-buy, .v-accumulate { color: var(--good); border-color: rgba(63,185,80,.4); background: rgba(63,185,80,.08); }
-.v-hold { color: var(--amber); border-color: rgba(240,180,41,.4); background: rgba(240,180,41,.08); }
-.v-avoid, .v-sell { color: var(--bad); border-color: rgba(248,81,73,.4); background: rgba(248,81,73,.08); }
-
 /* ---------- report sections ---------- */
 .report { padding-top: 40px; padding-bottom: 96px; }
 section.block { padding: 32px 0; border-top: 1px solid var(--border); }

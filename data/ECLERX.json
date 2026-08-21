@@ -5,13 +5,12 @@
   "industry": "Knowledge Process Outsourcing (BPM)",
   "dataVariant": "Consolidated",
   "asOf": "2026-08-08",
-  "verdict": "hold",
-  "oneLiner": "A high-quality, cash-rich outsourcing firm that does the specialised back-office work big banks and brands do not want to do in-house. It is growing 22% and returns 35% on capital, and it has still de-rated, because the market keeps asking whether AI shrinks the very work eClerx gets paid for.",
-  "overview": "When an investment bank processes millions of derivative trades, or a luxury brand needs thousands of product photos edited and tagged for its website, that work is repetitive, detailed and expensive to do in-house. eClerx is the company you hand it to. It runs the unglamorous but critical back-office operations for large financial firms, telecom and media companies, and retail and luxury brands. Historically it charged mostly by the person: you need 100 trained people doing trade support, eClerx supplies and manages them from India at a fraction of the onshore cost. That per-person model built a 35%-return business. It is also the model AI now threatens, which is the whole debate around the stock.",
+  "oneLiner": "eClerx does the specialised back-office grind big banks would rather not touch, and it does it brilliantly: growing 22%, earning 35% on capital. Yet the stock has de-rated, because it gets paid by the head, and AI is coming for exactly that kind of work.",
+  "overview": "When an investment bank has to process millions of derivative trades, or a luxury brand needs thousands of product photos edited and tagged for its website, that work is repetitive, fiddly, and expensive to do in-house. eClerx is the company you hand it to. It runs the unglamorous but essential back office for big financial firms, telecom and media companies, and retail and luxury brands. For most of its life it charged by the person: you need 100 trained people running trade support, eClerx hires, trains and manages them from India at a fraction of the onshore cost. That per-person model built a business earning 35% on capital. It is also the exact model AI now threatens, because AI is a rising tide and repetitive human work is the ground eClerx stands on. That is the whole argument around the stock.",
   "editorial": {
-    "realBusiness": "eClerx is a specialised business-process firm, not a software company: it rents out trained brains at India cost.",
-    "whyExists": "Large banks and brands have oceans of repetitive, specialised operations work (trade processing, data management, product content) that is too costly and too distracting to run in-house. eClerx deserves to exist because it does that work cheaper, faster and with deep domain training, especially in financial-markets operations.",
-    "whyNotAlreadyWon": "Because the work is embedded and specialised. Once eClerx's people understand a bank's messy internal systems and processes, moving the work is risky, so clients stay. That stickiness is the moat, and it is exactly what AI could erode.",
+    "realBusiness": "eClerx is not a software company. It rents out trained brains at India prices, doing the specialised grunt work banks and brands would rather not keep in-house.",
+    "whyExists": "Big banks and brands sit on oceans of repetitive, specialised operations work, trade processing, data management, product content, that is too costly and too distracting to run themselves. eClerx earns its place by doing that work cheaper, faster, and with real domain training, above all in the messy plumbing of financial-markets operations.",
+    "whyNotAlreadyWon": "Because the work is embedded and specialised. Once eClerx's people learn a bank's tangled internal systems and quirks, moving that work somewhere else is risky, so clients stay put. That stickiness is the moat. It is also, awkwardly, the very thing AI could wash away, because the moat guards work that is getting easier to automate.",
     "mentalModels": [
       {
         "model": "Labour Arbitrage",
@@ -143,57 +142,111 @@
         "note": "Top-10 at ~59%, improving but still meaningful."
       }
     ],
-    "whyNow": "The stock fell about 14% over the past year while profit grew 30%, so the multiple compressed from the high-20s toward 23x. This year's numbers are not the worry. What the market is pricing is what AI does to the model over the next several years, and that is laid out in the AI fork below. If the market is overestimating the impact of AI, the lower multiple could prove attractive. If the underlying economics deteriorate, the lower multiple may not be cheap enough.",
-    "remember": "eClerx is a superb operator of a business model with a real question mark over its head. Judge it on whether AI becomes its tool or its undoing, not on this quarter's margin."
+    "whyNow": "The stock fell about 14% over the past year while profit grew 30%, so the multiple squeezed from the high-20s down toward 23x. This year's numbers are not the worry. What the market is pricing is what AI does to the model over the next several years, and that argument is laid out in the AI fork below. If the market is overrating the damage AI does, the lower multiple could turn out cheap. If the economics really are eroding, it may not be cheap enough.",
+    "remember": "eClerx is a superb operator standing on ground the tide is coming for. Judge it on whether AI becomes its tool or its undoing, not on this quarter's margin."
   },
   "ipoFlag": "No repackaging games. eClerx listed in 2007 and has traded for well over a decade. It did do a 1:1 bonus issue in March 2026, which doubles the share count and halves the per-share price optically but changes nothing about the business or your ownership.",
   "moneyFlow": {
     "intro": "The whole business is one spread. Follow the money down the chain.",
     "steps": [
-      { "label": "Client", "value": "A global bank needs, say, 200 trained people for trade support" },
-      { "label": "eClerx", "value": "Hires, trains and manages that team, delivered from India" },
-      { "label": "Client cost", "value": "Pays far less than the onshore cost of doing it in-house" }
+      {
+        "label": "Client",
+        "value": "A global bank needs, say, 200 trained people for trade support"
+      },
+      {
+        "label": "eClerx",
+        "value": "Hires, trains and manages that team, delivered from India"
+      },
+      {
+        "label": "Client cost",
+        "value": "Pays far less than the onshore cost of doing it in-house"
+      }
     ],
     "spread": "The gap between what the client would pay onshore and what eClerx spends to deliver from India is the arbitrage spread. That spread, not software, is the gross engine of the whole company."
   },
   "aiFork": {
-    "premise": "AI will almost certainly reduce the human effort in this work. The real question is not whether, but who captures the value that reduction creates.",
+    "premise": "AI will almost certainly cut the human effort this work takes. The real question is not whether, but who pockets the value that the cut creates.",
     "trigger": "AI arrives → human effort per task falls",
     "branches": [
       {
         "label": "The client captures the saving",
         "tone": "bad",
-        "outcomes": ["Client needs fewer FTEs", "eClerx bills fewer people", "Revenue falls", "Margins compress"]
+        "outcomes": [
+          "Client needs fewer FTEs",
+          "eClerx bills fewer people",
+          "Revenue falls",
+          "Margins compress"
+        ]
       },
       {
         "label": "eClerx captures the value",
         "tone": "good",
-        "outcomes": ["Same work, fewer people", "Charges for the outcome, not headcount", "Revenue per employee rises", "Higher-value relationship"]
+        "outcomes": [
+          "Same work, fewer people",
+          "Charges for the outcome, not headcount",
+          "Revenue per employee rises",
+          "Higher-value relationship"
+        ]
       }
     ],
-    "takeaway": "That is what we need to figure out: does eClerx capture the productivity gain from AI, or does the client?"
+    "takeaway": "So that is the thing to work out: when AI makes the work easier, does eClerx keep the gain, or does the client take it?"
   },
   "counterpoint": {
     "heading": "What if AI makes outsourcing more valuable, not less?",
-    "body": "The bear case assumes AI shrinks the work. It might instead change it. Banks do not obviously need fewer outsourced operations in an automated world; they may need different ones. As workflows get automated, someone still has to implement the systems, monitor them, catch what they get wrong and manage the whole thing. If eClerx moves from supplying people to owning that workflow, the value it captures per client could rise even as the number of people it deploys falls.",
-    "caveat": "This is a possibility, not a forecast. eClerx has to prove it in the revenue mix and the economics, not the concall. Management saying it is not the same as it happening."
+    "body": "The bear case assumes AI shrinks the work. It might instead change it. Banks will not obviously need fewer outsourced operations in an automated world; they may just need different ones. As workflows get automated, someone still has to build the systems, watch them, catch what they get wrong, and run the whole thing. If eClerx moves from supplying people to owning that workflow, the value it captures per client could rise even as the number of people it deploys falls.",
+    "caveat": "This is a possibility, not a forecast. eClerx has to prove it in the revenue mix and the economics, not in the concall. Management saying it is one thing; it showing up in the numbers is another."
   },
   "scorecard": {
     "intro": "You do not have to guess which way the fork breaks. These are the numbers that tell you, quarter by quarter, whether eClerx is capturing the AI gain or losing it to clients.",
     "rows": [
-      { "metric": "Revenue per employee", "good": "Rising", "bad": "Flat or falling", "why": "Tests whether growth is decoupling from headcount, the core AI question." },
-      { "metric": "Non-FTE / outcome revenue", "good": "Growing share", "bad": "Stagnant", "why": "Shows the shift from billing people to billing for results." },
-      { "metric": "Analytics & automation book", "good": "Scaling past ~USD 90m", "bad": "Stalls", "why": "Shows movement toward higher-value, AI-adjacent work." },
-      { "metric": "Headcount vs revenue", "good": "Revenue grows faster than heads", "bad": "Both rise together", "why": "Tests how dependent growth still is on adding labour." },
-      { "metric": "Pricing / billing rate", "good": "Stable", "bad": "Persistent deflation", "why": "Shows who captures the AI productivity gain, eClerx or the client." },
-      { "metric": "EBITDA margin", "good": "Holds low-20s or rises", "bad": "Keeps declining", "why": "Tests whether the productivity gain is retained, not competed away." },
-      { "metric": "Large-client spend", "good": "Stable or rising", "bad": "Shrinking wallets", "why": "Tests whether AI is shrinking how much clients need to spend at all." }
+      {
+        "metric": "Revenue per employee",
+        "good": "Rising",
+        "bad": "Flat or falling",
+        "why": "Tests whether growth is decoupling from headcount, the core AI question."
+      },
+      {
+        "metric": "Non-FTE / outcome revenue",
+        "good": "Growing share",
+        "bad": "Stagnant",
+        "why": "Shows the shift from billing people to billing for results."
+      },
+      {
+        "metric": "Analytics & automation book",
+        "good": "Scaling past ~USD 90m",
+        "bad": "Stalls",
+        "why": "Shows movement toward higher-value, AI-adjacent work."
+      },
+      {
+        "metric": "Headcount vs revenue",
+        "good": "Revenue grows faster than heads",
+        "bad": "Both rise together",
+        "why": "Tests how dependent growth still is on adding labour."
+      },
+      {
+        "metric": "Pricing / billing rate",
+        "good": "Stable",
+        "bad": "Persistent deflation",
+        "why": "Shows who captures the AI productivity gain, eClerx or the client."
+      },
+      {
+        "metric": "EBITDA margin",
+        "good": "Holds low-20s or rises",
+        "bad": "Keeps declining",
+        "why": "Tests whether the productivity gain is retained, not competed away."
+      },
+      {
+        "metric": "Large-client spend",
+        "good": "Stable or rising",
+        "bad": "Shrinking wallets",
+        "why": "Tests whether AI is shrinking how much clients need to spend at all."
+      }
     ],
     "note": "eClerx does not disclose all of these cleanly each quarter, so read the trend across the ones it does. Revenue per employee is the single clearest window into whether the economics are moving away from pure headcount."
   },
   "business": {
-    "unitOfRevenue": "Historically, one billed employee. Think of it like hiring a team: a client says it needs, say, 200 trained people to run its trade-support desk, and eClerx supplies and manages them from India, charging a rate per person that sits well below the onshore cost. The company is now shifting some of this toward outcome-based pricing, where it charges for a result delivered rather than heads deployed.",
-    "revenueModel": "Mostly staff-based (per-FTE) contracts today, migrating toward outcome-based and productised deals. Recurring, multi-year client relationships rather than one-off projects.",
+    "unitOfRevenue": "Historically, one billed person. Think of hiring a team: a client says it needs, say, 200 trained people to run its trade-support desk, and eClerx supplies and manages them from India at a rate per head well below the onshore cost. It is now shifting some of this toward outcome-based pricing, where it charges for a result delivered instead of heads deployed.",
+    "revenueModel": "Mostly staff-based (per-person) contracts today, migrating toward outcome-based and productised deals. These are recurring, multi-year client relationships, not one-off projects.",
     "segments": [
       {
         "name": "Financial Markets operations",
@@ -211,7 +264,7 @@
         "marginProfile": "The growth bet, now a ~USD 90m book. Higher-value, AI-adjacent."
       }
     ],
-    "revenuePerUnitTrend": "Two forces pull against each other. Wage inflation in India pushes eClerx's cost per person up, and clients push billing rates down, partly using AI-driven productivity as the argument for cheaper deals (management calls this deflationary pressure). The company's answer is to move up the value chain into analytics, automation and outcome-based contracts where it is paid for results, not seats. Whether that shift outruns the deflation in the seat business is the single most important thing to watch. These percentages are approximate reads of the segment mix, not exact disclosures.",
+    "revenuePerUnitTrend": "Two forces pull against each other. Indian wage inflation pushes eClerx's cost per person up, while clients push billing rates down, often using AI-driven productivity as the argument for a cheaper deal (management calls this deflationary pressure). eClerx's answer is to climb the value chain into analytics, automation, and outcome-based contracts where it is paid for results, not seats. Whether that climb outruns the deflation in the seat business is the single most important thing to watch. The segment percentages elsewhere are approximate reads of the mix, not exact disclosures.",
     "industry": {
       "structure": "Fragmented and competitive. Many BPM and KPO players, from global majors to niche specialists.",
       "competitors": "Global majors like Accenture, Genpact and WNS are bigger and broader. Firstsource and Zensar are closer listed comparisons. eClerx competes on domain depth, especially in financial-markets operations, rather than scale.",
@@ -222,7 +275,7 @@
       "penetration": "Outsourcing is well established; growth here is share-gain and moving up the value chain, not a greenfield land grab.",
       "valueChainPosition": "The outsourced operations layer sitting behind a client's own systems. Valuable while the work is human-intensive, exposed if that work automates away."
     },
-    "qualityVerdict": "As an operator, eClerx is genuinely excellent: ~22% revenue growth, ~35% ROCE, tiny capital needs, and cash flow that tracks profit. The niche in financial-markets operations is real and sticky. As an operator, there is very little to fault. The structural question (whether the pivot outruns the pressure on the FTE model) is real but separate, and the two-engine assessment and summary take it up."
+    "qualityVerdict": "As an operator, eClerx is genuinely excellent: ~22% revenue growth, ~35% ROCE, tiny capital needs, and cash flow that tracks profit. The niche in financial-markets operations is real and sticky. There is very little to fault in how the company is run. The hard question is not about the operator at all. It is whether the pivot to higher-value work outruns the pressure on the per-person model, and that is a separate matter the two-engine read and the summary take up."
   },
   "valuation": [
     {
@@ -341,7 +394,7 @@
       "fcf": 756
     }
   ],
-  "cashFlowNote": "This is a clean cash machine. Operating cash flow beats reported profit, capex is tiny (about Rs 132 cr on Rs 4,000+ cr of revenue) because a services business needs desks and laptops, not factories, and free cash flow of Rs 756 cr in FY26 is comfortably positive. Debtor days at 59 are normal for IT services, where clients pay on monthly billing cycles. There is no accounting worry here: the profit is real and it turns into cash. The risk in this business is strategic (AI), not financial.",
+  "cashFlowNote": "This is a clean cash machine. Operating cash flow beats reported profit, capex is tiny (about Rs 132 cr on Rs 4,000+ cr of revenue) because a services business needs desks and laptops, not factories, and free cash flow of Rs 756 cr in FY26 is comfortably positive. Debtor days at 59 are normal for IT services, where clients pay on monthly billing cycles. There is no accounting worry here. The profit is real and it turns into cash. The risk in this business is strategic (AI), not financial.",
   "growth": [
     {
       "label": "Sales CAGR 5Y",
@@ -377,7 +430,7 @@
       "tone": "neutral"
     }
   ],
-  "management": "Founder-led by PD Mundhra and Anjan Malik, who built eClerx from 2000 and still anchor the promoter group (about 54.5%, with zero pledge). The scorecard is an operator's: two decades of high-return, cash-generative growth without diluting shareholders or piling on debt. The current test is the hardest of their careers: navigating an AI shift that threatens the per-person model they built the company on. To their credit, they are meeting it head-on in the concalls, talking openly about deflationary pressure, moving to outcome-based and non-FTE deals, and building the analytics and automation book. At least so far, they appear to be addressing the problem rather than dismissing it. Judge them over the next few years by whether the value-added mix grows faster than the seat business shrinks.",
+  "management": "Founder-led by PD Mundhra and Anjan Malik, who built eClerx from 2000 and still anchor the promoter group (about 54.5%, with zero pledge). The record is an operator's: two decades of high-return, cash-generative growth without diluting shareholders or piling on debt. The test in front of them now is the hardest of their careers, steering a company through an AI shift that threatens the per-person model it was built on. To their credit, they are meeting it in the open on concalls, naming the deflationary pressure, moving toward outcome-based and non-FTE deals, and building the analytics and automation book. So far they look like people addressing the problem rather than waving it off. Judge them over the next few years by one thing: whether the value-added mix grows faster than the seat business shrinks.",
   "holding": [
     {
       "label": "Promoter",
@@ -408,10 +461,10 @@
       "Long-standing Fortune-500 relationships",
       "Asset-light, high-return delivery model"
     ],
-    "note": "The moat is real but narrow, and it is being tested. eClerx's edge is knowing a client's messy operations so well that moving the work is risky, plus genuine specialism in derivatives processing that generic BPOs lack. That has kept clients for years. The honest caveat is the direction the moat does not defend: AI does not out-compete eClerx on service, it shrinks how much human work there is to bill for (the 'shrinking island' lens below unpacks this). Narrow, real today, and on notice."
+    "note": "The moat is real but narrow, and it is being tested. eClerx's edge is knowing a client's messy operations so intimately that moving the work is risky, plus genuine specialism in derivatives processing that generic outsourcers lack. That has held clients for years. Here is the caveat, and it is about the direction the moat does not face: AI does not beat eClerx on service. It shrinks how much human work there is to bill for. The 'shrinking island' lens below unpacks that. Narrow, real today, and on notice."
   },
-  "narrative": "eClerx has quietly compounded for two decades: revenue from Rs 2,160 cr in FY22 to Rs 4,117 cr in FY26, profit from Rs 418 cr to Rs 706 cr, all on tiny capital and essentially net cash (D/E 0.17). FY26 was a strong year, revenue up ~22% and profit up ~30%, capped with a 1:1 bonus issue. And yet the stock fell about 14% over the year. The reason is not the results, it is the theme. eClerx sits in the BPO/KPO sector, the corner of IT most directly in the path of AI, and the market has spent the year re-rating anything that bills by the hour or the head. So a business that grew earnings 30% saw its multiple compress instead of expand.",
-  "priceAction": "Roughly ₹2,050 down to ₹1,769 over twelve months (about minus 14%), well off the ₹2,498 high but comfortably above the ₹1,319 low. The de-rating, not the results, drove the move. Why the multiple fell while earnings rose is the two-engine assessment below.",
+  "narrative": "eClerx has compounded quietly for two decades: revenue from Rs 2,160 cr in FY22 to Rs 4,117 cr in FY26, profit from Rs 418 cr to Rs 706 cr, all on tiny capital and essentially net cash (D/E 0.17). FY26 was a strong year, revenue up ~22% and profit up ~30%, capped with a 1:1 bonus issue. And yet the stock fell about 14% over the year. The reason is not in the results; it is in the theme. eClerx sits in the corner of IT most directly in AI's path, the outsourcing of repetitive human work, and the market spent the year marking down anything that bills by the hour or the head. So a business that grew earnings 30% watched its multiple shrink instead of stretch.",
+  "priceAction": "Roughly ₹2,050 down to ₹1,769 over twelve months, about minus 14%, well off the ₹2,498 high but comfortably above the ₹1,319 low. The de-rating, not the results, drove the move. Why the multiple fell while earnings rose is the job of the two-engine read below.",
   "risks": [
     "AI disruption of the core model. eClerx is paid largely for human effort on repetitive work, which is exactly what AI automates. If clients use AI to cut headcount-based spend faster than eClerx moves to outcome-based revenue, growth and margins compress. High.",
     "Margin pressure. Indian wage inflation pushes costs up while clients push billing rates down (deflationary pressure). Margins have drifted and can drift further. Medium-High.",
@@ -483,29 +536,29 @@
       "note": "Top-10 at ~59%, improving but still high"
     }
   ],
-  "summary": "eClerx pairs high growth (22%), high returns (35% ROCE), a net-cash balance sheet and clean cash flow, and after a 14% fall while earnings rose 30% it trades at about 23x. Those two facts sit awkwardly together. The reason is the labour-arbitrage model: AI is built to compress exactly the human-effort billing eClerx lives on. Management is pivoting to analytics, automation and outcome deals, and it is too good an operator to wave away, but whether the pivot outruns the pressure is genuinely unknown. The old model clearly works. Whether it keeps working once the work itself becomes easier to automate is the open question, and the next few quarters of revenue mix, revenue per employee and pricing should start to answer it. This is not a buy or sell call. Do your own work and talk to a SEBI-registered adviser.",
+  "summary": "eClerx pairs high growth (22%), high returns (35% ROCE), a net-cash balance sheet, and clean cash flow, and after a 14% fall while earnings rose 30% it trades at about 23x. Those two facts sit uneasily together. The reason is the labour-arbitrage model: AI is built to compress exactly the human-effort billing eClerx lives on. Management is pivoting to analytics, automation, and outcome deals, and eClerx is too good an operator to wave away, but whether the pivot outruns the pressure is genuinely unknown. The old model clearly works today. Whether it keeps working once the work itself gets easier to automate is the open question, and the next few quarters of revenue mix, revenue per employee, and pricing should start to answer it. This is not a buy or sell call. Do your own work and talk to a SEBI-registered adviser.",
   "engine": {
     "state": "multiple-drift",
-    "earnings": "The earnings engine is running well and is cash-backed: FY26 profit up ~30%, TTM profit growth ~28%, ROCE ~35%, and free cash flow that tracks profit. Q1 FY27 (June 2026) is the near-term wobble in one number: revenue up ~24% YoY to Rs 1,152 cr, but profit of Rs 164 cr grew only 16% YoY and fell about 7% QoQ as the April wage hike and new delivery centres (Lima live, Cairo starting) pushed EBITDA margin to 24.2% and PAT margin to 14%. Growth is fine; the squeeze is on margin, exactly the tension this report flags. The catalyst from here is the analytics and automation book (now ~USD 90m) scaling; the drag is pricing deflation.",
-    "multiple": "The multiple has already compressed against the stock. Over the past year profit grew ~30% while the stock fell ~14%, so the PE de-rated from the high-20s toward 23x. That is the market pricing AI risk, not a business miss. At 23x for a 35%-ROCE, debt-free compounder, the multiple is not demanding by its own history, but it is not a giveaway either given the structural overhang.",
-    "verdict": "On the mechanics, earnings are rising while the multiple has compressed and returns are stable. That creates re-rating potential, but only if the market's AI concern proves overstated. The compression here is not pure sentiment the way it would be for a company with no structural threat; it reflects a real, unresolved question about the durability of the revenue itself. So the optionality is genuine but conditional on the AI transition going well. The evidence to watch is whether the value-added mix grows fast enough to offset pressure on the seat-based business."
+    "earnings": "The earnings engine is running well and it is cash-backed: FY26 profit up ~30%, TTM profit growth ~28%, ROCE ~35%, and free cash flow that tracks profit. Q1 FY27 (June 2026) is the near-term wobble, and it lives in one line: revenue rose ~24% YoY to Rs 1,152 cr, but profit of Rs 164 cr grew only 16% YoY and slipped about 7% QoQ, as the April wage hike and new delivery centres (Lima live, Cairo starting) pushed EBITDA margin to 24.2% and PAT margin to 14%. Growth is fine. The squeeze is on margin, which is exactly the tension this report keeps flagging. From here, the catalyst is the analytics and automation book (now ~USD 90m) scaling up; the drag is pricing deflation.",
+    "multiple": "The multiple has already compressed. Over the past year profit grew ~30% while the stock fell ~14%, so the PE slid from the high-20s toward 23x. That is the market pricing AI risk, not a business miss. At 23x for a 35%-ROCE, debt-free compounder, the multiple is not demanding by its own history, but it is not a giveaway either, given the structural question hanging over it.",
+    "verdict": "On the mechanics, earnings are rising, the multiple has compressed, and returns are stable. That combination creates room for a re-rating, but only if the market's AI worry proves overdone. This is not the clean setup it would be for a company with no structural threat: the compression reflects a real, unresolved question about whether the revenue itself is durable. So the upside is genuine but conditional on the AI transition going well. The evidence to watch is whether the value-added mix grows fast enough to offset the pressure on the seat-based business."
   },
   "lenses": [
     {
       "name": "The price fell while earnings rose",
-      "reading": "Profit grew about 30% in FY26 but the stock fell about 14%, so the multiple compressed rather than expanded, and ROE held near 29% the whole time. In a business with no structural threat that would be a clean re-rating setup. Here the compression is the market pricing the AI question, so read it as conditional, not free."
+      "reading": "Profit grew about 30% in FY26 but the stock fell about 14%, so the multiple compressed rather than expanded, while ROE held near 29% the whole way. In a business with no structural threat, that would be a clean re-rating setup, cheaper stock, same quality. Here the compression is the market pricing the AI question. So read it as conditional, not free."
     },
     {
       "name": "A moat around a shrinking island",
-      "reading": "eClerx's stickiness comes from doing embedded, repetitive work no one wants to move. But AI attacks from the flank: it does not beat eClerx on service, it shrinks how much human work there is to bill for. A moat is only as good as the thing it protects, and here that thing is under technological pressure."
+      "reading": "eClerx's stickiness comes from doing embedded, repetitive work nobody wants to move. But AI does not attack head-on; it attacks the ground. It does not beat eClerx on service, it shrinks how much human work is left to bill for. A moat is only worth as much as the thing it protects, and here that thing, the island, is being eaten from underneath."
     },
     {
       "name": "Loyalty measured before the alternative existed",
-      "reading": "Years of high client retention were earned in a world where the only realistic option was human-run offshore delivery. AI is the first genuine alternative to that model. Historical retention tells you clients were sticky when there was no substitute; it tells you less about how sticky they stay once one appears."
+      "reading": "Years of high client retention were earned in a world where the only real option was human-run offshore delivery. AI is the first genuine alternative to that model. So the loyalty record tells you clients were sticky when there was no substitute. It tells you much less about how sticky they stay once one finally exists."
     },
     {
       "name": "Operator meeting the threat head-on",
-      "reading": "This is the encouraging side. Management is not dodging the AI question in concalls; it is talking openly about deflation, moving to outcome-based and non-FTE deals, and building the analytics book. That is operator behaviour. The thesis is not that the threat is fake, it is that this team may be good enough to navigate it. Judge them by the value-added mix, not the rhetoric."
+      "reading": "This is the hopeful side. Management is not dodging the AI question on concalls; it is naming the deflation, moving to outcome-based and non-FTE deals, and building the analytics book. That is what a good operator does. The thesis is not that the threat is fake. It is that this team may be good enough to steer through it. Judge them by the value-added mix, not the talk."
     }
   ]
 }

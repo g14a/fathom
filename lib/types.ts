@@ -1,9 +1,6 @@
 // Schema for one ticker's research report.
 // Mirrors the indian-stock-analyzer skill's 14-section structure.
 
-export type Verdict =
-  | 'strong-buy' | 'buy' | 'accumulate' | 'hold' | 'avoid' | 'sell';
-
 export type MoatStrength = 'wide' | 'narrow' | 'none' | 'eroding';
 
 export type EngineState =
@@ -162,7 +159,6 @@ export interface TickerReport {
   sectorId?: string;   // links to /sectors/<id> explainer
   dataVariant: 'Consolidated' | 'Standalone';
   asOf: string;         // ISO date of the research run
-  verdict: Verdict;
   oneLiner: string;     // 1-sentence thesis
   isSample?: boolean;   // flag placeholder data
 

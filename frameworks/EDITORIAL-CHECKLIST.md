@@ -4,7 +4,7 @@ Reference for verifying (not rewriting) a case study in `data/case-studies/*.jso
 Run this before publishing a new study or reworking an old one. It sits on top of
 the voice, formatting and honesty rules in the repo `CLAUDE.md` (no em-dashes, no
 spaced hyphens, beginner voice, never fabricate) and the `WRITING-GUIDE.md` in
-`data/sectors/`, which still apply in full.
+this `frameworks/` directory, which still apply in full.
 
 The job here is **not** to rewrite the article. The job is to verify whether every
 important claim is accurate, fair, well-supported and easy to defend. Treat it like

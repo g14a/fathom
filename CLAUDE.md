@@ -23,8 +23,10 @@ substack, or explaining a business to a smart friend who knows no finance).
 - **Concrete over abstract.** Use everyday analogies (a tea stall paid per cup, a
   hotel room that rots at midnight, a bank lending *your* money). Then tie the
   analogy to the real company.
-- **Have a point of view.** Reports take an honest stance (see verdict enum) and
-  explain the tension, rather than mushy both-sides hedging.
+- **Have a point of view.** Reports take an honest analytical stance on the business
+  and explain the tension, rather than mushy both-sides hedging. A stance is a reading
+  of the business (is it well run, is the moat real, is the price sane), never a
+  buy/sell call: Fathom does not rate tickers to buy or sell.
 
 ### Hard formatting rules (enforced, non-negotiable)
 
@@ -43,7 +45,8 @@ substack, or explaining a business to a smart friend who knows no finance).
   link primary sources. Document images (`public/case-studies/*.png`) are real
   pages rendered from real public regulatory filings, never mock-ups.
 - Every report and case study carries an **educational-use / not-SEBI-adviser**
-  disclaimer. Reports give a verdict but **never** a literal buy/sell instruction.
+  disclaimer. Reports **never** rate a ticker to buy, sell, or hold: no verdict label,
+  no literal buy/sell instruction. They explain the business and let the reader decide.
 
 ---
 
@@ -67,8 +70,7 @@ fathom/
 │     ├─ page.tsx                case-study index cards
 │     └─ [id]/page.tsx           one long-form case study per id
 ├─ components/
-│  ├─ Report.tsx                 renders a full TickerReport (all 16 sections + CTAs)
-│  └─ Verdict.tsx                the verdict badge
+│  └─ Report.tsx                 renders a full TickerReport (all 16 sections + CTAs)
 ├─ lib/
 │  ├─ types.ts                   TickerReport schema (the report data contract)
 │  ├─ data.ts                    loads data/*.json, injects `slug`
@@ -78,9 +80,17 @@ fathom/
 ├─ data/
 │  └─ <SLUG>.json                one research report per file (e.g. KALYANKJIL.json, MM.json)
 ├─ public/case-studies/*.png     real filing page images used as case-study evidence
+├─ frameworks/                   local-only guidelines (NOT shipped): writing guide, editorial
+│                                and signals checklists, the business-judgment mental-models checklist
 ├─ next.config.js                output:'export', basePath, NEXT_PUBLIC_BASE_PATH
 └─ .github/workflows/deploy.yml  build + publish to GitHub Pages on push to main
 ```
+
+**`frameworks/` is reference, not content.** It holds the writing/editorial guidelines
+and mental-model checklists that govern how content is written and verified. These files
+are never imported or rendered; they live outside `app`/`lib`/`data` on purpose. Read
+`frameworks/README.md` for the index. Consult the relevant one before writing a report,
+sector explainer, case study or signal.
 
 **Content is data, not markup.** Sector explainers and case studies are TypeScript
 data arrays (`lib/sectors.ts`, `lib/caseStudies.ts`); reports are JSON (`data/`).
@@ -136,7 +146,7 @@ a component/UI library.** Extend `globals.css`.
   line, and an animated `→`. Used for cross-links (report → sector, understand →
   filings, case study → report).
 - **Report** = 16 numbered `.block` sections rendered by `components/Report.tsx`
-  from a `TickerReport`. Verdict badge, metric grids, revenue bars, holding bar,
+  from a `TickerReport`. Metric grids, revenue bars, holding bar,
   moat pips, trap/sector checklists, two-engine boxes, lens cards.
 - **Case study** = stat strip → intro → headed sections → evidence table →
   document-image exhibits → sources → vertical timeline → lesson.
@@ -152,7 +162,8 @@ a component/UI library.** Extend `globals.css`.
    - **Slug must be URL-safe.** Ampersands break static export: Mahindra & Mahindra
      is `data/MM.json` with `"ticker": "M&M"` (display) and the loader injects `slug`.
    - Set `sectorId` to link the report to its sector explainer.
-   - `verdict` ∈ `strong-buy | buy | accumulate | hold | avoid | sell`.
+   - No `verdict` field: Fathom does not rate tickers to buy/sell/hold. The stance
+     lives in the prose (engine, lenses, summary), not a label.
    - checklist `status` ∈ `pass | fail | warn | na` (no other values).
    - `capex`/`fcf` are optional — omit rather than invent them.
 3. `npm run build` and confirm the page generates.
