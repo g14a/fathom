@@ -1,6 +1,6 @@
 # Fathom Case Study Voice
 
-Reference for the voice of case studies (`data/case-studies/*.json`). This sits on top of the voice, formatting and honesty rules in the repo `CLAUDE.md` (no em-dashes, no spaced hyphens, beginner voice, never fabricate) and the `WRITING-GUIDE.md` and `EDITORIAL-CHECKLIST.md` in this `frameworks/` directory, which still apply in full.
+Reference for the voice of case studies (`data/case-studies/*.json`). This sits on top of the voice, formatting and honesty rules in the repo `CLAUDE.md` (no em-dashes, no spaced hyphens, beginner voice, never fabricate) and the `WRITING-GUIDE.md`, `EDITORIAL-CHECKLIST.md` and `ANTI-AI-SLOP.md` in this `frameworks/` directory, which still apply in full.
 
 ---
 

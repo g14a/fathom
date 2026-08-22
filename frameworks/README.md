@@ -30,6 +30,9 @@ Two kinds of file live here: **mental models** (how to think about a business) a
 - [SIGNALS-CHECKLIST.md](SIGNALS-CHECKLIST.md) How to write a signal
   (`data/signals/*.json`): explain a market-moving event as a change to business
   economics, not as news.
+- [ANTI-AI-SLOP.md](ANTI-AI-SLOP.md) How to keep prose sounding like a teacher, not
+  a machine: ration three-part structures, rhetorical opposites, formulaic
+  transitions and quotable-line density. Applies to every format.
 
 ## When to use which
 
@@ -40,3 +43,4 @@ Two kinds of file live here: **mental models** (how to think about a business) a
 | Write a company report (`data/*.json`) | MENTAL-MODELS-CHECKLIST to judge it, then REPORTS-VOICE for how it reads |
 | Write a case study | WRITING-GUIDE, then EDITORIAL-CHECKLIST to verify |
 | Write a signal | SIGNALS-CHECKLIST |
+| Final voice pass on any prose | ANTI-AI-SLOP |

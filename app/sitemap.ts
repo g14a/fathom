@@ -50,6 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const signalPaths: Entry[] = getAllSignals().map((s) => ({
     path: `/signals/${s.id}/`,
+    lastModified: isoDate(s.published),
     priority: 0.6,
     changeFrequency: 'monthly',
   }));

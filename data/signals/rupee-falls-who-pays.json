@@ -1,0 +1,238 @@
+{
+  "title": "The rupee falls: who actually pays?",
+  "kind": "Currency move",
+  "dateline": "₹83 → ₹96",
+  "published": "2026-08-22",
+  "tags": [
+    "FX exposure",
+    "Pricing power",
+    "Currency-mismatched debt",
+    "Natural hedge"
+  ],
+  "summary": "The rupee slid from about 83 to the dollar in early 2024 to around 95 by August 2026, and kept weakening despite repeated RBI intervention. Every headline asked which stocks go up. That is the wrong question. The same fall helps one company, hurts the next, and quietly bankrupts a third. The only thing that decides which is what currency the company earns, what it spends, and what it owes.",
+  "seoTitle": "Falling Rupee: Impact on Indian Companies (IT, Importers, FX Debt)",
+  "seoDescription": "How a falling rupee affects Indian companies. Why the same currency move helps IT and pharma exporters, hurts importers, and endangers firms with dollar debt, and the three questions that tell you which.",
+  "event": [
+    "The rupee fell from around 83 to the dollar in early 2024, broke through the high 80s, and kept weakening. By August 2026 it was trading around 95.70 to the dollar, with the RBI stepping in repeatedly to slow the slide ([FXStreet](https://www.fxstreet.com/news/indian-rupee-ticks-up-on-possible-rbis-intervention-202608180534)). That is a much bigger move than the headline number makes it sound: a dollar that cost 83 rupees now costs almost 96.",
+    "It did not fall in a straight line. It bounced, the RBI intervened again and again, and still the drift was one way. Some of the recent pressure came from higher crude prices, steady demand for dollars and global uncertainty. But the exact reasons are a macroeconomics story, and not the one that matters here. And notice the useful point hiding in that messiness: the rupee does not have to collapse for currency exposure to matter. It just has to keep moving far enough, for long enough, for the economics to show up in the numbers.",
+    "What matters is what a weaker rupee does inside a company. A falling rupee means dollars cost more rupees than they used to. That single fact ripples through a business in up to three different places at once: the money it earns, the money it spends, and the money it owes. The lazy headline reads 'rupee down, so exporters win'. The honest reading is that the same currency move lands on three companies in three opposite ways, and you cannot know which until you check where each one is exposed."
+  ],
+  "trigger": "Who actually pays when the rupee falls?",
+  "triggerLabel": "The one question",
+  "triggerBody": [
+    "Start with the simplest possible picture. The rupee falls from 80 to 90 against the dollar. Now look at the very same 100 dollar transaction. At 80 to the dollar it was worth 8,000 rupees. At 90 it is worth 9,000. Nothing about the underlying deal changed. No extra work was done, no extra goods shipped. Only the exchange rate moved, and the rupee number moved with it.",
+    "That is the whole mechanism. A weaker rupee simply makes every dollar bigger when measured in rupees. Whether that is good news or a disaster depends entirely on which side of the dollar you are standing on. If dollars are flowing towards you, they got bigger and you are happy. If dollars are flowing away from you, to a supplier or a lender, they got bigger too, and now they hurt.",
+    "So do not ask whether a weak rupee is good or bad. Ask three questions of the company in front of you. What currency does it earn? What currency does it spend? What currency does it owe? The answer is almost always sitting in those three lines."
+  ],
+  "leverBand": {
+    "title": "Which of the three does it touch?",
+    "items": [
+      { "label": "Earn", "mark": "ask" },
+      { "label": "Spend", "mark": "ask" },
+      { "label": "Owe", "mark": "ask" }
+    ]
+  },
+  "mentalModels": [
+    { "name": "FX exposure", "why": "A company's real currency risk is not what business it is in, it is where its money moves. Earnings, costs and debt can each sit in a different currency, and each one reacts to the rupee separately. You add them up, you do not guess from the sector." },
+    { "name": "Natural hedge", "why": "When a company's revenues and costs move together in the same currency, a currency swing that lifts one lifts the other, and the two largely cancel. A business with dollar revenue and dollar costs is far less exposed than its headline 'exporter' label suggests." },
+    { "name": "Pricing power, again", "why": "An importer whose costs rise in rupees has only one escape: raise its own prices and pass the hit to customers. Whether it can is the same pricing-power test that decides who keeps a cost windfall. Currency just runs it in reverse." },
+    { "name": "Currency-mismatched debt", "why": "The dangerous version. A company that earns rupees but must repay dollars has a loan that grows heavier on its own every time the rupee falls, without borrowing a further cent. This is the failure mode that nearly killed Suzlon." }
+  ],
+  "fanouts": [
+    {
+      "head": "The rupee falls from about 83 to the high 80s per dollar",
+      "branches": [
+        { "label": "IT and services exporters", "effect": "up", "note": "earn dollars, spend mostly rupees on Indian salaries, so each dollar of billing converts to more rupees while the wage bill barely moves" },
+        { "label": "Pharma exporters", "effect": "up", "note": "large US sales in dollars, though many also import raw material in dollars, which claws part of the benefit back" },
+        { "label": "Import-heavy manufacturers", "effect": "down", "note": "sell in rupees at home but buy inputs priced in dollars, so costs rise unless they can push prices up" },
+        { "label": "Airlines", "effect": "down", "note": "tickets in rupees, but fuel and aircraft leases are dollar-linked, and fare competition makes the extra cost hard to pass on" },
+        { "label": "Companies with dollar debt", "effect": "down", "note": "the rupee value of the loan and its interest swells on its own, the exposure that can compound on the balance sheet when revenue is in rupees" },
+        { "label": "Purely domestic businesses", "effect": "neutral", "note": "a local bank or a domestic FMCG brand that earns, spends and borrows in rupees feels almost nothing directly" }
+      ],
+      "caption": "One rupee move, six different fates. The direction is not decided by the currency. It is decided by whether each company collects dollars, pays them out, or owes them."
+    }
+  ],
+  "winners": [
+    { "label": "Dollar-revenue, rupee-cost exporters", "when": "immediate", "why": "The cleanest winners are IT and services firms that bill clients in dollars and pay most of their costs, Indian engineers' salaries, in rupees. A weaker rupee lifts the rupee value of the revenue while the cost base sits still, so the gain can flow through to the margin. The catch: much of the benefit is hedged away in advance or eaten by wage inflation, so the boost is real but smaller and shorter-lived than the headline suggests." },
+    { "label": "Pharma exporters, partly", "when": "immediate", "why": "Companies with big US or European sales get the same revenue lift. But pharma buys a lot of its raw material abroad in dollars too, so a chunk of the currency gain is handed straight back on the cost side. The net benefit depends on the mix, which is exactly why 'they export, so a weak rupee helps' is a guess, not an answer." }
+  ],
+  "losers": [
+    { "label": "Import-dependent manufacturers", "when": "immediate", "why": "A company that sells to Indian customers in rupees but buys its key inputs abroad in dollars sees its cost line rise the moment the rupee falls, while its selling price is stuck in a competitive market. The margin absorbs the difference, unless the company has the pricing power to pass it on, which most in a crowded market do not." },
+    { "label": "Airlines", "when": "immediate", "why": "Tickets are sold in rupees, but jet fuel is priced off the dollar and aircraft are leased in dollars. A weaker rupee inflates two of the three biggest costs of flying at once, and fierce fare competition means the extra cost usually cannot be passed to passengers. It comes out of an already thin margin." },
+    { "label": "Firms with dollar debt and rupee earnings", "when": "delayed", "why": "This is the one that does real damage. The company did not borrow another dollar, but the rupees it needs to repay the same dollar loan keep rising. If revenue is in rupees, the debt grows faster than the business can service it. It is the trap that took Suzlon to a default, covered in full in the case study linked below." }
+  ],
+  "sections": [
+    {
+      "heading": "A weak rupee is not good or bad. It is a question.",
+      "body": [
+        "The reflex, when a headline says the rupee fell 5%, is to reach for a verdict: which stocks go up? That reflex is the mistake. A currency does not have a moral direction. It makes every dollar bigger in rupee terms, and whether that helps or hurts a company depends only on whether it collects dollars or pays them out.",        "So the useful move is not to predict the rupee. It is to look at any company and sort its dollars into three buckets: earned, spent, owed. Everything else follows from that."
+      ],
+      "diagram": "fanout:0"
+    },
+    {
+      "heading": "Case one: dollars in, rupees out",
+      "body": [
+        "Take the friendliest case first. A company earns in dollars and spends in rupees. An Indian IT services firm is the textbook example: it bills a client in New York in dollars, and its single biggest cost is the salaries of engineers in Bengaluru and Pune, paid in rupees.",
+        "When the rupee falls, the dollar invoice converts into more rupees, while the rupee salary bill does not change. The gap between the two, which is the profit, widens on its own. The firm did not win a single new client or write a single extra line of code. The currency did the work.",
+        "But the benefit is not as clean as it looks. Many IT firms hedge, locking in an exchange rate months ahead, so a fall in the rupee reaches their accounts slowly or not at all. Some costs, offshore offices, foreign staff, are themselves in dollars. And over time, engineers' salaries rise, eating the margin back. 'IT exporter' does not automatically mean 'rupee fall is pure profit'. It means the direction of the exposure points the right way, before the offsets. To see how much actually survives, we can go and look at one firm's numbers."
+      ],
+      "evidenceAfter": true
+    },
+    {
+      "heading": "Case two: rupees in, dollars out",
+      "body": [
+        "Some businesses run the other way: they earn in rupees but spend in dollars. Think of a manufacturer that sells to Indian buyers but imports its key raw material, or an airline that sells tickets in rupees but buys fuel and leases planes off the dollar.",
+        "Here the weak rupee runs the other way. Say a factory imports 1 million dollars of components a month. At 80 to the dollar that cost 8 crore rupees. At 90 it costs 9 crore, for the very same components. One crore of extra cost appeared from nowhere, purely because of the exchange rate. Meanwhile the company still sells its finished product to Indian customers at roughly the same rupee price.",
+        "That gap has to go somewhere, and it lands on one of two places. If the company has pricing power, if customers will accept a higher price, it can pass the extra cost along and protect its margin. If it does not, if it is one of many in a crowded market where nobody can move first, the extra cost comes straight out of profit. It is the same pricing-power test Fathom keeps returning to."
+      ]
+    },
+    {
+      "heading": "Case three: rupees in, dollars owed",
+      "body": [
+        "The balance sheet creates a different problem, one beginners rarely see coming, because it has nothing to do with the day-to-day business.",
+        "Suppose a company earns entirely in rupees but has borrowed 10 million dollars abroad, because foreign loans were cheaper. At 80 to the dollar, that debt is 80 crore rupees. The rupee falls to 90, and the very same debt is now 90 crore. The company did not borrow another dollar. It made no new mistake. Its loan simply grew 10 crore heavier while it slept, because it was written in a currency the business does not earn.",
+        "This is exactly what happened to Suzlon. It borrowed heavily in dollars to buy a German company, while earning in rupees. Then the rupee slid from about 44 to the dollar towards 55, and the falling rupee made an already enormous dollar debt pile, past 13,000 crore, even harder to service. In 2012 Suzlon missed a foreign-bond repayment and defaulted, among the largest India had seen. The full story is in the case study below; the point here is the pattern, not the company. When the currency you owe is not the currency you earn, a falling rupee is not an inconvenience. It is a slow-motion emergency.",
+        "Suzlon is the extreme version of the problem. The same currency mismatch can exist in a much smaller way at thousands of companies. The difference is simply how large the exposure is, and whether the business can absorb it."
+      ]
+    },
+    {
+      "heading": "Real companies are messier than three clean boxes",
+      "body": [
+        "Real companies do not fit neatly into these three boxes. Almost none sits cleanly in one. A single firm can, all at once, earn dollars from exports, spend dollars on imported material, spend euros at a European subsidiary, owe dollars on a loan, and hedge part of the whole tangle with forward contracts.",
+        "Which is why the most dangerous inference in this whole subject is 'this company exports, therefore a weak rupee is good for it'. A pharma exporter with heavy dollar raw-material costs may net out barely helped. An IT firm that has hedged aggressively may see almost nothing this year. An importer that also earns some dollars abroad may be more balanced than it looks. The label on the sector tells you nothing. Only the net position across earn, spend and owe does.",
+        "A natural hedge earns its name here. When a company's dollars flowing in roughly match its dollars flowing out, the currency swing lifts both sides and largely cancels itself. The company barely feels the rupee at all, not because it was clever, but because its exposures offset."
+      ]
+    },
+    {
+      "heading": "Where to actually look",
+      "body": [
+        "The good news is that a company usually tells you its currency position, if you know which lines to read. You do not need to predict the rupee. You need to know what happens to this company if it moves, and the annual report answers most of it.",
+        "Six places, in order. Revenue: where does the company earn, and how much is in dollars or other foreign currency? Costs: what does it buy from abroad, imported raw material, foreign services, overseas staff? Borrowings: does it have any foreign-currency debt, and how big against its rupee earnings? Hedging: has it locked in exchange rates with forward contracts, and for how much of its exposure? Sensitivity: many annual reports state directly what a set move in the currency does to profit, one of the most useful disclosures to look for. And margins: when the rupee actually moved last year, did the company's margin move the way the exposure predicted? If the story and the numbers disagree, trust the numbers.",
+        "Run those six on any company and you will know more about its currency risk than the headline ever will."
+      ]
+    }
+  ],
+  "evidence": {
+    "heading": "Same dollars, more rupees: let's check one exporter",
+    "metricLabel": "Full-year revenue growth",
+    "unit": "%",
+    "prediction": "If the mechanism is right, an exporter that earns in dollars and spends mostly in rupees should show a tell-tale gap: its revenue measured with the currency stripped out should grow slowly, but its revenue in rupees should grow faster. That gap is the currency, not extra work by the business.",
+    "predictionLabel": "The prediction",
+    "intro": [
+      "We are not claiming this is the single most currency-exposed company in India. We want one firm that clearly fits the mechanism, dollar billing against a rupee cost base, and then we check whether its numbers behave the way we would expect.",
+      "Infosys fits cleanly: the bulk of its revenue is billed in foreign currency, mostly dollars, while its largest cost by far is Indian salaries paid in rupees. So we take its full year FY25 and read two versions of the same revenue, one with currency stripped out and one as actually reported in rupees."
+    ],
+    "drivers": {
+      "bankName": "Infosys",
+      "beforeLabel": "Constant currency",
+      "afterLabel": "In rupees",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/infosys-growth-of-4-2-in-cc-operating-margin-expansion-of-0-5-in-fy25--302431561.html",
+      "sourceLabel": "Infosys FY25 results",
+      "intro": "Take Infosys's own FY25 numbers and lay the two versions of revenue growth side by side. They are the same business, the same clients, the same year. Only the currency treatment differs.",
+      "rows": [
+        {
+          "label": "Revenue growth, constant currency",
+          "before": 4.2,
+          "after": 4.2,
+          "unit": "%",
+          "takeaway": "With the currency held still, the underlying business grew 4.2%. This is the real work: deals won, clients served."
+        },
+        {
+          "label": "Revenue growth, in rupees",
+          "before": 4.2,
+          "after": 6.1,
+          "unit": "%",
+          "takeaway": "The same year, reported in rupees, grew 6.1%. The extra roughly two points came from the weaker rupee, not from more work."
+        }
+      ],
+      "summary": "The business grew 4.2%. The rupee made that look like 6.1%. Infosys did not serve more clients to earn the difference; the dollars it always earned simply converted into more rupees."
+    },
+    "banks": [],
+    "contextLine": "",
+    "directionLine": "The prediction fits: constant-currency growth of 4.2% became 6.1% in rupees for FY25. Operating margin also expanded, to 21.1%, although that improvement had several causes, not currency alone.",
+    "causeEvidence": "And the sensitivity is on the company's own record, not inferred. Infosys has long disclosed that roughly every 1% move in the rupee against the dollar shifts its operating margin by around 40 to 50 basis points ([Business Today](https://www.businesstoday.in/current/corporate/how-the-fall-in-rupee-will-affect-it-companies/story/282244.html)). A falling rupee pushes that lever the helpful way, which is why an exporter's margin can widen in a year when it did nothing different operationally.",
+    "seasonalityNote": "Two honest caveats. Constant-currency versus rupee growth captures all currency effects, including the dollar's moves against the euro and pound, not the rupee alone, so read the gap as directional, not a precise rupee-only figure. And the clean evidence here is the revenue gap, not the margin: mix, wages and efficiency all move margin too, so we do not lean on the margin expansion as currency proof.",
+    "robustness": [
+      "Could the gap be something else? Not really, but there is an important catch. Constant-currency growth is designed to remove currency effects, so the difference between it and reported rupee growth is currency translation by construction. What it does not isolate is which currency, so the gap is a currency effect, not the rupee alone.",
+      "Does the benefit last? Less than the headline suggests. Hedging delays it, rising Indian salaries erode it, and pricing pressure can swamp it. This is why a currency tailwind is best read as a one-time lift to the level of profit, not a new engine of growth."
+    ],
+    "caption": "That is what a weak rupee looks like in an exporter's numbers: not a new business, just the same dollars landing as more rupees. When the rupee falls, the number to watch for an exporter is the gap between constant-currency and reported growth."
+  },
+  "horizonsTitle": "Three clocks: the stock reacts today, the P&L next quarter, the economics over years",
+  "horizons": [
+    {
+      "event": "The rupee falls several percent against the dollar",
+      "immediate": "The stock moves first. Markets reprice the obvious names at once: exporter stocks up, importer and dollar-debtor stocks down. But hedges and existing inventory mean almost nothing has reached actual reported profit yet.",
+      "sixMonths": "The P&L catches up. The effect starts showing in results: exporters book higher rupee revenue as hedges roll off; importers report squeezed margins as cheaper old stock runs out and dearer imports flow in; companies with dollar debt show a bigger rupee loan on the balance sheet.",
+      "twoYears": "The economics settle. Exporter margins level off as wages catch up; importers with pricing power have passed the cost on and those without have taken the hit; and any company whose dollar debt outran its rupee earnings is in real trouble, while the naturally hedged barely noticed."
+    }
+  ],
+  "ignore": [
+    "The headline verdict 'rupee down, buy exporters'. It skips the two offsets and the three other exposures.",
+    "Sector labels used as currency signals. 'Exporter' and 'importer' describe the door money comes in, not the net position across earn, spend and owe.",
+    "Day-one stock moves as proof of the real impact. Hedges and inventory mean the accounts lag the currency by quarters."
+  ],
+  "focus": [
+    "The net dollar position: earned minus spent, before you form any view.",
+    "Foreign-currency debt against rupee earnings, the exposure that can compound out of control.",
+    "Whether an importer has the pricing power to pass a cost rise on, or must eat it.",
+    "The company's own hedging and sensitivity disclosures, which tell you how much of the move actually reaches profit."
+  ],
+  "questions": [
+    "What currency does this company earn, spend and owe? Fill all three before forming a view.",
+    "Do its dollars in and dollars out roughly cancel? A natural hedge makes the 'exporter' or 'importer' label misleading.",
+    "If it imports and the rupee falls, can it raise prices, or will the cost sit in its margin?",
+    "Does it have foreign-currency debt against rupee earnings, and how large is it relative to profit?",
+    "Has it hedged, and does its annual report state what a currency move does to profit?"
+  ],
+  "historyRhymes": [
+    { "event": "Rupee slides from about 44 to 55 per dollar, 2008 to 2012", "similar": "Suzlon's dollar debt swelled on its own while it earned rupees, tipping it into a 2012 default", "model": "Currency-mismatched debt: a loan in a currency you do not earn grows heavier as the rupee falls, without borrowing more" },
+    { "event": "Taper tantrum, 2013: rupee falls sharply past 68 as foreign money exits", "similar": "IT and pharma exporters rallied on the rupee tailwind while importers and dollar-borrowers were punished", "model": "FX exposure: the same shock split the market by whether a company collects dollars or pays them, not by sector" }
+  ],
+  "yourTurn": {
+    "prompt": "A well-known Indian tyre maker sells most of its tyres to Indian vehicle owners, in rupees. It imports a significant share of its raw materials, with some inputs priced in dollars. It also has a modest dollar loan. The rupee falls 8%. What happens?",
+    "questions": [
+      "What does it earn in, and what does it spend on imports in?",
+      "Which way does the currency push its costs, and can it raise tyre prices to match?",
+      "What happens to the rupee value of that dollar loan?"
+    ],
+    "reveal": [
+      "Earnings are in rupees, so the weak rupee does nothing good on the revenue side. Costs are the problem: part of its inputs is dollar-priced, so the cost line rises the moment the rupee falls. This is Case two, an importer.",
+      "Whether it survives the squeeze depends on pricing power. If the tyre market lets it raise prices, the hit is passed to buyers. If competition is fierce, the extra cost sits in the margin. So the real question is not the rupee, it is how much pricing power the tyre maker has.",
+      "And the dollar loan is Case three in miniature: its rupee value rises 8% too, adding a balance-sheet cost on top of the operating one. Small here, but the same mechanism that, scaled up, broke Suzlon. Notice the point: one company, two exposures pushing the same way, and not a single dollar of extra revenue to offset them. 'It makes tyres in India' told you nothing. The three buckets told you everything."
+    ]
+  },
+  "relatedSectors": [
+    "saas",
+    "airlines",
+    "power"
+  ],
+  "relatedCaseStudies": [
+    "suzlon-the-sadness-2008-2026",
+    "jet-airways-the-market-leader-that-vanished-1993-2024"
+  ],
+  "sources": [
+    {
+      "label": "Infosys FY25 results: 4.2% constant-currency growth, 6.1% in rupees, operating margin 21.1%",
+      "url": "https://www.prnewswire.com/news-releases/infosys-growth-of-4-2-in-cc-operating-margin-expansion-of-0-5-in-fy25--302431561.html"
+    },
+    {
+      "label": "Business Today: how a falling rupee affects IT companies (roughly 40 bps of margin per 1% move)",
+      "url": "https://www.businesstoday.in/current/corporate/how-the-fall-in-rupee-will-affect-it-companies/story/282244.html"
+    },
+    {
+      "label": "Deccan Herald: rupee depreciation a direct tailwind for IT firms' margins",
+      "url": "https://www.deccanherald.com/business/markets/rupee-depreciation-likely-to-provide-direct-tailwind-for-profit-margins-of-it-firms-4010168"
+    },
+    {
+      "label": "News on Air (Prasar Bharati): rupee hits a record low against the US dollar, part of the 2024 to 2026 slide to the high 80s",
+      "url": "https://newsonair.gov.in/rupee-hits-record-low-of-87-57-against-us-dollar"
+    },
+    {
+      "label": "FXStreet: rupee near 95.70 to the dollar in August 2026 on higher oil prices, with the RBI intervening repeatedly",
+      "url": "https://www.fxstreet.com/news/indian-rupee-ticks-up-on-possible-rbis-intervention-202608180534"
+    }
+  ],
+  "lesson": "A falling rupee is not good or bad for Indian companies. It makes every dollar bigger in rupee terms, which helps a company that earns dollars, hurts one that spends them, and endangers one that owes them while earning rupees. The direction is decided by exposure across earn, spend and owe, not by the sector label. And foreign-currency debt deserves special attention, because it can compound on the balance sheet faster than the business can carry it.",
+  "remember": "The next time a headline says the rupee fell, do not ask which stocks go up. Ask three questions: what does the company earn, what does it spend, and what does it owe? That is where the real answer begins."
+}

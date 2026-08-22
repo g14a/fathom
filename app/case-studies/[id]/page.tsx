@@ -1,5 +1,6 @@
 import { getAllCaseStudies, getCaseStudy } from '@/lib/caseStudies';
 import { getSector } from '@/lib/sectors';
+import { getPatternForCaseStudy, patternPath } from '@/lib/patterns';
 import type { Metadata } from 'next';
 import { withBase, canonical, formatDate } from '@/lib/base';
 import Connections from '@/components/Connections';
@@ -1016,6 +1017,7 @@ function renderDiagram(id: string): React.ReactNode {
 export default async function CaseStudyPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const c = getCaseStudy(id)!;
+  const ownPattern = getPatternForCaseStudy(c.id);
 
   const articleLd = {
     '@context': 'https://schema.org',
@@ -1288,11 +1290,14 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
       </div>
 
       <Connections
-        title="Related case studies"
-        items={(c.relatedCaseStudies ?? [])
-          .map((rid) => getCaseStudy(rid))
-          .filter((r): r is NonNullable<typeof r> => Boolean(r))
-          .map((r) => ({ kicker: 'Case study', name: r.title, href: `/case-studies/${r.id}/`, variant: 'case' as const }))}
+        title="Related reading"
+        items={[
+          ...(ownPattern ? [{ kicker: 'Pattern', name: ownPattern.name, href: patternPath(ownPattern.slug) }] : []),
+          ...(c.relatedCaseStudies ?? [])
+            .map((rid) => getCaseStudy(rid))
+            .filter((r): r is NonNullable<typeof r> => Boolean(r))
+            .map((r) => ({ kicker: 'Case study', name: r.title, href: `/case-studies/${r.id}/`, variant: 'case' as const })),
+        ]}
       />
 
       {c.stockSlug && (

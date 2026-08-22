@@ -2,6 +2,7 @@ import { getAllSectors, getSector } from '@/lib/sectors';
 import type { PrimerBlock } from '@/lib/sectors';
 import { getCaseStudy, getAllCaseStudies } from '@/lib/caseStudies';
 import { getAllTickers, getReport, getAllReports } from '@/lib/data';
+import { getPatternForCaseStudy, patternPath } from '@/lib/patterns';
 import type { Metadata } from 'next';
 import { withBase, canonical } from '@/lib/base';
 import Connections from '@/components/Connections';
@@ -236,6 +237,15 @@ export default async function SectorPage({ params }: { params: Promise<{ sector:
         const bySector = getAllReports().filter((rp) => rp.sectorId === s.id);
         const relReports = [...new Map([...bySector, ...curated].map((rp) => [rp.slug, rp])).values()];
         const models = s.mentalModels ?? [];
+        // Patterns the sector's case studies demonstrate, deduped.
+        const relPatterns = Array.from(
+          new Map(
+            mergedCases
+              .map((c) => getPatternForCaseStudy(c.id))
+              .filter((p): p is NonNullable<typeof p> => Boolean(p))
+              .map((p) => [p.slug, p]),
+          ).values(),
+        );
         return (
           <Connections
             title="Take these ideas further"
@@ -244,6 +254,7 @@ export default async function SectorPage({ params }: { params: Promise<{ sector:
               ...relSectors.map((r) => ({ kicker: 'Sector', name: r!.name, href: `/sectors/${r!.id}/` })),
               ...relReports.map((r) => ({ kicker: 'Report', name: r.company, href: `/stocks/${r.slug}/` })),
               ...mergedCases.map((c) => ({ kicker: 'Case study', name: c.title, href: `/case-studies/${c.id}/`, variant: 'case' as const })),
+              ...relPatterns.map((p) => ({ kicker: 'Pattern', name: p.name, href: patternPath(p.slug) })),
             ]}
           />
         );

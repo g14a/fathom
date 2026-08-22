@@ -37,7 +37,14 @@ export default async function StockPage({ params }: { params: Promise<{ ticker: 
     author: ORG,
     publisher: ORG,
     ...(r.asOf ? { datePublished: r.asOf, dateModified: r.asOf } : {}),
-    about: { '@type': 'Corporation', name: r.company },
+    about: {
+      '@type': 'Corporation',
+      name: r.company,
+      tickerSymbol: r.ticker,
+      description: r.oneLiner,
+      url: canonical(`/stocks/${ticker}/`),
+      ...(r.industry || r.sector ? { industry: r.industry || r.sector } : {}),
+    },
   };
   return (
     <>

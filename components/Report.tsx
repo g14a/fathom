@@ -5,6 +5,7 @@ import type {
 } from '@/lib/types';
 import { getSector } from '@/lib/sectors';
 import { getCaseStudiesForTicker } from '@/lib/caseStudies';
+import { getPatternForCaseStudy, patternPath } from '@/lib/patterns';
 import { getAllSignals } from '@/lib/signals';
 import { getAllReports } from '@/lib/data';
 import { withBase, formatDate } from '@/lib/base';
@@ -358,6 +359,16 @@ export function Report({ r }: { r: TickerReport }) {
     ? getAllSignals().filter((s) => s.kind !== 'Primer' && (s.relatedSectors ?? []).includes(crumbSector.id))
     : [];
   const relatedCases = getCaseStudiesForTicker(r.ticker);
+  // Patterns those case studies demonstrate, deduped, so a company links to the
+  // reusable shape behind its own story, not just the story.
+  const relatedPatterns = Array.from(
+    new Map(
+      relatedCases
+        .map((cs) => getPatternForCaseStudy(cs.id))
+        .filter((p): p is NonNullable<typeof p> => Boolean(p))
+        .map((p) => [p.slug, p]),
+    ).values(),
+  );
   // Other companies in the same sector, so every report links to its siblings both
   // ways and the sector forms a tight internal-link cluster.
   const siblingCompanies = r.sectorId
@@ -584,6 +595,7 @@ export function Report({ r }: { r: TickerReport }) {
           ...siblingCompanies.map((x) => ({ kicker: 'Company', name: x.company, href: `/stocks/${x.slug}/` })),
           ...relatedSignals.map((s) => ({ kicker: 'Signal', name: s.title, href: `/signals/${s.id}/` })),
           ...relatedCases.map((cs) => ({ kicker: 'Case study', name: cs.title, href: `/case-studies/${cs.id}/`, variant: 'case' as const })),
+          ...relatedPatterns.map((p) => ({ kicker: 'Pattern', name: p.name, href: patternPath(p.slug) })),
         ]}
       />
 

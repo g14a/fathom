@@ -91,6 +91,7 @@ export interface SignalEvidence {
     beforeLabel: string;
     afterLabel: string;
     sourceUrl: string;
+    sourceLabel?: string; // named link text for the source (falls back to "<bankName> results")
     intro: string;
     rows: SignalEvidenceDriver[];
     summary: string;    // the one-line reading of the three rows together
@@ -120,6 +121,7 @@ export interface Signal {
   title: string;
   kind: string;        // e.g. "Primer", "Rate decision", "Union Budget", "Tariffs"
   dateline: string;    // e.g. "Start here" or "Feb 2025"
+  published?: string;  // ISO date (YYYY-MM-DD) this signal went live; drives Article dates and sitemap lastmod
   tags: string[];
   summary: string;     // one-line hook for the index card
   seoTitle?: string;   // search-oriented <title> (the visible H1 stays editorial)

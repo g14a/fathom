@@ -1,6 +1,8 @@
 import React from 'react';
 import Connections from '@/components/Connections';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import JsonLd, { ORG } from '@/components/JsonLd';
+import { getPatternForCaseStudy, patternPath } from '@/lib/patterns';
 import { getAllSignals, getSignal } from '@/lib/signals';
 import { getAllReports } from '@/lib/data';
 import { getSector } from '@/lib/sectors';
@@ -111,11 +113,12 @@ function renderEvidence(ev: import('@/lib/signals').SignalEvidence, key: React.K
           </div>
           <p className="cs-para">
             {inline(d.summary)}{' '}
-            <a href={d.sourceUrl} target="_blank" rel="noopener noreferrer">Source</a>.
+            (<a href={d.sourceUrl} target="_blank" rel="noopener noreferrer">{d.sourceLabel ?? `${d.bankName} results`}</a>).
           </p>
         </>
       )}
 
+      {ev.banks.length > 0 && (
       <figure className="sig-slope">
         <figcaption className="sig-slope-title">
           {ev.metricLabel}: {bl} versus {al}
@@ -154,8 +157,9 @@ function renderEvidence(ev: import('@/lib/signals').SignalEvidence, key: React.K
           })}
         </div>
       </figure>
+      )}
 
-      <p className="cs-para"><strong>{inline(ev.directionLine)}</strong></p>
+      <p className="cs-para">{inline(ev.directionLine)}</p>
       {ev.causeEvidence && <p className="cs-para">{inline(ev.causeEvidence)}</p>}
       {ev.contrast && (
         <div className="sig-ev-contrast">
@@ -245,11 +249,56 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
 
   const relSectors = (s.relatedSectors ?? []).map((sid) => getSector(sid)).filter(Boolean);
   const relCases = (s.relatedCaseStudies ?? []).map((cid) => getCaseStudy(cid)).filter(Boolean);
+  // Patterns the related case studies demonstrate, deduped, so a signal links the
+  // macro event straight to the reusable business mechanism behind it.
+  const relPatterns = Array.from(
+    new Map(
+      (s.relatedCaseStudies ?? [])
+        .map((cid) => getPatternForCaseStudy(cid))
+        .filter((p): p is NonNullable<typeof p> => Boolean(p))
+        .map((p) => [p.slug, p]),
+    ).values(),
+  );
   // Company reports whose sector this signal moves.
   const relReports = getAllReports().filter((r) => (s.relatedSectors ?? []).includes(r.sectorId ?? ''));
 
+  // Structured data so answer engines can parse the signal as an article, and
+  // quote its question/answer pairs. Markdown links are flattened to plain text.
+  const plain = (t: string) => t.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+  const articleLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: s.title,
+    description: s.seoDescription ?? s.summary,
+    articleSection: 'Signal',
+    keywords: s.tags.join(', '),
+    mainEntityOfPage: canonical(`/signals/${id}/`),
+    author: ORG,
+    publisher: ORG,
+    ...(s.published ? { datePublished: s.published, dateModified: s.published } : {}),
+  };
+  const faqPairs: { q: string; a: string }[] = [];
+  if (s.title.includes('?')) faqPairs.push({ q: s.title, a: plain(s.lesson) });
+  if (s.trigger && s.triggerBody?.length) {
+    faqPairs.push({ q: s.trigger, a: plain(s.triggerBody.join(' ')) });
+  }
+  if (s.yourTurn) faqPairs.push({ q: s.yourTurn.prompt, a: plain(s.yourTurn.reveal.join(' ')) });
+  const faqLd = faqPairs.length
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqPairs.map((p) => ({
+          '@type': 'Question',
+          name: p.q,
+          acceptedAnswer: { '@type': 'Answer', text: p.a },
+        })),
+      }
+    : null;
+
   return (
     <div className="wrap report sig-page">
+      <JsonLd data={articleLd} />
+      {faqLd && <JsonLd data={faqLd} />}
       <Breadcrumbs items={[{ name: 'Signals', path: '/signals/' }, { name: s.title }]} />
 
       <div className="csd-head">
@@ -495,6 +544,7 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
             ...relReports.map((r) => ({ kicker: 'Company', name: r.company, href: `/stocks/${r.slug}/` })),
             ...relSectors.map((sec) => ({ kicker: 'Sector', name: sec!.name, href: `/sectors/${sec!.id}/` })),
             ...relCases.map((c) => ({ kicker: 'Case study', name: c!.company, href: `/case-studies/${c!.id}/`, variant: 'case' as const })),
+            ...relPatterns.map((p) => ({ kicker: 'Pattern', name: p.name, href: patternPath(p.slug) })),
           ]}
         />
 

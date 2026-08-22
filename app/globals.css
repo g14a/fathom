@@ -1059,6 +1059,12 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .sig-fanout-label { font-size: 15px; font-weight: 600; color: var(--ink); white-space: nowrap; }
 .sig-fanout-note { font-size: 14px; color: var(--ink-dim); line-height: 1.5; }
 .sig-fanout-cap { font-size: 14px; color: var(--ink-dim); line-height: 1.6; margin-top: 14px; font-style: italic; }
+@media (max-width: 560px) {
+  .sig-fanout { padding: 18px 16px 16px; }
+  .sig-fanout-branch { flex-wrap: wrap; column-gap: 8px; row-gap: 4px; }
+  .sig-fanout-label { white-space: normal; }
+  .sig-fanout-note { flex-basis: 100%; }
+}
 
 /* Signals: horizon + rhymes tables */
 .sig-horizon-wrap { margin-top: 18px; overflow-x: auto; border: 1px solid var(--border); border-radius: 12px; }

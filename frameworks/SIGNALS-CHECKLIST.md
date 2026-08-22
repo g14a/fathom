@@ -4,7 +4,9 @@ Reference for writing a signal in `data/signals/*.json`. A signal explains a
 market-moving event (a Budget, an RBI rate decision, a tariff, a fuel-price move) as
 a change to business economics, not as news. It sits on top of the voice, formatting
 and honesty rules in the repo `CLAUDE.md` (no em-dashes, no spaced hyphens, beginner
-voice, never fabricate) and the case-study guides, which still apply.
+voice, never fabricate) and the case-study guides, which still apply. Read
+`ANTI-AI-SLOP.md` too: signals are the format most prone to manufactured three-part
+structures, rhetorical opposites and quotable-line density. Ration them hard.
 
 ## Goal
 

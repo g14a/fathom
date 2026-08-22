@@ -4,8 +4,8 @@ Reference for the voice of company reports (`data/*.json`, the `TickerReport`
 prose). Sector explainers have their own guide (`WRITING-GUIDE.md`); this one is
 for the per-company reports. It sits on top of the voice, formatting and honesty
 rules in the repo `CLAUDE.md` (no em-dashes, no spaced hyphens, beginner voice,
-never fabricate, no buy/sell rating) and the no-repeat rule in `CLAUDE.md`, which
-still apply in full.
+never fabricate, no buy/sell rating) and the no-repeat rule in `CLAUDE.md`, plus
+`ANTI-AI-SLOP.md` in this `frameworks/` directory, which still apply in full.
 
 The problem this file fixes: the reports read like a competent sell-side analyst
 or an AI. Correct, neutral, balanced, and lifeless. The case studies and the
