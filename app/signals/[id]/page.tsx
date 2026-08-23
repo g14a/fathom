@@ -129,8 +129,12 @@ function renderEvidence(ev: import('@/lib/signals').SignalEvidence, key: React.K
             const c = EVIDENCE_COLORS[i % EVIDENCE_COLORS.length];
             const chg = (b.after - b.before);
             const fmt = (n: number) => n.toLocaleString('en-IN', { maximumFractionDigits: 2 });
-            const isAbs = ev.deltaUnit && ev.deltaUnit !== 'bps';
-            const deltaText = isAbs
+            const isPct = ev.deltaUnit === 'pct';
+            const isAbs = ev.deltaUnit && ev.deltaUnit !== 'bps' && !isPct;
+            const pctChg = b.before ? (b.after / b.before - 1) * 100 : 0;
+            const deltaText = isPct
+              ? `${pctChg > 0 ? '+' : ''}${pctChg.toFixed(2)}%`
+              : isAbs
               ? `${chg > 0 ? '+' : ''}${fmt(chg)}${ev.deltaUnit}`
               : `${chg > 0 ? '+' : ''}${(chg * 100).toFixed(0)} bps`;
             const deltaClass = chg >= 0 ? 'sig-ev-up' : 'sig-ev-down';
@@ -359,7 +363,7 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
                         <span className="sig-actor-label">{a.label}</span>
                         {a.when && <span className="sig-actor-when">{WHEN_LABEL[a.when] ?? a.when}</span>}
                       </div>
-                      <p className="sig-actor-why">{a.why}</p>
+                      <p className="sig-actor-why">{inline(a.why)}</p>
                     </div>
                   ))}
                 </div>
@@ -373,7 +377,7 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
                         <span className="sig-actor-label">{a.label}</span>
                         {a.when && <span className="sig-actor-when">{WHEN_LABEL[a.when] ?? a.when}</span>}
                       </div>
-                      <p className="sig-actor-why">{a.why}</p>
+                      <p className="sig-actor-why">{inline(a.why)}</p>
                     </div>
                   ))}
                 </div>

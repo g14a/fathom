@@ -83,7 +83,7 @@
       "body": [
         "Some businesses run the other way: they earn in rupees but spend in dollars. Think of a manufacturer that sells to Indian buyers but imports its key raw material, or an airline that sells tickets in rupees but buys fuel and leases planes off the dollar.",
         "Here the weak rupee runs the other way. Say a factory imports 1 million dollars of components a month. At 80 to the dollar that cost 8 crore rupees. At 90 it costs 9 crore, for the very same components. One crore of extra cost appeared from nowhere, purely because of the exchange rate. Meanwhile the company still sells its finished product to Indian customers at roughly the same rupee price.",
-        "That gap has to go somewhere, and it lands on one of two places. If the company has pricing power, if customers will accept a higher price, it can pass the extra cost along and protect its margin. If it does not, if it is one of many in a crowded market where nobody can move first, the extra cost comes straight out of profit. It is the same pricing-power test Fathom keeps returning to."
+        "That gap has to go somewhere, and it lands on one of two places. If the company has pricing power, if customers will accept a higher price, it can pass the extra cost along and protect its margin. If it does not, if it is one of many in a crowded market where nobody can move first, the extra cost comes straight out of profit. It is the same pricing-power test that decides who keeps a cost windfall and who absorbs a cost shock."
       ]
     },
     {
@@ -154,7 +154,7 @@
     "seasonalityNote": "Two honest caveats. Constant-currency versus rupee growth captures all currency effects, including the dollar's moves against the euro and pound, not the rupee alone, so read the gap as directional, not a precise rupee-only figure. And the clean evidence here is the revenue gap, not the margin: mix, wages and efficiency all move margin too, so we do not lean on the margin expansion as currency proof.",
     "robustness": [
       "Could the gap be something else? Not really, but there is an important catch. Constant-currency growth is designed to remove currency effects, so the difference between it and reported rupee growth is currency translation by construction. What it does not isolate is which currency, so the gap is a currency effect, not the rupee alone.",
-      "Does the benefit last? Less than the headline suggests. Hedging delays it, rising Indian salaries erode it, and pricing pressure can swamp it. This is why a currency tailwind is best read as a one-time lift to the level of profit, not a new engine of growth."
+      "Does the benefit last? Less than the headline suggests. Hedging delays it, rising Indian salaries erode it, and pricing pressure can swamp it. This is why a weaker rupee is best read as a one-time lift to the level of profit, not a new engine of growth."
     ],
     "caption": "That is what a weak rupee looks like in an exporter's numbers: not a new business, just the same dollars landing as more rupees. When the rupee falls, the number to watch for an exporter is the gap between constant-currency and reported growth."
   },
@@ -187,7 +187,7 @@
   ],
   "historyRhymes": [
     { "event": "Rupee slides from about 44 to 55 per dollar, 2008 to 2012", "similar": "Suzlon's dollar debt swelled on its own while it earned rupees, tipping it into a 2012 default", "model": "Currency-mismatched debt: a loan in a currency you do not earn grows heavier as the rupee falls, without borrowing more" },
-    { "event": "Taper tantrum, 2013: rupee falls sharply past 68 as foreign money exits", "similar": "IT and pharma exporters rallied on the rupee tailwind while importers and dollar-borrowers were punished", "model": "FX exposure: the same shock split the market by whether a company collects dollars or pays them, not by sector" }
+    { "event": "Taper tantrum, 2013: rupee falls sharply past 68 as foreign money exits", "similar": "IT and pharma exporters rallied as the weaker rupee fattened their dollar earnings, while importers and dollar-borrowers were punished", "model": "FX exposure: the same shock split the market by whether a company collects dollars or pays them, not by sector" }
   ],
   "yourTurn": {
     "prompt": "A well-known Indian tyre maker sells most of its tyres to Indian vehicle owners, in rupees. It imports a significant share of its raw materials, with some inputs priced in dollars. It also has a modest dollar loan. The rupee falls 8%. What happens?",

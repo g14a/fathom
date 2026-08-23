@@ -27,9 +27,13 @@ Two kinds of file live here: **mental models** (how to think about a business) a
   case study (`data/case-studies/*.json`). Verify, do not rewrite.
 - [EDITORIAL-IMPROVEMENTS.md](EDITORIAL-IMPROVEMENTS.md) Editorial notes and improvement
   patterns for sector explainers and case studies.
-- [SIGNALS-CHECKLIST.md](SIGNALS-CHECKLIST.md) How to write a signal
-  (`data/signals/*.json`): explain a market-moving event as a change to business
-  economics, not as news.
+- [SIGNALS-CHECKLIST.md](SIGNALS-CHECKLIST.md) How to *build* a signal
+  (`data/signals/*.json`): the structural checklist. Explain a market-moving event as
+  a change to business economics, not as news.
+- [SIGNAL-VOICE.md](SIGNAL-VOICE.md) How a signal should *sound*: the News to obvious
+  reading to hidden mechanism to prediction to evidence to lesson move, predict before
+  evidence, ration metaphors, and the signal-specific AI-tell blocklist. Read it
+  alongside SIGNALS-CHECKLIST when writing or editing any signal.
 - [ANTI-AI-SLOP.md](ANTI-AI-SLOP.md) How to keep prose sounding like a teacher, not
   a machine: ration three-part structures, rhetorical opposites, formulaic
   transitions and quotable-line density. Applies to every format.
@@ -42,5 +46,5 @@ Two kinds of file live here: **mental models** (how to think about a business) a
 | Write or edit a sector explainer | WRITING-GUIDE |
 | Write a company report (`data/*.json`) | MENTAL-MODELS-CHECKLIST to judge it, then REPORTS-VOICE for how it reads |
 | Write a case study | WRITING-GUIDE, then EDITORIAL-CHECKLIST to verify |
-| Write a signal | SIGNALS-CHECKLIST |
+| Write a signal | SIGNALS-CHECKLIST to build it, then SIGNAL-VOICE for how it reads |
 | Final voice pass on any prose | ANTI-AI-SLOP |
