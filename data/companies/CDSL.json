@@ -357,7 +357,7 @@
   "holding": [
     {
       "label": "Promoter",
-      "pct": 15.0,
+      "pct": 15,
       "qoqChange": 0
     },
     {
@@ -388,7 +388,6 @@
     "note": "The moat is wide, with one honest caveat. SEBI sets the toll, so CDSL cannot price its way to fatter returns; it can only push more traffic through. The moat protects the business from ever being displaced and guarantees it earns something on every account. What it cannot do is smooth the swings in trading and IPO activity. A wide moat and high returns, yes, but the regulator holds the price list, and the market sets the traffic."
   },
   "narrative": "The last five years split cleanly into a boom and a cold snap. From FY22 to FY25, revenue nearly doubled and profit tripled: demat accounts were exploding, trading was hot, and the retail equity revolution was in full swing. Then FY26 arrived and the market cooled. Retail trading slowed. The IPO calendar went quiet. Transaction charges (27% of revenue) sagged, and IPO and corporate-action fees (another 11%) fell away. Revenue still edged up 5.8%, because the yearly account charges kept climbing, but profit dropped 13.5%, because the fixed cost base did not shrink to match. That is the cyclicality of this business, written out in numbers rather than warned about in theory.",
-  "priceAction": "The stock touched ₹1,674 in the past year, fell to ₹1,116, and has since recovered to ₹1,344, a 14% net loss over twelve months even as accounts grew. The slide began when Q4 FY26 results showed profit down 20% year on year, and the market swung from pricing in an endless boom to pricing in the cyclical reality. At ₹1,344 the stock still sits near its highs relative to earnings, which says the de-rating has paused and investors are now waiting to see whether trading volumes come back.",
   "risks": [
     "The multiple itself. At 61 times earnings for a business earning 31% ROE, the stock is pricing in swift recovery of trading and IPO volumes. If that recovery takes years rather than quarters, the multiple has nowhere to hide. High risk.",
     "Trading volume cyclicality. A bear market or recession would crater transaction fees. FY26 proved the volatility is real. Medium-High risk.",

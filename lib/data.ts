@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import type { TickerReport } from './types';
 
-const DATA_DIR = path.join(process.cwd(), 'data');
+const DATA_DIR = path.join(process.cwd(), 'data', 'companies');
 
 export function getAllTickers(): string[] {
   return fs

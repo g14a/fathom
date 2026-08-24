@@ -232,7 +232,7 @@
       "revenue": 31209,
       "netProfit": 10607,
       "eps": 263.79,
-      "patMargin": 34.0
+      "patMargin": 34
     }
   ],
   "ratios": [
@@ -376,7 +376,6 @@
     "note": "The moat is narrow but real. Muthoot is the household name in gold lending because of its reach and the trust it has earned. The honest caveat: this is still a commodity (cash) lent against a commodity (gold). A bank can walk into the same town and undercut on rate, because its cost of funds is lower, and Manappuram and IIFL compete head-on. So the moat is scale and geography, not pricing power. It wins Muthoot the customer. It does not let Muthoot name the price."
   },
   "narrative": "The last three years are one story told in the price of gold. Gold climbed, and Muthoot rode it. Higher gold did two useful things at once: it padded the collateral behind every existing loan, so defaults stayed rare, and it widened the room to lend on each bangle without breaching the regulator's loan-to-value cap (around 60% today, with the new April 2026 RBI norms setting a tiered 85/80/75% by loan size). So the loan book jumped 49% in FY26, profit nearly doubled, and ROE reached 31%. It looked wonderful, because it was, for a while. Then Q1 FY27 showed the seams: with gold steadying and banks competing harder, the margin gave up 297 basis points in one quarter. The tide had started to go out.",
-  "priceAction": "The stock climbed 32% over three years, then went flat over the last one, sitting around ₹2,840. It trades at just 10 times earnings, well under Bajaj Finance at 20x and cheaper than most quality NBFCs. The 52-week range, ₹2,603 to ₹4,150, holds both moods: the ₹4,150 top when the gold boom looked permanent, and the slide back toward ₹2,603 as the market started pricing a pullback.",
   "risks": [
     "Gold price correction. A 15-20% fall in gold prices would compress collateral cushions, reduce lending room, and squeeze margins. Fitch flags this as where stress testing begins for gold NBFCs. High.",
     "Competitive pressure from banks. SBI, HDFC, Axis are cutting gold-loan rates and pulling customers. The Q1 FY27 NIM compression is proof. Medium-High.",

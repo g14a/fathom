@@ -250,7 +250,7 @@
       "revenue": 10890,
       "netProfit": 2072,
       "eps": 1.53,
-      "patMargin": 19.0
+      "patMargin": 19
     },
     {
       "year": "FY26",
@@ -386,7 +386,6 @@
     "note": "The moat is not the turbine, which rivals can build too. It is the installed fleet and the service crews wrapped around it: once Suzlon's machines are up, the owner tends to keep paying Suzlon to run them, and that book only grows as the fleet grows. The numbers back it up. The O&M business earns a reported 40.5% EBITDA margin on a 15.7 GW base, with contractual price escalation built in. The honest caveat is what the moat does not defend. It does not stop a better-funded rival winning the next auction on price. Service contracts can in principle be re-tendered. And it does nothing against a technology cycle, which is exactly the flank that wounded Suzlon before. Narrow, genuinely strong in service, and exposed on the manufacturing side."
   },
   "narrative": "For a decade Suzlon was the cautionary tale of Indian markets: a 2007-08 global buying spree funded with dollar debt, a technology cycle it fell behind on, and a balance sheet that buckled under roughly ₹12,000 cr of borrowings. Then the story flipped. A debt-for-equity restructuring and a ₹2,000 cr raise cleaned up the balance sheet, India's renewable push pulled wind demand back, and deliveries ramped hard. Revenue went from ₹6,529 cr in FY24 to ₹16,732 cr in FY26, profit turned durable, and the company reached net cash. The stock rose 5x into 2025 on that recovery, then gave back about a quarter of its value through 2026 as the market started questioning margins and valuation. One caution on the numbers: FY23's eye-catching 48% profit margin was a restructuring one-off, so read the real operating margin as the ~19% of the last two years.",
-  "priceAction": "Roughly ₹63 down to ₹48.2 over twelve months, about a 24% fall, off the ₹65 high and well above the ₹38 low (the stock had touched ₹74 back in May 2025). FY26 profit grew ~53% over the same window, so the fall was a de-rating, not a business breaking. Why the multiple came down, and whether the Q1 FY27 wobble justifies it, is the two-engine read below.",
   "risks": [
     "Cyclicality and auction dependence. Turbine demand is lumpy and set by government auction calendars and capex cycles, so a slow year hits volumes and exposes the fixed-cost base. High.",
     "Margin and cash at scale. Q1 FY27 profit fell 6% while revenue rose 23% on higher fixed costs and a ~30% jump in interest expense, and FY26 operating cash was only 38% of profit. Medium-High.",

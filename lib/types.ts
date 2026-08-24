@@ -45,6 +45,8 @@ export interface EngineAssessment {
   state: EngineState;
   earnings: string;     // narrative
   multiple: string;
+  earningsLabel?: string; // box heading, defaults to "Earnings engine"
+  multipleLabel?: string; // box heading, defaults to "Multiple engine"
   verdict: string;
 }
 
@@ -93,8 +95,9 @@ export interface AiFork {
 }
 
 export interface Scorecard {
+  title?: string;       // block heading; defaults to "AI Transition Scorecard"
   intro?: string;       // one line: what this table is for
-  rows: { metric: string; good: string; bad: string; why: string }[];
+  rows: { metric: string; testing?: string; good: string; bad: string; why: string }[];
   note?: string;
 }
 
@@ -224,10 +227,7 @@ export interface TickerReport {
   // 9. narrative
   narrative: string;
 
-  // 10. price action
-  priceAction: string;
-
-  // 11. risks
+  // 10. risks
   risks: string[];
 
   // 11b. trap detection

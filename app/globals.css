@@ -243,6 +243,7 @@ section.block:first-of-type { border-top: none; }
 .sc-row { border-top: 1px solid var(--border); }
 .sc-row span { padding: 12px 16px; font-size: 14px; }
 .sc-metric { color: var(--ink); }
+.sc-test { display: block; margin-top: 5px; font-size: 12.5px; font-style: italic; text-transform: none; letter-spacing: 0; color: var(--ink-faint); }
 .sc-good { color: var(--good); }
 .sc-bad { color: var(--bad); }
 .sc-why { color: var(--ink-dim); }

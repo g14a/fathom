@@ -171,7 +171,7 @@ function Scorecard({ s }: { s: ScorecardT }) {
         </div>
         {s.rows.map((row, i) => (
           <div key={i} className="sc-row">
-            <span className="sc-metric">{row.metric}</span>
+            <span className="sc-metric">{row.metric}{row.testing && <span className="sc-test">{row.testing}</span>}</span>
             <span className="sc-good">{row.good}</span>
             <span className="sc-bad">{row.bad}</span>
             <span className="sc-why">{row.why}</span>
@@ -514,7 +514,6 @@ export function Report({ r }: { r: TickerReport }) {
 
       <Block num="11" title="The Story So Far">
         <p>{r.narrative}</p>
-        <p className="tight"><strong style={{ color: 'var(--ink)' }}>Price action (12M):</strong> {r.priceAction}</p>
       </Block>
 
       {r.caseStudies?.map((cs, i) => (
@@ -555,8 +554,8 @@ export function Report({ r }: { r: TickerReport }) {
 
       <Block num="14" title="Two-Engine Assessment">
         <div className="engine-grid">
-          <div className="engine-box"><h4>Earnings engine</h4><p>{r.engine.earnings}</p></div>
-          <div className="engine-box"><h4>Multiple engine</h4><p>{r.engine.multiple}</p></div>
+          <div className="engine-box"><h4>{r.engine.earningsLabel ?? 'Earnings engine'}</h4><p>{r.engine.earnings}</p></div>
+          <div className="engine-box"><h4>{r.engine.multipleLabel ?? 'Multiple engine'}</h4><p>{r.engine.multiple}</p></div>
         </div>
         <div className="engine-verdict">{r.engine.verdict}</div>
       </Block>
@@ -573,7 +572,7 @@ export function Report({ r }: { r: TickerReport }) {
       </Block>
 
       {r.scorecard && (
-        <Block num="15.1" title="AI Transition Scorecard">
+        <Block num="15.1" title={r.scorecard.title ?? 'AI Transition Scorecard'}>
           <Scorecard s={r.scorecard} />
         </Block>
       )}
