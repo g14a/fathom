@@ -234,6 +234,7 @@ export type SimpleBlock =
       to: string;
       fromSub?: string;                                // small line under `from` (e.g. a year)
       toSub?: string;                                  // small line under `to`
+      toTone?: 'good' | 'bad';                         // colour the `to` value (e.g. red for a loss)
       delta?: string;                                  // change badge, e.g. "+147%"
       label: string;                                   // what the number is
       bars?: { label: string; value: number; display: string }[];

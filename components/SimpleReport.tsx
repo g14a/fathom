@@ -11,7 +11,7 @@ import { GraduateCTA } from '@/components/GraduateCTA';
 
 // Turn "...each month. [[ARPU|The average bill.|Airtel has millions.]]" into
 // text with a tappable chip. Markup is [[term|def]] or [[term|def|context]].
-function rich(text: string): React.ReactNode[] {
+export function rich(text: string): React.ReactNode[] {
   const out: React.ReactNode[] = [];
   const re = /\[\[([^\]|]+)\|([^\]|]+)(?:\|([^\]]+))?\]\]/g;
   let last = 0;
@@ -75,7 +75,7 @@ function Hero({ h, company }: { h: SimpleHero; company: string }) {
   );
 }
 
-function Block({ b }: { b: SimpleBlock }) {
+export function Block({ b }: { b: SimpleBlock }) {
   switch (b.kind) {
     case 'bigIdea':
       return <p className="s-bigidea">{rich(b.text)}</p>;
@@ -155,7 +155,7 @@ function Block({ b }: { b: SimpleBlock }) {
               {b.delta && <span className="s-num-delta">{b.delta}</span>}
             </span>
             <span className="s-num-side">
-              <span className="s-num-to">{b.to}</span>
+              <span className={`s-num-to ${b.toTone === 'bad' ? 's-num-to-bad' : ''}`}>{b.to}</span>
               {b.toSub && <span className="s-num-sub">{b.toSub}</span>}
             </span>
           </div>

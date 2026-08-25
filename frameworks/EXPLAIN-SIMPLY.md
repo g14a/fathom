@@ -186,3 +186,42 @@ Pick one coherent metaphor for the company and hold it across the whole piece
 (Airtel = a toll road: road, toll, traffic, price war, cash machine). Every
 metaphor must eventually cash out in a real number. Never let an analogy become
 decoration.
+
+### Analogy rule: preserve the mechanism, not the feeling
+
+An analogy is not decoration. It must have the **same economics** as the
+business situation it explains.
+
+Good:
+- salary rise → fixed mortgage stays same → extra salary becomes extra savings
+  (maps to operating leverage: revenue up, fixed costs unchanged, profit up
+  faster)
+- earning ₹1L/month but ₹85k is committed to loan, rent, expenses → looks
+  successful but has little free cash (maps to Airtel's capex treadmill: revenue
+  grows but cash is consumed)
+
+Bad:
+- "Airtel is like a person who spends too much money" (implies irresponsibility;
+  Airtel's problem was that reinvestment was required, not wasteful)
+- "A business is like a household" (generic, no mechanism preserved)
+- Any analogy that exists only to make prose entertaining rather than to teach a
+  causal relationship
+
+**Use 2–4 per case study maximum.** A reader who sees "Imagine you..." every
+paragraph has spotted the machine. Make the few you do use carry real explanatory
+weight so the reader can reuse that mental model on a different company later.
+
+Concrete everyday situations that map well to business mechanisms:
+
+| Everyday situation | Business mechanism |
+|---|---|
+| Salary goes up but fixed commitments (mortgage, EMIs) barely move → most of the raise lands as savings | Operating leverage |
+| Big salary, huge commitments, little free cash at month end | Growth that consumes cash (capex, debt service) |
+| Buying a second house with a loan expecting rent; rent disappoints, interest stays | Debt-funded acquisition that destroys value |
+| Industry salary cut because too many people chase the same jobs | Price war / loss of pricing power|
+| Unexpected tax demand for previous years | Regulatory liability (AGR) |
+| Competitors leave town → negotiating power returns | Industry consolidation → pricing power|
+
+Do not use the same analogy for two different mechanisms in the same piece. If
+the salary analogy already taught capex, do not reuse it for operating leverage
+without a clear signal that the frame has shifted ("Now flip the picture...").

@@ -73,6 +73,7 @@ export interface CaseStudy {
   evidenceNotes?: { id: number; note: string; confidence?: 'high' | 'medium' | 'low' }[];
   lesson?: string;
   remember?: string; // one-sentence takeaway, rendered as the closing box
+  simple?: import('@/lib/types').SimpleReportData;
 }
 
 const CS_DIR = path.join(process.cwd(), 'data', 'case-studies');

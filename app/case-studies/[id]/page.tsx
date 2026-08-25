@@ -6,6 +6,8 @@ import { withBase, canonical, formatDate } from '@/lib/base';
 import Connections from '@/components/Connections';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import JsonLd, { ORG } from '@/components/JsonLd';
+import { Block } from '@/components/SimpleReport';
+import { ReportShell } from '@/components/ReportShell';
 
 export function generateStaticParams() {
   return getAllCaseStudies().map((c) => ({ id: c.id }));
@@ -1033,10 +1035,51 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
     about: { '@type': 'Corporation', name: c.company },
   };
 
+  // Render a SimpleReport from the case study's own simple data.
+  function SimpleCaseStudyReport() {
+    const s = c.simple;
+    if (!s || !s.hero || !s.sections) return null;
+    return (
+      <div className="wrap report simple-report">
+        <header className="s-hero">
+          <div className="s-eyebrow">Simple mode</div>
+          <h1 className="s-title">{c.title}</h1>
+          <p className="s-hero-lead">{s.hero.lead}</p>
+          {s.hero.flow && s.hero.flow.length > 0 && (
+            <div className="s-flow s-hero-flow">
+              {s.hero.flow.map((step, i) => (
+                <div key={i} className={`s-flow-step ${step.tone ? `s-flow-${step.tone}` : ''}`}>
+                  <div className="s-flow-label">{step.label}</div>
+                  {step.sub && <div className="s-flow-sub">{step.sub}</div>}
+                  {i < s.hero.flow.length - 1 && <div className="s-flow-link" aria-hidden />}
+                </div>
+              ))}
+            </div>
+          )}
+          <p className="s-hero-close">{s.hero.close}</p>
+        </header>
+        {s.sections.map((sec, i) => (
+          <section key={sec.id} className="s-section" id={`simple-${sec.id}`}>
+            <div className="s-sec-head">
+              <span className="s-sec-num">{String(i + 1).padStart(2, '0')}</span>
+              <h2 className="s-question">{sec.question}</h2>
+            </div>
+            <div className="s-blocks">
+              {sec.blocks.map((b, j) => <Block key={j} b={b} />)}
+            </div>
+          </section>
+        ))}
+      </div>
+    );
+  }
+
   return (
-    <div className="wrap report csd-page">
-      <JsonLd data={articleLd} />
-      <Breadcrumbs items={[{ name: 'Case Studies', path: '/case-studies/' }, { name: c.company }]} />
+    <ReportShell
+      persistLocalStorage={false}
+      investor={
+        <div className="wrap report csd-page">
+          <JsonLd data={articleLd} />
+          <Breadcrumbs items={[{ name: 'Case Studies', path: '/case-studies/' }, { name: c.company }]} />
 
       <div className="csd-head">
         <div className="cs-head">
@@ -1317,5 +1360,12 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
         past performance never guarantees future results.
       </div>
     </div>
+      }
+      simple={
+        c.simple && (c.simple as any).hero && (c.simple as any).sections
+          ? <SimpleCaseStudyReport />
+          : null
+      }
+    />
   );
 }

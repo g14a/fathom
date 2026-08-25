@@ -12,22 +12,26 @@ const STORE_KEY = 'fathom:reading-mode';
 export function ReportShell({
   investor,
   simple,
+  persistLocalStorage = true,
 }: {
   investor: React.ReactNode;
   simple: React.ReactNode | null;
+  persistLocalStorage?: boolean;
 }) {
   const [mode, setMode] = useState<Mode>('investor');
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    try {
-      const saved = localStorage.getItem(STORE_KEY);
-      if (saved === 'simple' && simple) setMode('simple');
-    } catch {
-      /* storage blocked: stay on investor */
+    if (persistLocalStorage) {
+      try {
+        const saved = localStorage.getItem(STORE_KEY);
+        if (saved === 'simple' && simple) setMode('simple');
+      } catch {
+        /* storage blocked: stay on investor */
+      }
     }
     setReady(true);
-  }, [simple]);
+  }, [simple, persistLocalStorage]);
 
   // The "graduate to Investor mode" hand-off inside Simple mode asks the shell
   // to switch via this event, so the button need not know the shell internals.

@@ -319,5 +319,402 @@
       "note": "Average revenue per user falling from about ₹202 (2014) to about ₹104 after Jio's entry is from Airtel's quarterly disclosures. ARPU definitions shifted slightly over the period, so the exact endpoints vary by a few rupees depending on the quarter chosen; the halving is real.",
       "confidence": "medium"
     }
-  ]
+  ],
+  "simple": {
+    "hero": {
+      "lead": "Airtel kept getting bigger. Its shareholders waited 13 years for almost nothing.",
+      "flow": [
+        {
+          "label": "Business",
+          "sub": "Revenue grew, customers grew, the network expanded"
+        },
+        {
+          "label": "Stock",
+          "sub": "2007 to 2020, almost flat",
+          "tone": "muted"
+        },
+        {
+          "label": "Four things ate the growth",
+          "sub": "before it reached the owner",
+          "tone": "accent"
+        }
+      ],
+      "close": "Four things kept eating the growth before it reached the owner."
+    },
+    "sections": [
+      {
+        "id": "the-puzzle",
+        "question": "How can a business grow for 13 years while its stock goes nowhere?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "In 2007, Airtel was India's telecom champion. Over the next thirteen years, its revenue grew several times over. Its customer base ran into the hundreds of millions. It became a household name across two continents.",
+              "Buy the stock in 2007, hold it to 2020, and you would have made almost nothing.",
+              "Thirteen years of waiting, on a business that grew the whole time.",
+              "How can that happen? What stood between Airtel growth and the people who owned it?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "two-questions",
+        "question": "Two questions explain most of what went wrong.",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Two questions run underneath every chapter of this story."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "Can Airtel keep the cash its growth produces, or is it all spent again just to stay in business?"
+          },
+          {
+            "kind": "insight",
+            "text": "Can Airtel control the price customers pay, or is someone else setting it?"
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "Every major problem in this story comes back to one of these two questions."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-africa-adventure",
+        "question": "2010: Airtel buys Africa.",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "In March 2010, Airtel made the biggest bet of its life. It bought the African operations of Zain, a Middle Eastern telecom group, for $10.7 billion. Overnight it inherited around 42 million customers and networks in fifteen African countries.",
+              "And honestly, you can see why they did it. Airtel had already shown it could sell cheap mobile service to hundreds of millions in India. Africa had a billion people and few phones. The same recipe, surely, would work again.",
+              "But the price of the bet was the balance sheet. Before the deal, Airtel owed almost nothing. After it, net debt swelled toward ₹60,000 crore, more than the whole company had been worth on its own. That debt had to be serviced every year, whether Africa made money or not."
+            ]
+          },
+          {
+            "kind": "bigNumber",
+            "from": "~zero debt",
+            "to": "~₹60,000 crore",
+            "label": "Airtel net debt, before and after the Africa deal",
+            "fromSub": "before the deal",
+            "toSub": "after it",
+            "insight": "The business had to make money not only for itself, but also enough to service the new debt.",
+            "toTone": "bad"
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "The recipe did not travel. India was one country and one currency. Africa was fifteen governments and fifteen currencies, and those currencies kept losing value.",
+              "To see why this mattered, imagine borrowing $100,000 to buy a house. Your salary is paid in rupees. When you borrow, ₹80 buys $1. Later, the rupee falls and ₹100 buys $1. Your loan is still $100,000. But the number of rupees you need to earn to repay it has gone up dramatically. Your house did not suddenly become worse. Your debt simply became harder to carry.",
+              "That is the problem Airtel had in Africa. It borrowed in dollars but earned in local currencies like the Nigerian naira. The debt stayed the same. The repayment got harder.",
+              "Running the network cost more, too. A tower needs steady power, and mains electricity across much of Africa was unreliable, so Airtel had to bolt a diesel generator onto tower after tower and burn fuel around the clock. Thousands of towers drinking diesel was a permanent cost its Indian towers never carried. The good customers, meanwhile, were already taken: MTN and Vodacom had been there for years and were happy to cut prices rather than hand anyone to a newcomer."
+            ]
+          },
+          {
+            "kind": "bigNumber",
+            "from": "$10.7 billion",
+            "to": "~$3.9 billion",
+            "label": "What Airtel paid for Africa vs what it was later valued at",
+            "fromSub": "paid in 2010",
+            "toSub": "valued in 2019",
+            "delta": "-64%",
+            "insight": "Airtel borrowed dollars to buy a business that earned money in weakening currencies. The debt never shrank. The repayment got harder.",
+            "toTone": "bad"
+          }
+        ]
+      },
+      {
+        "id": "never-ending-network",
+        "question": "2010–2016: The network that never stops demanding cash.",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Imagine you earn ₹1 lakh a month.",
+              "On paper, you are doing well. Your salary has doubled from ₹50,000. You own a house, a car and some investments. You look successful.",
+              "But your ₹1 lakh already has a job. ₹30,000 goes to the home loan. ₹20,000 to rent. ₹15,000 to household expenses. ₹10,000 to your parents medical expenses. ₹10,000 to car and other loans.",
+              "Only ₹15,000 is actually free.",
+              "You are earning more than ever. You are accumulating more assets than ever. But you do not have much cash left at the end of the month. And if your salary rises to ₹1.2 lakh but you use the extra money to take on a bigger house and bigger responsibilities, your life can get even bigger without giving you much more financial breathing room.",
+              "That is Airtel. Airtel revenue, customers and network kept growing. But much of the money it generated already had a job: build more towers, buy spectrum, add capacity, service debt. The company was getting bigger. But the cash left over for its owners stayed thin.",
+              "This is why looking only at revenue or profit can fool you. A business can be growing rapidly and still have very little cash available to its owners."
+            ]
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "Start with the one thing a mobile network cannot run without: spectrum. Spectrum is the invisible airwaves that carry your call between phone and tower. There is only so much of it, and it belongs to the government, which rents out slices through auctions. Because every operator needs it and the supply is fixed, those auctions become bidding wars that run into thousands of crores. And you pay again and again, because each new generation of technology needs its own airwaves. Still digesting the African debt, Airtel had to bid billions for 3G in 2010, then billions more for 4G a few years later.",
+              "The airwaves are only half the bill. The other half is the physical network: the towers, antennas, fibre and equipment that send the signal. As India moved from making calls to streaming video, the data pouring through the network exploded, and Airtel had to keep spending just to add capacity."
+            ]
+          },
+          {
+            "kind": "converge",
+            "items": [
+              "3G spectrum (2010)",
+              "4G spectrum (later)",
+              "Towers and equipment",
+              "Network capacity upgrades"
+            ],
+            "result": "A network that stays competitive",
+            "cost": "Billions, repeatedly"
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "Here is the strange part. A telecom company can report a healthy profit and still hand its owners almost nothing. Profit is counted before all that spending on spectrum and equipment. What matters to an owner is the cash left after the business has paid for everything it needs to keep running.",
+              "That leftover has a name: [[free cash flow|The cash left after a business has paid for everything it needs to keep operating and growing.|Airtel was chronically thin through these years, however respectable profit looked.]] Airtel free cash flow was thin. Profit looked fine. But the cash was consumed."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jio-earthquake",
+        "question": "5 September 2016: Jio launches. The price war begins.",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "On 5 September 2016, a new rival arrived. Reliance Jio, backed by Mukesh Ambani, launched with free voice calls and months of free data, then near-zero prices after that. It was the most aggressive launch Indian business had seen.",
+              "How does a company give its product away and live? Deep pockets and a long game. Reliance could afford to lose money for years to buy the market. Jio network was designed around data from the start, which made it cheaper to run than the older networks its rivals were still patching up. Hook hundreds of millions on cheap data now, worry about profit later. Free was not generosity. It was a way to take the whole market at once."
+            ]
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "Now put yourself in Airtel management. The position was genuinely impossible. There were two doors, and both were bad.",
+              "Keep prices where they were, and customers would walk straight to a free rival. Cut prices down to Jio level and keep the customers, but watch the profit on each one collapse. There was no third door that spared the shareholder. Airtel chose the customers, slashing prices and accepting that earnings would crater, betting that if it could just outlast the war, the war would eventually end."
+            ]
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "To understand what Jio did to Airtel, imagine you run a small restaurant charging ₹300 for a meal. Your ingredients, rent and staff cost ₹200, so you make ₹100 per meal. Business is steady.",
+              "Then a new restaurant opens next door and sells the exact same meal for ₹100.",
+              "What do you do? Keep charging ₹300 and watch customers leave? Or drop to ₹100 and barely make anything?",
+              "Neither option is good. That is the trap Airtel found itself in when Jio arrived.",
+              "Airtel had two doors, and both were bad. Keep prices where they were, and customers would walk straight to a free rival. Cut prices down to Jio level and keep the customers, but watch the profit on each one collapse.",
+              "There was no third door that spared the shareholder. Airtel chose the customers, slashing prices and accepting that earnings would crater, betting that if it could just outlast the war, the war would eventually end."
+            ]
+          },
+          {
+            "kind": "bigNumber",
+            "from": "₹202",
+            "to": "₹104",
+            "label": "Average monthly bill per customer, before and after Jio",
+            "fromSub": "2014",
+            "toSub": "post-Jio",
+            "delta": "-49%",
+            "insight": "The same customers. Each one now paid roughly half as much. This is what happens when a company has no power to set its own price."
+          }
+        ]
+      },
+      {
+        "id": "agr-bomb",
+        "question": "24 October 2019: The regulatory bomb lands.",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Then came a bill almost nobody had braced for.",
+              "Imagine you have been paying a government fee for 10 years. Every year, you calculate the fee using what you believe the government means by income. The government disagrees with your calculation. You argue about it in court.",
+              "Then, 10 years later, the court says: The government was right. And now you are told: Go back and recalculate the last 15 years. Plus interest. Plus penalties. And pay the difference now.",
+              "That is roughly what happened with AGR.",
+              "Airtel thought the fee it owed the government was one size. The government argued it was a much bigger size. The case went to court and dragged on for over a decade. On 24 October 2019, the Supreme Court sided fully with the government. And the ruling reached backwards, letting the government recompute some fifteen years of past fees on the wider definition and demand the shortfall all at once."
+            ]
+          },
+          {
+            "kind": "bigNumber",
+            "from": "₹1,123 crore",
+            "to": "₹23,045 crore",
+            "label": "Airtel quarterly loss, July–September 2019",
+            "fromSub": "what it would have been without the AGR ruling",
+            "toSub": "the actual loss",
+            "insight": "Almost the entire record loss was one backdated government bill, landed overnight.",
+            "toTone": "bad"
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "Airtel had to set aside ₹28,450 crore in a single quarter. That produced a ₹23,045 crore loss, its largest ever and one of the biggest in Indian corporate history.",
+              "But here is the number that changes the story. The everyday business made just a ₹1,123 crore loss. The operating business did not suddenly lose ₹23,000 crore of economic value in one quarter. A legal ruling forced Airtel to recognize a huge historical liability all at once.",
+              "some risks live outside the income statement until something forces them into it. A business can look healthy until a hidden liability becomes payable."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-turn",
+        "question": "And then, at the darkest point, the turn.",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "The reward finally came, and it did not come from growth. Airtel had never lacked growth.",
+              "Around 2019 and 2020, three things eased at once. The African business turned profitable and its London listing brought in cash to cut debt. The AGR shock, brutal as it was, was slowly managed down. And the price war finally cooled.",
+              "The biggest change was the industry itself. When a dozen companies were fighting, no one dared raise a price. A customer had eleven cheaper places to go. With only three left, all of them bruised and sick of losing money, each had every reason to raise prices at about the same time. A customer who disliked Airtel new rate had nowhere cheaper to run to."
+            ]
+          },
+          {
+            "kind": "compare",
+            "before": {
+              "year": "Before the war",
+              "count": "~12",
+              "unit": "operators",
+              "players": [
+                "Airtel",
+                "Vodafone",
+                "Idea",
+                "and many more"
+              ],
+              "caption": "A dozen operators, all cutting prices to survive"
+            },
+            "after": {
+              "year": "After the cull",
+              "count": "3",
+              "unit": "private operators",
+              "players": [
+                "Jio",
+                "Airtel",
+                "Vodafone Idea"
+              ],
+              "caption": "Three left. The weak ones went bust or merged."
+            },
+            "punch": "With fewer rivals, Airtel could finally raise prices and make them stick."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "That is [[pricing power|The freedom to charge more without losing customers.|Airtel finally had it after 13 years.]], and it changed everything. In December 2019, the first real tariff hikes in years arrived, around 30 percent.",
+              "A price rise matters enormously for a business like this because the big costs were already paid. The towers, the spectrum, the network cost about the same whether a customer pays ₹104 or ₹135 a month. So when the price rises, the extra rupees are not eaten by new costs. They fall almost straight through to profit.",
+              "Before: ₹104 per customer. After: ₹135 and climbing. The network was already built. The extra revenue was almost pure gain.",
+              "Remember the person from earlier? The one earning ₹1 lakh but with ₹85,000 committed to loans, rent and expenses? Now flip the picture. His salary goes from ₹1 lakh to ₹1.3 lakh. But his home loan stays at ₹30,000. His rent stays at ₹20,000. His fixed expenses barely move. The extra ₹30,000 of salary produces almost ₹28,000 of extra savings. That is the difference between the first half of the Airtel story and the second half.",
+              "When revenue rises faster than costs, profit can rise much faster than revenue. That is [[operating leverage|When revenue grows much faster than costs, so profit grows faster still.|Once tariffs rose, Airtel built network turned extra revenue into nearly pure profit.]]"
+            ]
+          },
+          {
+            "kind": "moneyFlow",
+            "totalLabel": "A simple illustration of where Airtel cash goes",
+            "totalDisplay": "₹100",
+            "parts": [
+              {
+                "label": "goes back into building and running the network",
+                "value": 46,
+                "display": "₹46",
+                "tone": "spent"
+              },
+              {
+                "label": "is left over",
+                "value": 54,
+                "display": "₹54",
+                "tone": "left"
+              }
+            ],
+            "punch": "The case ended in 2020. The payoff is still visible today. In FY26, roughly ₹66,000 crore was left over, enough to cut debt fast. For the entire lost decade, almost nothing was left."
+          },
+          {
+            "kind": "bigIdea",
+            "text": "What paid them was not more growth. It was growth that finally turned into cash."
+          }
+        ]
+      },
+      {
+        "id": "lesson",
+        "question": "What Airtel teaches",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Africa consumed the balance sheet.",
+              "The network consumed the cash.",
+              "Jio consumed the pricing power.",
+              "AGR consumed the cushion.",
+              "Then the industry collapsed to three players. The same network, the same customers, the same towers. But now Airtel could finally charge a proper price.",
+              "Airtel did not need to become bigger. It needed its growth to finally reach its owners."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "To investigate another company: look at the cash-flow statement. Compare cash from operations against capex. If the second keeps consuming the first, revenue growth is not necessarily reaching shareholders."
+          }
+        ]
+      },
+      {
+        "id": "could-you-have-seen",
+        "question": "Could you have seen this coming?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Not all of it. But three of the four problems were visible in public documents. None needed a forecast. They needed a reader willing to open the annual report.",
+              "Here is what to check, and where."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "Debt jumps. Balance sheet. Growth may have been financed with borrowing."
+          },
+          {
+            "kind": "insight",
+            "text": "ARPU falls. Quarterly results. Pricing power is weakening."
+          },
+          {
+            "kind": "insight",
+            "text": "Capex consumes operating cash. Cash-flow statement. Growth may not be reaching owners."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "The AGR ruling was the honest exception. You knew the legal dispute existed. But the size of the bill depended on how the Supreme Court read one word in a contract. Some risks you can measure. Some you can only know are there."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "graduate",
+        "question": "The language behind the story",
+        "blocks": [
+          {
+            "kind": "graduate",
+            "intro": "The case study uses these words. Now you know what they mean.",
+            "ctaLabel": "Read the investor case study",
+            "glossary": [
+              {
+                "term": "Free cash flow",
+                "def": "The cash left after a business has paid for everything it needs to keep operating and growing.",
+                "context": "Airtel was chronically thin for most of the lost decade. Today it generates substantial free cash."
+              },
+              {
+                "term": "Pricing power",
+                "def": "The ability to raise prices without losing many customers.",
+                "context": "Airtel had none during the price war. It appeared only after the industry consolidated to three players."
+              },
+              {
+                "term": "ARPU",
+                "def": "Average Revenue Per User, the average monthly bill per customer.",
+                "context": "Fell from about ₹202 to ₹104 during the price war. The single most important number in the story."
+              },
+              {
+                "term": "Capital expenditure (capex)",
+                "def": "Money spent building or upgrading physical assets like towers, spectrum and equipment.",
+                "context": "Airtel never stopped spending: spectrum auctions, network upgrades, technology. Profit looked fine, but the cash was consumed."
+              },
+              {
+                "term": "Operating leverage",
+                "def": "When revenue grows much faster than costs, so profit grows faster still.",
+                "context": "Once tariffs rose, Airtel built network turned extra revenue into nearly pure profit."
+              },
+              {
+                "term": "Currency mismatch",
+                "def": "When a company borrows in one currency but earns revenue in another.",
+                "context": "Airtel borrowed dollars to buy Africa but earned in weakening local currencies. The debt stayed the same. The repayment got harder."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
