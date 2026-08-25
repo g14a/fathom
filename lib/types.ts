@@ -152,6 +152,152 @@ export interface CompanyEditorial {
   remember: string;
 }
 
+// ---------------------------------------------------------------------------
+// "Explain Simply" mode.
+//
+// NOT a re-worded article. An interactive explanation of the business, built as
+// a SEQUENCE OF VISUAL OBJECTS, not paragraphs. Each section answers one
+// question and carries one visual anchor: a big idea, a flow, a before/after,
+// a big number, a money flow, a reveal, a split, an analogy, or the closing
+// thesis. Prose is the exception, used only when nothing visual will do.
+//
+// This is the TEACH-ME mode, not the summary. Investor mode states the
+// conclusions; Simple mode walks the reader up to them from first principles,
+// using the company itself as the teaching example. It may run LONGER than the
+// investor report. Never simplify by deleting a concept: simplify by explaining
+// it. Sections form an ordered curriculum, each a question that teaches the
+// idea before naming it.
+//
+// Rules that do not bend: same figures as the investor report, every number
+// traceable to it. No em-dashes, no spaced hyphens, no fabricated numbers, and
+// no decorative emoji. Terminology appears only AFTER the idea lands, as a quiet
+// inline chip with an optional company-specific second line:
+//   `[[ARPU|The average monthly bill across all customers.|Airtel has hundreds
+//   of millions of them, so a small rise is huge.]]`
+// The third field is optional: `[[term|plain definition]]` also works.
+// ---------------------------------------------------------------------------
+
+// One node in a vertical flow diagram.
+export interface SimpleFlowStep {
+  label: string;
+  sub?: string;                 // small line under the label
+  tone?: 'accent' | 'muted';    // accent = the payoff node
+}
+
+// A before/after industry comparison (the 12 -> 3 roads collapse).
+export interface SimpleCompareSide {
+  year: string;
+  count: string;                // "12", "3": the dramatic headline number
+  unit: string;                 // "companies"
+  players: string[];
+  caption: string;
+}
+
+// One column of a two-column split (business vs stock, or Airtel vs Jio).
+export interface SimpleSplitCol {
+  tone: 'good' | 'bad' | 'neutral';
+  title: string;                // "Business", "Airtel"
+  verdict: string;              // "Excellent", "Winning"
+  rows: string[];               // ["Competition down", "ARPU up", ...]
+}
+
+// One line of the closing thesis, colour-coded by role.
+export interface SimpleThesisItem {
+  tone: 'good' | 'warn' | 'bad';
+  label: string;                // "The business"
+  text: string;                 // "Getting better..."
+}
+
+// The visual objects Simple mode is built from.
+export type SimpleBlock =
+  // A large, standalone statement. The section's headline idea.
+  | { kind: 'bigIdea'; text: string }
+  // A vertical flow diagram (build the road -> add a customer -> more profit).
+  | { kind: 'flow'; steps: SimpleFlowStep[] }
+  // Several parts converging into one thing at a cost (the physical network:
+  // towers + fibre + spectrum -> one national network -> billions to build).
+  | { kind: 'converge'; items: string[]; result: string; cost: string }
+  // A decision tree: a trigger forces a choice, each branch has a consequence
+  // (Jio cuts to 250 -> Airtel must match, losing revenue, or hold, losing users).
+  | {
+      kind: 'branch';
+      trigger: string;
+      decision: string;
+      options: { label: string; outcome: string; tone?: 'bad' | 'good' }[];
+    }
+  // The crowded-to-concentrated before/after.
+  | { kind: 'compare'; before: SimpleCompareSide; after: SimpleCompareSide; punch: string }
+  // One hero number that moved, with optional two-bar comparison.
+  | {
+      kind: 'bigNumber';
+      from: string;
+      to: string;
+      fromSub?: string;                                // small line under `from` (e.g. a year)
+      toSub?: string;                                  // small line under `to`
+      delta?: string;                                  // change badge, e.g. "+147%"
+      label: string;                                   // what the number is
+      bars?: { label: string; value: number; display: string }[];
+      insight: string;
+      term?: string;                                   // "ARPU", shown tiny
+    }
+  // A single huge stat that IS the point (a valuation multiple, a share). The
+  // number carries the weight; one line labels it.
+  | { kind: 'bigStat'; value: string; label: string; tone?: 'accent' | 'bad' }
+  // "Where ₹100 goes": bars where the leftover visually dominates.
+  | {
+      kind: 'moneyFlow';
+      totalLabel: string;
+      totalDisplay: string;
+      parts: { label: string; value: number; display: string; tone: 'spent' | 'left' }[];
+      punch: string;
+    }
+  // One highlighted insight line. The takeaway of a visual.
+  | { kind: 'insight'; text: string }
+  // The conversational "aha": a setup, the calculation, then the giant payoff.
+  | { kind: 'reveal'; prompt: string; calc?: string; bigAnswer: string; sub?: string; note: string }
+  // Two columns compared (business quality vs stock price).
+  | { kind: 'split'; left: SimpleSplitCol; right: SimpleSplitCol; punch: string }
+  // A plain-language analogy that ends in the real term (lemonade -> P/E).
+  | { kind: 'analogy'; lead: string; body: string; term?: string }
+  // The closing visual thesis: business / catch / question.
+  | { kind: 'thesis'; heading: string; items: SimpleThesisItem[] }
+  // "Why should you care?" ties a concept just taught back to the thesis.
+  | { kind: 'callout'; label?: string; text: string }
+  // Two things true at once (a great business AND an expensive stock). The
+  // engine of real investing judgement, so Simple mode teaches it head on.
+  | { kind: 'tension'; a: string; b: string; resolve: string }
+  // The closing hand-off and the Simple -> Investor bridge. `glossary` is the
+  // vocabulary picked up along the way, each term hoverable for its definition,
+  // so the reader can carry the words into the investor report.
+  | {
+      kind: 'graduate';
+      intro: string;
+      glossary: { term: string; def: string; context?: string }[];
+      ctaLabel: string;
+    }
+  // Escape hatch. Short paragraphs, used only when nothing visual fits.
+  | { kind: 'prose'; text: string[] };
+
+export interface SimpleSection {
+  id: string;
+  question: string;             // the one question this section answers
+  teaches?: string[];           // concepts this stop on the journey teaches
+  blocks: SimpleBlock[];
+}
+
+// The hero: title, one opening idea, a flow that teaches the business in
+// seconds, and a closing line. No wall of text before the first visual.
+export interface SimpleHero {
+  lead: string;
+  flow: SimpleFlowStep[];
+  close: string;
+}
+
+export interface SimpleReportData {
+  hero: SimpleHero;
+  sections: SimpleSection[];
+}
+
 export interface TickerReport {
   // header
   ticker: string;      // display symbol, e.g. "M&M"
@@ -247,4 +393,8 @@ export interface TickerReport {
 
   // 15. forward view (optional): what the numbers don't show yet
   outlook?: Outlook;
+
+  // "Explain Simply" (ELI15) reading of this report. Optional: a report without
+  // it simply shows no mode toggle. See SimpleReportData above.
+  simple?: SimpleReportData;
 }

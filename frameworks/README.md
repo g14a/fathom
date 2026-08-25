@@ -37,6 +37,10 @@ Two kinds of file live here: **mental models** (how to think about a business) a
 - [ANTI-AI-SLOP.md](ANTI-AI-SLOP.md) How to keep prose sounding like a teacher, not
   a machine: ration three-part structures, rhetorical opposites, formulaic
   transitions and quotable-line density. Applies to every format.
+- [EXPLAIN-SIMPLY.md](EXPLAIN-SIMPLY.md) How to build the "Explain simply" teach-me
+  reading of a company report (`data/companies/*.json` → `"simple"`): the block
+  vocabulary, the reusable components, the inline glossary, the learning-journey
+  order and the Simple-mode voice rules.
 
 ## When to use which
 
@@ -45,6 +49,7 @@ Two kinds of file live here: **mental models** (how to think about a business) a
 | Judge whether a business is worth writing up | MENTAL-MODELS-CHECKLIST |
 | Write or edit a sector explainer | WRITING-GUIDE |
 | Write a company report (`data/*.json`) | MENTAL-MODELS-CHECKLIST to judge it, then REPORTS-VOICE for how it reads |
+| Add an "Explain simply" reading to a report | EXPLAIN-SIMPLY (schema, components, journey), then ANTI-AI-SLOP for the voice |
 | Write a case study | WRITING-GUIDE, then EDITORIAL-CHECKLIST to verify |
 | Write a signal | SIGNALS-CHECKLIST to build it, then SIGNAL-VOICE for how it reads |
 | Final voice pass on any prose | ANTI-AI-SLOP |

@@ -430,6 +430,557 @@
     "multiple": "At about 46 times earnings and 8 times book, the multiple is full and sitting near all-time highs. Most of the re-rating from the crisis lows is already banked, so from here the multiple is far likelier to be a headwind than a tailwind. And a rich multiple on a business this capital-hungry means one thing: the market is extrapolating years of disciplined pricing into the future. That is an assumption, not a fact, and it is the assumption you are paying up for.",
     "verdict": "So here is my honest read. The earnings engine is doing real, cash-backed work. The multiple engine, though, has already fired, and it is stretched. That asymmetry is the whole point: if things go right you get a fairly muted reward, because the good news is already priced, and if Airtel stumbles even slightly a rich multiple can deflate fast. You are looking at a genuinely excellent business wearing a price that leaves little room for error. My one doubt is the one nobody can settle: whether tariff discipline lasts, because the entire premium rests on it, and Jio is the one player who could break it."
   },
+  "simple": {
+    "hero": {
+      "lead": "Imagine India has a few giant roads for the internet.",
+      "flow": [
+        {
+          "label": "You"
+        },
+        {
+          "label": "WhatsApp, YouTube, calls, Instagram",
+          "sub": "everything you do on your phone"
+        },
+        {
+          "label": "Airtel",
+          "sub": "one giant network carrying all of it",
+          "tone": "accent"
+        },
+        {
+          "label": "All of India online",
+          "sub": "over a billion connections",
+          "tone": "muted"
+        }
+      ],
+      "close": "Airtel owns one of India's biggest roads. Understand the road, and you understand the company."
+    },
+    "sections": [
+      {
+        "id": "what",
+        "question": "What does Airtel actually do?",
+        "teaches": [
+          "The network",
+          "Recurring revenue"
+        ],
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Strip away the logos and the ads, and Airtel does one thing. It owns the network your phone talks to: the towers on rooftops, the fibre buried under roads, the radio signals in the air. Every call, every video, every message rides that network, and Airtel charges you for the ride.",
+              "You pay for it every month, for something as basic to you now as electricity. Money that comes in again and again on a schedule like this is [[recurring revenue|Money a company expects to receive repeatedly from the same customers, instead of one-off sales.|Airtel bills hundreds of millions of people every single month, which makes its income unusually steady.]], and it is what makes the whole business so stable once it works."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "copy",
+        "question": "Why can't a new rival just copy it?",
+        "teaches": [
+          "Capital intensity",
+          "Barriers to entry"
+        ],
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Here is the first thing that makes Airtel special: almost nobody can build what it has. To carry a whole country's calls and data, you need all of this, at once, before you earn a single rupee."
+            ]
+          },
+          {
+            "kind": "converge",
+            "items": [
+              "Towers",
+              "Fibre",
+              "Spectrum",
+              "Technology"
+            ],
+            "result": "One national network",
+            "cost": "Billions to build"
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "Spectrum, by the way, is the slices of radio airwaves that carry mobile signals, and the government auctions them for enormous sums. When a business must sink this much money into physical kit just to operate, we say it has high [[capital intensity|A business that needs huge amounts of money spent on physical assets before it can even function.|Airtel spends tens of thousands of crores every year on network and spectrum.]]."
+            ]
+          },
+          {
+            "kind": "callout",
+            "label": "Why this matters",
+            "text": "That giant upfront cost is a wall. Who would spend billions to fight three entrenched giants? That wall is a [[barrier to entry|Something that makes it hard for a new competitor to enter an industry.|A national network is so expensive that India's telecom field, once thinned out, could never refill.]], and it is the reason a dozen operators could collapse to three, then stay three."
+          }
+        ]
+      },
+      {
+        "id": "struggle",
+        "question": "Then why did Airtel struggle for a whole decade?",
+        "teaches": [
+          "Price war"
+        ],
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "For thirteen years, from about 2007 to 2020, Airtel grew bigger every single year and its shareholders made almost nothing. The network kept expanding. The profits did not.",
+              "The problem was the crowd. Too many operators were selling the same thing, so the only way to win a customer was to be cheaper. Then in 2016 Jio arrived and gave mobile data away for free. Everyone had to follow. When rivals keep cutting prices until the profit is gone, that is a [[price war|When competitors keep slashing prices to win customers, until profit is competed away.|Jio's free launch in 2016 dragged the whole industry's prices to the floor.]]."
+            ]
+          },
+          {
+            "kind": "flow",
+            "steps": [
+              {
+                "label": "Airtel keeps growing"
+              },
+              {
+                "label": "But keeps spending billions on network and spectrum"
+              },
+              {
+                "label": "Then Jio enters, data goes free"
+              },
+              {
+                "label": "Price war"
+              },
+              {
+                "label": "Tariffs crash, cash gets squeezed",
+                "tone": "muted"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "changed",
+        "question": "So what actually changed?",
+        "teaches": [
+          "Industry consolidation",
+          "Oligopoly",
+          "Pricing power"
+        ],
+        "blocks": [
+          {
+            "kind": "compare",
+            "before": {
+              "year": "About ten years ago",
+              "count": "12",
+              "unit": "networks fighting",
+              "players": [
+                "Airtel",
+                "Vodafone",
+                "Idea",
+                "BSNL",
+                "Aircel",
+                "and more"
+              ],
+              "caption": "A dozen networks fighting for the same customers."
+            },
+            "after": {
+              "year": "Today",
+              "count": "3",
+              "unit": "networks left",
+              "players": [
+                "Airtel",
+                "Jio",
+                "Vodafone Idea"
+              ],
+              "caption": "The weak ones went bust or merged. Three big networks left."
+            },
+            "punch": "But why does having fewer rivals let Airtel charge more? Walk through it."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "In the old world there were twelve networks. You are Airtel, charging ₹300. Vodafone charges ₹290, Idea ₹280. What do you do? You can hold at ₹300 and hope people stay, or drop to ₹270 and pull in customers from everyone. So can they. Everyone has a reason to keep cutting, so prices only fall. The customer wins, the companies bleed.",
+              "Now only three networks are left, all charging about ₹300. You raise your price to ₹350. Your customer is annoyed, but where do they go? Jio might raise prices too, and Vodafone Idea's network is weaker. You no longer have to be the cheapest to keep them.",
+              "When a market is run by just a few big sellers, it is an [[oligopoly|A market controlled by a handful of big sellers.|Three private players, Jio, Airtel and Vodafone Idea, now run Indian mobile.]], and the freedom it gives them to raise prices is [[pricing power|The ability to raise prices without losing many customers.|Airtel and Jio can now push tariffs up, and they mostly stick.]]."
+            ]
+          },
+          {
+            "kind": "flow",
+            "steps": [
+              {
+                "label": "3 players instead of 12"
+              },
+              {
+                "label": "Nobody desperate to undercut"
+              },
+              {
+                "label": "Tariffs rise"
+              },
+              {
+                "label": "Revenue per customer rises"
+              },
+              {
+                "label": "And much more of it becomes profit",
+                "tone": "accent"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "arpu",
+        "question": "Why does a small price rise matter so much?",
+        "teaches": [
+          "ARPU"
+        ],
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "For Airtel, one number matters more than most: the average monthly bill per customer. Watch what it has done since the price war ended."
+            ]
+          },
+          {
+            "kind": "bigNumber",
+            "from": "₹104",
+            "to": "₹257",
+            "label": "Average amount one customer pays Airtel each month",
+            "insight": "It sounds small. It is not, because of how many customers there are. Try the maths yourself.",
+            "fromSub": "2016",
+            "toSub": "2026",
+            "delta": "+147%"
+          },
+          {
+            "kind": "reveal",
+            "prompt": "Airtel adds just ₹10 to the monthly bill of 300 million customers.",
+            "bigAnswer": "₹3 billion",
+            "sub": "of extra revenue. Every month.",
+            "note": "₹300 crore a month, from a ₹10 rise nobody would even notice. Airtel did not find new customers. It charged the ones it already had a little more.",
+            "calc": "₹10  ×  300 million customers"
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "That average monthly bill has a name: [[ARPU|Average Revenue Per User, the average monthly bill across all customers.|About ₹257 today, more than double the price-war low of ₹104.]]. It is the number Airtel watches more closely than any other."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "leverage",
+        "question": "Why does that extra ₹10 become almost pure profit?",
+        "teaches": [
+          "Fixed costs",
+          "Operating leverage"
+        ],
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Imagine you built a toll road. Building it cost ₹10,000 crore. That was the painful part, and it is done. Now the first car drives on. Then the millionth. Does the millionth car cost you much more than the first? Almost nothing. You already paid for the road."
+            ]
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "Airtel works the same way. It has already spent billions on towers, fibre and spectrum. Costs that are paid up front and then barely move are [[fixed costs|Costs that stay roughly the same no matter how many customers you serve.|Airtel's network costs about the same to run whether it is busy or quiet.]]. So when a customer already on the network pays ₹10 more, Airtel's cost to serve them rises far less than the ₹10 it collects."
+            ]
+          },
+          {
+            "kind": "flow",
+            "steps": [
+              {
+                "label": "Build the road",
+                "sub": "costs billions, done once"
+              },
+              {
+                "label": "Add one more customer",
+                "sub": "one more phone on the network"
+              },
+              {
+                "label": "Cost rises far less than the revenue",
+                "tone": "muted"
+              },
+              {
+                "label": "So the gap falls through as profit",
+                "tone": "accent"
+              }
+            ]
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "That gap, revenue climbing much faster than cost, is [[operating leverage|When revenue can grow much faster than costs, so profit grows faster still.|A small ARPU rise on Airtel's already-built network swings profit far harder than the headline number suggests.]]."
+            ]
+          },
+          {
+            "kind": "callout",
+            "label": "Why this matters",
+            "text": "On a normal business, earning ₹10 more might cost you ₹9. On Airtel's already-built road, ₹10 more revenue is close to ₹10 more profit. Multiply that by hundreds of millions of customers, and you see why ARPU is everything."
+          }
+        ]
+      },
+      {
+        "id": "cash",
+        "question": "Where does all that profit actually go?",
+        "teaches": [
+          "Operating cash flow",
+          "Capex",
+          "Free cash flow"
+        ],
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Profit can exist before the cash does. You sell a ₹100 product today, the customer pays next month. The sale can count toward profit now, but there is no ₹100 in the bank yet.",
+              "So the number that matters is not reported profit. It is the real cash that came in, the [[operating cash flow|The real cash a business collects from its day-to-day operations.|Airtel's has climbed from about ₹79,000 crore to ₹1,22,000 crore in two years.]]. A big chunk of it goes straight back into the network, the [[capex|Money spent building and upgrading physical assets like towers and spectrum.|Airtel still spends over ₹50,000 crore a year keeping its network ahead.]]. What remains after that is the cash Airtel can actually use."
+            ]
+          },
+          {
+            "kind": "moneyFlow",
+            "totalLabel": "For every ₹100 of cash the business makes",
+            "totalDisplay": "₹100",
+            "parts": [
+              {
+                "label": "goes back into building and running the network",
+                "value": 46,
+                "display": "₹46",
+                "tone": "spent"
+              },
+              {
+                "label": "is left over",
+                "value": 54,
+                "display": "₹54",
+                "tone": "left"
+              }
+            ],
+            "punch": "For its whole lost decade almost nothing was left. In FY26 roughly ₹66,000 crore was. That leftover, [[free cash flow|The cash left after a business pays for everything it needs to keep running and growing.|Airtel now throws off enough spare cash to cut its debt fast.]], is what is dragging Airtel's debt down."
+          }
+        ]
+      },
+      {
+        "id": "winning",
+        "question": "Is Airtel actually winning, or just lucky?",
+        "teaches": [
+          "Competitive position",
+          "Competitive rivalry"
+        ],
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Airtel benefited from a change it did not create, and it was also better placed than anyone to benefit from it. Against Vodafone Idea it is no contest: Airtel earns more per customer, generates real cash and carries far less financial stress, while Vi gasps under its borrowings. Against Jio it is a genuine fight between two strong, well-funded giants."
+            ]
+          },
+          {
+            "kind": "split",
+            "left": {
+              "tone": "good",
+              "title": "Airtel",
+              "verdict": "Winning",
+              "rows": [
+                "Higher revenue per user",
+                "Real, rising cash",
+                "Low financial stress"
+              ]
+            },
+            "right": {
+              "tone": "neutral",
+              "title": "Jio",
+              "verdict": "A real fight",
+              "rows": [
+                "Also has pricing power",
+                "Deepest pockets in India",
+                "Willing to spend for share"
+              ]
+            },
+            "punch": "Airtel is clearly winning against the weak. Against Jio, it is a genuine contest."
+          },
+          {
+            "kind": "tension",
+            "a": "Airtel has pricing power.",
+            "b": "Jio has pricing power too, and the deepest pockets in India.",
+            "resolve": "So the pricing power guards the whole industry's profit more than it guards Airtel's lead over Jio. Being the best of three is worth a great deal. It is not the same as being alone. How hard those two push against each other is the [[competitive rivalry|How aggressively the players in an industry compete with one another.|Airtel's biggest swing factor is whether Jio stays calm or restarts the price war.]] that decides everything."
+          }
+        ]
+      },
+      {
+        "id": "stock",
+        "question": "If the business is this good, why is the stock risky?",
+        "teaches": [
+          "P/E",
+          "Margin of safety"
+        ],
+        "blocks": [
+          {
+            "kind": "bigStat",
+            "value": "46x",
+            "label": "You pay about ₹46 for every ₹1 of profit Airtel makes in a year.",
+            "tone": "bad"
+          },
+          {
+            "kind": "analogy",
+            "lead": "So what does paying 46 times a year's profit actually feel like?",
+            "body": "A simple example: a shop earns ₹1 lakh a year, and someone offers to sell it to you for ₹46 lakh. As a rough mental model, that is 46 years of today's annual profit up front, before considering any future growth. You would only pay it if you were sure the profit would climb a lot from here.",
+            "term": "P/E = 46x"
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "That is exactly what a high [[P/E|Price to earnings: how many rupees you pay for each rupee of yearly profit.|At about 46, Airtel's P/E means the market has already priced in years of good news.]] tells you: the market has already paid up, in advance, for years of good news. Which leaves very little [[margin of safety|The cushion between the price you pay and the value you get, your room to be wrong.|At an all-time-high price, even a small stumble at Airtel could deflate the stock quickly.]]."
+            ]
+          },
+          {
+            "kind": "bigIdea",
+            "text": "A great business is not the same as a great stock."
+          },
+          {
+            "kind": "tension",
+            "a": "Airtel is a genuinely excellent business.",
+            "b": "The stock can still be a poor investment.",
+            "resolve": "You already paid for the excellent part, so if the price is too high the stock can still disappoint. That is why Fathom explains the business and leaves the buy or sell call to you."
+          }
+        ]
+      },
+      {
+        "id": "risk",
+        "question": "What could break this whole story?",
+        "teaches": [
+          "The Jio risk",
+          "Growth off a low base"
+        ],
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Every thesis has an underside. Airtel's rests on a truce, and truces can end.",
+              "Say Airtel charges ₹350 and Jio drops to ₹250. Airtel then has to choose: match, and hand back its hard-won revenue, or hold, and watch customers leave. That choice is never fully in Airtel's hands, which is why Jio is the risk that matters most.",
+              "Beyond Jio: every few years new spectrum auctions demand fresh capital, regulators can step in and cap tariffs, and Airtel's growing Africa business earns in local currencies that can weaken against the dollar and shrink those profits when converted."
+            ]
+          },
+          {
+            "kind": "branch",
+            "trigger": "Jio suddenly cuts its price to ₹250",
+            "decision": "Airtel, at ₹350, has to choose",
+            "options": [
+              {
+                "label": "Match Jio",
+                "outcome": "Hard-won revenue falls",
+                "tone": "bad"
+              },
+              {
+                "label": "Hold the price",
+                "outcome": "Customers start leaving",
+                "tone": "bad"
+              }
+            ]
+          },
+          {
+            "kind": "tension",
+            "a": "Airtel's profit has grown about 45% a year over three years.",
+            "b": "A lot of that is flattered by how depressed the starting year was.",
+            "resolve": "Coming off a near-loss, almost any recovery looks explosive. The underlying business really is strong, but you should not take a bounce off the bottom and assume that pace continues forever."
+          }
+        ]
+      },
+      {
+        "id": "together",
+        "question": "So what is the Airtel story?",
+        "teaches": [],
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Airtel built the road years ago, and the road did not suddenly get better. What changed was the competition around it. When the field collapsed from a dozen networks to three, Airtel could finally charge a proper toll, and the same network quietly turned into a cash machine. Investors, though, already know."
+            ]
+          },
+          {
+            "kind": "flow",
+            "steps": [
+              {
+                "label": "The road did not change",
+                "sub": "Airtel's network was already there"
+              },
+              {
+                "label": "The traffic changed",
+                "sub": "a dozen rivals fell to three"
+              },
+              {
+                "label": "The toll changed",
+                "sub": "customers started paying more"
+              },
+              {
+                "label": "The cash changed",
+                "sub": "far more money through the same road",
+                "tone": "accent"
+              },
+              {
+                "label": "But the price changed too",
+                "sub": "investors already noticed",
+                "tone": "muted"
+              }
+            ]
+          },
+          {
+            "kind": "graduate",
+            "intro": "The investor report uses the same language. The difference is that now you know what it means.",
+            "ctaLabel": "Read the investor version",
+            "glossary": [
+              {
+                "term": "Recurring revenue",
+                "def": "Money a company receives repeatedly from the same customers.",
+                "context": "Airtel bills hundreds of millions of people every month."
+              },
+              {
+                "term": "Capital intensity",
+                "def": "A business that needs huge sums spent on physical assets to operate.",
+                "context": "Airtel spends tens of thousands of crores a year on network and spectrum."
+              },
+              {
+                "term": "Barrier to entry",
+                "def": "Something that makes it hard for a new rival to enter an industry.",
+                "context": "A national network costs so much the field cannot refill once thinned out."
+              },
+              {
+                "term": "Oligopoly",
+                "def": "A market run by just a few big sellers.",
+                "context": "Three private players now run Indian mobile."
+              },
+              {
+                "term": "Pricing power",
+                "def": "The ability to raise prices without losing many customers.",
+                "context": "Airtel and Jio can push tariffs up and they mostly stick."
+              },
+              {
+                "term": "ARPU",
+                "def": "Average Revenue Per User, the average monthly bill per customer.",
+                "context": "₹257 today, up from ₹104 during the price war."
+              },
+              {
+                "term": "Fixed costs",
+                "def": "Costs that barely change with the number of customers.",
+                "context": "Airtel's network costs about the same busy or quiet."
+              },
+              {
+                "term": "Operating leverage",
+                "def": "When revenue grows much faster than costs, so profit grows faster still.",
+                "context": "A small ARPU rise swings Airtel's profit hard."
+              },
+              {
+                "term": "Operating cash flow",
+                "def": "The real cash a business collects from its day-to-day operations.",
+                "context": "Airtel's rose from about ₹79,000 crore to ₹1,22,000 crore in two years."
+              },
+              {
+                "term": "Free cash flow",
+                "def": "Cash left after paying for everything needed to run and grow.",
+                "context": "Roughly ₹66,000 crore in FY26, now cutting debt."
+              },
+              {
+                "term": "P/E",
+                "def": "How many rupees you pay for each rupee of yearly profit.",
+                "context": "About 46 for Airtel."
+              },
+              {
+                "term": "Margin of safety",
+                "def": "The room between the price you pay and the value you get.",
+                "context": "Thin at Airtel's all-time-high price."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "lenses": [
     {
       "name": "Quiet math",

@@ -1,5 +1,7 @@
 import { getAllTickers, getReport } from '@/lib/data';
 import { Report } from '@/components/Report';
+import { SimpleReport } from '@/components/SimpleReport';
+import { ReportShell } from '@/components/ReportShell';
 import { canonical } from '@/lib/base';
 import JsonLd, { ORG } from '@/components/JsonLd';
 import type { Metadata } from 'next';
@@ -49,7 +51,10 @@ export default async function StockPage({ params }: { params: Promise<{ ticker: 
   return (
     <>
       <JsonLd data={articleLd} />
-      <Report r={r} />
+      <ReportShell
+        investor={<Report r={r} />}
+        simple={r.simple ? <SimpleReport r={r} /> : null}
+      />
     </>
   );
 }
