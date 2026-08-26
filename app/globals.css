@@ -715,7 +715,7 @@ section.block:first-of-type { border-top: none; }
 
 /* ===================== Case study detail ===================== */
 .csd-head { padding: 8px 0 28px; border-bottom: 1px solid var(--border); }
-.csd-title { font-family: var(--serif); font-size: 34px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.08; margin: 12px 0 0; text-wrap: balance; }
+.csd-title { font-family: var(--serif); font-size: clamp(27px, 6.5vw, 40px); font-weight: 600; letter-spacing: -0.02em; line-height: 1.08; margin: 12px 0 0; text-wrap: balance; }
 .csd-subtitle { font-family: var(--sans); font-size: 17px; line-height: 1.55; color: var(--ink-dim); margin: 12px 0 0; max-width: 660px; }
 .csd-body { padding: 28px 0 8px; }
 @media (max-width: 640px) { .csd-title { font-size: 26px; } .cs-grid { grid-template-columns: 1fr; } }
@@ -1601,7 +1601,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .s-num-to { font-size: 76px; }
 .s-num-sub { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-faint); }
 .s-num-mid { display: inline-flex; flex-direction: column; align-items: center; gap: 10px; }
-.s-num-arrow { font-size: 34px; color: var(--ink-faint); }
+.s-num-arrow { font-size: 34px; color: var(--ink-faint); transform: rotate(-90deg); }
 .s-num-delta { font-family: var(--mono); font-size: 14px; font-weight: 700; color: var(--good); background: color-mix(in srgb, var(--good) 12%, transparent); border: 1px solid color-mix(in srgb, var(--good) 32%, var(--border)); border-radius: 999px; padding: 4px 12px; }
 .s-num-insight { font-size: 21px; margin-top: 30px; }
 
@@ -1743,16 +1743,16 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .s-question         { font-size: clamp(23px, 4.6vw, 33px); }
 .s-sec-num          { font-size: clamp(30px, 6vw, 48px); }
 
-.s-cmp-count        { font-size: clamp(44px, 12vw, 78px); }
-.s-cmp.now .s-cmp-count { font-size: clamp(52px, 14vw, 88px); }
+.s-cmp-count        { font-size: clamp(42px, 10vw, 64px); }
+.s-cmp.now .s-cmp-count { font-size: clamp(42px, 10vw, 64px); }
 .s-cmp-player       { font-size: clamp(16px, 3.6vw, 20px); }
 .s-cmp.now .s-cmp-player { font-size: clamp(20px, 5vw, 31px); }
 
-.s-num-from         { font-size: clamp(30px, 8vw, 52px); }
-.s-num-to           { font-size: clamp(48px, 14vw, 96px); }
-.s-stat-val         { font-size: clamp(58px, 16vw, 96px); }
-.s-money-left-val   { font-size: clamp(52px, 16vw, 88px); }
-.s-reveal-big       { font-size: clamp(44px, 14vw, 82px); }
+.s-num-from         { font-size: clamp(28px, 7vw, 42px); }
+.s-num-to           { font-size: clamp(44px, 11vw, 74px); }
+.s-stat-val         { font-size: clamp(54px, 13vw, 78px); }
+.s-money-left-val   { font-size: clamp(48px, 12vw, 72px); }
+.s-reveal-big       { font-size: clamp(42px, 11vw, 66px); }
 
 .s-bigidea          { font-size: clamp(22px, 4.4vw, 28px); }
 .s-insight          { font-size: clamp(19px, 3.6vw, 22px); }
@@ -1791,6 +1791,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 @media (max-width: 380px) {
   .s-num-row { flex-direction: column; gap: 10px; }
   .s-num-mid { flex-direction: row; gap: 12px; }
+  .s-num-arrow { transform: rotate(0deg); }
 }
 
 /* ==========================================================================
@@ -1820,16 +1821,90 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .s-bigidea { text-align: center; font-size: clamp(26px, 5vw, 40px); font-weight: 600; line-height: 1.25; color: var(--ink); padding: 8px 0; }
 
 /* 12 -> 3 side by side on wide screens, stacked on phones */
-.s-compare { display: grid; grid-template-columns: 1fr auto 1fr; align-items: start; gap: 0 44px; }
+.s-compare { display: grid; grid-template-columns: 1fr auto 1fr; align-items: start; gap: 0 28px; max-width: 760px; margin-left: auto; margin-right: auto; }
 .s-cmp.now { margin-top: 0; }
 .s-cmp.now::before { display: none; }
 .s-cmp-arrow { align-self: center; font-size: clamp(30px, 5vw, 46px); color: var(--accent); text-align: center; }
 .s-compare-punch { grid-column: 1 / -1; }
 @media (max-width: 640px) {
   .s-compare { grid-template-columns: 1fr; gap: 0; }
-  .s-cmp-arrow { transform: rotate(90deg); margin: 18px 0; }
+  /* → becomes ↓ when the two sides stack */
+  .s-cmp-arrow { display: inline-block; transform: rotate(90deg); margin: 16px 0; }
 }
 
 /* 12 and 3 the same size; colour (grey vs teal) marks the change, not scale */
-.s-cmp.now .s-cmp-count { font-size: clamp(48px, 14vw, 88px); }
+.s-cmp.now .s-cmp-count { font-size: clamp(42px, 10vw, 64px); }
 .s-cmp.now .s-cmp-player { font-size: clamp(16px, 3.6vw, 20px); }
+
+/* ==========================================================================
+   Content registers: story (plain prose) vs aside (analogy/explanation) vs
+   insight (the important part). The aside is calm, not a card, so the reader
+   feels a step away from the narrative without visual shouting.
+   ========================================================================== */
+.s-prose-aside { margin: 0 auto; padding: 4px 0 4px 22px; border-left: 2px solid var(--border-strong); }
+.s-aside-tag { font-family: var(--mono); font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-faint); margin-bottom: 10px; }
+.s-prose-aside p { color: var(--ink-dim); }
+
+/* the "could you have seen it" investigation table */
+.s-signals { margin: 0; }
+.s-signals-head { font-family: var(--serif); font-size: 20px; font-weight: 600; color: var(--ink); margin-bottom: 18px; }
+.s-signals-table { display: flex; flex-direction: column; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+.s-signals-row { display: grid; grid-template-columns: 1.1fr 1fr 1.4fr; gap: 16px; padding: 16px 20px; border-top: 1px solid var(--border); }
+.s-signals-row:first-child { border-top: 0; }
+.s-signals-hrow { background: var(--bg-raised); }
+.s-signals-hrow span { font-family: var(--mono); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-faint); }
+.s-sig-signal { font-family: var(--serif); font-size: 17px; font-weight: 600; color: var(--ink); }
+.s-sig-where { font-size: 15px; color: var(--accent); }
+.s-sig-meaning { font-size: 15px; line-height: 1.55; color: var(--ink-dim); }
+.s-sig-k { display: none; font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-faint); margin-bottom: 4px; }
+.s-signals-blind { margin-top: 18px; padding: 16px 20px; border-left: 3px solid var(--amber); background: color-mix(in srgb, var(--amber) 6%, var(--bg-card)); border-radius: 0 10px 10px 0; font-size: 15.5px; line-height: 1.6; color: var(--ink); }
+.s-signals-blind-tag { display: block; font-family: var(--mono); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--amber); margin-bottom: 8px; }
+
+@media (max-width: 640px) {
+  /* the table becomes stacked cards, each row a small labelled block */
+  .s-signals-hrow { display: none; }
+  .s-signals-row { grid-template-columns: 1fr; gap: 10px; padding: 16px 18px; }
+  .s-sig-k { display: block; }
+}
+
+/* case-study hero: the puzzle made visible. Several things grew (↑), one stayed
+   flat, then the question. The contradiction lands before section 01. */
+.s-contra { margin: 36px auto 0; display: flex; flex-direction: column; max-width: 680px; }
+.s-contra-row { display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: 18px; padding: 12px 0; }
+.s-contra-label { font-family: var(--serif); font-size: clamp(22px, 4.4vw, 28px); font-weight: 600; color: var(--ink); }
+.s-contra-row.up .s-contra-mark { display: inline-block; font-family: var(--serif); font-size: clamp(24px, 5vw, 30px); font-weight: 700; color: var(--accent); transform: rotate(45deg); }
+.s-contra-row.flat { margin-top: 8px; padding-top: 20px; border-top: 1px solid var(--border); }
+.s-contra-row.flat .s-contra-label { color: var(--ink-dim); }
+.s-contra-row.flat .s-contra-mark { font-family: var(--serif); font-style: italic; font-size: clamp(16px, 3.4vw, 19px); color: var(--ink-faint); }
+.s-hero-q { font-family: var(--serif); font-size: clamp(25px, 5vw, 36px); font-weight: 600; color: var(--accent); margin-top: 32px; }
+
+/* semantic tag above a big number: Evidence / Collapse / Shock / Turn / Result */
+.s-num-kicker { font-family: var(--mono); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin-bottom: 12px; }
+.s-stat-bad .s-num-kicker { color: var(--bad); }
+
+/* mobile readability: bigger body, roomier line height, tighter gutters */
+@media (max-width: 640px) {
+  .wrap { padding: 0 16px; }
+  .simple-report .s-prose p { font-size: 17px; line-height: 1.72; }
+  .s-prose-aside p, .s-insight, .s-callout-text, .s-tension-a, .s-tension-b,
+  .s-tension-resolve, .s-num-insight, .s-compare-punch, .s-money-punch,
+  .s-sig-meaning, .s-signals-blind, .s-analogy-body { font-size: 16px; line-height: 1.68; }
+  .s-question { line-height: 1.25; }
+}
+
+/* case study: the direct "short answer" up top, and the FAQ block near the end.
+   Both are for the searcher (and AI) who wants the answer without the 2,000 words. */
+.csd-answer { max-width: 760px; margin: 30px auto 0; padding: 22px 26px; background: var(--bg-card); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 14px 14px 0; }
+.csd-answer-tag { font-family: var(--mono); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin-bottom: 10px; }
+.csd-answer-text { font-family: var(--serif); font-size: 19px; line-height: 1.6; color: var(--ink); margin: 0; text-wrap: pretty; }
+
+.csd-faq { margin-top: 44px; }
+.csd-faq-list { margin: 18px 0 0; padding: 0; }
+.csd-faq-item { padding: 18px 0; border-top: 1px solid var(--border); }
+.csd-faq-item:first-child { border-top: 0; }
+.csd-faq-q { font-family: var(--serif); font-size: 18px; font-weight: 600; color: var(--ink); margin: 0 0 8px; }
+.csd-faq-a { font-size: 16px; line-height: 1.65; color: var(--ink-dim); margin: 0; }
+@media (max-width: 640px) {
+  .csd-answer { padding: 18px 18px; }
+  .csd-answer-text { font-size: 17px; }
+}

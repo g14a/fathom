@@ -230,6 +230,7 @@ export type SimpleBlock =
   // One hero number that moved, with optional two-bar comparison.
   | {
       kind: 'bigNumber';
+      kicker?: string;      // semantic tag: "The bill", "The collapse", "The shock"
       from: string;
       to: string;
       fromSub?: string;                                // small line under `from` (e.g. a year)
@@ -243,7 +244,7 @@ export type SimpleBlock =
     }
   // A single huge stat that IS the point (a valuation multiple, a share). The
   // number carries the weight; one line labels it.
-  | { kind: 'bigStat'; value: string; label: string; tone?: 'accent' | 'bad' }
+  | { kind: 'bigStat'; kicker?: string; value: string; label: string; tone?: 'accent' | 'bad' }
   // "Where ₹100 goes": bars where the leftover visually dominates.
   | {
       kind: 'moneyFlow';
@@ -264,6 +265,15 @@ export type SimpleBlock =
   | { kind: 'thesis'; heading: string; items: SimpleThesisItem[] }
   // "Why should you care?" ties a concept just taught back to the thesis.
   | { kind: 'callout'; label?: string; text: string }
+  // The ex-ante investigation table: what an investor could have watched, where
+  // to find it, and what it meant. `blindSpot` is the honest "and this part you
+  // could not have known" line. The signature "could you have seen it" feature.
+  | {
+      kind: 'signals';
+      heading?: string;
+      rows: { signal: string; where: string; meaning: string }[];
+      blindSpot?: string;
+    }
   // Two things true at once (a great business AND an expensive stock). The
   // engine of real investing judgement, so Simple mode teaches it head on.
   | { kind: 'tension'; a: string; b: string; resolve: string }
@@ -276,8 +286,10 @@ export type SimpleBlock =
       glossary: { term: string; def: string; context?: string }[];
       ctaLabel: string;
     }
-  // Escape hatch. Short paragraphs, used only when nothing visual fits.
-  | { kind: 'prose'; text: string[] };
+  // Short paragraphs. `aside` shifts it into the calmer "in everyday terms"
+  // register (a quiet left-rule + small label) so an analogy or explanation
+  // reads as a step away from the story, distinct from an emphatic `insight`.
+  | { kind: 'prose'; text: string[]; aside?: string };
 
 export interface SimpleSection {
   id: string;

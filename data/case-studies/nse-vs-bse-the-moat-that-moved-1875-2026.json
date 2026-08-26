@@ -354,5 +354,32 @@
       "note": "The April 2026 claim that BSE briefly held about 55% notional derivatives turnover, ahead of NSE, is carried over from the companion case study on BSE's 2023-2026 re-rating, which sourced it to financial-press coverage (Angel One, Business Standard) rather than a primary exchange or SEBI dataset. Directionally credible given BSE's documented 2023-2026 fee and expiry-day strategy, but this specific figure has not been cross-checked against NSE/BSE's own published turnover data or a SEBI bulletin, and should be treated as medium confidence pending that check.",
       "confidence": "medium"
     }
+  ],
+  "answer": "BSE, founded in 1875 and Asia's oldest exchange, lost its market to NSE not because NSE had better technology, but because of liquidity. NSE's 1994 screen-based trading let buyers and sellers anywhere find each other, so within about two years it out-traded BSE. Once that larger crowd formed it compounded: more traders meant tighter prices, which drew still more traders, and the advantage never moved back. Today NSE holds about 93% of cash-equity turnover to BSE's roughly 7%.",
+  "faqs": [
+    {
+      "q": "Why was NSE created?",
+      "a": "A committee under UTI's Manohar Pherwani had, since 1991, recommended a demutualised, screen-based exchange a regulator could actually audit, so the people running it were not the brokers trading on it. NSE was incorporated in November 1992, promoted by IDBI and other institutions rather than brokers, and began equity trading on 3 November 1994. The Harshad Mehta scam, exposed in April 1992 after SEBI already had statutory powers, did not create NSE. It removed the last argument for leaving BSE's opaque, broker-run floor alone."
+    },
+    {
+      "q": "How did NSE overtake BSE so quickly?",
+      "a": "Screen-based trading let a buyer and seller who had never met, in any city with a phone line and satellite dish, find each other and agree a price. BSE's floor could only hold as many brokers as physically fit in the room, so NSE widened who was allowed to show up, and a market with more participants is a better market. By August 1996, under two years after launch, NSE's monthly turnover of about ₹1,035 crore was already roughly double BSE's ₹480 crore."
+    },
+    {
+      "q": "If BSE launched derivatives first, why did it still lose that market?",
+      "a": "BSE launched Sensex futures on 9 June 2000, three days before NSE's Nifty futures, and briefly held about 61% of the tiny new market. Within roughly eighteen months NSE's share reached around 99%, and BSE's derivatives stayed a rounding error for about twenty years. The crowd was already on NSE for the cash market, so when index derivatives arrived traders simply added them to the exchange they were already using. Being first to the product did not matter, because the product was never the thing that mattered. Liquidity was."
+    },
+    {
+      "q": "Why is a liquidity advantage so hard to overturn?",
+      "a": "Because it feeds itself. To sell 1,000 shares, more buyers on the other side means you give up less on price to trade now, and that gap is the spread. A bigger crowd makes the spread tighter, a tighter spread is itself a reason to trade there, and that draws still more participants who tighten it further. A rival cannot beat that loop by matching the technology; it has to beat it on liquidity, which is the hardest thing to build from scratch, because nobody wants to be the first trader standing in an empty room."
+    },
+    {
+      "q": "Did BSE get destroyed, or did it survive?",
+      "a": "It survived, by not fighting NSE head-on. BSE built businesses where scale came from something other than trading liquidity: BSE StAR MF became one of the country's largest mutual-fund platforms, it was the founding promoter of the depository CDSL (partly cashed out through CDSL's 2017 IPO), and it listed itself in 2017. None of this reclaimed the cash-equity crowd, but it gave BSE cash flows and a balance sheet that did not depend on winning a fight it had already lost."
+    },
+    {
+      "q": "How did BSE finally gain derivatives share back?",
+      "a": "Instead of pulling traders off NSE's weekly options expiry day, BSE created a new one: it scheduled its Sensex weekly expiry on a different weekday, undercut sharply on fees, and by April 2026 briefly reported more derivatives share than NSE for the first time (a figure that rests on press coverage rather than a primary exchange dataset). It did not beat the network effect. It built a smaller pool NSE did not already have a lock on, which is how a lost crowd is worked around rather than won back."
+    }
   ]
 }

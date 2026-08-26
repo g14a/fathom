@@ -392,5 +392,32 @@
     }
   ],
   "lesson": "Cupid shows clearly how a share price is built. Price equals earnings per share times the multiple the market pays for them, and any large move can be split into those two parts. Split Cupid's roughly ninety-fold, three-year move and the parts are lopsided: the business, measured by profit per share, grew a little over four times, while the multiple the market paid grew about twenty-two times. Most of the stock was not the company earning more; it was the market deciding, after a change of owner and a new plan, to pay far more for each rupee it earned, and pricing years of hoped-for growth in before the growth arrived. The earnings have since been growing into that price. But the mechanism works both ways: a multiple near 290 is stored optimism, and if the optimism is trimmed, the falling earnings and the shrinking multiple multiply against shareholders exactly as they once multiplied for them. A multibagger does not require a business to become ten times better. It can happen when earnings grow, the future becomes more believable, and the market agrees to pay a higher multiple for those earnings, all at once. The question to carry away is how much of a return came from higher earnings and how much from a higher multiple, because only the first is money the business itself earned.",
-  "remember": "A ninety-fold stock did not need a ninety-fold business. Cupid's profit grew about four times; the multiple the market paid grew about twenty-two times, and twenty-two times four is ninety. Most of the move was a change of mind, not a change in the numbers."
+  "remember": "A ninety-fold stock did not need a ninety-fold business. Cupid's profit grew about four times; the multiple the market paid grew about twenty-two times, and twenty-two times four is ninety. Most of the move was a change of mind, not a change in the numbers.",
+  "answer": "Cupid, a thirty-year-old condom maker, rose about ninety-fold in three years, and one split explains it. A share price is earnings per share times the multiple the market pays, and the two moved very differently here: profit per share grew a little over four times, from EPS ₹0.24 to about ₹1.02, while the multiple expanded about twenty-two times, from a P/E near 13x to 288x. A new owner, not a new product, was the trigger, and the valuation moved first, before the earnings arrived.",
+  "faqs": [
+    {
+      "q": "How did Cupid's stock rise about 90x?",
+      "a": "Price equals earnings per share times the price-to-earnings multiple, and Cupid's ninety-fold move splits cleanly into those two parts. Earnings per share grew a little over four times, from about ₹0.24 to ₹1.02, while the multiple expanded about twenty-two times, from roughly 13x to 288x, and four times twenty-two is about ninety. The striking part is the imbalance: had the profit quadrupled exactly as it did but the market kept paying the old 13x, the shares would have risen only about four-fold. Most of the move was the market changing its mind, not the business earning more."
+    },
+    {
+      "q": "What triggered Cupid's re-rating?",
+      "a": "A change of owner, not a new product. In late 2023 the Universal-Halwasiya group, led by Aditya Kumar Halwasiya, bought out the founding promoters at ₹285 a share and said it would turn a sleepy exporter into a branded consumer and diagnostics company. On that day Cupid was still the same roughly ₹170 crore exporter, earning about what it had the week before. Nothing operational had changed; only the ambition had. The market began paying for what Cupid might become, which is why the valuation moved long before any new profit showed up."
+    },
+    {
+      "q": "Why would the market pay 250 times earnings for a small condom maker?",
+      "a": "Three things made so violent a repricing possible. First, control changed what investors thought Cupid could become, since a moneyed group had bought it outright and promised a branded consumer and diagnostics business. Second, the plan was believable because Cupid was not starting from nothing: it owns one of the world's few WHO and UNFPA prequalified female-condom lines, real factories and a debt-free balance sheet. Third, and crucial, Cupid was tiny, worth only about ₹380 crore at takeover, and a small base lets a multiple move violently on a change of story alone."
+    },
+    {
+      "q": "Did Cupid's profits actually grow?",
+      "a": "Yes, in the second phase. Through 2025 and into 2026 the plan turned into revenue: a branded consumer business built almost from scratch crossed ₹50 crore in its first year, and full-year FY26 revenue roughly doubled to about ₹390 crore while net profit rose from ₹41 crore to ₹108 crore. Earnings per share more than tripled. Notice how the identity flipped: in phase one the multiple did the lifting while earnings barely moved, and in phase two the earnings did the lifting. Both happened, but in sequence, not together."
+    },
+    {
+      "q": "Is Cupid's stock risky at such a high multiple?",
+      "a": "Yes, because the mechanism that lifted it is perfectly reversible and runs faster downhill. A multiple near 290 is a stored expectation, the market saying it is near-certain the growth continues for years. The moment that certainty cracks, the same identity dismantles the price. On the way up, flat profit with a rising multiple can still soar; on the way down, a modestly lower profit with a shrinking multiple can fall a long way, because both terms drop together. A five-year South African tender gives real visibility, but an announced order is not delivered profit."
+    },
+    {
+      "q": "Did Cupid become a better business, or did investors just get more optimistic?",
+      "a": "Both, and doing the arithmetic gives the proportions opinion usually hides. The business genuinely improved, with profit rising from ₹41 crore to ₹108 crore, roughly four-fold per share. But of the ninety-fold price move, the multiple did about twenty-two times the work and the earnings only about four. The point is not that the optimism was wrong, since the earnings have been growing into it. The point is what the split means for the next buyer: when almost all of a past move was the multiple, you are paid not for what the company earns but for what it must keep proving."
+    }
+  ]
 }

@@ -19,12 +19,17 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   if (!c) return { title: 'Case Study | Fathom' };
   const title = `${c.title} | Fathom`;
   const url = canonical(`/case-studies/${id}/`);
+  // Prefer the direct answer for the snippet (it earns the click and reads as an
+  // answer), trimmed to a SERP-friendly length; fall back to the one-line hook.
+  const desc = c.answer
+    ? (c.answer.length > 158 ? `${c.answer.slice(0, 155).trimEnd()}...` : c.answer)
+    : c.summary;
   return {
     title,
-    description: c.summary,
+    description: desc,
     alternates: { canonical: url },
-    openGraph: { title, description: c.summary, url, type: 'article', images: ['/og.png'] },
-    twitter: { title, description: c.summary, images: ['/og.png'] },
+    openGraph: { title, description: desc, url, type: 'article', images: ['/og.png'] },
+    twitter: { title, description: desc, images: ['/og.png'] },
   };
 }
 
@@ -1025,7 +1030,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: c.title,
-    description: c.summary,
+    description: c.answer ?? c.summary,
     articleSection: 'Case study',
     keywords: c.tags.join(', '),
     mainEntityOfPage: canonical(`/case-studies/${c.id}/`),
@@ -1034,6 +1039,20 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
     ...(c.published ? { datePublished: c.published, dateModified: c.published } : {}),
     about: { '@type': 'Corporation', name: c.company },
   };
+  // FAQPage structured data, so the explicit Q&A can surface in search and be
+  // retrieved cleanly by AI answer engines. Only emitted when the study has
+  // authored FAQs; never fabricated.
+  const faqLd = c.faqs && c.faqs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: c.faqs.map((f) => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
+      }
+    : null;
 
   // Render a SimpleReport from the case study's own simple data.
   function SimpleCaseStudyReport() {
@@ -1043,20 +1062,27 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
       <div className="wrap report simple-report">
         <header className="s-hero">
           <div className="s-eyebrow">Simple mode</div>
-          <h1 className="s-title">{c.title}</h1>
+          {/* Not an <h1>: the investor view holds the page's single canonical H1. */}
+          <div className="s-title" role="heading" aria-level={1}>{c.title}</div>
           <p className="s-hero-lead">{s.hero.lead}</p>
+          {/* The puzzle, made visible before section 01: several things grew, one
+              did not. Rows with a tone of 'muted' are the flat outcome. */}
           {s.hero.flow && s.hero.flow.length > 0 && (
-            <div className="s-flow s-hero-flow">
-              {s.hero.flow.map((step, i) => (
-                <div key={i} className={`s-flow-step ${step.tone ? `s-flow-${step.tone}` : ''}`}>
-                  <div className="s-flow-label">{step.label}</div>
-                  {step.sub && <div className="s-flow-sub">{step.sub}</div>}
-                  {i < s.hero.flow.length - 1 && <div className="s-flow-link" aria-hidden />}
-                </div>
-              ))}
+            <div className="s-contra">
+              {s.hero.flow.map((step, i) => {
+                const flat = step.tone === 'muted';
+                return (
+                  <div key={i} className={`s-contra-row ${flat ? 'flat' : 'up'}`}>
+                    <span className="s-contra-label">{step.label}</span>
+                    <span className="s-contra-mark" aria-hidden={!flat}>
+                      {flat ? step.sub || 'almost nothing' : '↑'}
+                    </span>
+                  </div>
+                );
+              })}
             </div>
           )}
-          <p className="s-hero-close">{s.hero.close}</p>
+          <p className="s-hero-close s-hero-q">{s.hero.close}</p>
         </header>
         {s.sections.map((sec, i) => (
           <section key={sec.id} className="s-section" id={`simple-${sec.id}`}>
@@ -1079,6 +1105,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
       investor={
         <div className="wrap report csd-page">
           <JsonLd data={articleLd} />
+          {faqLd && <JsonLd data={faqLd} />}
           <Breadcrumbs items={[{ name: 'Case Studies', path: '/case-studies/' }, { name: c.company }]} />
 
       <div className="csd-head">
@@ -1101,6 +1128,13 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
           </div>
         ))}
       </div>
+
+      {c.answer && (
+        <div className="csd-answer">
+          <div className="csd-answer-tag">The short answer</div>
+          <p className="csd-answer-text">{renderInline(c.answer)}</p>
+        </div>
+      )}
 
       <div className="csd-body">
         <div className="csd-row csd-lead">
@@ -1245,6 +1279,20 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
                 </figcaption>
               </figure>
             ))}
+          </div>
+        )}
+
+        {c.faqs && c.faqs.length > 0 && (
+          <div className="csd-faq">
+            <h2 className="csd-h2">Questions people ask</h2>
+            <dl className="csd-faq-list">
+              {c.faqs.map((f, j) => (
+                <div key={j} className="csd-faq-item">
+                  <dt className="csd-faq-q">{f.q}</dt>
+                  <dd className="csd-faq-a">{renderInline(f.a)}</dd>
+                </div>
+              ))}
+            </dl>
           </div>
         )}
 

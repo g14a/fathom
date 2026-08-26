@@ -4,13 +4,29 @@
   "title": "Why does a stock get more expensive when its earnings fall?",
   "published": "2026-08-12",
   "period": "FY20 → FY21",
-  "tags": ["Valuation", "Re-rating", "Framework"],
+  "tags": [
+    "Valuation",
+    "Re-rating",
+    "Framework"
+  ],
   "summary": "A stock's price is earnings times a multiple. When the earnings drop but the price climbs, the multiple did all the work. Here is the mechanism, using Vinati Organics in COVID.",
   "keyNumbers": [
-    { "label": "FY20 EPS", "value": "₹32.5" },
-    { "label": "FY21 EPS", "value": "₹26.2" },
-    { "label": "Earnings change", "value": "−19%" },
-    { "label": "The stock", "value": "Made new highs" }
+    {
+      "label": "FY20 EPS",
+      "value": "₹32.5"
+    },
+    {
+      "label": "FY21 EPS",
+      "value": "₹26.2"
+    },
+    {
+      "label": "Earnings change",
+      "value": "−19%"
+    },
+    {
+      "label": "The stock",
+      "value": "Made new highs"
+    }
   ],
   "intro": [
     "Here is a paradox that trips up almost every beginner. A company's profit falls. Its earnings per share drops nearly a fifth. And over the very same stretch, the stock does not fall. It recovers, and then climbs to new highs. On paper the business got worse, yet the market decided it was worth more per rupee of profit than before.",
@@ -69,7 +85,11 @@
         "improved": "The share price. It recovered the COVID crash and made new highs while the profit was still down.",
         "worsened": "Reported earnings. FY21 EPS fell about 19% to ₹26.2 as plants shut and demand softened.",
         "shareholder": "Was rewarded, because the recovery the price was betting on actually showed up in FY22 and FY23.",
-        "labels": { "improved": "Price", "worsened": "Earnings", "shareholder": "The bet" }
+        "labels": {
+          "improved": "Price",
+          "worsened": "Earnings",
+          "shareholder": "The bet"
+        }
       }
     },
     {
@@ -120,7 +140,11 @@
         "improved": "Reported earnings. EPS grew about 13.7 times, from about ₹1.22 in FY21 to ₹16.68 in FY26.",
         "worsened": "The multiple. The P/E roughly halved, from about 30 times earnings to about 15, falling through its 36.3 median. The market kept paying less for each rupee of a growing profit.",
         "shareholder": "The price still grew about 7 times (about 48% a year), an exceptional return, but well short of the earnings growth, because the shrinking multiple handed part of it back.",
-        "labels": { "improved": "Earnings", "worsened": "Multiple", "shareholder": "The return" }
+        "labels": {
+          "improved": "Earnings",
+          "worsened": "Multiple",
+          "shareholder": "The return"
+        }
       }
     },
     {
@@ -152,12 +176,36 @@
   "evidence": {
     "caption": "The numbers behind the paradox",
     "rows": [
-      { "label": "FY19 EPS", "value": "₹27.5", "source": "Screener.in" },
-      { "label": "FY20 EPS", "value": "₹32.5", "source": "Screener.in" },
-      { "label": "FY21 EPS (COVID year)", "value": "₹26.2", "source": "Screener.in" },
-      { "label": "FY22 EPS (recovery)", "value": "₹33.7", "source": "Screener.in" },
-      { "label": "FY23 EPS", "value": "₹40.8", "source": "Screener.in" },
-      { "label": "FY21 earnings change", "value": "−19% vs FY20", "source": "Derived from the above" }
+      {
+        "label": "FY19 EPS",
+        "value": "₹27.5",
+        "source": "Screener.in"
+      },
+      {
+        "label": "FY20 EPS",
+        "value": "₹32.5",
+        "source": "Screener.in"
+      },
+      {
+        "label": "FY21 EPS (COVID year)",
+        "value": "₹26.2",
+        "source": "Screener.in"
+      },
+      {
+        "label": "FY22 EPS (recovery)",
+        "value": "₹33.7",
+        "source": "Screener.in"
+      },
+      {
+        "label": "FY23 EPS",
+        "value": "₹40.8",
+        "source": "Screener.in"
+      },
+      {
+        "label": "FY21 earnings change",
+        "value": "−19% vs FY20",
+        "source": "Derived from the above"
+      }
     ],
     "note": "The point is the shape, not the decimals: earnings dipped in FY21 and recovered strongly after, while the price never waited for the dip to pass. That gap is the expanding multiple."
   },
@@ -174,21 +222,57 @@
     }
   ],
   "sources": [
-    { "label": "Vinati Organics financials, Screener.in", "url": "https://www.screener.in/company/VINATIORGA/consolidated/" },
-    { "label": "Vinati Q3 FY21 results: COVID-hit quarter (Business Standard)", "url": "https://www.business-standard.com/article/news-cm/vinati-organics-consolidated-net-profit-declines-5-06-in-the-march-2021-quarter-121051300662_1.html" },
-    { "label": "BLS International financials, Screener.in", "url": "https://www.screener.in/company/BLS/consolidated/" }
+    {
+      "label": "Vinati Organics financials, Screener.in",
+      "url": "https://www.screener.in/company/VINATIORGA/consolidated/"
+    },
+    {
+      "label": "Vinati Q3 FY21 results: COVID-hit quarter (Business Standard)",
+      "url": "https://www.business-standard.com/article/news-cm/vinati-organics-consolidated-net-profit-declines-5-06-in-the-march-2021-quarter-121051300662_1.html"
+    },
+    {
+      "label": "BLS International financials, Screener.in",
+      "url": "https://www.screener.in/company/BLS/consolidated/"
+    }
   ],
   "evidenceNotes": [
-    { "id": 1, "note": "FY20 and FY21 EPS of about ₹32.5 and ₹26.2 are from Screener.in, a roughly 19% year-on-year fall. The company's own quarterly commentary attributed the weakness to the COVID lockdown (plants suspended from 26 March 2020, resumed 20 April 2020) and softer demand.", "confidence": "high" },
-    { "id": 2, "note": "FY22 and FY23 EPS of about ₹33.7 and ₹40.8 are from Screener.in, showing earnings recovered past the pre-COVID level within two years.", "confidence": "high" },
-    { "id": 3, "note": "BLS International: FY21 EPS of about ₹1.22 and FY26 EPS of ₹16.68 are from Screener.in, a roughly 69% five-year compounded growth, against a stock CAGR of about 48% over the same period, so the P/E compressed as earnings grew. The MEA debarment (9 October 2025) and its reversal by the Delhi High Court (18 December 2025) are documented in the BLS company report on this site. The listed reasons for the multi-year de-rating are candidate explanations, not established causes.", "confidence": "medium" }
+    {
+      "id": 1,
+      "note": "FY20 and FY21 EPS of about ₹32.5 and ₹26.2 are from Screener.in, a roughly 19% year-on-year fall. The company's own quarterly commentary attributed the weakness to the COVID lockdown (plants suspended from 26 March 2020, resumed 20 April 2020) and softer demand.",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "note": "FY22 and FY23 EPS of about ₹33.7 and ₹40.8 are from Screener.in, showing earnings recovered past the pre-COVID level within two years.",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "note": "BLS International: FY21 EPS of about ₹1.22 and FY26 EPS of ₹16.68 are from Screener.in, a roughly 69% five-year compounded growth, against a stock CAGR of about 48% over the same period, so the P/E compressed as earnings grew. The MEA debarment (9 October 2025) and its reversal by the Delhi High Court (18 December 2025) are documented in the BLS company report on this site. The listed reasons for the multi-year de-rating are candidate explanations, not established causes.",
+      "confidence": "medium"
+    }
   ],
   "timeline": [
-    { "when": "26 Mar 2020", "what": "Vinati suspends plant operations as the national COVID lockdown begins; the whole market has already crashed." },
-    { "when": "20 Apr 2020", "what": "Operations resume, but the FY21 year will carry the damage of the shutdown and softer demand." },
-    { "when": "Through FY21", "what": "Reported EPS falls about 19% to ₹26.2, even as the share price recovers the crash and pushes to new highs. The trailing P/E expands from both ends." },
-    { "when": "FY22", "what": "EPS returns to about ₹33.7, back above the pre-COVID level: the recovery the price had bet on arrives." },
-    { "when": "FY23", "what": "EPS rises further to about ₹40.8, confirming FY21 was a dip, not the true earnings power." }
+    {
+      "when": "26 Mar 2020",
+      "what": "Vinati suspends plant operations as the national COVID lockdown begins; the whole market has already crashed."
+    },
+    {
+      "when": "20 Apr 2020",
+      "what": "Operations resume, but the FY21 year will carry the damage of the shutdown and softer demand."
+    },
+    {
+      "when": "Through FY21",
+      "what": "Reported EPS falls about 19% to ₹26.2, even as the share price recovers the crash and pushes to new highs. The trailing P/E expands from both ends."
+    },
+    {
+      "when": "FY22",
+      "what": "EPS returns to about ₹33.7, back above the pre-COVID level: the recovery the price had bet on arrives."
+    },
+    {
+      "when": "FY23",
+      "what": "EPS rises further to about ₹40.8, confirming FY21 was a dip, not the true earnings power."
+    }
   ],
   "patternCard": {
     "signal": "A stock's trailing P/E rises while its reported earnings fall.",
@@ -197,5 +281,32 @@
     "counterexample": "A rising multiple on falling earnings is a bet on recovery, not proof of one. When the recovery never arrives, the multiple contracts and both terms fall together, so the stock drops harder than the earnings alone would suggest."
   },
   "lesson": "When a P/E changes, ask which of three engines moved it: earnings grew, the market paid a higher multiple, or earnings fell so the multiple rose on its own. The stock price reflects the market's assessment of the company's future; the P/E only tells you how large that price is relative to the earnings already reported. That is why the multiple can rise while earnings fall, and why a rising P/E does not, by itself, mean the market turned more optimistic.",
-  "remember": "When a P/E rises while earnings fall, first ask whether the price actually rose. If it did, the market may be looking beyond the current earnings number; if it did not, the multiple may have risen only because the denominator shrank. In either case, the real question is whether the future implied by the valuation actually arrives."
+  "remember": "When a P/E rises while earnings fall, first ask whether the price actually rose. If it did, the market may be looking beyond the current earnings number; if it did not, the multiple may have risen only because the denominator shrank. In either case, the real question is whether the future implied by the valuation actually arrives.",
+  "answer": "A stock's price is its earnings per share times the multiple (the P/E) investors pay for them, so when the price rises while earnings fall, the multiple did all the work. It happens because the two numbers face opposite directions in time: reported earnings are a photograph of a year that has ended, while the price is a bet on the years ahead. When the market looks past a temporarily damaged year to a recovery it can already see, it pays a higher multiple on lower earnings. Vinati Organics is the example: FY21 EPS fell about 19% to ₹26.2 while the stock made new highs.",
+  "faqs": [
+    {
+      "q": "How can a share price rise while earnings fall?",
+      "a": "Because price equals earnings times a multiple, and the multiple can rise faster than earnings fall. Reported earnings look backward at a year already finished; the price looks forward at the profits to come. In FY21 Vinati Organics' plants were shut for weeks in the COVID lockdown and EPS fell about 19% to ₹26.2, yet after the March 2020 crash the stock recovered to new highs. The market was pricing the recovery it expected, not the dented year it had just been handed."
+    },
+    {
+      "q": "What does a P/E ratio actually measure?",
+      "a": "It is how many rupees investors pay today for one rupee of a company's trailing earnings, so a P/E of 30 means ₹30 paid for ₹1 of past profit. The key mismatch is that the price reflects the market's view of future earnings, while the P/E measures that price against earnings already reported. So a high P/E on a depressed year can simply be the market saying it does not believe that weak year represents the company's true earning power."
+    },
+    {
+      "q": "Does a rising P/E always mean the market turned more optimistic?",
+      "a": "No, and this is the trap. A P/E can rise two ways. Price-led, where the price outpaces earnings in a genuine re-rating, a real change of opinion about the future. Or earnings-led, where earnings fall faster than the price, so the multiple rises mechanically and nobody re-rated anything. If EPS drops from ₹30 to ₹20 while the price sits at ₹1,000, the P/E jumps from about 33 to 50 and the stock has not moved a rupee. Always ask which term actually moved."
+    },
+    {
+      "q": "Did the market's bet on Vinati pay off?",
+      "a": "This time, yes. The recovery the FY21 price was paying for arrived: EPS snapped back to about ₹33.7 in FY22 and ₹40.8 in FY23, comfortably past the pre-COVID level, so the investors paying up were paying for a recovery that showed up. But a rising multiple on falling earnings is only a bet that the future is brighter than the reported present, and plenty of such bets fail. When the expected recovery does not arrive, earnings and the multiple fall together and the stock drops hard."
+    },
+    {
+      "q": "Can earnings rise while a stock's multiple falls?",
+      "a": "Yes, and BLS International shows the mirror image. Its EPS grew about 13.7 times, from ₹1.22 in FY21 to ₹16.68 in FY26, yet the share rose only about 7 times, because the P/E roughly halved from around 30 to 15. The market kept paying less for each rupee of a visibly rising profit, on worries such as government-contract concentration and a shift into lower-margin businesses. Great earnings growth stacked under a contracting multiple can still leave you with only a mediocre return."
+    },
+    {
+      "q": "How do you tell a real re-rating from a shrinking denominator?",
+      "a": "Pull up a company's P/E against its own long-run median, with its earnings alongside. If the multiple sits above its history while earnings hold or rise, that may be a genuine price-led re-rating; if the P/E is high only because the earnings bars dipped, that is the trap, the multiple inflating on a falling denominator while nothing hopeful happened. Two cautions: line up the same time period on both sides, and remember a cyclical's high trailing P/E often just means earnings are near a low."
+    }
+  ]
 }

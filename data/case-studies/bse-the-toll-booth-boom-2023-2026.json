@@ -340,5 +340,32 @@
       "note": "Net profit of ₹206 crore (FY23) to ₹2,487 crore (FY26) is from the same audited results. The 12x profit versus 5.5x revenue gap, the operating leverage this study leans on, is arithmetic on those two lines.",
       "confidence": "high"
     }
+  ],
+  "answer": "BSE's stock rose roughly thirteen-fold in three years because a fixed-cost toll booth suddenly caught a flood of traffic. Its derivatives business went from a rounding error to a near-monopoly on its own weekly expiry day, so revenue rose from ₹925 crore to ₹5,124 crore between FY23 and FY26 while costs barely moved, and profit exploded about twelve-fold to ₹2,487 crore. That is operating leverage, and the market re-rated the business on top of it. The catch is that most of that revenue rides on a speculative options boom the regulator, SEBI, has openly set out to cool.",
+  "faqs": [
+    {
+      "q": "How does a stock exchange like BSE make money?",
+      "a": "BSE runs a marketplace and keeps a tiny fee, a transaction charge, on every trade that passes through it, plus smaller streams like listing and market-data fees. It does not buy or sell shares itself. The crucial feature is that its costs barely move: running the exchange costs about the same whether ten lakh or ten crore trades happen in a day. So when volume triples, fee income roughly triples while costs sit still, and nearly all the new income becomes profit. It behaves like a toll booth, cheap to run and hugely profitable once the road floods with traffic."
+    },
+    {
+      "q": "How did BSE take derivatives market share from NSE?",
+      "a": "BSE grabbed share with one clever calendar idea plus aggressive pricing. Rather than fight NSE on its crowded weekly expiry day, in May 2023 BSE scheduled its Sensex expiry on a different weekday, creating a second big expiry each week that belonged to it alone, so traders had two busy sessions instead of one. It then undercut NSE heavily, charging a fraction of the options fee and nothing on futures, which pulled in the high-volume algo desks. Its slice of notional equity-derivatives turnover went from near zero to around 44%, and briefly past NSE at about 55% in April 2026."
+    },
+    {
+      "q": "Why did BSE's profit rise faster than its revenue?",
+      "a": "Because of operating leverage on a fixed cost base. Between FY23 and FY26 BSE's revenue grew about 5.5 times, from ₹925 crore to ₹5,124 crore, but profit grew about twelve times, from ₹206 crore to ₹2,487 crore. The derivatives fees poured in while the cost of running the exchange barely rose, so the share of each rupee kept as profit roughly doubled, from about 22% to nearly 48%. The market then re-rated a business earning 46% on equity to a much higher multiple, and a higher profit times a higher multiple is how a stock rises thirteen-fold in three years."
+    },
+    {
+      "q": "Did BSE's stock crash 67% in May 2025?",
+      "a": "No. In May 2025 the raw share price appears to fall from about ₹6,996 to ₹2,335, roughly 67%, but this was a 2-for-1 bonus issue, not a loss. In a bonus the company hands existing holders extra shares for free, so here one share became three, and if the share count triples while the company is worth the same, each share is worth about a third as much. No wealth was lost. This is why serious charts show an adjusted price, on which BSE's climb is a steady rocket rather than a crash and recovery."
+    },
+    {
+      "q": "What is the biggest risk to BSE?",
+      "a": "The regulator controls BSE's fuel. Roughly 60% of its revenue still rides on a speculative, retail-driven options stream, and SEBI's own study found about 93% of individual options traders lost money in the three years to FY24, together losing on the order of ₹1.8 lakh crore. That makes the boom a social problem SEBI wants to shrink, so from late 2024 it cut each exchange to one weekly expiry, tripled the minimum contract size, forced upfront premium collection and tightened fee rules. Set against a valuation near 57 times earnings, a business this dependent on one coolable stream carries real regulatory risk."
+    },
+    {
+      "q": "How is the BSE story the mirror of Airtel?",
+      "a": "Both are fixed-cost machines, so both should turn extra revenue into near-pure profit, yet one stock slept for thirteen years while the other rose thirteen-fold. The difference was fuel and pricing power. Airtel had the machine but, through a price war and a costly acquisition, not the money to pour into it, so its operating leverage worked against it. BSE had both at once: the machine and a flood of trades it could charge a fee on, with no rival on its own expiry day. Neither moved on size or age; both moved on how much of each rupee they kept."
+    }
   ]
 }

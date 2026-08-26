@@ -59,7 +59,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const featured = getFeaturedCaseStudies(2);
   return (
     <html lang="en">
-      <body>
+      {/* Browser extensions (ColorZilla's cz-shortcut-listen, Grammarly, etc.)
+          inject attributes onto <body> before React hydrates. suppressHydrationWarning
+          silences only this element's own attribute mismatch, not its children. */}
+      <body suppressHydrationWarning>
         <JsonLd data={SITE_JSONLD} />
         {GA_ID && (
           <>

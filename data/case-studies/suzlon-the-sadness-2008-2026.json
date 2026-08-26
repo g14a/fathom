@@ -305,5 +305,32 @@
       "note": "The May 2026 SEBI penalty of roughly ₹29 crore on Suzlon and members of the promoter family, for misleading financial statements over FY15 to FY21, is from the SEBI order as reported by Moneylife. The order may be appealed; the finding stands as of writing.",
       "confidence": "high"
     }
+  ],
+  "answer": "Suzlon nearly died of too much foreign-currency debt taken on to buy Germany's REpower in 2007, and the only way it survived was by issuing new shares round after round to convert that debt into equity. That saved the company, now nearly debt-free and worth over ₹65,000 crore, but each new issue diluted the original owners. So a 2008 shareholder who simply held on came out behind even as the business fully recovered. The ₹48 share price reflects roughly 1,363 crore shares outstanding, not a small company.",
+  "faqs": [
+    {
+      "q": "Why is a ₹48 Suzlon share not a penny stock?",
+      "a": "Because a share price only tells you how thinly a company has been cut, not how large it is. Suzlon has roughly 1,363 crore shares, over 13 billion of them, and 13 billion at ₹48 add up to a market cap north of ₹65,000 crore. Like a ₹600 pizza sliced into 600 slivers worth ₹1 each, a low per-share price means the company was cut into an extraordinary number of pieces. It says nothing about whether the business is small or failing."
+    },
+    {
+      "q": "Why did Suzlon buy REpower, and why did it backfire?",
+      "a": "In 2007, near the market top, Suzlon bought the German turbine maker REpower to jump from a big player to a genuine world leader, a reasonable ambition in a booming wind market. The mistake was the financing. It borrowed heavily, and in US dollars rather than rupees, while it earned in rupees. When the rupee slid from about ₹44 to ₹55 per dollar, the loan grew heavier on its own, costing more rupees to service without Suzlon having borrowed a single rupee more."
+    },
+    {
+      "q": "How did Suzlon's debt spiral out of control?",
+      "a": "Two things hit at once. The 2008 financial crisis dried up credit and pushed customers to postpone expensive wind projects, so income fell exactly when cash was needed. At the same time the falling rupee inflated the dollar debt on its own. Squeezed from both ends, borrowings pushed past ₹13,000 crore, and in 2012 Suzlon defaulted on a foreign-bond repayment, among the largest defaults India had seen, forcing a group of nineteen banks led by SBI to restructure thousands of crores of loans."
+    },
+    {
+      "q": "How did issuing new shares save Suzlon but cost its owners?",
+      "a": "Suzlon owed sums it could not repay, so it turned debt into ownership: lenders and rescue investors were handed new shares instead of cash. That cleared the loans, but the company was not made bigger, only cut into more slices, so every existing owner's piece shrank. That is dilution. Repeated for over a decade, the share count went from about 850 crore to over 1,363 crore. Those shares are not a trophy of success; they are the receipts of survival, and the original shareholders footed the bill."
+    },
+    {
+      "q": "Did Suzlon actually recover?",
+      "a": "Yes, as a business. From around 2022 a rights issue and a large institutional share sale converted the last debt into equity, leaving Suzlon nearly debt-free, with borrowings around ₹556 crore and revenue about ₹16,700 crore a year, and the stock rose roughly twenty-five times from its ₹2 lows. But a 2008 buyer, diluted through every rescue, still sits deep in the red against what they originally paid. The recovery reached the company and the new shareholders who funded it, not the loyal owner who simply held on."
+    },
+    {
+      "q": "Are there risks left in Suzlon's turnaround?",
+      "a": "Two worth watching. A good part of the eye-catching turnaround profit came from one-off accounting gains as old debt was written off in restructuring, so the real operating recovery is younger and less tested than the headline profit suggests. And in May 2026 SEBI penalised Suzlon and members of the founding Tanti family about ₹29 crore in total, finding that past transactions had painted a misleading picture of its finances during the worst years, while the promoter family now owns under 12% and has been selling down."
+    }
   ]
 }

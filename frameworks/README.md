@@ -41,6 +41,13 @@ Two kinds of file live here: **mental models** (how to think about a business) a
   reading of a company report (`data/companies/*.json` → `"simple"`): the block
   vocabulary, the reusable components, the inline glossary, the learning-journey
   order and the Simple-mode voice rules.
+- [EXPLAIN-SIMPLY-CASE-STUDIES.md](EXPLAIN-SIMPLY-CASE-STUDIES.md) The companion for
+  case studies (`data/case-studies/*.json` → `"simple"`): same blocks and components,
+  but reframed as a *guided investigation*, not a retelling. Covers how to think
+  before choosing a block, the section-depth layers, everyday analogies, "why did
+  management do this", knowable vs unknowable, anti-redundancy, and the reader-test
+  QA. Read EXPLAIN-SIMPLY first.
+- [CASE-STUDY-QA-EXTRACTION.md](CASE-STUDY-QA-EXTRACTION.md) How to author the `answer` and `faqs` fields on a case study: pick the 5-8 questions that best explain the story (decision, what-went-wrong, turning-point, outcome, the surprising tension), answer each in 50-120 evidence-backed words, Event to Mechanism to Consequence. Never fabricate.
 
 ## When to use which
 
@@ -50,6 +57,7 @@ Two kinds of file live here: **mental models** (how to think about a business) a
 | Write or edit a sector explainer | WRITING-GUIDE |
 | Write a company report (`data/*.json`) | MENTAL-MODELS-CHECKLIST to judge it, then REPORTS-VOICE for how it reads |
 | Add an "Explain simply" reading to a report | EXPLAIN-SIMPLY (schema, components, journey), then ANTI-AI-SLOP for the voice |
+| Add an "Explain simply" reading to a case study | EXPLAIN-SIMPLY-CASE-STUDIES (the story arc + section-map), which builds on EXPLAIN-SIMPLY |
 | Write a case study | WRITING-GUIDE, then EDITORIAL-CHECKLIST to verify |
 | Write a signal | SIGNALS-CHECKLIST to build it, then SIGNAL-VOICE for how it reads |
 | Final voice pass on any prose | ANTI-AI-SLOP |

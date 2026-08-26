@@ -50,7 +50,9 @@ function Hero({ h, company }: { h: SimpleHero; company: string }) {
   return (
     <header className="s-hero">
       <div className="s-eyebrow">Simple mode</div>
-      <h1 className="s-title">{company}</h1>
+      {/* Not an <h1>: the investor view holds the page's single canonical H1,
+          and both views ship in the static HTML. This keeps one H1 per page. */}
+      <div className="s-title" role="heading" aria-level={1}>{company}</div>
       <p className="s-hero-lead">{h.lead}</p>
 
       <div className="s-map">
@@ -144,6 +146,7 @@ export function Block({ b }: { b: SimpleBlock }) {
       const max = b.bars ? Math.max(...b.bars.map((x) => x.value)) || 1 : 1;
       return (
         <figure className="s-num">
+          {b.kicker && <div className="s-num-kicker">{b.kicker}</div>}
           <div className="s-num-label">{b.label}</div>
           <div className="s-num-row">
             <span className="s-num-side">
@@ -151,7 +154,7 @@ export function Block({ b }: { b: SimpleBlock }) {
               {b.fromSub && <span className="s-num-sub">{b.fromSub}</span>}
             </span>
             <span className="s-num-mid" aria-hidden>
-              <span className="s-num-arrow">→</span>
+              <span className="s-num-arrow">↓</span>
               {b.delta && <span className="s-num-delta">{b.delta}</span>}
             </span>
             <span className="s-num-side">
@@ -179,6 +182,7 @@ export function Block({ b }: { b: SimpleBlock }) {
     case 'bigStat':
       return (
         <figure className={`s-stat s-stat-${b.tone ?? 'accent'}`}>
+          {b.kicker && <div className="s-num-kicker">{b.kicker}</div>}
           <div className="s-stat-val">{b.value}</div>
           <figcaption className="s-stat-label">{rich(b.label)}</figcaption>
         </figure>
@@ -275,7 +279,42 @@ export function Block({ b }: { b: SimpleBlock }) {
         </div>
       );
 
+    case 'signals':
+      return (
+        <figure className="s-signals">
+          {b.heading && <figcaption className="s-signals-head">{b.heading}</figcaption>}
+          <div className="s-signals-table" role="table">
+            <div className="s-signals-row s-signals-hrow" role="row">
+              <span role="columnheader">The signal</span>
+              <span role="columnheader">Where to look</span>
+              <span role="columnheader">What it told you</span>
+            </div>
+            {b.rows.map((r, i) => (
+              <div key={i} className="s-signals-row" role="row">
+                <span className="s-sig-signal" role="cell"><span className="s-sig-k">The signal</span>{r.signal}</span>
+                <span className="s-sig-where" role="cell"><span className="s-sig-k">Where to look</span>{r.where}</span>
+                <span className="s-sig-meaning" role="cell"><span className="s-sig-k">What it told you</span>{rich(r.meaning)}</span>
+              </div>
+            ))}
+          </div>
+          {b.blindSpot && (
+            <div className="s-signals-blind">
+              <span className="s-signals-blind-tag">What you could not have known</span>
+              {rich(b.blindSpot)}
+            </div>
+          )}
+        </figure>
+      );
+
     case 'prose':
+      if (b.aside) {
+        return (
+          <aside className="s-prose s-prose-aside">
+            <div className="s-aside-tag">{b.aside}</div>
+            {b.text.map((p, i) => <p key={i}>{rich(p)}</p>)}
+          </aside>
+        );
+      }
       return (
         <div className="s-prose">
           {b.text.map((p, i) => <p key={i}>{rich(p)}</p>)}

@@ -353,5 +353,32 @@
       "confidence": "high"
     }
   ],
-  "remember": "The paint market kept growing. What changed was the economics of owning the leaders: returns drifted lower, competition made the franchise more expensive to defend, and investors stopped paying the old premium for it."
+  "remember": "The paint market kept growing. What changed was the economics of owning the leaders: returns drifted lower, competition made the franchise more expensive to defend, and investors stopped paying the old premium for it.",
+  "answer": "Paint stocks fell mostly because their valuation compressed, not because profits did. Asian Paints' earnings per share roughly doubled, from ₹22.5 in FY19 to about ₹45 in FY26, yet its stock is down about 27% from its January 2022 peak as its P/E was cut from around 110 times earnings to about 53. The multiple fell because returns had been sliding for a decade, ROCE from about 42% in FY15 to the mid-20s now, with new, well-funded entrants like Birla Opus and JSW-Akzo as the accelerant rather than the sole cause.",
+  "faqs": [
+    {
+      "q": "Did paint companies' earnings actually fall?",
+      "a": "No, not across the period. Asian Paints earned ₹22.48 per share in FY19 and roughly ₹45 by FY26, with net profit rising from about ₹2,208 crore to ₹4,395 crore. Measured from 2019 the stock roughly doubled, tracking earnings almost exactly; measured from its January 2022 peak of ₹3,590 it is down about 27% to near ₹2,631, even though the company earns more today than it did at that peak. So the drop from the top was the multiple contracting, not profit collapsing."
+    },
+    {
+      "q": "Was falling paint demand the problem?",
+      "a": "No. The decorative market kept growing, the organised part around ₹62,000 crore by FY23 and larger since, and the major players kept reporting healthy volume growth. Even FY25's weak value growth came alongside positive decorative volumes, so people were buying more litres, not fewer. Since demand held up, the pressure on profit, and on the price investors would pay for it, had to come from somewhere else: the cost of making the paint, or the fight to sell it."
+    },
+    {
+      "q": "How did Birla Opus change the paint industry?",
+      "a": "In February 2024 the Aditya Birla group launched Birla Opus through Grasim, committing about ₹10,000 crore and building six large plants for roughly 1,332 million litres of capacity, about a 40% addition to the whole organised industry. It entered with aggressive dealer economics: higher dealer margins, subsidised tinting machines, extended credit and launch discounts, and by FY25 said it had crossed 10% revenue share. A large, well-funded rival made incumbents' returns harder to defend, though reading its dealer terms as a deliberate rush to fill capacity is an inference, not a fact."
+    },
+    {
+      "q": "Why did Asian Paints' FY25 margin fall when raw-material costs were low?",
+      "a": "Because the squeeze was not at the paint-making level. Gross margin was about 43.4% in FY25, near a record, so pricing power at the gross level had not collapsed; if rivals had forced across-the-board price cuts, gross margin would have fallen, and it did the opposite. The damage came below it: revenue shrank from about ₹35,495 crore to ₹33,906 crore, so fixed costs spread over fewer rupees (negative operating leverage), and channel and trade spending grew more expensive relative to that smaller revenue. Net profit fell about a third, to roughly ₹3,700 crore."
+    },
+    {
+      "q": "Was the paint industry already getting less profitable before the new competition?",
+      "a": "Yes, and this reframes the story. Asian Paints' ROCE was about 42% in FY15, around 33% by FY19, and about 26% by FY25 and FY26. The high returns had been drifting down for the better part of a decade as the company grew much larger and expanded into capital-heavier businesses like kitchens, bath and decor. So new competition arrived while returns were already normalising. A 26% ROCE is still excellent, just not the 40%-plus the market kept extrapolating, and that gap is a large part of what fell."
+    },
+    {
+      "q": "So what actually happened to the paint industry?",
+      "a": "Three things did the work: valuation compressed (110 times earnings down to a still-rich 53), returns had already been drifting down for years, and new competition made those returns harder to defend. The commodity-cost dip was temporary, demand was never the problem, and true overcapacity remains unproven because clean installed-capacity and utilisation data are not public. Nothing dramatic broke. A great business became a somewhat less great one, while the market finally stopped pricing it as though nothing could ever change."
+    }
+  ]
 }

@@ -32,6 +32,17 @@ export interface CaseStudy {
   sectorId?: string;             // links to the /sectors/<id> fundamentals primer
   relatedCaseStudies?: string[]; // ids of other case studies referenced here
   summary: string;     // one-line hook for the index card
+  // The direct answer to the study's primary question, in 2-4 plain sentences.
+  // Rendered as a prominent "The short answer" block at the very top and used as
+  // the meta description, so a searcher (or an AI) gets the answer without
+  // reading 2,000 words. Write it to answer the exact question people search.
+  answer?: string;
+  // Explicit question/answer pairs for the questions people actually search
+  // ("Why did the Zain deal disappoint?", "How much did Airtel pay?"). Rendered
+  // as a visible Q&A block AND emitted as FAQPage structured data. Only add
+  // questions with real search intent that the study genuinely answers; never
+  // pad with filler. Answers are plain, sourced from the study's own facts.
+  faqs?: { q: string; a: string }[];
   keyNumbers: { label: string; value: string }[];
   intro: string[];     // opening paragraphs
   sections: CaseSection[];

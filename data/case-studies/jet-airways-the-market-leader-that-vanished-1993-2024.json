@@ -374,5 +374,36 @@
       "note": "Share prices (~₹1,379 high, ~₹13 by March 2020) are from exchange data. Exact highs differ a little by source depending on adjustment; the roughly 99% loss does not.",
       "confidence": "high"
     }
+  ],
+  "answer": "Jet Airways failed not because it was badly run but because of the airline business itself. High fixed costs and severe operating leverage meant a small dip in how full its planes were flipped fat profits into deep losses, and weak pricing power meant even the most-loved brand could not charge enough to cover higher costs against low-fare rivals. A debt-funded 2007 Air Sahara purchase, a fuel bill it could not control, and a price war it could not win did the rest. It grounded on 17 April 2019 owing banks about ₹8,500 crore.",
+  "faqs": [
+    {
+      "q": "Why did Jet Airways fail despite being India's best airline?",
+      "a": "Because being the best airline and being a good business are different things. Jet won the customers airlines most want and led the private market, but the cause of its failure sat a level below service and brand, in the industry's structure. High fixed costs and severe operating leverage meant it lived or died on how full its planes were; weak pricing power meant it could not charge enough to cover higher costs; and heavy debt removed its room to survive a downturn. Judged as passengers we saw a great flight, but the economics that killed it worked underneath that."
+    },
+    {
+      "q": "Why are airlines such a structurally difficult business?",
+      "a": "Because they combine high fixed costs with a product that cannot be stored. The planes, leases, slots, maintenance and crew must be paid whether seats sell or not, and a seat is worthless the instant the doors close, like a hotel room left empty at midnight. Put those together and the business turns on one number: how full the planes are. This is operating leverage. On a 180-seat flight costing about ₹10 lakh, selling 150 seats makes a little money and 130 loses money, on nothing but a few empty seats. Small swings in demand produce wild swings in profit."
+    },
+    {
+      "q": "Why couldn't a loved airline like Jet charge more?",
+      "a": "Because air travel is close to a commodity and the empty seat destroys pricing discipline. Booking Chennai to Delhi, most travellers take IndiGo at ₹4,900 over Jet at ₹6,000 even if they prefer Jet, so loyalty is thin and will not support a fare premium. Worse, since an unsold seat is worth nothing once the door shuts and the flight leaves regardless, every airline is tempted to drop fares to fill it, competing prices down for all of them. Brand can win a traveller when fares are close, but it cannot let a high-cost airline charge enough to cover its costs."
+    },
+    {
+      "q": "How did the Air Sahara deal hurt Jet Airways?",
+      "a": "The Air Sahara purchase mattered less for its price than for how Jet paid. In 2007 Jet bought the struggling rival for about ₹1,450 crore and rebranded it JetLite, a plausible move to absorb a competitor. But Jet borrowed heavily to fund it, and debt behaves nothing like equity: a shareholder can wait through a bad year, but a loan payment falls due regardless. Jet had now bolted a rigid, fixed debt bill on top of a business whose costs already refused to shrink in a downturn. While demand and fares held it could pay both; the moment they did not, both burdens turned fatal."
+    },
+    {
+      "q": "Did high fuel prices cause Jet Airways to collapse?",
+      "a": "Not really, and this is the counterintuitive part. Fuel is an airline's biggest cost, around 40% of running a domestic carrier, and in 2018 crude rose while the rupee fell, so the dollar-linked fuel bill jumped for reasons outside Jet's control. But every Indian airline bought the same fuel at the same price, IndiGo included, so a fuel spike is an industry story, not a Jet story. What made it fatal for one and survivable for the other was cost structure and debt: IndiGo's low costs absorbed the shock, and Jet's high costs and loan payments did not."
+    },
+    {
+      "q": "Why did IndiGo survive when Jet Airways didn't?",
+      "a": "IndiGo won the same skies, under the same fuel taxes and rupee, by building around the industry's harsh economics rather than around the customer. It flew essentially one aircraft type, the Airbus A320 family, so it needed one set of spares, one training routine and one maintenance process, which slashed cost and complexity. Jet, selling a premium experience, did the opposite: mixed fleets, free service, higher staffing. When fuel spiked, the rupee fell and fares stayed on the floor, IndiGo's low costs let it keep flying while Jet's high costs and debt could not. Same industry, a better machine."
+    },
+    {
+      "q": "What actually triggered Jet Airways' shutdown?",
+      "a": "The immediate trigger was mundane: on 17 April 2019 Jet ran out of cash to buy fuel and grounded every plane, after a lender rescue led by State Bank of India failed to complete in time. But the trigger was not the cause. The cause was everything upstream, high fixed costs and punishing operating leverage, almost no pricing power, a debt-funded acquisition and years of price war, which had steadily drained the cash. By then it owed banks about ₹8,500 crore, and total insolvency claims reached around ₹36,500 crore. A 2021 revival plan never got it flying again."
+    }
   ]
 }

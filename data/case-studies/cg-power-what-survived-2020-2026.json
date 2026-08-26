@@ -346,5 +346,32 @@
     }
   ],
   "remember": "A broken balance sheet and a dishonest boss can make a good business look worthless. The hard part is not spotting the low price. It is knowing what still stands underneath it, and how much you are paying once everyone else can see it too.",
-  "published": "2026-08-20"
+  "published": "2026-08-20",
+  "answer": "CG Power went from under ₹5 in March 2020 to about ₹863 by August 2026, but that was three different repricings stacked together, not one turnaround. First survival: once the Murugappa group's Tube Investments took 50.62% control at ₹8.56 a share and settled the debt, the risk of a wipeout receded. Second a genuine operating recovery, as margins climbed from about 4% to 14% and borrowings fell from ₹2,757 crore to ₹16 crore. Third the multiple expanding to around 107 times earnings on a semiconductor bet that has barely begun to earn. Only the middle part was the business proving itself.",
+  "faqs": [
+    {
+      "q": "Why was CG Power priced under ₹5 in 2020?",
+      "a": "A ₹5 price was the market pricing the chance shareholders would be left with nothing, not saying the factories were worthless. On 13 March 2020 the whole equity was worth about ₹300 crore against borrowings of roughly ₹2,757 crore, with reserves at a negative ₹2,081 crore after an accounting fraud. A share price is only the leftover slice after lenders are paid, so when a company owes that much and is losing money, the equity becomes close to an option on survival. The market was saying lenders might take everything, not that the plants had stopped working."
+    },
+    {
+      "q": "Why would anyone buy CG Power when it was nearly written off?",
+      "a": "Because the buyer was not paying ₹5 for a penny stock; it was paying to fix two specific, fixable problems. In August 2020 the Murugappa group's Tube Investments bid for control, closing that November with a fresh issue at ₹8.56 a share for 50.62%, plus a settlement that cleared the tangled lender debt for about ₹650 crore upfront. What it bought was an established Indian industrial franchise, real plants, approvals and customers, at a price set by distress. The two things that had buried it, the debt and the governance, were problems a well-capitalised owner with credible governance believed it could remove."
+    },
+    {
+      "q": "How did CG Power become debt-free so quickly?",
+      "a": "CG Power went from drowning in debt to effectively debt-free within about three years because the rescue settled the old borrowings and fixed the people before the numbers. Borrowings fell from about ₹2,757 crore in FY20 to ₹1,484 crore in FY21, ₹367 crore in FY22 and just ₹16 crore by FY23, while reserves climbed back above zero. Crucially, on the day control passed the board was reconstituted with a new chairman, managing director and auditors, because you cannot fix numbers that were being falsified without first fixing who produces them. By FY22 to FY23 the balance sheet had stopped being the problem."
+    },
+    {
+      "q": "Was CG Power's FY21 profit a real turnaround?",
+      "a": "No, the FY21 profit of about ₹1,280 crore was mostly a one-time accounting gain, not an operating recovery. The tell is that revenue actually fell that year, to about ₹2,964 crore, and the operating margin was still only about 4%, which cannot produce a profit that size. In the March 2021 quarter alone a deferred-tax write-back of about ₹737 crore and exceptional income dwarfed a pre-exceptional profit of just ₹28 crore. The genuine operating turn came a year later, in FY22, when the operating margin jumped to 12% and revenue more than doubled to ₹5,484 crore."
+    },
+    {
+      "q": "Is CG Power a genuinely better business now?",
+      "a": "Yes on operations, but the current price is a separate and more open question. The operating business is genuinely better than the one that collapsed: margins settled in the 13-14% band, the balance sheet went from deeply indebted to nearly debt-free, and return on capital reached about 61% in FY23. That is real, not financial engineering. But at around ₹863 the stock trades near 107 times earnings while profit grew far more slowly than the price, from about ₹913 crore in FY22 to ₹1,199 crore in FY26. Much of the valuation now rests on a semiconductor future that has barely begun to earn."
+    },
+    {
+      "q": "What did Murugappa do differently from the old Crompton?",
+      "a": "Murugappa created value by fixing the businesses that were already there, the opposite of the old Crompton, which created value once by buying a business and then destroyed it by buying more on debt. CG Power concentrated on its Indian core rather than expanding across countries, repaired the balance sheet before raising equity for growth, and added focus and clean governance instead of complexity. The lesson is not that buying companies is wrong and fixing them is right; it is that Crompton bought from a position of weakness while already stretched, and Murugappa fixed a franchise whose problems were, at their core, fixable."
+    }
+  ]
 }
