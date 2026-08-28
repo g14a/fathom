@@ -352,6 +352,59 @@ function EditorialModel({ r }: { r: TickerReport }) {
   );
 }
 
+// The "Fathom view" verdict card: a scannable business read at the top of the
+// report, so a reader reaches the conclusion before the essay. It rates the
+// business, not the trade, and carries no buy/sell call. Rendered only when the
+// report supplies a `verdict`.
+function VerdictCard({ v }: { v: NonNullable<TickerReport['verdict']> }) {
+  return (
+    <div className="verdict-card">
+      <div className="vc-label">Fathom view</div>
+      <dl className="vc-rows">
+        {v.rows.map((row) => (
+          <div key={row.label} className={`vc-row tone-${row.tone}`}>
+            <dt>{row.label}</dt>
+            <dd><span className="vc-pip" aria-hidden="true" />{row.value}</dd>
+          </div>
+        ))}
+      </dl>
+      <p className="vc-q"><span className="vc-q-label">Key question</span>{v.keyQuestion}</p>
+    </div>
+  );
+}
+
+// A compact, plain-language facts strip for the reader (and search engine) that
+// just wants "what is this company." Every value is a real, already-sourced
+// figure pulled from the report; nothing is invented. Rendered only when the
+// report supplies a `facts.snapshot`.
+function FactStrip({ r }: { r: TickerReport }) {
+  if (!r.facts?.snapshot) return null;
+  const latest = r.financials[r.financials.length - 1];
+  const marketCap = r.valuation.find((m) => /market\s*cap/i.test(m.label))?.value;
+  const promoter = r.holding.find((h) => /promoter/i.test(h.label));
+  const items: { label: string; value: string }[] = [];
+  items.push({ label: 'Sector', value: r.sector === r.industry ? r.sector : `${r.sector} · ${r.industry}` });
+  if (r.facts.founded) items.push({ label: 'Founded', value: r.facts.founded });
+  if (r.facts.hq) items.push({ label: 'Head office', value: r.facts.hq });
+  if (r.facts.employees) items.push({ label: 'People', value: r.facts.employees });
+  if (latest) items.push({ label: `Revenue (${latest.year})`, value: `₹${latest.revenue.toLocaleString('en-IN')} cr` });
+  if (marketCap) items.push({ label: 'Market cap', value: marketCap });
+  if (promoter) items.push({ label: 'Promoter holding', value: `${promoter.pct}%` });
+  return (
+    <div className="fact-strip">
+      <p className="fs-snapshot">{r.facts.snapshot}</p>
+      <dl className="fs-grid">
+        {items.map((it) => (
+          <div key={it.label} className="fs-item">
+            <dt>{it.label}</dt>
+            <dd>{it.value}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  );
+}
+
 export function Report({ r }: { r: TickerReport }) {
   const crumbSector = r.sectorId ? getSector(r.sectorId) : undefined;
   // Signals that move this company's sector, and case studies about this company.
@@ -395,6 +448,10 @@ export function Report({ r }: { r: TickerReport }) {
       </div>
 
       <p className="report-lede">{r.oneLiner}</p>
+
+      <FactStrip r={r} />
+
+      {r.verdict && <VerdictCard v={r.verdict} />}
 
       {r.isSample && (
         <div className="sample-banner">
@@ -542,7 +599,7 @@ export function Report({ r }: { r: TickerReport }) {
         </div>
       </Block>
 
-      <Block num="13" title="Where the Numbers Could Mislead">
+      <Block num="13" title="What the Headline Numbers Hide">
         <Checklist items={r.trapChecklist} />
         {r.sectorChecklist.length > 0 && (
           <>

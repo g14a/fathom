@@ -6,6 +6,21 @@
   "dataVariant": "Consolidated",
   "asOf": "2026-08-08",
   "oneLiner": "eClerx does the specialised back-office grind big banks would rather not touch, and it does it brilliantly: growing 22%, earning 35% on capital. Yet the stock has de-rated, because it gets paid by the head, and AI is coming for exactly that kind of work.",
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Excellent operator", "tone": "good" },
+      { "label": "Balance sheet", "value": "Net cash", "tone": "good" },
+      { "label": "Moat", "value": "Narrow", "tone": "warn" },
+      { "label": "AI risk", "value": "Per-head model exposed", "tone": "bad" },
+      { "label": "Valuation", "value": "~23x, de-rated", "tone": "warn" }
+    ],
+    "keyQuestion": "The operator is superb. Does AI erode the per-head model faster than the pivot to value-added work can grow?"
+  },
+  "facts": {
+    "snapshot": "eClerx is an Indian outsourcing firm that runs specialised back-office operations for others: trade processing for big banks, plus content and marketing work for media, telecom and luxury brands, delivered mostly from India.",
+    "founded": "2000",
+    "hq": "Mumbai"
+  },
   "overview": "When an investment bank has to process millions of derivative trades, or a luxury brand needs thousands of product photos edited and tagged for its website, that work is repetitive, fiddly, and expensive to do in-house. eClerx is the company you hand it to. It runs the unglamorous but essential back office for big financial firms, telecom and media companies, and retail and luxury brands. For most of its life it charged by the person: you need 100 trained people running trade support, eClerx hires, trains and manages them from India at a fraction of the onshore cost. That per-person model built a business earning 35% on capital. It is also the exact model AI now threatens, because AI is a rising tide and repetitive human work is the ground eClerx stands on. That is the whole argument around the stock.",
   "editorial": {
     "realBusiness": "eClerx is not a software company. It rents out trained brains at India prices, doing the specialised grunt work banks and brands would rather not keep in-house.",

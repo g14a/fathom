@@ -6,6 +6,16 @@
   "dataVariant": "Consolidated",
   "asOf": "2026-08-24",
   "oneLiner": "Time Technoplast makes the plastic drums and tanks that ship the world's chemicals and fuels. The steady part pays the bills. The bet is composite gas cylinders, and at 19 times earnings the market is not handing you that bet for free.",
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Market-leading packaging", "tone": "good" },
+      { "label": "Balance sheet", "value": "Low debt", "tone": "good" },
+      { "label": "Moat", "value": "Narrow", "tone": "warn" },
+      { "label": "The bet", "value": "Composite gas cylinders", "tone": "warn" },
+      { "label": "Valuation", "value": "19x, bet not free", "tone": "warn" }
+    ],
+    "keyQuestion": "The steady drums pay the bills. Is the composite-cylinder bet worth 19 times earnings?"
+  },
   "overview": "Picture the container behind the product: the blue barrel of industrial chemical, the 1,000-litre tank of edible oil, the jerry can of pesticide. Someone has to make it, and it has to not leak, not react, and survive a fall. Time Technoplast is the largest maker of those polymer containers in India, and a sizeable one across the Middle East and South-East Asia. Being largest earns it a real cost and procurement edge, but hold that thought, because a drum is close to a commodity, and scale in a commodity buys you market share far more than it buys you pricing power. For most of its life that was the whole company. What makes it interesting today is a second product line built on the same skill in shaping high-strength plastic: composite gas cylinders, aimed at replacing heavy steel cylinders for cooking gas, vehicle CNG, and one day hydrogen. So there are two businesses under one roof, and they are not the same kind of business at all. The rest of this report is about how different they are, and which one you are really paying for.",
   "editorial": {
     "realBusiness": "Time is the trusted vessel that industrial liquids and gases travel in, now trying to move up from cheap drums into high-pressure cylinders.",

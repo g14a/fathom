@@ -6,6 +6,21 @@
   "dataVariant": "Consolidated",
   "asOf": "2026-08-16",
   "oneLiner": "CDSL is a toll booth on India's stock market, a regulated duopoly earning 40% on capital as demat accounts pile up. But two of its three toll lanes only fill when trading and IPOs are busy, so profit fell 13.5% in a quiet FY26, and you still pay 61 times earnings.",
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Regulated duopoly", "tone": "good" },
+      { "label": "Moat", "value": "Wide", "tone": "good" },
+      { "label": "Earnings", "value": "Market-linked, fell 13.5%", "tone": "warn" },
+      { "label": "Balance sheet", "value": "Debt-free", "tone": "good" },
+      { "label": "Valuation", "value": "61x earnings", "tone": "bad" }
+    ],
+    "keyQuestion": "A toll booth, but two of its three lanes need busy markets. Is 61 times earnings priced for a quiet year or a boom?"
+  },
+  "facts": {
+    "snapshot": "CDSL is one of India's two share depositories. It keeps the electronic master record of who owns which shares, sitting behind the demat account that every stock investor uses.",
+    "founded": "1999",
+    "hq": "Mumbai"
+  },
   "overview": "CDSL runs one half of the plumbing that makes owning shares in India possible. When you buy a stock, it does not arrive as a paper certificate. It sits in an electronic account called a demat account, and CDSL keeps the master record of who owns what. Only two firms do this in the country, CDSL and NSDL, so almost every share a retail investor holds is tracked by one of them. Think of CDSL as a toll booth on the road every share must travel. It charges tiny amounts: a small yearly fee from each listed company, a few rupees on every trade, a cut of every IPO and corporate action. Any one toll is trivial. Spread across 188 million accounts, they add up to a business earning about 40% on capital with almost no debt. The catch is in the lanes. Some tolls come in every year no matter what. Others only collect when India is actually trading and floating IPOs. In a quiet year, as FY26 showed, the booth still registers more cars but takes fewer tolls.",
   "editorial": {
     "realBusiness": "CDSL is not one toll booth but three lanes: one that collects every year (accounts), and two that only fill when the market is busy (trading and IPOs).",

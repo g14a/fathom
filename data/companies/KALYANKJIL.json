@@ -6,6 +6,21 @@
   "dataVariant": "Consolidated",
   "asOf": "2026-08-02",
   "oneLiner": "Kalyan sells trust, and it sells it well. The catch is the price: 46 times earnings, with a quarter of the promoter's stake pledged to lenders.",
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Taking share, sells trust", "tone": "good" },
+      { "label": "Moat", "value": "Narrow", "tone": "warn" },
+      { "label": "Growth", "value": "Long runway", "tone": "good" },
+      { "label": "Promoter pledge", "value": "~25% pledged", "tone": "bad" },
+      { "label": "Valuation", "value": "46x earnings", "tone": "bad" }
+    ],
+    "keyQuestion": "The share-gain runway is long. Is it long enough to justify 46 times earnings with a quarter of the promoter stake pledged?"
+  },
+  "facts": {
+    "snapshot": "Kalyan Jewellers is one of India's largest jewellery retailers. It sells gold and diamond jewellery through a wide chain of showrooms, competing on trust and certified purity rather than on the metal itself.",
+    "founded": "1993",
+    "hq": "Thrissur"
+  },
   "overview": "Kalyan sells the same gold as the jeweller down the street. That sounds like a hopeless business until you notice what the customer is actually afraid of. When you buy a gold chain, you cannot check the purity, you cannot weigh it yourself, and you have no idea whether the making charge is fair. You are trusting a stranger with a scale. So the real product on the counter is not gold. It is the feeling that you are not being cheated. Kalyan's whole game is to be the name a family trusts, and then use that trust to pull customers away from the thousands of small jewellers who have owned this market for generations. It is not trying to make Indians buy more gold. It wants them to buy the same gold from it.",
   "editorial": {
     "realBusiness": "Kalyan looks like a jeweller. What it actually sells is trust.",

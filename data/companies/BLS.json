@@ -6,6 +6,21 @@
   "dataVariant": "Consolidated",
   "asOf": "2026-08-08",
   "oneLiner": "A genuinely good business (visa outsourcing is a two-horse global race with fat margins and clean cash) fell 36%, and now trades at 15 times earnings. The core is still excellent. The worry is that the edges are getting muddier.",
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Excellent core", "tone": "good" },
+      { "label": "Cash quality", "value": "Clean, paid upfront", "tone": "good" },
+      { "label": "Moat", "value": "Narrow", "tone": "warn" },
+      { "label": "Group clarity", "value": "Getting muddier", "tone": "bad" },
+      { "label": "Valuation", "value": "~15x, undemanding", "tone": "good" }
+    ],
+    "keyQuestion": "The core is superb and cheap. Is the messier group around it a distraction, or a real erosion?"
+  },
+  "facts": {
+    "snapshot": "BLS International runs the outsourced offices that process visa, passport and consular applications for governments. You hand it your documents and fee, and it does the paperwork and passes it to the authority.",
+    "founded": "2005",
+    "hq": "New Delhi"
+  },
   "overview": "When you apply for a visa, you almost never deal with the embassy directly. You hand your passport, photos and forms to an office in a mall, pay a service fee, and that office does the paperwork, checks your documents and passes them to the government. BLS runs those offices. Think of it as a concessionaire: the way one company might win the contract to run the canteen in every building of a government campus, BLS wins the contract to run a government's visa counters, and gets paid for every applicant who walks up. It does this in 80+ countries for 46+ government clients, which makes it the number-two player in the world behind VFS Global. The whole appeal is that a government would rather not run the queue, the forms and the front desk itself, so it pays BLS to do it.",
   "editorial": {
     "realBusiness": "BLS is not really in the paperwork business. It is the trusted concessionaire that runs governments' visa front desks, paid for every applicant it serves.",

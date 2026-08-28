@@ -7,6 +7,21 @@
   "dataVariant": "Consolidated",
   "asOf": "2026-08-09",
   "oneLiner": "Suzlon came back from near-bankruptcy to become India's biggest wind maker, and it is now net cash. The question is no longer survival but price, and whether the recovery can scale without its margins and its cash slipping.",
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Genuine turnaround", "tone": "good" },
+      { "label": "Balance sheet", "value": "Net cash now", "tone": "good" },
+      { "label": "Moat", "value": "Narrow", "tone": "warn" },
+      { "label": "Execution", "value": "Scaling risk", "tone": "warn" },
+      { "label": "Valuation", "value": "~21x, priced for growth", "tone": "bad" }
+    ],
+    "keyQuestion": "Survival is settled. Can it scale the recovery without its margins and its cash slipping?"
+  },
+  "facts": {
+    "snapshot": "Suzlon Energy is India's largest wind-turbine maker. It builds and sells wind turbines, then earns recurring fees servicing them over their roughly twenty-year life on the hillsides where they spin.",
+    "founded": "1995",
+    "hq": "Pune"
+  },
   "overview": "Suzlon makes the giant wind turbines you see spinning on India's ridgelines, and every machine it sells has two lives. The first is loud: it builds and sells the turbine, a lumpy order-book business that booms and busts with government auctions and corporate capex. The second is quiet: once the blades are up on a hillside, the owner keeps paying Suzlon to service them and keep them spinning for twenty years or more. That second life is the gem. Suzlon is the largest wind maker in India, with roughly 29% of everything ever installed and a fleet of about 15.7 GW under its care. After a decade on the brink, it is net cash. Survival is settled. What is not settled is what you pay for the recovery, and whether a project-heavy business can grow fast without its margins and its cash conversion slipping.",
   "editorial": {
     "realBusiness": "Suzlon is not a turbine you buy once. It is a machine sold once and then serviced for twenty years, on a fleet it rarely loses.",

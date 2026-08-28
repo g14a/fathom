@@ -324,6 +324,25 @@ export interface TickerReport {
   oneLiner: string;     // 1-sentence thesis
   isSample?: boolean;   // flag placeholder data
 
+  // Optional "Fathom view" card at the top of a report: a scannable read of the
+  // business across a few axes, plus the one question that decides it. This is a
+  // business verdict, never a buy/sell call. `tone` uses the semantic tokens.
+  verdict?: {
+    rows: { label: string; value: string; tone: 'good' | 'warn' | 'bad' }[];
+    keyQuestion: string;
+  };
+
+  // Plain factual snapshot for the "about <company>" reader (and FAQ schema).
+  // All fields are real, filing-sourced facts. Omit any that are not known;
+  // never estimate. `snapshot` is a jargon-free one-liner of what the company
+  // actually does (not the thesis, that is `oneLiner`).
+  facts?: {
+    snapshot: string;    // plain "what it does" sentence, no stance
+    founded?: string;    // year, e.g. "2000"
+    hq?: string;         // e.g. "Mumbai"
+    employees?: string;  // e.g. "~18,000"
+  };
+
   // 1. overview
   overview: string;
   ipoFlag?: string;

@@ -6,6 +6,21 @@
   "dataVariant": "Consolidated",
   "asOf": "2026-08-16",
   "oneLiner": "India's best lender has one real edge: it picks borrowers who pay back. You pay 5.9 times book for that spotless record, and the record just showed its first crack.",
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Best-in-class lender", "tone": "good" },
+      { "label": "Asset quality", "value": "First crack showing", "tone": "warn" },
+      { "label": "Moat", "value": "Wide", "tone": "good" },
+      { "label": "Growth", "value": "Fast but slowing", "tone": "warn" },
+      { "label": "Valuation", "value": "35x, 5.9x book", "tone": "bad" }
+    ],
+    "keyQuestion": "Is the first crack in a spotless loan book a blip, or the start of a normalisation you are overpaying for?"
+  },
+  "facts": {
+    "snapshot": "Bajaj Finance is one of India's largest non-bank lenders (an NBFC). It borrows from savers and bond investors and lends the money out for consumer, small-business and home loans, living on the gap between the two rates.",
+    "founded": "1987",
+    "hq": "Pune"
+  },
   "overview": "Bajaj Finance is not a bank. It is a lender. It borrows money from savers and bond investors at about 7.41%, hands that money out as loans, and lives on the gap. Any lender can do that much. What makes Bajaj Bajaj is the sorting. Picture the old village moneylender who never got stiffed, not because he charged the right rate but because he knew exactly who would pay him back. Bajaj is that moneylender at national scale: 124 million customers, and a mountain of data and field staff whose whole job is to tell a good borrower from a bad one. That skill is why so few of its loans go sour, and why the stock has always cost more than an ordinary lender's. The hook is simple. That sorting has just missed for the first time in a while.",
   "editorial": {
     "realBusiness": "Bajaj borrows cheap and lends wide, but the real business is sorting borrowers, and it charges a premium because almost none of them default.",

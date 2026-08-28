@@ -7,6 +7,16 @@
   "dataVariant": "Consolidated",
   "asOf": "2026-08-16",
   "oneLiner": "Muthoot's loans are backed by gold locked in its vault, so they almost never go bad. It earns 31% on equity and still trades at 10 times earnings, because everyone knows those returns ride the price of gold.",
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Tightly run gold lender", "tone": "good" },
+      { "label": "Asset quality", "value": "Gold-backed, low NPAs", "tone": "good" },
+      { "label": "Moat", "value": "Narrow", "tone": "warn" },
+      { "label": "Gold dependence", "value": "Returns ride gold price", "tone": "warn" },
+      { "label": "Valuation", "value": "10x, optically cheap", "tone": "good" }
+    ],
+    "keyQuestion": "31% returns at 10 times earnings. Is the cheap multiple the market pricing in a gold-price reversal?"
+  },
   "overview": "Muthoot is a pawnbroker at national scale. You walk in with your family gold, hand it over, and walk out with cash, paying about 18-20% interest for it. Muthoot borrows that cash at about 9-10%, so it keeps the roughly 9-10% gap in the middle, the number bankers call Net Interest Margin, or NIM. The gold sits locked in a vault and cannot run away, so almost nobody's loan goes bad. Here is the catch, and it is the whole story. The value of everything in that vault rises and falls with the price of gold, like a tide. When gold is high, Muthoot can lend more against the same bangle without breaking the regulator's cap on how much it may lend per gram, so the loan book and the profits both swell. Gold has been near record highs, the book grew 49%, and profit nearly doubled. That tide is already going out.",
   "editorial": {
     "realBusiness": "Muthoot does not really lend to people. It lends against gold locked in a vault, and the gold cannot run away.",

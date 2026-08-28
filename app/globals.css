@@ -1078,6 +1078,26 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .sig-h-event { color: var(--ink) !important; font-weight: 600; }
 .sig-rhyme-model { font-family: var(--mono); font-size: 12px !important; color: var(--accent) !important; letter-spacing: 0.02em; }
 
+/* Signals: compact synthesis table (the "bottlenecks to watch" grid). This is the
+   article's centrepiece, so it carries a top accent hairline and an accent header. */
+.sig-table-wrap { margin-top: 20px; overflow-x: auto; border: 1px solid var(--border-strong); border-top: 2px solid var(--accent); border-radius: 12px; }
+.sig-matrix { width: 100%; border-collapse: collapse; min-width: 560px; }
+.sig-matrix th { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); text-align: left; padding: 12px 16px; background: var(--bg-card); border-bottom: 1px solid var(--border); font-weight: 700; }
+.sig-matrix td { font-size: 14.5px; color: var(--ink-dim); padding: 13px 16px; border-bottom: 1px solid var(--border); line-height: 1.5; vertical-align: top; }
+.sig-matrix td:first-child { color: var(--ink); font-weight: 600; }
+.sig-matrix tr:last-child td { border-bottom: none; }
+
+/* Signals: the "follow the threads" research graph (bottleneck to sector to company to case) */
+.sig-threads { display: flex; flex-direction: column; gap: 12px; margin-top: 16px; }
+.sig-thread { padding: 14px 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; }
+.sig-thread-head { font-family: var(--mono); font-size: 12px; letter-spacing: 0.04em; color: var(--accent); font-weight: 700; margin-bottom: 10px; }
+.sig-thread-path { display: flex; flex-wrap: wrap; align-items: stretch; gap: 8px; }
+.sig-thread-node { display: flex; flex-direction: column; gap: 2px; padding: 8px 12px; background: var(--bg-raised); border: 1px solid var(--border); border-radius: 9px; font-size: 14px; color: var(--ink); text-decoration: none; transition: border-color 0.15s, transform 0.15s; }
+.sig-thread-node:hover { border-color: var(--accent); transform: translateY(-1px); }
+.sig-thread-case:hover { border-color: var(--amber); }
+.sig-thread-kick { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); }
+.sig-thread-arw { align-self: center; color: var(--ink-faint); font-size: 14px; }
+
 /* Signals: evidence block (the proof-in-the-numbers) */
 .sig-evidence .sig-ev-h3 { font-family: var(--serif); font-size: 20px; font-weight: 600; color: var(--ink); margin: 28px 0 0; letter-spacing: -0.01em; }
 .sig-slope { margin: 22px 0 0; padding: 20px 22px 8px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 14px; }
@@ -1228,6 +1248,82 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .report-lede {
   font-family: var(--serif); font-size: clamp(18px, 2.4vw, 21px); line-height: 1.5;
   color: var(--ink); max-width: 768px; margin-top: 22px; text-wrap: pretty;
+}
+
+/* Fathom view: the scannable verdict card at the top of a report. Reads like the
+   trap/sector checklists, not a flashy scorecard: semantic pips, calm surface. */
+.verdict-card {
+  margin-top: 22px; padding: 18px 20px;
+  background: var(--bg-raised); border: 1px solid var(--border-strong);
+  border-radius: 12px; max-width: 768px;
+}
+.vc-label {
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--accent); font-weight: 600;
+}
+.vc-rows {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px 22px; margin: 14px 0 0;
+}
+.vc-row { display: flex; flex-direction: column; gap: 3px; margin: 0; }
+.vc-row dt {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--ink-faint);
+}
+.vc-row dd {
+  margin: 0; display: flex; align-items: flex-start; gap: 8px;
+  font-size: 15px; color: var(--ink);
+}
+.vc-pip {
+  width: 8px; height: 8px; border-radius: 50%; flex: none;
+  margin-top: 0.42em; background: var(--ink-faint);
+}
+.vc-row.tone-good .vc-pip { background: var(--good); }
+.vc-row.tone-warn .vc-pip { background: var(--warn); }
+.vc-row.tone-bad  .vc-pip { background: var(--bad); }
+.vc-q {
+  margin: 16px 0 0; padding-top: 14px; border-top: 1px solid var(--border);
+  font-family: var(--serif); font-size: 16px; line-height: 1.5; color: var(--ink);
+}
+.vc-q-label {
+  display: block; font-family: var(--mono); font-size: 10.5px;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faint);
+  margin-bottom: 4px;
+}
+@media (max-width: 640px) {
+  .verdict-card { padding: 15px 16px; }
+  .vc-rows { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px 16px; }
+}
+
+/* Facts strip: the plain "what is this company" answer for the reader (and the
+   about-<company> searcher), sitting just under the thesis lede. Calm, card-like,
+   never a dashboard. */
+.fact-strip {
+  margin-top: 22px; padding: 18px 20px;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 12px; max-width: 768px;
+}
+.fs-snapshot {
+  font-family: var(--sans); font-size: 15.5px; line-height: 1.6;
+  color: var(--ink-dim); margin: 0;
+}
+.fs-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 14px 20px; margin: 16px 0 0; padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+.fs-item { display: flex; flex-direction: column; gap: 3px; margin: 0; }
+.fs-item dt {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--ink-faint);
+}
+.fs-item dd {
+  margin: 0; font-size: 15px; color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+@media (max-width: 640px) {
+  .fact-strip { padding: 15px 16px; }
+  .fs-grid { grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 12px 16px; }
 }
 
 /* Financials: overlay net-profit bar inside the revenue bar, show margin per year */

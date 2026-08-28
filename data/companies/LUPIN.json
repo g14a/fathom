@@ -6,6 +6,21 @@
   "dataVariant": "Consolidated",
   "asOf": "2026-08-02",
   "oneLiner": "Lupin went from losing money to a 29% margin in four years, a genuine turnaround. The catch: a good chunk of that margin is US exclusivity money, and exclusivities expire.",
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Real turnaround", "tone": "good" },
+      { "label": "Moat", "value": "Narrow", "tone": "warn" },
+      { "label": "Margin quality", "value": "Peak, exclusivity-fed", "tone": "warn" },
+      { "label": "Balance sheet", "value": "Low debt", "tone": "good" },
+      { "label": "Valuation", "value": "~19x on peak margin", "tone": "warn" }
+    ],
+    "keyQuestion": "The turnaround is real. How much of the 29% margin is US exclusivity money that expires?"
+  },
+  "facts": {
+    "snapshot": "Lupin is an Indian pharmaceutical company. It makes generic and speciality medicines, earning most of its profit from harder-to-make drugs and early regulatory filings, and sells heavily into the United States and India.",
+    "founded": "1968",
+    "hq": "Mumbai"
+  },
   "overview": "Lupin makes medicines, but that is not really where its money comes from. A plain generic drug is a race to the bottom: the day enough factories can make it, the price collapses and nobody earns much. The profit shows up somewhere else, in the short stretch when Lupin can do something the crowd cannot yet. File a drug first, make something genuinely hard to manufacture, pass the regulators, and for a while you are the only generic on the shelf, like the one shop selling umbrellas the week it rains. That window is where the fat margins live. Lupin has spent its turnaround moving toward exactly this kind of product, complex generics and respiratory drugs, with a steady India branded business underneath for ballast. The numbers today are dazzling. The real question is how much of the profit keeps coming once the rain stops.",
   "editorial": {
     "realBusiness": "Lupin's real product is not the pill. It is being first, and being able to make what rivals cannot.",

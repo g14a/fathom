@@ -1,0 +1,188 @@
+{
+  "ticker": "INDUSTOWER",
+  "company": "Indus Towers Ltd",
+  "sector": "Telecommunication",
+  "industry": "Telecom Infrastructure",
+  "sectorId": "telecom",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-08-22",
+  "oneLiner": "India's biggest owner of mobile towers, spinning off cash and a near-4% dividend at just 14 times earnings. It looks cheap until you see how much of it leans on one struggling tenant.",
+  "facts": {
+    "snapshot": "Indus Towers owns and operates about 220,000 mobile towers across India, the steel, land and power that carriers rent space on to hang their antennas. It is controlled by Bharti Airtel and is the country's largest tower company.",
+    "founded": "2007",
+    "hq": "Gurugram"
+  },
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Cash-generative landlord", "tone": "good" },
+      { "label": "Moat", "value": "Narrow, tenant-dependent", "tone": "warn" },
+      { "label": "Customer concentration", "value": "Three tenants, one fragile", "tone": "bad" },
+      { "label": "Earnings quality", "value": "Swung by Vi provisions", "tone": "warn" },
+      { "label": "Valuation", "value": "Cheap, for a reason", "tone": "warn" }
+    ],
+    "keyQuestion": "It looks cheap at 14 times earnings. Is that a bargain, or the market pricing in how much rides on Vodafone Idea?"
+  },
+  "overview": "Indus Towers is the landlord of India's mobile network. It owns about 220,000 towers, the steel, land, power and backup that a phone signal actually needs, and rents space on them to the telecom operators who bolt on their antennas. Airtel, Jio and Vodafone Idea would rather not each build and run their own towers on every rooftop and hillside, so they pay Indus a monthly rent instead. Think of it as owning the apartment blocks while the carriers are the tenants. The economics are lovely: a tower with three tenants costs about the same to run as a tower with one, so every extra tenant is nearly pure profit. The catch is who the tenants are, and there are only three of them.",
+  "editorial": {
+    "whyExists": "Three telecom companies want to reach a billion phones without each planting and powering their own steel towers on every rooftop and hill. Doing it three times over would be enormously wasteful, so they share. Indus owns the towers, keeps them powered and standing, and rents space to all of them. It earns its place because building and running 220,000 sites is a slow, capital-heavy job the telcos would much rather outsource than repeat.",
+    "whyNotAlreadyWon": "Someone had to own the towers, and owning them is a real barrier: the sites, the power and the permissions cannot be recreated quickly or cheaply. But that barrier guards Indus against rival landlords, not against its own customers going broke. With only three telcos to rent to and one of them chronically weak, the danger to Indus was never a competitor. It was a tenant that stopped paying.",
+    "whyNow": "What changed is that the Vodafone Idea saga moved from crisis to an uneasy truce. Vi has been paying more of its dues, Indus wrote back provisions and profit surged in FY25, and dividends returned. At the same time Vodafone the parent finished leaving and Airtel took control. On paper the stock is cheap, about 14 times earnings with a near-4% yield. Is that recent good news a real turn, or just a pause between crises? That is the whole argument.",
+    "remember": "You are buying the best towers in India at a discount, and the discount is one nervous tenant called Vodafone Idea. The rent is real. The question is who keeps paying it.",
+    "realBusiness": "Indus owns the towers and rents space to India's three carriers, earning steady rent on infrastructure nobody can cheaply rebuild, while its fortunes stay chained to three tenants.",
+    "economicEngine": [
+      { "label": "Demand", "value": "Data, coverage and 5G", "note": "More subscribers, data and 5G antennas mean more tenancies on more towers." },
+      { "label": "Revenue", "value": "Tenants x rent", "note": "Rent per tenancy on long contracts, plus a low-margin energy pass-through." },
+      { "label": "Margins", "value": "Tenancy loading", "note": "Above 50% operating margin. A second or third tenant on a tower is nearly pure profit." },
+      { "label": "Capital", "value": "Towers and backup power", "note": "Capital-heavy to build, cheap to run. Some debt, comfortably covered." },
+      { "label": "Returns", "value": "Cash and dividends", "note": "Cash reliably exceeds profit, and dividends resumed in FY26 at a near-4% yield." }
+    ],
+    "mentalModels": [
+      { "model": "Landlord economics", "strength": 5, "why": "Owns shared infrastructure and collects contracted rent from every carrier that uses it." },
+      { "model": "Operating leverage", "strength": 5, "why": "Adding a tenant to an existing tower costs almost nothing and pays almost full rent." },
+      { "model": "Customer concentration", "strength": 5, "why": "Only three possible tenants, one financially fragile and one that owns the company." },
+      { "model": "Switching costs", "strength": 4, "why": "Long contracts and the cost of moving a live network keep tenants in place." },
+      { "model": "Capital and regulatory barrier", "strength": 4, "why": "Sites, power and permissions are slow and expensive to replicate." },
+      { "model": "Counterparty risk", "strength": 5, "why": "A single weak tenant can swing reported profit by thousands of crore through provisions." }
+    ],
+    "sectorModels": [
+      { "model": "Industry structure", "reading": "Concentrated", "note": "A few landlords serving only three telcos; Indus is the scaled leader." },
+      { "model": "Pricing power", "reading": "Shared with customers", "note": "Only three tenants, long negotiated contracts, and the biggest customer owns the company." },
+      { "model": "Demand driver", "reading": "Structural but capped", "note": "Data and 5G grow tenancies, but the customer set cannot expand." },
+      { "model": "Cash conversion", "reading": "Above profit", "note": "Rent collection and low running cost make cash exceed reported profit." },
+      { "model": "Balance sheet", "reading": "Manageable debt", "note": "D/E about 0.5 with interest cover near 9x, and dividends resumed." }
+    ],
+    "strategicPosition": [
+      { "label": "Airtel and Jio (tenants)", "description": "The two strong carriers loading 5G equipment onto the towers", "tone": "strong" },
+      { "label": "Indus Towers", "description": "India's largest tower owner, Airtel-controlled, cash-generative and cheap", "tone": "focus" },
+      { "label": "Vodafone Idea (tenant)", "description": "The fragile third carrier whose payments have whipsawed Indus profit", "tone": "weak" }
+    ],
+    "winningToday": [
+      "Operating margins above 50%, with cash that exceeds reported profit.",
+      "Vodafone Idea paying down dues, letting Indus write back provisions and restart dividends.",
+      "Airtel and Jio loading 5G equipment, adding tenancies to existing towers.",
+      "A near-4% dividend yield at about 14 times earnings."
+    ],
+    "stopWinning": [
+      "Vodafone Idea relapsing into non-payment, forcing fresh provisions.",
+      "Only three possible tenants, so no way to replace a lost one.",
+      "Airtel, the controlling owner, building or favouring its own captive capacity.",
+      "Reported profit that swings on one customer's survival rather than the rent roll."
+    ],
+    "marketBets": [
+      "Vodafone Idea keeps paying and survives as a third operator.",
+      "Tenancy loading and 5G keep the rent roll growing.",
+      "Dividends continue as cash conversion stays strong.",
+      "No fresh shock from the three-tenant concentration."
+    ]
+  },
+  "business": {
+    "unitOfRevenue": "One tenancy: one operator's equipment on one tower, on a long contract with a monthly rent, plus a pass-through for the energy that powers the site. The number that matters is tenants per tower, because the second and third tenant cost almost nothing to add and pay almost full rent.",
+    "revenueModel": "Long-term rental. Master service agreements with the telcos run for many years, with fixed monthly charges per tenancy and energy billed largely at cost. This is recurring, contracted income, not project work.",
+    "segments": [
+      { "name": "Rental (core)", "pct": 55, "marginProfile": "The high-margin heart. Fixed rent per tenancy on long contracts, where a second or third tenant's rent is nearly all profit." },
+      { "name": "Energy (pass-through)", "pct": 45, "marginProfile": "Reimbursement for running and powering the towers, billed largely at cost, so it inflates revenue but earns little." }
+    ],
+    "revenuePerUnitTrend": "Two forces pull against each other. Adding tenants and 5G equipment to existing towers is the profitable lever, and Airtel and Jio are doing it. Vodafone Idea pulls the other way, through lost tenancies and, in the past, unpaid bills. The rental and energy split above is an approximate read, not an exact disclosure, and the energy portion is a low-margin pass-through that makes headline revenue look bigger than the real profit engine.",
+    "industry": {
+      "structure": "Concentrated. A handful of tower companies serve just three private telcos, and Indus is the largest.",
+      "competitors": "Other tower portfolios, including Brookfield-owned assets and smaller players, compete for tenancies, but Indus is the scaled leader, tied closely to Airtel.",
+      "pricingPower": "Limited and shared with the customer. Only three telcos exist to rent to, contracts are long and negotiated hard, and the biggest customer also controls the company.",
+      "demandDriver": "Data and coverage: more subscribers, more data, and 5G roll-out mean more antennas needing more tower space. Tenancies grow with network expansion.",
+      "driverType": "Structural for data demand, but capped by there being only three tenants, one of them financially fragile.",
+      "tam": "Bounded by India's three private operators and their tower and tenancy needs. Growth is loading more tenants and equipment onto towers, not finding new customers.",
+      "penetration": "Mature. Nearly everyone who needs towers already rents them, so the upside is tenancy loading and 5G densification, not a new market.",
+      "valueChainPosition": "The passive-infrastructure layer beneath the network. Essential and hard to replace once built, but structurally dependent on a tiny set of powerful customers."
+    },
+    "qualityVerdict": "The model is a good one: contracted, recurring rent on infrastructure that would cost a fortune and a decade to rebuild, with margins above 50% and cash that reliably beats reported profit. What keeps it from great is the customer set. There are only three tenants, the biggest of them owns the company, and one of the three has spent years on the brink. A landlord with wonderful buildings and three tenants, one of whom keeps missing rent, is a more nervous business than the margins let on."
+  },
+  "valuation": [
+    { "label": "Price", "value": "₹376" },
+    { "label": "Market Cap", "value": "₹99,129 cr" },
+    { "label": "52W High / Low", "value": "₹482 / ₹313" },
+    { "label": "Stock P/E", "value": "13.9", "tone": "good", "hint": "computed price/EPS ≈ 13.9" },
+    { "label": "P/B", "value": "2.5", "tone": "neutral" },
+    { "label": "EPS (TTM)", "value": "₹27.12" },
+    { "label": "Book Value", "value": "₹150" },
+    { "label": "Dividend Yield", "value": "3.73%", "tone": "good", "hint": "resumed FY26" }
+  ],
+  "financials": [
+    { "year": "FY22", "revenue": 27717, "netProfit": 6373, "patMargin": 23.0, "eps": 23.65 },
+    { "year": "FY23", "revenue": 28382, "netProfit": 2040, "patMargin": 7.2, "eps": 7.57 },
+    { "year": "FY24", "revenue": 28601, "netProfit": 6036, "patMargin": 21.1, "eps": 22.40 },
+    { "year": "FY25", "revenue": 30123, "netProfit": 9932, "patMargin": 33.0, "eps": 37.65 },
+    { "year": "FY26", "revenue": 32493, "netProfit": 7145, "patMargin": 22.0, "eps": 27.08 }
+  ],
+  "ratios": [
+    { "label": "ROE", "value": "18.6%", "tone": "good" },
+    { "label": "ROCE", "value": "19.5%", "tone": "good" },
+    { "label": "Operating Margin", "value": "~55%", "tone": "good", "hint": "energy is a pass-through" },
+    { "label": "D/E", "value": "0.53", "tone": "neutral" },
+    { "label": "Interest Coverage", "value": "~9x", "tone": "good" },
+    { "label": "Cash conversion (5Y)", "value": "~200%", "tone": "good", "hint": "OCF exceeds profit" }
+  ],
+  "cashFlow": [
+    { "year": "FY24", "ocf": 11582, "fcf": 3136 },
+    { "year": "FY25", "ocf": 19645, "fcf": 13388 },
+    { "year": "FY26", "ocf": 15684, "fcf": 7786 }
+  ],
+  "cashFlowNote": "Here the cash flow is the reassuring part, not the scary one. A tower business collects rent and spends relatively little to keep the steel standing, so operating cash has actually run ahead of reported profit: ₹11,582 crore in FY24, a huge ₹19,645 crore in FY25 as Vodafone Idea cleared old dues, and ₹15,684 crore in FY26. Free cash flow has been solidly positive throughout, which is what let the company resume dividends. The lesson is to trust this line more than the profit line. Reported profit was thrown around by provisions against one customer, but the cash the towers actually generate has been far steadier, and genuinely strong.",
+  "growth": [
+    { "label": "Sales CAGR (5Y)", "value": "18%", "tone": "good" },
+    { "label": "Sales CAGR (3Y)", "value": "5%", "tone": "neutral", "hint": "revenue roughly flat" },
+    { "label": "Profit CAGR (5Y)", "value": "13%", "tone": "neutral" },
+    { "label": "Profit CAGR (3Y)", "value": "47%", "tone": "neutral", "hint": "off the FY23 Vi-crisis trough" },
+    { "label": "Profit growth (TTM)", "value": "-27%", "tone": "bad", "hint": "write-backs normalising" }
+  ],
+  "management": "Indus Towers is now controlled by Bharti Airtel, which took the reins as Vodafone sold out. That matters in an unusual way: the company's largest customer is also its controlling owner, so Airtel sits on both sides of the rent negotiation. Management has run the towers competently through a genuinely hard period, holding margins above 50% and restarting dividends once Vodafone Idea began paying again. The governance flag is not fraud, it is structure. With Airtel in control and only three tenants, minority holders are along for a ride steered by the anchor tenant's interests. The thing to watch is whether Indus keeps being run as an independent landlord, or increasingly as Airtel's captive infrastructure arm.",
+  "holding": [
+    { "label": "Promoter", "pct": 51.26, "qoqChange": 0.00 },
+    { "label": "FII", "pct": 23.20, "qoqChange": -1.90 },
+    { "label": "DII", "pct": 21.42, "qoqChange": 1.74 },
+    { "label": "Public", "pct": 4.05, "qoqChange": 0.12 }
+  ],
+  "moat": {
+    "strength": "narrow",
+    "sources": [
+      "Physical towers and sites that are expensive and slow to replicate",
+      "Long-term master service agreements with real switching costs",
+      "National scale and density of sites",
+      "The backing and anchor tenancy of Bharti Airtel"
+    ],
+    "note": "The towers are a genuine moat. No rival can cheaply rebuild 220,000 sites, and a telco cannot lift its live network off them mid-contract, so the rent is sticky. But this moat has an odd blind spot. It defends against other tower builders, not against its own customers' health. With only three tenants, the landlord's fortunes are chained to three renters, and when one of them nearly failed, the moat did nothing to soften the blow."
+  },
+  "narrative": "Indus Towers' profit history reads like a rollercoaster bolted onto a steady business. Revenue barely moved for years, hovering around ₹28,000 crore, yet net profit lurched from ₹6,373 crore in FY22 to ₹2,040 crore in FY23, back up to ₹9,932 crore in FY25, then down to ₹7,145 crore in FY26. The towers did not change. Vodafone Idea did. When Vi stopped fully paying, Indus set aside huge provisions for money it might never see, and profit cratered. When Vi later paid some of it back, those provisions were written back, and profit spiked. So the flashy 47% three-year profit growth is measured off the Vi-crisis trough, and last year's fall is the sugar high wearing off. Underneath, the rent roll has been far calmer than the profit line. And while all this played out, Vodafone the parent sold its entire stake and walked away, leaving Airtel in charge.",
+  "risks": [
+    "Vodafone Idea. The fragile third tenant has already swung Indus profit by thousands of crore, and a relapse into non-payment would force fresh provisions. High.",
+    "Customer concentration. Only three telcos can ever rent the towers, and the largest also controls the company, so pricing power is limited. High.",
+    "Owner conflict. Airtel is both the controlling shareholder and the biggest customer, and could favour captive capacity. Medium.",
+    "Earnings quality. Reported profit has been distorted by provisioning swings, which makes valuation hard to anchor. Medium.",
+    "Growth ceiling. In a mature, three-customer market, growth depends on tenancy loading and 5G, not new customers. Medium."
+  ],
+  "trapChecklist": [
+    { "label": "Earnings distorted by one customer", "note": "Vi provisioning and write-backs swung profit from ₹2,040cr to ₹9,932cr and back; judge the rent, not the headline", "status": "warn" },
+    { "label": "Growth on a trough base", "note": "The 47% 3-year profit CAGR is measured off the FY23 Vi-crisis low", "status": "warn" },
+    { "label": "Promoter selldown", "note": "Vodafone exited its entire stake; promoter holding fell about 18 points over three years", "status": "fail" },
+    { "label": "Customer concentration", "note": "Only three telco tenants, one financially fragile and one controlling the company", "status": "fail" },
+    { "label": "Energy pass-through inflates revenue", "note": "A large, low-margin energy reimbursement makes headline sales look bigger than the profit engine", "status": "warn" },
+    { "label": "Cash backs the profit", "note": "5-year operating cash exceeded reported profit; the underlying business is genuinely cash-generative", "status": "pass" }
+  ],
+  "sectorChecklist": [
+    { "label": "Tenancy ratio", "note": "More than one tenant per tower is the profit lever; loading 5G equipment helps", "status": "pass" },
+    { "label": "Contract quality", "note": "Long-term master service agreements with fixed monthly rent", "status": "pass" },
+    { "label": "Customer health", "note": "Airtel and Jio strong; Vodafone Idea the perennial risk", "status": "warn" },
+    { "label": "Margin", "note": "Operating margin above 50%; energy is a pass-through", "status": "pass" },
+    { "label": "Balance sheet", "note": "D/E about 0.5, interest cover about 9x, dividends resumed", "status": "pass" }
+  ],
+  "summary": "Indus Towers owns the best mobile-tower portfolio in the country and throws off real cash, and you can buy it at about 14 times earnings with a near-4% dividend. The catch is why it is cheap. There are only three possible tenants, recent profit has been whipped around by one of them nearly failing and partly recovering, and the former parent sold out completely. The rent is durable. The risk is the tenant roll. This is a cash-and-dividend bet on Vodafone Idea surviving, not a bargain hiding in plain sight. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+  "engine": {
+    "state": "earnings-engine",
+    "earnings": "Take out the Vodafone Idea provisioning swings and the underlying engine is a cash machine: operating margins above 50%, and operating cash that has run ahead of reported profit, because a tower collects rent and costs little to keep standing. Dividends came back in FY26, and the yield is close to 4%. The real question is not whether the towers make money. It is how much of the reported profit is durable rent and how much was one-off write-backs, and whether Vi keeps paying at all.",
+    "multiple": "At about 14 times earnings, 2.5 times book and a near-4% yield, Indus is priced cheaply, at roughly half the multiple of tower companies abroad. That gap is not the market being slow. It is the market pricing the very thing the history shows: profit hostage to one fragile tenant, a former parent that dumped its whole stake, and only three customers in the world to sell to. Cheap here is a judgement about risk, not a gift. If Vi steadies and tenancies grow, the low multiple is generous. If Vi slips again, cheap gets cheaper.",
+    "verdict": "So here is my honest read. This is a genuinely cash-generative landlord being sold at a discount, and the discount has a name you can say out loud: too few tenants, one of them shaky, and a profit line whipped around by that tenant's survival. Buy it and you are paid a fat dividend to bet that Vodafone Idea keeps limping on while Airtel and Jio keep loading the towers. That may well pay. What I cannot tell you, and neither can anyone, is whether Vi is finally stable or just between crises. Everything here rests on that one answer."
+  },
+  "lenses": [
+    { "name": "The landlord with three tenants", "reading": "A tower is wonderful economics until you count the tenants. Indus can only ever rent to three telcos. One of them has spent years near bankruptcy, and the biggest also owns the company. So the pricing power a monopoly landlord ought to enjoy quietly leaks back to the customers, because there is nowhere else to send them and one of them sits on the board. Wonderful buildings, a captive and dangerously small set of renters." },
+    { "name": "Vodafone Idea writes the profit line", "reading": "The most important thing to grasp here is that recent profit says as much about Vi as about Indus. The provisions taken when Vi stopped paying, and the write-backs when it resumed, are what threw profit by thousands of crore in each direction. Judge the business on its rent and its cash, which have been steady, and treat those profit swings as the accounting shadow of one customer's near-death and partial recovery." },
+    { "name": "When the people who knew it best left", "reading": "Watch what owners do, not what they say. Vodafone spent years selling down and finally exited Indus completely, taking the cash to prop up Vodafone Idea instead. The group that understood this business better than anyone chose to leave. That does not condemn the towers, but it is the loudest single line in the ownership record, and it is a good part of why the market keeps the multiple low." }
+  ]
+}

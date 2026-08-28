@@ -38,24 +38,29 @@ const WHEN_LABEL: Record<string, string> = {
 
 const FANOUT_MARK = (e: string) => (e === 'up' ? '▲' : e === 'down' ? '▼' : '＝');
 
-// Renders inline [label](url) markdown links inside body strings, so a factual
-// claim can carry its source right where it is made. Everything else is plain text.
+// Renders inline [label](url) markdown links and **bold** inside body strings, so
+// a factual claim can carry its source, and a key line can be emphasised, right
+// where it is made. Everything else is plain text.
 function inline(text: string): React.ReactNode {
-  const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
+  const parts = text.split(/(\[[^\]]+\]\([^)]+\)|\*\*[^*]+\*\*)/g);
   return parts.map((part, i) => {
-    const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
-    if (!m) return part;
-    const [, label, url] = m;
-    const external = /^https?:/.test(url);
-    return (
-      <a
-        key={i}
-        href={external ? url : withBase(url)}
-        {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-      >
-        {label}
-      </a>
-    );
+    const link = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (link) {
+      const [, label, url] = link;
+      const external = /^https?:/.test(url);
+      return (
+        <a
+          key={i}
+          href={external ? url : withBase(url)}
+          {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+        >
+          {label}
+        </a>
+      );
+    }
+    const bold = part.match(/^\*\*([^*]+)\*\*$/);
+    if (bold) return <strong key={i}>{bold[1]}</strong>;
+    return part;
   });
 }
 
@@ -196,7 +201,7 @@ function renderEvidence(ev: import('@/lib/signals').SignalEvidence, key: React.K
 function renderFanout(f: import('@/lib/signals').SignalFanout, key: React.Key) {
   return (
     <div key={key} className="sig-fanout">
-      <div className="sig-fanout-kicker">The fan-out</div>
+      <div className="sig-fanout-kicker">{f.kicker ?? 'The fan-out'}</div>
       <div className="sig-fanout-head">{f.head}</div>
       <div className="sig-fanout-branches">
         {f.branches.map((b, j) => (
@@ -264,7 +269,11 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
     ).values(),
   );
   // Company reports whose sector this signal moves.
-  const relReports = getAllReports().filter((r) => (s.relatedSectors ?? []).includes(r.sectorId ?? ''));
+  // Prefer an explicit, curated list of on-thread companies; fall back to every
+  // report in the linked sectors only when a signal has not curated its threads.
+  const relReports = (s.relatedReports && s.relatedReports.length)
+    ? getAllReports().filter((r) => s.relatedReports!.includes(r.ticker) || s.relatedReports!.includes(r.slug ?? ''))
+    : getAllReports().filter((r) => (s.relatedSectors ?? []).includes(r.sectorId ?? ''));
 
   // Structured data so answer engines can parse the signal as an article, and
   // quote its question/answer pairs. Markdown links are flattened to plain text.
@@ -307,8 +316,8 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
 
       <div className="csd-head">
         <div className="cs-head">
-          <span className="cs-kicker">Signal · {s.kind}</span>
-          <span className="cs-period">{s.dateline}</span>
+          <span className="cs-kicker">Signal · {s.kindLabel ?? s.kind}</span>
+          {s.dateline && <span className="cs-period">{s.dateline}</span>}
         </div>
         <h1 className="csd-title" style={{ marginTop: 14 }}>{s.title}</h1>
         {s.seoDescription && <p className="csd-subtitle">{s.seoDescription}</p>}
@@ -396,6 +405,8 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
           } else if (sec.diagram?.startsWith('fanout:') && s.fanouts) {
             const idx = Number(sec.diagram.split(':')[1]);
             if (s.fanouts[idx]) diagram = renderFanout(s.fanouts[idx], `d-${si}`);
+          } else if (sec.diagram === 'flow' && sec.flow && sec.flow.length > 0) {
+            diagram = renderChain(sec.flow, undefined, `d-${si}`);
           }
           // The evidence block lands right after whichever section is flagged
           // evidenceAfter, so the numbers follow the explanation they prove.
@@ -405,6 +416,20 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
               <div className="sig-block">
                 <h2 className="csd-h2">{sec.heading}</h2>
                 {sec.body.map((p, j) => <p key={j} className="cs-para">{inline(p)}</p>)}
+                {sec.table && (
+                  <div className="sig-table-wrap">
+                    <table className="sig-matrix">
+                      <thead>
+                        <tr>{sec.table.columns.map((c, ci) => <th key={ci}>{c}</th>)}</tr>
+                      </thead>
+                      <tbody>
+                        {sec.table.rows.map((row, ri) => (
+                          <tr key={ri}>{row.map((cell, ci) => <td key={ci}>{inline(cell)}</td>)}</tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
                 {sec.image && (
                   <figure className="sig-figure">
                     <img src={withBase(sec.image.src)} alt={sec.image.alt} loading="lazy" />
@@ -471,7 +496,8 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
         {/* Better questions */}
         {s.questions && s.questions.length > 0 && (
           <div className="sig-block">
-            <h2 className="csd-h2">Questions worth asking</h2>
+            <h2 className="csd-h2">{s.questionsTitle ?? 'Questions worth asking'}</h2>
+            {s.questionsIntro && <p className="cs-para">{inline(s.questionsIntro)}</p>}
             <ul className="sig-questions">
               {s.questions.map((q, j) => <li key={j}>{q}</li>)}
             </ul>
@@ -540,17 +566,49 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
           </div>
         )}
 
-        {/* Connections */}
-        <Connections
-          title="Follow the threads"
-          lede="Where this signal plays out in depth: the sectors it moves and the companies that lived it."
-          items={[
-            ...relReports.map((r) => ({ kicker: 'Company', name: r.company, href: `/stocks/${r.slug}/` })),
-            ...relSectors.map((sec) => ({ kicker: 'Sector', name: sec!.name, href: `/sectors/${sec!.id}/` })),
-            ...relCases.map((c) => ({ kicker: 'Case study', name: c!.company, href: `/case-studies/${c!.id}/`, variant: 'case' as const })),
-            ...relPatterns.map((p) => ({ kicker: 'Pattern', name: p.name, href: patternPath(p.slug) })),
-          ]}
-        />
+        {/* Connections: a curated bottleneck -> sector -> company -> case study
+            graph when threads are set, else the flat related-links grid. */}
+        {s.threads && s.threads.length > 0 ? (
+          <div className="sig-block">
+            <h2 className="csd-h2">Follow the threads</h2>
+            <p className="connections-lede">Pull a bottleneck and Fathom follows it down: the sector where it bites, a company exposed to it, and the case study that lived it.</p>
+            <div className="sig-threads">
+              {s.threads.map((t, ti) => {
+                const sec = t.sector ? getSector(t.sector) : undefined;
+                const rep = t.report ? getAllReports().find((r) => r.ticker === t.report || r.slug === t.report) : undefined;
+                const cse = t.caseStudy ? getCaseStudy(t.caseStudy) : undefined;
+                const nodes: React.ReactNode[] = [];
+                if (sec) nodes.push(<a key="s" href={withBase(`/sectors/${sec.id}/`)} className="sig-thread-node"><span className="sig-thread-kick">Sector</span>{sec.name}</a>);
+                if (rep) nodes.push(<a key="r" href={withBase(`/stocks/${rep.slug}/`)} className="sig-thread-node"><span className="sig-thread-kick">Company</span>{rep.company}</a>);
+                if (cse) nodes.push(<a key="c" href={withBase(`/case-studies/${cse.id}/`)} className="sig-thread-node sig-thread-case"><span className="sig-thread-kick">Case study</span>{cse.title}</a>);
+                return (
+                  <div key={ti} className="sig-thread">
+                    <div className="sig-thread-head">{t.bottleneck}</div>
+                    <div className="sig-thread-path">
+                      {nodes.map((n, ni) => (
+                        <React.Fragment key={ni}>
+                          {ni > 0 && <span className="sig-thread-arw" aria-hidden="true">→</span>}
+                          {n}
+                        </React.Fragment>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        ) : (
+          <Connections
+            title="Follow the threads"
+            lede="Each bottleneck is a thread you can pull: the sector where it bites, the companies exposed to it, and the case studies that lived it."
+            items={[
+              ...relReports.map((r) => ({ kicker: 'Company', name: r.company, href: `/stocks/${r.slug}/` })),
+              ...relSectors.map((sec) => ({ kicker: 'Sector', name: sec!.name, href: `/sectors/${sec!.id}/` })),
+              ...relCases.map((c) => ({ kicker: 'Case study', name: c!.company, href: `/case-studies/${c!.id}/`, variant: 'case' as const })),
+              ...relPatterns.map((p) => ({ kicker: 'Pattern', name: p.name, href: patternPath(p.slug) })),
+            ]}
+          />
+        )}
 
         {s.sources && s.sources.length > 0 && (
           <div className="sig-block">
@@ -566,7 +624,7 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
         )}
 
         <div className="cs-lesson csd-lesson">
-          <span className="cs-lesson-label">The lesson</span>
+          <span className="cs-lesson-label">{s.lessonLabel ?? 'The lesson'}</span>
           <p>{s.lesson}</p>
         </div>
 

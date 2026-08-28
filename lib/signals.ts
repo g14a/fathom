@@ -21,6 +21,20 @@ export interface SignalSection {
   diagram?: string; // 'chain', or 'fanout:N' to render fanouts[N] after the body
   evidenceAfter?: boolean; // render the evidence block right after this section
   image?: { src: string; alt: string; caption?: string }; // a figure rendered after the body
+  // A compact synthesis table rendered after the body. Cells accept inline
+  // markdown links. Kept short on purpose; a signal is not a sector-picking list.
+  table?: { columns: string[]; rows: string[][] };
+  // A short numbered stage flow (rendered like the chain) when diagram is 'flow'.
+  flow?: string[];
+}
+
+// One curated research thread: a bottleneck, and the internal pages that follow
+// it down, sector to company to case study. Makes Fathom's knowledge graph visible.
+export interface SignalThread {
+  bottleneck: string;   // the thread label, e.g. "Power and grid"
+  sector?: string;      // sector id
+  report?: string;      // company ticker
+  caseStudy?: string;   // case-study id
 }
 
 // The signature "which moved?" band: price / cost / volume, each asked or marked.
@@ -41,6 +55,7 @@ export interface SignalFanout {
   head: string;        // the event, e.g. "Crude oil rises 20%"
   branches: { label: string; effect: 'up' | 'down' | 'neutral'; note?: string }[];
   caption?: string;
+  kicker?: string;     // overrides the "The fan-out" label (e.g. to sound like the writer's notes)
 }
 
 // The same effect at different distances in time.
@@ -119,7 +134,8 @@ export interface SignalYourTurn {
 export interface Signal {
   id: string;          // URL slug, injected from the filename
   title: string;
-  kind: string;        // e.g. "Primer", "Rate decision", "Union Budget", "Tariffs"
+  kind: string;        // e.g. "Primer", "Rate decision", "Union Budget", "Tariffs" (drives sort/behaviour)
+  kindLabel?: string;  // display-only override for the visible kind tag (kind stays for sorting)
   dateline: string;    // e.g. "Start here" or "Feb 2025"
   published?: string;  // ISO date (YYYY-MM-DD) this signal went live; drives Article dates and sitemap lastmod
   tags: string[];
@@ -144,13 +160,18 @@ export interface Signal {
   ignore?: string[];          // what to tune out
   focus?: string[];           // what to actually watch
   questions?: string[];       // the better questions to ask
+  questionsTitle?: string;    // overrides the "Questions worth asking" heading
+  questionsIntro?: string;    // optional lede under that heading
   history?: SignalHistory[];
   historyRhymes?: SignalRhyme[]; // the pattern table
   yourTurn?: SignalYourTurn;     // the end-of-article exercise
   relatedSectors?: string[];
+  relatedReports?: string[];   // explicit on-thread company tickers; overrides the sector-derived dump
   relatedCaseStudies?: string[];
+  threads?: SignalThread[];    // curated bottleneck -> sector -> company -> case study threads
   sources?: { label: string; url: string }[];
   lesson: string;
+  lessonLabel?: string; // overrides the "The lesson" kicker on the closing box
   remember?: string;   // one-sentence takeaway, rendered as the closing box
 }
 

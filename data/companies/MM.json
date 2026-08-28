@@ -6,6 +6,16 @@
   "dataVariant": "Consolidated",
   "asOf": "2026-08-02",
   "oneLiner": "A rare Indian carmaker leading two races at once, number one in SUVs and number one in tractors, and doing it at a price that does not yet demand perfection.",
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Dual leader, high quality", "tone": "good" },
+      { "label": "Balance sheet", "value": "Strong", "tone": "good" },
+      { "label": "Moat", "value": "Wide", "tone": "good" },
+      { "label": "Cyclicality", "value": "Auto and tractor cycles", "tone": "warn" },
+      { "label": "Valuation", "value": "~22x, not demanding", "tone": "good" }
+    ],
+    "keyQuestion": "It is firing on both engines at a fair price. What stops the auto and tractor cycles from turning together?"
+  },
   "overview": "Mahindra is easy to file under car company, and mostly wrong to. What it really does is own niches where the customer is paying for capability, not the cheapest badge on the bonnet. Out in the fields, that means a tractor a farmer can rely on, sold through a dealer network built over decades. In the city, it means an SUV with road presence and a waiting list, the kind of identity Maruti cannot copy overnight. So the engine here is not selling more vehicles. It is selling more of the right ones. Every time the mix tilts toward a premium SUV, a tractor or an EV that people actually queue up for, Mahindra keeps more profit on each sale.",
   "editorial": {
     "realBusiness": "Mahindra is not really a car company. It leads the few niches where capability, not price, wins the sale.",

@@ -1,0 +1,280 @@
+{
+  "title": "Follow the Bottleneck",
+  "kind": "Primer",
+  "kindLabel": "Framework",
+  "dateline": "",
+  "published": "2026-08-28",
+  "tags": ["Framework", "AI and power", "Electrification", "Defense", "India manufacturing", "Bottlenecks"],
+  "summary": "AI, electrification, rearmament and India's industrial rise keep asking for the same scarce things. A piece about a question I kept circling: when everyone chases a trend, what does the trend run into first?",
+  "seoTitle": "Follow the Bottleneck: how to think about AI, electrification and rearmament",
+  "seoDescription": "AI, electrification, defense and India's manufacturing rise keep colliding at the same scarce inputs: power, grids, transformers, copper, chips, skills. A way of thinking about the businesses underneath the trends.",
+  "event": [
+    "I keep wondering where all this investment is going to run into trouble.",
+    "AI is scaling. Countries are rearming. India is building factories. Cars are electrifying. Data centres are multiplying. On the surface each story looks like its own thing.",
+    "But the more I read, the more they seem to end up asking for the same handful of things: electricity, grids, transformers, copper, chips, skilled people, land. The world turns out to be quick at creating demand and slow at building what satisfies it.",
+    "So I started asking a simpler question, the one this whole piece is really about. When everyone is chasing a trend, what does the trend run into first?"
+  ],
+  "trigger": "I am not sure this holds everywhere, but it seems like a useful place to start: when several trends grow at once, maybe the question is not who benefits from a trend, but what the trend is going to run into.",
+  "triggerLabel": "The question I keep coming back to",
+  "triggerBody": [
+    "What runs out first? That is the question I kept circling back to, and it turned out to be more useful than asking who wins.",
+    "I found myself doing the same thing with each trend: walking backwards from the obvious winner and asking what it actually needed. A trend creates demand, the demand needs specific inputs, one input turns out to be hard to add quickly, a few firms happen to control it, and only sometimes does that control turn into real pricing power. And then there is the price you pay, which decides whether any of it reaches you."
+  ],
+  "leverBand": {
+    "title": "Three things I'd want to know",
+    "items": [
+      { "label": "Is a required input genuinely scarce?", "mark": "ask" },
+      { "label": "Does one firm control it defensibly?", "mark": "ask" },
+      { "label": "Is the scarcity already in the price?", "mark": "ask" }
+    ]
+  },
+  "mentalModels": [
+    { "name": "Follow the bottleneck", "why": "A trend creates demand; demand needs inputs; one input is hard to add fast. That input, more than the trend, is where the pricing power seems to collect." },
+    { "name": "Structural vs cyclical scarcity", "why": "A shortage the next capex cycle fixes is a trade. A shortage protected by regulation, skill, geography or capital might be a business." },
+    { "name": "The picks-and-shovels trap", "why": "Selling the shovels pays only while shovels are scarce. Capacity arrives, the shovel becomes a commodity, and the margin leaves with it." },
+    { "name": "Second-order, not automatically better", "why": "The layer everyone misses can be the best position or a worse commodity. Walking deeper is a search, not an answer." },
+    { "name": "An order book is not a moat", "why": "A full order book shows demand, not defensibility. The question is what stops a rival from filling the next order instead." },
+    { "name": "The priced-in test", "why": "A real bottleneck at the wrong price is still a bad investment. Scarcity has to survive the multiple, not just the headlines." }
+  ],
+  "chainTitle": "The path I kept walking",
+  "chain": [
+    "A structural trend",
+    "creates demand for some capability",
+    "that demand needs specific physical inputs",
+    "one input is slow or hard to add",
+    "a few firms control that input",
+    "sometimes that shows up as pricing power and high returns",
+    "the price already reflects some of it",
+    "what is left over is your return"
+  ],
+  "fanouts": [
+    {
+      "head": "AI compute scales up",
+      "branches": [
+        { "label": "Electricity supply", "effect": "up", "note": "the genuinely hard part" },
+        { "label": "Grid and interconnection", "effect": "up", "note": "years to connect a site" },
+        { "label": "Transformers and switchgear", "effect": "up", "note": "lead times near 128 weeks" },
+        { "label": "Cooling", "effect": "up", "note": "denser chips, harder to cool" },
+        { "label": "Land and construction", "effect": "up" },
+        { "label": "Leading-edge chips", "effect": "up", "note": "only a few fabs can make them" },
+        { "label": "Cloud software layer", "effect": "neutral", "note": "easier to add than the physical rungs" }
+      ],
+      "kicker": "Where I ended up looking",
+      "caption": "The further I followed it, the more physical the problem became. And the scarcity was not spread evenly across the chain."
+    },
+    {
+      "head": "Everything electrifies at once",
+      "branches": [
+        { "label": "Generation", "effect": "up" },
+        { "label": "Transmission grid", "effect": "up" },
+        { "label": "Transformers", "effect": "up" },
+        { "label": "Switchgear and cables", "effect": "up" },
+        { "label": "Copper", "effect": "up", "note": "mined supply may peak around 2030" },
+        { "label": "Battery storage", "effect": "up" },
+        { "label": "The EV badge on the car", "effect": "neutral", "note": "not the scarce bit" }
+      ],
+      "kicker": "Following it back",
+      "caption": "Cars are one load among many. The wire, the metal and the grid gear kept looking like the real constraint."
+    },
+    {
+      "head": "Europe rearms, budgets jump",
+      "branches": [
+        { "label": "Explosives and propellants", "effect": "up", "note": "one major TNT producer" },
+        { "label": "Skilled munitions labour", "effect": "up", "note": "hard to hire quickly" },
+        { "label": "Precision components, jet engines", "effect": "up" },
+        { "label": "Shipyard capacity", "effect": "up" },
+        { "label": "Order books at prime contractors", "effect": "neutral", "note": "an order is not a moat" }
+      ],
+      "kicker": "Where I kept circling",
+      "caption": "A rising budget is demand. The bottleneck seemed to sit upstream, in what cannot be expanded on command."
+    },
+    {
+      "head": "China+1 and Make in India",
+      "branches": [
+        { "label": "Component depth", "effect": "up", "note": "home value-add about a fifth" },
+        { "label": "Semiconductor fab skills", "effect": "up", "note": "very few trained engineers" },
+        { "label": "Power and grid for factories", "effect": "up" },
+        { "label": "Industrial machinery and automation", "effect": "up" },
+        { "label": "Final assembly", "effect": "neutral", "note": "the contestable step" }
+      ],
+      "kicker": "Where the value hides",
+      "caption": "Assembly moved to India first. The scarce, high-value layers have not, yet."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "What runs out first?",
+      "body": [
+        "That question sounds simple and turned out to be the useful one. Demand is easy to create. A model launches, a policy passes, a war starts, and demand jumps. Capacity is slow. A transformer plant, a copper mine, a munitions line, a chip fab each takes years, and none can be summoned with money.",
+        "What struck me is that these trends do not each need separate things. They reach down and grab the same scarce inputs. So instead of asking who wins the trend, I started asking which input it runs short of, who controls that input, and whether controlling it actually pays."
+      ]
+    },
+    {
+      "heading": "AI is an electricity story wearing a software costume",
+      "diagram": "fanout:0",
+      "body": [
+        "The obvious AI trade is chips, and that was my first instinct too. Then I started following the chain backwards.",
+        "A model needs compute. Compute lives in a data centre. And a data centre is, before anything clever, an enormous electricity customer. That changed how I was reading the whole story.",
+        "The numbers are large. The IEA puts data-centre electricity at about 415 terawatt-hours in 2024, roughly 1.5% of world demand, and expects it to more than double to around 945 by 2030, with the AI-heavy part growing fastest. In the United States, data centres account for nearly half of all electricity demand growth to 2030.",
+        "Electricity is not scarce in the abstract. Getting it to a specific field on a specific date is. That runs into the grid, and the grid runs into a boring steel box, the power transformer. Industry surveys in 2025 put large-transformer lead times near 128 weeks, about two and a half years, with the biggest units as long as four, because the special grain-oriented steel and the skilled plants behind them cannot scale on command.",
+        "So the AI story I thought was about software kept leading me back to heavy industry. The tightest near-term constraints look physical, power, grid connection and transformers, all harder to add quickly than the software riding on top."
+      ]
+    },
+    {
+      "heading": "Electrification: follow the copper, not the car",
+      "diagram": "fanout:1",
+      "body": [
+        "I started with electric cars, because that is the obvious place to start. The more I looked, the less interesting the car itself seemed.",
+        "The same pull on electricity is coming from factories, air-conditioning, data centres and buildings, all at once. Which keeps bringing you back to the grid, and eventually to copper.",
+        "Copper is where I stopped. S&P Global expects mined supply to peak around 2030 near 33 million tonnes while demand climbs toward 42 million by 2040, and the gap is slow to close because a new copper mine takes about 17 years to go from discovery to production. A grid-and-renewables system uses several times the copper of the fossil setup it replaces.",
+        "So again, the scarce thing was not the headline product. Building cars is hard, but many firms can do it and more are entering. The parts that looked genuinely hard to add were the grid gear and the metal underneath it."
+      ]
+    },
+    {
+      "heading": "Defense: a full order book is not a moat",
+      "diagram": "fanout:2",
+      "body": [
+        "A big defence order book looks impressive. It made me wonder something simple: if governments suddenly want twice as many shells, what actually stops the industry from making twice as many?",
+        "Not the budget, it turns out. Europe set a target of two million artillery rounds a year, and by one FT analysis built weapons plants at roughly three times the peacetime rate. The choke points sat further upstream, in explosives and propellants. Much of the continent leans on a single major TNT producer, and gunpowder traces back to specific chemical, and even cotton, supply chains. Poland's plan to make 155mm shells slipped from 2025 to 2028, held up by a shortage of skilled labour, not money.",
+        "That is what a full order book hid from me at first. The hard part is not winning the contract. It is the qualified plant, the energetic chemistry and the trained people a rival cannot conjure overnight."
+      ]
+    },
+    {
+      "heading": "India's factories: mind the gap the subsidy hides",
+      "diagram": "fanout:3",
+      "body": [
+        "This is the trend closest to home, and the one that taught me the most. India has become remarkably good at assembling phones, now the second-largest maker in the world, and phones became its top export in FY25 at about 30 billion dollars.",
+        "Then I wondered how much of the phone is actually Indian, and the answer reframed the story. India adds only about a fifth of a phone's component value at home; a new components scheme aims to push that toward a third, while the mobile production incentive winds down in March 2026. The semiconductor mission has approved its first wave of chip projects, and its hardest constraint is not capital but people, very few engineers have real fabrication experience.",
+        "So the thing I kept reminding myself was not to treat a subsidy as a moat. The question I would ask is who still earns good returns once the incentive expires, the firms that ended up owning a scarce capability, or the ones that only assembled while the cheque was being written."
+      ]
+    },
+    {
+      "heading": "Demographics decides what goes scarce",
+      "body": [
+        "Demographics turned out to be the same question with the scarce input swapped. Ask what a population makes scarce, and the answer flips by country.",
+        "India's median age is under 30 and its working-age population is still rising. It seems to me that a young, urbanising country tends to run short of physical things: power, housing, roads, credit, factories. That reads as a capital-and-infrastructure bottleneck.",
+        "Much of the rich world, and China, is ageing and losing workers. An ageing country runs short of people, so it reaches for automation, robotics and healthcare, anything that lifts output per worker. That is a labour bottleneck. Same trend, opposite scarce resource, and which one you get depends on the problem you have."
+      ]
+    },
+    {
+      "heading": "The bottlenecks I'm watching",
+      "body": [
+        "After a while I had this one-page map scribbled out for myself. Read across: a force, the input it seems to run short of, and the sectors that sit underneath it. It isn't a list of sectors I think will outperform. It's just where I'd look if I wanted to follow these trends further."
+      ],
+      "table": {
+        "columns": ["Structural force", "Bottleneck", "Sectors underneath it"],
+        "rows": [
+          ["AI", "Power, grid, cooling, chips", "Electricals, [utilities](/sectors/power/), data centers, semiconductors"],
+          ["Electrification", "Grid, copper", "Electrical equipment, cables, [metals](/sectors/metals/)"],
+          ["Rearmament", "Production capacity", "Defense manufacturing, aerospace, chemicals"],
+          ["Reshoring", "Components, automation", "Capital goods, industrials, electronics"],
+          ["India's growth", "Physical infrastructure", "[Construction](/sectors/infrastructure/), power, logistics, manufacturing"],
+          ["Aging", "Labor", "Automation, robotics, healthcare"]
+        ]
+      }
+    },
+    {
+      "heading": "Not every shortage is worth the same",
+      "body": [
+        "Every shortage looks alike on day one: prices spike and the incumbents coin money. What I kept asking was what happens next, because that is what separates a trade from a business.",
+        "A temporary shortage is a demand spike that supply soon meets. A cyclical shortage clears in the next capex cycle, then overshoots into a glut. A structural shortage lasts, because the barrier to new supply is real: a regulator's licence, a decade of skill, a scarce ore body, a large site next to a substation, a qualification that takes years to earn.",
+        "Transformers are where this is being tested in real time. If the wall is only a lag, the new plants now being announced will end the shortage and the fat margins with it. If the wall is grain-oriented steel, skilled labour and grid approvals, the shortage, and the pricing power, could outlast the excitement."
+      ]
+    },
+    {
+      "heading": "Watch a shortage age",
+      "diagram": "flow",
+      "body": [
+        "I find it easier to picture a shortage moving through three stages."
+      ],
+      "flow": [
+        "Shortage. Prices and lead times jump, margins fatten, and the stocks re-rate on the story.",
+        "Supply response. Everyone announces new capacity, order books surge, and the boom gets called structural, right when the fix is being built.",
+        "Reality. Either capacity catches up and margins normalise, or the constraint holds and the pricing power persists. Which one you get is the whole question."
+      ]
+    },
+    {
+      "heading": "The picks-and-shovels trap",
+      "body": [
+        "The old gold-rush advice is to sell picks and shovels. Useful, with a clause I kept bumping into: it works only while shovels are scarce.",
+        "A bottleneck company can rot in ordinary ways. Capacity catches up and the product commoditises. The business turns cyclical and capital-hungry. It grows dependent on one government's spending. A new technology routes around it, and solid-state designs are already being pitched as a way past the transformer wall.",
+        "So scarcity seems worth paying for only while it stays scarce and stays defensible. Take either word away and the shovel is just a piece of steel."
+      ]
+    },
+    {
+      "heading": "Walk one layer deeper, but do not romanticise it",
+      "body": [
+        "When everyone can see the first-order winner, I start wondering what sits one layer underneath it. AI to data centres is first order. Data centres to power, power to transformers, transformers to copper is where fewer people are looking.",
+        "I try to keep walking, but not to romanticise the walk. Deeper is not automatically better. Some second-order layers are lovely bottlenecks; others are worse commodities than the thing I started with. A layer earns its place only if it is genuinely scarce and it captures the economics. Depth is a place to search, not an answer."
+      ]
+    },
+    {
+      "heading": "Does India actually win this one?",
+      "body": [
+        "For each trend I try to separate the global winner from the Indian one, because they are not always the same firm, or even the same country.",
+        "The question I ask is what edge India actually holds in that specific bottleneck. Cost and a deep engineering workforce, yes. Domestic demand and policy support, often. Leading-edge chip fabrication or the deepest pools of capital, not yet. India looks like a natural winner in grid equipment, low-cost manufacturing and construction, and a follower, for now, in the most advanced chips. **A trend can be real and still route its profits somewhere other than India.**"
+      ]
+    },
+    {
+      "heading": "Where this could be wrong",
+      "body": [
+        "I hold all of this loosely, because every link can break. Demand can disappoint, and a forecast is not a fact. Supply can catch up faster than anyone expected. A technology can make the scarce thing irrelevant. A commodity spike can wreck the margins of the very company the scarcity was supposed to help.",
+        "Governments change the rules that created the demand. Competitors arrive and compete the pricing power away. Capital floods in and turns a shortage into a glut. And the market can price a real bottleneck so richly that being right earns you nothing.",
+        "So a bottleneck is a reason to look closer. It is never, on its own, a reason to buy."
+      ]
+    }
+  ],
+  "questionsTitle": "Ten questions I try to ask",
+  "questionsIntro": "The three quick checks up top, scarcity, defensibility and price, opened out into the longer list I run when a trend starts to look interesting.",
+  "questions": [
+    "What is changing, in physical terms?",
+    "What does that change actually require?",
+    "Which required input is scarce?",
+    "Why is it scarce: capital, skill, regulation, geography, or just a lag?",
+    "Who controls the scarce input today?",
+    "Can a competitor replicate it, and how fast?",
+    "Does the scarcity show up as pricing power and returns, or only as revenue?",
+    "How long can it last before capacity catches up?",
+    "What would make the bottleneck disappear?",
+    "How much of this is already in the price?"
+  ],
+  "yourTurn": {
+    "prompt": "Headlines say humanoid robots will soon do the world's manual work, and the robot brands are soaring. Before starting with the brand, try walking the bottleneck.",
+    "questions": [
+      "What does a humanoid robot physically require, layer by layer?",
+      "Which of those layers is genuinely hard to add: the software, the chips, the actuators, the precision gears, the magnets?",
+      "Who controls the scarce layer today, and is that control defensible or just a head start?",
+      "If robots really scale, is the scarcity already in the price of the obvious names?"
+    ],
+    "reveal": [
+      "Walk it down: brand, then software, then chips, then motors, then the precision reducers and the rare-earth magnets inside them. The abundant layers, the brand and the app, are the easiest to compete away. The scarce ones look more like the high-torque gears and the rare-earth magnet supply, where China dominates processing.",
+      "But I would not stop there. Is that scarcity structural, protected by ore geography and years of process skill, or a temporary lag that capital will close? And is any listed name actually capturing the economics, or will a flood of competitors compete the margin away? The bottleneck tells you where to look. It does not tell you what to pay.",
+      "That is roughly the whole method. The trend gives you a direction. The scarce, defensible, reasonably priced link is the thing worth studying."
+    ]
+  },
+  "relatedSectors": ["power", "metals", "infrastructure"],
+  "relatedReports": ["INOXINDIA", "SUZLON", "ULTRACEMCO"],
+  "relatedCaseStudies": ["cg-power-what-survived-2020-2026", "the-pe-paradox-why-multiples-rise-when-earnings-fall"],
+  "threads": [
+    { "bottleneck": "Power and grid", "sector": "power", "caseStudy": "cg-power-what-survived-2020-2026" },
+    { "bottleneck": "Copper and metals", "sector": "metals" },
+    { "bottleneck": "Cryogenic and gas equipment", "report": "INOXINDIA" },
+    { "bottleneck": "Wind and electrification", "report": "SUZLON" },
+    { "bottleneck": "Cement and the build-out", "sector": "infrastructure", "report": "ULTRACEMCO" },
+    { "bottleneck": "The priced-in test", "caseStudy": "the-pe-paradox-why-multiples-rise-when-earnings-fall" }
+  ],
+  "sources": [
+    { "label": "IEA, Energy and AI, executive summary (data-centre electricity to 2030)", "url": "https://www.iea.org/reports/energy-and-ai/executive-summary" },
+    { "label": "IEA, data-centre electricity and tightening bottlenecks (2025)", "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions" },
+    { "label": "pv magazine, US transformer lead times extend to four years (2026)", "url": "https://pv-magazine-usa.com/2026/05/11/u-s-transformer-market-faces-severe-supply-constraints-as-lead-times-extend-to-four-years/" },
+    { "label": "Utility Dive, transformer supply bottleneck and grid stability", "url": "https://www.utilitydive.com/news/electric-transformer-shortage-nrel-niac/738947/" },
+    { "label": "S&P Global, substantial shortfall in copper supply widens (Jan 2026)", "url": "https://press.spglobal.com/2026-01-08-Substantial-Shortfall-in-Copper-Supply-Widens-as-the-Race-for-AI-and-Growing-Defense-Spending-Add-to-Accelerating-Demand,-New-S-P-Global-Study-Finds" },
+    { "label": "European Parliament, scaling up arms production capacity in the EU (2025)", "url": "https://www.europarl.europa.eu/RegData/etudes/ATAG/2025/779178/EPRS_ATA(2025)779178_EN.pdf" },
+    { "label": "Defence Matters, Europe's gunpowder bottleneck", "url": "https://defencematters.eu/europes-gunpowder-bottleneck/" },
+    { "label": "Open the Magazine, India's INR 9 trillion power transmission capex to 2032", "url": "https://openthemagazine.com/business/indias-power-transmission-sector-to-see-inr-9-trillion-capex-push-by-2032-report" },
+    { "label": "India Briefing, semiconductor incentives and the India Semiconductor Mission", "url": "https://www.india-briefing.com/news/setting-up-a-semiconductor-fabrication-plant-in-india-what-foreign-investors-should-know-22009.html/" }
+  ],
+  "lessonLabel": "What I'm taking away",
+  "lesson": "After following these chains, I keep coming back to the same distinction. A trend tells you where demand is going. A bottleneck tells you where supply cannot keep up. I do not know which of these bottlenecks will prove durable. Some will fade, some will pull in so much capital that today's shortage becomes tomorrow's glut, some may matter far less than they look now. But the question feels worth carrying: when everyone is talking about the trend, what is the trend going to run out of? That is probably where I would look next.",
+  "remember": "When everyone is talking about the trend, the more useful question might be what the trend runs out of, and whether that scarcity is defensible and not already in the price."
+}

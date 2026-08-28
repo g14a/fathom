@@ -7,6 +7,21 @@
   "dataVariant": "Consolidated",
   "asOf": "2026-08-16",
   "oneLiner": "CAMS keeps the books for two-thirds of India's mutual-fund money and earns 47% on capital. But the more money it minds, the smaller its cut of each rupee, so revenue crawls while the assets race.",
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Duopoly, 47% ROCE", "tone": "good" },
+      { "label": "Moat", "value": "Wide", "tone": "good" },
+      { "label": "Growth", "value": "Crawling (~1%)", "tone": "bad" },
+      { "label": "Pricing", "value": "Fee per rupee thinning", "tone": "warn" },
+      { "label": "Valuation", "value": "38x earnings", "tone": "bad" }
+    ],
+    "keyQuestion": "The assets it minds keep racing. If its cut per rupee keeps shrinking, why pay 38 times earnings?"
+  },
+  "facts": {
+    "snapshot": "CAMS is the back office of India's mutual-fund industry. As a registrar and transfer agent it records your fund purchases, redemptions and monthly SIPs and keeps the paperwork straight, handling roughly two-thirds of the country's fund accounts.",
+    "founded": "1988",
+    "hq": "Chennai"
+  },
   "overview": "CAMS does not manage a single rupee. It is a Registrar and Transfer Agent, which is a formal name for the back office of the mutual-fund industry. Every time you buy a fund, sell it, or start a monthly SIP, someone has to record it, match the money to the right account, and keep the paperwork straight for the regulator. CAMS is that someone, for about two-thirds of the country's funds. Picture a giant cloakroom at a party that never ends. It does not own a single coat. It takes your coat, hands you a ticket, and keeps track of whose is whose, for a few paise a coat. Here is the catch that runs through everything: the more coats pile up, the less it is allowed to charge for each one. So the room keeps getting busier, and the fee per coat keeps thinning.",
   "editorial": {
     "realBusiness": "CAMS runs the cloakroom for India's mutual-fund money: it holds the tickets, not the coats, and takes a shrinking few paise on each one.",

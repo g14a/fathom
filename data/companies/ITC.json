@@ -7,6 +7,16 @@
   "dataVariant": "Consolidated",
   "asOf": "2026-08-16",
   "oneLiner": "ITC pays you a 5.2% dividend and earns 29% on equity, yet trades like a problem stock. The problem is simple: cigarettes fund almost everything, and the taxman takes a bigger slice every few years.",
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Cash-rich, 29% ROE", "tone": "good" },
+      { "label": "Balance sheet", "value": "Near debt-free", "tone": "good" },
+      { "label": "Moat", "value": "Wide", "tone": "good" },
+      { "label": "Regulatory", "value": "Cigarettes 80%, taxman", "tone": "warn" },
+      { "label": "Valuation", "value": "17.6x, 5.2% yield", "tone": "good" }
+    ],
+    "keyQuestion": "You are paid about 5% a year to wait. Does the next cigarette tax hike come slowly enough to keep enjoying it?"
+  },
   "overview": "ITC sells four things: cigarettes, packaged foods (Aashirvaad atta, Sunfeast biscuits, Bingo chips), farm commodities, and packaging. Strip away the variety and it is really one business wearing four coats. Cigarettes are 41% of sales but about 80% of the profit, and everything else is small beside them. So picture ITC as a machine that turns cigarettes into cash, with a silent partner at the table: the government, which never put in a rupee but takes a larger cut of every packet whenever it likes. That partner is the whole story. In January 2025 ITC sold off its hotels, a business that had tied up a fifth of its money for almost nothing, so what is left is leaner and points at one job: take the cash and hand it to owners.",
   "editorial": {
     "realBusiness": "ITC turns cigarettes into cash and hands it to owners, while a silent partner (the taxman) keeps raising his cut.",

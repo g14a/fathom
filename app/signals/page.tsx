@@ -38,8 +38,8 @@ export default function SignalsIndex() {
           {getAllSignals().map((s) => (
             <a key={s.id} href={withBase(`/signals/${s.id}/`)} className="cs-card">
               <div className="cs-card-top">
-                <span className="cs-card-company">{s.kind}</span>
-                <span className="cs-card-period">{s.dateline}</span>
+                <span className="cs-card-company">{s.kindLabel ?? s.kind}</span>
+                {s.dateline && <span className="cs-card-period">{s.dateline}</span>}
               </div>
               <div className="cs-card-title">{s.title}</div>
               <div className="cs-card-summary">{s.summary}</div>

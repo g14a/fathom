@@ -6,6 +6,16 @@
   "dataVariant": "Consolidated",
   "asOf": "2026-08-02",
   "oneLiner": "UltraTech is the king of Indian cement, gushing cash and buying up rivals. But you are paying 41 times earnings for a commodity business that earns just 11% on its equity, and those two numbers do not belong on the same stock.",
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Best-run cement", "tone": "good" },
+      { "label": "Cash", "value": "A torrent of it", "tone": "good" },
+      { "label": "Moat", "value": "Narrow", "tone": "warn" },
+      { "label": "Returns", "value": "Just 11% on equity", "tone": "bad" },
+      { "label": "Valuation", "value": "41x on a commodity", "tone": "bad" }
+    ],
+    "keyQuestion": "The best cement operator, but earning 11% on equity. Why does a commodity deserve 41 times earnings?"
+  },
   "overview": "Cement is cement. Nobody pays extra for a bag because the logo is nicer, so UltraTech cannot win on brand romance. It wins on geography. Cement is so heavy and so cheap that trucking it far eats the profit, which means every plant really only sells within a circle around it. The game, then, is to own enough plants, limestone, kilns and dealer reach, placed close enough to demand, that you can make and move the stuff cheaper than anyone else in each circle. That is what UltraTech does better than any rival in India. The open question is whether being the best operator is enough to earn a premium price, when the industry itself puts a low ceiling on what any cement maker can earn.",
   "editorial": {
     "realBusiness": "UltraTech is not cement. It is local scale in a commodity too heavy to travel.",

@@ -1,0 +1,189 @@
+{
+  "ticker": "INOXINDIA",
+  "company": "Inox India Ltd",
+  "sector": "Industrials",
+  "industry": "Cryogenic Equipment",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-08-28",
+  "oneLiner": "India's dominant maker of cryogenic tanks, debt-free and earning a third on capital, riding the LNG wave. You just have to pay 75 times earnings to stand there.",
+  "facts": {
+    "snapshot": "Inox India, which trades as INOXCVA, is the country's largest maker of cryogenic equipment: the heavily insulated tanks and systems that store and move gases chilled far below freezing, such as liquid oxygen, nitrogen, argon and liquefied natural gas.",
+    "founded": "1976",
+    "hq": "Vadodara"
+  },
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Excellent operator", "tone": "good" },
+      { "label": "Balance sheet", "value": "Debt-free, 33% ROCE", "tone": "good" },
+      { "label": "Moat", "value": "Narrow", "tone": "warn" },
+      { "label": "Cash conversion", "value": "Below reported profit", "tone": "warn" },
+      { "label": "Valuation", "value": "~75x earnings", "tone": "bad" }
+    ],
+    "keyQuestion": "The business is superb. The only real question is whether 75 times earnings has already priced in years of that success."
+  },
+  "overview": "Inox India, which trades under the INOXCVA name, makes cryogenic equipment: the heavily insulated tanks and systems that hold and move gases chilled far below freezing, liquid oxygen and nitrogen for factories and hospitals, argon, and above all liquefied natural gas. Picture a giant industrial thermos flask. Anyone who makes, stores, ships or burns these gases needs one, and Inox is the largest supplier of them in the country. It does not sell the gas. It sells the steel that keeps the gas cold, so it earns whenever the whole gas economy grows, whoever wins inside it. That is a lovely place to stand. Most of this report is about the price of standing there.",
+  "ipoFlag": "The December 2023 IPO was entirely an offer for sale. Existing owners sold shares and no fresh money came into the company. That is common and not a red flag by itself, but it means the listing paid sellers, not new plants.",
+  "editorial": {
+    "whyExists": "A modern economy runs on gases kept impossibly cold. Hospitals need liquid oxygen, steel and chemicals need nitrogen and argon, and the shift to cleaner fuel runs on liquefied natural gas. None of it goes anywhere without specialised tanks that hold those gases without boiling off or failing. Very few firms can build that equipment to the safety standard required, and Inox is the largest that can in India.",
+    "whyNotAlreadyWon": "Because cryogenic equipment is unforgiving, and that keeps the field small. A tank that fails at these temperatures is a disaster, so buyers only trust suppliers with decades of engineering and approvals behind them. But being one of the few is a licence to compete, not a monopoly on price. Bigger global players build the same equipment, steel costs move against everyone, and the largest projects are competitive tenders.",
+    "whyNow": "What changed is the enthusiasm, more than the company. The business has grown steadily and stayed debt-free, and the LNG share of sales jumped from 17% to 28% in a year, feeding a clean-energy story investors love. The stock roughly doubled on it, to about 75 times earnings. Now the price itself assumes the runway delivers in full, and a multiple that high leaves no margin for the ordinary lumpiness of a manufacturer.",
+    "remember": "You are not buying a cryogenic tank maker at 75 times earnings. You are buying the promise that it compounds like clockwork for a decade, and clockwork is rare in heavy manufacturing.",
+    "realBusiness": "Inox sells the insulated steel that stores and moves cold gas, and earns whenever the gas economy grows, whoever wins inside it.",
+    "economicEngine": [
+      { "label": "Demand", "value": "Gas and LNG build-out", "note": "More gas made, stored, shipped and burned means more tanks. Tied to industry and the energy transition." },
+      { "label": "Revenue", "value": "Equipment x project value", "note": "Each order priced by size and complexity, with the mix tilting toward larger, higher-value LNG jobs." },
+      { "label": "Margins", "value": "Engineering and steel", "note": "Held near 22% at the operating line. Steel is largely a pass-through, and complex jobs earn more." },
+      { "label": "Capital", "value": "Working capital and plant", "note": "Debt-free, but large orders tie up cash in inventory and receivables for months." },
+      { "label": "Returns", "value": "High returns, token dividend", "note": "Earns about 33% on capital and reinvests most of it. The dividend is nominal." }
+    ],
+    "mentalModels": [
+      { "model": "Sell the equipment, not the commodity", "strength": 5, "why": "It supplies the tanks the whole gas economy needs without betting on which customer wins." },
+      { "model": "Qualification barrier", "strength": 4, "why": "Safety-critical engineering keeps buyers loyal to proven suppliers and the field small." },
+      { "model": "Working-capital intensity", "strength": 4, "why": "Long build cycles tie up cash, so growth has to be funded with working capital." },
+      { "model": "Structural tailwind", "strength": 4, "why": "LNG and early hydrogen give a long demand runway, though individual projects are lumpy." },
+      { "model": "Reinvestment runway", "strength": 4, "why": "High returns on capital with room to redeploy, which is what a premium multiple pays for." },
+      { "model": "Operating leverage", "strength": 3, "why": "Fixed plant helps margins as volume rises, but mix and steel matter more here than pure scale." }
+    ],
+    "sectorModels": [
+      { "model": "Industry structure", "reading": "Consolidated at home", "note": "Clear domestic leader in cryogenic tanks, a smaller challenger against global firms abroad." },
+      { "model": "Pricing power", "reading": "Moderate", "note": "Strong on complex, qualified jobs, but steel is a pass-through and big tenders are competitive." },
+      { "model": "Demand driver", "reading": "Structural", "note": "Industrial gas plus LNG and early hydrogen, tied to the energy transition." },
+      { "model": "Cash conversion", "reading": "Below profit", "note": "About two-thirds of profit becomes cash, with working capital funding the growth." },
+      { "model": "Balance sheet", "reading": "Debt-free", "note": "Almost no debt, very high interest cover, self-funded." }
+    ],
+    "strategicPosition": [
+      { "label": "Chart Industries, Cryostar", "description": "Larger global cryogenic-equipment makers, broader and better funded", "tone": "strong" },
+      { "label": "Inox India (INOXCVA)", "description": "India's clear leader in cryogenic tanks, debt-free and high-return, growing exports", "tone": "focus" },
+      { "label": "Smaller fabricators", "description": "A fragmented tail competing on price for simpler tanks", "tone": "weak" }
+    ],
+    "winningToday": [
+      "Revenue and profit both compounding in the low 20s, with margins steady near 22%.",
+      "A debt-free balance sheet earning about 33% on capital, rare for a manufacturer.",
+      "A record order backlog of about ₹1,514 crore, with the mix shifting to higher-value LNG work.",
+      "Export orders growing through global engineering consultants."
+    ],
+    "stopWinning": [
+      "A high multiple that leaves no room for the ordinary lumpiness of project orders.",
+      "Cash conversion running well below reported profit as working capital builds.",
+      "Bigger global players and competitive tenders capping pricing on the largest jobs.",
+      "LNG and hydrogen demand in India arriving slower than the valuation assumes."
+    ],
+    "marketBets": [
+      "The LNG and hydrogen build-out delivers a long, steady runway of orders.",
+      "Margins hold near current levels as the mix shifts toward LNG.",
+      "Inox keeps taking export share against larger global rivals.",
+      "Growth stays fast enough, for long enough, to justify a premium multiple."
+    ]
+  },
+  "business": {
+    "unitOfRevenue": "One piece of engineered cryogenic equipment, priced by the job. That might be a single bulk storage tank, a fleet of transport trailers, an LNG regasification skid, or a scientific cryostat. Bigger, more complex jobs carry more value and better margins than a plain small tank.",
+    "revenueModel": "Order-driven manufacturing. A customer places an order, Inox designs and builds it over weeks or months, and revenue is booked as the equipment is made and delivered. The company carries an order backlog, about ₹1,514 crore at the end of FY26, which gives it a few quarters of forward visibility.",
+    "segments": [
+      { "name": "Industrial Gas", "pct": 54, "marginProfile": "The steady core. Standard and bulk cryogenic tanks for industrial-gas companies." },
+      { "name": "LNG", "pct": 28, "marginProfile": "The fast-growing engine. Storage, transport and regasification equipment for the gas build-out." },
+      { "name": "Cryo Scientific", "pct": 14, "marginProfile": "Small, specialised, higher-value research and technology equipment." }
+    ],
+    "revenuePerUnitTrend": "The mix is moving toward higher value. LNG jumped from 17% to 28% of sales in a single year, and the biggest, most engineered jobs, often won abroad through global engineering consultants, pay better than simple tanks. The three segments above do not sum to 100 because smaller lines like beverage kegs and disposable cylinders make up the rest.",
+    "industry": {
+      "structure": "Consolidated at home, competitive globally. In India, Inox is the clear leader in cryogenic tanks with few real rivals. Worldwide it competes with larger firms.",
+      "competitors": "Global majors such as Chart Industries and Cryostar are bigger and broader. In India, Inox is the scaled leader with a small, fragmented tail of competitors.",
+      "pricingPower": "Moderate. Engineering, safety qualification and a long record let Inox hold price on complex jobs, but big global tenders are competitive and steel is a pass-through.",
+      "demandDriver": "The build-out of the gas economy: industrial gases, and above all LNG as a transport and industrial fuel, plus early hydrogen. More gas made, stored, shipped and burned means more tanks.",
+      "driverType": "Structural, tied to the energy transition and industrialisation, though individual large projects are lumpy.",
+      "tam": "A large and growing global market for cryogenic and LNG equipment, expanding with the shift to gas and cleaner fuels. Exact figures vary by source.",
+      "penetration": "Early in India for LNG infrastructure and hydrogen, more established for industrial-gas tanks. Growth is a mix of the market growing and Inox taking export share.",
+      "valueChainPosition": "The equipment supplier sitting one step back from the gas itself. It sells the picks and shovels, not the gold, a safer place to stand but one that caps how much of the boom's economics it can capture."
+    },
+    "qualityVerdict": "As a business Inox is genuinely excellent, and the numbers say so plainly: the domestic leader in a safety-critical niche, debt-free, earning 33% on capital with margins parked near 22%. Two honest caveats. It is equipment manufacturing, so orders are lumpy and cash conversion runs below profit. And abroad it competes with bigger firms. A fine business, then. Whether it is a fine investment is a question the valuation decides, not the operations."
+  },
+  "valuation": [
+    { "label": "Price", "value": "₹2,126" },
+    { "label": "Market Cap", "value": "₹19,247 cr" },
+    { "label": "52W High / Low", "value": "₹2,270 / ₹1,031" },
+    { "label": "Stock P/E", "value": "74.8", "tone": "bad", "hint": "computed price/EPS ≈ 75.7" },
+    { "label": "P/B", "value": "17.3", "tone": "bad", "hint": "about 17x book value" },
+    { "label": "EPS (TTM)", "value": "₹28.08" },
+    { "label": "Book Value", "value": "₹123" },
+    { "label": "Dividend Yield", "value": "0.09%", "hint": "token payout; reinvests" }
+  ],
+  "financials": [
+    { "year": "FY22", "revenue": 783, "netProfit": 130, "patMargin": 16.6, "eps": 14.38 },
+    { "year": "FY23", "revenue": 966, "netProfit": 155, "patMargin": 16.0, "eps": 17.05 },
+    { "year": "FY24", "revenue": 1133, "netProfit": 196, "patMargin": 17.3, "eps": 21.59 },
+    { "year": "FY25", "revenue": 1306, "netProfit": 226, "patMargin": 17.3, "eps": 24.90 },
+    { "year": "FY26", "revenue": 1587, "netProfit": 258, "patMargin": 16.3, "eps": 28.41 }
+  ],
+  "ratios": [
+    { "label": "ROE", "value": "26.1%", "tone": "good" },
+    { "label": "ROCE", "value": "33.5%", "tone": "good" },
+    { "label": "D/E", "value": "0.07", "tone": "good", "hint": "effectively debt-free" },
+    { "label": "Interest Coverage", "value": "~38x", "tone": "good" },
+    { "label": "Operating Margin", "value": "~22%", "tone": "neutral", "hint": "steady 5Y" },
+    { "label": "Cash conversion (5Y)", "value": "~66%", "tone": "neutral", "hint": "OCF / profit; working-capital heavy" }
+  ],
+  "cashFlow": [
+    { "year": "FY24", "ocf": 122, "fcf": 32 },
+    { "year": "FY25", "ocf": 122, "fcf": -3 },
+    { "year": "FY26", "ocf": 117, "fcf": 11 }
+  ],
+  "cashFlowNote": "This is the one honest blemish on a clean business. Inox reports fine profits, but only part of that profit shows up as cash in any given year. Operating cash was ₹122 crore in FY24, ₹122 crore in FY25 and ₹117 crore in FY26, roughly flat while profit climbed from ₹196 crore to ₹258 crore. Over five years only about two-thirds of reported profit became operating cash. The reason is not trickery, it is the nature of the work: each large tank or trailer sits in inventory and then as a receivable for months before Inox is paid, so fast growth keeps tying up more working capital. Healthy, but cash-hungry, and worth holding in mind when a 75-times-earnings multiple treats every rupee of profit as if it were already cash in hand.",
+  "growth": [
+    { "label": "Sales CAGR (5Y)", "value": "22%", "tone": "good" },
+    { "label": "Sales CAGR (3Y)", "value": "18%", "tone": "good" },
+    { "label": "Profit CAGR (5Y)", "value": "22%", "tone": "good" },
+    { "label": "Profit CAGR (3Y)", "value": "19%", "tone": "good" },
+    { "label": "Profit growth (TTM)", "value": "12%", "tone": "neutral", "hint": "moderating" }
+  ],
+  "management": "Inox India is controlled by the founding Jain family of the Inox group, which still owns about 75% and has not sold down since the 2023 listing. The style on display in the numbers is an operator's: debt-free, over 30% returns on capital, steady margins, and growth funded from internal cash rather than fresh equity or debt. That is exactly the conservative profile you want in a manufacturer. The one general watch-item with any family-controlled group is how capital moves between related entities, but within this company the balance sheet is clean. The fair test from here is simple: does cash conversion improve as it scales, or does working capital keep swallowing the profit?",
+  "holding": [
+    { "label": "Promoter", "pct": 74.86, "qoqChange": -0.14 },
+    { "label": "FII", "pct": 6.86, "qoqChange": -0.27 },
+    { "label": "DII", "pct": 7.67, "qoqChange": -0.05 },
+    { "label": "Public", "pct": 10.61, "qoqChange": 0.47 }
+  ],
+  "moat": {
+    "strength": "narrow",
+    "sources": [
+      "Engineering and safety qualification in a niche where failure is catastrophic",
+      "Domestic scale and installed base, with aftermarket service",
+      "A debt-free balance sheet to fund large, lumpy orders",
+      "Long-standing customer relationships and approvals"
+    ],
+    "note": "The moat is real but narrow. A cryogenic tank that fails at these temperatures is a catastrophe, so buyers stay with suppliers who have the engineering and the safety approvals to be trusted, and that keeps Inox dominant at home. But it is still equipment that bigger global firms also build, steel is a pass-through, and the largest orders go to competitive tender. Scale and trust here buy you the right to compete for the price, not the power to set it."
+  },
+  "narrative": "Inox has grown revenue about 22% a year for five years, from ₹783 crore in FY22 to ₹1,587 crore in FY26, with profit keeping pace and operating margins sitting stubbornly near 22% the whole way. It listed in December 2023. Since then it has largely done what it promised: record revenue, a record order backlog, and a mix tilting toward the higher-value LNG work. The market fell hard for the story, and the stock roughly doubled in the past year. A small, excellent manufacturer is now valued like a rare compounder.",
+  "risks": [
+    "Valuation. At about 75 times earnings and 17 times book, the price already assumes years of fast, uninterrupted growth, so any stumble hits the multiple hard. High.",
+    "Lumpy orders. Large LNG and industrial-gas projects can slip between quarters, making near-term earnings bumpy and testing a perfection multiple. Medium.",
+    "Working capital. Cash conversion runs near two-thirds of profit, and fast growth keeps absorbing cash into inventory and receivables. Medium.",
+    "Global competition. Bigger players like Chart Industries compete for the largest export tenders, capping pricing. Medium.",
+    "End-market timing. The LNG and hydrogen runway is real, but its pace in India is uncertain and demand could arrive slower than priced. Medium."
+  ],
+  "trapChecklist": [
+    { "label": "Stretched multiple", "note": "About 75x earnings and 17x book, pricing in years of flawless compounding", "status": "fail" },
+    { "label": "Cash conversion below profit", "note": "5-year operating cash was only about 66% of reported profit; working-capital heavy", "status": "warn" },
+    { "label": "IPO was all offer-for-sale", "note": "The Dec 2023 listing raised no fresh capital; existing owners sold. Common, not a red flag by itself", "status": "warn" },
+    { "label": "Lumpy project orders", "note": "Large LNG jobs can slip between quarters, making near-term earnings bumpy", "status": "warn" },
+    { "label": "Promoter holding steady", "note": "Promoter about 75%, essentially unchanged since listing; no self-dilution", "status": "pass" },
+    { "label": "Debt and leverage", "note": "Effectively debt-free, interest cover about 38x", "status": "pass" }
+  ],
+  "sectorChecklist": [
+    { "label": "Order backlog", "note": "About ₹1,514 crore at end-FY26, a few quarters of visibility", "status": "pass" },
+    { "label": "Margin stability", "note": "Operating margin parked near 22% across five years", "status": "pass" },
+    { "label": "Return on capital", "note": "ROCE about 33%, ROE about 26%, well above cost of capital", "status": "pass" },
+    { "label": "Working capital", "note": "Cash conversion cycle long; profit-to-cash below 70%", "status": "warn" },
+    { "label": "End-market runway", "note": "LNG and hydrogen give structural, if lumpy, demand", "status": "pass" }
+  ],
+  "summary": "Inox India is a genuinely excellent small manufacturer: the domestic leader in cryogenic equipment, debt-free, earning over 30% on capital, with a real runway in LNG and cleaner fuels. Almost nothing about the business worries me. The price does. At 75 times earnings the market has already assumed years of flawless compounding, and a manufacturer's quarters are rarely flawless. Here the company and the stock are two different decisions. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+  "engine": {
+    "state": "multiple-engine",
+    "earnings": "The earnings engine is real and clean. Revenue and profit have both compounded in the low 20s, the balance sheet carries almost no debt, and returns on capital sit above 30%. The order backlog and the LNG build-out give a credible runway to keep growing. The one blemish, that not all of this profit turns into cash, belongs to the cash-flow section below. It does not dent the quality of the earnings, only the speed at which they become money.",
+    "multiple": "The whole story lives in the multiple. At about 75 times earnings and 17 times book, Inox is priced as a rare, unstoppable compounder, not as a very good manufacturer. That number is a promise: profits keep growing fast, for a long time, without a stumble. The business might deliver it. But you are paying today for years of success that have not happened, and if growth simply slows to ordinary, 75 does not stay 75.",
+    "verdict": "So here is my honest read. This is one of the better small manufacturers in the country, and the business barely worries me. The price is another matter. At 75 times earnings you are not really being asked whether Inox is good. You are being asked whether it can compound fast enough, for long enough, to earn a valuation that already assumes it will. Great company and demanding stock are two different decisions here. I would be wrong to be cautious if LNG and hydrogen demand in India inflects harder than anyone expects, which would stretch the runway further than even this price assumes."
+  },
+  "lenses": [
+    { "name": "It sells the tank, not the gas", "reading": "The smartest thing about Inox is where it sits in the chain. It does not bet on which gas company wins, or whether LNG beats diesel. It sells the tank either way. That position is genuinely lower risk than owning the gas, and it is why a boring equipment maker can earn such high returns. The trade-off is that a supplier captures only a slice of the boom it enables, and it still rises and falls with how much everyone else decides to invest." },
+    { "name": "Champion at home, challenger abroad", "reading": "Inside India, Inox is the clear leader and can hold its price on complex, qualified work. Step onto the global stage and it is the smaller player, bidding against bigger firms like Chart Industries for the largest export orders. That matters for how you read its growth. The domestic dominance is durable. The export growth everyone is excited about is won in a tougher fight, where pricing is keener and a win is never guaranteed." },
+    { "name": "A price with no room for a bad year", "reading": "Ask yourself one thing. What happens to a 75-times-earnings stock if a big LNG order slips a couple of quarters, the way lumpy project orders always do? The earnings wobble, and a multiple that high has nowhere to hide. None of that would mean the business is broken. It would mean you paid a perfection price for a company that, like every manufacturer, has ordinary quarters. The fragile part of this investment is the valuation, not the factory." }
+  ]
+}

@@ -7,6 +7,21 @@
   "dataVariant": "Consolidated",
   "asOf": "2026-08-03",
   "oneLiner": "The lost decade is over: three players left, tariffs rising, cash finally pouring in. The only problem now is the price, 46 times earnings for a turn nobody can miss.",
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Free-cash machine now", "tone": "good" },
+      { "label": "Balance sheet", "value": "Improving, still levered", "tone": "warn" },
+      { "label": "Moat", "value": "Wide", "tone": "good" },
+      { "label": "The turn", "value": "Largely already done", "tone": "warn" },
+      { "label": "Valuation", "value": "46x earnings", "tone": "bad" }
+    ],
+    "keyQuestion": "The turnaround is real and finished. Is 46 times earnings paying for a turn everyone can already see?"
+  },
+  "facts": {
+    "snapshot": "Bharti Airtel is one of India's largest telecom operators. It runs mobile, broadband and enterprise networks across India, Africa and South Asia, earning a recurring fee from every customer that uses its network.",
+    "founded": "1995",
+    "hq": "New Delhi"
+  },
   "overview": "Airtel is not really in the business of phone calls and data packs. It is a toll road. The road is the network: towers, spectrum, fibre, billing systems, all of it enormously expensive to lay down. Once it is built, though, letting one more car onto it (one more customer, one more gigabyte) costs almost nothing. Hold on to that. During the price war, Airtel had to wave the cars through at rock-bottom tolls, because a fierce field of rivals meant any driver could switch roads for less. The customer kept all the winnings. Now India has just three private roads left, tariffs are rising, and the toll road is finally allowed to charge a real toll. A small increase, multiplied across hundreds of millions of cars, turns into a river of cash.",
   "editorial": {
     "realBusiness": "Airtel is not a telecom operator so much as a toll road: a fixed-cost network that, now the price war is over, finally gets to charge a proper toll.",
