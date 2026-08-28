@@ -308,7 +308,7 @@ function EditorialModel({ r }: { r: TickerReport }) {
         </div>
 
         <div className="ed-panel">
-          <div className="ed-label">What the market is betting on</div>
+          <div className="ed-label">What has to go right</div>
           <ul className="ed-list">
             {e.marketBets.map((b) => <li key={b}>{b}</li>)}
           </ul>
@@ -317,14 +317,14 @@ function EditorialModel({ r }: { r: TickerReport }) {
 
       <div className="ed-grid">
         <div className="ed-panel">
-          <div className="ed-label">Why it is winning</div>
+          <div className="ed-label">Why the business works</div>
           <ul className="ed-list">
             {e.winningToday.map((w) => <li key={w}>{w}</li>)}
           </ul>
         </div>
 
         <div className="ed-panel">
-          <div className="ed-label">Why it could stop winning</div>
+          <div className="ed-label">Why the thesis could fail</div>
           <ul className="ed-list">
             {e.stopWinning.map((w) => <li key={w}>{w}</li>)}
           </ul>

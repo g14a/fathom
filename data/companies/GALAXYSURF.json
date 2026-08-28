@@ -1,0 +1,220 @@
+{
+  "ticker": "GALAXYSURF",
+  "company": "Galaxy Surfactants Ltd",
+  "sector": "Chemicals",
+  "industry": "Surfactants & Specialty Care Ingredients",
+  "sectorId": "chemicals",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-08-28",
+  "oneLiner": "The quiet supplier of the foam in your shampoo and the mildness in your face wash, sold to the world's FMCG giants. The ingredients are sticky and the balance sheet is spotless, yet sales grew by half over five years while profit went nowhere, which tells you who really holds the pricing power.",
+  "facts": {
+    "snapshot": "Galaxy Surfactants makes the ingredients inside everyday personal and home care products: the foaming and cleaning agents in shampoo and soap, the mild cleansers in face wash, and the preservatives and specialty actives in creams and lotions. It sells these to consumer goods companies in India and around the world, not to shoppers directly.",
+    "founded": "1986",
+    "hq": "Navi Mumbai"
+  },
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Good: essential, sticky supplier", "tone": "good" },
+      { "label": "Balance sheet", "value": "Excellent, debt-free", "tone": "good" },
+      { "label": "Economics", "value": "Under pressure, thin sliding margin", "tone": "warn" },
+      { "label": "Customer power", "value": "Sells to FMCG giants", "tone": "bad" },
+      { "label": "Growth", "value": "Healthy revenue, flat earnings", "tone": "warn" },
+      { "label": "Valuation", "value": "Not obviously cheap", "tone": "warn" }
+    ],
+    "keyQuestion": "Can a richer specialty mix and better raw-material pass-through restore the margin, so that five years of rising sales finally turns into rising profit?"
+  },
+  "overview": "Galaxy Surfactants is a business almost nobody has heard of that almost everybody uses several times a day. It does not sell you anything. It sells to the companies that sell to you. When you lather a shampoo, foam a face wash or work up a bar of soap, the molecule doing the foaming and cleaning is a surfactant, and there is a good chance Galaxy made it. It supplies these ingredients, plus milder specialty actives and preservatives, to consumer goods companies like Unilever, Procter & Gamble, Colgate, L'Oreal, Henkel, Reckitt, Dabur and Himalaya, across more than 80 countries. That is the appeal: a quiet, essential supplier riding the daily habit of washing, with its ingredients designed into customers' products and hard to swap out. The catch is the company it keeps. Galaxy sells to some of the largest and most sophisticated buyers on earth, and it buys volatile petrochemical and palm-derived raw materials. It sits in the middle, and the middle is a hard place to keep a big slice of the profit.",
+  "editorial": {
+    "whyExists": "A shampoo or a face cream is a recipe, and the hardest ingredients in that recipe are the surfactants and specialty actives that make it foam, cleanse gently, feel nice and not spoil. Consumer goods companies are brilliant at brands and distribution, but they would rather not run the messy chemistry of making these molecules at scale, to spec, safely, in every market. Galaxy does exactly that: it formulates and manufactures the ingredients, gets them approved into the customer's product, and supplies them reliably for years. It earns its place by being a dependable, qualified chemistry partner so the brand can stay a brand.",
+    "whyNotAlreadyWon": "Once a Galaxy ingredient is designed into a shampoo and cleared by the customer's regulatory and quality teams, swapping it out is slow, risky and rarely worth it, so the volumes are sticky. Add a wide shelf of over two hundred products, real formulation and preservative know-how, and scaled plants in India, Egypt and the US, and you have a genuine barrier against a new supplier. But notice what that barrier protects. It keeps rival ingredient makers out. It does nothing about the customer, who is far bigger than Galaxy and negotiates hard, or about raw material prices, which Galaxy does not control. The moat guards the door, not the till.",
+    "whyNow": "What has changed is that the numbers finally made the tension impossible to ignore. Over five years, revenue climbed from about ₹3,700 crore to ₹5,245 crore, yet net profit sat almost exactly where it started, near ₹265 crore, and operating margin drifted down from the mid-teens toward single digits. The performance-surfactant workhorse got squeezed by input costs, and the higher-value specialty side has grown but not fast enough to lift the whole. The market has already taken the shine off: the multiple has come down a long way from its pandemic-era peak. The live question is whether margins and the specialty mix recover enough for earnings to finally grow, or whether flat profit on rising sales is simply what this position in the value chain pays.",
+    "remember": "Galaxy makes the foam in half the world's shampoo, and still keeps a thin slice, because it is the small supplier sitting between giant customers and volatile barrels. Watch the margin, not the revenue.",
+    "realBusiness": "Galaxy is the qualified ingredient supplier to consumer goods brands, earning sticky volumes on chemistry it designs into their products, while its margin is squeezed between powerful customers on one side and volatile raw materials on the other.",
+    "economicEngine": [
+      { "label": "Demand", "value": "The daily wash", "note": "Shampoo, soap, face wash and creams are staples. Demand is steady and grows with population and premiumisation, especially outside India." },
+      { "label": "Revenue", "value": "Volume x price", "note": "Priced roughly as raw material cost plus a spread, so revenue swings with input prices. Volume and the specialty mix are the real signals, not the headline rupees." },
+      { "label": "Margins", "value": "The spread it keeps", "note": "Thin and input-driven. Performance surfactants are near cost-plus; specialty care earns more. Margin slid from the mid-teens to single digits as costs rose faster than pass-through." },
+      { "label": "Capital", "value": "Plants, debt-free", "note": "Moderate, steady capex on manufacturing capacity, funded from cash. Almost no debt." },
+      { "label": "Returns", "value": "Modest but real", "note": "ROCE around 13-14% and cash that runs ahead of profit, but returns held back by the thin margin." }
+    ],
+    "mentalModels": [
+      { "model": "Picks and shovels", "strength": 5, "why": "Sells the essential ingredient to everyone in personal care rather than betting on any one brand winning." },
+      { "model": "Switching costs", "strength": 4, "why": "An ingredient designed into a formula and cleared by the customer's quality team is slow and risky to replace, so volumes are sticky." },
+      { "model": "Customer bargaining power", "strength": 5, "why": "Its buyers are among the largest, most sophisticated companies on earth, and they push hard on price." },
+      { "model": "Commodity vs specialty mix", "strength": 4, "why": "The performance segment is near-commodity and thin; the specialty segment is where differentiation and better margin live." },
+      { "model": "Input-cost pass-through", "strength": 5, "why": "Prices track fatty alcohol and other inputs with a lag, so margins wobble even when volumes are fine." },
+      { "model": "Return on capital", "strength": 3, "why": "Sticky and clean, but the thin spread keeps returns on capital merely decent, not exceptional." }
+    ],
+    "sectorModels": [
+      { "model": "Industry structure", "reading": "Fragmented, competitive", "note": "Galaxy is a scaled Indian leader in surfactants, but competes with global majors and regional players; no monopoly." },
+      { "model": "Pricing power", "reading": "Weak, shared with customers", "note": "Large buyers and volatile inputs mean Galaxy is mostly a price-taker on both sides, keeping a spread rather than setting it." },
+      { "model": "Demand driver", "reading": "Structural staple", "note": "Everyday washing and care, steady and lightly growing, with the faster growth outside India." },
+      { "model": "Cash conversion", "reading": "Above profit", "note": "Operating cash has consistently run ahead of reported profit; the business is genuinely cash-generative." },
+      { "model": "Balance sheet", "reading": "Debt-free", "note": "Borrowings are minimal and comfortably covered; capex is self-funded." }
+    ],
+    "strategicPosition": [
+      { "label": "Performance surfactants", "description": "The near-commodity foaming and cleaning workhorse, thin-margin and price-competitive", "tone": "weak" },
+      { "label": "Specialty care ingredients", "description": "Milder actives, preservatives and specialty molecules, more differentiated and higher-margin", "tone": "focus" },
+      { "label": "FMCG customers", "description": "Unilever, P&G, Colgate, L'Oreal and the like, the powerful buyers that set the terms", "tone": "strong" }
+    ],
+    "winningToday": [
+      "Ingredients designed into customers' products, giving sticky, repeat volumes.",
+      "A debt-free balance sheet with capex funded from its own cash.",
+      "Growth outside India, especially the rest of world, running faster than the domestic book.",
+      "A wide product shelf and preferred-supplier status with several global majors."
+    ],
+    "stopWinning": [
+      "Raw material spikes that Galaxy cannot pass on fast enough, compressing margin.",
+      "Powerful FMCG customers negotiating away any pricing gains.",
+      "The performance segment staying commoditised while specialty grows too slowly to lift the mix.",
+      "Revenue that keeps climbing on price and volume while profit stays flat."
+    ],
+    "marketBets": [
+      "The specialty mix keeps rising and lifts the blended margin.",
+      "Raw material pass-through catches up so the spread normalises.",
+      "Global and rest-of-world volumes keep compounding.",
+      "Earnings finally break out of a five-year flat line."
+    ]
+  },
+  "business": {
+    "unitOfRevenue": "A tonne of ingredient shipped to a customer. Because the selling price is largely raw material cost plus a spread, the rupee revenue moves with input prices and can mislead. The numbers that actually matter are the volume of tonnes sold and how much of it is higher-value specialty product rather than commodity surfactant.",
+    "revenueModel": "Business-to-business manufacturing. Galaxy makes ingredients to a customer's approved specification and supplies them on repeat orders, priced as raw material cost plus a margin. It is recurring in the sense that an ingredient locked into a formula keeps getting reordered, but it is not contracted rent: the price resets with input costs, and the customer holds the whip on the spread.",
+    "segments": [
+      { "name": "Performance Surfactants", "pct": 61, "marginProfile": "The workhorse: bulk foaming and cleaning agents like fatty alcohol sulphates and LABSA. Near commodity, priced close to cost-plus, thin margin, driven by volume." },
+      { "name": "Specialty Care Products", "pct": 39, "marginProfile": "The higher-value half: mild surfactants, preservatives, proteins and specialty actives. More differentiated, better margin, and where the innovation and pricing power sit." }
+    ],
+    "revenuePerUnitTrend": "Selling price per tonne rises and falls with fatty alcohol and other inputs, so headline revenue per unit tells you more about petrochemical and palm prices than about the business. The durable levers are two: growing the tonnes sold, and shifting the mix toward specialty. Both have moved the right way over time, but not fast enough to stop the blended operating margin sliding from the mid-teens toward single digits as input costs outran pass-through.",
+    "industry": {
+      "structure": "Fragmented and competitive. Galaxy is a scaled leader in India's oleochemical surfactants, but the global market has large players and regional rivals, so no one dictates terms.",
+      "competitors": "Global majors such as BASF, Stepan, Clariant, Kao and Croda, plus regional and Indian surfactant makers. Galaxy competes on breadth, service, qualification and cost.",
+      "pricingPower": "Weak and shared. Inputs are volatile and set elsewhere, and customers are far larger than Galaxy, so it mostly earns a spread rather than commanding a price. Specialty products carry more pricing power than performance ones.",
+      "demandDriver": "Everyday personal and home care consumption: washing hair, skin, clothes and dishes. Staple demand that grows with population, incomes and premiumisation, faster outside India.",
+      "driverType": "Structural and defensive. People do not stop washing in a downturn, so volumes are steady, though input and currency swings make the profit bumpy.",
+      "tam": "Large and global. Surfactants and care ingredients go into a huge base of personal and home care products worldwide, and Galaxy already sells across 80-plus countries.",
+      "penetration": "Well established with the major customers; growth is more of the same customers, deeper specialty penetration and new geographies than a brand-new market.",
+      "valueChainPosition": "One step upstream of the consumer brand. Essential to the product and hard to swap once qualified, but structurally the junior partner to the giant customers it supplies."
+    },
+    "qualityVerdict": "This is a good business that is not an easy one. The franchise is real: ingredients embedded in customers' products, a clean debt-free balance sheet, cash that beats reported profit, and steady staple demand. What holds it back is the position in the chain. Galaxy buys volatile raw materials it does not control and sells to customers far larger than itself, so it keeps a thin, wobbly spread. Well run, genuinely sticky, and structurally squeezed all at once."
+  },
+  "valuation": [
+    { "label": "Price", "value": "₹2,285" },
+    { "label": "Market Cap", "value": "₹8,101 cr" },
+    { "label": "Stock P/E", "value": "22.3", "tone": "neutral", "hint": "TTM; about 30x on FY26 EPS" },
+    { "label": "P/B", "value": "2.95", "tone": "neutral" },
+    { "label": "Book Value", "value": "₹774" },
+    { "label": "EPS (FY26)", "value": "₹75.41" },
+    { "label": "Dividend Yield", "value": "0.96%", "tone": "neutral" }
+  ],
+  "financials": [
+    { "year": "FY22", "revenue": 3684, "netProfit": 263, "patMargin": 7.1, "eps": 74.12 },
+    { "year": "FY23", "revenue": 4462, "netProfit": 381, "patMargin": 8.5, "eps": 107.46 },
+    { "year": "FY24", "revenue": 3792, "netProfit": 301, "patMargin": 7.9, "eps": 85.03 },
+    { "year": "FY25", "revenue": 4221, "netProfit": 305, "patMargin": 7.2, "eps": 86.00 },
+    { "year": "FY26", "revenue": 5245, "netProfit": 267, "patMargin": 5.1, "eps": 75.41 }
+  ],
+  "ratios": [
+    { "label": "ROCE", "value": "13.5%", "tone": "neutral", "hint": "decent, not exceptional" },
+    { "label": "ROE", "value": "10.9%", "tone": "warn" },
+    { "label": "Operating Margin (FY26)", "value": "~9%", "tone": "warn", "hint": "slid from mid-teens" },
+    { "label": "Borrowings", "value": "₹235 cr", "tone": "good", "hint": "effectively debt-free" },
+    { "label": "Cash conversion", "value": "OCF > profit", "tone": "good" },
+    { "label": "Dividend Yield", "value": "0.96%", "tone": "neutral" }
+  ],
+  "cashFlow": [
+    { "year": "FY23", "ocf": 573 },
+    { "year": "FY24", "ocf": 518, "capex": 156, "fcf": 362 },
+    { "year": "FY25", "ocf": 421, "capex": 216, "fcf": 205 }
+  ],
+  "cashFlowNote": "The cash flow is the reassuring part of this story. A surfactant maker collects from blue-chip customers and reinvests steadily in plant, and operating cash has consistently run ahead of reported profit: about ₹573 crore in FY23, ₹518 crore in FY24 and ₹421 crore in FY25, against net profit near ₹300 crore. After a moderate, self-funded capex of roughly ₹150-220 crore a year, free cash flow stays comfortably positive. So the business genuinely generates cash and needs no debt to grow. Cash quality was never the worry here; the profit that cash represents is.",
+  "growth": [
+    { "label": "Sales CAGR (5Y)", "value": "~14%", "tone": "good", "hint": "partly raw-material price inflation" },
+    { "label": "Sales CAGR (3Y)", "value": "~6%", "tone": "neutral" },
+    { "label": "Profit CAGR (5Y)", "value": "about -2%", "tone": "bad", "hint": "profit flat to lower" },
+    { "label": "Profit CAGR (3Y)", "value": "about -10%", "tone": "bad" },
+    { "label": "Operating margin", "value": "mid-teens to ~9%", "tone": "bad", "hint": "the core problem" }
+  ],
+  "management": "Galaxy was started in 1986 by a group of friends and is still led by its founders, with the promoter family holding about 71% and no shares pledged. That is the profile investors like: long-tenured, owner-operated, conservative with the balance sheet, debt-free by choice, and steady on dividends. Nothing in the ownership and balance-sheet picture immediately raises a governance concern. The honest critique is operational rather than ethical: for all the discipline, management has not been able to convert years of volume and revenue growth into profit growth, because the margin keeps leaking to inputs and customers. The thing to judge is not their integrity, which looks sound, but whether they can push the mix toward specialty and hold pricing well enough to finally move earnings.",
+  "holding": [
+    { "label": "Promoter", "pct": 70.91 },
+    { "label": "DII", "pct": 13.52 },
+    { "label": "Retail", "pct": 11.75 },
+    { "label": "FII", "pct": 3.81 }
+  ],
+  "moat": {
+    "strength": "narrow",
+    "sources": [
+      "Ingredients qualified into customers' formulations, with real switching costs once designed in",
+      "A wide shelf of 200-plus products and thousands of formulations, a one-stop ingredient partner",
+      "Formulation, preservative and regulatory know-how, especially in specialty care",
+      "Scaled, integrated manufacturing in India, Egypt and the US"
+    ],
+    "note": "The stickiness is real. An ingredient cleared into a shampoo and approved by the customer's quality team does not get swapped casually, so Galaxy keeps its volumes for years. But this is a narrow moat with a specific blind spot: it defends against other ingredient suppliers, not against the customer's bargaining power or the raw material market. Galaxy can be genuinely hard to replace and still hand most of the surplus to buyers far larger than itself, which is exactly what a decade of flat profit on rising sales suggests has happened."
+  },
+  "narrative": "Galaxy's five-year record is the whole argument in one shape. Revenue rose from about ₹3,700 crore in FY22 to ₹5,245 crore in FY26, a healthy climb of roughly 40%. Net profit over the same stretch went from ₹263 crore to ₹267 crore. Flat. Line the two up and the story writes itself: the company sold more, and in more places, and kept essentially the same profit at the end of it. The reason is the margin. Operating margin slid from the mid-teens toward 9% as fatty alcohol and other inputs rose faster than Galaxy could pass on, and as customers held the line on price. FY23 was the good year, when profit touched ₹381 crore in a friendlier cost environment, and everything since has been a drift back down. Volumes have grown, the specialty mix has inched up, the rest-of-world book has been the bright spot. None of it has been enough to overcome the squeeze. This is not a broken company. It is a well-run one discovering how little of the value it gets to keep.",
+  "risks": [
+    "Customer power. Galaxy sells to some of the largest consumer goods companies on earth, which negotiate hard and cap its ability to raise prices. High.",
+    "Raw material volatility. Fatty alcohol is over half the material cost, ethylene oxide comes largely from a single supplier, and there are no long-term supplier contracts, so input swings hit margin directly. High.",
+    "Margin compression. Operating margin has slid from the mid-teens to single digits, and pass-through lags mean profit lags revenue. High.",
+    "Commodity performance segment. Roughly 60% of revenue is near-commodity surfactants with thin, competitive margins. Medium.",
+    "Currency and geography. A majority of raw materials are imported and most revenue is earned abroad, a partial natural hedge but a real currency exposure. Medium.",
+    "Stalled earnings. Five years of flat profit means the whole case rests on a margin and mix recovery that has not yet shown up. Medium."
+  ],
+  "trapChecklist": [
+    { "label": "Revenue up, profit flat", "note": "Sales rose about 40% over five years while net profit stayed near ₹265 crore; the margin ate the growth", "status": "fail" },
+    { "label": "Revenue inflated by input prices", "note": "Selling price is largely raw material cost plus a spread, so rupee revenue overstates real growth; watch volume", "status": "warn" },
+    { "label": "Margin erosion", "note": "Operating margin slid from the mid-teens toward 9% as costs outran pass-through", "status": "warn" },
+    { "label": "Modest returns for a 'specialty' label", "note": "ROCE about 13-14% and ROE about 11%, decent but not the returns the specialty tag implies", "status": "warn" },
+    { "label": "Cash backs the profit", "note": "Operating cash has consistently exceeded reported profit; the business is genuinely cash-generative", "status": "pass" },
+    { "label": "Debt-free balance sheet", "note": "Borrowings are minimal and capex is self-funded, so no leverage risk", "status": "pass" }
+  ],
+  "sectorChecklist": [
+    { "label": "Specialty vs commodity mix", "note": "Specialty care is about 39% of revenue and the higher-margin half; the rest is near-commodity", "status": "warn" },
+    { "label": "Pricing power / pass-through", "note": "Weak and lagged; caught between volatile inputs and powerful customers", "status": "warn" },
+    { "label": "Volume growth", "note": "Steady staple demand with rest-of-world volumes the bright spot", "status": "pass" },
+    { "label": "Balance sheet", "note": "Effectively debt-free, capex funded from cash", "status": "pass" },
+    { "label": "Return on capital", "note": "ROCE about 13-14%, held back by the thin margin", "status": "warn" }
+  ],
+  "summary": "Galaxy Surfactants is a quiet, well-run supplier of the ingredients inside personal and home care products, sold to the world's biggest consumer brands, with sticky volumes, a debt-free balance sheet and cash that beats its profit. The trouble is the position in the value chain. Squeezed between powerful customers and volatile raw materials, it sold about 40% more over five years and earned no more profit at the end of it, because the operating margin slid from the mid-teens toward single digits. The whole case now rests on a recovery in margin and specialty mix that has not yet arrived, and the multiple, though far below its peak, is not cheap for flat earnings. A genuinely good franchise learning how little of the value a middleman gets to keep. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+  "engine": {
+    "state": "both-stalling",
+    "earnings": "The earnings engine has stalled, and that is the heart of it. Volumes grew, revenue grew, geographies grew, and net profit still ended five years almost exactly where it began, near ₹265 crore. The cause is margin: fatty alcohol and other inputs rose faster than Galaxy could pass on, and customers held the line, so the operating margin fell from the mid-teens toward 9%. The business is genuinely cash-generative and needs no debt, but cash quality was never the question. The question is whether the specialty mix and pricing can recover enough for profit to finally move, because volume growth alone has already proven it cannot.",
+    "multiple": "The multiple engine is not going to rescue it either. The stock trades around 22 times trailing earnings and closer to 30 times last year's FY26 EPS of ₹75, which is well down from the giddy 50-to-70-times multiples chemicals carried in the 2021 bull run, so the easy re-rating is already spent. Put the bridge plainly: at today's price of ₹2,285, a 25-times multiple needs about ₹91 of EPS and a 20-times multiple about ₹114, versus ₹75 today. In other words, to look reasonably valued rather than full, Galaxy's earnings per share need to climb roughly 20% to 50% from here, which means the profit growth that has been missing for five years, not a fresh burst of optimism. That is what makes the two engines the same bet, not two separate ones.",
+    "verdict": "So my honest read is that this is a quality franchise in a hard seat, priced as though the market already knows both those things. You are not being handed a cheap stock, and you are not being paid a fat yield to wait. The entire return case rests on one thing: margins and the specialty mix recovering enough to break a five-year flat line in profit. If that happens, earnings and the multiple move together and the stock works. If it does not, you own a fine, debt-free company that keeps selling more and earning the same, which is a pleasant business and a disappointing stock."
+  },
+  "lenses": [
+    { "name": "You buy the shampoo, Galaxy sells the foam", "reading": "The appeal is that Galaxy is a picks-and-shovels bet on a daily human habit. It does not need any one shampoo brand to win, because it supplies the foaming and cleaning molecule to most of them. That breadth is genuinely defensive: staple demand, many customers, ingredients locked into formulas. It is the reason to look at the business at all, and it is real. The rest of the report is about why that appeal does not translate into the returns you might expect." },
+    { "name": "Caught between giants and barrels", "reading": "Picture Galaxy standing in the middle of a see-saw. On one side sit its customers, Unilever, P&G, Colgate, companies many times its size that negotiate every rupee. On the other sits the raw material market, fatty alcohol and ethylene oxide, whose prices Galaxy does not set and cannot always pass on in time. When inputs jump, cost rises before price does. When Galaxy wants to keep a pricing gain, a giant customer asks for it back. The spread it keeps is what is left after both sides have pushed, and five years of flat profit on rising sales is what that squeeze looks like in the accounts. This is the customer-power problem in its clearest form: you can be hard to replace and still not hold the pricing power." },
+    { "name": "Volume is the truth, revenue is the noise", "reading": "Because Galaxy prices at roughly raw material cost plus a spread, its rupee revenue rises and falls with petrochemical and palm prices as much as with the business. A big revenue jump can just be inputs getting dearer, which helps the top line and nothing else. So the honest way to track Galaxy is to ignore the headline sales number and watch two things instead: the tonnes it actually sells, and how much of that is higher-margin specialty rather than commodity surfactant. If those two rise together, the margin can heal and earnings can grow. If revenue keeps climbing while volume and mix stall, it is just the barrel talking." }
+  ],
+  "outlook": {
+    "intro": "This report is a snapshot, and Galaxy's whole case rests on a handful of numbers moving the right way. Rather than predict them, here is the short list of dials to keep checking, so you can update your view of the business each time it reports.",
+    "areas": [
+      {
+        "title": "Specialty mix",
+        "facts": ["Specialty care is about 39% of revenue and the higher-margin half of the book.", "It has grown over time, but not fast enough to lift the blended margin."],
+        "watch": "Does the specialty share keep climbing, out of the high-30s and toward the mid-40s? A richer mix is the cleanest route to a better margin."
+      },
+      {
+        "title": "Operating margin",
+        "facts": ["Operating margin has slid from the mid-teens to about 9% in FY26.", "This, not volume, is what has kept profit flat."],
+        "watch": "Does the margin recover back toward the low-to-mid teens, or has single digits become the new normal for this position in the chain?"
+      },
+      {
+        "title": "Volume growth",
+        "facts": ["Reported revenue is distorted by raw-material prices, so tonnes are the truer signal.", "Rest-of-world volumes have been the strongest part of the book."],
+        "watch": "Are the tonnes actually growing, especially outside the commodity performance segment, or is revenue growth mostly input-price inflation?"
+      },
+      {
+        "title": "Raw-material pass-through",
+        "facts": ["Fatty alcohol is over half the material cost and ethylene oxide comes largely from a single supplier.", "There are no long-term supplier contracts, so pass-through to customers lags input moves."],
+        "watch": "How quickly do raw-material swings reach customer prices? Faster pass-through is what steadies the spread."
+      },
+      {
+        "title": "Profit growth",
+        "facts": ["Net profit has sat near ₹265 crore for five years while revenue grew about 40%.", "The multiple has already de-rated, so the return case now depends on earnings, not re-rating."],
+        "watch": "Does rising revenue finally convert into rising profit? That single question decides both the earnings and the multiple."
+      }
+    ],
+    "closer": "These five are the dials. Watch them, not the headline revenue line."
+  }
+}
