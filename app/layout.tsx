@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import { withBase, SITE_URL, canonical } from '@/lib/base';
 import { getFeaturedCaseStudies } from '@/lib/caseStudies';
+import { getSignal } from '@/lib/signals';
 import JsonLd from '@/components/JsonLd';
 
 const SITE_JSONLD = {
@@ -56,7 +57,15 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const featured = getFeaturedCaseStudies(2);
+  // The "Newly published" banner mixes the latest signal with recent case studies.
+  const bottleneck = getSignal('follow-the-bottleneck');
+  const featuredCases = getFeaturedCaseStudies(6)
+    .filter((c) => c.ticker !== 'CGPOWER')
+    .slice(0, 2);
+  const featured: { href: string; tag: string; title: string }[] = [
+    ...(bottleneck ? [{ href: `/signals/${bottleneck.id}/`, tag: 'SIGNAL', title: bottleneck.title }] : []),
+    ...featuredCases.map((c) => ({ href: `/case-studies/${c.id}/`, tag: c.ticker, title: c.title })),
+  ];
   return (
     <html lang="en">
       {/* Browser extensions (ColorZilla's cz-shortcut-listen, Grammarly, etc.)
@@ -82,7 +91,7 @@ gtag('config', '${GA_ID}');`}
           <div className="whatsnew">
             <div className="wrap whatsnew-inner">
               <span className="whatsnew-tag">
-                <span className="wn-tag-full">New case studies</span>
+                <span className="wn-tag-full">Newly published</span>
                 <span className="wn-tag-short">New</span>
               </span>
               <div className="whatsnew-marquee">
@@ -90,12 +99,12 @@ gtag('config', '${GA_ID}');`}
                   {[...featured, ...featured].map((c, i) => (
                     <a
                       key={i}
-                      href={withBase(`/case-studies/${c.id}/`)}
+                      href={withBase(c.href)}
                       className="whatsnew-item"
                       aria-hidden={i >= featured.length ? true : undefined}
                       tabIndex={i >= featured.length ? -1 : undefined}
                     >
-                      <span className="whatsnew-item-co">{c.ticker}</span>
+                      <span className="whatsnew-item-co">{c.tag}</span>
                       <span className="whatsnew-item-title">{c.title}</span>
                       <span className="arw">→</span>
                     </a>

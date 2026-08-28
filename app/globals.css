@@ -964,7 +964,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
   .nav a { white-space: nowrap; flex: none; padding: 2px 0; }
   .hero { padding: 36px 0 30px; }
   .report { padding-top: 28px; padding-bottom: 72px; }
-  /* the "New case studies" pill is a desktop-only flourish */
+  /* the "Newly published" pill is a desktop-only flourish */
   .whatsnew-tag { display: none; }
 }
 
