@@ -438,7 +438,6 @@ export function Report({ r }: { r: TickerReport }) {
       />
 
       <div className="report-masthead">
-        <div className="eyebrow">{r.sector === r.industry ? r.sector : `${r.sector} · ${r.industry}`}</div>
         <h1 className="report-title">{r.company}</h1>
         <div className="report-meta">
           <span className="asof">

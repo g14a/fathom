@@ -1018,6 +1018,49 @@ function renderDiagram(id: string): React.ReactNode {
       </figure>
     );
   }
+  if (id === 'power-2x2') {
+    return (
+      <figure className="csd-diagram">
+        <div className="dg-title-row">
+          <span className="dg-title">Where the economics end up</span>
+          <span className="dg-badge">Customer power × supplier difference</span>
+        </div>
+        <div className="dg-quad-scroll">
+          <div className="dg-quad">
+            <div className="dg-quad-corner" />
+            <div className="dg-quad-colhead">Weak, scattered customers</div>
+            <div className="dg-quad-colhead">Strong, concentrated customers</div>
+
+            <div className="dg-quad-rowhead">Supplier is hard to replace</div>
+            <div className="dg-quad-cell dg-quad-good">
+              <span className="dg-quad-verdict">Strong economics</span>
+              <span className="dg-quad-note">You are rare and nobody can lean on you. The surplus is yours to keep.</span>
+            </div>
+            <div className="dg-quad-cell dg-quad-warn dg-quad-here">
+              <span className="dg-quad-here-tag">Indus sits here</span>
+              <span className="dg-quad-verdict">Tension</span>
+              <span className="dg-quad-note">You are hard to replace, but a few large buyers can still push back on price. Who keeps the surplus is a live question.</span>
+            </div>
+
+            <div className="dg-quad-rowhead">Supplier is a commodity</div>
+            <div className="dg-quad-cell dg-quad-warn">
+              <span className="dg-quad-verdict">Competitive</span>
+              <span className="dg-quad-note">Many suppliers chasing many buyers. Margins are thin but nobody has you by the throat.</span>
+            </div>
+            <div className="dg-quad-cell dg-quad-bad">
+              <span className="dg-quad-verdict">Dangerous</span>
+              <span className="dg-quad-note">Easy to swap, facing buyers who know it. The customer captures almost everything.</span>
+            </div>
+          </div>
+        </div>
+        <figcaption className="dg-cap">
+          Two axes, not one. A supplier can be genuinely hard to replace and still sit in the amber box, because the
+          people it sells to are few and strong. That box is where the interesting arguments live, and it is where
+          Indus Towers sits.
+        </figcaption>
+      </figure>
+    );
+  }
   return null;
 }
 

@@ -1,0 +1,311 @@
+{
+  "ticker": "INDUSTOWER",
+  "company": "Indus Towers",
+  "stockSlug": "INDUSTOWER",
+  "title": "When the customer is stronger than you",
+  "published": "2026-08-28",
+  "period": "The customer-power lens",
+  "tags": [
+    "Customer power",
+    "Moat",
+    "Framework",
+    "Pattern"
+  ],
+  "summary": "Can a company have a moat while its customers have an even bigger one? I went looking for the answer in a business that owns hundreds of thousands of hard-to-copy assets, and found that most of the questions I had been asking about moats were pointed in the wrong direction.",
+  "keyNumbers": [
+    {
+      "label": "Towers (Mar 2025)",
+      "value": "249,305"
+    },
+    {
+      "label": "Operators it serves",
+      "value": "all of them"
+    },
+    {
+      "label": "Anchor tenants",
+      "value": "Airtel + Vi"
+    },
+    {
+      "label": "Biggest customer's stake",
+      "value": ">50%"
+    }
+  ],
+  "intro": [
+    "I want to walk you through a question I could not shake, because chasing it changed how I look at almost every company now. It started with a business that, on paper, looks like the kind of thing you are supposed to want to own.",
+    "Indus Towers builds and runs the steel towers that mobile networks hang their antennas on. It operates about 249,000 of them, 249,305 as of March 2025, across all 22 telecom circles in India, and the phone companies pay it rent to sit on them. Hard-to-copy physical assets. Recurring, contracted rental income. A near-impossible thing to build again from scratch. If you had shown me only that description, I would have called it a fortress.",
+    "Then I did the boring thing and looked at who actually pays the rent. And the more I looked at that side of the business, the less sure I became about what the fortress was really worth. This is the story of what I found, and the one question I think it leaves you with."
+  ],
+  "sections": [
+    {
+      "heading": "A business that looks easy to love",
+      "body": [
+        "Let me first make the bull case honestly, because you cannot judge the tension until you feel the appeal.",
+        "A telecom tower is a genuinely good asset. Building one means acquiring land or a rooftop, getting permissions, pouring a foundation, erecting steel, and wiring power and backup. Doing that nearly 250,000 times, in the right spots, across a whole country, is not something a competitor can decide to replicate next quarter. The best part is what happens after: once a tower stands, a second or third operator can hang its antennas on the same structure for very little extra cost. The tower company collects rent from each of them. More tenants on the same steel is almost pure profit.",
+        "So the economics look lovely from a distance. Operating margins around 55%. Contracted rent rather than fickle one-off sales. An asset base a rival would need years and a fortune to match. This is what people mean when they say 'infrastructure moat', and Indus has one. I am not going to take that away from it.",
+        "The question is whether owning the fortress is the same thing as keeping the treasure inside it. That is where who-pays-the-rent starts to matter."
+      ]
+    },
+    {
+      "heading": "Then I looked at who pays",
+      "body": [
+        "Here is the part that made me stop.",
+        "For all those hundreds of thousands of towers, Indus really has only three customers who move the needle: Bharti Airtel, Vodafone Idea, and Reliance Jio, with a sliver from BSNL. That is not an accident of Indus's business. It is the whole Indian telecom market. After a brutal price war, about a dozen operators were crushed down to three private players. The tower company's customer list can never be longer than the industry it serves.",
+        "And the revenue is lopsided even among those three. Bharti Airtel and Vodafone Idea are the two anchor tenants, each large enough to count as a major customer in Indus's own accounts, and together they are the great majority of the money. Jio is a smaller and more recent tenant, BSNL smaller still.[^1] Lose either anchor and you are not trimming the business, you are breaking it.",
+        "I sat with that for a while. A moat is supposed to be about how hard you are to attack. But nobody is trying to attack Indus. The risk is not a competitor building rival towers. The risk is sitting across the table from a customer who is bigger than you and knows it."
+      ],
+      "lens": {
+        "label": "The question I started carrying into every company",
+        "questions": [
+          "Who actually pays this company, and how few of them are there?",
+          "If the two biggest customers walked, is there a business left?"
+        ]
+      }
+    },
+    {
+      "heading": "And then it got stranger: the biggest customer owns the company",
+      "body": [
+        "I thought concentration was the whole twist. It was not.",
+        "Bharti Airtel, Indus's single largest customer, is also its controlling shareholder. Airtel owns more than half of Indus Towers, a little over 51% by late 2025.[^2] Read that slowly. The single largest buyer of the company's services also owns the company.",
+        "That is a strange kind of power to sit under. When your biggest customer is also your boss, how hard can you really push on the rent it pays you? A tower company is supposed to be a neutral landlord charging every tenant a fair rate. But one tenant here is not just a tenant. It appoints the landlord.",
+        "I do not want to overstate this into a conspiracy. There are related-party rules, and other shareholders whose interests count too. But you cannot look at that ownership picture and still believe Indus negotiates with Airtel the way a scarce, independent supplier would negotiate with a customer it could afford to annoy. The bargaining table is tilted before anyone sits down."
+      ]
+    },
+    {
+      "heading": "A moat and bargaining power are not the same thing",
+      "body": [
+        "This is the distinction the whole investigation turned on, so let me say it as plainly as I can.",
+        "A moat protects you from competitors. It answers one question: can someone else come and take my customers? But keeping competitors out is not the same as keeping the profit. Bargaining power decides how much of the economics you actually get to keep when you sit down across the table from the people who pay you. The useful question is not simply whether you can charge more. It is who has more leverage when the two sides negotiate.",
+        "Those sound similar and they are not. Indus scores well on the first and awkwardly on the second. The existing tower network is clearly difficult and expensive to replicate, so a rival cannot casually rebuild it. But does that scarcity translate into leverage? Its customers are few, enormous, and in one case its own owner, so when it comes to dividing the money the towers earn, Indus is not the one holding the stronger hand. You can be hard to replace and still have customers strong enough to keep the better half of the deal.",
+        "Once I saw that gap, I started noticing how often 'moat' gets used to mean both things at once, as if being hard to replace automatically let you keep what you earn. It does not. You can shorten it to a slogan, moat is not the same as pricing power, as long as you remember the real point underneath: being hard to replace only helps you if the people you sell to have somewhere else to go. Indus's customers, mostly, do not need somewhere else to go. They just need Indus to be reasonable, and they are large enough to help define what reasonable means."
+      ]
+    },
+    {
+      "heading": "Watch what customer power did to the earnings",
+      "body": [
+        "Here is where the abstract idea turned into a number I could not argue with.",
+        "One of Indus's two anchor customers, Vodafone Idea, spent years on the edge of insolvency. It carried a mountain of government dues and could not always pay its bills, including its rent to Indus. Now think about what that does to a landlord who cannot easily evict, cannot replace the tenant, and depends on that tenant for roughly a third of its revenue.",
+        "It shows up in the profit like a seizure. In the year to March 2022 (FY22), Indus earned about ₹23.65 of profit per share. The very next year, FY23, it took a provision for doubtful debts of about ₹2,298 crore against money Vodafone Idea owed and could not pay, posted a quarterly net loss of about ₹708 crore, and full-year earnings per share collapsed to about ₹7.57.[^3] The stock fell to a two-year low of ₹162.80. Then Vodafone Idea raised fresh equity and began clearing its overdue rent, the provisions were written back, and by FY25 earnings per share had not just recovered but jumped to about ₹37.65.[^4]",
+        "Now stop and notice something. During all of this, the towers never moved. Indus did not lose its assets or its scale in FY23 and then rediscover them in FY25. The steel stood exactly where it always had. What swung the earnings from ₹23.65 to ₹7.57 to ₹37.65 was not a change in the tower business. It was, more than anything, the financial health of one customer. That is what customer power can look like when it reaches the income statement: the operating business is steady, and the profit still lurches because someone else is holding the cash."
+      ],
+      "scorecard": {
+        "improved": "The asset base and the moat. The roughly 249,000 towers stood untouched the whole way through.",
+        "worsened": "Earnings, violently. EPS went ₹23.65 (FY22), ₹7.57 (FY23), ₹37.65 (FY25), swinging far more with one customer's ability to pay than with anything in Indus's own operations.",
+        "shareholder": "Rode a rollercoaster the operating business alone would never have produced, because a third of the revenue depended on a customer that was nearly bankrupt.",
+        "labels": {
+          "improved": "The moat",
+          "worsened": "The profit",
+          "shareholder": "The owner"
+        }
+      }
+    },
+    {
+      "heading": "And pricing power is not the same as your return either",
+      "body": [
+        "I had one more comforting assumption to lose. I assumed that if a business had these assets and this recurring rent, the returns to an owner would eventually be excellent. So I checked.",
+        "Indus earns a return on capital employed of roughly 19.5%. That is a perfectly respectable number. It is not the 40% or 50% you might expect from a business you had just called a fortress. So the assets are extraordinary and the returns are merely good, and the gap between those two is worth sitting with. Why does an asset base this hard to rebuild not throw off the returns that its scarcity seems to promise?",
+        "So there are really three separate things, and I had been mushing them into one. A moat can be real while pricing power is weak. And pricing power can exist while shareholder returns are still only fine, because the surplus the business generates gets shared out. Some of it goes to the customers who negotiate hard. Some is eaten by the sheer capital a tower network swallows. Some is capped because the industry only has three buyers and one of them owns you. A fortress that has to hand a chunk of its takings to the people at the gate is still a decent business. It is just not the machine the asset base alone would suggest."
+      ]
+    },
+    {
+      "heading": "The question I kept coming back to: who needs whom more?",
+      "body": [
+        "Somewhere in here I found the test that did the most work, and it is embarrassingly simple. For any supplier and customer, ask two questions and compare the answers.",
+        "If this supplier vanished tomorrow, what happens to the customer? And if this customer vanished tomorrow, what happens to the supplier? Whoever is hurt less is holding the power.",
+        "Run it on Indus. If Indus stopped providing its towers, its customers would be badly disrupted, but they are not without options over time: rival tower companies exist, operators share infrastructure with each other, and a large operator can build some of its own sites. If instead Airtel or Vodafone Idea stopped being a customer, Indus would lose a large slice of its revenue with no replacement to sign, because it already serves essentially every operator in the country. The pain is not symmetric. Indus's customers can picture life without any single tower company more easily than Indus can picture life without any single customer.",
+        "That asymmetry is the thing I now look for first. Concentration tells you how many customers there are. This tells you which side of the table would survive the other one leaving. It is a cruder question than any margin ratio, and it has been more useful than most of them."
+      ],
+      "lens": {
+        "label": "The asymmetry test",
+        "questions": [
+          "If the supplier vanished, how badly is the customer hurt, and how easily replaced?",
+          "If the customer vanished, how badly is the supplier hurt, and how easily replaced?",
+          "Whoever is hurt less, and replaced more easily, is holding the power."
+        ]
+      }
+    },
+    {
+      "heading": "Two switching costs, not one",
+      "body": [
+        "That question has two halves, and missing one of them is the mistake I had been making for years.",
+        "When people talk about switching costs, they almost always mean the customer's: how painful is it for the buyer to leave this supplier? That is real, and it protects suppliers. But there is a second switching cost that hardly anyone names, and in concentrated businesses it matters more: the supplier's. How painful is it for the seller to lose this customer?",
+        "Indus has customers who would find it genuinely hard to leave, because moving antennas across a national network is slow and costly. That is customer switching cost, and it helps Indus. But Indus also cannot afford to lose any of its anchor customers, because it already serves them all and there is no new operator to replace them. That is supplier switching cost, and it hurts Indus. When both are high at once, the relationship is not really about who is trapped. Both are trapped. They are married, and the negotiation is about who has more leverage inside a marriage neither can leave. That is a very different thing from a supplier who can shrug and find another buyer."
+      ]
+    },
+    {
+      "heading": "But concentration by itself is not the villain",
+      "body": [
+        "I want to catch a wrong lesson before it forms, because I nearly drew it myself. It is tempting to walk away thinking 'lots of revenue from few customers equals bad business'. That is too blunt, and it will make you misjudge good companies.",
+        "Imagine a supplier that gets 80% of its revenue from a single customer. Sounds terrifying. Now add detail: switching away from this supplier would take that customer years and risk shutting down its own production; the supplier is uniquely qualified and nobody else is certified to do the job; and the whole thing costs the customer less than 1% of its total spending. In that world the 80% is not a leash on the supplier. It is a leash on the customer. The customer cannot afford to leave, the supplier is cheap enough not to be worth fighting over, and a failure would be catastrophic. That supplier may have quiet, real power.",
+        "Now change one thing at a time. Make the product a commodity that ten firms can supply. Make switching a phone call. Make the customer a giant that squeezes every vendor. The same 80% is now genuinely dangerous, because the customer can walk and the supplier cannot stop it. Same concentration, opposite meaning. That is why the number alone never settles anything. High customer concentration is not a verdict. It is a flag that says: now go understand the power relationship."
+      ]
+    },
+    {
+      "heading": "A picture that helped me place it",
+      "body": [
+        "When I have two forces pulling against each other, I find it easier to think in a grid than in a paragraph, so here is the one I drew.",
+        "Put how hard the supplier is to replace on one axis, and how strong and concentrated the customers are on the other. If you are hard to replace and your customers are weak and scattered, your economics are strong and the surplus is yours. If you are a commodity facing a few powerful buyers, you are in the dangerous corner where the customer keeps almost everything. The two mixed boxes are where most real companies actually live.",
+        "The interesting thing about Indus is that it does not sit in the green corner where a fortress is supposed to sit. It sits in the amber tension box: genuinely hard to replace, but selling to a few very strong customers, one of whom owns it. That is not a bad place to be. It is an ambiguous one, and the ambiguity is the whole point. The assets pull the economics up; the customer power pulls them back down; and where you finally land depends on which force wins in any given year. FY23 and FY25 were the two forces trading blows in public."
+      ],
+      "diagram": "power-2x2"
+    },
+    {
+      "heading": "Does this happen anywhere else?",
+      "body": [
+        "Before I trusted the idea, I wanted to know whether Indus was a freak or an example. So I went looking for the same shape elsewhere, and it turns up constantly once you know to look. A few sketches, not full studies, each showing one face of customer power.",
+        "Auto components. An Indian parts maker can be technically excellent, certified after years of qualification, hard to swap mid-model. That is real supplier strength. But it often sells to a few giant carmakers who buy in enormous volume and lean on price every single year. Two moats face each other: the supplier's engineering and the customer's purchasing scale. The engineering keeps the supplier in the game; the scale gives the customer real leverage over price. Where each supplier lands then depends on how differentiated and hard to replace it truly is.",
+        "Contract electronics manufacturing. A firm that assembles phones or appliances for big brands can grow revenue at a blistering pace and still earn thin margins, because the brand controls the volume, the design, and often the components, while the assembler mostly rents out its factory and labour. Huge sales, small slice kept. The structure hands the customer a large share of the bargaining power.",
+        "Now the useful contrast, because it stops the pattern from becoming lazy. Large IT services firms sell to thousands of enterprise clients, no single one dominant, each of whom would find it slow and risky to rip out a deeply embedded vendor. That is low concentration and high switching cost at the same time, and that combination can give the supplier considerably more bargaining power. Same industry logic, flipped inputs, opposite balance of power. And hospitals show a quieter version: excellent facilities whose pricing is capped by the insurers and government schemes that pay a big share of the bills. The building is world class; the payer sets the tariff.",
+        "The companies are beside the point. The relationship is the point. In every one of these, the question that predicted the economics was not 'how good is the supplier?' but 'who, in this pairing, needs the other one more?'"
+      ]
+    },
+    {
+      "heading": "Where this lens breaks",
+      "body": [
+        "I do not want to hand you a rule that feels sharper than the world it describes, so here is where I have watched it bend.",
+        "A differentiated product does not guarantee bargaining power; you can be special and still get squeezed if your buyers are strong enough. High switching costs can evaporate when a new technology makes the old thing easy to replace. Relationships shift: a customer that was desperate can raise money, pay its dues, and change the balance in a year, which is roughly what Vodafone Idea did to Indus. And a long contract can hide weak underlying economics for a while, right up until it comes due.",
+        "So this is a lens, not a law. It tells you where to point your attention. It does not tell you the answer, and any time I have pretended it did, the company found a way to prove me too confident."
+      ]
+    },
+    {
+      "heading": "Before I call anything moated now",
+      "body": [
+        "If nothing else survives from all this, I would keep the short list I now run before letting myself believe a company controls its own economics. It takes a minute and it has saved me from a few comfortable stories.",
+        "Who pays? How concentrated are the customers? Who has more alternatives, the buyer or the seller? Who can switch more easily? Who needs whom more? Could the customer build it themselves? How large is this supplier inside the customer's costs, and how large is the customer to the supplier's survival? And, after everyone has taken their share, who actually keeps the surplus? Last of all, the reality check: does the supposed moat actually show up as high returns on capital, or does it somehow not?",
+        "That final question keeps the rest honest. A moat is only worth the word if it eventually reaches the returns, and when a business looks unassailable but earns only ordinary ones, that gap is usually telling you the surplus is leaving in someone else's hands. Often the customers'."
+      ],
+      "lens": {
+        "label": "The checklist I actually use",
+        "questions": [
+          "Who pays, and how few of them are there?",
+          "Who has more real alternatives, buyer or seller?",
+          "Who can switch more easily, and who needs whom more?",
+          "Could the customer just build it themselves?",
+          "After everyone takes their cut, who keeps the surplus, and does it reach returns on capital?"
+        ]
+      }
+    }
+  ],
+  "evidence": {
+    "caption": "One picture: stable assets, one shaky customer, lurching earnings",
+    "rows": [
+      {
+        "label": "What never changed",
+        "value": "249,305 towers, 405,435 colocations, 22 circles (Mar 2025)",
+        "source": "Company results, FY25",
+        "noteRef": 1
+      },
+      {
+        "label": "What did change",
+        "value": "Vodafone Idea's ability to pay (a major anchor customer)",
+        "source": "Business Standard",
+        "noteRef": 1
+      },
+      {
+        "label": "What happened to earnings",
+        "value": "EPS ₹23.65 → ₹7.57 → ₹37.65 (FY22, FY23, FY25)",
+        "source": "Screener.in",
+        "noteRef": 3
+      },
+      {
+        "label": "The trigger, in FY23",
+        "value": "~₹2,298 cr doubtful-debt provision, ~₹708 cr net loss",
+        "source": "Business Standard",
+        "noteRef": 3
+      },
+      {
+        "label": "The customer that also owns Indus",
+        "value": "Bharti Airtel: largest customer and >50% shareholder",
+        "source": "Business Standard / CCI",
+        "noteRef": 2
+      },
+      {
+        "label": "What the fortress returns on capital",
+        "value": "~19.5% ROCE (good, not extraordinary)",
+        "source": "Screener.in"
+      }
+    ],
+    "note": "Read the first three rows top to bottom: the tower network held still while one customer's solvency collapsed and recovered, and the earnings moved sharply with what that customer could afford to pay. That is customer power reaching the income statement. Tower and colocation counts are as of 31 March 2025 and grow each quarter."
+  },
+  "sources": [
+    {
+      "label": "Indus Towers financials (ROCE, EPS, margins), Screener.in",
+      "url": "https://www.screener.in/company/INDUSTOWER/consolidated/"
+    },
+    {
+      "label": "Street divided on Indus Towers prospects: revenue mix and Vi dependence (Business Standard)",
+      "url": "https://www.business-standard.com/markets/news/street-divided-on-indus-towers-prospects-125090501297_1.html"
+    },
+    {
+      "label": "Bharti Airtel gets CCI approval to raise Indus stake above 50% (Business Standard)",
+      "url": "https://www.business-standard.com/companies/news/bharti-airtel-gets-cci-approval-to-up-stake-in-indus-tower-to-over-50-124102201111_1.html"
+    },
+    {
+      "label": "Indus Towers makes ~₹2,298 cr provision against Vi receivables; ₹708 cr Q3 FY23 net loss (Business Standard)",
+      "url": "https://www.business-standard.com/amp/article/companies/indus-towers-makes-rs-2-298-cr-debt-provision-against-vi-receivables-123012401395_1.html"
+    },
+    {
+      "label": "Indus Towers total towers (249,305) and colocations (405,435), FY25 Q4 results",
+      "url": "https://stockanalysis.com/quote/nse/INDUSTOWER/transcripts/303706-q4-2025/"
+    },
+    {
+      "label": "Indus Towers Q2 FY25: profit up 72%, provision write-backs on Vi collections (Business Standard)",
+      "url": "https://www.business-standard.com/amp/companies/results/indus-towers-q2fy25-results-net-profit-increases-72-to-rs-2-224-cr-124102201250_1.html"
+    }
+  ],
+  "evidenceNotes": [
+    {
+      "id": 1,
+      "note": "As of 31 March 2025 (FY25) Indus operated 249,305 macro towers and 405,435 colocations across all 22 telecom circles, with a tenancy ratio of about 1.62. Its customers are the country's operators: Bharti Airtel and Vodafone Idea are the two anchor tenants, each a major customer, with Reliance Jio a smaller and more recent tenant and BSNL smaller still. Indus does not publish a clean per-customer revenue split we could verify to the percentage point, so we describe the concentration (two anchors making up the great majority) rather than cite a false-precise figure.",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "note": "Bharti Airtel is both Indus Towers' largest customer and its controlling promoter, holding more than 50% (above 51% by late 2025) after receiving CCI approval to raise its stake past half. The single biggest buyer of the company's services also controls the company.",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "note": "Consolidated EPS from Screener.in: ₹23.65 (FY22), ₹7.57 (FY23), ₹22.40 (FY24) and ₹37.65 (FY25). The FY23 collapse followed a Q3 FY23 provision for doubtful debts of about ₹2,298 crore against Vodafone Idea's unpaid dues (some coverage cites ₹2,201 crore net of a related item), which produced a quarterly net loss of about ₹708 crore and drove the stock to a two-year low of ₹162.80. The operating asset base was unchanged throughout; the swing was customer-payment driven.",
+      "confidence": "high"
+    },
+    {
+      "id": 4,
+      "note": "Vodafone Idea raised fresh equity in FY25 and began clearing overdue rent, letting Indus write back earlier provisions (for example about ₹1,077 crore of write-backs reported in Q2 FY25 on collections against past overdue), which lifted reported earnings back up. This is the same customer-dependence running in reverse: recovery in the profit tracked recovery in a customer's ability to pay, not a change in the towers.",
+      "confidence": "high"
+    }
+  ],
+  "timeline": [
+    {
+      "when": "2016 → 2020",
+      "what": "A price war crushes about a dozen Indian mobile operators down to three private players. The tower business's customer list is capped at whatever the industry becomes."
+    },
+    {
+      "when": "2020",
+      "what": "Bharti Infratel merges with Indus Towers, creating one large tower company whose biggest customer, Bharti Airtel, is also its controlling shareholder."
+    },
+    {
+      "when": "FY23",
+      "what": "Vodafone Idea, a major anchor customer, cannot pay its dues. Indus takes a ~₹2,298 cr provision for doubtful debts, posts a ~₹708 cr quarterly net loss, and full-year EPS collapses to ~₹7.57. The stock hits a two-year low of ₹162.80."
+    },
+    {
+      "when": "FY25",
+      "what": "Vodafone Idea raises equity and clears overdue rent. Provisions are written back and EPS jumps to ~₹37.65. The towers never changed; the customer's solvency did."
+    }
+  ],
+  "lesson": "A moat protects you from your competitors. It does not necessarily protect you from your customers. When the people a company sells to are few, large, hard to replace, or even own it, they can quietly keep much of the profit its assets generate, and the moat you were admiring never reaches the returns. So the question is not only how hard the business is to enter, but who needs whom more, and after everyone takes their cut, who keeps the surplus.",
+  "remember": "I used to look at a moat mostly from the company's side: how hard is it to enter, how hard is it to replicate? Now I think there is another question worth asking first. How hard is it for the company to say no to its biggest customer?",
+  "faqs": [
+    {
+      "q": "Can a company have a moat but no pricing power?",
+      "a": "Yes, and they are different things. A moat protects you from competitors, so it answers whether someone else can take your customers. It does not decide how much of the profit you keep. That is bargaining power, and it turns on who has more leverage when the company and its customers negotiate. A business can be almost impossible to replicate and still hold a weak hand if it sells to a few large, sophisticated buyers who can push back, switch, or build the thing themselves. Indus Towers is the clear example: a tower network that is hard to replicate, but customers strong enough to keep the better half of the deal."
+    },
+    {
+      "q": "Is high customer concentration always bad for a business?",
+      "a": "No. Concentration is a flag to investigate, not a verdict. If a supplier is uniquely qualified, represents a tiny share of the customer's costs, and would be catastrophic to lose, then even 80% of revenue from one customer can leave the power with the supplier, because the customer cannot afford to leave. Concentration becomes dangerous when the product is a commodity, alternatives are easy, and the customer is a large buyer that can switch at will. The same number means opposite things depending on the relationship."
+    },
+    {
+      "q": "What is the simplest test for who holds the power between a company and its customer?",
+      "a": "Ask who needs whom more. If the supplier vanished tomorrow, how badly is the customer hurt and how easily replaced? If the customer vanished tomorrow, how badly is the supplier hurt and how easily replaced? Whoever is hurt less, and replaced more easily, holds the power. For Indus, the customers can imagine another tower owner more easily than Indus can imagine another customer, because it already serves essentially every operator in the country."
+    }
+  ]
+}
