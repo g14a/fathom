@@ -1,0 +1,189 @@
+{
+  "ticker": "WAAREERTL",
+  "company": "Waaree Renewable Technologies Ltd",
+  "sector": "Industrials",
+  "industry": "Solar EPC",
+  "sectorId": "infrastructure",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-08-29",
+  "oneLiner": "It builds solar power plants for other people and earns an astonishing 84% on capital doing it, cheaply too, at 18 times earnings after the stock lagged a twentyfold jump in profit. The catch is that this is the same solar-EPC business that once cost Sterling and Wilson thousands of crore.",
+  "facts": {
+    "snapshot": "Waaree Renewable Technologies is a solar EPC company: it designs and builds solar power plants for other companies on a turnkey basis, maintains them, and owns a small amount of renewable generation. It is part of the Waaree group, whose parent is India's largest solar panel maker.",
+    "founded": "1999",
+    "hq": "Mumbai"
+  },
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Solar EPC, hypergrowth", "tone": "good" },
+      { "label": "Returns", "value": "84% ROCE, 69% ROE", "tone": "good" },
+      { "label": "Balance sheet", "value": "Effectively debt-free, cash-backed", "tone": "good" },
+      { "label": "Margin", "value": "~19%, unusually high for EPC", "tone": "warn" },
+      { "label": "Cyclicality", "value": "Rides the solar-capex wave", "tone": "warn" },
+      { "label": "Valuation", "value": "~18x earnings, de-rated", "tone": "good" }
+    ],
+    "keyQuestion": "The numbers are spectacular. The one thing that decides it: are 84% returns and 19% margins the durable economics of solar EPC, or the top of a capex wave in a business that has destroyed capital before?"
+  },
+  "overview": "Waaree Renewable Technologies builds solar power plants for other people. A company that wants a solar farm hires Waaree to design it, procure the panels and equipment, and construct it to a fixed price, then often to maintain it afterwards. Think of it as the construction crew in a gold rush: while everyone is digging, the crew that builds the mines is busy and very well paid. Waaree has been exactly that. As India races to add solar capacity, its revenue went from ₹162 crore to ₹3,331 crore in four years, and it earns an almost unreal 84% on the capital it uses, because it owns little and gets paid partly in advance. The stock is cheap for numbers this good, about 18 times earnings, because it actually lagged the profit explosion. So why isn't this an obvious yes? Because this is the same business, solar EPC, that a few years ago handed Sterling and Wilson billions in losses. The whole report is about whether Waaree's boom is durable or borrowed from the cycle.",
+  "editorial": {
+    "whyExists": "India is installing solar capacity at a furious pace, and most of the companies that want a solar plant, industrial firms, developers, utilities, do not build it themselves. They hire a specialist to source the panels and inverters at scale and erect the plant reliably and on time. Waaree is one of the larger such builders, and it has a powerful advantage: its parent, Waaree Energies, is India's largest solar panel maker, so the group can supply the single most important input in-house.",
+    "whyNotAlreadyWon": "Because solar EPC is easy to enter and hard to win, and no builder holds it for long. Panels and inverters are bought-in, projects are priced competitively, and any firm with capital and engineers can bid. What Waaree has is not a lock on the work; it is scale, a trusted group brand, captive panel supply, and, right now, a market where demand for building far outruns the supply of firms that can do it well. That last part is a moment, not a moat. When more capacity to build arrives, the extraordinary margins compress, which is exactly what the industry's history shows.",
+    "whyNow": "Nothing broke; the business kept booming, with profit up twentyfold in four years and returns above 80%. What changed is the price relative to that. The stock rose fast but slower than earnings, so it de-rated to about 18 times, and it is down about 12% over the past year even as profit kept climbing. The market is paying up for the growth but is plainly unwilling to assume it continues at this pace or this margin. That scepticism is the interesting part, and it is well earned by the sector's past.",
+    "remember": "Waaree is the crew hired to build the mines in a gold rush. It is thriving while everyone is digging. The question is what the crew earns once the rush cools, and solar EPC has cooled brutally before.",
+    "realBusiness": "Waaree gets paid a fixed price to build someone else's solar plant, and earns spectacular returns because it owns little and rides a construction boom its parent's panels help supply.",
+    "economicEngine": [
+      { "label": "Demand", "value": "India's solar build-out", "note": "A national race to add solar capacity means a flood of plants to build. Structural in direction, but capex-cyclical in pace." },
+      { "label": "Revenue", "value": "Fixed-price EPC projects", "note": "Each plant is a turnkey contract booked as it is built, plus smaller operations-and-maintenance and generation income." },
+      { "label": "Margins", "value": "~19%, high for EPC", "note": "Well above the low single digits solar EPC usually earns; helped by captive panels and a tight build market. Durability is the question." },
+      { "label": "Capital", "value": "Very light, advance-funded", "note": "Owns little plant; working capital has often been negative because clients pay advances. That is why returns look enormous." },
+      { "label": "Returns", "value": "84% ROCE, cash-backed", "note": "Extraordinary returns on a tiny capital base, and about 90% of profit has become cash over five years." }
+    ],
+    "mentalModels": [
+      { "model": "Asset-light EPC economics", "assessment": "Excellent", "why": "Owns little, often paid in advance, so 84% ROCE is real arithmetic, not an accounting trick." },
+      { "model": "Group backing", "assessment": "Strong", "why": "The parent is India's largest panel maker, giving captive supply, scale and a trusted brand." },
+      { "model": "Cash conversion", "assessment": "Strong", "why": "About 90% of profit became operating cash over five years, and free cash flow was positive in four of five." },
+      { "model": "Pricing power", "assessment": "Weak", "why": "Solar EPC is competitively tendered with bought-in equipment; today's fat margin is a tight-market moment, not a lasting edge." },
+      { "model": "Cyclicality", "assessment": "Mixed", "why": "Demand direction is structural, but the pace and margins swing with the solar-capex cycle, which has cratered before." },
+      { "model": "Growth durability", "assessment": "Mixed", "why": "Twentyfold growth came off a tiny base and is already decelerating; it cannot repeat at that rate." }
+    ],
+    "sectorModels": [
+      { "model": "Industry structure", "reading": "Fragmented", "note": "Many solar EPC firms bid for the same work; no durable share." },
+      { "model": "Pricing power", "reading": "Weak", "note": "Fixed-price tenders with bought-in panels and inverters; the client and the cycle set the margin." },
+      { "model": "Demand driver", "reading": "Structural but cyclical", "note": "India's solar build-out is a long runway, but order flow and margins move with the capex cycle." },
+      { "model": "Cash conversion", "reading": "Good", "note": "About 90% of profit into cash, helped by advance-funded working capital." },
+      { "model": "Balance sheet", "reading": "Effectively debt-free", "note": "D/E 0.16, interest cover about 49x." }
+    ],
+    "strategicPosition": [
+      { "label": "Larger EPC and turnkey players", "description": "Bigger contractors, including firms that have both boomed and blown up in solar EPC", "tone": "strong" },
+      { "label": "Waaree Renewable", "description": "A fast-growing, high-return EPC arm of India's largest solar group, riding the build-out", "tone": "focus" },
+      { "label": "Smaller solar contractors", "description": "A fragmented tail competing on price for smaller plants", "tone": "weak" }
+    ],
+    "winningToday": [
+      "Revenue up from ₹162 crore in FY22 to ₹3,331 crore in FY26, with profit up from ₹9 crore to ₹479 crore.",
+      "Return on capital of about 84% and return on equity of about 69%, on an effectively debt-free balance sheet.",
+      "About 90% of profit converting to cash over five years, with free cash flow positive in four of five.",
+      "Captive panel supply and a trusted brand from the parent, India's largest solar manufacturer."
+    ],
+    "stopWinning": [
+      "The ~19% operating margin is far above what solar EPC normally earns; it likely compresses as build capacity catches up.",
+      "Growth came off a tiny base (a twentyfold jump) and is already slowing; it cannot continue at this rate.",
+      "This is a competitively tendered, low-moat, cyclical business, the same one that cost Sterling and Wilson billions.",
+      "Heavy reliance on the pace of India's solar-capex cycle, which is outside the company's control."
+    ],
+    "marketBets": [
+      "India's solar build-out stays strong enough to keep the order pipeline full for years.",
+      "Margins hold near current levels rather than reverting toward normal EPC economics.",
+      "Captive panel supply and group scale keep Waaree winning share as competition intensifies.",
+      "Cash conversion stays healthy as projects scale and working capital turns less favourable."
+    ]
+  },
+  "business": {
+    "unitOfRevenue": "One solar plant built under a fixed-price turnkey contract, recognised as construction progresses, plus smaller recurring revenue from operating and maintaining plants and from a little in-house generation. Bigger plants are bigger contracts, but the margin is set at the bidding stage in a competitive market.",
+    "revenueModel": "Mostly fixed-price EPC contracting for third parties, with operations-and-maintenance and a small independent-power tail. Waaree sources panels (largely from its parent) and equipment, builds the plant over months, and books revenue as work is completed. Revenue therefore swings with how many projects are executing at once.",
+    "segments": [
+      { "name": "EPC (engineering, procurement, construction)", "pct": 85, "marginProfile": "The core and the growth engine: turnkey construction of solar plants for third parties." },
+      { "name": "O&M and power generation", "pct": 15, "marginProfile": "Operations-and-maintenance contracts and a small amount of in-house renewable generation; steadier, recurring." }
+    ],
+    "revenuePerUnitTrend": "The split above is an approximation, not a precise company-disclosed figure; EPC is clearly the large majority and the source of the hypergrowth. There is no premiumisation here: EPC prices are set competitively, and today's unusually high margin owes more to a tight build market and captive panels than to any lasting pricing power.",
+    "industry": {
+      "structure": "Fragmented and competitive. Many solar EPC firms bid for the same work, and none holds durable share.",
+      "competitors": "A wide field of domestic solar EPC players, including larger turnkey contractors, some of which have both boomed and made heavy losses in this exact business.",
+      "pricingPower": "Weak. Fixed-price tenders with bought-in panels and inverters mean the client and the cycle set the margin, not the builder. The current fat margin is a moment of scarce build capacity, not a structural edge.",
+      "demandDriver": "India's solar capacity build-out: developers, industry and utilities adding plants. More capacity commissioned means more construction to bid for.",
+      "driverType": "Structural in direction but cyclical in pace and pricing, so demand is real while margins ride the capex wave.",
+      "tam": "A large and growing solar EPC opportunity as India races toward its renewable targets. Exact figures vary by source.",
+      "penetration": "Early relative to the country's targets, which is the bull case, but the pace depends on policy, financing and the cycle.",
+      "valueChainPosition": "The builder standing between the panel maker (here, its own parent) and the plant owner. It takes execution and cost risk but captures only a slice of the boom, and its position is only as good as the next tender."
+    },
+    "qualityVerdict": "The numbers are genuinely spectacular: 84% return on capital, effectively no debt, cash-backed profit, and revenue up twentyfold in four years, all helped by captive panels from India's largest solar group. As arithmetic, it is superb. The honest problem is what kind of business produces it. Solar EPC is competitively tendered, has no pricing power, and is deeply cyclical; the same industry handed Sterling and Wilson billions in losses within recent memory. So Waaree's returns are real but probably not permanent: they reflect a boom where the demand to build outruns the supply of good builders, plus a captive-supply advantage. A wonderful set of numbers, then, produced by a business whose economics history says will not stay this good."
+  },
+  "valuation": [
+    { "label": "Price", "value": "₹890" },
+    { "label": "Market Cap", "value": "₹9,290 cr" },
+    { "label": "52W High / Low", "value": "₹1,358 / ₹780" },
+    { "label": "Stock P/E", "value": "18.3", "tone": "good", "hint": "computed price/EPS ≈ 18.3; cheap for the growth, de-rated" },
+    { "label": "P/B", "value": "9.9", "tone": "warn", "hint": "tiny capital base inflates book multiple" },
+    { "label": "EPS (TTM)", "value": "₹48.72" },
+    { "label": "Book Value", "value": "₹89.5" },
+    { "label": "Dividend Yield", "value": "0.11%", "hint": "token; reinvesting" }
+  ],
+  "financials": [
+    { "year": "FY22", "revenue": 162, "netProfit": 9, "patMargin": 5.6, "eps": 0.83 },
+    { "year": "FY23", "revenue": 351, "netProfit": 55, "patMargin": 15.7, "eps": 5.32 },
+    { "year": "FY24", "revenue": 876, "netProfit": 145, "patMargin": 16.6, "eps": 13.95 },
+    { "year": "FY25", "revenue": 1598, "netProfit": 229, "patMargin": 14.3, "eps": 21.98 },
+    { "year": "FY26", "revenue": 3331, "netProfit": 479, "patMargin": 14.4, "eps": 45.88 }
+  ],
+  "ratios": [
+    { "label": "ROE", "value": "68.9%", "tone": "good" },
+    { "label": "ROCE", "value": "83.6%", "tone": "good", "hint": "asset-light, advance-funded" },
+    { "label": "Operating margin", "value": "~19%", "tone": "warn", "hint": "unusually high for EPC; durability unproven" },
+    { "label": "D/E", "value": "0.16", "tone": "good", "hint": "effectively debt-free, interest cover ~49x" },
+    { "label": "Cash conversion (5Y)", "value": "~90%", "tone": "good", "hint": "OCF / profit" },
+    { "label": "Debtor days", "value": "~128", "tone": "warn", "hint": "project receivables" }
+  ],
+  "cashFlow": [
+    { "year": "FY24", "ocf": 128, "fcf": 117 },
+    { "year": "FY25", "ocf": 303, "fcf": 201 },
+    { "year": "FY26", "ocf": 287, "fcf": 164 }
+  ],
+  "cashFlowNote": "This is the reassuring part, and it matters most for an EPC company, where profit can otherwise sit stranded as receivables. Operating cash was ₹128 crore in FY24, ₹303 crore in FY25 and ₹287 crore in FY26, and over five years about 90% of reported profit turned into operating cash, with free cash flow positive in four of five years. For years the working-capital cycle was actually negative, because clients paid advances, which is a large reason returns look so high. The watch-item is that this favourable cycle is normalising as the business scales (working-capital days have turned slightly positive and debtor days sit around 128), so the cash-fuelled, capital-light magic gets a little less magical as it grows. Still, on the evidence so far, these are real, cash-backed earnings, not paper.",
+  "growth": [
+    { "label": "Sales CAGR (5Y)", "value": "203%", "tone": "good", "hint": "off a tiny base" },
+    { "label": "Sales CAGR (3Y)", "value": "112%", "tone": "good" },
+    { "label": "Profit CAGR (5Y)", "value": "190%", "tone": "good", "hint": "not repeatable at this rate" },
+    { "label": "Profit growth (TTM)", "value": "75%", "tone": "good", "hint": "still strong but decelerating" },
+    { "label": "Cash conversion", "value": "~90%", "tone": "good" }
+  ],
+  "management": "Waaree Renewable is controlled by the Doshi family through the Waaree group, which holds about 74.3% and has kept that stake essentially flat, so there is no self-dilution to worry about. The group connection is the defining fact: the parent, Waaree Energies, is India's largest solar panel maker, which gives this EPC arm captive supply, scale and brand, a genuine advantage. The flip side is ordinary related-party dependence: a listed EPC business that leans on its parent for its most important input is partly reliant on group pricing and priorities, and it is the smaller arm of a much bigger solar empire. Governance looks clean and the balance sheet is conservatively run. The fair thing to watch is not extraction but the two operational questions that decide the story: whether margins hold as competition intensifies, and whether cash conversion stays healthy as the advance-funded working-capital cycle normalises.",
+  "holding": [
+    { "label": "Promoter", "pct": 74.32, "qoqChange": 0.0 },
+    { "label": "FII", "pct": 1.98, "qoqChange": 0.13 },
+    { "label": "DII", "pct": 0.09, "qoqChange": 0.0 },
+    { "label": "Public", "pct": 23.61, "qoqChange": -0.12 }
+  ],
+  "moat": {
+    "strength": "narrow",
+    "sources": [
+      "Captive panel supply from the parent, India's largest solar maker",
+      "Group scale and a trusted brand in a trust-sensitive build market",
+      "An execution track record that wins repeat and larger orders",
+      "A debt-free balance sheet that lets it fund a scaling order book"
+    ],
+    "note": "Calling this a moat is generous, and narrow is the honest reading. The real edge is the parent: captive panels and group scale genuinely help Waaree win and deliver work. But the EPC business itself has no pricing power; it is competitively tendered with bought-in equipment, and today's fat margin is a moment of scarce build capacity, not a lasting barrier. The group advantage is real and worth something. The 84% return is mostly the cycle plus a light balance sheet, and cycles turn."
+  },
+  "narrative": "Waaree Renewable rode the Indian solar boom from almost nothing to a serious business in four years. Revenue went from ₹162 crore in FY22 to ₹3,331 crore in FY26, profit from ₹9 crore to ₹479 crore, and the return on capital settled around 84% as an asset-light, advance-funded model met a market desperate for plant builders. The stock followed but did not keep up, rising fast while earnings rose faster, so it de-rated to about 18 times and slipped about 12% over the past year. That gap is the market's way of saying it does not believe twentyfold growth and 19% EPC margins are the new normal. The reference point everyone remembers is Sterling and Wilson, a solar EPC champion that turned into heavy losses when the cycle and its contracts went wrong.",
+  "risks": [
+    "Margin reversion. The ~19% operating margin is far above normal solar EPC economics; as build capacity and competition catch up, it likely compresses, and profit with it. High.",
+    "Cyclicality. Both the pace of orders and the margin ride the solar-capex cycle, which has cratered before and is outside the company's control. High.",
+    "Growth deceleration. The twentyfold rise came off a tiny base and is already slowing; extrapolating it is the classic mistake. Medium to High.",
+    "Group dependence. Heavy reliance on the parent for panels and brand means group pricing and priorities shape the listed arm's economics. Medium.",
+    "Working capital. The advance-funded cycle that flatters returns is normalising as the company scales; debtor days near 128 bear watching. Medium."
+  ],
+  "trapChecklist": [
+    { "label": "Promoter holding steady", "note": "Group holds about 74.3%, essentially flat; no self-dilution", "status": "pass" },
+    { "label": "Debt and leverage", "note": "Effectively debt-free, D/E 0.16, interest cover ~49x", "status": "pass" },
+    { "label": "Cash conversion", "note": "About 90% of profit became operating cash over five years; FCF positive 4 of 5", "status": "pass" },
+    { "label": "Margin durability", "note": "~19% operating margin is far above normal EPC; a tight-market/captive-supply effect, not proven structural", "status": "warn" },
+    { "label": "Base-year growth", "note": "Twentyfold rise off a tiny base; not repeatable at this rate", "status": "warn" },
+    { "label": "Industry precedent", "note": "Solar EPC is low-moat and cyclical; the same business cost Sterling and Wilson billions", "status": "warn" }
+  ],
+  "sectorChecklist": [
+    { "label": "Order pipeline", "note": "Riding India's solar build-out; order flow depends on the capex cycle and policy", "status": "warn" },
+    { "label": "POC / cash-flow forensics", "note": "Unusually clean for EPC: ~90% cash conversion, FCF positive 4 of 5, not a receivables trap", "status": "pass" },
+    { "label": "Margin stability", "note": "High but likely cyclical; watch for compression as competition intensifies", "status": "warn" },
+    { "label": "Leverage for a contractor", "note": "Effectively debt-free, a genuine strength in a cyclical build business", "status": "pass" },
+    { "label": "Captive supply", "note": "Parent is India's largest panel maker, a real sourcing and scale advantage", "status": "pass" }
+  ],
+  "summary": "Waaree Renewable has produced some of the best numbers on this site: 84% return on capital, effectively no debt, cash-backed profit, and a twentyfold rise in four years, all helped by captive panels from India's largest solar group. At about 18 times earnings, after de-rating while profit soared, it even looks cheap for the growth. The reason to keep your head is the kind of business underneath. Solar EPC is competitively tendered, has no pricing power, and is deeply cyclical, and the same industry recently cost Sterling and Wilson billions. So the debate is not whether the numbers are good today, they are excellent, but whether an 84% return and a 19% margin can survive the cycle and the competition. You are buying a superb boom in a business whose history says booms end. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+  "engine": {
+    "state": "earnings-engine",
+    "earnings": "The earnings engine has been roaring and it is cash-backed, which is what makes it more than a story: profit rose twentyfold in four years, returns sit above 80%, and about 90% of that profit became cash. The driver is real, India is building solar at pace and Waaree is a scaled, group-backed builder. But two features make its future speed uncertain. The growth came off a tiny base and is already decelerating, and the ~19% margin is far above what solar EPC normally earns, so it probably compresses as competition and build capacity catch up. The near-term catalyst is simply whether order intake and margins hold; the honest expectation is strong revenue with a lower, more normal margin over time.",
+    "multiple": "The multiple is where the opportunity and the scepticism meet. At about 18 times earnings the stock actually de-rated while profit soared, so you are not paying a euphoric price for the boom. If the margins and growth prove more durable than the sector's history suggests, that is cheap. But an 18x multiple on a cyclical EPC business at what may be peak margins is the familiar trap: the multiple looks low precisely because the earnings, and especially the margin, may be at their best. The market's de-rating says it leans toward that caution.",
+    "verdict": "My honest read: this is a genuinely excellent set of numbers attached to a genuinely difficult kind of business. The returns are real, the balance sheet is clean, the cash is there, and the group backing is a true advantage. What holds me back is that I have seen this movie: solar EPC is a competitively tendered, cyclical business with no pricing power, and it destroyed capital at Sterling and Wilson not long ago. So the ₹479 crore of profit and the 19% margin are the things to interrogate, not celebrate, are they a durable base or the crest of a capex wave? I would be wrong to be cautious if India's build-out stays strong for years and Waaree's captive supply lets it hold margins that peers cannot, which would make 18 times earnings look like a bargain in hindsight."
+  },
+  "lenses": [
+    { "name": "The crew, not the gold", "reading": "The clean way to see Waaree is as the construction crew in a gold rush. It does not own the mine or bet on the price of gold; it gets paid to build, and while everyone is digging, a good crew is busy and well paid. That is a lower-risk place to stand than owning the solar farms, and it is why an asset-light builder can earn 84%. The catch is the same as for any crew: the pay is fabulous while the rush is on, and it is the first thing to fall when the digging slows. Your return depends less on how good Waaree is and more on how long India keeps building." },
+    { "name": "Remember Sterling and Wilson", "reading": "The single most useful thing to hold in your head here is a name: Sterling and Wilson. It was a solar EPC champion too, with a strong brand and a big order book, and within a few years fixed-price losses and a turning cycle turned it into billions of red ink. That is not a prediction about Waaree, which today is far better run and cash-generative. It is a reminder of what this specific business can do to a company when the cycle and the contracts go against it. When you see an 84% return in solar EPC, the right instinct is not to extrapolate it but to ask how long it can possibly last." },
+    { "name": "A cheap price on a peak margin", "reading": "Ask what an 18-times-earnings multiple is really saying about a company growing this fast. It is saying the market does not believe the current earnings, and especially the current margin, are the run-rate. That scepticism is a feature for a buyer, you are not paying up, but it is also the warning. The fragile part of this investment is not the balance sheet, which is pristine, it is the 19% margin sitting on top of a competitively tendered business. If that margin normalises toward ordinary EPC economics, the low multiple was low for a reason. If it holds, this was cheap. That is the whole bet." }
+  ]
+}
