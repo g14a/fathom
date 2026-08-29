@@ -1,0 +1,189 @@
+{
+  "ticker": "TIPSMUSIC",
+  "company": "Tips Music Ltd",
+  "sector": "Media & Entertainment",
+  "industry": "Music Licensing",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-08-29",
+  "oneLiner": "It owns a catalogue of songs already written and paid for, and the streaming boom now rents them out at 73% operating margins and a 118% return on capital. The question is what you pay for a business that good, and why the promoter keeps selling.",
+  "facts": {
+    "snapshot": "Tips Music owns the copyrights to a large library of Hindi and regional film songs. It does not run a streaming app; it licenses its catalogue to platforms like Spotify, YouTube, JioSaavn and Instagram and collects a royalty every time a song is played.",
+    "founded": "1996",
+    "hq": "Mumbai"
+  },
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Asset-light IP rentier", "tone": "good" },
+      { "label": "Returns", "value": "118% ROCE, 88% ROE", "tone": "good" },
+      { "label": "Margins", "value": "~73% operating, rising", "tone": "good" },
+      { "label": "Balance sheet", "value": "Debt-free, ~77% payout", "tone": "good" },
+      { "label": "Promoter", "value": "Sold down 75% to 64%", "tone": "warn" },
+      { "label": "Valuation", "value": "~39x earnings, 32x book", "tone": "warn" }
+    ],
+    "keyQuestion": "The economics are close to perfect. The two things that decide it: is the India streaming royalty pool still early enough to keep compounding, and why has the promoter been steadily selling into the story?"
+  },
+  "overview": "Tips Music owns songs. Not the apps you listen on, the actual copyrights to thousands of Hindi and regional film tracks, many of them decades-old hits. When you play one on Spotify, YouTube, JioSaavn or use it in an Instagram reel, a sliver of money flows to whoever owns that copyright, and increasingly that is Tips. The magic of the model is that the songs were written and paid for long ago, so as India's streaming audience grows, the same fixed catalogue earns more and more with almost no extra cost. That is why operating margins have climbed past 70% and the return on capital is an almost unreal 118%. This is one of the purest 'own the toll booth' businesses on the market. The report is about two things: whether the streaming boom that feeds it is still early, and why the family that built it keeps trimming its stake.",
+  "editorial": {
+    "whyExists": "Music has to be owned by someone, and the streaming platforms that distribute it mostly do not want to own it, they want to license it. So a layer of catalogue owners sits between the song and the platform, holding the copyrights and collecting a royalty on every play. Tips is one of the larger such owners in India, with a deep library of film music, and it exists to monetise that library across every new way people consume music, from paid streaming to short-video reels.",
+    "whyNotAlreadyWon": "Because you cannot un-write a hit or clone a copyright. Tips already owns its catalogue outright, and no competitor can take those specific songs; they can only build or buy their own. What stops Tips from being a pure monopoly is the other side of the table: the buyers are a small number of very powerful platforms (Spotify, YouTube, JioSaavn), and they have real say over the royalty rate. Tips owns must-have content, which gives it pricing leverage, but it licenses to giants, which takes some of it back.",
+    "whyNow": "Nothing broke; if anything the business got better, with margins pushing past 70% as streaming scaled on the fixed catalogue. What has changed is the price and the ownership. The stock trades at about 39 times earnings and an eye-watering 32 times book, so the market has already priced in years of the royalty pool compounding. And the promoter family has cut its stake from 75% to about 64% over three years, a steady sell-down into a rising, expensive stock, which is the single thing a buyer here has to explain to themselves.",
+    "remember": "You are buying songs already written, rented out by a streaming boom, at 73% margins. It is a wonderful toll booth, sold at a toll-booth-is-wonderful price, by an owner who keeps selling.",
+    "realBusiness": "Tips owns music copyrights and collects a royalty every time one of its songs is streamed, so a fixed library earns more each year as India's streaming audience grows.",
+    "economicEngine": [
+      { "label": "Demand", "value": "India streaming growth", "note": "More paid subscribers, more ad-supported plays, more reels using music. The audience for a fixed catalogue keeps expanding." },
+      { "label": "Revenue", "value": "Royalty x plays", "note": "A per-stream or licensed fee across audio, video and social platforms. The catalogue is the asset; each play is incremental revenue." },
+      { "label": "Margins", "value": "~73% and rising", "note": "The songs are already made, so extra streams cost almost nothing. Operating margin has climbed from the teens to over 70%." },
+      { "label": "Capital", "value": "Buys new music rights", "note": "Debt-free. The main use of cash is acquiring fresh film-music catalogues to keep the library relevant, plus a treasury book." },
+      { "label": "Returns", "value": "118% ROCE, ~77% paid out", "note": "Extraordinary returns on a tiny capital base; it cannot reinvest it all, so it pays most out as dividends." }
+    ],
+    "mentalModels": [
+      { "model": "Own the copyright, not the app", "assessment": "Excellent", "why": "It owns irreplaceable IP and rents it to whoever wins in distribution, so it does not have to pick the winning platform." },
+      { "model": "Fixed asset, growing rent", "assessment": "Excellent", "why": "The catalogue is already paid for, so every new streaming listener is almost pure margin. That is the 73% OPM." },
+      { "model": "Buyer concentration", "assessment": "Weak", "why": "A handful of platforms (Spotify, YouTube, JioSaavn) are the buyers and hold real sway over royalty rates." },
+      { "model": "Catalogue refresh", "assessment": "Mixed", "why": "Old hits are an annuity, but staying relevant means continually buying new film-music rights, which costs real cash." },
+      { "model": "Owner behaviour", "assessment": "Caution", "why": "The promoter cut its stake from 75% to 64% over three years, selling into a rising, richly-valued stock." },
+      { "model": "Valuation", "assessment": "Weak", "why": "About 39x earnings and 32x book prices the streaming compounding in full, leaving little margin for error." }
+    ],
+    "sectorModels": [
+      { "model": "Industry structure", "reading": "Concentrated owners", "note": "A few catalogue owners (Tips, Saregama, T-Series, Sony, Universal) license to a few platforms." },
+      { "model": "Pricing power", "reading": "Mixed", "note": "Must-have songs create leverage at the individual-title level, but platform concentration limits what that leverage becomes at the portfolio level." },
+      { "model": "Demand driver", "reading": "Structural", "note": "India's streaming and short-video growth, still early on paid penetration." },
+      { "model": "Cash conversion", "reading": "High", "note": "About 100% of profit becomes cash; near-zero marginal cost on streams." },
+      { "model": "Balance sheet", "reading": "Debt-free", "note": "No borrowing, a growing treasury book, most profit paid out." }
+    ],
+    "strategicPosition": [
+      { "label": "T-Series, Sony, Universal", "description": "Larger catalogue owners, some unlisted, with deeper libraries and global reach", "tone": "strong" },
+      { "label": "Tips Music", "description": "A focused, high-return Indian film-music catalogue owner riding the streaming shift", "tone": "focus" },
+      { "label": "Smaller labels", "description": "A long tail of regional and independent labels with thinner catalogues", "tone": "weak" }
+    ],
+    "winningToday": [
+      "Revenue up from ₹136 crore in FY22 to ₹376 crore in FY26, with operating margin rising from the 60s to about 73%.",
+      "A 118% return on capital and 88% return on equity, on a debt-free balance sheet.",
+      "About 100% of profit converting to cash, with roughly 77% paid out as dividends.",
+      "A structural streaming tailwind: India's paid-music and short-video usage is still early."
+    ],
+    "stopWinning": [
+      "The promoter has cut its stake from 75% to about 64% over three years, a steady sell-down into the story.",
+      "A rich valuation, about 39x earnings and 32x book, that already prices in years of compounding.",
+      "Buyer concentration: a few streaming platforms hold real power over royalty rates.",
+      "The need to keep spending on new music rights to keep the catalogue relevant."
+    ],
+    "marketBets": [
+      "India's streaming royalty pool keeps compounding as paid penetration deepens.",
+      "Royalty rates hold or rise despite powerful platform buyers.",
+      "New catalogue acquisitions earn well and keep the library fresh.",
+      "The market keeps paying a premium multiple for the asset-light economics."
+    ]
+  },
+  "business": {
+    "unitOfRevenue": "One stream, or one licensed use, of a song Tips owns. Every play on an audio platform, every video using the track, every reel set to it, generates a small royalty. The catalogue is the fixed asset; each incremental play is almost pure margin because the song already exists.",
+    "revenueModel": "Copyright licensing. Tips owns the master and publishing rights to its songs and licenses them to platforms across audio streaming, video (YouTube), and social/short-video (Instagram, Meta), earning per-stream royalties and fixed or minimum-guarantee deals. It also earns from film-music syncing and public performance.",
+    "segments": [
+      { "name": "Audio & video streaming royalties", "pct": 80, "marginProfile": "The core annuity: per-stream royalties from Spotify, YouTube, JioSaavn, Apple, Amazon and others. Very high margin." },
+      { "name": "Social / short-video & sync", "pct": 15, "marginProfile": "Fast-growing licensing to Instagram/Meta and for films/ads; high margin." },
+      { "name": "Other (public performance, physical)", "pct": 5, "marginProfile": "Smaller, legacy and performance-rights income." }
+    ],
+    "revenuePerUnitTrend": "Rising, and that is the whole story. As India's streaming audience and per-stream payouts grow, the same catalogue earns more each year, and new usage surfaces (short-video reels) add fresh royalty streams. The split below is an approximation, not a company-disclosed figure; Tips does not report a precise breakup, but digital streaming royalties are clearly the large majority. The point is that a fixed library monetises across an expanding set of platforms.",
+    "industry": {
+      "structure": "Concentrated on both sides. A few catalogue owners license to a few large streaming platforms.",
+      "competitors": "Larger owners like T-Series (unlisted), Sony and Universal have deeper libraries; Saregama is the closest listed peer. Tips is a focused, high-return film-music owner.",
+      "pricingPower": "Mixed, and the distinction matters. At the level of a single song, Tips has real power: a platform cannot swap a specific hit for an identical one. At the level of the whole deal, that power fades, because a giant like Spotify or YouTube can set the economics it is prepared to pay across the catalogue. Title-level leverage, portfolio-level weakness.",
+      "demandDriver": "India's shift to streaming and short-video: more paid subscribers, more ad-supported listening, more music used in reels and films.",
+      "driverType": "Structural and still early: paid-music penetration in India is low versus developed markets, so the royalty pool has a long runway.",
+      "tam": "A growing Indian music-streaming and licensing market, expanding with smartphone and data penetration. Exact figures vary by source.",
+      "penetration": "Low on paid streaming, so growth is mostly the pie itself expanding rather than share-shifting.",
+      "valueChainPosition": "The content owner sitting upstream of distribution. It captures a royalty regardless of which platform wins, a strong place to stand, though it shares economics with the platforms."
+    },
+    "qualityVerdict": "As a business this is close to ideal: it owns irreplaceable copyrights, rents them to a booming streaming market at over 70% operating margin, earns 118% on capital, and carries no debt. The two honest qualifications are structural and behavioural. Structurally, the buyers are a small number of very powerful platforms, so the royalty rate is not fully Tips's to set, and staying relevant means continually buying new music. Behaviourally, the promoter's steady sell-down sits awkwardly against a story this good. A wonderful business, then, whose economics are real but whose price and ownership signals demand thought."
+  },
+  "valuation": [
+    { "label": "Price", "value": "₹656" },
+    { "label": "Market Cap", "value": "₹8,379 cr" },
+    { "label": "52W High / Low", "value": "₹741 / ₹481" },
+    { "label": "Stock P/E", "value": "39.0", "tone": "warn", "hint": "computed price/EPS ≈ 39.1; premium" },
+    { "label": "P/B", "value": "32.3", "tone": "bad", "hint": "book is tiny; asset-light IP not on the balance sheet" },
+    { "label": "EPS (TTM)", "value": "₹16.79" },
+    { "label": "Dividend Yield", "value": "1.98%", "hint": "payout ~77%" },
+    { "label": "ROCE", "value": "118%", "tone": "good" }
+  ],
+  "financials": [
+    { "year": "FY22", "revenue": 136, "netProfit": 65, "patMargin": 47.8, "eps": 4.98 },
+    { "year": "FY23", "revenue": 187, "netProfit": 77, "patMargin": 41.2, "eps": 5.96 },
+    { "year": "FY24", "revenue": 242, "netProfit": 127, "patMargin": 52.5, "eps": 9.90 },
+    { "year": "FY25", "revenue": 311, "netProfit": 167, "patMargin": 53.7, "eps": 13.03 },
+    { "year": "FY26", "revenue": 376, "netProfit": 217, "patMargin": 57.7, "eps": 16.96 }
+  ],
+  "ratios": [
+    { "label": "ROE", "value": "87.6%", "tone": "good", "hint": "flattered by a tiny equity base" },
+    { "label": "ROCE", "value": "118%", "tone": "good" },
+    { "label": "Operating margin", "value": "~73%", "tone": "good", "hint": "up from the teens a few years ago" },
+    { "label": "Net margin", "value": "~58%", "tone": "good" },
+    { "label": "Debt", "value": "Effectively nil", "tone": "good", "hint": "D/E 0.02" },
+    { "label": "Cash conversion (5Y)", "value": "~100%", "tone": "good", "hint": "OCF / profit" }
+  ],
+  "cashFlow": [
+    { "year": "FY24", "ocf": 233, "fcf": 230 },
+    { "year": "FY25", "ocf": 120, "fcf": 119 },
+    { "year": "FY26", "ocf": 197, "fcf": 191 }
+  ],
+  "cashFlowNote": "The cash flow confirms the quality. Operating cash was ₹233 crore in FY24, ₹120 crore in FY25 and ₹197 crore in FY26, and free cash flow is almost identical because the business spends almost nothing on physical assets; its 'capex' is buying music rights, which shows up in investing, not operating. Over five years roughly 100% of reported profit became operating cash, so these are genuine, cash-backed earnings, not paper. The year-to-year bounce (FY25 dipping below FY24) reflects the timing of catalogue purchases and licensing deals rather than any weakness. Because the business needs so little capital, it returns roughly 77% of profit as dividends, which is exactly right for an asset-light rentier.",
+  "growth": [
+    { "label": "Sales CAGR (5Y)", "value": "33%", "tone": "good" },
+    { "label": "Sales CAGR (3Y)", "value": "26%", "tone": "good" },
+    { "label": "Profit CAGR (5Y)", "value": "37%", "tone": "good" },
+    { "label": "Profit CAGR (3Y)", "value": "39%", "tone": "good" },
+    { "label": "Profit growth (TTM)", "value": "27%", "tone": "good", "hint": "moderating but strong" }
+  ],
+  "management": "Tips Music is controlled by the founding Taurani family, and here management is where the one real question sits. The operating record is excellent: debt-free, over 100% return on capital, margins that keep widening, and cash returned generously as dividends. But the promoter has reduced its holding from 75% to about 64% over the last three years, a steady sell-down that the mechanical screen flags as its single red mark. This is not necessarily sinister; owners diversify, and the family separated the music business from its films arm, which reshuffled holdings. But selling this much into a stock trading at 39 times earnings is a signal worth respecting rather than dismissing: the people who know the catalogue's economics best have been reducing exposure at these prices. Weigh the superb operations against that behaviour.",
+  "holding": [
+    { "label": "Promoter", "pct": 64.15, "qoqChange": 0.0 },
+    { "label": "FII", "pct": 7.99, "qoqChange": 0.51 },
+    { "label": "DII", "pct": 5.36, "qoqChange": 0.42 },
+    { "label": "Public", "pct": 22.49, "qoqChange": -0.93 }
+  ],
+  "moat": {
+    "strength": "narrow",
+    "sources": [
+      "Outright ownership of irreplaceable song copyrights",
+      "A deep, nostalgia-rich catalogue that cannot be replicated",
+      "Presence across every distribution channel (audio, video, social)",
+      "Near-zero marginal cost on incremental streams"
+    ],
+    "note": "The intellectual property itself is a wide moat: no one can take or copy the specific songs Tips owns, and old hits can keep earning for decades. What narrows it is the other side of the table. Tips sells to a small number of very powerful platforms that have real influence over the royalty rate, so it owns must-have content but licenses it to giants. The moat protects what Tips owns; it does not fully protect the price it can charge for renting it out."
+  },
+  "narrative": "Tips Music has been transformed by streaming. A decade ago it was a modest music-and-films company with single-digit margins; today it is a focused catalogue owner earning over 70% at the operating line. Revenue rose from ₹136 crore in FY22 to ₹376 crore in FY26 as the same library monetised across more platforms and more plays, and profit compounded even faster, lifting the return on capital to an extraordinary 118%. The stock followed, compounding over 40% a year for five years, and now trades at about 39 times earnings. The one discordant note through this run has been the promoter steadily selling down, from 75% to about 64%, even as the numbers kept improving.",
+  "risks": [
+    "Promoter sell-down. The family cut its stake from 75% to about 64% over three years; steady insider selling into an expensive stock is a caution worth weighing. Medium.",
+    "Valuation. At about 39x earnings and 32x book, the price already assumes years of streaming compounding; any slowdown hits the multiple hard. Medium to High.",
+    "Buyer concentration. A few streaming platforms are the customers and hold real sway over royalty rates; a rate cut would flow straight to margin. Medium.",
+    "Catalogue relevance. Staying current means continually buying new film-music rights at competitive prices; overpaying would dent returns. Medium.",
+    "Regulatory / royalty framework. Changes to copyright, royalty-sharing or platform economics could reshape the split between owners and platforms. Low to Medium."
+  ],
+  "trapChecklist": [
+    { "label": "Debt and leverage", "note": "Effectively debt-free, D/E 0.02", "status": "pass" },
+    { "label": "Cash conversion", "note": "About 100% of profit becomes operating cash; FCF positive every year", "status": "pass" },
+    { "label": "Margin durability", "note": "Operating margin >70% is real (asset-light streaming) but has expanded fast; watch royalty rates", "status": "warn" },
+    { "label": "Promoter self-dilution", "note": "Stake cut from 75% to ~64% over 12 quarters; the one clear red flag", "status": "fail" },
+    { "label": "Valuation", "note": "About 39x earnings and 32x book prices in years of compounding", "status": "warn" },
+    { "label": "Earnings quality", "note": "Royalty income is clean and cash-backed; no aggressive accounting evident", "status": "pass" }
+  ],
+  "sectorChecklist": [
+    { "label": "Catalogue depth", "note": "Deep film-music library across Hindi and regional; the core asset", "status": "pass" },
+    { "label": "Platform diversification", "note": "Present across audio, video (YouTube) and social/short-video; not tied to one app", "status": "pass" },
+    { "label": "Royalty-rate exposure", "note": "Buyers are a few powerful platforms; rate is not fully Tips's to set", "status": "warn" },
+    { "label": "Content refresh", "note": "Needs ongoing acquisition of new music rights to stay relevant", "status": "warn" },
+    { "label": "Return on capital", "note": "118% ROCE, 88% ROE; asset-light economics", "status": "pass" }
+  ],
+  "summary": "Tips Music is one of the purest asset-light business models in the market: it owns song copyrights, rents them to a booming streaming market at over 70% operating margin, earns 118% on capital, and pays most of it out as dividends. The operating model is extraordinarily strong. The open questions are whether that strength persists as the catalogue ages, the platforms gain leverage, and new rights become more expensive. Two more things keep me honest. The price, about 39 times earnings and 32 times book, already assumes years of streaming compounding, and the promoter has been steadily selling down from 75% to 64% into exactly that story. This is a wonderful business where the debate is entirely about the price you pay and the signal the owner is sending. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+  "engine": {
+    "state": "earnings-engine",
+    "earnings": "The earnings engine is real, clean and cash-backed. Revenue has compounded over 30% a year, margins have widened past 70% as streaming scales on a fixed catalogue, and about 100% of profit turns into cash. The driver is structural: India's streaming and short-video audience is still early, so the same library keeps earning more. The one thing to watch is not the engine's power but its rate, whether the powerful platform buyers keep royalty rates where they are. The near-term catalyst is simply continued streaming growth plus well-priced catalogue additions.",
+    "multiple": "The multiple is the whole debate. At about 39 times earnings and 32 times book, Tips is priced as though its earnings will compound for years, and the book multiple looks absurd only because the real asset, the catalogue, is not carried on the balance sheet at its earning value. Over five years the price broadly tracked the earnings, so this is not a mania, but it is a full price that needs the streaming pool to keep compounding to be justified. The promoter selling into this multiple is the market's uncomfortable footnote.",
+    "verdict": "My honest read: this is one of the best business models listed in India, an asset-light rentier on a structural streaming boom, and the operations are superb. The judgement call is entirely price and signal. At 39 times earnings you are paying in full for the compounding to continue, and the person with the best view of the catalogue's economics, the promoter, has been reducing exposure at these levels. That does not make the business worse, but it raises the bar for the buyer. I would be wrong to be cautious if India's paid-streaming penetration inflects the way the bulls expect, because then a fixed catalogue earning more every year makes even this multiple look reasonable in hindsight."
+  },
+  "lenses": [
+    { "name": "The catalogue is fixed. The attention isn't", "reading": "The elegant thing about Tips is that it does not have to predict which app wins. The same songs have been monetised across theatres, cassettes, CDs, radio, downloads, YouTube, Spotify and now reels; Tips owns the underlying IP and collects a toll through every format, so it is a toll booth on distribution, not a bet on any one platform. But look closer and it is part mine, too. A toll booth earns the same asset more money as traffic grows, forever. A mine's economics decline as the ore is drawn down. Tips's copyright is legally durable, but its value rests on the one resource it does not own: human attention. An old song can be owned forever and still fade if no one listens. That is why the catalogue-refresh spending matters so much, it is how Tips keeps the mine from depleting. The catalogue is fixed; the attention it commands is not, and attention is the scarce resource here, not the copyright." },
+    { "name": "Watch the owner's feet, not just the numbers", "reading": "Everything in the financials says buy more; the promoter's actions say sell some. Over three years the family cut its stake from 75% to about 64%, steadily, into a rising and expensive stock. There can be innocent reasons, diversification, the demerger of the films business, but the people who understand this catalogue's economics best have chosen to hold less of it at these prices. That is not proof of anything, but it raises the burden of proof for paying 39 times earnings." },
+    { "name": "A price with the future already in it", "reading": "Ask what a 39-times-earnings, 32-times-book multiple assumes. It assumes India's streaming royalty pool compounds for years and that platform buyers do not squeeze the rate. Both may well happen; the runway is real and still early. But the fragile part of this investment is not the catalogue, which is superb, it is that the price already contains the good news. You are paying for a decade of streaming growth to arrive, so the risk is timing and rate, not the quality of the songs." }
+  ]
+}
