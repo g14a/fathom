@@ -1,0 +1,188 @@
+{
+  "ticker": "SWSOLAR",
+  "company": "Sterling & Wilson Renewable Energy Ltd",
+  "sector": "Industrials",
+  "industry": "Solar EPC",
+  "sectorId": "infrastructure",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-08-29",
+  "oneLiner": "A solar plant builder that a mechanical screen flags as cheap and growing, but the low P/E is an illusion (it is loss-making), the original promoter sold down heavily, and institutions are leaving. A turnaround, not a bargain.",
+  "facts": {
+    "snapshot": "Sterling & Wilson Renewable Energy is a solar EPC contractor. It designs, procures and builds large solar power plants for other companies on a turnkey basis, in India and abroad, and maintains them afterwards. It sells the construction, not the electricity.",
+    "hq": "Mumbai"
+  },
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Erratic, loss-making TTM", "tone": "bad" },
+      { "label": "Valuation", "value": "~7× book; P/E meaningless", "tone": "bad" },
+      { "label": "Balance sheet", "value": "D/E 1.84, 27.6% pledged", "tone": "bad" },
+      { "label": "Ownership", "value": "Promoter cut 67.6% to 45.7%", "tone": "bad" },
+      { "label": "Institutional money", "value": "FII 8.4% to 5.1%, retail up", "tone": "bad" },
+      { "label": "The one hope", "value": "Reliance parentage, order pipeline", "tone": "warn" }
+    ],
+    "keyQuestion": "Can Reliance-backed scale and a fresh order pipeline turn operations into durable, cash-backed profit before the leverage and the exodus of institutional money do more damage? Until they do, the cheap screen reading is a mirage."
+  },
+  "overview": "Sterling & Wilson Renewable Energy builds solar power plants for other people. A developer wins the right to sell solar electricity, and hires Sterling & Wilson to design and construct the plant to a fixed price and timeline, then often to maintain it. It does not own the plant or sell the power. This report exists to make one point clearly, because a screen can mislead here. Sterling & Wilson shows up on a two-engine screen as cheap (a low reported P/E) and growing (a high profit growth rate), which looks like the classic setup where the stock has fallen while earnings compounded. Both signals are artifacts. The company is loss-making on a trailing basis, so the P/E is not real; and the growth rate is measured off years of deep losses, which makes almost any number look like a rebound. What you actually have is a leveraged turnaround with the original promoter heading for the exit. That is a very different thing from a bargain.",
+  "editorial": {
+    "whyExists": "The world, and India especially, is building enormous amounts of solar capacity, and most developers do not build the plants themselves. They hire specialist engineering, procurement and construction firms that can source panels and equipment at scale and erect a large plant reliably. Sterling & Wilson is one of the larger such contractors, with a long global track record and, since Reliance came in, a powerful backer in the fastest-growing renewables buildout in the country.",
+    "whyNotAlreadyWon": "Solar EPC is a cut-throat, capital-hungry contracting business with no pricing power. Projects are won on price, tie up huge amounts of working capital, and expose the builder to swings in equipment costs and execution risk on fixed-price contracts. Sterling & Wilson learned this the hard way: after a strong start it ran up massive losses between FY21 and FY24. Being large and well-known did not protect it. The only durable edge on offer now is the backing and captive pipeline that a parent like Reliance can provide, and that is a bet on the parent, not the standalone business.",
+    "whyNow": "The stock has fallen for years (down about 25% in the past year and roughly 20% a year over three years) while revenue has recovered sharply from the FY23 trough. That combination is exactly why a screen labels it de-rated and growing. But the recovery has not reached the bottom line: FY25 scraped a small profit, then FY26 swung back to a loss on a large below-the-line hit. So the reason to look now is a turnaround thesis, not a value one, and the honest version of that thesis has to reckon with the promoter sell-down, the pledged shares, and the leverage.",
+    "remember": "When a screen says a company is cheap and growing, check that it is actually earning money first. Here the low P/E sits on a loss, and the growth sits on a crater. Neither means what the number suggests.",
+    "realBusiness": "Sterling & Wilson gets paid a fixed price to build someone else's solar plant, a thin-margin, price-taking trade whose survival now leans on Reliance's backing and pipeline.",
+    "economicEngine": [
+      { "label": "Demand", "value": "Solar capacity buildout", "note": "India and the world are adding solar fast, so there is plenty of plant to build. The demand is real and structural." },
+      { "label": "Revenue", "value": "Fixed-price EPC contracts", "note": "Each plant is a turnkey project booked as it is built. Revenue swings with how many large jobs are executing." },
+      { "label": "Margins", "value": "Thin and fragile", "note": "Operating margin is low single digits at best and turned deeply negative FY21 to FY23 on cost and execution losses." },
+      { "label": "Capital", "value": "Debt and working capital", "note": "Contracting ties up cash; D/E is about 1.84 with interest cover under 2x. This is the pressure point." },
+      { "label": "Returns", "value": "Erratic, often negative", "note": "Years of losses; the headline 40% ROE is an artifact of a small, damaged equity base, not real earning power." }
+    ],
+    "mentalModels": [
+      { "model": "Turnaround", "assessment": "Unproven", "assessmentTone": "warn", "why": "The entire case is that operations recover from a loss-making crater. That is a bet on change, not a proven earnings engine." },
+      { "model": "Reliance backing", "assessment": "Potentially powerful", "assessmentTone": "good", "why": "A parent of Reliance's scale can supply capital, credibility and a solar pipeline. It is the strongest part of the story, but still potential." },
+      { "model": "Pricing power", "assessment": "None", "assessmentTone": "bad", "why": "Solar EPC is won on lowest-price tenders with equipment-cost risk on the builder, which is how the FY21 to FY23 losses happened." },
+      { "model": "Leverage", "assessment": "High risk", "assessmentTone": "bad", "why": "D/E about 1.84 and interest cover below 2x leave little room if a project slips or the cycle turns." },
+      { "model": "Ownership signals", "assessment": "Caution", "assessmentTone": "bad", "why": "The original promoter cut its stake from 67.6% to 45.7%, 27.6% is pledged, and institutions are reducing." },
+      { "model": "Screen signal", "assessment": "Misleading", "assessmentTone": "warn", "why": "The cheap-and-growing reading is produced by a broken denominator (a trailing loss), not by a real earnings-versus-price gap." }
+    ],
+    "sectorModels": [
+      { "model": "Industry structure", "reading": "Fragmented, competitive", "note": "Many solar EPC players bid on price; no durable share or pricing power." },
+      { "model": "Pricing power", "reading": "None", "note": "Fixed-price tenders with equipment-cost risk borne by the builder." },
+      { "model": "Demand driver", "reading": "Structural", "note": "The solar buildout is a genuine long-run tailwind; that is the real attraction." },
+      { "model": "Cash conversion", "reading": "Volatile", "note": "Operating cash swung from +₹538 crore in FY24 to -₹257 crore in FY26." },
+      { "model": "Balance sheet", "reading": "Leveraged", "note": "D/E about 1.84, interest cover under 2x, 27.6% of promoter holding pledged." }
+    ],
+    "strategicPosition": [
+      { "label": "Larger, better-funded EPC rivals", "description": "Global and domestic players that compete for the same large solar jobs", "tone": "strong" },
+      { "label": "Sterling & Wilson Renewable", "description": "A large-name solar EPC recovering from heavy losses, now leaning on Reliance backing", "tone": "focus" },
+      { "label": "Smaller solar contractors", "description": "A fragmented tail bidding hard on price for smaller plants", "tone": "weak" }
+    ],
+    "winningToday": [
+      "Revenue has recovered strongly from the FY23 trough of ₹2,015 crore to ₹7,548 crore in FY26.",
+      "Operating profit has turned positive again (about ₹314 crore in FY26) after deeply negative years.",
+      "Reliance's parentage gives a powerful backer and a potential captive order pipeline.",
+      "The underlying demand, India's solar buildout, is a genuine structural tailwind."
+    ],
+    "stopWinning": [
+      "The company is loss-making on a trailing basis (about -₹281 crore), so the reported P/E is not meaningful.",
+      "The original promoter cut its holding from 67.6% to 45.7% over twelve quarters, and 27.6% is pledged.",
+      "Institutions are leaving: FII holding fell from 8.4% to 5.1% while retail rose from 38% to 44%.",
+      "Leverage is high for a contractor (D/E ~1.84, interest cover under 2x), leaving little margin for error."
+    ],
+    "marketBets": [
+      "Operations keep recovering and finally translate into durable, cash-backed net profit.",
+      "Reliance directs a meaningful solar pipeline through the company (potential, not yet an established contracted fact).",
+      "Leverage is worked down before another project or cycle shock hits.",
+      "The below-the-line hits that pushed FY26 into a loss do not recur."
+    ]
+  },
+  "business": {
+    "unitOfRevenue": "One solar power plant, built under a fixed-price turnkey EPC contract and recognised as construction progresses, plus smaller recurring revenue from operating and maintaining plants afterwards. Bigger plants are bigger contracts, but the margin on each is thin and fixed at the bidding stage, with the builder carrying equipment-cost and execution risk.",
+    "revenueModel": "Fixed-price EPC contracting, with an operations-and-maintenance tail. Sterling & Wilson wins a tender, procures panels and equipment, builds the plant over months, and books revenue as work is completed. Revenue therefore swings sharply with how many large projects are executing at once, which is why the top line has been so volatile.",
+    "segments": [
+      { "name": "Solar EPC (engineering, procurement, construction)", "pct": 90, "marginProfile": "The core: turnkey construction of solar plants, thin fixed margins, equipment-cost risk." },
+      { "name": "Operations & Maintenance", "pct": 10, "marginProfile": "A smaller, steadier recurring stream from maintaining installed plants." }
+    ],
+    "revenuePerUnitTrend": "There is no premiumisation here: EPC prices are set competitively and the builder bears cost risk. The segment split is indicative; the swing factor is simply how much project work is under execution in a given year, which is why revenue fell from ₹5,199 crore in FY22 to ₹2,015 crore in FY23 and rebounded to ₹7,548 crore in FY26.",
+    "industry": {
+      "structure": "Fragmented and highly competitive. Many EPC contractors bid for solar work and none holds durable share or pricing power.",
+      "competitors": "A wide field of domestic and global solar EPC players competing on price and delivery for the same large projects.",
+      "pricingPower": "None to speak of. Fixed-price tenders with the equipment-cost and execution risk on the builder, which is exactly how the FY21 to FY23 losses happened.",
+      "demandDriver": "The buildout of solar generation capacity in India and abroad. More plants commissioned means more construction to bid for.",
+      "driverType": "Structural. The solar transition is a long-run tailwind, and it is the genuinely attractive part of the story.",
+      "tam": "A very large and fast-growing global solar EPC market, expanding with the energy transition. Exact figures vary by source.",
+      "penetration": "Early and growing fast, so the pie itself is expanding, but that has not protected margins because the contracting is so competitive.",
+      "valueChainPosition": "The contractor standing between the plant developer and the equipment makers. It takes execution and cost risk but not ownership of the plant or the power, and captures only a thin slice of the boom it helps build."
+    },
+    "qualityVerdict": "Read this business as three separate layers, because they do not move together. The end market (solar demand) is excellent and structural. The operating recovery (revenue back to ₹7,548 crore, operating profit positive again) is real but unproven. And the shareholder economics are poor and uncertain. The trap is letting the first layer colour the third: solar EPC has repeatedly shown it is a hard, low-quality place to invest capital, with no pricing power, heavy working capital, and fixed-price risk that turned into ₹2,000 crore-plus of cumulative losses between FY21 and FY24, even as the solar market boomed around it. The single best thing about the company is not the business, it is the backer: Reliance's parentage and potential captive pipeline. That makes this a turnaround leaning on a parent, not a quality operator you are buying cheap. Read every optimistic number against the FY26 net loss, the pledged shares and the leverage before believing the screen."
+  },
+  "valuation": [
+    { "label": "Price", "value": "₹195" },
+    { "label": "Market Cap", "value": "₹4,563 cr" },
+    { "label": "52W High / Low", "value": "₹282 / ₹148" },
+    { "label": "Reported P/E (scraped)", "value": "14.6", "tone": "bad", "hint": "misleading, ignore it" },
+    { "label": "Economic P/E", "value": "Not meaningful", "tone": "bad", "hint": "TTM is a loss (EPS -₹12.30), so there are no earnings to value" },
+    { "label": "P/B", "value": "7.0x", "tone": "bad", "hint": "the real valuation signal: about 7x book, expensive for a thin-margin contractor" },
+    { "label": "EPS (TTM)", "value": "-₹12.30", "tone": "bad", "hint": "trailing loss" },
+    { "label": "Book Value", "value": "₹27.8" },
+    { "label": "Dividend Yield", "value": "0%" }
+  ],
+  "financials": [
+    { "year": "FY22", "revenue": 5199, "netProfit": -916, "patMargin": -17.6, "eps": -47.94 },
+    { "year": "FY23", "revenue": 2015, "netProfit": -1175, "patMargin": -58.3, "eps": -61.65 },
+    { "year": "FY24", "revenue": 3035, "netProfit": -211, "patMargin": -7.0, "eps": -9.09 },
+    { "year": "FY25", "revenue": 6302, "netProfit": 86, "patMargin": 1.4, "eps": 3.49 },
+    { "year": "FY26", "revenue": 7548, "netProfit": -296, "patMargin": -3.9, "eps": -13.25 }
+  ],
+  "ratios": [
+    { "label": "ROE", "value": "40.1% (last yr)", "tone": "warn", "hint": "artifact of a small, damaged equity base; 3Y ROE ~9%" },
+    { "label": "ROCE", "value": "26.8%", "tone": "warn", "hint": "recovered, but 3Y history deeply negative" },
+    { "label": "D/E", "value": "1.84", "tone": "bad", "hint": "high for a contractor" },
+    { "label": "Interest Coverage", "value": "~1.9x", "tone": "bad", "hint": "little cushion" },
+    { "label": "Operating Margin", "value": "~4%", "tone": "warn", "hint": "recovered from deeply negative" },
+    { "label": "Promoter pledge", "value": "27.6%", "tone": "bad", "hint": "of promoter holding" }
+  ],
+  "cashFlow": [
+    { "year": "FY24", "ocf": 538, "fcf": 538 },
+    { "year": "FY25", "ocf": 38, "fcf": 34 },
+    { "year": "FY26", "ocf": -257, "fcf": -268 }
+  ],
+  "cashFlowNote": "The cash flow tells the truth the P&L smudges. Operating cash was a healthy ₹538 crore in FY24, collapsed to ₹38 crore in FY25 even as the company reported a small profit, and turned to -₹257 crore in FY26. That is not the pattern of a business whose earnings are quietly compounding; it is the pattern of a volatile contractor whose cash swings with project timing and working capital. Over five years the reported cash-conversion looks acceptable only because it spans a period of losses, which makes the ratio misleading. The honest read is that cash generation here is erratic and was negative in the most recent year, which is dangerous in a business already carrying a D/E of 1.84 and interest cover under 2x.",
+  "growth": [
+    { "label": "Sales CAGR (5Y)", "value": "8%", "tone": "neutral" },
+    { "label": "Sales CAGR (3Y)", "value": "55%", "tone": "warn", "hint": "off the FY23 trough, not structural" },
+    { "label": "Profit CAGR (5Y)", "value": "Not meaningful", "tone": "bad", "hint": "measured across loss years" },
+    { "label": "Profit CAGR (3Y)", "value": "Not meaningful", "tone": "bad", "hint": "base years are losses" },
+    { "label": "Profit (TTM)", "value": "-₹281 cr", "tone": "bad", "hint": "trailing loss" }
+  ],
+  "management": "Ownership is the story, and it is a warning. The original promoter, the Shapoorji Pallonji group, cut its stake sharply, so promoter holding fell from about 67.6% to 45.7% over twelve quarters, and about 27.6% of the remaining promoter holding is pledged. Reliance (through Reliance New Energy) came in as a co-promoter and is the genuine positive here, bringing capital, credibility and a potential captive pipeline. But a large promoter sell-down and pledged shares are exactly the kind of insider behaviour that should make an outside investor cautious, whatever the reason. Meanwhile institutional ownership has been falling: FII holding fell from about 8.4% to 5.1% and DII holding also thinned, while retail ownership rose from 38% to 44%. Institutional money leaving while retail arrives is a distribution pattern worth understanding rather than dismissing.",
+  "holding": [
+    { "label": "Promoter", "pct": 45.73, "qoqChange": 0.0 },
+    { "label": "FII", "pct": 5.07, "qoqChange": -1.89 },
+    { "label": "DII", "pct": 4.80, "qoqChange": 1.61 },
+    { "label": "Public", "pct": 44.41, "qoqChange": 0.29 }
+  ],
+  "pledged": 27.6,
+  "moat": {
+    "strength": "none",
+    "sources": [
+      "Scale and a long global track record in solar EPC",
+      "Reliance parentage and a potential captive order pipeline"
+    ],
+    "note": "There is no moat in the standalone business. Solar EPC is a fixed-price, competitively tendered trade with no pricing power, which is precisely why a large, established firm was able to lose more than ₹2,000 crore across FY21 to FY24. Scale and reputation did not prevent that. The only real advantage on offer now is external: the backing of Reliance and the captive work a parent of that size could direct its way. That is a reason to watch the parent, not evidence that the business itself can defend returns."
+  },
+  "narrative": "Sterling & Wilson listed in 2019 as a solar EPC champion, then fell apart operationally: fixed-price project losses, cost overruns and a shrinking order book drove net losses of ₹290 crore in FY21, ₹916 crore in FY22, ₹1,175 crore in FY23 and ₹211 crore in FY24. Reliance stepped in as a co-promoter as the original Shapoorji Pallonji group sold down. Revenue has since rebounded hard, from ₹2,015 crore in FY23 to ₹7,548 crore in FY26, and operating profit has turned positive again. But the bottom line has not followed cleanly: FY25 managed a small ₹86 crore profit and FY26 swung back to a ₹296 crore loss on a large below-the-line charge. The stock has drifted down throughout, which is what makes a screen call it cheap and growing. The filings say turnaround-in-progress, with real risk still on the table.",
+  "risks": [
+    "Not actually profitable. The company is loss-making on a trailing basis, so the low reported P/E is an illusion; there is no earnings base to value yet. High.",
+    "Promoter sell-down and pledge. The original promoter cut its stake from 67.6% to 45.7% and 27.6% of promoter holding is pledged, both classic caution signals. High.",
+    "Leverage. D/E of about 1.84 with interest cover under 2x leaves little room if a project slips or the cycle turns. High.",
+    "Institutional exit. FII holding fell from 8.4% to 5.1% while retail rose to 44%, the distribution pattern where institutional sellers meet retail buyers. Medium to High.",
+    "Volatile cash and one-offs. Operating cash turned negative in FY26 and a large below-the-line charge pushed the year into a loss; earnings quality is low. High."
+  ],
+  "trapChecklist": [
+    { "label": "Cheap-and-growing screen reading", "note": "The low P/E sits on a trailing loss and the growth rate is measured off loss-year bases; the signal is an artifact", "status": "warn" },
+    { "label": "Promoter self-dilution", "note": "Original promoter cut holding 67.6% to 45.7% over twelve quarters", "status": "fail" },
+    { "label": "Pledged promoter shares", "note": "About 27.6% of promoter holding is pledged", "status": "fail" },
+    { "label": "FII exit into retail", "note": "FII 8.4% to 5.1% while retail rose 38% to 44%, a distribution pattern", "status": "fail" },
+    { "label": "Loss-making with volatile cash", "note": "TTM net loss ~₹281 crore; operating cash -₹257 crore in FY26", "status": "fail" },
+    { "label": "Leverage", "note": "D/E ~1.84, interest cover under 2x", "status": "warn" }
+  ],
+  "sectorChecklist": [
+    { "label": "Order book / pipeline", "note": "Recovery in revenue implies a rebuilt pipeline; Reliance captive work is the swing factor. Specific backlog not in this dataset", "status": "na" },
+    { "label": "POC / cash-flow forensics", "note": "Fixed-price EPC with volatile, recently negative operating cash; earnings quality low", "status": "warn" },
+    { "label": "Margin stability", "note": "Swung from deeply negative (FY21 to FY23) to low single digits; not yet proven stable", "status": "warn" },
+    { "label": "Leverage for a contractor", "note": "High, D/E ~1.84 with thin interest cover", "status": "fail" },
+    { "label": "End-market runway", "note": "Solar buildout is a genuine structural tailwind. But a growing end market does not guarantee good economics for the contractor building it: solar can boom while EPC firms destroy capital, exactly what FY21 to FY24 showed here", "status": "pass" }
+  ],
+  "summary": "Sterling & Wilson Renewable is a cautionary example of two ideas at once. First, a stock screen can be mathematically correct and economically meaningless: it appears cheap (low P/E) and growing (high profit-growth rate), but both are artifacts, because the company is loss-making on a trailing basis (so the P/E is dividing by a loss) and the growth rate is measured off years of deep losses. Second, a booming end market does not guarantee good economics for the companies building it: read the three layers separately, because they point in different directions. Solar demand is excellent. Sterling's operating recovery is real but unproven. And Sterling's shareholder economics are poor and uncertain: a leveraged, no-moat EPC contractor whose original promoter sold down from 67.6% to 45.7%, whose shares are 27.6% pledged, and whose institutions are exiting into retail. The one genuine positive is Reliance's parentage and the pipeline it could bring. This is a high-risk turnaround for those who understand exactly that, not a value buy. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+  "engine": {
+    "state": "both-stalling",
+    "earnings": "There is no reliable earnings engine to point to yet. Revenue has rebounded strongly and operating profit has turned positive, which is real progress, but net profit is still negative on a trailing basis, cash flow turned negative in FY26, and a large below-the-line charge sank the last full year. The high profit-growth rate a screen reports is a mathematical artifact of measuring from loss-year bases; it does not describe a compounding stream of earnings. Until net profit is positive, cash-backed and repeatable, the earnings engine is a hope, not a fact.",
+    "multiple": "The multiple signal is equally unreliable. A reported P/E of about 15 looks cheap, but it is computed against a number that is actually a loss, so it means nothing; on book value the stock trades at about 7 times, which is expensive, not cheap, for a thin-margin contractor. The de-rating over the past few years is real, but a falling price on a company that was busy losing money is not the same as a cheap price on a sound one. There is no honest multiple to anchor to here.",
+    "verdict": "So my honest read is a warning rather than a recommendation either way. Read carelessly, the two-engine screen flags Sterling & Wilson as cheap and growing. That is a false positive, and it is worth understanding why: the screen divides price by earnings, but here earnings are a loss, so the denominator is broken and the resulting P/E is noise. Read properly, both engines are stalled: earnings are not yet real, and on book value the stock is not even cheap. What you are actually looking at is a leveraged solar EPC turnaround whose original promoter is leaving, whose shares are heavily pledged, and whose institutions are selling to retail, with Reliance's backing as the single genuine reason it could still come good. That can work for an investor who explicitly wants a high-risk turnaround and is watching net profit, cash flow and the pledge. It is not the bargain the screen appears to promise."
+  },
+  "lenses": [
+    { "name": "Believe the action, not the words", "reading": "The clearest signal here is not in the P&L, it is in the share register. The original promoter cut its stake from about 67.6% to 45.7%, roughly a quarter of the company sold down, and left 27.6% of what remains pledged. At the same time foreign institutions cut their holding from 8.4% to 5.1% and retail ownership climbed to 44%. Ownership can shift for many reasons, and this is not proof of anything on its own. But when the founding promoter and institutions reduce exposure while retail increases it, that behaviour is a caution, and it raises the burden of proof for the recovery narrative." },
+    { "name": "The screen is a filter, not a verdict", "reading": "This company is the reason a two-engine screen has to be read rather than trusted. The two mechanics that flag a fallen stock whose earnings kept compounding, a low price-to-earnings and a high profit-growth rate, both misfire when a company has been loss-making: divide price by a negative or tiny earnings number and you can get any P/E you like, and measure growth from a loss year and the percentage explodes. The screen did its job by surfacing the name for a human to check. The check reveals the opposite of a bargain." },
+    { "name": "The backer is the real thesis", "reading": "Strip away the noise and the investable idea is simple: this is a bet on Reliance. The standalone solar EPC business has no moat and a proven ability to lose large sums, but a parent of Reliance's scale can supply capital, credibility and, crucially, a captive pipeline of solar work. If that pipeline materialises and operations convert to durable cash profit, the turnaround is real. If it does not, you are left holding a leveraged contractor. Either way, the thing to watch is not the screen, it is net profit, operating cash, the pledge, and how much work the parent actually directs here." }
+  ]
+}

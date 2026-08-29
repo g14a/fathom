@@ -121,7 +121,15 @@ export interface EconomicEngineStep {
 
 export interface CompanyMentalModel {
   model: string;        // "Trust"
-  strength: 1 | 2 | 3 | 4 | 5;
+  // Legacy star scale (importance/strength). Prefer `assessment` below: stars
+  // conflate "how much of this the company has" with "is that good", which
+  // misreads for weaknesses (a strong price-taker is a weakness, not 5 stars).
+  strength?: 1 | 2 | 3 | 4 | 5;
+  // Qualitative read of THIS lens: a short label (e.g. "Excellent", "Weak",
+  // "High risk", "Misleading"). `assessmentTone` colours it good/warn/bad;
+  // if omitted, the common words (Excellent/Strong/Mixed/Weak) map by default.
+  assessment?: string;
+  assessmentTone?: 'good' | 'warn' | 'bad';
   why: string;          // why it matters for this company
 }
 

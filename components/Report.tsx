@@ -247,6 +247,18 @@ function Stars({ value }: { value: number }) {
   );
 }
 
+const ASSESS_TONE: Record<string, 'good' | 'warn' | 'bad'> = {
+  Excellent: 'good', Strong: 'good', Mixed: 'warn', Weak: 'bad',
+};
+
+function ModelScore({ m }: { m: { strength?: number; assessment?: string; assessmentTone?: 'good' | 'warn' | 'bad' } }) {
+  if (m.assessment) {
+    const tone = m.assessmentTone ?? ASSESS_TONE[m.assessment] ?? 'warn';
+    return <span className={`model-assess t-${tone}`}>{m.assessment}</span>;
+  }
+  return <Stars value={m.strength ?? 0} />;
+}
+
 function EditorialModel({ r }: { r: TickerReport }) {
   if (!r.editorial) return null;
 
@@ -261,11 +273,11 @@ function EditorialModel({ r }: { r: TickerReport }) {
       </div>
 
       <div className="ed-heatmap">
-        <div className="ed-label">Mental model heatmap</div>
+        <div className="ed-label">{e.mentalModels.some((m) => m.assessment) ? 'Where the edge is (and isn’t)' : 'Mental model heatmap'}</div>
         <div className="model-rows">
           {e.mentalModels.map((m) => (
             <div key={m.model} className="model-row">
-              <div className="model-score"><Stars value={m.strength} /></div>
+              <div className="model-score"><ModelScore m={m} /></div>
               <div className="model-name">{m.model}</div>
               <div className="model-why">{m.why}</div>
             </div>
