@@ -6,7 +6,7 @@
   "sectorId": "infrastructure",
   "dataVariant": "Consolidated",
   "asOf": "2026-08-29",
-  "oneLiner": "A debt-free building contractor whose profit compounded while the stock fell a third, so the market is now valuing a proven builder at about 19 times earnings. The catch is that its quarters are lumpy, and it just printed a bad one.",
+  "oneLiner": "An effectively debt-free building contractor whose profit compounded while the stock fell a third, so the market is now valuing a proven builder at about 19 times earnings. The catch is that its quarters are lumpy, and it just printed a bad one.",
   "facts": {
     "snapshot": "Ahluwalia Contracts is a civil construction company. It is the main contractor that builds the physical structure of large buildings for others: hospitals, metro stations and depots, corporate offices, institutional campuses, hotels and residential complexes, for both government and private clients.",
     "hq": "New Delhi"
@@ -18,7 +18,8 @@
       { "label": "Cash conversion", "value": "Profit turns to cash (106%)", "tone": "good" },
       { "label": "Returns", "value": "ROE only ~14%", "tone": "warn" },
       { "label": "Latest quarter", "value": "Profit cratered to ₹10 cr", "tone": "warn" },
-      { "label": "Contingent liabilities", "value": "≈ 58% of market cap", "tone": "warn" },
+      { "label": "Order book", "value": "₹21,096 cr net, ~4.6x revenue", "tone": "good" },
+      { "label": "Disputed claims", "value": "Only ~₹174 cr (rest is routine BGs)", "tone": "good" },
       { "label": "Valuation", "value": "~19x earnings, de-rated", "tone": "good" }
     ],
     "keyQuestion": "The business is cheap and clean. The one thing that decides it: was the collapse in the June 2026 quarter a one-off pothole, or the first sign that execution and margins are slipping?"
@@ -26,19 +27,19 @@
   "overview": "Ahluwalia Contracts is a civil contractor. When a government or a developer wants a hospital, a metro depot, a college campus or an office tower built, Ahluwalia is the firm that pours the concrete and raises the structure to a fixed price and a deadline. It does not own the building or take the property risk. It gets paid to build, then moves to the next site. That is a hard, low-margin trade, but Ahluwalia has run it for decades with almost no debt and, unusually for a builder, it collects its cash. The interesting thing today is the price: the business kept growing while the stock fell about 30% in a year, which is why a proven builder now trades at 19 times earnings. Most of this report is about whether that gap is an opportunity or a warning.",
   "editorial": {
     "whyExists": "India is in a long building boom: metros, hospitals, airports, campuses and offices all need someone to actually construct them. Most owners cannot build at scale themselves, so they hand the job to a contractor who can manage thousands of workers, buy materials, and finish on time to a fixed price. Ahluwalia is one of the larger, older names that owners trust to do exactly that without the project blowing up.",
-    "whyNotAlreadyWon": "Because civil construction is fragmented and brutally competitive, and no builder ever wins it for good. Anyone with capital, engineers and a track record can bid, most jobs go to the lowest qualified price, and the client holds the money. What Ahluwalia has built instead of a monopoly is a reputation for finishing complex projects, a debt-free balance sheet that lets it fund work without drowning in interest, and the discipline to get paid. That keeps it in the game and off the rocks. It does not let it set prices.",
+    "whyNotAlreadyWon": "Because civil construction is fragmented and brutally competitive, and no builder ever wins it for good. Anyone with capital, engineers and a track record can bid, most jobs go to the lowest qualified price, and the client holds the money. What Ahluwalia has built instead of a monopoly is a reputation for finishing complex projects, an effectively debt-free balance sheet that lets it fund work without drowning in interest, and the discipline to get paid. That keeps it in the game and off the rocks. It does not let it set prices.",
     "whyNow": "The stock fell about 30% over the past year even as revenue kept rising, so the multiple compressed from the 20s to about 19 times earnings. Part of that is a sector-wide cooling after a construction re-rating, and part is company-specific: profit is lumpy, FY24 was flattered by a large one-off gain, and the June 2026 quarter was genuinely weak. The market is pricing in doubt. The question is whether that doubt is already more than paid for.",
-    "remember": "You are buying a debt-free builder that actually collects its cash, at a builder's ordinary price, right after a bad quarter scared people off. The reward and the risk are the same fact: its quarters are lumpy.",
+    "remember": "You are buying an effectively debt-free builder that actually collects its cash, at a builder's ordinary price, right after a bad quarter scared people off. The reward and the risk are the same fact: its quarters are lumpy.",
     "realBusiness": "Ahluwalia gets paid a fixed price to build someone else's structure on time, and its edge is not price but staying solvent and getting paid while rivals do not.",
     "economicEngine": [
       { "label": "Demand", "value": "India's building boom", "note": "Metros, hospitals, campuses, offices and homes all need a contractor. Tied to government and private capital spending." },
       { "label": "Revenue", "value": "Fixed-price projects", "note": "Each contract is booked as the work is completed, so revenue tracks how fast sites are executed." },
       { "label": "Margins", "value": "Thin, near 10% operating", "note": "A contractor's margin is slim by nature and moves with input costs, project mix and execution pace." },
-      { "label": "Capital", "value": "Working capital, not debt", "note": "Almost no borrowing. It gets paid faster than it pays suppliers, so the working-capital cycle is actually negative." },
+      { "label": "Capital", "value": "Working capital, not debt", "note": "Almost no borrowing. It gets paid faster than it pays suppliers, so the working-capital cycle is negative. FY26 saw a step-up in equipment capex (~₹266 crore) to mechanise and cut labour dependence, all self-funded." },
       { "label": "Returns", "value": "Cash-backed, but ~14% ROE", "note": "Profit reliably becomes cash, but returns on equity are ordinary, not high. It reinvests and pays a token dividend." }
     ],
     "mentalModels": [
-      { "model": "Survival / balance sheet", "assessment": "Excellent", "why": "Debt-free with interest cover near 9x, in a trade that regularly kills over-leveraged builders. Staying solvent is the whole game." },
+      { "model": "Survival / balance sheet", "assessment": "Excellent", "why": "Effectively debt-free with interest cover near 9x, in a trade that regularly kills over-leveraged builders. Staying solvent is the whole game." },
       { "model": "Customer trust", "assessment": "Strong", "why": "A decades-long record of finishing complex structures keeps owners handing it hospitals and metro depots to bid on." },
       { "model": "Working capital", "assessment": "Excellent", "why": "A negative cash cycle: it collects before it pays suppliers, so growth funds itself instead of eating cash." },
       { "model": "Pricing power", "assessment": "Weak", "why": "Work is won at the lowest qualified tender and the client controls payment. It can defend a margin, not set one." },
@@ -50,40 +51,44 @@
       { "model": "Pricing power", "reading": "Weak", "note": "Lowest qualified bid usually wins, and the client controls payment." },
       { "model": "Demand driver", "reading": "Structural but cyclical", "note": "India's infrastructure and building spend is a long runway, but order flow rises and falls with capital cycles." },
       { "model": "Cash conversion", "reading": "Strong for the sector", "note": "About 106% of profit became operating cash over five years, unusual for a builder." },
-      { "model": "Balance sheet", "reading": "Debt-free", "note": "D/E of 0.04 and interest cover near 9x, a genuine differentiator in construction." }
+      { "model": "Balance sheet", "reading": "Effectively debt-free", "note": "D/E of 0.04 and interest cover near 9x, a genuine differentiator in construction." }
     ],
     "strategicPosition": [
       { "label": "Large EPC and infra majors", "description": "Bigger, better-capitalised players that take the largest turnkey and design-build jobs", "tone": "strong" },
-      { "label": "Ahluwalia Contracts", "description": "A mid-size, debt-free building specialist trusted with complex structures, disciplined on cash", "tone": "focus" },
+      { "label": "Ahluwalia Contracts", "description": "A mid-size, effectively debt-free building specialist trusted with complex structures, disciplined on cash", "tone": "focus" },
       { "label": "Small regional contractors", "description": "A fragmented tail competing hard on price for simpler local work", "tone": "weak" }
     ],
     "winningToday": [
       "Revenue has grown from ₹2,692 crore in FY22 to ₹4,565 crore in FY26, about 18% a year over five years.",
       "The balance sheet is effectively debt-free, with interest cover near 9x.",
       "Over five years about 106% of reported profit turned into operating cash, and free cash flow was positive every year.",
-      "Debtor days fell from 144 to 59, and the working-capital cycle is negative: it collects before it pays."
+      "Debtor days fell from 144 to 59, and the working-capital cycle is negative: it collects before it pays.",
+      "A net order book of about ₹21,096 crore (~4.6x revenue), including marquee jobs like Central Vista and the CSMT redevelopment, giving years of forward visibility.",
+      "Net worth crossed ₹2,000 crore in FY26, and the statutory audit is clean and unmodified."
     ],
     "stopWinning": [
-      "Profit is lumpy: FY24 was flattered by a large one-off other income, and the June 2026 quarter collapsed to ₹10 crore.",
+      "Profit is lumpy: FY24 was flattered by a one-off ₹195 crore exceptional gain (an arbitration award recovered from a customer), and the June 2026 quarter collapsed to ₹10 crore.",
       "Returns on equity are only about 14%, so this is a steady business, not a high-return compounder.",
       "Work is won on competitive tenders, so margins can be squeezed by input costs and aggressive bidding.",
-      "Contingent liabilities of about ₹2,507 crore, roughly 58% of market cap, sit off the reported balance sheet and are worth watching."
+      "A large headline contingent-liability number (~₹3,161 crore), though nearly all of it is routine bank guarantees, with only ~₹174 crore in genuinely disputed claims."
     ],
     "marketBets": [
       "India's building and infrastructure spend keeps order inflows healthy.",
       "The weak June 2026 quarter proves a pothole, not a trend, and margins normalise.",
-      "The debt-free, cash-collecting discipline holds as the company scales.",
+      "The effectively debt-free, cash-collecting discipline holds as the company scales.",
       "The multiple that compressed to ~19x re-rates as steady execution returns."
     ]
   },
   "business": {
     "unitOfRevenue": "One construction project, priced as a fixed-price contract and recognised as the work gets done. A project might be a hospital, a cluster of metro stations and a depot, an institutional campus or a residential tower. Bigger, more complex structures carry more value, but the margin on each is thin and set at the bidding stage.",
-    "revenueModel": "Fixed-price contracting. Ahluwalia wins a tender, builds the structure over one to three years, and books revenue as the work is completed. It carries an order book of live projects that gives forward visibility, and it is paid in stages against certified progress.",
+    "revenueModel": "Fixed-price contracting. Ahluwalia wins a tender, builds the structure over one to three years, and books revenue as the work is completed. It is paid in stages against certified progress. The forward visibility is real and now large: the net unexecuted order book stood at about ₹21,096 crore at end-FY26 (gross ₹29,676 crore), roughly 4.6 times the year's revenue, after fresh orders of about ₹10,257 crore were won during FY26.",
     "segments": [
-      { "name": "Buildings (institutional, commercial, residential)", "pct": 85, "marginProfile": "The core: hospitals, campuses, offices, hotels and homes for government and private owners." },
-      { "name": "Infrastructure (metro, depots, urban civil)", "pct": 15, "marginProfile": "Metro stations, depots and related urban civil work; project-specific margins." }
+      { "name": "Residential", "pct": 40, "marginProfile": "The largest slice of the order book at 39.7%. Housing for private developers." },
+      { "name": "Infrastructure", "pct": 30, "marginProfile": "29.9% of the order book. Metro, airports, stations and urban civil work, including Central Vista and CSMT." },
+      { "name": "Commercial", "pct": 18, "marginProfile": "17.6% of the order book. Offices and commercial complexes." },
+      { "name": "Hospital / Institutional / Hotel", "pct": 13, "marginProfile": "Hospitals 6.3%, institutional 5.9% and hotels 0.6% of the order book; specialised, often government-linked work." }
     ],
-    "revenuePerUnitTrend": "Value per job rises as Ahluwalia takes larger, more complex structures, but this is not premiumisation: the margin is capped at the tender. The segment split above is indicative of the building-heavy mix rather than an exact disclosed breakup.",
+    "revenuePerUnitTrend": "Value per job rises as Ahluwalia takes larger, more complex structures, but this is not premiumisation: the margin is capped at the tender. The split above is the disclosed order-book composition at end-FY26, not the revenue mix, and it shows a genuinely diversified book across residential, infrastructure and commercial rather than a single dominant end-market. Helpfully, most contracts now carry escalation clauses, which pass a chunk of input-cost inflation back to the client and soften the usual fixed-price risk.",
     "industry": {
       "structure": "Fragmented and competitive. Many contractors bid for the same public and private building work, and no firm holds durable share.",
       "competitors": "A wide field, from large EPC and infrastructure majors on the biggest turnkey jobs down to numerous regional building contractors on smaller work.",
@@ -126,15 +131,15 @@
     { "year": "FY25", "ocf": 359, "fcf": 171 },
     { "year": "FY26", "ocf": 281, "fcf": 16 }
   ],
-  "cashFlowNote": "This is the quiet strength of the story. Unlike most contractors, whose profit sits stranded in receivables and unpaid bills, Ahluwalia actually collects. Operating cash was ₹257 crore in FY24, ₹359 crore in FY25 and ₹281 crore in FY26, and over five years roughly 106% of reported profit became operating cash, so the earnings are real money, not paper. The working-capital cycle is negative, meaning it gets paid before it pays its own suppliers, which is why growth has not needed debt. The one thing to watch is free cash flow in FY26, which fell to ₹16 crore as spending on equipment and working capital rose; operating cash was still strong, but the surplus after investment thinned. In a sector littered with cash traps, this is the cleaner end of the pool.",
+  "cashFlowNote": "This is the quiet strength of the story. Unlike most contractors, whose profit sits stranded in receivables and unpaid bills, Ahluwalia actually collects. Operating cash was ₹257 crore in FY24, ₹359 crore in FY25 and ₹281 crore in FY26, and over five years roughly 106% of reported profit became operating cash, so the earnings are real money, not paper. The working-capital cycle is negative, meaning it gets paid before it pays its own suppliers, which is why growth has not needed debt. The one thing to watch is free cash flow in FY26, which fell to ₹16 crore, and the reason is deliberate: capex jumped to about ₹266 crore (from ₹189 crore in FY25), roughly four times the ₹67 crore depreciation charge. This is not maintenance spend, it is a growth bet, a self-funded push into mechanisation and equipment to cut the company's dependence on manual labour after a year when labour shortages hurt margins. Is that capex 'goated'? Not yet. It is prudent (effectively debt-free, funded from internal cash, fed by a ₹21,000 crore order book) and strategically sensible, but the returns have not shown up: ROCE dipped to about 20% from the mid-20s, and the equipment is not yet earning. Management guides double-digit EBITDA margins in FY27 versus 9.5% now; that margin response is the test of whether this capex compounds or just sits. In a sector littered with cash traps, this is the cleaner end of the pool, and the FY26 free-cash dip is investment, not distress.",
   "growth": [
     { "label": "Sales CAGR (5Y)", "value": "18%", "tone": "good" },
     { "label": "Sales CAGR (3Y)", "value": "17%", "tone": "good" },
-    { "label": "Profit CAGR (5Y)", "value": "28%", "tone": "good", "hint": "flattered by a low base and FY24 one-off" },
+    { "label": "Profit CAGR (5Y)", "value": "28%", "tone": "good", "hint": "flattered by a low base and a FY24 one-off arbitration gain" },
     { "label": "Profit CAGR (3Y)", "value": "11%", "tone": "neutral" },
     { "label": "Profit growth (TTM)", "value": "1%", "tone": "warn", "hint": "stalled, weak June quarter" }
   ],
-  "management": "Ahluwalia Contracts is controlled by the founding Ahluwalia family, which holds about 55.3% and has not moved that stake at all across the last twelve quarters, a reassuring sign of no self-dilution. The style the numbers reveal is a careful operator's: run debt-free, fund growth from a negative working-capital cycle, collect receivables hard, and pay only a token dividend while reinvesting. That conservatism is exactly what keeps contractors alive through downturns. The fair watch-items are the ordinary ones for the sector: the large contingent liabilities of about ₹2,507 crore, and whether margins and execution hold after a soft patch. This is management that protects the balance sheet first, which in construction is the right instinct.",
+  "management": "Ahluwalia Contracts is controlled by the founding Ahluwalia family, led by chairman and managing director Bikramjit Ahluwalia, which holds about 55.3% and has not moved that stake at all across the last twelve quarters, a reassuring sign of no self-dilution. The style the numbers reveal is a careful operator's: run effectively debt-free, fund growth from a negative working-capital cycle, collect receivables hard, and pay only a token dividend while reinvesting. A read of four years of annual reports turns up no extraction red flags: the statutory audit is clean and unmodified, and the related-party dealings are small and disclosed. The main ones are family rentals (property rented from the CMD, his wife and daughter for roughly ₹2 crore a year in total), a ₹0.58 crore purchase of goods from a firm owned by the CMD's daughter, and a ₹2.8 crore technical-consultancy fee to a joint venture. There are no loans or advances to the promoter, and no tax-haven subsidiaries. The subsidiaries carry odd non-construction names (Dipesh Mining, Premsagar Merchants, Splendor Distributors), but they are wholly owned, domestic and immaterial. The fair watch-items are the ordinary ones for the sector: whether margins and execution hold after a soft patch, and whether the stepped-up capex earns its keep. This is management that protects the balance sheet first, which in construction is the right instinct.",
   "holding": [
     { "label": "Promoter", "pct": 55.32, "qoqChange": 0.0 },
     { "label": "FII", "pct": 14.05, "qoqChange": 0.31 },
@@ -145,17 +150,17 @@
     "strength": "narrow",
     "sources": [
       "A decades-long record of finishing complex structures, which owners trust",
-      "A debt-free balance sheet that lets it bid and build without leverage risk",
+      "An effectively debt-free balance sheet that lets it bid and build without leverage risk",
       "Discipline on receivables and a negative working-capital cycle",
       "Pre-qualification credentials for large government and institutional jobs"
     ],
     "note": "Calling this a moat is generous, and narrow is the honest reading. The advantage is not pricing power, it is survival power: reputation gets Ahluwalia to the table for complex jobs, and a clean balance sheet keeps it there while over-leveraged rivals fail. But the work is still won on competitive tenders where the lowest qualified bid usually takes it, and the client holds the money. Trust and solvency here buy the right to compete, not the power to set the price."
   },
-  "narrative": "Ahluwalia has grown revenue from ₹2,692 crore in FY22 to ₹4,565 crore in FY26, roughly 18% a year, while staying almost entirely debt-free. Profit, though, has been anything but smooth: ₹155 crore in FY22, then ₹375 crore in FY24 flattered by a large one-off other income, back down to ₹202 crore in FY25, up to ₹266 crore in FY26, and a trailing figure now around ₹225 crore. The June 2026 quarter was the jolt: operating margin fell to about 4% and net profit collapsed to ₹10 crore. Over the same year the stock fell about 30%, so a business that kept compounding on the top line is now priced at 19 times earnings. The market is treating the lumpiness as a warning.",
+  "narrative": "Ahluwalia has grown revenue from ₹2,692 crore in FY22 to ₹4,565 crore in FY26, roughly 18% a year, while staying almost entirely debt-free. Profit, though, has been anything but smooth: ₹155 crore in FY22, then ₹375 crore in FY24 flattered by a one-off ₹195 crore exceptional gain (an arbitration award and settlement recovered from a customer, Note 57), back down to ₹202 crore in FY25, up to ₹266 crore in FY26, and a trailing figure now around ₹225 crore. Strip the arbitration gain out and FY24's underlying profit was closer to ₹230 crore, in line with FY26, so the real trend is steadier and lower than the headline suggests. The June 2026 quarter was the jolt: operating margin fell to about 4% and net profit collapsed to ₹10 crore, hit by post-election labour shortages, input-cost inflation, Gulf supply-chain disruption and NGT construction curbs in the NCR. Over the same year the stock fell about 30%, so a business that kept compounding on the top line, and won ₹10,257 crore of fresh orders, is now priced at 19 times earnings. The market is treating the lumpiness as a warning.",
   "risks": [
     "Lumpy earnings. Profit swings hard on execution pace and one-offs; FY24 was flattered by a large gain and the June 2026 quarter collapsed to ₹10 crore. Whether that is a pothole or a trend is the central question. High.",
-    "Thin, tender-driven margins. Work is won at the lowest qualified bid and input costs move against everyone, so operating margin near 10% can be squeezed. Medium.",
-    "Contingent liabilities. About ₹2,507 crore, roughly 58% of the ₹4,295 crore market cap, sits off the reported balance sheet as guarantees and disputed claims. It is not debt, but the scale is large enough that a bad outcome would matter. Medium.",
+    "Thin, tender-driven margins. Work is won at the lowest qualified bid, so operating margin near 10% can be squeezed, though escalation clauses in most contracts now pass some input-cost inflation back to clients and cushion this. Medium.",
+    "Contingent liabilities look alarming at first glance (about ₹3,161 crore at FY26, ~74% of market cap) but decompose reassuringly: roughly ₹2,987 crore is routine bank guarantees and performance bonds that every contractor posts to win work, not disputed money. The genuinely contested tax and legal claims are only about ₹174 crore (~4% of market cap), the largest being a ₹55 crore provident-fund demand and ₹72 crore of service-tax disputes, which management expects to win. Low to Medium.",
     "Order-flow cyclicality. Revenue depends on winning fresh contracts, which rises and falls with government budgets and the capital cycle. Medium.",
     "Ordinary returns. ROE of about 14% means this compounds slowly even when it works; it is a steady builder, not a high-return machine. Low to Medium."
   ],
@@ -163,27 +168,27 @@
     { "label": "Promoter holding steady", "note": "About 55.3%, unchanged across twelve quarters; no self-dilution", "status": "pass" },
     { "label": "Debt and leverage", "note": "Effectively debt-free, D/E 0.04, interest cover near 9x", "status": "pass" },
     { "label": "Cash conversion", "note": "About 106% of profit became operating cash over five years; FCF positive every year", "status": "pass" },
-    { "label": "One-off in reported profit", "note": "FY24 profit was flattered by a large other income; underlying trend is smoother and lower", "status": "warn" },
+    { "label": "One-off in reported profit", "note": "FY24 profit of ₹375 cr included a ₹195 cr exceptional gain (arbitration award recovered from a customer); underlying profit was ~₹230 cr, near FY26", "status": "warn" },
     { "label": "Lumpy quarter", "note": "June 2026 profit collapsed to ₹10 crore on a ~4% operating margin; watch for a trend", "status": "warn" },
-    { "label": "Contingent liabilities", "note": "About ₹2,507 crore of off-balance-sheet guarantees and claims, roughly 58% of market cap", "status": "warn" }
+    { "label": "Contingent liabilities", "note": "Headline ~₹3,161 cr at FY26 but ~₹2,987 cr is routine bank guarantees / performance bonds; genuinely disputed tax and legal claims are only ~₹174 cr", "status": "pass" }
   ],
   "sectorChecklist": [
-    { "label": "Order book visibility", "note": "Order-book visibility is one of the most important variables for a contractor, but this report does not have a reliable current backlog figure, so it will not pretend to quantify it. Watch order inflows in the results", "status": "na" },
+    { "label": "Order book visibility", "note": "Net unexecuted order book ~₹21,096 cr at end-FY26 (gross ~₹29,676 cr), about 4.6x annual revenue; ₹10,257 cr of fresh orders won in FY26 and L1 on two more worth ₹1,621 cr. Strong multi-year visibility", "status": "pass" },
     { "label": "Working capital", "note": "Negative cycle: collects before it pays; debtor days down from 144 to 59", "status": "pass" },
     { "label": "POC / cash-flow forensics", "note": "Profit converts to cash (~106% 5Y), the opposite of the classic EPC receivables trap", "status": "pass" },
     { "label": "Margin stability", "note": "Operating margin around 10% but slipped to ~4% in the June 2026 quarter", "status": "warn" },
-    { "label": "Leverage for a contractor", "note": "Debt-free, which is a genuine differentiator in construction", "status": "pass" }
+    { "label": "Leverage for a contractor", "note": "Effectively debt-free, which is a genuine differentiator in construction", "status": "pass" }
   ],
-  "summary": "Ahluwalia Contracts is the cleaner end of Indian contracting: a debt-free, decades-old builder that, unusually, actually collects its cash, now trading at about 19 times earnings after a 30% fall. The business kept growing on the top line while the multiple compressed, which is what makes the setup interesting. The honest catch is that returns are ordinary (ROE ~14%), earnings are lumpy, and the June 2026 quarter was genuinely weak, so the derating is not baseless. This is a bet that a disciplined operator's soft patch is temporary and the price already pays for the doubt. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+  "summary": "Ahluwalia Contracts is the cleaner end of Indian contracting: an effectively debt-free, decades-old builder that, unusually, actually collects its cash, now trading at about 19 times earnings after a 30% fall. The business kept growing on the top line, with a ₹21,000 crore order book (~4.6x revenue) behind it, while the multiple compressed, which is what makes the setup interesting. The honest catch is that returns are ordinary (ROE ~14%), earnings are lumpy, and the June 2026 quarter was genuinely weak, so the derating is not baseless. This is a bet that a disciplined operator's soft patch is temporary and the price already pays for the doubt. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
   "engine": {
     "state": "earnings-engine",
-    "earnings": "The earnings engine is real but bumpy. Revenue has compounded about 18% a year and the balance sheet is debt-free, and crucially the profit becomes cash, which is what actually compounds. But the profit line itself is lumpy: FY24 was flattered by a one-off, FY25 fell back, and the June 2026 quarter collapsed to ₹10 crore. So the engine is genuine, but it does not run smoothly, and the near-term catalyst is simply whether execution and margins normalise from that weak quarter. There is no exotic driver here, just a builder building.",
+    "earnings": "The earnings engine is real but bumpy. Revenue has compounded about 18% a year and the balance sheet is effectively debt-free, and crucially the profit becomes cash, which is what actually compounds. But the profit line itself is lumpy: FY24 was flattered by a ₹195 crore one-off arbitration gain, FY25 fell back, and the June 2026 quarter collapsed to ₹10 crore. So the engine is genuine, but it does not run smoothly. What it does have is fuel: a net order book of about ₹21,096 crore, roughly 4.6 times revenue, plus marquee wins like Central Vista and CSMT, which gives real forward visibility. The near-term catalyst is simply whether execution and margins normalise from that weak quarter. There is no exotic driver here, just a builder with years of work booked.",
     "multiple": "The multiple is where the opportunity sits. At about 19 times earnings and 2 times book, Ahluwalia is priced as an ordinary contractor, not a story stock, after de-rating roughly 30% over the past year. That compression is the whole point: unlike most names in this screen, you are not paying a premium for a narrative. If earnings simply steady, the low multiple means EPS growth alone drives the return, and any re-rating is free optionality. The risk is that the market is right and the multiple compressed because earnings quality is slipping.",
-    "verdict": "My honest read: this is a rare thing in Indian construction, a debt-free builder that collects its cash, available at a builder's ordinary price right after a scare. The two engines point the right way, business compounding while the multiple compressed, which is what makes the setup unusually asymmetric. What holds me back from calling it clean is the June 2026 quarter and an ROE of only 14%: the derating is not irrational, it is pricing real lumpiness. So the decision hinges on one judgement, whether that weak quarter was a pothole or the first tremor. If the next two or three quarters show margins and profit snapping back to the FY26 run-rate, then 19 times earnings could prove cheap for a debt-free, cash-generating builder."
+    "verdict": "My honest read: this is a rare thing in Indian construction, an effectively debt-free builder that collects its cash, available at a builder's ordinary price right after a scare. The two engines point the right way, business compounding while the multiple compressed, which is what makes the setup unusually asymmetric. What holds me back from calling it clean is the June 2026 quarter and an ROE of only 14%: the derating is not irrational, it is pricing real lumpiness. So the decision hinges on one judgement, whether that weak quarter was a pothole or the first tremor. If the next two or three quarters show margins and profit snapping back to the FY26 run-rate, then 19 times earnings could prove cheap for an effectively debt-free, cash-generating builder."
   },
   "lenses": [
-    { "name": "Survival power, not pricing power", "reading": "The thing to understand about Ahluwalia is that its edge is defensive. It cannot charge more than the next bidder, because tenders go to the lowest qualified price. What it can do is stay debt-free and get paid while leveraged rivals choke on their own receivables and interest. In a trade that regularly kills contractors, being the one that does not die is worth a lot, but it is a reason to survive and grow steadily, not a reason to earn high returns." },
+    { "name": "Survival power, not pricing power", "reading": "The thing to understand about Ahluwalia is that its edge is defensive. It cannot charge more than the next bidder, because tenders go to the lowest qualified price. What it can do is stay effectively debt-free and get paid while leveraged rivals choke on their own receivables and interest. In a trade that regularly kills contractors, being the one that does not die is worth a lot, but it is a reason to survive and grow steadily, not a reason to earn high returns." },
     { "name": "The foreshock question", "reading": "The June 2026 quarter is the fact that matters most right now. Net profit fell to ₹10 crore and the operating margin to about 4%, after a long run of far healthier numbers. One weak quarter is not a trend, but the whole investment case turns on which it is. If the next quarter or two rebound, this was a pothole and the cheap price is a gift. If weakness persists, the market's 30% derating was an early warning, not an overreaction. Count the quarters before concluding." },
-    { "name": "A cheap price that assumes the worst", "reading": "Ask what a 19-times-earnings, 2-times-book multiple is actually saying about a debt-free builder that converts profit to cash. It is saying the market expects little: ordinary returns, lumpy earnings, and no re-rating. That is a low bar to clear. The fragile part of most stocks is a demanding valuation with no room for a bad year; here it is almost the reverse. The price already contains a bad year. The risk is not that expectations are too high, it is that even these low expectations prove too generous if execution keeps slipping." }
+    { "name": "A cheap price that assumes the worst", "reading": "Ask what a 19-times-earnings, 2-times-book multiple is actually saying about an effectively debt-free builder that converts profit to cash. It is saying the market expects little: ordinary returns, lumpy earnings, and no re-rating. That is a low bar to clear. The fragile part of most stocks is a demanding valuation with no room for a bad year; here it is almost the reverse. The price already contains a bad year. The risk is not that expectations are too high, it is that even these low expectations prove too generous if execution keeps slipping." }
   ]
 }

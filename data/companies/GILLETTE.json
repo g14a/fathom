@@ -1,0 +1,192 @@
+{
+  "ticker": "GILLETTE",
+  "company": "Gillette India Ltd",
+  "sector": "Fast Moving Consumer Goods",
+  "industry": "Grooming & Personal Care",
+  "sectorId": "fmcg",
+  "dataVariant": "Standalone",
+  "asOf": "2026-08-29",
+  "oneLiner": "A near-monopoly on how Indian men shave, with a 91% return on capital and margins that keep climbing, but growth is slow, a slice of profit leaks to its parent P&G, and you pay 37 times earnings to own a business you effectively rent.",
+  "facts": {
+    "snapshot": "Gillette India sells razors, blades, shaving creams and gels, and oral-care products (Oral-B). It is the Indian arm of the American consumer giant Procter & Gamble, which owns 75% of it, and it dominates the country's wet-shaving market.",
+    "founded": "1984",
+    "hq": "Mumbai"
+  },
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Near-monopoly, razor-and-blades", "tone": "good" },
+      { "label": "Returns", "value": "91% ROCE, 66% ROE", "tone": "good" },
+      { "label": "Balance sheet", "value": "Debt-free, near-full payout", "tone": "good" },
+      { "label": "Growth", "value": "Slow topline (~8-13%)", "tone": "warn" },
+      { "label": "Parent economics", "value": "P&G sets both sides", "tone": "warn" },
+      { "label": "Valuation", "value": "~37x earnings, de-rated 28% in 1Y", "tone": "warn" }
+    ],
+    "keyQuestion": "The business has a near-monopoly with spectacular returns. The real question is whether a mature, slow-growing category can justify 37 times earnings, and how much of the recent profit surge is real versus a margin and accounting-calendar effect."
+  },
+  "overview": "Gillette India is how most Indian men shave. It sells the razors and, more importantly, the blades that fit them, plus shaving creams and gels and the Oral-B toothbrush range. It is 75% owned by Procter & Gamble, the American consumer giant, and it enjoys the kind of dominance in wet shaving that few consumer companies anywhere can match. The economics are a textbook: the razor handle is the entry point, and the recurring money is in the blades that only fit it, sold at a fat margin for years. The result is a 91% return on capital and margins that keep rising. Two things stop this from being a simple story. The category is mature and growing slowly, and the recent jump in profit is flattered by both margin gains and a change in the company's financial year. Most of this report is about separating the genuine franchise from the optical growth.",
+  "editorial": {
+    "whyExists": "Shaving is a recurring need, and doing it with a blade requires a razor, cream and replacement cartridges that are precisely engineered and, crucially, not interchangeable between brands. Once a man buys a Gillette handle, the blades he must keep buying are Gillette's too. P&G spent decades and enormous R&D building that razor system and the brand trust around it, and Gillette India exists to sell it to the world's second-largest population of men.",
+    "whyNotAlreadyWon": "Someone did win it: Gillette already has it. The question is why no one has taken it away, and the answer is the razor-and-blades lock-in plus brand and distribution that would cost a fortune to replicate. A rival must persuade a man to switch his handle, match P&G's blade engineering, and get onto millions of shelves, all to attack a category with thin absolute spend per user. The one force that can hurt Gillette is not a competitor at all; it is men shaving less often, as beards and electric trimmers spread. That attacks the frequency of blade purchases, not the brand.",
+    "whyNow": "The stock fell about 28% over the past year, one of the sharper de-ratings among quality FMCG names, even as reported profit jumped. That gap is the interesting part. Some of the profit surge is genuine margin expansion, and some is an artefact of the company shifting its financial year from June-end to March-end, which makes recent year-on-year numbers look better than the underlying trend. The market seems to be discounting both the optical growth and the slow real growth of a mature category, while the multiple resets from very high to merely high.",
+    "remember": "You are buying the blades, not the razor. The genius is the lifetime of cartridges, but the man buying them is shaving less often than his father did, and P&G takes a cut off the top.",
+    "realBusiness": "Gillette sells cheap razor handles to lock a man into a lifetime of high-margin blades that only fit them, and keeps almost all the cash it earns.",
+    "economicEngine": [
+      { "label": "Demand", "value": "Men shaving, and grooming up", "note": "Blade purchases plus premiumisation into better razor systems. Mature category, slow volume growth." },
+      { "label": "Revenue", "value": "Blades x frequency x price", "note": "Recurring cartridge sales at a fat margin, with mix shifting to premium systems. Grooming is ~80%+ of revenue." },
+      { "label": "Margins", "value": "Rising, near 30% operating", "note": "Operating margin has climbed from ~21% to ~30% in four years on premiumisation and cost control." },
+      { "label": "Capital", "value": "Almost none needed", "note": "Debt-free, light on assets. A blade factory and a brand throw off cash without much reinvestment." },
+      { "label": "Returns", "value": "91% ROCE, ~all paid out", "note": "Returns are extraordinary, and because so little capital is needed, most profit is paid as dividends." }
+    ],
+    "mentalModels": [
+      { "model": "Razor-and-blades lock-in", "assessment": "Excellent", "why": "The handle is the entry point; the recurring high-margin blades fit only Gillette. A textbook installed-base annuity." },
+      { "model": "Brand and distribution", "assessment": "Strong", "why": "Gillette is synonymous with shaving in India, on millions of shelves, backed by P&G's scale and R&D." },
+      { "model": "Return on capital", "assessment": "Excellent", "why": "91% ROCE and 66% ROE; it needs almost no capital to run and compounds cash effortlessly." },
+      { "model": "Category growth", "assessment": "Weak", "why": "Wet shaving is mature and penetrated; 3-year sales growth is only ~11%, and beards and trimmers cap frequency." },
+      { "model": "Parent economics", "assessment": "Mixed", "why": "P&G owns 75%, supplies ~₹448 cr of goods (14% of sales) and charges rising service fees, so it shapes Gillette India's margin from both sides. Royalty itself is only ~1% of sales." },
+      { "model": "Reported-growth quality", "assessment": "Mixed", "why": "The recent profit jump is flattered by margin expansion and a June-to-March financial-year change, not pure volume." }
+    ],
+    "sectorModels": [
+      { "model": "Industry structure", "reading": "Near-monopoly", "note": "Gillette dominates Indian blades and razors; the category is estimated around ₹3,300 crore." },
+      { "model": "Pricing power", "reading": "Strong", "note": "Brand and lock-in allow steady price and premium-mix increases, unusual pricing power for FMCG." },
+      { "model": "Demand driver", "reading": "Mature", "note": "Grooming demand is structural but penetrated; growth is premiumisation more than new users." },
+      { "model": "Cash conversion", "reading": "High", "note": "Operating cash tracks profit; near-full dividend payout." },
+      { "model": "Balance sheet", "reading": "Debt-free", "note": "No borrowings, minimal capital employed, hence the sky-high returns on capital." }
+    ],
+    "strategicPosition": [
+      { "label": "Trimmers and D2C brands", "description": "Electric trimmers and newer grooming brands nibbling at wet-shaving frequency", "tone": "strong" },
+      { "label": "Gillette India", "description": "The dominant wet-shaving franchise, premiumising, with monopoly-like share and returns", "tone": "focus" },
+      { "label": "Local and value razors", "description": "Cheaper local blades competing at the bottom on price", "tone": "weak" }
+    ],
+    "winningToday": [
+      "A dominant, near-monopoly share of India's blades and razors, at its highest-ever level.",
+      "Operating margin up from about 21% to about 30% in four years on premiumisation and cost control.",
+      "Extraordinary returns: about 91% ROCE and 66% ROE, on a debt-free balance sheet.",
+      "Almost all profit converts to cash and is paid out, with a payout often near or above 100%."
+    ],
+    "stopWinning": [
+      "The category is mature: three-year sales growth is only about 11%, and beards and electric trimmers reduce shaving frequency.",
+      "Part of the recent profit jump is optical, flattered by margin gains and a June-to-March financial-year change.",
+      "P&G's 75% ownership means it supplies ~14% of sales as goods and charges rising service fees, so intra-group pricing shapes the minority's margin (the royalty itself is only ~1% of sales).",
+      "A premium ~37x multiple on a slow-growing business leaves little room for disappointment."
+    ],
+    "marketBets": [
+      "Premiumisation keeps lifting revenue per shave even as volumes grow slowly.",
+      "Margins hold near their new, higher level rather than reverting.",
+      "Beards and trimmers stay a slow drift, not a sharp break in shaving frequency.",
+      "The market keeps paying a premium multiple for the quality and the P&G pedigree."
+    ]
+  },
+  "business": {
+    "unitOfRevenue": "One razor cartridge, cream tube or oral-care pack sold. The economic heart of it is the blade: a man buys a handle once and then replacement cartridges repeatedly, at a high margin, for years. Premium razor systems raise the revenue and margin per shave without needing a new customer.",
+    "revenueModel": "Consumer staples sales through a vast retail and distribution network, but with an installed-base twist. The razor handle is the entry point that locks the customer into proprietary blades, so much of the revenue is recurring cartridge sales. Grooming (razors and blades) is more than 80% of revenue; oral care (Oral-B) is the rest.",
+    "segments": [
+      { "name": "Grooming (razors, blades, creams)", "pct": 82, "marginProfile": "The core monopoly. Recurring high-margin blade sales with premium-system upside." },
+      { "name": "Oral care (Oral-B)", "pct": 18, "marginProfile": "Toothbrushes and related products; smaller, more competitive, lower share." }
+    ],
+    "revenuePerUnitTrend": "Revenue per shave is rising, and it is the main growth lever. With volumes in a mature category growing slowly, Gillette leans on premiumisation, moving customers up to better, pricier razor systems, and on periodic price increases its brand allows. That is why margins have expanded so sharply. The split above is indicative; grooming is the dominant, margin-rich engine.",
+    "industry": {
+      "structure": "Near-monopoly in wet shaving. Gillette holds a dominant, record share of the Indian blades-and-razors category, estimated at around ₹3,300 crore.",
+      "competitors": "Local value blades compete at the bottom on price; the more meaningful competition is indirect, from electric trimmers and beard grooming that reduce how often men shave.",
+      "pricingPower": "Strong, and rare for FMCG. Brand trust and the razor-and-blades lock-in let Gillette raise prices and push premium systems, which is how margins have climbed.",
+      "demandDriver": "The number of men shaving, how often they shave, and how much they spend per shave. The first is stable, the second is under mild pressure, the third is Gillette's growth lever.",
+      "driverType": "Structural but mature: grooming demand is durable, but the category is well penetrated, so growth is premiumisation more than new users.",
+      "tam": "A grooming and oral-care market worth several thousand crore and growing at mid-single to low-double digits, with premiumisation the main driver. Exact figures vary by source.",
+      "valueChainPosition": "A branded consumer-products maker sitting on top of P&G's global R&D and supply chain. That pedigree is an advantage, but it also means a slice of the economics flows back to the parent.",
+      "penetration": "High in urban wet shaving; the remaining runway is premium mix and rural reach more than a large body of first-time users."
+    },
+    "qualityVerdict": "Gillette is a genuinely exceptional business: a near-monopoly with pricing power, a recurring blade annuity, 91% return on capital and margins that keep rising, all with no debt. If the question is quality, it is close to the top of the Indian FMCG list. Two honest qualifications shape the investment case. First, it is a mature, slow-growing category, so the spectacular profit growth of the last couple of years is partly margin expansion and partly an accounting-calendar effect, not durable volume. Second, it is 75% owned by P&G, which supplies much of the product it sells (about ₹448 crore, 14% of sales) and charges it rising service fees, so the parent's internal pricing, more than the tiny royalty, shapes the margin that reaches minority holders. A wonderful business, then, whose growth is slower and whose economics are more group-set than the headline returns suggest."
+  },
+  "valuation": [
+    { "label": "Price", "value": "₹7,518" },
+    { "label": "Market Cap", "value": "₹24,497 cr" },
+    { "label": "52W High / Low", "value": "₹10,740 / ₹7,206" },
+    { "label": "Stock P/E", "value": "36.7", "tone": "warn", "hint": "premium for a slow-growing category; de-rated ~28% in 1Y" },
+    { "label": "P/B", "value": "~26", "tone": "bad", "hint": "book value is tiny because it pays out nearly everything" },
+    { "label": "EPS (TTM)", "value": "₹205.02" },
+    { "label": "Book Value", "value": "₹290" },
+    { "label": "Dividend Yield", "value": "2.39%", "hint": "payout often near or above 100%" },
+    { "label": "ROCE", "value": "90.7%", "tone": "good" }
+  ],
+  "financials": [
+    { "year": "FY22 (Jun-end)", "revenue": 2256, "netProfit": 289, "patMargin": 12.8, "eps": 88.79 },
+    { "year": "FY23 (Jun-end)", "revenue": 2477, "netProfit": 356, "patMargin": 14.4, "eps": 109.15 },
+    { "year": "FY24 (Jun-end)", "revenue": 2633, "netProfit": 412, "patMargin": 15.6, "eps": 126.35 },
+    { "year": "9M to Mar25", "revenue": 2235, "netProfit": 418, "patMargin": 18.7, "eps": 128.17 },
+    { "year": "FY26 (Mar-end)", "revenue": 3100, "netProfit": 654, "patMargin": 21.1, "eps": 200.80 }
+  ],
+  "ratios": [
+    { "label": "ROE", "value": "66.5%", "tone": "good", "hint": "flattered by a tiny equity base from near-full payout" },
+    { "label": "ROCE", "value": "90.7%", "tone": "good" },
+    { "label": "Operating margin", "value": "~30%", "tone": "good", "hint": "up from ~21% four years ago" },
+    { "label": "Net margin", "value": "~21%", "tone": "good" },
+    { "label": "Debt", "value": "Nil", "tone": "good", "hint": "debt-free" },
+    { "label": "Dividend payout", "value": "~100%", "tone": "neutral", "hint": "returns nearly all profit" }
+  ],
+  "cashFlow": [
+    { "year": "FY24 (Jun)", "ocf": 657, "fcf": 442 },
+    { "year": "9M Mar25", "ocf": 486, "fcf": 284 },
+    { "year": "FY26 (Mar)", "ocf": 840, "fcf": 564 }
+  ],
+  "cashFlowNote": "Cash generation matches the quality. Operating cash tracks profit closely and free cash flow stays high, because a blade-and-brand business needs very little capital spending. Over the years operating cash has run at roughly 80-110% of operating profit, the mark of genuine, cash-backed earnings rather than paper profit. Because Gillette needs so little capital to grow, it pays almost all of that cash out as dividends, sometimes more than 100% of a year's profit. One caveat when reading the recent figures: the company changed its financial year from June-end to March-end, so the period ending March 2025 is only nine months. That makes any year-on-year comparison against it, and the apparently huge jump into FY26, look better than the underlying trend; adjust for the shorter year before extrapolating.",
+  "growth": [
+    { "label": "Sales CAGR (3Y)", "value": "11%", "tone": "neutral", "hint": "mature category" },
+    { "label": "Sales CAGR (5Y)", "value": "13%", "tone": "neutral" },
+    { "label": "Profit CAGR (3Y)", "value": "31%", "tone": "warn", "hint": "flattered by margin gains and the year-end change" },
+    { "label": "Operating margin", "value": "~30%", "tone": "good", "hint": "up from ~21%, the real driver" },
+    { "label": "ROE", "value": "66.5%", "tone": "good" }
+  ],
+  "management": "Gillette India is 75% owned and effectively run by Procter & Gamble, the world's largest consumer-goods company, and that ownership is the defining fact. On the good side, it brings world-class R&D, supply chain and brand discipline, and the promoter stake has been rock-steady at the 75% ceiling for years, with no self-dilution. The FY26 annual report makes the related-party web concrete, and it is worth being precise about it because the headline 'royalty' framing understates it. The royalty itself is small, about ₹31 crore, roughly 1% of sales. The larger flows are that Gillette buys about ₹448 crore of goods from P&G group companies (around 14% of sales, so P&G's transfer pricing on what it supplies helps set Gillette India's own gross margin), pays about ₹71 crore of business-process-outsourcing fees that doubled year on year, plus IT, rent and net expense reimbursements. All are disclosed and stated to be at arm's length, and P&G took about ₹555 crore in dividends as its 75% share. None of this is wrongdoing; the point for a minority holder is that P&G sits on both sides of Gillette India's supply chain and its cost base, so a meaningful part of the economics is set within the group. The thin 25% public float can also make the stock move sharply. Governance is otherwise clean, with strong disclosure and no debt.",
+  "holding": [
+    { "label": "Promoter", "pct": 75.00, "qoqChange": 0.0 },
+    { "label": "FII", "pct": 4.33, "qoqChange": -0.03 },
+    { "label": "DII", "pct": 8.76, "qoqChange": -0.49 },
+    { "label": "Public", "pct": 11.91, "qoqChange": 0.52 }
+  ],
+  "moat": {
+    "strength": "wide",
+    "sources": [
+      "The razor-and-blades lock-in: a handle that only takes Gillette cartridges",
+      "A brand that is synonymous with shaving in India",
+      "P&G's global R&D, product engineering and supply chain",
+      "Vast distribution reach across urban and rural retail"
+    ],
+    "note": "The moat is wide by Indian FMCG standards, and it is the razor-and-blades lock-in that makes it so: once a man owns the handle, the recurring blades are Gillette's by default, at a high margin. Brand, R&D and distribution reinforce that, and the company keeps feeding the brand: advertising ran at about ₹391 crore in FY26, roughly 13% of sales and up about 30% on the year, which is what keeps a mature brand dominant. The one direction the moat does not defend is frequency. It protects Gillette against rival blade brands almost completely, but it offers no defence against a man simply shaving less often because he has grown a beard or bought a trimmer. That is the flank to watch: the threat is not a competitor taking share, it is the category itself being used less."
+  },
+  "narrative": "Gillette India has quietly become a margin story. Revenue grew steadily but unspectacularly, from about ₹2,256 crore in FY22 to roughly ₹3,100 crore in the year to March 2026, only about 11% a year over three years, in line with a mature category. Profit, though, has raced ahead as operating margins climbed from about 21% to about 30%, lifting the return on capital toward 91%. Reported profit growth looks enormous partly because the company changed its year-end from June to March, leaving a nine-month stub period that distorts the comparisons. Over the past year the stock fell about 28%, resetting a very rich multiple to a merely high one, even as the headline profit surged. The market appears to be looking through the optical growth to the slow real growth underneath.",
+  "risks": [
+    "Mature, slow-growing category. Sales grow only about 11% a year, and beards and electric trimmers reduce shaving frequency, capping the volume runway. Medium.",
+    "Optical profit growth. The recent surge is flattered by margin expansion and a June-to-March financial-year change; the durable growth rate is lower. Medium.",
+    "Parent-set economics. The royalty is small (~1% of sales), but P&G supplies ~₹448 crore of goods (14% of sales) and charges rising service fees, so intra-group transfer pricing shapes the margin reaching minority holders. Medium.",
+    "Tax dispute. A large income-tax contingent liability of about ₹585 crore (a Key Audit Matter, likely transfer-pricing related) is contested but unresolved; an adverse outcome would matter against ~₹950 crore of net worth. Medium.",
+    "Valuation. At about 37 times earnings, a slow-growing staple is priced for far more certainty and growth than the topline delivers. Medium.",
+    "Margin durability. If the recent step-up in margins reverses, the reported growth that justified the premium disappears. Medium."
+  ],
+  "trapChecklist": [
+    { "label": "Promoter holding steady", "note": "P&G at 75% for years; no self-dilution", "status": "pass" },
+    { "label": "Debt and leverage", "note": "Debt-free, minimal capital employed", "status": "pass" },
+    { "label": "Cash conversion", "note": "Operating cash ~90-110% of operating profit; near-full payout", "status": "pass" },
+    { "label": "Accounting-period change", "note": "June-to-March year-end switch leaves a 9-month stub (Jul 2024 to Mar 2025); the annual report itself states the periods are not comparable, yet it flatters recent year-on-year growth", "status": "warn" },
+    { "label": "Related-party economics", "note": "Royalty small (~1% of sales), but ₹448 cr of goods bought from P&G group (14% of sales) plus doubling service fees mean transfer pricing shapes the margin", "status": "warn" },
+    { "label": "Income-tax contingent liability", "note": "~₹585 cr of contested income-tax claims (a Key Audit Matter), ~62% of net worth; likely transfer-pricing linked", "status": "warn" },
+    { "label": "Premium valuation on slow growth", "note": "~37x earnings for ~11% topline growth", "status": "warn" }
+  ],
+  "sectorChecklist": [
+    { "label": "Volume vs price growth", "note": "Growth is premium-mix and price led; underlying volume growth is modest in a mature category", "status": "warn" },
+    { "label": "Gross / operating margin", "note": "Operating margin ~30%, up sharply from ~21%, on premiumisation", "status": "pass" },
+    { "label": "Market share", "note": "Dominant, record-high share of Indian blades and razors", "status": "pass" },
+    { "label": "Distribution reach", "note": "Extensive urban and rural coverage via P&G's network", "status": "pass" },
+    { "label": "Category runway", "note": "Mature and penetrated; beards and trimmers a structural headwind to frequency", "status": "warn" }
+  ],
+  "summary": "Gillette India is one of the highest-quality businesses on the market: a near-monopoly on Indian wet shaving, a recurring blade annuity, 91% return on capital, rising margins, and no debt. If you are grading business quality, it is close to the ceiling. The investment case is more nuanced. The category is mature and grows only about 11% a year, so the eye-catching profit growth is largely margin expansion plus an accounting-calendar effect, not durable volume, and a slice of the economics leaks to the 75% parent, P&G. At about 37 times earnings, even after a 28% de-rating, you are paying a full price for a slow-growing, if superb, franchise. Wonderful business, demanding stock, and a growth rate quieter than the headlines. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+  "engine": {
+    "state": "earnings-engine",
+    "earnings": "The earnings engine is real but slower than it looks. The durable driver is a mature category growing about 11% a year on the top line, lifted by genuine, high-quality margin expansion from premiumisation and pricing power. The problem is reading the recent numbers: the switch from a June to a March financial year left a nine-month stub, which makes FY26's reported profit jump look far larger than the underlying trend. Strip out the calendar effect and the margin expansion, and the underlying growth is much closer to the low-double-digit pace of the category than the 31% headline figure suggests. The catalyst worth watching is whether margins hold at their new higher level.",
+    "multiple": "At about 37 times earnings and a very high multiple of book, Gillette is priced as a rare, defensive compounder, and the past year's 28% de-rating has only taken it from extreme to expensive. That price makes sense if you believe premiumisation and pricing power can keep lifting profit for years. It looks stretched against a category that grows about 11% and faces a slow structural drift toward beards and trimmers. The multiple is the whole debate: you are paying a growth price for a business whose growth is mostly margin, not volume.",
+    "verdict": "My honest read: the business is close to flawless and the operations barely worry me, but this is a case where quality and price pull apart. The returns on capital are extraordinary, the monopoly is real, and the cash comes back to you as dividends. Against that, the category is mature, the recent growth is flattered by margins and a year-end change, the parent takes its cut, and the stock still trades near 37 times earnings. That is a lot to pay for roughly low-double-digit real growth. It can work if premiumisation keeps compounding margins, which it has done impressively. I would be wrong to be cautious if Gillette keeps converting a slow-volume category into fast profit growth the way it has, but I would want to pay less to bet on it."
+  },
+  "lenses": [
+    { "name": "The blades, not the razor", "reading": "The whole business is in the cartridge, not the handle. The razor is just the entry point; it locks a man into a lifetime of blades that fit only it, sold at a fat margin, for years. That is why a slow-growing consumer company earns 91% on capital: the installed base is an annuity. The thing to hold in mind is that an annuity's value depends on how often it is drawn, and here the draw rate, how often men shave, is the one variable Gillette's brand cannot control." },
+    { "name": "The shrinking chin", "reading": "Ask what actually threatens Gillette, and it is not a rival blade. It is the beard. Every man who grows one out or switches to an electric trimmer shaves less often and buys fewer cartridges, and no amount of brand strength reverses a fashion. This is the classic case of a moat that perfectly defends one flank, competitors, while the attack comes from another, the category being used less. It is slow, not sudden, but at 37 times earnings the price assumes the annuity keeps getting drawn as often as ever." },
+    { "name": "A business you rent from P&G", "reading": "Be clear about what a minority shareholder owns here. The royalty everyone points to is tiny, about 1% of sales. The real fact is bigger and subtler: P&G supplies roughly ₹448 crore of the goods Gillette India sells and charges it rising service fees, so the parent effectively sets both the price of the product going in and a chunk of the cost base, which shapes the margin before the 75%/25% split. That is not wrongdoing, it is disclosed and stated to be at arm's length, but it means the economics reaching you depend on P&G's internal pricing, not just on how many blades India buys. You are renting a piece of a wonderful P&G asset, on P&G's terms, and paying a premium multiple for the privilege." }
+  ]
+}
