@@ -1995,3 +1995,68 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .csd-faq-q { font-family: var(--serif); font-size: 18px; font-weight: 600; color: var(--ink); margin: 0 0 8px; }
 .csd-faq-a { font-size: 16px; line-height: 1.65; color: var(--ink-dim); margin: 0; }
 @media (max-width: 640px) {.csd-answer{ padding: 18px 18px; }.csd-answer-text{ font-size: 17px; }}
+
+/* ── Margin Model (block 05.1): decomposition + scenarios + signals ───────── */
+.margin-model { margin-top: 6px; }
+.mm-bridge { margin: 18px 0 26px; border: 1px solid var(--border); border-radius: 14px; padding: 20px 22px; background: var(--bg-card); }
+.mm-bridge-ends { display: flex; align-items: center; gap: 18px; }
+.mm-end { flex: 1; }
+.mm-end-label { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.09em; color: var(--ink-faint); }
+.mm-end-value { font-family: var(--serif); font-size: 30px; font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; margin-top: 2px; }
+.mm-bridge-arrow { font-family: var(--mono); font-size: 22px; color: var(--ink-faint); }
+.mm-drivers { display: flex; flex-direction: column; gap: 8px; margin: 18px 0; }
+.mm-driver { display: flex; align-items: flex-start; gap: 14px; padding: 11px 14px; border-radius: 10px; background: var(--bg-raised); border-left: 3px solid var(--border-strong); }
+.mm-driver.mm-temporary { border-left-color: var(--amber); }
+.mm-driver.mm-structural { border-left-color: var(--accent); }
+.mm-driver-pts { font-family: var(--mono); font-size: 15px; font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums; min-width: 64px; padding-top: 1px; }
+.mm-driver-body { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+.mm-driver-label { font-size: 15px; color: var(--ink); }
+.mm-driver-note { font-size: 13px; color: var(--ink-dim); line-height: 1.5; }
+.mm-tag { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; padding: 3px 8px; border-radius: 999px; height: fit-content; white-space: nowrap; }
+.mm-tag-temporary { color: var(--amber); background: color-mix(in srgb, var(--amber) 14%, transparent); }
+.mm-tag-structural { color: var(--accent); background: color-mix(in srgb, var(--accent) 16%, transparent); }
+.mm-normalized { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; padding: 14px 16px; border-radius: 10px; background: color-mix(in srgb, var(--accent) 8%, var(--bg-raised)); border: 1px solid color-mix(in srgb, var(--accent) 25%, var(--border)); }
+.mm-norm-label { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-faint); }
+.mm-norm-value { font-family: var(--serif); font-size: 22px; font-weight: 600; color: var(--accent); font-variant-numeric: tabular-nums; }
+.mm-norm-note { flex-basis: 100%; font-size: 14px; color: var(--ink-dim); line-height: 1.55; }
+.mm-assume { font-size: 13px; color: var(--ink-faint); line-height: 1.55; margin: 4px 0 10px; }
+.mm-table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 560px; }
+.mm-table th, .mm-table td { text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--border); }
+.mm-table thead th { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--ink-faint); font-weight: 500; border-bottom: 1px solid var(--border-strong); }
+.mm-table tbody th { font-weight: 600; color: var(--ink); }
+.mm-table td { font-variant-numeric: tabular-nums; color: var(--ink-dim); }
+.mm-table tbody tr:last-child th, .mm-table tbody tr:last-child td { border-bottom: none; }
+.mm-tone-good th { box-shadow: inset 3px 0 0 var(--good); }
+.mm-tone-warn th { box-shadow: inset 3px 0 0 var(--warn); }
+.mm-tone-bad th { box-shadow: inset 3px 0 0 var(--bad); }
+.mm-takeaway { margin-top: 16px; padding: 16px 20px; border-left: 3px solid var(--accent); background: var(--bg-card); border-radius: 0 12px 12px 0; font-size: 16px; line-height: 1.6; color: var(--ink); }
+.mm-signals { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 22px; }
+.mm-sig { border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; background: var(--bg-card); }
+.mm-sig-bull { border-top: 3px solid var(--good); }
+.mm-sig-bear { border-top: 3px solid var(--bad); }
+.mm-sig-label { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.09em; margin-bottom: 8px; }
+.mm-sig-bull .mm-sig-label { color: var(--good); }
+.mm-sig-bear .mm-sig-label { color: var(--bad); }
+.mm-sig ul { margin: 0; padding-left: 18px; }
+.mm-sig li { font-size: 14px; line-height: 1.55; color: var(--ink-dim); margin-bottom: 6px; }
+.mm-sig li:last-child { margin-bottom: 0; }
+@media (max-width: 640px) {.mm-signals{ grid-template-columns: 1fr; }.mm-end-value{ font-size: 24px; }}
+
+/* Margin Model: attribution caption, sensitivity title, and the valuation gap */
+.mm-attribution { font-size: 12px; font-style: italic; color: var(--ink-faint); line-height: 1.5; margin: 4px 0 14px; }
+.mm-scenarios-title { font-family: var(--serif); font-size: 19px; font-weight: 600; color: var(--ink); margin: 26px 0 6px; text-wrap: balance; }
+.mm-gap { margin-top: 18px; border: 1px solid color-mix(in srgb, var(--amber) 30%, var(--border)); border-radius: 14px; padding: 18px 22px; background: color-mix(in srgb, var(--amber) 7%, var(--bg-card)); }
+.mm-gap-cols { display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap; }
+.mm-gap-col { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 3px; }
+.mm-gap-cap { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-faint); }
+.mm-gap-val { font-family: var(--serif); font-size: 34px; font-weight: 600; font-variant-numeric: tabular-nums; line-height: 1; }
+.mm-gap-ours .mm-gap-val { color: var(--accent); }
+.mm-gap-market .mm-gap-val { color: var(--amber); }
+.mm-gap-vs { font-family: var(--mono); font-size: 13px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-faint); }
+.mm-gap-note { margin: 14px 0 0; font-size: 15px; line-height: 1.6; color: var(--ink); text-align: center; text-wrap: pretty; }
+@media (max-width: 640px) {.mm-gap-val{ font-size: 28px; }}
+
+/* Legend for the "what the headline numbers hide" checklist symbols */
+.chk-legend { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-bottom: 4px; font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-faint); }
+.chk-legend > span { display: inline-flex; align-items: center; gap: 5px; }
+.chk-legend .chk-icon { width: auto; font-size: 13px; }

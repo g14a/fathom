@@ -23,7 +23,7 @@ export interface FinancialRow {
 }
 
 export interface HoldingSlice {
-  label: 'Promoter' | 'FII' | 'DII' | 'Retail' | 'Other';
+  label: 'Promoter' | 'FII' | 'DII' | 'Retail' | 'Public' | 'Other';
   pct: number;
   qoqChange?: number;   // pp change
 }
@@ -92,6 +92,55 @@ export interface AiFork {
   trigger: string;      // the shared cause, e.g. "AI arrives → human effort falls"
   branches: ForkBranch[]; // exactly two: the two ways the value can flow
   takeaway: string;     // one line under the fork
+}
+
+// The analytical heart of a margin-cyclical report. It stops re-arguing the
+// thesis and answers it with numbers: (1) a bridge that splits a margin move
+// into its temporary vs structural drivers, (2) a scenario table pricing each
+// margin level into earnings and an implied multiple, and (3) the observable
+// signals that tell the reader which scenario is unfolding. Optional; render a
+// report without it unchanged.
+export interface MarginModel {
+  intro?: string;
+  bridge: {
+    from: { label: string; value: string };
+    to: { label: string; value: string };
+    // Each driver of the move, with a point-range and whether it lasts.
+    drivers: { label: string; points: string; kind: 'temporary' | 'structural'; note?: string }[];
+    // Where margin plausibly settles once the temporary drivers fade.
+    normalized: { label: string; value: string; note: string };
+    // Honest label for what the driver splits are: a directional Fathom
+    // attribution, not a reported EBIT bridge. Rendered as a small caption.
+    source?: string;
+  };
+  scenarios: {
+    title?: string;         // caption above the table; frame it as a sensitivity
+    assumptions?: string;   // the fixed inputs behind the table, stated plainly
+    columns: string[];      // header cells AFTER the row label, left to right
+    rows: { label: string; cells: string[]; tone?: 'good' | 'warn' | 'bad' }[];
+    takeaway: string;
+  };
+  // The killer conclusion, made impossible to miss: our normalised margin vs
+  // the margin the current price implies, and the gap between them.
+  gap?: { ours: string; market: string; note: string };
+  // The reader's monitoring dashboard: what to watch to confirm each side.
+  bullSignals?: string[];
+  bearSignals?: string[];
+}
+
+// A standalone quantitative scenario table for a report whose central question
+// is not margin but something else (a cash/debt path, a volume ramp). Same
+// shape and styling as the margin model's scenario table, rendered as its own
+// numbered block. Optional.
+export interface ScenarioTable {
+  intro?: string;
+  assumptions?: string;
+  columns: string[];      // header cells AFTER the row label, left to right
+  rows: { label: string; cells: string[]; tone?: 'good' | 'warn' | 'bad' }[];
+  takeaway: string;
+  // Optional "what would change our view" observables, rendered as two panels.
+  bullSignals?: string[];
+  bearSignals?: string[];
 }
 
 export interface Scorecard {
@@ -361,6 +410,8 @@ export interface TickerReport {
   aiFork?: AiFork;         // rendered as a standalone framing section
   counterpoint?: Counterpoint; // the steelman, rendered under the AI fork
   scorecard?: Scorecard;   // rendered before the summary
+  marginModel?: MarginModel; // decomposition + scenarios + signals for a margin-cyclical name
+  scenario?: { title: string } & ScenarioTable; // a standalone scenario block (e.g. a cash/debt path)
 
   // 1b. business model
   business: {
@@ -404,8 +455,9 @@ export interface TickerReport {
   holding: HoldingSlice[];
   pledged?: number;
 
-  // 8. moat
-  moat: { strength: MoatStrength; sources: string[]; note: string };
+  // 8. moat. `label` optionally overrides the default "<strength> moat" caption
+  // (e.g. "Narrow cost moat, under attack") for a more precise read.
+  moat: { strength: MoatStrength; sources: string[]; note: string; label?: string };
 
   // bespoke case studies (optional, keeps reports distinct)
   caseStudies?: CaseStudy[];
@@ -425,8 +477,9 @@ export interface TickerReport {
   // 12. summary
   summary: string;
 
-  // 13. two-engine
-  engine: EngineAssessment;
+  // 13. two-engine. Optional: a margin-cyclical report whose `marginModel`
+  // already carries the multiple analysis can omit this to avoid re-arguing it.
+  engine?: EngineAssessment;
 
   // 14. lenses
   lenses: Lens[];

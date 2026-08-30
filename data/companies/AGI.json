@@ -1,0 +1,271 @@
+{
+  "ticker": "AGI",
+  "company": "AGI Greenpac Ltd",
+  "sector": "Industrials",
+  "industry": "Glass Packaging",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-08-30",
+  "oneLiner": "India's second-largest glass-bottle maker, whose operating margin doubled mainly because its largest rival collapsed into bankruptcy and left the market. That rival is now being revived by a well-funded new owner just as AGI takes on debt to expand, so the whole case reduces to one number: how much of today's fat margin survives the competitor's return?",
+  "facts": {
+    "snapshot": "AGI Greenpac, formerly HSIL Limited, makes glass bottles and containers (mostly for liquor and beer), plus plastic bottles and bottle caps. It is India's second-largest container-glass manufacturer, based in Telangana.",
+    "founded": "1960",
+    "hq": "Hyderabad"
+  },
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Glass bottles, No.2 in India", "tone": "good" },
+      { "label": "Margin today", "value": "Operating margin ~23%, roughly double FY19", "tone": "warn" },
+      { "label": "Why margins rose", "value": "Biggest rival (HNGIL) went bankrupt and stopped competing", "tone": "warn" },
+      { "label": "Balance sheet", "value": "Debt cut hard, D/E ~0.1, interest cover ~12x", "tone": "good" },
+      { "label": "What is coming", "value": "Rival revived by INSCO; AGI in a debt-funded expansion", "tone": "warn" },
+      { "label": "Valuation", "value": "~14x, but that is 14x on possibly-peak earnings", "tone": "warn" }
+    ],
+    "keyQuestion": "The margin doubled while the market's dominant player was absent. As HNGIL comes back under INSCO and AGI borrows to add capacity, everything turns on one number: where does operating margin settle, near today's 23% or nearer the old 12-16%? Block 05.1 prices each answer."
+  },
+  "overview": "AGI Greenpac melts sand into glass bottles, most of them holding liquor and beer, plus some plastic bottles and the caps that seal them. It is a steady, capital-heavy business that for most of its life earned steady 12-16% operating margins. For the last three years it earned about 23%, and the reason was not a new capability but a missing competitor: Hindusthan National Glass (HNGIL), the market leader at nearly twice AGI's size, collapsed into bankruptcy and stopped competing. That single fact is both the story and the risk, so this report does not keep restating it. It spends its energy on what the headline numbers cannot tell you, and what actually decides the stock: how much of that margin was skill and how much was an empty chair, and what each answer is worth. Block 05.1 takes it apart.",
+  "editorial": {
+    "whyExists": "Every bottle of liquor, beer, ketchup or cough syrup needs a container, and for a large share of them glass is still preferred: inert, premium-looking, infinitely recyclable. Making it is hard, though. A glass furnace runs above 1,500 degrees, costs hundreds of crores, and cannot be switched off without ruining it, so only a handful of firms can run one at scale. AGI exists to be one of them: a large, reliable supplier of glass packaging to India's alcohol and consumer-goods makers.",
+    "whyNotAlreadyWon": "Because glass packaging is a genuine oligopoly held in place by capital and freight: a furnace costs a fortune and glass is too heavy to ship far, so only three or four players have national scale and AGI is the clear number two. But notice what that does and does not buy. It makes the industry defensible; it does not make AGI special within it. When the number-one player was healthy, AGI earned ordinary margins. So the honest frame for this whole report is a distinction most investors blur: AGI's business quality and its current earnings quality are not the same thing. The business is a solid oligopolist. The earnings are a solid oligopolist plus a bankrupt competitor.",
+    "whyNow": "The stock trades at about 14x earnings and has gone nowhere for three years while profit rose, so the multiple has quietly compressed. The reason is datable: in January 2025 the Supreme Court quashed AGI's own bid to buy HNGIL out of bankruptcy, and by September 2025 the asset went to INSCO, backed by Cerberus Capital and the World Bank's IFC, with a ₹10,000 crore revival plan. The one fact that inflated AGI's margins is being reversed on a clock the market can see.",
+    "remember": "AGI's golden three years and its central risk are the same fact: its biggest competitor was missing. The whole case is a bet on where the margin settles once that competitor is back.",
+    "realBusiness": "AGI is India's number-two glass-bottle maker, a capital-heavy oligopolist whose recent boom came largely from its largest rival collapsing into bankruptcy.",
+    "economicEngine": [
+      { "label": "Demand", "value": "Bottles for liquor and beer", "note": "About 76% of the glass segment goes to alcoholic beverages, so demand tracks India's drinking, premiumisation, and the health of the alco-bev makers." },
+      { "label": "Revenue", "value": "Paid per bottle / per tonne of glass", "note": "Roughly 60-70% of volume is priced on a formula (a base plus a surcharge tied to soda-ash and gas costs, reset with about a quarter's lag)." },
+      { "label": "Margins", "value": "Jumped to ~23% from ~12%", "note": "The doubling came mainly from a rival's exit, with mix, efficiency and input costs explaining part of the rest. Block 05.1 splits it." },
+      { "label": "Capital", "value": "Very heavy, now re-levering", "note": "Furnaces cost hundreds of crores. AGI paid debt down to near-zero, and is now borrowing again for a ₹1,700-1,900 crore expansion." },
+      { "label": "Returns", "value": "ROCE ~20%, ROE ~16%", "note": "Healthy, but flattered by the same peak-margin period; the return on the new capital being spent is unproven." }
+    ],
+    "mentalModels": [
+      { "model": "Oligopoly structure", "assessment": "Strong", "why": "Glass packaging is a genuine three-to-four player industry protected by capital cost and freight economics; AGI is the clear number two." },
+      { "model": "Margin durability", "assessment": "High risk", "assessmentTone": "bad", "why": "The jump from ~12% to ~23% overlaps almost exactly with the largest competitor's bankruptcy, not a structural gain. See block 05.1." },
+      { "model": "Balance sheet", "assessment": "Excellent", "why": "Debt cut to a D/E of about 0.1 with interest cover near 12x, giving room to fund expansion." },
+      { "model": "Cash conversion", "assessment": "Strong", "why": "Over five years operating cash was about 173% of reported profit; the earnings are real cash, not paper." },
+      { "model": "Customer concentration", "assessment": "Mixed", "why": "Around three-quarters of glass revenue is alco-bev, a single end-market whose buyers gain leverage the moment a rival supplier reopens." },
+      { "model": "Valuation", "assessment": "Mixed", "assessmentTone": "warn", "why": "About 14x looks cheap, but only if today's peak margin holds; on normalised margins the true multiple is far higher (block 05.1)." }
+    ],
+    "sectorModels": [
+      { "model": "Industry structure", "reading": "Oligopoly", "note": "HNGIL, AGI, PGP (ex-Piramal) and Haldyn are the main organised players; AGI holds roughly 17-20% share." },
+      { "model": "Pricing power", "reading": "Moderate, borrowed", "note": "Formula pricing gives some pass-through, but the recent pricing strength leaned on a competitor being absent." },
+      { "model": "Demand driver", "reading": "Structural but concentrated", "note": "Alco-bev consumption and premiumisation; steady, but glass competes with PET and cans in several categories." },
+      { "model": "Capital intensity", "reading": "Very high", "note": "Furnaces are expensive and cannot idle; scale and utilisation decide profitability." },
+      { "model": "Balance sheet", "reading": "Deleveraged, re-levering", "note": "Net debt cut to a few hundred crore, now set to peak near ₹1,000-1,200 crore through the capex cycle." }
+    ],
+    "strategicPosition": [
+      { "label": "HNGIL (reviving under INSCO)", "description": "The largest player at ~4,300 TPD, bankrupt through FY23-25 but being restarted with a ₹10,000 crore plan", "tone": "strong" },
+      { "label": "AGI Greenpac", "description": "The clear number two at ~2,060 TPD, which earned peak margins while HNGIL was absent", "tone": "focus" },
+      { "label": "PGP Glass, Haldyn, smaller units", "description": "Specialty and regional players, strong in pharma and cosmetics glass", "tone": "weak" }
+    ],
+    "winningToday": [
+      "Operating margin ran near 23% versus a long-run 12-16%, lifting profit from ~₹117 crore (FY22) to ₹352 crore (FY26).",
+      "Furnaces ran at 95%-plus utilisation while HNGIL was absent, so extra volume dropped almost straight to profit.",
+      "Debt cut sharply to a D/E of about 0.1, with interest cover near 12x and about 173% cash conversion over five years.",
+      "A growing specialty-glass line (pharma, cosmetics, premium alco-bev) at roughly a 75% realisation premium over ordinary bottles."
+    ],
+    "stopWinning": [
+      "HNGIL is being revived by INSCO; even a partial restart of its 4,300 TPD adds a big block of supply back into the market.",
+      "The margin already softened from ~24% toward ~22% as conditions began to normalise.",
+      "A ₹1,700-1,900 crore debt-funded expansion arrives just as pricing power may fade, the classic bad-timing squeeze.",
+      "About 76% of glass revenue is alco-bev, so a concentrated set of buyers regains leverage the moment they have an alternative supplier again."
+    ],
+    "marketBets": [
+      "Enough of the margin gain is structural (specialty mix, efficiency) that it holds above the old 12-16% even after HNGIL returns.",
+      "The new capacity (Gwalior glass, aluminium cans) earns good returns rather than adding into a softening market.",
+      "Industry demand grows fast enough to absorb both AGI's expansion and HNGIL's restart without a price war.",
+      "The balance sheet stays comfortable through the capex peak even if margins and working capital both deteriorate."
+    ],
+    "whyNow": "The market has de-rated AGI to about 14x and left the stock flat for three years while profit rose, because the one fact behind the profit boom is visibly reversing. HNGIL, whose bankruptcy handed AGI its tailwind, is being restarted by INSCO with heavy backing, and AGI is simultaneously borrowing to expand. Investors are refusing to capitalise a margin they suspect is a competitor-absence peak."
+  },
+  "business": {
+    "unitOfRevenue": "One glass container, priced off the tonne of glass melted. AGI runs about 2,060 tonnes-per-day (TPD) of furnace capacity, and roughly 60-70% of volume is sold on a formula: a base price plus a surcharge linked to the two big input costs, soda ash and natural gas, reset with about a quarter's lag. So revenue is a blend of how many bottles it can melt and sell, and how well the formula recovers input swings.",
+    "revenueModel": "Manufacturing and selling packaging, mostly on annual supply arrangements with large alco-bev and consumer-goods customers. There is no subscription or recurring-fee element; it is a volume business where utilisation and product mix decide the margin.",
+    "segments": [
+      { "name": "Container glass (bottles)", "pct": 89, "marginProfile": "The core. ~76% of this is alcoholic-beverage bottles; the rest is pharma, food and beverages. Margin is utilisation-driven." },
+      { "name": "Specialty glass", "pct": 5, "marginProfile": "The premium line (cosmetics, perfumery, pharma), commissioned Jan 2023, at roughly a 75% realisation premium over ordinary containers." },
+      { "name": "Security caps and closures", "pct": 4, "marginProfile": "Bottle caps and tamper-evident closures; a small, steadier add-on." },
+      { "name": "PET (plastic) bottles", "pct": 2, "marginProfile": "Lower-value plastic packaging under the AGI Plastek brand." }
+    ],
+    "revenuePerUnitTrend": "Rising over the last three years, for two very different reasons that must be kept apart. One is durable: a growing specialty-glass mix genuinely lifts revenue per bottle. The other is temporary: with HNGIL absent, AGI could hold firmer prices and grant fewer rebates, which flatters realisation in a way that reverses when the competitor returns. The segment split above is approximate. Block 05.1 quantifies how much of the gain is which.",
+    "industry": {
+      "structure": "Organised oligopoly. A handful of players hold most of the capacity, protected by furnace economics and freight.",
+      "competitors": "HNGIL is the largest at about 4,300 TPD (~37% of organised capacity), bankrupt through FY23-25 and now being revived by INSCO. AGI is number two at ~2,060 TPD (~17-20% share). PGP Glass (formerly Piramal Glass) and Haldyn Glass are the other notable names, strong in pharma and cosmetics glass.",
+      "pricingPower": "Moderate and partly borrowed. Formula pricing passes through input costs, but the recent pricing strength leaned heavily on the largest supplier being absent, so the buyer (a concentrated set of alco-bev majors) regains leverage as competition returns.",
+      "demandDriver": "Alcoholic-beverage consumption and premiumisation, plus pharma and food packaging. Bottles are non-discretionary for the products they hold, but glass competes with PET and aluminium cans in several categories.",
+      "driverType": "Structural but concentrated: steady end-demand, but heavily tied to one sector (alco-bev) and exposed to substitution by cans and plastic.",
+      "tam": "The India container-glass market is estimated in the region of US$2-3 billion and growing at a mid-single-digit to high-single-digit rate; exact figures vary by source.",
+      "penetration": "Mature in ordinary bottles, where growth is share-and-volume rather than new-market; the greenfield is premiumisation (specialty glass) and new formats (aluminium cans).",
+      "valueChainPosition": "A mid-chain manufacturer selling to large, powerful buyers. It captures scale and freight advantages, but sits below customers who consolidate volume and negotiate hard once they have alternative suppliers."
+    },
+    "qualityVerdict": "AGI is a well-run number two in a genuinely defensible industry, with a balance sheet it has cleaned up impressively and a sensible push into higher-value specialty glass. Those are real. But keep the report's central distinction in view: business quality is not the same as earnings quality. As a business AGI is a solid oligopolist that historically earned 12-16% margins and mid-teens returns. Its earnings of the last three years are that business plus a bankrupt competitor, which is why the margin sits at 23%. The asset is decent and durable; the current earnings are decent and temporary, and the report's job is to price the gap between them."
+  },
+  "valuation": [
+    { "label": "Price", "value": "₹775" },
+    { "label": "Market Cap", "value": "₹5,013 cr" },
+    { "label": "52W High / Low", "value": "₹939 / ₹444" },
+    { "label": "Stock P/E", "value": "13.7", "tone": "warn", "hint": "computed price/EPS ≈ 13.8; but 14x on possibly-peak earnings, see block 05.1" },
+    { "label": "P/B", "value": "2.1", "tone": "neutral" },
+    { "label": "EPS (TTM)", "value": "₹55.97" },
+    { "label": "Book Value", "value": "₹372" },
+    { "label": "Dividend Yield", "value": "0.90%", "hint": "low payout; reinvesting in expansion" }
+  ],
+  "financials": [
+    { "year": "FY22", "revenue": 1437, "netProfit": 117, "patMargin": 8.1, "eps": 18.0 },
+    { "year": "FY23", "revenue": 2281, "netProfit": 249, "patMargin": 10.9, "eps": 38.5 },
+    { "year": "FY24", "revenue": 2418, "netProfit": 251, "patMargin": 10.4, "eps": 38.9 },
+    { "year": "FY25", "revenue": 2529, "netProfit": 322, "patMargin": 12.7, "eps": 49.83 },
+    { "year": "FY26", "revenue": 2665, "netProfit": 352, "patMargin": 13.2, "eps": 54.35 }
+  ],
+  "ratios": [
+    { "label": "ROE", "value": "15.8%", "tone": "neutral", "hint": "healthy, flattered by peak margins" },
+    { "label": "ROCE", "value": "19.6%", "tone": "good" },
+    { "label": "Operating margin", "value": "~22-24%", "tone": "warn", "hint": "up from ~12% pre-FY23; durability is the whole question" },
+    { "label": "D/E", "value": "0.10", "tone": "good", "hint": "debt cut hard; set to re-lever for capex" },
+    { "label": "Interest coverage", "value": "~12.4x", "tone": "good" },
+    { "label": "Cash conversion (5Y)", "value": "~173%", "tone": "good", "hint": "OCF / profit; earnings are cash-backed" }
+  ],
+  "marginModel": {
+    "intro": "The whole case reduces to one number: where operating margin settles once HNGIL competes again. So rather than restate that, here is the margin taken apart, priced into earnings, and turned into signals to watch.",
+    "bridge": {
+      "from": { "label": "Operating margin, FY18-19", "value": "~12%" },
+      "to": { "label": "FY26", "value": "~23%" },
+      "drivers": [
+        { "label": "Competitor exit and 95%+ utilisation", "points": "+6 to 8 pts", "kind": "temporary", "note": "HNGIL absent tightened supply; running furnaces flat out drops extra volume almost straight to profit. This is the bulk of the move." },
+        { "label": "Input-cost normalisation", "points": "+1 to 2 pts", "kind": "temporary", "note": "The FY22-23 soda-ash spike faded while formula pricing lagged, a timing gain that reverses." },
+        { "label": "Specialty-glass mix", "points": "+1 to 1.5 pts", "kind": "structural", "note": "Pharma, cosmetics and premium alco-bev at roughly a 75% realisation premium over ordinary bottles." },
+        { "label": "Furnace efficiency and higher cullet", "points": "+1 to 2 pts", "kind": "structural", "note": "Better yields and over 40% recycled-glass use genuinely lower the cost per bottle." }
+      ],
+      "normalized": {
+        "label": "Likely mid-cycle margin",
+        "value": "~15-17%",
+        "note": "Keep the structural gains, strip the competitor-absence and input-timing gains, and margin plausibly lands around 15-17%: above the old 12-16%, but well short of today's 23%. On this rough attribution, only around 3 of the ~11 points of expansion appear durable."
+      },
+      "source": "Fathom estimate: a directional attribution to frame the question, not a bridge of reported EBIT. AGI does not disclose these contributions, and the ranges overlap, so read them as an argument about proportions, not precise figures."
+    },
+    "scenarios": {
+      "title": "Margin sensitivity: what is today's price paying for?",
+      "assumptions": "This is a sensitivity, not a forecast. Revenue is held at FY26's ₹2,665 cr to isolate the one variable that matters, depreciation ₹175 cr, interest ₹75 cr (up from ₹48 cr as capex lifts net debt toward ₹1,000-1,200 cr), other income ₹40 cr, tax 25%, 6.47 cr shares, price ₹775. It is deliberately conservative on the downside: it loads the higher post-capex costs but no extra volume from the new plants, which would cushion the lower-margin cases.",
+      "columns": ["Operating margin", "Net profit", "EPS", "P/E at ₹775", "What it signals"],
+      "rows": [
+        { "label": "Peak holds", "cells": ["23%", "₹302 cr", "₹47", "16.6x", "HNGIL stays constrained; today's economics persist"], "tone": "good" },
+        { "label": "Mild normalisation", "cells": ["20%", "₹242 cr", "₹37", "20.7x", "Some competition returns; still far above history"], "tone": "warn" },
+        { "label": "Normalisation", "cells": ["17%", "₹182 cr", "₹28", "27.5x", "Structural gains stick, the borrowed ones fade"], "tone": "warn" },
+        { "label": "Full reversion", "cells": ["14%", "₹122 cr", "₹19", "41.0x", "AGI back near its historical economics"], "tone": "bad" }
+      ],
+      "takeaway": "This reframes the 'cheap 14x'. At ₹775 the market pays a low-teens multiple only if margins hold near today's peak; on a normalised 15-17% the same price is 27-41x earnings. So the stock is not pricing full reversion, it is pricing margins staying near 20%."
+    },
+    "gap": {
+      "ours": "15-17%",
+      "market": "~20%",
+      "note": "AGI has to retain about 3-5 percentage points of margin more than our decomposition supports to justify today's price. That gap, not the headline P/E, is the investment question. HNGIL's restart and AGI's own capex will close it one way or the other over the next few quarters."
+    },
+    "bullSignals": [
+      "AGI holds a 20%-plus operating margin through the first few quarters after INSCO restarts HNGIL capacity.",
+      "Specialty-glass share of revenue keeps climbing, lifting realisation without needing more volume.",
+      "The Gwalior plant and cans line commission on time and ramp toward high utilisation, earning a healthy return on the new capital.",
+      "Realisations and debtor days hold steady even as customers regain an alternative supplier."
+    ],
+    "bearSignals": [
+      "INSCO ramps HNGIL quickly and AGI's operating margin slides toward 15-17%.",
+      "Utilisation drops as returning supply pulls volume away.",
+      "Debtor days and rebates rise as buyers regain leverage, and working capital expands.",
+      "Net debt peaks near ₹1,200 cr while the new capacity sits underutilised and free cash flow stays negative."
+    ]
+  },
+  "cashFlow": [
+    { "year": "FY25", "ocf": 429, "capex": 248, "fcf": 181 },
+    { "year": "FY26", "ocf": 571, "capex": 389, "fcf": 182 }
+  ],
+  "cashFlowNote": "The cash flow is a genuine strength and one of the cleaner parts of the story. Operating cash was ₹429 crore in FY25 and ₹571 crore in FY26, and over five years roughly 173% of reported profit turned into operating cash, so unlike many margin-expansion stories this one is backed by real money, not receivables. Debtor days are low (about 54) and free cash flow has been positive. Two honest cautions sit underneath. First, part of that tight working capital reflects supplier bargaining power while HNGIL was absent; when customers regain an alternative, longer credit and more rebates can push receivables back up. Second, free cash flow is about to compress sharply, because the ₹1,700-1,900 crore expansion means capex rises well above the recent ₹250-390 crore run-rate and net debt is guided to peak near ₹1,000-1,200 crore during construction.",
+  "growth": [
+    { "label": "Revenue growth (FY26)", "value": "5.4%", "tone": "neutral", "hint": "underlying volume growth is modest" },
+    { "label": "Profit growth (FY26)", "value": "9%", "tone": "neutral", "hint": "decelerating as margins plateau" },
+    { "label": "Sales CAGR (FY23-26)", "value": "~5%", "tone": "neutral", "hint": "the real underlying rate once the base normalises" },
+    { "label": "Profit CAGR (10Y)", "value": "13%", "tone": "good" },
+    { "label": "Cash conversion (5Y)", "value": "~173%", "tone": "good" }
+  ],
+  "management": "AGI is controlled by the Somany promoter family, which holds about 60.4% and has kept that stake essentially flat over the last twelve quarters, so there is no self-dilution while the stock and earnings ran. Sandip Somany leads as Vice Chairman and Managing Director, and the board has proposed elevating Shashvat Somany to Joint Managing Director from October 2026, a next-generation transition worth watching. The clearest mark in management's favour is capital discipline through the boom: they used the strong cash flows to pay debt down to near-zero rather than chase acquisitions. The fair watch-items are forward-looking. One is the ₹10,000 crore-scale bet they tried to make by bidding for HNGIL itself, which the Supreme Court quashed in January 2025 for lacking prior competition-regulator approval; the other is whether the new debt-funded expansion into a possibly-softening market earns its cost of capital.",
+  "holding": [
+    { "label": "Promoter", "pct": 60.39, "qoqChange": 0.0 },
+    { "label": "FII", "pct": 6.26, "qoqChange": -0.52 },
+    { "label": "DII", "pct": 1.06, "qoqChange": -0.97 },
+    { "label": "Public", "pct": 32.26, "qoqChange": 1.50 }
+  ],
+  "moat": {
+    "strength": "narrow",
+    "sources": [
+      "Capital intensity: a glass furnace costs hundreds of crores and years to build",
+      "Freight economics: heavy, low-value bottles cannot travel far, protecting regional supply",
+      "Number-two national scale in a four-player organised industry",
+      "A growing specialty-glass line at a large realisation premium"
+    ],
+    "note": "The moat is real but it belongs to the industry more than to AGI. Capital cost and freight genuinely keep newcomers out, which is why glass packaging stays a few-player oligopoly. What is narrow is AGI's edge within that structure: its bottles are not meaningfully differentiated from a healthy competitor's, so its pricing power rises and falls with how much capacity is actually competing. That is the precise sense in which the recent profitability is cyclical rather than a widened moat, and it is why block 05.1 treats the margin, not the moat rating, as the thing to solve."
+  },
+  "narrative": "For most of its history this was HSIL Limited, a mixed company making both bathroom fittings (Hindware) and glass bottles. Between 2018 and 2022 it split those apart, divested the building-products business, renamed itself AGI Greenpac in 2022, and became a focused glass-packaging player. That refocus was genuine, not cosmetic. Then the industry handed it a windfall: HNGIL, the market leader at nearly twice AGI's size, sank into insolvency and effectively left the market through FY23-25. Supply tightened, AGI ran flat out, and profit rose from about ₹117 crore in FY22 to ₹352 crore in FY26. AGI even tried to buy HNGIL out of bankruptcy, but the Supreme Court quashed its bid in January 2025 for skipping competition-regulator approval, and the asset passed to INSCO. That is the arc in one line: a genuine refocus, then a windfall, now the start of a normalisation.",
+  "risks": [
+    "Competitor's return. HNGIL is being revived by well-funded INSCO; even a partial restart of its 4,300 TPD puts a large block of supply back into the market and pressures both price and volume. The single most important risk. High.",
+    "Peak-margin reversion. Operating margin near 23% is roughly double the historical 12-16% and has already begun softening; a return toward mid-cycle would cut profit sharply even if revenue holds (see block 05.1 for the numbers). High.",
+    "Bad-timing capex. A ₹1,700-1,900 crore debt-funded expansion lands just as pricing power may fade, with net debt guided to peak near ₹1,000-1,200 crore. Margin compression and working-capital deterioration arriving together during heavy capex is what turns manageable leverage into stress. Medium to High.",
+    "End-market concentration. About 76% of glass revenue is alcoholic beverages, a single sector exposed to state taxes, regulation and substitution by cans and PET. Medium.",
+    "Input-cost swings. Soda ash and natural gas drive costs; the formula lag of about a quarter cuts both ways and can squeeze margins when inputs spike. Medium."
+  ],
+  "trapChecklist": [
+    { "label": "Name change / repackaging", "note": "HSIL to AGI Greenpac in 2022 was a genuine refocus after divesting building products, not theme-chasing", "status": "pass" },
+    { "label": "Debt and leverage", "note": "D/E ~0.10, interest cover ~12x today; but a large debt-funded capex will re-lever the balance sheet", "status": "warn" },
+    { "label": "Cash conversion", "note": "About 173% of profit became operating cash over five years; earnings are cash-backed", "status": "pass" },
+    { "label": "Promoter holding steady", "note": "~60.4%, essentially unchanged over twelve quarters; no self-dilution", "status": "pass" },
+    { "label": "Margin durability", "note": "Operating margin doubled to ~23% overlapping exactly with the largest rival's bankruptcy; roughly 3 of 11 added points look structural", "status": "warn" },
+    { "label": "Base-year effect", "note": "Profit growth is front-loaded off a FY22 demerger-transition low and has since decelerated (FY26 profit growth ~9%)", "status": "warn" },
+    { "label": "Working capital", "note": "Debtor days low (~54), but partly a function of supplier power while the competitor was absent; watch it as HNGIL returns", "status": "warn" }
+  ],
+  "sectorChecklist": [
+    { "label": "Industry structure", "note": "Organised oligopoly protected by furnace cost and freight; AGI is the clear number two at ~17-20% share", "status": "pass" },
+    { "label": "Capacity utilisation", "note": "Ran at 95%-plus while HNGIL was absent; peak utilisation is what drove the peak margin, and it normalises as supply returns", "status": "warn" },
+    { "label": "Pricing power", "note": "Formula pricing passes input costs through, but recent pricing strength leaned on a competitor being out of the market", "status": "warn" },
+    { "label": "Capital intensity", "note": "Very high; furnaces cannot idle, so utilisation and mix decide profitability. New capex must ramp to earn its cost", "status": "warn" },
+    { "label": "Input dependence", "note": "Soda ash and natural gas are the swing costs; the ~1-quarter formula lag can squeeze margins on a spike", "status": "warn" }
+  ],
+  "summary": "AGI Greenpac is a well-run number-two glass-bottle maker with a cleaned-up balance sheet and cash-backed profits, and at about 14x earnings with the stock flat for three years it is plainly not priced for euphoria. But the headline multiple is the wrong anchor. The profit boom of FY23-FY26, when operating margin doubled to about 23%, rests mainly on the bankruptcy of HNGIL, the market leader, now being revived by the well-funded INSCO just as AGI borrows to expand. Take the margin apart (block 05.1) and a normalised 15-17% turns today's ₹775 into a 27-41x stock, which means the market is pricing margins staying near 20%. So this is a good business whose investment case is really a single, measurable bet on where the margin settles, not a cheap-looking P/E. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+  "lenses": [
+    { "name": "The empty chair", "reading": "State the mechanism once and then watch it: when HNGIL was healthy, competition kept AGI's margins at 12-16%; when HNGIL went bankrupt, supply tightened, utilisation hit 95%-plus and margins reached ~23%; as INSCO refills the chair, the question is simply how far back down they travel. None of the FY23-26 boom, on its own, proves AGI got better; it proves a rival got worse. That is why the decomposition in block 05.1, not the reported margin, is the honest measure of the business." },
+    { "name": "The Caged Bird retention trap", "reading": "AGI's recent pricing discipline and low rebates look like strength, but they were measured during a period when its customers had one fewer supplier to turn to. Firm pricing when the buyer has no alternative tells you little about pricing once an alternative reappears. As INSCO restarts HNGIL, expect exactly the pressures that were absent, requests for longer credit, more rebates, sharper negotiation, from a concentrated set of alco-bev buyers who suddenly have somewhere else to go. Discount the last three years of pricing comfort accordingly." },
+    { "name": "The two clocks that must not chime together", "reading": "AGI is running two clocks at once. One is competitive: HNGIL's revival slowly returns supply and pressures margins. The other is financial: a ₹1,700-1,900 crore debt-funded expansion pushes net debt toward ₹1,000-1,200 crore and turns free cash flow negative during construction. Each on its own is manageable, and AGI's balance sheet gives it room. The danger is if they strike together, margin compression and working-capital deterioration landing in the middle of the heaviest capex, which is precisely the combination that converts a comfortable balance sheet into a stressed one. This is the specific thing to monitor, not a generic leverage worry." }
+  ],
+  "outlook": {
+    "intro": "Block 05.1 priced the margin question. Outlook covers the two other moving parts that decide how it resolves: the pace of the competitor's return, and AGI's own expansion into that changing market.",
+    "areas": [
+      {
+        "title": "The competitor's return",
+        "facts": [
+          "In January 2025 the Supreme Court quashed AGI's bid to acquire HNGIL out of bankruptcy for lacking prior competition-regulator approval.",
+          "By September 2025 HNGIL went to INSCO (backed by Cerberus Capital and the World Bank's IFC), which has pledged ₹10,000 crore over five years to revive it.",
+          "HNGIL's ~4,300 TPD is nearly twice AGI's ~2,060 TPD; even a partial restart is a large block of supply."
+        ],
+        "watch": "How fast INSCO actually restarts capacity, and whether the returning supply triggers price cuts and rebate demands. The margin trend over the next few quarters is the single most informative number, and it maps straight onto the scenario rows in block 05.1."
+      },
+      {
+        "title": "The balance sheet through capex",
+        "facts": [
+          "Debt was cut to a D/E of about 0.1 with interest cover near 12x.",
+          "The expansion commits ₹1,700-1,900 crore over roughly two years, versus recent capex of ₹250-390 crore a year.",
+          "Management guides net debt to peak near ₹1,000-1,200 crore during construction."
+        ],
+        "watch": "Whether leverage stays comfortable if margins and working capital deteriorate at the same time as the capex peak. The two clocks must not chime together."
+      }
+    ],
+    "loadingEngines": [
+      {
+        "name": "Gwalior glass plant (Madhya Pradesh)",
+        "whatItIs": "A new 500 TPD greenfield container-glass line, roughly ₹700 crore, lifting capacity toward 2,600 TPD.",
+        "notYetInPnL": "Under construction; it adds volume but no profit until it commissions and ramps.",
+        "whenItLands": "Targeted March 2027"
+      },
+      {
+        "name": "Aluminium beverage cans (Uttar Pradesh)",
+        "whatItIs": "A new format for AGI, Phase 1 of about ₹850 crore for roughly 950 million cans, diversifying beyond glass.",
+        "notYetInPnL": "Greenfield entry into a new product; earnings depend on winning can customers against Ball and CANPACK.",
+        "whenItLands": "Targeted late FY28 (around December 2027)"
+      }
+    ],
+    "closer": "The competitor's restart and the capex ramp will move AGI along the scenario rows in block 05.1 within a few quarters. Until then, the low multiple is the market pricing an unresolved bet, not a settled one."
+  }
+}

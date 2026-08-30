@@ -1,7 +1,8 @@
 import type {
   TickerReport, Metric, FinancialRow, HoldingSlice, ChecklistItem, MoatStrength,
   MoneyFlow as MoneyFlowT, AiFork as AiForkT, Scorecard as ScorecardT,
-  Counterpoint as CounterpointT, Outlook as OutlookT,
+  Counterpoint as CounterpointT, Outlook as OutlookT, MarginModel as MarginModelT,
+  ScenarioTable as ScenarioTableT,
 } from '@/lib/types';
 import { getSector } from '@/lib/sectors';
 import { getCaseStudiesForTicker } from '@/lib/caseStudies';
@@ -17,6 +18,7 @@ const HOLD_COLORS: Record<string, string> = {
   FII: '#f0b429',
   DII: '#7c93f5',
   Retail: '#f85149',
+  Public: '#8a94a6',
   Other: '#6b7684',
 };
 
@@ -230,6 +232,150 @@ function Outlook({ o }: { o: OutlookT }) {
   );
 }
 
+function MarginModel({ m }: { m: MarginModelT }) {
+  return (
+    <div className="margin-model">
+      {m.intro && <p style={{ color: 'var(--ink-dim)' }}>{m.intro}</p>}
+
+      {/* The bridge: what the margin move is made of, and how much lasts. */}
+      <div className="mm-bridge">
+        <div className="mm-bridge-ends">
+          <div className="mm-end">
+            <div className="mm-end-label">{m.bridge.from.label}</div>
+            <div className="mm-end-value">{m.bridge.from.value}</div>
+          </div>
+          <div className="mm-bridge-arrow">→</div>
+          <div className="mm-end">
+            <div className="mm-end-label">{m.bridge.to.label}</div>
+            <div className="mm-end-value">{m.bridge.to.value}</div>
+          </div>
+        </div>
+        <div className="mm-drivers">
+          {m.bridge.drivers.map((d, i) => (
+            <div key={i} className={`mm-driver mm-${d.kind}`}>
+              <span className="mm-driver-pts">{d.points}</span>
+              <div className="mm-driver-body">
+                <span className="mm-driver-label">{d.label}</span>
+                {d.note && <span className="mm-driver-note">{d.note}</span>}
+              </div>
+              <span className={`mm-tag mm-tag-${d.kind}`}>{d.kind}</span>
+            </div>
+          ))}
+        </div>
+        {m.bridge.source && <p className="mm-attribution">{m.bridge.source}</p>}
+        <div className="mm-normalized">
+          <span className="mm-norm-label">{m.bridge.normalized.label}</span>
+          <span className="mm-norm-value">{m.bridge.normalized.value}</span>
+          <span className="mm-norm-note">{m.bridge.normalized.note}</span>
+        </div>
+      </div>
+
+      {/* The scenarios: each margin level priced into earnings and a multiple. */}
+      {m.scenarios.title && <div className="mm-scenarios-title">{m.scenarios.title}</div>}
+      {m.scenarios.assumptions && <p className="mm-assume">{m.scenarios.assumptions}</p>}
+      <div className="mm-scenarios" style={{ overflowX: 'auto' }}>
+        <table className="mm-table">
+          <thead>
+            <tr>
+              <th>Scenario</th>
+              {m.scenarios.columns.map((c) => <th key={c}>{c}</th>)}
+            </tr>
+          </thead>
+          <tbody>
+            {m.scenarios.rows.map((row, i) => (
+              <tr key={i} className={row.tone ? `mm-tone-${row.tone}` : ''}>
+                <th scope="row">{row.label}</th>
+                {row.cells.map((cell, j) => <td key={j}>{cell}</td>)}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      {m.gap && (
+        <div className="mm-gap">
+          <div className="mm-gap-cols">
+            <div className="mm-gap-col mm-gap-ours">
+              <span className="mm-gap-cap">Our mid-cycle estimate</span>
+              <span className="mm-gap-val">{m.gap.ours}</span>
+            </div>
+            <div className="mm-gap-vs">vs</div>
+            <div className="mm-gap-col mm-gap-market">
+              <span className="mm-gap-cap">Priced in at ₹775</span>
+              <span className="mm-gap-val">{m.gap.market}</span>
+            </div>
+          </div>
+          <p className="mm-gap-note">{m.gap.note}</p>
+        </div>
+      )}
+
+      <div className="mm-takeaway">{m.scenarios.takeaway}</div>
+
+      {(m.bullSignals?.length || m.bearSignals?.length) && (
+        <div className="mm-signals">
+          {m.bullSignals && m.bullSignals.length > 0 && (
+            <div className="mm-sig mm-sig-bull">
+              <div className="mm-sig-label">More convinced if</div>
+              <ul>{m.bullSignals.map((s, i) => <li key={i}>{s}</li>)}</ul>
+            </div>
+          )}
+          {m.bearSignals && m.bearSignals.length > 0 && (
+            <div className="mm-sig mm-sig-bear">
+              <div className="mm-sig-label">More worried if</div>
+              <ul>{m.bearSignals.map((s, i) => <li key={i}>{s}</li>)}</ul>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// A standalone scenario table, reusing the margin-model table styling.
+function ScenarioBlock({ s }: { s: ScenarioTableT }) {
+  return (
+    <div className="margin-model">
+      {s.intro && <p style={{ color: 'var(--ink-dim)' }}>{s.intro}</p>}
+      {s.assumptions && <p className="mm-assume">{s.assumptions}</p>}
+      <div className="mm-scenarios" style={{ overflowX: 'auto' }}>
+        <table className="mm-table">
+          <thead>
+            <tr>
+              <th>Scenario</th>
+              {s.columns.map((c) => <th key={c}>{c}</th>)}
+            </tr>
+          </thead>
+          <tbody>
+            {s.rows.map((row, i) => (
+              <tr key={i} className={row.tone ? `mm-tone-${row.tone}` : ''}>
+                <th scope="row">{row.label}</th>
+                {row.cells.map((cell, j) => <td key={j}>{cell}</td>)}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div className="mm-takeaway">{s.takeaway}</div>
+
+      {(s.bullSignals?.length || s.bearSignals?.length) && (
+        <div className="mm-signals">
+          {s.bullSignals && s.bullSignals.length > 0 && (
+            <div className="mm-sig mm-sig-bull">
+              <div className="mm-sig-label">What would prove the caution wrong</div>
+              <ul>{s.bullSignals.map((x, i) => <li key={i}>{x}</li>)}</ul>
+            </div>
+          )}
+          {s.bearSignals && s.bearSignals.length > 0 && (
+            <div className="mm-sig mm-sig-bear">
+              <div className="mm-sig-label">What would confirm it</div>
+              <ul>{s.bearSignals.map((x, i) => <li key={i}>{x}</li>)}</ul>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function Block({ num, title, children }: { num: string; title: string; children: React.ReactNode }) {
   return (
     <section className="block">
@@ -272,6 +418,19 @@ function EditorialModel({ r }: { r: TickerReport }) {
         <p className="ed-answer"><strong>Why has no one else already won?</strong> {e.whyNotAlreadyWon}</p>
       </div>
 
+      <div className="ed-engine">
+        <div className="ed-label">The economic engine</div>
+        <div className="engine-flow">
+          {e.economicEngine.map((step, i) => (
+            <div key={`${step.label}-${i}`} className="flow-step">
+              <div className="flow-label">{step.label}</div>
+              <div className="flow-value">{step.value}</div>
+              {step.note && <div className="flow-note">{step.note}</div>}
+            </div>
+          ))}
+        </div>
+      </div>
+
       <div className="ed-heatmap">
         <div className="ed-label">{e.mentalModels.some((m) => m.assessment) ? 'Where the edge is (and isn’t)' : 'Mental model heatmap'}</div>
         <div className="model-rows">
@@ -280,19 +439,6 @@ function EditorialModel({ r }: { r: TickerReport }) {
               <div className="model-score"><ModelScore m={m} /></div>
               <div className="model-name">{m.model}</div>
               <div className="model-why">{m.why}</div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      <div className="ed-engine">
-        <div className="ed-label">Economic engine</div>
-        <div className="engine-flow">
-          {e.economicEngine.map((step, i) => (
-            <div key={`${step.label}-${i}`} className="flow-step">
-              <div className="flow-label">{step.label}</div>
-              <div className="flow-value">{step.value}</div>
-              {step.note && <div className="flow-note">{step.note}</div>}
             </div>
           ))}
         </div>
@@ -533,6 +679,12 @@ export function Report({ r }: { r: TickerReport }) {
 
       <Block num="05" title="Key Ratios"><Metrics items={r.ratios} /></Block>
 
+      {r.marginModel && (
+        <Block num="05.1" title="What the Margin Is Worth">
+          <MarginModel m={r.marginModel} />
+        </Block>
+      )}
+
       <Block num="06" title="Cash Flow Forensics (in Crores)">
         <div className="cashflow">
           {r.cashFlow.map((c) => (
@@ -555,6 +707,12 @@ export function Report({ r }: { r: TickerReport }) {
         <p>{r.cashFlowNote}</p>
       </Block>
 
+      {r.scenario && (
+        <Block num="06.1" title={r.scenario.title}>
+          <ScenarioBlock s={r.scenario} />
+        </Block>
+      )}
+
       <Block num="07" title="Growth"><Metrics items={r.growth} /></Block>
 
       <Block num="08" title="Management">
@@ -572,7 +730,7 @@ export function Report({ r }: { r: TickerReport }) {
           ))}
         </div>
         <div style={{ fontSize: 13, color: 'var(--ink-faint)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
-          {r.moat.strength} moat
+          {r.moat.label ?? (r.moat.strength === 'none' ? 'No moat, a cost position only' : `${r.moat.strength} moat`)}
         </div>
         <ul className="moat-sources">
           {r.moat.sources.map((s) => <li key={s}>{s}</li>)}
@@ -611,6 +769,12 @@ export function Report({ r }: { r: TickerReport }) {
       </Block>
 
       <Block num="13" title="What the Headline Numbers Hide">
+        <div className="chk-legend">
+          <span><span className="chk-icon chk-pass">✓</span> clean</span>
+          <span><span className="chk-icon chk-warn">!</span> caution</span>
+          <span><span className="chk-icon chk-fail">✕</span> red flag</span>
+          <span><span className="chk-icon chk-na">–</span> n/a</span>
+        </div>
         <Checklist items={r.trapChecklist} />
         {r.sectorChecklist.length > 0 && (
           <>
@@ -620,13 +784,15 @@ export function Report({ r }: { r: TickerReport }) {
         )}
       </Block>
 
-      <Block num="14" title="Two-Engine Assessment">
-        <div className="engine-grid">
-          <div className="engine-box"><h4>{r.engine.earningsLabel ?? 'Earnings engine'}</h4><p>{r.engine.earnings}</p></div>
-          <div className="engine-box"><h4>{r.engine.multipleLabel ?? 'Multiple engine'}</h4><p>{r.engine.multiple}</p></div>
-        </div>
-        <div className="engine-verdict">{r.engine.verdict}</div>
-      </Block>
+      {r.engine && (
+        <Block num="14" title="Two-Engine Assessment">
+          <div className="engine-grid">
+            <div className="engine-box"><h4>{r.engine.earningsLabel ?? 'Earnings engine'}</h4><p>{r.engine.earnings}</p></div>
+            <div className="engine-box"><h4>{r.engine.multipleLabel ?? 'Multiple engine'}</h4><p>{r.engine.multiple}</p></div>
+          </div>
+          <div className="engine-verdict">{r.engine.verdict}</div>
+        </Block>
+      )}
 
       <Block num="15" title="Mental-Model Lenses">
         <div className="lenses">
