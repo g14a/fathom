@@ -469,6 +469,311 @@
       "confidence": "low"
     }
   ],
+  "simple": {
+    "hero": {
+      "lead": "Crompton made one brilliant deal in 2005. That deal is a big part of why the company fell apart.",
+      "flow": [
+        {
+          "label": "One deal, Pauwels (2005)",
+          "sub": "doubled the company overnight"
+        },
+        {
+          "label": "The confidence it created",
+          "sub": "'we can repeat this anywhere'"
+        },
+        {
+          "label": "Eight more deals, on borrowed money",
+          "sub": "the spree"
+        },
+        {
+          "label": "The overseas empire, by 2020",
+          "sub": "sold or shut down",
+          "tone": "muted"
+        }
+      ],
+      "close": "How does one good deal become the reason for a disastrous one?"
+    },
+    "sections": [
+      {
+        "id": "the-genius-deal",
+        "question": "What did Crompton buy in 2005, and why was it so cheap?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "For roughly 32 million euros, about 200 crore rupees in the money of the day, Crompton bought Pauwels, one of the top five makers of large three-phase transformers in the world, with factories in Belgium, Ireland, Canada, the United States and Indonesia, and customers among utilities across Europe and North America.",
+              "In its first full year inside Crompton, the acquired business added about 1,600 crore of revenue, against 2,521 crore for the standalone Indian business, and lifted profit after tax from 163 crore to 233 crore. A mid-sized Indian company spent about 200 crore and doubled in size, entering markets it could not otherwise have touched."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "To reach Western utilities on its own, Crompton would have had to build Western plants, certify its transformers, install reference units, wait a decade to prove them, and lose bid after bid until a first utility gambled on an unknown Indian name. Pauwels already had all of it. In a deal like this you are not paying for buildings. You are paying to skip the decade."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "That skipped decade is the [[barrier to entry|Something that makes it slow or costly for a new rival to compete, like approvals and trust that take years to earn.|For transformers it is a decade of utility testing and reference units; Pauwels had it, and Crompton bought it rather than building it.]] Crompton was buying. It could not have built the same customer trust quickly at any price.",
+              "So why was it for sale? Pauwels was losing money not because its product or customers had vanished, but because its factories were running half empty. Picture a plant built to make 100 transformers a year that is only making 60. The building, the machines and most of the workers cost the same whether the other 40 get built or not, so all of that fixed cost gets loaded onto fewer units, and each one costs more than it should.",
+              "Crompton put in working capital, fed cheaper Indian engineering and sourcing into the Western network, and pushed more volume through the same plants."
+            ]
+          },
+          {
+            "kind": "bigNumber",
+            "kicker": "The fix",
+            "from": "~60%",
+            "to": "~95%",
+            "fromSub": "how full the plants ran before",
+            "toSub": "after Crompton took over",
+            "label": "Capacity utilisation at the acquired plants",
+            "insight": "Fuller plants and lower-cost work pulled the per-unit cost down, and the acquired business swung from losses to about 20% return on capital within a year. A fixable problem fixed, but the rare alignment that made it work is what matters next.",
+            "term": "capacity utilisation"
+          }
+        ]
+      },
+      {
+        "id": "five-things-aligned",
+        "question": "So what really made Pauwels work?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Not one advantage, but five, and all of them present at the same time. That is rarer than it sounds."
+            ]
+          },
+          {
+            "kind": "thesis",
+            "heading": "Five things that all had to be true, and all were",
+            "items": [
+              {
+                "tone": "good",
+                "label": "A bargain price",
+                "text": "Low against what building the same plants, approvals and customer list would have cost."
+              },
+              {
+                "tone": "good",
+                "label": "A fixable problem",
+                "text": "The losses came from slack plants and a heavy cost base, not a dead product. That can be fixed. A vanished market cannot."
+              },
+              {
+                "tone": "good",
+                "label": "An Indian cost edge",
+                "text": "Cheaper Indian engineering and sourcing could be fed into the Western network, lowering the cost of the price-sensitive work."
+              },
+              {
+                "tone": "good",
+                "label": "Unbuyable market access",
+                "text": "Overnight, Crompton could sell to European and American utilities under a name they already trusted."
+              },
+              {
+                "tone": "good",
+                "label": "A rising cycle",
+                "text": "The years after 2005 were a global boom in power investment, so demand for transformers was strong."
+              }
+            ]
+          },
+          {
+            "kind": "bigIdea",
+            "text": "A mediocre deal teaches caution. A brilliant one convinces you it was skill you can repeat."
+          }
+        ]
+      },
+      {
+        "id": "the-wrong-lesson",
+        "question": "What lesson did Crompton take from it?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "The wrong one. Pauwels did not prove Crompton knew how to buy troubled companies in general. It proved Crompton knew how to fix one very particular kind: a company with living customers, real approvals, a heavy Western cost base and slack plants, bought cheap near the bottom of a cycle.",
+              "Those are very different lessons, and the gap between them is the rest of this story. Crompton read the rare five-way alignment as a formula, and went shopping. From 2005 it bought around nine businesses abroad: Ganz in Hungary, Microsol in Ireland, Sonomatra in France, MSE and QEI in the United States, Emotron in Sweden, and, the largest and last, the Spanish smart-grid company ZIV in 2012. The money increasingly came from borrowing."
+            ]
+          },
+          {
+            "kind": "bigNumber",
+            "kicker": "The spree, on credit",
+            "from": "~395 cr",
+            "to": "~985 cr",
+            "fromSub": "the company's own consolidated borrowings",
+            "toSub": "one year later, to March 2012",
+            "toTone": "bad",
+            "label": "Crompton's borrowings, doubling in a single year",
+            "insight": "The term loans were secured against the overseas plants themselves, in Ireland and the United States. At the wider Avantha group level the borrowing reached around 7,500 crore by March 2014. This was no longer one careful bargain. It was a debt-funded habit.",
+            "term": "serial acquirer"
+          }
+        ]
+      },
+      {
+        "id": "copies-only-looked-alike",
+        "question": "Were the later deals really the same deal again?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "On the label, yes. Underneath, no. The clearest example is Ganz, bought in 2006, the one that looked most like Pauwels and still failed. Another storied European transformer maker, another distressed seller, a similar price at an enterprise value of about 35 million euros. Crompton even bought it through the Pauwels subsidiary itself, so consciously was Pauwels being run again."
+            ]
+          },
+          {
+            "kind": "split",
+            "left": {
+              "tone": "good",
+              "title": "Pauwels (2005)",
+              "verdict": "Worked",
+              "rows": [
+                "Cheap against its sales, and came clean",
+                "A fixable, cost-side problem",
+                "Earning about 20% on capital within a year",
+                "Bought near the bottom of a rising cycle"
+              ]
+            },
+            "right": {
+              "tone": "bad",
+              "title": "Ganz (2006)",
+              "verdict": "Liquidated, 2020",
+              "rows": [
+                "Similar price, but the wider group's loan liabilities came attached",
+                "Problems that ran deeper and were never fixed",
+                "Limped on, loss-making, for over a decade",
+                "Distress was the only thing it shared with Pauwels"
+              ]
+            },
+            "punch": "Same starting label, almost none of the same economics. And ZIV, the last and largest deal, was the opposite of Pauwels entirely: not distressed but growing and profitable, bought near a full price, in electronics where the Indian cost edge saves little, and well after the boom had turned."
+          }
+        ]
+      },
+      {
+        "id": "the-loop",
+        "question": "Why did borrowing to buy them turn dangerous?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "aside": "In everyday terms",
+            "text": [
+              "Say you buy a second house with a loan, expecting the rent to cover the interest. If the rent disappoints, the interest does not. It falls due every month regardless, and the only ways out are to feed it from your salary or to sell the house, often for less than you paid."
+            ]
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "Two things turned against the later deals at once. First, the cycle rolled over. The 2007-2010 boom pulled a wave of new capacity into the transformer industry, and then demand fell away: weak Western utility spending, the euro-zone crisis, and slowing Indian power projects. Supply had grown into a market that stopped growing, and heavy price competition hit every maker. Second, integration got harder: fixing one distressed company is a project, but running scattered plants across eight countries, each with its own costs, unions, regulators and currency, is a far harder job."
+            ]
+          },
+          {
+            "kind": "callout",
+            "text": "When the plants failed to earn enough, the debt stayed. Eventually the group had little choice but to sell the very businesses it had spent a decade assembling. That is how a debt-funded acquisition destroys value: the asset can disappoint, but the loan never does."
+          }
+        ]
+      },
+      {
+        "id": "the-warning",
+        "question": "Could you have seen it in the numbers?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Yes, and it sat in one annual report. Crompton's own consolidated accounts for FY2011-12 carry the whole warning in a single year, if you read the right lines instead of the headline growth."
+            ]
+          },
+          {
+            "kind": "bigNumber",
+            "kicker": "The warning signature",
+            "from": "807 cr",
+            "to": "239 cr",
+            "fromSub": "Power Systems profit, FY11",
+            "toSub": "FY12, down about 70%",
+            "toTone": "bad",
+            "label": "The profit of the segment housing the overseas plants",
+            "insight": "In the same year, overseas sales rose (about 4,952 to 5,534 crore) and overseas assets rose, while this profit fell about 70%, finance costs more than doubled, and the company's own borrowings roughly doubled. Rising sales, rising assets, rising debt, falling profit."
+          },
+          {
+            "kind": "insight",
+            "text": "A segment that is a growing share of your sales and assets but a shrinking share of your profit is scale being mistaken for success. Any one of those lines is explainable. All of them moving together says the strategy is buying revenue that no longer earns, on borrowed money."
+          }
+        ]
+      },
+      {
+        "id": "the-unwind",
+        "question": "How did it end?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "The rescue was the whole strategy run in reverse: sell what the spree had bought, and split the company so the healthy half could be saved. By around FY13 Crompton posted its first annual loss in about a decade, the overseas operations the main cause even as the Indian business kept earning. By FY15 the international arm still turned over roughly 4,800 crore, all of it loss-making.",
+              "In 2015 the group carved out the consumer business, the fans, pumps and lighting most Indians associate with the Crompton name, and sold control for about 2,000 crore. That business was later listed separately and went on to do well; it is a different company from the one this study is about. From 2016 to 2020, Crompton dismantled the overseas empire piece by piece, selling the viable units and liquidating the rest, for sums of the same modest order as the pieces had cost, after years of losses in between."
+            ]
+          },
+          {
+            "kind": "callout",
+            "text": "What remained was the Indian power business, renamed CG Power and Industrial Solutions. Its own next chapter, an accounting fraud, a share price under 5 rupees, and an unlikely rescue, is a separate case study of its own."
+          }
+        ]
+      },
+      {
+        "id": "could-you-have-seen",
+        "question": "What could a careful reader have watched, and when?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "This is a harder case than most, because for years the numbers looked good and the strategy looked vindicated. But the shape of the risk was visible to anyone reading the annual reports."
+            ]
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "First, the pattern of acquisitions itself. From 2006 onwards, most years brought a new foreign purchase disclosed in the goodwill and acquisitions notes. A company buying something abroad nearly every year is increasingly dependent on finding the next good deal and integrating it. That is not automatically bad, but it becomes a warning when the buying is debt-funded and the acquired segment's returns are already slipping.",
+              "Second, the specific turning point. Crompton's FY2011-12 report showed overseas sales and assets rising, the segment's profit falling about 70%, finance costs more than doubling, and borrowings roughly doubling, all in the same document. Any one line is explainable. All of them moving together says the strategy is buying revenue that no longer earns, on borrowed money. That warning was readable a full year before the first annual loss."
+            ]
+          },
+          {
+            "kind": "callout",
+            "text": "What careful filing-reading would not have caught was the separate accounting fraud that hit the remaining power company in 2019, well after this story had played out. Reading annual reports protects you from a visible strategy going wrong. It does not protect you from figures that were misstated in the first place."
+          }
+        ]
+      },
+      {
+        "id": "graduate",
+        "question": "The language behind the story",
+        "blocks": [
+          {
+            "kind": "bigIdea",
+            "text": "A brilliant first deal is dangerous precisely because it can make a rare set of circumstances look like a repeatable skill."
+          },
+          {
+            "kind": "graduate",
+            "intro": "The case study uses these words. Now you know what they mean.",
+            "ctaLabel": "Read the investor case study",
+            "glossary": [
+              {
+                "term": "Barrier to entry",
+                "def": "Something that makes it slow or costly for a new rival to compete, so existing players are protected.",
+                "context": "For transformers it is a decade of utility testing and trust. Crompton bought that access in Pauwels rather than building it."
+              },
+              {
+                "term": "Capacity utilisation",
+                "def": "How much of a factory's capacity is actually being used. Low utilisation spreads fixed costs over fewer units, so each one costs more.",
+                "context": "Pauwels ran near 60% and lost money; Crompton pushed it toward 95% and it turned profitable within a year."
+              },
+              {
+                "term": "Serial acquirer",
+                "def": "A company that grows mainly by buying other companies, one after another.",
+                "context": "Crompton bought around nine overseas businesses in seven years, increasingly on debt, betting it could repeat the Pauwels magic."
+              },
+              {
+                "term": "Debt-funded acquisition",
+                "def": "Buying a business with borrowed money, so the interest is owed whether or not the purchase pays off.",
+                "context": "Crompton's borrowings doubled in one year; when the foreign plants stopped earning, the debt stayed and forced the sales."
+              },
+              {
+                "term": "The warning signature",
+                "def": "A pattern where revenue and assets keep rising while profit falls and debt climbs: growth that is not creating value.",
+                "context": "Visible in Crompton's FY2011-12 report a year before its first annual loss."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "remember": "A brilliant first deal is dangerous because it can make a rare set of circumstances look like a repeatable skill.",
   "published": "2026-08-17",
   "answer": "Crompton's 2005 purchase of the distressed Belgian transformer maker Pauwels for about €32 million was a genuine masterstroke: it fixed the business and roughly doubled Crompton overnight. The damage came from believing one success was a repeatable formula. Crompton bought around nine overseas companies between 2005 and 2012, funded increasingly by debt that peaked near ₹7,500 crore, but the later targets lacked what made Pauwels work. As the power cycle turned and integration overwhelmed it, the whole overseas empire was sold or liquidated.",

@@ -265,6 +265,235 @@
       "confidence": "medium"
     }
   ],
+  "simple": {
+    "hero": {
+      "lead": "A great car business lost two-thirds of its value. The cars were not really the problem.",
+      "flow": [
+        {
+          "label": "The share price",
+          "sub": "fell about 68%"
+        },
+        {
+          "label": "The core car business",
+          "sub": "was still sound",
+          "tone": "muted"
+        }
+      ],
+      "close": "If the core was fine, what actually broke?"
+    },
+    "sections": [
+      {
+        "id": "the-surprise",
+        "question": "Why did Mahindra fall so far?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "In April 2018, Mahindra & Mahindra was on top of the world. Its stock had just hit an all-time high, the company was worth more than 1 lakh crore rupees, and it was the undisputed king of the Indian SUV.",
+              "Two years later it was a nine-year low, had lost roughly 68% of its value, and had just reported its first quarterly loss in nineteen years.",
+              "It looked like a simple story: the car market had turned down, and a carmaker fell with it. That was real, but it was not the real story. The deeper wound was not what Mahindra sold. It was what it was quietly funding."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-backdrop",
+        "question": "Wasn't it just the car market turning down?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "The industry genuinely was in a ditch. In late 2018 the giant infrastructure lender IL&FS collapsed, and because most cars and tractors in India are bought on loans, that froze the whole vehicle-finance system almost overnight. On top of that came the costly transition to stricter BS6 emission norms, which pushed up prices, and then the COVID shock of early 2020 shut showrooms entirely.",
+              "And Mahindra's own patch of it hurt especially: its share of the SUV market slipped from about 23.8% to 18.7% as sharper rivals like the Kia Seltos and Hyundai Creta arrived, with the flagship XUV500 losing roughly half of its share in a single year. A bad cycle plus lost ground is enough to knock any carmaker's stock."
+            ]
+          },
+          {
+            "kind": "tension",
+            "left": "A bad auto cycle explains a dip",
+            "right": "A two-thirds collapse needs more than a bad cycle",
+            "punch": "The difference was not the industry. It was what Mahindra was doing with its own money.",
+            "a": "Mahindra was a good business in a bad cycle.",
+            "b": "A good business in a bad cycle does not normally lose two-thirds of its value.",
+            "resolve": "The cycle explained the dip. It did not explain the collapse."
+          }
+        ]
+      },
+      {
+        "id": "the-shopkeeper",
+        "question": "So where was the money actually going?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "aside": "In everyday terms",
+            "text": [
+              "Picture a shopkeeper whose own shop earns well. He sells enough every day to cover his costs and put money aside. But he keeps lending that money to relatives' failing shops next door, month after month, year after year. His own shop's books look healthy. But his household books, once you add in all the money leaking to the relatives, look terrible.",
+              "The shop is fine. The problem is what he keeps funding around it."
+            ]
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "Mahindra worked the same way. The core vehicle and tractor business earned real money. On its own, the company was solid. But the group had sprawled into dozens of other businesses, and several bled cash. The gap between what the core earned on its own and what the whole group earned, once every subsidiary was included, was the price of the sprawl. Consolidated profit belonging to owners dropped from 5,315 crore in FY19 to just 127 crore in FY20. The healthy core was quietly funding other people's bad businesses."
+            ]
+          },
+          {
+            "kind": "bigNumber",
+            "value": "5,200 crore+",
+            "label": "Consolidated profit before the overseas losses hit",
+            "from": "₹5,315 cr",
+            "to": "₹127 cr",
+            "fromSub": "consolidated profit, FY19",
+            "toSub": "FY20",
+            "insight": "The standalone business was fine. The consolidated number showed the bleeding."
+          }
+        ]
+      },
+      {
+        "id": "the-sprawl",
+        "question": "What were these loss-making subsidiaries?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "The most damaging by far was SsangYong, a South Korean carmaker Mahindra had bought out of bankruptcy in 2011 for roughly 2,100 crore rupees. The logic sounded good: a ready-made global carmaker with its own factories and engineers, a shortcut to becoming a serious international player. It nearly worked. Around 2016, on the back of a popular compact SUV called the Tivoli, SsangYong came close to breaking even. That was as good as it got.",
+              "After that it unravelled. Korea's market shifted from the diesel engines SsangYong was built around toward petrol. Key export markets such as Iran, Chile and Egypt dried up. The losses widened from about 66 billion won in 2017 to 62 billion in 2018, and then to a staggering 341 billion won in 2019, roughly a fivefold jump in a single year. Mahindra kept injecting fresh capital just to keep it breathing."
+            ]
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "But SsangYong was only the headline. There was also GenZe, an electric-scooter venture in the United States. There was Peugeot Motocycles in France. There was an aerospace business, a dairy business, a stake in the Italian design house Pininfarina. Grand-sounding, globe-spanning, and collectively a steady drain on the cash the good Indian businesses were generating.",
+              "This is what [[capital allocation|how a company chooses to spend the money it has, across its own business and others.|Mahindra's real problem was the sprawl of ventures it chose to fund, far from the core.]] looks like in practice: a series of choices about where to spend the shareholders' money. Mahindra's choices, for years, were to fund a sprawl of ventures far from the core, and the losses piled up quietly because they were buried inside subsidiary accounts that only showed up when the whole group was added together."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "Here is the key check you can do yourself. Put the core company's own numbers ([[standalone profit|what the parent company earns on its own, before adding in any subsidiaries.|Mahindra's own profit stayed healthy.]]) next to the whole group's numbers ([[consolidated profit|the parent plus every subsidiary added together.|Mahindra's consolidated profit sat far below its standalone profit year after year]]). If the group profit sits persistently and far below the core profit, the gap is the subsidiaries' losses. That is where the money is going."
+          }
+        ]
+      },
+      {
+        "id": "the-capitulation",
+        "question": "When did it finally come to a head?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "When the accounting caught up with the cash. In the March 2020 quarter, Mahindra reported a standalone net loss of 2,502 crore, its first quarterly loss in nearly nineteen years. Buried in the notes to the results was an [[impairment|an accounting charge that admits something the company owns is now worth less than it paid for it.|The 2,780 crore charge on SsangYong that produced Mahindra's first quarterly loss in 19 years.]] of 2,780 crore on the company's investments in its subsidiaries, SsangYong chief among them.",
+              "That is the moment the quiet years of leakage arrived on the income statement in one brutal quarter. The market saw the full cost at once. The stock, which had been sliding for two years, fell to around 248 rupees by late March 2020, a nine-year low, having dropped by roughly half in that single brutal month.",
+              "A company that is seen to destroy capital does not just earn less profit. It earns a steadily lower valuation multiple on that profit. That double blow, falling profits and a falling multiple, is why Mahindra dropped far more than the auto slowdown alone can explain."
+            ]
+          },
+          {
+            "kind": "callout",
+            "text": "Investors who had held on through the whole two-year descent finally gave up. And that moment of maximum despair turned out to be almost exactly the turning point."
+          }
+        ]
+      },
+      {
+        "id": "the-fix",
+        "question": "What actually turned it around?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "What changed was not the industry, which was still on its knees. What changed was discipline. Faced with the SsangYong disaster, the board refused to put in another rupee. New leadership imposed a single, brutally simple rule on the entire sprawling group: every business had to earn an 18% return on the money invested in it, or have a clear, quantifiable reason to exist. Anything that could not clear that bar would be fixed, sold or shut.",
+              "This is the [[18% ROE hurdle|a minimum return each business must earn on the equity invested in it, or be fixed, sold or shut.|The rule that reshaped the entire Mahindra group.]] in action. It sounds like a boring financial target. In practice it was a sorting machine. Businesses went into one of three buckets: the ones clearing the hurdle run as normal, the fixable ones turned around on a deadline, and the hopeless ones exited."
+            ]
+          },
+          {
+            "kind": "bigNumber",
+            "value": "~15",
+            "label": "The fix in two numbers",
+            "from": "~15",
+            "to": "~18%",
+            "fromSub": "businesses exited",
+            "toSub": "ROE target hit",
+            "insight": "Mahindra exited about 15 businesses and hit its 18% ROE target within 18 months."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "And remarkably for a company famous for hanging on to its pet projects, management actually did it. GenZe was shut. Peugeot Motocycles was sold. SsangYong was let go and eventually picked up by Korea's KG Group in 2023. The cash and the attention were redirected to the three things Mahindra was genuinely great at: SUVs, tractors and electric vehicles.",
+              "The promised 18% return was hit within about a year and a half, far faster than anyone expected. And the stock, left for dead near 248 rupees in March 2020, went on to compound at roughly 35% a year and multiply many times over from those lows. The whole spectacular recovery grew out of one unglamorous decision: to stop wasting money and spend it only where it earned a proper return."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-lesson",
+        "question": "What does this tell you about any company?",
+        "blocks": [
+          {
+            "kind": "thesis",
+            "text": "The fall was never really about cars. It was about where the company put its money. Fixing that, not the car cycle, is what made today's Mahindra a different company. This is why capital allocation is one of the most important things to judge in any business.",
+            "heading": "The lesson",
+            "items": [
+              {
+                "tone": "bad",
+                "label": "The trap",
+                "text": "A good standalone business can hide a terrible consolidated one if the subsidiaries are bleeding."
+              },
+              {
+                "tone": "good",
+                "label": "The fix",
+                "text": "Set a return target, measure every business against it, and exit the ones that fail."
+              },
+              {
+                "tone": "warn",
+                "label": "The question",
+                "text": "Is the profit at the company level or the subsidiary level? Check both."
+              }
+            ]
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "For any group with lots of subsidiaries, you can check this yourself. Put the standalone profit next to the consolidated profit. If the consolidated number sits persistently and far below the standalone, the subsidiaries are eating the core. Then ask the real question: is a good business being used to fund bad ones?",
+              "The discipline also has a signature: a stated return threshold that is actually enforced. Mahindra's patterns were visible years before the collapse. You did not need to predict an impairment. You only needed to notice that the money was already gone, year after year, and that a write-off is simply the day the balance sheet admits it."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "graduate",
+        "question": "The idea to remember",
+        "blocks": [
+          {
+            "kind": "bigIdea",
+            "text": "A great core business can be dragged down by what it chooses to fund. The cycle explains a dip; capital allocation explained the collapse."
+          },
+          {
+            "kind": "graduate",
+            "intro": "The words behind the story.",
+            "ctaLabel": "Read the investor case study",
+            "glossary": [
+              {
+                "term": "Standalone vs consolidated profit",
+                "def": "Standalone is what the parent earns on its own; consolidated adds in every subsidiary.",
+                "context": "Mahindra's consolidated profit sat far below its standalone, and the gap was the subsidiaries' losses."
+              },
+              {
+                "term": "Capital allocation",
+                "def": "How a company chooses to spend the money it has, across its own business and others.",
+                "context": "Mahindra's real problem, and its fix: stop funding losers, make every business earn its keep."
+              },
+              {
+                "term": "Impairment (write-down)",
+                "def": "An accounting charge that admits something the company owns is now worth less than it paid for it.",
+                "context": "The 2,780 crore charge on SsangYong that produced Mahindra's first quarterly loss in 19 years."
+              },
+              {
+                "term": "18% ROE hurdle",
+                "def": "A minimum return each business must earn on the equity invested in it, or be fixed, sold, or shut.",
+                "context": "The single hard rule that reshaped the entire Mahindra group."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "answer": "Mahindra lost roughly two-thirds of its value between 2018 and 2020 in what looked like an auto downturn but was really a capital-allocation story. The industry was weak and its SUV share slipped from 23.8% to 18.7%, but the real wound was cash pouring into a sprawl of loss-making overseas and side businesses, whose FY20 losses topped ₹5,200 crore and produced its first quarterly loss in nearly 19 years. It recovered by imposing one hard rule on capital and exiting about 15 businesses.",
   "faqs": [
     {

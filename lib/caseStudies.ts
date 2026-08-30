@@ -92,7 +92,9 @@ const CS_DIR = path.join(process.cwd(), 'data', 'case-studies');
 function getAllIds(): string[] {
   return fs
     .readdirSync(CS_DIR)
-    .filter((f) => f.endsWith('.json'))
+    // `.simple-draft.json` sidecars are work-in-progress Explain-simply drafts
+    // (see scripts/scaffold-simple.mjs), not case studies. Skip them.
+    .filter((f) => f.endsWith('.json') && !f.endsWith('.simple-draft.json'))
     .map((f) => f.replace(/\.json$/, ''));
 }
 

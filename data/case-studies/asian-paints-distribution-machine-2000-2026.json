@@ -309,6 +309,185 @@
       "confidence": "medium"
     }
   ],
+  "simple": {
+    "hero": {
+      "lead": "Asian Paints did not win because paint is hard to make. It won at everything that happens after the paint is made.",
+      "flow": [
+        {
+          "label": "The product",
+          "sub": "paint anyone can copy"
+        },
+        {
+          "label": "The machine",
+          "sub": "tinting, replenishment, 169,000 shelves",
+          "tone": "accent"
+        },
+        {
+          "label": "The moat",
+          "sub": "the dealer's economics, not the chemistry"
+        }
+      ],
+      "close": "How do you build a moat out of something anyone can make?"
+    },
+    "sections": [
+      {
+        "id": "the-surprise",
+        "question": "What business was Asian Paints really in?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Most people think Asian Paints won because it made good paint. That is true, and it misses the point entirely.",
+              "Paint is not especially hard to make. Dozens of companies can mix a decent white emulsion. Yet Asian Paints earns returns that look nothing like a commodity business. In FY26 it generated ₹30,680 crore of revenue, ₹7,113 crore of operating profit, and ₹5,567 crore of free cash flow. Its return on capital was 28.9%.",
+              "Those numbers do not come from a better can of paint. They come from a system that puts the right colour, in the right shop, at the right moment, better than anyone else. The product was ordinary. The machine that delivered it was not."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "why-paint-is-hard",
+        "question": "What made paint so hard to sell well?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Colour. A customer wants one specific shade out of thousands. No dealer can stock every colour in every size; the money tied up in that much inventory would be crushing. So historically a shop had some shades and lost the sale whenever it lacked the one you wanted.",
+              "The problem is not the paint. It is the gap between what the customer wants and what the shelf can hold. Whoever closes that gap wins the counter.",
+              "A company can advertise ten thousand shades, but if the dealer cannot put the right one in the customer's hand, the advertising is wasted. That is why distribution matters more in paint than in many consumer categories. The product is simple. The shelf is the bottleneck."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-tinting-machine",
+        "question": "How did Asian Paints close that gap?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "It put a tinting machine in the shop. The dealer stocks a few base paints and colourants, then mixes the exact shade at the counter, on the spot. Now the shop offers every colour while holding far less stock. The machine is a small last-mile factory inside the shop.",
+              "That alone is not a moat. A rival can buy the same machine. The moat is the full loop around it: the base paint, the colourants, the software, the servicing, the dealer training, the replenishment that keeps stock arriving fast, and the brand the customer already heard of. A machine without supply reliability is just hardware. A machine inside Asian Paints system becomes shelf space, recommendation and working-capital velocity.",
+              "The tinting machine changed the economics of the shelf. Instead of stocking every shade, the dealer carries base paint and produces the exact shade on demand. That cut trapped inventory dramatically. But the machine only works if the base paint arrives reliably, the colourants are always in stock, the machine is serviced, and the dealer knows how to use it. Asian Paints built all of that. The machine was the visible part. The invisible part was the system."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-painter",
+        "question": "Who really decides which paint wins?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Not the homeowner. The homeowner rarely knows one brand from another. The real recommendation chain runs homeowner, then painter, then dealer, then Asian Paints. The painter is the most powerful character in the story.",
+              "A painter is paid for a finished wall. His reputation dies if the paint peels, the shade is wrong, or the coverage is patchy. He recommends the brand that behaves identically on every job: consistent shade, reliable coverage, easy application, always in stock at the counter. Trust, for a painter, is the absence of surprises.",
+              "Asian Paints spent decades removing surprises. The painter had no reason to switch and every reason to ask for it by name. That is the moat that no advertising budget can buy overnight."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-flywheel",
+        "question": "Why did dealers prefer to stock Asian Paints?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Money sitting as unsold stock on a shelf is money the dealer cannot use. The faster stock sells and is refilled, the less cash a dealer needs tied up to run the same shop. Asian Paints understood this better than any rival.",
+              "The tinting machine meant the dealer could offer every colour while holding less base stock. Fast replenishment meant the dealer did not need to overstock. The demand data Asian Paints collected from its own network meant the right stock arrived at the right shops. The result was a loop: the dealer always had the colour, so the dealer trusted the brand, a trusting dealer recommended it, recommendations drove volume, and volume funded an even denser network that made availability better still.",
+              "This is not a theoretical advantage. It is the difference between a dealer who ties up ₹100,000 in inventory and one who ties up ₹40,000 to sell the same amount. The freed-up cash is real, and the dealer remembers which brand freed it."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "what-it-produced",
+        "question": "What did that machine produce for the owner?",
+        "blocks": [
+          {
+            "kind": "bigNumber",
+            "kicker": "The cash a distribution moat throws off",
+            "from": "₹30,680 cr",
+            "to": "₹5,567 cr",
+            "fromSub": "FY26 revenue",
+            "toSub": "free cash flow",
+            "label": "Revenue, and the cash left over after running and growing",
+            "insight": "A distribution company with a strong consumer brand on top turns into a cash machine: high returns, and thousands of crore left over each year after paying for everything it needs. That surplus is the reward for owning the channel, not the chemistry."
+          }
+        ]
+      },
+      {
+        "id": "the-attack",
+        "question": "So what could actually hurt it?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "An attack on the same place the moat lives. A new rival, Birla Opus, arrived with the Aditya Birla group behind it, and it did not try to make better paint. It went straight for the dealer.",
+              "Birla Opus built industry-scale capacity, installed tinting machines, offered better margins and credit to dealers, and spent heavily on advertising and visibility. Within a year it crossed 10% of the organised decorative paints market. Its capacity alone represented about 21% of the organised industry. Its strategy was Asian Paints own sentence, one word louder: make the dealer even more profitable.",
+              "A new factory must be filled. It gets filled with lower prices, sweeter dealer terms, and subsidies for the channel. That is precisely what puts pressure on the incumbent. The moat was not the paint. It was the dealer economics. And the challenger went straight for the dealer economics.",
+              "This is the dark side of distribution. A moat built through the channel can be disrupted by a competitor willing to overpay the channel. The incumbent has history, service, data and trust. The challenger has aggression, subsidies and a clean-sheet system. The fight was never really brand against brand. It was one channel offer against another."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prevent-wrong-lesson",
+        "question": "Does that mean distribution was never a real moat?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "No. It means the moat is real but not magic. A rival can buy tinting machines. It cannot instantly recreate twenty years of dealer habits, demand data, service routines and painter trust. Those are laid down one job, one delivery and one honoured promise at a time. Subsidies can rent the counter for a while, but the deep familiarity that makes a dealer reach for a brand without thinking is accumulated, not purchased.",
+              "The real question is not whether Asian Paints has distribution. It does. The question is whether the economic spread between Asian Paints' system and the challenger's offer remains large enough for dealers to stay loyal. That is why this case is so useful. A distribution moat is not a fixed wall. It is a standing bargain with thousands of small businesses: stock me, recommend me, trust me, and I will make your counter more profitable. It holds for as long as that bargain stays better than the rival's."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "using-this",
+        "question": "What should you carry to the next company?",
+        "blocks": [
+          {
+            "kind": "insight",
+            "text": "When a company sells an ordinary product but earns extraordinary returns, ask where the moat really sits. Often it is not the product but the system that puts it in front of the buyer. Then watch that system: the dealer incentives, the inventory turns, and whether a rival is spending to attack the channel itself."
+          }
+        ]
+      },
+      {
+        "id": "graduate",
+        "question": "The idea to remember",
+        "blocks": [
+          {
+            "kind": "bigIdea",
+            "text": "A moat does not have to be a secret formula. Asian Paints built one out of a product anyone can copy, by owning the path from factory to shelf better than anyone else."
+          },
+          {
+            "kind": "graduate",
+            "intro": "The words behind the story.",
+            "ctaLabel": "Read the investor case study",
+            "glossary": [
+              {
+                "term": "Distribution moat",
+                "def": "An advantage built not on the product but on the network and system that get it to the buyer.",
+                "context": "Asian Paints real edge: tinting at the counter, fast replenishment, and 169,000 loyal retail points."
+              },
+              {
+                "term": "Working capital",
+                "def": "The cash tied up in day-to-day stock and dues; the faster stock turns, the less you need.",
+                "context": "Asian Paints freed up its dealers, making its paint the most profitable to stock."
+              },
+              {
+                "term": "Capacity that must be filled",
+                "def": "Big new supply, once built, has to be sold, usually via lower prices and better channel terms.",
+                "context": "Birla Opus scale is aimed straight at the channel, the place Asian Paints won."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "answer": "Asian Paints dominated Indian paint not because paint is hard to make, but because it built the best distribution system, one that made dealers and painters more profitable and more certain than any rival. It turned thousands of shades into base paint plus in-shop tinting machines, backed by fast replenishment, dealer credit, demand data and painter trust, reaching 169,000-plus retail touchpoints by FY25. Paint was the product; the machine that delivered it was the moat. That is also why its serious new rival, Birla Opus, attacked the dealer economics rather than the paint itself.",
   "faqs": [
     {

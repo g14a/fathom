@@ -341,6 +341,190 @@
       "confidence": "high"
     }
   ],
+  "simple": {
+    "hero": {
+      "lead": "One of the oldest companies in the country turned into one of its fastest-growing stocks.",
+      "flow": [
+        {
+          "label": "BSE, the age",
+          "sub": "nearly 150 years old"
+        },
+        {
+          "label": "The stock, in three years",
+          "sub": "up about 13 times",
+          "tone": "accent"
+        },
+        {
+          "label": "The regulator",
+          "sub": "controls the fuel",
+          "tone": "muted"
+        }
+      ],
+      "close": "How does a 150-year-old exchange suddenly grow like a startup, and what could stop it?"
+    },
+    "sections": [
+      {
+        "id": "the-surprise",
+        "question": "How did an ancient exchange suddenly explode?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "BSE is nearly 150 years old, the older of India two big stock exchanges and for years the smaller, sleepier one. It was a quiet, unloved business, overshadowed by its younger rival the NSE.",
+              "Then, in about three years, its stock rose roughly thirteen times over. Its profit went from ₹206 crore to ₹2,487 crore. Nothing about its age changed. What changed was the kind of trading flowing across it, and the way an exchange turns that flow into profit."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-business",
+        "question": "How does an exchange actually make money?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "An exchange does not buy or sell anything itself. It runs a marketplace. Buyers and sellers meet on its system, and for every trade that passes through, BSE keeps a tiny sliver of a fee. Think of a toll booth on a busy road. It does not own the cars or the cargo. It takes a small toll from each vehicle that passes.",
+              "The feature that makes an exchange unusual is that its costs barely move. Running it means running computers, software and a team of people, and that bill is roughly the same whether ten lakh trades happen in a day or ten crore. Once the system is built and paid for, processing an extra million trades costs almost nothing."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "A toll booth on a quiet road earns a little. The same booth on a road that suddenly floods with traffic earns a fortune, because nobody had to build a wider booth."
+          }
+        ]
+      },
+      {
+        "id": "the-spark",
+        "question": "What put the extra traffic through the booth?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "A surge in derivatives trading. A derivative is a side-bet on where a price will go, without owning the underlying share. Two flavours matter. A future is a contract to buy or sell at a fixed price on a set date, and you are obliged to go through with it. An option is gentler: it gives you the right, but not the duty, to do so. You pay a small fee for that right, and if the bet goes against you, you walk away having lost only the fee.",
+              "Because the fee is small and the possible swing is large, options behave like cheap lottery tickets. In India, these bets, especially weekly options on an index like the Sensex, went from a modest activity to an enormous one. Millions of first-time investors downloaded brokerage apps, social media made options trading look easy, and a long rising market rewarded early risk-taking. The flood of new betting is the extra traffic.",
+              "And almost all of that traffic now had to pass a toll booth."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "owning-a-day",
+        "question": "What was BSE masterstroke?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "For years, nearly all of this index-options trading happened on the rival NSE. BSE own derivatives business was a rounding error. Then, in May 2023, it relaunched its Sensex and Bankex weekly options and went after that ocean.",
+              "Each weekly option has an expiry day, the deadline when the bet is settled. The vast majority of trading happens on that one day, when the tickets are cheapest and the volume heaviest. Expiry day is the casino busiest night. NSE held its big weekly expiry on one weekday. Rather than fight it head-on, BSE simply scheduled its own expiry on a different weekday, creating a second big expiry each week that belonged to BSE alone. Traders, active any day of the week, now had two casino nights instead of one.",
+              "It sounds too simple to matter. It mattered enormously. By owning its own expiry day, BSE stopped competing for a slice of NSE traffic and began generating traffic of its own."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "It did not invent a new product. It claimed a day of the week, and with it a slice of the busiest activity in the market."
+          }
+        ]
+      },
+      {
+        "id": "the-numbers",
+        "question": "Why did profit rise even faster than revenue?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Between FY23 and FY26, BSE revenue grew from about ₹925 crore to ₹5,124 crore, roughly five and a half times. Profit grew from ₹206 crore to ₹2,487 crore, about twelve times. Profit grew more than twice as fast as revenue.",
+              "The gap is the toll booth. The derivatives fees poured in while the cost of running the exchange barely rose. The share of each rupee of revenue that survived as profit roughly doubled, from about 22% to nearly 48%. The business was not just bigger. Each rupee it earned was far more profitable than before."
+            ]
+          },
+          {
+            "kind": "bigNumber",
+            "kicker": "The toll booth catching a boom",
+            "from": "206 cr",
+            "to": "2,487 cr",
+            "fromSub": "net profit, FY23",
+            "toSub": "FY26",
+            "label": "BSE profit as the traffic exploded",
+            "insight": "Revenue rose about 5.5x. Profit rose about 12x. The gap is the toll booth: serving each extra trade costs almost nothing, so nearly every new rupee of fee fell straight through to profit."
+          },
+          {
+            "kind": "insight",
+            "text": "When revenue grows and costs barely move, profit grows much faster than revenue. That is [[operating leverage|When most costs are fixed, so extra revenue turns almost entirely into profit.|BSE booth was already built, so the boom in trades became a boom in profit.]]"
+          }
+        ]
+      },
+      {
+        "id": "the-catch",
+        "question": "So what is the risk hiding in this?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "The same lever runs both ways. Nearly every extra rupee of fee became profit on the way up. Nearly every lost rupee becomes lost profit on the way down. And the boom rests on a narrow thing: the volume of weekly derivative bets.",
+              "The market regulator, SEBI, has said plainly that it wants to cool this kind of speculative trading. Its own study found that about 93% of individual traders in equity options lost money in the three years to FY24, together losing on the order of ₹1.8 lakh crore. That is not a growth story a regulator wants to nurture. It is a social problem it wants to shrink.",
+              "So from late 2024, SEBI began tightening the screws. It cut each exchange to a single weekly expiry, so BSE lost its weekly Bankex expiry, one of its busiest casino nights gone outright. It roughly tripled the minimum contract size, pricing the smallest, most casual gamblers out. It forced brokers to collect the full option premium upfront, cooling the sheer number of trades. And the government raised the transaction tax, making each trade costlier.",
+              "Roughly 60% of BSE revenue still rides on that one speculative, retail-driven stream, one the regulator can cool further with a single circular. The toll booth is real. But the fuel is in someone else hand."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prevent-wrong-lesson",
+        "question": "Does this mean operating leverage is bad?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "No. It means the same mechanism that created the upside also creates the downside. That is not a flaw. It is a fact you need to know before you decide whether the price is right.",
+              "Set BSE story next to the Airtel case study and it becomes clearer. Both are fixed-cost machines. Airtel spent a fortune building a network, after which serving one more customer cost almost nothing. BSE spent money building an exchange, after which processing one more trade cost almost nothing. Both, in theory, should turn extra revenue into pure profit.",
+              "Airtel stock went nowhere for 13 years because it lacked the thing to pour into the machine and the power to charge for it. BSE had both at once: the machine and a flood of traffic it could charge a fee on, with no real rival on its own expiry day. The same operating leverage that crushed Airtel when revenue was thin made BSE soar when the traffic arrived. It is not good or bad. It is the shape of the business, and what matters is whether the conditions make it work for you or against you."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "using-this",
+        "question": "What should you carry to the next company?",
+        "blocks": [
+          {
+            "kind": "insight",
+            "text": "When one revenue stream is growing far faster than a company costs, its profit can look spectacular. Ask two questions: what does that volume depend on, and who could turn it off? The bigger the operating leverage, the more both answers matter."
+          }
+        ]
+      },
+      {
+        "id": "graduate",
+        "question": "The idea to remember",
+        "blocks": [
+          {
+            "kind": "bigIdea",
+            "text": "A stock follows pricing power and cash economics, not size or age. Airtel grew for a decade and its stock went nowhere. BSE barely grew in size for a century, then caught a boom its economics turned straight into profit."
+          },
+          {
+            "kind": "graduate",
+            "intro": "The words behind the story.",
+            "ctaLabel": "Read the investor case study",
+            "glossary": [
+              {
+                "term": "Exchange (the toll booth)",
+                "def": "A venue that takes a small fee on every trade, without trading itself.",
+                "context": "BSE costs barely move with volume, so a surge in trades became a surge in profit."
+              },
+              {
+                "term": "Derivative",
+                "def": "A side-bet on where a price will move, without owning the underlying asset.",
+                "context": "A boom in weekly options was the extra traffic that flooded BSE."
+              },
+              {
+                "term": "Operating leverage",
+                "def": "When most costs are fixed, extra revenue turns almost entirely into profit, and lost revenue into lost profit just as fast.",
+                "context": "It made BSE profit rise about twelve times while revenue rose about five, and would work in reverse if volume fell."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "answer": "BSE's stock rose roughly thirteen-fold in three years because a fixed-cost toll booth suddenly caught a flood of traffic. Its derivatives business went from a rounding error to a near-monopoly on its own weekly expiry day, so revenue rose from ₹925 crore to ₹5,124 crore between FY23 and FY26 while costs barely moved, and profit exploded about twelve-fold to ₹2,487 crore. That is operating leverage, and the market re-rated the business on top of it. The catch is that most of that revenue rides on a speculative options boom the regulator, SEBI, has openly set out to cool.",
   "faqs": [
     {

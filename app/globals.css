@@ -285,30 +285,14 @@ section.block:first-of-type { border-top: none; }
 
 .asof { font-size: 13px; color: var(--ink-faint); font-family: var(--mono); }
 
-@media (max-width: 640px) {
-  .hero h1 { font-size: 32px; }
-  .engine-grid, .lenses, .af-branches { grid-template-columns: 1fr; }
-  .sc-head { display: none; }
-  .sc-row { grid-template-columns: 1fr; gap: 2px; padding: 4px 0; }
-  .sc-row span { padding: 4px 16px; }
-  .sc-metric { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-faint); }
-  .sc-good::before { content: "Good: "; color: var(--ink-faint); }
-  .sc-bad::before { content: "Bad: "; color: var(--ink-faint); }
-  .sc-why::before { content: "Why: "; color: var(--ink-faint); }
-  .ed-grid { grid-template-columns: 1fr; }
-  .model-row { grid-template-columns: 1fr; gap: 4px; }
-  .editorial-hero h2 { font-size: 28px; }
-  .ed-remember p { font-size: 19px; }
-  .dl-row { grid-template-columns: 1fr; }
-  .dl-row dt { padding-bottom: 4px; }
-}
+@media (max-width: 640px) {.hero h1{ font-size: 32px; }.engine-grid, .lenses, .af-branches{ grid-template-columns: 1fr; }.sc-head{ display: none; }.sc-row{ grid-template-columns: 1fr; gap: 2px; padding: 4px 0; }.sc-row span{ padding: 4px 16px; }.sc-metric{ font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-faint); }.sc-good::before{ content: "Good: "; color: var(--ink-faint); }.sc-bad::before{ content: "Bad: "; color: var(--ink-faint); }.sc-why::before{ content: "Why: "; color: var(--ink-faint); }.ed-grid{ grid-template-columns: 1fr; }.model-row{ grid-template-columns: 1fr; gap: 4px; }.editorial-hero h2{ font-size: 28px; }.ed-remember p{ font-size: 19px; }.dl-row{ grid-template-columns: 1fr; }.dl-row dt{ padding-bottom: 4px; }}
 
 /* ===================== Nav ===================== */
 .nav { display: flex; gap: 22px; font-size: 14px; align-items: center; }
 .nav a { color: var(--ink-dim); white-space: nowrap; }
 .nav a:hover { color: var(--ink); }
 .nav a.active { color: var(--accent); }
-@media (max-width: 640px) { .nav { gap: 14px; font-size: 13px; } }
+@media (max-width: 640px) {.nav{ gap: 14px; font-size: 13px; }}
 
 /* ===================== Understand a Business ===================== */
 .u-intro { padding: 40px 0 8px; }
@@ -389,11 +373,7 @@ section.block:first-of-type { border-top: none; }
 .checklist .box { flex: none; width: 16px; height: 16px; margin-top: 3px; border: 1.5px solid var(--accent-dim); border-radius: 4px; }
 .checklist-foot { margin: 20px 0 0; font-size: 14px; color: var(--ink-faint); line-height: 1.6; }
 
-@media (max-width: 620px) {
-  .q { grid-template-columns: 1fr; gap: 6px; }
-  .q-num { padding-top: 0; }
-  .gut-cards { grid-template-columns: 1fr; }
-}
+@media (max-width: 620px) {.q{ grid-template-columns: 1fr; gap: 6px; }.q-num{ padding-top: 0; }.gut-cards{ grid-template-columns: 1fr; }}
 
 /* ===================== Sectors ===================== */
 .sector-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; margin: 32px 0 64px; }
@@ -447,11 +427,7 @@ section.block:first-of-type { border-top: none; }
 .section-label { font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); font-weight: 600; margin-top: 40px; }
 .section-label + .sub { color: var(--ink-dim); font-size: 15px; margin-top: 6px; max-width: 640px; }
 
-@media (max-width: 640px) {
-  .framework { grid-template-columns: 1fr 1fr; }
-  .sector-hero h1 { font-size: 32px; }
-  .metrics-table td.mname { width: auto; }
-}
+@media (max-width: 640px) {.framework{ grid-template-columns: 1fr 1fr; }.sector-hero h1{ font-size: 32px; }.metrics-table td.mname{ width: auto; }}
 
 /* ===================== Sector primer (beginner explainer) ===================== */
 .primer { margin: 28px 0 8px; }
@@ -460,18 +436,14 @@ section.block:first-of-type { border-top: none; }
 .primer-block h3 { font-family: var(--serif); font-size: 24px; font-weight: 600; letter-spacing: -0.01em; margin: 0; line-height: 1.2; text-wrap: balance; }
 .primer-block > div > p { color: var(--ink-dim); font-size: 16px; line-height: 1.7; margin: 12px 0 0; max-width: 680px; }
 .primer-block .eg { max-width: 680px; }
-@media (max-width: 620px) {
-  .primer-block { grid-template-columns: 1fr; gap: 6px; }
-  .primer-block .pb-num { padding-top: 0; }
-  .primer-block h3 { font-size: 21px; }
-}
+@media (max-width: 620px) {.primer-block{ grid-template-columns: 1fr; gap: 6px; }.primer-block .pb-num{ padding-top: 0; }.primer-block h3{ font-size: 21px; }}
 
 /* ===================== Sectors index "why" cards ===================== */
 .why-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 28px; max-width: 760px; }
 .why-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
 .why-card .k { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); font-weight: 600; margin-bottom: 8px; }
 .why-card p { color: var(--ink-dim); font-size: 14.5px; line-height: 1.65; margin: 0; }
-@media (max-width: 640px) { .why-cards { grid-template-columns: 1fr; } }
+@media (max-width: 640px) {.why-cards{ grid-template-columns: 1fr; }}
 
 /* ===================== Teaching sections (banks-style) ===================== */
 .teach-section { margin-top: 44px; }
@@ -494,10 +466,7 @@ section.block:first-of-type { border-top: none; }
 .doc-map-row .dm-body { display: flex; flex-direction: column; gap: 3px; }
 .doc-map-row .dm-q { font-family: var(--serif); font-size: 18px; font-weight: 600; color: var(--ink); line-height: 1.25; }
 .doc-map-row .dm-role { font-size: 13px; color: var(--ink-faint); font-style: italic; }
-@media (max-width: 640px) {
-  .doc-map-row { grid-template-columns: 1fr; gap: 6px; }
-  .doc-map-row .dm-arrow { display: none; }
-}
+@media (max-width: 640px) {.doc-map-row{ grid-template-columns: 1fr; gap: 6px; }.doc-map-row .dm-arrow{ display: none; }}
 
 /* ===================== Filings: golden rule ===================== */
 .golden-rule { margin-top: 20px; max-width: 680px; border-left: 3px solid var(--accent); background: var(--bg-card); border-radius: 0 10px 10px 0; padding: 14px 20px; }
@@ -524,9 +493,7 @@ section.block:first-of-type { border-top: none; }
 .sc-cta-go { font-family: var(--mono); font-size: 12.5px; font-weight: 600; color: var(--accent); white-space: nowrap; }
 .sc-cta-go .arw { display: inline-block; transition: transform .18s ease; }
 .sector-cta:hover .sc-cta-go .arw { transform: translateX(4px); }
-@media (max-width: 620px) {
-  .sector-cta { flex-direction: column; align-items: flex-start; gap: 12px; }
-}
+@media (max-width: 620px) {.sector-cta{ flex-direction: column; align-items: flex-start; gap: 12px; }}
 
 /* ===================== Report case study ===================== */
 .casestudy {
@@ -553,7 +520,7 @@ section.block:first-of-type { border-top: none; }
 .csd-score-down { color: var(--bad); }
 .csd-score-share { color: var(--amber); }
 .csd-score-v { color: var(--ink-dim); font-size: 14.5px; line-height: 1.6; }
-@media (max-width: 560px) { .csd-score-row { grid-template-columns: 1fr; gap: 3px; } }
+@media (max-width: 560px) {.csd-score-row{ grid-template-columns: 1fr; gap: 3px; }}
 
 /* Recurring framing questions (case studies) */
 .csd-lens { margin-top: 20px; padding: 16px 20px; border-left: 3px solid var(--accent); background: color-mix(in srgb, var(--accent) 6%, var(--bg-card)); border-radius: 0 10px 10px 0; max-width: 720px; }
@@ -568,7 +535,7 @@ section.block:first-of-type { border-top: none; }
 .dg-oplev-row { display: grid; grid-template-columns: 168px 1fr auto; align-items: center; gap: 12px; }
 .dg-oplev-label { display: flex; flex-direction: column; gap: 2px; font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-dim); }
 .dg-oplev-sub { text-transform: none; letter-spacing: 0; font-size: 10px; color: var(--ink-faint); font-style: italic; }
-@media (max-width: 560px) { .dg-oplev-row { grid-template-columns: 120px 1fr auto; } }
+@media (max-width: 560px) {.dg-oplev-row{ grid-template-columns: 120px 1fr auto; }}
 .dg-oplev-track { height: 16px; background: color-mix(in srgb, var(--ink-faint) 14%, transparent); border-radius: 4px; overflow: hidden; }
 .dg-oplev-bar { display: block; height: 100%; border-radius: 4px; }
 .dg-oplev-rev { background: var(--accent); opacity: 0.85; }
@@ -581,7 +548,7 @@ section.block:first-of-type { border-top: none; }
 .dg-fw-num { position: absolute; left: 14px; top: 15px; font-family: var(--mono); font-size: 12px; font-weight: 700; color: var(--accent); }
 .dg-fw-label { display: block; font-family: var(--serif); font-size: 18px; line-height: 1.2; color: var(--ink); padding-right: 20px; }
 .dg-fw-note { display: block; color: var(--ink-faint); font-size: 12.5px; line-height: 1.45; margin-top: 6px; }
-@media (max-width: 560px) { .dg-flywheel { grid-template-columns: 1fr; } }
+@media (max-width: 560px) {.dg-flywheel{ grid-template-columns: 1fr; }}
 
 /* Price = EPS x P/E identity diagram (case studies) */
 .dg-eq { display: flex; align-items: stretch; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 16px 0 6px; }
@@ -593,10 +560,7 @@ section.block:first-of-type { border-top: none; }
 .dg-eq-pe .dg-eq-sym { color: var(--accent); }
 .dg-eq-note { font-size: 12.5px; line-height: 1.4; color: var(--ink-faint); }
 .dg-eq-op { display: flex; align-items: center; font-family: var(--mono); font-size: 22px; font-weight: 700; color: var(--ink-dim); padding: 0 2px; }
-@media (max-width: 560px) {
-  .dg-eq { flex-direction: column; }
-  .dg-eq-op { justify-content: center; padding: 2px 0; }
-}
+@media (max-width: 560px) {.dg-eq{ flex-direction: column; }.dg-eq-op{ justify-content: center; padding: 2px 0; }}
 
 /* Three-forces cards (case studies) */
 .dg-forces { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 14px 0 6px; }
@@ -611,7 +575,7 @@ section.block:first-of-type { border-top: none; }
 .dg-force-name { font-family: var(--serif); font-size: 17px; line-height: 1.2; color: var(--ink); }
 .dg-force-tag { font-family: var(--mono); font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.07em; font-weight: 700; color: var(--ink-faint); }
 .dg-force-note { font-size: 12.5px; line-height: 1.45; color: var(--ink-faint); }
-@media (max-width: 620px) { .dg-forces { grid-template-columns: 1fr; } }
+@media (max-width: 620px) {.dg-forces{ grid-template-columns: 1fr; }}
 
 /* The five questions that explain a sector */
 .anatomy { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
@@ -629,7 +593,7 @@ section.block:first-of-type { border-top: none; }
 .remember { margin: 40px 0 8px; padding: 26px 28px; text-align: center; background: color-mix(in srgb, var(--accent) 7%, var(--bg-card)); border: 1px solid color-mix(in srgb, var(--accent) 30%, var(--border)); border-radius: 14px; }
 .remember-label { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); font-weight: 700; margin-bottom: 12px; }
 .remember-text { font-family: var(--serif); font-size: 22px; font-weight: 600; line-height: 1.45; color: var(--ink); text-wrap: balance; max-width: 760px; margin: 0 auto; }
-@media (max-width: 560px) { .remember-text { font-size: 19px; } }
+@media (max-width: 560px) {.remember-text{ font-size: 19px; }}
 
 /* Breadcrumbs (Breadcrumbs.tsx) */
 .breadcrumbs { margin: 20px 0 14px; }
@@ -659,7 +623,7 @@ section.block:first-of-type { border-top: none; }
 /* Follow the threads: related link cards */
 .sig-connect-lede { color: var(--ink-dim); font-size: 15px; line-height: 1.6; margin: 12px 0 0; max-width: 640px; }
 .conn-grid { margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fill, 240px); gap: 12px; max-width: 100%; }
-@media (max-width: 560px) { .conn-grid { grid-template-columns: 1fr; } }
+@media (max-width: 560px) {.conn-grid{ grid-template-columns: 1fr; }}
 .conn-card { position: relative; display: grid; grid-template-columns: 1fr auto; align-items: center; row-gap: 3px; column-gap: 10px; padding: 14px 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; text-decoration: none; overflow: hidden; transition: border-color .16s ease, transform .16s ease; }
 .conn-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--accent); opacity: 0; transition: opacity .16s ease; }
 .conn-card.conn-card-case::before { background: var(--amber); }
@@ -708,22 +672,15 @@ section.block:first-of-type { border-top: none; }
 .whatsnew-item:hover .arw { transform: translateX(3px); }
 .wn-tag-short { display: none; }
 @keyframes whatsnew-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-@media (prefers-reduced-motion: reduce) { .whatsnew-track { animation: none; } }
-@media (max-width: 640px) {
-  .whatsnew-inner { gap: 10px; padding: 10px 0 14px; }
-  .whatsnew-tag { display: none; }
-  .whatsnew-marquee { -webkit-mask: linear-gradient(90deg, transparent 0, #000 40px, #000 calc(100% - 36px), transparent 100%); mask: linear-gradient(90deg, transparent 0, #000 40px, #000 calc(100% - 36px), transparent 100%); }
-  .whatsnew-track { gap: 30px; animation-duration: 22s; }
-  .whatsnew-item { font-size: 12.5px; gap: 7px; }
-  .whatsnew-item-co { font-size: 10px; }
-}
+@media (prefers-reduced-motion: reduce) {.whatsnew-track{ animation: none; }}
+@media (max-width: 640px) {.whatsnew-inner{ gap: 10px; padding: 10px 0 14px; }.whatsnew-tag{ display: none; }.whatsnew-marquee{ -webkit-mask: linear-gradient(90deg, transparent 0, #000 40px, #000 calc(100% - 36px), transparent 100%); mask: linear-gradient(90deg, transparent 0, #000 40px, #000 calc(100% - 36px), transparent 100%); }.whatsnew-track{ gap: 30px; animation-duration: 22s; }.whatsnew-item{ font-size: 12.5px; gap: 7px; }.whatsnew-item-co{ font-size: 10px; }}
 
 /* ===================== Case study detail ===================== */
 .csd-head { padding: 8px 0 28px; border-bottom: 1px solid var(--border); }
 .csd-title { font-family: var(--serif); font-size: clamp(27px, 6.5vw, 40px); font-weight: 600; letter-spacing: -0.02em; line-height: 1.08; margin: 12px 0 0; text-wrap: balance; }
 .csd-subtitle { font-family: var(--sans); font-size: 17px; line-height: 1.55; color: var(--ink-dim); margin: 12px 0 0; max-width: 660px; }
 .csd-body { padding: 28px 0 8px; }
-@media (max-width: 640px) { .csd-title { font-size: 26px; } .cs-grid { grid-template-columns: 1fr; } }
+@media (max-width: 640px) {.csd-title{ font-size: 26px; }.cs-grid{ grid-template-columns: 1fr; }}
 
 /* ===================== Case study detail: long-form ===================== */
 .csd-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin-top: 28px; }
@@ -748,15 +705,7 @@ section.block:first-of-type { border-top: none; }
    so wide content (the evidence table, pattern card, diagrams) can breathe. */
 .csd-tail { grid-template-columns: 1fr; gap: 0; }
 .csd-tail .csd-row-side { display: none; }
-@media (max-width: 860px) {
-  .csd-page { max-width: 1040px; }
-  .csd-row { grid-template-columns: 1fr; gap: 0; }
-  .csd-section.csd-row { margin-top: 40px; }
-  .csd-row-side { position: static; top: auto; margin-bottom: 8px; }
-  .csd-lead .csd-row-side { display: none; }
-  .csd-row-side .csd-h2 { font-size: 27px; }
-  .csd-row-main > .cs-para:first-child { margin-top: 12px; }
-}
+@media (max-width: 860px) {.csd-page{ max-width: 1040px; }.csd-row{ grid-template-columns: 1fr; gap: 0; }.csd-section.csd-row{ margin-top: 40px; }.csd-row-side{ position: static; top: auto; margin-bottom: 8px; }.csd-lead .csd-row-side{ display: none; }.csd-row-side .csd-h2{ font-size: 27px; }.csd-row-main > .cs-para:first-child{ margin-top: 12px; }}
 
 /* timeline */
 .csd-timeline { margin-top: 44px; }
@@ -789,7 +738,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .csd-blindspot { margin-top: 18px; max-width: 720px; padding: 14px 18px; border-left: 3px solid var(--amber); background: color-mix(in srgb, var(--amber) 6%, var(--bg-card)); border-radius: 0 10px 10px 0; }
 .csd-blindspot-label { font-family: var(--mono); font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--amber); }
 .csd-blindspot p { font-size: 14.5px; line-height: 1.65; color: var(--ink-dim); margin-top: 6px; }
-@media (max-width: 560px) { .csd-tell-check { grid-template-columns: 1fr; gap: 3px; } }
+@media (max-width: 560px) {.csd-tell-check{ grid-template-columns: 1fr; gap: 3px; }}
 
 /* ===================== The pattern card ===================== */
 .pattern-card { margin-top: 28px; padding: 22px 24px 18px; background: var(--bg-card); border: 1px solid color-mix(in srgb, var(--accent) 30%, var(--border)); border-radius: 14px; }
@@ -799,7 +748,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .pc-v { font-size: 15.5px; line-height: 1.6; color: var(--ink); }
 .pc-counter { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); font-size: 14.5px; line-height: 1.65; color: var(--ink-dim); }
 .pc-counter-k { font-family: var(--mono); font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--amber); margin-right: 6px; }
-@media (max-width: 560px) { .pc-row { grid-template-columns: 1fr; gap: 4px; } }
+@media (max-width: 560px) {.pc-row{ grid-template-columns: 1fr; gap: 4px; }}
 .pc-study-link { display: inline-flex; align-items: baseline; gap: 6px; margin-top: 16px; font-size: 14px; color: var(--ink-dim); text-decoration: none; border-bottom: 1px solid var(--border); padding-bottom: 2px; transition: color .16s ease, border-color .16s ease; }
 .pc-study-link:hover { color: var(--accent); border-color: var(--accent); }
 .patterns-list { display: flex; flex-direction: column; }
@@ -844,11 +793,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .dg-namelist-live .dg-name { font-size: 14px; color: var(--ink); font-weight: 600; }
 .dg-namelist-live .dg-name-note { font-family: var(--mono); font-size: 10.5px; color: var(--ink-dim); }
 .dg-arrow { font-size: 24px; color: var(--accent); text-align: center; }
-@media (max-width: 560px) {
-  .dg-consol { grid-template-columns: 1fr; gap: 10px; }
-  .dg-arrow { transform: rotate(90deg); }
-  .dg-arrow-vs { transform: none; }
-}
+@media (max-width: 560px) {.dg-consol{ grid-template-columns: 1fr; gap: 10px; }.dg-arrow{ transform: rotate(90deg); }.dg-arrow-vs{ transform: none; }}
 .dg-svg { width: 100%; height: auto; max-width: 420px; display: block; }
 .dg-axis { stroke: var(--border); stroke-width: 1; }
 .dg-slope { stroke: var(--bad); stroke-width: 2.5; stroke-linecap: round; }
@@ -905,7 +850,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .dg-div-val.dg-div-up { color: var(--amber); }
 .dg-div-val.dg-div-down { color: var(--bad); }
 .dg-div-note { font-size: 12.5px; color: var(--ink-faint); line-height: 1.55; margin-top: 6px; }
-@media (max-width: 560px) { .dg-div-row { grid-template-columns: 110px 1fr 46px; gap: 8px; } .dg-div-label { font-size: 11.5px; } }
+@media (max-width: 560px) {.dg-div-row{ grid-template-columns: 110px 1fr 46px; gap: 8px; }.dg-div-label{ font-size: 11.5px; }}
 
 /* Two-way comparison table (Pauwels vs Ganz) */
 .dg-cmp { min-width: 560px; display: flex; flex-direction: column; }
@@ -942,9 +887,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .src-list a:hover { text-decoration: underline; }
 .src-arw { font-size: 12px; opacity: .8; }
 
-@media (max-width: 640px) {
-  .ev-row { grid-template-columns: 1fr; gap: 4px; }
-}
+@media (max-width: 640px) {.ev-row{ grid-template-columns: 1fr; gap: 4px; }}
 
 /* ===================== Case study exhibits (document images) ===================== */
 .csd-exhibits { margin-top: 28px; display: flex; flex-direction: column; gap: 28px; }
@@ -964,12 +907,8 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .exhibit img { max-width: 100%; width: 100%; height: auto; }
 
 /* Top nav: stack under the brand and scroll horizontally once the row stops fitting (phones + iPad portrait) */
-@media (max-width: 940px) {
-  .wrap { padding: 0 20px; }
-  .topbar { position: static; }
-  .topbar-inner { flex-direction: column; height: auto; align-items: stretch; gap: 12px; padding-top: 18px; padding-bottom: 10px; }
-  /* one swipeable row, never a cramped wrap; bleed to the screen edge and re-inset with padding */
-  .nav {
+@media (max-width: 940px) {.wrap{ padding: 0 20px; }.topbar{ position: static; }.topbar-inner{ flex-direction: column; height: auto; align-items: stretch; gap: 12px; padding-top: 18px; padding-bottom: 10px; }/* one swipeable row, never a cramped wrap; bleed to the screen edge and re-inset with padding */
+  .nav{
     flex-wrap: nowrap;
     gap: 20px;
     overflow-x: auto;
@@ -979,19 +918,11 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
     padding: 2px 20px 6px;
     -webkit-mask: linear-gradient(90deg, #000 calc(100% - 24px), transparent 100%);
     mask: linear-gradient(90deg, #000 calc(100% - 24px), transparent 100%);
-  }
-  .nav::-webkit-scrollbar { display: none; }
-  .nav a { white-space: nowrap; flex: none; padding: 2px 0; }
-  .hero { padding: 36px 0 30px; }
-  .report { padding-top: 28px; padding-bottom: 72px; }
-  /* the "Newly published" pill is a desktop-only flourish */
-  .whatsnew-tag { display: none; }
-}
+  }.nav::-webkit-scrollbar{ display: none; }.nav a{ white-space: nowrap; flex: none; padding: 2px 0; }.hero{ padding: 36px 0 30px; }.report{ padding-top: 28px; padding-bottom: 72px; }/* the "Newly published" pill is a desktop-only flourish */
+  .whatsnew-tag{ display: none; }}
 
 /* Phones only: extra breathing room between the running banner and the brand */
-@media (max-width: 640px) {
-  .topbar-inner { padding-top: 28px; }
-}
+@media (max-width: 640px) {.topbar-inner{ padding-top: 28px; }}
 
 /* ===================== Case study cross-links (sector + related study) ===================== */
 .csd-links { margin: 26px 0 8px; display: flex; flex-direction: column; gap: 14px; }
@@ -1021,7 +952,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .sig-model { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; border-top: 2px solid var(--accent-dim); }
 .sig-model-name { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); font-weight: 700; }
 .sig-model-why { color: var(--ink-dim); font-size: 15px; line-height: 1.6; margin-top: 8px; }
-@media (max-width: 680px) { .sig-models { grid-template-columns: 1fr; } }
+@media (max-width: 680px) {.sig-models{ grid-template-columns: 1fr; }}
 
 /* The chain of consequences: a vertical flow with connectors */
 .sig-chain { list-style: none; margin: 20px 0 0; padding: 0; max-width: 640px; }
@@ -1047,7 +978,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .sig-actor-why { color: var(--ink-dim); font-size: 14.5px; line-height: 1.55; margin-top: 5px; }
 .sig-actor-why a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
 .sig-actor-why a:hover { text-decoration-thickness: 2px; }
-@media (max-width: 680px) { .sig-wl { grid-template-columns: 1fr; } }
+@media (max-width: 680px) {.sig-wl{ grid-template-columns: 1fr; }}
 
 /* Better questions */
 .sig-questions { list-style: none; margin: 18px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; max-width: 720px; }
@@ -1082,12 +1013,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .sig-fanout-label { font-size: 15px; font-weight: 600; color: var(--ink); white-space: nowrap; }
 .sig-fanout-note { font-size: 14px; color: var(--ink-dim); line-height: 1.5; }
 .sig-fanout-cap { font-size: 14px; color: var(--ink-dim); line-height: 1.6; margin-top: 14px; font-style: italic; }
-@media (max-width: 560px) {
-  .sig-fanout { padding: 18px 16px 16px; }
-  .sig-fanout-branch { flex-wrap: wrap; column-gap: 8px; row-gap: 4px; }
-  .sig-fanout-label { white-space: normal; }
-  .sig-fanout-note { flex-basis: 100%; }
-}
+@media (max-width: 560px) {.sig-fanout{ padding: 18px 16px 16px; }.sig-fanout-branch{ flex-wrap: wrap; column-gap: 8px; row-gap: 4px; }.sig-fanout-label{ white-space: normal; }.sig-fanout-note{ flex-basis: 100%; }}
 
 /* Signals: horizon + rhymes tables */
 .sig-horizon-wrap { margin-top: 18px; overflow-x: auto; border: 1px solid var(--border); border-radius: 12px; }
@@ -1149,10 +1075,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .sig-db-change { font-family: var(--mono); font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .sig-db-change.sig-ev-down { color: var(--bad); }
 .sig-db-change.sig-ev-up { color: var(--good); }
-@media (max-width: 560px) {
-  .sig-db-row { grid-template-columns: 1fr auto; row-gap: 8px; }
-  .sig-db-track { grid-column: 1 / -1; }
-}
+@media (max-width: 560px) {.sig-db-row{ grid-template-columns: 1fr auto; row-gap: 8px; }.sig-db-track{ grid-column: 1 / -1; }}
 .sig-evidence-table .sig-ev-basis { display: block; font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-faint); font-weight: 400; margin-top: 3px; }
 .sig-evidence-table .sig-ev-num { font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--ink) !important; }
 .sig-evidence-table .sig-ev-down { color: var(--bad) !important; font-weight: 600; }
@@ -1176,7 +1099,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .sig-if-col li { position: relative; padding-left: 24px; font-size: 15px; line-height: 1.5; color: var(--ink); }
 .sig-if-ignore li::before { content: '✕'; position: absolute; left: 0; color: var(--bad); font-size: 13px; font-weight: 700; }
 .sig-if-focus li::before { content: '✓'; position: absolute; left: 0; color: var(--good); font-size: 13px; font-weight: 700; }
-@media (max-width: 680px) { .sig-if { grid-template-columns: 1fr; } }
+@media (max-width: 680px) {.sig-if{ grid-template-columns: 1fr; }}
 
 /* Signals: your turn (interactive) */
 .sig-turn { border: 1px solid color-mix(in srgb, var(--accent) 30%, var(--border)); background: color-mix(in srgb, var(--accent) 6%, var(--bg-card)); border-radius: 14px; padding: 22px 24px; }
@@ -1257,9 +1180,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 
 .ol-closer { font-family: var(--serif); font-size: 16px; color: var(--ink); margin: 0; }
 
-@media (max-width: 640px) {
-  .ol-engines { grid-template-columns: 1fr; }
-}
+@media (max-width: 640px) {.ol-engines{ grid-template-columns: 1fr; }}
 
 /* ===================== Report masthead + financials refinements ===================== */
 .report-masthead { display: flex; flex-direction: column; }
@@ -1310,10 +1231,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
   letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faint);
   margin-bottom: 4px;
 }
-@media (max-width: 640px) {
-  .verdict-card { padding: 15px 16px; }
-  .vc-rows { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px 16px; }
-}
+@media (max-width: 640px) {.verdict-card{ padding: 15px 16px; }.vc-rows{ grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px 16px; }}
 
 /* Facts strip: the plain "what is this company" answer for the reader (and the
    about-<company> searcher), sitting just under the thesis lede. Calm, card-like,
@@ -1341,10 +1259,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
   margin: 0; font-size: 15px; color: var(--ink);
   font-variant-numeric: tabular-nums;
 }
-@media (max-width: 640px) {
-  .fact-strip { padding: 15px 16px; }
-  .fs-grid { grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 12px 16px; }
-}
+@media (max-width: 640px) {.fact-strip{ padding: 15px 16px; }.fs-grid{ grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 12px 16px; }}
 
 /* Financials: overlay net-profit bar inside the revenue bar, show margin per year */
 .fin-row { grid-template-columns: 52px 1fr 140px; }
@@ -1360,48 +1275,16 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .fin-key-sw.rev { background: var(--accent-dim); }
 .fin-key-sw.prof { background: var(--accent); }
 .fin-key-note { font-family: var(--mono); font-size: 11px; color: var(--ink-faint); margin-left: auto; }
-@media (max-width: 640px) {
-  .fin-row { grid-template-columns: 44px 1fr 116px; }
-  .fin-legend { padding-left: 0; }
-}
+@media (max-width: 640px) {.fin-row{ grid-template-columns: 44px 1fr 116px; }.fin-legend{ padding-left: 0; }}
 
 /* ===================== Report: comprehensive mobile pass (applies to every company report) ===================== */
-@media (max-width: 640px) {
-  .wrap { padding: 0 16px; }
-  .report { padding-top: 28px; padding-bottom: 72px; }
-  section.block { padding: 26px 0; }
-  .block h2 { font-size: 21px; }
-  .block p { font-size: 15.5px; }
-  .report-lede { margin-top: 18px; }
-  .editorial-model { margin-top: 26px; padding-top: 22px; }
-  .editorial-hero p { font-size: 16px; }
-  .editorial-hero .ed-answer { font-size: 15px; padding-left: 13px; }
-  .ed-grid { gap: 12px; }
-  .ed-panel, .ed-heatmap, .ed-engine, .ed-position, .ed-sector, .ed-remember { padding: 15px 16px; }
-  /* metric grids (valuation / ratios / growth): comfortable 2-up, smaller value */
-  .metrics { grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); }
-  .metric { padding: 13px 14px; }
-  .metric .m-value { font-size: 19px; }
-  /* two-engine + lenses already stack; tighten their padding */
-  .engine-box, .lens { padding: 15px 16px; }
-  .engine-verdict { padding: 14px 16px; font-size: 14.5px; }
-  /* moat pips shrink so 4 always fit */
-  .moat-pip { width: 26px; }
-  /* financials: drop the third column, stack revenue + net under the bar */
-  .fin-row { grid-template-columns: 40px 1fr; column-gap: 10px; row-gap: 4px; }
-  .fin-amt { grid-column: 1 / -1; flex-direction: column; align-items: flex-start; text-align: left; padding-left: 50px; gap: 2px; }
-  .fin-amt .amt, .fin-amt .amt-sub { text-align: left; }
-  .fin-legend { padding-left: 0; }
-  /* risks + checklist: a touch more compact */
-  .risk { padding: 12px 14px; font-size: 13.5px; }
-  .check { padding: 10px 12px; }
-}
-@media (max-width: 380px) {
-  .metrics { grid-template-columns: 1fr 1fr; }
-  .block h2 { font-size: 20px; }
-  .report-title { font-size: 26px; }
-  .fin-amt { flex-direction: column; gap: 1px; }
-}
+@media (max-width: 640px) {.wrap{ padding: 0 16px; }.report{ padding-top: 28px; padding-bottom: 72px; }section.block{ padding: 26px 0; }.block h2{ font-size: 21px; }.block p{ font-size: 15.5px; }.report-lede{ margin-top: 18px; }.editorial-model{ margin-top: 26px; padding-top: 22px; }.editorial-hero p{ font-size: 16px; }.editorial-hero .ed-answer{ font-size: 15px; padding-left: 13px; }.ed-grid{ gap: 12px; }.ed-panel, .ed-heatmap, .ed-engine, .ed-position, .ed-sector, .ed-remember{ padding: 15px 16px; }/* metric grids (valuation / ratios / growth): comfortable 2-up, smaller value */
+  .metrics{ grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); }.metric{ padding: 13px 14px; }.metric .m-value{ font-size: 19px; }/* two-engine + lenses already stack; tighten their padding */
+  .engine-box, .lens{ padding: 15px 16px; }.engine-verdict{ padding: 14px 16px; font-size: 14.5px; }/* moat pips shrink so 4 always fit */
+  .moat-pip{ width: 26px; }/* financials: drop the third column, stack revenue + net under the bar */
+  .fin-row{ grid-template-columns: 40px 1fr; column-gap: 10px; row-gap: 4px; }.fin-amt{ grid-column: 1 / -1; flex-direction: column; align-items: flex-start; text-align: left; padding-left: 50px; gap: 2px; }.fin-amt .amt, .fin-amt .amt-sub{ text-align: left; }.fin-legend{ padding-left: 0; }/* risks + checklist: a touch more compact */
+  .risk{ padding: 12px 14px; font-size: 13.5px; }.check{ padding: 10px 12px; }}
+@media (max-width: 380px) {.metrics{ grid-template-columns: 1fr 1fr; }.block h2{ font-size: 20px; }.report-title{ font-size: 26px; }.fin-amt{ flex-direction: column; gap: 1px; }}
 
 /* ===================== Report: segments, cash-flow rows, moat sources (replace pill misuse) ===================== */
 /* Business-model segments: a card per segment with a share bar, not a pill */
@@ -1428,13 +1311,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .moat-sources li { position: relative; padding: 12px 16px 12px 34px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; font-size: 14.5px; color: var(--ink-dim); line-height: 1.55; }
 .moat-sources li::before { content: ''; position: absolute; left: 15px; top: 1.15em; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
 
-@media (max-width: 640px) {
-  .segments { grid-template-columns: 1fr; gap: 10px; }
-  .cf-row { grid-template-columns: 1fr; gap: 6px; padding: 11px 14px; }
-  .cf-items { gap: 6px 18px; }
-  .moat-sources li { padding: 11px 14px 11px 30px; }
-  .moat-sources li::before { left: 13px; }
-}
+@media (max-width: 640px) {.segments{ grid-template-columns: 1fr; gap: 10px; }.cf-row{ grid-template-columns: 1fr; gap: 6px; padding: 11px 14px; }.cf-items{ gap: 6px 18px; }.moat-sources li{ padding: 11px 14px 11px 30px; }.moat-sources li::before{ left: 13px; }}
 
 /* ==========================================================================
    Explain Simply mode. Same ink-and-serif journal as the investor report,
@@ -1460,37 +1337,20 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 @keyframes s-fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 
 /* --- reading column: wider than the investor report so visuals breathe --- */
-.simple-report { max-width: 780px; }
 .s-prose, .s-insight, .s-bigidea, .s-hero-lead, .s-hero-close, .s-question, .s-analogy { max-width: 660px; }
 
 /* hero: title, one line, then a visual within a few seconds */
 .s-hero { padding: 6px 0 8px; }
 .s-eyebrow { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--accent); }
-.s-title { font-family: var(--serif); font-size: 56px; font-weight: 600; letter-spacing: -0.025em; line-height: 1; margin: 14px 0 0; }
-.s-hero-lead { font-family: var(--serif); font-size: 26px; line-height: 1.4; color: var(--ink); margin: 26px 0 0; text-wrap: pretty; }
-.s-hero-close { font-family: var(--serif); font-size: 24px; font-weight: 600; line-height: 1.4; color: var(--accent); margin: 30px 0 0; }
 
 /* flow diagram: vertical nodes joined by a hairline */
 .s-flow { display: flex; flex-direction: column; align-items: center; text-align: center; margin: 24px 0; }
 .s-flow-step { position: relative; display: flex; flex-direction: column; align-items: center; padding-bottom: 22px; }
 .s-flow-step:last-child { padding-bottom: 0; }
-.s-flow-label { font-family: var(--serif); font-size: 21px; font-weight: 600; color: var(--ink); }
 .s-flow-sub { font-size: 14px; color: var(--ink-faint); margin-top: 4px; }
 .s-flow-link { position: absolute; left: 50%; bottom: 7px; width: 1px; height: 12px; background: var(--border-strong); }
 .s-flow-link::after { content: ''; position: absolute; left: 50%; bottom: -1px; width: 6px; height: 6px; border-right: 1px solid var(--border-strong); border-bottom: 1px solid var(--border-strong); transform: translateX(-50%) rotate(45deg); }
 .s-flow-muted .s-flow-label { color: var(--ink-faint); font-weight: 400; font-family: var(--sans); font-size: 17px; }
-.s-flow-accent .s-flow-label { color: var(--accent); font-size: 26px; }
-
-/* sections: each answers ONE question */
-.s-section { padding: 52px 0 0; }
-.s-section + .s-section { margin-top: 52px; border-top: 1px solid var(--border); }
-.s-question { font-family: var(--serif); font-size: 30px; font-weight: 600; letter-spacing: -0.015em; line-height: 1.15; margin: 0 0 30px; color: var(--ink); text-wrap: balance; }
-.s-blocks { display: flex; flex-direction: column; gap: 34px; }
-
-/* type primitives */
-.s-bigidea { font-family: var(--serif); font-size: 28px; font-weight: 600; line-height: 1.35; color: var(--ink); margin: 0; text-wrap: pretty; }
-.s-insight { font-family: var(--serif); font-size: 22px; line-height: 1.5; color: var(--ink); margin: 0; padding-left: 20px; border-left: 3px solid var(--accent); }
-.s-prose p { font-size: 18px; line-height: 1.75; color: var(--ink); margin: 0 0 16px; }
 .s-prose p:last-child { margin-bottom: 0; }
 
 /* inline glossary chip */
@@ -1499,30 +1359,16 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .s-term-wrap:hover .s-term, .s-term-wrap:focus-within .s-term { border-bottom-color: var(--accent); }
 .s-term-pop { display: flex; flex-direction: column; gap: 4px; position: absolute; left: 0; top: calc(100% + 9px); z-index: 5; width: max(240px, 100%); max-width: 300px; background: var(--bg-card); border: 1px solid var(--border-strong); border-radius: 8px; padding: 12px 14px; font-family: var(--sans); font-size: 14px; line-height: 1.5; color: var(--ink-dim); box-shadow: 0 14px 34px rgba(0,0,0,.4); white-space: normal; opacity: 0; visibility: hidden; transform: translateY(-4px); transition: opacity .18s ease, transform .18s ease, visibility .18s; }
 .s-term-pop::before { content: ''; position: absolute; left: 15px; top: -5px; width: 9px; height: 9px; background: var(--bg-card); border-left: 1px solid var(--border-strong); border-top: 1px solid var(--border-strong); transform: rotate(45deg); }
-
-/* compare: the 12 -> 3 collapse, made dramatic */
-.s-compare { margin: 0; }
 .s-cmp { padding: 22px 0; }
-.s-cmp.now { position: relative; margin-top: 40px; }
-.s-cmp.now::before { content: '↓'; position: absolute; top: -32px; left: 50%; transform: translateX(-50%); color: var(--accent); font-size: 22px; }
 .s-cmp-top { display: flex; align-items: baseline; gap: 12px; }
-.s-cmp-count { font-family: var(--serif); font-size: 64px; font-weight: 700; line-height: 0.9; color: var(--ink-faint); font-variant-numeric: tabular-nums; }
-.s-cmp.now .s-cmp-count { color: var(--accent); font-size: 84px; }
 .s-cmp-unit { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-faint); }
 .s-cmp-year { font-family: var(--mono); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.09em; color: var(--ink-faint); margin: 14px 0 10px; }
 .s-cmp-players { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 28px; }
-.s-cmp-player { font-family: var(--serif); font-size: 18px; color: var(--ink-faint); }
-.s-cmp.now .s-cmp-player { font-size: 26px; font-weight: 600; color: var(--ink); }
 .s-cmp-cap { margin-top: 12px; font-size: 15px; line-height: 1.5; color: var(--ink-dim); max-width: 520px; }
-.s-compare-punch { margin-top: 34px; padding-top: 24px; font-family: var(--serif); font-size: 22px; line-height: 1.45; color: var(--ink); text-align: center; }
 
 /* big number: a hero moment */
 .s-num { margin: 0; text-align: center; }
 .s-num-label { font-family: var(--mono); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.09em; color: var(--ink-faint); }
-.s-num-row { display: flex; align-items: baseline; justify-content: center; gap: 20px; margin-top: 16px; flex-wrap: wrap; }
-.s-num-from { font-family: var(--serif); font-size: 40px; font-weight: 600; color: var(--ink-faint); font-variant-numeric: tabular-nums; }
-.s-num-arrow { font-size: 28px; color: var(--ink-faint); }
-.s-num-to { font-family: var(--serif); font-size: 76px; font-weight: 700; line-height: 0.9; color: var(--accent); font-variant-numeric: tabular-nums; }
 .s-num-to-bad { color: var(--bad); }
 .s-num-bars { max-width: 460px; margin: 30px auto 0; display: flex; flex-direction: column; gap: 12px; }
 .s-num-bar { display: grid; grid-template-columns: 44px 1fr auto; align-items: center; gap: 14px; }
@@ -1532,15 +1378,8 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .s-num-bar.peak .s-num-bar-track > span { background: var(--accent); }
 .s-num-bar.peak .s-num-bar-val { color: var(--accent); }
 .s-num-bar-val { font-family: var(--serif); font-size: 18px; font-weight: 700; font-variant-numeric: tabular-nums; }
-.s-num-insight { margin: 28px auto 0; max-width: 500px; font-family: var(--serif); font-size: 20px; line-height: 1.5; color: var(--ink); }
 .s-num-term { margin-top: 14px; font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-faint); }
 .s-num-term b { color: var(--ink-dim); font-weight: 700; }
-
-/* money flow: leftover dominates, bars fill on scroll */
-.s-money { margin: 0; }
-.s-money-total { display: flex; align-items: baseline; gap: 14px; padding-bottom: 18px; margin-bottom: 24px; border-bottom: 1px solid var(--border); }
-.s-money-total-val { font-family: var(--serif); font-size: 40px; font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums; }
-.s-money-total-label { font-size: 15px; color: var(--ink-dim); }
 .s-money-rows { display: flex; flex-direction: column; gap: 26px; }
 .s-money-row-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 10px; }
 .s-money-val { font-family: var(--serif); font-weight: 700; font-variant-numeric: tabular-nums; }
@@ -1549,20 +1388,16 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .s-money-track > span { display: block; height: 100%; border-radius: 8px; width: 0; transition: width .9s cubic-bezier(.4,0,.2,1); }
 .s-money-spent .s-money-val { font-size: 30px; color: var(--ink-faint); }
 .s-money-spent .s-money-track > span { background: var(--ink-faint); }
-.s-money-left .s-money-val { font-size: 44px; color: var(--accent); }
+.s-money-left .s-money-val { font-size: 30px; color: var(--accent); }
 .s-money-left .s-money-track { height: 30px; }
 .s-money-left .s-money-track > span { background: var(--accent); }
-.s-money-punch { margin: 30px 0 0; padding-left: 20px; border-left: 3px solid var(--accent); font-size: 17px; line-height: 1.6; color: var(--ink); }
 
 /* reveal: the aha, giant number on tap */
 .s-reveal { margin: 0; padding: 26px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); text-align: center; }
-.s-reveal-prompt { font-family: var(--serif); font-size: 22px; line-height: 1.5; color: var(--ink); margin: 0 auto; max-width: 540px; }
 .s-reveal-btn { margin-top: 20px; font-family: var(--mono); font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; border-bottom: 1px solid color-mix(in srgb, var(--accent) 50%, transparent); }
 .s-reveal-btn:hover { border-bottom-color: var(--accent); }
 .s-reveal-out { margin-top: 22px; animation: s-fade .35s ease both; }
-.s-reveal-big { font-family: var(--serif); font-size: 68px; font-weight: 700; line-height: 0.95; color: var(--accent); font-variant-numeric: tabular-nums; }
 .s-reveal-sub { font-family: var(--serif); font-size: 20px; color: var(--ink); margin-top: 10px; }
-.s-reveal-note { margin: 18px auto 0; max-width: 460px; font-size: 15px; line-height: 1.6; color: var(--ink-faint); }
 
 /* split: business vs stock */
 .s-split { margin: 0; }
@@ -1599,33 +1434,9 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 
 .s-disclaimer { margin: 56px 0 0; padding-top: 26px; border-top: 1px solid var(--border); font-size: 13px; line-height: 1.6; color: var(--ink-faint); font-style: italic; }
 
-@media (prefers-reduced-motion: reduce) {
-  .s-num-bar-track > span, .s-reveal-out, .shell-ready .mode-pane-simple { animation: none; }
-  .s-money-track > span { transition: none; }
-}
-@media (max-width: 620px) {
-  .s-title { font-size: 40px; }
-  .s-hero-lead { font-size: 22px; }
-  .s-hero-close { font-size: 21px; }
-  .s-question { font-size: 25px; }
-  .s-bigidea { font-size: 24px; }
-  .s-insight { font-size: 20px; }
-  .s-cmp-count { font-size: 52px; }
-  .s-cmp.now .s-cmp-count { font-size: 66px; }
-  .s-cmp.now .s-cmp-player { font-size: 22px; }
-  .s-num-to { font-size: 60px; }
-  .s-num-from { font-size: 34px; }
-  .s-reveal-big { font-size: 52px; }
-  .s-money-left .s-money-val { font-size: 38px; }
-  .s-split-cols { grid-template-columns: 1fr; }
-  .s-thesis-body { font-size: 20px; }
-}
+@media (prefers-reduced-motion: reduce) {.s-num-bar-track > span, .s-reveal-out, .shell-ready .mode-pane-simple{ animation: none; }.s-money-track > span{ transition: none; }}
 
-/* --- learning-journey chrome: numbered curriculum + concepts taught --- */
-.s-sec-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 14px; }
-.s-sec-num { flex-shrink: 0; font-family: var(--mono); font-size: 13px; font-weight: 700; letter-spacing: 0.06em; color: var(--accent); padding-top: 6px; }
 .s-sec-head .s-question { margin: 0; }
-.s-teaches { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 28px; padding-left: 27px; }
 .s-teach-chip { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-faint); border: 1px solid var(--border); border-radius: 999px; padding: 4px 10px; }
 
 /* two-part glossary popover */
@@ -1657,11 +1468,7 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .s-grad-arrow { transition: transform .15s ease; }
 .s-grad-cta:hover .s-grad-arrow { transform: translateX(4px); }
 
-@media (max-width: 620px) {
-  .s-teaches { padding-left: 0; }
-  .s-tension-a, .s-tension-b { font-size: 19px; }
-  .s-grad { padding: 22px; }
-}
+
 
 /* converge: parts feeding into one costly thing (the physical network) */
 .s-converge { margin: 0; display: flex; flex-direction: column; align-items: center; text-align: center; }
@@ -1676,63 +1483,93 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
    Explain Simply, composition pass: wider column, bigger anchors, stronger
    chapter rhythm, more vertical air. Same identity, more scale.
    ========================================================================== */
-.simple-report { max-width: 880px; }
-.s-prose, .s-insight, .s-bigidea, .s-hero-lead, .s-hero-close, .s-question,
-.s-analogy, .s-callout, .s-tension { max-width: 700px; }
-
-
-/* hero: the toll-road mental model as the first major visual */
-.s-title { font-size: 72px; letter-spacing: -0.03em; }
-.s-hero-lead { font-family: var(--serif); font-size: 30px; line-height: 1.35; color: var(--ink); margin: 28px 0 0; }
 .s-hero-visual { margin: 40px 0 0; padding: 40px 24px; border: 1px solid var(--border); border-radius: 18px; background: color-mix(in srgb, var(--accent) 4%, var(--bg-card)); }
 .s-hero-visual .s-flow { margin: 0; }
 .s-hero-visual .s-flow-label { font-size: 24px; }
 .s-hero-visual .s-flow-accent .s-flow-label { font-size: 36px; }
-.s-hero-close { font-family: var(--serif); font-size: 26px; font-weight: 600; color: var(--accent); margin: 34px 0 0; }
 .s-hero-flow { margin: 34px auto 0; max-width: 520px; }
 
 /* chapter rhythm: a big number, the question, then what it teaches */
-.s-section { padding-top: 64px; }
-.s-section + .s-section { margin-top: 64px; }
-.s-sec-head { display: flex; align-items: flex-start; gap: 22px; margin-bottom: 28px; }
-.s-sec-num { font-family: var(--serif); font-size: 48px; font-weight: 700; line-height: 0.85; color: color-mix(in srgb, var(--accent) 70%, var(--ink-faint)); font-variant-numeric: tabular-nums; padding: 0; }
+.s-section {
+  padding: 52px 0 0;
+  padding-top: 64px;
+}
+.s-section + .s-section {
+  margin-top: 64px;
+  border-top: 1px solid var(--border);
+}
+.s-sec-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 22px;
+  margin-bottom: 28px;
+}
 .s-sec-heading { flex: 1; padding-top: 2px; }
-.s-question { font-size: 33px; margin: 0; }
-.s-teaches { padding-left: 0; margin: 14px 0 0; }
-.s-blocks { gap: 40px; }
-
-/* compare: 1.5x larger, the counts carry it */
-.s-cmp-count { font-size: 60px; }
-.s-cmp.now .s-cmp-count { font-size: 72px; }
-.s-cmp-player { font-size: 20px; }
-.s-cmp.now .s-cmp-player { font-size: 31px; }
-.s-cmp.now::before { font-size: 26px; top: -36px; }
-.s-cmp.now { margin-top: 46px; }
-.s-compare-punch { font-size: 24px; margin-top: 38px; }
+.s-teaches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 0;
+  padding-left: 0;
+}
+.s-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 
 /* big number: a major event, with a change badge */
-.s-num-row { gap: 30px; align-items: center; }
+.s-num-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
 .s-num-side { display: inline-flex; flex-direction: column; align-items: center; gap: 8px; }
-.s-num-from { font-size: 40px; }
-.s-num-to { font-size: 76px; }
 .s-num-sub { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-faint); }
 .s-num-mid { display: inline-flex; flex-direction: column; align-items: center; gap: 10px; }
-.s-num-arrow { font-size: 34px; color: var(--ink-faint); transform: rotate(-90deg); }
+.s-num-arrow {
+  font-size: 34px;
+  color: var(--ink-faint);
+  transform: rotate(-90deg);
+}
 .s-num-delta { font-family: var(--mono); font-size: 14px; font-weight: 700; color: var(--good); background: color-mix(in srgb, var(--good) 12%, transparent); border: 1px solid color-mix(in srgb, var(--good) 32%, var(--border)); border-radius: 999px; padding: 4px 12px; }
-.s-num-insight { font-size: 21px; margin-top: 30px; }
 
 /* big stat: one number that is the whole point */
 .s-stat { margin: 0; text-align: center; padding: 14px 0; }
-.s-stat-val { font-family: var(--serif); font-weight: 700; font-size: 96px; line-height: 0.85; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; }
 .s-stat-accent .s-stat-val { color: var(--accent); }
 .s-stat-bad .s-stat-val { color: var(--bad); }
-.s-stat-label { margin: 22px auto 0; max-width: 540px; font-family: var(--serif); font-size: 22px; line-height: 1.4; color: var(--ink); }
 
 /* money: vertical, the leftover ₹54 is the hero */
-.s-money { text-align: center; }
-.s-money-total { display: flex; flex-direction: column; align-items: center; gap: 4px; border: 0; padding: 0; margin: 0; }
-.s-money-total-val { font-family: var(--serif); font-size: 34px; font-weight: 600; color: var(--ink-dim); }
-.s-money-total-label { font-size: 14px; color: var(--ink-faint); }
+.s-money {
+  margin: 0;
+  text-align: center;
+}
+.s-money-total {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-bottom: 18px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+  flex-direction: column;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.s-money-total-val {
+  font-family: var(--serif);
+  font-size: 34px;
+  font-weight: 600;
+  color: var(--ink-dim);
+  font-variant-numeric: tabular-nums;
+}
+.s-money-total-label {
+  font-size: 14px;
+  color: var(--ink-faint);
+}
 .s-money-arrow { width: 1px; height: 30px; margin: 16px auto; background: var(--border-strong); position: relative; }
 .s-money-arrow::after { content: ''; position: absolute; left: 50%; bottom: -1px; width: 7px; height: 7px; border-right: 1px solid var(--border-strong); border-bottom: 1px solid var(--border-strong); transform: translateX(-50%) rotate(45deg); }
 .s-money-spent-row { display: flex; flex-direction: column; align-items: center; gap: 2px; }
@@ -1741,45 +1578,39 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .s-money-bar { height: 12px; width: min(100%, 420px); margin: 12px auto 0; background: var(--bg-raised); border-radius: 6px; overflow: hidden; }
 .s-money-bar > span { display: block; height: 100%; background: var(--ink-faint); width: 0; border-radius: 6px; transition: width .9s cubic-bezier(.4,0,.2,1); }
 .s-money-left-tag { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); }
-.s-money-left-val { font-family: var(--serif); font-weight: 700; font-size: 84px; line-height: 0.85; color: var(--accent); margin-top: 8px; font-variant-numeric: tabular-nums; }
 .s-money-left-label { font-size: 15px; color: var(--ink-dim); margin-top: 8px; }
-.s-money-punch { margin: 36px auto 0; max-width: 660px; text-align: left; padding-left: 20px; border-left: 3px solid var(--accent); font-size: 17px; line-height: 1.65; color: var(--ink); }
+.s-money-punch {
+  margin: 36px auto 0;
+  padding-left: 20px;
+  border-left: 3px solid var(--accent);
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--ink);
+  max-width: 660px;
+  text-align: left;
+}
 
 /* reveal: premium, teal, "think about this" */
 .s-reveal-tag { font-family: var(--mono); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 14px; }
-.s-reveal-prompt { font-size: 23px; }
-.s-reveal-big { font-size: 82px; }
-
-@media (max-width: 620px) {
-  .s-title { font-size: 44px; }
-  .s-hero-lead { font-size: 23px; }
-  .s-hero-visual { padding: 26px 16px; }
-  .s-hero-visual .s-flow-label { font-size: 21px; }
-  .s-hero-visual .s-flow-accent .s-flow-label { font-size: 28px; }
-  .s-hero-close { font-size: 22px; }
-  .s-sec-head { gap: 14px; }
-  .s-sec-num { font-size: 34px; }
-  .s-question { font-size: 25px; }
-  .s-cmp-count { font-size: 44px; }
-  .s-cmp.now .s-cmp-count { font-size: 56px; }
-  .s-cmp.now .s-cmp-player { font-size: 22px; }
-  .s-num-from { font-size: 30px; }
-  .s-num-to { font-size: 52px; }
-  .s-stat-val { font-size: 60px; }
-  .s-money-left-val { font-size: 50px; }
-  .s-reveal-big { font-size: 44px; }
+.s-reveal-prompt {
+  font-family: var(--serif);
+  font-size: 23px;
+  line-height: 1.5;
+  color: var(--ink);
+  margin: 0 auto;
+  max-width: 540px;
 }
+
+
 
 /* ==========================================================================
    Explain Simply, scale pass 2: wider, the six core visuals made huge, the
    hero turned into a network map, less card chrome. Same identity.
    ========================================================================== */
-.simple-report { max-width: 1000px; }
 .s-prose, .s-insight, .s-bigidea, .s-hero-lead, .s-hero-close, .s-question,
-.s-analogy, .s-callout, .s-tension { max-width: 720px; }
-
-/* hero as a network map: apps funnel into one network, then out to India */
-.s-map { margin: 46px auto 0; max-width: 620px; padding: 46px 32px; border: 1px solid var(--border); border-radius: 20px; background: color-mix(in srgb, var(--accent) 4%, var(--bg-card)); display: flex; flex-direction: column; align-items: center; text-align: center; }
+.s-analogy, .s-callout, .s-tension {
+  max-width: 720px;
+}
 .s-map-apps { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 26px; }
 .s-map-app { font-family: var(--serif); font-size: 19px; color: var(--ink-dim); }
 .s-map-funnel { position: relative; width: 100%; max-width: 340px; height: 46px; margin: 6px 0 0; }
@@ -1789,26 +1620,27 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .s-map-funnel span:nth-child(3) { transform: rotate(-9deg); }
 .s-map-funnel span:nth-child(4) { transform: rotate(-26deg); }
 .s-map-core { margin-top: 6px; padding: 22px 44px; border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--border)); border-radius: 14px; background: color-mix(in srgb, var(--accent) 9%, var(--bg-raised)); display: flex; flex-direction: column; gap: 4px; }
-.s-map-core-name { font-family: var(--serif); font-size: 36px; font-weight: 700; color: var(--accent); letter-spacing: -0.01em; }
 .s-map-core-sub { font-size: 14px; color: var(--ink-dim); }
 .s-map-stem { width: 1px; height: 34px; background: var(--border-strong); margin: 16px 0 0; position: relative; }
 .s-map-stem::after { content: ''; position: absolute; left: 50%; bottom: -1px; width: 7px; height: 7px; border-right: 1px solid var(--border-strong); border-bottom: 1px solid var(--border-strong); transform: translateX(-50%) rotate(45deg); }
 .s-map-base { margin-top: 16px; font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-faint); }
-
-/* the six anchors, enormous */
-.s-cmp-count { font-size: 78px; }
-.s-cmp.now .s-cmp-count { font-size: 88px; }
-.s-num-from { font-size: 48px; }
-.s-num-to { font-size: 96px; }
-.s-num-insight { font-size: 22px; }
-.s-stat-val { font-size: 96px; }
-.s-stat-label { font-size: 23px; max-width: 560px; }
-.s-money-left-val { font-size: 88px; }
-.s-reveal-big { font-size: 82px; }
-
-/* flows and the closing recap, bigger */
-.s-flow-label { font-size: 23px; }
-.s-flow-accent .s-flow-label { font-size: 32px; }
+.s-num-insight {
+  margin: 28px auto 0;
+  max-width: 500px;
+  font-family: var(--serif);
+  font-size: 22px;
+  line-height: 1.5;
+  color: var(--ink);
+  margin-top: 30px;
+}
+.s-stat-label {
+  margin: 22px auto 0;
+  max-width: 560px;
+  font-family: var(--serif);
+  font-size: 23px;
+  line-height: 1.4;
+  color: var(--ink);
+}
 
 /* Airtel vs Jio: the neutral column reads as a peer, not a loser */
 .s-col-neutral { border-top: 3px solid var(--accent); }
@@ -1831,20 +1663,27 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .s-branch-opt-outcome { margin-top: 6px; font-size: 15px; color: var(--ink-dim); }
 .s-branch-bad .s-branch-opt-outcome { color: var(--bad); }
 
-@media (max-width: 620px) {
-  .s-map { padding: 30px 18px; }
-  .s-map-core-name { font-size: 28px; }
-  .s-cmp-count { font-size: 48px; }
-  .s-cmp.now .s-cmp-count { font-size: 60px; }
-  .s-num-from { font-size: 32px; }
-  .s-num-to { font-size: 56px; }
-  .s-stat-val { font-size: 64px; }
-  .s-money-left-val { font-size: 52px; }
-  .s-reveal-big { font-size: 48px; }
-  .s-flow-label { font-size: 20px; }
-  .s-flow-accent .s-flow-label { font-size: 26px; }
-  .s-branch-options { grid-template-columns: 1fr; }
-}
+@media (max-width: 620px) {.s-bigidea{ }.s-insight{ font-size: 20px; }.s-money-left .s-money-val{ font-size: 38px; }.s-split-cols{ grid-template-columns: 1fr; }.s-thesis-body{ font-size: 20px; }.s-teaches{ padding-left: 0; }.s-tension-a, .s-tension-b{ font-size: 19px; }.s-grad{ padding: 22px; }.s-title{
+  }.s-hero-lead{
+  }.s-hero-visual{ padding: 26px 16px; }.s-hero-visual .s-flow-label{ font-size: 21px; }.s-hero-visual .s-flow-accent .s-flow-label{ font-size: 28px; }.s-hero-close{
+  }.s-sec-head{ gap: 14px; }.s-sec-num{ font-size: 34px; }.s-question{
+  }.s-cmp.now .s-cmp-player{
+    font-size: 22px;
+  }.s-map{ padding: 30px 18px; }.s-map-core-name{ font-size: 28px; }.s-cmp-count{
+    font-size: 33px;
+  }.s-cmp.now .s-cmp-count{
+    font-size: 41px;
+  }.s-num-from{
+    font-size: 32px;
+  }.s-num-to{
+    font-size: 38px;
+  }.s-stat-val{
+    font-size: 44px;
+  }.s-money-left-val{
+    font-size: 35px;
+  }.s-reveal-big{
+    font-size: 33px;
+  }.s-flow-label{ font-size: 20px; }.s-flow-accent .s-flow-label{ font-size: 26px; }.s-branch-options{ grid-template-columns: 1fr; }}
 
 /* ==========================================================================
    Explain Simply, responsive pass. Fluid type via clamp() so the big anchors
@@ -1852,63 +1691,128 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
    ========================================================================== */
 
 /* fluid anchor sizes: min for phones, vw to scale, max for desktop */
-.s-title            { font-size: clamp(38px, 9vw, 72px); }
-.s-hero-lead        { font-size: clamp(21px, 4.6vw, 30px); }
-.s-hero-close       { font-size: clamp(20px, 3.8vw, 26px); }
-.s-map-core-name    { font-size: clamp(26px, 7vw, 36px); }
-.s-question         { font-size: clamp(23px, 4.6vw, 33px); }
-.s-sec-num          { font-size: clamp(30px, 6vw, 48px); }
+.s-title            {
+  font-family: var(--serif);
+  font-size: clamp(22px, 5vw, 34px);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  margin: 14px 0 0;
+}
+.s-hero-lead        {
+  font-family: var(--serif);
+  font-size: clamp(18px, 3.4vw, 21px);
+  line-height: 1.35;
+  color: var(--ink);
+  margin: 28px 0 0;
+  text-wrap: pretty;
+}
+.s-hero-close       {
+  font-family: var(--serif);
+  font-size: clamp(17px, 3.2vw, 20px);
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--accent);
+  margin: 34px 0 0;
+}
+.s-map-core-name    {
+  font-family: var(--serif);
+  font-size: clamp(26px, 7vw, 36px);
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.01em;
+}
+.s-question         {
+  font-family: var(--serif);
+  font-size: clamp(24px, 4.4vw, 30px);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+  margin: 0;
+  color: var(--ink);
+  text-wrap: balance;
+}
+.s-sec-num          {
+  flex-shrink: 0;
+  font-family: var(--serif);
+  font-size: clamp(20px, 6vw, 33px);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: color-mix(in srgb, var(--accent) 70%, var(--ink-faint));
+  padding-top: 6px;
+  line-height: 0.85;
+  font-variant-numeric: tabular-nums;
+  padding: 0;
+}
 
-.s-cmp-count        { font-size: clamp(42px, 10vw, 64px); }
-.s-cmp.now .s-cmp-count { font-size: clamp(42px, 10vw, 64px); }
-.s-cmp-player       { font-size: clamp(16px, 3.6vw, 20px); }
-.s-cmp.now .s-cmp-player { font-size: clamp(20px, 5vw, 31px); }
+.s-cmp-count        {
+  font-family: var(--serif);
+  font-size: clamp(29px, 10vw, 44px);
+  font-weight: 700;
+  line-height: 0.9;
+  color: var(--ink-faint);
+  font-variant-numeric: tabular-nums;
+}
+.s-cmp-player       {
+  font-family: var(--serif);
+  font-size: clamp(16px, 3.6vw, 20px);
+  color: var(--ink-faint);
+}
 
-.s-num-from         { font-size: clamp(28px, 7vw, 42px); }
-.s-num-to           { font-size: clamp(44px, 11vw, 74px); }
-.s-stat-val         { font-size: clamp(54px, 13vw, 78px); }
-.s-money-left-val   { font-size: clamp(48px, 12vw, 72px); }
-.s-reveal-big       { font-size: clamp(42px, 11vw, 66px); }
-
-.s-bigidea          { font-size: clamp(22px, 4.4vw, 28px); }
-.s-insight          { font-size: clamp(19px, 3.6vw, 22px); }
-.s-flow-label       { font-size: clamp(19px, 3.4vw, 23px); }
-.s-flow-accent .s-flow-label { font-size: clamp(24px, 5vw, 32px); }
-.s-prose p          { font-size: clamp(16.5px, 2.4vw, 18px); }
+.s-num-from         {
+  font-family: var(--serif);
+  font-size: clamp(19px, 7vw, 29px);
+  font-weight: 600;
+  color: var(--ink-faint);
+  font-variant-numeric: tabular-nums;
+}
+.s-num-to           {
+  font-family: var(--serif);
+  font-size: clamp(30px, 11vw, 50px);
+  font-weight: 700;
+  line-height: 0.9;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+.s-stat-val         {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: clamp(37px, 13vw, 53px);
+  line-height: 0.85;
+  letter-spacing: -0.04em;
+  font-variant-numeric: tabular-nums;
+}
+.s-insight          {
+  font-family: var(--serif);
+  font-size: clamp(19px, 3.6vw, 22px);
+  line-height: 1.5;
+  color: var(--ink);
+  margin: 0;
+  padding-left: 20px;
+  border-left: 3px solid var(--accent);
+}
+.s-flow-label       {
+  font-family: var(--serif);
+  font-size: clamp(19px, 3.4vw, 23px);
+  font-weight: 600;
+  color: var(--ink);
+}
+.s-flow-accent .s-flow-label {
+  color: var(--accent);
+  font-size: clamp(24px, 5vw, 32px);
+}
+.s-prose p          {
+  font-size: clamp(16.5px, 2.4vw, 18px);
+  line-height: 1.75;
+  color: var(--ink);
+  margin: 0 0 16px;
+}
 
 /* layout collapses + tighter spacing on phones */
-@media (max-width: 640px) {
-  .wrap { padding: 0 18px; }
-  .report { padding-top: 26px; }
-  .s-title { letter-spacing: -0.02em; }
-  .s-hero-lead { margin-top: 22px; }
-  .s-map { margin-top: 34px; padding: 28px 16px; }
-  .s-map-apps { gap: 6px 18px; }
-  .s-map-core { padding: 18px 26px; }
-
-  .s-section { padding-top: 46px; }
-  .s-section + .s-section { margin-top: 46px; }
-  .s-sec-head { gap: 12px; margin-bottom: 22px; }
-  .s-blocks { gap: 30px; }
-
-  .s-num-row { gap: clamp(10px, 4vw, 30px); }
-  .s-split-cols { grid-template-columns: 1fr; gap: 14px; }
-  .s-branch-options { grid-template-columns: 1fr; gap: 12px; }
-  .s-col { padding: 18px; }
-  .s-callout, .s-money-punch { padding: 16px 18px; }
-  .s-grad { padding: 22px; }
-  .s-compare-punch, .s-split-punch { font-size: clamp(19px, 4.4vw, 24px); }
-  .s-tension-a, .s-tension-b { font-size: clamp(18px, 4vw, 21px); }
-  .s-reveal-prompt { font-size: clamp(19px, 4vw, 23px); }
-  .s-stat-label, .s-num-insight { font-size: clamp(18px, 3.6vw, 22px); }
-}
+@media (max-width: 640px) {.wrap{ padding: 0 18px; }.report{ padding-top: 26px; }.s-title{ letter-spacing: -0.02em; }.s-hero-lead{ margin-top: 22px; }.s-map{ margin-top: 34px; padding: 28px 16px; }.s-map-apps{ gap: 6px 18px; }.s-map-core{ padding: 18px 26px; }.s-section{ padding-top: 46px; }.s-section + .s-section{ margin-top: 46px; }.s-sec-head{ gap: 12px; margin-bottom: 22px; }.s-blocks{ gap: 30px; }.s-num-row{ gap: clamp(10px, 4vw, 30px); }.s-split-cols{ grid-template-columns: 1fr; gap: 14px; }.s-branch-options{ grid-template-columns: 1fr; gap: 12px; }.s-col{ padding: 18px; }.s-callout, .s-money-punch{ padding: 16px 18px; }.s-grad{ padding: 22px; }.s-compare-punch, .s-split-punch{ font-size: clamp(19px, 4.4vw, 24px); }.s-tension-a, .s-tension-b{ font-size: clamp(18px, 4vw, 21px); }.s-reveal-prompt{ font-size: clamp(19px, 4vw, 23px); }.s-stat-label, .s-num-insight{ font-size: clamp(18px, 3.6vw, 22px); }}
 
 /* very small phones: keep the arrow row from crowding */
-@media (max-width: 380px) {
-  .s-num-row { flex-direction: column; gap: 10px; }
-  .s-num-mid { flex-direction: row; gap: 12px; }
-  .s-num-arrow { transform: rotate(0deg); }
-}
+@media (max-width: 380px) {.s-num-row{ flex-direction: column; gap: 10px; }.s-num-mid{ flex-direction: row; gap: 12px; }.s-num-arrow{ transform: rotate(0deg); }}
 
 /* ==========================================================================
    Explain Simply, tightening pass: one coherent reading column so centered
@@ -1917,40 +1821,119 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
    ========================================================================== */
 /* wide layout: fill the screen. Prose sits at a readable width, the diagrams
    span the full container. */
-.simple-report { max-width: 1240px; }
+.simple-report { max-width: 900px; }
 .s-eyebrow, .s-title, .s-prose, .s-insight, .s-bigidea, .s-hero-lead, .s-hero-close,
 .s-question, .s-analogy, .s-callout, .s-tension, .s-sec-head {
-  max-width: 860px; margin-left: auto; margin-right: auto;
+  max-width: none; margin-left: 0; margin-right: 0;
 }
-.s-map { max-width: 900px; margin-left: auto; margin-right: auto; }
+.s-map {
+  margin: 46px auto 0;
+  max-width: 900px;
+  padding: 46px 32px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: color-mix(in srgb, var(--accent) 4%, var(--bg-card));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* reveal: the ₹3 billion lands, always visible */
 .s-reveal-calc { font-family: var(--mono); font-size: clamp(13px, 2.6vw, 15px); letter-spacing: 0.04em; color: var(--ink-dim); margin: 18px 0 8px; }
-.s-reveal-big { margin-top: 2px; }
-.s-reveal-note { margin: 22px auto 0; max-width: 460px; font-size: 15px; line-height: 1.65; color: var(--ink-faint); }
+.s-reveal-big {
+  font-family: var(--serif);
+  font-size: clamp(29px, 11vw, 45px);
+  font-weight: 700;
+  line-height: 0.95;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  margin-top: 2px;
+}
+.s-reveal-note {
+  margin: 22px auto 0;
+  max-width: 460px;
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--ink-faint);
+}
 
 /* the leftover ₹54, the prize (size and colour carry it, no frame) */
 .s-money-left { margin-top: 10px; }
-.s-money-left-val { margin-top: 6px; }
-
-/* the §09 payoff line: the single most important lesson, made a centrepiece */
-.s-bigidea { text-align: center; font-size: clamp(26px, 5vw, 40px); font-weight: 600; line-height: 1.25; color: var(--ink); padding: 8px 0; }
-
-/* 12 -> 3 side by side on wide screens, stacked on phones */
-.s-compare { display: grid; grid-template-columns: 1fr auto 1fr; align-items: start; gap: 0 28px; max-width: 760px; margin-left: auto; margin-right: auto; }
-.s-cmp.now { margin-top: 0; }
-.s-cmp.now::before { display: none; }
-.s-cmp-arrow { align-self: center; font-size: clamp(30px, 5vw, 46px); color: var(--accent); text-align: center; }
-.s-compare-punch { grid-column: 1 / -1; }
-@media (max-width: 640px) {
-  .s-compare { grid-template-columns: 1fr; gap: 0; }
-  /* → becomes ↓ when the two sides stack */
-  .s-cmp-arrow { display: inline-block; transform: rotate(90deg); margin: 16px 0; }
+.s-money-left-val {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: clamp(33px, 12vw, 49px);
+  line-height: 0.85;
+  color: var(--accent);
+  margin-top: 6px;
+  font-variant-numeric: tabular-nums;
 }
 
+/* the §09 payoff line: the single most important lesson, made a centrepiece */
+.s-bigidea {
+  font-family: var(--serif);
+  font-size: clamp(18px, 4vw, 23px);
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--ink);
+  margin: 0;
+  text-wrap: pretty;
+  text-align: center;
+  padding: 8px 0;
+}
+
+/* 12 -> 3 side by side on wide screens, stacked on phones */
+.s-compare {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: start;
+  gap: 0 28px;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.s-cmp.now {
+  position: relative;
+  margin-top: 0;
+}
+.s-cmp.now::before {
+  content: '↓';
+  position: absolute;
+  top: -36px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--accent);
+  font-size: 26px;
+  display: none;
+}
+.s-cmp-arrow { align-self: center; font-size: clamp(20px, 5vw, 31px); color: var(--accent); text-align: center; }
+.s-compare-punch {
+  margin-top: 38px;
+  padding-top: 24px;
+  font-family: var(--serif);
+  font-size: 24px;
+  line-height: 1.45;
+  color: var(--ink);
+  text-align: center;
+  grid-column: 1 / -1;
+}
+@media (max-width: 640px) {.s-compare{ grid-template-columns: 1fr; gap: 0; }/* → becomes ↓ when the two sides stack */
+  .s-cmp-arrow{ display: inline-block; transform: rotate(90deg); margin: 16px 0; }}
+
 /* 12 and 3 the same size; colour (grey vs teal) marks the change, not scale */
-.s-cmp.now .s-cmp-count { font-size: clamp(42px, 10vw, 64px); }
-.s-cmp.now .s-cmp-player { font-size: clamp(16px, 3.6vw, 20px); }
+.s-cmp.now .s-cmp-count {
+  color: var(--accent);
+  font-size: clamp(29px, 10vw, 44px);
+}
+.s-cmp.now .s-cmp-player {
+  font-size: clamp(16px, 3.6vw, 20px);
+  font-weight: 600;
+  color: var(--ink);
+}
 
 /* ==========================================================================
    Content registers: story (plain prose) vs aside (analogy/explanation) vs
@@ -1976,37 +1959,28 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .s-signals-blind { margin-top: 18px; padding: 16px 20px; border-left: 3px solid var(--amber); background: color-mix(in srgb, var(--amber) 6%, var(--bg-card)); border-radius: 0 10px 10px 0; font-size: 15.5px; line-height: 1.6; color: var(--ink); }
 .s-signals-blind-tag { display: block; font-family: var(--mono); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--amber); margin-bottom: 8px; }
 
-@media (max-width: 640px) {
-  /* the table becomes stacked cards, each row a small labelled block */
-  .s-signals-hrow { display: none; }
-  .s-signals-row { grid-template-columns: 1fr; gap: 10px; padding: 16px 18px; }
-  .s-sig-k { display: block; }
-}
+@media (max-width: 640px) {/* the table becomes stacked cards, each row a small labelled block */
+  .s-signals-hrow{ display: none; }.s-signals-row{ grid-template-columns: 1fr; gap: 10px; padding: 16px 18px; }.s-sig-k{ display: block; }}
 
 /* case-study hero: the puzzle made visible. Several things grew (↑), one stayed
    flat, then the question. The contradiction lands before section 01. */
 .s-contra { margin: 36px auto 0; display: flex; flex-direction: column; max-width: 680px; }
 .s-contra-row { display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: 18px; padding: 12px 0; }
-.s-contra-label { font-family: var(--serif); font-size: clamp(22px, 4.4vw, 28px); font-weight: 600; color: var(--ink); }
+.s-contra-label { font-family: var(--serif); font-size: clamp(16px, 3.4vw, 20px); font-weight: 600; color: var(--ink); }
 .s-contra-row.up .s-contra-mark { display: inline-block; font-family: var(--serif); font-size: clamp(24px, 5vw, 30px); font-weight: 700; color: var(--accent); transform: rotate(45deg); }
 .s-contra-row.flat { margin-top: 8px; padding-top: 20px; border-top: 1px solid var(--border); }
 .s-contra-row.flat .s-contra-label { color: var(--ink-dim); }
 .s-contra-row.flat .s-contra-mark { font-family: var(--serif); font-style: italic; font-size: clamp(16px, 3.4vw, 19px); color: var(--ink-faint); }
-.s-hero-q { font-family: var(--serif); font-size: clamp(25px, 5vw, 36px); font-weight: 600; color: var(--accent); margin-top: 32px; }
+.s-hero-q { font-family: var(--serif); font-size: clamp(17px, 4vw, 22px); font-weight: 600; color: var(--accent); margin-top: 32px; }
 
 /* semantic tag above a big number: Evidence / Collapse / Shock / Turn / Result */
 .s-num-kicker { font-family: var(--mono); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin-bottom: 12px; }
 .s-stat-bad .s-num-kicker { color: var(--bad); }
 
 /* mobile readability: bigger body, roomier line height, tighter gutters */
-@media (max-width: 640px) {
-  .wrap { padding: 0 16px; }
-  .simple-report .s-prose p { font-size: 17px; line-height: 1.72; }
-  .s-prose-aside p, .s-insight, .s-callout-text, .s-tension-a, .s-tension-b,
+@media (max-width: 640px) {.wrap{ padding: 0 16px; }.simple-report .s-prose p{ font-size: 17px; line-height: 1.72; }.s-prose-aside p, .s-insight, .s-callout-text, .s-tension-a, .s-tension-b,
   .s-tension-resolve, .s-num-insight, .s-compare-punch, .s-money-punch,
-  .s-sig-meaning, .s-signals-blind, .s-analogy-body { font-size: 16px; line-height: 1.68; }
-  .s-question { line-height: 1.25; }
-}
+  .s-sig-meaning, .s-signals-blind, .s-analogy-body{ font-size: 16px; line-height: 1.68; }.s-question{ line-height: 1.25; }}
 
 /* case study: the direct "short answer" up top, and the FAQ block near the end.
    Both are for the searcher (and AI) who wants the answer without the 2,000 words. */
@@ -2020,7 +1994,4 @@ ol.tl::before { content: ''; position: absolute; left: 7px; top: 6px; bottom: 6p
 .csd-faq-item:first-child { border-top: 0; }
 .csd-faq-q { font-family: var(--serif); font-size: 18px; font-weight: 600; color: var(--ink); margin: 0 0 8px; }
 .csd-faq-a { font-size: 16px; line-height: 1.65; color: var(--ink-dim); margin: 0; }
-@media (max-width: 640px) {
-  .csd-answer { padding: 18px 18px; }
-  .csd-answer-text { font-size: 17px; }
-}
+@media (max-width: 640px) {.csd-answer{ padding: 18px 18px; }.csd-answer-text{ font-size: 17px; }}

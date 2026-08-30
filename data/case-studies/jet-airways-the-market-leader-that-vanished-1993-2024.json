@@ -351,6 +351,223 @@
       "what": "The Supreme Court orders Jet Airways liquidated, ending any hope of revival. The market leader is wound up."
     }
   ],
+  "simple": {
+    "hero": {
+      "lead": "India's best-loved airline was supposed to be the safe one. It vanished anyway.",
+      "flow": [
+        {
+          "label": "The brand",
+          "sub": "the trusted full-service leader"
+        },
+        {
+          "label": "The share price",
+          "sub": "about 1,379 rupees to 13",
+          "tone": "muted"
+        }
+      ],
+      "close": "Why did India's best airline still fail?"
+    },
+    "sections": [
+      {
+        "id": "the-mystery",
+        "question": "Why did the airline everyone trusted go bust?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "For most of two decades, Jet Airways was the airline middle-class India grew up flying. It was the polished, full-service name, the one business travellers trusted, the market leader that simply felt permanent. It was founded in 1993, and for years it was the airline other airlines were measured against.",
+              "Then, on 17 April 2019, it stopped. Not shrank, not restructured. The planes were grounded and the airline never flew again. Its shares, once worth about 1,379 rupees, ended near 13.",
+              "The tempting explanations are all about blame: bad management, bad luck, a villain somewhere. But the honest answer is stranger and more useful. Jet was, by most accounts, a genuinely good airline. It failed anyway, because the airline business itself is built in a way where being the most-loved player was never the thing that kept you alive. To understand Jet, you have to understand the trap it was flying inside the whole time."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-structure",
+        "question": "What makes airlines such a brutal business?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Start with a single flight from Delhi to Mumbai. Before a single ticket is sold, almost the entire cost of that flight is already fixed. The aircraft has to be paid for, whether it is leased or owned. The crew is rostered. The fuel to fly the route is roughly the same whether the plane is full or half empty. The airport slot, the landing fees, the ground staff: all committed the moment the airline decides to operate the flight.",
+              "Industry-wide, something like 85% of an airline's costs are locked in like this before departure. Only a sliver, the last meal, a little extra fuel for the weight, moves with whether one more passenger boards.",
+              "Now add the second cruelty, the one that makes airlines unlike almost any other business. A seat is perishable in the most extreme way. The instant the cabin door closes, every empty seat on that plane is worth exactly zero, forever. You cannot store it, discount it tomorrow, or sell it later. A shop can hold unsold stock for next week. An airline's unsold seat is gone the second the wheels leave the ground."
+            ]
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "Put those two facts together and you get the defining pressure of the whole industry. The costs are already spent, and the seat is about to be worth nothing. So the airline is under relentless pressure to fill that seat at almost any price, because even a cheap fare is better than an empty seat worth zero. Every competitor is under the same pressure at the same time, which is why airlines are forever tempted to drop fares to fill planes, even when nobody is making money."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operating-leverage",
+        "question": "Why does that make profits swing so violently?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Because when your costs barely move, small changes in how full the plane is swing the profit enormously. This is worth seeing slowly, because it is the engine under everything that happened to Jet.",
+              "Imagine the Delhi to Mumbai flight costs about the same to operate no matter what. Fill it comfortably, and the fares more than cover that fixed cost, and the extra passengers are almost pure profit, because they cost almost nothing to carry. Now let a price war pull fares down and leave a chunk of seats empty. The cost of flying the plane has barely changed, but the revenue has dropped, so the flight swings from healthy profit to painful loss, on the same aircraft, the same crew, the same fuel."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "That amplifier has a name: [[operating leverage|When most costs are fixed, profit swings far more than revenue does, up in good times and down in bad.|An airline is almost pure operating leverage, so a modest drop in fares or loads becomes a large swing in profit.]] High fixed costs are wonderful when planes are full and fares hold, and brutal the moment either one slips. An airline lives permanently at the mercy of that swing."
+          }
+        ]
+      },
+      {
+        "id": "pricing-power",
+        "question": "Couldn't the best-loved airline just charge more?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "This is the part that feels wrong, because in most businesses being the best-loved brand lets you charge a premium. Airlines are the exception, and it is worth watching exactly why.",
+              "Picture how a passenger actually books. They open an app, type in the date, and sort the results by price. Two flights leave within an hour of each other; one is 800 rupees cheaper. For most travellers, most of the time, that is the end of the decision. The nicer meal and the warmer crew are pleasant, but they are not worth paying 800 rupees extra for a two-hour hop. Loyalty is real right up until the moment a rival is meaningfully cheaper, and then it quietly evaporates.",
+              "So Jet was caught. It ran a higher-cost operation, full service, business class, the trimmings people loved, but it could not charge enough above the low-cost carriers to cover that extra cost, because passengers would not pay the gap. Being adored bought it almost nothing at the one moment that mattered, the moment of booking."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "What Jet lacked is [[pricing power|The ability to charge more without losing your customers.|Jet had almost none: fliers bought the cheapest suitable fare, so a loved brand still could not price above its costs.]] A moat that customers admire but will not pay extra for is not a moat that shows up in the accounts. Jet had the affection and none of the pricing power, which is the combination that quietly kills a high-cost business."
+          }
+        ]
+      },
+      {
+        "id": "indigo-vs-jet",
+        "question": "Then why did IndiGo thrive in the same skies?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Because when nobody can charge a premium, the only way to win is to have the lowest cost per seat, and IndiGo built its entire airline around exactly that. The difference was not luck or timing. It was design."
+            ]
+          },
+          {
+            "kind": "split",
+            "left": {
+              "tone": "good",
+              "title": "IndiGo",
+              "verdict": "Built for the cost",
+              "rows": [
+                "One aircraft type (the A320): one set of spare parts, one training system, one maintenance routine",
+                "Fast turnarounds, so each plane spends more hours in the air earning money",
+                "No costly frills; charges separately for extras",
+                "The lowest cost per seat in the market"
+              ]
+            },
+            "right": {
+              "tone": "bad",
+              "title": "Jet",
+              "verdict": "Built for the passenger",
+              "rows": [
+                "A mixed fleet: more spare parts, more training, more complexity and cost",
+                "Full service: meals, more staff, more that can go wrong",
+                "A premium experience travellers genuinely loved",
+                "A higher cost per seat, and no power to charge for it"
+              ]
+            },
+            "punch": "Same routes, same passengers, same fuel prices. But IndiGo could sell a seat at a fare that made it money and lost Jet money. In a business with no pricing power, the lowest cost per seat is the only durable advantage, and structure beat service."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "Notice what this means. IndiGo did not out-charm Jet; it out-structured it. A single aircraft type sounds like a boring detail, but it quietly lowers the cost of spares, training and maintenance across the whole fleet, year after year. That is a cost advantage a rival cannot copy without rebuilding its entire airline, which is precisely what makes it a real one."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-debt",
+        "question": "What turned a hard business into a doomed one?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Debt, and it started with a deal. Years before the collapse, Jet bought a struggling rival, Air Sahara, with borrowed money. The logic looked reasonable: buy a competitor, add its planes and slots, become bigger. But it loaded Jet with a large, fixed debt, and here is the asymmetry that mattered.",
+              "The interest on that debt was fixed and permanent. It fell due every quarter regardless of how the airline was doing. The savings and synergies the deal was supposed to bring were neither fixed nor guaranteed, and in a price war they largely never showed up. So Jet took on a certain, permanent cost in exchange for uncertain benefits, in an industry that already struggled to earn anything at all."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "Layer the problems and you see the trap close. High fixed operating costs already made Jet's profits swing violently. Fixed debt on top means that in a bad year, the interest has to be paid out of a margin that has already vanished. By the end Jet owed banks about 8,500 crore, every rupee of it due whether the planes earned it or not."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "And then the one cost management could never control: fuel. Jet fuel is priced in dollars and is by far the single biggest line in an airline's bill, often around 40% of costs. When the fuel price spiked while a price war held fares down, Jet was squeezed from both sides at once, high fixed costs and fixed debt underneath, a fuel bill it could not control above, and no pricing power to pass any of it on."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "collapse",
+        "question": "So what was the trigger, and what was the cause?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "It matters to keep these apart, because the headlines confuse them. The trigger was ordinary: a stretch of expensive fuel on top of a grinding price war. Plenty of airlines have survived exactly that. A carrier with a low cost per seat and little debt can lose money for a while, tighten its belt, and wait for the cycle to turn.",
+              "Jet could not, and the reason is the cause, not the trigger. A high-cost airline, with no pricing power, carrying a fixed mountain of debt, has no cushion. The first serious shock goes straight through the thin margin, through the interest bill, and into a cash crisis. In April 2019 the money ran out, the lessors and banks pulled back, and the planes were grounded. Insolvency claims eventually added up to about 36,500 crore.",
+              "So the lesson is not that Jet was unlucky, or that its service slipped. Its service was fine; that was never the problem. The structure was the problem, and the fuel spike merely chose the date."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "using-this",
+        "question": "What should you carry to the next company?",
+        "blocks": [
+          {
+            "kind": "insight",
+            "text": "In any thin-margin, price-competitive business, airlines, commodities, generic manufacturing, ask one question before anything else: does this company have a cost advantage its rivals cannot easily copy? Brand love, a nicer product, being the market leader, none of those is a cost advantage. A single fleet type is. A cheaper source of raw material is. If the answer is no, size and reputation will not save it when the cycle turns."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "And watch the balance sheet in exactly these businesses. Fixed debt is dangerous in proportion to how unstable the profits are. An airline, whose profits already swing wildly with fuel and fares, is close to the worst possible place to add a large, permanent loan. Jet did, at the top, and never got the chance to pay it down."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "graduate",
+        "question": "The idea to remember",
+        "blocks": [
+          {
+            "kind": "bigIdea",
+            "text": "Customers judge an airline by the flight. Investors should judge it by the economics."
+          },
+          {
+            "kind": "graduate",
+            "intro": "The words behind the story.",
+            "ctaLabel": "Read the investor case study",
+            "glossary": [
+              {
+                "term": "Operating leverage",
+                "def": "When most costs are fixed, profit swings far more than revenue, big in good times, brutal in bad.",
+                "context": "About 85% of an airline's costs are fixed, so a modest drop in fares or full planes becomes a large loss."
+              },
+              {
+                "term": "Pricing power",
+                "def": "The ability to charge more without losing customers.",
+                "context": "Jet had almost none; fliers bought on price, so a loved brand could not charge enough to cover its higher costs."
+              },
+              {
+                "term": "Cost per seat",
+                "def": "What it costs to fly one seat one trip, the real battleground when no one has pricing power.",
+                "context": "IndiGo's single fleet and fast turnarounds gave it the lowest in the market; Jet's was higher, and fatal."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "remember": "Customers judge an airline by the flight. Investors should judge it by the economics.",
   "lesson": "So, can we answer our question now? Yes. Jet ran a genuinely excellent airline, and it still failed, because it sat inside an industry engineered to punish it. High fixed costs and severe operating leverage meant a small dip in how full the planes were flipped fat profits into deep losses. Weak pricing power and endless price wars meant even the most-loved brand could not charge enough to cover its fuller-service costs. A giant fuel bill, priced in dollars and taxed heavily, was a cost management could barely touch. And heavy debt, taken on to grow in exactly such a business, took away its room to survive the bad years when they came. IndiGo, flying the same routes under the same fuel taxes, survived because it built its model around those economics instead of around the passenger. None of this is unique to airlines. A great product does not guarantee a great business, the structure of an industry often matters more than how well a company is run, and when a business carries heavy fixed costs and heavy debt, an ordinary downturn can be enough to end it. Judge the structure first. Being the best airline wasn't enough.",
   "evidenceNotes": [

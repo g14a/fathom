@@ -345,6 +345,301 @@
       "confidence": "high"
     }
   ],
+  "simple": {
+    "hero": {
+      "lead": "A stock went from under ₹5 to about ₹863 in six years. That looks like one miracle. It was three, stacked on top of each other.",
+      "flow": [
+        {
+          "label": "First, survival repriced",
+          "sub": "once the risk of wipeout receded"
+        },
+        {
+          "label": "Then, earnings recovered",
+          "sub": "margins climbed from about 4% to 14%"
+        },
+        {
+          "label": "Finally, multiple expanded",
+          "sub": "to roughly 107 times earnings"
+        }
+      ],
+      "close": "Only the middle leg was the business proving itself. The other two were the market changing what it would pay."
+    },
+    "sections": [
+      {
+        "id": "what-five-meant",
+        "question": "What was a ₹5 price actually saying?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Read it wrong and you miss the whole story. A share price is not the value of the whole business. It is what the leftover slice, the equity, is worth after the lenders take their share."
+            ]
+          },
+          {
+            "kind": "prose",
+            "aside": "In everyday terms",
+            "text": [
+              "Say a house is worth ₹1 crore but carries a ₹90 lakh loan. Your slice is ₹10 lakh, not ₹1 crore. If the market wobbles and the house can only fetch ₹85 lakh, the bank is still owed ₹90 lakh and gets paid first. Your slice becomes nothing, even though the house is still standing."
+            ]
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "CG Power at about ₹4.7 worked the same way. The entire shareholders' slice was worth about ₹300 crore against borrowings of roughly ₹2,757 crore. Reserves had been wiped out to a negative ₹2,081 crore. The market was not calling the factories worthless. It was pricing the chance that shareholders would never see them again."
+            ]
+          },
+          {
+            "kind": "bigNumber",
+            "kicker": "The slice vs the debt",
+            "from": "~₹300 cr",
+            "to": "~₹2,757 cr",
+            "fromSub": "the whole shareholders' slice",
+            "toSub": "what the company owed",
+            "toTone": "bad",
+            "label": "What the equity was worth, against the debt above it",
+            "insight": "When a company owes nine times what its shares are worth and is losing money, the shares become a bet on survival, not a claim on assets."
+          }
+        ]
+      },
+      {
+        "id": "three-broken-things",
+        "question": "What was actually broken?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "The most useful thing you can do with a wreck like this is refuse to call it, vaguely, broken. Three different things were wrong, and they mattered in very different ways."
+            ]
+          },
+          {
+            "kind": "thesis",
+            "heading": "Three problems, not one",
+            "items": [
+              {
+                "tone": "good",
+                "label": "The business",
+                "text": "Probably the least broken part. CG Power had real customers, established products and manufacturing plants: transformers, switchgear, motors and railway equipment for Indian industry. Even in the bad years it turned over thousands of crore of revenue. This looked less like a product that had stopped working and more like a decent business weighed down by debt and bad governance."
+              },
+              {
+                "tone": "bad",
+                "label": "The balance sheet",
+                "text": "Badly broken. Years of debt, plus liabilities the fraud had hidden, meant the company owed far more than it could service. The interest bill had to be paid whether the plants earned it or not."
+              },
+              {
+                "tone": "bad",
+                "label": "The governance",
+                "text": "The rot at the centre. An internal probe found liabilities understated by about ₹1,053 crore and related-party advances by about ₹1,990 crore as of March 2018. Assets had been pledged and money routed out without authorisation. The chairman and CFO were removed that month."
+              }
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "Keep these three separate. The whole investment question turns on one distinction: a genuinely bad business, or a decent business ruined by too much debt and dishonest management."
+          }
+        ]
+      },
+      {
+        "id": "why-buy-a-wreck",
+        "question": "Why would anyone buy a stock the market had written off?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "In August 2020 the board of Tube Investments of India, the engineering arm of the Chennai-based Murugappa group, approved a binding bid for control. The buyer was not paying ₹5 for a penny stock. It injected fresh capital at ₹8.56 a share, about ₹550 crore for 50.62% control, and separately paid roughly ₹650 crore upfront to settle the tangled lender debt."
+            ]
+          },
+          {
+            "kind": "converge",
+            "items": [
+              "Fresh equity at ₹8.56 a share (~₹550 cr)",
+              "A settlement clearing old lender debt (~₹650 cr upfront)",
+              "A new, credible owner"
+            ],
+            "result": "Control of an established Indian industrial franchise, at a distress price",
+            "cost": "Roughly ₹1,200 crore, all in"
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "Two things had buried a real business: the debt and the governance. Both were problems a well-capitalised owner with clean governance believed it could fix. And the new owner changed who was in charge first: on 26 November 2020, the day control passed, a new chairman, managing director and independent directors were appointed. The reporting, controls and audit were reset before the operating recovery even began. You cannot fix numbers that were being falsified without first fixing who produces them."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "accounting-trap",
+        "question": "The company reported a big profit in FY21. Was that the turnaround?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Look at the profit line: in FY21, CG Power reported a net profit of about ₹1,280 crore. That looks like an instant turnaround. It was not an operating one.",
+              "The clue is that revenue that year actually fell, to about ₹2,964 crore, and the operating margin was still only about 4%. A business earning 4% on shrinking sales could not produce a ₹1,280 crore profit from operations. So where did it come from?"
+            ]
+          },
+          {
+            "kind": "split",
+            "left": {
+              "tone": "muted",
+              "title": "FY21: the fake turn",
+              "rows": [
+                "Net profit reported as ~₹1,280 cr",
+                "But revenue fell, margin was ~4%",
+                "Deferred-tax write-back of ~₹737 cr + exceptional income ~₹85 cr",
+                "Profit before those items: just ~₹28 cr"
+              ],
+              "verdict": "A fake turn"
+            },
+            "right": {
+              "tone": "good",
+              "title": "FY22: the real turn",
+              "rows": [
+                "Operating margin jumped from ~4% to ~12%",
+                "Revenue more than doubled to ~₹5,484 cr",
+                "Borrowings fell to ~₹367 cr",
+                "The business actually earning its keep"
+              ],
+              "verdict": "A real turn"
+            },
+            "punch": "A [[deferred-tax write-back|An accounting credit for the future tax value of past losses, booked when the company expects to make money again|is a real credit but tells you nothing about whether the factories ran better. The genuine operating turn came one year later than the headline profit suggests."
+          }
+        ]
+      },
+      {
+        "id": "real-recovery-numbers",
+        "question": "So when did the actual recovery show up?",
+        "blocks": [
+          {
+            "kind": "bigNumber",
+            "kicker": "The debt clean-up",
+            "from": "₹2,757 cr",
+            "to": "₹16 cr",
+            "fromSub": "borrowings, FY20",
+            "toSub": "by FY23",
+            "label": "A company drowning in debt became effectively debt-free within three years",
+            "insight": "Borrowings fell from about ₹2,757 crore (FY20) to ₹1,484 crore, ₹367 crore, then just ₹16 crore by FY23. The reserves climbed back above zero by FY22."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "Revenue rose from ₹5,484 crore (FY22) to ₹6,973 crore (FY23), ₹8,046 crore (FY24), ₹9,909 crore (FY25) and ₹12,418 crore (FY26). The operating margin settled in the 13-14% band, up from under 4% before the takeover. Return on capital employed, which measures how much profit a business earns on each rupee tied up in it, went from negative in FY20 to about 42% in FY22 and a remarkable 61% in FY23."
+            ]
+          },
+          {
+            "kind": "bigNumber",
+            "kicker": "Returns then eased",
+            "from": "~61%",
+            "to": "~27%",
+            "fromSub": "return on capital, FY23",
+            "toSub": "by FY26",
+            "label": "Return on capital employed, at its peak and since",
+            "insight": "A falling return does not necessarily mean a worse business. The company also got much bigger: reserves swelled from about ₹1,485 crore to ₹7,655 crore as it raised equity and poured money into new capacity. A far larger pile of capital earns a lower percentage unless the new money earns as well as the old did.",
+            "term": "return on capital employed"
+          },
+          {
+            "kind": "callout",
+            "text": "By FY22 to FY23, the balance sheet had stopped being the problem. After that, the debate was no longer whether CG Power would survive, but how good the surviving business really was."
+          }
+        ]
+      },
+      {
+        "id": "three-repricings",
+        "question": "So what actually moved the stock from ₹5 to ₹863?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Not one turnaround. Three different repricings, layered on top of each other, each pricing a different thing."
+            ]
+          },
+          {
+            "kind": "flow",
+            "steps": [
+              {
+                "label": "First: survival repriced (2020-21)",
+                "sub": "Once control passed and the debt was settled, the risk of a wipeout receded. The shares could rise sharply without the business earning an extra rupee."
+              },
+              {
+                "label": "Second: earnings recovered (FY22-23)",
+                "sub": "The operating margin climbed from about 4% to 14%. This part the business genuinely earned."
+              },
+              {
+                "label": "Third: the multiple expanded (FY23-26)",
+                "sub": "Investors began paying far more for each rupee of profit, on the strength of what it might earn next.",
+                "tone": "accent"
+              }
+            ]
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "By August 2026 the stock traded at roughly 107 times earnings, yet net profit grew only from about ₹913 crore (FY22) to ₹1,199 crore (FY26). The price ran far ahead of the profit. That last idea has a name: [[multiple expansion|When the price rises mainly because investors will pay more per rupee of profit, not because profit rose|and it accounts for a large slice of the total return here]].",
+              "Of the three legs, only the middle one is the business itself proving what it can earn. The other two are the market changing what it is willing to pay: first for survival, then for future growth."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "what-comes-next",
+        "question": "A better business, or just a less broken one?",
+        "blocks": [
+          {
+            "kind": "tension",
+            "a": "On operations, it is genuinely better. Margins are structurally higher, the balance sheet went from deeply indebted to effectively debt-free, and returns on capital were excellent. That is not financial engineering; the business earns substantially more from the capital it uses.",
+            "b": "But the newest chapter is a fresh bet. Through a subsidiary, CG Semi, the company has built India's first OSAT semiconductor plant at Sanand, a roughly ₹7,600 crore project with Japanese and Thai partners, backed by a government subsidy of about ₹3,501 crore, inaugurated in August 2025.",
+            "resolve": "The core recovery is visible in the numbers. The semiconductor economics are still prospective. At around 107 times earnings, part of today's valuation rests on a future that is promised, not yet delivered."
+          }
+        ]
+      },
+      {
+        "id": "graduate",
+        "question": "The language behind the story",
+        "blocks": [
+          {
+            "kind": "bigIdea",
+            "text": "A broken balance sheet and a dishonest boss can make a good business look worthless. The hard part is not spotting the low price. It is knowing what still stands underneath it, and how much you are paying once everyone else can see it too."
+          },
+          {
+            "kind": "graduate",
+            "intro": "This case study uses these terms. Now you know what they mean.",
+            "ctaLabel": "Read the full investor case study",
+            "glossary": [
+              {
+                "term": "Enterprise value vs equity",
+                "def": "The whole business is worth its enterprise value; the shares are only the leftover slice after lenders are paid.",
+                "context": "At ₹5, CG Power's shares were worth about ₹300 crore against ₹2,757 crore of debt, so the equity was a bet on survival."
+              },
+              {
+                "term": "Operating margin",
+                "def": "The profit a business makes on each ₹100 of sales, before financing and tax.",
+                "context": "CG Power's went from under 4% before the takeover to a settled 13-14%. That climb, not the FY21 profit, was the real turnaround."
+              },
+              {
+                "term": "Deferred-tax write-back",
+                "def": "An accounting credit for the future tax value of past losses, booked when the company expects to make money again.",
+                "context": "A roughly ₹737 crore write-back dominated the FY21 profit, which is why that profit was not an operating recovery."
+              },
+              {
+                "term": "Return on capital employed",
+                "def": "How much profit a business earns on each rupee of capital tied up in it.",
+                "context": "Reached about 61% in FY23 on a lean base, then eased toward 27% as the company grew much larger."
+              },
+              {
+                "term": "Price-to-earnings multiple",
+                "def": "How many rupees investors pay for each rupee of annual profit; a higher number usually means they expect growth.",
+                "context": "Ran to about 107, so much of CG Power's future growth is already priced in."
+              },
+              {
+                "term": "Multiple expansion",
+                "def": "When the price rises mainly because investors will pay more per rupee of profit, not because profit rose.",
+                "context": "The most recent leg of CG Power's rise, and a bet on the semiconductor future rather than proven earnings."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "remember": "A broken balance sheet and a dishonest boss can make a good business look worthless. The hard part is not spotting the low price. It is knowing what still stands underneath it, and how much you are paying once everyone else can see it too.",
   "published": "2026-08-20",
   "answer": "CG Power went from under ₹5 in March 2020 to about ₹863 by August 2026, but that was three different repricings stacked together, not one turnaround. First survival: once the Murugappa group's Tube Investments took 50.62% control at ₹8.56 a share and settled the debt, the risk of a wipeout receded. Second a genuine operating recovery, as margins climbed from about 4% to 14% and borrowings fell from ₹2,757 crore to ₹16 crore. Third the multiple expanding to around 107 times earnings on a semiconductor bet that has barely begun to earn. Only the middle part was the business proving itself.",

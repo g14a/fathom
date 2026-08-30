@@ -337,6 +337,245 @@
     }
   ],
   "lesson": "BSE didn't lose the market it invented because its rival had better technology. Technology only opened the door; NSE used it to build a bigger crowd, and once that crowd formed, it kept compounding its own advantage. One of the clearest pieces of evidence for that is BSE's own derivatives history: it launched India's first index future, three days ahead of NSE, and still spent the next twenty years unable to gather meaningful volume, because the liquidity that mattered was already sitting on the other exchange for reasons that had nothing to do with that product. The deeper problem for BSE was never just that its crowd had left. It was that matching NSE feature for feature wasn't enough to bring that crowd back. The honest sequel isn't that BSE clawed its old market back. It's that BSE eventually stopped trying to win NSE's game and built a new corner of the derivatives calendar nobody else had claimed, a reminder that a lost network effect is rarely won back by fighting for the old pool. It's won by building a new one.",
+  "simple": {
+    "hero": {
+      "lead": "A newcomer took over the market in two years. The century-old leader never won it back.",
+      "flow": [
+        {
+          "label": "BSE, the incumbent",
+          "sub": "ran the market since 1875"
+        },
+        {
+          "label": "Its share of stock trading today",
+          "sub": "about 7%",
+          "tone": "muted"
+        }
+      ],
+      "close": "Once a rival copies your technology, what is left to protect you?"
+    },
+    "sections": [
+      {
+        "id": "the-surprise",
+        "question": "How did a 120-year-old exchange lose its own market?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "For over a century, if you wanted to buy or sell an Indian share, you went to one place: the Bombay Stock Exchange, founded in 1875 and Asia's oldest exchange. Trading happened by open outcry on a physical floor on Dalal Street, brokers shouting prices and confirming trades with hand signals. It worked because everyone who mattered was crammed into that one room. If you wanted to trade, you needed a seat on that floor or a relationship with someone who had one. There was no real alternative.",
+              "Then a new exchange, NSE, opened for business in 1994. It ran on computers instead of a trading pit, connected by satellite links so a buyer in Ahmedabad and a seller in Kolkata saw the same live price at the same moment. Within about two years, NSE was already doing more turnover than BSE. Technology opened the door. But here is the part that matters: BSE eventually built the same kind of electronic trading, and in one major product it even got there first. It still lost. What kept BSE out of its own market once the door was open was not technology at all."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "two-markets",
+        "question": "What does a busy market have that an empty one doesn't?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "aside": "In everyday terms",
+            "text": [
+              "Picture two vegetable markets sitting across the road from each other. One has a hundred buyers and sellers. The other has five. In the busy market you find a buyer the moment you arrive, and the price is fair, because many people are competing to buy and sell. In the empty one you wait, and if you want to leave with anything at all, you take a worse price.",
+              "You go to the busy market. So does every other seller. So does every other buyer. And that is exactly why it stays busy."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "That pull the busy market has is [[liquidity|How easily you can buy or sell at a fair price, which depends on how many others are trading there.|BSE's crowd moved to NSE, and a deep crowd is the one thing a rival cannot copy overnight.]] The deeper the crowd, the tighter the price and the faster your trade fills, which pulls in the next trader, which deepens the crowd. An exchange is not really selling technology or listings. It is selling the size of its gathering."
+          }
+        ]
+      },
+      {
+        "id": "the-numbers",
+        "question": "How fast did the crowd actually move?",
+        "blocks": [
+          {
+            "kind": "bigNumber",
+            "rows": [
+              {
+                "label": "BSE monthly turnover, August 1996",
+                "value": "~Rs 480 crore"
+              },
+              {
+                "label": "NSE monthly turnover, August 1996",
+                "value": "~Rs 1,035 crore",
+                "tone": "accent"
+              }
+            ],
+            "from": "₹480 cr",
+            "to": "₹1,035 cr",
+            "fromSub": "BSE monthly turnover, Aug 1996",
+            "toSub": "NSE monthly turnover, Aug 1996",
+            "label": "Monthly trading volume when the moat was forming",
+            "insight": "The crowd was already twice as large on NSE within two years of its launch."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "NSE had launched its equity segment in November 1994. By August 1996, under two years later, its monthly turnover was already more than double BSE's. The advantage did not come from faster trading. It came from who was allowed to show up. BSE's floor could only hold as many brokers as could physically stand in the room. NSE's terminals could sit in any city with a phone line and a satellite dish.",
+              "Today NSE handles about 93% of cash equity trading in India, and BSE handles about 7%. Those numbers did not reverse in any lasting way. The gap is not a technology gap. It is a crowd gap."
+            ]
+          },
+          {
+            "kind": "compare",
+            "left": {
+              "label": "BSE",
+              "value": "~7% cash equity share"
+            },
+            "right": {
+              "label": "NSE",
+              "value": "~93% cash equity share",
+              "tone": "accent"
+            },
+            "before": {
+              "year": "Today",
+              "count": "~7%",
+              "unit": "market share",
+              "players": [
+                "BSE"
+              ],
+              "caption": "BSE share of cash market turnover"
+            },
+            "after": {
+              "year": "Today",
+              "count": "~93%",
+              "unit": "market share",
+              "players": [
+                "NSE"
+              ],
+              "caption": "NSE has the crowd"
+            },
+            "punch": "The same pattern that started in 1996 is still running today."
+          }
+        ]
+      },
+      {
+        "id": "the-twist",
+        "question": "Didn't being first with a new product help BSE anywhere?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "This is the part of the story that kills the easy idea that NSE just had better technology and that explains everything. On 9 June 2000, BSE launched Sensex futures, the first [[index derivative|A financial contract whose value is tied to a stock market index like the Sensex or Nifty, used for betting on or protecting against market-wide moves.|BSE launched the first Indian index derivative three days ahead of NSE, and still lost the market for it.]] ever to trade on an Indian exchange. NSE launched its own Nifty futures three days later, on 12 June 2000.",
+              "For a moment BSE's head start actually showed. In that first month it held about 61% of the small new combined market. It did not last. Within about eighteen months, by November 2001, NSE's share had climbed to around 99%. BSE tried again more than once, including a relaunch in 2010 with a new settlement structure and a different expiry cycle. Each attempt found no takers. Its derivatives segment stayed a rounding error for the better part of twenty years, from 2000 to 2023."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "BSE launched the product first and still lost it. That tells you the product was never the thing that mattered. The crowd was already standing on NSE for the cash market. Traders had their accounts, broker relationships and trading habits there. When index derivatives arrived, they simply added them to the exchange they were already using. Being first did not matter, because the moat had already moved before this battle even began."
+          }
+        ]
+      },
+      {
+        "id": "the-flywheel",
+        "question": "Why can't the crowd ever be won back?",
+        "blocks": [
+          {
+            "kind": "flow",
+            "steps": [
+              {
+                "label": "More traders in one place means you can buy or sell at a better price, because someone is always willing to take the other side"
+              },
+              {
+                "label": "That better price is itself a reason to trade there instead of a rival venue, so more traders arrive"
+              },
+              {
+                "label": "More traders arrive for the better price, which makes the price better still, which attracts the next trader",
+                "tone": "accent"
+              }
+            ]
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "This is the [[liquidity flywheel|A self-reinforcing loop where more participants create tighter prices, which attract more participants, which make prices tighter still|BSE could not break this loop once NSE got it running, because matching NSE's technology was not enough to make traders leave NSE's crowd.]] in action. Say you want to sell 1,000 shares. If only ten buyers are watching that stock, you may have to cut your price to find one willing to take your full order. If 100,000 buyers are watching, someone is almost certainly willing to buy close to the price you want. The gap, what you give up to get a trade done right now, is the [[spread|The difference between the best price a buyer is willing to pay and the best price a seller is willing to accept; a tight spread is the signature of a liquid market.|NSE's deeper crowd produced tighter spreads, which kept traders from leaving even when BSE matched NSE's technology.]] A market with more participants on both sides has a tighter one.",
+              "A rival can build faster screens and copy every feature. It cannot conjure a crowd from scratch, because no single trader wants to be the first one standing in an empty room. That self-reinforcing loop is why the advantage does not move back."
+            ]
+          },
+          {
+            "kind": "callout",
+            "text": "The moat did not sit in BSE's building or its software. It sat in its crowd. And the moment the crowd moved, it moved for good."
+          }
+        ]
+      },
+      {
+        "id": "what-bse-did",
+        "question": "So was BSE destroyed?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Not exactly, and the distinction matters. BSE lost market leadership in cash equity trading and equity derivatives, the two businesses that made it famous, but it did not vanish. Rather than keep fighting NSE head-on for the same traders, it went looking for businesses where scale did not depend on trading liquidity.",
+              "BSE StAR MF grew into one of the country's largest platforms for buying and redeeming mutual fund units, a business that has almost nothing to do with how many traders are standing on the other side of a share trade. BSE was the founding promoter of CDSL, the depository that holds investors' shares and mutual fund units electronically, which went public through its own IPO in June 2017. BSE itself listed that same year, 2017, becoming a public company. None of these reclaimed the trading crowd. But they gave BSE cash flows that did not depend on winning a fight it had already lost."
+            ]
+          },
+          {
+            "kind": "converge",
+            "text": "Then, decades after most people had stopped watching, BSE found a new corner to claim. NSE's weekly index options expiry sat on one weekday. BSE scheduled its own Sensex weekly expiry on a different weekday, undercut NSE sharply on fees, and by April 2026 it briefly reported more derivatives turnover than NSE for the first time in over twenty years. It did not beat the network effect. It built a smaller one that NSE did not already have a lock on, which is how a lost crowd is worked around rather than won back.",
+            "items": [
+              "StAR MF platform",
+              "CDSL ownership",
+              "IPO of its own shares"
+            ],
+            "result": "BSE survived and eventually thrived",
+            "cost": "Decades outside the derivatives market"
+          }
+        ]
+      },
+      {
+        "id": "using-this",
+        "question": "What should you carry to the next company?",
+        "blocks": [
+          {
+            "kind": "insight",
+            "text": "When a newcomer arrives with better technology, ask what actually holds the customers in place: the technology itself, or something deeper like a [[network effect|When a product gets better for each user as more users join, so the leader's lead compounds.|More traders on NSE meant tighter prices, which drew still more traders.]] that makes the product better for everyone as more people join? Technology can be matched. A crowd that compounds its own advantage usually cannot. Find who has the deepest pool of users, and you often find who wins even after the technology is copied."
+          }
+        ]
+      },
+      {
+        "id": "graduate",
+        "question": "The idea to remember",
+        "blocks": [
+          {
+            "kind": "bigIdea",
+            "text": "BSE did not lose to better technology. It lost its crowd, and once it could not win that crowd back, it had to go find a different one."
+          },
+          {
+            "kind": "graduate",
+            "intro": "The words behind the story.",
+            "ctaLabel": "Read the investor case study",
+            "glossary": [
+              {
+                "term": "Liquidity",
+                "def": "How easily you can buy or sell at a fair price, set by how many others are trading in the same place.",
+                "context": "NSE's deeper crowd gave traders better prices, so BSE could not pull them back."
+              },
+              {
+                "term": "Network effect",
+                "def": "When a product gets better for each user as more users join, so the leader's lead compounds.",
+                "context": "More traders on NSE meant tighter prices, which drew still more traders."
+              },
+              {
+                "term": "The liquidity flywheel",
+                "def": "A self-reinforcing loop where more participants create tighter prices, which attract more participants.",
+                "context": "BSE could not break this loop because matching NSE's technology was not enough to make the crowd move back."
+              },
+              {
+                "term": "Spread",
+                "def": "The gap between the best price a buyer offers and the best price a seller asks; a tight spread means a liquid market.",
+                "context": "NSE's deep crowd produced tighter spreads, which kept traders from leaving even when BSE matched NSE's technology."
+              },
+              {
+                "term": "The crowd, not the tech",
+                "def": "An advantage rivals cannot copy because it lives in the users, not the software.",
+                "context": "BSE matched NSE's technology and even led on derivatives, and still lost, because the crowd stayed on NSE."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "remember": "BSE didn't lose to better technology. It lost its crowd to NSE, and once it couldn't win that crowd back, it had to go find a different one.",
   "evidenceNotes": [
     {

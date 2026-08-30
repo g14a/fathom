@@ -353,6 +353,303 @@
       "confidence": "high"
     }
   ],
+  "simple": {
+    "hero": {
+      "lead": "The paint industry kept growing. The leaders earned more than ever. The stocks fell anyway.",
+      "flow": [
+        {
+          "label": "Asian Paints profit per share",
+          "sub": "roughly doubled from 22.5 to 45 rupees"
+        },
+        {
+          "label": "Its share price from the 2022 peak",
+          "sub": "down about 27%",
+          "tone": "muted"
+        }
+      ],
+      "close": "How can a stock fall for years while the business keeps earning more? The answer is not in the paint. It is in what investors were willing to pay for it."
+    },
+    "sections": [
+      {
+        "id": "the-puzzle",
+        "question": "Earnings rose. The stock fell. How?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "A stock that earns more every year yet trades lower every year is a puzzle by itself. Between 2019 and 2026, Asian Paints' profit per share went from about 22.5 rupees to about 45 rupees. Net profit roughly doubled, from about 2,208 crore to about 4,395 crore. The decorative paint market kept growing too: the organised segment alone was around 62,000 crore by FY23 and larger since, and major players reported healthy volume growth in every year of the period.",
+              "Yet the stock of the country's most admired paint company trades about 27% below where it stood in January 2022. That is a drop of nearly a thousand rupees per share, from 3,590 to about 2,631. Indigo Paints, listed for stardom in 2021, tells a starker version of the same story: its debut-day price of about 3,129 rupees has more than halved to around 1,191.",
+              "A growing market, rising earnings, and falling prices. That combination rules out the simple explanation. The problem was not whether people bought paint."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-split",
+        "question": "Which number actually fell?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Every stock price is just two numbers multiplied together: the profit the company earns per share, and the multiple that investors pay for each rupee of that profit. Price equals EPS times P/E. So when a stock falls, the first question must be: which of the two shrank? They tell completely different stories.",
+              "If earnings fell, the business got worse. If only the multiple fell, the business may be fine, and investors simply stopped paying an extreme price for it. You cannot know what happened until you take them apart."
+            ]
+          },
+          {
+            "kind": "bigNumber",
+            "kicker": "Asian Paints P/E multiple",
+            "from": "~110x",
+            "to": "~53x",
+            "fromSub": "at the January 2022 peak of 3,590 rupees",
+            "toSub": "August 2026, near 2,631 rupees",
+            "label": "Investors were paying about 110 rupees for each rupee of profit. Now they pay about 53.",
+            "insight": "The [[P/E|Price-to-Earnings ratio: the number of rupees investors pay for each rupee of a year's profit.|Asian Paints' roughly halved from about 110 to 53, even as earnings kept rising.]] was cut in half. That is the whole story of the fall from the peak. The company earns more today than it did at the 2022 top, but investors are willing to pay less for each rupee of that profit."
+          },
+          {
+            "kind": "split",
+            "left": {
+              "tone": "good",
+              "title": "Earnings",
+              "verdict": "Rose",
+              "rows": [
+                "EPS doubled from ₹22.5 to ₹45",
+                "The business was still making more money"
+              ]
+            },
+            "right": {
+              "tone": "bad",
+              "title": "Stock",
+              "verdict": "Fell 27%",
+              "rows": [
+                "Price fell from about ₹3,200 to ₹2,300",
+                "The market was paying less for each rupee earned"
+              ]
+            },
+            "punch": "Earnings up, price down means only one thing can be doing the work: the multiple. Investors were paying less for each rupee of the same, growing profit."
+          },
+          {
+            "kind": "callout",
+            "text": "For Asian Paints and Berger, earnings rose while the multiple did the falling. For Indigo Paints, the same pattern but more extreme: its earnings kept growing (EPS about 30 rupees in FY26) while its debut-day price more than halved. Kansai Nerolac is the exception: a large part of its business is industrial and automotive coatings, so its earnings genuinely softened too, and both the earnings and the multiple contributed to its decline.",
+            "label": "The difference matters between companies"
+          }
+        ]
+      },
+      {
+        "id": "why-the-premium-fell",
+        "question": "Why would investors suddenly pay less for a great business?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "A very high multiple is not a neutral price tag. It is a bet that the business will keep doing something extraordinary for a long time. Paying 110 times earnings means accepting that your return will take over a century to come entirely from profit, unless the company grows faster than average for years.",
+              "The moment the market doubts that bet, it pays a more normal price instead, and the multiple falls. That can happen even while profits are still climbing, because the doubt is about the future, not the past."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "So the real question is not about the price at all. It is whether Asian Paints was still as extraordinary as the old premium of 110 times earnings assumed. And that question leads to one number: how much profit does the business earn on every rupee tied up in it?"
+          }
+        ]
+      },
+      {
+        "id": "returns-were-fading",
+        "question": "Was the business still as good as the premium assumed?",
+        "blocks": [
+          {
+            "kind": "bigNumber",
+            "kicker": "Asian Paints return on capital (ROCE)",
+            "from": "~42%",
+            "to": "~26%",
+            "fromSub": "FY15",
+            "toSub": "FY26",
+            "label": "Profit per rupee tied up in the business, sliding for a decade",
+            "insight": "[[ROCE|Return on Capital Employed: the profit earned for every rupee invested in the business. It measures how well a company turns its capital into profit.|Asian Paints' slid from about 42% in FY15 to about 26% in FY26.]] tells you honestly how special a business is. Asian Paints' was about 42% in FY15, around 33% by FY19, and about 26% in FY25 and FY26. The high returns had been drifting down for the better part of a decade, as the company grew much larger and moved into more capital-intensive businesses like kitchens, bath and decor."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "This reframes the entire story. The returns were already normalising before any new rival existed. So the tale is less about competition damaging a great industry and more about the economics already coming down to earth, with new competition arriving while that was happening.",
+              "And 26% is still an excellent return. This is a great business that stopped being the exceptional one the market had priced it as. That gap, between the returns the market kept extrapolating (40%-plus) and the returns the company now earns (mid-20s), is a large part of what fell."
+            ]
+          },
+          {
+            "kind": "thesis",
+            "heading": "What changed",
+            "items": [
+              {
+                "tone": "bad",
+                "label": "ROCE",
+                "text": "Fell from ~42% to ~26%, a decade-long drift"
+              },
+              {
+                "tone": "warn",
+                "label": "Competition",
+                "text": "Birla Opus arrived with ₹10,000 cr of capacity, ~40% of the industry"
+              },
+              {
+                "tone": "good",
+                "label": "The business",
+                "text": "Still strong, cash generative, the leader. Just not extraordinary anymore."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "competition-as-accelerant",
+        "question": "Where does the new competition fit in?",
+        "blocks": [
+          {
+            "kind": "compare",
+            "before": {
+              "year": "Before Birla Opus",
+              "count": "₹10,000 cr",
+              "unit": "investment",
+              "players": [
+                "Birla Opus"
+              ],
+              "caption": "New capacity that had to be filled"
+            },
+            "after": {
+              "year": "After entry",
+              "count": "~40%",
+              "unit": "of new capacity",
+              "players": [
+                "Industry"
+              ],
+              "caption": "Birla Opus alone accounts for about 40% of new organised capacity"
+            },
+            "punch": "New capacity must be filled, and it gets filled with lower prices and sweeter dealer terms."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "Two large, unrelated industrial groups decided within two years that Indian paints was worth tens of thousands of crores. That fact reads two ways. It can mean the industry's economics are still attractive enough to draw serious capital. Or it can mean those economics are about to worsen, because a lot of capital arriving at once tends to make a good business more crowded.",
+              "New capacity has to be filled. And it gets filled with discounts and better terms for dealers. That does not shrink the paint market. It makes the leader's franchise more expensive to defend, which trims returns further and gives investors another reason to pay less."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-fy25-squeeze",
+        "question": "What actually happened to margins in FY25?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "It is tempting to jump from \"competition arrived\" straight to \"pricing power collapsed.\" The numbers do not support that leap, and the real story is more interesting. Break the FY25 profit-and-loss into its parts and the surprise is where the damage was not.",
+              "Gross margin, what is left after raw materials, was about 43.4% in FY25, close to a record high. Cheap crude and TiO2 saw to that. If rivals had forced Asian Paints to slash prices across the board, gross margin would have fallen. It did the opposite."
+            ]
+          },
+          {
+            "kind": "split",
+            "left": {
+              "tone": "good",
+              "title": "Gross margin",
+              "verdict": "43.4%",
+              "rows": [
+                "Near record high",
+                "Raw materials were not the problem"
+              ]
+            },
+            "right": {
+              "tone": "bad",
+              "title": "Operating profit",
+              "verdict": "Fell",
+              "rows": [
+                "Something below the gross line was consuming the margin",
+                "Channel costs, dealer incentives, price competition"
+              ]
+            },
+            "punch": "With raw materials cheap, the squeeze was not about costs. It came from defending the channel, discounts, dealer incentives and price competition eating the margin below the gross line."
+          },
+          {
+            "kind": "insight",
+            "text": "The squeeze happened below the gross line. Revenue softened from about 35,495 crore in FY24 to about 33,906 crore in FY25, so fixed costs (staff, factories, the network) spread over fewer rupees. That is [[negative operating leverage|When a fixed cost base meets falling revenue: the same costs are spread over fewer rupees, so margin contracts even with no mismanagement.|Asian Paints' revenue fell roughly 4% in FY25, which dropped operating profit more.]] on its own. At the same time, channel-related spending and trade support grew more expensive relative to that smaller revenue, even as headline advertising was trimmed slightly to about 1,297 crore. Net profit fell about a third, to roughly 3,700 crore."
+          },
+          {
+            "kind": "tension",
+            "a": "Gross margins were at record levels.",
+            "b": "Operating profit was under pressure anyway.",
+            "resolve": "The problem was not in raw materials or pricing. It was in the cost of defending the channel."
+          }
+        ]
+      },
+      {
+        "id": "cheaper-not-bargain",
+        "question": "So a great business got cheaper. Isn't that a buy?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "That is the reflex to resist. When a loved business gets cheaper while earnings rise, the instinct is to call it a bargain. The market must be wrong, you think, and this is your chance.",
+              "The opposite question is the honest one: is the market right that the future is a bit worse than the past? The multiple fell from about 110 to about 53. That is not a random swing. It matches a return on capital that dropped from about 42% to about 26%. A business that earns 26% on capital deserves a lower multiple than one that earned 42%."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "Cheaper is a question, not an answer. Before you call a de-rated stock a bargain, ask whether the lower multiple is the right one for a business that is merely great instead of extraordinary. A falling multiple on fading returns can be the market repricing reality correctly, not making a mistake."
+          }
+        ]
+      },
+      {
+        "id": "not-one-industry",
+        "question": "Did all paint stocks fall the same way?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "No. A warning before you lump them together, because their economics genuinely differ. Kansai Nerolac is not a pure decorative play; a large slice of its business is industrial and automotive coatings, which follows the car cycle and carries lower margins. Its stock fell harder, down more than half from its 2021 peak, partly for reasons that have little to do with the wall-paint fight.",
+              "Indigo Paints is the opposite: a small, fast-growing premium challenger whose multiple was much wilder to begin with. Its debut-day price near 3,129 rupees has more than halved to about 1,191, yet its earnings kept growing (EPS about 30 rupees in FY26). The common thread with Asian Paints is that valuation compression did the damage. But Indigo's fall is more extreme because the starting multiple was higher and its scale is a fraction of the leaders'.",
+              "Smaller names such as Sirca, Kamdhenu Ventures and Shalimar, and micro-cap coatings companies like Siddhika and Retina, have different business models. Sirca is largely imported wood coatings, not wall paint. They should not be treated as copies of Asian Paints."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "graduate",
+        "question": "The one idea to carry away",
+        "blocks": [
+          {
+            "kind": "bigIdea",
+            "text": "The paint market kept growing. Earnings kept rising. What changed was the economics of owning the leaders: returns had been fading for a decade, new competition arrived while that was happening, and investors stopped paying extreme prices for a business that had quietly become merely great instead of extraordinary."
+          },
+          {
+            "kind": "graduate",
+            "intro": "The terms behind the story, explained once.",
+            "ctaLabel": "Read the full investor case study",
+            "glossary": [
+              {
+                "term": "P/E multiple",
+                "def": "How many rupees investors pay for each rupee of a year's profit.",
+                "context": "Asian Paints' roughly halved from about 110 to 53, even as profit per share kept rising."
+              },
+              {
+                "term": "De-rating",
+                "def": "When the multiple falls, so the stock price can drop even while earnings rise.",
+                "context": "The whole fall from the 2022 peak was a de-rating, not weaker earnings."
+              },
+              {
+                "term": "Return on capital employed (ROCE)",
+                "def": "Profit earned per rupee tied up in the business; the honest test of how special it still is.",
+                "context": "Asian Paints' slid from about 42% to 26% over a decade, and the old premium assumed 42% was permanent."
+              },
+              {
+                "term": "Negative operating leverage",
+                "def": "When revenue falls, fixed costs spread over fewer rupees, so profit drops faster than revenue.",
+                "context": "Asian Paints' FY25 revenue fell about 4% while overheads did not shrink, amplifying the margin squeeze."
+              },
+              {
+                "term": "Gross margin",
+                "def": "What is left after raw-material costs, before all other expenses.",
+                "context": "Asian Paints' gross margin was near a record 43.4% in FY25, proving the damage was not a simple price war."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "remember": "The paint market kept growing. What changed was the economics of owning the leaders: returns drifted lower, competition made the franchise more expensive to defend, and investors stopped paying the old premium for it.",
   "answer": "Paint stocks fell mostly because their valuation compressed, not because profits did. Asian Paints' earnings per share roughly doubled, from ₹22.5 in FY19 to about ₹45 in FY26, yet its stock is down about 27% from its January 2022 peak as its P/E was cut from around 110 times earnings to about 53. The multiple fell because returns had been sliding for a decade, ROCE from about 42% in FY15 to the mid-20s now, with new, well-funded entrants like Birla Opus and JSW-Akzo as the accelerant rather than the sole cause.",
   "faqs": [

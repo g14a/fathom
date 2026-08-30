@@ -1104,7 +1104,6 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ id: 
     return (
       <div className="wrap report simple-report">
         <header className="s-hero">
-          <div className="s-eyebrow">Simple mode</div>
           {/* Not an <h1>: the investor view holds the page's single canonical H1. */}
           <div className="s-title" role="heading" aria-level={1}>{c.title}</div>
           <p className="s-hero-lead">{s.hero.lead}</p>

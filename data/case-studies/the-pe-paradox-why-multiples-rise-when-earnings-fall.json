@@ -281,6 +281,227 @@
     "counterexample": "A rising multiple on falling earnings is a bet on recovery, not proof of one. When the recovery never arrives, the multiple contracts and both terms fall together, so the stock drops harder than the earnings alone would suggest."
   },
   "lesson": "When a P/E changes, ask which of three engines moved it: earnings grew, the market paid a higher multiple, or earnings fell so the multiple rose on its own. The stock price reflects the market's assessment of the company's future; the P/E only tells you how large that price is relative to the earnings already reported. That is why the multiple can rise while earnings fall, and why a rising P/E does not, by itself, mean the market turned more optimistic.",
+  "simple": {
+    "hero": {
+      "lead": "One company's earnings fell for a year. Its stock made new highs anyway.",
+      "flow": [
+        {
+          "label": "Earnings (Vinati, FY21)",
+          "sub": "fell about 19%"
+        },
+        {
+          "label": "The share price",
+          "sub": "made new highs",
+          "tone": "accent"
+        }
+      ],
+      "close": "How can a stock get more expensive in the very year it earns less?"
+    },
+    "sections": [
+      {
+        "id": "the-paradox",
+        "question": "How can a stock rise while its earnings fall?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "In its COVID year, the specialty-chemicals maker Vinati Organics earned less than the year before. Its profit for each share fell from about 32.5 rupees to 26.2, a drop of roughly 19%. That is not a rounding wobble; it is a real, visible fall in what the company earned.",
+              "And yet, over that same stretch, the stock did not fall to match. It made new highs. A company earning less, valued at more, in the same window.",
+              "That looks like the market being irrational. It is not. It is the single most useful thing you can understand about how a share price is actually put together, and once you see it, a whole class of confusing stock moves suddenly makes sense."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "one-equation",
+        "question": "What actually sets a share price?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "A share price is built from just two numbers multiplied together. The first is how much profit the company makes for each share, its earnings per share. The second is how many rupees investors are willing to pay for each one rupee of that profit.",
+              "Take a simple example. A company earns 5 rupees of profit per share. If investors are happy to pay 20 rupees for every 1 rupee of profit, the share is worth 5 times 20, which is 100 rupees. That second number, the 20, is the one to watch."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "That second number is the [[P/E|The price-to-earnings ratio: how many rupees investors pay for each rupee of a year's profit.|Vinati's rose even as its earnings fell, and that is what lifted the stock.]] So price is simply earnings per share multiplied by the P/E. Two numbers, and either one can move the price."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "This matters because it means a stock can rise for two completely different reasons. Either the company earns more rupees, or investors decide to pay more for each rupee it already earns. Most of the time both drift in the same direction, so you never notice they are separate levers. Vinati is worth studying precisely because the two came apart, and pulled in opposite directions."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "time-mismatch",
+        "question": "Why would investors pay more for a company earning less?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Because the two numbers are looking at different points in time, and this is the heart of it.",
+              "Reported earnings are a photograph of a year that has already finished. They tell you what happened, past tense. The share price is the opposite: it is a bet, placed today, on every year still to come. It is forward-looking by its nature, because when you buy a share you are buying a claim on all the company's future profits, not just last year's."
+            ]
+          },
+          {
+            "kind": "prose",
+            "aside": "In everyday terms",
+            "text": [
+              "Think of a good roadside shop that has one terrible monsoon. Sales for the year are down, and its accounts, the photograph of that year, look weak. But a buyer deciding what the shop is worth is not really buying last year. They are buying all the years ahead. If they believe the bad monsoon was a one-off and normal business will resume, they will happily pay a full price today, even while the just-finished year on paper looks poor.",
+              "The photo shows a bad year. The buyer is looking straight past it."
+            ]
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "So there is no contradiction in paying more for a company that just earned less, as long as the market believes the low year was temporary and better years are coming. The backward-looking number can be down while the forward-looking bet is up."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vinati",
+        "question": "So what happened inside Vinati?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Exactly that. COVID hit demand, and Vinati's profit for the year dipped. But investors did not read the dip as a broken business. They read it as one hard year for a fundamentally strong chemicals company, and they kept paying for the recovery they expected on the other side."
+            ]
+          },
+          {
+            "kind": "bigNumber",
+            "kicker": "Earnings down, price up",
+            "from": "32.5",
+            "to": "26.2",
+            "fromSub": "profit per share, FY20",
+            "toSub": "FY21, down ~19%",
+            "label": "Vinati's earnings per share through COVID",
+            "insight": "The earnings, the backward-looking photograph, fell about 19%. The price, the forward-looking bet, rose to new highs. The gap between them is the multiple expanding: investors chose to pay more for each rupee of profit, because they were pricing the years after COVID, not the COVID year itself."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "Look closely at what did the lifting here. It was not more profit; profit went down. It was investors willing to pay a higher multiple for each rupee of profit, on the strength of what they expected to come next. The whole move lived in that second number."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "two-kinds",
+        "question": "So a rising P/E is always a good sign?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "No, and this is the distinction that separates people who understand valuations from people who just quote them. A P/E can rise in two completely different ways, and they mean opposite things.",
+              "Remember the ratio: P/E is the price divided by the earnings. That means the number can go up if the top, the price, rises. But it can also go up if the bottom, the earnings, falls, even when the price has done nothing at all. Same rising ratio, entirely different story underneath."
+            ]
+          },
+          {
+            "kind": "split",
+            "left": {
+              "tone": "good",
+              "title": "The price went up",
+              "verdict": "A real re-rating",
+              "rows": [
+                "Investors actively chose to pay more per rupee of profit",
+                "A genuine bet that the future is brighter",
+                "It can be right or wrong, but it is a real decision by the market"
+              ]
+            },
+            "right": {
+              "tone": "warn",
+              "title": "The earnings fell",
+              "verdict": "A mechanical rise",
+              "rows": [
+                "The price barely moved, or even dropped",
+                "The ratio rose only because the bottom number shrank",
+                "Nobody grew more optimistic; the arithmetic did it on its own"
+              ]
+            },
+            "punch": "Same rising P/E, opposite meanings. So whenever you see a P/E climb, ask the one question that untangles it: did the price actually rise, or did earnings just fall?"
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "Vinati was the first kind, and a clean one: the price genuinely rose while earnings dipped, so the multiple expanded on real optimism about the recovery. That is very different from a struggling company whose P/E drifts up only because its profits are collapsing faster than its share price."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mirror",
+        "question": "What does the reverse look like?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "The cleanest way to lock the idea in is to see it run backwards, and BLS International is that mirror. Over about five years its earnings grew enormously, on the order of fourteen times over. Yet across the same stretch its P/E roughly halved.",
+              "Same equation, read from the other end. Here the profit sprinted ahead of the price: the business earned far more each year, but investors paid a steadily lower multiple for it, so the stock lagged well behind the earnings. At Vinati the price outran the profit; at BLS the profit outran the price. In both, the two levers moved in opposite directions, which is exactly why watching only one of them fools you."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "using-this",
+        "question": "How do you use this on any stock?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "With one simple habit. When a stock has moved a lot, do not stop at the price. Put the price chart next to the yearly earnings-per-share line, both of which sit on any screener, and ask which of the two actually changed."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "If the price rose while earnings were flat or falling, the multiple expanded, and you are looking at a bet on the future, not a fact about the past. If earnings climbed while the price lagged, the opposite happened. That single comparison tells you whether a move came from the business earning more, or merely from investors agreeing to pay more, and those are not the same thing."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "This is the mistake the habit protects you from: paying up for a stock because it is going up, without noticing that the entire rise is a change of opinion about a future that still has to actually arrive."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "graduate",
+        "question": "The idea to carry out",
+        "blocks": [
+          {
+            "kind": "bigIdea",
+            "text": "Your return is earnings growth multiplied by the change in the multiple. A P/E that rises while earnings fall is a bet on recovery, not proof of one."
+          },
+          {
+            "kind": "graduate",
+            "intro": "The words behind the story.",
+            "ctaLabel": "Read the investor case study",
+            "glossary": [
+              {
+                "term": "P/E multiple",
+                "def": "How many rupees investors pay for each rupee of a year's profit.",
+                "context": "Vinati's rose as its earnings fell, because the price was pricing a recovery, not the bad year."
+              },
+              {
+                "term": "Multiple expansion",
+                "def": "When the price rises mainly because investors will pay more per rupee of profit, not because profit rose.",
+                "context": "It, not earnings, drove Vinati's stock to new highs during COVID."
+              },
+              {
+                "term": "Re-rating",
+                "def": "A lasting change in the multiple the market is willing to pay, up or down.",
+                "context": "Vinati re-rated up on falling earnings; BLS re-rated down even as its earnings soared."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "remember": "When a P/E rises while earnings fall, first ask whether the price actually rose. If it did, the market may be looking beyond the current earnings number; if it did not, the multiple may have risen only because the denominator shrank. In either case, the real question is whether the future implied by the valuation actually arrives.",
   "answer": "A stock's price is its earnings per share times the multiple (the P/E) investors pay for them, so when the price rises while earnings fall, the multiple did all the work. It happens because the two numbers face opposite directions in time: reported earnings are a photograph of a year that has ended, while the price is a bet on the years ahead. When the market looks past a temporarily damaged year to a recovery it can already see, it pays a higher multiple on lower earnings. Vinati Organics is the example: FY21 EPS fell about 19% to ₹26.2 while the stock made new highs.",
   "faqs": [

@@ -12,6 +12,95 @@ think* before you touch a block.
 > exists to serve the reader's understanding; none is a box to tick. When in
 > doubt, leave something out.
 
+## The charter (read first, overrides everything below on conflict)
+
+Simple Mode is **not** the research report in simpler words. It is a teaching
+experience. The reader should finish thinking "I understand what happened, why,
+the mechanism, and what to look for elsewhere", never "that was a comprehensive
+report written more simply."
+
+A Simple case is: **ONE important idea + ONE clear story + ONE economic mechanism
++ a few decisive numbers + ONE reusable mental model.** Everything else belongs
+in the research version. It is allowed, and expected, to leave things out.
+
+- **One dominant idea.** Before writing, complete: "The reader should understand
+  that ______." Cut anything that does not prove, explain, qualify, or apply it.
+- **Length: 8-10 substantive sections, ~1,500-2,500 words. Finishable in one
+  sitting.** Prefer 8 excellent sections to 14 good ones. Exceed only when every
+  extra section materially advances the central idea. Do NOT add a section
+  because the research holds another interesting fact.
+- **Default arc:** paradox → the business → the mechanism → the case → the
+  decisive numbers → the twist → the counterexample/limit → using this yourself →
+  the takeaway. Not every case needs all nine.
+- **One section = one job**, phrased as a real reader question ("Why did the stock
+  rise if earnings fell?"). Never "Other things worth knowing." Combine sections
+  that answer the same question. Follow the reader's curiosity, not the
+  researcher's discovery order.
+- **Intuition before terminology**, always (factory at 60% → "that is capacity
+  utilisation"; "who suffers more if this ends?" → "that is bargaining power").
+- **Analogies only to reduce load**, never to entertain. Reuse the good ones
+  (toll booth, house with a loan, idle factory, landlord/tenant, bottleneck).
+- **Numbers prove, they do not decorate.** ~1 hero number/comparison per section,
+  1-2 supporting at most. Prefer `395 cr -> 985 cr` to a full annual series
+  unless the trajectory itself is the point. If cutting a number does not weaken
+  the explanation, cut it.
+- **Company names are expensive.** Do not list five acquisitions when "Ganz was a
+  bad early one" is the causal point. Simple Mode is not a database.
+- **Do not turn every insight into a chapter** (the biggest current failure). If a
+  section's only justification is "it is interesting", cut it.
+- **Teach at most 2-3 concepts.** Avoid the "mini-MBA": one mechanism explains the
+  case; teach that, show it, stop.
+- **Counterexamples and limits: short.** A counterexample prevents the wrong
+  lesson in one compact example, not a second case study. Limitations are 2-4
+  sentences: "this is a lens, not a law", plus the main failure mode.
+- **Keep "using this yourself"** as a reusable *question* ("if this supplier
+  vanished tomorrow, who suffers more?"), not a conclusion. **End with a compact
+  framework** (a question, an equation, or a checklist), not a disclaimer.
+- **Preserve uncertainty and material qualifications.** Simplify the explanation,
+  not the truth. Never drop caveats, accounting distinctions, timing, or
+  uncertain causality. Goal: less information, higher value per sentence.
+- **Style:** short paragraphs, concrete nouns, strong verbs, one idea each. One
+  memorable line beats five manufactured ones.
+
+**The hard Simple/Full distinction.** Simple Mode = *understand the idea*. Full
+(investor) Mode = *understand and investigate the evidence*. They are different
+products, not long and short versions of one. **Leaving research out is not a
+failure of Simple Mode; it is the purpose of it.** Simple Mode may deliberately
+omit, sending the reader to Full for them: acquisition lists, long historical
+timelines, secondary companies, detailed accounting mechanics, multiple
+supporting calculations, extensive caveats, extensive industry context,
+exhaustive examples. (Keep the one caveat or accounting distinction that changes
+the conclusion; drop the rest.)
+
+**The removal test (the one that matters most).** For any paragraph, section,
+number or name, ask: *if I remove this, does the reader lose understanding, or
+only lose completeness?* If they only lose completeness, cut it from Simple Mode.
+This is the editorial restraint the drafts keep missing.
+
+**Let a powerful question do the work.** When you land a question that captures
+the whole idea ("if this supplier vanished tomorrow, who is hurt more?"), stop
+teaching and let the question carry it. Do not expand it into switching costs, a
+grid, three more examples and a checklist. Once the mechanism has landed (often
+by section 5), do not keep teaching adjacent concepts just because they are
+correct.
+
+**The canonical arc (build every case on this):** surprise -> explain the
+business -> reveal the mechanism -> prove it with a few numbers -> show the twist
+-> prevent the wrong lesson -> hand over a reusable question. **7-10 sections.**
+The last one or two are the reader's takeaway ("What to remember", "What to look
+for elsewhere"), not more narrative. Fourteen numbered sections reads as a
+course, not a simple case.
+
+**Mobile responsive, always.** Every Simple block must read cleanly at phone
+width. The `.s-*` system already stacks multi-column blocks (split, signals,
+compare, thesis) to one column at <=640px; keep new content inside it and never
+introduce a block that scrolls sideways on a phone.
+
+**Final edit pass:** state the central lesson in one sentence; confirm every
+section supports it; cut 15-20% of words; delete any "interesting-only" section;
+ensure every number proves something and every company name matters; ensure the
+reader leaves with an applicable question/checklist; ensure the ending clicks.
+
 ## What a Simple case study is
 
 A case study is **a business problem the reader should learn to reason through.**

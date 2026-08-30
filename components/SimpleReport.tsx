@@ -11,7 +11,8 @@ import { GraduateCTA } from '@/components/GraduateCTA';
 
 // Turn "...each month. [[ARPU|The average bill.|Airtel has millions.]]" into
 // text with a tappable chip. Markup is [[term|def]] or [[term|def|context]].
-export function rich(text: string): React.ReactNode[] {
+export function rich(text: string | undefined | null): React.ReactNode[] {
+  if (!text) return [];
   const out: React.ReactNode[] = [];
   const re = /\[\[([^\]|]+)\|([^\]|]+)(?:\|([^\]]+))?\]\]/g;
   let last = 0;
@@ -27,13 +28,17 @@ export function rich(text: string): React.ReactNode[] {
 }
 
 function Flow({ steps }: { steps: SimpleFlowStep[] }) {
+  // Tolerate a step written as a bare string (normalize to { label }).
+  const norm = (steps ?? []).map((s) =>
+    typeof s === 'string' ? ({ label: s } as SimpleFlowStep) : s
+  );
   return (
     <div className="s-flow">
-      {steps.map((s, i) => (
+      {norm.map((s, i) => (
         <div key={i} className={`s-flow-step ${s.tone ? `s-flow-${s.tone}` : ''}`}>
           <div className="s-flow-label">{s.label}</div>
           {s.sub && <div className="s-flow-sub">{s.sub}</div>}
-          {i < steps.length - 1 && <div className="s-flow-link" aria-hidden />}
+          {i < norm.length - 1 && <div className="s-flow-link" aria-hidden />}
         </div>
       ))}
     </div>
@@ -49,7 +54,6 @@ function Hero({ h, company }: { h: SimpleHero; company: string }) {
   const base = h.flow.find((s) => s.tone === 'muted') ?? h.flow[3];
   return (
     <header className="s-hero">
-      <div className="s-eyebrow">Simple mode</div>
       {/* Not an <h1>: the investor view holds the page's single canonical H1,
           and both views ship in the static HTML. This keeps one H1 per page. */}
       <div className="s-title" role="heading" aria-level={1}>{company}</div>

@@ -293,6 +293,187 @@
     }
   ],
   "lesson": "A moat protects you from your competitors. It does not necessarily protect you from your customers. When the people a company sells to are few, large, hard to replace, or even own it, they can quietly keep much of the profit its assets generate, and the moat you were admiring never reaches the returns. So the question is not only how hard the business is to enter, but who needs whom more, and after everyone takes their cut, who keeps the surplus.",
+  "simple": {
+    "hero": {
+      "lead": "A company can own something almost impossible to copy, and still not control its own economics.",
+      "flow": [
+        {
+          "label": "What it owns",
+          "sub": "about 250,000 mobile towers"
+        },
+        {
+          "label": "Who it can say no to",
+          "sub": "almost no one",
+          "tone": "muted"
+        }
+      ],
+      "close": "Can you have a moat while your customers have a bigger one?"
+    },
+    "sections": [
+      {
+        "id": "easy-to-love",
+        "question": "Why does this business look unbeatable at first?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Indus Towers owns the physical steel towers that mobile networks hang their antennas on. As of March 2025 it had about 249,305 of them, spread across India. Every mobile operator needs towers to carry a signal, towers are slow and expensive to build, and Indus already has them almost everywhere anyone would want one.",
+              "On paper, that is a textbook moat. Hundreds of thousands of hard-to-copy physical assets, in a business every network depends on, with every operator in the country a potential paying tenant. If you were shown only this, you would call it one of the safest businesses around."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "who-pays",
+        "question": "So why isn't it a perfect business?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Because owning the asset is only half the story. The other half is who pays you for it, and here the picture changes completely.",
+              "Indus does not rent its towers to thousands of small customers. It rents them to a handful of mobile operators, and most of its money comes from just two anchor tenants: Airtel and Vodafone Idea. A large majority of the rent flows from a tiny number of payers."
+            ]
+          },
+          {
+            "kind": "prose",
+            "aside": "In everyday terms",
+            "text": [
+              "Think of two landlords. The first owns a building split among a hundred small tenants. If one leaves or stops paying, they lose 1% and barely notice. The second owns a building whose rent is paid almost entirely by two large tenants. If one of those falls behind, the whole building is suddenly in trouble.",
+              "Indus is the second landlord. The asset is magnificent, but the rent rests on very few shoulders."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-owner",
+        "question": "What makes it stranger still?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "There is one more twist, and it is the one that really tightens the knot. The biggest customer is also the owner. Airtel holds more than half of Indus Towers.",
+              "So the tenant paying a huge share of the rent is also, effectively, the landlord's boss. Now ask yourself how hard a landlord can push on rent when the tenant on the other side of the table controls the company. You do not squeeze your own owner. The one relationship that most determines Indus's revenue is also the one where it has the least freedom to be tough."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "moat-vs-power",
+        "question": "Isn't a moat supposed to protect you from exactly this?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "This is the crux, and it turns on two ideas that beginners, and plenty of professionals, quietly blur together. They are not the same thing, and Indus is the clearest proof.",
+              "The first idea is how hard it is for a competitor to enter or copy you. That is the moat, and Indus has a strong one: no rival can quickly rebuild 249,305 towers. The second idea is about the relationship with your customers, and you can find it with one plain question."
+            ]
+          },
+          {
+            "kind": "prose",
+            "aside": "In everyday terms",
+            "text": [
+              "Ask, of any relationship: if this ended tomorrow, who would be hurt more, you or the other side? Whoever would be hurt less is the one who can push harder on price, because they can more easily walk away."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "That is [[bargaining power|Who can push harder on price, decided by who is hurt more if the relationship ends.|Indus has the moat, but its few giant customers, one of them its owner, hold the bargaining power.]] Keep the two apart: a moat keeps competitors out, while bargaining power decides how much of the profit you actually get to keep. Indus has an excellent moat and weak bargaining power, and that combination is why a business that looks unbeatable is not simply printing money."
+          }
+        ]
+      },
+      {
+        "id": "earnings",
+        "question": "What does weak bargaining power actually do to the numbers?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "You could watch it happen in real time. When Vodafone Idea, one of the two anchor tenants, ran short of cash and struggled to keep paying, Indus could not simply shrug it off and move on. A huge slice of its rent was suddenly in doubt.",
+              "It had to set aside large provisions against money it might never collect, and its reported profits swung sharply on the health of a single customer. A tower operator that supposedly owned an unbeatable network found its earnings hostage to whether one client could pay its bills."
+            ]
+          },
+          {
+            "kind": "insight",
+            "text": "Hold onto the picture, because it is the whole lesson in one line: the towers had not moved. The same steel stood in the same fields, serving the same networks. What changed was one big customer's ability to pay, and that alone moved Indus's earnings. That is what it means to own a great asset but not hold the power in the relationship."
+          }
+        ]
+      },
+      {
+        "id": "who-needs-whom",
+        "question": "So who actually has the upper hand?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "This is where the powerful question earns its keep, and it is worth letting it stand on its own: who needs whom more?",
+              "It cuts both ways at once, which is exactly why the answer is uncomfortable. The operator is genuinely locked to Indus, because it cannot quickly find another 200,000 towers. But Indus is just as locked to the operator, because it cannot quickly find another tenant big enough to replace one that pays much of the rent, and one of those tenants owns it. Both sides are stuck with each other, and when both are stuck, the one in more financial distress, or the one who also sits on your share register, tends to set the terms."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "not-the-villain",
+        "question": "So is depending on a few big customers always bad?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "No, and it is important not to over-learn the lesson. Depending on a few customers is not automatically fatal. A supplier that is genuinely irreplaceable to many small, scattered customers can keep almost all of the profit, because no single one of those customers has the size to push back.",
+              "Indus is irreplaceable too. The difference is who sits on the other side: not many small buyers, but a few enormous ones, with one of them its owner. Hard-to-replace supplier plus few, powerful buyers is neither a disaster nor a goldmine. It is a tension, and who keeps the profit stays an open, live question rather than a settled one. That is the honest verdict, and it is more useful than a simple thumbs up or down."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "using-this",
+        "question": "What should you carry to the next company?",
+        "blocks": [
+          {
+            "kind": "insight",
+            "text": "Before you ever call a business moated, ask one more question: how hard is it for this company to say no to its biggest customer? If the honest answer is 'very hard', the moat may be entirely real and still not be worth what it looks like, because the customer, not the company, will keep much of the reward."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "The practical check is simple. Look at who pays. If a few large customers supply most of the revenue, and especially if one of them is also an owner or a supplier the company cannot do without, then the business can be genuinely hard to replace and still not control its own price. A great asset and a weak hand can live in the same company."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "graduate",
+        "question": "The question to remember",
+        "blocks": [
+          {
+            "kind": "bigIdea",
+            "text": "Who needs whom more? A moat tells you how hard you are to replace. Bargaining power tells you how much of the reward you actually keep."
+          },
+          {
+            "kind": "graduate",
+            "intro": "The words behind the story.",
+            "ctaLabel": "Read the investor case study",
+            "glossary": [
+              {
+                "term": "Moat",
+                "def": "Something that makes a business hard for rivals to enter or copy.",
+                "context": "Indus has a strong one: hundreds of thousands of towers nobody can quickly rebuild."
+              },
+              {
+                "term": "Bargaining power",
+                "def": "Who can push harder on price, set by who is hurt more if the relationship ends.",
+                "context": "Indus's sits with its customers, because a few giant tenants, one of them its owner, pay most of the rent."
+              },
+              {
+                "term": "Customer concentration",
+                "def": "When most of a company's revenue comes from a small number of customers.",
+                "context": "Two anchor tenants pay much of Indus's rent, so one customer's trouble becomes Indus's trouble."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "remember": "I used to look at a moat mostly from the company's side: how hard is it to enter, how hard is it to replicate? Now I think there is another question worth asking first. How hard is it for the company to say no to its biggest customer?",
   "faqs": [
     {

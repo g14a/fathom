@@ -392,6 +392,192 @@
     }
   ],
   "lesson": "Cupid shows clearly how a share price is built. Price equals earnings per share times the multiple the market pays for them, and any large move can be split into those two parts. Split Cupid's roughly ninety-fold, three-year move and the parts are lopsided: the business, measured by profit per share, grew a little over four times, while the multiple the market paid grew about twenty-two times. Most of the stock was not the company earning more; it was the market deciding, after a change of owner and a new plan, to pay far more for each rupee it earned, and pricing years of hoped-for growth in before the growth arrived. The earnings have since been growing into that price. But the mechanism works both ways: a multiple near 290 is stored optimism, and if the optimism is trimmed, the falling earnings and the shrinking multiple multiply against shareholders exactly as they once multiplied for them. A multibagger does not require a business to become ten times better. It can happen when earnings grow, the future becomes more believable, and the market agrees to pay a higher multiple for those earnings, all at once. The question to carry away is how much of a return came from higher earnings and how much from a higher multiple, because only the first is money the business itself earned.",
+  "simple": {
+    "hero": {
+      "lead": "The business got about four times better. The market price for it rose about ninety times.",
+      "flow": [
+        {
+          "label": "The profit",
+          "sub": "grew about 4 times"
+        },
+        {
+          "label": "The share price",
+          "sub": "grew about 90 times",
+          "tone": "accent"
+        },
+        {
+          "label": "The gap",
+          "sub": "a change of opinion, not of numbers"
+        }
+      ],
+      "close": "How can a stock rise far more than the business underneath it?"
+    },
+    "sections": [
+      {
+        "id": "the-surprise",
+        "question": "How did a small condom maker rise ninety-fold?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Cupid is a thirty-year-old maker of condoms, based in Nashik. For most of its listed life it was a small, quiet exporter that almost nobody talked about. In about three years its stock rose roughly ninety times over.",
+              "A ninety-fold stock sounds like a ninety-fold business. It was not. The business improved a lot. The market willingness to pay for it improved several times more. This is the story of how that happened, and why the difference matters."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-identity",
+        "question": "What are the two numbers to watch in any stock?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "There is a single piece of arithmetic that splits any share-price move into its two ingredients. A share price equals the earnings per share multiplied by the price-to-earnings multiple. Price equals EPS times P/E.",
+              "It has to hold, because the P/E is simply the price divided by the EPS, so multiplying it back by the EPS returns the price. There is no assumption hidden in it. And its usefulness is that it separates the two things that can make a stock rise.",
+              "The first is the company earning more: more sales, fatter margins, a bigger profit per share. That is a fact about a year that has already ended, printed in an audited account. The second is the market paying more for each rupee of those earnings. The same rupee of profit can be worth more or less to a buyer depending on how bright the future looks. When buyers grow more hopeful, they pay a higher multiple of today earnings, and the price rises even if the profit sat still. That is not a fact about the past. It is an opinion about the future.",
+              "A share price is the two multiplied together. The whole task in the Cupid story is to measure each one separately."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "what-cupid-was",
+        "question": "Where did the story start?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "To measure how far the opinion travelled, you first have to know where it started. For years, the market looked at Cupid and shrugged.",
+              "Cupid is one of a tiny handful of companies in the world that makes female condoms to a standard the global health agencies accept. That sounds like a powerful niche. But look at how the money actually came in. Roughly nine in ten of the condoms it made were exported, and a great deal of the revenue came from bulk institutional and government tenders: a health ministry in South Africa or Brazil buying millions of pieces at a time. It was a business-to-business supplier, not a brand you would recognise on a shelf. In FY25, its revenue was about ₹183 crore.",
+              "That kind of revenue has a specific weakness the market dislikes. A tender is lumpy and uncertain. Win a big one and a year looks wonderful; lose it, or wait for the next tender cycle, and the next year sags. A business whose fortunes depend on when a foreign government next places an order is hard to value highly, however good its product is.",
+              "Investors therefore valued it at a modest multiple, broadly in the low teens of earnings, treating it as what it looked like: a small, well-run, debt-free but lumpy exporter. That cheapness is the starting line, and the distance the multiple later travelled is measured from there."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-trigger",
+        "question": "What changed first, the profit or the opinion?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "The opinion. The trigger was a new owner, not a new product.",
+              "In late 2023, control of Cupid changed hands. A new group bought out the founding promoters for about ₹159 crore and took command. The whole company was valued at about ₹380 crore at that point. The new owners talked about building a consumer brand, widening the product range, chasing growth rather than banking a steady tender business.",
+              "Notice what had, and had not, happened at this moment. The ambition was entirely new. The results were not. On the day the narrative changed, Cupid was still the same ₹170-odd crore exporter it had been the week before, earning about the same profit from the same tenders. Not a single new rupee had yet arrived. What had arrived was a reason to imagine future rupees, and someone credible saying they would come.",
+              "The story had changed before the numbers did."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "two-phases",
+        "question": "So the price ran ahead of the earnings?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "Yes, and this is the core of the whole case. The move happened in two distinct phases.",
+              "In the first phase, roughly fifteen months after the takeover, the market re-rated Cupid violently. The shares climbed while the earnings barely moved. Profit was flat, and earnings per share sat around ₹0.30, where it had long been. Price up hard, EPS flat, means by definition the whole move was the multiple. A business valued at roughly 13 times earnings a little earlier was now valued at around 250, on the same profit.",
+              "In the second phase, the earnings finally showed up. Revenue doubled to about ₹390 crore, profit rose from ₹41 crore to ₹108 crore, and earnings per share went from about ₹0.30 to ₹1.02. The business grew into the price the market had already paid."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-arithmetic",
+        "question": "Where did the ninety-fold actually come from?",
+        "blocks": [
+          {
+            "kind": "bigNumber",
+            "kicker": "The multiplication",
+            "from": "~4x",
+            "to": "~90x",
+            "fromSub": "the business (profit per share)",
+            "toSub": "the stock",
+            "label": "How a four-fold business became a ninety-fold stock",
+            "insight": "Profit grew about four times. The multiple grew about twenty-two times. Four times twenty-two is about ninety. Most of the move was investors paying more per rupee of profit, not the profit itself."
+          },
+          {
+            "kind": "prose",
+            "text": [
+              "The cleanest way to feel the imbalance is to switch off one term. If Cupid profit had quadrupled exactly as it did, but the market had gone on paying the old 13 times earnings, the shares would have risen about four-fold and stopped. The entire journey from that four-fold level to the ninety-fold level is the re-rating, and nothing else. The change of opinion was worth more than twenty times the whole contribution of the actual business growth."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "backwards",
+        "question": "So what is the risk in a stock like this?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "The same machine runs in reverse. A multiple of nearly 290 is not a neutral fact. It is a stored expectation, the market saying it is near-certain the growth continues for years.",
+              "The moment that certainty cracks, the same identity that built the rise dismantles it. Suppose the earnings simply disappoint: a tender slips, a new product stalls, a margin gives way. Two things then happen together, not one. The EPS comes in lower than hoped. And the multiple contracts, because the market that was paying 288 times for guaranteed-feeling growth will not pay it for growth that has just stumbled. Both terms fall at once, and because the price is their product, it falls faster than either.",
+              "A stock priced for perfection does not need bad news to fall hard. It only needs less-good news than the price assumed."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prevent-wrong-lesson",
+        "question": "Does this mean a high multiple is always wrong?",
+        "blocks": [
+          {
+            "kind": "prose",
+            "text": [
+              "No. A multiple expanding is not automatically a warning. When a business genuinely and durably changes, from cyclical to steady, from commodity to brand, from lumpy to recurring, a higher multiple is deserved and can persist for years.",
+              "Cupid is genuinely a better business than it was. It has a consumer brand, real orders, a five-year South African tender, and doubled revenue. The question is not whether it improved. It did. The question is whether the improvement is enough to support a multiple of 288, which is priced for years of continuing exceptional growth. The arithmetic forces you to make that judgement consciously."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "using-this",
+        "question": "What should you carry to the next company?",
+        "blocks": [
+          {
+            "kind": "insight",
+            "text": "For any stock that has soared, split the rise in two: how much came from earnings growing, and how much from the multiple expanding? If most of it is the multiple, you are being asked to pay for a change of opinion, not for profit already earned. The useful question is not whether the business is better, but whether the business is better enough to justify the multiple."
+          }
+        ]
+      },
+      {
+        "id": "graduate",
+        "question": "The idea to remember",
+        "blocks": [
+          {
+            "kind": "bigIdea",
+            "text": "A ninety-fold stock did not need a ninety-fold business. Cupid profit grew about four times; the multiple grew about twenty-two. Most of the move was a change of mind, not a change in the numbers."
+          },
+          {
+            "kind": "graduate",
+            "intro": "The words behind the story.",
+            "ctaLabel": "Read the investor case study",
+            "glossary": [
+              {
+                "term": "P/E multiple",
+                "def": "How many rupees investors pay for each rupee of a year profit.",
+                "context": "Cupid ran from about 13 to nearly 288 as opinion changed."
+              },
+              {
+                "term": "Re-rating",
+                "def": "A lasting change in the multiple investors will pay, often on a new owner, story or category.",
+                "context": "Cupid re-rated up on a new owner, before the earnings arrived."
+              },
+              {
+                "term": "Multiple expansion",
+                "def": "When the price rises mainly because investors pay more per rupee of profit, not because profit rose.",
+                "context": "It did about twenty-two of Cupid ninety-fold move."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "remember": "A ninety-fold stock did not need a ninety-fold business. Cupid's profit grew about four times; the multiple the market paid grew about twenty-two times, and twenty-two times four is ninety. Most of the move was a change of mind, not a change in the numbers.",
   "answer": "Cupid, a thirty-year-old condom maker, rose about ninety-fold in three years, and one split explains it. A share price is earnings per share times the multiple the market pays, and the two moved very differently here: profit per share grew a little over four times, from EPS ₹0.24 to about ₹1.02, while the multiple expanded about twenty-two times, from a P/E near 13x to 288x. A new owner, not a new product, was the trigger, and the valuation moved first, before the earnings arrived.",
   "faqs": [
