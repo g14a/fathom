@@ -1,0 +1,243 @@
+{
+  "name": "Business Services",
+  "icon": "⚙️",
+  "tagline": "Contracted revenue is safe until the contract expires. Ask when, not whether.",
+  "examples": ["BLS", "ECLERX", "QUESS", "TEAMLEASE"],
+  "howItWorks": "A business services company does not make a product. It rents out a process. A government or a bank or a corporation decides it does not want to run some necessary but non-core operation itself, so it hands the whole thing to a contractor. The contractor collects a fee for handling the work. Everything about the business follows from that one fact: revenue is under contract, costs are people, and every contract has an expiry date written on it.",
+  "sections": [
+    {
+      "title": "First, what is business services really?",
+      "intro": "Strip away the jargon and a business services company is one of the simplest ideas there is.",
+      "blocks": [
+        {
+          "concept": "A company that rents out a process",
+          "body": "Some organizations run necessary operations unrelated to their core business. A bank needs people to process loans and complaints but does not want to hire and manage those teams. A government needs to collect visa applications but does not want to do the paperwork. A corporation needs to manage supply chain but does not want to build an internal department. So each hands the entire process to a contractor and pays a fee. The contractor becomes rented hands and process.",
+          "example": "BLS International runs visa application offices for governments around the world. A person walks into a BLS office, submits their visa application, pays the fee, and BLS collects it and sends it to the actual embassy. BLS does not decide who gets a visa. It simply manages the process of collection and submission. That is the whole business."
+        },
+        {
+          "concept": "Revenue is under contract, not from customers",
+          "body": "A software company sells to many customers. A business services company signs a contract with one large client specifying what it will do, for how long, and what it will be paid. Lose 30 percent of software customers, you might still grow. Lose one large contract, that revenue stream is gone entirely unless it renews. Everything about managing the business flows from that single fact.",
+          "example": "A company wins a five-year contract to process visa applications for a country's embassy, collecting ₹100 crore a year. That is a predictable ₹500 crore in revenue. But in year five, the contract goes up for tender again. A rival bids lower, or the government decides to bring the work in-house, and the ₹100 crore a year vanishes. The business services company must have won another contract by then or it has shrunk by a fifth."
+        }
+      ]
+    },
+    {
+      "title": "Two very different flavours of the same basic idea",
+      "intro": "Not all business services companies work the same way. There are two distinct models, and confusing them is where investors get hurt.",
+      "blocks": [
+        {
+          "concept": "The concession, or monopoly by tender",
+          "body": "A government or institution says, 'Run this process exclusively for five years.' A company bids for sole-operator rights. If it wins, it has a local monopoly for the duration, collecting a fee per transaction. No competitor can touch the work, so margins are stable and revenue is predictable. At expiry, the company must re-tender or lose it all. The moat is real but temporary: written into the contract and expires on page three.",
+          "example": "BLS International holds contracts with multiple governments to run their visa application offices. While a contract runs, BLS processes every application from that country and collects a fee per submission. No one else can do it. But the contract comes up for renewal every few years, and if another company wins the tender, BLS loses the entire revenue stream overnight."
+        },
+        {
+          "concept": "Process outsourcing on labour arbitrage",
+          "body": "A company does a client's back-office work with cheaper, specialised staff. A bank outsources loan processing, insurance outsources claims, a multinational outsources IT support. The client pays per process or hour. The outsourcer profits by working efficiently with lower-cost labour. Revenue comes from being better and cheaper than the client can do itself, not from a monopoly right. The client can theoretically switch, but disruption and retraining costs make it sticky.",
+          "example": "eClerx does analytical and processing work for financial companies: loan underwriting, litigation support, tax analysis. It hires specialists in India at a fraction of what a New York law firm charges, does the work to the same standard, and charges the client a fraction of what they would pay domestically. The client gets cheaper work, eClerx's gross margin is healthy because labour is cheaper than in developed markets, and because the work requires training and develops institutional knowledge, the client rarely leaves."
+        }
+      ]
+    },
+    {
+      "title": "The contract: the whole business hinges on this",
+      "intro": "In both models, everything starts with winning the contract. And everything is at risk when it comes up for renewal.",
+      "blocks": [
+        {
+          "concept": "The hardest thing to get is the contract itself",
+          "body": "A software company can hire and build; a bank can borrow and lend. A business services company must win a contract before earning anything. Winning takes months of bidding and regulatory approval. For visas, the government vets track record, financial stability, staffing, and security. For outsourcing, the client does due diligence and often runs a pilot. There is no shortcut. Either you have the track record and certifications or you do not.",
+          "example": "A startup cannot simply decide to process visa applications tomorrow. It must apply to governments, prove it has the infrastructure and the security clearances, demonstrate that it can handle the volume and keep data safe. Only after years of small contracts and a clean compliance record might a government trust it with a large concession. The barrier to entry is real, but the moment the contract expires, all of that moat disappears."
+        },
+        {
+          "concept": "Pricing is set at the tender and frozen for years",
+          "body": "Price is negotiated and locked at signing, not set in real time. A five-year contract specifies ₹50 per transaction or ₹10 crore per year for the entire term. If inflation rises, the price stays the same. Margin erodes, and there is nothing the company can do until renewal. If costs fall or efficiencies come, the company keeps the benefit only until renewal, when the client asks for lower prices.",
+          "example": "A company wins a three-year contract to process insurance claims at ₹500 per file. Labour costs are ₹300 per file, leaving a ₹200 margin. In year two, inflation pushes labour costs to ₹380, and the margin is now ₹120. The company cannot raise the price for two more years. At renewal, the client says, 'We want ₹450 now, or we'll find someone else.' The price is reset lower, and the company must find ways to keep staffing costs down or the business becomes unprofitable."
+        },
+        {
+          "concept": "Re-tendering is the perpetual threat",
+          "body": "Every contract renewal goes out to tender again. Sometimes the incumbent wins easily. Sometimes it bids lower to keep it. Sometimes it loses to a competitor with lower costs or a more aggressive bid. That is the existential risk no revenue stream escapes. A company can run beautifully and still lose if a competitor underbids by 5 percent.",
+          "example": "A company holds a contract worth ₹50 crore annually to manage customer service for a bank. At renewal, three competitors bid, and the lowest bid is 20 percent cheaper than what the incumbent is charging. The bank takes the lower bid, and the incumbent loses ₹50 crore of revenue, even though it has done nothing wrong."
+        }
+      ]
+    },
+    {
+      "title": "How a business services company makes money",
+      "intro": "Once a contract is won, the economics are simple to state and hard to manage well.",
+      "blocks": [
+        {
+          "concept": "Labour is the business, and labour is the cost",
+          "body": "In software, the first customer costs money; the next thousand cost almost nothing. In business services, economics are inverted. Labour is the product. To grow revenue, hire, train, and deploy more people. On a ₹100 crore contract, the company might employ 500 people (₹60 crore salaries, ₹20 crore overhead, ₹20 crore profit). At ₹150 crore, need 750 people (₹90 crore salaries). Revenue and costs scale in lockstep. The company cannot serve 10 times as many clients with the same team.",
+          "example": "A business services company running a processing centre can only handle so much volume with its current staff. To double revenue, it must roughly double the number of employees. That means recruiting, onboarding, training all over again. It is not impossible, but it is slow and expensive, not the instant scaling that software offers."
+        },
+        {
+          "concept": "Margin is not what you negotiate, it is what is left over",
+          "body": "Margin is largely determined by labour cost arbitrage. Hire people at 40 percent of developed-market cost and deliver the same quality, you have a moat. But that moat is not sustainable if a rival sets up nearby or if the work moves to a cheaper country or wages rise. The company must constantly find ways to deliver the same work with fewer people or by automation. Otherwise, margin gets squeezed.",
+          "example": "A company hiring in India at ₹15 lakh per person can deliver back-office work to a US client who would have to pay ₹50 lakh for the same person locally. The ₹35 lakh gap, multiplied across hundreds of people, creates the profit. But if another Indian services company starts bidding on the same contract, or if wage inflation pushes Indian salaries up, that gap shrinks fast."
+        },
+        {
+          "concept": "A large client is not a customer, it is the business",
+          "body": "Revenue is concentrated in a few large contracts. A single client can represent 30 percent or more of total revenue. That is not diversification; it is putting the business into the hands of one decision-maker. If that client brings work in-house, switches to a cheaper competitor, or goes out of business, the company loses a third of revenue. Compare that to software with thousands of small customers, where losing one is barely noticeable.",
+          "example": "A processing company might have four large contracts: one with a bank for ₹80 crore, one with an insurance company for ₹60 crore, one with a government for ₹70 crore, and smaller ones totalling ₹40 crore. The bank represents 30 percent of revenue. If the bank loses the contract at renewal, the company's revenue drops by 30 percent overnight."
+        }
+      ]
+    },
+    {
+      "title": "Where the money goes, and where it disappears",
+      "intro": "Understanding where cash leaks reveals the business's hidden fragility.",
+      "blocks": [
+        {
+          "concept": "Wages are the dominant cost, and wage inflation is the hidden enemy",
+          "body": "Labour is the product, so wages are not just a cost; they are the business. In most industries, 5 percent salary increases get absorbed or passed along. But a business services company with a fixed-price contract cannot raise prices for years. Wage inflation hits margin directly. Priced assuming 3 percent annual growth but actual wages rise 7 percent, the company gives away the difference. Over a three-year contract, that gap compounds and profit erodes silently.",
+          "example": "A processing contract is priced at ₹100 per transaction with 200 transactions a day. The company budgets ₹40 of that to labour, assuming 4 percent wage growth a year. If wages actually rise 8 percent a year, after two years the labour cost is ₹43.50, but the price is still ₹100. The margin has shrunk from ₹60 to ₹56.50, a 6 percent cut to profit on the whole contract."
+        },
+        {
+          "concept": "Attrition is silent but lethal",
+          "body": "Training specialised employees takes weeks or months. If they stay, the company benefits. If they leave after six months, training is wasted and must start over. In a labour-intensive business with hundreds or thousands of people, attrition directly hits profitability. High turnover means constant retraining, higher wage pressure (new hires demand more), and risk that experienced people leave with client knowledge.",
+          "example": "A processing centre has 500 people handling documents. If attrition is 10 percent a year, 50 people leave. Each requires three weeks of training by existing staff. That training time is a real cost that comes out of the contract. If attrition hits 30 percent, the centre is running a perpetual training treadmill, and quality often suffers."
+        },
+        {
+          "concept": "Infrastructure and compliance cannot be skipped",
+          "body": "A visa centre must have secure facilities, backup systems, and audit controls. An outsourcing company handling financial data must have encryption, access controls, disaster recovery, and audits. These are mandated by contracts and regulation, not luxuries. A breach loses the contract and client trust. Infrastructure and compliance are fixed costs scaling with size and cannot be easily reduced.",
+          "example": "A contract requires that the company maintain 99.9 percent uptime, encrypt all data, and pass annual audits by the client. That means building redundant systems, hiring security staff, and investing in monitoring. Those costs are non-negotiable and must be absorbed even if the contract's margin is already thin."
+        }
+      ]
+    },
+    {
+      "title": "What usually breaks a business services company",
+      "intro": "The failure modes are distinct and avoidable, but only if you see them coming.",
+      "blocks": [
+        {
+          "concept": "Losing a large contract is not a bad quarter, it is a reclassification",
+          "body": "When a software company loses a customer, it is sad but not catastrophic. When a business services company loses 20 percent of revenue, the company becomes a different business overnight. It cannot instantly scale back costs. It has staff it cannot redeploy, infrastructure it must maintain, and a shorter runway to find new business. It goes from profitable to struggling in a single day.",
+          "example": "A company has three contracts: ₹150 crore, ₹100 crore and ₹80 crore. It is profitable and organised to serve these clients. At renewal, the ₹150 crore client moves the work in-house. Revenue drops to ₹180 crore. The company has already committed to staffing and infrastructure for ₹330 crore, and now must quickly find ₹150 crore in new business, or it is in crisis."
+        },
+        {
+          "concept": "Re-tendering at a lower price is winning by losing",
+          "body": "A company wins renewal and the stock rises for keeping the contract. But fine print shows the price was cut by 15 percent. Still has the work but at lower revenue and margin. That is not winning; it is a slow retreat. Over renewal cycles, price cuts transform a healthy business into a treadmill.",
+          "example": "A company holds a ₹50 crore contract for five years, earning ₹10 crore profit annually. At renewal, intense competition forces the price down to ₹42.5 crore, with ₹8 crore profit. The headline is 'Contract Renewed'. The reality is a 20 percent cut to profit. If the next renewal is cut by 15 percent again, the margin erodes to nothing."
+        },
+        {
+          "concept": "Automation or regulatory change can make the contract obsolete",
+          "body": "A process requiring hundreds ten years ago might require fifty today thanks to automation. Progress for the client, death for the services company. If the company automated aggressively, it has fewer people and higher margins. If not, renewal brings price cuts because the client knows automation reduced the work. A regulatory change can overnight shrink contract scope. A compliance process partly automated by new rules shrinks the contract.",
+          "example": "A company processes insurance claims manually. Years ago it handled 10,000 claims monthly with 200 people. Today, better software and some automation mean 10,000 claims require 80 people. The client, knowing this, expects the price to reflect the automation. The services company either invested in the automation and kept margins, or it is suddenly overpriced."
+        },
+        {
+          "concept": "The regulator can bar you from bidding",
+          "body": "Business services often involve sensitive work, government contracts, or regulated data. Compliance is not optional. A company that fails an audit or breaches security can be debarred from bidding on government work. A single failure can mean years of exclusion. For a company depending on winning contracts, being barred from bidding is an existential threat.",
+          "example": "A visa processing company is found to have breached data security in handling citizen information. The government bars it from bidding on any government contracts for five years. If most of the company's revenue comes from government contracts, it has lost access to most of its market."
+        }
+      ]
+    },
+    {
+      "title": "How to actually value a business services company",
+      "intro": "The standard tools work here, but they hide crucial questions that matter more.",
+      "blocks": [
+        {
+          "concept": "Earnings per share can lie when contracts are ending",
+          "body": "A company might report steady earnings and reasonable PE, but if you do not know when large contracts renew, you are flying blind. A profitable business might stay profitable until a large contract expires, then shrink by 30 percent. The first question is never PE. It is: when do large contracts renew, and what is the probability they renew at the same price?",
+          "example": "A company reports ₹50 of earnings per share and trades at a PE of 12, a seeming bargain. But 40 percent of its revenue comes from a contract renewing in six months, and the client is likely to cut the price by 15 percent. The PE is cheap not because the business is undervalued, but because the market knows a revenue and profit cut is coming."
+        },
+        {
+          "concept": "Contract value and contract duration matter more than current revenue",
+          "body": "Analyse based on contracts signed and expiry dates, not last year's revenue. For each major contract, ask: size as share of revenue, renewal date, track record with this client, competitive landscape? A company with ₹500 crore contracted revenue, locked in for three years with high-probability renewals, is safer than one with ₹700 crore but concentrated in contracts renewing next quarter.",
+          "example": "Company A has ₹500 crore of revenue, 70 percent from contracts renewing in years 2 to 4. Company B has ₹500 crore of revenue, 50 percent renewing in the next 12 months. Everything else equal, Company A is the safer investment because it has a longer runway and less near-term renewal risk."
+        },
+        {
+          "concept": "Client concentration is the hidden risk",
+          "body": "If one customer is 30 percent or more of revenue, that is not a customer. That is the core business. Ask what happens if that client leaves. Can the company shrink gracefully? Find replacement work? Is the client switching already? A reasonable valuation becomes unreasonable if it ignores that one client's decision can cut the company's size by a third.",
+          "example": "A company has ₹100 crore revenue with ₹30 crore from one government agency. That contract comes up for renewal next year. The incumbent's margin is reasonable, so investors do not worry. But if the government goes to tender and a rival bids 10 percent lower, the incumbent loses ₹30 crore of revenue, a 30 percent drop to the entire company."
+        },
+        {
+          "concept": "Operating margin is meaningful only if contracts are stable",
+          "body": "A 20 percent margin is excellent until a large contract is lost or renewed lower. Then margin collapses because costs fall slower than revenue. When you see a nice margin, ask how much revenue is locked in long-term contracts at stable prices. 20 percent backed by stable, multi-year contracts is real. 20 percent where 40 percent of revenue renews next year is a house of cards.",
+          "example": "A company reports 20 percent operating margin and seems well-run. But half its revenue is up for renewal within 12 months, at a time when competitors are aggressive. Even if the company wins most renewals, it will likely have to cut prices to 10 to 15 percent margins. The current margin is a mirage."
+        }
+      ]
+    },
+    {
+      "title": "The trap: a profitable business that is still a bad stock",
+      "intro": "This is the lesson that catches disciplined value investors.",
+      "blocks": [
+        {
+          "concept": "Cheap PE during a re-tendering cycle is a countdown, not a bargain",
+          "body": "A business services company trades at 10x PE and looks cheap. But the largest contract (30 percent of revenue) renews in six months with aggressive competition. The low PE is not a bargain; it is the market discounting the expected earnings decline. Three months later, the contract is lost or repriced 15 percent lower, forecast drops 20 percent, stock falls further. The bargain was a countdown.",
+          "example": "Company stock trades at 10x PE, earnings of ₹10 per share, price ₹100. A large contract renews next quarter. Investors think it looks cheap. The contract is lost. Earnings guidance falls to ₹8 per share. The PE re-rates from 10x to 8x (because renewals are now scarce). New stock price is ₹64. The cheap PE was the market pricing in the known renewal risk."
+        },
+        {
+          "concept": "Why the multiple compresses when renewal risk is high",
+          "body": "Investors pay higher multiples for predictable, stable businesses. They pay lower multiples for businesses with high execution risk and renewal uncertainty. A company with contracts locked in for three years trades at premium. One where half the revenue renews annually trades at discount. That discount is rational and reflects the real risk that renewal fails or prices fall. A seemingly cheap multiple might just be appropriate risk compensation.",
+          "example": "Company A, all contracts locked in for three years, trades at 18x PE. Company B, 50 percent of revenue renewing annually, trades at 10x PE. At first glance B is cheaper. But the market is saying, 'We trust A to deliver steady earnings. B might lose revenue at any renewal. The gap in multiples reflects the gap in risk.'"
+        },
+        {
+          "concept": "The only way to escape the trap is to diversify contracts",
+          "body": "A company depending on one or two large contracts is riskier than one with many smaller contracts spread across clients and sectors. The path out is to deliberately build a portfolio: win contracts with many different clients in different sectors with renewal dates spread across the year. If one large contract is lost or repriced, the company does not crumble. It stays profitable, cashflow-positive, and able to invest. Companies that have done this successfully trade at higher multiples, and they deserve to.",
+          "example": "A company with three contracts of ₹100 crore each is riskier than one with fifteen contracts of ₹20 crore each. In the first case, losing one contract is catastrophic. In the second case, losing one contract is a 6 percent decline. Investors should pay more for the second company, and they do."
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "Client Concentration Ratio",
+      "why": "Share of revenue from the top customer. Above 30 percent means the business is hostage to one decision-maker. Below 15 percent across top three is healthy."
+    },
+    {
+      "metric": "Contract Renewal Rate",
+      "why": "Percentage of contracts renewed at the previous price or higher. Below 70 percent suggests pricing pressure; above 85 percent signals strong competitive position."
+    },
+    {
+      "metric": "Remaining Contract Tenure",
+      "why": "Weighted-average years remaining on current contracts before renewal. Longer is safer. Below 1.5 years means high renewal risk in the near term."
+    },
+    {
+      "metric": "Revenue per Employee",
+      "why": "Total revenue divided by headcount. Higher means greater productivity and potentially lower costs. Growth in this metric indicates efficiency gains; decline suggests wage pressure or underutilization."
+    },
+    {
+      "metric": "Employee Attrition Rate",
+      "why": "Annual staff turnover. Below 15 percent is healthy; above 25 percent signals costly retraining and risk of quality lapses and institutional knowledge loss."
+    },
+    {
+      "metric": "Operating Margin",
+      "why": "But only meaningful when read alongside contract stability. A high margin with a large contract renewing soon is fragile. The same margin with stable, multi-year revenue is durable."
+    },
+    {
+      "metric": "EBITDA Conversion",
+      "why": "EBITDA as a share of revenue. A 25 to 35 percent range is typical; below 20 percent suggests tight pricing or high operational costs."
+    },
+    {
+      "metric": "Free Cash Flow Conversion",
+      "why": "Can the business convert earnings into cash, or do contract changes force write-downs and working-capital swings? Stable FCF conversion suggests predictable contracts."
+    }
+  ],
+  "framework": {
+    "demand": "Contract volume and client willingness to outsource",
+    "pricing": "Tender-set fees, frozen for contract term",
+    "efficiency": "Revenue per employee and attrition",
+    "capital": "Working capital and infrastructure investment",
+    "risk": "Contract renewal and client concentration"
+  },
+  "anatomy": {
+    "demand": "From organizations that need work done but do not want to do it themselves. A government needs visa applications processed. A bank needs loan files reviewed. A multinational needs customer calls handled. The demand is derived from the client's own volume and, crucially, from their willingness to outsource. If the client decides to bring the work in-house or to automate it, demand vanishes. So business services demand is both stable (it is structural as long as clients outsource) and fragile (it disappears the moment the client changes strategy). Demand does not grow with GDP the way banking does. It grows only when clients decide to outsource more, or when a company wins new contracts away from rivals.",
+    "pricing": "Not by the company, but by the market at the moment of tender. A client issues a request for proposal, companies bid, the winner's price becomes the locked-in price for the contract term, usually three to five years. Once set, that price does not move, even if inflation rises or costs fall. So the company that bids too low, or that underestimates its costs, is locked into a bad margin for years. The client has all the power at tender, and none after. That power asymmetry is the whole game.",
+    "limiting": "Two things that money struggles to buy quickly. First, trained staff who can do the work reliably and to the client's quality standards. Second, the compliance certifications, security clearances and regulatory approvals that prove the company can be trusted with sensitive processes. A company can hire people, but training them takes weeks or months. It can build infrastructure, but winning government security clearances takes years. These are the bottlenecks that keep rivals out, but only temporarily.",
+    "leak": "Mainly through wages, which are the dominant cost in any labour-intensive business. When wage inflation runs faster than the contract price was assumed to, margin shrinks silently. On top of that, money leaks through attrition (constant retraining of new hires) and through the infrastructure and compliance investments that scale with the contract but are hard to cut back.",
+    "killer": "Losing or losing the price on a large contract. A business services company can look wonderfully profitable and then lose 30 percent of revenue when a contract is not renewed. It cannot shrink its costs fast enough, so profit falls by more than 30 percent. The other killer is a regulator barring the company from bidding, or the client automating the process so the contract scope shrinks permanently.",
+    "moat": "Incumbency at re-tender, switching costs and compliance track record. Once a client has entrusted you with a process, trained your staff, and integrated your work into their operations, replacing you is disruptive and risky. That gives the incumbent an advantage at renewal. Add to that the years of approvals, security clearances and regulatory trust the company has earned, and a rival faces a wall. But it is a thin wall, because a single administrative decision, a price squeeze, or a better-positioned competitor can breach it."
+  },
+  "beginnerQuestion": {
+    "q": "If the revenue is under contract, isn't this a safe business?",
+    "a": "Contracted revenue is safe until the contract expires. Every contract has an expiry date. At renewal, a client can walk to a cheaper competitor, bring the work in-house, or automate it entirely. A business services company knows the date is coming; it just does not know whether the contract will be renewed at the same price, at a lower price, or lost altogether. So the real question is never whether the revenue is under contract. It is when the contract renews and what will happen then."
+  },
+  "remember": "Business services rents out a process, and every process is under contract with an expiry date. Winners survive renewals; losers do not.",
+  "mentalModels": [
+    "Client Concentration",
+    "Contract Renewal Risk",
+    "Labour Arbitrage",
+    "Switching Costs",
+    "Automation Risk"
+  ],
+  "relatedSectors": [
+    "saas",
+    "telecom",
+    "banks"
+  ]
+}

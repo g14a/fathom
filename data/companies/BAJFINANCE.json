@@ -452,7 +452,7 @@
     },
     {
       "label": "Return on equity",
-      "status": "neutral",
+      "status": "warn",
       "note": "ROE at 18.2% is good, but not high enough to justify 5.9x book at current risk levels."
     },
     {

@@ -1,0 +1,230 @@
+{
+  "name": "Media and IP",
+  "icon": "🎵",
+  "tagline": "Own the song, but not the price.",
+  "examples": ["TIPSMUSIC", "SAREGAMA"],
+  "howItWorks": "A music label is different from almost every other business a beginner will study. It does not make songs. It owns the copyright to songs, and rents the right to play them out. A song was paid for once, years or decades ago. Letting one more person listen to it costs the owner almost nothing. So on every additional rupee earned, nearly all of it falls through to profit. This is zero marginal cost, the purest form a beginner will meet. The catalogue is an annuity. An old hit keeps paying every year with no fresh investment. That is why the back catalogue is the real asset, and why buyers value music rights on the durability of listening, not on this year's releases. The central tension is the hard lesson here: the moat is extremely strong (copyright is legal exclusivity), and the pricing power is weak at the same time (because the label sells to a handful of enormous streaming platforms). A business can own something irreplaceable and still not get to name its price.",
+  "sections": [
+    {
+      "title": "First, what is a music label really?",
+      "intro": "Strip it down and a label is a copyright holder. That simple fact drives everything else.",
+      "blocks": [
+        {
+          "concept": "A label owns, not makes",
+          "body": "When a singer records a song, a music label typically finances the studio, musicians, mixing, and marketing. The singer creates; the label owns the copyright, the legal right to earn money whenever the song is played, streamed, downloaded, or used in film. Ownership is the entire business. The label owns thousands or millions of songs, each earning money whenever anyone listens.",
+          "example": "A film releases a new song. The label paid an advance to the composer upfront, maybe two years before the film came out, betting that the song would be a hit. The film releases and the song plays. Now every stream on Spotify, every play on YouTube, every time someone downloads it generates royalties. All of those royalties flow to the label because it owns the copyright. The composer got the upfront advance, but the label gets all the ongoing income."
+        },
+        {
+          "concept": "One payment, then it keeps paying",
+          "body": "A song is paid for once, years ago. Making one more person listen costs essentially nothing. No new studio, no new musician. The file exists; it plays the same way the ten-millionth time as the first. Every new listener is almost pure profit after platform royalties. Old catalogues earn with no fresh investment. The business becomes an annuity machine.",
+          "example": "A song earns one crore in streaming royalties this year. Next year, if it earns one crore again, almost all of that is incremental profit. The marginal cost to deliver it is near zero. Only the platform keeps a cut of the streaming fee, and that cut was negotiated years ago. The label does not need to spend anything to earn it."
+        },
+        {
+          "concept": "The catalogue is the asset",
+          "body": "A label's value lies in its back catalogue. Songs already recorded, released, and earning, with proven listening history. A new release is a gamble; an old hit is a reliable income stream. When one label buys another, they buy songs that will generate revenue for decades. The bigger the catalogue and the steadier the listening, the more valuable the asset.",
+          "example": "A label owns one million songs. Some are huge hits that get millions of streams a month. Most are forgotten deep cuts that get a few thousand. But taken together they form a diverse income stream. A new release is a hope. The million-song catalogue is a certainty."
+        }
+      ]
+    },
+    {
+      "title": "How a label makes money",
+      "intro": "Nearly all revenue comes from licensing the right to play. Everything else is a detail.",
+      "blocks": [
+        {
+          "concept": "Streaming royalties are the cash",
+          "body": "When someone streams a song on Spotify or YouTube Music, the platform pays a licensing fee, split among songwriter, label, and other rights holders. The label's share is primary income. A popular song earning a billion streams generates enormous revenue; a forgotten song earning a thousand generates almost nothing. More listening equals more revenue. The label cannot control what each stream is worth. Platforms set rates years ago and renegotiate periodically. A label loves high-traffic songs but has no control over per-stream pay.",
+          "example": "A song gets one billion streams across all platforms. The average payout per stream might be around 0.004 rupees, depending on the country and platform. One billion streams at 0.004 rupees is around 40 lakh rupees in total royalties. The label takes a cut after rights holders and distributors take theirs. The point is the scale: huge listening numbers turn into real money because of that massive stream count."
+        },
+        {
+          "concept": "Broadcasting and advertising add on",
+          "body": "Beyond streaming, labels earn from radio broadcasts, YouTube ad-supported plays, and sync licensing (songs in film, TV, or ads). Each is a separate royalty stream. Radio stations pay licensing bodies, which distribute to copyright holders. YouTube's ad tier pays from ads alongside music. Sync licensing is premium: a film or commercial pays a one-time fee to use a hit song. These add up, though streaming dominates.",
+          "example": "A decade-old hit gets licensed for a car advertisement in India. The label negotiates a flat fee, say one crore rupees, for exclusive use for one year in that territory. That is on top of the everyday streaming income. A single high-profile sync placement can be worth as much as months of normal streaming."
+        },
+        {
+          "concept": "The advance gamble",
+          "body": "A label pays an advance to an artist before release, betting the song will recoup through listening. If a hit, the advance is repaid quickly; then royalties flow to the label as profit. If a flop, the advance is lost. It is a portfolio game: most releases do not recoup. A few massive hits pay for many misses.",
+          "example": "A label pays a composer two crore rupees as an advance for a film song. The song releases. If it becomes a huge hit, it earns back the two crore in streaming within a few months, and then continues generating profit for years. If the film flops, the song gets barely any streams, and the two crore is lost. The label's job is to fund enough releases that the hits cover the losses."
+        }
+      ]
+    },
+    {
+      "title": "The catalogue portfolio",
+      "intro": "Not all songs are the same. A label's real value lives in the distribution of its listening.",
+      "blocks": [
+        {
+          "concept": "The hit-driven economics trap",
+          "body": "A label's income is wildly concentrated. Maybe two or three percent of the catalogue generates half or more of all listening. A label might own 500,000 songs but earn most money from ten mega-hits. This is hit-driven economics, fragile. If one mega-hit falls out of favour, income drops sharply. A diverse catalogue spread across thousands of songs is steadier. A concentrated one where a few songs carry the weight is riskier. A massive catalogue is not safer if nearly all income comes from a few songs.",
+          "example": "Label A owns 100,000 songs and earns 100 crore rupees annually. 60 crores comes from five mega-hits. Label B owns 50,000 songs and earns 50 crore rupees, with income spread across 500 songs. Both are profitable, but if one of Label A's hits is suddenly delisted by a platform, it loses 12 crores. Label B loses far less from any single song falling out of favour."
+        },
+        {
+          "concept": "Regional and language growth",
+          "body": "Listening is not evenly distributed by geography or language. Indian languages have seen explosive streaming growth. A label with a strong Tamil, Telugu, Kannada, or Hindi catalogue captures faster growth than one focused only on English or Bollywood classics. Regional content is cheaper to produce (fewer major players competing for artists). A label rooted in regional music has a different risk profile than a pan-Indian one.",
+          "example": "A label focused on Marathi folk and modern Marathi pop music captures fast-growing demand from Maharashtra's streaming audience. It acquires new listeners faster than a label relying on older Hindi film catalogue, because the regional audience is underserved and growing rapidly."
+        },
+        {
+          "concept": "The deep cut reality",
+          "body": "A label's catalogue is full of songs that earn almost nothing. A remix of a remix, a B-side, a failed promotional track. These still earn royalties when found, but contribute tiny revenue. The label must maintain the entire catalogue (hosting, rights management, platform distribution) even though most songs add almost nothing to profit. Hidden cost: carry the whole portfolio, even the songs nobody listens to.",
+          "example": "A label owns 1.5 million songs and earns money from streaming. If 0.1% of the catalogue generates 80% of the revenue, the label is still paying to maintain and distribute the other 99.9% of songs that earn almost nothing."
+        }
+      ]
+    },
+    {
+      "title": "What actually moves a label's stock price",
+      "intro": "Beyond the income from songs, three big forces push music label shares around.",
+      "blocks": [
+        {
+          "concept": "Streaming subscriber growth",
+          "body": "When more people subscribe to Spotify, YouTube Music, or Amazon Music, there are more ears listening and more total streams. If subscriber growth accelerates, a label's revenue accelerates too. This is powerful in India, where penetration is still low. Growth in subscribers means growth in listening. It is a tailwind lifting all labels. Conversely, when subscriber growth slows or a platform raises prices and loses subscribers, listening hours shrink and label revenues shrink with them.",
+          "example": "India goes from 50 million paid music subscribers to 100 million in three years. Listening hours double. A label's catalogue starts generating double the streaming revenue, even if the per-stream rate stays the same. The stock usually likes this kind of tailwind."
+        },
+        {
+          "concept": "The royalty rate renegotiation",
+          "body": "A label does not set per-stream pay. Platforms do. Per-stream rates are negotiated between label and Spotify, YouTube, or Amazon Music on contracts lasting a few years. At renewal, rates might rise or fall. If Spotify cuts rates, every label's revenue takes a haircut, even if listening stays flat. Labels have almost no pricing power. A handful of streaming platforms sit on the other side of the table and negotiate rates. A label owning an irreplaceable catalogue still must accept whatever the platform offers.",
+          "example": "A label's contract with Spotify renews. The label was getting paid 0.005 rupees per stream. Spotify proposes 0.003 rupees per stream. The label can refuse, but then its music disappears from Spotify, so it has no choice but to accept. Millions of listening hours are at stake, and the platform has all the power."
+        },
+        {
+          "concept": "New release momentum and platform play",
+          "body": "A label's stock can move sharply when new film music or artist releases generate huge listening. Film releases are cultural moments in India; a hit song captures a billion streams in weeks. A label with major film music gets a revenue spike. Over time these spikes smooth into long-term trend. What matters more than any single release is the steady state: total catalogue listening plus new-release success rate. If recent releases flop and the old catalogue ages out, the trend is down. If signing hit artists or producing for hit films, the trend is up. The market discounts this trend when setting price.",
+          "example": "A label secures the music for the year's biggest film blockbuster. The film releases to huge success, and the label's song gets 2 billion streams in the first month. The stock rallies. But if the label's next five releases all flop, the market soon realises the big hit was an outlier, not a trend, and the stock gives back the gains."
+        }
+      ]
+    },
+    {
+      "title": "Where music labels break",
+      "intro": "A label can look wonderful for years and then hit a wall. These are the usual failure modes.",
+      "blocks": [
+        {
+          "concept": "Advances paid that never recoup",
+          "body": "A label pays millions in advances, betting on hits. Most never fully recoup. Labels budget for a 20 or 30 percent hit rate. But if hit rate drops or a label overpays for big names who turn out washed up, losses pile up. Advances are cash out the door immediately; recovery is slow and uncertain. A label burning too much on failed bets can see profitability crater in a quarter.",
+          "example": "A label pays 500 crore rupees in advances across 50 new releases in a year, betting on big names and film music. It expects maybe 10 to 15 of them to be big hits and recoup the advance, with the rest serving as smaller earners. But this year only 5 are hits. The other 45 barely earn back a third of what was paid. The label has burned 300 crore that will not be recovered. Profit for the year collapses."
+        },
+        {
+          "concept": "Buyer concentration and the margin squeeze",
+          "body": "A label sells to five major platforms: Spotify, YouTube, Amazon Music, Apple Music. Because there are so few buyers, they have enormous power. When a platform wants lower rates, a label must accept or disappear from the largest listening platform. This buyer concentration is the opposite of pricing power. A label owns irreplaceable music but cannot command high prices because the buyer has few alternatives either. It is a stand-off where the label has all the leverage but the platform controls the terms. Hard lesson: moat and pricing power are not the same. A strong moat protects the asset (cannot be copied), but weak pricing power crushes margins.",
+          "example": "A label owns the rights to the year's biggest hits. But Spotify says, 'We will pay you 0.003 rupees per stream, down from 0.004. Take it or we will promote the independent artists and platform-commissioned playlists instead.' The label has zero leverage. Refusing means losing half its listening and its biggest revenue source. It accepts the rate cut, and profit drops despite owning the hits."
+        },
+        {
+          "concept": "Platform risk: commissioning its own music",
+          "body": "The biggest existential risk is a platform deciding to commission its own music instead. If Spotify made hits and promoted them over labels, it captures listening in-house. This has not happened at scale, but the threat is real. A platform controlling distribution has all power. A label relying on one platform for 60 percent of revenue would be devastated. This is why labels fear platforms moving into content production. It is asymmetric: the platform can disintermediate the label, but the label cannot bypass the platform.",
+          "example": "YouTube decides to internally produce and promote Indian regional music. It funds hit singers, invests in original productions, and gives them preferential placement in recommendations. Labels that relied on YouTube for 40 percent of their streaming suddenly see listening shift to YouTube's own content. They have no defense because they cannot force YouTube to play their music over YouTube's own creations."
+        }
+      ]
+    },
+    {
+      "title": "How to actually value a music label",
+      "intro": "Music is different, so the valuation tools that work for others mislead here.",
+      "blocks": [
+        {
+          "concept": "Earnings quality is everything",
+          "body": "A label's earnings come almost entirely from catalogues, which are annuities. Annuities deserve high multiples because revenue is recurring and low-maintenance. An old song earning for twenty years will earn for another twenty. But there is a trap: not all earnings are equal. Concentrated hits are lower quality than spread across a diverse catalogue. Unproven artists or films are lower quality than old catalogue. A label with 70 percent of earnings from new releases is riskier than one with 70 percent from old songs. The market should pay less for the former.",
+          "example": "Label A generates 100 crore in profit. 70 crores comes from its old film-music catalogue that has been earning steadily for ten years. 30 crores comes from bets on new artists. Label B generates 100 crore in profit. 50 crores from its catalogue, 50 crores from new releases that just took off. Both show 100 crores profit, but Label A's quality is higher because more of it is recurring annuity income."
+        },
+        {
+          "concept": "Look at these instead",
+          "body": "Skip PE. Read a label through these four metrics instead.",
+          "bullets": [
+            {
+              "term": "Catalogue earnings ratio",
+              "desc": "What share of profit comes from the back catalogue versus new releases? Higher is safer. A label with 70 percent of earnings from old songs has higher-quality, more-recurring income."
+            },
+            {
+              "term": "Advance burn rate",
+              "desc": "What share of revenue goes to paying advances on new music? If it is 20 percent of revenue, that is normal. If it climbs to 40 percent, the label is overpaying for new releases and will see margins collapse when hits do not materialise."
+            },
+            {
+              "term": "Listening concentration (the top-10 share)",
+              "desc": "What percentage of all listening comes from the top 10 percent of songs? Lower is better. If 60 percent of listening is driven by just 10 songs, the label is at risk if any of them falls out of favour. If 40 percent comes from the top 10 percent of songs, income is more diversified."
+            },
+            {
+              "term": "Royalty rate trends",
+              "desc": "Are the per-stream rates the label is getting paid staying flat, growing, or shrinking? Shrinking rates are a quiet killer of margins. This number tells you whether buyer concentration is squeezing the label or not."
+            }
+          ],
+          "outro": "These four windows show you what a PE ratio hides: whether the earnings are really recurring, whether the label is burning cash on failed bets, whether revenue is fragile, and whether the platforms are already squeezing margins."
+        }
+      ]
+    },
+    {
+      "title": "The trap: a great catalogue that is still a bad stock",
+      "intro": "Save this one. This is the lesson that catches even experienced investors in music.",
+      "blocks": [
+        {
+          "concept": "Annuity income should not be confused with growth",
+          "body": "A catalogue is an annuity and deserves rich valuations because income is recurring. But there is a critical difference between a catalogue that earns the same year after year (true annuity) and one expected to grow because the industry grows. The market sometimes values labels on the expectation that streaming, subscribers, and catalogue earnings will all grow. But that is not a given. A mature catalogue in a mature market might be flat. If the market prices in growth and growth does not come, the stock falls sharply even though earnings remain steady.",
+          "example": "A label owns a catalogue that currently earns 100 crore rupees a year in streaming royalties. The market thinks streaming will grow 20 percent a year for the next five years, so it values the label on the assumption of 100 becoming 150 by year five. But suppose subscriber growth in India slows to 5 percent. The catalogue earns 105 crore next year, not 120. The market realises growth will be slower, reprices the label downward, and the stock falls, even though 105 crore is a healthy profit."
+        },
+        {
+          "concept": "The multiple and the engine, working against each other",
+          "body": "A label's return comes from two things: how fast catalogue earnings grow and what multiple the market pays for those earnings. Both can move and both can hurt. A wonderful catalogue earning steadily can still disappoint if you buy when the market bets on rapid streaming growth that then slows. A shrinking multiple erases all gains from growing earnings.",
+          "example": "You buy a label when the market is betting on 15 percent annual growth in streaming. The stock trades at a 25x multiple of current earnings. The business earns 100 crore, so the stock is priced as if it is worth 2,500 crore. Over the next three years, earnings grow to 130 crore (6 percent annual growth, slower than expected). But the market now assigns it a 15x multiple because growth is disappointing. 130 times 15 is 1,950 crore. The business grew earnings by 30 percent, and the stock fell by 22 percent, because the multiple contracted more than earnings grew. That is how a good catalogue can be a bad investment."
+        },
+        {
+          "concept": "Why this happens and what to take from it",
+          "body": "Labels are valued on the belief that streaming will grow, India's paid subscription will expand, and per-stream rates will hold or improve. These are bets. When reality disappoints, the multiple contracts. Simple lesson: a strong moat and good annuity business can still be a bad stock if you pay too much. The catalogue keeps earning, but your capital sits while the market re-rates the stock downward.",
+          "example": "A label with a strong back catalogue and reliable earnings is a genuinely good business. But if the market is pricing in a subscription growth boom and that boom does not materialise, or if royalty rates start declining as platforms consolidate their power, the stock can underperform for years. The business did not fail. The multiple just fell back to earth."
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "Catalogue earnings ratio",
+      "why": "Share of profit from old songs versus new releases. Higher indicates more recurring, lower-risk income."
+    },
+    {
+      "metric": "Revenue per stream (or per listener)",
+      "why": "Average royalty earned per stream across all platforms and regions. Declining rates signal buyer pressure and margin risk."
+    },
+    {
+      "metric": "Hit concentration (% of revenue from top songs)",
+      "why": "How much of total listening comes from the top handful of songs. High concentration means fragile revenue; diversified means stable."
+    },
+    {
+      "metric": "Advance spend as % of revenue",
+      "why": "How much is being paid upfront to secure new music. Above 25 percent means risky bets; below 15 percent means conservative acquisition."
+    },
+    {
+      "metric": "Operating margin",
+      "why": "The share of revenue that becomes profit. For catalogues, 60 percent and above is healthy; below 40 percent suggests rising costs or rising advance burn."
+    },
+    {
+      "metric": "Streaming subscriber growth (addressable market)",
+      "why": "Growth in paid music subscribers globally and in India. This is the tailwind that lifts all listening and all revenues."
+    },
+    {
+      "metric": "Return on capital employed",
+      "why": "How much profit is generated from the capital invested in catalogues. High ROCE means the catalogue acquisition strategy is working."
+    }
+  ],
+  "framework": {
+    "demand": "Streaming subscriber growth",
+    "pricing": "Negotiated royalty rates",
+    "efficiency": "Advance-success rate",
+    "capital": "Catalogue ROI",
+    "risk": "Hit concentration"
+  },
+  "anatomy": {
+    "demand": "From anyone with access to music and the willingness to pay or listen to ads: students, commuters, casual listeners. Demand is structural over decades (people want music), but it is cyclical on subscriber growth (how many people have paid subscriptions). In India, paid music is still penetrating from a low base, so subscriber growth is rapid. Over time, as penetration matures, growth will slow. Demand is also driven by new film releases, viral hits, and regional language expansion.",
+    "pricing": "Almost entirely controlled by streaming platforms. A label does not decide what it gets paid per stream. Spotify, YouTube, Apple Music, Amazon Music, and a few others collectively own the distribution, so they set the rates. A label negotiates its royalty share every few years, but the platform has all the leverage. The label's only option is to accept the rate or have its music unavailable, which is no option at all. Pricing power is one of the weakest links in media.",
+    "limiting": "Rights to music people actually want to hear. Any company can theoretically start a label and own songs, but acquiring the rights to new hit songs requires betting large sums on upcoming releases, film music, and artist deals. Most releases lose money. A label must have capital, judgment, and relationships to correctly predict which bets will pay off. A label with a proven track record of successful releases has a moat that a startup cannot replicate with just money.",
+    "leak": "Into advances paid for new music that do not recoup. A label must constantly invest in new releases to maintain relevance and to balance the portfolio of songs it owns. If advances are spent on losers, that cash is sunk cost. Additional cash leaks into the platform's royalty rate: as platforms consolidate power, per-stream rates are declining, so the label keeps more of the listener's money but the platform takes a bigger cut of the licensing fee.",
+    "killer": "Buyer concentration squeezing royalty rates. A label can own the world's greatest songs and still have almost no pricing power because there are only five major buyers of music rights. When a platform decides to cut rates, the label must accept it or disappear from that platform. Additionally, the growth of music production and the ease of uploading independent music to platforms means new, independent competitors multiply every year, and labels lose bargaining power. Finally, if platforms start producing their own music and promoting it over label music, the listening shifts and label revenues fall.",
+    "moat": "Legal copyright ownership. A song that a label owns cannot be copied, licensed, or used without permission. That is a moat unlike most others in business. But say it clearly: a legal moat protects the asset from being stolen. It does not protect the price. A label owns the Mona Lisa but must sell it to a buyer with all the leverage."
+  },
+  "beginnerQuestion": {
+    "q": "If this business has such high margins, why can it not simply raise prices?",
+    "a": "Because it sells to a handful of buyers. Spotify, YouTube Music, Apple Music, and Amazon Music are the only platforms that matter. When these platforms renegotiate the royalty rate they pay per stream, a label has no choice but to accept it or remove its entire catalogue from that platform, which would destroy revenue. That concentration of buyers is stronger than the strength of owning the songs. A business can own something irreplaceable and still be a price-taker because only five people are allowed to bid for it."
+  },
+  "remember": "A label owns songs but not the price. The moat is legal, but the pricing power is weak.",
+  "mentalModels": [
+    "Zero marginal cost",
+    "Annuity income",
+    "Buyer concentration",
+    "Hit-driven economics"
+  ],
+  "relatedSectors": [
+    "ecommerce",
+    "telecom",
+    "capitalmarkets"
+  ]
+}

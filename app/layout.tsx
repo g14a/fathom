@@ -2,8 +2,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import { withBase, SITE_URL, canonical } from '@/lib/base';
-import { getFeaturedCaseStudies } from '@/lib/caseStudies';
-import { getSignal } from '@/lib/signals';
+import { getAllCaseStudies } from '@/lib/caseStudies';
+import { getAllSignals } from '@/lib/signals';
 import JsonLd from '@/components/JsonLd';
 
 const SITE_JSONLD = {
@@ -56,16 +56,43 @@ export const metadata: Metadata = {
   },
 };
 
+// Derive the "Newly published" banner from published dates of signals and case studies.
+// The banner shows the three most recently published items. To refresh the banner,
+// give an item a newer published date; do not edit this function.
+function getLatestPublishedItems(limit: number = 3): { href: string; tag: string; title: string }[] {
+  const signals = getAllSignals()
+    .filter((s) => s.published)
+    .map((s) => ({
+      href: `/signals/${s.id}/`,
+      tag: 'SIGNAL',
+      title: s.title,
+      published: s.published!,
+      id: s.id,
+    }));
+
+  const caseStudies = getAllCaseStudies()
+    .filter((c) => c.published)
+    .map((c) => ({
+      href: `/case-studies/${c.id}/`,
+      tag: c.ticker,
+      title: c.title,
+      published: c.published!,
+      id: c.id,
+    }));
+
+  return [...signals, ...caseStudies]
+    .sort((a, b) => {
+      // Sort by published date descending, then by id ascending for deterministic output
+      const dateCompare = b.published.localeCompare(a.published);
+      if (dateCompare !== 0) return dateCompare;
+      return a.id.localeCompare(b.id);
+    })
+    .slice(0, limit)
+    .map(({ published, id, ...rest }) => rest); // Remove temporary fields
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  // The "Newly published" banner mixes the latest signal with recent case studies.
-  const bottleneck = getSignal('follow-the-bottleneck');
-  const featuredCases = getFeaturedCaseStudies(6)
-    .filter((c) => c.ticker !== 'CGPOWER')
-    .slice(0, 2);
-  const featured: { href: string; tag: string; title: string }[] = [
-    ...(bottleneck ? [{ href: `/signals/${bottleneck.id}/`, tag: 'SIGNAL', title: bottleneck.title }] : []),
-    ...featuredCases.map((c) => ({ href: `/case-studies/${c.id}/`, tag: c.ticker, title: c.title })),
-  ];
+  const featured = getLatestPublishedItems(3);
   return (
     <html lang="en">
       {/* Browser extensions (ColorZilla's cz-shortcut-listen, Grammarly, etc.)

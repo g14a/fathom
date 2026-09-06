@@ -1,22 +1,28 @@
-# Fathom — NSE Equity Research
+# Fathom: NSE Equity Research
 
 Fully static research site. One structured report per ticker, mapped to the
 `indian-stock-analyzer` skill's sections. Deploys to GitHub Pages. No backend, no DB.
 
 ## How it works
 
-- Each ticker is one JSON file in `data/<TICKER>.json` (schema in `lib/types.ts`).
+- Each ticker is one JSON file in `data/companies/<SLUG>.json` (schema in `lib/types.ts`).
 - Next.js static-exports (`output: 'export'`) one page per ticker → `out/`.
 - GitHub Action builds and publishes on every push to `main`.
+
+## Other content types
+
+- **Sectors** (`data/sectors/<id>.json`): explainers on how industries work, with metrics frameworks and risk checklists. Schema in `lib/sectors.ts`.
+- **Case studies** (`data/case-studies/<id>.json`): long-form stories with real evidence from filings, showing how a business principle played out. Schema in `lib/caseStudies.ts`.
+- **Signals** (`data/signals/<id>.json`): market events (Budget, RBI decisions, tariffs) explained as changes to business economics. Schema in `lib/signals.ts`.
 
 ## Add / refresh a ticker (quarterly workflow)
 
 1. In a Claude session, run the `indian-stock-analyzer` skill on a ticker.
-2. Ask Claude to write the result as `data/<TICKER>.json` matching `lib/types.ts`.
+2. Ask Claude to write the result as `data/companies/<SLUG>.json` matching `lib/types.ts`.
 3. Commit + push. The Action rebuilds the whole site.
 
-The *hosting* is free and static. The *content refresh* is a Claude batch job —
-run it once a quarter (and after earnings), regenerate the JSON, push.
+The *hosting* is free and static. The *content refresh* is a Claude batch job.
+Run it once a quarter (and after earnings), regenerate the JSON, push.
 
 ## Company editorial guide
 

@@ -612,7 +612,7 @@ export function Report({ r }: { r: TickerReport }) {
 
       {r.isSample && (
         <div className="sample-banner">
-          ⚠ Sample / template record — illustrative numbers describing no real company. Replace with a real research run.
+          ⚠ Sample / template record. Illustrative numbers describing no real company. Replace with a real research run.
         </div>
       )}
 

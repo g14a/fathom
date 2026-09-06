@@ -3,6 +3,7 @@
   "company": "BLS International Services Ltd",
   "sector": "Business Services",
   "industry": "Visa & Consular Outsourcing",
+  "sectorId": "businessservices",
   "dataVariant": "Consolidated",
   "asOf": "2026-08-08",
   "oneLiner": "A genuinely good business (visa outsourcing is a two-horse global race with fat margins and clean cash) fell 36%, and now trades at 15 times earnings. The core is still excellent. The worry is that the edges are getting muddier.",
@@ -119,7 +120,7 @@
       "It is a global duopoly, so pricing is not a knife-fight to the bottom."
     ],
     "stopWinning": [
-      "A single regulator can hurt it: the MEA barred BLS from new Indian-mission tenders for two years, and even though the Delhi High Court set the order aside, it showed how one government can dent the story overnight.",
+      "A single regulator can hurt it: as the MEA's two-year tender ban showed (though the Delhi High Court later overturned it), one government can dent the story overnight.",
       "The digital and loan-distribution push earns 4-5% margins and dilutes the blended quality.",
       "Buying growth (iDATA, Citizenship Invest, Aadifidelis, RDWA) risks overpaying and messy integration.",
       "Government contracts do eventually re-tender, and reputation matters when they do."
@@ -187,7 +188,7 @@
       "penetration": "Under-penetrated. Growth is a mix of the pie growing (more travel) and formalisation (more governments outsourcing what they used to run themselves), not just fighting over a fixed number of applications.",
       "valueChainPosition": "The trusted middleman between the traveller and the government. That position is defensible because governments hand it out slowly and take it back reluctantly."
     },
-    "qualityVerdict": "The core visa business is genuinely high quality: one of only two players at global scale, sticky government contracts, ~40% segment margins, and fees collected up front so the books stay clean. That is a rare combination. The honest catch comes in two parts. First, the digital and loan-distribution push earns just 4-5% margins and is diluting the blend even as it flatters the top line, so the number to watch is segment margin, not the headline. Second, a single regulator can bite: the MEA barred BLS from new Indian-mission tenders for two years, and though the Delhi High Court set that order aside in December 2025, the episode showed the vulnerability is real. What you are looking at is a duopoly core worth admiring, with two things to keep one eye on: the mix, and the regulator."
+    "qualityVerdict": "The core visa business is genuinely high quality: one of only two players at global scale, sticky government contracts, ~40% segment margins, and fees collected up front so the books stay clean. That is a rare combination. The honest catch comes in two parts. First, the digital and loan-distribution push earns just 4-5% margins and is diluting the blend even as it flatters the top line, so the number to watch is segment margin, not the headline. Second, a single regulator can bite: the MEA's two-year tender ban (overturned by the Delhi High Court in December 2025) showed that concentrated government power can strike at the story. What you are looking at is a duopoly core worth admiring, with two things to keep one eye on: the mix, and the regulator."
   },
   "valuation": [
     {

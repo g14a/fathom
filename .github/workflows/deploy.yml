@@ -15,7 +15,19 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+
   build:
+    needs: check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -29,6 +41,7 @@ jobs:
       - run: npm run build
         env:
           PAGES_BASE_PATH: ${{ vars.PAGES_BASE_PATH }}
+      - run: node scripts/seo-audit.mjs
       - run: touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:

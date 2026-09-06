@@ -7,6 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "check:data": "node scripts/validate-data.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "check:repetition": "node scripts/check-repetition.mjs",
+    "check:prose": "grep -rn '—' lib data app components && echo 'em-dash found' && exit 1 || exit 0",
+    "check": "npm run check:data && npm run check:links && npm run check:repetition && npm run check:prose && tsc --noEmit",
     "seo:audit": "npm run build && node scripts/seo-audit.mjs"
   },
   "dependencies": {

@@ -85,9 +85,9 @@ export interface Sector {
 
 // Curated display order for the index and nav.
 const SECTOR_ORDER = [
-  'banks', 'nbfcs', 'insurance', 'hospitals', 'pharma', 'saas', 'fmcg', 'retail',
-  'telecom', 'power', 'auto', 'cement', 'metals', 'chemicals', 'airlines', 'realestate', 'hotels',
-  'ecommerce', 'infrastructure', 'capitalmarkets',
+  'banks', 'nbfcs', 'insurance', 'hospitals', 'diagnostics', 'pharma', 'saas', 'businessservices',
+  'fmcg', 'retail', 'telecom', 'mediaip', 'power', 'auto', 'cement', 'metals', 'chemicals',
+  'packaging', 'airlines', 'realestate', 'hotels', 'ecommerce', 'infrastructure', 'capitalmarkets',
 ];
 
 const SECTORS_DIR = path.join(process.cwd(), 'data', 'sectors');
