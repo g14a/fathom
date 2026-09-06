@@ -121,8 +121,10 @@ export interface MarginModel {
     takeaway: string;
   };
   // The killer conclusion, made impossible to miss: our normalised margin vs
-  // the margin the current price implies, and the gap between them.
-  gap?: { ours: string; market: string; note: string };
+  // the margin the current price implies, and the gap between them. The two
+  // captions default to generic labels; set them per-report when a specific
+  // phrasing (e.g. "Priced in at ₹775") is accurate for that ticker.
+  gap?: { ours: string; market: string; note: string; oursCap?: string; marketCap?: string };
   // The reader's monitoring dashboard: what to watch to confirm each side.
   bullSignals?: string[];
   bearSignals?: string[];

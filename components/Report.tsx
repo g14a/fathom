@@ -285,7 +285,7 @@ function MarginModel({ m }: { m: MarginModelT }) {
             {m.scenarios.rows.map((row, i) => (
               <tr key={i} className={row.tone ? `mm-tone-${row.tone}` : ''}>
                 <th scope="row">{row.label}</th>
-                {row.cells.map((cell, j) => <td key={j}>{cell}</td>)}
+                {row.cells.map((cell, j) => <td key={j} data-label={m.scenarios.columns[j]}>{cell}</td>)}
               </tr>
             ))}
           </tbody>
@@ -295,12 +295,12 @@ function MarginModel({ m }: { m: MarginModelT }) {
         <div className="mm-gap">
           <div className="mm-gap-cols">
             <div className="mm-gap-col mm-gap-ours">
-              <span className="mm-gap-cap">Our mid-cycle estimate</span>
+              <span className="mm-gap-cap">{m.gap.oursCap ?? 'Our mid-cycle estimate'}</span>
               <span className="mm-gap-val">{m.gap.ours}</span>
             </div>
             <div className="mm-gap-vs">vs</div>
             <div className="mm-gap-col mm-gap-market">
-              <span className="mm-gap-cap">Priced in at ₹775</span>
+              <span className="mm-gap-cap">{m.gap.marketCap ?? 'Priced in by the market'}</span>
               <span className="mm-gap-val">{m.gap.market}</span>
             </div>
           </div>
@@ -348,7 +348,7 @@ function ScenarioBlock({ s }: { s: ScenarioTableT }) {
             {s.rows.map((row, i) => (
               <tr key={i} className={row.tone ? `mm-tone-${row.tone}` : ''}>
                 <th scope="row">{row.label}</th>
-                {row.cells.map((cell, j) => <td key={j}>{cell}</td>)}
+                {row.cells.map((cell, j) => <td key={j} data-label={s.columns[j]}>{cell}</td>)}
               </tr>
             ))}
           </tbody>
