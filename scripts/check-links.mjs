@@ -5,9 +5,12 @@
 // Exits non-zero if any broken reference is found, so it can gate CI.
 
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
-import { join } from 'node:path';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const REPO_ROOT = process.cwd();
+// Resolve against this script's own location so it works from any working
+// directory, including CI, not just the repo root.
+const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
 function loadIds(dir) {
   const ids = new Set();

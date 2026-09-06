@@ -3,7 +3,8 @@
 // catch malformed JSON and missing required fields before they ship silently.
 // Exits with code 1 if any hard error is found; 0 if only warnings or nothing.
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
-import { join } from 'node:path';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 // Schema specs: each lists required and optional fields with their types.
 // Types: 'string', 'number', 'boolean', 'array', 'object', 'array<string>',
@@ -377,7 +378,9 @@ function normalizeDataType(dirName) {
   return null;
 }
 
-const BASE = '/Users/gowtham/fathom/data';
+// Resolve against this script's own location so it works from any working
+// directory, including CI, not just the repo root.
+const BASE = join(dirname(fileURLToPath(import.meta.url)), '..', 'data');
 const DIRS = [
   { path: 'companies', name: 'companies' },
   { path: 'sectors', name: 'sectors' },

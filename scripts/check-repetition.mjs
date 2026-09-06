@@ -20,7 +20,8 @@
 //   business.qualityVerdict operator quality
 
 import { readdirSync, readFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 const strict = process.argv.includes('--strict');
 
@@ -183,7 +184,10 @@ function mergeOverlapping(violations) {
 }
 
 // Load and process all reports
-const dataDir = '/Users/gowtham/fathom/data/companies';
+// Resolve against this script's own location so it works from any working
+// directory, including CI, not just the repo root.
+const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+const dataDir = join(REPO_ROOT, 'data', 'companies');
 const files = readdirSync(dataDir)
   .filter((f) => f.endsWith('.json'))
   .sort();
