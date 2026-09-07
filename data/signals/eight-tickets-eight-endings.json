@@ -1,0 +1,359 @@
+{
+  "title": "Eight Tickets, Eight Endings",
+  "kind": "Primer",
+  "kindLabel": "Worked examples",
+  "dateline": "Worked examples",
+  "published": "2026-09-07",
+  "tags": [
+    "Expectations",
+    "Valuation",
+    "Earnings surprise",
+    "Durability",
+    "Worked examples"
+  ],
+  "summary": "The companion to Great Movie, Bad Ticket. Eight real companies where the business and the share price went in visibly different directions, and every one of the gaps is explained by what the price had already assumed.",
+  "seoTitle": "Eight Real Examples: Why Good Results Do Not Mean a Good Stock",
+  "seoDescription": "DMart grew profit 81 percent and the stock fell. Trent grew revenue 20 percent and hit a lower circuit. Coal India nearly tripled profit and rose fivefold. Same market, three different endings, decided by what the price had already assumed. Eight sourced worked examples from Indian and global markets.",
+  "event": [
+    "DMart grew profit 81 percent and the stock fell. Trent grew revenue 20 percent and hit a lower circuit. Coal India nearly tripled profit and rose fivefold. The difference was not what the businesses did. It was what the price had already assumed.",
+    "[Great Movie, Bad Ticket](/signals/great-movie-bad-ticket/) left you with that spine: price, then expectations, then reality, then durability. It is an easy spine to nod along to and a hard one to use, because in the moment all you ever see is a headline number. Record quarter. Beats estimates. Neither tells you anything until you know what the price had already assumed.",
+    "So this piece does the slow, useful thing. Eight real companies, six Indian and two American, each one a case where the business and the share price moved in visibly different directions. Nothing here is a recommendation and no ticker is being rated. These are worked examples, the way you would solve a problem twice to watch the method rather than the answer."
+  ],
+  "trigger": "Every one of the eight stories below is the same comparison: what the business delivered, against what the price had already assumed. The gap between those two is where the stock reaction begins.",
+  "triggerLabel": "The one comparison",
+  "triggerBody": [
+    "Before the examples, one piece of arithmetic that makes all eight readable. A share price is two numbers multiplied together. The earnings the business makes, and the multiple people are willing to pay for each rupee of those earnings. Profit is the first engine. The multiple is the second.",
+    "The first engine is the business. The second is the multiple, and the multiple is an expectation written down as a number, because the only reason anyone pays 50 times earnings rather than 10 is a belief about the years ahead. The two engines can run in opposite directions for years: profit can rise 80 percent while the stock falls 37 percent, and there is nothing mysterious in that. The multiple fell further than the earnings rose."
+  ],
+  "mentalModels": [
+    {
+      "name": "The bar, not the number",
+      "why": "What decides the reaction is never the result on its own. It is the result measured against the estimate the price was already carrying. Two identical results, two different bars, two opposite outcomes."
+    },
+    {
+      "name": "Two engines",
+      "why": "Price equals earnings times the multiple. A stock can fall on rising profit, and rise on falling profit, whenever the second engine moves harder than the first."
+    },
+    {
+      "name": "The trend is the bar",
+      "why": "For a company that has grown 35 percent for five years, the binding bar is rarely the published estimate. It is the trend everyone has quietly extrapolated. Growing 20 percent can beat the estimate and still break the assumption."
+    },
+    {
+      "name": "Opening weekend or fourth week",
+      "why": "A spectacular quarter built on a shortage, a price spike or a one-off is a different thing from an economics change, and only the second one deserves a higher multiple."
+    },
+    {
+      "name": "The low bar has asymmetry",
+      "why": "When a price assumes something terrible, reality only has to be less bad. Both engines can then fire at once, which is why cheap tickets produce the largest moves for the least drama."
+    }
+  ],
+  "fanouts": [
+    {
+      "kicker": "One result, three prices",
+      "head": "A company grows profit 20 percent this year",
+      "branches": [
+        {
+          "label": "Priced for 35 percent",
+          "effect": "down",
+          "note": "A fine year, and next year's estimate still has to come down. The multiple usually follows the estimate down."
+        },
+        {
+          "label": "Priced for 20 percent",
+          "effect": "neutral",
+          "note": "Reality matched the assumption exactly. Nothing new arrived for the price to absorb."
+        },
+        {
+          "label": "Priced for 5 percent",
+          "effect": "up",
+          "note": "Estimates get raised, and people usually pay a higher multiple for the higher estimate. Both engines fire."
+        }
+      ],
+      "caption": "Same company, same year, same 20 percent. Three different outcomes, decided entirely by the number nobody publishes."
+    }
+  ],
+  "chainTitle": "How a good result becomes a falling stock",
+  "chain": [
+    "A result lands, and it clears the published estimate",
+    "Analysts read the guidance, the mix and the margin, not only the headline",
+    "Next year's earnings estimate gets trimmed",
+    "The multiple people will pay for that estimate gets trimmed too",
+    "Both engines run backwards at once, so the stock falls further than the estimate did"
+  ],
+  "sections": [
+    {
+      "heading": "How to read the eight",
+      "body": [
+        "One honest warning before the first example, because it decides whether this piece teaches you anything or just flatters hindsight. Nobody can know what 'the market' expected. The market is not a person and it does not publish a forecast.",
+        "It also helps to stop treating 'the expectation' as one thing. There is not one expectation. There are layers, and they can disagree. **Analysts publish estimates**, usually for the coming quarter or year. **Management publishes guidance**, which is narrower and more binding. **The valuation embeds a longer-term growth assumption**, because nobody pays 50 times earnings without a belief about a decade. And **investors extrapolate whatever story has been working**, which is the least formal layer and frequently the loudest.",
+        "When the layers disagree, the price usually tells you more about the long-term bar than the next-quarter consensus does. That single sentence explains most of what follows, because several of the cases below fell on a beat: the published consensus was cleared and the layer underneath it was not. So each case names which layer it is using as evidence, rather than gesturing at what 'the market' thought. The multiple is the layer used most often here, for the simple reason that it is an expectation already written down as a number.",
+        "So read each case as four questions in order. What did the price assume, and what is the evidence for that? What actually arrived? What did the stock do? And which of the two engines, earnings or multiple, did the work? The last question is the one that turns a story into a method."
+      ]
+    },
+    {
+      "heading": "1. Avenue Supermarts: a very good movie, a very expensive ticket",
+      "body": [
+        "DMart peaked at ₹5,900 on 18 October 2021. On that day the stock was trading at [124 times its estimated FY23 earnings](https://www.business-standard.com/article/companies/avenue-supermarts-hits-valuation-hurdle-stock-at-124-times-fy23-earnings-121101800964_1.html), against a sector average nearer 65. The same coverage put its market value per store at a 5-13 times premium to Walmart, and about four times Walmart's own peak valuation per store in December 1999. That is the expectation, and it is unusually well documented: the price was not asking DMart to be a good retailer. It was asking DMart to be the best retail business anyone had ever underwritten.",
+        "What arrived was excellent. Between FY22 and FY25, sales went from ₹30,976 crore to ₹59,358 crore, and net profit from ₹1,492 crore to ₹2,707 crore. Sales up 92 percent, profit up 81 percent, in four years, with no accounting drama and no acquisitions to explain it away.",
+        "The stock is around ₹3,699 today, roughly 37 percent below that October 2021 high. So the first engine ran hard and the second engine ran backwards harder. And there is a second, quieter reason: profit growth decelerated as the business scaled, from 22 percent compounded over five years to [8 percent compounded over the last three](https://www.screener.in/company/DMART/consolidated/). A price built on 124 times could survive a slowdown from spectacular to merely very good only if it had been paying for very good in the first place, and it was not. The business did everything a shareholder could reasonably ask of it. The price had asked for more."
+      ]
+    },
+    {
+      "heading": "2. Trent: 20 percent growth, and a 10 percent lower circuit",
+      "body": [
+        "Nothing bad happened to this business, which is what makes it worth walking through slowly. On 14 October 2024 Trent hit an all-time high of ₹8,345.85, having [risen 172 percent in that calendar year](https://www.business-standard.com/amp/markets/news/trent-zooms-172-so-far-in-2024-on-healthy-growth-m-cap-nears-rs-3-trn-124100900333_1.html) to a market value approaching ₹3 lakh crore. Set that against FY24 net profit of ₹1,477 crore and the price was carrying roughly 200 times trailing earnings. The cleaner bar here was not a published quarterly estimate. It was the five-year revenue trend of 35 percent a year, which the price had quietly extended into the future.",
+        "At its AGM on 3 July 2025, management said it expected [about 20 percent growth](https://www.indiatvnews.com/business/markets/trent-share-price-today-tata-group-retail-firm-stock-tanks-9-after-agm-find-out-why-2025-07-04-997382) in the quarter just ended. The next day the stock was locked at its 10 percent lower circuit of ₹5,572. The quarter then came in exactly as flagged, standalone revenue of ₹5,061 crore, up 20 percent.",
+        "Twenty percent revenue growth is a superb number for almost any retailer. It was a catastrophe for that particular price, because a price paying 200 times earnings is not paying for 20 percent. Trent then fell 42 percent across calendar 2025, its [first yearly decline in twelve years](https://www.business-standard.com/amp/markets/news/trent-share-price-tanks-42-so-far-in-2025-set-for-first-calendar-year-decline-in-12-years-is-trent-a-good-stock-to-buy-125120300270_1.html).",
+        "The business kept improving while that was happening. FY26 revenue reached ₹20,074 crore, up 17 percent, [operating profit rose 43 percent](https://www.angelone.in/news/stocks/trent-limited-q4-fy26-results-revenue-up-20-percent-profit-surges-43-percent-announces-1-2-bonus-shares) and the operating margin improved to 11.57 percent from 10.85 percent. The company opened 212 more Zudio stores and declared a 1:2 bonus. This is not a business in trouble. It is a growth rate normalising into a price that had extrapolated the old one. One mechanical note if you go and check the chart: that bonus issue changes the price series, so compare the profits, not the price levels either side of April 2026.",
+        "**Nothing went wrong in the shops. Something went wrong with the arithmetic sitting inside the price.**"
+      ]
+    },
+    {
+      "heading": "3. Nvidia, August 2024: beat everything, fell six percent",
+      "body": [
+        "On 28 August 2024, Nvidia reported quarterly revenue of $30.04 billion against a consensus of $28.7 billion, and adjusted earnings of 68 cents a share against 64 cents expected. Revenue was up 122 percent from a year earlier, the fourth consecutive quarter of triple-digit growth. Guidance for the next quarter, $32.5 billion, was also [above what the street was looking for](https://www.cnbc.com/2024/08/29/nvidia-nvda-shares-fall-after-earnings-beat-estimates.html).",
+        "Every published number was beaten. The stock fell about 6 percent the next day.",
+        "What was missed does not appear in any headline. Growth was decelerating, from 122 percent to a guided 80 percent, which is still extraordinary and still a slowdown. And the company guided full-year gross margins to the 'mid-70 percent range' when analysts were carrying 76.4 percent. The business was being valued on the assumption that extraordinary growth could persist, and against that assumption half a point of margin was new information. The estimate was cleared. The layer underneath it was not.",
+        "Two caveats. One day is one day, and a single session is never a verdict on a company. And this is not a one-off quirk: by 2026 the pattern was familiar enough that [Nvidia had fallen after four straight quarters](https://247wallst.com/investing/2026/08/26/nvidia-has-fallen-after-four-straight-earnings-beats-heres-why-it-could-happen-again/) in which it beat estimates. When a stock repeatedly falls on beats, the beats are not the problem. The bar is."
+      ]
+    },
+    {
+      "heading": "4. HEG: the best opening weekend Indian manufacturing has had",
+      "body": [
+        "In the year to March 2019, HEG earned a net profit of ₹3,050 crore, [up 182 percent](https://www.business-standard.com/amp/article/news-cm/heg-standalone-net-profit-declines-17-29-in-the-march-2019-quarter-119052100182_1.html) on sales that had risen 140 percent to ₹6,593 crore. A mid-sized graphite electrode maker had, for two years, earned more than most large Indian manufacturers. Chinese capacity closures and a needle coke shortage had left the world short of electrodes, and HEG could charge whatever it liked.",
+        "One number told you what kind of earnings those were. In the December 2018 quarter HEG's operating margin was 70.4 percent. A commodity conversion business, buying a globally traded input and selling a globally traded output, does not earn a 70 percent margin because it is well run. It earns it because the world is short of the product.",
+        "By the December 2019 quarter, revenue was [down 78 percent](https://www.business-standard.com/amp/article/markets/heg-plunges-14-on-poor-q3-earnings-co-posts-net-loss-of-rs-1-23-crore-120021200491_1.html) to ₹421 crore, operating profit was down 99.6 percent, the margin was 1.2 percent, and the company reported a small loss against a profit of ₹445 crore in the same quarter a year earlier. The stock fell about 14 percent on the day and was down 51 percent over the preceding year, against a Nifty that had risen about 12 percent.",
+        "Nothing was hidden. The margin itself was the disclosure. A price that capitalised those earnings was capitalising a shortage, and shortages are, definitionally, the thing that ends. If you go looking at the chart, note that a 2026 demerger has changed HEG's price series, so read the profits rather than the price levels.",
+        "**A 70 percent margin in a commodity is not a moat. It is a shortage wearing a moat's clothes.**"
+      ]
+    },
+    {
+      "heading": "5. Coal India: the cheapest ticket on sale",
+      "body": [
+        "On 15 October 2020, Coal India hit an all-time low of ₹109.50. That year's dividend of ₹16 a share was more than 14 percent of the October low, paid in cash by a company with no debt problem and a near-monopoly on domestic coal. Read the layer underneath that number. The market was assigning a very high yield to a business it expected to deteriorate, which is the same statement as saying it expected the earnings behind the dividend to shrink and keep shrinking. Coal was the asset everyone had agreed was finished.",
+        "What arrived was not a transformation. Coal India did not become a technology company. It sold more coal at better realisations into an economy whose power demand kept growing. Net profit went from ₹12,702 crore in FY21 to ₹37,369 crore in FY24, [close to three times](https://www.screener.in/company/COALINDIA/consolidated/), on sales that rose from ₹90,026 crore to ₹144,762 crore.",
+        "The stock reached an all-time high of ₹544.70 on 26 August 2024, roughly five times the low. Profit did about three of those five times. The rest came from the second engine: a market that had priced coal for decline agreeing to pay a slightly less pessimistic multiple. Note how modest that re-rating was in absolute terms. Even at the high, and at ₹419 today with a [price to earnings ratio near 8 and a yield above 6 percent](https://www.screener.in/company/COALINDIA/consolidated/), nobody has fallen in love with Coal India. The market simply stopped expecting the worst, and that alone was worth a great deal.",
+        "One caveat, and it matters. This required the coal cycle and India's power demand to cooperate, and they did not have to. FY25 profit was ₹35,450 crore, slightly below FY24. A low starting expectation gives you asymmetry, not a guarantee. But notice what never had to happen for shareholders to do well. Nothing wonderful, only the absence of the something terrible the price had been assuming."
+      ]
+    },
+    {
+      "heading": "6. Meta, 2022 and 2023: the same company, two opposite years",
+      "body": [
+        "In 2022 Meta had a genuinely bad year. Revenue fell about 1 percent to $116.6 billion, the first annual decline in its history, and [net income dropped to $23.2 billion](https://www.prnewswire.com/news-releases/meta-reports-fourth-quarter-and-full-year-2022-results-301736645.html) from $39.4 billion the year before, with diluted earnings of $8.59 a share. Spending on the metaverse was rising while the core business shrank, and by November the stock had bottomed around $90. At that price the company was valued at roughly ten times the earnings it had just reported, in the middle of the most profitable advertising business ever assembled. That multiple is the expectation, and it was unambiguous: the market was pricing in more decline.",
+        "In 2023 the company cut more than 21,000 jobs, slowed metaverse spending and called it the year of efficiency. Revenue rose about 16 percent to [$134.9 billion and net income to $39.1 billion](https://investor.atmeta.com/investor-news/press-release-details/2024/Meta-Reports-Fourth-Quarter-and-Full-Year-2023-Results/default.aspx). The stock rose 194 percent that year.",
+        "Put the two profit figures side by side. Meta's 2023 net income was $39.1 billion. Its 2021 net income was $39.4 billion. After the crash, the layoffs and the 194 percent rally, profit had merely returned to where it already had been two years earlier. The business did not do something unprecedented. It got back to normal, and the stock tripled because the price had stopped believing normal was available."
+      ]
+    },
+    {
+      "heading": "7. Asian Paints: a great show, a difficult final season",
+      "body": [
+        "For two decades Asian Paints was the standing Indian argument for paying up for quality, and the argument was real: [a ten-year return on capital employed of 42 percent](https://www.screener.in/company/ASIANPAINT/consolidated/) and a dealer network competitors described rather than copied. The share price carried that record forward. It peaked at ₹3,590 on 10 January 2022.",
+        "Then a competitor arrived with the second-largest installed capacity in the industry. In February 2024, on the launch of Birla Opus, [CLSA cut the stock to sell from buy](https://www.business-standard.com/amp/markets/news/paints-shares-lose-sheen-post-birla-opus-launch-asian-paints-at-10-mth-low-124022600177_1.html) and reduced its target to ₹2,425 from ₹3,215, and the stock fell to a ten-month low. Over FY25 Asian Paints' decorative market share moved from about [59 percent to about 52 percent](https://www.kotakneo.com/investing-guide/articles/paint-war-asian-paints-vs-birla-opus-disruption/). Revenue fell 4.5 percent to ₹33,906 crore and net profit fell about a third, to ₹3,710 crore, with every single quarter of the year down between 23 and 45 percent.",
+        "FY26 was better, ₹35,584 crore of revenue and ₹4,395 crore of profit, and the stock is around ₹2,497. Do the arithmetic on those two anchors: profit today is about 42 percent above FY22, and the share price is about 30 percent below its January 2022 high. For both to be true, the multiple must now be less than half what it was. That is precisely what a durability reset looks like when you take it apart. The earnings engine is still running, though visibly slower than it was. The market has withdrawn its assumption about how many more good years are coming.",
+        "The optimism here was never naive, which is what makes this the expensive kind of mistake. A decade of 42 percent returns on capital is not a story someone made up. It just was not a forecast. If you want the full account of how that machine was built and what changed, Fathom has it in [the distribution machine](/case-studies/asian-paints-distribution-machine-2000-2026/) and [what happened to the paint industry](/case-studies/what-happened-to-the-paint-industry/).",
+        "**The ten-year record was true. It was never a promise about year eleven.**"
+      ]
+    },
+    {
+      "heading": "8. Titan: the show that kept getting renewed",
+      "body": [
+        "This one is a different kind of evidence from the seven above, and it is worth saying so before rather than after. In the other cases the expectation can be pointed at directly, in a multiple or a consensus number or a guidance sentence. Here it cannot. What can be shown is a repeated pattern: a policy shock arrives, the sector is marked down, and the earnings that follow are better than the marking down implied. Read this as a durability example, not as a priced-expectation example. In August 2013 the RBI tightened gold import rules and the government raised the import duty to 10 percent alongside the 80:20 export rule. Titan [fell over 12 percent in a day](https://www.business-standard.com/amp/article/news-cm/titan-industries-slumps-after-rbi-curbs-gold-imports-113081600220_1.html). The damage showed up in the accounts: sales actually fell in FY16, to ₹11,276 crore from ₹11,913 crore, and profit fell to ₹675 crore from ₹816 crore. Then came demonetisation in 2016 and GST in 2017, each of which looked like another blow to a cash-heavy trade.",
+        "Each shock did more damage to the unorganised jeweller than to Titan, and that is the part the market kept underweighting. A formal, tax-paying, hallmark-selling chain gains share every time the informal trade is squeezed, so the events that read as sector risk were, for this particular company, [a transfer of customers](https://www.business-standard.com/amp/article/economy-policy/gst-demonetisation-to-help-increase-jewellery-sales-by-25-in-fy18-titan-117110700551_1.html). Sales reached ₹60,456 crore by FY25, with [ten-year compounded profit growth of 22 percent and a ten-year return on equity of 29 percent](https://www.screener.in/company/TITAN/consolidated/).",
+        "That is a durability surprise, and it is a different animal from a growth surprise. The claim here is not that any single estimate was too low. It is that the sector kept being marked down for events that transferred customers to it, which is a mistake about duration rather than about next year's number.",
+        "One more thing, in the present tense. Titan's net profit was ₹3,496 crore in FY24 and ₹3,337 crore in FY25, and the stock still trades near 76 times earnings. The run of upward surprises has paused, and the price is once again assuming a long queue of good seasons. A show can be renewed many times and still reach a season people argue about. Fathom's [Kalyan Jewellers report](/stocks/KALYANKJIL/) walks the same industry shift from the challenger's side. What the market kept getting wrong across that decade was not the growth rate. It was who each shock was actually aimed at."
+      ]
+    },
+    {
+      "heading": "The eight on one screen",
+      "body": [
+        "Read the last column first. The interesting part is not whether earnings went up or down. It is which engine changed, and why."
+      ],
+      "table": {
+        "columns": ["Company", "What the price assumed", "What arrived", "Which engine moved"],
+        "rows": [
+          ["Avenue Supermarts", "124 times FY23 earnings, Oct 2021", "Sales up 92%, profit up 81% over FY22-FY25", "Multiple down, more than profit rose"],
+          ["Trent", "Roughly 200 times earnings, 35% growth extrapolated", "20% growth guided and delivered", "Multiple down hard, profit still rising"],
+          ["Nvidia", "That extraordinary growth could persist", "Beat revenue, EPS and guidance; growth slowing to 80%", "Multiple and forward expectations"],
+          ["HEG", "A 70% operating margin capitalised as normal", "Revenue down 78%, margin 1.2%, a small loss", "Earnings collapsed; the multiple followed"],
+          ["Coal India", "Terminal decline, at a 14% dividend yield", "Profit close to tripled, FY21 to FY24", "Both, profit first, then a modest re-rating"],
+          ["Meta", "More decline, at about 10 times earnings", "2023 profit back to the 2021 level", "Both, and the multiple did most of it"],
+          ["Asian Paints", "A 42% return on capital continuing", "7 points of share lost, FY25 profit down a third", "Earnings fell, and the multiple more than halved"],
+          ["Titan", "Each policy shock read as an ending", "Ten years of 22% compounded profit growth", "Both, repeatedly, over a decade"]
+        ]
+      }
+    },
+    {
+      "heading": "What the eight actually teach",
+      "body": [
+        "A great business is not automatically a great investment. DMart and Trent show why. Good results are not automatically a positive stock reaction. Nvidia shows why. A low expectation creates asymmetry. Coal India and Meta show why. One spectacular quarter is not durable economics. HEG shows why, and the disclosure was sitting in the margin itself. And a long record is not a forecast of durability. Asian Paints shows why.",
+        "The common thread is simpler than the six lessons make it sound. The price is always making a claim about the future. The job is to find the claim before deciding whether the business can fulfil it.",
+        "Where the model stops. It tells you where to look, not what will happen. It cannot tell you whether Titan's next decade rhymes with its last, or whether Asian Paints' multiple has fallen far enough. Every case above is also chosen with the ending known, which is the one bias no amount of sourcing removes. Use these to build the habit of asking what a price assumes. Do not use them to conclude that expensive things fall and cheap things rise, because two of the eight are counterexamples to exactly that."
+      ]
+    }
+  ],
+  "evidence": {
+    "heading": "Testing it: if the model is right, profit and price must be able to move apart for years",
+    "metricLabel": "Consolidated net profit",
+    "unit": " cr",
+    "predictionLabel": "The prediction, before the numbers",
+    "prediction": "If a share price is a claim on expectations rather than a receipt for results, then it must be possible for a company's profit to rise steadily for several years while its share price falls over the very same stretch. And if that happens, the damage should be visible in the multiple rather than in the earnings.",
+    "intro": [
+      "Three of the eight let us check this directly, because in each one the reporting period and the price period line up. These are not the three best-performing businesses on the list, nor the three worst. They are the three where the earnings engine and the price engine can be measured over the same window.",
+      "The figures below are consolidated net profit as reported, taken from the same source for all three so the basis does not shift between rows."
+    ],
+    "banks": [
+      {
+        "name": "Avenue Supermarts",
+        "basis": "consolidated net profit",
+        "beforeLabel": "FY22",
+        "before": 1492,
+        "afterLabel": "FY25",
+        "after": 2707,
+        "exposure": "Over the same stretch the share price fell about 37 percent from its October 2021 high of ₹5,900.",
+        "sourceUrl": "https://www.screener.in/company/DMART/consolidated/"
+      },
+      {
+        "name": "Trent",
+        "basis": "consolidated net profit",
+        "beforeLabel": "FY24",
+        "before": 1477,
+        "afterLabel": "FY26",
+        "after": 1721,
+        "exposure": "Across calendar 2025 alone the stock fell 42 percent, its first down year in twelve.",
+        "sourceUrl": "https://www.screener.in/company/TRENT/consolidated/"
+      },
+      {
+        "name": "Asian Paints",
+        "basis": "consolidated net profit",
+        "beforeLabel": "FY22",
+        "before": 3085,
+        "afterLabel": "FY26",
+        "after": 4395,
+        "exposure": "The share price is about 30 percent below its January 2022 high of ₹3,590, four years later.",
+        "sourceUrl": "https://www.screener.in/company/ASIANPAINT/consolidated/"
+      }
+    ],
+    "deltaUnit": "pct",
+    "contextLine": "Profit in ₹ crore, first year against last. In every row the share price fell over the same window.",
+    "directionLine": "All three profits rose. All three share prices fell. The prediction holds, and the size of the gap is the point: Avenue Supermarts earned 81 percent more in FY25 than in FY22 while its shareholders lost roughly a third of their money.",
+    "causeEvidence": "The arithmetic then forces the conclusion, without needing any judgement. Price equals earnings times the multiple, so if earnings rose 81 percent and the price fell 37 percent, the multiple must have fallen by well over half. Same for Asian Paints, where profit is 42 percent higher than FY22 and the price 30 percent lower, which only works if the multiple is now under half what it was. The fall did not come from the businesses. It came from what people were willing to pay for a rupee of their earnings.",
+    "contrast": "Coal India is the control that proves it is the starting expectation doing the work, not the sector or the year. Profit went from ₹12,702 crore in FY21 to ₹37,369 crore in FY24 and the stock rose roughly fivefold, from an all-time low of ₹109.50 in October 2020 to ₹544.70 in August 2024. Here both engines pulled the same way, because the price had started from an expectation of decline rather than an expectation of perfection. Same country, overlapping years, opposite outcome.",
+    "seasonalityNote": "Two caveats you should hold. These are point-to-point comparisons, and endpoints chosen after the fact always flatter the person choosing them; the windows here were set by the reporting years, not by picking the prettiest dates. And Trent's 1:2 bonus issue in April 2026 changes its price series, which is why its price evidence is quoted as a calendar-2025 percentage move rather than as two price levels.",
+    "robustness": [
+      "Could it just be a falling market? No. All three windows sit inside a period when the Nifty rose. These are company-specific declines against a rising index, which is what makes them useful.",
+      "Could it be that the earnings were low quality? This is the honest one, and it is why Asian Paints is in the table. Its FY25 was genuinely bad, profit down about a third, and the market share loss behind it was real. But FY26 profit is still above FY22, so even for the case with a genuine business deterioration the multiple, not the earnings, did most of the damage.",
+      "Could three cases just be a coincidence? Three is not a study, and this is not offered as one. It is a demonstration that the mechanism exists and can be measured, which is all the model needs to be useful."
+    ],
+    "caption": "Profit up, price down, for years at a stretch. Nothing about that is strange once you accept that the price was never a receipt for the earnings."
+  },
+  "ignore": [
+    "The word 'record', which is a fact about the past and a claim about nothing",
+    "'Beats estimates' as a standalone verdict, when the consensus was not the binding bar",
+    "A single session's price move treated as the market's considered judgement"
+  ],
+  "focus": [
+    "The multiple at the moment of the result, which is the expectation already written down as a number",
+    "The direction of next year's estimate after the result, rather than the result itself",
+    "Whether an unusually good margin has a durable cause or a temporary one"
+  ],
+  "questionsTitle": "The five questions these eight cases keep asking",
+  "questionsIntro": "Applied to any company, in any market, on any result day.",
+  "questions": [
+    "What growth rate does this multiple imply, and would I underwrite that growth rate myself for the next five years?",
+    "Was this result good in absolute terms, and separately, was it good against what the price already assumed? Answer both, in that order, and never merge them.",
+    "If the company merely does what everyone expects, is that already enough to justify the price, or does it need to beat?",
+    "Is this quarter's strength an economics change or a temporary one? What exactly would have to keep being true for it to repeat?",
+    "Is the long record being used as evidence of quality, or as a forecast of duration? Those are different claims, and only the first one is supported by the record."
+  ],
+  "historyRhymes": [
+    {
+      "event": "Trent, July 2025: 20 percent growth guided, lower circuit",
+      "similar": "Nvidia, August 2024: every number beaten, stock down 6 percent",
+      "model": "The bar is the trend the price extrapolated, not the estimate the analysts published."
+    },
+    {
+      "event": "HEG, FY19: a 70 percent margin on an electrode shortage",
+      "similar": "Any cyclical at a peak, from shipping rates to commodity chemicals",
+      "model": "Peak earnings times a peak multiple is the same mistake counted twice."
+    },
+    {
+      "event": "Coal India, October 2020: a 14 percent dividend yield",
+      "similar": "Meta, November 2022: about ten times earnings after its first revenue decline",
+      "model": "When the price assumes decline, merely stopping the decline is a large surprise."
+    },
+    {
+      "event": "Asian Paints, 2024: a decade of 42 percent returns on capital meets a new entrant",
+      "similar": "Any moat priced as though its width were a constant",
+      "model": "A track record is evidence about the past and an assumption about the future. Only one of those is data."
+    }
+  ],
+  "yourTurn": {
+    "prompt": "A company you have never heard of reports its year. Revenue up 18 percent. Net profit up 25 percent, a record. Margins improved. Management says the coming year should grow around 12 percent as a large one-time order in the base year does not repeat. The stock falls 14 percent the next day. It had been trading at 45 times earnings, against an industry that trades nearer 20. Before reading on, work out what happened, using nothing but the four questions.",
+    "questions": [
+      "Was the result good in absolute terms? And separately, was it good against what a 45 times multiple assumes?",
+      "Which of the two engines moved on the day, and which sentence in the report moved it?",
+      "What does the phrase 'a large one-time order in the base year' tell you about the quality of last year's 25 percent?",
+      "If the market now believes 12 percent rather than 25 percent, roughly what should happen to a 45 times multiple, and does a 14 percent fall look like enough?"
+    ],
+    "reveal": [
+      "The result was genuinely good and completely beside the point. At 45 times earnings against an industry at 20, the price was carrying an assumption of growth well above the industry's. Twenty-five percent cleared that. Twelve percent does not.",
+      "The sentence that moved the stock was the guidance, not the result. And it did two things at once, which is why the fall was larger than the growth downgrade alone would suggest. Next year's earnings estimate came down, and the multiple people would pay for that estimate came down with it. Both engines, one sentence.",
+      "The one-time order is the durability tell, and it works backwards as well as forwards. It means last year's record 25 percent was partly an opening weekend. The company did not hide it; it is right there in the guidance. Anyone who had capitalised that 25 percent as the run rate was paying for a number the company itself was not claiming.",
+      "Whether 14 percent was enough is the question nobody can answer on the day, and pretending otherwise is where this method gets misused. A multiple of 45 built on 25 percent growth is a very different animal from a multiple of 45 built on 12 percent growth, and the honest answer is that the market is now arguing about it. What the four questions bought you is not a prediction. It is knowing precisely which argument you are in."
+    ]
+  },
+  "threads": [
+    {
+      "bottleneck": "The multiple as a separate engine",
+      "caseStudy": "the-pe-paradox-why-multiples-rise-when-earnings-fall"
+    },
+    {
+      "bottleneck": "A cheap ticket that worked",
+      "caseStudy": "cupid-the-rerating-machine-2023-2026"
+    },
+    {
+      "bottleneck": "Paints: a moat priced as a constant",
+      "sector": "fmcg",
+      "caseStudy": "asian-paints-distribution-machine-2000-2026"
+    },
+    {
+      "bottleneck": "Retail: the growth the price assumed",
+      "sector": "retail",
+      "report": "KALYANKJIL"
+    }
+  ],
+  "relatedSectors": ["retail", "fmcg", "metals"],
+  "relatedReports": ["KALYANKJIL", "BAJFINANCE"],
+  "relatedCaseStudies": [
+    "the-pe-paradox-why-multiples-rise-when-earnings-fall",
+    "cupid-the-rerating-machine-2023-2026",
+    "asian-paints-distribution-machine-2000-2026",
+    "what-happened-to-the-paint-industry"
+  ],
+  "sources": [
+    { "label": "Business Standard: Avenue Supermarts at 124 times FY23 earnings (Oct 2021)", "url": "https://www.business-standard.com/article/companies/avenue-supermarts-hits-valuation-hurdle-stock-at-124-times-fy23-earnings-121101800964_1.html" },
+    { "label": "Screener: Avenue Supermarts consolidated financials", "url": "https://www.screener.in/company/DMART/consolidated/" },
+    { "label": "Business Standard: Trent zooms 172% in 2024, m-cap nears ₹3 trillion", "url": "https://www.business-standard.com/amp/markets/news/trent-zooms-172-so-far-in-2024-on-healthy-growth-m-cap-nears-rs-3-trn-124100900333_1.html" },
+    { "label": "India TV: Trent falls after AGM growth guidance (July 2025)", "url": "https://www.indiatvnews.com/business/markets/trent-share-price-today-tata-group-retail-firm-stock-tanks-9-after-agm-find-out-why-2025-07-04-997382" },
+    { "label": "Business Standard: Trent down 42% in 2025, first yearly decline in 12 years", "url": "https://www.business-standard.com/amp/markets/news/trent-share-price-tanks-42-so-far-in-2025-set-for-first-calendar-year-decline-in-12-years-is-trent-a-good-stock-to-buy-125120300270_1.html" },
+    { "label": "Angel One: Trent Q4 and FY26 results, revenue up 20%, operating profit up 43%", "url": "https://www.angelone.in/news/stocks/trent-limited-q4-fy26-results-revenue-up-20-percent-profit-surges-43-percent-announces-1-2-bonus-shares" },
+    { "label": "Screener: Trent consolidated financials", "url": "https://www.screener.in/company/TRENT/consolidated/" },
+    { "label": "NVIDIA: second quarter fiscal 2025 results", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2025" },
+    { "label": "CNBC: Nvidia shares fall after earnings beat estimates (Aug 2024)", "url": "https://www.cnbc.com/2024/08/29/nvidia-nvda-shares-fall-after-earnings-beat-estimates.html" },
+    { "label": "24/7 Wall St: Nvidia has fallen after four straight earnings beats", "url": "https://247wallst.com/investing/2026/08/26/nvidia-has-fallen-after-four-straight-earnings-beats-heres-why-it-could-happen-again/" },
+    { "label": "Business Standard: HEG FY19 net profit up 182%", "url": "https://www.business-standard.com/amp/article/news-cm/heg-standalone-net-profit-declines-17-29-in-the-march-2019-quarter-119052100182_1.html" },
+    { "label": "Business Standard: HEG Q3 FY20, revenue down 78%, margin 1.2%", "url": "https://www.business-standard.com/amp/article/markets/heg-plunges-14-on-poor-q3-earnings-co-posts-net-loss-of-rs-1-23-crore-120021200491_1.html" },
+    { "label": "Screener: Coal India consolidated financials", "url": "https://www.screener.in/company/COALINDIA/consolidated/" },
+    { "label": "Business Standard: Coal India FY21 dividend of ₹16 a share", "url": "https://www.business-standard.com/amp/article/companies/coal-india-ltd-final-dividend-to-enrich-govt-by-rs-1-426-crore-121061401680_1.html" },
+    { "label": "Meta: fourth quarter and full year 2022 results", "url": "https://www.prnewswire.com/news-releases/meta-reports-fourth-quarter-and-full-year-2022-results-301736645.html" },
+    { "label": "Meta: fourth quarter and full year 2023 results", "url": "https://investor.atmeta.com/investor-news/press-release-details/2024/Meta-Reports-Fourth-Quarter-and-Full-Year-2023-Results/default.aspx" },
+    { "label": "Screener: Asian Paints consolidated financials", "url": "https://www.screener.in/company/ASIANPAINT/consolidated/" },
+    { "label": "Business Standard: paint stocks after the Birla Opus launch, CLSA downgrade", "url": "https://www.business-standard.com/amp/markets/news/paints-shares-lose-sheen-post-birla-opus-launch-asian-paints-at-10-mth-low-124022600177_1.html" },
+    { "label": "Kotak Neo: Birla Opus and Asian Paints market share shift", "url": "https://www.kotakneo.com/investing-guide/articles/paint-war-asian-paints-vs-birla-opus-disruption/" },
+    { "label": "Business Standard: Titan slumps after RBI curbs gold imports (Aug 2013)", "url": "https://www.business-standard.com/amp/article/news-cm/titan-industries-slumps-after-rbi-curbs-gold-imports-113081600220_1.html" },
+    { "label": "Business Standard: GST and demonetisation shift jewellery to organised players", "url": "https://www.business-standard.com/amp/article/economy-policy/gst-demonetisation-to-help-increase-jewellery-sales-by-25-in-fy18-titan-117110700551_1.html" },
+    { "label": "Screener: Titan consolidated financials", "url": "https://www.screener.in/company/TITAN/consolidated/" }
+  ],
+  "lesson": "Eight companies, six archetypes, one arithmetic. In six of the eight the business did roughly what a fair-minded observer would have hoped, and the outcome for shareholders was decided by the second engine, the multiple, which is only ever a measure of how much of the future has already been claimed. Nothing in this changes how you judge a business. It changes what you do with the judgement. Work out whether the business is good, then work out separately how many good years the price has already bought, and treat those as two answers rather than one.",
+  "lessonLabel": "What the eight add up to",
+  "remember": "Not one of these companies surprised the market by being good or bad. They surprised it by being different from what the price had already written down."
+}
