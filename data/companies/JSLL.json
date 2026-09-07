@@ -1,0 +1,318 @@
+{
+  "ticker": "JSLL",
+  "company": "Jeena Sikho Lifecare Ltd",
+  "sector": "Healthcare",
+  "industry": "Ayurveda hospitals and products",
+  "sectorId": "hospitals",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-09-07",
+  "oneLiner": "An Ayurvedic hospital chain that is really a medicine company wearing a hospital's clothes, because roughly half its revenue is product carrying about 85% gross margin sold to patients its own clinics recruited. That is how a healthcare provider comes to earn a 44% operating margin and 61% on equity, and why the entire stock now rests on one number: whether that 44% was a level or a peak.",
+  "facts": {
+    "snapshot": "Jeena Sikho Lifecare runs Ayurvedic hospitals and clinics under the HIIMS and Shuddhi brands, offering Panchakarma and other traditional treatments, and separately manufactures and sells more than 330 Ayurvedic medicines and wellness products through those hospitals, its own stores, call centres and online. It listed on the NSE SME platform and moved to the main boards of the NSE and BSE in August 2025.",
+    "founded": "2017",
+    "hq": "Zirakpur, Punjab"
+  },
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Two businesses in one: clinics that recruit, medicines that pay", "tone": "good" },
+      { "label": "Moat", "value": "Founder's brand plus owning both the diagnosis and the prescription", "tone": "warn" },
+      { "label": "Earnings", "value": "FY26 profit tripled, and margin did most of the work", "tone": "warn" },
+      { "label": "Balance sheet", "value": "ROCE 64%, debt to equity 0.27, FY26 cash conversion 114%", "tone": "good" },
+      { "label": "Capacity", "value": "Beds up roughly six times since FY23, occupancy still around 53%", "tone": "warn" },
+      { "label": "Governance", "value": "Family board, promoter ecosystem of related entities, retail base up seven times", "tone": "warn" },
+      { "label": "Valuation", "value": "26.9 times earnings and 13.6 times book value", "tone": "warn" }
+    ],
+    "keyQuestion": "Management has stated 44% to 45% as its operating target and called anything above it a bonus. That is a target, not a demonstrated level: the margin has been there for one full year. The first quarter of FY27 came in at 41%. Every other question here is downstream of that number, because at 29% revenue growth the gap between a 44% margin and a 36% margin is the gap between profit rising a quarter and profit falling."
+  },
+  "overview": "Jeena Sikho Lifecare does two things that most companies do separately. It runs Ayurvedic hospitals and clinics, about 61 hospitals and 58 clinics with roughly 2,800 beds, where patients come for Panchakarma and other traditional treatments. And it manufactures more than 330 Ayurvedic medicines, which it sells through those same hospitals, through its own stores, through a tele-calling centre and online. Patients arrive through free health camps and clinic consultations, get admitted or treated, and leave with a course of medicine. In FY26 the two halves were almost exactly the same size, roughly ₹385 crore of healthcare services and ₹416 crore of products. That structure is the whole company, and it explains the number that should stop any reader: an operating margin of 44%. Apollo and Fortis do not earn that. It is far outside normal hospital-chain economics, so something other than hospital economics is producing it.",
+  "editorial": {
+    "realBusiness": "A medicine company that owns its own doctors.",
+    "whyExists": "India spends real money on Ayurveda and almost none of it goes through anything organised. The AYUSH sector is put at roughly ₹2.33 lakh crore, and the delivery side of it is overwhelmingly single practitioners in single rooms. On the other side sit the big Ayurvedic products companies, Dabur and Patanjali and Himalaya, who sell through chemists to people who have already decided what they want. Nobody was doing the middle: a clinical setting that diagnoses a patient and then supplies the remedy, at scale, with a brand attached. Jeena Sikho occupies exactly that gap.",
+    "whyNotAlreadyWon": "The obvious question is why Dabur, sitting on ₹12,563 crore of revenue and eighty years of brand, has not simply built this. The answer is that the two halves repel each other commercially. A products company sells through third-party chemists and pharmacies, and the moment it opens its own clinics it competes with the distributors it depends on. A hospital chain has the opposite problem: it earns a fee for treatment and has no product margin to capture, so building a manufacturing arm adds capital and complexity for a thin return. Owning both only works if you build them together from the start, as this company did, and if you are willing to sit inside a structure where the party diagnosing the patient is also the party selling the cure. That last part is a genuine commercial advantage and a genuine reputational exposure at the same time, and it is why the space stayed open.",
+    "mentalModels": [
+      { "model": "Vertical integration", "assessment": "Excellent", "assessmentTone": "good", "why": "Acquire the patient once, monetise twice. The clinic visit and the medicine course share a single customer acquisition cost, which is the arithmetic behind margins no standalone hospital or standalone Ayurveda brand can reach." },
+      { "model": "Capital intensity", "assessment": "Excellent", "assessmentTone": "good", "why": "Fixed assets were ₹294 crore in FY26 against roughly 2,800 beds. On our arithmetic that is around ₹10 lakh a bed, a fraction of what an intensive-care bed costs to build. Panchakarma needs a room, a therapist and oil, not a catheterisation lab. Low capital per bed is most of why the return on capital reads 64%." },
+      { "model": "Key-person dependence", "assessment": "High risk", "assessmentTone": "bad", "why": "The brand and the patient funnel both trace back to the founder, Acharya Manish Ji, and his personal following. A real asset with no balance-sheet entry and no succession plan visible in the filings." },
+      { "model": "Regulatory exposure", "assessment": "High risk", "assessmentTone": "bad", "why": "Ayurvedic therapeutic claims sit under the Drugs and Magic Remedies Act of 1954, and the advertising watchdog referred 233 health advertisements to the AYUSH ministry for potential breaches of it. This is a sector-level condition, not a finding against this company, but it is the regulatory risk most capable of weakening the patient funnel." },
+      { "model": "Product economics", "assessment": "Strong", "assessmentTone": "good", "why": "Products carry roughly 85% gross margin, and the integrated model lets the company keep that margin instead of sharing it with a chemist chain. The distinction matters. Ayurvedic products sit outside the price controls that cap essential allopathic medicines, which gives pricing freedom, but freedom is not power. Nothing here yet demonstrates that prices can be raised without losing volume, which is what pricing power would actually mean." },
+      { "model": "Trust", "assessment": "Mixed", "assessmentTone": "warn", "why": "The model runs on patients believing the diagnosis. That belief is the asset, and it is also the thing a single adverse regulatory finding or a well-covered patient complaint could damage faster than any competitor could." }
+    ],
+    "economicEngine": [
+      { "label": "Demand", "value": "Chronic conditions people feel allopathy has not fixed", "note": "Diabetes, joint pain, liver and kidney complaints, skin. Patients arriving after other routes disappointed them." },
+      { "label": "Acquisition", "value": "Free camps, clinics, the founder's following", "note": "The clinic network is the top of the funnel, not the profit centre." },
+      { "label": "Revenue", "value": "Treatment fees plus a course of medicine", "note": "Roughly half services, half products in FY26." },
+      { "label": "Margins", "value": "Products at about 85% gross margin carry the P&L", "note": "Operating margin went from 12% in FY22 to 44% in FY26." },
+      { "label": "Capital", "value": "About ₹10 lakh a bed, funded largely from operating cash", "note": "FY26 operating cash flow ₹254 crore against capex that left ₹221 crore of free cash." }
+    ],
+    "strategicPosition": [
+      { "label": "The local vaid", "description": "One doctor, one room, no brand, no medicine margin", "tone": "weak" },
+      { "label": "Ayurvedic products companies", "description": "Dabur, Patanjali, Himalaya. Huge brands, chemist distribution, no clinical channel", "tone": "strong" },
+      { "label": "Multispeciality hospitals", "description": "Apollo, Fortis. Real clinical scale, heavy capital per bed, no product margin", "tone": "strong" },
+      { "label": "Jeena Sikho", "description": "A rare scaled model combining diagnosis, treatment and product sale under one roof", "tone": "focus" }
+    ],
+    "winningToday": [
+      "Owning the full path from first consultation to repeat medicine order, so acquisition cost is spread across two revenue lines",
+      "A bed that costs a fraction of an allopathic bed to build, which turns mediocre occupancy into a high return on capital",
+      "A products arm at roughly 85% gross margin with 330 SKUs and no price control over it",
+      "Cash that actually arrives: FY26 operating cash flow of ₹254 crore against ₹222 crore of reported profit, with debtor days improving from 66 to 32",
+      "A deliberate exit from government panel work, where payment cycles were long and margins thin"
+    ],
+    "stopWinning": [
+      "Occupancy stalling while depreciation keeps compounding against it",
+      "A rule change on Ayurvedic therapeutic claims or advertising, which would attack the funnel rather than the balance sheet",
+      "Anything happening to the founder, whose personal brand is the recruitment engine",
+      "Margin normalising below the guided 44% to 45%",
+      "A large branded competitor deciding the clinical channel is worth the distribution conflict after all"
+    ],
+    "marketBets": [
+      "That a 44% operating margin in healthcare delivery is a structural feature of the integrated model and not the top of an operating-leverage cycle",
+      "That roughly 2,800 beds fill toward the industry benchmark rather than sitting at half occupancy while depreciation rises",
+      "That the regulator leaves the advertising and claims regime for Ayurvedic treatment broadly as it is",
+      "That a company four years into public disclosure, with a family board, keeps reporting cleanly as it scales"
+    ],
+    "sectorModels": [
+      { "model": "Pricing freedom", "reading": "Strong", "note": "No essential-medicines price ceiling on the product book, and treatment is priced privately. Whether prices can actually be raised without losing volume is untested." },
+      { "model": "Industry structure", "reading": "Fragmented", "note": "Ayurvedic delivery is overwhelmingly unorganised. Products are consolidating around a few large brands." },
+      { "model": "Demand driver", "reading": "Structural", "note": "Chronic lifestyle disease and a cultural preference for traditional treatment. Not cyclical." },
+      { "model": "Capital intensity", "reading": "Low", "note": "Roughly ₹10 lakh a bed on our arithmetic, against tens of lakhs for acute-care beds." },
+      { "model": "Regulatory moat", "reading": "None", "note": "Nothing stops a competitor opening an Ayurvedic hospital. The regulation is a risk here, not a barrier." }
+    ],
+    "whyNow": "The share price has done the opposite of the earnings. Profit compounded 88% a year over three years while the stock compounded 63%, so the multiple has been compressing the whole time, and it now sits at 26.9 times against a peer median nearer 21 times. From a high of ₹850 the stock is down about 40%, and it fell 13% in a single session in August 2026 on a quarter that grew revenue 29% and profit 28%. Foreign holding has been coming down, from 6.17% in March 2026 to 4.78% in June. What has been going up instead is the number of individual shareholders, from 5,967 in March 2025 to 43,413 in June 2026.",
+    "remember": "Look past the hospital. The beds are the shop window and the pharmacy is the till."
+  },
+  "business": {
+    "unitOfRevenue": "One patient, monetised twice. A person arrives through a free health camp, a clinic consultation or the founder's following, pays for treatment in a hospital or day-care centre, and then buys a course of Ayurvedic medicine that the same organisation manufactured. The economics of the company are the economics of that second sale, because treatment carries hospital-like costs and the medicine carries roughly 85% gross margin.",
+    "revenueModel": "A services and products hybrid with a shared funnel. Healthcare services are fee-for-treatment across hospitals, Panchakarma centres and day-care clinics under the HIIMS and Shuddhi brands. Products are outright sales of more than 330 Ayurvedic SKUs through the hospitals, own stores, franchises, a client support call centre and online channels, with an over-the-counter pharmacy push being added. There is no subscription and no insurance-driven annuity; the repeat business comes from patients re-ordering their medicine course.",
+    "segments": [
+      { "name": "Ayurveda products", "pct": 52, "marginProfile": "Roughly 85% gross margin, 330-plus SKUs. The profit is made here, and its growth depends on the services arm feeding it patients." },
+      { "name": "Ayurveda healthcare services", "pct": 48, "marginProfile": "Hospitals, Panchakarma centres and clinics. Carries the fixed cost and the depreciation, and functions as the customer acquisition channel for the products arm." }
+    ],
+    "revenuePerUnitTrend": "Rising, but for a reason worth watching. Revenue per bed has been improving as the network matures, and the company deliberately cut its government panel business, where revenue fell 67% year on year in the first quarter of FY27 because payment cycles were long and margins thin. Trading government volume for private and insurance-paying patients lifts realisation per patient while removing revenue, which is a large part of why margin and growth have been moving in different directions.",
+    "industry": {
+      "structure": "Fragmented in delivery, consolidating in products. Ayurvedic treatment in India is overwhelmingly delivered by individual practitioners, while Ayurvedic products are concentrating around a handful of large brands.",
+      "competitors": "In products: Dabur (₹12,563 crore consolidated revenue in FY25), Patanjali, Himalaya and Baidyanath. In delivery: no organised chain of comparable scale, and that absence is the unusual part of this company's position. Kerala's Ayurveda resort and hospital operators compete regionally.",
+      "pricingPower": "Freedom rather than demonstrated power. There is no essential-medicine price ceiling on what the company charges, so the main constraints are competition, affordability and the alternative of not treating. The filings do not yet show prices rising without volume falling.",
+      "demandDriver": "Chronic lifestyle conditions where patients feel conventional treatment has not worked, plus a broad cultural preference for traditional medicine.",
+      "driverType": "Structural. Not tied to a capital cycle, a commodity price or discretionary spending in the way most consumer businesses are.",
+      "tam": "The AYUSH sector in India is put at roughly ₹2.33 lakh crore in 2026 and projected toward ₹3.37 lakh crore by 2031. The Ayurvedic products market alone was around ₹1.02 lakh crore in 2025, growing at roughly 15% a year.",
+      "penetration": "Very low on the organised delivery side, the pool this company is fishing in. The growth available here is formalisation, taking share from unorganised practitioners, rather than needing the underlying market to expand.",
+      "valueChainPosition": "Both ends at once. It manufactures the product and it owns the point of prescription, which is a position neither a products company nor a hospital chain normally holds."
+    },
+    "qualityVerdict": "Well run on the measures that are hardest to fake. Cash conversion has been genuine, with FY26 operating cash flow of ₹254 crore against ₹222 crore of reported profit, and debtor days improved from 66 to 32 even while the business nearly doubled. Debt is modest at 0.27 times equity with interest covered nearly 27 times, and the bed expansion was funded largely from operations rather than borrowing. The reservations are about disclosure rather than operations: the board is family-held with the founder as chairman and two family members as whole-time directors, the company sits inside a wider promoter ecosystem of related entities, and it has only four years of public reporting history behind it, three of those on the SME platform."
+  },
+  "valuation": [
+    { "label": "Price", "value": "₹512" },
+    { "label": "Market cap", "value": "₹6,370 cr" },
+    { "label": "52-week high / low", "value": "₹850 / ₹492" },
+    { "label": "Stock P/E", "value": "26.9x", "hint": "computed price/EPS also 26.9x; peer median nearer 21x", "tone": "neutral" },
+    { "label": "Price to book", "value": "13.6x", "hint": "book value ₹37.6 per share", "tone": "bad" },
+    { "label": "EPS (TTM)", "value": "₹19.03" },
+    { "label": "Dividend yield", "value": "0.21%", "hint": "FY26 payout 25%" },
+    { "label": "ROCE", "value": "64.1%", "tone": "good" },
+    { "label": "ROE", "value": "61.3%", "tone": "good" }
+  ],
+  "financials": [
+    { "year": "FY22", "revenue": 147, "netProfit": 11, "eps": 1.23, "patMargin": 7.5 },
+    { "year": "FY23", "revenue": 205, "netProfit": 34, "eps": 2.72, "patMargin": 16.6 },
+    { "year": "FY24", "revenue": 324, "netProfit": 69, "eps": 5.55, "patMargin": 21.3 },
+    { "year": "FY25", "revenue": 469, "netProfit": 80, "eps": 6.43, "patMargin": 17.1 },
+    { "year": "FY26", "revenue": 801, "netProfit": 222, "eps": 17.85, "patMargin": 27.7 }
+  ],
+  "ratios": [
+    { "label": "ROE", "value": "61.3%", "hint": "above 20% is strong", "tone": "good" },
+    { "label": "ROCE", "value": "64.1%", "hint": "against a cost of capital nearer 13%", "tone": "good" },
+    { "label": "Debt to equity", "value": "0.27", "hint": "borrowings ₹127 cr against ₹467 cr of net worth", "tone": "good" },
+    { "label": "Interest coverage", "value": "26.8x", "tone": "good" },
+    { "label": "Operating margin FY26", "value": "44%", "hint": "up from 30% in FY25 and 12% in FY22", "tone": "neutral" },
+    { "label": "Debtor days", "value": "32", "hint": "improved from 66 in FY25", "tone": "good" },
+    { "label": "Inventory days", "value": "81", "hint": "broadly stable since FY23", "tone": "neutral" },
+    { "label": "Cash conversion cycle", "value": "20 days", "hint": "from 38 days in FY25", "tone": "good" },
+    { "label": "Bed occupancy", "value": "about 53%", "hint": "38.4% in FY25; hospital benchmark 60-65%", "tone": "bad" }
+  ],
+  "cashFlow": [
+    { "year": "FY23", "ocf": 15, "capex": 30, "fcf": -15 },
+    { "year": "FY25", "ocf": 84, "capex": 39, "fcf": 45 },
+    { "year": "FY26", "ocf": 254, "capex": 33, "fcf": 221 }
+  ],
+  "cashFlowNote": "This is the part of the file that makes the rest believable. Operating cash flow was ₹254 crore in FY26 against reported profit of ₹222 crore, so cash conversion ran at about 114%, and over five years the ratio averages 106%. Free cash flow turned positive in FY25 and reached ₹221 crore in FY26. Debtor days improved from 66 to 32 while revenue grew 71%, which is the opposite of what a company inflating revenue would produce. Two honest gaps. Screener's consolidated series has no March 2024 column, so the FY24 line in the table above comes from the company's own reporting of ₹324 crore revenue and ₹69 crore profit, with earnings per share computed on the current share count rather than taken from a filing. And the capex figures here are derived from the cash flow statement's investing outflows net of the ₹110 crore moved into investments in FY26, so treat them as indicative rather than as a reported capex line.",
+  "growth": [
+    { "label": "Revenue CAGR, 3 years", "value": "58%" },
+    { "label": "Profit CAGR, 3 years", "value": "88%" },
+    { "label": "Revenue growth, TTM", "value": "57%" },
+    { "label": "Profit growth, TTM", "value": "103%" },
+    { "label": "Q1 FY27 revenue growth", "value": "29%", "hint": "₹224.4 cr, decelerating from 57%", "tone": "neutral" },
+    { "label": "Q1 FY27 profit growth", "value": "28%", "hint": "closer to 10% excluding the jump in other income", "tone": "bad" },
+    { "label": "Beds", "value": "460 to about 2,800", "hint": "FY23 to FY26" }
+  ],
+  "management": "The founder, known publicly as Acharya Manish Ji and on the filings as Manish Grover, is chairman, and the board includes Bhavna Grover and Shreya Grover as whole-time directors. So this is a family-controlled board at a company that has been publicly listed for four years and on the main boards only since August 2025. Promoter holding is 63.62% and has been flat for four quarters, though it is down about 2.3 points over three years. On the capital allocation evidence, this is an operator rather than a storyteller: the bed expansion was funded out of operating cash rather than debt or equity, borrowings are ₹127 crore against ₹467 crore of net worth, a dividend was started in FY26 at a 25% payout, and management chose to walk away from government panel revenue because the payment cycles and margins were poor, which costs reported growth and improves the business. The two things to keep watching are that the company sits inside a wider promoter ecosystem including Shuddhi Lifecare, which makes the related-party transaction note in the annual report the first thing worth reading, and that management has publicly anchored itself to holding a 44% to 45% margin, which is a specific and testable promise.",
+  "holding": [
+    { "label": "Promoter", "pct": 63.62, "qoqChange": 0.0 },
+    { "label": "FII", "pct": 4.78, "qoqChange": -1.39 },
+    { "label": "DII", "pct": 0.36, "qoqChange": -0.1 },
+    { "label": "Public", "pct": 31.24, "qoqChange": 1.47 }
+  ],
+  "moat": {
+    "strength": "narrow",
+    "label": "Narrow moat: a brand and an integration, neither of them fortified",
+    "sources": [
+      "Vertical integration: owning both the consultation and the medicine, so one acquisition cost earns twice",
+      "Founder brand: a personal following that supplies patients without a conventional marketing spend",
+      "Owned distribution: hospitals, clinics, stores, a call centre and online, none of it rented from a chemist chain",
+      "Low capital per bed: roughly ₹10 lakh a bed on our arithmetic, which lets returns on capital stay high at modest occupancy"
+    ],
+    "note": "The integration is real and the returns prove it, but be precise about what is protecting them. There is no patent, no licence scarcity, no switching cost and no regulatory barrier. Nothing prevents a well-funded competitor building the same thing, and Patanjali in particular has more brand than this company will ever buy. What has protected the position so far is that the two halves are awkward to run together and reputationally loaded, so incumbents on both sides stayed away. The honest caveat is that the strongest single moat source, the founder's personal following, is also the one with no succession plan visible in the filings and no way to value it if it goes."
+  },
+  "caseStudies": [
+    {
+      "title": "The quarter that grew 29% and fell 13%",
+      "period": "August 2026",
+      "body": [
+        "On the face of it the first quarter of FY27 was a good quarter. Revenue was ₹224.4 crore, up 29% on the year. Profit after tax was ₹65.9 crore, up 28%. Both numbers would flatter almost any company. The stock fell about 13% in a session, from ₹598 to an intraday low of ₹520.",
+        "Three things in the detail did the damage. The operating margin fell from 45.19% a year earlier to 41.03%, which matters more than usual at a company whose management had publicly committed to holding 45%. Depreciation rose 59% to ₹15.3 crore, the arithmetic of building beds faster than you fill them. And government panel revenue fell 67%, a deliberate decision but one that shows up as missing growth.",
+        "The fourth thing is the one worth learning. Other income jumped from ₹1.07 crore to ₹14.33 crore, largely because ₹110 crore had been moved into investments during FY26. Strip that increase out and profit before tax grows about 10% rather than 28%. The headline profit growth was real, but the quarter got a meaningful lift from other income rather than from operations alone.",
+        "Foreign holding fell over the same period, from 6.17% in March to 4.78% in June."
+      ],
+      "lesson": "A 28% profit rise met a price that had been told to expect 45% margins. The company did not disappoint. The guidance it had given about itself did."
+    },
+    {
+      "title": "Building 2,800 beds before the patients arrived",
+      "period": "FY23 to FY26",
+      "body": [
+        "Bed capacity went from 460 in FY23 to roughly 2,290 by FY25 and about 2,800 now, with a few hundred more in the pipeline. Close to a sixfold expansion in three years, paid for out of operating cash rather than debt.",
+        "Occupancy did what occupancy does when supply arrives before demand. It fell to 38.4% in FY25 before recovering to around 53%. A hospital business is normally considered to be working at 60% to 65%.",
+        "For an ordinary hospital chain those numbers would be alarming, because an empty allopathic bed is an expensive asset earning nothing. Here they matter differently, because a Panchakarma bed costs a fraction of an acute-care bed to build. That is why a business at half occupancy can still report a 64% return on capital.",
+        "The cost shows up somewhere else instead. It shows up in depreciation, which rose 59% year on year in the first quarter of FY27, and it will keep showing up until the beds fill."
+      ],
+      "lesson": "The beds are not the profit centre, they are the shop window. Judge them by how many medicine customers they recruit, not by how full they are."
+    }
+  ],
+  "narrative": "The numbers tell a story in two acts. Revenue went ₹147 crore, ₹205 crore, ₹324 crore, ₹469 crore, ₹801 crore across FY22 to FY26, so the top line compounded at about 53% a year with no single year of stumble. Profit went ₹11 crore, ₹34 crore, ₹69 crore, ₹80 crore, ₹222 crore. The second series has a different shape. FY25 was the flat year: revenue grew 45% and profit grew only 16%, as the bed build ran ahead of the patients. Then FY26 arrived and profit tripled on revenue that grew 71%. The biggest difference between those two years is operating margin, which went from 30% to 44%, and the FY26 figure is after roughly ₹21 crore of one-time provisions taken in the fourth quarter. Underneath, the company was also changing shape: it left the NSE SME platform for the main boards in August 2025, it started paying a dividend, it moved ₹110 crore into investments, and it began deliberately shedding government panel work. The number of individual shareholders went from 5,967 in March 2025 to 43,413 in June 2026.",
+  "risks": [
+    "Margin normalisation. Management has anchored publicly to a 44% to 45% target and the first quarter of FY27 printed 41%. This is the dominant risk, and the sensitivity below prices it.",
+    "Regulatory action on Ayurvedic claims or advertising. Therapeutic claims sit under the Drugs and Magic Remedies Act of 1954, and the advertising watchdog referred 233 health advertisements to the AYUSH ministry for potential breaches. No finding against this company appears in the public record, but the funnel depends partly on how the company is able to communicate the claimed benefits of its treatments.",
+    "Key-person concentration. The brand, the patient acquisition engine and the board all run through the founder. No succession arrangement is visible in the filings.",
+    "Occupancy. Beds have grown roughly sixfold while occupancy sits near 53% against a 60% to 65% benchmark, and depreciation is compounding regardless of whether the beds fill.",
+    "Governance and disclosure depth. A family board, a wider promoter ecosystem of related entities, and only four years of public reporting, three of them under the lighter SME regime. The related-party note is the first document to read on this company, not the last."
+  ],
+  "trapChecklist": [
+    { "label": "Name changed or rebranded into a hot theme before listing", "status": "pass", "note": "No rebrand. The company has operated under the same identity since incorporation in 2017." },
+    { "label": "Profit far outpacing operating cash flow", "status": "pass", "note": "FY26 operating cash flow ₹254 cr against ₹222 cr of profit, five-year average 106%." },
+    { "label": "Margin jump above 5 points in one or two years", "status": "fail", "note": "Operating margin went from 30% to 44% in a single year. It may well be operating leverage, but it is unproven across a cycle and it is the report's central question." },
+    { "label": "Debtor days above 150 and rising", "status": "pass", "note": "Improved from 66 to 32 days while revenue grew 71%." },
+    { "label": "Receivables above 60% of revenue", "status": "pass", "note": "Trade receivables were ₹97.6 cr in FY25 against ₹469 cr of revenue, about 21%." },
+    { "label": "Single customer above 40% of revenue", "status": "pass", "note": "Revenue is retail patients. The government panel channel was the nearest thing to concentration and is being exited deliberately." },
+    { "label": "Foreign institutions cutting while retail buys", "status": "warn", "note": "FII holding fell from 6.17% to 4.78% in a quarter while individual shareholders went from 5,967 to 43,413 in fifteen months. The divergence is worth understanding rather than reading as automatically bearish. Valuation, liquidity after the main-board move, governance, or ordinary rotation would all produce it, and the filings do not say which." },
+    { "label": "Promoter selling down", "status": "warn", "note": "Down about 2.3 points over three years to 63.62%, but flat for the last four quarters. Modest, not alarming." },
+    { "label": "Related-party extraction", "status": "na", "note": "Not assessed. The company sits inside a wider promoter ecosystem including Shuddhi Lifecare, and the related-party transaction note in the annual report has not been read for this write-up. Treat this line as unfinished work, not as a clean bill." },
+    { "label": "Earnings quality in the latest quarter", "status": "warn", "note": "Other income rose from ₹1.07 cr to ₹14.33 cr in Q1 FY27. Excluding that increase, profit before tax grew roughly 10% rather than 28%." }
+  ],
+  "sectorChecklist": [
+    { "label": "Bed occupancy", "status": "fail", "note": "About 53%, recovered from 38.4% in FY25, against an industry benchmark of 60% to 65%." },
+    { "label": "Operational beds", "status": "pass", "note": "Roughly 2,800 across 61 hospitals and 58 clinics, from 460 in FY23, with around 475 more in the pipeline." },
+    { "label": "Capex per bed", "status": "pass", "note": "Around ₹10 lakh on our arithmetic from ₹294 cr of fixed assets, far below acute-care economics. This is the source of the return on capital." },
+    { "label": "Payer mix", "status": "warn", "note": "Shifting deliberately from government panel to private and insurance. Better margin and realisation, but government panel revenue fell 67% year on year, which removes reported growth." },
+    { "label": "Days of receivables", "status": "pass", "note": "32 days, improved from 66. Unusually good for a healthcare provider." },
+    { "label": "Revenue per bed", "status": "pass", "note": "Rising as the network matures and the payer mix improves." },
+    { "label": "Accreditation and clinical governance", "status": "na", "note": "Not disclosed in the sources used here. For an Ayurvedic network the relevant standards differ from NABH, and this was not verified." }
+  ],
+  "summary": "The business is more interesting than its label. It is not really a hospital chain and it is not really an Ayurveda brand; it is a machine that acquires a patient once and sells to them twice, and the returns are the arithmetic of that structure rather than an accounting artefact, because the cash has arrived and the receivables have shortened. What a buyer underwrites is narrower than the business, though. It is a single question about whether the margin holds. Around that sit four things that are unresolved rather than negative: half-full beds with rising depreciation, a founder with no visible successor, a sector whose advertising rules could change, and a related-party note nobody has read closely in public.",
+  "scenario": {
+    "title": "What the margin is worth",
+    "intro": "Everything about this company reduces to one sensitivity, so it is worth pricing rather than arguing about. The table below holds revenue at management's own trajectory and varies only the operating margin.",
+    "assumptions": "FY27 revenue of ₹1,030 crore, taking the first quarter's 29% growth and applying it to FY26's ₹801 crore. Depreciation of ₹70 crore, extrapolated from ₹15.3 crore in the first quarter and rising. Interest of ₹15 crore. Tax at 25%. Other income is excluded on purpose, so the table answers the operating question and nothing else. Compared against FY26 reported profit of ₹222 crore and today's market value of ₹6,370 crore.",
+    "columns": ["44-45% target", "41% (Q1 FY27)", "36%", "30% (FY25)"],
+    "rows": [
+      { "label": "Operating profit (₹ cr)", "cells": ["464", "422", "371", "309"] },
+      { "label": "Net profit (₹ cr)", "cells": ["284", "253", "214", "168"] },
+      { "label": "Change vs FY26", "cells": ["+28%", "+14%", "-3%", "-24%"], "tone": "warn" },
+      { "label": "Implied P/E at today's price", "cells": ["22x", "25x", "30x", "38x"], "tone": "warn" }
+    ],
+    "takeaway": "Read the third row. Revenue can grow 29%, exactly as guided, and profit can still fall, if the margin drifts back to 36%. The margin print each quarter therefore matters more here than the revenue print.",
+    "bullSignals": [
+      "Operating margin holding at or above 41% across two or three consecutive quarters rather than one",
+      "Occupancy climbing through 60% while bed additions slow, so depreciation growth decelerates",
+      "Products growing faster than services, since products carry the gross margin",
+      "Operating cash flow continuing to exceed reported profit as the base gets larger"
+    ],
+    "bearSignals": [
+      "Margin sliding below 40% on a quarter with no one-time item to explain it",
+      "Other income continuing to supply a growing share of profit before tax",
+      "Depreciation growth outrunning revenue growth for consecutive quarters",
+      "Further foreign institutional selling alongside continued growth in the retail shareholder count",
+      "Any regulatory notice on advertising or therapeutic claims, whether or not it names this company"
+    ]
+  },
+  "engine": {
+    "state": "earnings-engine",
+    "earnings": "Running hard and decelerating at the same time. Profit compounded 88% a year over three years and rose 103% on a trailing basis, but the composition changed: FY26 leaned on margin rather than volume, and the first quarter of FY27 grew revenue 29% with margin down to 41%. There is real capacity still to fill, so volume can keep growing. The easy part of the margin move has already happened.",
+    "multiple": "Compressed steadily while the business grew, and that is the favourable half of this. Over three years the share price compounded 63% against 88% profit growth, so the multiple gave up roughly 13% a year, and it now sits at 26.9 times against a peer median nearer 21 times and a price to book of 13.6 times. From ₹850 the stock is down about 40%. The multiple is no longer heroic in absolute terms, but 13.6 times book is not cheap either, and the recent buyers of the compression have been individuals rather than institutions.",
+    "verdict": "One engine is clearly working and the other has stopped fighting it, which is the setup that usually pays. The reason to size this carefully anyway is that the earnings engine's recent power came from a margin the company itself has described as the ceiling, and a margin that only has to slip eight points to turn 29% revenue growth into flat profit. Watch the margin line before the revenue line."
+  },
+  "lenses": [
+    { "name": "Foreshock", "reading": "Active, and count it honestly. The first quarter of FY27 is the first quarter in this company's short public record where margin fell year on year and growth decelerated sharply, from 57% to 29%. That is slowdown number one, not number six. One quarter cannot establish a new margin trend. The next two or three prints carry more information than this one does." },
+    { "name": "Convergence pair", "reading": "Against Dabur the comparison is instructive rather than actionable. Dabur earns roughly ₹1,768 crore of profit on ₹12,563 crore of revenue; this company earns ₹222 crore on ₹801 crore. So Dabur is about eight times the profit, and its market value is far more than eight times larger. The gap reads as the market pricing Dabur's earnings as proven across decades and these as four years old." },
+    { "name": "Operator versus storyteller", "reading": "Operator, with one storyteller habit. The evidence for operator is capital allocation you can check: expansion funded from operating cash, debt kept at 0.27 times equity, a dividend started, and government revenue deliberately abandoned because the payment terms were bad. The storyteller habit is the medium-term target of ₹1,000 crore of profit, which is roughly four and a half times FY26 and is the kind of number that anchors a share price without committing anyone to anything." },
+    { "name": "ROCE and incremental returns", "reading": "Returns have stayed exceptionally high while the asset base expanded, with fixed assets going from ₹60 crore to ₹294 crore over three years and profit from ₹34 crore to ₹222 crore. Aggregates like these cannot produce a return on incremental capital, so read it as encouraging rather than as proof. The newest beds are also the least occupied, so the most recent tranche of spending is the least proven part of the record." },
+    { "name": "Caged bird", "reading": "The relevant question for the moat, and it points at regulation rather than competition. Patient loyalty here has been measured in an environment where nobody else offers an organised Ayurvedic clinical alternative and where the company can describe what its treatments do. Change the second condition through the advertising and claims regime and the funnel narrows regardless of how loyal the existing patients are. That is the flank the moat does not defend." },
+    { "name": "Forge or pyre", "reading": "Forge candidate, not yet proven. The stock is 40% below its high and within 4% of its 52-week low while trailing profit is up 103% and cash conversion is above 100%, which is the shape a staged-deployment framework looks for. What stops it being a confirmed forge is that the trailing numbers and the most recent quarter point in different directions, and several of the things that would settle it are unread rather than resolved." }
+  ],
+  "outlook": {
+    "intro": "Four areas, each with the facts that have already happened and then the question left open. None of it is a forecast.",
+    "areas": [
+      {
+        "title": "The margin",
+        "facts": [
+          "FY26 included roughly ₹21 crore of one-time provisions in the fourth quarter, so the underlying figure was higher than the reported 44%",
+          "Q1 FY27 printed 41.03%, against 45.19% a year earlier",
+          "The 44% to 45% figure is a management target, and has been achieved for one full year"
+        ],
+        "watch": "Does the margin settle in the low forties or drift toward the mid thirties over the next three prints? One quarter is noise. Three is a level."
+      },
+      {
+        "title": "The beds",
+        "facts": [
+          "Capacity went from 460 beds in FY23 to roughly 2,800 now, with around 475 more in the pipeline",
+          "Occupancy fell to 38.4% in FY25 and has recovered to about 53%",
+          "The hospital industry benchmark is 60% to 65%",
+          "Depreciation rose 59% year on year in Q1 FY27 to ₹15.3 crore"
+        ],
+        "watch": "Does occupancy cross 60% before the next tranche of beds opens? The order matters, because filling first and building second protects the margin, and the reverse compounds depreciation against it."
+      },
+      {
+        "title": "The mix",
+        "facts": [
+          "FY26 revenue split roughly ₹416 crore products and ₹385 crore services",
+          "Products carry around 85% gross margin",
+          "Government panel revenue fell 67% year on year in Q1 FY27, by choice",
+          "An over-the-counter pharmacy channel is being opened"
+        ],
+        "watch": "Can products keep growing faster than services once the government exit has washed through the base? Products are the margin, so the mix is the margin."
+      },
+      {
+        "title": "The register",
+        "facts": [
+          "Individual shareholders went from 5,967 in March 2025 to 43,413 in June 2026",
+          "Foreign holding fell from 6.17% in March 2026 to 4.78% in June 2026",
+          "Promoter holding has been flat at 63.62% for four quarters",
+          "The company moved from the NSE SME platform to the main boards in August 2025"
+        ],
+        "watch": "Does institutional holding stabilise now that the company is on the main board and reporting quarterly, or does the register keep shifting from professionals to individuals?"
+      }
+    ],
+    "loadingEngines": [
+      {
+        "name": "The unfilled beds",
+        "whatItIs": "Roughly 1,300 beds of headroom between about 53% occupancy and the 60% to 65% a hospital business normally runs at, plus another 475 beds in the pipeline.",
+        "notYetInPnL": "The capital is already spent and the depreciation is already running, so today's numbers carry the cost of this capacity without the revenue.",
+        "whenItLands": "FY27 to FY28, if the funnel fills them"
+      },
+      {
+        "name": "The over-the-counter pharmacy channel",
+        "whatItIs": "Selling the 330-plus product range outside the company's own hospitals and stores, which detaches product revenue from the clinic funnel for the first time.",
+        "notYetInPnL": "Announced as an expansion of the addressable market rather than reported as a revenue line.",
+        "whenItLands": "Not disclosed"
+      }
+    ],
+    "closer": "The margin line in the next two quarterly results answers most of this. Everything else is commentary until it prints."
+  }
+}
