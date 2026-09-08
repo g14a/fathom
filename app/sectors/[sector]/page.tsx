@@ -3,6 +3,7 @@ import type { PrimerBlock } from '@/lib/sectors';
 import { getCaseStudy, getAllCaseStudies } from '@/lib/caseStudies';
 import { getAllTickers, getReport, getAllReports } from '@/lib/data';
 import { getPatternForCaseStudy, patternPath } from '@/lib/patterns';
+import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { withBase, canonical } from '@/lib/base';
 import Connections from '@/components/Connections';
@@ -77,7 +78,8 @@ const ANATOMY = [
 
 export default async function SectorPage({ params }: { params: Promise<{ sector: string }> }) {
   const { sector } = await params;
-  const s = getSector(sector)!;
+  const s = getSector(sector);
+  if (!s) notFound();
 
   // Build FAQ schema from the beginnerQuestion if present
   const faqLd = s.beginnerQuestion ? {

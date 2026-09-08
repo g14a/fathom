@@ -8,6 +8,7 @@ import { getAllReports } from '@/lib/data';
 import { getSector } from '@/lib/sectors';
 import { getCaseStudy } from '@/lib/caseStudies';
 import { withBase, canonical } from '@/lib/base';
+import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 
 export function generateStaticParams() {
@@ -198,6 +199,52 @@ function renderEvidence(ev: import('@/lib/signals').SignalEvidence, key: React.K
   );
 }
 
+// A calculation written out as an equation. Fractions are a two-row flex column
+// with a rule between them, so the arithmetic reads the way it would on paper.
+function renderExpr(expr: import('@/lib/signals').SignalMathTerm[]) {
+  return (
+    <div className="sig-expr">
+            {expr.map((t, j) => {
+              if (t.kind === 'frac') {
+                return (
+                  <span key={j} className="sig-frac">
+                    <span className="sig-frac-num">{t.num}{t.numExp && <sup>{t.numExp}</sup>}</span>
+                    <span className="sig-frac-den">{t.den}{t.denExp && <sup>{t.denExp}</sup>}</span>
+                  </span>
+                );
+              }
+              if (t.kind === 'pow') {
+                return <span key={j} className="sig-expr-t">{t.value}<sup>{t.exp}</sup></span>;
+              }
+              const cls = t.kind === 'op' ? 'sig-expr-op' : t.kind === 'result' ? 'sig-expr-res' : 'sig-expr-t';
+              return <span key={j} className={cls}>{t.value}</span>;
+            })}
+    </div>
+  );
+}
+
+function renderMath(formulas: import('@/lib/signals').SignalFormula[], key: React.Key) {
+  return (
+    <div key={key} className="sig-math">
+      {formulas.map((f, i) => (
+        <div key={i} className="sig-formula">
+          {f.label && <div className="sig-formula-label">{f.label}</div>}
+          {f.lead && <p className="sig-formula-lead">{inline(f.lead)}</p>}
+          {f.exprCaption && <div className="sig-expr-cap">{f.exprCaption}</div>}
+          {renderExpr(f.expr)}
+          {f.lines?.map((l, k) => (
+            <div key={k} className="sig-expr-more">
+              {l.caption && <div className="sig-expr-cap">{l.caption}</div>}
+              {renderExpr(l.expr)}
+            </div>
+          ))}
+          {f.note && <p className="sig-formula-note">{inline(f.note)}</p>}
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function renderFanout(f: import('@/lib/signals').SignalFanout, key: React.Key) {
   return (
     <div key={key} className="sig-fanout">
@@ -254,7 +301,8 @@ function renderChain(chain: string[], title: string | undefined, key: React.Key)
 
 export default async function SignalPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const s = getSignal(id)!;
+  const s = getSignal(id);
+  if (!s) notFound();
 
   const relSectors = (s.relatedSectors ?? []).map((sid) => getSector(sid)).filter(Boolean);
   const relCases = (s.relatedCaseStudies ?? []).map((cid) => getCaseStudy(cid)).filter(Boolean);
@@ -430,6 +478,7 @@ export default async function SignalPage({ params }: { params: Promise<{ id: str
                     </table>
                   </div>
                 )}
+                {sec.math && sec.math.length > 0 && renderMath(sec.math, `m-${si}`)}
                 {sec.image && (
                   <figure className="sig-figure">
                     <img src={withBase(sec.image.src)} alt={sec.image.alt} loading="lazy" />

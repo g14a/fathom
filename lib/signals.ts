@@ -15,6 +15,32 @@ export interface SignalActor {
   when?: 'immediate' | 'delayed' | 'long-term';
 }
 
+// A worked calculation, shown as an equation rather than buried in a sentence.
+// `frac` stacks a numerator over a denominator with a rule between, so the reader
+// sees which figure went where. Everything renders from CSS; there is no math engine.
+export interface SignalMathTerm {
+  kind: 'text' | 'op' | 'result' | 'frac' | 'pow';
+  value?: string; // text, op and result
+  num?: string;    // frac only
+  den?: string;    // frac only
+  numExp?: string; // frac only: superscript on the numerator
+  denExp?: string; // frac only: superscript on the denominator
+  exp?: string;    // pow only: the superscript
+}
+
+export interface SignalFormula {
+  label?: string;
+  // A sentence in plain words above the equation, saying what it is about to
+  // show. The note under the equation says what the answer means.
+  lead?: string;
+  exprCaption?: string;
+  expr: SignalMathTerm[];
+  // Further equations shown inside the same box, for the same sum run on a
+  // second window or a second assumption. Each may carry its own small caption.
+  lines?: { caption?: string; expr: SignalMathTerm[] }[];
+  note?: string;
+}
+
 export interface SignalSection {
   heading: string;
   body: string[];
@@ -26,6 +52,8 @@ export interface SignalSection {
   table?: { columns: string[]; rows: string[][] };
   // A short numbered stage flow (rendered like the chain) when diagram is 'flow'.
   flow?: string[];
+  // Worked calculations, rendered as equations after the table.
+  math?: SignalFormula[];
 }
 
 // One curated research thread: a bottleneck, and the internal pages that follow

@@ -1,6 +1,7 @@
 import { getAllCaseStudies, getCaseStudy } from '@/lib/caseStudies';
 import { getSector } from '@/lib/sectors';
 import { getPatternForCaseStudy, patternPath } from '@/lib/patterns';
+import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { withBase, canonical, formatDate } from '@/lib/base';
 import Connections from '@/components/Connections';
@@ -1066,7 +1067,10 @@ function renderDiagram(id: string): React.ReactNode {
 
 export default async function CaseStudyPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const c = getCaseStudy(id)!;
+  const found = getCaseStudy(id);
+  if (!found) notFound();
+  // Rebind so the narrowing survives into the nested render helpers below.
+  const c = found;
   const ownPattern = getPatternForCaseStudy(c.id);
 
   const articleLd = {
