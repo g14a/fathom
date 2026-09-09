@@ -1,0 +1,559 @@
+{
+ "title": "What Growth Does This Price Need?",
+ "kind": "Primer",
+ "kindLabel": "The check, part two",
+ "dateline": "Sep 2026",
+ "published": "2026-09-09",
+ "tags": [
+  "Two engines",
+  "Valuation",
+  "Reverse valuation",
+  "Bought growth",
+  "Worked example"
+ ],
+ "summary": "You have found a company you like and you know what return you want. Three calculations later you know whether to keep reading or close the tab. Run start to finish on a good business at a hard price.",
+ "seoTitle": "Reverse Valuation in Three Steps: What Growth Does the Price Require?",
+ "seoDescription": "Take a company you already rate, name the return you want, and work backwards to the profit growth and revenue the share price is quietly demanding. Worked end to end on Shriram Pistons.",
+ "event": [
+  "[The first part of this check](/signals/are-the-engines-in-your-favour/) taught the seven questions and the three calculations. This one skips the teaching and just runs them, because you are usually not starting from a blank page. You are starting from a company somebody mentioned, or one that came out of a screen, and a number in your head about what you want to earn.",
+  "So start there. Say you have found Shriram Pistons, now renamed SPR Auto Technologies. Sales have risen every year for a decade. It earns 21% on the money shareholders put in. Almost all the profit turns into real cash. It has spare cash left over after spending on the factory, five years running. By every quality test in part one, this is a real business.",
+  "You want 15% a year for five years. That is the whole setup. Nothing below is about whether the company is good. It is about what the price is already asking it to do."
+ ],
+ "trigger": "The share price has already made a growth forecast. Your job is to read it, not to make your own.",
+ "triggerLabel": "The one move",
+ "triggerBody": [
+  "This is the only idea in the piece. A multiple is not an opinion about whether a share is dear or cheap. It is a growth forecast, folded up small. Unfold it and you get a number you can hold against what the company has actually done.",
+  "Shriram Pistons costs ₹4,511 a share and earned ₹127.94 a share last year, so you are paying 35.3 years of current profit. The whole company is worth ₹20,924 crore, made ₹575 crore of profit and sold ₹4,970 crore of goods. Those four numbers are all you need."
+ ],
+ "mentalModels": [
+  {
+   "name": "The price is a forecast",
+   "why": "Every multiple has a growth rate hidden inside it. Get that number out before you argue about whether 35 times is too much, because too much compared with what is the only question that matters."
+  },
+  {
+   "name": "Bought growth and earned growth",
+   "why": "Revenue bought with debt arrives in full on day one. The profit arrives only if the acquired business earns more than the borrowing costs. So the two lines separate, and the gap tells you which kind of growth you are looking at."
+  },
+  {
+   "name": "Growth has two sources and only one repeats",
+   "why": "Profit growth is revenue growth multiplied by margin expansion. Revenue can compound for decades. A margin that has already tripled cannot triple again."
+  },
+  {
+   "name": "The base year chooses the answer",
+   "why": "Taught in [part one](/signals/are-the-engines-in-your-favour/) and worth repeating because here it runs backwards. On this company the flattering number is the long window and the honest one is the most recent."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Step one, and it nearly finishes the job",
+   "body": [
+    "Before touching any growth rates, ask what the price needs from you. You want 15% a year. You are paying 35.3 times profit. The only other thing to decide is what multiple you expect to sell at. Pick one, and there is only one growth rate that works. You do not choose it, the arithmetic hands it to you.",
+    "Now put the company's actual profit growth over the last twelve months beside it: 11%.",
+    "Read the top row first, because it is the simplest case. If the multiple is the same when you sell as when you bought, your return is just the profit growth. The company grows 11% a year, you get 11% a year. It grows 15%, you get 15%. Nothing else happens.",
+    "So wanting 15% while the company grows 11% is not a small gap you can shrug at. At an unchanged multiple those are the same sentence: the company must grow 15% for you to get 15%. And that is the friendliest row on the table. Every row below it assumes the market pays less in 2031 than it does today, and the profit then has to make up the difference as well."
+   ],
+   "table": {
+    "columns": [
+     "If the multiple in 2031 is",
+     "Profit must grow",
+     "Against last year's rate of"
+    ],
+    "rows": [
+     [
+      "35.3 times, unchanged",
+      "15.0% a year",
+      "11%"
+     ],
+     [
+      "30 times",
+      "18.8% a year",
+      "11%"
+     ],
+     [
+      "25 times",
+      "23.2% a year",
+      "11%"
+     ],
+     [
+      "20 times",
+      "28.8% a year",
+      "11%"
+     ],
+     [
+      "15 times",
+      "36.5% a year",
+      "11%"
+     ]
+    ]
+   },
+   "math": [
+    {
+     "label": "The only formula in this piece",
+     "lead": "The return you want, adjusted for whatever the multiple does on the way.",
+     "expr": [
+      {
+       "kind": "text",
+       "value": "Growth needed"
+      },
+      {
+       "kind": "op",
+       "value": "="
+      },
+      {
+       "kind": "text",
+       "value": "1.15"
+      },
+      {
+       "kind": "op",
+       "value": "×"
+      },
+      {
+       "kind": "pow",
+       "value": "(35.3 ÷ 20)",
+       "exp": "1/5"
+      },
+      {
+       "kind": "op",
+       "value": "−"
+      },
+      {
+       "kind": "text",
+       "value": "1"
+      },
+      {
+       "kind": "op",
+       "value": "="
+      },
+      {
+       "kind": "result",
+       "value": "28.8%"
+      }
+     ],
+     "note": "In words: if you want 15% a year for five years, you are paying 35.3 times profit today, and the market pays 20 times on the day you sell, then profit has to grow 28.8% every year for those five years. Put any other exit multiple where the 20 is and you get the rest of the table above. The root matches how long you hold: five years is a fifth root, ten years is a tenth root. The next section takes that apart."
+    }
+   ]
+  },
+  {
+   "heading": "What the multiple actually is",
+   "body": [
+    "Worth being exact about this, because it is easy to read that table as the market paying the company more or less money. It is not. When you buy a share your money goes to whoever sold it to you. The company sees none of it. Nothing in that table is cash changing hands with Shriram Pistons.",
+    "A multiple is only this: how many years of current profit other investors will hand over to own a claim on it. Today they hand over 35.3 years. The table is asking what they will hand over in 2031.",
+    "So the table is not saying the market underpays the company. It is saying that the less the next buyer will hand over, the more the business itself has to be earning by then for your 15% to work. Here is that idea as a shop, one step at a time, and it lands on exactly the same number."
+   ],
+   "diagram": "flow",
+   "flow": [
+    "A shop earns ₹1 lakh a year. You buy it at 35.3 times that profit, so you pay ₹35.3 lakh.",
+    "That ₹35.3 lakh goes to the person who sold you the shop. The shop's own bank account does not change by a rupee. It has the same tills, the same stock, the same customers as yesterday.",
+    "You want 15% a year. Grow ₹35.3 lakh at 15% for five years, so multiply it by 1.15 five times over, and you need ₹71 lakh back when you sell. That ₹71 lakh is fixed now. It is what you are asking for and it does not move.",
+    "In five years you sell. What the next buyer pays depends on two things and only two: what the shop is earning by then, and how many years of that profit they are willing to hand over.",
+    "Suppose they will hand over 20 years of profit, not the 35.3 you paid. They still have to write you a cheque for ₹71 lakh, because that is what you need. So 20 times the shop's yearly profit must come to ₹71 lakh.",
+    "Divide ₹71 lakh by 20 and the shop has to be earning ₹3.55 lakh a year. Their cheque is 20 × ₹3.55 lakh = ₹71 lakh.",
+    "The shop went from ₹1 lakh to ₹3.55 lakh, three and a half times bigger, in five years. That is 28.8% a year. The same number the formula gave.",
+    "Now change one thing. If the next buyer hands over the same 35.3 years you did, the shop only needs to earn ₹2.01 lakh, because 35.3 × ₹2.01 lakh is also ₹71 lakh. That is 15% a year of growth. Same cheque, same five years, same shop. Only the number of years of profit the buyer was willing to pay changed."
+   ]
+  },
+  {
+   "heading": "Where the fifth root comes from",
+   "body": [
+    "That formula has one step in it worth slowing down for, because it is the step people skip.",
+    "Profit growth is a rate per year. Grow 11% a year and after five years you multiply by 1.11 five times over. A multiple falling is not like that. Going from 35.3 times to 20 times is one fall of 43%, spread across the whole five years. It is not 43% a year.",
+    "You cannot take a one-time fall away from a per-year rate. So you convert it. Spread that 43% evenly across five years and it comes to 10.7% a year. That is what the fifth root does, and nothing else.",
+    "Now both numbers are per-year and you can put them together. You want 15% a year. The multiple is taking 10.7% a year off you. So the profit has to cover both: 1.15 divided by 0.893 is 1.288, which is the same 28.8% the formula gave.",
+    "Read the last column as the price of your exit assumption. Assuming the market still pays 35 times in 2031 costs you nothing and is the reason that row looks so easy. Every other row charges you for the multiple coming down.",
+    "One more thing comes out of this, and it is the useful part. The root matches how long you hold. Hold ten years and it is a tenth root, which spreads that same fall from 35.3 to 20 across twice as many years. The drag halves to 5.5% a year and the growth you need drops from 28.8% to 21.7%. Hold three years and it is a cube root, the drag jumps to 17.3% a year, and you need 39%.",
+    "So the shorter your horizon, the more of your return the market has to hand you, and the longer it is, the more the business has to earn. Same company, same price, same 15% wanted. Only the holding period changed."
+   ],
+   "table": {
+    "columns": [
+     "If you exit at",
+     "The multiple falls",
+     "Which per year is",
+     "So profit must grow"
+    ],
+    "rows": [
+     [
+      "35.3 times, unchanged",
+      "0%",
+      "0.0%",
+      "15.0% a year"
+     ],
+     [
+      "30 times",
+      "-15%",
+      "-3.2%",
+      "18.8% a year"
+     ],
+     [
+      "25 times",
+      "-29%",
+      "-6.7%",
+      "23.2% a year"
+     ],
+     [
+      "20 times",
+      "-43%",
+      "-10.7%",
+      "28.8% a year"
+     ],
+     [
+      "15 times",
+      "-58%",
+      "-15.7%",
+      "36.5% a year"
+     ]
+    ]
+   },
+   "math": [
+    {
+     "label": "The identity, five years on",
+     "lead": "Stretch that same line over five years and the fifth root has to appear.",
+     "lines": [
+      {
+       "caption": "Your return over five years is the profit growth compounded, times whatever the multiple did",
+       "expr": [
+        {
+         "kind": "pow",
+         "value": "(1 + return)",
+         "exp": "5"
+        },
+        {
+         "kind": "op",
+         "value": "="
+        },
+        {
+         "kind": "pow",
+         "value": "(1 + growth)",
+         "exp": "5"
+        },
+        {
+         "kind": "op",
+         "value": "×"
+        },
+        {
+         "kind": "frac",
+         "num": "Exit multiple",
+         "den": "Entry multiple"
+        }
+       ]
+      },
+      {
+       "caption": "Take the fifth root of both sides and every term is a rate per year",
+       "expr": [
+        {
+         "kind": "text",
+         "value": "1 + return"
+        },
+        {
+         "kind": "op",
+         "value": "="
+        },
+        {
+         "kind": "text",
+         "value": "(1 + growth)"
+        },
+        {
+         "kind": "op",
+         "value": "×"
+        },
+        {
+         "kind": "pow",
+         "value": "(Exit ÷ Entry)",
+         "exp": "1/5"
+        }
+       ]
+      }
+     ],
+     "note": "The exponent is simply one over the number of years you hold. Five years gives one fifth, ten years gives one tenth. Nothing else in the calculation changes.",
+     "exprCaption": "Price equals profit times the multiple, the identity from part one",
+     "expr": [
+      {
+       "kind": "text",
+       "value": "Price"
+      },
+      {
+       "kind": "op",
+       "value": "="
+      },
+      {
+       "kind": "text",
+       "value": "Profit"
+      },
+      {
+       "kind": "op",
+       "value": "×"
+      },
+      {
+       "kind": "text",
+       "value": "Multiple"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "So which growth rate is the right one?",
+   "body": [
+    "The screener page gives you four, and on this company they disagree violently. Profit grew 20% a year over ten years, 45% over five, 25% over three, and 11% over the last twelve months. Same company, four answers, because each one starts counting in a different year.",
+    "Notice which way that runs. In most cheap-looking companies the recent numbers flatter and the long ones tell the truth. Here it is reversed. The five-year figure starts in FY21, a covid-distorted base when profit was ₹89 crore. The 11% trailing figure is the least flattering of the four, and also the cleanest read on where earnings are now.",
+    "Run each forward and pair it with an exit multiple. The last three columns are what you earn a year, for five years, at ₹4,511 a share. Note the first of those columns: when the multiple does not move, your return is the growth rate, exactly. The other two columns are what it costs you when the market pays less than it does today."
+   ],
+   "table": {
+    "columns": [
+     "Growth window",
+     "Rate",
+     "Profit in 2031",
+     "You earn, exit 35.3x",
+     "You earn, exit 25x",
+     "You earn, exit 20x"
+    ],
+    "rows": [
+     [
+      "Last twelve months",
+      "11%",
+      "₹969 crore",
+      "+11%",
+      "+4%",
+      "-1%"
+     ],
+     [
+      "Three years",
+      "25%",
+      "₹1,755 crore",
+      "+25%",
+      "+17%",
+      "+12%"
+     ],
+     [
+      "Ten years",
+      "20%",
+      "₹1,431 crore",
+      "+20%",
+      "+12%",
+      "+7%"
+     ],
+     [
+      "Five years, distorted base",
+      "45%",
+      "₹3,686 crore",
+      "+45%",
+      "+35%",
+      "+29%"
+     ]
+    ]
+   }
+  },
+  {
+   "heading": "Why revenue grew 35% and profit grew 11%",
+   "body": [
+    "Those two numbers cover the same twelve months and they should not be that far apart. When they are, somebody paid for the difference, and the balance sheet says who.",
+    "Borrowings rose from ₹508 crore to ₹1,968 crore during FY26. The company was buying: majority stakes in EMF Innovations and Takahata Precision India, then TGPEL Precision Engineering for ₹220 crore in May 2026. Bought sales arrive whole and immediately. Bought profit arrives late, partly, or never.",
+    "The June 2026 quarter shows the gap. Sales ₹1,474 crore against ₹963 crore, up 53%. Profit ₹148 crore against ₹135 crore, up 9.6%. Operating margin 18%, down from 20%. So last year's sales growth is not profit growth yet, and you cannot use it as if it were."
+   ]
+  },
+  {
+   "heading": "Growth has two sources, and only one of them repeats",
+   "body": [
+    "One sum settles which of the four to carry forward. Over eleven years sales grew 13.4% a year. Over the same stretch the company kept more of each rupee of sales as profit, going from 4.6 paise to 11.6 paise, which is 8.8% a year of improvement. Multiply the two and you get the 23.4% the profit line actually did.",
+    "Sales can keep compounding for decades. But going from 4.6 paise to 11.6 paise cannot happen twice. There is far less room left in that half of the sum, so the rate to carry forward looks more like the sales rate than the old profit rate."
+   ],
+   "table": {
+    "columns": [
+     "Eleven years, FY15 to trailing",
+     "From",
+     "To",
+     "A year"
+    ],
+    "rows": [
+     [
+      "Revenue",
+      "₹1,244 crore",
+      "₹4,970 crore",
+      "13.4%"
+     ],
+     [
+      "Net margin",
+      "4.6%",
+      "11.6%",
+      "8.8%"
+     ],
+     [
+      "Profit, which is the two multiplied",
+      "₹57 crore",
+      "₹575 crore",
+      "23.4%"
+     ]
+    ]
+   }
+  },
+  {
+   "heading": "The revenue each row is actually asking for",
+   "body": [
+    "Turn each growth rate into sales and it stops being an opinion. Keep the company holding on to 11.6 paise of every rupee, which already assumes the recent squeeze stops, and every profit figure in the table turns into a sales figure.",
+    "The bottom two rows want an auto components maker to grow revenue three to six times in five years, against 13.4% a year for the last eleven. The top row is entirely achievable and pays 10% at an unchanged multiple, less than nothing at 20 times."
+   ],
+   "table": {
+    "columns": [
+     "Growth window",
+     "Profit in 2031",
+     "Revenue it must earn",
+     "Versus today",
+     "Revenue growth needed"
+    ],
+    "rows": [
+     [
+      "Last twelve months, 11%",
+      "₹969 crore",
+      "₹8,382 crore",
+      "1.7 times",
+      "11% a year"
+     ],
+     [
+      "Ten years, 20%",
+      "₹1,431 crore",
+      "₹12,377 crore",
+      "2.5 times",
+      "20% a year"
+     ],
+     [
+      "Three years, 25%",
+      "₹1,755 crore",
+      "₹15,180 crore",
+      "3.1 times",
+      "25% a year"
+     ],
+     [
+      "Five years, 45%",
+      "₹3,686 crore",
+      "₹31,882 crore",
+      "6.4 times",
+      "45% a year"
+     ]
+    ]
+   }
+  },
+  {
+   "heading": "The row it can hit pays the least",
+   "body": [
+    "That is the finding, and it is not a criticism of the company.",
+    "Take the simplest forward case. Sales keep their eleven-year pace of 13.4% and the company holds on to 11.6 paise of every rupee rather than less. Profit reaches ₹1,079 crore by 2031, which would be a good outcome for an auto components business.",
+    "That profit is the same in every row below. The only thing changing is what the next buyer is willing to pay for it.",
+    "The business does well and the return still falls short, because the price was paid for a better version of the future than the record supports."
+   ],
+   "table": {
+    "columns": [
+     "If you exit at",
+     "35.3 times, unchanged",
+     "30 times",
+     "25 times",
+     "20 times"
+    ],
+    "rows": [
+     [
+      "You earn",
+      "+13.4% a year",
+      "+9.8% a year",
+      "+5.9% a year",
+      "+1.3% a year"
+     ]
+    ]
+   }
+  },
+  {
+   "heading": "The case on the other side, which is real",
+   "body": [
+    "Three acquisitions closed recently and none has been owned for a full year. Electric vehicle motors and controllers, precision moulding, car interiors. If those businesses grow and start earning what the parent earns, today's squeezed margin is a start-up cost rather than the new normal. The profit line then catches up with the sales line.",
+    "That is a fair reading and the numbers cannot rule it out yet. Big investors are on that side of it: foreign funds went from 5.9% to 8.4% of the company over five quarters, Indian funds from 13.3% to 16.0%.",
+    "Two facts sit against them. Promoter holding fell from 46.8% to 41.5% over twelve quarters, including 2.2 points in the most recent one. And whichever reading is right, step one does not move. At 35.3 times you need 15.2% profit growth just to get 15%, with the multiple frozen. The acquisitions have to deliver that on top of a share price already up 65% in a year while profit rose 11%."
+   ]
+  },
+  {
+   "heading": "What you have actually decided",
+   "body": [
+    "None of this ruled the company out. It replaced a feeling with a claim you can check.",
+    "The claim: even if the market still pays 35 times profit in 2031, which is the kindest assumption available, Shriram Pistons has to grow profit 15.2% a year. That means about ₹1,170 crore of profit and ₹10,100 crore of sales by 2031, from a company that has grown sales 13.4% a year for eleven years. Every number in that sentence is published every quarter.",
+    "Good business. Demanding price. Two different questions, and only the second one was ever in doubt."
+   ]
+  }
+ ],
+ "ignore": [
+  "The trailing sales growth number on its own. Revenue bought with debt looks identical to revenue that was earned.",
+  "Any growth rate measured from FY21, on any company. It was a covid year.",
+  "A rising share price as evidence about the business. Here it rose 65% while profit rose 11%, so much of that increase came from the multiple expanding."
+ ],
+ "focus": [
+  "Profit growth against sales growth each quarter. Does profit catch up as the acquisitions mature, or does the gap persist?",
+  "Net margin against today's 11.6%. Holding, expanding, or still falling?",
+  "How much of the next ₹1,000 crore of revenue is organic rather than acquired.",
+  "Whether the ₹1,968 crore of borrowings starts producing enough incremental profit to cover its cost.",
+  "The growth the price needs, recomputed after each result. It falls as the entry multiple falls."
+ ],
+ "questionsTitle": "The three questions, in order",
+ "questionsIntro": "The method works on any company in about ten minutes. Shriram Pistons is only the specimen.",
+ "questions": [
+  "What growth does this price need for the return I want, at an exit multiple lower than today's?",
+  "Which of the four growth windows is measured from a normal year, and what does that one say?",
+  "What revenue does each rate require by the exit year, and has this company or its industry ever produced that?",
+  "If sales growth and profit growth have separated, who paid for the difference?",
+  "How much of the historical profit growth was revenue and how much was margin, and how much margin is left?"
+ ],
+ "historyRhymes": [
+  {
+   "event": "A good business whose price already contains the good news",
+   "similar": "Lupin in part one, where a low multiple was measuring earnings that were about to fall",
+   "model": "The multiple carries a claim about the future in both directions. High or low, work out what growth it assumes before you argue with it."
+  },
+  {
+   "event": "Revenue growing far faster than profit after acquisitions",
+   "similar": "Every roll-up in its second year, before the integration shows up",
+   "model": "Bought revenue arrives whole and immediately. Bought profit arrives late, partly, or never."
+  },
+  {
+   "event": "A decade of profit growth built on margin expansion",
+   "similar": "Any manufacturer whose net margin tripled off a low base",
+   "model": "Volume can compound forever. Margin has a ceiling, and the closer you are to it the more the forward rate looks like the revenue rate."
+  }
+ ],
+ "yourTurn": {
+  "prompt": "A capital goods company trades at 42 times earnings. Profit growth reads 28% over ten years, 55% over five, 31% over three and 6% over the last twelve months. Revenue grew 40% last year. Borrowings tripled in the same year. You want 18% a year for five years and you think the market will pay 25 times in 2031.",
+  "questions": [
+   "What profit growth does the price need at a 25 times exit, and how does it compare with what the company grew last year?",
+   "Which of the four growth windows would you carry forward, and why not the 55%?",
+   "Revenue grew 40% and profit grew 6%. What is the first page of the accounts you open?",
+   "What would have to be true for the 31% three-year rate to repeat?"
+  ],
+  "reveal": [
+   "1.18 times 42 over 25, all to the power of one fifth, minus one. That is about 30% a year, against 6% being delivered. The gap is the decision and you reached it in one line.",
+   "The trailing 6%, unless you can show the five-year window does not start in a distorted year. A 55% rate that survives no scrutiny is worse than useless, because it is quotable.",
+   "Borrowings. Revenue that outruns profit by thirty-four points in a year was usually bought, and the balance sheet says with what.",
+   "Split the 31% into revenue growth and margin expansion. If most of it was margin and the margin is now near a historical high, the rate cannot repeat by the same route, and you need the revenue to do work it has never done."
+  ]
+ },
+ "relatedSectors": [
+  "auto"
+ ],
+ "relatedCaseStudies": [
+  "the-pe-paradox-why-multiples-rise-when-earnings-fall",
+  "cupid-the-rerating-machine-2023-2026"
+ ],
+ "sources": [
+  {
+   "label": "Screener: Shriram Pistons and Rings consolidated financials",
+   "url": "https://www.screener.in/company/SHRIPISTON/consolidated/"
+  },
+  {
+   "label": "SPR Auto Technologies (formerly Shriram Pistons and Rings)",
+   "url": "https://shrirampistons.com/"
+  },
+  {
+   "label": "Shriram Pistons and Rings to acquire 100% of TGPEL Precision Engineering",
+   "url": "https://autocomponentsindia.com/shriram-pistons-rings-limited-to-acquire-100-shareholding-in-tgpel-precision-engineering-limited/"
+  },
+  {
+   "label": "Acquisition announcement filed with the NSE, 11 May 2026",
+   "url": "https://nsearchives.nseindia.com/corporate/SHRIPISTON_11052026225716_SEINTIMATIONPRESSRELEASE11052026.pdf"
+  }
+ ],
+ "lessonLabel": "What the check is for",
+ "lesson": "You need the multiple, the return you want, and an exit multiple you are willing to name. Those three give you the growth the price requires. Then compare that requirement with the company's cleanest historical growth rate, and translate it into a revenue figure with a date on it. On Shriram Pistons the cleanest rate is achievable and does not deliver 15%. The business is not the problem. The price is asking for a better future than the record currently supports.",
+ "remember": "A multiple is a growth forecast somebody else already made. Read it before you decide whether you agree with it."
+}

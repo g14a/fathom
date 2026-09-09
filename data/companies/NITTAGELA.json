@@ -1,0 +1,716 @@
+{
+  "ticker": "NITTAGELA",
+  "company": "Nitta Gelatin India Ltd",
+  "sector": "Commodities",
+  "industry": "Specialty Chemicals",
+  "sectorId": "chemicals",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-09-09",
+  "oneLiner": "Sales have grown at roughly 5% a year over a decade while net profit went from a ₹4 crore loss to ₹97 crore, because every rupee of that came from margin rather than from selling more. The margin is made of crushed animal bone and Kerala river water, and the neighbours have been trying to shut the plant since 2013.",
+  "facts": {
+    "snapshot": "Nitta Gelatin India buys crushed animal bone, extracts a protein from it called ossein, and refines that into gelatin for medicine capsules and food, collagen peptide for health supplements, and dicalcium phosphate for poultry feed. More than 60% of what it makes is exported to over 35 countries.",
+    "founded": "1975",
+    "hq": "Kochi, Kerala"
+  },
+  "verdict": {
+    "rows": [
+      {
+        "label": "Business",
+        "value": "Bone refining, real chemistry",
+        "tone": "good"
+      },
+      {
+        "label": "Sales growth",
+        "value": "5% a year over a decade",
+        "tone": "bad"
+      },
+      {
+        "label": "Margins",
+        "value": "7% to 24%, and volatile",
+        "tone": "warn"
+      },
+      {
+        "label": "Balance sheet",
+        "value": "Effectively debt free",
+        "tone": "good"
+      },
+      {
+        "label": "Cash",
+        "value": "Profit turns into cash",
+        "tone": "good"
+      },
+      {
+        "label": "Licence to operate",
+        "value": "Contested since 2013",
+        "tone": "bad"
+      },
+      {
+        "label": "Ownership",
+        "value": "74.5% with two non-sellers",
+        "tone": "warn"
+      },
+      {
+        "label": "Valuation",
+        "value": "About 15 times earnings",
+        "tone": "good"
+      }
+    ],
+    "keyQuestion": "Profit has nearly tripled since FY22 on revenue that has barely moved, so all of it is margin. Is a 24% operating margin the new normal for a business that lived on 10% for its first forty years, or is this the good part of a bone and gelatin price cycle that you are being invited to capitalise at the top?"
+  },
+  "overview": "Start with what actually arrives at the gate: bone. Nitta Gelatin buys crushed animal bone, soaks it in hydrochloric acid to strip away the mineral, and is left with a protein scaffold called ossein. Refine the ossein and you get gelatin, the stuff that makes a medicine capsule hold its shape and a dessert set. Break the gelatin into smaller pieces and you get collagen peptide, which is sold as a supplement for joints and skin. What is left of the mineral becomes dicalcium phosphate, which goes into chicken feed. Nothing is wasted, which is the point of the business.\n\nThe company was set up in 1975 as a joint venture between a Japanese gelatin maker in Osaka and the Kerala state government's industrial development arm, and that unusual pairing still owns three quarters of it today. Two plants sit in Kerala, one in Maharashtra and one in Gujarat. More than 60% of production leaves the country, mostly to Japan, the United States, Canada and Europe, which makes this a small Indian exporter of a food and pharmaceutical ingredient rather than a domestic consumer story.\n\nHere is the tension you are buying. Over the last eleven years revenue went from about ₹354 crore to ₹588 crore, roughly 5% a year. Over the same stretch net profit went from a loss of ₹4 crore to ₹97 crore. Sales barely moved and profit did not, so the entire story sits in one line of the accounts: the operating margin.",
+  "editorial": {
+    "realBusiness": "A refinery for other people's leftovers. It buys a slaughterhouse by-product and sells purified protein into pharmaceuticals, food and supplements.",
+    "whyExists": "Somebody has to turn bone into pharmaceutical-grade gelatin, and it is unpleasant, capital-hungry, chemically fussy work that sits between two industries nobody wants to visit. Slaughterhouses have a waste problem. Drug companies need a shell for their capsules that dissolves at body temperature and passes regulatory audit in Japan, the United States and Europe. Nitta stands in the middle, takes the mess in at one end and sends a certified white powder out the other. The gap between what bone costs and what audited gelatin fetches is the entire business.",
+    "whyNotAlreadyWon": "Because gelatin is genuinely hard to enter and genuinely hard to grow. To sell gelatin into a Japanese or American pharmaceutical supply chain you need years of audits, traceability on where every bone came from, and a plant that has passed inspection repeatedly. That keeps casual competitors out. But the same conditions cap you: you can only process the bone you can source, only with the water and effluent permission you can hold, and only at the price a global commodity market sets. The barrier that keeps others out also keeps Nitta in.",
+    "mentalModels": [
+      {
+        "model": "Toll booth or restaurant",
+        "assessment": "Somewhere in between",
+        "assessmentTone": "warn",
+        "why": "The pharmaceutical audits and the Japanese parent's customer list give it something a new entrant cannot copy quickly. But it does not set the price of gelatin, and its input is a commodity it does not control. It collects a spread rather than a toll."
+      },
+      {
+        "model": "Pricing power",
+        "assessment": "Weak",
+        "assessmentTone": "bad",
+        "why": "Gelatin exports fell in FY26 because American tariffs made customers nervous about supply, not because Nitta chose to sell less. When a tariff on the other side of the world moves your volume, you are a price taker."
+      },
+      {
+        "model": "Capital allocation",
+        "assessment": "Good",
+        "assessmentTone": "good",
+        "why": "Borrowings went from ₹109 crore in FY17 to ₹4 crore in FY26, paid down from operating cash rather than from a share issue. Then FY26 went into capacity: about ₹50 crore of fixed-asset purchases against ₹16 crore of depreciation, and the collagen peptide line was more than doubled."
+      },
+      {
+        "model": "The referee, return on capital",
+        "assessment": "Strong but recent",
+        "assessmentTone": "warn",
+        "why": "Return on capital employed ran at 6% to 14% from FY15 to FY21, then jumped to 33% and 35% in FY23 and FY24 before settling near 28%. That is a genuine step change, and it is only about four years old."
+      },
+      {
+        "model": "Licence to operate",
+        "assessment": "High risk",
+        "assessmentTone": "bad",
+        "why": "The Kathikudam ossein plant has faced organised local opposition for over a decade, a National Green Tribunal petition filed in 2013, and an action council that has blocked its water supply. That is a regulatory and social-licence exposure that never appears in the financial statements."
+      },
+      {
+        "model": "Owner alignment",
+        "assessment": "Unusual",
+        "assessmentTone": "warn",
+        "why": "The controlling block is a Japanese industrial parent and a state government development corporation. Neither is likely to sell, neither is likely to push for a re-rating, and between them they leave a quarter of the company floating."
+      }
+    ],
+    "economicEngine": [
+      {
+        "label": "Input",
+        "value": "Crushed animal bone",
+        "note": "Bought from renderers, a commodity Nitta does not control"
+      },
+      {
+        "label": "Process",
+        "value": "Acid, water, time",
+        "note": "Ossein first, then gelatin, then peptide"
+      },
+      {
+        "label": "Output",
+        "value": "Gelatin, peptide, feed phosphate",
+        "note": "Sold into pharma, food, supplements and poultry"
+      },
+      {
+        "label": "Customer",
+        "value": "Exporters, over 35 countries",
+        "note": "More than 60% of output leaves India"
+      },
+      {
+        "label": "The spread",
+        "value": "Bone cost against gelatin price",
+        "note": "Operating margin ran 7% to 11% for six years, then 20% to 28% for four"
+      }
+    ],
+    "strategicPosition": [
+      {
+        "label": "Global gelatin majors",
+        "description": "Rousselot, Gelita, PB Leiner. Far larger, global audits, set the world price",
+        "tone": "strong"
+      },
+      {
+        "label": "Nitta Gelatin India",
+        "description": "Small, audited, export-heavy, backed by a Japanese parent's customer network",
+        "tone": "focus"
+      },
+      {
+        "label": "Unaudited regional processors",
+        "description": "Cheaper, sell into industrial and feed uses, locked out of pharma",
+        "tone": "weak"
+      }
+    ],
+    "winningToday": [
+      "Operating margin at 24% on trailing twelve months against 10% for most of the last decade",
+      "Effectively debt free: borrowings ₹4 crore against reserves of ₹502 crore",
+      "Cash conversion holding: operating cash flow of ₹122 crore in FY26 against ₹97 crore of profit",
+      "Collagen peptide, the highest-value product at 10% of revenue, doubled its exports in FY26",
+      "Capacity for that peptide more than doubled, the first real growth lever in years"
+    ],
+    "stopWinning": [
+      "Bone prices rise, or gelatin prices fall, and the margin returns toward the 10% it lived on for forty years",
+      "The Kerala plants lose water access or an environmental case goes against them",
+      "American tariffs keep gelatin customers cautious, as they already did through FY26",
+      "The peptide expansion arrives into a supplements market that has cooled",
+      "Working capital keeps stretching: it has gone from 10 days in FY15 to 87 in FY26"
+    ],
+    "marketBets": [
+      "That a 24% operating margin is a cycle, not a new floor",
+      "That sales growth of 1% a year over three years is the real signal and the profit line is the noise",
+      "That the Kerala licence question never fully goes away",
+      "That a business with 0.05% foreign and 0.95% domestic institutional ownership will stay unowned regardless of the numbers"
+    ],
+    "sectorModels": [
+      {
+        "model": "Demand driver",
+        "reading": "Steady",
+        "note": "Capsules, food gelling and supplements all grow slowly and predictably"
+      },
+      {
+        "model": "Input volatility",
+        "reading": "High",
+        "note": "Bone supply follows meat consumption, not gelatin demand"
+      },
+      {
+        "model": "Regulatory intensity",
+        "reading": "Very high",
+        "note": "Pharma audits keep entrants out and also keep costs in"
+      },
+      {
+        "model": "Pricing power",
+        "reading": "Weak",
+        "note": "Global gelatin price is set well above Nitta's head"
+      }
+    ],
+    "whyNow": "The stock has nearly doubled in a year and still sits at about 15 times earnings, because earnings roughly doubled too. What the market has not paid up for is the durability of the margin. By quarter over the last two years it reads 20, 20, 18, 20, 19, 25, 28, 24, which is a spread that swings ten points on what bone and gelatin are doing rather than a company steadily improving.",
+    "remember": "The profit growth came from the gap between bone and gelatin, not from selling more of anything."
+  },
+  "business": {
+    "unitOfRevenue": "A kilogram of purified protein. Nitta is paid for what it extracts from bone, priced against a global gelatin market it does not set.",
+    "revenueModel": "Manufacturing and sale of a processed commodity, mostly exported. No subscriptions, no contracts of any length, no recurring revenue. You make it, you ship it, you are paid.",
+    "segments": [
+      {
+        "name": "Gelatin",
+        "pct": 67,
+        "marginProfile": "Core product, pharma and food grade, exports hit by US tariff caution in FY26"
+      },
+      {
+        "name": "Dicalcium phosphate",
+        "pct": 15,
+        "marginProfile": "Poultry feed ingredient, the mineral left over from the bone"
+      },
+      {
+        "name": "Collagen peptide",
+        "pct": 10,
+        "marginProfile": "Highest value, nutraceutical and cosmetic, exports doubled in FY26"
+      },
+      {
+        "name": "Ossein and limed products",
+        "pct": 7,
+        "marginProfile": "The intermediate, sold on for agricultural and industrial use"
+      }
+    ],
+    "revenuePerUnitTrend": "Rising, and the rise is the whole investment case. Realisation per unit is improving as collagen peptide grows from a small base and as gelatin prices recovered, which is why margin went from about 10% to about 24% while volume stayed roughly flat.",
+    "industry": {
+      "structure": "Consolidated globally, fragmented locally. A handful of international majors set the world gelatin price; Indian processors compete below them.",
+      "competitors": "Rousselot, Gelita and PB Leiner globally. In India, Sterling Biotech historically and a set of smaller ossein processors.",
+      "pricingPower": "Sits with the customer and with the global market. Nitta is a price taker at both ends, on bone in and on gelatin out.",
+      "demandDriver": "Pharmaceutical capsule volumes, processed food, and the nutraceutical supplement market for the peptide.",
+      "driverType": "Structural but slow. Capsules and food gelling grow with population and formalisation, not with a cycle.",
+      "tam": "Global gelatin demand is measured in hundreds of thousands of tonnes a year and grows in low single digits. Collagen peptide is the faster-growing slice.",
+      "penetration": "Mature for gelatin. Early for collagen peptide in India, which is why the capacity going from 450 to 1,000 tonnes matters more than its 10% revenue share suggests.",
+      "valueChainPosition": "Midstream. Nitta buys a waste product from meat processing and sells an ingredient to formulators. It touches no consumer and owns no brand the consumer knows."
+    },
+    "qualityVerdict": "This is a decent business trapped in a hard structure. The chemistry is real, the pharmaceutical audits are a genuine barrier, and the balance sheet is clean. The constraints are equally real. Output is limited by the bone Nitta can source and by the water and effluent permissions it holds. Price is set by a handful of global majors well above it in scale. And the two Kerala plants carry a social-licence exposure that has been contested since 2013. That is a good operator in a bad structure, which is a different thing from a good business."
+  },
+  "valuation": [
+    {
+      "label": "Price",
+      "value": "₹1,670"
+    },
+    {
+      "label": "Market cap",
+      "value": "₹1,517 cr",
+      "hint": "A micro-cap by any definition"
+    },
+    {
+      "label": "52W high / low",
+      "value": "₹2,088 / ₹765",
+      "hint": "The low was a year ago"
+    },
+    {
+      "label": "Stock P/E",
+      "value": "14.6",
+      "hint": "Computed price/EPS = 14.7, so the page figure holds",
+      "tone": "good"
+    },
+    {
+      "label": "EPS (TTM)",
+      "value": "₹113.73"
+    },
+    {
+      "label": "Book value",
+      "value": "₹563"
+    },
+    {
+      "label": "P/B",
+      "value": "3.0"
+    },
+    {
+      "label": "Dividend yield",
+      "value": "0.42%",
+      "hint": "Payout only 7% of profit",
+      "tone": "bad"
+    },
+    {
+      "label": "ROCE",
+      "value": "27.7%",
+      "tone": "good"
+    },
+    {
+      "label": "ROE",
+      "value": "21.0%",
+      "tone": "good"
+    }
+  ],
+  "financials": [
+    {
+      "year": "FY22",
+      "revenue": 506,
+      "netProfit": 35,
+      "eps": 36.26,
+      "patMargin": 6.9
+    },
+    {
+      "year": "FY23",
+      "revenue": 565,
+      "netProfit": 74,
+      "eps": 77.44,
+      "patMargin": 13.1
+    },
+    {
+      "year": "FY24",
+      "revenue": 533,
+      "netProfit": 84,
+      "eps": 91.02,
+      "patMargin": 15.8
+    },
+    {
+      "year": "FY25",
+      "revenue": 527,
+      "netProfit": 84,
+      "eps": 92.45,
+      "patMargin": 15.9
+    },
+    {
+      "year": "FY26",
+      "revenue": 588,
+      "netProfit": 97,
+      "eps": 107.1,
+      "patMargin": 16.5
+    }
+  ],
+  "ratios": [
+    {
+      "label": "ROE",
+      "value": "21.0%",
+      "hint": "Above 20 is strong",
+      "tone": "good"
+    },
+    {
+      "label": "ROCE",
+      "value": "27.7%",
+      "hint": "Was 6% in FY15, peaked at 35% in FY24",
+      "tone": "good"
+    },
+    {
+      "label": "Debt / equity",
+      "value": "0.01",
+      "hint": "₹4 cr of borrowings against ₹511 cr of equity",
+      "tone": "good"
+    },
+    {
+      "label": "Interest cover",
+      "value": "Over 100x",
+      "hint": "Interest cost is ₹1 cr a year",
+      "tone": "good"
+    },
+    {
+      "label": "Operating margin",
+      "value": "24%",
+      "hint": "Was 7% to 11% from FY15 to FY21",
+      "tone": "good"
+    },
+    {
+      "label": "Debtor days",
+      "value": "61",
+      "hint": "Steady, no receivables build",
+      "tone": "good"
+    },
+    {
+      "label": "Inventory days",
+      "value": "120",
+      "hint": "Down from 205 in FY20, still heavy",
+      "tone": "neutral"
+    },
+    {
+      "label": "Working capital days",
+      "value": "87",
+      "hint": "Was 10 in FY15, has stretched steadily",
+      "tone": "bad"
+    }
+  ],
+  "cashFlow": [
+    {
+      "year": "FY22",
+      "ocf": 17,
+      "capex": 15,
+      "fcf": 2
+    },
+    {
+      "year": "FY23",
+      "ocf": 101,
+      "capex": 19,
+      "fcf": 82
+    },
+    {
+      "year": "FY24",
+      "ocf": 94,
+      "capex": 16,
+      "fcf": 78
+    },
+    {
+      "year": "FY25",
+      "ocf": 75,
+      "capex": 23,
+      "fcf": 52
+    },
+    {
+      "year": "FY26",
+      "ocf": 122,
+      "capex": 50,
+      "fcf": 72
+    }
+  ],
+  "cashFlowNote": "This is the part of the accounts that behaves. Operating cash flow of ₹122 crore in FY26 comfortably exceeded reported profit of ₹97 crore, and free cash flow has been positive in each of the last five years. Across those five years operating cash comes to about 109% of net profit, which means the margin story is showing up as actual money rather than as receivables. FY26 was also the first serious spending year in a decade. Purchases of fixed assets came to about ₹50 crore against depreciation of ₹16 crore, and the whole investing line shows an outflow of roughly ₹182 crore. Those are not the same number: the larger figure includes deposits and investments made with the cash pile alongside the plant spending, so treat ₹50 crore as the capex and the rest as the treasury. Either way, a business that has not needed capital for years has started using it.",
+  "growth": [
+    {
+      "label": "Sales CAGR 10Y",
+      "value": "5%",
+      "tone": "bad"
+    },
+    {
+      "label": "Sales CAGR 5Y",
+      "value": "8%",
+      "tone": "neutral"
+    },
+    {
+      "label": "Sales CAGR 3Y",
+      "value": "1%",
+      "hint": "Revenue has been flat since FY23",
+      "tone": "bad"
+    },
+    {
+      "label": "Sales growth TTM",
+      "value": "10%",
+      "tone": "neutral"
+    },
+    {
+      "label": "Profit CAGR 10Y",
+      "value": "25%",
+      "tone": "good"
+    },
+    {
+      "label": "Profit CAGR 5Y",
+      "value": "41%",
+      "hint": "Measured from FY21, a 10% margin year",
+      "tone": "neutral"
+    },
+    {
+      "label": "Profit CAGR 3Y",
+      "value": "13%",
+      "tone": "neutral"
+    },
+    {
+      "label": "Profit growth TTM",
+      "value": "37%",
+      "tone": "good"
+    }
+  ],
+  "management": "The company is run under a joint-venture structure that is genuinely unusual for a listed Indian small-cap. Nitta Gelatin Inc of Osaka, a gelatin specialist with its own global customer base, sits on one side; the Kerala State Industrial Development Corporation, the state government's investment arm, sits on the other. Together they hold 74.49%, and that holding has not moved by a single basis point across the last six reported quarters.\n\nJudge them on what they did with the cash rather than on what they say. Borrowings came down from ₹109 crore in FY17 to ₹4 crore in FY26, funded from operations with no equity issued: share capital has been ₹9 crore for eleven straight years, so nobody has been diluted. Then, having cleared the debt, they spent. FY26 carries about ₹50 crore of fixed-asset purchases against depreciation of ₹16 crore, going into gelatin capacity and into more than doubling the collagen peptide line. The wider investing outflow of roughly ₹182 crore also covers deposits and investments made with the cash pile, so the two figures should not be read as the same thing. That is a patient, conventional sequence: fix the balance sheet first, then build.\n\nThe reservation is about incentive rather than competence. A Japanese industrial parent wants reliable supply of audited gelatin. A state development corporation wants employment in Kerala. Neither objective requires the share price to be higher, and a dividend payout of 7% of profit is consistent with that. This is a well-run company. It is not run for the minority shareholder.",
+  "holding": [
+    {
+      "label": "Promoter",
+      "pct": 74.49,
+      "qoqChange": 0
+    },
+    {
+      "label": "FII",
+      "pct": 0.05,
+      "qoqChange": 0.05
+    },
+    {
+      "label": "DII",
+      "pct": 0.95,
+      "qoqChange": 0.02
+    },
+    {
+      "label": "Public",
+      "pct": 24.51,
+      "qoqChange": -0.08
+    }
+  ],
+  "moat": {
+    "strength": "narrow",
+    "label": "Narrow moat, and it is an audit trail",
+    "sources": [
+      "Pharmaceutical-grade approvals and audits in Japan, the United States and Europe",
+      "A Japanese parent whose customer relationships come with the joint venture",
+      "Fifty years of process knowledge in a chemistry that is fussy and unglamorous",
+      "Bone sourcing relationships, which are local, relationship-led and not easy to assemble quickly"
+    ],
+    "note": "The moat is real and it is small. What protects Nitta is that a pharmaceutical customer cannot switch gelatin suppliers casually: the new supplier has to pass the same audits, prove the same traceability on where the bone came from, and do it without interrupting a capsule line. That is a genuine switching cost and it explains why a company this size sells into Japan and the United States at all. What the moat cannot do is set a price. Gelatin is a global commodity with a handful of large producers above Nitta in scale, and the FY26 experience proved the point: exports fell because American tariffs made customers cautious, and there was nothing Nitta could do about it. So the audit trail keeps rivals out of its customers. It does nothing at all about the spread between bone and gelatin, which is where all the money is."
+  },
+  "narrative": "For most of its listed life this was a dull, marginal business. From FY15 to FY21 revenue went from ₹354 crore to ₹396 crore and the operating margin sat between 7% and 11%, which on this asset base produced a return on capital of 6% to 12%. It carried around ₹100 crore of debt and earned barely enough to service it comfortably. Then something changed. In FY23 the operating margin jumped to 20% and profit more than doubled to ₹74 crore. FY24 pushed margin to 23%. Revenue, meanwhile, did almost nothing: ₹565 crore in FY23, ₹533 crore in FY24, ₹527 crore in FY25, ₹588 crore in FY26.\n\nThe debt was cleared along the way, funded from operations. Then FY26 broke the pattern in a second way: after a decade of spending only what depreciation required, the company put real money into capacity, and collagen peptide exports doubled on American demand while gelatin exports fell on US tariff uncertainty. The stock has followed the profit and then some, up about 98% in the last year and compounding at 47% a year over five against 41% profit growth over the same window.",
+  "risks": [
+    "Margin reversion. Operating margin ran between 7% and 11% for six straight years and now sits at 24%. Across the last seven quarters alone it has swung between 18% and 28%. Nothing structural has been demonstrated that would hold it at the top of that range, and every rupee of the profit growth depends on it. High.",
+    "The Kerala licence to operate. The Kathikudam ossein plant has faced organised local opposition for over a decade, a National Green Tribunal petition filed in 2013, and an action council that has interrupted its water supply. Acid and water-intensive processing next to a river is a permanent political exposure, not a one-off event. High.",
+    "No volume growth. Revenue has compounded at 1% a year over three years and under 5% over a decade. If the margin normalises and volume has still not moved, there is nothing underneath. High.",
+    "Export and tariff exposure. More than 60% of output is exported, and FY26 gelatin exports fell specifically because American tariff uncertainty made customers reluctant to contract. That is a policy risk Nitta cannot hedge. Medium.",
+    "Raw material dependence. Bone supply follows meat consumption, not gelatin demand, so the input price moves for reasons entirely unrelated to the company's own market. Medium.",
+    "Free float and liquidity. Three quarters of the company is held by two owners who show no sign of selling, institutional ownership is about 1%, and there are roughly 11,000 shareholders in total. Exiting a position in size is not a given. Medium."
+  ],
+  "trapChecklist": [
+    {
+      "label": "Margin jumped more than five points in a year",
+      "status": "fail",
+      "note": "Operating margin went from 13% in FY22 to 20% in FY23, and the quarterly range is 18% to 28%. This is the central question of the report."
+    },
+    {
+      "label": "Growth measured from a trough base year",
+      "status": "warn",
+      "note": "The 41% five-year profit CAGR starts in FY21, a 10% margin year. The clean read is FY15 to now, and the honest sales number over that stretch is under 5% a year."
+    },
+    {
+      "label": "Profit up while operating cash flow lags",
+      "status": "pass",
+      "note": "Operating cash flow was ₹122 crore against ₹97 crore of profit in FY26, and about 109% of profit across five years."
+    },
+    {
+      "label": "Receivables building",
+      "status": "pass",
+      "note": "Debtor days at 61, in line with the five-year average. No receivables story here."
+    },
+    {
+      "label": "Promoter selling or dilution",
+      "status": "pass",
+      "note": "Promoter holding flat at 74.49% across six quarters. Share capital unchanged at ₹9 crore for eleven years."
+    },
+    {
+      "label": "Other income propping up profit",
+      "status": "pass",
+      "note": "Other income of ₹4 crore against ₹34 crore of profit before tax in the June 2026 quarter. Not distorting."
+    },
+    {
+      "label": "Debt disguising the returns",
+      "status": "pass",
+      "note": "Borrowings of ₹4 crore against reserves of ₹502 crore. The 28% return on capital is not leverage."
+    },
+    {
+      "label": "Working capital deteriorating",
+      "status": "warn",
+      "note": "Working capital days went from 10 in FY15 to 87 in FY26. Cash conversion is still fine, but the trend is one way."
+    }
+  ],
+  "sectorChecklist": [
+    {
+      "label": "Input cost pass-through",
+      "status": "fail",
+      "note": "Nitta takes the bone price it is given and the gelatin price it is given. Neither end is negotiable."
+    },
+    {
+      "label": "Capacity utilisation and expansion",
+      "status": "pass",
+      "note": "Collagen peptide going from 450 tonnes to 1,000, plus approved gelatin capacity in Kerala. The first real volume lever in years."
+    },
+    {
+      "label": "Customer concentration",
+      "status": "na",
+      "note": "Not disclosed at a level that allows a judgement. Exports go to over 35 countries, which argues against a single dominant buyer."
+    },
+    {
+      "label": "Environmental compliance",
+      "status": "fail",
+      "note": "A decade of local opposition at Kathikudam, a National Green Tribunal petition from 2013, and water supply interruptions. For an acid and water-intensive process, this is the binding constraint."
+    },
+    {
+      "label": "Product mix moving up the value chain",
+      "status": "pass",
+      "note": "Collagen peptide, the highest-value line, doubled its exports in FY26 and is getting the capacity money."
+    },
+    {
+      "label": "Export concentration and currency",
+      "status": "warn",
+      "note": "Over 60% exported. Helpful when the rupee weakens, exposed when a trading partner raises tariffs, which is exactly what happened to gelatin in FY26."
+    }
+  ],
+  "summary": "Nitta Gelatin turns crushed bone into pharmaceutical gelatin, and does it well enough that Japanese and American customers buy from a ₹1,517 crore company in Kerala. The balance sheet is effectively debt free, profit turns into cash, and return on capital is 28%. What the accounts cannot tell you is whether a 24% operating margin is the new normal for a business that operated on 10% for its first four decades. That single number decides the valuation, and the sensitivity table above prices it: cheap at 24%, ordinary at 18%, expensive below 15% unless revenue starts growing. Which is why FY26 matters beyond its profit figure. It is the first year in a decade that management spent on capacity rather than on debt, and the collagen peptide expansion is the only route to growth that does not depend on the margin holding.",
+  "engine": {
+    "state": "earnings-engine",
+    "earnings": "Trailing profit is up 37%, operating cash flow exceeded reported profit in FY26, and the debt that used to eat the returns is gone. Be exact about what is producing it. Revenue over the last three years has compounded at about 1%, so this engine is not volume, it is spread: bone in at one price, gelatin out at another, and the gap widened. Roughly 90% of the spread sits in gelatin, dicalcium phosphate and ossein, all commodity-priced. The remaining tenth is collagen peptide, which is the only line where Nitta sells something closer to a branded ingredient.",
+    "multiple": "This is not a second engine, and it is worth separating from one. The share price is up 98% over a year against 37% profit growth, so the multiple has expanded by roughly 45% in twelve months. At about 15 times trailing earnings the re-rating has already happened, and it has stopped well short of what a business earning 28% on capital with no debt might command elsewhere. The reason is structural. With 74.5% held by a Japanese parent and a state development corporation, foreign ownership at 0.05% and about 11,000 shareholders in total, there is no institution positioned to carry the multiple further even if the numbers justified it.",
+    "verdict": "The missing engine is volume. The report's own numbers say the spread is doing all the work and the spread is not Nitta's to control, which leaves the collagen peptide expansion as the only route to growth that does not require the margin to hold. It went from 450 tonnes to 1,000, it is funded, and it is a tenth of revenue today. Whether it turns into revenue is the single question that decides the next three years, and unlike the margin it is observable: it shows up in the top line or it does not. My honest read is that the valuation is undemanding precisely because the market is not paying for that expansion yet, and that not paying for it is defensible until the sales line moves. Nobody can tell you where gelatin prices go, and that uncertainty is most of why this trades at fifteen times.",
+    "earningsLabel": "Engine one: the spread",
+    "multipleLabel": "What the market has already priced"
+  },
+  "lenses": [
+    {
+      "name": "The first real capital in a decade",
+      "reading": "The useful way to hold this company is as three different businesses in sequence. Old Nitta, FY15 to FY21: revenue from ₹354 crore to ₹396 crore, operating margin between 7% and 11%, around ₹100 crore of debt, and return on capital employed of 6% to 12%. Current Nitta, FY22 onward: the same revenue base, margin at 20% to 24%, debt cleared, return on capital at 28%. For that whole decade capital spending ran at ₹15 crore to ₹23 crore a year against depreciation of about ₹15 crore, which is a business standing still and paying down borrowings.\n\nFY26 is where the third version starts. Fixed-asset purchases stepped up to roughly ₹50 crore, gelatin capacity in Kerala has been approved, and the collagen peptide line went from 450 tonnes to 1,000. That is the first deliberate attempt in a decade to make the revenue line move rather than the margin line, and it is only about a year old. Whichever way it goes will be visible in reported revenue within eight quarters, so this is something to watch rather than to guess at."
+    },
+    {
+      "name": "The plant runs on permission",
+      "reading": "Most industrial risks show up in the accounts eventually. This one does not. The Kathikudam ossein plant sits near the Chalakudy river and uses hydrochloric acid and large volumes of water. Local opposition has been organised for more than a decade, a petition reached the National Green Tribunal in 2013, and an action council has at times blocked the plant's water supply. Those are the facts, and they are enough on their own. What they add up to is a regulatory and social-licence exposure attached to part of the production base that does not appear anywhere in the financial statements and cannot be modelled from them. It is a reasonable part of why a business earning 28% on capital trades at fifteen times earnings."
+    },
+    {
+      "name": "Nobody who can re-rate it owns it",
+      "reading": "Look at the shareholder register rather than the accounts. A Japanese gelatin parent and the Kerala state government's investment arm together hold 74.49%, and it has not shifted a basis point in six quarters. Foreign institutions own 0.05%. Domestic institutions own 0.95%. About 11,000 people own the rest. Now ask who exactly is going to decide this deserves 25 times earnings. Not the parent, which wants gelatin supply. Not the state corporation, which wants Kerala jobs. Not a fund, because at a ₹1,517 crore market cap with a quarter of the shares floating, most cannot build a position worth their time. A cheap multiple usually invites the question of what the market has missed. Here the more useful question is who is left to change their mind, and the answer is close to nobody."
+    }
+  ],
+  "scenario": {
+    "title": "What the margin is worth",
+    "intro": "The whole thesis reduces to one number, so here it is priced. Operating margin ran between 7% and 11% from FY15 to FY21 and sits at 24% today. Each row asks what the company earns if the margin settles at that level, and what you would then be paying at today's share price of ₹1,670.",
+    "assumptions": "Revenue held flat at the trailing ₹590 crore, other income ₹13 crore, interest ₹1 crore, depreciation ₹16 crore, tax at 26%, and 0.91 crore shares. Revenue is deliberately held flat so the table isolates the effect of margin. It is also close to the recent reality, with revenue compounding at about 1% a year since FY23.",
+    "columns": [
+      "Operating profit",
+      "Net profit",
+      "EPS",
+      "P/E at ₹1,670"
+    ],
+    "rows": [
+      {
+        "label": "24%, today's level",
+        "cells": [
+          "₹142 cr",
+          "₹102 cr",
+          "₹112",
+          "14.9"
+        ],
+        "tone": "good"
+      },
+      {
+        "label": "22%",
+        "cells": [
+          "₹130 cr",
+          "₹93 cr",
+          "₹103",
+          "16.2"
+        ],
+        "tone": "good"
+      },
+      {
+        "label": "18%",
+        "cells": [
+          "₹106 cr",
+          "₹76 cr",
+          "₹84",
+          "20.0"
+        ],
+        "tone": "warn"
+      },
+      {
+        "label": "15%",
+        "cells": [
+          "₹88 cr",
+          "₹63 cr",
+          "₹69",
+          "24.2"
+        ],
+        "tone": "warn"
+      },
+      {
+        "label": "12%",
+        "cells": [
+          "₹71 cr",
+          "₹49 cr",
+          "₹55",
+          "30.6"
+        ],
+        "tone": "bad"
+      }
+    ],
+    "takeaway": "The stock is cheap at 24% and ordinary at 18%. Below 15% it is expensive on flat revenue, and 15% is still five points above where this business operated for its first four decades. Note also what the table cannot do: hold revenue flat and no margin makes the shares obviously attractive, which is why the peptide expansion carries more weight than its 10% revenue share suggests.",
+    "bullSignals": [
+      "Operating margin holds above 22% for four consecutive quarters, which would make the step change look structural rather than cyclical",
+      "Revenue starts growing as the expanded collagen peptide capacity fills, breaking the flat top line assumed above",
+      "Collagen peptide's share of revenue rises meaningfully from 10%, shifting the mix toward the least commoditised line",
+      "Gelatin export volumes recover as US tariff uncertainty settles"
+    ],
+    "bearSignals": [
+      "Operating margin drifts back toward the high teens across two or three quarters",
+      "Bone procurement costs rise while gelatin realisations do not follow",
+      "The new peptide capacity runs below utilisation and revenue stays near ₹590 crore",
+      "A Kerala regulatory or water-supply development interrupts output at either plant"
+    ]
+  },
+  "outlook": {
+    "intro": "Nothing here is a forecast. These are the four places the answer will show up first, and roughly when.",
+    "areas": [
+      {
+        "title": "The operating margin",
+        "facts": [
+          "Ran between 7% and 11% every year from FY15 to FY21",
+          "Has been 20% to 24% in each of the last four years",
+          "By quarter over the last two years: 20, 20, 18, 20, 19, 25, 28, 24"
+        ],
+        "watch": "Does it hold above 22% for four consecutive quarters, or drift back toward the high teens? Four clean quarters is the shortest run that would make the step change look structural."
+      },
+      {
+        "title": "Revenue, which has not moved",
+        "facts": [
+          "₹565 crore in FY23, ₹533 crore in FY24, ₹527 crore in FY25, ₹588 crore in FY26",
+          "Compounded growth of about 1% a year over three years",
+          "Trailing twelve months at ₹590 crore"
+        ],
+        "watch": "Does the top line break out of the ₹520 crore to ₹590 crore band it has sat in since FY23? Until it does, every valuation argument here runs through margin alone."
+      },
+      {
+        "title": "Collagen peptide",
+        "facts": [
+          "About 10% of revenue, the least commoditised line",
+          "Exports doubled in FY26 on American demand",
+          "Capacity taken from 450 tonnes to 1,000 tonnes"
+        ],
+        "watch": "How fast does the new capacity fill, and does peptide's share of revenue rise above 10%? This is the one lever that would turn a margin story into a volume one."
+      },
+      {
+        "title": "Kerala operations",
+        "facts": [
+          "Two of the four plants are in Kerala, including the Kathikudam ossein plant",
+          "A National Green Tribunal petition was filed in 2013 and local opposition has continued since",
+          "The plant's water supply has been interrupted by an action council"
+        ],
+        "watch": "Any change in effluent consent, water allocation or the legal position. None of it is forecastable and all of it is disclosed when it happens."
+      }
+    ],
+    "loadingEngines": [
+      {
+        "name": "The expanded collagen peptide line",
+        "whatItIs": "Capacity taken from 450 tonnes to 1,000, selling into nutraceutical and cosmetic customers at better realisations than gelatin",
+        "notYetInPnL": "The expansion was commissioned during FY26, so most of the added tonnage has not yet been sold through a full year",
+        "whenItLands": "FY27 to FY28"
+      },
+      {
+        "name": "Approved gelatin capacity in Kerala",
+        "whatItIs": "Additional gelatin production, the core 67% of revenue",
+        "notYetInPnL": "Approved and being built rather than producing",
+        "whenItLands": "FY27 onward"
+      }
+    ],
+    "closer": "Two of these four report every quarter, so most of this thesis gets tested within eight quarters."
+  }
+}

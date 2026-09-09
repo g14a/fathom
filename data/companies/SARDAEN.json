@@ -1,0 +1,638 @@
+{
+  "ticker": "SARDAEN",
+  "company": "Sarda Energy & Minerals Ltd",
+  "sector": "Commodities",
+  "industry": "Iron & Steel",
+  "sectorId": "power",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-09-09",
+  "oneLiner": "Screener files it under iron and steel, and in the June 2026 quarter power earned 4.4 times what steel did. What you are actually buying is a Chhattisgarh power company that still makes steel on the side, midway through spending ₹2,657 crore on a coal plant it won out of bankruptcy court.",
+  "facts": {
+    "snapshot": "Sarda Energy & Minerals makes steel and ferro alloys in Chhattisgarh and generates power. It runs hydro plants in Chhattisgarh, Uttarakhand and Sikkim totalling about 167 MW, plus captive thermal capacity, and in 2024 it won the 1,200 MW SKS Power plant out of insolvency for ₹2,657 crore.",
+    "founded": "1973",
+    "hq": "Raipur, Chhattisgarh"
+  },
+  "verdict": {
+    "rows": [
+      {
+        "label": "What it really is",
+        "value": "Power-led industrial company",
+        "tone": "warn"
+      },
+      {
+        "label": "Cash",
+        "value": "₹1,735 cr operating cash in FY26",
+        "tone": "good"
+      },
+      {
+        "label": "Margins",
+        "value": "21% to 41% by quarter",
+        "tone": "warn"
+      },
+      {
+        "label": "Other income",
+        "value": "Swings from 2% to 37% of pre-tax profit",
+        "tone": "bad"
+      },
+      {
+        "label": "Returns",
+        "value": "15% on equity, 17% on capital",
+        "tone": "warn"
+      },
+      {
+        "label": "Debt",
+        "value": "Doubled to fund the acquisition",
+        "tone": "warn"
+      },
+      {
+        "label": "Promoter",
+        "value": "73.2%, unchanged",
+        "tone": "good"
+      },
+      {
+        "label": "Valuation",
+        "value": "About 16 times, 18 times stripped",
+        "tone": "neutral"
+      }
+    ],
+    "keyQuestion": "The market prices this as a steel company and power now earns most of the profit. Is that a mistake waiting to be corrected, or is the market looking past the label at a business whose returns on capital are 17% and whose earnings swing four times over between quarters?"
+  },
+  "overview": "Sarda has been making steel and ferro alloys in Chhattisgarh since 1973. It still does. But look at where the money came from in the June 2026 quarter and the description stops fitting. On a standalone basis, power earned ₹313 crore of segment profit. Steel earned ₹71 crore. Power made 4.4 times what steel made, on revenue of ₹648 crore against steel's ₹447 crore.\n\nOne quarter proves nothing on its own in a business this lumpy. What supports it is the asset base behind it: two decades of quietly building generation: hydro plants in Chhattisgarh, Uttarakhand and Sikkim adding up to about 167 MW, captive thermal capacity next to the steel works, and a 50 MW solar project under way. Then in August 2024 the company bid ₹2,657 crore for SKS Power Generation, a 1,200 MW coal plant in Chhattisgarh going through insolvency. The Supreme Court dismissed the last appeals against that purchase in February 2026, and the plant is now Sarda's.\n\nSo the company you are buying is roughly this: a steel and ferro alloys business that generates its own power, attached to a power business that has outgrown it, in the middle of the largest acquisition in its history. Screener still files it under iron and steel.",
+  "editorial": {
+    "realBusiness": "A Chhattisgarh power generator with a steel works attached. The steel takes the power it needs; whatever is left is sold, and lately that has been where the profit is.",
+    "whyExists": "A steel plant in central India needs enormous, uninterrupted electricity, and buying it from the grid at industrial tariffs is expensive and unreliable. So Sarda built its own generation. Once you own generation, the logic runs on: build more than the steel plant needs and sell the surplus, add hydro where the state has rivers, and buy distressed thermal capacity when it comes up cheap. The steel business created the reason to be in power. Power then became the better business.",
+    "whyNotAlreadyWon": "Nobody has captured this because it is not one pool, it is two hard ones. Steel and ferro alloys are commodities where the price is set globally and a mid-sized Indian producer takes what it is given. Power generation is a licensed, regulated, capital-hungry business where returns are set by tariff orders and by whether a state discom pays on time. What Sarda has is the specific combination: land, coal linkage, river rights and regulatory standing in one state, built over fifty years. That is not a moat anyone can price. It is also not one anyone else particularly wants to replicate.",
+    "mentalModels": [
+      {
+        "model": "Toll booth or restaurant",
+        "assessment": "One of each",
+        "assessmentTone": "warn",
+        "why": "Hydro under a long-term tariff is close to a toll booth: the asset is built, the water is free, and the tariff is set. Steel and ferro alloys are the opposite, a commodity where the price arrives from outside. The blended company is neither, which is part of why the market struggles to price it."
+      },
+      {
+        "model": "Pricing power",
+        "assessment": "Split",
+        "assessmentTone": "warn",
+        "why": "None at all in steel and ferro alloys. In power it does not have pricing power either, but it has something better in the regulated part: a tariff that is set rather than negotiated, which is why the Sikkim cost approval was worth ₹110 crore in a single quarter."
+      },
+      {
+        "model": "Capital allocation",
+        "assessment": "The whole story",
+        "assessmentTone": "warn",
+        "why": "Investing outflows of ₹2,132 crore in FY25 and ₹1,166 crore in FY26, against a company worth ₹18,322 crore. Borrowings went from ₹1,366 crore to ₹2,861 crore. A further ₹1,000 crore of debt was approved in Q1 FY27. Judge this company on whether that capital earns, because nothing else will matter as much."
+      },
+      {
+        "model": "Earnings quality",
+        "assessment": "Lumpy",
+        "assessmentTone": "bad",
+        "why": "Other income has run at 2.4%, 37.3%, 17.6% and 0% of pre-tax profit across recent quarters. Quarterly pre-tax profit swings from ₹160 crore to ₹615 crore. Any single quarter tells you very little."
+      },
+      {
+        "model": "The referee, return on capital",
+        "assessment": "Modest",
+        "assessmentTone": "warn",
+        "why": "Operating margin is 31% and return on capital employed is 17%. The gap is the answer to why this is not expensive: it takes an enormous amount of capital to produce that margin, and more capital is going in."
+      },
+      {
+        "model": "Owner alignment",
+        "assessment": "Stable",
+        "assessmentTone": "good",
+        "why": "Promoter holding is 73.16% and has not moved a basis point across six quarters. No dilution: share capital has been ₹35 crore since FY23."
+      }
+    ],
+    "economicEngine": [
+      {
+        "label": "Assets",
+        "value": "Hydro, thermal, steel plant",
+        "note": "About 167 MW of hydro plus captive and acquired thermal"
+      },
+      {
+        "label": "Steel and alloys",
+        "value": "Commodity price, taken not set",
+        "note": "₹447 cr of standalone revenue in Q1 FY27"
+      },
+      {
+        "label": "Power",
+        "value": "Tariff and merchant sales",
+        "note": "₹648 cr of revenue, ₹313 cr of segment profit"
+      },
+      {
+        "label": "The capital",
+        "value": "₹2,657 cr on SKS Power",
+        "note": "1,200 MW won out of insolvency, cleared by the Supreme Court in Feb 2026"
+      },
+      {
+        "label": "The question",
+        "value": "Does the new capacity earn?",
+        "note": "Return on capital is 17% before any of it contributes"
+      }
+    ],
+    "strategicPosition": [
+      {
+        "label": "National power utilities",
+        "description": "NTPC, Tata Power, Adani. Scale, national footprint, cheaper capital",
+        "tone": "strong"
+      },
+      {
+        "label": "Sarda Energy",
+        "description": "Regional, multi-fuel, integrated with its own steel demand, buys distressed assets",
+        "tone": "focus"
+      },
+      {
+        "label": "Standalone mid-tier steel makers",
+        "description": "No captive power, fully exposed to tariffs and to the steel price",
+        "tone": "weak"
+      }
+    ],
+    "winningToday": [
+      "Power now earns four times what steel earns on a standalone basis, ₹313 crore against ₹71 crore in Q1 FY27",
+      "Operating cash flow of ₹1,735 crore in FY26 against ₹1,109 crore of reported profit",
+      "Free cash flow positive in eight of the last ten years despite heavy capital spending",
+      "The SKS Power acquisition survived every legal challenge, with the Supreme Court dismissing the appeals in February 2026",
+      "Promoter holding unchanged at 73.16% and no shares issued since FY23",
+      "The 24.9 MW Rehar-1 hydro plant commissioned in July 2025"
+    ],
+    "stopWinning": [
+      "Steel and ferro alloy prices fall, taking a third of revenue with them",
+      "The 1,200 MW SKS plant costs more to restart and run than the resolution price suggested",
+      "Merchant power tariffs soften, which is where the unregulated surplus is sold",
+      "Interest on ₹2,632 crore of borrowings, plus the ₹1,000 crore approved, outruns what the new assets earn",
+      "A state discom delays payment, which is the standing hazard of selling power in India"
+    ],
+    "marketBets": [
+      "That a 17% return on capital is what this business really earns, whatever the operating margin says",
+      "That earnings this lumpy deserve a lower multiple than their average would suggest",
+      "That the acquisition is a cost today and an unproven benefit tomorrow",
+      "That a company filed under iron and steel gets priced as one, however its profits are actually made"
+    ],
+    "sectorModels": [
+      {
+        "model": "Capital intensity",
+        "reading": "Very high",
+        "note": "Both halves of the business consume capital before they produce anything"
+      },
+      {
+        "model": "Regulatory dependence",
+        "reading": "High",
+        "note": "Tariff orders decide what the regulated power earns, and can arrive years late"
+      },
+      {
+        "model": "Commodity exposure",
+        "reading": "High",
+        "note": "Steel and ferro alloys are priced globally"
+      },
+      {
+        "model": "Counterparty risk",
+        "reading": "Medium",
+        "note": "State distribution companies are the buyers of last resort and slow payers"
+      }
+    ],
+    "whyNow": "The multiple has compressed over the past year even as profit grew. At roughly 16 times reported earnings, or 18 times once you strip the ₹110 crore Sikkim one-time out of the trailing figure, it is neither cheap nor demanding. That multiple is consistent with investors declining to capitalise a good year in a business whose quarterly pre-tax profit has ranged from ₹160 crore to ₹615 crore in the last eight quarters. It looks less like an oversight than like a sensible price for earnings that arrive in waves.",
+    "remember": "The profit says power, the stock listing says steel, and the balance sheet says wait."
+  },
+  "business": {
+    "unitOfRevenue": "A tonne of steel or ferro alloy, and a unit of electricity. Two different products with two different pricing mechanisms, sold from one set of assets in one state.",
+    "revenueModel": "Manufacturing sale for the steel and alloys, at whatever the commodity market pays. For power, a mix of long-term tariff-based sales where a regulator sets the rate, merchant sales at spot prices, and captive supply to its own steel plant.",
+    "segments": [
+      {
+        "name": "Power",
+        "pct": 51,
+        "marginProfile": "₹648 cr of standalone revenue and ₹313 cr of segment profit in Q1 FY27. The profit engine"
+      },
+      {
+        "name": "Steel",
+        "pct": 35,
+        "marginProfile": "₹447 cr of revenue, ₹71 cr of segment profit. Commodity-priced, thin against power"
+      },
+      {
+        "name": "Ferro alloys",
+        "pct": 14,
+        "marginProfile": "₹169 cr of revenue. Export-linked, cyclical"
+      }
+    ],
+    "revenuePerUnitTrend": "Rising, and mostly because the mix shifted. Operating margin went from 21% in FY15 to 31% in FY26, and the largest single reason is that power became a bigger share of a business that used to be mostly steel.",
+    "industry": {
+      "structure": "Two industries at once. Indian steel is fragmented and price-taking. Power generation is concentrated among a few large players with a long tail of regional producers.",
+      "competitors": "In power, NTPC, Tata Power, Adani Power and JSW Energy at national scale. In steel and alloys, dozens of mid-tier Indian producers.",
+      "pricingPower": "None in steel. In power, the price is set by tariff order or by the spot market, so it is not negotiated either.",
+      "demandDriver": "Industrial electricity demand and construction activity. Both track the broad economy rather than anything Sarda controls.",
+      "driverType": "Cyclical for steel, structural for power. Indian electricity demand grows every year; steel prices do not.",
+      "tam": "Very large in both. India's power sector is measured in lakhs of crores and steel in hundreds of millions of tonnes, which is precisely why neither offers pricing power to a mid-sized producer.",
+      "penetration": "Not the useful frame. Sarda's constraint is capital and clearances, not market size.",
+      "valueChainPosition": "Upstream and integrated. It mines, generates and manufactures, which protects it from input shocks and exposes it fully to output prices."
+    },
+    "qualityVerdict": "This is a well-run company in two capital-hungry industries, and the numbers show both halves of that. Operating cash flow of ₹1,735 crore in FY26 comfortably exceeded ₹1,109 crore of profit, free cash flow has been positive in eight of ten years, and the promoter has neither sold nor diluted. What it cannot do is earn a high return on the capital it employs. Return on capital employed is 17% against an operating margin of 31%, and that gap is the whole character of the business: it takes an enormous asset base to produce those margins. Add earnings that arrive in waves and an other-income line that has ranged from 2% to 37% of pre-tax profit, and you have a business whose annual figures are meaningful and whose quarterly figures are close to noise."
+  },
+  "valuation": [
+    {
+      "label": "Price",
+      "value": "₹520"
+    },
+    {
+      "label": "Market cap",
+      "value": "₹18,322 cr"
+    },
+    {
+      "label": "52W high / low",
+      "value": "₹640 / ₹453",
+      "hint": "Down about 10% over the year"
+    },
+    {
+      "label": "Stock P/E",
+      "value": "16.3",
+      "hint": "Computed price/EPS = 16.2, so the page figure holds"
+    },
+    {
+      "label": "P/E on stripped earnings",
+      "value": "17.6",
+      "hint": "Removing the ₹110 cr Sikkim one-time from trailing profit",
+      "tone": "neutral"
+    },
+    {
+      "label": "EPS (TTM)",
+      "value": "₹32.05"
+    },
+    {
+      "label": "Book value",
+      "value": "₹209"
+    },
+    {
+      "label": "P/B",
+      "value": "2.5"
+    },
+    {
+      "label": "Dividend yield",
+      "value": "0.38%",
+      "tone": "bad"
+    },
+    {
+      "label": "ROCE",
+      "value": "16.9%",
+      "tone": "neutral"
+    },
+    {
+      "label": "ROE",
+      "value": "15.1%",
+      "tone": "neutral"
+    }
+  ],
+  "financials": [
+    {
+      "year": "FY22",
+      "revenue": 3914,
+      "netProfit": 807,
+      "eps": 22.31,
+      "patMargin": 20.6
+    },
+    {
+      "year": "FY23",
+      "revenue": 4212,
+      "netProfit": 604,
+      "eps": 17.09,
+      "patMargin": 14.3
+    },
+    {
+      "year": "FY24",
+      "revenue": 3868,
+      "netProfit": 524,
+      "eps": 14.84,
+      "patMargin": 13.5
+    },
+    {
+      "year": "FY25",
+      "revenue": 4643,
+      "netProfit": 702,
+      "eps": 19.86,
+      "patMargin": 15.1
+    },
+    {
+      "year": "FY26",
+      "revenue": 5690,
+      "netProfit": 1109,
+      "eps": 31.38,
+      "patMargin": 19.5
+    }
+  ],
+  "ratios": [
+    {
+      "label": "ROE",
+      "value": "15.1%",
+      "hint": "Modest for a 31% operating margin",
+      "tone": "neutral"
+    },
+    {
+      "label": "ROCE",
+      "value": "16.9%",
+      "hint": "Ranged 6% to 29% over eleven years",
+      "tone": "neutral"
+    },
+    {
+      "label": "Debt / equity",
+      "value": "0.36",
+      "hint": "₹2,632 cr against ₹7,370 cr of equity",
+      "tone": "good"
+    },
+    {
+      "label": "Interest cover",
+      "value": "7.3x",
+      "hint": "₹240 cr of interest a year and rising",
+      "tone": "good"
+    },
+    {
+      "label": "Operating margin",
+      "value": "31%",
+      "hint": "Was 21% in FY15. By quarter it ranges 22% to 41%",
+      "tone": "warn"
+    },
+    {
+      "label": "Other income",
+      "value": "₹247 cr in FY26",
+      "hint": "2% to 37% of pre-tax profit depending on the quarter",
+      "tone": "bad"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "₹1,735 cr",
+      "hint": "Against ₹1,109 cr of reported profit in FY26",
+      "tone": "good"
+    }
+  ],
+  "cashFlow": [
+    {
+      "year": "FY22",
+      "ocf": 917,
+      "capex": 273,
+      "fcf": 644
+    },
+    {
+      "year": "FY23",
+      "ocf": 701,
+      "capex": 216,
+      "fcf": 485
+    },
+    {
+      "year": "FY24",
+      "ocf": 742,
+      "capex": 265,
+      "fcf": 477
+    },
+    {
+      "year": "FY25",
+      "ocf": 886,
+      "capex": 490,
+      "fcf": 396
+    },
+    {
+      "year": "FY26",
+      "ocf": 1735,
+      "capex": 335,
+      "fcf": 1400
+    }
+  ],
+  "cashFlowNote": "The cash is the strongest part of this company. FY26 produced ₹1,735 crore of operating cash flow against ₹1,109 crore of reported profit, and free cash flow has been positive in eight of the last ten years. Across five years operating cash comes to roughly 133% of net profit, which for a commodity and power business is genuinely good. Read the investing line alongside it, though. FY25 shows ₹2,132 crore going out and FY26 another ₹1,166 crore, which is far more than the capex figures above: those outflows include the SKS Power acquisition and the deposits and investments around it. Borrowings went from ₹1,366 crore in FY24 to ₹2,861 crore in FY25, and a further ₹1,000 crore was approved in Q1 FY27. The company generates real cash and is currently spending more than it generates.",
+  "growth": [
+    {
+      "label": "Sales CAGR 10Y",
+      "value": "14%",
+      "tone": "good"
+    },
+    {
+      "label": "Sales CAGR 5Y",
+      "value": "21%",
+      "tone": "good"
+    },
+    {
+      "label": "Sales CAGR 3Y",
+      "value": "11%",
+      "tone": "neutral"
+    },
+    {
+      "label": "Sales growth TTM",
+      "value": "6%",
+      "hint": "Slowing",
+      "tone": "warn"
+    },
+    {
+      "label": "Profit CAGR 10Y",
+      "value": "58%",
+      "hint": "Starts in FY16, a ₹13 cr year. Treat as arithmetic",
+      "tone": "neutral"
+    },
+    {
+      "label": "Profit CAGR 5Y",
+      "value": "22%",
+      "tone": "good"
+    },
+    {
+      "label": "Profit CAGR 3Y",
+      "value": "20%",
+      "tone": "good"
+    },
+    {
+      "label": "Profit growth TTM",
+      "value": "20%",
+      "hint": "Includes the ₹110 cr Sikkim one-time",
+      "tone": "warn"
+    }
+  ],
+  "management": "The Sarda family has run this business since 1973 and holds 73.16%, a figure that has not shifted by a basis point across the last six reported quarters. Share capital has been ₹35 crore since FY23, so nobody has been diluted. On the ordinary measures of promoter behaviour, this is about as clean as an Indian mid-cap gets.\n\nJudge them instead on the decision that will define the next decade. In August 2024 they bid ₹2,657 crore for SKS Power Generation, a 1,200 MW coal plant in Chhattisgarh in insolvency proceedings, and then spent eighteen months defending that bid through the courts until the Supreme Court dismissed the last appeals in February 2026. Buying distressed generation capacity at a fraction of replacement cost is a legitimate and often excellent strategy. It is also how leveraged industrial companies have historically got into trouble, because a plant bought cheaply still has to be restarted, staffed, fuelled and sold from.\n\nWhat they have earned so far is the benefit of the doubt on execution. Operating cash flow of ₹1,735 crore in FY26 while carrying out the largest acquisition in the company's history is not a small thing. What they have not yet shown is what the acquired capacity earns, and until they do, the 17% return on capital is measured on a base that does not yet include most of what they have bought.",
+  "holding": [
+    {
+      "label": "Promoter",
+      "pct": 73.16,
+      "qoqChange": 0
+    },
+    {
+      "label": "FII",
+      "pct": 3.51,
+      "qoqChange": 0.01
+    },
+    {
+      "label": "DII",
+      "pct": 3.47,
+      "qoqChange": 0.15
+    },
+    {
+      "label": "Public",
+      "pct": 19.84,
+      "qoqChange": -0.17
+    }
+  ],
+  "moat": {
+    "strength": "narrow",
+    "label": "Narrow, and it is made of geography and clearances",
+    "sources": [
+      "Hydro sites in Chhattisgarh, Uttarakhand and Sikkim, which are location-specific and cannot be replicated elsewhere",
+      "Coal linkage and mining interests next to the steel operations",
+      "Fifty years of regulatory standing in one state, which shortens the path to a clearance",
+      "Integration: the steel plant provides a captive demand base for part of the generation"
+    ],
+    "note": "The moat is real, narrow and mostly physical. A river with a hydro plant on it cannot be competed against by someone building a better hydro plant on the same river, and a coal linkage in Chhattisgarh next to your own furnace is worth more to Sarda than to anyone else. That is a genuine advantage. What it does not do is protect a single rupee of price. Steel and ferro alloys are priced globally. Power is priced by a regulator or by the spot market. So the moat protects the position, never the margin. Watch the operating margin swing between 22% and 41% across eight quarters and you can see how little it shields earnings from commodity and power-price moves."
+  },
+  "narrative": "For most of the last decade Sarda was a modest steel and ferro alloys producer with some power assets attached. Revenue went from ₹1,760 crore in FY15 to ₹2,199 crore in FY21, and profit was small and volatile: ₹13 crore in FY16, ₹128 crore in FY20. Then FY22 changed the shape of it. Revenue jumped to ₹3,914 crore and profit to ₹807 crore as the commodity cycle turned, and the operating margin touched 35%.\n\nWhat happened next matters more. Rather than distribute the windfall, the company spent it on generation. The 24.9 MW Rehar-1 hydro plant in Chhattisgarh was commissioned in July 2025. A 50 MW solar project is under way. And in August 2024 came the ₹2,657 crore bid for SKS Power, 1,200 MW of thermal capacity in insolvency, which took until February 2026 and a Supreme Court ruling to finally secure.\n\nBy FY26 revenue was ₹5,690 crore and profit ₹1,109 crore, and the segment numbers had crossed over. The share price has fallen over the past year even as the transformation completed.",
+  "risks": [
+    "Earnings that arrive in waves. Quarterly pre-tax profit over the last eight quarters: ₹276 crore, ₹226 crore, ₹160 crore, ₹553 crore, ₹431 crore, ₹255 crore, ₹210 crore, ₹615 crore. That is a range of nearly four times, so no single quarter tells you much and averaging is mandatory. High.",
+    "Other income doing real work. It has run at 2.4% of pre-tax profit in one quarter and 37.3% in another. The June 2026 quarter's record ₹478 crore profit includes ₹110 crore from the regulator finally approving the Sikkim hydro project's cost for the period July 2021 to July 2025. Strip that and the quarter was good rather than a record. High.",
+    "The acquisition. ₹2,657 crore committed for a 1,200 MW plant that has been through insolvency, funded by borrowings that went from ₹1,366 crore to ₹2,861 crore, with another ₹1,000 crore approved. Distressed assets are cheap because they are difficult. Until the plant runs at a sensible load factor, the return on that capital is unknown. High.",
+    "Commodity exposure on a third of the business. Steel and ferro alloy prices are set globally and Sarda takes what it is given. Medium-High.",
+    "Discom payment risk. Selling power in India means selling to state distribution companies, which are not known for paying on time. Medium.",
+    "Regulatory timing. The Sikkim approval covering four years arriving as a single quarter's gain shows how the regulated half works: the money is real but its timing is not in the company's hands. Medium."
+  ],
+  "trapChecklist": [
+    {
+      "label": "Other income propping up profit",
+      "status": "fail",
+      "note": "Ranges from 2.4% to 37.3% of pre-tax profit by quarter, and the latest quarter contains a ₹110 crore one-time regulatory gain."
+    },
+    {
+      "label": "Growth measured from a distorted base",
+      "status": "warn",
+      "note": "The 58% ten-year profit growth starts in FY16, when profit was ₹13 crore. The five and three-year figures at 22% and 20% are the ones to use."
+    },
+    {
+      "label": "Margin jumped more than five points in a year",
+      "status": "warn",
+      "note": "Operating margin has swung from 22% to 41% across eight quarters. It moves with commodity and power prices, not with anything structural."
+    },
+    {
+      "label": "Profit up while operating cash flow lags",
+      "status": "pass",
+      "note": "₹1,735 crore of operating cash against ₹1,109 crore of profit in FY26, and about 133% across five years."
+    },
+    {
+      "label": "Promoter selling or dilution",
+      "status": "pass",
+      "note": "Holding flat at 73.16% across six quarters. Share capital unchanged at ₹35 crore since FY23."
+    },
+    {
+      "label": "Receivables building",
+      "status": "pass",
+      "note": "No receivables story. The cash conversion confirms it."
+    },
+    {
+      "label": "Debt rising faster than earnings",
+      "status": "warn",
+      "note": "Borrowings roughly doubled from ₹1,366 crore to ₹2,861 crore to fund the acquisition, with ₹1,000 crore more approved. Interest cover is still 7.3 times."
+    },
+    {
+      "label": "The label matches the business",
+      "status": "warn",
+      "note": "Listed and screened as iron and steel. Power earned four times what steel earned in the most recent quarter."
+    }
+  ],
+  "sectorChecklist": [
+    {
+      "label": "Installed capacity and fuel mix",
+      "status": "pass",
+      "note": "About 167 MW of hydro across three states, captive thermal, a 50 MW solar project, plus 1,200 MW of acquired thermal capacity."
+    },
+    {
+      "label": "Long-term tariff coverage",
+      "status": "warn",
+      "note": "A mix of tariff-based, merchant and captive sales. The unregulated share is exposed to spot power prices."
+    },
+    {
+      "label": "Discom receivables",
+      "status": "pass",
+      "note": "Cash conversion of 133% over five years suggests collections are not the problem here, unlike much of the sector."
+    },
+    {
+      "label": "Capacity under construction",
+      "status": "warn",
+      "note": "The 1,200 MW SKS plant plus 50 MW of solar. Real growth visibility, and real execution risk."
+    },
+    {
+      "label": "Leverage against cash flow",
+      "status": "pass",
+      "note": "Debt to equity of 0.36 and interest covered 7.3 times, on ₹1,735 crore of operating cash flow."
+    },
+    {
+      "label": "Regulatory dependence",
+      "status": "warn",
+      "note": "The Sikkim cost approval covering July 2021 to July 2025 arrived as one ₹110 crore quarter. Timing sits with the regulator."
+    },
+    {
+      "label": "Commodity input pass-through",
+      "status": "fail",
+      "note": "In steel and ferro alloys, neither the input nor the output price is Sarda's to set."
+    }
+  ],
+  "summary": "Sarda Energy is filed under iron and steel and it is not really that any more. Power now earns several times what steel does, the result of two decades of building hydro and captive generation and one very large bet on a 1,200 MW coal plant bought out of bankruptcy for ₹2,657 crore. The company generates genuine cash, ₹1,735 crore of it in FY26, the promoter has not sold a share, and the current debt load remains serviceable. What stops it being cheap is the thing the multiple already reflects: a 31% operating margin producing only a 17% return on capital, pre-tax profit that swings nearly fourfold between quarters, and an other-income line that supplied ₹110 crore of the latest record quarter through a regulatory approval covering four earlier years. At about 16 times reported earnings, or 18 times stripped, there is little sign of a power company being overlooked inside a steel one. The price reads as a discount for earnings that cannot yet be predicted.",
+  "engine": {
+    "state": "multiple-drift",
+    "earningsLabel": "Engine one: real, and hard to read",
+    "multipleLabel": "Engine two: compressed while profit grew",
+    "earnings": "The earnings engine works and it is cash-backed. Trailing profit of ₹1,151 crore is up 20%, operating cash flow ran at ₹1,735 crore in FY26, and free cash flow has been positive in eight of the last ten years. The problem is not that the underlying business fails to generate cash. It does. The problem is that the earnings run rate is difficult to identify from any single period. Eight quarters of pre-tax profit read ₹276 crore, ₹226 crore, ₹160 crore, ₹553 crore, ₹431 crore, ₹255 crore, ₹210 crore, ₹615 crore. Strip the ₹110 crore Sikkim one-time from the last of those and the record quarter becomes an ordinary good one. What drives the engine now is the power segment, and the 1,200 MW of acquired capacity that has not yet contributed anything.",
+    "multiple": "The share price is down about 10% over a year while profit grew 20%, so the multiple compressed roughly 25% in twelve months, and over three years the price compounded at 29% against 20% profit growth. At 16.3 times reported earnings, or 17.6 times once the Sikkim gain is removed, the multiple is neither punishing nor generous. One explanation is that investors can see the cash and cannot forecast the quarter. Institutional ownership is thin at 3.5% foreign and 3.5% domestic, and with 73.16% held by the promoter family the free float is about a fifth of the company, so there is limited institutional weight available to re-rate it either way.",
+    "verdict": "My honest read: this is a genuinely good industrial business that the market prices sensibly rather than cheaply, and the label mismatch is more interesting than it is exploitable. Yes, power now earns most of the profit while the stock is screened as steel. But a power company with a 17% return on capital, lumpy regulated earnings and a large acquisition still being absorbed does not deserve a much higher multiple than a steel company, so the mispricing you might hope for is not really there. What would change my view is narrow and specific: the SKS plant running at a sensible load factor and lifting return on capital above 20%, or two or three quarters where the profit holds up without an other-income contribution. Both are visible in the quarterly filing. Until then this is a company to hold an opinion about, not a discount to collect."
+  },
+  "lenses": [
+    {
+      "name": "The label stopped being true",
+      "reading": "Screener files Sarda under iron and steel, and in the June 2026 quarter power earned ₹313 crore of standalone segment profit against steel's ₹71 crore. In that quarter power earned 4.4 times the profit of the thing the company is named after and classified as. A single quarter cannot establish a trend here, but the assets behind it can: hydro plants built out over two decades, captive thermal to feed the furnaces, and a ₹2,657 crore acquisition of 1,200 MW of coal capacity out of insolvency. Here is the useful part for a reader, and it is not that you have found a hidden power company. It is a reminder that industry classification describes where a company started, not where its profit comes from now. Whenever a business has been reinvesting for years into something adjacent, check the segment note before you accept the label. Sometimes the label has quietly gone stale."
+    },
+    {
+      "name": "Thirty-one percent margins, seventeen percent returns",
+      "reading": "That gap is the most important thing in this report and it explains the multiple better than any other number. An operating margin of 31% sounds like a business with real economics. A return on capital employed of 17% says something different: producing that margin requires an enormous asset base. Steel furnaces, hydro dams, coal plants, mines. Every rupee of profit sits on several rupees of concrete and machinery. That is why a company generating ₹1,735 crore of operating cash trades at 16 times earnings rather than 30. High margin is not the same thing as high return, and when the two disagree it is the return that tells you what a business is really worth. Watch what happens to that 17% as the 1,200 MW comes into the base, because the capital is already counted and the earnings are not."
+    },
+    {
+      "name": "Read the year, never the quarter",
+      "reading": "Eight quarters of pre-tax profit: ₹276 crore, ₹226 crore, ₹160 crore, ₹553 crore, ₹431 crore, ₹255 crore, ₹210 crore, ₹615 crore. Nearly four times between the smallest and the largest, in a business whose revenue over the same period barely moved between ₹1,159 crore and ₹1,633 crore a quarter. Where does the swing come from? Partly commodity prices and power tariffs, and partly other income, which has ranged from 2.4% to 37.3% of pre-tax profit. The June 2026 quarter was reported as a record ₹478 crore of net profit, and ₹110 crore of that came from the regulator approving the Sikkim hydro project's costs for a four-year period ending in July 2025. Real money, correctly booked, and it belongs to four earlier years. Any headline built on one quarter of this company is close to meaningless."
+    },
+    {
+      "name": "The bet is already placed",
+      "reading": "Most investment decisions are about what a management team might do. Here it has been done. ₹2,657 crore committed for SKS Power, borrowings doubled from ₹1,366 crore to ₹2,861 crore, another ₹1,000 crore approved, eighteen months of litigation ending with the Supreme Court dismissing the appeals in February 2026. That capital is spent and the plant is theirs. So you are not deciding whether the strategy is wise, you are waiting to see what it earns. Distressed generation bought at a fraction of replacement cost is one of the better trades available to an industrial company with cash, and it is also how leveraged manufacturers have historically come unstuck, because a cheap plant still has to be restarted, fuelled, staffed and sold from. The answer will show up as return on capital employed, currently 17%, measured on a base that already includes the money and does not yet include most of the output."
+    }
+  ],
+  "scenario": {
+    "title": "The SKS test",
+    "intro": "Everything in this report reduces to one question: does ₹2,657 crore of acquired coal capacity earn its cost of capital. These five lines answer it, and all five are in the quarterly and annual filings.",
+    "columns": [
+      "Now",
+      "What would change the view"
+    ],
+    "rows": [
+      {
+        "label": "Return on capital employed",
+        "cells": [
+          "16.9%",
+          "Above 20% once SKS is in the base"
+        ],
+        "tone": "warn"
+      },
+      {
+        "label": "Borrowings",
+        "cells": [
+          "₹2,632 cr, plus ₹1,000 cr approved",
+          "Falls, or at least stops rising"
+        ],
+        "tone": "warn"
+      },
+      {
+        "label": "SKS utilisation",
+        "cells": [
+          "1,200 MW acquired, output not yet disclosed",
+          "A sustained, sensible load factor"
+        ],
+        "tone": "warn"
+      },
+      {
+        "label": "Interest cover",
+        "cells": [
+          "7.3 times",
+          "Does not deteriorate materially"
+        ],
+        "tone": "good"
+      },
+      {
+        "label": "Power segment profit",
+        "cells": [
+          "₹313 cr in Q1 FY27",
+          "Stays dominant without one-off help"
+        ],
+        "tone": "warn"
+      }
+    ],
+    "takeaway": "The capital is already spent and the litigation is over, so this is no longer a question about strategy. It is a question about output. Return on capital employed is the single line that answers it, because the acquisition is already counted in the denominator and has barely reached the numerator."
+  }
+}

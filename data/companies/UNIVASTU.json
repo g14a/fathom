@@ -1,0 +1,648 @@
+{
+  "ticker": "UNIVASTU",
+  "company": "Univastu India Ltd",
+  "sector": "Industrials",
+  "industry": "Civil Construction",
+  "sectorId": "infrastructure",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-09-09",
+  "oneLiner": "Revenue nearly doubled and profit rose 65%, and yet the company went to its own promoters to raise ₹16 crore for working capital. The accounts explain why: this builder is running on other people's money at both ends, and the bill has not come due yet.",
+  "facts": {
+    "snapshot": "Univastu India is a Pune-based civil contractor. It builds metro stations, sports complexes, hospitals, mass housing, cold storage and educational buildings, mostly in Maharashtra and Goa, and also trades construction materials.",
+    "founded": "2009",
+    "hq": "Pune, Maharashtra"
+  },
+  "verdict": {
+    "rows": [
+      {
+        "label": "Order book",
+        "value": "₹1,854 cr, 7.6x revenue",
+        "tone": "good"
+      },
+      {
+        "label": "Growth",
+        "value": "Revenue up 42%, profit up 65%",
+        "tone": "good"
+      },
+      {
+        "label": "Cash conversion",
+        "value": "61% over five years",
+        "tone": "bad"
+      },
+      {
+        "label": "Receivables",
+        "value": "Debtor days 15 to 121 in one year",
+        "tone": "bad"
+      },
+      {
+        "label": "Payables",
+        "value": "765 days",
+        "tone": "bad"
+      },
+      {
+        "label": "Margins",
+        "value": "Falling as revenue scales",
+        "tone": "warn"
+      },
+      {
+        "label": "Dividend",
+        "value": "None, ever",
+        "tone": "warn"
+      },
+      {
+        "label": "Ownership",
+        "value": "Effectively no institutions",
+        "tone": "warn"
+      }
+    ],
+    "keyQuestion": "The order book is real and the profit is growing fast. So why did a company earning ₹26 crore need to issue warrants to its own promoters to fund working capital, and why does it now take 121 days to collect and 765 days to pay?"
+  },
+  "overview": "Univastu builds things for other people. Metro stations, sports complexes, hospitals, cold stores, schools and housing blocks, mostly across Maharashtra and Goa, from a base in Pune. It is an engineering, procurement and construction contractor, which means it wins a tender, executes the work over two or three years, and gets paid in instalments as milestones are certified. There is no product, no brand and no customer who knows its name. There is a tender document, a site, and a payment schedule.\n\nThe last two years have gone very well on the surface. Revenue went from ₹171 crore in FY25 to ₹243 crore in FY26 and to ₹318 crore on a trailing basis, which means the most recent two quarters alone brought in more than the whole of FY25. Profit followed, ₹16 crore to ₹26 crore to ₹31 crore trailing. The order book stands at ₹1,854 crore, more than seven times last year's revenue, and management is targeting another ₹1,000 crore of wins.\n\nThen you open the balance sheet, and it is a different company. In July 2026 the board approved a preferential issue of warrants at ₹87 each, raising about ₹16 crore, explicitly for working capital, with the promoters themselves taking part of it. A business that earned ₹26 crore last year had to go and ask for ₹16 crore to fund its own operations. That single fact is the report.",
+  "editorial": {
+    "realBusiness": "A contractor that turns a government tender into a building, financed in the gap between when it pays for concrete and when it gets paid for the wall.",
+    "whyExists": "Governments and institutions want metro stations and stadiums built, and they do not want to employ the engineers, hire the plant or manage the subcontractors. So they tender the job. Univastu bids, wins some, and carries the execution risk in exchange for a margin of roughly 15% to 17% at the operating line. It exists because someone has to stand between a public budget and a construction site, and be liable for what happens in between.",
+    "whyNotAlreadyWon": "Nobody has captured this pool because there is not much of a pool to capture. Indian civil contracting is one of the most fragmented industries in the country: thousands of firms bid on price, the lowest bid usually wins, and the buyer is often a government body with all the negotiating leverage. What keeps Univastu in business is local execution credibility in Maharashtra and pre-qualification credentials on specific project types, both of which are real and neither of which stops the next tender being decided on price.",
+    "mentalModels": [
+      {
+        "model": "Toll booth or restaurant",
+        "assessment": "Job shop",
+        "assessmentTone": "bad",
+        "why": "It owns no bottleneck. It competes for jobs, one tender at a time, against anyone with capital, plant and a pre-qualification. The order book is the asset, and an order book empties."
+      },
+      {
+        "model": "Cash conversion",
+        "assessment": "Weak",
+        "assessmentTone": "bad",
+        "why": "Over five years operating cash flow comes to about ₹39 crore against ₹64 crore of reported profit, roughly 61%. FY25 was worse than weak: profit of ₹16 crore alongside operating cash flow of minus ₹6 crore."
+      },
+      {
+        "model": "Percentage of completion",
+        "assessment": "The thing to verify",
+        "assessmentTone": "warn",
+        "why": "Under this accounting, revenue and profit depend on management's estimates of contract progress, costs and eventual margins, recognised before the corresponding cash has been collected. Combine that with debtor days going from 15 to 121 in a single year and the profit needs checking against collections, not against the income statement."
+      },
+      {
+        "model": "Monopsony",
+        "assessment": "High exposure",
+        "assessmentTone": "bad",
+        "why": "The customer is usually a government or public body awarding on lowest bid. Pricing power sits entirely on the other side of the table, and payment timing does too."
+      },
+      {
+        "model": "Capital allocation",
+        "assessment": "Questionable",
+        "assessmentTone": "warn",
+        "why": "No dividend has ever been paid in ten listed years, which is defensible for a growing contractor. Raising ₹16 crore of warrants for working capital in the same year you report ₹26 crore of profit is harder to defend."
+      },
+      {
+        "model": "Owner alignment",
+        "assessment": "Mixed",
+        "assessmentTone": "warn",
+        "why": "Promoters subscribed to part of the warrant issue, which puts their own money in. Their holding also went from 67.46% to 64.24% between June and July 2026, so the stake is diluting even as they participate."
+      }
+    ],
+    "economicEngine": [
+      {
+        "label": "Demand",
+        "value": "Public and institutional capex",
+        "note": "Metro stations, stadiums, hospitals, housing"
+      },
+      {
+        "label": "Award",
+        "value": "Competitive tender",
+        "note": "Usually lowest compliant bid"
+      },
+      {
+        "label": "Revenue",
+        "value": "Booked on completion percentage",
+        "note": "Recognised before the cash arrives"
+      },
+      {
+        "label": "Cost",
+        "value": "Materials, subcontractors, plant",
+        "note": "Paid out on the contractor's own timetable"
+      },
+      {
+        "label": "The gap",
+        "value": "Working capital",
+        "note": "121 days to collect against 765 days to pay"
+      }
+    ],
+    "strategicPosition": [
+      {
+        "label": "National EPC majors",
+        "description": "L&T, NCC, and the large listed contractors. Scale, balance sheet, national pre-qualification",
+        "tone": "strong"
+      },
+      {
+        "label": "Univastu",
+        "description": "Regional specialist in Maharashtra and Goa, credible on metro and sports infrastructure",
+        "tone": "focus"
+      },
+      {
+        "label": "Local sub-scale contractors",
+        "description": "Cheaper, undercapitalised, cannot pre-qualify for the larger jobs",
+        "tone": "weak"
+      }
+    ],
+    "winningToday": [
+      "Order book of ₹1,854 crore against FY26 revenue of ₹243 crore, more than seven years of work at last year's run rate",
+      "Execution actually accelerating: fourth-quarter FY26 revenue rose 174% year on year to ₹109 crore",
+      "Return on capital employed of 30% and return on equity of 25%, both genuinely high for a contractor",
+      "Debt has stayed roughly flat at ₹34 crore while revenue quadrupled since FY22",
+      "New verticals, sports and recreational infrastructure and metro rail electrical systems, both won in FY26"
+    ],
+    "stopWinning": [
+      "Receivables keep climbing from the 121 days they already reached, and the profit stays on paper",
+      "The payables position unwinds and the working capital has to be funded for real",
+      "Operating margin keeps sliding: it was 25% in the June 2025 quarter and 14% in the June 2026 quarter",
+      "A large contract gets delayed or disputed, which is the ordinary hazard of this industry",
+      "The order book converts more slowly than the cost base grows"
+    ],
+    "marketBets": [
+      "That the profit is real but the cash behind it is not yet proven",
+      "That a contractor with effectively no institutional shareholder and 8,627 owners in total has no obvious marginal buyer",
+      "That a 765-day payables position is a warning rather than a working capital innovation",
+      "That the margin compression as revenue scales tells you the order book was won on price"
+    ],
+    "sectorModels": [
+      {
+        "model": "Industry structure",
+        "reading": "Fragmented",
+        "note": "Thousands of contractors, price-led awards"
+      },
+      {
+        "model": "Pricing power",
+        "reading": "Weak",
+        "note": "Sits with the tendering authority"
+      },
+      {
+        "model": "Working capital intensity",
+        "reading": "Very high",
+        "note": "The defining feature of the sector, and of this company"
+      },
+      {
+        "model": "Earnings quality risk",
+        "reading": "High",
+        "note": "Percentage-of-completion accounting ties reported profit to estimates of progress and cost to complete."
+      }
+    ],
+    "whyNow": "The market has already found the growth: the stock is up 92% in a year and trades at about 19 times earnings, which for a contractor growing profit 65% is not expensive. The unresolved issue is whether that growth produces cash. The multiple is not low because nobody noticed the revenue. It is where it is because the growth arrived with a balance sheet that raises a question the income statement does not answer.",
+    "remember": "A profitable contractor that has to raise money for working capital is telling you where its profit actually is."
+  },
+  "business": {
+    "unitOfRevenue": "A certified project milestone. Univastu is paid when an engineer signs off that a defined stage of work is complete, which is not the same day the work is done and not the same day it paid for the materials.",
+    "revenueModel": "Project-based engineering, procurement and construction, recognised on percentage of completion. Plus a smaller trading business in construction materials. No recurring revenue of any kind: when a project ends, that revenue ends.",
+    "segments": [
+      {
+        "name": "Civil and structural EPC",
+        "pct": 90,
+        "marginProfile": "The core: metro stations, hospitals, housing, educational and sports buildings. Operating margin around 15% to 17%"
+      },
+      {
+        "name": "Trading and other",
+        "pct": 10,
+        "marginProfile": "Construction materials trading, thinner margin, disclosed only in aggregate"
+      }
+    ],
+    "revenuePerUnitTrend": "Falling. Operating margin was 22% in FY22 and 15% on the trailing twelve months, and quarterly it went from 25% in June 2025 to 14% in June 2026. Revenue per rupee of cost is going the wrong way exactly as volume scales, which is what winning work on price looks like.",
+    "industry": {
+      "structure": "Fragmented and commoditised. Thousands of contractors, most privately held, competing bid by bid.",
+      "competitors": "Nationally, L&T, NCC and the listed mid-tier contractors. Regionally, dozens of unlisted Maharashtra firms bidding the same tenders.",
+      "pricingPower": "Sits with the customer. Public tenders are decided largely on price, and the buyer also controls when the contractor gets paid.",
+      "demandDriver": "Government and institutional capital spending on urban infrastructure, transport and public buildings.",
+      "driverType": "Cyclical and policy-dependent. Budgets move with elections and fiscal room, not with any structural trend the contractor controls.",
+      "tam": "Very large in aggregate. Indian construction is measured in lakhs of crores, which is precisely why it is so competitive and so fragmented.",
+      "penetration": "Not the useful frame here. Univastu's constraint is not market size, it is how much work it can pre-qualify for, execute and finance at once.",
+      "valueChainPosition": "Squarely in the middle, and the worst place to be. It buys from cement and steel suppliers with pricing power and sells to public buyers with pricing power."
+    },
+    "qualityVerdict": "The operating record is better than the industry deserves. Thirty percent on capital employed and 25% on equity are genuinely good numbers for a contractor, revenue has quadrupled since FY22 without the debt rising, and the order book gives several years of visibility. But the accounting question sits on top of all of it. Under percentage-of-completion accounting, profit depends on management's estimates of contract progress, costs and eventual margins, booked before the cash is collected, and this year collection slowed sharply while the liabilities side expanded. Until you can see collections matching the profit across a couple more years, treat the returns as provisional. A high return on capital calculated on profits that have not yet converted into cash deserves less confidence until the collections arrive."
+  },
+  "valuation": [
+    {
+      "label": "Price",
+      "value": "₹165"
+    },
+    {
+      "label": "Market cap",
+      "value": "₹593 cr",
+      "hint": "A genuine micro-cap"
+    },
+    {
+      "label": "52W high / low",
+      "value": "₹179 / ₹56",
+      "hint": "Up about 92% over the year"
+    },
+    {
+      "label": "Stock P/E",
+      "value": "19.5"
+    },
+    {
+      "label": "EPS (TTM)",
+      "value": "₹8.44"
+    },
+    {
+      "label": "Book value",
+      "value": "₹28.7"
+    },
+    {
+      "label": "P/B",
+      "value": "5.7",
+      "hint": "High for a contractor",
+      "tone": "bad"
+    },
+    {
+      "label": "Dividend yield",
+      "value": "0.00%",
+      "hint": "No dividend has ever been paid",
+      "tone": "bad"
+    },
+    {
+      "label": "ROCE",
+      "value": "30.0%",
+      "tone": "good"
+    },
+    {
+      "label": "ROE",
+      "value": "25.4%",
+      "tone": "good"
+    }
+  ],
+  "financials": [
+    {
+      "year": "FY22",
+      "revenue": 59,
+      "netProfit": 5,
+      "eps": 1.54,
+      "patMargin": 8.5
+    },
+    {
+      "year": "FY23",
+      "revenue": 87,
+      "netProfit": 7,
+      "eps": 1.94,
+      "patMargin": 8.0
+    },
+    {
+      "year": "FY24",
+      "revenue": 121,
+      "netProfit": 10,
+      "eps": 2.09,
+      "patMargin": 8.3
+    },
+    {
+      "year": "FY25",
+      "revenue": 171,
+      "netProfit": 16,
+      "eps": 2.91,
+      "patMargin": 9.4
+    },
+    {
+      "year": "FY26",
+      "revenue": 243,
+      "netProfit": 26,
+      "eps": 6.48,
+      "patMargin": 10.7
+    }
+  ],
+  "ratios": [
+    {
+      "label": "ROE",
+      "value": "25.4%",
+      "tone": "good"
+    },
+    {
+      "label": "ROCE",
+      "value": "30.0%",
+      "hint": "High for the sector, but computed on estimated profit",
+      "tone": "good"
+    },
+    {
+      "label": "Debt / equity",
+      "value": "0.33",
+      "hint": "₹34 cr of borrowings, roughly flat since FY21",
+      "tone": "good"
+    },
+    {
+      "label": "Interest cover",
+      "value": "11.8x",
+      "hint": "Operating profit ₹47 cr against ₹4 cr of interest",
+      "tone": "good"
+    },
+    {
+      "label": "Operating margin",
+      "value": "15%",
+      "hint": "Was 22% in FY22 and 25% in the June 2025 quarter",
+      "tone": "bad"
+    },
+    {
+      "label": "Debtor days",
+      "value": "121",
+      "hint": "Was 15 in FY25. The single largest change in the accounts",
+      "tone": "bad"
+    },
+    {
+      "label": "Days payable",
+      "value": "765",
+      "hint": "Was 283 in FY25. Heavily affected by contract advances, so not 765 days of supplier credit",
+      "tone": "bad"
+    },
+    {
+      "label": "Working capital days",
+      "value": "80",
+      "hint": "Held down only by the payables position",
+      "tone": "warn"
+    }
+  ],
+  "cashFlow": [
+    {
+      "year": "FY22",
+      "ocf": 12,
+      "capex": 0,
+      "fcf": 12
+    },
+    {
+      "year": "FY23",
+      "ocf": 10,
+      "capex": 1,
+      "fcf": 9
+    },
+    {
+      "year": "FY24",
+      "ocf": 11,
+      "capex": 1,
+      "fcf": 10
+    },
+    {
+      "year": "FY25",
+      "ocf": -6,
+      "capex": 6,
+      "fcf": -12
+    },
+    {
+      "year": "FY26",
+      "ocf": 12,
+      "capex": 1,
+      "fcf": 11
+    }
+  ],
+  "cashFlowNote": "This is where the report earns its caution. Across FY22 to FY26 the company reported about ₹64 crore of net profit and generated about ₹39 crore of operating cash, a conversion of roughly 61%. FY25 was the year to look at hardest: profit of ₹16 crore against operating cash flow of minus ₹6 crore, meaning the entire year's earnings and more stayed on the balance sheet. FY26 brought cash back to ₹12 crore, but note how. Other liabilities on the balance sheet jumped from ₹72 crore to ₹193 crore and days payable stretched to 765, so a large part of the year's cash came from money not yet paid out or from advances received on contracts rather than from work billed and collected. That mix is also why the reported 765-day payable figure overstates ordinary supplier credit. Meanwhile debtor days went from 15 to 121. Read the two together and the picture is a company financing a fast ramp with its suppliers and its customers, which works while the order book converts and becomes uncomfortable the moment it does not.",
+  "growth": [
+    {
+      "label": "Sales CAGR 10Y",
+      "value": "27%",
+      "tone": "good"
+    },
+    {
+      "label": "Sales CAGR 5Y",
+      "value": "37%",
+      "tone": "good"
+    },
+    {
+      "label": "Sales CAGR 3Y",
+      "value": "41%",
+      "tone": "good"
+    },
+    {
+      "label": "Sales growth TTM",
+      "value": "107%",
+      "hint": "Two quarters of heavy execution",
+      "tone": "good"
+    },
+    {
+      "label": "Profit CAGR 5Y",
+      "value": "19%",
+      "hint": "Measured from FY21, a 42% margin year that inflates the base",
+      "tone": "neutral"
+    },
+    {
+      "label": "Profit CAGR 3Y",
+      "value": "52%",
+      "tone": "good"
+    },
+    {
+      "label": "Profit growth TTM",
+      "value": "163%",
+      "tone": "good"
+    },
+    {
+      "label": "Order book",
+      "value": "₹1,854 cr",
+      "hint": "About 7.6 times FY26 revenue",
+      "tone": "good"
+    }
+  ],
+  "management": "The company is run by its founder. Dr. Pradeep Khandagale is Chairman and Managing Director, with Girish Deshmukh as Chief Financial Officer, and together the promoter group held 67.46% until mid-2026. It has been listed since 2016 and has never paid a dividend, which for a contractor reinvesting into a growing order book is a reasonable choice rather than a red flag.\n\nTwo actions in the last year deserve your attention. In August 2025 the board announced a two-for-one bonus issue, with a record date in October, which is why share capital tripled from ₹12 crore to ₹36 crore while reserves barely moved. A bonus changes nothing economically; it splits the same company into more pieces. Then in July 2026 shareholders approved a preferential issue of about 18.4 lakh warrants at ₹87 each, raising roughly ₹16 crore, stated as being for working capital. The promoters subscribed to part of it, which is the good half of the story because their own money is going in. Promoter holding nonetheless fell from 67.46% to 64.24% between June and July 2026.\n\nHere is the question I would put to management on the next call, and it is not a hostile one. You reported ₹26 crore of profit in FY26 and ₹31 crore on a trailing basis. Why did the company need ₹16 crore of fresh capital for working capital in the same year? A convincing answer would be that a large contract required mobilisation ahead of billing, which is ordinary and temporary. An unconvincing answer would be silence.",
+  "holding": [
+    {
+      "label": "Promoter",
+      "pct": 64.24,
+      "qoqChange": -3.22
+    },
+    {
+      "label": "FII",
+      "pct": 0.01,
+      "qoqChange": 0
+    },
+    {
+      "label": "DII",
+      "pct": 0.0,
+      "qoqChange": 0
+    },
+    {
+      "label": "Public",
+      "pct": 35.76,
+      "qoqChange": 3.22
+    }
+  ],
+  "moat": {
+    "strength": "none",
+    "label": "No moat, and the sector does not offer one",
+    "sources": [
+      "Pre-qualification credentials on specific project types, which take time to build",
+      "Local execution credibility and site knowledge in Maharashtra and Goa",
+      "A relationship record with public agencies that awards repeat work"
+    ],
+    "note": "None of those is a moat, and it is worth being blunt about why. A moat lets you charge more than the next firm for the same thing. Univastu cannot, because the tender goes to the lowest compliant bid and the buyer is usually a government body with every advantage in the negotiation. What Univastu has instead is a licence to compete: pre-qualifications and a track record that let it into rooms a smaller firm cannot enter. That is genuinely valuable and it is not the same thing. Watch the margin to see the difference. It was 22% at the operating line in FY22 and 15% today, and the fall coincided with the order book growing. A company with a moat wins more work and holds its price. A company with a licence to compete wins more work by shaving it."
+  },
+  "narrative": "Univastu was a small builder doing ₹22 crore of revenue in FY16, and it grew steadily to ₹111 crore by FY20. Then covid halved it: FY21 revenue fell to ₹51 crore. That year also produced an operating margin of 42%, which on a construction business with revenue falling by half is not a performance to extrapolate, and it is the year the five-year growth rates are measured from, so treat the 19% five-year profit figure as arithmetic rather than evidence.\n\nThe real story starts in FY22. Revenue went ₹59 crore, ₹87 crore, ₹121 crore, ₹171 crore, ₹243 crore, and profit went ₹5 crore, ₹7 crore, ₹10 crore, ₹16 crore, ₹26 crore. That is a genuine four-year ramp and the debt barely moved. The last two quarters were extraordinary: ₹109 crore and ₹104 crore of revenue against ₹40 crore and ₹29 crore in the same quarters a year earlier. An order book of ₹1,854 crore sits behind it, including a Mumbai metro contract from IRCON revised to about ₹601 crore, more than twice last year's entire revenue.\n\nThe share price has done what you would expect, up 92% in a year and compounding at 69% over three. And in the same window that the revenue nearly doubled, receivables went from 15 days to 121, payables stretched to 765 days, and the company raised working capital from its own promoters.",
+  "risks": [
+    "Earnings quality under percentage-of-completion accounting. Revenue and profit rest on management's estimates of contract progress, cost to complete and eventual margin, recognised before the money arrives. With debtor days moving from 15 to 121 in a single year and five-year cash conversion at 61%, the profit needs to be confirmed by collections before it is trusted. High.",
+    "The payables position. The reported 765-day figure, against 283 a year earlier, is heavily affected by advances received on contracts and should not be read as 765 days of supplier credit. What it does show is that a large balance sits on the liabilities side, either owed to suppliers or received before the work is done. Both must eventually be settled, in cash or in delivery, and both are currently supporting the working capital ratio and the reported operating cash flow. High.",
+    "Margin compression. Operating margin has gone from 22% in FY22 to 15% on a trailing basis, and from 25% to 14% between the June 2025 and June 2026 quarters. Winning a larger order book at a falling margin is the classic way a contractor grows into trouble. High.",
+    "Customer concentration and payment risk. Public and quasi-public bodies dominate the client list, they award on price, and they are not known for paying promptly. A single delayed certification can move a quarter. Medium.",
+    "Scale and liquidity. A ₹593 crore company with 8,627 shareholders, effectively zero institutional ownership and a promoter holding that just moved 3.22 percentage points in a month. Position sizing matters more here than the thesis does. Medium.",
+    "Execution on an order book seven times revenue. Delivering ₹1,854 crore of work requires plant, people and working capital the company has not yet had to carry. The warrant issue suggests that constraint is already binding. Medium."
+  ],
+  "trapChecklist": [
+    {
+      "label": "Profit up while operating cash flow lags",
+      "status": "fail",
+      "note": "About ₹39 crore of operating cash against ₹64 crore of profit over five years, including a year of negative operating cash flow on ₹16 crore of profit."
+    },
+    {
+      "label": "Receivables building",
+      "status": "fail",
+      "note": "Debtor days went from 15 in FY25 to 121 in FY26. Other assets on the balance sheet went from ₹174 crore to ₹315 crore."
+    },
+    {
+      "label": "Percentage-of-completion accounting in use",
+      "status": "warn",
+      "note": "Standard for the sector, and standard is not the same as verified. Reported profit depends on estimates of progress and cost to complete, and becomes a fact only when the contract closes and the cash lands."
+    },
+    {
+      "label": "Raising capital while profitable",
+      "status": "fail",
+      "note": "₹16 crore of warrants issued at ₹87 in July 2026 for working capital, in a year the company reported ₹26 crore of profit."
+    },
+    {
+      "label": "Growth measured from a distorted base",
+      "status": "warn",
+      "note": "The five-year figures start in FY21, when revenue halved to ₹51 crore and operating margin printed 42%. Use the FY22 to FY26 run instead."
+    },
+    {
+      "label": "Margin jumped more than five points in a year",
+      "status": "warn",
+      "note": "FY21 showed a 42% operating margin against 10% the year before, on collapsing revenue. It has since normalised down to 15%."
+    },
+    {
+      "label": "Promoter selling or dilution",
+      "status": "warn",
+      "note": "Promoter holding went from 67.46% to 64.24% between June and July 2026. Offsetting that, promoters subscribed to part of the warrant issue."
+    },
+    {
+      "label": "Corporate action breaking the price history",
+      "status": "warn",
+      "note": "A two-for-one bonus issue with an October 2025 record date. Share capital tripled to ₹36 crore while reserves were unchanged."
+    },
+    {
+      "label": "Other income propping up profit",
+      "status": "pass",
+      "note": "Other income is under ₹1 crore a quarter against ₹14 crore of profit before tax. Not a factor."
+    },
+    {
+      "label": "Institutional ownership",
+      "status": "fail",
+      "note": "Foreign institutions hold 0.01% and domestic institutions hold nothing. Institutional ownership is effectively zero."
+    }
+  ],
+  "sectorChecklist": [
+    {
+      "label": "Order book to revenue",
+      "status": "pass",
+      "note": "₹1,854 crore against ₹243 crore of FY26 revenue, about 7.6 times. Well above the 2x to 3x that counts as healthy."
+    },
+    {
+      "label": "Order inflow momentum",
+      "status": "pass",
+      "note": "Management targets ₹1,000 crore of new orders this year, and FY26 added new verticals in sports infrastructure and metro rail electrical systems."
+    },
+    {
+      "label": "Working capital days",
+      "status": "warn",
+      "note": "Reported at 80 days, which looks fine until you see it is held down by a 765-day payables position rather than by fast collection."
+    },
+    {
+      "label": "Debtor days",
+      "status": "fail",
+      "note": "121 days, up from 15. Collection has moved from roughly two weeks to four months in a single year."
+    },
+    {
+      "label": "Mobilisation advances against work completed",
+      "status": "warn",
+      "note": "Other liabilities jumped from ₹72 crore to ₹193 crore, which is also what distorts the reported payable days. A meaningful part of the FY26 cash flow appears to be advances, which is revenue not yet earned."
+    },
+    {
+      "label": "EBITDA margin against sector norm",
+      "status": "pass",
+      "note": "At 15% to 17%, above the 10% to 14% typical for Indian EPC. The direction is the concern, not the level."
+    },
+    {
+      "label": "Geographic and project concentration",
+      "status": "warn",
+      "note": "Sites are confined to Maharashtra and Goa, and a single metro contract is worth more than twice FY26 revenue."
+    },
+    {
+      "label": "Leverage against cash flow",
+      "status": "pass",
+      "note": "Borrowings of ₹34 crore have been roughly flat since FY21 while revenue quadrupled, and interest is covered nearly twelve times."
+    }
+  ],
+  "summary": "Univastu is a fast-growing Pune contractor with a genuinely large order book, high returns on capital and a share price that has nearly doubled in a year. The growth is real: revenue quadrupled between FY22 and FY26 without the debt rising. What is not yet proven is the cash behind the profit. Five years of operating cash flow come to about 61% of five years of reported earnings, one of those years produced negative operating cash on a ₹16 crore profit, collection slowed to four months from two weeks, and the company raised ₹16 crore from its own promoters for working capital in a year it earned ₹26 crore. Meanwhile the operating margin has fallen from 22% to 15% as the order book grew, which is what winning work on price looks like. At about 19 times earnings you are not being asked to pay much, and the reason is not that the market missed the growth. Judge it on one thing over the next four quarters: does the cash arrive.",
+  "engine": {
+    "state": "earnings-engine",
+    "earnings": "Engine one is running fast and the question is what fuel it is burning. Trailing profit is up 163%, revenue up 107%, and the last two quarters brought in more than the whole of FY25. Behind that sits ₹1,854 crore of order book, including a metro contract worth more than twice last year's revenue. So the work is real and the execution is happening. What has not yet happened is collection. Over five years the company turned about 61% of its profit into operating cash, receivables jumped eightfold in days, and the FY26 cash flow leans heavily on a payables position that stretched to 765 days. Both readings are available to you: a contractor mobilising hard on a big new contract, which is normal and temporary, or profit accumulating somewhere other than the bank. The next four quarters of collections separate them, and nothing else will.",
+    "multiple": "At about 19 times earnings the multiple has expanded, not compressed. The share price is up 92% over a year against 163% trailing profit growth, so the multiple actually fell over twelve months, but over three years the price compounded at 69% against 52% profit growth, which means engine two has been adding to the return rather than working against it. There is very little room left for it to keep doing so. This is a ₹593 crore company with 0.01% foreign ownership, no domestic institution and 8,627 shareholders, so no fund can build a position that matters at this size. For as long as that ownership structure persists, the marginal buyer is likely to be retail.\n\nWhat has to be true at 19 times: not heroic growth. The order book already covers several years of revenue, so the multiple does not require Univastu to win more work. It requires the work already won to turn into cash without the working capital gap widening. That is the valuation bridge, and it is a lower bar than a growth multiple usually implies and a harder one than the income statement suggests.",
+    "verdict": "My honest read: the business is doing better than I expected and the accounts are doing worse. Thirty percent on capital employed with an order book seven times revenue is a genuinely good position, and the founder putting his own money into the warrant issue is a point in its favour. But I cannot get past the sequence. Report ₹26 crore of profit, watch receivables go from 15 days to 121, stretch payables to 765 days, then raise ₹16 crore for working capital. Each of those has an innocent explanation. All four together, in one year, is a pattern I would want answered before sizing anything. I would be wrong about the caution if the next two quarterly results show operating cash flow tracking profit and debtor days coming back under 90, and that is a specific test you can run yourself in about ten minutes when the numbers land.",
+    "earningsLabel": "Engine one: real work, unproven cash",
+    "multipleLabel": "Engine two: no marginal buyer"
+  },
+  "lenses": [
+    {
+      "name": "Follow the cash, not the profit",
+      "reading": "Take the last five years together, because a single year proves nothing in this industry. Reported profit comes to about ₹64 crore. Operating cash flow comes to about ₹39 crore. So roughly two rupees in five of the reported profit never turned up as money. Now look at where it went. In FY25 the company reported ₹16 crore of profit and generated minus ₹6 crore of operating cash, which means the entire year's earnings plus more stayed on the balance sheet. FY26 looked healthier at ₹12 crore of cash, but examine how it got there: other liabilities went from ₹72 crore to ₹193 crore in the same year. Money you have not paid out yet counts as cash flow today and as an obligation tomorrow. This is the single most important page of the accounts, and it is the one nobody reads."
+    },
+    {
+      "name": "Fifteen days to a hundred and twenty one",
+      "reading": "Here is a number that should stop you. Debtor days in FY25 were 15. In FY26 they were 121. That is not drift, it is a step change, and it happened in the same year revenue jumped 42%. Ask what it means in plain terms. In FY25 Univastu was being paid roughly two weeks after billing. In FY26 it waits four months. On revenue of ₹243 crore, four months of billing is a very large number to be sitting in someone else's ledger. Public contracts do pay more slowly than the older work did, so some of this is the customer mix changing. Whether all of it is will show up in the collections rather than in any explanation."
+    },
+    {
+      "name": "The warrant issue is the tell",
+      "reading": "In July 2026 shareholders approved about 18.4 lakh warrants at ₹87, raising roughly ₹16 crore, stated purpose working capital. Set that beside the income statement, which says the company earned ₹26 crore in FY26 and ₹31 crore on a trailing basis. A business earning that much and still needing ₹16 crore of fresh working capital tells you that the accounting profit and the cash available to fund growth are very different numbers here. A contractor mobilising on a metro contract worth ₹601 crore does have to buy plant and materials long before it bills for them, and funding that with equity rather than debt is the conservative choice. The promoters subscribing to part of the issue supports that reading. Their holding falling 3.22 percentage points in the same month does not."
+    },
+    {
+      "name": "Growing at a falling price",
+      "reading": "The order book has been the headline for two years, and it is worth asking what was traded for it. In FY22 the operating margin was 22%. It is 15% on a trailing basis. Quarterly, it went from 25% in June 2025 to 14% in June 2026, and the two heaviest revenue quarters in the company's history are also the two lowest-margin ones. The timing raises the possibility that the new order book was bought at lower margins, though project mix, mobilisation costs and where each contract sits in its life can produce the same pattern. The quarterly numbers will separate those. Either way it means you should stop thinking of the order book as an asset with a fixed value and start thinking of it as revenue whose margin you will only know afterwards."
+    }
+  ],
+  "scenario": {
+    "title": "What to watch",
+    "intro": "Everything above reduces to whether the cash arrives. These are the five lines that answer it, and all five are in the quarterly and annual filings.",
+    "columns": [
+      "Now",
+      "What would settle the question"
+    ],
+    "rows": [
+      {
+        "label": "Debtor days",
+        "cells": [
+          "121",
+          "Back under 90"
+        ],
+        "tone": "bad"
+      },
+      {
+        "label": "Operating cash flow to profit",
+        "cells": [
+          "61% over five years",
+          "Moving toward 100%"
+        ],
+        "tone": "bad"
+      },
+      {
+        "label": "Operating margin",
+        "cells": [
+          "15% trailing, 22% in FY22",
+          "Stabilises rather than keeps sliding"
+        ],
+        "tone": "warn"
+      },
+      {
+        "label": "Other liabilities",
+        "cells": [
+          "₹193 cr, from ₹72 cr",
+          "Normalises without a cash squeeze"
+        ],
+        "tone": "warn"
+      },
+      {
+        "label": "Working capital funding",
+        "cells": [
+          "₹16 cr of warrants, July 2026",
+          "No repeat equity raise"
+        ],
+        "tone": "warn"
+      }
+    ],
+    "takeaway": "Two quarterly results are enough to move most of these. If collections track profit and debtor days fall while the margin holds, the caution in this report was wrong and the order book is worth what it looks like. If receivables keep climbing and another raise follows, the profit was never the thing to look at."
+  }
+}
