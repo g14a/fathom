@@ -1,0 +1,579 @@
+{
+  "ticker": "HINDALCO",
+  "company": "Hindalco Industries Ltd",
+  "sector": "Commodities",
+  "industry": "Aluminium",
+  "sectorId": "metals",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-09-09",
+  "oneLiner": "Two thirds of the revenue is Novelis, an American business that melts used drink cans back into sheet. It is midway through a build that has taken borrowings up by half and free cash flow deep into the red, which is why 11 times earnings is not the bargain it looks like.",
+  "facts": {
+    "snapshot": "Hindalco mines bauxite, refines alumina and smelts aluminium in India, and also smelts and refines copper. Through Novelis it is the world's largest recycler of aluminium, turning used beverage cans and scrap into rolled sheet for cans, cars and packaging in North America, Europe, Asia and South America.",
+    "founded": "1958",
+    "hq": "Mumbai"
+  },
+  "verdict": {
+    "rows": [
+      {
+        "label": "What it is",
+        "value": "An integrated aluminium and recycling group",
+        "tone": "good"
+      },
+      {
+        "label": "India operations",
+        "value": "Low-cost, backward integrated",
+        "tone": "good"
+      },
+      {
+        "label": "Novelis",
+        "value": "Two thirds of revenue, mid-build",
+        "tone": "warn"
+      },
+      {
+        "label": "Debt",
+        "value": "₹99,165 cr, up 51% in a year",
+        "tone": "bad"
+      },
+      {
+        "label": "Free cash flow",
+        "value": "Minus ₹19,508 cr in FY26",
+        "tone": "bad"
+      },
+      {
+        "label": "Other income",
+        "value": "Minus ₹4,074 cr in FY26",
+        "tone": "bad"
+      },
+      {
+        "label": "Returns",
+        "value": "13% on capital and on equity",
+        "tone": "warn"
+      },
+      {
+        "label": "Valuation",
+        "value": "About 11 times earnings",
+        "tone": "neutral"
+      }
+    ],
+    "keyQuestion": "Aluminium is near a cyclical high and Novelis is spending $2.1bn to $2.4bn in FY27 with $1.7bn of that on one plant. Is 11 times earnings cheap, or is it the ordinary multiple for peak earnings funded by peak borrowing?"
+  },
+  "overview": "Most people who buy Hindalco think they are buying Indian aluminium. Most of the revenue is actually Novelis, an American company Hindalco bought in 2007, and Novelis does something quite different: it collects used drink cans and industrial scrap, melts them, and rolls the metal back into sheet for new cans, car bodies and packaging. Recycled aluminium takes roughly 5% of the energy that smelting fresh metal from ore does, which is the entire economic point.\n\nThe Indian half is the classic integrated producer. Hindalco mines its own bauxite, refines it into alumina, smelts aluminium, and runs a large copper business alongside. Backward integration is why the Indian operations hold up when metal prices fall: the company owns its own inputs rather than buying them.\n\nWhat makes this a difficult company to price right now is that three things are happening at once. Aluminium prices are strong, so profit is high. Novelis is building a large recycling and rolling plant at Bay Minette in Alabama, which is consuming enormous capital. And the borrowings that fund it rose by half in a single year while free cash flow turned sharply negative. The 11 times earnings multiple sits on top of all three.",
+  "editorial": {
+    "realBusiness": "A scrap merchant with a smelter attached. Novelis buys metal back from the bin and sells it as sheet, and that half is now most of the company.",
+    "whyExists": "Aluminium is expensive to make from ore and cheap to make from itself. Smelting bauxite into metal takes enormous electricity; melting a used can takes about 5% of it. So there is real value in collecting scrap and returning it to the same customers as sheet, and doing that at scale requires collection networks, rolling mills near the customers, and the ability to hold a metal price risk between buying scrap and selling sheet. Novelis exists to do exactly that, and Hindalco's Indian operations exist because bauxite in Odisha and Jharkhand is worth more converted than exported.",
+    "whyNotAlreadyWon": "Because both halves are capital-intensive to the point of exclusion. A smelter is a multi-billion-dollar commitment tied to a power source and an ore body, and a rolling mill sits next to its customers because sheet is expensive to ship. That keeps the field small. It also means the incumbents compete on cost rather than on price, since the metal itself is a global commodity nobody can differentiate. Hindalco's advantage is that it owns its bauxite and coal in India and has the largest recycling network in the world, and neither of those can be bought quickly.",
+    "mentalModels": [
+      {
+        "model": "Toll booth or restaurant",
+        "assessment": "Restaurant with a good kitchen",
+        "assessmentTone": "warn",
+        "why": "Backward integration and recycling scale make Hindalco a low-cost producer, which is genuinely valuable. It still sells a commodity at a price set on the London Metal Exchange, and low cost is not the same as pricing power."
+      },
+      {
+        "model": "Pricing power",
+        "assessment": "None",
+        "assessmentTone": "bad",
+        "why": "Aluminium and copper are globally priced. The company's control is over its cost per tonne, not over what a tonne fetches."
+      },
+      {
+        "model": "Capital allocation",
+        "assessment": "The live question",
+        "assessmentTone": "warn",
+        "why": "Novelis is guided to spend $2.1bn to $2.4bn in FY27, of which $1.7bn is Bay Minette. Group borrowings rose 51% in a year. Management has put dates and figures against when that spending stops."
+      },
+      {
+        "model": "The referee, return on capital",
+        "assessment": "Ordinary",
+        "assessmentTone": "warn",
+        "why": "13% on capital employed and 13% on equity, with a ten-year average return on equity of 11%. For all the integration and scale, this is a business that earns a modest return on an enormous asset base."
+      },
+      {
+        "model": "Earnings quality",
+        "assessment": "Distorted right now",
+        "assessmentTone": "bad",
+        "why": "Other income swung to minus ₹4,074 crore in FY26 from positive figures in prior years, and is minus ₹5,911 crore on a trailing basis. Novelis also carried costs from a fire at its Oswego plant. Neither belongs in a run rate."
+      },
+      {
+        "model": "Cyclicality",
+        "assessment": "The whole risk",
+        "assessmentTone": "bad",
+        "why": "Profit has ranged from a ₹702 crore loss to ₹16,002 crore across eleven years, with no two consecutive years alike. There is no run rate in that series."
+      }
+    ],
+    "economicEngine": [
+      {
+        "label": "India",
+        "value": "Bauxite to alumina to metal",
+        "note": "Owns its ore and much of its power, so cost is controlled"
+      },
+      {
+        "label": "Novelis",
+        "value": "Scrap to sheet",
+        "note": "About two thirds of revenue, recycling at roughly 5% of smelting energy"
+      },
+      {
+        "label": "Price",
+        "value": "Set on the LME",
+        "note": "Neither half of the company influences it"
+      },
+      {
+        "label": "The spend",
+        "value": "$1.7bn on Bay Minette in FY27",
+        "note": "Plus $350m maintenance; total guided $2.1bn to $2.4bn"
+      },
+      {
+        "label": "The funding",
+        "value": "Debt",
+        "note": "Group borrowings ₹65,642 cr to ₹99,165 cr in one year"
+      }
+    ],
+    "strategicPosition": [
+      {
+        "label": "Global aluminium majors",
+        "description": "Rio Tinto, Alcoa, Rusal, Chalco. Larger, and in some cases cheaper on power",
+        "tone": "strong"
+      },
+      {
+        "label": "Hindalco with Novelis",
+        "description": "World's largest aluminium recycler, backward integrated in India, low on the cost curve",
+        "tone": "focus"
+      },
+      {
+        "label": "Non-integrated Indian smelters",
+        "description": "Buy alumina and power at market rates, fully exposed to both ends",
+        "tone": "weak"
+      }
+    ],
+    "winningToday": [
+      "Trailing profit of ₹16,400 crore, with the June 2026 quarter at ₹7,013 crore the best in the recent series",
+      "Backward integration in India, which holds the cost base when metal prices fall",
+      "Recycling at roughly 5% of the energy smelting requires, a structural cost advantage",
+      "Novelis expects capital spending to fall to maintenance levels of about $350 million once Bay Minette commissions in late 2026",
+      "Foreign institutions have been adding, from 28.15% to 31.41% over five quarters"
+    ],
+    "stopWinning": [
+      "Aluminium prices fall from a cyclical high, which is the single largest exposure",
+      "Bay Minette costs more or takes longer than the $1.7 billion and late-2026 timeline suggest",
+      "Net debt goes past the ₹80,000 to ₹90,000 crore peak management expects",
+      "Novelis net debt to EBITDA, already at 4.1 times against 3.7 times in December 2025, keeps rising",
+      "The Oswego fire costs recur or the restart disappoints"
+    ],
+    "marketBets": [
+      "That the current profit is a cyclical peak and should not be capitalised at a growth multiple",
+      "That the debt taken on to build Bay Minette has to be repaid out of future metal prices nobody can forecast",
+      "That an 11% ten-year average return on equity is a better guide to normal than the 13% reported now"
+    ],
+    "sectorModels": [
+      {
+        "model": "Commodity exposure",
+        "reading": "Total",
+        "note": "Both aluminium and copper are priced globally"
+      },
+      {
+        "model": "Cost position",
+        "reading": "Strong",
+        "note": "Backward integration in India and recycling scale globally"
+      },
+      {
+        "model": "Capital intensity",
+        "reading": "Extreme",
+        "note": "Smelters and rolling mills, currently mid-build"
+      },
+      {
+        "model": "Leverage",
+        "reading": "Elevated",
+        "note": "Novelis net debt to EBITDA at 4.1 times, up from 3.7 times"
+      }
+    ],
+    "whyNow": "The share price is up 36% over a year while reported profit fell 16%, from ₹16,002 crore to ₹13,391 crore. So the multiple expanded rather than compressed, and at about 11 times it is being read as cheap. Two things sit underneath that reading. The reported profit was depressed by other income of minus ₹4,074 crore and by costs from the Oswego fire, so the underlying earnings were better than the headline. And the aluminium price that produced those earnings is near a cyclical high, so the same multiple applied to mid-cycle earnings would look quite different. The June 2026 quarter, at ₹7,013 crore, was the strongest in the recent run.",
+    "remember": "The multiple is 11 times because the earnings are high, not because the price is low."
+  },
+  "business": {
+    "unitOfRevenue": "A tonne of aluminium or copper, and a tonne of rolled sheet. Hindalco is paid the market price for metal and a conversion premium for turning scrap into finished sheet.",
+    "revenueModel": "Integrated production and sale of commodity metal, plus value-added rolled products sold under long-term supply arrangements to beverage-can and automotive customers.",
+    "segments": [
+      {
+        "name": "Novelis",
+        "pct": 65,
+        "marginProfile": "Rolled aluminium from recycled scrap. Earns a conversion spread rather than the metal price"
+      },
+      {
+        "name": "India aluminium",
+        "pct": 20,
+        "marginProfile": "Backward integrated from bauxite. The highest-margin part when metal prices are strong"
+      },
+      {
+        "name": "India copper",
+        "pct": 15,
+        "marginProfile": "Custom smelting, earns treatment and refining charges rather than the copper price"
+      }
+    ],
+    "revenuePerUnitTrend": "Improving slowly through mix. Operating margin went from 8% in FY15 to 13% to 14% now, mostly because Novelis shifted toward higher-value automotive and speciality sheet and because the Indian operations completed their integration.",
+    "industry": {
+      "structure": "Global oligopoly in primary aluminium, more competitive in rolled products, with recycling the fastest-growing segment.",
+      "competitors": "Rio Tinto, Alcoa, Rusal and Chalco in primary metal. Constellium, Arconic and Kaiser in rolled products.",
+      "pricingPower": "None on the metal. Some on the conversion premium for speciality sheet, where qualification with a can or car maker takes years.",
+      "demandDriver": "Beverage cans, automotive lightweighting, construction and electrical demand. Recycled content mandates are a growing tailwind.",
+      "driverType": "Structural for recycling and automotive lightweighting; cyclical for the metal price that sets the profit.",
+      "tam": "Very large. Global aluminium demand is tens of millions of tonnes a year and recycling is taking a rising share.",
+      "penetration": "Recycling is the growth area, and Bay Minette is Hindalco's largest single bet on it.",
+      "valueChainPosition": "Fully integrated, from ore in Odisha to sheet delivered to an American can plant. That breadth is the strategic asset and the reason the capital base is so large."
+    },
+    "qualityVerdict": "The strategic position is genuinely strong and the financial return is ordinary, and both things are true at once. Owning your own bauxite and coal in India, and running an unmatched recycling network, puts Hindalco low on the global cost curve, which is the only durable advantage available in a commodity. Yet return on capital employed is 13% and the ten-year average return on equity is 11%, because the asset base required to hold that position is enormous. Right now three distortions sit on top: the negative other-income swing, costs from the Oswego fire, and a capital-spending programme that turned free cash flow sharply negative and lifted borrowings by half in a year. Management has given dated guidance on when the spending stops and where the debt peaks. Until that happens, the reported figures describe a company mid-build rather than a company at rest."
+  },
+  "valuation": [
+    {
+      "label": "Price",
+      "value": "₹1,009"
+    },
+    {
+      "label": "Market cap",
+      "value": "₹2,26,745 cr"
+    },
+    {
+      "label": "52W high / low",
+      "value": "₹1,179 / ₹732",
+      "hint": "Up about 36% over the year"
+    },
+    {
+      "label": "Stock P/E",
+      "value": "10.9",
+      "hint": "Computed price/EPS = 13.8 on trailing EPS of ₹72.99"
+    },
+    {
+      "label": "EPS (TTM)",
+      "value": "₹72.99"
+    },
+    {
+      "label": "Book value",
+      "value": "₹608"
+    },
+    {
+      "label": "P/B",
+      "value": "1.7",
+      "tone": "good"
+    },
+    {
+      "label": "Dividend yield",
+      "value": "0.50%"
+    },
+    {
+      "label": "ROCE",
+      "value": "13.2%",
+      "tone": "warn"
+    },
+    {
+      "label": "ROE",
+      "value": "13.0%",
+      "hint": "Ten-year average is 11%",
+      "tone": "warn"
+    }
+  ],
+  "financials": [
+    {
+      "year": "FY22",
+      "revenue": 195059,
+      "netProfit": 13730,
+      "eps": 61.1,
+      "patMargin": 7.0
+    },
+    {
+      "year": "FY23",
+      "revenue": 223202,
+      "netProfit": 10097,
+      "eps": 44.93,
+      "patMargin": 4.5
+    },
+    {
+      "year": "FY24",
+      "revenue": 215962,
+      "netProfit": 10155,
+      "eps": 45.19,
+      "patMargin": 4.7
+    },
+    {
+      "year": "FY25",
+      "revenue": 238496,
+      "netProfit": 16002,
+      "eps": 71.2,
+      "patMargin": 6.7
+    },
+    {
+      "year": "FY26",
+      "revenue": 274944,
+      "netProfit": 13391,
+      "eps": 59.59,
+      "patMargin": 4.9
+    }
+  ],
+  "ratios": [
+    {
+      "label": "ROE",
+      "value": "13.0%",
+      "hint": "Ten-year average 11%, five-year 13%",
+      "tone": "warn"
+    },
+    {
+      "label": "ROCE",
+      "value": "13.2%",
+      "hint": "Ranged 4% to 17% over eleven years",
+      "tone": "warn"
+    },
+    {
+      "label": "Operating margin",
+      "value": "13%",
+      "hint": "Was 8% in FY15, has been 10% to 15% for five years",
+      "tone": "neutral"
+    },
+    {
+      "label": "Borrowings",
+      "value": "₹99,165 cr",
+      "hint": "Up from ₹65,642 cr in FY25",
+      "tone": "bad"
+    },
+    {
+      "label": "Other income",
+      "value": "Minus ₹4,074 cr",
+      "hint": "Positive ₹1,832 cr in FY25",
+      "tone": "bad"
+    },
+    {
+      "label": "Debtor days",
+      "value": "36",
+      "hint": "Stable between 27 and 39 across a decade",
+      "tone": "good"
+    },
+    {
+      "label": "Novelis net debt / EBITDA",
+      "value": "4.1x",
+      "hint": "Was 3.7x in December 2025",
+      "tone": "bad"
+    }
+  ],
+  "cashFlow": [
+    {
+      "year": "FY22",
+      "ocf": 16838,
+      "capex": 5355,
+      "fcf": 11483
+    },
+    {
+      "year": "FY23",
+      "ocf": 19208,
+      "capex": 9637,
+      "fcf": 9571
+    },
+    {
+      "year": "FY24",
+      "ocf": 24056,
+      "capex": 15678,
+      "fcf": 8378
+    },
+    {
+      "year": "FY25",
+      "ocf": 24410,
+      "capex": 20404,
+      "fcf": 4006
+    },
+    {
+      "year": "FY26",
+      "ocf": 10250,
+      "capex": 29758,
+      "fcf": -19508
+    }
+  ],
+  "cashFlowNote": "Read the free cash flow column top to bottom and the story is complete without commentary: ₹11,483 crore, ₹9,571 crore, ₹8,378 crore, ₹4,006 crore, then minus ₹19,508 crore. Two things happened at once in FY26. Operating cash flow fell 58%, from ₹24,410 crore to ₹10,250 crore, hurt by the other-income swing and the Oswego fire costs. And capital spending climbed to nearly ₹30,000 crore as Bay Minette moved into its heaviest phase. The gap was funded with debt, which is why borrowings went from ₹65,642 crore to ₹99,165 crore in twelve months and Novelis net debt to EBITDA moved from 3.7 to 4.1 times. Management guides FY27 capital spending of $2.1 billion to $2.4 billion, then a fall to maintenance levels near $350 million once the plant commissions, and expects consolidated net debt to peak at ₹80,000 to ₹90,000 crore. That is a coherent plan. It is also a plan whose repayment depends on aluminium prices nobody controls.",
+  "growth": [
+    {
+      "label": "Sales CAGR 10Y",
+      "value": "11%",
+      "tone": "neutral"
+    },
+    {
+      "label": "Sales CAGR 5Y",
+      "value": "16%",
+      "tone": "good"
+    },
+    {
+      "label": "Sales CAGR 3Y",
+      "value": "7%",
+      "tone": "neutral"
+    },
+    {
+      "label": "Sales growth TTM",
+      "value": "20%",
+      "tone": "good"
+    },
+    {
+      "label": "Profit CAGR 10Y",
+      "value": "78%",
+      "hint": "Starts from a ₹259 cr year. Arithmetic, not evidence",
+      "tone": "neutral"
+    },
+    {
+      "label": "Profit CAGR 5Y",
+      "value": "35%",
+      "hint": "Starts in FY21, a weak year",
+      "tone": "neutral"
+    },
+    {
+      "label": "Profit CAGR 3Y",
+      "value": "19%",
+      "tone": "good"
+    },
+    {
+      "label": "Profit growth TTM",
+      "value": "20%",
+      "tone": "good"
+    }
+  ],
+  "management": "Hindalco is the Aditya Birla Group's metals flagship and the promoter group holds 34.67%, effectively unchanged. Equity capital has been stable, so the growth has not come from issuing shares to shareholders. The single decision that defines the current period is the Novelis capital programme, and it deserves to be assessed on its own terms rather than through the reported numbers it is currently distorting.\n\nThe case for it is straightforward. Recycled aluminium uses about 5% of the energy that primary smelting does, recycled-content requirements are tightening in both automotive and packaging, and Bay Minette is a combined recycling and rolling facility placed close to American customers. Building it while metal prices are strong is better than building it while they are weak.\n\nThe case against is equally straightforward and sits in the balance sheet. Group borrowings rose 51% in one year, free cash flow was minus ₹19,508 crore, and Novelis net debt to EBITDA went from 3.7 to 4.1 times. Management's guidance is specific: capital spending of $2.1 billion to $2.4 billion in FY27 with $1.7 billion on Bay Minette, commissioning in late 2026, then a fall to about $350 million of maintenance spend, with consolidated net debt peaking at ₹80,000 to ₹90,000 crore and Novelis returning to positive free cash flow by the end of FY27. Those are checkable claims with dates attached, which is the right way for a management team to be judged. Foreign institutions have been buying through it, from 28.15% to 31.41% over five quarters, while domestic institutions sold down from 24.68% to 19.82%.",
+  "holding": [
+    {
+      "label": "Promoter",
+      "pct": 34.67,
+      "qoqChange": 0.02
+    },
+    {
+      "label": "FII",
+      "pct": 31.41,
+      "qoqChange": 1.45
+    },
+    {
+      "label": "DII",
+      "pct": 19.82,
+      "qoqChange": -1.53
+    },
+    {
+      "label": "Public",
+      "pct": 13.26,
+      "qoqChange": 0.05
+    },
+    {
+      "label": "Other",
+      "pct": 0.82,
+      "qoqChange": -0.02
+    }
+  ],
+  "moat": {
+    "strength": "narrow",
+    "label": "Narrow, and made of cost rather than price",
+    "sources": [
+      "Owned bauxite and coal in India, so the Indian smelters control their own input cost",
+      "The world's largest aluminium recycling network, structurally advantaged on energy",
+      "Rolling mills located near beverage-can and automotive customers, since sheet is expensive to ship",
+      "Multi-year qualification with can makers and car manufacturers for speciality sheet"
+    ],
+    "note": "The moat is real and it is entirely on the cost side. Owning your ore and your power means the Indian operations stay profitable at metal prices that close unintegrated smelters, and recycling at 5% of smelting energy is a structural advantage nobody can legislate away. That is worth having. What it does not do is let Hindalco charge more for a tonne of aluminium, because the price is set on the London Metal Exchange and every producer receives the same number. So the moat determines who survives a downturn, not who prospers in one, and the 13% return on capital employed is the market's arithmetic on how much a cost advantage in a commodity is actually worth."
+  },
+  "narrative": "The decade divides cleanly in two. From FY15 to FY21, Hindalco was a heavily indebted integrated producer working through the Novelis acquisition: profit was ₹259 crore, then a ₹702 crore loss, then a slow climb to ₹3,483 crore by FY21, with borrowings sitting between ₹52,000 crore and ₹68,000 crore throughout. The operating margin ran at 8% to 13%.\n\nFY22 changed it. Commodity prices surged, profit hit ₹13,730 crore, the operating margin reached 15%, and the company used the windfall to bring borrowings down to ₹56,356 crore by FY24. FY25 was better still at ₹16,002 crore of profit and ₹24,410 crore of operating cash.\n\nFY26 is where the current picture forms. Revenue reached a record ₹2,74,944 crore, and profit fell to ₹13,391 crore as other income swung to minus ₹4,074 crore and Novelis absorbed costs from a fire at its Oswego plant. Capital spending climbed toward ₹30,000 crore for Bay Minette, free cash flow turned negative by ₹19,508 crore, and borrowings jumped to ₹99,165 crore. The share price rose 36% through all of it, and the June 2026 quarter produced ₹7,013 crore of profit, the strongest in the recent run.",
+  "risks": [
+    "The aluminium price. Hindalco controls its cost per tonne and nothing about what a tonne fetches. Profit over eleven years has ranged from a ₹702 crore loss to ₹16,002 crore. Buying at 11 times the top of that range is a different proposition from buying at 11 times its middle. High.",
+    "Execution and cost at Bay Minette. $1.7 billion of FY27 spending on one facility, commissioning guided for late 2026. Large industrial projects overrun, and this one is funded by debt taken at a cyclical peak. High.",
+    "Leverage. Group borrowings up 51% to ₹99,165 crore in a year, Novelis net debt to EBITDA at 4.1 times against 3.7 in December 2025, and a guided net-debt peak still ahead. That is manageable if metal prices hold and uncomfortable if they do not. High.",
+    "Distorted reported earnings. A negative other-income swing plus Oswego fire costs. The headline profit understates the underlying business, which cuts against the usual direction of this warning but still means the reported figure is not a run rate. Medium.",
+    "Modest returns on an enormous base. Return on capital employed of 13% on an enormous asset base. Even in good years, this business does not compound at a rate that rewards a long hold at a rich price. Medium.",
+    "Geographic and regulatory exposure. Novelis operates across North America, Europe, Asia and South America, so tariffs, energy prices and recycled-content rules in several jurisdictions all matter. Medium."
+  ],
+  "trapChecklist": [
+    {
+      "label": "Profit up while operating cash flow lags",
+      "status": "fail",
+      "note": "Operating cash flow fell 58% in FY26, from ₹24,410 crore to ₹10,250 crore, while revenue reached a record."
+    },
+    {
+      "label": "Free cash flow negative",
+      "status": "fail",
+      "note": "Minus ₹19,508 crore in FY26, after five straight positive years. Capital spending near ₹30,000 crore."
+    },
+    {
+      "label": "Debt rising faster than earnings",
+      "status": "fail",
+      "note": "Borrowings up 51% to ₹99,165 crore while reported profit fell 16%."
+    },
+    {
+      "label": "Growth measured from a distorted base",
+      "status": "warn",
+      "note": "The 78% ten-year profit growth starts from a ₹259 crore year and the 35% five-year figure from FY21. Both are arithmetic rather than evidence."
+    },
+    {
+      "label": "Other income distorting profit",
+      "status": "warn",
+      "note": "Minus ₹4,074 crore in FY26 against positive ₹1,832 crore in FY25. It understates rather than flatters, and it still means the headline is not a run rate."
+    },
+    {
+      "label": "Promoter selling or dilution",
+      "status": "pass",
+      "note": "Promoter holding at 34.67%, unchanged. No dilution."
+    },
+    {
+      "label": "Receivables building",
+      "status": "pass",
+      "note": "Debtor days at 36, within the 27 to 39 range of the last decade."
+    },
+    {
+      "label": "Peak earnings on a low multiple",
+      "status": "warn",
+      "note": "About 11 times, with aluminium near a cyclical high. The classic shape of a value trap in a commodity."
+    }
+  ],
+  "sectorChecklist": [
+    {
+      "label": "Position on the cost curve",
+      "status": "pass",
+      "note": "Backward integrated in India and the largest recycler globally. Low cost is the only durable edge in a commodity."
+    },
+    {
+      "label": "Input cost control",
+      "status": "pass",
+      "note": "Owns bauxite and much of its coal, so the Indian operations are not exposed at both ends."
+    },
+    {
+      "label": "Capacity under construction",
+      "status": "warn",
+      "note": "Bay Minette guided to commission in late 2026, with $1.7 billion of FY27 spending attached."
+    },
+    {
+      "label": "Leverage against cash flow",
+      "status": "fail",
+      "note": "Borrowings of ₹99,165 crore against ₹10,250 crore of FY26 operating cash flow. Novelis net debt to EBITDA at 4.1 times."
+    },
+    {
+      "label": "Commodity price exposure",
+      "status": "fail",
+      "note": "Total. Both aluminium and copper are priced globally and neither half of the company influences them."
+    },
+    {
+      "label": "Value-added mix",
+      "status": "pass",
+      "note": "Novelis has been shifting toward automotive and speciality sheet, which earns a conversion premium rather than the metal price."
+    }
+  ],
+  "summary": "Hindalco is two businesses: an Indian producer that owns its own bauxite and coal, and Novelis, an American recycler that turns used cans into new sheet and now accounts for about two thirds of revenue. Both are well positioned on cost, which is the only lasting advantage available in a commodity, and neither has any influence over the price it receives. At about 11 times earnings the shares look cheap, and three things complicate that reading. The earnings were made when aluminium was near a cyclical high. They were also depressed by a negative other-income swing and by fire costs at Novelis, so the underlying figure was better than reported. And the company is midway through a capital programme that turned free cash flow deeply negative and lifted borrowings by half in a single year. Management has given four dated, checkable commitments, set out in the last lens. Judge it against those and against where aluminium sits in its own range.",
+  "engine": {
+    "state": "earnings-engine",
+    "earningsLabel": "Engine one: the aluminium price, wearing a company's name",
+    "multipleLabel": "Engine two: already expanded",
+    "earnings": "Trailing profit of ₹16,400 crore is up 20%, and the June 2026 quarter at ₹7,013 crore was the strongest in the recent series, so the engine is running hard. What drives it is not in Hindalco's hands. Read the eleven-year profit line and there is no run rate to find: a ₹702 crore loss in FY16, ₹16,002 crore in FY25, ₹13,391 crore in FY26. The company's genuine achievement is its cost position, backward integration in India and the largest recycling network in the world, and what that buys is survival through the troughs rather than growth through the peaks. The reported FY26 figure is also understated, by other income of minus ₹4,074 crore and by the Oswego fire, so the underlying business did better than the headline suggests.",
+    "multiple": "The share price rose 36% over the past year while reported profit fell 16%, so the multiple expanded rather than compressed. At about 11 times reported earnings and 1.7 times book, it reads as cheap, and the honest way to test that is to apply it to a mid-cycle profit rather than to this one. Over eleven years the company has averaged an 11% return on equity, and it is reporting 13% now. Foreign institutions have been buying through the capital programme, from 28.15% to 31.41% over five quarters, while domestic institutions have been selling, which is an unusually clean disagreement between two sets of professional investors.",
+    "verdict": "My honest read: the cost position is real and durable, the Novelis recycling logic is sound, and none of that tells you what to pay. This is a commodity producer at a good point in its cycle, funding its largest ever project with debt raised at that same point, and the 11 times multiple is what the market pays for peak earnings rather than a discount it has overlooked. The four things I would watch are all dated and all in management's own guidance, and the last lens sets them out. Hit those four and the debt becomes a completed investment rather than an overhang. Miss them while aluminium softens and the leverage does the work in the other direction. I would be wrong about the caution if free cash flow turns positive on schedule with metal prices merely stable, because that would prove the capital programme was funded out of a genuine cost advantage rather than out of a good year."
+  },
+  "lenses": [
+    {
+      "name": "You are buying an American recycler",
+      "reading": "Roughly two thirds of the revenue is Novelis, and Novelis does not smelt ore. It collects used beverage cans and industrial scrap across North America, Europe, Asia and South America, melts them, and rolls the metal back into sheet for new cans and car bodies. That matters for a practical reason: recycled aluminium takes about 5% of the energy that primary smelting does, so the economics are structurally better and improve further as recycled-content rules tighten. It also means most of what you own is exposed to American and European industrial demand, energy prices and tariffs, not to Indian ones. Anyone buying Hindalco as a play on Indian infrastructure has misread the revenue split by a wide margin."
+    },
+    {
+      "name": "Read the free cash flow column, top to bottom",
+      "reading": "₹11,483 crore, ₹9,571 crore, ₹8,378 crore, ₹4,006 crore, minus ₹19,508 crore. Five numbers, and they tell the entire current story without a word of interpretation. Two forces produced the last one. Operating cash flow fell 58% as other income swung negative and Novelis absorbed the Oswego fire costs. And capital spending rose toward ₹30,000 crore as Bay Minette entered its heaviest phase. The difference was borrowed, which is why the borrowings jumped by half in twelve months. None of that is hidden or unusual for a company mid-build, and it is the reason the reported profit and the reported cash flow are currently telling you different things. When they disagree, the cash flow is the one describing what is actually happening to the money."
+    },
+    {
+      "name": "Eleven times what, exactly",
+      "reading": "The multiple is the first thing anyone notices about Hindalco and it is the least informative number in the report. Look at profit across eleven years: ₹259 crore, minus ₹702 crore, ₹1,882 crore, ₹6,083 crore, ₹5,495 crore, ₹3,767 crore, ₹3,483 crore, ₹13,730 crore, ₹10,097 crore, ₹10,155 crore, ₹16,002 crore, ₹13,391 crore. Now ask which of those the multiple should be applied to. Eleven times the recent figure is cheap. Eleven times the eleven-year average is expensive. The company has averaged an 11% return on equity over that period and is reporting 13% now, which tells you roughly where in the range we are. This is the specific trap a low multiple sets in a commodity business, and the defence is not cleverness but arithmetic: work out mid-cycle earnings first, then decide what the multiple means."
+    },
+    {
+      "name": "Four dated promises",
+      "reading": "Management has been unusually specific, which is helpful because it converts an argument into a set of checks. Bay Minette commissions in late 2026. FY27 capital spending is $2.1 billion to $2.4 billion, of which $1.7 billion is that plant. After it commissions, Novelis capital spending falls to maintenance levels of about $350 million a year. Consolidated net debt peaks at ₹80,000 to ₹90,000 crore, and Novelis returns to positive free cash flow by the end of FY27. Each has a date and a number attached, so none of it requires you to trust a narrative. Track those four over the next six quarters and you will know whether the current balance sheet is a completed investment or the beginning of a problem, and you will know it before the share price does."
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+{
+  "ticker": "JAMNAAUTO",
+  "company": "Jamna Auto Industries Ltd",
+  "sector": "Consumer Discretionary",
+  "industry": "Auto Components",
+  "sectorId": "auto",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-09-09",
+  "oneLiner": "It makes the steel springs that sit between a truck's axle and its chassis, and it makes about two thirds of the ones fitted to new Indian trucks. That share is the whole business, and it means Jamna cannot grow faster than Indian truck sales for very long.",
+  "facts": {
+    "snapshot": "Jamna Auto makes leaf springs, parabolic springs, lift axles and air suspensions for commercial vehicles. It supplies most Indian truck makers directly, and holds roughly 62% to 65% of the domestic original-equipment market and about 95% of parabolic springs.",
+    "founded": "1965",
+    "hq": "Yamunanagar, Haryana"
+  },
+  "verdict": {
+    "rows": [
+      {
+        "label": "Position",
+        "value": "62-65% of the OEM market",
+        "tone": "good"
+      },
+      {
+        "label": "Returns",
+        "value": "27.5% on capital, 22% on equity",
+        "tone": "good"
+      },
+      {
+        "label": "Balance sheet",
+        "value": "Effectively debt free",
+        "tone": "good"
+      },
+      {
+        "label": "Ceiling",
+        "value": "Cannot outgrow Indian truck sales",
+        "tone": "warn"
+      },
+      {
+        "label": "Cyclicality",
+        "value": "Revenue halved in FY20",
+        "tone": "bad"
+      },
+      {
+        "label": "Cash",
+        "value": "Lumpy, swings with working capital",
+        "tone": "warn"
+      },
+      {
+        "label": "Promoter",
+        "value": "49.8%, steady",
+        "tone": "good"
+      },
+      {
+        "label": "Valuation",
+        "value": "About 21 times",
+        "tone": "warn"
+      }
+    ],
+    "keyQuestion": "A dominant share of a market that grows 8% to 10% in a good year, priced at 21 times. The share is real and defended. The question is what you are paying for a company whose ceiling is the Indian truck cycle."
+  },
+  "overview": "Under every truck on an Indian highway sits a stack of curved steel strips, bolted between the axle and the chassis. That is a leaf spring, and its job is to carry the load and absorb what the road does to it. Jamna Auto has been making them since 1965 and now supplies roughly two thirds of every leaf spring fitted to a new Indian commercial vehicle. In parabolic springs, the lighter and more sophisticated version, its share is about 95%.\n\nThe economics follow from that. Return on capital employed is 27.5%, return on equity is 22%, and borrowings are ₹12 crore against reserves of ₹1,107 crore, so the company is effectively debt free and funds itself. It pays out about a third of profit as dividend.\n\nThe constraint follows from it too. A supplier with two thirds of a market cannot win much more of it, so its revenue is Indian truck production plus whatever it can add in content per vehicle. When truck sales boom, Jamna booms. When they do not, look at FY20: revenue fell from ₹2,135 crore to ₹1,129 crore in one year, and profit from ₹137 crore to ₹48 crore. Nothing about the company changed. India simply stopped buying trucks.",
+  "editorial": {
+    "realBusiness": "A toll on Indian truck production. Jamna does not decide how many trucks get built; it decides what share of the springs under them it supplies, and that answer is already about two thirds.",
+    "whyExists": "A leaf spring is not a commodity even though it looks like one. It carries the vehicle's load, it fails dangerously, and it has to be engineered for each truck platform and validated with the maker. So truck manufacturers do not shop for springs on price alone. They qualify a supplier, design the spring into the vehicle, and keep buying it for the life of the platform. Somebody has to do that work, and it is neither glamorous nor easy to enter.",
+    "whyNotAlreadyWon": "It has been won, which is the unusual thing here. Jamna holds 62% to 65% of the original-equipment market and about 95% of parabolic springs. That is not a fragmented industry waiting for a winner; the winner is already in place. What stops a rival taking it is the qualification process, the plants sitting near the truck makers, and the fact that a new entrant would have to price aggressively into a market whose total size is fixed by how many trucks India builds. The prize for winning is a share of a cyclical market, which is why nobody is fighting very hard for it.",
+    "mentalModels": [
+      {
+        "model": "Toll booth or restaurant",
+        "assessment": "Toll booth on a cyclical road",
+        "assessmentTone": "warn",
+        "why": "Two thirds of an original-equipment market with real qualification barriers is a genuine toll position. But the road is Indian truck production, and traffic on it halved in FY20."
+      },
+      {
+        "model": "Pricing power",
+        "assessment": "Limited",
+        "assessmentTone": "warn",
+        "why": "Selling to a handful of large truck makers means the customer has scale on its side. Steel is the main input and its price is set elsewhere. Operating margin has ranged from 9% to 16% over eleven years."
+      },
+      {
+        "model": "The ceiling",
+        "assessment": "Already close to it",
+        "assessmentTone": "bad",
+        "why": "At 62% to 65% share, growth has to come from truck volumes or from content per vehicle, not from taking more of the market. Ten-year sales growth is 8% a year, which is roughly what the Indian truck market has done."
+      },
+      {
+        "model": "Capital allocation",
+        "assessment": "Disciplined",
+        "assessmentTone": "good",
+        "why": "Borrowings of ₹12 crore against ₹1,107 crore of reserves. Equity capital has been ₹40 crore for eleven years, so nobody has been diluted, and about a third of profit comes back as dividend."
+      },
+      {
+        "model": "The referee, return on capital",
+        "assessment": "Genuinely high",
+        "assessmentTone": "good",
+        "why": "27.5% return on capital employed, and it has been above 20% in ten of the last twelve years. This is a well-run business, not a mediocre one at a good moment."
+      }
+    ],
+    "economicEngine": [
+      {
+        "label": "Demand",
+        "value": "New Indian truck production",
+        "note": "Guided at 8% to 10% volume growth for FY26 and FY27"
+      },
+      {
+        "label": "Share",
+        "value": "62-65% of original equipment",
+        "note": "About 95% in parabolic springs"
+      },
+      {
+        "label": "Product",
+        "value": "Leaf and parabolic springs, air suspension",
+        "note": "Engineered per platform, qualified with the maker"
+      },
+      {
+        "label": "Input",
+        "value": "Steel",
+        "note": "Priced elsewhere, passed through with a lag"
+      },
+      {
+        "label": "The limit",
+        "value": "Volumes, not share",
+        "note": "At two thirds of the market there is little left to take"
+      }
+    ],
+    "strategicPosition": [
+      {
+        "label": "Truck makers",
+        "description": "Tata Motors, Ashok Leyland, Daimler. They set volumes and hold the negotiating power",
+        "tone": "strong"
+      },
+      {
+        "label": "Jamna Auto",
+        "description": "Two thirds of the spring market, qualified on most platforms, effectively debt free",
+        "tone": "focus"
+      },
+      {
+        "label": "Smaller spring makers",
+        "description": "Compete for the remaining third and the aftermarket, mostly on price",
+        "tone": "weak"
+      }
+    ],
+    "winningToday": [
+      "62% to 65% of the domestic original-equipment market and about 95% of parabolic springs",
+      "Return on capital employed of 27.5% and return on equity of 22%",
+      "Borrowings of ₹12 crore against reserves of ₹1,107 crore",
+      "Operating margin at 15%, the highest in eleven years and up from 9% in FY15",
+      "Truck volumes guided at 8% to 10% growth for FY26 and FY27, and Jamna captures most of the increment"
+    ],
+    "stopWinning": [
+      "The commercial vehicle cycle turns, as it did in FY20 when revenue nearly halved",
+      "Steel prices rise faster than the company can pass them on",
+      "Air suspension replaces leaf springs faster than Jamna's own air-suspension business grows",
+      "A truck maker decides to dual-source and hands a platform to a rival",
+      "Content per vehicle stops rising, leaving only truck volumes to drive revenue"
+    ],
+    "marketBets": [
+      "That the price already reflects the market share, so the upside has to come from the truck cycle",
+      "That a supplier at two thirds share has more to lose than to gain",
+      "That a repeat of FY20 is a live possibility rather than a historical one"
+    ],
+    "sectorModels": [
+      {
+        "model": "Customer concentration",
+        "reading": "High",
+        "note": "A handful of truck makers buy most of the output"
+      },
+      {
+        "model": "Demand driver",
+        "reading": "Cyclical",
+        "note": "Freight demand, infrastructure spending and financing availability"
+      },
+      {
+        "model": "Input pass-through",
+        "reading": "Partial and lagged",
+        "note": "Steel moves first, contracts reprice after"
+      },
+      {
+        "model": "Technology risk",
+        "reading": "Slow but real",
+        "note": "Air suspension takes share from steel springs at the premium end"
+      }
+    ],
+    "whyNow": "The share price is up 17% over a year against 35% trailing profit growth, so the multiple compressed. At about 21 times, the price sits above where a cyclical supplier usually trades and below where a genuine compounder does. The most recent quarter is the reason for caution rather than the multiple: June 2026 revenue of ₹611 crore was up 7% on a year earlier but down 27% from the March quarter, which is the seasonal pattern reasserting itself after a strong finish to the year.",
+    "remember": "Two thirds of a market you cannot make bigger is a good position and a low ceiling at the same time."
+  },
+  "business": {
+    "unitOfRevenue": "A spring set fitted to one truck. Jamna is paid per vehicle built, so its revenue is Indian truck production multiplied by its share multiplied by the content it supplies per vehicle.",
+    "revenueModel": "Direct supply to vehicle manufacturers on qualified platforms, plus a smaller aftermarket replacement business. No subscriptions and no recurring revenue: when truck production stops, so does the revenue.",
+    "segments": [
+      {
+        "name": "Conventional leaf springs",
+        "pct": 60,
+        "marginProfile": "The core product, steel-intensive, priced against a large customer"
+      },
+      {
+        "name": "Parabolic springs",
+        "pct": 25,
+        "marginProfile": "Lighter and better engineered, about 95% share, better realisation"
+      },
+      {
+        "name": "Lift axles, air suspension and other",
+        "pct": 15,
+        "marginProfile": "The growth end, and the hedge against air suspension replacing steel"
+      }
+    ],
+    "revenuePerUnitTrend": "Rising slowly. Operating margin went from 9% in FY15 to 15% now, helped by the shift toward parabolic springs and air suspension, which carry more engineering and better pricing than plain leaf springs.",
+    "industry": {
+      "structure": "Concentrated on both sides. A handful of truck makers buy from a market where one supplier holds about two thirds.",
+      "competitors": "Smaller domestic spring makers competing for the remaining third and for aftermarket volume.",
+      "pricingPower": "Sits mostly with the truck makers, who are large, few and buy in volume. Jamna's protection is qualification and platform design rather than price.",
+      "demandDriver": "New commercial vehicle production in India, which tracks freight demand, infrastructure spending and the availability of truck financing.",
+      "driverType": "Cyclical, and sharply so. Truck sales are one of the most volatile series in the Indian economy.",
+      "tam": "Bounded by Indian truck production. This is not a market that grows because Jamna executes well.",
+      "penetration": "Effectively saturated at 62% to 65% of original equipment. The remaining growth is content per vehicle and the aftermarket.",
+      "valueChainPosition": "Tier one supplier. It buys steel from producers with scale and sells to vehicle makers with scale, and sits in the squeeze between them."
+    },
+    "qualityVerdict": "This is a genuinely good business with a ceiling written into it. The returns are real: 27.5% on capital employed, above 20% in ten of the last twelve years, effectively no debt, and a market position that took decades to build and is defended by platform qualification rather than by price. What it cannot do is grow faster than Indian truck production for any length of time, because it already supplies two thirds of the market. Its decade-long sales growth is roughly what the truck market itself has done. And the cyclicality is not a footnote: FY20 saw revenue fall 47% and profit fall 65% in twelve months, with nothing wrong at the company. Own it understanding that the business is excellent and the market it serves decides the outcome."
+  },
+  "valuation": [
+    {
+      "label": "Price",
+      "value": "₹129"
+    },
+    {
+      "label": "Market cap",
+      "value": "₹5,156 cr"
+    },
+    {
+      "label": "52W high / low",
+      "value": "₹153 / ₹89.7",
+      "hint": "Up about 17% over the year"
+    },
+    {
+      "label": "Stock P/E",
+      "value": "21.3",
+      "hint": "Computed price/EPS = 22.1"
+    },
+    {
+      "label": "EPS (TTM)",
+      "value": "₹5.85"
+    },
+    {
+      "label": "Book value",
+      "value": "₹28.7"
+    },
+    {
+      "label": "P/B",
+      "value": "4.5",
+      "tone": "warn"
+    },
+    {
+      "label": "Dividend yield",
+      "value": "1.94%",
+      "tone": "good"
+    },
+    {
+      "label": "ROCE",
+      "value": "27.5%",
+      "tone": "good"
+    },
+    {
+      "label": "ROE",
+      "value": "22.4%",
+      "tone": "good"
+    }
+  ],
+  "financials": [
+    {
+      "year": "FY22",
+      "revenue": 1718,
+      "netProfit": 141,
+      "eps": 3.53,
+      "patMargin": 8.2
+    },
+    {
+      "year": "FY23",
+      "revenue": 2325,
+      "netProfit": 168,
+      "eps": 4.22,
+      "patMargin": 7.2
+    },
+    {
+      "year": "FY24",
+      "revenue": 2427,
+      "netProfit": 205,
+      "eps": 5.15,
+      "patMargin": 8.4
+    },
+    {
+      "year": "FY25",
+      "revenue": 2270,
+      "netProfit": 180,
+      "eps": 4.52,
+      "patMargin": 7.9
+    },
+    {
+      "year": "FY26",
+      "revenue": 2612,
+      "netProfit": 231,
+      "eps": 5.78,
+      "patMargin": 8.8
+    }
+  ],
+  "ratios": [
+    {
+      "label": "ROE",
+      "value": "22.4%",
+      "hint": "Has been 22% on a three, five and ten-year view",
+      "tone": "good"
+    },
+    {
+      "label": "ROCE",
+      "value": "27.5%",
+      "hint": "Above 20% in ten of twelve years",
+      "tone": "good"
+    },
+    {
+      "label": "Debt / equity",
+      "value": "0.01",
+      "hint": "₹12 cr of borrowings against ₹1,147 cr of equity",
+      "tone": "good"
+    },
+    {
+      "label": "Operating margin",
+      "value": "15%",
+      "hint": "Was 9% in FY15. Range across eleven years is 9% to 16%",
+      "tone": "good"
+    },
+    {
+      "label": "Debtor days",
+      "value": "11",
+      "hint": "Swings between 10 and 61 across years",
+      "tone": "neutral"
+    },
+    {
+      "label": "Dividend payout",
+      "value": "About a third of profit",
+      "tone": "good"
+    }
+  ],
+  "cashFlow": [
+    {
+      "year": "FY22",
+      "ocf": 1,
+      "capex": 37,
+      "fcf": -36
+    },
+    {
+      "year": "FY23",
+      "ocf": 374,
+      "capex": 88,
+      "fcf": 286
+    },
+    {
+      "year": "FY24",
+      "ocf": 90,
+      "capex": 163,
+      "fcf": -73
+    },
+    {
+      "year": "FY25",
+      "ocf": 289,
+      "capex": 186,
+      "fcf": 103
+    },
+    {
+      "year": "FY26",
+      "ocf": 510,
+      "capex": 249,
+      "fcf": 261
+    }
+  ],
+  "cashFlowNote": "Operating cash flow across five years comes to about ₹1,264 crore against ₹925 crore of reported profit, so roughly 137% and comfortably cash-backed. But look at the individual years and the pattern is violent: ₹1 crore in FY22, ₹374 crore in FY23, ₹90 crore in FY24, then ₹510 crore in FY26. That is working capital swinging with the truck cycle rather than anything wrong with the earnings. Debtor days tell the same story, ranging from 10 to 61 across recent years. Free cash flow was negative in two of the five years, both of them heavy capital-spending years. Judge the cash over a full cycle here; a single year means very little.",
+  "growth": [
+    {
+      "label": "Sales CAGR 10Y",
+      "value": "8%",
+      "hint": "Roughly what Indian truck production did",
+      "tone": "neutral"
+    },
+    {
+      "label": "Sales CAGR 5Y",
+      "value": "19%",
+      "hint": "Measured from FY21, a covid year",
+      "tone": "neutral"
+    },
+    {
+      "label": "Sales CAGR 3Y",
+      "value": "4%",
+      "tone": "warn"
+    },
+    {
+      "label": "Sales growth TTM",
+      "value": "16%",
+      "tone": "good"
+    },
+    {
+      "label": "Profit CAGR 10Y",
+      "value": "13%",
+      "tone": "good"
+    },
+    {
+      "label": "Profit CAGR 5Y",
+      "value": "27%",
+      "hint": "Also measured from the covid trough",
+      "tone": "neutral"
+    },
+    {
+      "label": "Profit CAGR 3Y",
+      "value": "12%",
+      "tone": "neutral"
+    },
+    {
+      "label": "Profit growth TTM",
+      "value": "35%",
+      "tone": "good"
+    }
+  ],
+  "management": "The promoter group holds 49.84%, effectively unchanged across six quarters, and equity capital has been ₹40 crore for eleven straight years, so no shareholder has been diluted. Around a third of profit comes back as dividend, which is the right posture for a business that cannot deploy much more capital into a market it already dominates.\n\nThe evidence on capital discipline is in the borrowings line. It has moved around, ₹358 crore in FY25 down to ₹12 crore in FY26, which is a company using debt as working capital rather than as leverage. Reserves went from ₹157 crore in FY15 to ₹1,107 crore in FY26, all of it retained earnings.\n\nWhat management has not done, and this is a fair criticism rather than a red flag, is find a second market. Eleven years of retained earnings have gone into serving the same customers with more content per vehicle. That has worked, as the margin going from 9% to 15% shows. But it means the company's fortunes remain entirely tied to how many trucks India builds, which is the one thing nobody in Yamunanagar controls. Institutional interest has noticed the improvement: foreign holdings went from 2.04% to 9.01% over five quarters.",
+  "holding": [
+    {
+      "label": "Promoter",
+      "pct": 49.84,
+      "qoqChange": -0.01
+    },
+    {
+      "label": "FII",
+      "pct": 9.01,
+      "qoqChange": -0.24
+    },
+    {
+      "label": "DII",
+      "pct": 3.91,
+      "qoqChange": -0.92
+    },
+    {
+      "label": "Public",
+      "pct": 37.24,
+      "qoqChange": 1.17
+    }
+  ],
+  "moat": {
+    "strength": "narrow",
+    "label": "Narrow, and built on qualification rather than price",
+    "sources": [
+      "Platform qualification with truck makers, which takes years and is not casually switched",
+      "About 95% share of parabolic springs, the more engineered end of the product range",
+      "Plants located close to the vehicle makers, which matters for a heavy, bulky component",
+      "Sixty years of engineering history on Indian road and load conditions"
+    ],
+    "note": "The moat is real and it is the reason for the 27.5% return on capital. A leaf spring is designed into a specific truck platform and validated with the maker, so a rival cannot simply undercut on price and take the business. That is a genuine switching cost. What the moat does not do is create demand. It guarantees Jamna a large share of however many trucks India builds, and nothing more. Two thirds of a market that halves is still two thirds of a market that halved, which is exactly what FY20 demonstrated."
+  },
+  "narrative": "For most of the last decade this was a steadily growing supplier riding the Indian truck cycle. Revenue went from ₹1,095 crore in FY15 to ₹2,135 crore in FY19, and profit from ₹29 crore to ₹137 crore, with the operating margin climbing from 9% to 13% as parabolic springs took a larger share of the mix.\n\nThen FY20 arrived. Revenue fell to ₹1,129 crore, profit to ₹48 crore, and FY21 was barely better. Indian commercial vehicle sales had collapsed, first on a financing squeeze and then on covid. Nothing at Jamna caused it and nothing at Jamna could have prevented it.\n\nThe recovery has been steady rather than spectacular: ₹1,718 crore, ₹2,325 crore, ₹2,427 crore, ₹2,270 crore, ₹2,612 crore across FY22 to FY26. Note FY25 in that sequence, when revenue actually fell. Profit has followed a similar shape and reached ₹231 crore in FY26 with the operating margin at 15%, the best in eleven years. The debt was cleared along the way, and the March 2026 quarter was the strongest the company has recorded.",
+  "risks": [
+    "The commercial vehicle cycle. FY20 saw revenue fall 47% and profit fall 65% in a single year with nothing wrong at the company. That is not a tail risk, it is the ordinary behaviour of this market, and no balance sheet strength prevents it. High.",
+    "A ceiling on share. At 62% to 65% of original equipment and about 95% of parabolic springs, there is very little market left to take. Growth has to come from truck volumes or content per vehicle, and ten-year sales growth of 8% suggests how much that adds up to. High.",
+    "Customer concentration. A handful of truck makers buy most of the output, and they are large, sophisticated and able to dual-source a platform if they choose. Medium-High.",
+    "Steel prices. Steel is the main input, its price is set elsewhere, and pass-through is partial and lagged. The 9% to 16% operating margin range across eleven years is largely this. Medium.",
+    "Air suspension. At the premium end of trucking, air suspension replaces steel springs. Jamna sells air suspension too, which is the right hedge, but the transition moves value away from its largest product. Medium.",
+    "Lumpy cash conversion. Operating cash flow was ₹1 crore in FY22 and ₹510 crore in FY26. The five-year total is fine but any single year can look alarming in either direction. Medium."
+  ],
+  "trapChecklist": [
+    {
+      "label": "Growth measured from a distorted base",
+      "status": "warn",
+      "note": "The five-year figures start in FY21, a covid year when revenue was ₹1,079 crore. Use the ten-year sales figure of 8% instead."
+    },
+    {
+      "label": "Profit up while operating cash flow lags",
+      "status": "pass",
+      "note": "About ₹1,264 crore of operating cash against ₹925 crore of profit over five years, roughly 137%."
+    },
+    {
+      "label": "Promoter selling or dilution",
+      "status": "pass",
+      "note": "Holding at 49.84%, unchanged. Equity capital ₹40 crore for eleven years."
+    },
+    {
+      "label": "Debt building",
+      "status": "pass",
+      "note": "Borrowings of ₹12 crore against ₹1,107 crore of reserves. Debt has been used as working capital, not leverage."
+    },
+    {
+      "label": "Receivables building",
+      "status": "warn",
+      "note": "Debtor days swing between 10 and 61 across years, which is cycle-driven rather than a collection problem, but it makes single-year cash figures unreliable."
+    },
+    {
+      "label": "The market can absorb more growth",
+      "status": "fail",
+      "note": "At 62% to 65% share, it cannot. This is the structural limit on the investment case."
+    }
+  ],
+  "sectorChecklist": [
+    {
+      "label": "Volume growth",
+      "status": "pass",
+      "note": "Truck volumes guided at 8% to 10% for FY26 and FY27, and Jamna captures most of the increment."
+    },
+    {
+      "label": "Content per vehicle rising",
+      "status": "pass",
+      "note": "Parabolic springs, lift axles and air suspension all carry more content and better margin than plain leaf springs."
+    },
+    {
+      "label": "OEM concentration",
+      "status": "fail",
+      "note": "A handful of truck makers buy most of the output. Pricing power sits on their side of the table."
+    },
+    {
+      "label": "Raw material as a share of cost",
+      "status": "warn",
+      "note": "Steel dominates the cost base and is passed through partially and with a lag."
+    },
+    {
+      "label": "Technology transition",
+      "status": "warn",
+      "note": "Air suspension is taking premium share from steel springs. Jamna participates, which limits the damage without removing it."
+    },
+    {
+      "label": "Aftermarket exposure",
+      "status": "pass",
+      "note": "A replacement business exists alongside original equipment, which softens the cycle without offsetting it."
+    }
+  ],
+  "summary": "Jamna Auto makes the springs under roughly two thirds of India's new trucks, earns 27.5% on capital, carries almost no debt, and has done so for long enough that the position is clearly defended rather than lucky. The problem is not the company. It is that a supplier at 62% to 65% share cannot take much more of its market, so its revenue is Indian truck production and little else, and Indian truck production fell by half in FY20. Its decade-long sales record is the honest measure of what that ceiling permits. At about 21 times earnings you are paying a quality multiple for a cyclical business at a reasonably good point in its cycle, with the growth column showing 35% on a trailing basis against 12% over three years. Judge it on where commercial vehicle volumes go, because nothing else here is undecided.",
+  "engine": {
+    "state": "earnings-engine",
+    "earningsLabel": "Engine one: volumes, not share",
+    "multipleLabel": "Engine two: already partly paid for",
+    "earnings": "Trailing profit is up 35% and the operating margin at 15% is the best in eleven years, so the engine is running. Be precise about what fuels it. Jamna already supplies about two thirds of its market, so this is not a share-gain story. It is truck volumes, guided at 8% to 10% growth for FY26 and FY27, multiplied by slowly rising content per vehicle as parabolic springs and air suspension take a larger share of the mix. That combination has produced 8% sales growth over ten years and 13% profit growth, which is the honest run rate. The three-year sales figure of 4% is the reminder that the cycle does not deliver evenly.",
+    "multiple": "At about 21 times, the multiple has come down: the share price rose 17% over a year against 35% trailing profit growth. Over three years the price compounded at 2% against 12% profit growth, so engine two has been working against you for a while. That is the compression a cyclical supplier usually gets, and it has stopped somewhere reasonable rather than somewhere cheap. Foreign institutions have been buying, going from 2.04% to 9.01% over five quarters, which suggests the improvement has been noticed.",
+    "verdict": "So you have a better company than the price suggests and a more cyclical one than the returns suggest, and those two facts roughly cancel. You are paying 21 times for a business that grew sales 8% a year over a decade, so the arithmetic needs the truck cycle to keep going and content per vehicle to keep rising. Both are plausible and neither is in Jamna's control. What would change my view is the sales line breaking meaningfully above the 8% decade rate for two or three years, which would mean content growth is doing more work than I have credited. What would confirm the caution is a quarter where truck volumes soften and the operating margin gives back the gains it made getting to 15%."
+  },
+  "lenses": [
+    {
+      "name": "Two thirds is a ceiling as much as a moat",
+      "reading": "Most companies with a 27.5% return on capital have that return because they are winning share from somebody. Jamna has already won. At 62% to 65% of the original-equipment market and about 95% of parabolic springs, there is not much left to take, and the remaining third is fought over by smaller makers on price. So ask what growth can actually come from. Truck volumes, which nobody at Jamna controls. Content per vehicle, which is real and slow. That is it. Ten-year sales growth of 8% a year is not a failure of execution, it is the arithmetic of a company that already has most of its market and whose market grows at the pace of Indian freight. When you look at the share figure, read it as a description of the ceiling rather than as a promise of growth."
+    },
+    {
+      "name": "FY20 is the whole risk, in one year",
+      "reading": "Revenue ₹2,135 crore in FY19, ₹1,129 crore in FY20. Profit ₹137 crore, then ₹48 crore. A 47% revenue fall and a 65% profit fall in twelve months. Now ask what went wrong at Jamna that year, and the answer is nothing. The plants ran, the share held, the products were the same. India stopped buying trucks, first because vehicle financing tightened and then because of covid. That is worth sitting with, because it is the clearest statement of what you are actually exposed to. A debt-free balance sheet and a 27.5% return on capital did not prevent it and would not prevent the next one. They only meant the company survived it comfortably, which it did. When you own a supplier to a cyclical industry, the balance sheet decides whether you survive the downturn and the cycle decides when it arrives."
+    },
+    {
+      "name": "The margin has quietly done the work",
+      "reading": "Compare two numbers eleven years apart. FY15: revenue ₹1,095 crore, operating margin 9%, profit ₹29 crore. FY26: revenue ₹2,612 crore, operating margin 15%, profit ₹231 crore. Revenue rather more than doubled and profit went up eightfold, so most of the improvement came from margin rather than volume. Where did that margin come from? Mix. Parabolic springs, which are lighter and more engineered, and lift axles and air suspension, which carry more content per truck. That is the growth lever that is genuinely in the company's hands, and it has delivered six points of margin over a decade. The question worth asking is how much of that lever is left, because a spring maker's operating margin does not run to 25%. If the answer is not much, then future growth really is just truck volumes."
+    }
+  ]
+}

@@ -1,0 +1,549 @@
+{
+  "ticker": "GRINDWELL",
+  "company": "Grindwell Norton Ltd",
+  "sector": "Industrials",
+  "industry": "Abrasives & Bearings",
+  "sectorId": "chemicals",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-09-09",
+  "oneLiner": "It sells the grinding wheels and sandpaper that Indian factories wear out and buy again, which is about as steady a business as manufacturing offers. Profit has grown 3% a year over three years and you are being asked 49 times earnings for it.",
+  "facts": {
+    "snapshot": "Grindwell Norton makes abrasives, which are the grinding wheels, discs and coated papers used to cut, shape and finish metal, plus ceramics, performance plastics and refractories. It also runs Saint-Gobain's captive India software development centre. Saint-Gobain of France owns 58%.",
+    "founded": "1941",
+    "hq": "Mumbai"
+  },
+  "verdict": {
+    "rows": [
+      {
+        "label": "Business",
+        "value": "Consumables, bought again and again",
+        "tone": "good"
+      },
+      {
+        "label": "Returns",
+        "value": "21% on capital, 16% on equity",
+        "tone": "good"
+      },
+      {
+        "label": "Balance sheet",
+        "value": "Effectively debt free",
+        "tone": "good"
+      },
+      {
+        "label": "Cash",
+        "value": "Converts profit reliably",
+        "tone": "good"
+      },
+      {
+        "label": "Growth",
+        "value": "3% a year over three years",
+        "tone": "bad"
+      },
+      {
+        "label": "Parent",
+        "value": "Saint-Gobain holds 58%",
+        "tone": "warn"
+      },
+      {
+        "label": "Valuation",
+        "value": "49 times earnings, 8.4 times book",
+        "tone": "bad"
+      }
+    ],
+    "keyQuestion": "The business is as good as it looks. At 49 times earnings and 8.4 times book, what growth would have to arrive for that price to work, and does anything in the last three years suggest it is coming?"
+  },
+  "overview": "Every time an Indian factory grinds a weld flat, cuts a steel bar or polishes a surface, it wears away a small amount of an abrasive: a grinding wheel, a cutting disc, a sheet of coated paper. Those things are consumed and replaced, over and over, for as long as the factory runs. Grindwell Norton has been selling them here since 1941, and it also makes ceramics, performance plastics and refractories, and runs Saint-Gobain's captive software development centre for its Indian operations.\n\nThat is a genuinely attractive shape of business. Revenue does not depend on a factory deciding to buy a new machine, only on it continuing to run the ones it has. So the numbers are what you would expect: return on capital employed of 21%, borrowings of ₹61 crore against reserves of ₹2,479 crore, operating cash flow of ₹542 crore in FY26 against ₹417 crore of profit, and half of profit paid out as dividend.\n\nThe difficulty is entirely in the price. Profit has compounded at 3% a year over the last three years, revenue at 7%, and the shares trade at 49 times earnings and 8.4 times book value. You are paying a growth-company multiple for a company that has not lately grown.",
+  "editorial": {
+    "realBusiness": "A consumables business dressed as an engineering one. Grindwell does not sell factories a machine; it sells them the thing the machine uses up.",
+    "whyExists": "Abrasives look like a commodity and behave like a specification. A grinding wheel has to remove metal at the right rate without overheating the workpiece or shattering, and the right wheel for a bearing race is not the right wheel for a rail. So a factory qualifies an abrasive for a process and keeps buying it, because the cost of the wheel is trivial next to the cost of scrapping the part. Somebody has to formulate and manufacture thousands of such variants, and Saint-Gobain has been doing it globally for over three centuries.",
+    "whyNotAlreadyWon": "It has largely been won and the prize is limited. Grindwell and a small number of global names hold the engineered end of Indian abrasives, protected by process qualification and by the technical service that goes with it. Below them sits a long tail of cheaper local makers serving less demanding work. What stops anyone building a bigger pool is that the pool is set by Indian industrial output, and an abrasive is a tiny line on a factory's cost sheet. You cannot grow by persuading customers to grind more.",
+    "mentalModels": [
+      {
+        "model": "Toll booth or restaurant",
+        "assessment": "A small, reliable toll booth",
+        "assessmentTone": "good",
+        "why": "Consumables qualified into a customer's process, replaced continuously, with technical service attached. That is a real toll. It is levied on Indian industrial activity, which grows in high single digits."
+      },
+      {
+        "model": "Pricing power",
+        "assessment": "Modest and real",
+        "assessmentTone": "good",
+        "why": "Operating margin has sat between 15% and 20% for eleven years and has been 18% to 20% for the last six. That stability through several input-cost cycles is the evidence."
+      },
+      {
+        "model": "Capital allocation",
+        "assessment": "Conservative to a fault",
+        "assessmentTone": "warn",
+        "why": "Half of profit is paid out as dividend and borrowings are ₹61 crore against ₹2,479 crore of reserves. Sensible for a business with limited reinvestment options, and it also means the company is not building a second engine."
+      },
+      {
+        "model": "The referee, return on capital",
+        "assessment": "Consistently good",
+        "assessmentTone": "good",
+        "why": "Return on capital employed has been 20% to 28% across the last eleven years, never once below. This is not a company at a lucky moment."
+      },
+      {
+        "model": "Parent company",
+        "assessment": "Cuts both ways",
+        "assessmentTone": "warn",
+        "why": "Saint-Gobain holds 58%, which brings global technology and the captive software centre. It also means the free float is 42% and the minority shareholder is not who the strategy is set for."
+      }
+    ],
+    "economicEngine": [
+      {
+        "label": "Demand",
+        "value": "Indian industrial output",
+        "note": "Factories running, not factories being built"
+      },
+      {
+        "label": "Product",
+        "value": "Consumed and replaced",
+        "note": "Grinding wheels, discs, coated abrasives, refractories"
+      },
+      {
+        "label": "Lock-in",
+        "value": "Qualified into a process",
+        "note": "Cheap relative to the part being made, so rarely reopened on price"
+      },
+      {
+        "label": "Margin",
+        "value": "18% to 20% operating",
+        "note": "Held steady for six years through input-cost swings"
+      },
+      {
+        "label": "The limit",
+        "value": "Industrial activity",
+        "note": "Revenue grew 10% a year over a decade, 7% over three"
+      }
+    ],
+    "strategicPosition": [
+      {
+        "label": "Global abrasive majors",
+        "description": "3M, Tyrolit and Saint-Gobain itself outside India. Scale and global R&D",
+        "tone": "strong"
+      },
+      {
+        "label": "Grindwell Norton",
+        "description": "The Saint-Gobain arm in India, engineered end of the market, deep customer qualification",
+        "tone": "focus"
+      },
+      {
+        "label": "Local abrasive makers",
+        "description": "Cheaper, serve less demanding work, cannot match technical service",
+        "tone": "weak"
+      }
+    ],
+    "winningToday": [
+      "Return on capital employed of 21%, and at or above 20% in all eleven years shown",
+      "Operating cash flow of ₹542 crore in FY26 against ₹417 crore of reported profit",
+      "Borrowings of ₹61 crore against reserves of ₹2,479 crore",
+      "Operating margin steady at 18% to 20% for six years through several input-cost cycles",
+      "Working capital requirement down from 35.8 days to 23.9 days",
+      "Expansion into abrasives and ceramics for semiconductors, aerospace and electric vehicles"
+    ],
+    "stopWinning": [
+      "Indian industrial output slows, which is what the revenue tracks",
+      "The three-year growth rate of 3% turns out to be the new normal rather than a pause",
+      "Cheaper local makers move up into the engineered end of the market",
+      "The multiple reverts toward what a high-single-digit grower usually earns",
+      "Saint-Gobain routes new opportunities through a different entity"
+    ],
+    "marketBets": [
+      "That the newer end-markets become large enough to matter",
+      "That quality and predictability justify 49 times earnings in a market short of both",
+      "That the three-year slowdown is a pause in a longer record rather than the record catching up with reality"
+    ],
+    "sectorModels": [
+      {
+        "model": "Demand driver",
+        "reading": "Industrial activity",
+        "note": "Consumption, not capital spending, which makes it steadier and slower"
+      },
+      {
+        "model": "Input exposure",
+        "reading": "Moderate",
+        "note": "Bonded minerals and resins, absorbed without margin damage for six years"
+      },
+      {
+        "model": "Switching costs",
+        "reading": "Real but small",
+        "note": "Process qualification protects the position; the spend is too small to fight over"
+      },
+      {
+        "model": "Cyclicality",
+        "reading": "Mild",
+        "note": "Revenue fell only 1% in FY20, when most industrial suppliers fell far more"
+      }
+    ],
+    "whyNow": "The share price is up 20% over the past year against 18% trailing profit growth, so the multiple has held rather than compressed. Over three years the price actually fell 5% a year while profit barely moved, which is the market slowly marking down a business that stopped growing. The price still assumes a reacceleration. The June 2026 quarter offers some support, with revenue up 14% and the operating margin at 20%, the best in two years. One quarter is not a trend, and this is a company whose three-year record says otherwise.",
+    "remember": "A very good business bought at a very demanding price is a different investment from a very good business."
+  },
+  "business": {
+    "unitOfRevenue": "A consumable that gets used up. Grindwell is paid per grinding wheel, disc or sheet consumed, so its revenue tracks how much metal Indian industry cuts and finishes.",
+    "revenueModel": "Repeat sale of industrial consumables into qualified processes, with technical service attached. Plus refractories, performance plastics and ceramics, and a captive software development centre serving Saint-Gobain globally.",
+    "segments": [
+      {
+        "name": "Abrasives",
+        "pct": 55,
+        "marginProfile": "The core. Bonded, coated and super abrasives, consumed continuously"
+      },
+      {
+        "name": "Ceramics and plastics",
+        "pct": 35,
+        "marginProfile": "Refractories, performance polymers, silicon carbide. Higher engineering content"
+      },
+      {
+        "name": "IT services and other",
+        "pct": 10,
+        "marginProfile": "The captive Saint-Gobain development centre, plus the country head office"
+      }
+    ],
+    "revenuePerUnitTrend": "Broadly flat with a slow upward drift. Operating margin went from 16% in FY15 to 19% now, most of that gained by FY21 and stable since. The mix improvement is toward higher-specification ceramics and abrasives for semiconductors, aerospace and electric vehicles.",
+    "industry": {
+      "structure": "Consolidated at the engineered end, fragmented below it. A handful of global names and a long tail of local producers.",
+      "competitors": "Carborundum Universal in India, and 3M, Tyrolit and other global abrasive makers.",
+      "pricingPower": "Modest but genuine. The abrasive is a small line on a factory's cost sheet and switching means re-qualifying a process, so price is not reopened casually.",
+      "demandDriver": "Indian industrial production, particularly metal fabrication, automotive, bearings and construction.",
+      "driverType": "Structural and steady. Consumables track activity rather than capital spending, so the swings are milder than for equipment makers.",
+      "tam": "Bounded by Indian manufacturing output. Growing, but at the pace of the industrial economy rather than faster.",
+      "penetration": "Mature in traditional abrasives. The newer applications in semiconductors, aerospace and electric vehicles are early and small.",
+      "valueChainPosition": "Supplier of a low-cost, high-consequence input. That is a good place to sit, because the customer cares far more about performance than about price."
+    },
+    "qualityVerdict": "This is a high-quality business by almost every test that matters. Return on capital employed at or above 20% in eleven consecutive years, an operating margin that held at 18% to 20% through six years of input-cost movement, cash conversion above reported profit, essentially no debt, and a product that customers consume rather than choose to buy. What it does not have is growth: 3% a year in profit and 7% in revenue over three years, against 14% and 10% over ten. That gap is the entire question. A business this steady is worth a premium. The premium on offer is priced for reacceleration rather than for continuation."
+  },
+  "valuation": [
+    {
+      "label": "Price",
+      "value": "₹1,923"
+    },
+    {
+      "label": "Market cap",
+      "value": "₹21,289 cr"
+    },
+    {
+      "label": "52W high / low",
+      "value": "₹2,464 / ₹1,329"
+    },
+    {
+      "label": "Stock P/E",
+      "value": "48.8",
+      "hint": "Computed price/EPS = 48.8",
+      "tone": "bad"
+    },
+    {
+      "label": "EPS (TTM)",
+      "value": "₹39.40"
+    },
+    {
+      "label": "Book value",
+      "value": "₹229"
+    },
+    {
+      "label": "P/B",
+      "value": "8.4",
+      "hint": "Screener flags this explicitly",
+      "tone": "bad"
+    },
+    {
+      "label": "Dividend yield",
+      "value": "0.99%",
+      "hint": "About half of profit paid out"
+    },
+    {
+      "label": "ROCE",
+      "value": "21.2%",
+      "tone": "good"
+    },
+    {
+      "label": "ROE",
+      "value": "16.2%",
+      "tone": "good"
+    }
+  ],
+  "financials": [
+    {
+      "year": "FY22",
+      "revenue": 2013,
+      "netProfit": 295,
+      "eps": 26.7,
+      "patMargin": 14.7
+    },
+    {
+      "year": "FY23",
+      "revenue": 2541,
+      "netProfit": 362,
+      "eps": 32.69,
+      "patMargin": 14.2
+    },
+    {
+      "year": "FY24",
+      "revenue": 2687,
+      "netProfit": 384,
+      "eps": 34.65,
+      "patMargin": 14.3
+    },
+    {
+      "year": "FY25",
+      "revenue": 2812,
+      "netProfit": 371,
+      "eps": 33.3,
+      "patMargin": 13.2
+    },
+    {
+      "year": "FY26",
+      "revenue": 3073,
+      "netProfit": 417,
+      "eps": 37.54,
+      "patMargin": 13.6
+    }
+  ],
+  "ratios": [
+    {
+      "label": "ROE",
+      "value": "16.2%",
+      "hint": "Held between 16% and 18% across ten years",
+      "tone": "good"
+    },
+    {
+      "label": "ROCE",
+      "value": "21.2%",
+      "hint": "At or above 20% in all eleven years shown",
+      "tone": "good"
+    },
+    {
+      "label": "Debt / equity",
+      "value": "0.02",
+      "hint": "₹61 cr against ₹2,534 cr of equity",
+      "tone": "good"
+    },
+    {
+      "label": "Operating margin",
+      "value": "19%",
+      "hint": "Range 15% to 20% over eleven years, 18% to 20% for six",
+      "tone": "good"
+    },
+    {
+      "label": "Debtor days",
+      "value": "47",
+      "hint": "Stable between 37 and 49 across a decade",
+      "tone": "good"
+    },
+    {
+      "label": "Working capital days",
+      "value": "23.9",
+      "hint": "Down from 35.8",
+      "tone": "good"
+    },
+    {
+      "label": "Dividend payout",
+      "value": "50.2%",
+      "tone": "good"
+    }
+  ],
+  "cashFlow": [
+    {
+      "year": "FY22",
+      "ocf": 187,
+      "capex": 120,
+      "fcf": 67
+    },
+    {
+      "year": "FY23",
+      "ocf": 393,
+      "capex": 321,
+      "fcf": 72
+    },
+    {
+      "year": "FY24",
+      "ocf": 368,
+      "capex": 169,
+      "fcf": 199
+    },
+    {
+      "year": "FY25",
+      "ocf": 458,
+      "capex": 92,
+      "fcf": 366
+    },
+    {
+      "year": "FY26",
+      "ocf": 542,
+      "capex": 118,
+      "fcf": 424
+    }
+  ],
+  "cashFlowNote": "This is the cleanest part of the company. Operating cash flow of ₹542 crore in FY26 exceeded reported profit of ₹417 crore, free cash flow has been positive in every one of the last five years, and across those five years operating cash comes to about 107% of net profit. Debtor days have sat between 37 and 49 for a decade and working capital days have come down from 35.8 to 23.9. Capital spending has been modest and lumpy, peaking at ₹321 crore in FY23 and falling back to ₹118 crore, which fits a business with limited reinvestment opportunities. There is no forensic question to answer here.",
+  "growth": [
+    {
+      "label": "Sales CAGR 10Y",
+      "value": "10%",
+      "tone": "neutral"
+    },
+    {
+      "label": "Sales CAGR 5Y",
+      "value": "13%",
+      "tone": "neutral"
+    },
+    {
+      "label": "Sales CAGR 3Y",
+      "value": "7%",
+      "tone": "warn"
+    },
+    {
+      "label": "Sales growth TTM",
+      "value": "13%",
+      "tone": "good"
+    },
+    {
+      "label": "Profit CAGR 10Y",
+      "value": "14%",
+      "tone": "good"
+    },
+    {
+      "label": "Profit CAGR 5Y",
+      "value": "12%",
+      "tone": "neutral"
+    },
+    {
+      "label": "Profit CAGR 3Y",
+      "value": "3%",
+      "hint": "The number the multiple has to answer for",
+      "tone": "bad"
+    },
+    {
+      "label": "Profit growth TTM",
+      "value": "18%",
+      "tone": "good"
+    }
+  ],
+  "management": "Saint-Gobain of France holds 58.04%, unchanged across six reported quarters, and the company has been in India since 1941. That parentage is the central fact about how this business is run. It brings global formulation technology, a place in Saint-Gobain's worldwide research, and the captive software development centre that serves the group's operations globally. It also means strategy is set with the parent's interests foremost, and the minority holds 42%.\n\nJudge the stewardship on what the accounts show. Reserves went from ₹588 crore in FY15 to ₹2,479 crore in FY26 while borrowings stayed near zero and equity capital was unchanged, so the growth was funded entirely from operations with no dilution. About half of profit comes back as dividend, which is the correct answer for a business that cannot productively absorb much more capital.\n\nThe fair criticism is the same one the dividend implies. Eleven years of retained earnings have gone into serving the same industrial customers slightly better, and the result is a three-year profit growth rate of 3%. The company is expanding into abrasives and ceramics for semiconductors, aerospace and electric vehicles, which is the right direction, and it is early and small. Domestic institutions have been adding, from 18.33% to 19.59% over five quarters, while foreign holdings fell from 6.75% to 5.21%.",
+  "holding": [
+    {
+      "label": "Promoter",
+      "pct": 58.04,
+      "qoqChange": 0
+    },
+    {
+      "label": "FII",
+      "pct": 5.21,
+      "qoqChange": -0.35
+    },
+    {
+      "label": "DII",
+      "pct": 19.59,
+      "qoqChange": 0.41
+    },
+    {
+      "label": "Public",
+      "pct": 17.16,
+      "qoqChange": -0.06
+    }
+  ],
+  "moat": {
+    "strength": "narrow",
+    "label": "Narrow, and stronger than it looks",
+    "sources": [
+      "Process qualification: an abrasive is approved for a specific operation and rarely reopened",
+      "Saint-Gobain's global formulation technology and research, available to the Indian arm",
+      "A cost that is trivial next to the part being machined, which makes price a secondary consideration",
+      "Technical service and application engineering alongside the product",
+      "Eighty-five years of relationships with Indian manufacturers"
+    ],
+    "note": "The moat is narrow but unusually durable, and the evidence is in the margin rather than in any story. Operating margin has sat between 18% and 20% for six consecutive years through input-cost cycles that hurt most industrial suppliers. That is what a qualified consumable looks like in the accounts. What the moat cannot do is create demand. Grindwell can protect its share of what Indian factories grind. Making them grind more is not within its reach, which is why a genuinely good moat has produced 7% revenue growth over three years."
+  },
+  "narrative": "Grindwell grew steadily and unremarkably for most of the last decade. Revenue went from ₹1,135 crore in FY15 to ₹1,638 crore in FY21, profit from ₹104 crore to ₹238 crore, and the operating margin climbed from 16% to 20% as the mix moved toward higher-specification ceramics and abrasives. FY20 barely registered: revenue fell 1% in a year that halved many industrial suppliers.\n\nThe post-covid recovery was strong, with revenue reaching ₹2,541 crore by FY23 and profit ₹362 crore. Then it flattened. FY24 profit was ₹384 crore, FY25 ₹371 crore, and FY26 ₹417 crore. Three years, 3% a year. Revenue kept moving, from ₹2,541 crore to ₹3,073 crore, so the slowdown is partly margin: 20% in FY23 down to 18% in FY25 and back to 19%.\n\nThe share price has followed, falling about 5% a year over three years even as it rose 20% in the last twelve months. The June 2026 quarter was the strongest in two years, with revenue up 14% and the operating margin back to 20%.",
+  "risks": [
+    "The valuation. At 49 times earnings and 8.4 times book for a company that grew profit 3% a year over three years, the price assumes a reacceleration that the record does not yet show. Multiple compression alone can produce years of poor returns from a company that performs perfectly well. High.",
+    "Growth that may not return. Ten-year profit growth of 14% has become 3% over three years. If the recent rate is the true one rather than a pause, the multiple has a long way to fall. High.",
+    "Dependence on Indian industrial output. Consumables track activity, so growing faster than the manufacturing economy depends on mix, and mix moves slowly. Medium.",
+    "Parent company priorities. Saint-Gobain holds 58% and sets strategy. New opportunities could be routed through other group entities, and the Indian minority has no say in that. Medium.",
+    "Competition from below. Local abrasive makers improving their technical capability would attack the least differentiated part of the range first. Medium."
+  ],
+  "trapChecklist": [
+    {
+      "label": "Profit up while operating cash flow lags",
+      "status": "pass",
+      "note": "₹542 crore of operating cash against ₹417 crore of profit in FY26, and about 103% across five years."
+    },
+    {
+      "label": "Other income propping up profit",
+      "status": "pass",
+      "note": "₹25 crore against ₹115 crore of quarterly profit. Present, not distorting."
+    },
+    {
+      "label": "Promoter selling or dilution",
+      "status": "pass",
+      "note": "Saint-Gobain at 58.04%, unchanged. Equity capital unchanged since the FY17 bonus."
+    },
+    {
+      "label": "Debt disguising the returns",
+      "status": "pass",
+      "note": "₹61 crore of borrowings against ₹2,479 crore of reserves. The 21% return on capital is not leverage."
+    },
+    {
+      "label": "Growth measured from a distorted base",
+      "status": "pass",
+      "note": "No trough-year distortion. The problem is the opposite: the recent numbers are worse than the long ones."
+    },
+    {
+      "label": "Valuation supported by growth",
+      "status": "fail",
+      "note": "49 times earnings and 8.4 times book against three-year profit growth of 3%. This is the report's central issue."
+    }
+  ],
+  "sectorChecklist": [
+    {
+      "label": "Recurring revenue characteristics",
+      "status": "pass",
+      "note": "Consumables replaced continuously rather than capital equipment bought occasionally."
+    },
+    {
+      "label": "Margin stability through input cycles",
+      "status": "pass",
+      "note": "18% to 20% operating margin held for six consecutive years."
+    },
+    {
+      "label": "Customer concentration",
+      "status": "pass",
+      "note": "Broad industrial customer base rather than a handful of large buyers."
+    },
+    {
+      "label": "Downturn resilience",
+      "status": "pass",
+      "note": "Revenue fell only 1% in FY20, when Indian manufacturing largely stopped."
+    },
+    {
+      "label": "New end-market development",
+      "status": "warn",
+      "note": "Semiconductors, aerospace and electric vehicles are the stated direction and have not yet moved the numbers."
+    },
+    {
+      "label": "Reinvestment runway",
+      "status": "warn",
+      "note": "Half of profit is paid out because there is limited productive use for it inside the business."
+    }
+  ],
+  "summary": "Grindwell Norton sells what Indian factories wear out, which is one of the better shapes a business can take: revenue that depends on machines running rather than on machines being bought. The evidence is in eleven consecutive years of return on capital above 20%, an operating margin held at 18% to 20% through six years of cost cycles, no debt, cash that exceeds reported profit, and a revenue line that fell just 1% in FY20. None of that is in question. What is in question is the price. The multiple is priced for a reacceleration that has not yet appeared in the numbers, against a three-year growth record the lenses below take apart. The June 2026 quarter was the best in two years, which is a start rather than a trend. Judge it on whether the newer end-markets become large enough to change the growth rate, because at this multiple nothing less will do.",
+  "engine": {
+    "state": "multiple-drift",
+    "earningsLabel": "Engine one: steady, and slower than it was",
+    "multipleLabel": "Engine two: the risk, not the opportunity",
+    "earnings": "The engine is reliable and it has been idling. Trailing profit is up 18% and the June 2026 quarter showed revenue up 14% with the operating margin back to 20%, so there are signs of life. Against that sits the three-year record: profit compounding at 3% a year and revenue at 7%, when the ten-year figures are 14% and 10%. Something slowed around FY24 and has only just begun to turn. The cash quality is not in doubt anywhere in that period, with operating cash flow above reported profit and free cash flow positive every year. This is a question about pace, not about whether the earnings are real.",
+    "multiple": "Engine two is where the risk sits. Consider the arithmetic plainly: if profit grows at its three-year rate of 3% and the multiple drifts toward 30 times, which would still be a substantial premium for a high-single-digit grower, the shares fall meaningfully over five years while the company performs exactly as it has. Over the last three years the price has already fallen about 5% a year against 3% profit growth, so that compression has started. The last twelve months went the other way, up 20%, which is what makes this worth writing about now.",
+    "verdict": "This is one of the better businesses in the Indian industrial sector, and at 49 times earnings the burden of proof sits entirely with the growth. Both halves matter. The quality is real and eleven years of evidence support it, so this is not a company to dismiss. But that multiple needs profit compounding in the mid-to-high teens to be defensible, and the three-year record is 3%. What would change my mind is two or three quarters like June 2026, with revenue growing low double digits and the margin holding at 20%, which would suggest the slowdown was a pause. What would confirm the caution is another year where revenue grows and profit does not. Both are visible in the quarterly filing, so this is one to watch rather than to guess at."
+  },
+  "lenses": [
+    {
+      "name": "The best evidence of quality is a year nobody notices",
+      "reading": "Look at FY20. Revenue went from ₹1,598 crore to ₹1,580 crore, a fall of 1%, in the year Indian manufacturing largely stopped. Profit actually rose, from ₹169 crore to ₹184 crore. Compare that with Jamna Auto, whose revenue halved the same year, or with almost any equipment maker. That single line is worth more than any description of the moat, and it tells you exactly what kind of business this is. Grindwell does not sell factories a machine that can be postponed. It sells them something the machine consumes, and a factory running at half capacity still wears out abrasives. That resilience is precisely why the market pays a premium here, and it is the strongest argument the bulls have."
+    },
+    {
+      "name": "The dividend is telling you something",
+      "reading": "Grindwell pays out about half its profit. For a company earning 21% on capital, that is a striking decision, because reinvesting at 21% is normally the single best thing a business can do with a rupee. So why give half of it back? Because the opportunities to deploy it at that return are limited. The Indian abrasives market is mature and Grindwell already holds the engineered end of it. Capital spending peaked at ₹321 crore in FY23 and has fallen back to ₹118 crore. Read the payout ratio as management's own honest assessment of the reinvestment runway, and then set it against a multiple of 49 times, which is the sort of multiple markets normally pay for companies that can reinvest everything they earn. Those two facts are difficult to hold together."
+    },
+    {
+      "name": "The parent is an asset and a boundary",
+      "reading": "Saint-Gobain holds 58.04% and has done for years without moving. That brings real things: formulation technology from one of the oldest industrial companies in the world, a place in global research, and the captive software centre that shows up in Grindwell's own revenue. A standalone Indian abrasives maker would not have any of it. The boundary is the other side of the same fact. Strategy is set by a French parent for whom the Indian listed entity is one arm of a global business, and a group with operations everywhere can choose where a new opportunity is housed. Nothing here suggests it has been managed unfairly; the record on dividends and dilution is clean. But when you own 42% of a company whose parent owns the rest, you are a passenger on decisions made for the whole group."
+    }
+  ]
+}
