@@ -9,7 +9,9 @@
   "Valuation",
   "Reverse valuation",
   "Bought growth",
-  "Worked example"
+  "Worked example",
+  "Banks and NBFCs",
+  "Price to book"
  ],
  "summary": "You have found a company you like and you know what return you want. Three calculations later you know whether to keep reading or close the tab. Run start to finish on a good business at a hard price.",
  "seoTitle": "Reverse Valuation in Three Steps: What Growth Does the Price Require?",
@@ -41,6 +43,18 @@
   {
    "name": "The base year chooses the answer",
    "why": "Taught in [part one](/signals/are-the-engines-in-your-favour/) and worth repeating because here it runs backwards. On this company the flattering number is the long window and the honest one is the most recent."
+  },
+  {
+   "name": "For a lender, read book not profit",
+   "why": "A bank or an NBFC compounds its own equity, not its profit, so read price against book value and hold that beside return on equity. A price-to-earnings multiple is only price-to-book divided by return on equity, so quoting the PE alone throws away the one number that sets how fast the book can grow."
+  },
+  {
+   "name": "The machine runs both ways",
+   "why": "Fix the return and it hands you the growth the price needs; fix the growth at the record and it hands you the return you will actually get. Same identity read from either end. The first tells you whether the price is sane, the second tells you what one lakh becomes."
+  },
+  {
+   "name": "You bound the exit multiple, you do not guess it",
+   "why": "Use the multiple's own history. Revert a rich multiple to its median, never talk a cheap one up, discount the spikes that are only crashed earnings, and carry the break-even multiple as the backstop. A range that survives the base case beats a false point estimate."
   }
  ],
  "sections": [
@@ -473,6 +487,475 @@
     "The claim: even if the market still pays 35 times profit in 2031, which is the kindest assumption available, Shriram Pistons has to grow profit 15.2% a year. That means about ₹1,170 crore of profit and ₹10,100 crore of sales by 2031, from a company that has grown sales 13.4% a year for eleven years. Every number in that sentence is published every quarter.",
     "Good business. Demanding price. Two different questions, and only the second one was ever in doubt."
    ]
+  },
+  {
+   "heading": "One swap, and the same three steps read a lender",
+   "body": [
+    "That was one company and one multiple. The same check reads a bank or an NBFC with a single word changed, and it is worth seeing, because the swap is exactly where most people misprice a lender.",
+    "Everything above paid a multiple of profit, because for a piston maker profit is the thing that compounds. For a lender it is the wrong line. A bank or an NBFC earns a spread on a pile of money it holds, and that pile is its own equity, levered several times into loans. Every rupee of profit it keeps turns into fresh equity, and fresh equity turns into new lending. So the thing that compounds is book value, the equity sitting on the balance sheet, and the speed it compounds at is return on equity: keep 20 paise of profit on every rupee of book, sell no new shares, and the book is 20% bigger next year on its own.",
+    "So for a lender you swap one word in the identity. Price is book value times a price-to-book multiple, and the growth you feed the reverse valuation is book growth, not profit growth. That growth has a ceiling you can read off one number, because book cannot outrun return on equity for long without the lender issuing new shares to fund it.",
+    "Two reasons the profit multiple misleads here, both worth holding. First, a lender's profit is a spread minus credit losses, and one bad year of provisions can gut the profit while the book barely moves. Price that year's earnings and the multiple looks wild or turns negative, though the franchise is untouched. Book sits still through the cycle while earnings lurch. Second, and this is the one that costs people money, the profit multiple hides the return on equity, which for a lender is the whole game. They are the same fact folded up: a price-to-earnings multiple is only price-to-book divided by return on equity."
+   ],
+   "math": [
+    {
+     "label": "The profit multiple is the book multiple with the return divided out",
+     "lead": "The three numbers are one identity. Quote the price-to-earnings multiple on its own and you have thrown the return on equity away.",
+     "expr": [
+      {
+       "kind": "text",
+       "value": "PE"
+      },
+      {
+       "kind": "op",
+       "value": "="
+      },
+      {
+       "kind": "frac",
+       "num": "Price to book",
+       "den": "Return on equity"
+      },
+      {
+       "kind": "op",
+       "value": "="
+      },
+      {
+       "kind": "text",
+       "value": "2.81 ÷ 0.31"
+      },
+      {
+       "kind": "op",
+       "value": "="
+      },
+      {
+       "kind": "result",
+       "value": "9.1"
+      }
+     ],
+     "note": "That 9.1 is close to Muthoot Finance's reported ten times profit today, rebuilt from its 2.81 times book and a 31% return on equity. Quote the ten on its own and you have discarded the 31%, the only number that tells you how fast the book compounds and therefore whether that low multiple is cheapness or a warning."
+    }
+   ]
+  },
+  {
+   "heading": "Run it on Muthoot Finance",
+   "body": [
+    "The swap earns its keep on a lender that looks cheap on profit and is not. Muthoot Finance, the largest gold-loan NBFC in the country, trades at about ten times profit. On the profit multiple alone you would call it cheap and close the tab. Switch to book and the picture sharpens: it trades at 2.81 times its book value, which for a lender is a full price, not a bargain.",
+    "The two numbers disagree for a reason the piece has already met. Muthoot's return on equity leapt to 31% in the year to March 2026, against a 23% five-year average, in a stretch when gold ran up hard and its gold-loan book swelled with the price. Divide that peak profit into the share price and you get a flattering ten. It is the same trap part one found on Lupin: a low multiple is not cheapness, it is the market pricing earnings it does not expect to last.",
+    "So point the base-year discipline from earlier at the return, not the profit. The honest number to carry forward is the through-cycle 23-24%, not the 31% of a gold-rally year. At a 23% return and an 11% dividend payout, Muthoot's book compounds about 20% a year from its own engine, and that 20% is what the price is really forecasting. Now reverse it exactly as before, book in place of profit."
+   ],
+   "table": {
+    "columns": [
+     "If the multiple in 2031 is",
+     "Book must grow",
+     "Sustainable book growth is about"
+    ],
+    "rows": [
+     [
+      "2.81 times book, unchanged",
+      "15.0% a year",
+      "20%"
+     ],
+     [
+      "2.5 times",
+      "17.7% a year",
+      "20%"
+     ],
+     [
+      "2.0 times",
+      "23.1% a year",
+      "20%"
+     ],
+     [
+      "1.5 times",
+      "30.4% a year",
+      "20%"
+     ]
+    ]
+   },
+   "math": [
+    {
+     "label": "The same formula, book instead of profit",
+     "lead": "Nothing new. The profit multiple becomes the book multiple, and the growth you solve for is book growth.",
+     "expr": [
+      {
+       "kind": "text",
+       "value": "Book growth needed"
+      },
+      {
+       "kind": "op",
+       "value": "="
+      },
+      {
+       "kind": "text",
+       "value": "1.15"
+      },
+      {
+       "kind": "op",
+       "value": "×"
+      },
+      {
+       "kind": "pow",
+       "value": "(2.81 ÷ 2.0)",
+       "exp": "1/5"
+      },
+      {
+       "kind": "op",
+       "value": "−"
+      },
+      {
+       "kind": "text",
+       "value": "1"
+      },
+      {
+       "kind": "op",
+       "value": "="
+      },
+      {
+       "kind": "result",
+       "value": "23.1%"
+      }
+     ],
+     "note": "Want 15% a year, pay 2.81 times book, and if the next buyer pays 2.0 times book in 2031, the equity has to compound 23.1% a year, above what a 23% return can fund. Hold the multiple at 2.81 and the book needs only 15%, which that same return covers comfortably."
+    }
+   ]
+  },
+  {
+   "heading": "Where the lender lands, and why it differs",
+   "body": [
+    "Read the top two rows. If the market still pays 2.81 or even 2.5 times book in 2031, a through-cycle 23% return funds the 15% to 18% book growth those rows ask for, and you earn your 15%. Unlike the piston, the lender can clear the bar its own price sets, because 2.81 times book on a 23% return is not asking for a miracle. The reverse valuation reads fairly priced, not dear.",
+    "The catch sits in the base year, not the multiple. Everything rests on that 23% return holding. The 31% of last year, and the profit that jumped in a single twelve months, are a gold-price sugar high; take the rally away and both come down, and a gold-loan book is one commodity's price away from a poor year. So the number to watch is not the growth, it is whether return on equity settles back toward 23% and stays, or falls through it.",
+    "Which is the whole point of the swap. Read Muthoot on this year's profit and it looks cheap. Read it on its book and its normal return and it looks about right, with a single commodity underneath it. For a lender the multiple to unfold is price-to-book, the growth to forecast is book value, and the ceiling on that growth is return on equity. Same three steps, one word swapped."
+   ]
+  },
+  {
+   "heading": "The same machine, read from the other end",
+   "body": [
+    "Everything so far fixed the return and solved for the growth the price needs. Turn the handle the other way and it answers the question most people actually have: if the business simply carries on doing what it has done, what do I get? You fix the growth at the company's own record, assume an exit multiple, and the same identity hands you the return instead of demanding a growth rate.",
+    "It is the reverse valuation run backwards. Nothing new to learn, the terms swap places. The forward version tells you whether the price is sane. This one tells you what you would actually make."
+   ],
+   "math": [
+    {
+     "label": "Return, when you fix the growth instead of the return",
+     "lead": "Feed in the growth the business delivers and the exit multiple you will accept, and read the return off the other side.",
+     "expr": [
+      { "kind": "text", "value": "Return" },
+      { "kind": "op", "value": "=" },
+      { "kind": "text", "value": "(1 + growth)" },
+      { "kind": "op", "value": "×" },
+      { "kind": "pow", "value": "(Exit multiple ÷ Entry multiple)", "exp": "1/years" },
+      { "kind": "op", "value": "−" },
+      { "kind": "text", "value": "1" }
+     ],
+     "note": "Set this beside the forward formula and they are plainly one equation. There you knew the return and solved for growth; here you know the growth and solve for the return. The multiple term does the same job in both: an exit below your entry drags the return down, an exit above it lifts the return."
+    }
+   ]
+  },
+  {
+   "heading": "A case where the price works for you: Mahindra and Mahindra",
+   "body": [
+    "Shriram and Muthoot were both priced for a demanding future. To watch the machine run the other way you want a good business the market is not excited about. Mahindra and Mahindra, the tractor and SUV maker, is the specimen, and there is a [full report](/stocks/MM/) if you want the business itself. It trades at about 19 times profit, has compounded profit 16% a year for twelve years, and here is the part that matters: its multiple has drifted down, not up, while those earnings grew. It sits below its own ten-year median of about 25, not above it.",
+    "That single fact flips the exercise. For Shriram the multiple was a headwind you had to overcome. Here it is a cushion, and maybe a tailwind. So do not solve for the growth the price needs. Fix the growth at the record 16%, pick an exit multiple, and read the return."
+   ],
+   "table": {
+    "columns": [
+     "If the multiple in 2031 is",
+     "Your return a year",
+     "Which is"
+    ],
+    "rows": [
+     [
+      "35 times, its past peak",
+      "+31%",
+      "a full re-rating to the old peak"
+     ],
+     [
+      "24.6 times, back to its median",
+      "+22%",
+      "a re-rating on top of the growth"
+     ],
+     [
+      "19.2 times, unchanged",
+      "+16%",
+      "just the growth, nothing from the multiple"
+     ],
+     [
+      "15 times",
+      "+10%",
+      "the multiple giving a little back"
+     ],
+     [
+      "9.1 times",
+      "0%",
+      "break-even, where growth and the falling multiple cancel"
+     ]
+    ]
+   },
+   "math": [
+    {
+     "label": "The margin of safety, as one number",
+     "lead": "The exit multiple at which the return is exactly zero. Above it you gain, below it you lose.",
+     "expr": [
+      { "kind": "text", "value": "Break-even exit" },
+      { "kind": "op", "value": "=" },
+      { "kind": "frac", "num": "Entry multiple", "den": "(1 + growth) to the power of years" },
+      { "kind": "op", "value": "=" },
+      { "kind": "text", "value": "19.2 ÷ 2.10" },
+      { "kind": "op", "value": "=" },
+      { "kind": "result", "value": "9.1" }
+     ],
+     "note": "Sixteen percent growth for five years more than doubles the profit, 1.16 to the fifth is 2.10, so the multiple can fall from 19 all the way to 9 before the growth stops saving you. Nine times is far below anything M&M has traded at outside an earnings crash. That gap, from today's 19 down to the 9 that would hurt you, is the room the price is giving you. Run the same sum on Shriram at its carry-forward 13.4% growth and it breaks even at 35.3 ÷ 1.9, about 19 times, which is essentially its own median. The multiple only has to drift back to normal and the growth can no longer rescue you. Same formula, opposite cushions."
+    }
+   ]
+  },
+  {
+   "heading": "What that means for one lakh rupees",
+   "body": [
+    "A return a year is abstract. Put money on it. The value in five years is only what you put in, grown by the profit, moved by the multiple."
+   ],
+   "math": [
+    {
+     "label": "Your money in five years",
+     "lead": "What you invest, times how much the profit grew, times what the multiple did.",
+     "expr": [
+      { "kind": "text", "value": "Value" },
+      { "kind": "op", "value": "=" },
+      { "kind": "text", "value": "Amount invested" },
+      { "kind": "op", "value": "×" },
+      { "kind": "pow", "value": "(1 + growth)", "exp": "years" },
+      { "kind": "op", "value": "×" },
+      { "kind": "frac", "num": "Exit multiple", "den": "Entry multiple" }
+     ],
+     "note": "For M&M, 1.16 to the fifth is 2.10, so the earnings alone double your money. The exit multiple then swings it around that double."
+    }
+   ],
+   "table": {
+    "columns": [
+     "If the multiple in 2031 is",
+     "one lakh becomes",
+     "ten lakh becomes"
+    ],
+    "rows": [
+     [
+      "35 times, its past peak",
+      "₹3,83,000",
+      "₹38,30,000"
+     ],
+     [
+      "24.6 times, its median",
+      "₹2,69,000",
+      "₹26,90,000"
+     ],
+     [
+      "19.2 times, unchanged",
+      "₹2,10,000",
+      "₹21,00,000"
+     ],
+     [
+      "15 times",
+      "₹1,64,000",
+      "₹16,40,000"
+     ],
+     [
+      "9.1 times, break-even",
+      "₹1,00,000",
+      "₹10,00,000"
+     ]
+    ]
+   }
+  },
+  {
+   "heading": "So read the middle row",
+   "body": [
+    "If M&M keeps compounding 16% and the market keeps paying the same 19 times, one lakh becomes about ₹2.1 lakh in five years, a double, with nothing asked of the multiple. If the multiple only returns to its own median, about ₹2.7 lakh. And the floor holds: the multiple has to halve to 9 times before you fail to make money. This is price appreciation alone; a small dividend sits on top of it.",
+    "The top row is the blue-sky case. M&M has traded above 30 times at past peaks, so a return to 35 would turn one lakh into about ₹3.8 lakh. Keep it in view but do not lean on it. Every rupee of that row above the median row is the market falling in love again, and the one thing you never build a return on is the market's mood. Note where the rows split: everything from 19 times up is a gift you cannot count on, and the case has to hold at an unchanged multiple, which it does.",
+    "One honest flag, the same discipline the rest of the piece uses. M&M's cash conversion has run low, because its consolidated numbers absorb a lending arm whose flows are not operating cash. The arithmetic here is clean; whether the 16% turns up as real cash in the core tractor and SUV business is the thing to check before you trust the double.",
+    "The contrast is the lesson. Shriram is a good business whose price demands a future the record does not support. M&M is a good business whose price asks for almost nothing, so the return tracks the growth and the multiple is a cushion. Same three calculations. The company was never the variable. The price was."
+   ]
+  },
+  {
+   "heading": "How to name the exit multiple",
+   "body": [
+    "Every table above made you pick an exit multiple, and picking it is where people freeze, because you cannot know it. You can bound it, though, and the tool is the multiple's own history, which screener plots as a line with the median marked. Three moves get you a number.",
+    "One. Read where today sits against the median. If today is above it, your default exit is the median: you are assuming the premium fades, which is the safe way to be wrong. If today is below it, do not do the reverse and assume it climbs back up to the median. Use today's multiple, or lower. The rule is a haircut, never a bonus. You pull a rich multiple down to normal; you do not talk a cheap one up.",
+    "Two. Find where it actually rested. Set the median aside and look for the level the line held for years at a stretch, when nothing special was happening. That band, not the average, is the honest normal for a quiet version of the business. For a cyclical, lean to the low end of it, because you never want to be forced to sell at a peak multiple on peak earnings.",
+    "Three. Throw out the fake spikes. A multiple that shot up for a few months is usually not the market falling in love. It is earnings briefly collapsing, so the profit in the denominator shrank and the ratio jumped. The covid quarters do this to almost every company. Those spikes are the base-year trap from earlier wearing a different hat, and because they drag the median up, read the median as a slight overstatement.",
+    "Then name a range, not a point. Kind: the multiple holds. Base: it returns to the median. Harsh: it falls to the resting band. Carry the break-even multiple beside them as your backstop. If your return survives the base case and your harsh case still sits above break-even, you never needed more precision. If it only works in the kind case, the price is doing the work, not the business, and you have found the same thing the Shriram tables found."
+   ]
+  },
+  {
+   "heading": "Every formula in one place",
+   "body": [
+    "The whole method, and part one's, is a dozen lines of arithmetic. Here they are with nothing else around them. The worked numbers are Shriram Pistons, Muthoot Finance and M&M above; these are the general forms, with the return you want written as 15%."
+   ],
+   "math": [
+    {
+     "label": "The two checks before you value anything",
+     "lead": "Work the multiple out yourself, watch it drift, and see how much profit turns into cash.",
+     "exprCaption": "The real multiple, from the page's own two numbers",
+     "expr": [
+      { "kind": "text", "value": "Real multiple" },
+      { "kind": "op", "value": "=" },
+      { "kind": "frac", "num": "Share price", "den": "Earnings per share" }
+     ],
+     "lines": [
+      {
+       "caption": "Multiple drift a year: below zero means the business outgrew the price and the multiple shrank",
+       "expr": [
+        { "kind": "text", "value": "Drift" },
+        { "kind": "op", "value": "=" },
+        { "kind": "frac", "num": "1 + price growth", "den": "1 + profit growth" },
+        { "kind": "op", "value": "−" },
+        { "kind": "text", "value": "1" }
+       ]
+      },
+      {
+       "caption": "Cash conversion: how much reported profit actually arrived as money",
+       "expr": [
+        { "kind": "text", "value": "Cash conversion" },
+        { "kind": "op", "value": "=" },
+        { "kind": "frac", "num": "Five years of operating cash", "den": "Five years of net profit" }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Reverse valuation, the long way (part one)",
+     "lead": "Four steps from the return you want to a revenue figure you can go and check.",
+     "exprCaption": "Grow today's market value at the return you want",
+     "expr": [
+      { "kind": "text", "value": "Target value" },
+      { "kind": "op", "value": "=" },
+      { "kind": "text", "value": "Today's value" },
+      { "kind": "op", "value": "×" },
+      { "kind": "pow", "value": "(1 + return wanted)", "exp": "years" }
+     ],
+     "lines": [
+      {
+       "caption": "Assume the exit multiple, and the profit is forced",
+       "expr": [
+        { "kind": "text", "value": "Profit needed" },
+        { "kind": "op", "value": "=" },
+        { "kind": "frac", "num": "Target value", "den": "Exit multiple" }
+       ]
+      },
+      {
+       "caption": "That profit against today's, as a rate a year",
+       "expr": [
+        { "kind": "text", "value": "Growth needed" },
+        { "kind": "op", "value": "=" },
+        { "kind": "pow", "value": "(Profit needed ÷ Profit today)", "exp": "1/years" },
+        { "kind": "op", "value": "−" },
+        { "kind": "text", "value": "1" }
+       ]
+      },
+      {
+       "caption": "The revenue that growth implies, at today's margin",
+       "expr": [
+        { "kind": "text", "value": "Revenue needed" },
+        { "kind": "op", "value": "=" },
+        { "kind": "frac", "num": "Profit needed", "den": "Net margin" }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Reverse valuation, the one line (part two)",
+     "lead": "The four steps folded into a single expression, and the identity it comes from.",
+     "exprCaption": "The growth the price needs, adjusted for whatever the multiple does",
+     "expr": [
+      { "kind": "text", "value": "Growth needed" },
+      { "kind": "op", "value": "=" },
+      { "kind": "text", "value": "(1 + return wanted)" },
+      { "kind": "op", "value": "×" },
+      { "kind": "pow", "value": "(Entry multiple ÷ Exit multiple)", "exp": "1/years" },
+      { "kind": "op", "value": "−" },
+      { "kind": "text", "value": "1" }
+     ],
+     "lines": [
+      {
+       "caption": "Where it comes from: your return is the profit growth compounded, times what the multiple did",
+       "expr": [
+        { "kind": "pow", "value": "(1 + return)", "exp": "years" },
+        { "kind": "op", "value": "=" },
+        { "kind": "pow", "value": "(1 + growth)", "exp": "years" },
+        { "kind": "op", "value": "×" },
+        { "kind": "frac", "num": "Exit multiple", "den": "Entry multiple" }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "The lender swap (banks and NBFCs)",
+     "lead": "Read price against book, not profit, and the same line solves for book growth. The one number the profit multiple hides is return on equity.",
+     "exprCaption": "The profit multiple is the book multiple with the return divided out",
+     "expr": [
+      { "kind": "text", "value": "PE" },
+      { "kind": "op", "value": "=" },
+      { "kind": "frac", "num": "Price to book", "den": "Return on equity" }
+     ],
+     "lines": [
+      {
+       "caption": "The one line again, book multiple in place of profit multiple",
+       "expr": [
+        { "kind": "text", "value": "Book growth needed" },
+        { "kind": "op", "value": "=" },
+        { "kind": "text", "value": "(1 + return wanted)" },
+        { "kind": "op", "value": "×" },
+        { "kind": "pow", "value": "(Entry P/B ÷ Exit P/B)", "exp": "1/years" },
+        { "kind": "op", "value": "−" },
+        { "kind": "text", "value": "1" }
+       ]
+      },
+      {
+       "caption": "And the ceiling on that book growth, from the engine itself",
+       "expr": [
+        { "kind": "text", "value": "Book growth ceiling" },
+        { "kind": "op", "value": "=" },
+        { "kind": "text", "value": "Return on equity" },
+        { "kind": "op", "value": "×" },
+        { "kind": "text", "value": "(1 − dividend payout)" }
+       ]
+      }
+     ],
+     "note": "That last line is why book growth cannot run ahead of return on equity for long. Keep more profit and the book grows faster, up to the full return if the lender pays no dividend at all. Beat it only by selling new shares, which grows the book with someone else's money."
+    },
+    {
+     "label": "Reading it the other way (fix growth, read the return)",
+     "lead": "Feed in the growth the business actually delivers, and the same identity hands you the return instead of demanding one.",
+     "exprCaption": "The return, given a growth rate and an exit multiple you will accept",
+     "expr": [
+      { "kind": "text", "value": "Return" },
+      { "kind": "op", "value": "=" },
+      { "kind": "text", "value": "(1 + growth)" },
+      { "kind": "op", "value": "×" },
+      { "kind": "pow", "value": "(Exit multiple ÷ Entry multiple)", "exp": "1/years" },
+      { "kind": "op", "value": "−" },
+      { "kind": "text", "value": "1" }
+     ],
+     "lines": [
+      {
+       "caption": "The exit multiple that just breaks you even, your margin of safety",
+       "expr": [
+        { "kind": "text", "value": "Break-even exit" },
+        { "kind": "op", "value": "=" },
+        { "kind": "frac", "num": "Entry multiple", "den": "(1 + growth) to the power of years" }
+       ]
+      },
+      {
+       "caption": "And what a sum of money becomes over the hold",
+       "expr": [
+        { "kind": "text", "value": "Value" },
+        { "kind": "op", "value": "=" },
+        { "kind": "text", "value": "Amount invested" },
+        { "kind": "op", "value": "×" },
+        { "kind": "pow", "value": "(1 + growth)", "exp": "years" },
+        { "kind": "op", "value": "×" },
+        { "kind": "frac", "num": "Exit multiple", "den": "Entry multiple" }
+       ]
+      }
+     ],
+     "note": "Same identity as the one line above, rearranged. Fix the return and it gives the growth the price needs; fix the growth and it gives the return you get. The break-even exit is where a doubling of profit is exactly undone by the multiple halving."
+    }
+   ]
   }
  ],
  "ignore": [
@@ -488,13 +971,15 @@
   "The growth the price needs, recomputed after each result. It falls as the entry multiple falls."
  ],
  "questionsTitle": "The three questions, in order",
- "questionsIntro": "The method works on any company in about ten minutes. Shriram Pistons is only the specimen.",
+ "questionsIntro": "The method works on any company in about ten minutes; if it is a bank or an NBFC, swap the profit multiple for price-to-book and read book growth against return on equity. Shriram Pistons and Muthoot Finance are only the specimens.",
  "questions": [
   "What growth does this price need for the return I want, at an exit multiple lower than today's?",
   "Which of the four growth windows is measured from a normal year, and what does that one say?",
   "What revenue does each rate require by the exit year, and has this company or its industry ever produced that?",
   "If sales growth and profit growth have separated, who paid for the difference?",
-  "How much of the historical profit growth was revenue and how much was margin, and how much margin is left?"
+  "How much of the historical profit growth was revenue and how much was margin, and how much margin is left?",
+  "Is this a lender? If so, run the whole check on price-to-book and book growth, with return on equity as the ceiling and the exit price-to-book as the drag.",
+  "Run it the other way too: if the record simply continues, what return does today's price give me, and how far can the multiple fall before I lose money?"
  ],
  "historyRhymes": [
   {
@@ -511,6 +996,16 @@
    "event": "A decade of profit growth built on margin expansion",
    "similar": "Any manufacturer whose net margin tripled off a low base",
    "model": "Volume can compound forever. Margin has a ceiling, and the closer you are to it the more the forward rate looks like the revenue rate."
+  },
+  {
+   "event": "A lender that looks cheap on profit and full on book",
+   "similar": "Muthoot Finance at about ten times peak profit but 2.81 times book, its return on equity spiked to 31% for a year",
+   "model": "For a lender the profit multiple hides the return on equity and rewards a peak year with a low number. Read price against book, and normalise the return before you carry it forward."
+  },
+  {
+   "event": "A good business the market has quietly de-rated",
+   "similar": "M&M at about 19 times, below its own median, its multiple falling while profit compounded 16%",
+   "model": "When the entry multiple is normal or low, the business does the work and the multiple is a cushion. Fix the growth, read the return, and the break-even multiple sits far below where it trades."
   }
  ],
  "yourTurn": {
@@ -530,6 +1025,9 @@
  },
  "relatedSectors": [
   "auto"
+ ],
+ "relatedReports": [
+  "MM"
  ],
  "relatedCaseStudies": [
   "the-pe-paradox-why-multiples-rise-when-earnings-fall",
@@ -551,6 +1049,10 @@
   {
    "label": "Acquisition announcement filed with the NSE, 11 May 2026",
    "url": "https://nsearchives.nseindia.com/corporate/SHRIPISTON_11052026225716_SEINTIMATIONPRESSRELEASE11052026.pdf"
+  },
+  {
+   "label": "Screener: Muthoot Finance consolidated financials",
+   "url": "https://www.screener.in/company/MUTHOOTFIN/consolidated/"
   }
  ],
  "lessonLabel": "What the check is for",
