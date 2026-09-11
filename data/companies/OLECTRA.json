@@ -1,0 +1,230 @@
+{
+  "ticker": "OLECTRA",
+  "company": "Olectra Greentech Ltd",
+  "sector": "Consumer Discretionary",
+  "industry": "Electric Buses",
+  "sectorId": "auto",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-09-11",
+  "oneLiner": "India's only electric bus maker at scale, growing profit 26% a year on a wave of government orders. At 55 times earnings, the stock prices in a decade of those orders arriving on time. Government orders in India do not arrive on time.",
+  "facts": {
+    "snapshot": "Olectra Greentech builds electric buses for Indian state transport corporations using battery and drivetrain technology licensed from BYD of China. It also makes composite polymer insulators for high-voltage power lines, its original business.",
+    "founded": "2000",
+    "hq": "Hyderabad"
+  },
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "First mover in electric buses at scale", "tone": "good" },
+      { "label": "Growth", "value": "26% profit CAGR, revenue 4x in 4 years", "tone": "good" },
+      { "label": "Moat", "value": "A head start, not a fortress", "tone": "warn" },
+      { "label": "Cash flow", "value": "FCF negative, heavy capex cycle", "tone": "bad" },
+      { "label": "Customer", "value": "Government: lumpy orders, 156-day payments", "tone": "warn" },
+      { "label": "Valuation", "value": "55x earnings, 17% below median but still expensive", "tone": "warn" }
+    ],
+    "keyQuestion": "The growth is real and the government's push for electric public transport is genuine. The one thing that decides it: does the order pace hold, or do tender delays and arriving competition compress what Olectra earns per bus before the stock's premium is justified?"
+  },
+  "overview": "Think of Olectra as the only tailor in town who can stitch a particular kind of uniform. India has decided, as a matter of policy, that its state transport fleets should switch from diesel to electric buses. Someone has to build them. Olectra does, using battery and drivetrain technology licensed from BYD of China. It takes a government tender, builds the bus at its factory near Hyderabad, delivers it to a state transport corporation, and waits to get paid. The waiting is real: the government takes about 156 days. The company also makes composite polymer insulators (the ceramic-like parts on power lines that stop electricity from leaking to the ground), which was its original business, but the buses now account for roughly 90% of revenue. Revenue went from ₹593 crore in FY22 to ₹2,312 crore in FY26, a fourfold jump. But it was not smooth. FY24 saw only 6% growth because government orders are lumpy. They arrive in bursts, then go quiet. FY25 surged 56% when the next burst came.",
+  "editorial": {
+    "realBusiness": "Olectra builds electric buses for government transport fleets using BYD technology. It is a system integrator for a single class of customer (the state), riding a policy wave it does not control.",
+    "whyExists": "India runs over 130,000 state transport buses, overwhelmingly diesel. The government has decided they should go electric, and is funding the transition through schemes like PM e-bus Sewa. But building an electric bus requires battery and motor technology that most Indian manufacturers lack. Olectra partnered with BYD early, figured out how to assemble and deliver at scale, and built a track record. It exists because it showed up first with the right technology partner and proved it could deliver buses that work.",
+    "whyNotAlreadyWon": "Two things keep Olectra from owning this market completely. First, the core technology comes from BYD, not from Olectra's own labs. The partnership is a lifeline and a leash. If BYD changes terms or enters India directly, Olectra's advantage weakens overnight. Second, bigger players are arriving. Tata Motors, Ashok Leyland (through Switch Mobility), and JBM Auto are building their own electric bus capabilities and they bring larger balance sheets, stronger brands, and their own government relationships. Olectra has the head start, but a head start in a government-tender market is a running start, not a wall.",
+    "whyNow": "The stock has fallen 23% in the past year and sits 29% below its 52-week high, even as profits grew 26%. The business keeps delivering more buses; the market keeps marking down what it will pay per rupee of profit. Five-year multiple drift is minus 31%, meaning the stock has gone up far less than the earnings have. What the market seems to be saying: the growth is real, but at 55 times earnings most of it is already priced in, and the risks (tender delays, BYD dependency, arriving competition, negative free cash flow) deserve a lower premium than the 66 times the market paid at the median.",
+    "remember": "You own the only tailor in town who can stitch the uniform the government just mandated. The order book is enormous. But the tailor does not own the sewing machine, and the government decides when the next batch of uniforms gets ordered.",
+    "economicEngine": [
+      { "label": "Demand", "value": "Government electrification policy", "note": "State transport corporations buying e-buses under PM e-bus Sewa and state mandates. Structural demand, but the pace is set by tender cycles and budgets." },
+      { "label": "Revenue", "value": "Buses delivered x price per bus", "note": "Revenue is recognised on delivery. The price depends on tender terms, battery size, and whether the contract includes maintenance." },
+      { "label": "Margins", "value": "OPM 14-15%, PAT ~8%", "note": "Operating margins have been stable in a narrow band. PAT margins are thinner because interest and depreciation eat into the operating profit." },
+      { "label": "Capital", "value": "Factory capacity + working capital", "note": "Capital-intensive: building factories (capex ₹159 crore in FY26) and funding 156 days of receivables. Borrowings have tripled in two years." },
+      { "label": "Returns", "value": "ROCE 21%, ROE 16%", "note": "Decent returns but not exceptional, dragged by the capital intensity and rising debt." }
+    ],
+    "mentalModels": [
+      { "model": "First-mover advantage", "assessment": "Strong but narrowing", "assessmentTone": "warn", "why": "Largest deployed fleet and proven track record give an edge in tenders, but Tata, Ashok Leyland and JBM are building their own platforms." },
+      { "model": "Technology ownership", "assessment": "Weak", "assessmentTone": "bad", "why": "The core battery and drivetrain tech comes from BYD. Olectra assembles and integrates but does not control the critical components." },
+      { "model": "Customer concentration", "assessment": "High risk", "assessmentTone": "bad", "why": "Almost all revenue comes from government state transport corporations. One customer class, one budget cycle, one set of policy decisions." },
+      { "model": "Cash generation", "assessment": "Mixed", "assessmentTone": "warn", "why": "Five-year operating cash conversion is 100%, but free cash flow turned negative in FY25-26 as capex outran earnings." },
+      { "model": "Growth trajectory", "assessment": "Strong", "assessmentTone": "good", "why": "Revenue quadrupled in four years, profit grew fivefold, backed by a genuine policy-driven structural shift." }
+    ],
+    "sectorModels": [
+      { "model": "Industry structure", "reading": "Emerging, lightly contested", "note": "Olectra leads in electric buses. Tata, Switch Mobility and JBM are entering but have not matched the installed base." },
+      { "model": "Pricing power", "reading": "Weak", "note": "Government tenders set the price. Olectra can win on track record, but cannot price freely." },
+      { "model": "Demand driver", "reading": "Policy-driven", "note": "Government mandates and subsidies create the demand. Not organic consumer pull." },
+      { "model": "Cash conversion", "reading": "Mixed", "note": "100% over five years, but recent FCF negative due to capex, and 156-day debtor cycle." },
+      { "model": "Balance sheet", "reading": "Adequate but stretching", "note": "D/E 0.31, borrowings tripled in two years, interest cover about 5x." }
+    ],
+    "strategicPosition": [
+      { "label": "BYD (technology partner)", "description": "Owns the battery and drivetrain technology that powers Olectra's buses", "tone": "strong" },
+      { "label": "Olectra Greentech", "description": "India's largest e-bus maker by deployed fleet, using BYD tech, first to scale", "tone": "focus" },
+      { "label": "Tata / Switch / JBM", "description": "Late entrants with bigger balance sheets and their own government relationships", "tone": "weak" }
+    ],
+    "winningToday": [
+      "Revenue quadrupled from ₹593 crore (FY22) to ₹2,312 crore (FY26), with profit growing fivefold.",
+      "Largest deployed electric bus fleet in India, giving a track-record edge in government tenders.",
+      "BYD technology partnership provides proven, reliable battery and drivetrain systems.",
+      "Operating margins stable at 14-15% despite rapid scaling."
+    ],
+    "stopWinning": [
+      "Government tender cycles slow down or subsidies (PM e-bus Sewa) are cut back.",
+      "BYD enters India directly or changes partnership terms, removing Olectra's technology edge.",
+      "Tata Motors and Ashok Leyland scale their own electric bus platforms and start winning large tenders.",
+      "Free cash flow stays negative as capex and working capital demands outpace earnings growth."
+    ],
+    "marketBets": [
+      "The government's electric bus push continues at pace through FY28 and beyond.",
+      "Olectra retains its market-share lead even as competition arrives.",
+      "BYD partnership remains stable and exclusive enough to matter.",
+      "Margins hold near 14-15% and do not compress under competitive pressure.",
+      "Cash flow turns positive as the capex cycle matures and deliveries scale."
+    ]
+  },
+  "business": {
+    "unitOfRevenue": "One electric bus, delivered to a state transport corporation under a government tender. The price depends on the tender, the battery size, and whether the contract includes maintenance and spares. The insulator business adds a small secondary stream.",
+    "revenueModel": "A government-tender model. State transport corporations issue tenders for electric buses under schemes like PM e-bus Sewa. Olectra bids, wins the order, builds the bus at its factory using BYD battery and drivetrain technology, delivers it, and collects payment (after about five months, because government customers pay slowly). The order book is large but lumpy: a big tender win can make a quarter, and a quiet period can flatten one.",
+    "segments": [
+      { "name": "Electric buses", "pct": 90, "marginProfile": "The dominant business: e-buses built for state transport corporations, driving nearly all the growth." },
+      { "name": "Composite polymer insulators", "pct": 10, "marginProfile": "The legacy business: insulators for power lines, stable but no longer material to the story." }
+    ],
+    "revenuePerUnitTrend": "The revenue split above is an approximation, not a disclosed figure, but the e-bus dominance is clear from the trajectory: overall revenue quadrupled while the insulator business barely moved. Growth is volume-driven (more buses delivered) rather than price-driven, because government tenders set the price. The margin has been remarkably stable at 14-15% OPM through the scaling, which suggests Olectra is not buying volume by cutting price.",
+    "industry": {
+      "structure": "Emerging and lightly contested. Olectra is the market leader in electric buses by deployed fleet. Several large players are entering, but none has matched the installed base yet.",
+      "competitors": "Tata Motors (with its own EV platform), Switch Mobility (Ashok Leyland group), and JBM Auto. All bring larger balance sheets and established relationships with state transport buyers.",
+      "pricingPower": "Weak. The buyer is the government, which awards contracts through competitive tenders. Olectra wins on track record and technology, but cannot set prices. Margins are set by tender economics.",
+      "demandDriver": "Government policy. India's push to electrify public transport under PM e-bus Sewa and state-level mandates creates the demand. This is policy pull, not organic consumer choice.",
+      "driverType": "Policy-driven and lumpy. When the government issues a batch of tenders, demand surges. When it pauses to rework budgets, demand stalls. FY24 (6% growth) followed by FY25 (56% growth) tells the story.",
+      "tam": "India's state transport fleet runs over 130,000 buses, overwhelmingly diesel. Converting even a fraction to electric over the next decade is a large addressable market.",
+      "penetration": "Very low. A few thousand electric buses against a fleet of over 130,000. The opportunity is large, but the pace is entirely in the government's hands.",
+      "valueChainPosition": "Olectra sits between BYD (technology) and the government (buyer). It assembles and integrates rather than manufacturing core battery or motor components. That makes it the system integrator in the chain, capturing an assembly margin, not a technology rent."
+    },
+    "qualityVerdict": "Olectra is doing something real: building electric buses at scale in India before almost anyone else. The revenue growth is genuine (fourfold in four years), the operating margins have held steady (14-15%), and the government's policy push gives a structural tailwind. The honest limits are just as clear. PAT margins are thin at 7-8%, squeezed by rising interest costs and depreciation. Free cash flow turned negative in FY25 and stayed negative in FY26 because factory capex is running ahead of operating cash. The balance sheet is getting more levered (borrowings tripled from ₹121 crore to ₹380 crore in two years). And the core technology belongs to BYD, not to Olectra. This is a growth business riding a policy wave, not a quality compounder, and that distinction matters when you are paying 55 times earnings."
+  },
+  "valuation": [
+    { "label": "Price", "value": "₹1,215" },
+    { "label": "Market Cap", "value": "₹9,967 cr" },
+    { "label": "52W High / Low", "value": "₹1,714 / 867" },
+    { "label": "Stock P/E", "value": "55.0", "tone": "warn", "hint": "computed; 17% below 5Y median of 66.7, but still expensive in absolute terms" },
+    { "label": "P/B", "value": "8.1", "tone": "warn", "hint": "high; priced for sustained high growth" },
+    { "label": "EPS (TTM)", "value": "₹21.61" },
+    { "label": "Book Value", "value": "₹150" },
+    { "label": "Dividend Yield", "value": "0.05%", "hint": "token; this is a reinvestment story" }
+  ],
+  "financials": [
+    { "year": "FY22", "revenue": 593, "netProfit": 35, "eps": 4.31, "patMargin": 5.9 },
+    { "year": "FY23", "revenue": 1091, "netProfit": 67, "eps": 7.99, "patMargin": 6.1 },
+    { "year": "FY24", "revenue": 1154, "netProfit": 79, "eps": 9.36, "patMargin": 6.8 },
+    { "year": "FY25", "revenue": 1802, "netProfit": 139, "eps": 16.92, "patMargin": 7.7 },
+    { "year": "FY26", "revenue": 2312, "netProfit": 180, "eps": 21.62, "patMargin": 7.8 }
+  ],
+  "ratios": [
+    { "label": "ROE", "value": "15.6%", "tone": "neutral", "hint": "3Y avg ~13%; dragged by capital intensity" },
+    { "label": "ROCE", "value": "21.0%", "tone": "good", "hint": "improving from 8% in FY22" },
+    { "label": "Operating margin", "value": "~14%", "tone": "neutral", "hint": "stable in the 13-15% band" },
+    { "label": "D/E", "value": "0.31", "tone": "warn", "hint": "rising; was near zero in FY21, borrowings tripled in 2 years" },
+    { "label": "Interest cover", "value": "~5x", "tone": "neutral", "hint": "adequate but declining as debt grows" },
+    { "label": "Debtor days", "value": "~156", "tone": "warn", "hint": "government pays slowly; over 5 months to collect" }
+  ],
+  "cashFlow": [
+    { "year": "FY24", "ocf": 143, "capex": 79, "fcf": 64 },
+    { "year": "FY25", "ocf": 141, "capex": 177, "fcf": -36 },
+    { "year": "FY26", "ocf": 104, "capex": 159, "fcf": -55 }
+  ],
+  "cashFlowNote": "The cash flow tells a different story from the profit line. Over five years, operating cash has roughly matched cumulative profit (about 100% conversion), which is honest. But zoom into the recent picture and the strain shows. In FY25 and FY26, free cash flow was negative (minus ₹36 crore and minus ₹55 crore) because Olectra is building factory capacity ahead of orders, with capex of ₹177 crore and ₹159 crore. Capital work in progress ballooned from ₹4 crore in FY23 to ₹187 crore in FY25 before settling as some capacity came online. Meanwhile, the government takes 156 days to pay, so every rupee of new revenue ties up five months of working capital. The result: growth is being partly funded by rising debt (borrowings went from ₹121 crore to ₹380 crore in two years). If the orders keep flowing, this capex cycle pays for itself. If tenders slow, the cash squeeze tightens fast.",
+  "growth": [
+    { "label": "Sales CAGR (5Y)", "value": "52%", "tone": "good" },
+    { "label": "Sales CAGR (3Y)", "value": "28%", "tone": "good" },
+    { "label": "Profit CAGR (5Y)", "value": "85%", "tone": "good", "hint": "flattered by a low FY21 base (₹8 cr profit)" },
+    { "label": "Profit CAGR (3Y)", "value": "39%", "tone": "good" },
+    { "label": "Profit growth (TTM)", "value": "26%", "tone": "good" },
+    { "label": "Cash conversion (5Y)", "value": "~100%", "tone": "neutral", "hint": "but FCF negative in FY25-26 due to heavy capex" }
+  ],
+  "management": "Olectra is part of the MEIL Group (Megha Engineering and Infrastructures), which holds about 50% of the company and has kept that stake dead flat for at least six quarters. No dilution, which is reassuring for a business in heavy capex mode. The management team comes from the infrastructure world and runs the company with a builder's discipline: bid for the tender, build the bus, deliver it, collect the money. Execution has been clean so far. Revenue has scaled fourfold without margin compression, which takes operational competence. FII holdings have been rising steadily (from 5.4% to 8% in six quarters), suggesting institutional investors are starting to take the story seriously. The thing to watch is capital allocation. Borrowings have tripled in two years, and the company is building capacity ahead of confirmed orders. That is the right bet if the orders come. It is an expensive bet if they do not.",
+  "holding": [
+    { "label": "Promoter", "pct": 50.02, "qoqChange": 0.0 },
+    { "label": "FII", "pct": 7.95, "qoqChange": 0.84 },
+    { "label": "DII", "pct": 0.58, "qoqChange": -0.10 },
+    { "label": "Public", "pct": 41.47, "qoqChange": -0.73 }
+  ],
+  "moat": {
+    "strength": "narrow",
+    "sources": [
+      "Largest deployed electric bus fleet in India, giving a track-record edge in government tenders",
+      "BYD technology partnership for proven battery and drivetrain systems",
+      "Operational know-how in assembling and delivering e-buses at scale",
+      "Government tenders weight past delivery performance, favouring incumbents"
+    ],
+    "note": "The moat is real but borrowed. Olectra has a genuine head start: it has delivered more electric buses in India than anyone, and government tenders reward proven track records. That first-mover advantage is a real competitive edge today. The fragile part is the foundation. The technology comes from BYD, not from Olectra's own R&D, so the intellectual property lives in Shenzhen, not Hyderabad. If BYD enters India directly, changes partnership terms, or is restricted by geopolitics, Olectra's edge weakens overnight. And the government-tender barrier cuts both ways: it keeps out small players but it will not stop Tata Motors or Ashok Leyland, who bring scale and their own track records. A head start in a government market is valuable. It is not permanent.",
+    "label": "Narrow moat, borrowed technology"
+  },
+  "narrative": "Olectra's numbers tell a genuine growth story. Revenue climbed from ₹593 crore in FY22 to ₹2,312 crore in FY26, and profit went from ₹35 crore to ₹180 crore, a fivefold jump. But the climb was anything but smooth. FY23 nearly doubled revenue to ₹1,091 crore as electric bus orders flooded in. FY24 grew just 6%, to ₹1,154 crore, because the government tender pipeline paused. FY25 surged 56% when the next round of orders arrived. That lumpiness is the signature of a government-dependent business, and it is permanent, not a phase. The stock, meanwhile, has been re-priced downward: down 23% in the past year and flat over three years, even as profits grew five times. At the peak, the market paid over 100 times earnings. It now pays 55 times. The earnings engine has been running; the multiple engine has been working against you.",
+  "risks": [
+    "Government concentration. Nearly all revenue comes from state transport corporations through government tenders. A policy shift, budget squeeze, or subsidy cut hits the entire business at once. High.",
+    "BYD dependency. The battery and drivetrain technology comes from BYD of China. If BYD changes terms, enters India directly, or faces geopolitical restrictions on Chinese partnerships, Olectra loses its technological edge. High.",
+    "Lumpy order flow. Revenue growth of 6% in FY24 followed by 56% in FY25 is the norm, not the exception. Government tenders arrive in unpredictable bursts, and Olectra cannot smooth them. Medium to High.",
+    "Negative free cash flow. Capex of ₹177 crore and ₹159 crore in FY25-26 pushed FCF negative, funded by rising debt. If orders slow, the cash squeeze tightens. Medium.",
+    "Incoming competition. Tata Motors, Switch Mobility (Ashok Leyland), and JBM Auto are building electric bus capabilities with larger balance sheets and their own government relationships. Medium.",
+    "Collection risk. Debtor days at 156 mean the government takes over five months to pay, tying up working capital and adding payment risk. Medium."
+  ],
+  "trapChecklist": [
+    { "label": "Promoter holding steady", "note": "MEIL Group at 50.02%, unchanged for six quarters; no dilution", "status": "pass" },
+    { "label": "Debt and leverage", "note": "D/E 0.31, but borrowings tripled from ₹121 cr to ₹380 cr in two years; rising", "status": "warn" },
+    { "label": "Cash conversion", "note": "5Y cumulative ~100%, but FCF negative in FY25 and FY26 as capex runs ahead of cash", "status": "warn" },
+    { "label": "Revenue concentration", "note": "Nearly all revenue from one customer class (government STCs); lumpy and policy-dependent", "status": "warn" },
+    { "label": "Earnings quality", "note": "Operating margins stable at 14-15%, revenue from real bus deliveries, no accounting concerns", "status": "pass" },
+    { "label": "Valuation vs growth", "note": "55x PE demands sustained high growth; the 5Y profit CAGR of 85% is flattered by a low base", "status": "warn" }
+  ],
+  "sectorChecklist": [
+    { "label": "Market position", "note": "Largest deployed e-bus fleet in India; first mover with proven BYD technology", "status": "pass" },
+    { "label": "Technology ownership", "note": "Core battery and drivetrain tech licensed from BYD; Olectra assembles, does not own the IP", "status": "fail" },
+    { "label": "Order book visibility", "note": "Large pipeline from PM e-bus Sewa, but tender awards are lumpy and unpredictable", "status": "warn" },
+    { "label": "Margin stability", "note": "OPM steady at 14-15% through rapid scaling; no compression so far", "status": "pass" },
+    { "label": "Balance sheet", "note": "D/E 0.31, interest cover ~5x; adequate but stretching as capex and working capital grow", "status": "warn" }
+  ],
+  "summary": "Olectra is India's electric bus pioneer, and the growth is not a story but a fact: revenue up fourfold, profit up fivefold in four years, backed by the government's genuine push to electrify public transport. It showed up first, partnered with BYD, built the largest fleet, and earned a track-record edge in government tenders. At 55 times earnings, you get none of that cheaply. The technology belongs to BYD. The customer is a government that orders in waves and pays in five months. Free cash flow is negative as the company builds capacity ahead of orders, funded by debt that tripled in two years. Bigger competitors are arriving. The growth is real. Whether 55 times earnings is the right price for growth that runs on one customer's policy calendar is the question you have to answer for yourself. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+  "engine": {
+    "state": "earnings-engine",
+    "earnings": "The earnings engine is running and it is real. Profit has gone from ₹35 crore to ₹180 crore in four years, driven by actual bus deliveries, not financial engineering. Operating margins have held at 14-15% through the scaling. What tempers the enthusiasm is the quality of the cash behind those earnings. Over five years the cumulative conversion is about 100%, which is honest. But in FY25 and FY26, free cash flow was negative because capex is running ahead of operating cash and the government takes 156 days to pay. The earnings are genuine. They just consume more capital than they generate right now.",
+    "multiple": "At 55 times earnings the multiple is high in absolute terms but 17% below its five-year median of 66.7. The five-year multiple drift is minus 31%, meaning the stock has gone up far less than earnings have. That sounds like a buying signal until you ask why: the market is gradually concluding that a government-dependent, BYD-reliant, FCF-negative business at this stage of its capex cycle deserves a lower premium. Whether the market has over-corrected or still has further to go is the real question.",
+    "verdict": "My honest read: the business is doing something real. You are not buying a fantasy; you are buying ₹180 crore of actual profit, growing 26% a year, in a sector where the government is actively creating demand. But 55 times earnings is an expensive entry. The market is already paying for years of sustained growth, and this is a business where a quiet tender quarter (which will come, because government ordering is lumpy by nature) can make the multiple look briefly terrifying. I would be wrong if the order flow accelerates, the capex cycle matures into positive free cash flow, and competition fails to dent the market share. That outcome is plausible. It requires the government to stay on schedule, and I would not put my house on Indian government schedules."
+  },
+  "lenses": [
+    { "name": "A policy stock", "reading": "Here is the thing most growth investors miss about Olectra: it is not really a business stock. It is a policy stock. The demand does not come from consumers choosing electric buses over diesel. It comes from the government deciding, through tenders and subsidies, how many electric buses each state transport corporation should buy this year. The growth feels structural because the policy is real and broad. But the pace is entirely in the government's hands. A budget delay, a subsidy review, or a change in transport ministry priorities can flatten a quarter's revenue. FY24 (6% growth, sandwiched between FY23 at 84% and FY25 at 56%) is what this looks like in practice. Ask whether you are comfortable owning a stock where the growth rate is set in a government office you have never visited." },
+    { "name": "Growth without free cash", "reading": "Olectra's profit has grown fivefold in four years. Impressive. Now look at what that growth costs. In FY25 and FY26, free cash flow was negative, minus ₹36 crore and minus ₹55 crore, because building factory capacity (₹177 crore and ₹159 crore in capex) and funding 156 days of receivables eats more cash than the business generates. Borrowings tripled from ₹121 crore to ₹380 crore to plug the gap. This is not unusual for a manufacturing business in its scaling phase. But it means the growth you see on the profit line has not yet turned into cash you can touch. The question is when, not whether, the capex cycle matures and cash flow turns positive. Until it does, the growth is funded by the balance sheet, and the balance sheet is stretching." },
+    { "name": "What happens when the competition arrives", "reading": "Olectra's first-mover advantage is real today. But first-mover in a government-tender market is a different thing from first-mover in a consumer market. In a consumer market, brand loyalty and network effects can lock out followers for years. In a government-tender market, what matters is who can meet the spec, deliver on time, and bid competitively. Tata Motors and Ashok Leyland can do all three, and they bring bigger factories, stronger balance sheets, and decades of relationships with the same state transport corporations. The head start is worth something: government tenders do weight past performance, and having the largest fleet is a real advantage in the next bid. The question is how much that head start erodes as competitors scale. At 55 times earnings, you need it to erode slowly." }
+  ],
+  "outlook": {
+    "areas": [
+      {
+        "title": "Order flow",
+        "facts": [
+          "PM e-bus Sewa scheme is active, with tenders for thousands of electric buses across multiple states.",
+          "Olectra has delivered more e-buses than any Indian manufacturer to date.",
+          "FY26 revenue grew 28% to ₹2,312 crore, suggesting the tender pipeline stayed active."
+        ],
+        "watch": "Whether the pace of new tender awards holds through FY27, or whether a budget review or policy pause creates another FY24-style flat year."
+      },
+      {
+        "title": "Capacity and capex cycle",
+        "facts": [
+          "Capital work in progress peaked at ₹187 crore in FY25 and fell to ₹82 crore in FY26 as capacity came online.",
+          "Fixed assets rose from ₹355 crore to ₹574 crore in FY26, reflecting newly commissioned capacity."
+        ],
+        "watch": "Whether the new capacity translates into higher deliveries and operating leverage, or whether it sits underutilised if orders slow."
+      },
+      {
+        "title": "Cash flow and debt",
+        "facts": [
+          "Free cash flow was negative in both FY25 (minus ₹36 crore) and FY26 (minus ₹55 crore).",
+          "Borrowings rose from ₹121 crore (FY24) to ₹380 crore (FY26)."
+        ],
+        "watch": "Whether operating cash flow improves enough in FY27 to make free cash flow positive, now that the heaviest capex phase appears to be passing."
+      },
+      {
+        "title": "Competition",
+        "facts": [
+          "Tata Motors, Switch Mobility (Ashok Leyland), and JBM Auto are all developing electric bus platforms.",
+          "FII holdings in Olectra have risen from 5.4% to 8% over the past six quarters."
+        ],
+        "watch": "Whether new entrants start winning large tenders at Olectra's expense, or whether Olectra's track record keeps it ahead."
+      }
+    ],
+    "closer": "The next few quarters will show whether the government's e-bus ordering pace and Olectra's delivery machine can keep growing in tandem."
+  }
+}

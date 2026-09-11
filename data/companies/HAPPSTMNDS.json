@@ -1,0 +1,224 @@
+{
+  "ticker": "HAPPSTMNDS",
+  "company": "Happiest Minds Technologies Ltd",
+  "sector": "Information Technology",
+  "industry": "IT Services",
+  "sectorId": "it",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-09-11",
+  "oneLiner": "The pitch was 'born digital, no legacy,' and it once fetched 80 times earnings. Every IT firm does digital now, profit has not grown in three years, and at 24 times flat earnings the story premium has shrunk but not vanished.",
+
+  "facts": {
+    "snapshot": "Happiest Minds is a mid-size Indian IT services company that builds and manages digital systems (cloud, AI/ML, IoT, cybersecurity) for clients, mainly in the United States. It sells engineering time on projects, not software products.",
+    "founded": "2011",
+    "hq": "Bangalore"
+  },
+
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Real digital IT services, but small and undifferentiated", "tone": "warn" },
+      { "label": "Growth", "value": "Revenue 25% CAGR, profit just 7% over 5Y", "tone": "warn" },
+      { "label": "Moat", "value": "'Born digital' absorbed by the industry", "tone": "bad" },
+      { "label": "Balance sheet", "value": "₹1,494cr acquisition debt; rare for IT", "tone": "warn" },
+      { "label": "Promoter", "value": "Down 9pp in 3 years to 44%; founder aging", "tone": "bad" },
+      { "label": "Valuation", "value": "23.6x for flat profit; story premium lingers", "tone": "warn" }
+    ],
+    "keyQuestion": "If born digital was the edge, and every IT firm now does digital, what justifies a premium multiple?"
+  },
+
+  "overview": "Happiest Minds was founded in 2011 by Ashok Soota, who had co-founded MindTree and left to build what he thought the industry needed: an IT company born digital, with no legacy outsourcing contracts dragging it into the past. Think of a specialty coffee shop that opens when every other cafe in town still serves instant. For a few years, the pitch worked brilliantly. The company IPO'd in 2020 at a valuation the IT industry rarely sees, and 'born digital' was the line that justified it. The company builds and runs digital systems for clients, mostly American: cloud migrations, AI implementations, cybersecurity, IoT platforms. It does not make products; it sells engineering time on projects. Revenue has quadrupled since FY20 to ₹2,315 crore. Profit has not kept up: 25% revenue CAGR over five years, 7% profit CAGR. The specialty coffee shop is still open, and it does good work. Every cafe in town does specialty now.",
+
+  "editorial": {
+    "realBusiness": "Happiest Minds rents out engineers to build and manage digital systems for companies that lack the in-house talent. The product is skilled time, billed by the hour or the project.",
+    "whyExists": "Companies need digital systems built and managed, and most lack the in-house talent. Happiest Minds exists to sell that talent on a project basis. The work is real and the demand is structural. The open question was never whether the work exists, but whether Happiest Minds has any lasting edge in winning it over a dozen larger competitors who now do the same thing.",
+    "whyNotAlreadyWon": "For its first decade, two things kept the door open. First, Ashok Soota's reputation: he built MindTree into a respected IT firm, and that credibility brought clients who would not have hired an unknown startup. Second, the born-digital positioning: in 2011, most Indian IT firms still earned the bulk of their revenue from legacy outsourcing, so a company that did only digital work was genuinely differentiated. Neither advantage is structural. Soota is in his 80s and selling down. Every IT firm now leads with digital. What opened the door was timing and a founder's name, not a patent or a switching cost.",
+    "whyNow": "The stock is down 40% in the past year and down 29% compounded over three years. At 23.6 times earnings, the multiple has compressed from 80x at IPO, but profit has not grown in three years (3Y CAGR: -1%), so the derating tracks reality. Most mid-tier IT names without a clear moat trade at 15-20 times. Whether 24 times a business with 7% profit growth, 13% ROCE, and ₹1,500 crore of debt is cheap or still rich is the question the stock is asking you to answer.",
+    "remember": "You are paying 24 times earnings for a small IT company whose one differentiator has been absorbed by every competitor in the industry.",
+    "mentalModels": [
+      { "model": "Scale", "assessment": "Tiny", "assessmentTone": "bad", "why": "₹2,300 crore revenue in an industry where TCS does over ₹250,000 crore. Cannot absorb the loss of even one large client." },
+      { "model": "Differentiation", "assessment": "Eroding", "assessmentTone": "bad", "why": "Born digital was a genuine edge in 2011. By 2025, every IT firm leads with digital, and the positioning has become generic." },
+      { "model": "Founder dependence", "assessment": "High risk", "assessmentTone": "bad", "why": "Ashok Soota is in his 80s and has reduced his stake from ~53% to 44%. The brand and client relationships rest heavily on him." },
+      { "model": "Cash generation", "assessment": "Strong", "assessmentTone": "good", "why": "103% of net profit converted to operating cash over five years. Free cash flow positive every year. The revenue is real money." },
+      { "model": "Balance sheet", "assessment": "Weakened", "assessmentTone": "warn", "why": "Debt went from near-zero to ₹1,494 crore in three years via acquisitions. Interest costs of ₹97 crore per year are a fixed charge an IT company should not need." },
+      { "model": "Acquisition strategy", "assessment": "Unproven", "assessmentTone": "warn", "why": "Revenue jumped on acquisitions but profit fell. OPM compressed from 25% to 17%. The company bought top line but the synergies have not materialised." }
+    ],
+    "economicEngine": [
+      { "label": "Demand", "value": "Corporate digital spending", "note": "Companies need cloud, AI, IoT and cybersecurity work done. Structural demand, but every IT firm competes for the same pool." },
+      { "label": "Revenue", "value": "Engineers x billing rate x utilization", "note": "Classic IT services model. Revenue scales with headcount and rate. No product royalty, no recurring licence stream." },
+      { "label": "Margins", "value": "OPM compressed from 25% to 17%", "note": "Acquisitions, wage pressure, and integration costs squeezed operating margins. Interest of ₹97cr/year adds a fixed drag." },
+      { "label": "Capital", "value": "Was asset-light, now debt-heavy", "note": "Borrowings went from ₹250cr to ₹1,494cr in three years to fund acquisitions. Fixed assets tripled, mostly goodwill." },
+      { "label": "Returns", "value": "ROCE 13%, falling", "note": "Was above 30% in FY22-23. Diluted by acquisition capital. ROE down from a 19% five-year average to 14%." }
+    ],
+    "strategicPosition": [
+      { "label": "Large-cap IT (TCS, Infosys, Wipro)", "description": "Massive scale, diversified clients, deep pockets; digital is now a large and growing share of their revenue", "tone": "strong" },
+      { "label": "Mid-tier specialists (Persistent, Coforge, LTTS)", "description": "Focused domain expertise, strong client relationships, growing faster than the giants", "tone": "strong" },
+      { "label": "Happiest Minds", "description": "Born-digital positioning, small scale, acquisition-driven growth, founder-dependent", "tone": "focus" },
+      { "label": "Smaller IT firms", "description": "Sub-scale, project-dependent, limited brand recognition", "tone": "weak" }
+    ],
+    "winningToday": [
+      "Revenue growing at 12% TTM to ₹2,394 crore; quarterly run-rate improving (Q1FY27 at ₹629 crore).",
+      "Cash conversion at 103% over five years; the earnings are real money, not just accruals.",
+      "Dividend payout rising to about 44%, showing some cash discipline.",
+      "Legitimate capabilities in cloud, AI and cybersecurity where demand is structural."
+    ],
+    "stopWinning": [
+      "Profit has not grown in three years: 3Y CAGR -1%, FY26 profit (₹213 crore) still below FY24 (₹248 crore).",
+      "Operating margin compressed from 25% to 17% on acquisitions and wage costs.",
+      "₹1,494 crore of debt and ₹97 crore per year in interest, a balance sheet unusual for IT.",
+      "Promoter down 9 percentage points to 44%; founder in his 80s with no visible succession plan.",
+      "Born-digital positioning absorbed by the entire industry; no remaining structural edge."
+    ],
+    "marketBets": [
+      "Acquisitions deliver synergies and margins recover toward 20%+.",
+      "AI and cloud spending accelerates and Happiest Minds wins its share of new projects.",
+      "The promoter's eventual exit is managed without losing key clients or employees.",
+      "Profit growth reaccelerates to match the revenue growth rate."
+    ],
+    "sectorModels": [
+      { "model": "Industry structure", "reading": "Highly competitive", "note": "Dozens of IT services firms compete for the same digital projects; scale and client relationships matter most." },
+      { "model": "Pricing power", "reading": "Weak", "note": "Billing rates are set by the market. Small firms cannot command a premium for the same work." },
+      { "model": "Demand driver", "reading": "Structural", "note": "Corporate digital spending is large and growing. The demand is real; the question is who captures it." },
+      { "model": "Cash conversion", "reading": "Good", "note": "103% of net profit into operating cash over five years; healthy by any standard." },
+      { "model": "Balance sheet", "reading": "Unusual debt for IT", "note": "₹1,494 crore of borrowings and 0.88 D/E, in a sector where most companies are debt-free." }
+    ]
+  },
+
+  "business": {
+    "unitOfRevenue": "One engineer's time on one project. The company bills clients for the hours (or fixed-price deliverables) of its engineers working on digital projects. Revenue per engineer depends on the billing rate and utilization, both set largely by market competition.",
+    "revenueModel": "A project-based IT services model. Clients hire Happiest Minds to build, run, or manage digital systems. Revenue comes from time-and-materials billing (per engineer-hour) or fixed-price contracts, with some recurring income from managed-services engagements. Acquisitions have expanded the service mix in recent years.",
+    "segments": [
+      { "name": "Digital Business Services", "pct": 45, "marginProfile": "Digital consulting and project delivery: cloud, analytics, AI. The largest vertical, and the one the brand was built on." },
+      { "name": "Product Engineering Services", "pct": 30, "marginProfile": "Building and testing software products for clients. Higher-skill, project-based work." },
+      { "name": "Infrastructure Management and Security Services", "pct": 25, "marginProfile": "Managing IT infrastructure and cybersecurity. More annuity-like than the other two, but lower margin." }
+    ],
+    "revenuePerUnitTrend": "The segment splits above are approximate; the company reports three verticals but the exact mix shifts as acquired businesses blend in. Revenue per engineer is a function of billing rates and utilization. Billing rates have not risen materially for small IT firms, and utilization can drop quickly when project pipelines slow. The recent revenue growth has come largely from acquisitions rather than from pricing power or organic headcount expansion.",
+    "industry": {
+      "structure": "Highly competitive and fragmented among mid-caps, with a handful of large-cap firms (TCS, Infosys, Wipro, HCLTech) dominating. Below them, dozens of mid-tier and small IT firms compete for the same digital projects.",
+      "competitors": "Every Indian IT firm, large and small, now offers digital services. TCS, Infosys, Wipro, and dozens of mid-tier specialists (Persistent, Coforge, LTTS, Mphasis) all compete in the same space Happiest Minds occupies.",
+      "pricingPower": "Weak. Billing rates are market-set. A small firm cannot charge more than a larger competitor for equivalent work, and clients increasingly consolidate vendors, favouring scale.",
+      "demandDriver": "Corporate spending on digital transformation: cloud, AI/ML, cybersecurity, IoT. Structural and large, but competed for by every firm in the industry.",
+      "driverType": "Structural demand with cyclical swings tied to US and European IT budgets.",
+      "tam": "Global IT services is a multi-hundred-billion-dollar market. Digital services are the fastest-growing segment, but also the most competed.",
+      "penetration": "Happiest Minds is a tiny player. Revenue of ₹2,300 crore is a rounding error in the addressable pool.",
+      "valueChainPosition": "Between the client's business need and the technical execution. Competes with every other IT services firm for the same projects, so what it captures depends on relationships, domain knowledge, and price."
+    },
+    "qualityVerdict": "At the operating level, the business works. Cash conversion at 103% is genuinely good, and the dividend payout has risen to 44%. The revenue is real money. But the strategic choices tell a more complicated story. Management levered up a clean balance sheet, borrowing ₹1,500 crore to acquire businesses that added revenue but compressed margins from 25% to 17%. Whether that was the right call depends on whether the acquired businesses deliver synergies. So far they have added top line but not bottom line, and the margin compression is the number that speaks loudest. The company is competently operated day to day. The acquisition bet is not yet proven in the numbers."
+  },
+
+  "valuation": [
+    { "label": "Price", "value": "₹340" },
+    { "label": "Market Cap", "value": "₹5,167 cr" },
+    { "label": "52W High / Low", "value": "₹583 / 305" },
+    { "label": "Stock P/E", "value": "23.6", "tone": "warn", "hint": "normalised; printed 22.0 includes lumpy other income" },
+    { "label": "P/B", "value": "3.1", "tone": "neutral" },
+    { "label": "EPS (TTM)", "value": "₹14.66" },
+    { "label": "Book Value", "value": "₹111" },
+    { "label": "Dividend Yield", "value": "1.89%", "hint": "payout ~44%" }
+  ],
+
+  "financials": [
+    { "year": "FY22", "revenue": 1094, "netProfit": 181, "eps": 12.34, "patMargin": 16.5 },
+    { "year": "FY23", "revenue": 1429, "netProfit": 231, "eps": 15.73, "patMargin": 16.2 },
+    { "year": "FY24", "revenue": 1625, "netProfit": 248, "eps": 16.31, "patMargin": 15.3 },
+    { "year": "FY25", "revenue": 2061, "netProfit": 185, "eps": 12.13, "patMargin": 9.0 },
+    { "year": "FY26", "revenue": 2315, "netProfit": 213, "eps": 13.96, "patMargin": 9.2 }
+  ],
+
+  "ratios": [
+    { "label": "ROE", "value": "13.8%", "tone": "warn", "hint": "5Y average 19%, declining on acquisition capital" },
+    { "label": "ROCE", "value": "13.3%", "tone": "warn", "hint": "was 30%+ in FY22-23; diluted by acquisition goodwill" },
+    { "label": "Operating margin", "value": "~17%", "tone": "warn", "hint": "was 25% in FY23; compressed by acquisitions" },
+    { "label": "D/E", "value": "0.88", "tone": "warn", "hint": "₹1,494cr borrowings; unusual for IT" },
+    { "label": "Cash conversion (5Y)", "value": "103%", "tone": "good", "hint": "OCF / net profit" },
+    { "label": "Debtor days", "value": "62", "tone": "good", "hint": "reasonable for IT services" }
+  ],
+
+  "cashFlow": [
+    { "year": "FY24", "ocf": 213, "capex": 11, "fcf": 202 },
+    { "year": "FY25", "ocf": 236, "capex": 11, "fcf": 225 },
+    { "year": "FY26", "ocf": 261, "capex": 6, "fcf": 255 }
+  ],
+  "cashFlowNote": "The operating cash is the best part of this story, and it is genuinely good. Over five years, 103% of net profit became operating cash, and free cash flow was positive every year. For an IT services company, traditional capex is tiny (₹6-11 crore a year, no factories needed), so nearly all operating cash converts to free cash. But that clean picture comes with a caveat: the real spending was on acquisitions, over ₹1,000 crore in FY24-25 combined, funded by debt, not from operating cash. So the company generates real cash from operations and then borrows far more than that to buy other companies. The engine produces cash. Management reinvests it, and then some, into growth by acquisition.",
+
+  "growth": [
+    { "label": "Sales CAGR (5Y)", "value": "25%", "tone": "good" },
+    { "label": "Sales CAGR (3Y)", "value": "17%", "tone": "good" },
+    { "label": "Profit CAGR (5Y)", "value": "7%", "tone": "warn", "hint": "revenue 25%, profit 7%; the acquisitions took the difference" },
+    { "label": "Profit CAGR (3Y)", "value": "-1%", "tone": "bad", "hint": "profit has not grown in three years" },
+    { "label": "Profit growth (TTM)", "value": "18%", "tone": "good", "hint": "recovery from FY25 dip" },
+    { "label": "Cash conversion (5Y)", "value": "103%", "tone": "good" }
+  ],
+
+  "management": "Ashok Soota is the gravitational center. He co-founded MindTree, left to start Happiest Minds at 68, and built it into a listed company. That personal credibility opened doors with clients and investors that a nameless startup could not. The concern is succession. Soota is now in his 80s and has sold down from about 53% to 44% over three years. The recent quarters show the holding has stabilised, but for a small IT company where the founder IS the brand, the question of what happens after him is not premature. The operating team has executed well on cash conversion and delivery. The strategic bet on debt-funded acquisitions is the bigger question mark: management chose to trade a pristine balance sheet for revenue, and whether that pays off is still an open verdict. The board includes experienced IT professionals, which is some comfort, but the stock's ongoing derating says the market is not yet reassured.",
+
+  "holding": [
+    { "label": "Promoter", "pct": 44.21, "qoqChange": 0.0 },
+    { "label": "FII", "pct": 6.00, "qoqChange": 0.06 },
+    { "label": "DII", "pct": 5.66, "qoqChange": -3.33 },
+    { "label": "Public", "pct": 42.89, "qoqChange": 3.36 },
+    { "label": "Other", "pct": 1.24, "qoqChange": -0.08 }
+  ],
+
+  "moat": {
+    "strength": "eroding",
+    "sources": [
+      "Born-digital positioning (now absorbed by larger competitors)",
+      "Founder's reputation and client relationships",
+      "Niche capabilities in IoT and cybersecurity"
+    ],
+    "note": "Would a Fortune 500 CTO today choose Happiest Minds over Infosys specifically because Happiest Minds was 'born digital'? In 2015, the answer might have been yes. Digital was a niche most large IT firms had not committed to, and a small, focused company could win deals the giants did not know how to staff. Today, TCS, Infosys and Wipro each have digital practices employing tens of thousands of engineers. The specialty went mainstream. What remains is a small company with decent capabilities, some client relationships, and a founder's personal reputation. Those are real but fragile assets, not a moat in the structural sense. They do not stop a client from hiring someone else tomorrow.",
+    "label": "Eroding: born-digital edge absorbed by the industry"
+  },
+
+  "narrative": "Revenue compounded at 25% over five years, from ₹1,094 crore in FY22 to ₹2,315 crore in FY26. A significant chunk of that came from acquisitions: borrowings tripled from ₹250 crore to ₹1,494 crore. Profit tells a different story. It rose from ₹181 crore in FY22 to a peak of ₹248 crore in FY24, then dropped to ₹185 crore in FY25 (the year the big acquisition landed) and recovered partially to ₹213 crore in FY26. EPS peaked at ₹16.31 two years ago and sits at ₹13.96 today, still below that mark. The stock tracked the profit, not the revenue. It peaked near ₹900 in 2022, touched ₹583 a year ago, and sits at ₹340. A shareholder who bought at IPO around ₹166 in September 2020 has doubled. One who bought at the peak has lost more than 60%.",
+
+  "risks": [
+    "No structural moat. Born digital was timing, not switching costs or IP. Every major IT firm now does digital. The positioning advantage is spent. High.",
+    "Founder succession. Ashok Soota is in his 80s and has sold 9 percentage points of his stake. The company's brand, credibility and key client relationships are closely tied to him. Medium to High.",
+    "Acquisition integration. Over ₹1,400 crore deployed on M&A, margins compressed from 25% to 17%, and profit fell even as revenue grew. If synergies do not materialise, the debt stays and margins do not recover. High.",
+    "Client concentration. A company this small cannot absorb the loss of a top-3 client. One large engagement ending could dent earnings materially. Medium.",
+    "Balance sheet leverage. ₹1,494 crore of debt and ₹97 crore per year in interest are a fixed charge that turns any revenue slowdown into a sharper profit problem. Medium.",
+    "Valuation still rich. 23.6 times earnings for 7% profit growth and falling ROCE is above where undifferentiated mid-tier IT typically trades (15-20x). Further derating possible. Medium."
+  ],
+
+  "trapChecklist": [
+    { "label": "Promoter holding steady", "status": "fail", "note": "Down from ~53% to 44% over three years; stable recently but the cumulative decline is real" },
+    { "label": "Debt and leverage", "status": "warn", "note": "₹1,494cr borrowings, D/E 0.88; highly unusual for IT services" },
+    { "label": "Cash conversion", "status": "pass", "note": "103% of net profit became operating cash over five years; FCF positive every year" },
+    { "label": "Revenue vs profit gap", "status": "warn", "note": "Revenue 25% 5Y CAGR, profit 7%; acquisitions added top line but compressed bottom line" },
+    { "label": "Other income dependence", "status": "warn", "note": "Other income about 30% of PBT at the median; quality depends on recurring vs one-off" },
+    { "label": "Margin trajectory", "status": "warn", "note": "OPM compressed from 25% to 17% in three years; not yet recovering" }
+  ],
+
+  "sectorChecklist": [
+    { "label": "Scale competitiveness", "status": "warn", "note": "₹2,300cr revenue competing against firms doing 50-100x more for the same digital deals" },
+    { "label": "Client concentration risk", "status": "warn", "note": "Small IT company; loss of a single large account would be felt sharply in the numbers" },
+    { "label": "Margin sustainability", "status": "warn", "note": "OPM at 17%, down from 25%, with ₹97cr/year interest as a fixed drag on profit" },
+    { "label": "Cash-flow quality", "status": "pass", "note": "103% conversion, FCF positive every year; the revenue is real money" },
+    { "label": "Differentiation", "status": "fail", "note": "Born-digital positioning absorbed by the entire industry; no structural edge remaining" }
+  ],
+
+  "summary": "Happiest Minds does real work and generates real cash. 103% conversion over five years is not something you can fake. The company has legitimate digital capabilities and a founder with a genuine track record. What it no longer has is the positioning edge that once justified a premium multiple. What it has added, ₹1,500 crore of acquisition debt and compressed margins, has not replaced it. At 23.6 times earnings for 7% profit growth, the price still has a story premium baked in. Read the moat section and decide whether you think that story returns. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+
+  "engine": {
+    "state": "multiple-drift",
+    "earnings": "The top line grows. Revenue compounded at 25% over five years, and 103% cash conversion confirms it is real money. But net profit has not grown in three years (3Y CAGR: -1%). Borrowings went from ₹250 crore to ₹1,494 crore, adding ₹97 crore a year in interest. Operating margins fell from 25% to 17%. The company traded a clean profit engine for a bigger but more diluted one. TTM profit growth is 18%, which looks encouraging, but it is a recovery from FY25's dip (₹185 crore), not a break to new highs. Profit is still below FY24's ₹248 crore.",
+    "multiple": "From roughly 80 times at IPO to about 50 at the 2022 peak to 23.6 today. The 1-year stock CAGR is -40%. At 23.6 times for a business with 7% five-year profit growth, 13% ROCE, and ₹1,500 crore of debt, the multiple still sits above where comparable mid-tier IT names trade. The derating may have further to run.",
+    "verdict": "My honest read: the operating cash is real, the revenue growth is real, and the business is not a fraud. At 24 times flat earnings with a leveraged balance sheet, though, you are paying for a recovery that has not happened yet. I would need margins back above 20% and profit growing faster than revenue before I called this cheap. I would be wrong if the acquisitions deliver synergies in the next year or two and profit catches up to where the top line says it should be."
+  },
+
+  "lenses": [
+    {
+      "name": "The specialty that went mainstream",
+      "reading": "In 2011, saying 'we only do digital' was genuinely different. Most Indian IT companies earned their bread from legacy outsourcing: maintaining old software, running data centres, testing code someone else wrote. Happiest Minds skipped all of that and built entirely around cloud, analytics, IoT and cybersecurity. Clients who wanted modern work, and did not want it mixed in with a legacy-heavy team, had a reason to pick this company. That edge lasted about a decade. By 2023, digital services were the fastest-growing segment at every large IT firm. TCS, Infosys and Wipro each have digital practices employing tens of thousands. The specialty went mainstream. A client who once chose Happiest Minds for its focus now has that focus available, at far greater scale, from the big firms. You can still prefer the small cafe, but you cannot charge a premium for being the only one that does specialty coffee."
+    },
+    {
+      "name": "Revenue grows, profit does not",
+      "reading": "Revenue compounded at 25% over five years. Profit compounded at 7%. Where did the difference go? Mostly into the cost of acquisition-led growth. Borrowings went from ₹250 crore to ₹1,494 crore, adding nearly ₹100 crore a year in interest that sits between operating profit and the shareholder. The acquired businesses came with lower margins, which dragged OPM from 25% to 17%. The company bought revenue and paid for it with debt, margin and balance-sheet quality. That trade can work if the acquired businesses eventually lift their margins to match the parent. It fails if they do not. Three years in, margins are still at 17%, and profit has not caught up to where revenue says it should be."
+    },
+    {
+      "name": "The founder is the brand",
+      "reading": "Ashok Soota co-founded MindTree in 1999, grew it into a respected mid-tier IT firm, then left at 68 to do it again with Happiest Minds. That track record brought the company its early clients, its IPO, and its premium multiple. The brand and the man were hard to separate. Now he is in his 80s and has sold 9 percentage points of his stake over three years. The holding has stabilised recently, but the direction is clear. For a small IT company, losing the founder is not an abstraction. It changes client conversations, board dynamics, and the ability to attract talent who want to work for a known name. The question is not whether Soota will eventually step back. It is whether the company can stand on its own institutional strength when he does. The stock's derating suggests the market is not yet confident."
+    }
+  ]
+}

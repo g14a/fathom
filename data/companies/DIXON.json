@@ -1,0 +1,254 @@
+{
+  "ticker": "DIXON",
+  "company": "Dixon Technologies (India) Ltd",
+  "sector": "Consumer Discretionary",
+  "industry": "EMS / Electronics Manufacturing",
+  "sectorId": "consumer-electronics",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-09-11",
+  "oneLiner": "India's biggest contract electronics factory, where brands bring the design and Dixon does the assembly. Profit compounded 35% a year for a decade on pure volume, and the stock actually got cheaper recently because earnings outran the share price. At 3.8% operating margins, you are betting the orders never stop.",
+
+  "facts": {
+    "snapshot": "Dixon Technologies is India's largest electronics manufacturing services (EMS) company. It assembles TVs, mobile phones, LED lighting, washing machines, wearables and security cameras for brands including Samsung, Xiaomi, Motorola and Philips. It does not own the brands or the product designs; it provides the factory floor.",
+    "founded": "1993",
+    "hq": "Noida"
+  },
+
+  "verdict": {
+    "rows": [
+      { "label": "Business model", "value": "Contract assembler: high volume, thin margin", "tone": "warn" },
+      { "label": "Growth", "value": "35% profit CAGR (5Y), 50% revenue CAGR", "tone": "good" },
+      { "label": "Operating margin", "value": "3.8%, flat for a decade", "tone": "warn" },
+      { "label": "Other income", "value": "₹731cr in FY26 (PLI subsidies)", "tone": "warn" },
+      { "label": "Promoter holding", "value": "28.6%, down 3.7pp in 15 months", "tone": "warn" },
+      { "label": "Valuation", "value": "45.7x earnings, 9% below median PE", "tone": "neutral" }
+    ],
+    "keyQuestion": "Revenue went from ₹3,000 crore to ₹49,000 crore in seven years. The question: can a contract assembler ever earn more than 3-4 rupees of operating profit per ₹100 of revenue, or are thin margins the permanent price of not owning the brand?"
+  },
+
+  "overview": "Dixon Technologies runs the kitchen, not the restaurant. When Samsung needs a TV assembled in India, or Xiaomi needs a phone put together, or Motorola wants its handsets manufactured locally, Dixon provides the factory floor, the workforce, the supply chain, and the quality control. The brand owns the recipe: the design, the components, the customer. Dixon owns the pots and the cooks. It is India's largest EMS company, the largest contract electronics kitchen in the country. Revenue has gone from about ₹3,000 crore to nearly ₹49,000 crore in seven years. That growth is staggering and real. The tension is in what Dixon keeps from each order: operating margins have sat between 3.5% and 4.5% for a decade, whether revenue was ₹3,000 crore or ₹49,000 crore.",
+
+  "editorial": {
+    "realBusiness": "Dixon is a contract manufacturer that earns a thin per-unit fee for assembling electronics. It keeps no brand ownership and depends on volume growth and government PLI incentives for profit growth.",
+    "whyExists": "Global electronics brands need Indian manufacturing. The government demands it through import duties, and rewards it through PLI (Production Linked Incentive) subsidies. The China+1 supply chain shift is pushing even more orders toward India. But building a factory from scratch is slow and expensive, and a brand trusts you with millions of handsets only after years of proving you can deliver them on time and on spec. Dixon exists to be the reliable kitchen that brands do not have to build themselves. It has been doing this for 30 years, which is why Samsung, Xiaomi and Motorola use its floor.",
+    "whyNotAlreadyWon": "Because EMS is a scale-and-trust business, and both take time. Dixon has a three-decade head start, the largest installed capacity in Indian EMS, and live relationships with most major brands. A new entrant can build a factory, but it cannot overnight win Samsung's order book. That said, the barrier is operational competence, not a legal lock. There is no patent, no network effect, no switching cost that prevents a brand from moving its orders if a cheaper or better assembler shows up. Foxconn's expansion in India is the proof that this door is not sealed shut.",
+    "whyNow": "The stock is down about 22% from its peak, and the PE has compressed from well over 100x to about 46x. That happened not because the business deteriorated but because earnings tripled while the stock fell. The market is rethinking how much to pay per rupee of Dixon's profit. Part of the doubt is the other income: ₹731 crore in FY26 (likely PLI subsidies) that flatters the bottom line but is policy-dependent and time-bound. Part is promoters selling steadily, their stake dropping from 32% to 28.5% in 15 months. And part is the market accepting that 3.8% operating margins may be permanent for a contract assembler.",
+    "remember": "The kitchen is busy. The question is whether it will ever earn more per plate.",
+
+    "economicEngine": [
+      { "label": "Demand", "value": "India's electronics import substitution", "note": "Government duties and PLI incentives push brands to manufacture in India. China+1 adds a global tailwind." },
+      { "label": "Revenue", "value": "Units assembled x fee per unit", "note": "Revenue scales with volume. The fee per unit is set by the brand, not by Dixon." },
+      { "label": "Margins", "value": "3.5-4.5% operating", "note": "Thin and stable. The assembler earns a per-unit fee, not a brand premium." },
+      { "label": "Capital", "value": "Factories and working capital", "note": "Capex is heavy and rising. The negative cash conversion cycle is a strength: Dixon collects before paying suppliers." },
+      { "label": "Returns", "value": "29% ROCE on high asset turnover", "note": "Thin margins multiplied by fast capital turns produce respectable returns." }
+    ],
+    "mentalModels": [
+      { "model": "Scale", "assessment": "Strong", "assessmentTone": "good", "why": "India's largest EMS player. Three decades of capacity, relationships with every major brand, and a track record of delivering millions of units. Scale is the primary competitive advantage in contract manufacturing." },
+      { "model": "Margin quality", "assessment": "Thin and flat", "assessmentTone": "warn", "why": "Operating margins have been 3.5-4.5% for a decade, regardless of revenue scale. Dixon does not own the brand or the design, so it has no lever to charge more per unit assembled." },
+      { "model": "Policy dependence", "assessment": "High", "assessmentTone": "warn", "why": "Other income was ₹731 crore in FY26, roughly 40% of operating profit. This is likely PLI subsidies, which are government policy, time-bound, and could shrink or end." },
+      { "model": "Cash generation", "assessment": "Good", "assessmentTone": "good", "why": "122% of profit became operating cash over five years. Negative cash conversion cycle means Dixon gets paid before paying suppliers." },
+      { "model": "Promoter alignment", "assessment": "Declining", "assessmentTone": "warn", "why": "The founding family's stake dropped from 32.3% to 28.6% in 15 months. This is steady selling, not a one-time block deal." }
+    ],
+    "sectorModels": [
+      { "model": "Industry structure", "reading": "Fragmented but consolidating", "note": "A few large players (Dixon, Amber, Kaynes) and many smaller ones. Brands prefer proven, scaled manufacturers." },
+      { "model": "Pricing power", "reading": "Weak", "note": "The brand sets the terms. Dixon competes on cost, capacity and delivery, not on price." },
+      { "model": "Demand driver", "reading": "Policy and structural", "note": "Import duties, PLI incentives and China+1 all push manufacturing to India." },
+      { "model": "Cash conversion", "reading": "Strong", "note": "Negative working capital cycle, 122% cash conversion over five years." },
+      { "model": "Balance sheet", "reading": "Manageable", "note": "D/E about 0.2x. Borrowings are rising but modest relative to equity." }
+    ],
+    "strategicPosition": [
+      { "label": "Global EMS giants (Foxconn, Flex)", "description": "Global scale, decades of Apple and Samsung experience, deep pockets. The long-term competitive threat.", "tone": "strong" },
+      { "label": "Dixon Technologies", "description": "India's largest domestic EMS player: scale, brand trust, PLI beneficiary, multi-category breadth.", "tone": "focus" },
+      { "label": "Smaller Indian EMS players", "description": "Less scale, fewer brand relationships, still building capacity and credibility.", "tone": "weak" }
+    ],
+    "winningToday": [
+      "Revenue nearly quintupled in four years, from ₹10,697cr (FY22) to ₹48,873cr (FY26).",
+      "India's largest EMS company with active relationships across every major electronics brand.",
+      "122% cash conversion over five years, with a negative working capital cycle.",
+      "29% ROCE despite thin margins, driven by extremely high asset turnover."
+    ],
+    "stopWinning": [
+      "Operating margins stuck at 3.5-4.5% for a decade: scale has not expanded the margin.",
+      "PLI other income (₹731cr in FY26) is policy-dependent and will eventually expire.",
+      "Promoter stake down from 32.3% to 28.6% in 15 months.",
+      "No structural lock-in: a brand can move its assembly to another EMS provider."
+    ],
+    "marketBets": [
+      "India's electronics manufacturing keeps growing as import substitution deepens.",
+      "Dixon wins new product categories (laptops, servers, EV components) to keep the volume machine running.",
+      "PLI or similar government support continues beyond the current scheme.",
+      "Backward integration into components eventually pushes operating margins above 4%."
+    ]
+  },
+
+  "business": {
+    "unitOfRevenue": "One electronic product assembled and delivered to a brand. Dixon earns a per-unit manufacturing fee, which is a thin margin over the cost of components, labour and factory overhead. The more units it assembles, the more revenue it earns. But the margin on each unit is not Dixon's to set; the brand controls the spec and the price.",
+    "revenueModel": "A pure contract manufacturing model. Brands like Samsung and Xiaomi provide the product design and often the key components. Dixon provides the factory, the workforce, the supply chain and the quality assurance. It assembles the product, ships it to the brand, and earns a per-unit manufacturing fee. The company also benefits from government PLI subsidies, which show up as other income and have become a material contributor to the bottom line.",
+    "segments": [
+      { "name": "Mobile phones", "pct": 65, "marginProfile": "The largest and fastest-growing segment. Thin margins, massive volume. Assembles for Samsung, Xiaomi, Motorola and others." },
+      { "name": "Consumer electronics (TVs)", "pct": 15, "marginProfile": "The original business. Steady, moderate growth." },
+      { "name": "Home appliances", "pct": 10, "marginProfile": "Washing machines and small appliances. Growing segment with potential for higher-value assembly." },
+      { "name": "Lighting (LED)", "pct": 5, "marginProfile": "Mature segment, limited growth headroom." },
+      { "name": "Others (wearables, CCTV, etc.)", "pct": 5, "marginProfile": "Newer categories, small but expanding." }
+    ],
+    "revenuePerUnitTrend": "The segment splits above are approximate; Dixon does not disclose a clean revenue breakdown in this format. Mobile phones dominate and have grown fastest, driven by brands shifting manufacturing to India. Revenue per unit does not rise in any meaningful way over time. Dixon grows by assembling more units, not by charging more per unit. That is the defining feature of the EMS model.",
+    "industry": {
+      "structure": "A few large domestic players (Dixon is the biggest) alongside global EMS giants (Foxconn, Flex, Pegatron) expanding into India. The market is growing fast enough that most players are growing, but scale and brand trust matter because a botched production run is expensive.",
+      "competitors": "Foxconn and Flex globally. Amber Enterprises, Kaynes Technology and a tail of smaller contract manufacturers domestically. Dixon's edge is its breadth (TVs, phones, lighting, appliances) and its 30-year track record.",
+      "pricingPower": "Weak. The brand controls the spec and the price. Dixon competes on cost, capacity, speed and reliability. If another manufacturer can do it cheaper and on time, the brand can switch.",
+      "demandDriver": "Government policy (import duties on finished electronics, PLI incentives for domestic manufacturing) and the global China+1 supply chain shift. Both push brands to assemble in India rather than import.",
+      "driverType": "Policy-driven and structural. Import duties and PLI are government choices that could change. The China+1 shift is a longer-term global trend that is harder to reverse.",
+      "tam": "A large and rapidly growing domestic electronics manufacturing market. India still imports a heavy share of its electronics, so the headroom for domestic assembly is substantial.",
+      "penetration": "Growing from a low base. India's share of global electronics manufacturing is small but rising quickly, driven by policy and cost advantages.",
+      "valueChainPosition": "Dixon sits between the global brand (which owns the design and the customer) and the component suppliers (who make the chips, screens and circuits). It captures the assembly margin, which is the thinnest slice of the value chain. Moving into component manufacturing would shift it up the chain, but that has not happened yet at scale."
+    },
+    "qualityVerdict": "Dixon is well run for what it is: an efficiently operated contract kitchen. A 29% ROCE on 3.8% operating margins means the asset base turns over very fast. The negative cash conversion cycle (Dixon collects from brands before paying suppliers) is a sign of operational discipline. Cash conversion of 122% over five years means the reported profits are real money, not accounting. Management has scaled the business from ₹3,000 crore to ₹49,000 crore in seven years without blowing up the balance sheet, which takes genuine operational skill. The honest limit is that Dixon is still an assembler. It does not own brands, does not design products, and does not set prices. The quality of the operator is high. The quality of the business model has a ceiling."
+  },
+
+  "valuation": [
+    { "label": "Price", "value": "₹14,100" },
+    { "label": "Market Cap", "value": "₹86,251 cr" },
+    { "label": "52W High / Low", "value": "₹18,472 / 9,600" },
+    { "label": "Stock P/E", "value": "45.7", "tone": "warn", "hint": "computed price/EPS on TTM; printed 46.0; 9% below median PE of 50x" },
+    { "label": "P/B", "value": "18.3", "tone": "warn", "hint": "high, but ROCE is 29% on thin margins and fast turnover" },
+    { "label": "EPS (TTM)", "value": "₹308.83" },
+    { "label": "Book Value", "value": "₹769" },
+    { "label": "Dividend Yield", "value": "0.07%", "hint": "token payout; reinvesting for growth" }
+  ],
+
+  "financials": [
+    { "year": "FY22", "revenue": 10697, "netProfit": 190, "eps": 32.05, "patMargin": 1.8 },
+    { "year": "FY23", "revenue": 12192, "netProfit": 255, "eps": 42.90, "patMargin": 2.1 },
+    { "year": "FY24", "revenue": 17691, "netProfit": 375, "eps": 61.47, "patMargin": 2.1 },
+    { "year": "FY25", "revenue": 38860, "netProfit": 1233, "eps": 181.87, "patMargin": 3.2 },
+    { "year": "FY26", "revenue": 48873, "netProfit": 1644, "eps": 236.61, "patMargin": 3.4 }
+  ],
+
+  "ratios": [
+    { "label": "ROE", "value": "18.9%", "tone": "good", "hint": "5Y average 22%" },
+    { "label": "ROCE", "value": "29.2%", "tone": "good", "hint": "high for EMS, driven by fast asset turnover not fat margins" },
+    { "label": "Operating margin", "value": "3.8%", "tone": "warn", "hint": "structurally flat across a 16x increase in revenue" },
+    { "label": "D/E", "value": "0.21", "tone": "good", "hint": "borrowings ₹994cr on equity ~₹4,677cr" },
+    { "label": "Cash conversion (5Y)", "value": "122%", "tone": "good", "hint": "OCF / net profit" },
+    { "label": "Cash conversion cycle", "value": "-7 days", "tone": "good", "hint": "negative: collects before paying suppliers" }
+  ],
+
+  "cashFlow": [
+    { "year": "FY24", "ocf": 584, "capex": 568, "fcf": 16 },
+    { "year": "FY25", "ocf": 1150, "capex": 896, "fcf": 254 },
+    { "year": "FY26", "ocf": 1782, "capex": 1058, "fcf": 724 }
+  ],
+  "cashFlowNote": "The operating cash is real and growing fast: ₹584 crore in FY24, ₹1,150 crore in FY25, ₹1,782 crore in FY26. Over five years, about 122% of reported profit became operating cash. So the thin margins are thin but genuine, not a receivables game. The negative cash conversion cycle (about minus seven days) means Dixon collects from brands before paying its own suppliers, which is a genuine strength for a business moving this much material through its factories. The catch is on the investing side. Capex was ₹1,058 crore in FY26 and climbing, because each new product line needs a new factory floor. Free cash flow was ₹724 crore, healthy but thinner than operating cash alone suggests. And then there is a number worth staring at: ₹731 crore of other income in FY26, likely PLI subsidies. That is roughly 40% of operating profit, arriving as a government incentive, not as money earned by assembling one more phone. Strip it out and the bottom line looks quite different. The operating business converts cash well; the reported profit is flattered by policy.",
+
+  "growth": [
+    { "label": "Sales CAGR (5Y)", "value": "50%", "tone": "good" },
+    { "label": "Sales CAGR (3Y)", "value": "59%", "tone": "good" },
+    { "label": "Profit CAGR (5Y)", "value": "35%", "tone": "good" },
+    { "label": "Profit growth (TTM)", "value": "119%", "tone": "warn", "hint": "boosted by PLI other income and base effect" },
+    { "label": "Cash conversion (5Y)", "value": "122%", "tone": "good" }
+  ],
+
+  "management": "Dixon is led by Atul Lall, the Vice Chairman and Managing Director who has been the operational force behind the company's growth from a modest TV assembler to India's largest EMS player. The execution track record speaks for itself: scaling revenue from ₹3,000 crore to ₹49,000 crore in seven years while keeping the balance sheet clean takes real skill. The concern is the promoter stake. It dropped from about 32% to 28.5% in 15 months, a steady drip of selling across multiple quarters rather than a one-time block deal. For a business where management quality IS the competitive advantage, insider selling of this persistence is a signal worth watching. The other income (₹731 crore in FY26, likely PLI) is also a management dependency: securing and managing these incentives is a skill, but the income rests on government policy remaining friendly.",
+
+  "holding": [
+    { "label": "Promoter", "pct": 28.55, "qoqChange": -0.14 },
+    { "label": "FII", "pct": 17.87, "qoqChange": -0.43 },
+    { "label": "DII", "pct": 28.38, "qoqChange": 0.24 },
+    { "label": "Public", "pct": 25.20, "qoqChange": 0.33 }
+  ],
+
+  "moat": {
+    "strength": "narrow",
+    "sources": [
+      "India's largest EMS capacity with a 30-year track record of delivering at scale",
+      "Live manufacturing relationships with Samsung, Xiaomi, Motorola, Philips and others",
+      "Operational scale: negative cash conversion cycle and 29% ROCE on thin margins",
+      "Multi-category breadth (phones, TVs, appliances, lighting, wearables)"
+    ],
+    "note": "Dixon's moat is operational, not structural. There is no patent, no network effect, no regulatory lock that keeps competitors out. What it has is three decades of proving it can assemble millions of units on time and on budget. Brands do not switch contract manufacturers lightly, because the risk of a botched production run is high, and qualifying a new supplier takes months. But they can switch, and they will if a better option appears. Foxconn's expansion in India is the clearest proof that this door is open. The moat guards the current order book; it does not guarantee the next one.",
+    "label": "Narrow operational moat"
+  },
+
+  "narrative": "Dixon started as a small TV assembler in Noida in 1993 and stayed modest for two decades. Revenue was ₹1,201 crore in FY15, ₹2,984 crore in FY19. Then the inflection came. Government import duties and PLI incentives pushed global brands to assemble in India, and Dixon caught the wave. Revenue doubled to ₹6,448 crore in FY21, doubled again past ₹12,000 crore in FY23, then more than doubled to ₹38,860 crore in FY25 as mobile phone volumes exploded. By FY26 it reached ₹48,873 crore. Profit tells a similar story: ₹120 crore in FY20, ₹375 crore in FY24, ₹1,644 crore in FY26, a 14-fold increase in six years. The stock followed, rising from about ₹2,500 in early 2020 to over ₹18,000 at the peak. Then it corrected, falling about 22% from the high to ₹14,100, even as earnings continued to surge. That is how the PE compressed from well over 100x to about 46x: the business outran the stock.",
+
+  "risks": [
+    "Margin ceiling. Operating margins have been 3.5-4.5% for a decade, regardless of scale. If the assembler cannot charge more per plate, growth depends entirely on ever-larger volumes. High, because it is structural.",
+    "PLI dependence. Other income was ₹731cr in FY26 and ₹1,263cr TTM, likely PLI subsidies. These are government policy, time-bound, and could shrink or end. A third of the bottom line rests on political goodwill. High.",
+    "Promoter selling. The founding family's stake dropped from 32.3% to 28.6% in 15 months. Steady selling from the people who know the business best. Medium to High.",
+    "Brand concentration. A handful of brands generate the bulk of revenue. Losing one major customer would be a sharp, immediate hit to the factory utilisation. Medium.",
+    "Global EMS competition. Foxconn, Flex and Pegatron are expanding in India with deeper pockets and decades of global experience. If they win brand relationships, Dixon loses orders. Medium.",
+    "Capex treadmill. Each new product line requires fresh factory investment. Capex was ₹1,058cr in FY26 and rising. If growth slows, the invested capital sits idle. Medium."
+  ],
+
+  "trapChecklist": [
+    { "label": "Promoter holding steady", "note": "Down from 32.3% to 28.6% in 15 months; continuous quarterly selling", "status": "fail" },
+    { "label": "Debt and leverage", "note": "D/E 0.21, borrowings ₹994cr on equity ~₹4,677cr; manageable", "status": "pass" },
+    { "label": "Cash conversion", "note": "122% over five years; negative cash conversion cycle; the margins are thin but the cash is real", "status": "pass" },
+    { "label": "Other income quality", "note": "₹731cr in FY26, likely PLI; ~40% of operating profit is policy-dependent", "status": "warn" },
+    { "label": "Operating margin trend", "note": "3.5-4.5% for a decade; scale has not expanded it", "status": "warn" },
+    { "label": "Earnings quality", "note": "Operating cash is clean and real; bottom line is boosted by PLI subsidies", "status": "warn" }
+  ],
+
+  "sectorChecklist": [
+    { "label": "Volume growth", "note": "Revenue CAGR 50% (5Y); driven by mobile phone assembly ramp and China+1 tailwind", "status": "pass" },
+    { "label": "Operating margin", "note": "3.8%, structurally flat; EMS is thin-margin by nature, and scale has not changed that", "status": "warn" },
+    { "label": "Cash flow quality", "note": "122% cash conversion, negative working capital cycle, FCF positive in FY26", "status": "pass" },
+    { "label": "Customer diversification", "note": "Samsung, Xiaomi, Motorola, Philips and others; concentrated but not single-brand", "status": "pass" },
+    { "label": "Policy dependence", "note": "PLI subsidies are a material contributor to profit; government policy risk", "status": "warn" }
+  ],
+
+  "summary": "Dixon is India's largest contract electronics manufacturer, growing at a pace that is hard to argue with (revenue quintupled in four years) and earning real cash (122% conversion over five years). The honest caveats: operating margins are stuck near 3.8% after a decade, a meaningful chunk of profit comes from government PLI subsidies, and the founding family has been steadily selling its stake. At 46 times earnings you are paying for the volume machine to keep running, and the margin on each unit to at least hold. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+
+  "engine": {
+    "state": "earnings-engine",
+    "earnings": "The earnings engine is firing hard. Profit has compounded at 35% a year for five years and 42% for eleven, and 122% of that profit became operating cash. The volume growth is real, the factories are busy, and the cash register rings. The important nuance is what is inside that profit number. In FY26, ₹731 crore of other income (likely PLI subsidies) sat alongside ₹1,873 crore of operating profit. Strip the PLI out, and the core earnings engine is still good but less spectacular than the headline suggests. The near-term question is not whether Dixon is growing (it is, unmistakably) but whether the earnings include a government subsidy that could shrink.",
+    "multiple": "The multiple has done the opposite of what momentum investors expected. At one point the stock traded above 100x earnings. Today it is about 46x, which is actually 9% below Dixon's own median PE of 50x. That compression happened because earnings tripled while the stock fell 22% over the past year. The 1-year multiple drift of negative 64% is one of the sharpest de-ratings in the market. The break-even exit multiple on 30% growth is about 37.5x, which gives only 18% cushion from the current 45.7x. So the market needs to keep paying a rich multiple just for you to break even. If it decides contract assemblers deserve 25-30x instead of 45x, the maths turns painful quickly.",
+    "verdict": "My honest read: Dixon is a real business with real growth, real cash, and real scale. I am not dismissing any of that. But 46 times earnings for a company that earns 3.8% operating margins and leans on PLI for a third of its bottom line is a price that demands perfection. The earnings engine has delivered, but the multiple engine is working against you, and at 18% cushion on the break-even exit multiple, there is very little room for disappointment. You are paying for the China+1 story to keep delivering, for PLI to continue, for new product lines to ramp, and for margins to at least hold. If all of that happens, 46x on these earnings may prove fair. If any piece stalls, the multiple has a long way to fall. I would be wrong if backward integration into components lifts operating margins above 5%, because that would make Dixon a genuinely different business than the one the market is pricing today."
+  },
+
+  "lenses": [
+    {
+      "name": "The kitchen gets paid per plate",
+      "reading": "Here is the thing to understand about Dixon's economics. It is a contract kitchen: brands bring the recipe, Dixon does the cooking. Each plate earns about 3.8 rupees of operating profit per ₹100 of revenue. That margin has not budged in a decade, through a 16-fold increase in revenue. Why? Because the brand owns the customer, the design and the pricing power. Dixon owns the floor space. In most businesses, scale improves margins. In contract manufacturing, scale improves the absolute rupees but not the percentage, because the assembler has no lever to charge more. Dixon's only path to fatter margins is backward integration, moving from assembling phones to making the components inside them. That shift has started but has not yet shown up in the numbers."
+    },
+    {
+      "name": "How much profit is government money?",
+      "reading": "This is the number most Dixon investors skip past. In FY26, other income was ₹731 crore. For context, operating profit was ₹1,873 crore. So the other income, most likely PLI subsidies, added roughly 40% to the operating base. In FY24, the same line was ₹32 crore. The jump to ₹731 crore is almost entirely the PLI scheme kicking in as Dixon's mobile phone volumes qualified for the incentive. PLI is a good thing; it exists to make Indian manufacturing viable, and Dixon earned it by building real capacity. But it is government policy, not business economics. It has a defined timeline, and there is no guarantee of extension. If you strip PLI from the FY26 numbers, the core net profit drops by roughly a third. At 46x headline earnings, you should know what share of those earnings depends on a political decision."
+    },
+    {
+      "name": "The stock got cheaper while the business got bigger",
+      "reading": "In most momentum stories, the stock runs ahead of the business. Dixon is the opposite. Over the past year, profit more than doubled while the stock fell 22%. The 1-year multiple drift is negative 64%, meaning the business grew its earnings so fast that the PE compressed dramatically. How can that happen? Because the market is repricing what it is willing to pay per rupee of an EMS company's profit. At one point, the euphoria around China+1 and PLI pushed Dixon above 100x earnings. Now, with the growth proven but the margins still thin, the market is settling on a lower multiple. That is not necessarily bad for a long-term holder, because it means the earnings have caught up to the price. But it does mean the easy money from PE expansion is probably done. From here, your return comes from earnings growth, not from the market paying more for each rupee."
+    }
+  ],
+
+  "outlook": {
+    "intro": "Dixon's forward story rests on three things: whether the volume machine keeps accelerating, whether PLI support continues, and whether backward integration shifts the margin structure.",
+    "areas": [
+      {
+        "title": "The volume engine",
+        "facts": [
+          "Revenue grew from ₹17,691cr (FY24) to ₹48,873cr (FY26), driven by the mobile phone assembly ramp.",
+          "Quarterly revenue hit ₹15,548cr in Jun 2026, the highest single quarter on record."
+        ],
+        "watch": "Whether Dixon wins new product categories (laptops, IT hardware, server assembly, EV electronics) to sustain revenue growth as the mobile phone ramp matures and base effects normalise."
+      },
+      {
+        "title": "PLI and government support",
+        "facts": [
+          "Other income was ₹731cr in FY26 and ₹1,263cr TTM, a material share of profit.",
+          "The current PLI scheme for mobile phones has a defined duration. A separate PLI for IT hardware is newer."
+        ],
+        "watch": "Whether the government extends, replaces, or lets the current PLI schemes expire. The gap between the headline profit and the ex-PLI profit is the measure of how much this matters."
+      },
+      {
+        "title": "The margin question",
+        "facts": [
+          "Operating margins have been 3.5-4.5% through a 16x revenue increase over a decade.",
+          "Dixon has been investing in backward integration: making PCBAs and sub-assemblies in-house rather than buying them."
+        ],
+        "watch": "Whether backward integration lifts operating margins sustainably above 4-5%. If it does, Dixon becomes a fundamentally better business. If it does not, the margin ceiling holds and the only growth lever is volume."
+      }
+    ],
+    "closer": "The next few quarters will show which way each of these breaks. The numbers to track: operating margin, the other-income line, and revenue from new product categories."
+  }
+}

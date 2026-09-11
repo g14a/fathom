@@ -1,0 +1,237 @@
+{
+  "ticker": "HESTERBIO",
+  "company": "Hester Biosciences Ltd",
+  "sector": "Healthcare",
+  "industry": "Animal Vaccines",
+  "sectorId": "pharma",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-09-11",
+  "oneLiner": "A niche animal vaccine maker that looks cheap at 14 times earnings, until you strip out one quarter's windfall other income and find you are actually paying 35 times for a business growing 9% a year.",
+  "facts": {
+    "snapshot": "Hester Biosciences manufactures vaccines for poultry and livestock, including PPR (peste des petits ruminants) and Goat Pox vaccines. It holds WHO prequalification for its PPR vaccine and is one of India's leading animal healthcare companies.",
+    "founded": "1987",
+    "hq": "Ahmedabad"
+  },
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Niche animal vaccine monopoly", "tone": "good" },
+      { "label": "Moat", "value": "WHO prequalification, regulatory licenses", "tone": "good" },
+      { "label": "Balance sheet", "value": "D/E 0.54, deleveraging", "tone": "warn" },
+      { "label": "Earnings quality", "value": "Other income inflates profit heavily", "tone": "bad" },
+      { "label": "Growth", "value": "Revenue 9% 5Y, new capacity just live", "tone": "warn" },
+      { "label": "Valuation", "value": "35x on operating earnings", "tone": "warn" }
+    ],
+    "keyQuestion": "A ₹183 crore facility just doubled the plant. If it fills, growth accelerates and 35 times starts to work. If it idles, you overpaid for a 9% grower with messy earnings and no institutional bid."
+  },
+  "overview": "Hester Biosciences makes vaccines for chickens, goats, and cattle. Think of it as the only licensed veterinary clinic in a growing farming district: every animal needs its shots, and Hester is one of the very few makers with the regulatory stamps to produce and sell them. Its signature product is the PPR vaccine (peste des petits ruminants, a devastating goat and sheep disease), for which it holds WHO prequalification, placing it in a tiny global club. Revenue was ₹333 crore in FY26, up from ₹235 crore four years ago, a steady 9% annual clip. In FY26 it nearly doubled its manufacturing footprint, commissioning ₹183 crore of capital works that had been under construction for years. The question is what happens next: does the new capacity fill and accelerate growth, or does the stock, already at 35 times operating earnings, get ahead of the business?",
+  "editorial": {
+    "realBusiness": "Hester manufactures and sells vaccines for poultry and livestock, operating in a niche where regulatory certifications and WHO prequalification are the real barriers to entry.",
+    "whyExists": "Vaccines for farm animals need regulatory approval in every country, cold-chain manufacturing, and quality certifications that take years to earn. Hester exists because it did that unglamorous work over three decades, building a licensed manufacturing base for poultry and livestock vaccines that very few companies in India can match. The WHO prequalification for PPR vaccine makes it eligible for international government vaccination tenders, a market most Indian animal pharma companies cannot even bid for.",
+    "whyNotAlreadyWon": "Animal vaccines are a regulatory game, not a chemistry game. The molecules are known, but making them at scale under WHO and national regulatory standards is expensive and slow to certify. Hester has been at it since 1987, and its PPR prequalification alone took years of inspections and upgrades. A rival with capital could eventually replicate the plant, but not the certifications, not quickly. The honest caveat is that the niche is small: India's organised animal vaccine market is not large enough to attract many determined entrants, which also means the growth ceiling may be lower than you hope.",
+    "mentalModels": [
+      { "model": "Regulatory moat", "assessment": "Strong", "why": "WHO prequalification and manufacturing licenses for animal vaccines are genuinely hard to replicate. Few Indian companies hold them." },
+      { "model": "Niche dominance", "assessment": "Strong", "why": "Leading position in PPR and Goat Pox vaccines in India, with very few competitors in this specific segment." },
+      { "model": "Cash generation", "assessment": "Strong", "why": "121% of profit became operating cash over five years. The earnings are real money." },
+      { "model": "Growth rate", "assessment": "Modest", "assessmentTone": "warn", "why": "Revenue has grown 9% a year over five years. Adequate, but not enough to justify 35 times earnings without acceleration." },
+      { "model": "Earnings transparency", "assessment": "Weak", "assessmentTone": "bad", "why": "Other income periodically inflates profit (33% of PBT at the median, 66% of TTM PBT), making the real trajectory of the vaccine business hard to read." },
+      { "model": "Institutional interest", "assessment": "Absent", "assessmentTone": "bad", "why": "Zero DII, negligible FII. The stock has no institutional floor beneath the price." }
+    ],
+    "economicEngine": [
+      { "label": "Demand", "value": "Livestock and poultry vaccination", "note": "Structural growth as protein consumption rises and government programs expand vaccination coverage across India." },
+      { "label": "Revenue", "value": "Vaccines sold x price per dose", "note": "Revenue grows with capacity, product range, and geographic reach. Has compounded at 9% over five years." },
+      { "label": "Margins", "value": "26% operating margin (FY26)", "note": "Recovered from 18% in FY24. Vaccine manufacturing carries decent margins when capacity is utilised." },
+      { "label": "Capital", "value": "Manufacturing plants", "note": "Capital-intensive. The ₹183 crore facility just commissioned nearly doubled the asset base." },
+      { "label": "Returns", "value": "ROCE 15%, ROE 16%", "note": "Adequate but not exceptional. Weighed down by the FY23-24 margin compression and capex-cycle debt." }
+    ],
+    "strategicPosition": [
+      { "label": "Global animal health majors (Zoetis, Boehringer)", "description": "Multinational companies with massive R&D and product portfolios in animal health", "tone": "strong" },
+      { "label": "Hester Biosciences", "description": "India's leading animal vaccine maker with WHO prequalification, dominant in PPR and Goat Pox", "tone": "focus" },
+      { "label": "Smaller Indian animal pharma companies", "description": "Smaller players without WHO prequalification or the regulatory depth to compete on tenders", "tone": "weak" }
+    ],
+    "winningToday": [
+      "A record FY26: revenue ₹333 crore and profit ₹57 crore, with operating margins back at 26%.",
+      "₹183 crore of new manufacturing capacity just commissioned, nearly doubling the plant.",
+      "Cash conversion 121% over five years, with free cash flow positive in FY24-26.",
+      "Borrowings falling from ₹274 crore peak to ₹195 crore. Working capital days improved from 80 to 54."
+    ],
+    "stopWinning": [
+      "Revenue grew only 9% a year over five years, modest for a stock priced at 35 times earnings.",
+      "Other income inflated TTM profit to ₹137 crore versus FY26 annual profit of ₹57 crore, making the PE unreadable.",
+      "Zero institutional ownership (DII 0%, FII 0.3%) means no floor of informed demand under the price.",
+      "If the new capacity takes years to fill, the capex drags returns without lifting revenue."
+    ],
+    "marketBets": [
+      "The new facility fills quickly, accelerating revenue growth from 9% to 15%+ for several years.",
+      "Government PPR eradication programs expand, creating steady demand for Hester's WHO-prequalified vaccine.",
+      "Institutional investors discover the stock as earnings clean up and the growth story becomes legible.",
+      "International tenders (enabled by WHO prequalification) become a meaningful revenue stream."
+    ],
+    "sectorModels": [
+      { "model": "Industry structure", "reading": "Concentrated niche", "note": "A small number of licensed manufacturers in Indian animal vaccines. Hester leads in PPR and Goat Pox." },
+      { "model": "Pricing power", "reading": "Moderate", "note": "Government tender pricing limits upside, but few prequalified suppliers creates a floor." },
+      { "model": "Demand driver", "reading": "Structural", "note": "Growing livestock population, rising protein consumption, expanding government vaccination programs." },
+      { "model": "Cash conversion", "reading": "Strong", "note": "121% of profit into operating cash over five years." },
+      { "model": "Balance sheet", "reading": "Moderate debt", "note": "D/E 0.54, deleveraging from a capex-cycle peak." }
+    ],
+    "whyNow": "The stock is up about 10% over the past year but trades at roughly 35 times FY26 earnings, near its historical median PE of 33. What makes it interesting now is timing: ₹183 crore of capital works was commissioned in FY26, nearly doubling the fixed asset base. If the new capacity fills, revenue and profit growth could accelerate well beyond 9%. The market is paying the median multiple, betting on neither a breakout nor a breakdown. The other income complication makes the headline numbers hard to read, which may keep institutional money away. Zero DII and FII below 1% for a WHO-prequalified monopoly is unusual, and probably reflects the small market cap, thin float, and earnings noise.",
+    "remember": "The PE that matters is 35 times, not 14. The 14 includes a quarter where other income was larger than operating profit."
+  },
+  "business": {
+    "unitOfRevenue": "One dose of animal vaccine, sold to poultry farms, livestock farmers, or government vaccination programs. The value depends on the vaccine type: poultry vaccines are cheap per dose but high volume, while livestock vaccines like PPR carry higher value, especially in international tenders backed by WHO prequalification.",
+    "revenueModel": "A vaccine manufacturer. Hester develops, produces, and sells animal vaccines from its own manufacturing plants. Poultry vaccines are the core, sold to farms and hatcheries. Livestock vaccines (PPR, Goat Pox, Brucella) serve both domestic and international markets, often through government vaccination campaigns. Revenue is a function of vaccine production capacity, product range, and regulatory approvals held.",
+    "segments": [
+      { "name": "Poultry vaccines", "pct": 55, "marginProfile": "The original business: high-volume, lower-value vaccines for the commercial poultry industry." },
+      { "name": "Livestock vaccines (PPR, Goat Pox, Brucella)", "pct": 30, "marginProfile": "Higher-value, WHO-prequalified vaccines for government and international tenders. The growth frontier." },
+      { "name": "Other animal health products", "pct": 15, "marginProfile": "Smaller portfolio of veterinary health products and supplements." }
+    ],
+    "revenuePerUnitTrend": "Segment splits are Fathom's approximation, not a precise company disclosure. Revenue has grown at about 9% a year over five years, driven by volume and product range more than pricing power. Operating margins compressed from 28-35% (before FY22) to 18-20% during FY23-24, then recovered to 26% in FY26 as the product mix improved and input costs eased. The newly commissioned facility could shift the mix toward higher-value livestock vaccines if international tender volumes grow.",
+    "industry": {
+      "structure": "A niche within healthcare. Organised animal vaccine manufacturing in India is a small, concentrated market with a few licensed players. Hester is the dominant name in PPR and Goat Pox.",
+      "competitors": "Indian Immunologicals (a government entity) is the main domestic competitor in livestock vaccines. In poultry, there are more players but Hester holds a leading share. Globally, large animal health companies like Zoetis and Boehringer Ingelheim operate at a different scale entirely.",
+      "pricingPower": "Moderate. Government tender pricing keeps margins in check for livestock vaccines, but the limited number of prequalified suppliers gives some pricing floor. Poultry vaccines face more competition on price.",
+      "demandDriver": "India's growing livestock population and government vaccination campaigns (PPR eradication programs). Poultry demand grows with protein consumption and commercial farming.",
+      "driverType": "Structural. As incomes rise, protein consumption grows, and governments vaccinate more animals. Not cyclical in the way commodities are.",
+      "tam": "India's animal healthcare market runs to several thousand crore and is growing, but the organised vaccine segment is a smaller slice within it.",
+      "penetration": "Low. A large share of Indian livestock is still unvaccinated. Government programs are expanding coverage, which is the structural tailwind.",
+      "valueChainPosition": "Hester manufactures the vaccine and sells it, capturing the full margin from production through distribution. It does not depend on third-party contract manufacturers for its core products."
+    },
+    "qualityVerdict": "Hester is a decent operator in a genuine niche. Margins have recovered from the FY23-24 trough to 26%, cash conversion is strong at 121% over five years, and borrowings are coming down. It is a real manufacturer, not asset-light, and the newly commissioned plant shows it is investing in growth. The limits are honest: revenue growth has been only 9% a year, institutional investors show almost no interest (zero DII, negligible FII), and the other income that periodically inflates earnings makes it harder to read the actual trajectory. Through a cycle, the operating returns are adequate (ROCE around 15%) without being exceptional."
+  },
+  "valuation": [
+    { "label": "Price", "value": "₹2,323" },
+    { "label": "Market Cap", "value": "₹1,987 cr" },
+    { "label": "52W High / Low", "value": "₹2,684 / 1,239" },
+    { "label": "Stock P/E", "value": "37.4", "tone": "warn", "hint": "on FY26 earnings; TTM PE of 14.5 is inflated by windfall other income" },
+    { "label": "P/B", "value": "5.5", "tone": "neutral" },
+    { "label": "EPS (TTM)", "value": "₹160.08", "tone": "warn", "hint": "inflated: ₹89 cr other income in Jun 2026 quarter" },
+    { "label": "Book Value", "value": "₹423" },
+    { "label": "Dividend Yield", "value": "0.47%", "hint": "payout ~20%" }
+  ],
+  "financials": [
+    { "year": "FY22", "revenue": 235, "netProfit": 39, "eps": 46.22, "patMargin": 16.6 },
+    { "year": "FY23", "revenue": 266, "netProfit": 28, "eps": 31.30, "patMargin": 10.5 },
+    { "year": "FY24", "revenue": 305, "netProfit": 21, "eps": 22.21, "patMargin": 6.9 },
+    { "year": "FY25", "revenue": 311, "netProfit": 29, "eps": 32.31, "patMargin": 9.3 },
+    { "year": "FY26", "revenue": 333, "netProfit": 57, "eps": 65.41, "patMargin": 17.1 }
+  ],
+  "ratios": [
+    { "label": "ROE", "value": "15.9%", "tone": "neutral", "hint": "3Y average ~11%" },
+    { "label": "ROCE", "value": "15.2%", "tone": "neutral", "hint": "improving from 9% in FY23-24" },
+    { "label": "Operating margin", "value": "26%", "tone": "good", "hint": "recovered from 18% in FY24" },
+    { "label": "D/E", "value": "0.54", "tone": "warn", "hint": "₹195 cr borrowings, down from ₹274 cr peak" },
+    { "label": "Cash conversion (5Y)", "value": "121%", "tone": "good", "hint": "OCF / profit" },
+    { "label": "Working capital days", "value": "54", "tone": "good", "hint": "improved from 80 days" }
+  ],
+  "cashFlow": [
+    { "year": "FY24", "ocf": 48, "capex": 24, "fcf": 24 },
+    { "year": "FY25", "ocf": 65, "capex": 21, "fcf": 44 },
+    { "year": "FY26", "ocf": 64, "capex": 17, "fcf": 47 }
+  ],
+  "cashFlowNote": "The cash conversion is the best number in the report. Over five years, 121% of net profit became operating cash, which means the reported earnings are real money, not accounting. Free cash flow was negative in FY22-23 because Hester was building a major new manufacturing facility (₹183 crore of capital works), but once that spend wound down, FCF turned positive and climbed to ₹47 crore in FY26. The new facility was fully commissioned in FY26, nearly doubling fixed assets from ₹233 crore to ₹411 crore. Capex should stay low for a while now, which means operating cash should flow to debt repayment and eventually to shareholders. One thing to note: during the build years, Hester may have capitalised interest costs, so the reported interest expense could understate the true borrowing burden. Watch whether interest charges rise in FY27 as capitalisation stops.",
+  "growth": [
+    { "label": "Sales CAGR (5Y)", "value": "9%", "tone": "neutral" },
+    { "label": "Sales CAGR (10Y)", "value": "13%", "tone": "good" },
+    { "label": "Profit CAGR (5Y)", "value": "8%", "tone": "neutral", "hint": "depressed by FY23-24 margin compression" },
+    { "label": "Profit growth (TTM)", "value": "41%", "tone": "warn", "hint": "flattered by windfall other income" },
+    { "label": "Cash conversion", "value": "121%", "tone": "good" }
+  ],
+  "management": "Hester is a promoter-led company, founded in 1987, with promoter holding steady at 53.7%. The holding has not budged in six quarters, so there is no self-dilution. The operating choices are sensible: borrowings have come down from a peak of ₹274 crore to ₹195 crore, working capital days have improved from 80 to 54, and the major capacity expansion was funded without diluting equity. What you notice is the near-total absence of institutional interest: FII holding is 0.3% and falling, DII is literally zero. For a company with WHO prequalification and a dominant position in a growing niche, that is surprising, and it probably reflects the small market cap, thin float, and earnings noise that makes it hard to model. Management deserves credit for the operating improvements but has not yet earned the market's institutional attention.",
+  "holding": [
+    { "label": "Promoter", "pct": 53.73, "qoqChange": 0.0 },
+    { "label": "FII", "pct": 0.31, "qoqChange": -0.07 },
+    { "label": "DII", "pct": 0.0, "qoqChange": 0.0 },
+    { "label": "Public", "pct": 45.95, "qoqChange": 0.07 }
+  ],
+  "moat": {
+    "strength": "narrow",
+    "sources": [
+      "WHO prequalification for PPR vaccine, held by very few manufacturers globally",
+      "Regulatory approvals and manufacturing licenses for animal vaccines that take years to earn",
+      "Three decades of specialised manufacturing experience in a niche segment",
+      "Established relationships with government vaccination programs domestically and internationally"
+    ],
+    "note": "The moat is real but narrow, and it is a moat of certification, not of chemistry. The vaccines themselves are known science; the barrier is the manufacturing license, the WHO stamp, and the cold-chain infrastructure needed to produce them at scale. A well-funded rival could eventually build a competing plant, but getting it certified and prequalified would take years and significant capital. The honest limit is that the moat protects a small market. India's organised animal vaccine industry is niche, and the growth comes from expanding vaccination coverage, which depends partly on government programs Hester does not control."
+  },
+  "narrative": "Hester has grown slowly but steadily. Revenue rose from ₹235 crore in FY22 to ₹333 crore in FY26, a 9% annual clip. Profit tells a more volatile story: ₹39 crore in FY22, down to ₹21 crore in FY24 as margins compressed from 16.6% to 6.9%, then back up to a record ₹57 crore in FY26 as margins recovered to 17.1%. Through all of this, the balance sheet improved. Borrowings fell from a ₹274 crore peak to ₹195 crore, working capital days dropped from 80 to 54, and free cash flow turned positive. The big event was the commissioning of ₹183 crore of manufacturing capacity in FY26, nearly doubling the plant. Then, in the June 2026 quarter, ₹89 crore of other income appeared, more than the quarter's operating profit of ₹23 crore. That one item took trailing twelve-month profit from ₹57 crore to ₹137 crore, and the PE from 35 to 14. The numbers changed. The business did not.",
+  "risks": [
+    "Other income distortion. ₹89 crore in one quarter, more than operating profit. If this was a one-time gain, trailing earnings will normalise and the PE will revert toward 35. If it keeps recurring, the nature of the income matters: interest on deposits is steady, a one-time asset sale is not. High.",
+    "Expensive on operating earnings. At 35 times FY26 profit, you need revenue growth to accelerate meaningfully from the 9% of the past five years. The new capacity could deliver that, or it could sit partly idle. Medium to High.",
+    "Debt and interest capitalisation. ₹195 crore of borrowings with D/E of 0.54. If interest was capitalised during construction, the true interest burden surfaces in FY27 as the facility enters service. Medium.",
+    "Government dependence. Livestock vaccination programs, especially PPR eradication, depend on government budgets and timelines. Delays or budget cuts slow the revenue ramp from the new capacity. Medium.",
+    "Institutional neglect. Zero DII and negligible FII means no institutional bid to support the price. Any selling pressure hits a thin float. Low to Medium."
+  ],
+  "trapChecklist": [
+    { "label": "Promoter holding steady", "note": "53.73%, unchanged in 6+ quarters; no dilution", "status": "pass" },
+    { "label": "Debt and leverage", "note": "D/E 0.54, borrowings ₹195 cr, declining from peak of ₹274 cr", "status": "warn" },
+    { "label": "Cash conversion", "note": "121% of profit became operating cash over five years; FCF positive FY24-26", "status": "pass" },
+    { "label": "Earnings quality", "note": "Other income 33% of PBT at the median, 66% of TTM; the Jun 2026 quarter inflates everything", "status": "fail" },
+    { "label": "Working capital", "note": "54 days, improved from 80; inventory days are high at 323 but typical for vaccine manufacturing with cold-chain storage", "status": "pass" },
+    { "label": "Institutional interest", "note": "Zero DII, FII below 0.5% and falling quarter on quarter", "status": "warn" }
+  ],
+  "sectorChecklist": [
+    { "label": "Regulatory moat", "note": "WHO prequalification for PPR; manufacturing licenses are hard to replicate quickly", "status": "pass" },
+    { "label": "Margin trajectory", "note": "Operating margin recovered from 18% to 26%; sustainable level depends on capacity utilisation", "status": "warn" },
+    { "label": "Balance sheet", "note": "Moderate debt (D/E 0.54), deleveraging; not debt-free but improving", "status": "warn" },
+    { "label": "Cash conversion", "note": "121% over five years; real cash from real earnings", "status": "pass" },
+    { "label": "Growth trajectory", "note": "Revenue 9% CAGR over 5 years; new capacity is the catalyst, but unproven", "status": "warn" }
+  ],
+  "summary": "Hester Biosciences is a genuine niche business: India's leading animal vaccine maker with rare WHO prequalification for PPR. The new capacity doubles the plant, and the cash conversion is strong. The honest problem is the price. Strip out the windfall and you are paying 35 times earnings for a business that has grown revenue at 9% a year. The new facility is the swing factor, and until it fills, the multiple is a bet on acceleration, not a reflection of what the business has already earned. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+  "engine": {
+    "state": "multiple-drift",
+    "earnings": "The earnings engine runs, but it runs modestly. Revenue has grown 9% a year over five years, profit has bounced between ₹21 crore and ₹57 crore, and operating margins have only just recovered to mid-cycle levels. The June 2026 quarter's ₹89 crore other income makes trailing earnings look three times larger than the actual business produces. On the operating business alone, this is a 9% grower earning ₹57 crore in a good year. The one thing that could meaningfully change the engine is the new facility, which nearly doubled the plant. If it fills, Hester could grow revenue at 15-20% for a few years. If it sits partly empty, 9% continues and you have overpaid.",
+    "multiple": "At roughly 35 times FY26 earnings, Hester trades near its historical median PE of 33. The multiple is not compressed; it is roughly where the market has always priced this business. The confusing part is the TTM PE of 14.5, which makes the stock look like a screaming bargain, but that number is a mirage created by the other income spike. Once you see through it, there is no multiple-expansion story here. You are paying a fair multiple for a business that needs to prove it can grow faster.",
+    "verdict": "My honest read: this is a real business in a real niche, and the moat is genuine. But at 35 times operating earnings, you are paying for the growth that the new capacity might deliver, not for the growth the business has already shown. If the facility fills and revenue accelerates to 15%+ for several years, this price works out fine. If growth stays at 9%, you have overpaid for a small, illiquid stock with no institutional backstop. I would be wrong if the capacity ramp is faster than I expect, or if WHO prequalification opens international tenders that meaningfully change the revenue base."
+  },
+  "lenses": [
+    {
+      "name": "The PE mirage",
+      "reading": "Two numbers claim to be Hester's PE, and they tell opposite stories. Screener prints 37.4, based on FY26 annual earnings of ₹57 crore. The TTM PE is 14.5, based on trailing earnings of ₹137 crore. The gap exists because the June 2026 quarter produced ₹89 crore of other income, more than the quarter's operating profit of ₹23 crore. If that income was a one-time windfall, it will not recur, the trailing earnings will normalise, and the PE will snap back above 35. If it does recur, you need to understand what it actually is, because a business that earns more from other income than from selling vaccines is a different animal than what the moat story describes. Until you know the source, the safe assumption is that the operating PE is the real one."
+    },
+    {
+      "name": "A capacity bet, not a value bet",
+      "reading": "Look at the balance sheet, not the PE. Fixed assets went from ₹233 crore in FY25 to ₹411 crore in FY26, and CWIP dropped from ₹183 crore to ₹9 crore. A major facility just went live. If you are buying Hester today, you are betting on what that facility does to revenue and profit over the next three to five years. If it fills, revenue could step up from ₹333 crore to something much larger, and the current PE starts looking reasonable. If it takes longer, or the demand for animal vaccines does not materialise fast enough, you have a ₹2,000 crore market cap company growing at 9% with moderate debt and no institutions willing to own it. This is not a value stock found cheap. It is a growth bet dressed as a small vaccine maker."
+    },
+    {
+      "name": "The loneliest stock on the market",
+      "reading": "Zero DII ownership. FII at 0.3% and shrinking quarter on quarter. It is hard to find another Indian company with WHO prequalification and a domestic monopoly in a growing niche that institutions refuse to touch. The likely reasons: thin float, small market cap, messy earnings from the other income noise, and a ticker that cannot absorb institutional-size positions without moving the price. That neglect is both the risk and the distant opportunity. If the capacity fills and the earnings clean up, institutional discovery could push the stock from 35 to 45 times or higher. If nothing changes, you hold an illiquid position with no floor of informed demand beneath it."
+    }
+  ],
+  "outlook": {
+    "intro": "Almost everything about Hester over the next few years comes down to one asset: the ₹183 crore facility that just went live.",
+    "areas": [
+      {
+        "title": "The new capacity",
+        "facts": [
+          "₹183 crore of CWIP commissioned in FY26, nearly doubling fixed assets from ₹233 crore to ₹411 crore.",
+          "Capex peaked in FY22-23 (investing outflows of ₹117 crore and ₹77 crore) and has since fallen to ₹18 crore."
+        ],
+        "watch": "How quickly the new capacity translates into revenue. If FY27 revenue steps up meaningfully from ₹333 crore, the bet is working."
+      },
+      {
+        "title": "Other income",
+        "facts": [
+          "Jun 2026 quarter: ₹89 crore other income, more than the quarter's operating profit of ₹23 crore.",
+          "Historically, other income has averaged about 33% of PBT."
+        ],
+        "watch": "Whether the Jun 2026 other income was a one-time event or the start of a recurring pattern. The annual report should disclose the source."
+      },
+      {
+        "title": "Debt trajectory",
+        "facts": [
+          "Borrowings down from ₹274 crore peak to ₹195 crore in FY26.",
+          "Interest may have been capitalised during construction; watch FY27 interest charges."
+        ],
+        "watch": "Whether borrowings continue falling now that heavy capex is done, and whether interest expense rises as capitalisation of interest stops."
+      }
+    ],
+    "loadingEngines": [
+      {
+        "name": "New manufacturing facility",
+        "whatItIs": "A major expansion that nearly doubled Hester's fixed asset base, adding capacity for animal vaccine production.",
+        "notYetInPnL": "Commissioned in FY26 but likely operated at low utilisation in its first year. The revenue and margin benefit should build over FY27-28 as production ramps.",
+        "whenItLands": "FY27-28"
+      }
+    ],
+    "closer": "The next two or three quarters should show whether the new capacity is filling or waiting."
+  }
+}
