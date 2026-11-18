@@ -510,6 +510,14 @@ section.block:first-of-type { border-top: none; }
 .cs-lesson-label { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.09em; color: var(--amber); font-weight: 600; }
 .cs-lesson p { color: var(--ink); font-size: 15.5px; line-height: 1.65; margin-top: 6px; max-width: 720px; }
 
+/* Latest-quarter note on a report */
+.latest-note { margin: 28px 0; padding: 20px 22px; background: var(--bg-card); border: 1px solid var(--border); border-top: 2px solid var(--accent-dim); border-radius: 12px; display: flex; flex-direction: column; gap: 12px; }
+.latest-note .ln-kicker { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.latest-note .ln-head { font-family: var(--serif); font-weight: 600; font-size: 21px; letter-spacing: -0.01em; text-wrap: balance; color: var(--ink); }
+.latest-note p { font-size: 16px; line-height: 1.7; color: var(--ink-dim); max-width: 700px; }
+.latest-note .ln-sources { font-family: var(--mono); font-size: 11px; color: var(--ink-faint); line-height: 1.6; }
+.latest-note .ln-sources a { color: var(--ink-dim); }
+
 /* End-of-chapter scorecard (case studies) */
 .csd-score { margin-top: 22px; padding: 14px 18px 6px; background: var(--bg-card); border: 1px solid var(--border); border-left: 3px solid var(--border-strong); border-radius: 0 10px 10px 0; max-width: 720px; }
 .csd-score-label { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.09em; color: var(--ink-faint); font-weight: 600; margin-bottom: 4px; }

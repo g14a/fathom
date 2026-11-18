@@ -514,6 +514,25 @@ function EditorialModel({ r }: { r: TickerReport }) {
 // report, so a reader reaches the conclusion before the essay. It rates the
 // business, not the trade, and carries no buy/sell call. Rendered only when the
 // report supplies a `verdict`.
+// Dated note on the latest quarterly results and news. Rendered only when the
+// report supplies `latest`.
+function LatestNote({ l }: { l: NonNullable<TickerReport['latest']> }) {
+  return (
+    <section className="latest-note">
+      <div className="ln-kicker">Latest quarter · {l.period} · reported {formatDate(l.published)}</div>
+      <h2 className="ln-head">{l.headline}</h2>
+      {l.body.map((p, i) => <p key={i}>{p}</p>)}
+      {l.figures && l.figures.length > 0 && <Metrics items={l.figures} />}
+      <div className="ln-sources">
+        Sources:{' '}
+        {l.sources.map((s, i) => (
+          <span key={i}>{i > 0 && ' · '}<a href={s.url} target="_blank" rel="noopener noreferrer">{s.label}</a></span>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function VerdictCard({ v }: { v: NonNullable<TickerReport['verdict']> }) {
   return (
     <div className="verdict-card">
@@ -609,6 +628,8 @@ export function Report({ r }: { r: TickerReport }) {
       <FactStrip r={r} />
 
       {r.verdict && <VerdictCard v={r.verdict} />}
+
+      {r.latest && <LatestNote l={r.latest} />}
 
       {r.isSample && (
         <div className="sample-banner">

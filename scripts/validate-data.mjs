@@ -42,6 +42,7 @@ const SCHEMAS = {
     optional: {
       slug: 'string',
       sectorId: 'string',
+      latest: 'object',
       isSample: 'boolean',
       verdict: 'object',
       facts: 'object',

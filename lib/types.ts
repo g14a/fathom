@@ -7,6 +7,16 @@ export type EngineState =
   | 'earnings-engine' | 'multiple-engine' | 'both-firing'
   | 'both-stalling' | 'multiple-drift';
 
+// A short dated note on the most recent quarterly results and news.
+export interface LatestUpdate {
+  period: string;      // e.g. "Q2 FY27 (Jul-Sep 2026)"
+  published: string;   // ISO date the results came out
+  headline: string;    // one plain line
+  body: string[];      // 2-4 short paragraphs
+  figures?: Metric[];
+  sources: { label: string; url: string }[];
+}
+
 export interface Metric {
   label: string;
   value: string;        // pre-formatted, verbatim from source
@@ -378,6 +388,7 @@ export interface TickerReport {
   sector: string;
   industry: string;
   sectorId?: string;   // links to /sectors/<id> explainer
+  latest?: LatestUpdate; // dated note on the latest quarter and news
   dataVariant: 'Consolidated' | 'Standalone';
   asOf: string;         // ISO date of the research run
   oneLiner: string;     // 1-sentence thesis

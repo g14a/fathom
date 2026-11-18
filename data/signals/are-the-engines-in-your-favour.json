@@ -848,7 +848,7 @@
    "heading": "What the exercise actually settles",
    "body": [
     "Notice what changed. You started by wanting 15% a year from a company that looked fundamentally strong. You did not end up with a forecast, and you did not end up with a verdict on whether 17.5 times is expensive. You ended up holding a specific claim, with a date, that somebody can be wrong about.",
-    "That claim is: Lupin must reach roughly ₹67,727 crore of revenue by 2031, on a 13.2% net margin, for you to earn 15% a year with the multiple unchanged. Every part of that is checkable. The revenue is reported quarterly. The margin is guided. The multiple you chose yourself.",
+    "That claim is: for you to earn 15% a year with the multiple unchanged, Lupin's profit must reach about ₹11,098 crore by 2031, and on a 13.2% net margin that means roughly ₹84,000 crore of revenue. Even the mildest row, the ten-year growth rate, asks for ₹67,727 crore of revenue and pays you only about 10% a year. Every part of that is checkable. The revenue is reported quarterly. The margin is guided. The multiple you chose yourself.",
     "And the four rows are not four scenarios of equal weight. Three of them are arithmetic performed on a base year that does not survive inspection, which is the same trap the compounded block sets earlier in this worksheet. The ten-year row is the only one measured from a year Lupin was operating normally, and it is the only one worth carrying forward."
    ]
   },
@@ -858,7 +858,7 @@
     "Everything above used trailing profit of ₹5,551 crore as the starting point. For most companies that is fine. Here it is the single most important assumption in the exercise, and it is probably wrong.",
     "Management has guided FY27 revenue, margin and tax rate. Put their own numbers through the profit and loss: roughly ₹29,000 to ₹30,000 crore of revenue at the guided 25% margin, less depreciation of around ₹1,850 crore and interest of around ₹450 crore, taxed at 27.5%. Read the 25% as the average for the whole year and profit lands near ₹3,700 crore. Read it as the level from here, with the June quarter keeping the 31.4% it actually earned, and it lands near ₹4,100 crore. Call it ₹3,900 crore. That is arithmetic on their guidance, not a forecast, and every assumption sits in those two sentences so you can change them.",
     "On ₹3,900 crore, the same ₹96,561 crore market value is 24.8 times earnings, not 17.5. The cheapest-looking number on the page was measuring a year that is ending.",
-    "Rerun step four with that base and the requirement changes completely. Holding today's multiple needs 30% a year rather than 15%. Even a re-rating up to 20 times needs 26% a year. The multiple was never the thing to argue about. The number underneath it was."
+    "Rerun step four with that base and the requirement changes completely. FY27's profit is a year away, so from ₹3,900 crore there are four years of growth left to 2031, not five. Exit at the same 17.5 times and profit has to grow about 30% a year over those four years, against 15% before. Even a re-rating up to 20 times needs about 26% a year. The multiple was never the thing to argue about. The number underneath it was."
    ]
   },
   {
@@ -909,7 +909,7 @@
   {
    "heading": "Reading the asymmetry",
    "body": [
-    "Move across any row and the return roughly doubles. Move down any column and it roughly doubles too. Neither engine dominates, which is what it looks like when a thesis needs both of them.",
+    "Move across any row, from a 12 times exit to 17.5 times, and the return gains seven to nine points a year. Move down any column and it loses roughly a point of return for every point of growth that goes missing. Neither engine dominates, which is what it looks like when a thesis needs both of them.",
     "Look at what the low starting multiple buys you. The worst cell is minus 7% a year, not minus 40%. A compressed multiple is a floor, not an engine.",
     "There is no cell on this table where the shareholder earns 15% a year simply because the stock looked cheap. The business still has to do the work."
    ]

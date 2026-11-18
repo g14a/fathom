@@ -1,0 +1,517 @@
+{
+  "ticker": "SOUTHBANK",
+  "company": "The South Indian Bank Ltd",
+  "sector": "Financials",
+  "industry": "Private Sector Bank",
+  "sectorId": "banks",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-09-21",
+  "oneLiner": "South Indian Bank has fixed the bad loans that nearly broke it. The harder, still-unanswered question is whether it has built a bank that can stay fixed and earn more than its book value.",
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Repaired regional bank", "tone": "warn" },
+      { "label": "Asset quality", "value": "Cleaned up hard", "tone": "good" },
+      { "label": "Lending spread", "value": "Thin and slipping", "tone": "warn" },
+      { "label": "Deposit franchise", "value": "Sticky Kerala, NRI money", "tone": "good" },
+      { "label": "Valuation", "value": "1.0x book, no premium", "tone": "good" }
+    ],
+    "keyQuestion": "The balance sheet is repaired. Still unproven is whether the bank underneath it can earn materially more than book value through a full credit cycle it has not yet met."
+  },
+  "facts": {
+    "snapshot": "South Indian Bank is an old private-sector bank based in Kerala. It takes deposits from savers (a large share of them Keralites working in the Gulf) and lends the money out to households, small businesses and companies, living on the gap between the two rates.",
+    "founded": "1929",
+    "hq": "Thrissur, Kerala"
+  },
+  "overview": "Start with what a bank actually is. It is a middleman for money. It takes in deposits from people who have spare cash, pays them a small rate, lends that same money out at a bigger rate, and keeps the gap. South Indian Bank has done this in Kerala since 1929, and for most of the last decade it did it badly. Too many of its corporate loans went sour, bad loans piled up, and in the pandemic year the bank barely made a profit at all. Then it changed. New management pointed the lending at safer, smaller, secured borrowers, chased down the bad loans, and rebuilt. The result is a bank that in FY26 posted its highest profit ever, with bad loans down from roughly one rupee in thirty to one in seventy in a single year. That is the balance sheet repaired. The harder question, the one this report keeps returning to, is whether the bank underneath it is structurally better or merely cleaner for now, because the market still pays only book value for it.",
+  "editorial": {
+    "realBusiness": "A regional deposit machine: low-cost, sticky Kerala and Gulf-remittance money, now lent out more carefully than it used to be.",
+    "whyExists": "Kerala runs on money sent home. Millions of Keralites work in the Gulf and remit savings to family, and that money needs somewhere safe to sit. South Indian Bank has spent nearly a century being that somewhere. Its branches, its name and its NRI (non-resident Indian) deposit relationships are woven into the state. That is why it can gather deposits at a reasonable cost without being a national giant: it owns a corner of the map that outsiders find expensive to enter.",
+    "whyNotAlreadyWon": "Because gathering cheap deposits is only half a bank, and for years South Indian Bank fumbled the other half: lending. It made big, lumpy corporate loans, and when those borrowers stopped paying, the bad-loan pile swallowed the profit. The repair since 2020 is real. Bad loans have more than halved in a year, and the loans it expects to actually lose are now almost nothing. But a clean book earned over three good years is not the same as a bank that structurally cannot make this mistake again. The deposit franchise was always the moat. Whether the lending discipline is now a permanent habit or a good patch is the open question.",
+    "mentalModels": [
+      {
+        "model": "Deposit franchise",
+        "assessment": "Strong",
+        "why": "A near-century-old brand in Kerala with sticky NRI remittance money. CASA (current and savings deposits, which generally cost the bank less than fixed deposits) is 32%, and total deposits grew 15% to ₹1.23 lakh cr. Low-cost, durable funding is the one thing here that rivals cannot quickly copy."
+      },
+      {
+        "model": "Lending spread (NIM)",
+        "assessment": "Weak",
+        "assessmentTone": "warn",
+        "why": "Net interest margin, the gap the bank keeps after paying depositors, is 2.95% and slipped from 3.21% a year ago. Top private banks run 3.5-4%. A thin spread caps how profitable this bank can ever be, however clean the book."
+      },
+      {
+        "model": "Asset quality discipline",
+        "assessment": "Much improved",
+        "assessmentTone": "good",
+        "why": "GNPA down to 1.43% from 3.20%, NNPA to 0.29%, provision cover above 79% even excluding write-offs. The cleanup is the whole investment case. Its durability is the whole risk."
+      },
+      {
+        "model": "Cost efficiency",
+        "assessment": "Mixed",
+        "assessmentTone": "warn",
+        "why": "Cost-to-income near 57%: it takes about ₹57 of running cost to earn ₹100 of income. Better than before, still heavy for a bank this size, and it eats into the already-thin spread."
+      },
+      {
+        "model": "Reliance on other income",
+        "assessment": "Watch",
+        "assessmentTone": "warn",
+        "why": "A large slice of pre-tax profit comes from fees, forex and treasury gains rather than clean lending margin. That income is real but lumpier and less repeatable than interest earned on a loan book."
+      },
+      {
+        "model": "Capital strength",
+        "assessment": "Strong",
+        "assessmentTone": "good",
+        "why": "Capital adequacy (CRAR) is 19.66%, well above the roughly 11.5% regulators demand. The bank has room to grow the loan book without begging shareholders for fresh money."
+      }
+    ],
+    "economicEngine": [
+      {
+        "label": "Deposits",
+        "value": "₹1.23 lakh cr, up 14.7%, CASA 32%",
+        "note": "The raw material. A third of it is lower-cost current and savings money, much of the rest term deposits and NRI remittances. Lower-cost deposits support a wider spread."
+      },
+      {
+        "label": "Advances (loans)",
+        "value": "₹1.01 lakh cr, up 15.7%",
+        "note": "The money put to work. The mix has shifted away from lumpy corporate loans toward retail, gold and small-business lending, cutting reliance on large single-borrower exposures."
+      },
+      {
+        "label": "Net interest margin",
+        "value": "2.95%",
+        "note": "The spread kept after paying depositors. This is the core profit engine, and at 2.95% it is thin. It slipped from 3.21% a year ago as deposit costs rose."
+      },
+      {
+        "label": "Bad-loan losses",
+        "value": "GNPA 1.43%, NNPA 0.29%",
+        "note": "What the engine leaks. This is the number that broke the bank in the past and the number that has been fixed. Every fall here drops straight to profit."
+      },
+      {
+        "label": "Net profit",
+        "value": "₹1,455 cr in FY26, a record, up 11.7%",
+        "note": "The output. Record profit, but growth is now normalising into the low teens as the easy gains from provision write-backs fade."
+      }
+    ],
+    "strategicPosition": [
+      {
+        "label": "Large private banks (HDFC, ICICI, Kotak, Axis)",
+        "description": "National scale, 40%+ CASA, 3.5-4% margins, lower cost of funds, deep technology. They can lend cheaper and still earn more. South Indian Bank cannot compete with these on price.",
+        "tone": "strong"
+      },
+      {
+        "label": "South Indian Bank",
+        "description": "A repaired regional bank with a strong Kerala and NRI deposit base, a now-clean book, but a thin spread and mid-tier returns. Wins on local roots, not on scale or margin.",
+        "tone": "focus"
+      },
+      {
+        "label": "Other old private and small-finance banks (Federal, CSB, Karur Vysya, DCB)",
+        "description": "Similar regional franchises, often with the same thin-margin, cleanup-story shape. Federal Bank is the bigger, better-run Kerala neighbour and the natural benchmark.",
+        "tone": "weak"
+      }
+    ],
+    "winningToday": [
+      "Asset quality has turned sharply: GNPA 1.43% from 3.20%, NNPA 0.29% from 0.92%, provision cover 94% including write-offs. The old wound has been cleaned up, though a full cycle has not yet tested whether it stays clean.",
+      "Deposits grew 14.7% and advances 15.7%, both double-digit, so the book is expanding, not just being cleaned.",
+      "The loan mix has shifted toward retail, agriculture, gold and small-business lending, cutting reliance on the large single-borrower corporate loans that caused the old blow-up.",
+      "Capital is comfortable at 19.66%, leaving room to grow without diluting shareholders.",
+      "Foreign institutional ownership rose from 12% to 25% over six quarters, while public shareholding fell."
+    ],
+    "stopWinning": [
+      "The lending spread is thin and slipping. If deposit costs keep rising faster than loan yields, the core engine weakens.",
+      "Cost-to-income near 57% is heavy. A regional bank without scale struggles to get this down, and it caps returns.",
+      "Return on equity is about 14%: respectable, but below the 16-18% that top private banks earn, and at around one times book the market is paying little for returns above that level.",
+      "A meaningful chunk of profit leans on fee, forex and treasury income rather than clean interest margin, and that income is lumpier.",
+      "The clean record is only three years old. One credit cycle has not been fully tested since the repair."
+    ],
+    "marketBets": [
+      "The bad loans stay low through a full credit cycle, proving the cleanup was structural and not just a good patch.",
+      "Return on equity drifts up from 14% toward 15-16% as the safer book seasons and costs are contained, which would justify a re-rating above book value.",
+      "Deposit costs stabilise so the 2.95% margin holds or widens rather than bleeding further.",
+      "The shift to retail and small-business lending keeps growing the book at low-teens rates without importing fresh bad loans.",
+      "The market eventually pays a small premium to book for a clean, growing regional bank, closing the gap to better-regarded peers like Federal Bank."
+    ],
+    "sectorModels": [
+      {
+        "model": "Cost of funds",
+        "reading": "Middling",
+        "note": "CASA at 32% is decent but well short of the 40%+ that big private banks enjoy, so deposits cost more here and the margin starts from behind."
+      },
+      {
+        "model": "Credit cycle",
+        "reading": "Favourable, unproven",
+        "note": "Bad loans are at a multi-year low and the cleanup is genuine, but this bank's discipline has not yet been tested by a real downturn."
+      },
+      {
+        "model": "Scale",
+        "reading": "Sub-scale",
+        "note": "At ₹1.4 lakh cr of assets it is a fraction of the national leaders. Scale drives down cost-to-income and cost of funds, and South Indian Bank has little of it."
+      },
+      {
+        "model": "Regulatory capital",
+        "reading": "Comfortable",
+        "note": "CRAR 19.66% is well above the minimum, so growth is funded from within and dilution risk is low."
+      }
+    ],
+    "whyNow": "For a decade the story was simple and grim: gather cheap Kerala deposits, lend them out clumsily, watch the bad loans eat the profit. That is why the stock spent years priced for a bank that could not make money. What changed is the bottom half of the sentence. Under new management the lending got disciplined, the bad loans were chased down to a fraction of their old level, and FY26 profit hit a record. The price has started to notice: the stock is up 62% in a year. But it still sits at almost exactly one times book value, and at that price the market assumes little improvement from here. So the question worth sitting with is whether you are buying the old, broken South Indian Bank at a fair price, or the new, repaired one before the market has re-rated it.",
+    "remember": "A bank is a deposit franchise plus a lending habit. South Indian Bank always had the franchise. Watch whether the new habit holds through one bad year."
+  },
+  "moneyFlow": {
+    "intro": "The middleman makes its money on a spread: take money in cheap, lend it out dearer, keep the difference. Here is that flow for every rupee.",
+    "steps": [
+      { "label": "Deposits taken in", "value": "₹1.23 lakh cr, cost a few percent" },
+      { "label": "Lent out as loans", "value": "₹1.01 lakh cr, earns more" },
+      { "label": "Minus loans that go bad", "value": "now only 0.29% net" },
+      { "label": "Net interest margin kept", "value": "2.95% of interest-earning assets" }
+    ],
+    "spread": "That 2.95% is the whole game. It is thin, so this bank has to lend a lot of rupees to earn a little, and it cannot afford many of them to go bad. The repair of the last three years was about protecting exactly this number."
+  },
+  "business": {
+    "unitOfRevenue": "For a bank, the number that tells you most is the net interest margin, or NIM: the gap left after it pays depositors, measured against everything it has lent. South Indian Bank's is 2.95%. That means for every ₹100 of interest-earning assets, the bank keeps about ₹2.95 of net interest income a year before running costs. Hold that one number in mind, because a thin margin is the ceiling on how good this bank can ever be, no matter how clean the loan book.",
+    "revenueModel": "The bank pays savers a few percent for their deposits, lends that money to households, small businesses and companies at a higher rate, and keeps the difference. Out of that difference come two subtractions: the cost of running the branches and staff (about ₹57 of every ₹100 of income), and money set aside for loans that go bad (now very little, because the book is clean). What is left is profit. On top of the lending, the bank earns fee, forex and treasury income, and that second stream is a bigger part of the profit here than it is at a cleaner-margin bank, which is both a help and a flag.",
+    "segments": [
+      {
+        "name": "Personal and retail (incl. gold loans)",
+        "pct": 38,
+        "marginProfile": "The growth engine of the new strategy. Smaller-ticket loans (home, vehicle, gold), mostly collateral-backed, spreading risk across many borrowers rather than a few large ones. Where management wants the book to grow fastest."
+      },
+      {
+        "name": "Corporate",
+        "pct": 29,
+        "marginProfile": "The old problem child, deliberately shrunk. Large, lumpy loans that caused the past bad-loan pile. Management has been cutting its share of the book to reduce single-borrower risk."
+      },
+      {
+        "name": "Agriculture",
+        "pct": 19,
+        "marginProfile": "Priority-sector lending, partly regulatory obligation. Includes gold-backed agri loans, which are well secured. Steady rather than exciting."
+      },
+      {
+        "name": "Business / MSME",
+        "pct": 14,
+        "marginProfile": "Small and medium enterprise loans, the segment management wants to grow more than 20% a year. Higher yield than corporate, but needs careful underwriting to stay clean."
+      }
+    ],
+    "revenuePerUnitTrend": "The margin on each rupee lent, that 2.95%, has been drifting the wrong way: it was 3.21% a year ago. The cause is deposit costs rising faster than loan yields as the whole banking system re-priced. It ticked up slightly quarter-on-quarter (from 2.86%), which is the hopeful sign, but the trend to watch is whether this bank can defend its spread or whether being sub-scale means it slowly loses the tug-of-war with bigger, cheaper rivals.",
+    "industry": {
+      "structure": "A consolidated oligopoly at the top, a long tail below. A handful of large private banks (HDFC, ICICI, Kotak, Axis) plus the state giant SBI dominate deposits and set the pace on cost and technology. South Indian Bank sits in the tail of old private and regional banks competing on local roots rather than scale.",
+      "competitors": "Federal Bank (the bigger, better-run Kerala neighbour and the natural benchmark), CSB Bank, Karur Vysya Bank, Karnataka Bank, DCB Bank, and the national private majors who increasingly reach into the south. Federal is the peer that shows what a well-run version of this same franchise can become.",
+      "pricingPower": "Low. A sub-scale bank with a thin margin is a price-taker on both deposits and loans. It cannot pay savers much less than rivals without losing them, nor charge borrowers much more without losing them to cheaper banks. Its edge is relationship and reach in Kerala, not pricing.",
+      "demandDriver": "Credit demand across households and small businesses, Kerala's economy, and Gulf remittance flows that feed the deposit base. Loan growth tracks nominal GDP and local economic activity.",
+      "driverType": "Cyclical with a steady deposit backbone. Loan growth and bad loans move with the economic cycle, but the NRI and CASA deposit base is stickier than most, which cushions the funding side.",
+      "tam": "Indian banking is a vast, growing market as credit deepens, but it is fiercely contested and the large players take the profitable share. South Indian Bank's realistic addressable market is its regional and NRI base plus selective retail and MSME lending, not the national corporate market it once over-reached into.",
+      "penetration": "Deep in Kerala, thin outside it. The bank has strong penetration of its home state and diaspora but limited presence in the fast-growing markets of north and west India, which caps its growth ceiling relative to national peers.",
+      "valueChainPosition": "A deposit-taking commercial bank: it funds itself from public deposits (cheaper than the bond-market funding an NBFC uses) and lends directly to borrowers. Its position is defined by owning a regional deposit franchise rather than by any lending edge."
+    },
+    "qualityVerdict": "Is it well run today? More than it used to be, and that is the point. The management that took over from 2020 did the hard, unglamorous work: shrink the risky corporate book, tilt toward secured retail and small-business loans, and grind the bad-loan ratio down to a clean 1.43%. Capital is strong, growth is back to double digits, and institutional ownership has risen steadily. But strip away the relief of a turnaround and you still have a sub-scale bank with a thin 2.95% margin, a heavy 57% cost base and a 14% return on equity, leaning more than most banks on non-lending income. It is a repaired bank, not yet a proven one. The operators have earned trust; the business model still sets a low ceiling on what that trust is worth until the economics improve."
+  },
+  "valuation": [
+    { "label": "Market Cap", "value": "₹12,172 cr" },
+    { "label": "Stock Price", "value": "₹46.4" },
+    { "label": "Book Value per Share", "value": "₹45.1" },
+    {
+      "label": "Price-to-Book",
+      "value": "1.03x",
+      "hint": "you pay almost exactly what the bank's net assets are worth; the price implies little value for returns above today's ~14%",
+      "tone": "good"
+    },
+    {
+      "label": "Stock P/E",
+      "value": "8.1x",
+      "hint": "low, but for a lender P/B is the truer gauge (P/E = P/B divided by ROE, so a low P/E can just reflect a decent ROE)",
+      "tone": "neutral"
+    },
+    { "label": "52W High / Low", "value": "₹49.9 / ₹28.5" },
+    { "label": "EPS (TTM)", "value": "₹5.77" },
+    {
+      "label": "ROE",
+      "value": "13.5%",
+      "hint": "decent, not elite; at 1x book the market prices in little improvement from here",
+      "tone": "neutral"
+    },
+    {
+      "label": "Dividend Yield",
+      "value": "0.97%",
+      "hint": "FY26 dividend of 45% on ₹1 face value",
+      "tone": "neutral"
+    }
+  ],
+  "financials": [
+    { "year": "FY22", "revenue": 6587, "netProfit": 45, "eps": 0.17, "patMargin": 0.7 },
+    { "year": "FY23", "revenue": 7233, "netProfit": 775, "eps": 2.96, "patMargin": 10.7 },
+    { "year": "FY24", "revenue": 8613, "netProfit": 1070, "eps": 4.09, "patMargin": 12.4 },
+    { "year": "FY25", "revenue": 9413, "netProfit": 1303, "eps": 4.98, "patMargin": 13.8 },
+    { "year": "FY26", "revenue": 9846, "netProfit": 1456, "eps": 5.56, "patMargin": 14.8 }
+  ],
+  "ratios": [
+    {
+      "label": "Net Interest Margin",
+      "value": "2.95%",
+      "hint": "the core spread; slipped from 3.21% a year ago, thin versus 3.5-4% at top private banks",
+      "tone": "warn"
+    },
+    {
+      "label": "CASA Ratio",
+      "value": "32.1%",
+      "hint": "current and savings deposits, which cost the bank less than fixed deposits; up from 31.4%, but below the 40%+ of big private banks",
+      "tone": "neutral"
+    },
+    {
+      "label": "Gross NPA",
+      "value": "1.43%",
+      "hint": "down hard from 3.20% a year ago; the heart of the turnaround",
+      "tone": "good"
+    },
+    {
+      "label": "Net NPA",
+      "value": "0.29%",
+      "hint": "from 0.92%; the loans it actually expects to lose are now near-negligible",
+      "tone": "good"
+    },
+    {
+      "label": "Provision Coverage",
+      "value": "94.1%",
+      "hint": "including write-offs; 79.9% even excluding them, a well-cushioned book",
+      "tone": "good"
+    },
+    {
+      "label": "Capital Adequacy (CRAR)",
+      "value": "19.66%",
+      "hint": "Basel III; comfortably above the ~11.5% regulatory floor",
+      "tone": "good"
+    },
+    {
+      "label": "Cost-to-Income",
+      "value": "~57%",
+      "hint": "₹57 of cost per ₹100 of income; improving but heavy for the sector",
+      "tone": "warn"
+    },
+    {
+      "label": "ROE",
+      "value": "13.5%",
+      "hint": "decent, not elite; top private banks earn 16-18%",
+      "tone": "neutral"
+    }
+  ],
+  "cashFlow": [
+    { "year": "FY24", "ocf": 7075 },
+    { "year": "FY25", "ocf": -2353 },
+    { "year": "FY26", "ocf": 3907 }
+  ],
+  "cashFlowNote": "Here is why a bank's cash-flow statement looks broken, and why you should mostly ignore it. For an ordinary company, operating cash flow tells you whether the profit is real. For a bank, the statement is largely the movement of the banking balance sheet itself. Taking in a wave of deposits makes operating cash flow look flush; pushing out a wave of loans makes it look drained. Neither move tells you the underlying business got better or worse; it just tells you the balance sheet grew. So judge South Indian Bank by the numbers that actually describe a bank: the size and growth of deposits and loans, the margin between them, how many loans go bad, and whether it holds enough capital. Those live in the other tables on this page, not in this one.",
+  "growth": [
+    {
+      "label": "Profit CAGR 5Y",
+      "value": "88%",
+      "hint": "flattered by a near-zero FY21 base; read it as recovery, not compounding",
+      "tone": "neutral"
+    },
+    {
+      "label": "Profit CAGR 3Y",
+      "value": "23%",
+      "hint": "the truer recovery rate, off the FY23 base",
+      "tone": "good"
+    },
+    {
+      "label": "Profit Growth FY26",
+      "value": "11.7%",
+      "hint": "a record profit, but growth is normalising into the low teens as provision write-backs fade",
+      "tone": "neutral"
+    },
+    {
+      "label": "Advances Growth",
+      "value": "15.7%",
+      "hint": "loan book to ₹1.01 lakh cr; healthy double-digit expansion",
+      "tone": "good"
+    },
+    {
+      "label": "Deposit Growth",
+      "value": "14.7%",
+      "hint": "to ₹1.23 lakh cr; the funding base is growing with the book",
+      "tone": "good"
+    },
+    {
+      "label": "Stock CAGR 1Y",
+      "value": "62%",
+      "hint": "the re-rating as the cleanup became undeniable",
+      "tone": "good"
+    },
+    {
+      "label": "Stock CAGR 5Y",
+      "value": "38%",
+      "hint": "strong, but measured from the depths of the bad-loan crisis",
+      "tone": "neutral"
+    }
+  ],
+  "management": "South Indian Bank has no promoter. It is a professionally run, widely held bank, which cuts both ways: no dominant owner to loot it, but also no deep-pocketed backer if it stumbles. The turnaround has two authors. Murali Ramakrishnan (ex-ICICI) took charge in 2020 and did the painful early cleanup, shrinking the risky corporate book and confronting the bad loans. P R Seshadri, who ran Karur Vysya Bank before this, took over as MD and CEO in late 2023 and has carried the discipline forward, growing the safer retail and small-business book. Both are career bankers, not promoters, and the board is RBI-approved. The reassurance is a credible, focused team with a visible plan. The watch-item is the flip side of no promoter: continuity rests on the board keeping good professionals in the seat, cycle after cycle.",
+  "holding": [
+    { "label": "FII", "pct": 25.39, "qoqChange": 1.18 },
+    { "label": "DII", "pct": 14.24, "qoqChange": 1.49 },
+    { "label": "Public", "pct": 60.36, "qoqChange": -2.67 }
+  ],
+  "pledged": 0,
+  "moat": {
+    "strength": "narrow",
+    "label": "Narrow deposit moat, no lending edge",
+    "sources": [
+      "A near-century-old brand in Kerala, woven into the state's banking habits since 1929.",
+      "A sticky NRI deposit base: Keralites working in the Gulf remit savings home, and those relationships are hard for an outsider to win.",
+      "Branch density and local relationships in its home region that a national bank would find expensive to replicate for the deposits it gathers.",
+      "A CASA base of 32% that gives it reasonably low-cost, durable funding without national scale."
+    ],
+    "note": "The moat is the deposit franchise, and it is narrow but genuine: a regional bank with sticky, low-cost Kerala and NRI money that rivals cannot easily poach. What the moat is not is a lending edge. On the asset side South Indian Bank is a price-taker with a thin 2.95% margin and mid-tier returns, and its recent success came from lending more carefully, not from any structural advantage in picking borrowers. So the honest caveat is this: the franchise protects the funding side, but nothing protects the margin. A bigger, cheaper rival can always undercut it, which is why a repaired South Indian Bank still earns only a middling return and still trades at around book. A moat on the funding side and none on the lending side is exactly the shape of a bank the market prices at its net assets and little more."
+  },
+  "narrative": "The shape of this story is a near-death and a recovery. Go back to FY21 and FY22: the bank made ₹62 cr and then ₹45 cr of profit, almost nothing for a balance sheet its size, because bad corporate loans were eating everything it earned. That was the bottom. From FY23 the repair shows up in the numbers with startling clarity: profit jumps to ₹775 cr, then ₹1,070 cr, ₹1,303 cr, and a record ₹1,456 cr in FY26. Underneath, the bad-loan ratio fell from the mid-single digits to well under 2%, and the loans it actually expects to lose shrank to a rounding error. The stock, left for dead, has roughly quadrupled from its lows and rose 62% in the past year alone as the recovery became undeniable. Over the same stretch, foreign institutional ownership climbed from 12% to 25% while public shareholding fell. The whole arc is a broken bank being fixed. What the narrative cannot yet tell you is the next chapter, because the fixed version has existed for only three years, and no bank's discipline is proven until a bad year tests it.",
+  "risks": [
+    "Margin erosion. NIM is already thin at 2.95% and slipping. If deposit costs keep rising faster than loan yields, the core profit engine weakens and returns fall below the level that justifies book value. High.",
+    "The cleanup proves cyclical, not structural. Bad loans are at a multi-year low partly because the economy has been benign. A genuine downturn would be the first real test of whether the new underwriting discipline holds. High.",
+    "Sub-scale disadvantage. Without the size of national banks, South Indian Bank pays more for deposits, spends more to run itself (57% cost-to-income), and cannot easily invest in technology at the pace leaders can. This is a permanent structural drag. Medium-High.",
+    "Reliance on non-lending income. A sizeable part of profit comes from fees, forex and treasury gains, which are lumpier and less repeatable than interest earned on loans. A weak year for these would dent profit more than at a cleaner-margin bank. Medium.",
+    "No promoter backstop. As a widely held bank, there is no controlling owner to inject capital or steady the ship in a crisis; continuity depends entirely on the board and RBI. Medium.",
+    "Concentration in Kerala. The regional franchise that is its strength is also a concentration: a shock to Kerala's economy or to Gulf remittance flows would hit both deposits and loan quality at once. Medium."
+  ],
+  "trapChecklist": [
+    {
+      "label": "Loan book spread across borrowers",
+      "status": "pass",
+      "note": "62% of advances are now non-corporate (retail, small business, agriculture, gold), cutting reliance on the large single-borrower corporate loans that caused the old blow-up."
+    },
+    {
+      "label": "Asset quality",
+      "status": "pass",
+      "note": "GNPA 1.43% from 3.20%, NNPA 0.29% from 0.92%, provision cover 79.9% excluding write-offs. The book is clean today; a full credit cycle has not yet tested whether it stays that way."
+    },
+    {
+      "label": "Profit quality",
+      "status": "warn",
+      "note": "A meaningful slice of pre-tax profit leans on fee, forex and treasury income rather than clean interest margin. Real, but lumpier."
+    },
+    {
+      "label": "Lending spread",
+      "status": "warn",
+      "note": "NIM 2.95% and slipping from 3.21%. Thin, and the trend is the wrong way despite a small quarterly uptick."
+    },
+    {
+      "label": "Return on equity",
+      "status": "warn",
+      "note": "About 14%: decent, not elite. At 1x book the market prices in little improvement from here."
+    },
+    {
+      "label": "Capital adequacy",
+      "status": "pass",
+      "note": "CRAR 19.66%, well above the regulatory floor. Growth is self-funded; dilution risk is low."
+    },
+    {
+      "label": "Deposit franchise",
+      "status": "pass",
+      "note": "CASA 32%, sticky Kerala and NRI money, deposits up 14.7%. The funding side is the real strength."
+    },
+    {
+      "label": "Length of clean record",
+      "status": "warn",
+      "note": "The repaired bank has existed for about three years. The discipline has not been tested by a full credit downturn."
+    },
+    {
+      "label": "Valuation stretched",
+      "status": "pass",
+      "note": "At 1.03x book the price is not the danger here. You are paying fair value for the assets, not a premium."
+    }
+  ],
+  "sectorChecklist": [
+    {
+      "label": "NIM trend",
+      "status": "warn",
+      "note": "2.95%, down from 3.21% a year ago. Thin and softening, the biggest fundamental concern."
+    },
+    {
+      "label": "CASA ratio",
+      "status": "warn",
+      "note": "32.1%, up slightly, but well below the 40%+ of top private banks. Cost of funds starts from behind."
+    },
+    {
+      "label": "Gross NPA",
+      "status": "pass",
+      "note": "1.43%, down sharply from 3.20%. A clean, much-improved book."
+    },
+    {
+      "label": "Net NPA",
+      "status": "pass",
+      "note": "0.29%, from 0.92%. The loans it actually expects to lose are now negligible."
+    },
+    {
+      "label": "Provision coverage",
+      "status": "pass",
+      "note": "79.9% excluding write-offs, 94.1% including them. Well cushioned against surprises."
+    },
+    {
+      "label": "Credit growth",
+      "status": "pass",
+      "note": "Advances up 15.7% to ₹1.01 lakh cr. Healthy double-digit growth alongside the cleanup."
+    },
+    {
+      "label": "Cost-to-income",
+      "status": "warn",
+      "note": "About 57%. Improving, but heavy for a bank this size, and it eats the thin margin."
+    },
+    {
+      "label": "Capital adequacy",
+      "status": "pass",
+      "note": "CRAR 19.66%, comfortably above the minimum. No capital constraint on growth."
+    }
+  ],
+  "summary": "To gather it up, split the story in two, because that is the whole point. First question: did management repair the balance sheet? Yes, and the evidence is not ambiguous. Bad loans crushed to a fraction of their old level, provision cover high, corporate exposure cut, capital strong, a record profit in FY26. Second question: has management built a structurally better bank? That one is still open. The margin is a thin 2.95%, the cost base is heavy, return on equity is about 14%, and the cleaned-up record is only three years old with no real downturn behind it. The deposit franchise, sticky Kerala and NRI money, was always the moat and is intact. What is unproven is the economics on top of it. At one times book the market assumes the bank roughly stays where it is: if the repair keeps compounding and returns drift toward 16%, the multiple can re-rate; if it does not, this is a mid-pack regional bank fairly priced at its net assets. My honest read: you are paying close to net asset value for a genuine repair whose durability is not yet proven, which is a fair price and not a steal. This is a report for information only and not an offer to buy or sell. Consult a SEBI-registered investment adviser for personal guidance.",
+  "engine": {
+    "state": "earnings-engine",
+    "earnings": "The earnings engine is the reliable one here. Book value compounds as the bank retains most of what it earns, and at a 14% return on equity with only a small dividend paid out, the equity grows in the low teens each year. Loans and deposits are both growing about 15%, so the base the profit sits on is expanding, not just being scrubbed clean. This is the engine you can actually count on: a regional bank quietly compounding its book at roughly its return on equity. The risk to it is the margin, because if the spread keeps slipping, that 14% return, and the compounding it drives, quietly erodes.",
+    "multiple": "The multiple engine is the opportunity, and the less certain one. The bank trades at 1.03 times book, which is what the market pays when it expects little improvement on today's returns. If the repaired bank proves it can earn 15-16% through a full cycle, that multiple could re-rate toward 1.3-1.5 times book. Federal Bank, the bigger Kerala neighbour, is a useful benchmark for how the market values a higher-return regional franchise, not a destination this one is bound to reach. And you should not assume the re-rating. It only happens if returns rise and the clean record survives a downturn, and a lot of the easy re-rating (the stock is already up 62% in a year) is behind you. Bank on the earnings engine; treat the multiple as a bonus you have to earn.",
+    "verdict": "So the two-engine read, and I will leave the conclusion where it honestly sits. The earnings engine is operating: a clean, growing book compounding at about 14%. The multiple engine depends entirely on proof, because at one times book you are not paying a premium for the new economics, but you only collect if they turn out to be durable. The earnings engine runs on a thin, slipping margin; the multiple engine fires only if the recovery holds through a cycle it has not yet faced. So this is a fairly priced repair, not a bargain hiding in plain sight, and what you are really buying is limited downside near net asset value plus an option on the economics improving. I would grow more confident the day the margin stops slipping and the return on equity prints a 15."
+  },
+  "lenses": [
+    {
+      "name": "The book that got cleaned",
+      "reading": "The entire investment case rests on one transformation: bad loans (GNPA) fell from 3.20% of the book a year ago to 1.43%, and the loans the bank actually expects to lose (NNPA) dropped to 0.29%, with provision cover near 80% even before write-offs. This is real and it is the reason the stock quadrupled off its lows. But read it with one eye on time. A book cleaned over three benign years is not the same as a bank that structurally cannot repeat its old mistakes. The old South Indian Bank also looked fine right up until its corporate loans turned. The number is excellent today. Its durability is the whole question, and it will only be answered by a bad year, which has not come yet."
+    },
+    {
+      "name": "The thin spread",
+      "reading": "This is the number that caps everything else. Net interest margin, the gap the bank keeps after paying depositors, is 2.95%, and it has slipped from 3.21% a year ago. Top private banks run 3.5-4%. That gap is the difference between a good bank and an ordinary one. A thin margin means South Indian Bank has to lend a great many rupees to earn a little, can afford very few of them to go bad, and struggles to cover a heavy 57% cost base. However clean the book gets, this margin caps the return on equity at around 14%, and at one times book little of any improvement is in the price. Watch this number above all others. If it keeps slipping, the whole thesis softens."
+    },
+    {
+      "name": "The Kerala deposit machine",
+      "reading": "The one durable edge is the funding side. For nearly a century South Indian Bank has gathered deposits from Keralites, including the large diaspora working in the Gulf who remit savings home, and those relationships are sticky in a way loans never are. CASA (current and savings deposits, which cost the bank less than fixed deposits) is 32%, and total deposits grew 15% to ₹1.23 lakh cr. This is the moat: a regional franchise that gives the bank reasonably low-cost, durable funding without national scale. It is why the bank survived its lending mistakes at all. But notice the asymmetry: the franchise protects what the bank pays for money, not what it earns on money. The deposit machine keeps it alive and regional. It cannot, on its own, make it exceptional."
+    },
+    {
+      "name": "Priced at book: what the number demands",
+      "reading": "At 1.03 times book value you are paying almost exactly what the bank's net assets are worth. Read that price plainly. At roughly 14% return on equity and one times book, the market is paying almost nothing for returns above today's level. That is a fair, unromantic verdict, and it means the stock can win in two ways. Either the bank keeps compounding its book at about 14% and the stock trails along with it, or the repaired bank proves it can earn 15-16% through a cycle and the multiple re-rates above book toward what a franchise like Federal Bank commands. The first is likely and modest. The second is the real prize and is not yet earned. Because the book is clean today, the downside is bounded close to net asset value, and that combination, limited downside with an unpaid-for option on better economics, is the actual shape of the case."
+    }
+  ],
+  "outlook": {
+    "intro": "The balance sheet is repaired. What is not yet proven is the business on top of it, so the useful thing is not a forecast but a set of dials to watch. For each one, here is what has already happened, and the signal that would tell you the turnaround is becoming structural rather than fading back to the mean.",
+    "areas": [
+      {
+        "title": "Funding: can it hold low-cost deposits?",
+        "facts": [
+          "Deposits grew 14.7% to ₹1.23 lakh cr in FY26.",
+          "CASA rose to 32.1% from 31.4%, so the low-cost share is inching up, not down.",
+          "The book is funded by deposits, not wholesale borrowing (borrowings are under ₹4,000 cr)."
+        ],
+        "watch": "Proof: deposit growth stays mid-teens without the CASA ratio falling or funding costs jumping. Trouble: the bank has to pay up for deposits, and CASA slips, squeezing the margin from the funding side."
+      },
+      {
+        "title": "Lending: does the new book stay clean as it seasons?",
+        "facts": [
+          "GNPA fell to 1.43% and NNPA to 0.29% by March 2026.",
+          "The mix shifted to 62% non-corporate (retail, agriculture, gold, MSME).",
+          "Management is targeting MSME growth above 20%, a higher-yield but underwriting-sensitive segment."
+        ],
+        "watch": "Proof: bad loans stay low as the fast-growing retail and MSME loans age into their riskier years. Trouble: GNPA rises disproportionately in the newer retail or MSME book, which would show the low number was youth, not skill."
+      },
+      {
+        "title": "Economics: can the cleaner book earn a better return?",
+        "facts": [
+          "NIM is 2.95%, down from 3.21% a year ago but up from 2.86% the prior quarter.",
+          "Cost-to-income is around 57%, improving but heavy.",
+          "Return on equity is about 14%, flattered slightly by provision write-backs that are now fading."
+        ],
+        "watch": "Proof: NIM stabilises rather than sliding, cost-to-income keeps falling, and ROE moves toward and holds 15%+. Trouble: the margin keeps slipping and ROE drifts lower even as the book grows, which caps the stock at book value."
+      }
+    ],
+    "closer": "None of these needs a heroic outcome for the stock to work from one times book. They need the ordinary version: a stable margin, a book that stays clean, and returns that hold or nudge up. The next two or three years, and one weaker economic patch, will answer them."
+  }
+}

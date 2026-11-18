@@ -1,20 +1,62 @@
 {
   "ticker": "KALYANKJIL",
   "company": "Kalyan Jewellers India Ltd",
+  "latest": {
+    "period": "Q2 FY27 (Jul-Sep 2026)",
+    "published": "2026-11-10",
+    "headline": "Sales up 31%, profit up 64%, and part of that profit will not repeat.",
+    "body": [
+      "Kalyan reported its July-September quarter on 10 November 2026. Sales rose 31% to ₹10,323 crore and profit rose 64% to ₹427 crore. The stock jumped about 12% the next morning and touched a 52-week high.",
+      "Read the profit line twice. ₹73.5 crore of it came from selling a piece of non-core real estate, and that will not happen again next quarter. Take it out and profit grew roughly 40%. Still fast, just not 64%. The operating margin (what Kalyan keeps from each sale before interest and tax) barely moved: 6.2%, against 6.3% a year ago.",
+      "The growth underneath came from the right places. Stores open for more than a year sold about 20% more than last year; that is same-store growth, the number new showrooms cannot flatter. India outside the South grew 31% while the South grew 23%, which is the expansion plan showing up in the numbers. The Middle East is the soft spot. Sales there rose 11%, but profit fell 19% on higher interest costs.",
+      "Management says the festive quarter has started off very well. That is a mood, not a number. The October-December quarter carries Diwali and the wedding season, and it is the one that will tell you whether 20% same-store growth holds."
+    ],
+    "figures": [
+      { "label": "Revenue", "value": "₹10,323 cr", "hint": "+31% YoY" },
+      { "label": "Net Profit", "value": "₹427 cr", "hint": "+64% YoY; incl. ₹73.5 cr one-off" },
+      { "label": "EBITDA Margin", "value": "6.2%", "hint": "vs 6.3% a year ago", "tone": "neutral" },
+      { "label": "Same-store growth", "value": "~20%", "hint": "India; Middle East ~12%", "tone": "good" }
+    ],
+    "sources": [
+      { "label": "Investor presentation summary (Investywise)", "url": "https://www.investywise.com/kalyan-jewellers-investor-presentation-for-q2-fy27/" },
+      { "label": "DSIJ, 11 Nov 2026", "url": "https://insights.dsij.in/dsijarticledetail/kalyan-jewellers-share-price-jumps-12-after-q2-fy27-results-hits-52-week-high-heres-why" },
+      { "label": "Free Press Journal", "url": "https://www.freepressjournal.in/business/kalyan-jewellers-q2-profit-surges-64-to-427-crore-revenue-climbs-31-to-10323-crore" }
+    ]
+  },
   "sector": "Consumer Discretionary",
   "industry": "Gems & Jewellery Retail",
   "dataVariant": "Consolidated",
-  "asOf": "2026-08-02",
-  "oneLiner": "Kalyan sells trust, and it sells it well. The catch is the price: 46 times earnings, with a quarter of the promoter's stake pledged to lenders.",
+  "asOf": "2026-11-18",
+  "oneLiner": "Kalyan sells trust, and it sells it well. The catch is the price: about 43 times earnings, with a quarter of the promoter's stake pledged to lenders.",
   "verdict": {
     "rows": [
-      { "label": "Business", "value": "Taking share, sells trust", "tone": "good" },
-      { "label": "Moat", "value": "Narrow", "tone": "warn" },
-      { "label": "Growth", "value": "Long runway", "tone": "good" },
-      { "label": "Promoter pledge", "value": "~25% pledged", "tone": "bad" },
-      { "label": "Valuation", "value": "46x earnings", "tone": "bad" }
+      {
+        "label": "Business",
+        "value": "Taking share, sells trust",
+        "tone": "good"
+      },
+      {
+        "label": "Moat",
+        "value": "Narrow",
+        "tone": "warn"
+      },
+      {
+        "label": "Growth",
+        "value": "Long runway",
+        "tone": "good"
+      },
+      {
+        "label": "Promoter pledge",
+        "value": "~25% pledged",
+        "tone": "bad"
+      },
+      {
+        "label": "Valuation",
+        "value": "43x earnings",
+        "tone": "bad"
+      }
     ],
-    "keyQuestion": "The share-gain runway is long. Is it long enough to justify 46 times earnings with a quarter of the promoter stake pledged?"
+    "keyQuestion": "The share-gain runway is long. Is it long enough to justify 43 times earnings with a quarter of the promoter stake pledged?"
   },
   "facts": {
     "snapshot": "Kalyan Jewellers is one of India's largest jewellery retailers. It sells gold and diamond jewellery through a wide chain of showrooms, competing on trust and certified purity rather than on the metal itself.",
@@ -163,7 +205,7 @@
         "note": "Volume helps, but gold and franchise sharing keep margins thin."
       }
     ],
-    "whyNow": "The business kept getting better while the stock went the other way. The franchise model is scaling, the shift from local shops to brands is still running, and the profit is backed by real cash. What is holding the stock down is not the business. It is a shrinking multiple and a nervous market watching the promoter's pledged shares.",
+    "whyNow": "For two years the business kept getting better while the multiple shrank. Over the last year the price finally caught up with part of the earnings. The franchise model is still scaling and the shift from local shops to brands is still running. What keeps the multiple from climbing further is a market still watching the promoter's pledged shares.",
     "remember": "Kalyan does not price the gold. It prices the trust, and that is the only part of the invoice that is really its own."
   },
   "ipoFlag": "Listed March 2021. No repackaging games. Kalyan is a decades-old name, not a shell that bolted 'AI' or 'Defence' onto its title before an IPO.",
@@ -198,30 +240,30 @@
   "valuation": [
     {
       "label": "Market Cap",
-      "value": "₹63,266 cr"
+      "value": "₹67,211 cr"
     },
     {
       "label": "52W High / Low",
-      "value": "₹649 / ₹327"
+      "value": "₹729 / ₹327"
     },
     {
       "label": "Stock P/E",
-      "value": "45.9",
-      "hint": "check: 613 / 13.08 = 46.9",
+      "value": "42.7",
+      "hint": "check: 651 / 15.52 = 41.9; ~45 with excess other income stripped",
       "tone": "bad"
     },
     {
       "label": "P/B",
-      "value": "10.0",
+      "value": "10.1",
       "tone": "bad"
     },
     {
       "label": "EPS (TTM)",
-      "value": "₹13.08"
+      "value": "₹15.52"
     },
     {
       "label": "Book Value",
-      "value": "₹61.1"
+      "value": "₹64.3"
     }
   ],
   "financials": [
@@ -269,12 +311,12 @@
     },
     {
       "label": "ROCE",
-      "value": "20.5%",
+      "value": "21.2%",
       "tone": "good"
     },
     {
       "label": "PAT Margin",
-      "value": "~3.8%",
+      "value": "~3.9%",
       "hint": "structurally thin (gold)",
       "tone": "neutral"
     },
@@ -285,7 +327,7 @@
     },
     {
       "label": "P/B",
-      "value": "10.0",
+      "value": "10.1",
       "tone": "bad"
     },
     {
@@ -298,24 +340,24 @@
   "cashFlow": [
     {
       "year": "FY24",
-      "ocf": 1318,
-      "capex": 137,
+      "ocf": 1322,
+      "capex": 261,
       "fcf": 1061
     },
     {
       "year": "FY25",
       "ocf": 1209,
-      "capex": 177,
+      "capex": 419,
       "fcf": 790
     },
     {
       "year": "FY26",
-      "ocf": 1200,
-      "capex": 180,
+      "ocf": 1318,
+      "capex": 379,
       "fcf": 939
     }
   ],
-  "cashFlowNote": "This is the part of the story that is not up for debate. Operating cash flow beats reported profit every single year, free cash flow is comfortably positive, and debtor days sit at nine. A jeweller collects at the counter, so there are no receivables to inflate and no percentage-of-completion tricks to worry about. When a fast-growing company also throws off cash, you can trust the growth. Kalyan does. (FY26 OCF and capex are approximate pending the full statement; the ₹939cr FCF is reported.)",
+  "cashFlowNote": "This used to be the cleanest part of the story. It is still good, just less spotless. Debtor days sit at nine: a jeweller collects at the counter, so there are no receivables to inflate. Free cash flow has been positive every year since FY20, ₹939cr in FY26. Now look at FY26 closely. Operating cash flow of ₹1,318cr came in just under the ₹1,350cr of reported profit, the first time in six years of data it did not beat it. Only 68% of operating profit turned into cash, against 91-116% in the two years before. Why? Sales grew 43% and inventory days ticked up from 162 to 167, and a jeweller pays for growth in gold sitting on shelves. That is not a red flag yet. It is the number to check when FY27 closes.",
   "growth": [
     {
       "label": "Sales CAGR 5Y",
@@ -335,37 +377,37 @@
     },
     {
       "label": "Profit CAGR 3Y",
-      "value": "44%",
+      "value": "45%",
       "tone": "good"
     },
     {
       "label": "Stock CAGR 1Y",
-      "value": "5%",
-      "hint": "profit did +92% in the same window",
-      "tone": "bad"
+      "value": "39%",
+      "hint": "profit did +69% TTM",
+      "tone": "neutral"
     }
   ],
-  "management": "Founder-led by the Kalyanaraman family, who own 62.86%. Judge them by what they did, not what they said. Inventory days came down from 221 to 156, net working capital fell from 41% of income to 21%, and they pivoted the whole company onto a model that adds stores on someone else's balance sheet. That is an operator's scorecard, not a storyteller's. The blemish is real, and it is why the market is jumpy. Nearly a quarter of the promoter stake, 24.89%, is pledged to lenders, and the number keeps creeping up (from 19.32%). Pledged shares are borrowed conviction. If the stock keeps sliding, a margin call becomes the lender's decision, not the family's.",
+  "management": "Founder-led by the Kalyanaraman family, who own 62.85%. Judge them by what they did, not what they said. Inventory days came down from 221 to 156, net working capital fell from 41% of income to 21%, and they pivoted the whole company onto a model that adds stores on someone else's balance sheet. That is an operator's scorecard, not a storyteller's. The blemish is real, and it is why the market is jumpy. Nearly a quarter of the promoter stake, 24.89%, is pledged to lenders, and the number keeps creeping up (from 19.32%). Pledged shares are borrowed conviction. If the stock keeps sliding, a margin call becomes the lender's decision, not the family's.",
   "holding": [
     {
       "label": "Promoter",
-      "pct": 62.86,
-      "qoqChange": 0
+      "pct": 62.85,
+      "qoqChange": -0.01
     },
     {
       "label": "DII",
-      "pct": 15.83,
-      "qoqChange": 0.8
+      "pct": 14.41,
+      "qoqChange": -1.42
     },
     {
       "label": "FII",
-      "pct": 10.82,
-      "qoqChange": -0.9
+      "pct": 13.83,
+      "qoqChange": 3.01
     },
     {
       "label": "Retail",
-      "pct": 10.49,
-      "qoqChange": 0.1
+      "pct": 8.9,
+      "qoqChange": -1.59
     }
   ],
   "pledged": 24.89,
@@ -383,15 +425,15 @@
   "risks": [
     "The pledge. 24.89% of the promoter holding is pledged and rising. If the stock falls far enough, a lender, not the family, decides when shares get sold. This is the one risk that can turn a business story into a stock accident. Medium-High.",
     "Thin margins meet exogenous gold. At 4% net margin, a duty change, a gold shock, or a little more franchise profit-sharing all land straight on the bottom line. Medium.",
-    "You are still paying 46x and 10x book after a 30% fall. Cheap this is not, so a further de-rating can happen even if earnings hold. Medium-High.",
+    "You are still paying about 43x earnings and 10x book. Cheap this is not, so a de-rating can happen even if earnings hold. Medium-High.",
     "FOCO at speed. Handing stores to franchisees fast is efficient until it dilutes inventory control or brand consistency. Watch same-store metrics for cracks. Medium.",
     "Foreign selling can cap the stock regardless of results, as it already has. Medium."
   ],
   "trapChecklist": [
     {
       "label": "Profit up, cash flow not",
-      "status": "pass",
-      "note": "OCF beats PAT every year"
+      "status": "warn",
+      "note": "FY26 OCF ₹1,318cr, just under PAT ₹1,350cr"
     },
     {
       "label": "Receivables blowing up",
@@ -421,7 +463,7 @@
     {
       "label": "Stretched multiple",
       "status": "warn",
-      "note": "46x earnings, 10x book"
+      "note": "43x earnings, 10x book"
     }
   ],
   "sectorChecklist": [
@@ -446,29 +488,29 @@
       "note": "The 2024 duty cut alone took ~50bps of margin"
     }
   ],
-  "summary": "Put the pieces together. Kalyan sells something Indians will not stop buying, it is taking share from the unbranded market on a runway measured in decades, and it finally grows without eating its own cash, which the cash flow confirms. None of that is the problem. The problem is the price and the structure. You are paying 46x earnings for a business that keeps about 4% of each sale, run by a family that has pledged a quarter of its stake, and the recent fall was a multiple deflating, not a bargain opening up, so it can get cheaper still before it gets cheap. This is a business worth knowing well and watching closely. Whether the price and the pledge ever line up with the quality is the part still unsettled.",
+  "summary": "Put the pieces together. Kalyan sells something Indians will not stop buying, it is taking share from the unbranded market on a runway measured in decades, and it mostly grows without eating its own cash. None of that is the problem. The problem is the price and the structure. You are paying about 43x earnings for a business that keeps about 4% of each sale, run by a family that has pledged a quarter of its stake, and the multiple has come down from its highs without ever getting cheap. This is a business worth knowing well and watching closely. Whether the price and the pledge ever line up with the quality is the part still unsettled.",
   "engine": {
     "state": "multiple-drift",
-    "earnings": "The earnings engine is running hot and, more importantly, it is cash-backed. TTM profit growth near 92%, a 3Y CAGR of 44%, and OCF that beats profit. The forward catalyst is concrete rather than hand-wavy: roughly 150 new FOCO showrooms a year, funded by franchisees, so revenue compounds without Kalyan's capital. This is the strongest leg of the case.",
-    "multiple": "The multiple engine already fired, against the stock. The PE compressed from its listing-era highs to 46x while profit doubled, so price CAGR of +5% sat under profit growth of +92% over the last year. That wrings out froth. It does not make the stock cheap. 46x earnings and 10x book is still a premium, not a bargain.",
+    "earnings": "The earnings engine is still running hot: trailing profit up 69%, a 3Y CAGR of 45%. The latest quarter flatters that a little with a one-off gain (see the note at the top), but the growth underneath is real.The forward catalyst is concrete: roughly 150 new FOCO showrooms a year, funded by franchisees, so revenue compounds without Kalyan's capital. This is still the strongest leg of the case.",
+    "multiple": "The multiple engine fired against the stock first. The PE compressed from its listing-era highs to the mid-40s while profit doubled. Over the last year the price finally moved, up 39%, but profit moved faster, so the business is still running ahead of the stock. You now pay about 43x printed earnings, nearer 45x once the one-off other income is taken out, and 10x book. That is a premium, not a bargain.",
     "verdict": "So here is my honest read. The earnings engine is doing real work, and the multiple has already come down, but not below where it has traded before, so it is not obviously cheap yet. That leaves the whole return resting on earnings out-running any further slide in the multiple. The business earns a yes from me without much hesitation. The price earns a shrug. And the one thing I cannot call is the pledge. If the stock falls far enough, a lender decides when those shares get sold, and no amount of good operating numbers will stop it. That is the piece that keeps this from being a simple story."
   },
   "lenses": [
     {
-      "name": "The price gap is wider than the business gap",
-      "reading": "Titan is worth ₹3.72tn on ₹5,073cr of profit; Kalyan is worth ₹63,266cr on ₹1,350cr. That is a 5.9x market-value gap on a 3.8x profit gap, and at Kalyan's panic lows the gap stretched past 10x. Some discount is fair for Titan's brand. Ten times is the market pricing a quality difference that the business gap does not support."
+      "name": "The price gap has mostly closed",
+      "reading": "Titan is worth ₹4.17tn on ₹7,033cr of trailing profit; Kalyan is worth ₹67,211cr on ₹1,602cr. That is a 6.2x market-value gap on a 4.4x profit gap. At Kalyan's panic lows the gap stretched past 10x. Some discount is fair: Titan earns 38% on equity to Kalyan's 25%, and nobody is pledging Titan shares. What is left of the gap now looks like exactly that, and not much more."
     },
     {
       "name": "A buying habit measured in centuries",
       "reading": "Gifting gold at weddings and festivals is a habit centuries old. Things that old do not break in a decade. That is the floor under the demand, and it is why this is a share-gain story, not a survival one."
     },
     {
-      "name": "The weakness is in the price, not the business",
-      "reading": "There is no first slowdown quarter to point at. FY26 was a record on every line. The weakness lives entirely in the valuation multiple, not the business, which is the opposite of a genuine crack in the fundamentals."
+      "name": "No crack in the business yet",
+      "reading": "Is there a slowdown quarter to point at? Not yet. FY26 was a record on every line, and Q2 FY27 sales still grew 31% on top of it. If a crack comes, it will show up first in same-store growth, which headline revenue hides because every new showroom adds to the total."
     },
     {
-      "name": "A fall, not a break",
-      "reading": "Down 30% while the business gets stronger is a business getting cheaper, not a business breaking. The one thing that could flip that, turning a cheap stock into a real trap, is the pledged shares forcing a sale the family did not choose. Watch the pledge, because it is the difference between a fall and a break."
+      "name": "The pledge is the swing factor",
+      "reading": "The stock is back at ₹651, about 11% below its ₹729 high, and the business got stronger on the way. The one thing that could turn a premium stock into a real trap is the pledged shares forcing a sale the family did not choose. A rising price makes that less likely. It does not make it impossible."
     }
   ],
   "sectorId": "retail"
