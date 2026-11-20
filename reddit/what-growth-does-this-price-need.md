@@ -1,0 +1,477 @@
+Signal · The check, part two  
+Sep 2026
+
+*Take a company you already rate, name the return you want, and work backwards to the profit growth and revenue the share price is quietly demanding. Worked end to end on Shriram Pistons.*
+
+**What happened**
+
+[The first part of this check](https://fathomjournal.in/signals/are-the-engines-in-your-favour/) taught the seven questions and the three calculations. This one skips the teaching and just runs them, because you are usually not starting from a blank page. You are starting from a company somebody mentioned, or one that came out of a screen, and a number in your head about what you want to earn.
+
+So start there. Say you have found Shriram Pistons, now renamed SPR Auto Technologies. Sales have risen every year for a decade. It earns 21% on the money shareholders put in. Almost all the profit turns into real cash. It has spare cash left over after spending on the factory, five years running. By every quality test in part one, this is a real business.
+
+You want 15% a year for five years. That is the whole setup. Nothing below is about whether the company is good. It is about what the price is already asking it to do.
+
+**The one move**
+
+**The share price has already made a growth forecast. Your job is to read it, not to make your own.**
+
+This is the only idea in the piece. A multiple is not an opinion about whether a share is dear or cheap. It is a growth forecast, folded up small. Unfold it and you get a number you can hold against what the company has actually done.
+
+Shriram Pistons costs ₹4,511 a share and earned ₹127.94 a share last year, so you are paying 35.3 years of current profit. The whole company is worth ₹20,924 crore, made ₹575 crore of profit and sold ₹4,970 crore of goods. Those four numbers are all you need.
+
+## Step one, and it nearly finishes the job
+
+Before touching any growth rates, ask what the price needs from you. You want 15% a year. You are paying 35.3 times profit. The only other thing to decide is what multiple you expect to sell at. Pick one, and there is only one growth rate that works. You do not choose it, the arithmetic hands it to you.
+
+Now put the company's actual profit growth over the last twelve months beside it: 11%.
+
+Read the top row first, because it is the simplest case. If the multiple is the same when you sell as when you bought, your return is just the profit growth. The company grows 11% a year, you get 11% a year. It grows 15%, you get 15%. Nothing else happens.
+
+So wanting 15% while the company grows 11% is not a small gap you can shrug at. At an unchanged multiple those are the same sentence: the company must grow 15% for you to get 15%. And that is the friendliest row on the table. Every row below it assumes the market pays less in 2031 than it does today, and the profit then has to make up the difference as well.
+
+| If the multiple in 2031 is | Profit must grow | Against last year's rate of |
+|:--|:--|:--|
+| 35.3 times, unchanged | 15.0% a year | 11% |
+| 30 times | 18.8% a year | 11% |
+| 25 times | 23.2% a year | 11% |
+| 20 times | 28.8% a year | 11% |
+| 15 times | 36.5% a year | 11% |
+
+**The only formula in this piece**
+
+The return you want, adjusted for whatever the multiple does on the way.
+
+> Growth needed = 1.15 × (35.3 ÷ 20)^(1/5) − 1 = **28.8%**
+
+In words: if you want 15% a year for five years, you are paying 35.3 times profit today, and the market pays 20 times on the day you sell, then profit has to grow 28.8% every year for those five years. Put any other exit multiple where the 20 is and you get the rest of the table above. The root matches how long you hold: five years is a fifth root, ten years is a tenth root. The next section takes that apart.
+
+## What the multiple actually is
+
+Worth being exact about this, because it is easy to read that table as the market paying the company more or less money. It is not. When you buy a share your money goes to whoever sold it to you. The company sees none of it. Nothing in that table is cash changing hands with Shriram Pistons.
+
+A multiple is only this: how many years of current profit other investors will hand over to own a claim on it. Today they hand over 35.3 years. The table is asking what they will hand over in 2031.
+
+So the table is not saying the market underpays the company. It is saying that the less the next buyer will hand over, the more the business itself has to be earning by then for your 15% to work. Here is that idea as a shop, one step at a time, and it lands on exactly the same number.
+
+1. A shop earns ₹1 lakh a year. You buy it at 35.3 times that profit, so you pay ₹35.3 lakh.
+2. That ₹35.3 lakh goes to the person who sold you the shop. The shop's own bank account does not change by a rupee. It has the same tills, the same stock, the same customers as yesterday.
+3. You want 15% a year. Grow ₹35.3 lakh at 15% for five years, so multiply it by 1.15 five times over, and you need ₹71 lakh back when you sell. That ₹71 lakh is fixed now. It is what you are asking for and it does not move.
+4. In five years you sell. What the next buyer pays depends on two things and only two: what the shop is earning by then, and how many years of that profit they are willing to hand over.
+5. Suppose they will hand over 20 years of profit, not the 35.3 you paid. They still have to write you a cheque for ₹71 lakh, because that is what you need. So 20 times the shop's yearly profit must come to ₹71 lakh.
+6. Divide ₹71 lakh by 20 and the shop has to be earning ₹3.55 lakh a year. Their cheque is 20 × ₹3.55 lakh = ₹71 lakh.
+7. The shop went from ₹1 lakh to ₹3.55 lakh, three and a half times bigger, in five years. That is 28.8% a year. The same number the formula gave.
+8. Now change one thing. If the next buyer hands over the same 35.3 years you did, the shop only needs to earn ₹2.01 lakh, because 35.3 × ₹2.01 lakh is also ₹71 lakh. That is 15% a year of growth. Same cheque, same five years, same shop. Only the number of years of profit the buyer was willing to pay changed.
+
+## Where the fifth root comes from
+
+That formula has one step in it worth slowing down for, because it is the step people skip.
+
+Profit growth is a rate per year. Grow 11% a year and after five years you multiply by 1.11 five times over. A multiple falling is not like that. Going from 35.3 times to 20 times is one fall of 43%, spread across the whole five years. It is not 43% a year.
+
+You cannot take a one-time fall away from a per-year rate. So you convert it. Spread that 43% evenly across five years and it comes to 10.7% a year. That is what the fifth root does, and nothing else.
+
+Now both numbers are per-year and you can put them together. You want 15% a year. The multiple is taking 10.7% a year off you. So the profit has to cover both: 1.15 divided by 0.893 is 1.288, which is the same 28.8% the formula gave.
+
+Read the last column as the price of your exit assumption. Assuming the market still pays 35 times in 2031 costs you nothing and is the reason that row looks so easy. Every other row charges you for the multiple coming down.
+
+One more thing comes out of this, and it is the useful part. The root matches how long you hold. Hold ten years and it is a tenth root, which spreads that same fall from 35.3 to 20 across twice as many years. The drag halves to 5.5% a year and the growth you need drops from 28.8% to 21.7%. Hold three years and it is a cube root, the drag jumps to 17.3% a year, and you need 39%.
+
+So the shorter your horizon, the more of your return the market has to hand you, and the longer it is, the more the business has to earn. Same company, same price, same 15% wanted. Only the holding period changed.
+
+| If you exit at | The multiple falls | Which per year is | So profit must grow |
+|:--|:--|:--|:--|
+| 35.3 times, unchanged | 0% | 0.0% | 15.0% a year |
+| 30 times | -15% | -3.2% | 18.8% a year |
+| 25 times | -29% | -6.7% | 23.2% a year |
+| 20 times | -43% | -10.7% | 28.8% a year |
+| 15 times | -58% | -15.7% | 36.5% a year |
+
+**The identity, five years on**
+
+Stretch that same line over five years and the fifth root has to appear.
+
+*Price equals profit times the multiple, the identity from part one*
+
+> Price = Profit × Multiple
+
+*Your return over five years is the profit growth compounded, times whatever the multiple did*
+
+    (1 + return)^(5) = (1 + growth)^(5) × (Exit multiple ÷ Entry multiple)
+
+*Take the fifth root of both sides and every term is a rate per year*
+
+    1 + return = (1 + growth) × (Exit ÷ Entry)^(1/5)
+
+The exponent is simply one over the number of years you hold. Five years gives one fifth, ten years gives one tenth. Nothing else in the calculation changes.
+
+## So which growth rate is the right one?
+
+The screener page gives you four, and on this company they disagree violently. Profit grew 20% a year over ten years, 45% over five, 25% over three, and 11% over the last twelve months. Same company, four answers, because each one starts counting in a different year.
+
+Notice which way that runs. In most cheap-looking companies the recent numbers flatter and the long ones tell the truth. Here it is reversed. The five-year figure starts in FY21, a covid-distorted base when profit was ₹89 crore. The 11% trailing figure is the least flattering of the four, and also the cleanest read on where earnings are now.
+
+Run each forward and pair it with an exit multiple. The last three columns are what you earn a year, for five years, at ₹4,511 a share. Note the first of those columns: when the multiple does not move, your return is the growth rate, exactly. The other two columns are what it costs you when the market pays less than it does today.
+
+| Growth window | Rate | Profit in 2031 | You earn, exit 35.3x | You earn, exit 25x | You earn, exit 20x |
+|:--|:--|:--|:--|:--|:--|
+| Last twelve months | 11% | ₹969 crore | +11% | +4% | -1% |
+| Three years | 25% | ₹1,755 crore | +25% | +17% | +12% |
+| Ten years | 20% | ₹1,431 crore | +20% | +12% | +7% |
+| Five years, distorted base | 45% | ₹3,686 crore | +45% | +35% | +29% |
+
+## Why revenue grew 35% and profit grew 11%
+
+Those two numbers cover the same twelve months and they should not be that far apart. When they are, somebody paid for the difference, and the balance sheet says who.
+
+Borrowings rose from ₹508 crore to ₹1,968 crore during FY26. The company was buying: majority stakes in EMF Innovations and Takahata Precision India, then TGPEL Precision Engineering for ₹220 crore in May 2026. Bought sales arrive whole and immediately. Bought profit arrives late, partly, or never.
+
+The June 2026 quarter shows the gap. Sales ₹1,474 crore against ₹963 crore, up 53%. Profit ₹148 crore against ₹135 crore, up 9.6%. Operating margin 18%, down from 20%. So last year's sales growth is not profit growth yet, and you cannot use it as if it were.
+
+## Growth has two sources, and only one of them repeats
+
+One sum settles which of the four to carry forward. Over eleven years sales grew 13.4% a year. Over the same stretch the company kept more of each rupee of sales as profit, going from 4.6 paise to 11.6 paise, which is 8.8% a year of improvement. Multiply the two and you get the 23.4% the profit line actually did.
+
+Sales can keep compounding for decades. But going from 4.6 paise to 11.6 paise cannot happen twice. There is far less room left in that half of the sum, so the rate to carry forward looks more like the sales rate than the old profit rate.
+
+| Eleven years, FY15 to trailing | From | To | A year |
+|:--|:--|:--|:--|
+| Revenue | ₹1,244 crore | ₹4,970 crore | 13.4% |
+| Net margin | 4.6% | 11.6% | 8.8% |
+| Profit, which is the two multiplied | ₹57 crore | ₹575 crore | 23.4% |
+
+## The revenue each row is actually asking for
+
+Turn each growth rate into sales and it stops being an opinion. Keep the company holding on to 11.6 paise of every rupee, which already assumes the recent squeeze stops, and every profit figure in the table turns into a sales figure.
+
+The bottom two rows want an auto components maker to grow revenue three to six times in five years, against 13.4% a year for the last eleven. The top row is entirely achievable and pays 11% at an unchanged multiple, less than nothing at 20 times.
+
+| Growth window | Profit in 2031 | Revenue it must earn | Versus today | Revenue growth needed |
+|:--|:--|:--|:--|:--|
+| Last twelve months, 11% | ₹969 crore | ₹8,382 crore | 1.7 times | 11% a year |
+| Ten years, 20% | ₹1,431 crore | ₹12,377 crore | 2.5 times | 20% a year |
+| Three years, 25% | ₹1,755 crore | ₹15,180 crore | 3.1 times | 25% a year |
+| Five years, 45% | ₹3,686 crore | ₹31,882 crore | 6.4 times | 45% a year |
+
+## The row it can hit pays the least
+
+That is the finding, and it is not a criticism of the company.
+
+Take the simplest forward case. Sales keep their eleven-year pace of 13.4% and the company holds on to 11.6 paise of every rupee rather than less. Profit reaches ₹1,079 crore by 2031, which would be a good outcome for an auto components business.
+
+That profit is the same in every row below. The only thing changing is what the next buyer is willing to pay for it.
+
+The business does well and the return still falls short, because the price was paid for a better version of the future than the record supports.
+
+| If you exit at | 35.3 times, unchanged | 30 times | 25 times | 20 times |
+|:--|:--|:--|:--|:--|
+| You earn | +13.4% a year | +9.8% a year | +5.9% a year | +1.3% a year |
+
+## The case on the other side, which is real
+
+Three acquisitions closed recently and none has been owned for a full year. Electric vehicle motors and controllers, precision moulding, car interiors. If those businesses grow and start earning what the parent earns, today's squeezed margin is a start-up cost rather than the new normal. The profit line then catches up with the sales line.
+
+That is a fair reading and the numbers cannot rule it out yet. Big investors are on that side of it: foreign funds went from 5.9% to 8.4% of the company over five quarters, Indian funds from 13.3% to 16.0%.
+
+Two facts sit against them. Promoter holding fell from 46.8% to 41.5% over twelve quarters, including 2.2 points in the most recent one. And whichever reading is right, step one does not move. At 35.3 times you need 15% profit growth just to get 15%, with the multiple frozen. The acquisitions have to deliver that on top of a share price already up 65% in a year while profit rose 11%.
+
+## What you have actually decided
+
+None of this ruled the company out. It replaced a feeling with a claim you can check.
+
+The claim: even if the market still pays 35 times profit in 2031, which is the kindest assumption available, Shriram Pistons has to grow profit 15% a year. That means about ₹1,157 crore of profit and ₹10,000 crore of sales by 2031, from a company that has grown sales 13.4% a year for eleven years. Every number in that sentence is published every quarter.
+
+Good business. Demanding price. Two different questions, and only the second one was ever in doubt.
+
+## One swap, and the same three steps read a lender
+
+That was one company and one multiple. The same check reads a bank or an NBFC with a single word changed, and it is worth seeing, because the swap is exactly where most people misprice a lender.
+
+Everything above paid a multiple of profit, because for a piston maker profit is the thing that compounds. For a lender it is the wrong line. A bank or an NBFC earns a spread on a pile of money it holds, and that pile is its own equity, levered several times into loans. Every rupee of profit it keeps turns into fresh equity, and fresh equity turns into new lending. So the thing that compounds is book value, the equity sitting on the balance sheet, and the speed it compounds at is return on equity: keep 20 paise of profit on every rupee of book, sell no new shares, and the book is 20% bigger next year on its own.
+
+So for a lender you swap one word in the identity. Price is book value times a price-to-book multiple, and the growth you feed the reverse valuation is book growth, not profit growth. That growth has a ceiling you can read off one number, because book cannot outrun return on equity for long without the lender issuing new shares to fund it.
+
+Two reasons the profit multiple misleads here, both worth holding. First, a lender's profit is a spread minus credit losses, and one bad year of provisions can gut the profit while the book barely moves. Price that year's earnings and the multiple looks wild or turns negative, though the franchise is untouched. Book sits still through the cycle while earnings lurch. Second, and this is the one that costs people money, the profit multiple hides the return on equity, which for a lender is the whole game. They are the same fact folded up: a price-to-earnings multiple is only price-to-book divided by return on equity.
+
+**The profit multiple is the book multiple with the return divided out**
+
+The three numbers are one identity. Quote the price-to-earnings multiple on its own and you have thrown the return on equity away.
+
+> PE = Price to book ÷ Return on equity = 2.81 ÷ 0.31 = **9.1**
+
+That 9.1 is close to Muthoot Finance's reported ten times profit today, rebuilt from its 2.81 times book and a 31% return on equity. Quote the ten on its own and you have discarded the 31%, the only number that tells you how fast the book compounds and therefore whether that low multiple is cheapness or a warning.
+
+## Run it on Muthoot Finance
+
+The swap earns its keep on a lender that looks cheap on profit and is not. Muthoot Finance, the largest gold-loan NBFC in the country, trades at about ten times profit. On the profit multiple alone you would call it cheap and close the tab. Switch to book and the picture sharpens: it trades at 2.81 times its book value, which for a lender is a full price, not a bargain.
+
+The two numbers disagree for a reason the piece has already met. Muthoot's return on equity leapt to 31% in the year to March 2026, against a 23% five-year average, in a stretch when gold ran up hard and its gold-loan book swelled with the price. Divide that peak profit into the share price and you get a flattering ten. It is the same trap part one found on Lupin: a low multiple is not cheapness, it is the market pricing earnings it does not expect to last.
+
+So point the base-year discipline from earlier at the return, not the profit. The honest number to carry forward is the through-cycle 23-24%, not the 31% of a gold-rally year. At a 23% return and an 11% dividend payout, Muthoot's book compounds about 20% a year from its own engine, and that 20% is what the price is really forecasting. Now reverse it exactly as before, book in place of profit.
+
+| If the multiple in 2031 is | Book must grow | Sustainable book growth is about |
+|:--|:--|:--|
+| 2.81 times book, unchanged | 15.0% a year | 20% |
+| 2.5 times | 17.7% a year | 20% |
+| 2.0 times | 23.1% a year | 20% |
+| 1.5 times | 30.4% a year | 20% |
+
+**The same formula, book instead of profit**
+
+Nothing new. The profit multiple becomes the book multiple, and the growth you solve for is book growth.
+
+> Book growth needed = 1.15 × (2.81 ÷ 2.0)^(1/5) − 1 = **23.1%**
+
+Want 15% a year, pay 2.81 times book, and if the next buyer pays 2.0 times book in 2031, the equity has to compound 23.1% a year, above what a 23% return can fund. Hold the multiple at 2.81 and the book needs only 15%, which that same return covers comfortably.
+
+## Where the lender lands, and why it differs
+
+Read the top two rows. If the market still pays 2.81 or even 2.5 times book in 2031, a through-cycle 23% return funds the 15% to 18% book growth those rows ask for, and you earn your 15%. Now run the identity from the last box the other way. Price to book is the profit multiple times the return on equity. If the return settles at 23% and the market keeps paying nine to ten times profit, the book multiple lands near 2.1 to 2.3 times, not 2.81. So the 2.0 times row is closer to the base case than the harsh one, and it asks for 23.1% book growth from an engine that funds about 20%. The reverse valuation reads fair only if the market keeps paying 2.5 times book or more for a 23% return.
+
+The catch sits in the base year, not the multiple. Everything rests on that 23% return holding. The 31% of last year, and the profit that jumped in a single twelve months, are a gold-price sugar high; take the rally away and both come down, and a gold-loan book is one commodity's price away from a poor year. So the number to watch is not the growth, it is whether return on equity settles back toward 23% and stays, or falls through it.
+
+Which is the whole point of the swap. Read Muthoot on this year's profit and it looks cheap. Read it on its book and its normal return and it looks fully priced, with a single commodity underneath it. For a lender the multiple to unfold is price-to-book, the growth to forecast is book value, and the ceiling on that growth is return on equity. Same three steps, one word swapped.
+
+## The same machine, read from the other end
+
+Everything so far fixed the return and solved for the growth the price needs. Turn the handle the other way and it answers the question most people actually have: if the business simply carries on doing what it has done, what do I get? You fix the growth at the company's own record, assume an exit multiple, and the same identity hands you the return instead of demanding a growth rate.
+
+It is the reverse valuation run backwards. Nothing new to learn, the terms swap places. The forward version tells you whether the price is sane. This one tells you what you would actually make.
+
+**Return, when you fix the growth instead of the return**
+
+Feed in the growth the business delivers and the exit multiple you will accept, and read the return off the other side.
+
+> Return = (1 + growth) × (Exit multiple ÷ Entry multiple)^(1/years) − 1
+
+Set this beside the forward formula and they are plainly one equation. There you knew the return and solved for growth; here you know the growth and solve for the return. The multiple term does the same job in both: an exit below your entry drags the return down, an exit above it lifts the return.
+
+## A case where the price works for you: Mahindra and Mahindra
+
+Shriram and Muthoot were both priced for a demanding future. To watch the machine run the other way you want a good business the market is not excited about. Mahindra and Mahindra, the tractor and SUV maker, is the specimen, and there is a [full report](https://fathomjournal.in/stocks/MM/) if you want the business itself. It trades at about 19 times profit, has compounded profit 16% a year for twelve years, and here is the part that matters: its multiple has drifted down, not up, while those earnings grew. It sits below its own ten-year median of about 25, not above it.
+
+That single fact flips the exercise. For Shriram the multiple was a headwind you had to overcome. Here it is a cushion, and maybe a tailwind. So do not solve for the growth the price needs. Fix the growth at the record 16%, pick an exit multiple, and read the return.
+
+| If the multiple in 2031 is | Your return a year | Which is |
+|:--|:--|:--|
+| 35 times, its past peak | +31% | a full re-rating to the old peak |
+| 24.6 times, back to its median | +22% | a re-rating on top of the growth |
+| 19.2 times, unchanged | +16% | just the growth, nothing from the multiple |
+| 15 times | +10% | the multiple giving a little back |
+| 9.1 times | 0% | break-even, where growth and the falling multiple cancel |
+
+**The margin of safety, as one number**
+
+The exit multiple at which the return is exactly zero. Above it you gain, below it you lose.
+
+> Break-even exit = Entry multiple ÷ (1 + growth) to the power of years = 19.2 ÷ 2.10 = **9.1**
+
+Sixteen percent growth for five years more than doubles the profit, 1.16 to the fifth is 2.10, so the multiple can fall from 19 all the way to 9 before the growth stops saving you. Nine times is far below anything M&M has traded at outside an earnings crash. That gap, from today's 19 down to the 9 that would hurt you, is the room the price is giving you. Run the same sum on Shriram at its carry-forward 13.4% growth and it breaks even at 35.3 ÷ 1.9, about 19 times, which is essentially its own median. The multiple only has to drift back to normal and the growth can no longer rescue you. Same formula, opposite cushions.
+
+## What that means for one lakh rupees
+
+A return a year is abstract. Put money on it. The value in five years is only what you put in, grown by the profit, moved by the multiple.
+
+| If the multiple in 2031 is | one lakh becomes | ten lakh becomes |
+|:--|:--|:--|
+| 35 times, its past peak | ₹3,83,000 | ₹38,30,000 |
+| 24.6 times, its median | ₹2,69,000 | ₹26,90,000 |
+| 19.2 times, unchanged | ₹2,10,000 | ₹21,00,000 |
+| 15 times | ₹1,64,000 | ₹16,40,000 |
+| 9.1 times, break-even | ₹1,00,000 | ₹10,00,000 |
+
+**Your money in five years**
+
+What you invest, times how much the profit grew, times what the multiple did.
+
+> Value = Amount invested × (1 + growth)^(years) × (Exit multiple ÷ Entry multiple)
+
+For M&M, 1.16 to the fifth is 2.10, so the earnings alone double your money. The exit multiple then swings it around that double.
+
+## So read the middle row
+
+If M&M keeps compounding 16% and the market keeps paying the same 19 times, one lakh becomes about ₹2.1 lakh in five years, a double, with nothing asked of the multiple. If the multiple only returns to its own median, about ₹2.7 lakh. And the floor holds: the multiple has to halve to 9 times before you fail to make money. This is price appreciation alone; a small dividend sits on top of it.
+
+The top row is the blue-sky case. M&M has traded above 30 times at past peaks, so a return to 35 would turn one lakh into about ₹3.8 lakh. Keep it in view but do not lean on it. Every rupee of that row above the median row is the market falling in love again, and the one thing you never build a return on is the market's mood. Note where the rows split: everything above 19 times is a gift you cannot count on, and the case has to hold at an unchanged multiple, which it does.
+
+One honest flag, the same discipline the rest of the piece uses. M&M's cash conversion has run low, because its consolidated numbers absorb a lending arm whose flows are not operating cash. The arithmetic here is clean; whether the 16% turns up as real cash in the core tractor and SUV business is the thing to check before you trust the double.
+
+The contrast is the lesson. Shriram is a good business whose price demands a future the record does not support. M&M is a good business whose price asks for almost nothing, so the return tracks the growth and the multiple is a cushion. Same three calculations. The company was never the variable. The price was.
+
+## How to name the exit multiple
+
+Every table above made you pick an exit multiple, and picking it is where people freeze, because you cannot know it. You can bound it, though, and the tool is the multiple's own history, which screener plots as a line with the median marked. Three moves get you a number.
+
+One. Read where today sits against the median. If today is above it, your default exit is the median: you are assuming the premium fades, which is the safe way to be wrong. If today is below it, do not do the reverse and assume it climbs back up to the median. Use today's multiple, or lower. The rule is a haircut, never a bonus. You pull a rich multiple down to normal; you do not talk a cheap one up.
+
+Two. Find where it actually rested. Set the median aside and look for the level the line held for years at a stretch, when nothing special was happening. That band, not the average, is the honest normal for a quiet version of the business. For a cyclical, lean to the low end of it, because you never want to be forced to sell at a peak multiple on peak earnings.
+
+Three. Throw out the fake spikes. A multiple that shot up for a few months is usually not the market falling in love. It is earnings briefly collapsing, so the profit in the denominator shrank and the ratio jumped. The covid quarters do this to almost every company. Those spikes are the base-year trap from earlier wearing a different hat, and because they drag the median up, read the median as a slight overstatement.
+
+Then name a range, not a point. If today sits above the median: kind, the multiple holds; base, it returns to the median; harsh, it falls to the resting band. If today sits below the median, the median is the kind case, today's multiple is the base, and the resting band or lower is the harsh case. Carry the break-even multiple beside them as your backstop. If your return survives the base case and your harsh case still sits above break-even, you never needed more precision. If it only works in the kind case, the price is doing the work, not the business, and you have found the same thing the Shriram tables found.
+
+## Every formula in one place
+
+The whole method, and part one's, is a dozen lines of arithmetic. Here they are with nothing else around them. The worked numbers are Shriram Pistons, Muthoot Finance and M&M above; these are the general forms, with the return you want written as 15%.
+
+**The two checks before you value anything**
+
+Work the multiple out yourself, watch it drift, and see how much profit turns into cash.
+
+*The real multiple, from the page's own two numbers*
+
+> Real multiple = Share price ÷ Earnings per share
+
+*Multiple drift a year: below zero means the business outgrew the price and the multiple shrank*
+
+    Drift = (1 + price growth) ÷ (1 + profit growth) − 1
+
+*Cash conversion: how much reported profit actually arrived as money*
+
+    Cash conversion = Five years of operating cash ÷ Five years of net profit
+
+**Reverse valuation, the long way (part one)**
+
+Four steps from the return you want to a revenue figure you can go and check.
+
+*Grow today's market value at the return you want*
+
+> Target value = Today's value × (1 + return wanted)^(years)
+
+*Assume the exit multiple, and the profit is forced*
+
+    Profit needed = Target value ÷ Exit multiple
+
+*That profit against today's, as a rate a year*
+
+    Growth needed = (Profit needed ÷ Profit today)^(1/years) − 1
+
+*The revenue that growth implies, at today's margin*
+
+    Revenue needed = Profit needed ÷ Net margin
+
+**Reverse valuation, the one line (part two)**
+
+The four steps folded into a single expression, and the identity it comes from.
+
+*The growth the price needs, adjusted for whatever the multiple does*
+
+> Growth needed = (1 + return wanted) × (Entry multiple ÷ Exit multiple)^(1/years) − 1
+
+*Where it comes from: your return is the profit growth compounded, times what the multiple did*
+
+    (1 + return)^(years) = (1 + growth)^(years) × (Exit multiple ÷ Entry multiple)
+
+**The lender swap (banks and NBFCs)**
+
+Read price against book, not profit, and the same line solves for book growth. The one number the profit multiple hides is return on equity.
+
+*The profit multiple is the book multiple with the return divided out*
+
+> PE = Price to book ÷ Return on equity
+
+*The one line again, book multiple in place of profit multiple*
+
+    Book growth needed = (1 + return wanted) × (Entry P/B ÷ Exit P/B)^(1/years) − 1
+
+*And the ceiling on that book growth, from the engine itself*
+
+    Book growth ceiling = Return on equity × (1 − dividend payout)
+
+That last line is why book growth cannot run ahead of return on equity for long. Keep more profit and the book grows faster, up to the full return if the lender pays no dividend at all. Beat it only by selling new shares, which grows the book with someone else's money.
+
+**Reading it the other way (fix growth, read the return)**
+
+Feed in the growth the business actually delivers, and the same identity hands you the return instead of demanding one.
+
+*The return, given a growth rate and an exit multiple you will accept*
+
+> Return = (1 + growth) × (Exit multiple ÷ Entry multiple)^(1/years) − 1
+
+*The exit multiple that just breaks you even, your margin of safety*
+
+    Break-even exit = Entry multiple ÷ (1 + growth) to the power of years
+
+*And what a sum of money becomes over the hold*
+
+    Value = Amount invested × (1 + growth)^(years) × (Exit multiple ÷ Entry multiple)
+
+Same identity as the one line above, rearranged. Fix the return and it gives the growth the price needs; fix the growth and it gives the return you get. The break-even exit is where a doubling of profit is exactly undone by the multiple halving.
+
+## What to ignore, what to watch
+
+**Ignore**
+
+* The trailing sales growth number on its own. Revenue bought with debt looks identical to revenue that was earned.
+* Any growth rate measured from FY21, on any company. It was a covid year.
+* A rising share price as evidence about the business. Here it rose 65% while profit rose 11%, so much of that increase came from the multiple expanding.
+
+**Watch**
+
+* Profit growth against sales growth each quarter. Does profit catch up as the acquisitions mature, or does the gap persist?
+* Net margin against today's 11.6%. Holding, expanding, or still falling?
+* How much of the next ₹1,000 crore of revenue is organic rather than acquired.
+* Whether the ₹1,968 crore of borrowings starts producing enough incremental profit to cover its cost.
+* The growth the price needs, recomputed after each result. It falls as the entry multiple falls.
+
+## The three questions, in order
+
+The method works on any company in about ten minutes; if it is a bank or an NBFC, swap the profit multiple for price-to-book and read book growth against return on equity. Shriram Pistons and Muthoot Finance are only the specimens.
+
+* What growth does this price need for the return I want, at an exit multiple lower than today's?
+* Which of the four growth windows is measured from a normal year, and what does that one say?
+* What revenue does each rate require by the exit year, and has this company or its industry ever produced that?
+* If sales growth and profit growth have separated, who paid for the difference?
+* How much of the historical profit growth was revenue and how much was margin, and how much margin is left?
+* Is this a lender? If so, run the whole check on price-to-book and book growth, with return on equity as the ceiling and the exit price-to-book as the drag.
+* Run it the other way too: if the record simply continues, what return does today's price give me, and how far can the multiple fall before I lose money?
+
+## History rhymes
+
+| This event | Rhymes with | Same mental model |
+|:--|:--|:--|
+| A good business whose price already contains the good news | Lupin in part one, where a low multiple was measuring earnings that were about to fall | The multiple carries a claim about the future in both directions. High or low, work out what growth it assumes before you argue with it. |
+| Revenue growing far faster than profit after acquisitions | Every roll-up in its second year, before the integration shows up | Bought revenue arrives whole and immediately. Bought profit arrives late, partly, or never. |
+| A decade of profit growth built on margin expansion | Any manufacturer whose net margin tripled off a low base | Volume can compound forever. Margin has a ceiling, and the closer you are to it the more the forward rate looks like the revenue rate. |
+| A lender that looks cheap on profit and full on book | Muthoot Finance at about ten times peak profit but 2.81 times book, its return on equity spiked to 31% for a year | For a lender the profit multiple hides the return on equity and rewards a peak year with a low number. Read price against book, and normalise the return before you carry it forward. |
+| A good business the market has quietly de-rated | M&M at about 19 times, below its own median, its multiple falling while profit compounded 16% | When the entry multiple is normal or low, the business does the work and the multiple is a cushion. Fix the growth, read the return, and the break-even multiple sits far below where it trades. |
+
+**Your turn**
+
+A capital goods company trades at 42 times earnings. Profit growth reads 28% over ten years, 55% over five, 31% over three and 6% over the last twelve months. Revenue grew 40% last year. Borrowings tripled in the same year. You want 18% a year for five years and you think the market will pay 25 times in 2031.
+
+1. What profit growth does the price need at a 25 times exit, and how does it compare with what the company grew last year?
+2. Which of the four growth windows would you carry forward, and why not the 55%?
+3. Revenue grew 40% and profit grew 6%. What is the first page of the accounts you open?
+4. What would have to be true for the 31% three-year rate to repeat?
+
+*Think it through first. Then check your reasoning.*
+
+>!1.18 times 42 over 25, all to the power of one fifth, minus one. That is about 30% a year, against 6% being delivered. The gap is the decision and you reached it in one line.!<
+
+>!The trailing 6%, unless you can show the five-year window does not start in a distorted year. A 55% rate that survives no scrutiny is worse than useless, because it is quotable.!<
+
+>!Borrowings. Revenue that outruns profit by thirty-four points in a year was usually bought, and the balance sheet says with what.!<
+
+>!Split the 31% into revenue growth and margin expansion. If most of it was margin and the margin is now near a historical high, the rate cannot repeat by the same route, and you need the revenue to do work it has never done.!<
+
+## Sources
+
+* [Screener: Shriram Pistons and Rings consolidated financials](https://www.screener.in/company/SHRIPISTON/consolidated/)
+* [SPR Auto Technologies (formerly Shriram Pistons and Rings)](https://shrirampistons.com/)
+* [Shriram Pistons and Rings to acquire 100% of TGPEL Precision Engineering](https://autocomponentsindia.com/shriram-pistons-rings-limited-to-acquire-100-shareholding-in-tgpel-precision-engineering-limited/)
+* [Acquisition announcement filed with the NSE, 11 May 2026](https://nsearchives.nseindia.com/corporate/SHRIPISTON_11052026225716_SEINTIMATIONPRESSRELEASE11052026.pdf)
+* [Screener: Muthoot Finance consolidated financials](https://www.screener.in/company/MUTHOOTFIN/consolidated/)
+
+**What the check is for**
+
+You need the multiple, the return you want, and an exit multiple you are willing to name. Those three give you the growth the price requires. Then compare that requirement with the company's cleanest historical growth rate, and translate it into a revenue figure with a date on it. On Shriram Pistons the cleanest rate is achievable and does not deliver 15%. The business is not the problem. The price is asking for a better future than the record currently supports.
+
+**One sentence to remember**
+
+A multiple is a growth forecast somebody else already made. Read it before you decide whether you agree with it.
+
+---
+
+*Signals explain how to think about past and present events for learning. They are not predictions or advice, and past performance never guarantees future results.*
+
+**Educational use only.** Fathom is not a SEBI-registered investment adviser, and nothing on this site is a recommendation, an offer, or a solicitation to buy or sell any security. Benchmarks and rules of thumb are teaching aids, not thresholds to trade on. The content is general in nature, may contain errors or omissions, and can become outdated; past performance never guarantees future results. Any decision you take based on anything you read here is entirely your own responsibility, and Fathom accepts no liability for any loss or damage that may result. Always do your own research, and consult a SEBI-registered investment adviser and your tax adviser before investing.

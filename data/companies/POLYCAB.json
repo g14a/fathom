@@ -1,0 +1,305 @@
+{
+  "ticker": "POLYCAB",
+  "company": "Polycab India Ltd",
+  "latest": {
+    "period": "Q2 FY27 (Jul-Sep 2026)",
+    "published": "2026-10-15",
+    "headline": "Revenue up 53%, profit up 43%, and most of the revenue jump is copper.",
+    "body": [
+      "Polycab reported its July-September quarter on 15 October 2026. Revenue rose 53% to ₹9,899 crore and profit rose 43% to ₹990 crore, both records.",
+      "Now the line that matters more than the headline. Management said on the call that volumes, the actual metres of wire and cable sold, grew in the mid to high single digits: wires in the early double digits, cables in the mid single digits. So most of that 53% is the price of copper, which hit record highs in September, flowing through the bill. The business sold a bit more. Its customers paid a lot more per metre.",
+      "The quiet win was in fans, switches and lights, the side business called FMEG (fast-moving electrical goods). Its revenue more than doubled and its operating margin crossed 10% for the first time, from 2.7% for the whole of FY26. That segment lost money not long ago.",
+      "Management declined to guide revenue for the rest of the year. Asked about copper, the answer was that nobody has a view on it right now. That is honest, and it is also the biggest unknown in the next two quarters."
+    ],
+    "figures": [
+      { "label": "Revenue", "value": "₹9,899 cr", "hint": "+53% YoY" },
+      { "label": "Net Profit", "value": "₹990 cr", "hint": "+43% YoY", "tone": "good" },
+      { "label": "Volume growth", "value": "Mid-high single digit", "hint": "per management; revenue grew 53%", "tone": "neutral" },
+      { "label": "FMEG EBIT margin", "value": "10.1%", "hint": "vs 2.7% in FY26", "tone": "good" }
+    ],
+    "sources": [
+      { "label": "Q2 FY27 earnings call highlights (GuruFocus)", "url": "https://www.gurufocus.com/news/9126223/polycab-india-ltd-bom542652-q2-2027-earnings-call-highlights-record-revenue-53-growth-and-fmeg-margins-crossing-double-digits" },
+      { "label": "Q2 FY27 results summary (Kalkine)", "url": "https://www.kalkine.co.in/article/industrials/polycab-india-q2-fy27-record-quarter-as-profit-jumps-43-and-revenue-surges-53" },
+      { "label": "Q2 FY27 slides (Investing.com)", "url": "https://uk.investing.com/news/stock-market-news/polycab-q2-fy27-slides-record-revenue-up-53-fmeg-margins-hit-10-93CH-4912804" }
+    ]
+  },
+  "sector": "Industrials",
+  "industry": "Wires & Cables",
+  "dataVariant": "Consolidated",
+  "asOf": "2026-11-20",
+  "oneLiner": "Polycab's profit grew 28% last year and its share price went nowhere. Part of that profit is copper getting dearer, and part of the fear is a cement giant that has barely started selling wire.",
+  "verdict": {
+    "rows": [
+      { "label": "Business", "value": "Leader, still gaining share", "tone": "good" },
+      { "label": "Moat", "value": "Narrow: scale and shelf", "tone": "warn" },
+      { "label": "Growth", "value": "Real, but copper-inflated now", "tone": "warn" },
+      { "label": "Governance", "value": "Two scares, both cleared so far", "tone": "warn" },
+      { "label": "Valuation", "value": "36x, below its own 41x median", "tone": "warn" }
+    ],
+    "keyQuestion": "When copper stops rising, how much of the profit growth is left, and is that enough to earn a return at 36 times earnings?"
+  },
+  "facts": {
+    "snapshot": "Polycab India is the country's largest maker of electrical wires and cables, from the house wire inside your walls to heavy power cables for factories and grids. It also sells fans, switches, lights and other electrical goods.",
+    "hq": "Mumbai"
+  },
+  "overview": "Look behind any switchboard in an Indian home and there is a decent chance the wire running into it says Polycab. That house wire is one end of the business. The other end is thick power cable laid under roads, into factories, solar farms and data centres. In between sits a smaller, newer side business of fans, switches and lights. Nearly nine of every ten rupees still come from wires and cables, and almost everything inside a cable is copper, so this company is, in a real sense, a copper processor with a famous name. That last detail decides how you should read its numbers, because when copper gets expensive, Polycab's revenue swells even if it sells exactly the same length of wire.",
+  "editorial": {
+    "realBusiness": "Polycab looks like an electrical goods company. What it actually does is turn copper into the wire electricians already trust, at a scale nobody else in India matches.",
+    "whyExists": "A wire is invisible once the wall is plastered, and a bad one starts fires. So the buyer, usually an electrician or a contractor, wants a name that will not get them a callback. Polycab exists because it makes that choice easy: the wire is everywhere, in every gauge, and the electrician already knows it works.",
+    "whyNotAlreadyWon": "Because the product itself is simple. Copper plus insulation, made to a public standard, is not a secret. What is hard is everything around it: buying copper in bulk at the best price, a dealer on every market street, and enough electricians who ask for the brand by name. That takes decades and a lot of working capital, and it is why the industry slowly consolidated toward a few names instead of being won outright. It is also exactly the kind of advantage a group with deep pockets and its own dealer network can try to buy, which is why UltraTech's entry made the market nervous.",
+    "mentalModels": [
+      { "model": "Cost-plus pass-through", "assessment": "Defining", "assessmentTone": "warn", "why": "Copper price flows straight into revenue. Rupee growth overstates volume growth when copper rises." },
+      { "model": "Scale in procurement", "assessment": "Strong", "assessmentTone": "good", "why": "The biggest copper buyer in the industry gets the best terms and spreads fixed costs widest." },
+      { "model": "Distribution", "assessment": "Strong", "assessmentTone": "good", "why": "Being on every dealer's shelf, in every gauge, is the real barrier for a simple product." },
+      { "model": "Formalisation", "assessment": "Strong", "assessmentTone": "good", "why": "Unbranded wire keeps losing share to organised players, and the biggest organised player gains most." },
+      { "model": "Pricing power", "assessment": "Mixed", "assessmentTone": "warn", "why": "It can pass copper on, but it cannot charge much above rivals. The margin is set by the industry." },
+      { "model": "Governance", "assessment": "Watch", "assessmentTone": "warn", "why": "A 2023 tax search and a 2026 insolvency petition. Both went the company's way, neither should be forgotten." }
+    ],
+    "economicEngine": [
+      { "label": "Demand", "value": "Construction, power, factories", "note": "Every new building, grid line and plant needs wire." },
+      { "label": "Share shift", "value": "Unbranded to organised", "note": "The pie grows and the biggest slice grows faster." },
+      { "label": "Volume", "value": "Metres sold", "note": "The real measure of growth. Management guides 11-13% long-term." },
+      { "label": "Price per metre", "value": "Copper, passed on", "note": "Swells revenue when copper rises, shrinks it when copper falls." },
+      { "label": "Margin", "value": "11-13% guided", "note": "Roughly a steady percentage of a moving bill." },
+      { "label": "Capital", "value": "Low debt, tight working capital", "note": "Growth is funded from its own cash." },
+      { "label": "Returns", "value": "ROE 24%, ROCE 33%", "note": "Better returns than any listed cable peer." }
+    ],
+    "strategicPosition": [
+      { "label": "Unbranded and regional makers", "description": "Cheapest, but losing share every year to organised brands.", "tone": "weak" },
+      { "label": "Polycab", "description": "The largest organised player by a wide margin, about 30% of the organised market by its own estimate.", "tone": "focus" },
+      { "label": "KEI, Havells, RR Kabel, Finolex, and now UltraTech", "description": "Strong rivals in specific niches, plus a cement giant entering house wire with its own dealer network.", "tone": "strong" }
+    ],
+    "winningToday": [
+      "Market share in organised wires and cables rose from 26-27% to 30-31% in FY26, by the company's estimate.",
+      "Fans, switches and lights finally make real money, with margins above 10% in the latest quarter.",
+      "Working capital tightened sharply, so growth costs less of its own cash.",
+      "Power grids, solar and data centres all need heavy cable at the same time."
+    ],
+    "stopWinning": [
+      "UltraTech or Adani buy share in house wire with price cuts and their own dealer networks.",
+      "Copper falls hard and the inventory bought at high prices turns into losses.",
+      "A governance surprise that does not get resolved in the company's favour.",
+      "Exports stay stuck near 3-5% of revenue instead of reaching the 10% target."
+    ],
+    "marketBets": [
+      "New entrants take share slowly or not at all.",
+      "Volume growth stays near the 11-13% long-term range once copper settles.",
+      "FMEG margins hold near 10% instead of slipping back.",
+      "The heavy-cable plant lands on schedule and replaces imports."
+    ],
+    "sectorModels": [
+      { "model": "Pricing power", "reading": "Weak", "note": "Copper is passed on, but the margin on top is set by competition." },
+      { "model": "Industry structure", "reading": "Consolidating", "note": "Organised players keep taking share from unbranded wire." },
+      { "model": "Capital intensity", "reading": "Moderate", "note": "Plants are cheap relative to sales. Copper inventory is the real capital." },
+      { "model": "Commodity exposure", "reading": "High", "note": "Copper moves revenue, and sharp falls can hurt profit through inventory." },
+      { "model": "Entry barriers", "reading": "Medium", "note": "Easy to make wire, hard to get on every shelf. Deep pockets can try." }
+    ],
+    "whyNow": "In June 2026 you were paying about 59 times earnings for Polycab. Five months later you pay 36 times, and the earnings are higher. Several things landed in that window. Copper peaked in September and started to fall, which made the market ask how much of the profit was metal. UltraTech switched on its wire plant on 1 September. And in October a tribunal briefly admitted an insolvency case against the company over a ₹2.78 crore dispute, which got the stock pulled from the derivatives market before the order was overturned. None of those changed what the business earns today. All of them changed what people will pay for it.",
+    "remember": "Polycab is paid a steady slice of a copper bill, so the bill tells you about copper and the metres tell you about Polycab."
+  },
+  "business": {
+    "unitOfRevenue": "A metre of wire or cable. Think of a caterer who bills you the cost of the ingredients plus a fixed percentage on top. When vegetables double in price, the bill doubles and the caterer's rupee cut doubles too, even though not one more plate was served. Polycab works the same way with copper. The price per metre moves with the metal, and Polycab keeps roughly a steady slice of it. So the number to watch is plates, the metres sold, not the size of the bill.",
+    "revenueModel": "Product sales through dealers and distributors for house wire and fans, and direct sales or tenders for heavy power cable to builders, utilities and industry. A small EPC arm (building electrical projects for clients) adds lumpy project revenue. Exports were 5.4% of FY26 revenue, mostly to North America.",
+    "segments": [
+      { "name": "Wires & Cables", "pct": 87, "marginProfile": "The core. EBIT 14.2% in Q2 FY27; guided 11-13% EBITDA long-term." },
+      { "name": "FMEG (fans, switches, lights)", "pct": 7, "marginProfile": "Was 2.7% EBIT in FY26, 10.1% in Q2 FY27. The swing factor." },
+      { "name": "EPC projects", "pct": 6, "marginProfile": "About 10% EBIT, lumpy, shrank in FY26." }
+    ],
+    "revenuePerUnitTrend": "Up sharply, for the wrong reason to celebrate. Revenue per metre rose because copper surged in 2026, not because Polycab started charging more for the same thing. The part of the trend that is genuinely Polycab's is mix: more heavy cable for data centres and grids, and an FMEG business finally earning a double-digit margin. When copper falls, revenue per metre falls with it, and that will look like a slowdown even if the metres keep growing.",
+    "industry": {
+      "structure": "Consolidating oligopoly at the top, long fragmented tail below. Organised players hold most of the market and keep taking share from unbranded wire.",
+      "competitors": "KEI (strong in power cable and institutional sales), Havells, RR Kabel and Finolex in wires. UltraTech entered house wire with its Ultravolt brand in September 2026; Adani announced a cables joint venture in March 2025.",
+      "pricingPower": "Moderate. Copper is passed on to the customer, but the margin on top is set by what rivals charge. Polycab's edge is cost and reach, not the ability to charge more.",
+      "demandDriver": "Construction (homes and offices), power transmission and renewables, factories, and data centres. Each needs metres of copper laid somewhere.",
+      "driverType": "Cyclical underneath (real estate and capex cycles), with a structural layer on top from formalisation and grid spending.",
+      "tam": "About $23 billion in 2026, projected near $36 billion by 2031 (Mordor Intelligence, about 9% a year). Organised players booked roughly ₹1 lakh crore of revenue in FY26.",
+      "penetration": "Polycab claims 30-31% of the organised domestic market in FY26, up from 26-27%. Independent estimates sit lower, around 25-27%, so treat the company figure as an upper bound.",
+      "valueChainPosition": "Midstream converter. It buys copper (all imported) and sells finished wire, so the value it adds is processing, brand and distribution, not the metal."
+    },
+    "qualityVerdict": "Is it well run? The operating record says yes, without much argument. The company took about four points of market share in a single year while its biggest rivals were also growing. Working capital days fell from 54 to 30 in FY26. And the fans-and-switches business, which barely made money a year ago, now earns a double-digit margin. That is management fixing the weak part of the company rather than talking around it. Debt is almost nil. The honest blemish is not operational. It is that this company has twice in three years been in the headlines for the wrong reasons, a tax search in December 2023 and an insolvency petition in October 2026. Both went its way. A careful owner remembers them anyway."
+  },
+  "scenario": {
+    "title": "What you earn if you fix the growth",
+    "intro": "Instead of guessing a target price, pick a profit growth rate you believe, pick the multiple you think the market pays in five years, and read off your yearly return. This is the price restated as a demand on the business.",
+    "assumptions": "Start: ₹7,515 a share, 35.9 times trailing earnings of ₹209.56 (20 Nov 2026). Five years. Return = (1 + growth) × (exit multiple ÷ 35.9)^(1/5) − 1. Dividends, about 0.6% a year, are left out.",
+    "columns": ["Exit at 20x", "Exit at 25x", "Exit at 30x", "Exit at 35.9x (unchanged)", "Exit at 41.4x (its median)"],
+    "rows": [
+      { "label": "Profit grows 10% a year", "cells": ["-2.1%", "+2.3%", "+6.1%", "+10.0%", "+13.2%"], "tone": "bad" },
+      { "label": "Profit grows 15% a year", "cells": ["+2.3%", "+7.0%", "+10.9%", "+15.0%", "+18.3%"], "tone": "warn" },
+      { "label": "Profit grows 20% a year", "cells": ["+6.8%", "+11.6%", "+15.8%", "+20.0%", "+23.5%"], "tone": "good" },
+      { "label": "Profit grows 25% a year", "cells": ["+11.2%", "+16.3%", "+20.6%", "+25.0%", "+28.6%"], "tone": "good" }
+    ],
+    "takeaway": "Read down the 30x column, which assumes some further derating. At 15% growth you earn about 11% a year. At 20% you earn about 16%. So the whole question is which row Polycab lives in once copper stops helping. The cushion is real: at 20% growth the multiple can fall all the way to 14.4 times before you lose money, and at 15% growth to 17.8 times.",
+    "bullSignals": [
+      "Volume growth, not revenue growth, stays in double digits through a copper decline.",
+      "FMEG margin holds near 10% for several quarters.",
+      "UltraTech's launch does not show up as a slowdown in Polycab's wire volumes."
+    ],
+    "bearSignals": [
+      "Revenue falls with copper and profit falls faster, showing inventory losses.",
+      "Wire volumes slow while UltraTech and Adani ramp up.",
+      "Management starts talking about price cuts to defend share."
+    ]
+  },
+  "valuation": [
+    { "label": "Market Cap", "value": "₹1,13,259 cr" },
+    { "label": "Current Price", "value": "₹7,515" },
+    { "label": "52W High / Low", "value": "₹10,129 / ₹6,660" },
+    { "label": "Stock P/E", "value": "35.9", "hint": "check: 7,515 / 209.56 = 35.9; own median since listing ~41", "tone": "neutral" },
+    { "label": "P/B", "value": "8.6", "hint": "on book value of ₹869", "tone": "bad" },
+    { "label": "EPS (TTM)", "value": "₹209.56" },
+    { "label": "Dividend Yield", "value": "0.63%" }
+  ],
+  "financials": [
+    { "year": "FY22", "revenue": 12204, "netProfit": 917, "eps": 60.8, "patMargin": 7.5 },
+    { "year": "FY23", "revenue": 14108, "netProfit": 1282, "eps": 84.8, "patMargin": 9.1 },
+    { "year": "FY24", "revenue": 18039, "netProfit": 1803, "eps": 118.75, "patMargin": 10.0 },
+    { "year": "FY25", "revenue": 22408, "netProfit": 2046, "eps": 134.28, "patMargin": 9.1 },
+    { "year": "FY26", "revenue": 28884, "netProfit": 2708, "eps": 177.48, "patMargin": 9.4 }
+  ],
+  "ratios": [
+    { "label": "ROE", "value": "23.6%", "hint": "up from 21% (10Y avg)", "tone": "good" },
+    { "label": "ROCE", "value": "33.2%", "tone": "good" },
+    { "label": "OPM", "value": "14%", "hint": "flat at 13-14% for four years", "tone": "neutral" },
+    { "label": "Debt / Equity", "value": "0.02", "hint": "₹272 cr borrowings", "tone": "good" },
+    { "label": "Working capital days", "value": "30", "hint": "from 54 in FY25", "tone": "good" },
+    { "label": "Debtor days", "value": "48", "hint": "from 42 in FY25", "tone": "neutral" }
+  ],
+  "cashFlow": [
+    { "year": "FY24", "ocf": 1296, "capex": 858, "fcf": 438 },
+    { "year": "FY25", "ocf": 1809, "capex": 956, "fcf": 853 },
+    { "year": "FY26", "ocf": 3811, "capex": 1471, "fcf": 2340 }
+  ],
+  "cashFlowNote": "Over five years, operating cash flow came to 101% of reported profit, so the earnings are real cash. FY26 looks spectacular: ₹3,811 crore of operating cash against ₹2,708 crore of profit, and ₹2,340 crore left after capex. Look at where it came from before you extrapolate it. Customers did not pay faster; debtor days actually rose from 42 to 48. What changed is that Polycab paid its suppliers more slowly, with payable days jumping from 64 to 108, and other liabilities on the balance sheet more than doubled to ₹8,220 crore. The accounts do not say why, and buying imported copper on longer credit while the metal is surging would produce exactly this pattern. That cash is borrowed from suppliers, not earned. If payable days drift back toward their usual 70-80, a chunk of FY26's cash flow reverses. Not a red flag. Just not the new normal.",
+  "growth": [
+    { "label": "Sales CAGR 5Y", "value": "27%", "tone": "good" },
+    { "label": "Sales growth TTM", "value": "41%", "hint": "copper-inflated; volumes grew far less", "tone": "neutral" },
+    { "label": "Profit CAGR 10Y", "value": "30%", "tone": "good" },
+    { "label": "Profit CAGR 5Y", "value": "24%", "tone": "good" },
+    { "label": "Profit CAGR 3Y", "value": "29%", "tone": "good" },
+    { "label": "Stock CAGR 1Y", "value": "-1%", "hint": "profit did +28% TTM", "tone": "neutral" }
+  ],
+  "management": "Founder-led by the Jaisinghani family, with Inder T. Jaisinghani as chairman and managing director. Judge them on what they delivered, which the business section above lays out: share gains, a consumer business fixed rather than explained away, and almost no debt. On the evidence, these are operators. Two things deserve your attention. First, the promoter stake has come down from 65.78% in December 2023 to 61.44%, mostly in two steps in the September 2024 and September 2025 quarters. That is a slow sell-down from a high base, not an exit, but it is selling. Second, the governance record has two dents. In January 2024 the tax department said a December 2023 search found about ₹1,000 crore of unaccounted cash sales; the company denied it, and in June 2026 the Income Tax Appellate Tribunal in Mumbai upheld the deletion of the search additions, according to published summaries of the order. The tax department may still appeal. A careful owner keeps that file open.",
+  "holding": [
+    { "label": "Promoter", "pct": 61.44, "qoqChange": -0.02 },
+    { "label": "FII", "pct": 18.06, "qoqChange": -0.94 },
+    { "label": "DII", "pct": 7.91, "qoqChange": 0.29 },
+    { "label": "Public", "pct": 12.6, "qoqChange": 0.68 }
+  ],
+  "moat": {
+    "strength": "narrow",
+    "label": "Narrow: scale and shelf space",
+    "sources": [
+      "Largest copper buyer in the industry, so the lowest cost per metre",
+      "Dealer reach in every market, in every gauge",
+      "Electrician and contractor habit: the wire they already trust",
+      "Breadth from house wire to extra-high-voltage cable"
+    ],
+    "note": "The moat is not the wire. Anyone can make wire to the public standard. It is being the cheapest at scale and being on every shelf when the electrician walks in. That is real, and the share Polycab took in FY26 says it is still widening. The honest caveat is that this kind of moat can be attacked with money. A rival with its own nationwide dealer network, which is precisely what UltraTech brings from cement, does not need decades to get onto shelves. It needs a few years and a willingness to earn less."
+  },
+  "caseStudies": [
+    {
+      "title": "Two scares that did not touch the earnings",
+      "period": "Dec 2023 to Oct 2026",
+      "body": [
+        "In December 2023 the income tax department searched Polycab's premises. In January 2024 it said it had found about ₹1,000 crore of unaccounted cash sales and more than ₹400 crore of unaccounted cash payments made by a distributor on the company's behalf. The stock fell about 20% in a day. Polycab denied any evasion and said it had received no communication on the outcome.",
+        "Then the business kept reporting. Profit went from ₹1,803 crore in FY24 to ₹2,708 crore in FY26. In June 2026 the Income Tax Appellate Tribunal in Mumbai ruled on the department's appeals for assessment years 2015-16 to 2023-24 and, according to published summaries, upheld the deletion of the search additions.",
+        "The second scare was stranger. On 7 October 2026 the National Company Law Tribunal admitted an insolvency petition against Polycab, a company worth over ₹1 lakh crore, over a disputed ₹2.78 crore bill from a metal supplier. The exchange moved to pull the stock from the derivatives segment and the share price fell about 4%. Two days later the appeals tribunal stayed the order, and on 30 October it set the insolvency proceedings aside entirely."
+      ],
+      "lesson": "A headline can move a share price 20% in a day while the profit line does not move at all. When that happens, the question to ask is whether the event changes what the business earns. The first scare might have, if the tax case had gone the other way. The second never could."
+    }
+  ],
+  "narrative": "Polycab listed in April 2019 and has been a story of steady compounding ever since. Revenue grew from ₹8,830 crore in FY20 to ₹28,884 crore in FY26, and profit from ₹766 crore to ₹2,708 crore, with only one year (FY21) when sales did not grow. Along the way it survived a tax raid that knocked 20% off the stock in January 2024, then two entry announcements in a single month in early 2025: UltraTech's ₹1,800 crore plan for wires and cables in February, which took the stock down as much as 15% in a day, and Adani's cables joint venture in March. In FY26 it delivered its best year: market share up about four points, FMEG finally profitable at scale, and working capital cut nearly in half. The stock ran to just above ₹10,000 by June 2026, then gave back a quarter of that by October as copper peaked, UltraTech's plant started and the insolvency scare hit. It now sits at ₹7,515, almost exactly where it was a year ago.",
+  "risks": [
+    "Copper reversal. Copper hit records in September 2026 and has already slipped from the peak. A sharp fall shrinks revenue and can create inventory losses on metal bought high, which would hit profit for a few quarters. Medium-High.",
+    "New entrants with deep pockets. UltraTech's Ultravolt started production on 1 September 2026, aimed at house wire and light cables, through 20-plus warehouses and its own dealer network. Adani has a cables joint venture. Neither shows up in Polycab's numbers yet. Medium.",
+    "Governance tail. The tax tribunal ruling went Polycab's way, but the department may appeal, and the original allegation was serious. Medium-Low.",
+    "Working capital reversal. FY26's cash flow leaned on slower supplier payments. If payable days normalise, cash flow dips even while profit grows. Low-Medium.",
+    "Exports stuck. Exports fell to 3.3% of revenue in Q1 FY27 against a target above 10% by FY30. Low."
+  ],
+  "trapChecklist": [
+    { "label": "Profit up, cash flow not", "status": "pass", "note": "5Y operating cash flow 101% of profit" },
+    { "label": "Receivables blowing up", "status": "pass", "note": "Debtor days 48, up from 42 but well below history" },
+    { "label": "Growth on a trough base", "status": "pass", "note": "Profit CAGR 30/24/29% across 10/5/3 years. No trough." },
+    { "label": "Revenue inflated by input prices", "status": "warn", "note": "Copper drives the bill; judge growth on metres sold" },
+    { "label": "Margin jump", "status": "pass", "note": "OPM 13-14% for four years" },
+    { "label": "Promoter selling", "status": "warn", "note": "65.78% to 61.44% since Dec 2023" },
+    { "label": "Governance events", "status": "warn", "note": "2023 tax search, 2026 insolvency petition; both resolved in its favour so far" },
+    { "label": "Leverage", "status": "pass", "note": "Debt/equity 0.02" }
+  ],
+  "sectorChecklist": [
+    { "label": "Volume growth vs revenue growth", "status": "warn", "note": "Volume mid-high single digit, revenue +53% in Q2 FY27" },
+    { "label": "Market share trend", "status": "pass", "note": "26-27% to 30-31% of organised market in FY26 (company estimate)" },
+    { "label": "Copper pass-through", "status": "pass", "note": "OPM held at 14% through the copper surge" },
+    { "label": "New capacity", "status": "pass", "note": "Extra-high-voltage plant due end CY26; about half of domestic EHV demand is imported today" },
+    { "label": "Competitive intensity", "status": "warn", "note": "UltraTech live since Sep 2026, Adani JV announced" }
+  ],
+  "summary": "A market leader that is still gaining share, has fixed its weak segment and carries no debt, priced below its own historical median. Two honest asterisks: today's profit growth is partly copper, and the competitors the market fears have not yet shown up in a single quarter. Whether this is a good business at a fair price or a fair price ahead of a harder fight is something the next few quarters of volume data will settle.",
+  "engine": {
+    "state": "earnings-engine",
+    "earningsLabel": "Earnings engine: plates vs the bill",
+    "earnings": "Profit has compounded 30%, 24% and 29% a year over ten, five and three years, and 28% over the last twelve months, all backed by cash. No trough year is flattering those numbers. Now separate the bill from the plates. The September quarter showed the gap plainly (see the note at the top): the bill grew several times faster than the metres. The gap is copper. Because Polycab keeps a roughly steady percentage of the bill, a dearer bill means more rupees of profit without more wire sold. That is real money, but it is not repeatable growth, and it runs in reverse when copper falls. The parts that are repeatable: volume growth that management guides at 11-13% over the long run, FMEG margins that have crossed 10%, and an extra-high-voltage cable plant due by the end of 2026 that replaces imports from FY28.",
+    "multipleLabel": "Multiple engine: compressed while returns rose",
+    "multiple": "The market has paid as little as 13.6 times earnings for Polycab (May 2020) and as much as 63 times (December 2024). Its median since listing is about 41. Today it is 35.9. Over three years the price grew 12% a year while profit grew 29%, so the multiple shrank about 13% a year; over the last year it shrank about 23%. Now check the referee. Return on equity went 21%, 22%, 23%, 24% across the ten, five, three and one year windows. A multiple that falls while returns rise is not the market correcting an overpriced business. It is the market doubting the profit underneath, mostly because of copper and the new entrants.",
+    "verdict": "My honest read: this is the rare large company where the business got better and the stock went nowhere, and the multiple now sits below its own median after a year of rising returns. Both engines look like they are pointing the right way. But the earnings engine is running partly on copper, and I cannot tell you where copper goes; management told analysts the same thing. If underlying growth settles near 15%, you are paying a fair price for a very good business and not much more. If it holds near 20%, the price is generous. The new entrants are the thing that decides which, and the evidence on them does not exist yet."
+  },
+  "lenses": [
+    {
+      "name": "Convergence pair: Polycab and KEI",
+      "reading": "Polycab is worth 3.2 times KEI (₹1,13,259 crore against ₹35,609 crore) and earns 3.0 times its profit (₹3,202 crore against ₹1,056 crore). The two trade at almost the same multiple, 35.9 and 33.7. Yet Polycab earns 24% on equity to KEI's 15%. You are getting the better returns for almost no premium, which says the market is pricing the whole sector's fears, not Polycab's own record."
+    },
+    {
+      "name": "Maginot line: the flank UltraTech attacks",
+      "reading": "Where does Polycab's moat not defend? House wire is sold through dealers, and Polycab's advantage there is shelf space built over decades. UltraTech skips that work by using the dealer network it already has for cement, which reached 500 districts and 6,000 pin codes at launch. It is starting exactly where shelf space matters most, house wire and light cables, and not in heavy power cable, where Polycab's engineering and approvals are harder to copy."
+    },
+    {
+      "name": "Foreshock: any slowdown quarter?",
+      "reading": "One soft quarter in the last eight: March 2026 profit grew only 7%. It was followed by 33% and 43%. That is not a foreshock pattern yet. The quarter to watch is the first one where copper falls meaningfully, because that is when revenue growth and volume growth stop telling the same story."
+    },
+    {
+      "name": "Operator or storyteller?",
+      "reading": "Asked about copper on the Q2 FY27 call, management said nobody has a view on it right now, and declined to guide revenue. A storyteller would have given you a number. Combined with the share gains and the working capital cut, the language matches the record."
+    }
+  ],
+  "outlook": {
+    "intro": "Nothing here is a forecast. These are the dials that will tell you which row of the return table Polycab ends up in.",
+    "areas": [
+      {
+        "title": "Copper",
+        "facts": [
+          "LME copper hit record highs in September 2026, with reported peaks near $14,875 a tonne.",
+          "By 20 November it had eased to about $13,200 a tonne.",
+          "Polycab imports all its copper and kept its operating margin at 14% through the surge."
+        ],
+        "watch": "When copper falls, does profit fall only with revenue (pass-through working), or faster (inventory losses)?"
+      },
+      {
+        "title": "The new entrants",
+        "facts": [
+          "UltraTech's Ultravolt plant in Bharuch began commercial production on 1 September 2026, with capacity of about 10.98 lakh km of house wire and light cable.",
+          "UltraTech plans to triple that over five years.",
+          "Adani announced a cables joint venture in March 2025."
+        ],
+        "watch": "Do Polycab's wire volumes, specifically, slow over the next four quarters? Cables can hide a slowdown in wires."
+      },
+      {
+        "title": "Fans, switches and lights",
+        "facts": [
+          "FMEG EBIT margin was 2.7% for FY26 and 10.1% in Q2 FY27.",
+          "Management targets 8-10% EBITDA by FY30, a level the segment reached early."
+        ],
+        "watch": "Does the 10% hold for several quarters, or was one strong quarter flattering it?"
+      }
+    ],
+    "loadingEngines": [
+      {
+        "name": "Extra-high-voltage cable plant",
+        "whatItIs": "Heavy cable for transmission grids, a market where about half of domestic demand is met by imports today.",
+        "notYetInPnL": "The plant is still being built. Commissioning is expected around the end of 2026.",
+        "whenItLands": "FY28"
+      }
+    ],
+    "closer": "The next few quarters, and especially the first quarter of falling copper, should answer most of these."
+  },
+  "sectorId": "infrastructure"
+}
