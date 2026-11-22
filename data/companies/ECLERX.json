@@ -1,11 +1,34 @@
 {
   "ticker": "ECLERX",
   "company": "eClerx Services Ltd",
+  "latest": {
+    "period": "Q2 FY27 (Jul-Sep 2026)",
+    "published": "2026-10-28",
+    "headline": "Revenue grew 18%, profit did not grow at all, and new deal wins slowed as clients test AI.",
+    "body": [
+      "eClerx reported its July-September quarter on 28 October 2026. Revenue from operations rose 18% to ₹1,189 crore. Profit was ₹181 crore, about 1% lower than a year ago. The stock fell nearly 12% the next morning.",
+      "Why did profit stand still while revenue grew? Start with the rupee. eClerx bills its clients in dollars, and in dollars revenue grew 10.6% to $127.7 million. A weaker rupee turned that into 18% once converted. Then the margin. The operating margin (what eClerx keeps from each rupee of revenue before depreciation, interest and tax) was 23.9%, against about 26.7% a year ago. It did rise 0.9 points from the June quarter, but management said almost all of that came from the currency, not the business.",
+      "The number that matters most for this report is new deals. Deals won in April-September were about 8% below the same half last year, and September was weaker than June. Management's explanation: clients are taking longer to decide and starting with smaller deals while they test AI. That is the AI fork below turning up in real orders. On the other side of the ledger, analytics and automation, the higher-value work, grew about 27% from a year ago.",
+      "Management kept its full-year margin range of 24-28% and now expects the banking business to recover in the January-March quarter rather than October-December. Watch the next quarter's deal wins. They will show whether small AI pilots grow into full programmes or simply replace the bigger deals eClerx used to sign."
+    ],
+    "figures": [
+      { "label": "Revenue", "value": "₹1,189 cr", "hint": "+18% YoY; +10.6% in USD" },
+      { "label": "Net Profit", "value": "₹181 cr", "hint": "-1% YoY; +10% QoQ", "tone": "neutral" },
+      { "label": "Operating EBITDA Margin", "value": "23.9%", "hint": "vs ~26.7% a year ago; mostly forex lift QoQ", "tone": "bad" },
+      { "label": "H1 deal wins", "value": "~$72m", "hint": "about 8% below H1 FY26", "tone": "bad" }
+    ],
+    "sources": [
+      { "label": "Angel One, results summary", "url": "https://www.angelone.in/news/stocks/e-clerx-services-share-price-falls-nearly-12-after-q2-fy27-results" },
+      { "label": "CXOToday, company results release", "url": "https://cxotoday.com/media-coverage/eclerx-reports-strong-q2-fy2026-27-results-revenue-stands-at-inr-1212-6-crore-up-17-1-yoy/" },
+      { "label": "Multibagg, earnings call on deal wins and AI pilots", "url": "https://www.multibagg.ai/market-pulse/articles/eclerx-ai-pilots-delay-acv-concall-cmw34hy6200512gta9a9g76u4" },
+      { "label": "Sovrenn, concall summary", "url": "https://www.sovrenn.com/concall-summary/eclerx-services" }
+    ]
+  },
   "sector": "Information Technology",
   "industry": "Knowledge Process Outsourcing (BPM)",
   "sectorId": "businessservices",
   "dataVariant": "Consolidated",
-  "asOf": "2026-08-08",
+  "asOf": "2026-11-22",
   "oneLiner": "eClerx does the specialised back-office grind big banks would rather not touch, and it does it brilliantly: growing 22%, earning 35% on capital. Yet the stock has de-rated, because it gets paid by the head, and AI is coming for exactly that kind of work.",
   "verdict": {
     "rows": [
@@ -13,7 +36,7 @@
       { "label": "Balance sheet", "value": "Net cash", "tone": "good" },
       { "label": "Moat", "value": "Narrow", "tone": "warn" },
       { "label": "AI risk", "value": "Per-head model exposed", "tone": "bad" },
-      { "label": "Valuation", "value": "~23x, de-rated", "tone": "warn" }
+      { "label": "Valuation", "value": "~19x, de-rated", "tone": "warn" }
     ],
     "keyQuestion": "The operator is superb. Does AI erode the per-head model faster than the pivot to value-added work can grow?"
   },
@@ -158,7 +181,7 @@
         "note": "Top-10 at ~59%, improving but still meaningful."
       }
     ],
-    "whyNow": "The stock fell about 14% over the past year while profit grew 30%, so the multiple squeezed from the high-20s down toward 23x. This year's numbers are not the worry. What the market is pricing is what AI does to the model over the next several years, and that argument is laid out in the AI fork below. If the market is overrating the damage AI does, the lower multiple could turn out cheap. If the economics really are eroding, it may not be cheap enough.",
+    "whyNow": "The stock fell about 31% over the past year while trailing profit still grew 18%, so the multiple squeezed from the high-20s down to about 19x. The yearly numbers still look fine. What changed is that the September quarter handed the worriers their first hard data point: new deal wins slowed as clients tested AI with smaller pilots, and the stock dropped nearly 12% in a day. What the market is pricing is what AI does to the model over the next several years, and that argument is laid out in the AI fork below. If the market is overrating the damage AI does, the lower multiple could turn out cheap. If the economics really are eroding, it may not be cheap enough.",
     "remember": "eClerx is a superb operator standing on ground the tide is coming for. Judge it on whether AI becomes its tool or its undoing, not on this quarter's margin."
   },
   "ipoFlag": "No repackaging games. eClerx listed in 2007 and has traded for well over a decade. It did do a 1:1 bonus issue in March 2026, which doubles the share count and halves the per-share price optically but changes nothing about the business or your ownership.",
@@ -229,7 +252,7 @@
       },
       {
         "metric": "Analytics & automation book",
-        "good": "Scaling past ~USD 90m",
+        "good": "Keeps scaling past ~USD 109m run rate",
         "bad": "Stalls",
         "why": "Shows movement toward higher-value, AI-adjacent work."
       },
@@ -277,7 +300,7 @@
       {
         "name": "Analytics & Automation",
         "pct": 10,
-        "marginProfile": "The growth bet, now a ~USD 90m book. Higher-value, AI-adjacent."
+        "marginProfile": "The growth bet, now a ~USD 109m run rate, up ~27% YoY in Q2 FY27. Higher-value, AI-adjacent."
       }
     ],
     "revenuePerUnitTrend": "Two forces pull against each other. Indian wage inflation pushes eClerx's cost per person up, while clients push billing rates down, often using AI-driven productivity as the argument for a cheaper deal (management calls this deflationary pressure). eClerx's answer is to climb the value chain into analytics, automation, and outcome-based contracts where it is paid for results, not seats. Whether that climb outruns the deflation in the seat business is the single most important thing to watch. The segment percentages elsewhere are approximate reads of the mix, not exact disclosures.",
@@ -296,7 +319,7 @@
   "valuation": [
     {
       "label": "Market Cap",
-      "value": "₹16,639 cr"
+      "value": "₹14,093 cr"
     },
     {
       "label": "52W High / Low",
@@ -304,23 +327,23 @@
     },
     {
       "label": "Stock P/E",
-      "value": "22.8",
-      "hint": "₹1,769 / TTM EPS ₹77.6 (incl Q1FY27); ₹75.09 below is FY26 only",
+      "value": "19.4",
+      "hint": "check: 1,498 / 77.18 = 19.4 (price as of 18 Nov 2026)",
       "tone": "neutral"
     },
     {
       "label": "P/B",
-      "value": "6.5",
+      "value": "4.8",
       "tone": "neutral"
     },
     {
-      "label": "FY26 EPS",
-      "value": "₹75.09",
-      "hint": "post 1:1 bonus (Mar 2026); TTM incl Q1FY27 ~₹77.6"
+      "label": "EPS (TTM)",
+      "value": "₹77.18",
+      "hint": "four quarters to Sep 2026; FY26 was ₹75.09 (post 1:1 bonus, Mar 2026)"
     },
     {
       "label": "Book Value",
-      "value": "₹272"
+      "value": "₹310"
     }
   ],
   "financials": [
@@ -363,31 +386,31 @@
   "ratios": [
     {
       "label": "ROE",
-      "value": "29%",
+      "value": "28.6%",
       "tone": "good"
     },
     {
       "label": "ROCE",
-      "value": "34.8%",
+      "value": "34.4%",
       "tone": "good"
     },
     {
       "label": "PAT Margin",
-      "value": "~17%",
-      "hint": "wage + pricing pressure",
+      "value": "~16%",
+      "hint": "TTM; wage + pricing pressure",
       "tone": "neutral"
     },
     {
       "label": "D/E",
-      "value": "0.17",
+      "value": "0.18",
       "hint": "essentially net-cash",
       "tone": "good"
     },
     {
       "label": "Debtor Days",
-      "value": "59",
-      "hint": "normal for IT services",
-      "tone": "good"
+      "value": "90",
+      "hint": "FY26; up from 62 in FY24",
+      "tone": "neutral"
     }
   ],
   "cashFlow": [
@@ -410,7 +433,7 @@
       "fcf": 756
     }
   ],
-  "cashFlowNote": "This is a clean cash machine. Operating cash flow beats reported profit, capex is tiny (about Rs 132 cr on Rs 4,000+ cr of revenue) because a services business needs desks and laptops, not factories, and free cash flow of Rs 756 cr in FY26 is comfortably positive. Debtor days at 59 are normal for IT services, where clients pay on monthly billing cycles. There is no accounting worry here. The profit is real and it turns into cash. The risk in this business is strategic (AI), not financial.",
+  "cashFlowNote": "This is a clean cash machine. Operating cash flow beats reported profit, capex is tiny (about Rs 132 cr on Rs 4,000+ cr of revenue) because a services business needs desks and laptops, not factories, and free cash flow of Rs 756 cr in FY26 is comfortably positive. The one number to watch is debtor days, how long clients take to pay: up from about 62 in FY24 to 90 in FY26. Cash still arrives (operating cash beat profit again in FY26), so this is a watch item, not an accounting worry. The profit is real and it turns into cash. The risk in this business is strategic (AI), not financial.",
   "growth": [
     {
       "label": "Sales CAGR 5Y",
@@ -419,30 +442,30 @@
     },
     {
       "label": "Profit CAGR 5Y",
-      "value": "22%",
+      "value": "21%",
       "tone": "good"
     },
     {
       "label": "Profit growth TTM",
-      "value": "28%",
+      "value": "18%",
       "tone": "good"
     },
     {
-      "label": "Q1 FY27 PAT",
-      "value": "₹164 cr",
-      "hint": "+16% YoY, ~7% down QoQ on wage hikes",
-      "tone": "warn"
+      "label": "Q2 FY27 PAT",
+      "value": "₹181 cr",
+      "hint": "-1% YoY, +10% QoQ",
+      "tone": "neutral"
     },
     {
-      "label": "Q1 FY27 revenue",
-      "value": "₹1,152 cr",
-      "hint": "+24% YoY; EBITDA margin 24.2%",
+      "label": "Q2 FY27 revenue",
+      "value": "₹1,189 cr",
+      "hint": "+18% YoY; +10.6% in USD",
       "tone": "good"
     },
     {
       "label": "Stock CAGR 1Y",
-      "value": "-14%",
-      "hint": "profit grew 30% same window",
+      "value": "-31%",
+      "hint": "trailing profit grew 18%",
       "tone": "neutral"
     }
   ],
@@ -455,18 +478,18 @@
     },
     {
       "label": "DII",
-      "pct": 23.84,
-      "qoqChange": -0.11
+      "pct": 24.54,
+      "qoqChange": 0.7
     },
     {
       "label": "FII",
-      "pct": 11.01,
-      "qoqChange": -0.81
+      "pct": 9.68,
+      "qoqChange": -1.33
     },
     {
       "label": "Retail",
-      "pct": 8.43,
-      "qoqChange": 0.9
+      "pct": 8.82,
+      "qoqChange": 0.39
     }
   ],
   "moat": {
@@ -479,7 +502,7 @@
     ],
     "note": "The moat is real but narrow, and it is being tested. eClerx's edge is knowing a client's messy operations so intimately that moving the work is risky, plus genuine specialism in derivatives processing that generic outsourcers lack. That has held clients for years. Here is the caveat, and it is about the direction the moat does not face: AI does not beat eClerx on service. It shrinks how much human work there is to bill for. The 'shrinking island' lens below unpacks that. Narrow, real today, and on notice."
   },
-  "narrative": "eClerx has compounded quietly for two decades: revenue from Rs 2,160 cr in FY22 to Rs 4,117 cr in FY26, profit from Rs 418 cr to Rs 706 cr, all on tiny capital and essentially net cash (D/E 0.17). FY26 was a strong year, revenue up ~22% and profit up ~30%, capped with a 1:1 bonus issue. And yet the stock fell about 14% over the year. The reason is not in the results; it is in the theme. eClerx sits in the corner of IT most directly in AI's path, the outsourcing of repetitive human work, and the market spent the year marking down anything that bills by the hour or the head. So a business that grew earnings 30% watched its multiple shrink instead of stretch.",
+  "narrative": "eClerx has compounded quietly for two decades: revenue from Rs 2,160 cr in FY22 to Rs 4,117 cr in FY26, profit from Rs 418 cr to Rs 706 cr, all on tiny capital and essentially net cash (D/E 0.17). FY26 was a strong year, revenue up ~22% and profit up ~30%, capped with a 1:1 bonus issue. And yet the stock fell. The reason is not in the results; it is in the theme. eClerx sits in the corner of IT most directly in AI's path, the outsourcing of repetitive human work, and the market spent the year marking down anything that bills by the hour or the head. So a business that grew earnings 30% watched its multiple shrink instead of stretch.",
   "risks": [
     "AI disruption of the core model. eClerx is paid largely for human effort on repetitive work, which is exactly what AI automates. If clients use AI to cut headcount-based spend faster than eClerx moves to outcome-based revenue, growth and margins compress. High.",
     "Margin pressure. Indian wage inflation pushes costs up while clients push billing rates down (deflationary pressure). Margins have drifted and can drift further. Medium-High.",
@@ -495,8 +518,8 @@
     },
     {
       "label": "Receivables blowing up",
-      "status": "pass",
-      "note": "Debtor days 59, normal for IT services"
+      "status": "warn",
+      "note": "Debtor days 90 in FY26, up from 62 in FY24; cash still beats profit"
     },
     {
       "label": "Project / POC accounting",
@@ -516,7 +539,7 @@
     {
       "label": "Margin trend",
       "status": "warn",
-      "note": "PAT margin drifted from ~19% to ~17% on wage + pricing"
+      "note": "PAT margin drifted from ~19% (FY22) to ~16% (TTM) on wage + pricing"
     },
     {
       "label": "Client concentration",
@@ -551,17 +574,17 @@
       "note": "Top-10 at ~59%, improving but still high"
     }
   ],
-  "summary": "eClerx pairs high growth (22%), high returns (35% ROCE), a net-cash balance sheet, and clean cash flow, and after a 14% fall while earnings rose 30% it trades at about 23x. Those two facts sit uneasily together. The reason is the labour-arbitrage model: AI is built to compress exactly the human-effort billing eClerx lives on. Management is pivoting to analytics, automation, and outcome deals, and eClerx is too good an operator to wave away, but whether the pivot outruns the pressure is genuinely unknown. The old model clearly works today. Whether it keeps working once the work itself gets easier to automate is the open question, and the next few quarters of revenue mix, revenue per employee, and pricing should start to answer it. This is not a buy or sell call. Do your own work and talk to a SEBI-registered adviser.",
+  "summary": "eClerx pairs high growth (22%), high returns (35% ROCE), a net-cash balance sheet, and clean cash flow, and after a year of falling it trades at about 19x. Those two facts sit uneasily together. The reason is the labour-arbitrage model: AI is built to compress exactly the human-effort billing eClerx lives on. Management is pivoting to analytics, automation, and outcome deals, and eClerx is too good an operator to wave away, but whether the pivot outruns the pressure is genuinely unknown. The old model clearly works today. Whether it keeps working once the work itself gets easier to automate is the open question, and the next few quarters of revenue mix, revenue per employee, and pricing should start to answer it. This is not a buy or sell call. Do your own work and talk to a SEBI-registered adviser.",
   "engine": {
     "state": "multiple-drift",
-    "earnings": "The earnings engine is running well and it is cash-backed: FY26 profit up ~30%, TTM profit growth ~28%, ROCE ~35%, and free cash flow that tracks profit. Q1 FY27 (June 2026) is the near-term wobble, and it lives in one line: revenue rose ~24% YoY to Rs 1,152 cr, but profit of Rs 164 cr grew only 16% YoY and slipped about 7% QoQ, as the April wage hike and new delivery centres (Lima live, Cairo starting) pushed EBITDA margin to 24.2% and PAT margin to 14%. Growth is fine. The squeeze is on margin, which is exactly the tension this report keeps flagging. From here, the catalyst is the analytics and automation book (now ~USD 90m) scaling up; the drag is pricing deflation.",
-    "multiple": "The multiple has already compressed. Over the past year profit grew ~30% while the stock fell ~14%, so the PE slid from the high-20s toward 23x. That is the market pricing AI risk, not a business miss. At 23x for a 35%-ROCE, debt-free compounder, the multiple is not demanding by its own history, but it is not a giveaway either, given the structural question hanging over it.",
+    "earnings": "The earnings engine still runs and it is still cash-backed, but it has slowed. FY26 profit grew ~30%; trailing profit growth is now ~18%, with ROCE ~34% and free cash flow that tracks profit. The slowdown lives in the margin. Revenue keeps rising, but operating margin stepped down from about 27% a year ago to about 24%, as wage hikes and new delivery centres (Lima, Cairo, the Philippines) cost money before they earn it. So the September quarter's profit came in flat on a year ago (details in the note at the top). From here, the catalyst is the analytics and automation book (now a ~USD 109m run rate) scaling up. The drags are pricing deflation and slower deal wins.",
+    "multiple": "The multiple has already compressed, from the high-20s to about 19x, while profit kept rising. That is the market pricing AI risk, not a business miss. At 19x for a 34%-ROCE, debt-free compounder, the multiple is not demanding by its own history, but it is not a giveaway either, given the structural question hanging over it.",
     "verdict": "On the mechanics, earnings are rising, the multiple has compressed, and returns are stable. That combination creates room for a re-rating, but only if the market's AI worry proves overdone. This is not the clean setup it would be for a company with no structural threat: the compression reflects a real, unresolved question about whether the revenue itself is durable. So the upside is genuine but conditional on the AI transition going well. The evidence to watch is whether the value-added mix grows fast enough to offset the pressure on the seat-based business."
   },
   "lenses": [
     {
       "name": "The price fell while earnings rose",
-      "reading": "Profit grew about 30% in FY26 but the stock fell about 14%, so the multiple compressed rather than expanded, while ROE held near 29% the whole way. In a business with no structural threat, that would be a clean re-rating setup, cheaper stock, same quality. Here the compression is the market pricing the AI question. So read it as conditional, not free."
+      "reading": "Profit grew about 30% in FY26 and kept growing into FY27, but the stock went the other way, so the multiple compressed rather than expanded, while ROE held near 29% the whole way. In a business with no structural threat, that would be a clean re-rating setup, cheaper stock, same quality. Here the compression is the market pricing the AI question. So read it as conditional, not free."
     },
     {
       "name": "A moat around a shrinking island",

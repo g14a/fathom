@@ -1,27 +1,50 @@
 {
   "ticker": "MUTHOOTFIN",
   "company": "Muthoot Finance Ltd",
+  "latest": {
+    "period": "Q2 FY27 (Jul-Sep 2026)",
+    "published": "2026-10-31",
+    "headline": "Profit up 36% and the loan book up 42%, but overdue gold loans jumped in a single quarter.",
+    "body": [
+      "Muthoot reported its July-September quarter on 31 October 2026. Consolidated profit rose 36% to ₹3,278 crore and revenue rose 37% to ₹9,998 crore. The loan book (everything it has lent out, called AUM) hit a record ₹2,09,317 crore, up 42% in a year. Management raised its FY27 gold-loan growth target to 25%, from 15%. The board has also approved folding its subsidiary Muthoot Money into the parent from 1 April 2027, subject to approvals.",
+      "The margin went the other way from last quarter. Net interest margin (what Muthoot earns on its loans minus what it pays on its own borrowing, as a share of the book) fell to 10.4% in April-June. Motilal Oswal's calculation puts it back at about 12.2% this quarter, as loan yields rose and borrowing costs eased. Management still guides 10.5-11% for the year, so one good quarter is not the new normal.",
+      "Now read the overdue numbers twice. Stage 3 loans (borrowers more than 90 days behind) rose to 3.87% of the standalone book from 2.28% in June. Loans more than 30 days late jumped about 13 percentage points to 16.4%. Money set aside for losses rose roughly tenfold from the June quarter to ₹515 crore. Management's explanation: RBI rules from April 2026 moved many borrowers from repaying everything at the end to paying interest monthly or periodically, and plenty of them have not adjusted yet.",
+      "Late is not the same as lost here, because the gold is still in the vault. But the vault only covers the loan if gold holds its value, and spot gold hit a 14-month low on 20 November. Next quarter, watch whether Stage 3 drifts back toward the 2-3% management talked about before."
+    ],
+    "figures": [
+      { "label": "Net Profit", "value": "₹3,278 cr", "hint": "+36% YoY, consolidated", "tone": "good" },
+      { "label": "Loan AUM", "value": "₹2,09,317 cr", "hint": "+42% YoY, a record" },
+      { "label": "Stage 3 loans", "value": "3.87%", "hint": "vs 2.28% in Jun quarter", "tone": "bad" },
+      { "label": "NIM", "value": "~12.2%", "hint": "broker calc; 10.4% in Q1; guidance 10.5-11%", "tone": "neutral" }
+    ],
+    "sources": [
+      { "label": "Free Press Journal, 2 Nov 2026", "url": "https://www.freepressjournal.in/business/muthoot-finance-q2-fy27-consolidated-profit-rises-36-to-3278-crore-standalone-income-jumps-37" },
+      { "label": "DSIJ summary of Motilal Oswal's 2QFY27 note", "url": "https://insights.dsij.in/markets/reports/report-details/muthoot-finance-ltd/45968" },
+      { "label": "CompoundingAI, Stage III and provisions", "url": "https://compoundingai.in/market-news/muthootfin-q2-fy27-results-analysis" },
+      { "label": "Kotak Neo, gold at 14-month low, 20 Nov 2026", "url": "https://www.kotakneo.com/news/sectors/muthoot-manappuram-shares-fall-as-gold-prices-hit-14-month-low/" }
+    ]
+  },
   "sector": "Financials",
   "industry": "Gold Loan NBFC",
   "sectorId": "nbfcs",
   "dataVariant": "Consolidated",
-  "asOf": "2026-08-16",
-  "oneLiner": "Muthoot's loans are backed by gold locked in its vault, so they almost never go bad. It earns 31% on equity and still trades at 10 times earnings, because everyone knows those returns ride the price of gold.",
+  "asOf": "2026-11-22",
+  "oneLiner": "Muthoot's loans are backed by gold locked in its vault, so a late borrower rarely becomes a loss. It earns 31% on equity and trades under 9 times earnings, because everyone knows those returns ride the price of gold.",
   "verdict": {
     "rows": [
       { "label": "Business", "value": "Tightly run gold lender", "tone": "good" },
-      { "label": "Asset quality", "value": "Gold-backed, low NPAs", "tone": "good" },
+      { "label": "Asset quality", "value": "Gold-backed, overdues rising", "tone": "warn" },
       { "label": "Moat", "value": "Narrow", "tone": "warn" },
       { "label": "Gold dependence", "value": "Returns ride gold price", "tone": "warn" },
-      { "label": "Valuation", "value": "10x, optically cheap", "tone": "good" }
+      { "label": "Valuation", "value": "~9x, optically cheap", "tone": "good" }
     ],
-    "keyQuestion": "31% returns at 10 times earnings. Is the cheap multiple the market pricing in a gold-price reversal?"
+    "keyQuestion": "31% returns at under 9 times earnings. Is the cheap multiple the market pricing in a gold-price reversal?"
   },
-  "overview": "Muthoot is a pawnbroker at national scale. You walk in with your family gold, hand it over, and walk out with cash, paying about 18-20% interest for it. Muthoot borrows that cash at about 9-10%, so it keeps the roughly 9-10% gap in the middle, the number bankers call Net Interest Margin, or NIM. The gold sits locked in a vault and cannot run away, so almost nobody's loan goes bad. Here is the catch, and it is the whole story. The value of everything in that vault rises and falls with the price of gold, like a tide. When gold is high, Muthoot can lend more against the same bangle without breaking the regulator's cap on how much it may lend per gram, so the loan book and the profits both swell. Gold has been near record highs, the book grew 49%, and profit nearly doubled. That tide is already going out.",
+  "overview": "Muthoot is a pawnbroker at national scale. You walk in with your family gold, hand it over, and walk out with cash, paying about 18-20% interest for it. Muthoot borrows that cash at about 9-10%, so it keeps the roughly 9-10% gap in the middle, the number bankers call Net Interest Margin, or NIM. The gold sits locked in a vault and cannot run away, so even when a borrower stops paying, Muthoot rarely loses much. Here is the catch, and it is the whole story. The value of everything in that vault rises and falls with the price of gold, like a tide. When gold is high, Muthoot can lend more against the same bangle without breaking the regulator's cap on how much it may lend per gram, so the loan book and the profits both swell. Gold has been near record highs, the book grew 49%, and profit nearly doubled. That tide is already going out.",
   "editorial": {
     "realBusiness": "Muthoot does not really lend to people. It lends against gold locked in a vault, and the gold cannot run away.",
     "whyExists": "Indian families keep gold they will not sell: wedding jewellery, inherited bangles, coins in a locker. When cash is needed in a hurry, for a wedding, a hospital bill, a shortfall in the shop, most would rather pledge that gold for a few weeks than part with it. Muthoot exists to meet them there. It solves a real, recurring problem for millions of people, and it does so holding an asset that cannot vanish overnight.",
-    "whyNotAlreadyWon": "Because gold lending is a game of reach and trust, and both take decades to build. You need branches close enough that a person can walk in, pledge, and leave with cash in half an hour. You need a name families believe will keep their gold safe. And you need enough size to borrow cheaply and still lend at a competitive rate. Muthoot has 4,800+ branches across 29 states, 44% of the organised gold-lending market, and the trust of tens of lakh customers built over forty years. A bank cannot conjure 4,800 gold-loan counters overnight, and it cannot buy forty years of trust at all.",
+    "whyNotAlreadyWon": "Because gold lending is a game of reach and trust, and both take decades to build. You need branches close enough that a person can walk in, pledge, and leave with cash in half an hour. You need a name families believe will keep their gold safe. And you need enough size to borrow cheaply and still lend at a competitive rate. Muthoot has 5,200+ branches across 29 states, 44% of the organised gold-lending market, and the trust of tens of lakh customers built over forty years. A bank cannot conjure 5,200 gold-loan counters overnight, and it cannot buy forty years of trust at all.",
     "mentalModels": [
       {
         "model": "Collateral Quality",
@@ -31,7 +54,7 @@
       {
         "model": "Scale and Branch Density",
         "strength": 4,
-        "why": "With 4,800 branches, Muthoot can reach borrowers in small towns and give them cash in 30 minutes. Scale lets it borrow at lower rates and lend at higher ones."
+        "why": "With 5,200 branches, Muthoot can reach borrowers in small towns and give them cash in 30 minutes. Scale lets it borrow at lower rates and lend at higher ones."
       },
       {
         "model": "Gold Price Sensitivity",
@@ -46,7 +69,7 @@
       {
         "model": "Regulatory Tailwind and Headwind",
         "strength": 3,
-        "why": "The April 2026 RBI norms set tiered loan-to-value caps and formalized silver. Modest tailwind. But tighter caps and enforcement can reverse."
+        "why": "The April 2026 RBI norms set tiered loan-to-value caps and formalized silver. They also moved borrowers onto periodic interest payments, which lifted overdues in Q2 FY27. The norms cut both ways."
       }
     ],
     "economicEngine": [
@@ -68,7 +91,7 @@
       {
         "label": "Margins",
         "value": "Spread between lending rate (18-20%) and borrowing cost (9-10%)",
-        "note": "NIM is under pressure from competitive rate cuts by banks and fellow NBFCs. Already fell 297 basis points in Q1 FY27."
+        "note": "NIM is under pressure from competitive rate cuts by banks and fellow NBFCs. It fell 297 basis points in Q1 FY27, bounced in Q2, and management guides 10.5-11% for the year."
       },
       {
         "label": "Returns",
@@ -84,7 +107,7 @@
       },
       {
         "label": "Muthoot Finance",
-        "description": "Dominant NBFC gold lender with scale, branches, brand trust, and the lowest bad-loan ratio in the sector.",
+        "description": "Dominant NBFC gold lender with scale, branches, brand trust, and small credit losses thanks to gold collateral.",
         "tone": "focus"
       },
       {
@@ -94,16 +117,16 @@
       }
     ],
     "winningToday": [
-      "Muthoot is India's largest gold-loan lender with 44% of the organised market and 4,800+ branches.",
-      "Bad loans are structurally tiny at 1.03% GNPA because collateral is gold in the vault.",
+      "Muthoot is India's largest gold-loan lender with 44% of the organised market and 5,200+ branches.",
+      "Losses stay small even when borrowers fall behind, because the collateral is gold in the vault.",
       "Record gold prices in FY26 inflated collateral values, expanded lending room, and boosted both loan book and earnings.",
       "The company runs with discipline: capital above regulatory minimums (CAR 20.3%), reinvests profits into expansion, and returns capital via dividends."
     ],
     "stopWinning": [
       "Gold prices are cyclical. A 15-20% fall in gold prices would compress collateral cushions and loan growth.",
       "Banks are entering gold lending and undercutting on rate. SBI, HDFC, Axis are price leaders, pulling rate-sensitive customers.",
-      "Competitive pressure is already visible: NIM fell 297 basis points in a single quarter (Q1 FY27 vs Q4 FY26).",
-      "The 85% TTM profit growth came from the gold-price tailwind, not from a new sustainable business model."
+      "Competitive pressure showed up in Q1 FY27, when NIM fell 297 basis points in a single quarter. Management still guides the margin well below FY26 levels.",
+      "The 67% TTM profit growth came from the gold-price tailwind, not from a new sustainable business model."
     ],
     "marketBets": [
       "Gold prices stay elevated or fall only gradually, not in a sharp correction.",
@@ -125,16 +148,16 @@
       {
         "model": "Scale and Geography",
         "reading": "Highly favourable to Muthoot",
-        "note": "A national branch network is expensive to replicate. Muthoot's 4,800 branches give it network power."
+        "note": "A national branch network is expensive to replicate. Muthoot's 5,200 branches give it network power."
       },
       {
         "model": "Asset Quality",
-        "reading": "Excellent and durable",
-        "note": "Gold collateral is liquid and valued daily. GNPA at 1-1.5% is the lowest in NBFC lending."
+        "reading": "Strong collateral, rising overdues",
+        "note": "Gold collateral is liquid and valued daily, so losses stay small. But Stage 3 jumped in Q2 FY27 as borrowers adjusted to new RBI repayment rules."
       }
     ],
-    "whyNow": "Muthoot is cheap because the very thing that powered the boom, near-record gold prices, is now seen as the risk. Investors look at the near-doubling of profit and read it as a one-off gift from gold, not a permanent skill. Q1 FY27 handed them the evidence: as gold stopped climbing and banks pushed harder on rate, Muthoot's margin fell sharply in a single quarter. At 10 times earnings on a 31% return, the price is telling you the market does not trust those returns to last.",
-    "remember": "The vault is safe. The weather is not. Muthoot's loans almost never go bad, but its earnings rise and fall with the price of gold, and that is the risk you are actually taking."
+    "whyNow": "Muthoot is cheap because the thing that powered the boom, near-record gold prices, is now the risk, and the risk has started to arrive. Over the past year trailing profit rose 67% while the stock fell 26%. Investors read the near-doubling of profit as a gift from gold, not a permanent skill. In November spot gold dropped to a 14-month low, and the Q2 results showed overdue loans piling up. Under 9 times earnings on a 31% return is the market telling you it does not trust those returns to last.",
+    "remember": "The vault is safe. The weather is not. Muthoot's loans rarely turn into losses, but its earnings rise and fall with the price of gold, and that is the risk you are actually taking."
   },
   "business": {
     "unitOfRevenue": "The spread on each rupee lent. Muthoot borrows at roughly 9-10% and lends at roughly 18-20%, and the roughly 9-10% gap it keeps is the entire game.",
@@ -151,51 +174,52 @@
         "marginProfile": "Smaller, more traditional lending. Steadier but lower scale."
       }
     ],
-    "revenuePerUnitTrend": "The spread, or NIM, was 12.8% in FY26 and dropped to 10.41% in Q1 FY27, a fall of 297 basis points in a single quarter. Muthoot collects roughly 20% on its portfolio and pays roughly 9-10% to borrow. That sudden squeeze is banks undercutting on rate and the gold-price tailwind fading at the same time.",
+    "revenuePerUnitTrend": "The spread, or NIM, was 12.8% in FY26, dropped to 10.41% in Q1 FY27 (297 basis points in a single quarter), then bounced to about 12.2% in Q2 by Motilal Oswal's calculation. In Q2 Muthoot earned about 19.6% on its loans and paid about 8.6% on its own borrowing. Management guides 10.5-11% for FY27, which tells you it does not expect the bounce to last, with banks still undercutting on rate.",
     "industry": {
       "structure": "Fragmented but consolidating. Muthoot dominates with 44% of organised gold lending. Manappuram, IIFL are smaller specialists. Banks (SBI, HDFC, Axis) are entering with scale and cost advantages.",
       "competitors": "Manappuram Finance is the nearest NBFC rival; IIFL Finance had a temporary RBI gold-lending ban in FY25. Banks are the bigger threat: they can undercut on rate because their deposit cost is lower.",
       "pricingPower": "Cyclical and weakening. Gold-loan rates are set by demand (households need the money) and competition (how many lenders are in the town). Banks are cutting rates now, pulling customers.",
       "demandDriver": "Household needs for cash urgently: weddings, medical emergencies, business needs, festival expenses. More stable than credit demand because the customer is not borrowing to start a venture that may fail.",
       "driverType": "Partly cyclical (tied to wedding season, festivals), partly evergreen (emergencies and cash needs happen year-round).",
-      "tam": "India has an estimated 2,000 tonnes of gold held by households, worth roughly 10 lakh crore at current prices. Muthoot's AUM is roughly 1.8 lakh crore, so under 2% of the household gold pool is lent out, suggesting runway for growth.",
+      "tam": "Indian households hold a vast stock of gold, most of it never pledged against any loan. Muthoot's consolidated loan book of about ₹2.09 lakh crore is a small slice of what that gold is worth, which leaves runway for growth.",
       "penetration": "Gold lending is still low-penetration outside major cities. Most households pledge gold locally to small jewellers at high rates. Formalisation to platforms like Muthoot is ongoing but still early.",
       "valueChainPosition": "Muthoot is a lender accepting gold as collateral, not a jeweller or a gold trader. It captures the spread between deposit rates and lending rates, earning money on both the float and the spread."
     },
-    "qualityVerdict": "Is it well run? Yes. Muthoot grew to 4,800 branches without letting its bad loans get away from it: GNPA is 1.03%, about as low as lending gets. It keeps capital well above the regulator's floor (CAR 20.3%), ploughs profit back into new branches, and still pays a dividend (₹30 a share in FY26). The operator is not the worry. The weather is. Gold is cyclical, banks are chipping at the rate, and the margin is already sliding."
+    "qualityVerdict": "Is it well run? Yes. Muthoot grew to 5,200 branches while keeping credit losses small. It keeps capital well above the regulator's floor (CAR 20.3%), ploughs profit back into new branches, and still pays a dividend (₹30 a share in FY26). Q2 FY27 is a fresh test: overdue loans jumped (see the note at the top), and how fast management works them down will tell you a lot about the operator. So far the operator is not the worry. The weather is. Gold is cyclical and has started to fall, and banks are chipping at the rate."
   },
   "valuation": [
     {
       "label": "Market Cap",
-      "value": "₹1,14,097 cr"
+      "value": "₹1,06,339 cr"
     },
     {
       "label": "Price",
-      "value": "₹2,842"
+      "value": "₹2,649",
+      "hint": "18 Nov 2026"
     },
     {
       "label": "52W High / Low",
-      "value": "₹4,150 / ₹2,603"
+      "value": "₹4,150 / ₹2,303"
     },
     {
       "label": "Stock P/E",
-      "value": "10.0",
-      "hint": "far below Bajaj Finance ~20x",
+      "value": "8.7",
+      "hint": "check: 2,649 / 303.86 = 8.7; Bajaj Finance ~31x",
       "tone": "good"
     },
     {
       "label": "P/B",
-      "value": "2.81",
+      "value": "2.42",
       "hint": "cheap for 31% ROE",
       "tone": "good"
     },
     {
       "label": "EPS (TTM)",
-      "value": "₹283.28"
+      "value": "₹303.86"
     },
     {
       "label": "Book Value",
-      "value": "₹1,011"
+      "value": "₹1,094"
     },
     {
       "label": "ROE",
@@ -260,7 +284,7 @@
     {
       "label": "NIM (FY26)",
       "value": "12.8%",
-      "hint": "down to 10.4% in Q1 FY27",
+      "hint": "10.4% in Q1 FY27, ~12.2% in Q2 (broker calc)",
       "tone": "warn"
     },
     {
@@ -274,10 +298,10 @@
       "tone": "neutral"
     },
     {
-      "label": "GNPA",
-      "value": "1.03%",
-      "hint": "among the lowest for NBFCs",
-      "tone": "good"
+      "label": "Stage 3 (GNPA)",
+      "value": "3.87%",
+      "hint": "Sep 2026, standalone; 2.28% in Jun",
+      "tone": "bad"
     },
     {
       "label": "CAR (Capital Adequacy)",
@@ -287,22 +311,22 @@
     },
     {
       "label": "P/E",
-      "value": "10.0",
+      "value": "8.7",
       "tone": "good"
     }
   ],
   "cashFlow": [
     {
       "year": "FY24",
-      "ocf": -892
+      "ocf": -13605
     },
     {
       "year": "FY25",
-      "ocf": -1205
+      "ocf": -26525
     },
     {
       "year": "FY26",
-      "ocf": -1456
+      "ocf": -47393
     }
   ],
   "cashFlowNote": "Operating cash flow is negative, and for a growing lender that is normal, not a warning. Cash does not pile up here; it walks out of the door and into the loan book to grow it. You judge a gold lender on loan-book growth, spread durability and asset quality (GNPA and the collateral cushion), not on free cash flow. Muthoot's AUM grew 49% in FY26. That is the number that matters. The real question is not where the cash went but whether the capital it turned into earns a good return for the risk.",
@@ -319,7 +343,7 @@
     },
     {
       "label": "Sales CAGR TTM",
-      "value": "51%",
+      "value": "47%",
       "hint": "gold-price and book-growth tailwind",
       "tone": "warn"
     },
@@ -335,63 +359,69 @@
     },
     {
       "label": "Profit CAGR TTM",
-      "value": "85%",
+      "value": "67%",
       "hint": "boosted by gold prices and low base",
       "tone": "warn"
     },
     {
       "label": "Stock CAGR 5Y",
-      "value": "14%",
+      "value": "11%",
+      "hint": "profit compounded 23%",
       "tone": "neutral"
     },
     {
       "label": "Stock CAGR 3Y",
-      "value": "31%",
+      "value": "27%",
+      "hint": "profit compounded 43%",
       "tone": "good"
     },
     {
       "label": "Stock CAGR 1Y",
-      "value": "3%",
-      "hint": "flat recently",
-      "tone": "neutral"
+      "value": "-26%",
+      "tone": "bad"
     }
   ],
-  "management": "Muthoot is founder-led, with the promoter family holding 73.35%. They have run this business for four decades, from a single shop to 4,800 branches, so their own wealth rides on it alongside yours. The track record on expansion, bad-loan control and profitability is disciplined. The question was never whether they can operate. It is that they operate inside a cycle: gold rises and falls, banks compete on rate, and the tailwind that lifted the last two years is already turning.",
+  "management": "Muthoot is founder-led, with the promoter family holding 73.35%. They have run this business for four decades, from a single shop to 5,200 branches, so their own wealth rides on it alongside yours. The track record on expansion, bad-loan control and profitability is disciplined. The question was never whether they can operate. It is that they operate inside a cycle: gold rises and falls, banks compete on rate, and the tailwind that lifted the last two years is already turning.",
   "holding": [
     {
       "label": "Promoter",
-      "pct": 73.35
+      "pct": 73.35,
+      "qoqChange": 0
     },
     {
       "label": "FII",
-      "pct": 11.61
+      "pct": 9.72,
+      "qoqChange": -1.89
     },
     {
       "label": "DII",
-      "pct": 10.75
+      "pct": 12.54,
+      "qoqChange": 1.79
     },
     {
       "label": "Retail",
-      "pct": 4.29
+      "pct": 4.4,
+      "qoqChange": 0.11
     }
   ],
   "moat": {
     "strength": "narrow",
     "sources": [
-      "Scale: 4,800 branches and 44% market share in organised gold lending",
+      "Scale: 5,200 branches and 44% market share in organised gold lending",
       "Trust: family business with 40 years of reputation for safe gold storage",
       "Collateral quality: gold in vault cannot default or be refinanced by competitors",
       "Cost of funds: dominant scale lets Muthoot borrow cheaper and lend competitively"
     ],
     "note": "The moat is narrow but real. Muthoot is the household name in gold lending because of its reach and the trust it has earned. The honest caveat: this is still a commodity (cash) lent against a commodity (gold). A bank can walk into the same town and undercut on rate, because its cost of funds is lower, and Manappuram and IIFL compete head-on. So the moat is scale and geography, not pricing power. It wins Muthoot the customer. It does not let Muthoot name the price."
   },
-  "narrative": "The last three years are one story told in the price of gold. Gold climbed, and Muthoot rode it. Higher gold did two useful things at once: it padded the collateral behind every existing loan, so defaults stayed rare, and it widened the room to lend on each bangle without breaching the regulator's loan-to-value cap (around 60% today, with the new April 2026 RBI norms setting a tiered 85/80/75% by loan size). So the loan book jumped 49% in FY26, profit nearly doubled, and ROE reached 31%. It looked wonderful, because it was, for a while. Then Q1 FY27 showed the seams: with gold steadying and banks competing harder, the margin gave up 297 basis points in one quarter. The tide had started to go out.",
+  "narrative": "The last three years are one story told in the price of gold. Gold climbed, and Muthoot rode it. Higher gold did two useful things at once: it padded the collateral behind every existing loan, so defaults stayed rare, and it widened the room to lend on each bangle without breaching the regulator's loan-to-value cap (around 60% today, with the new April 2026 RBI norms setting a tiered 85/80/75% by loan size). So the loan book jumped 49% in FY26, profit nearly doubled, and ROE reached 31%. It looked wonderful, because it was, for a while. Then Q1 FY27 showed the seams: with gold steadying and banks competing harder, the margin gave up 297 basis points in one quarter. Q2 won the margin back but opened a new seam, with overdue loans jumping. The tide had started to go out.",
   "risks": [
     "Gold price correction. A 15-20% fall in gold prices would compress collateral cushions, reduce lending room, and squeeze margins. Fitch flags this as where stress testing begins for gold NBFCs. High.",
     "Competitive pressure from banks. SBI, HDFC, Axis are cutting gold-loan rates and pulling customers. The Q1 FY27 NIM compression is proof. Medium-High.",
     "Margin compression may not stabilise. If banks keep undercutting and demand softens, spreads could fall further below the 10% level already seen in Q1. Medium.",
     "Regulation tightening. The RBI can lower LTV caps, tighten valuation standards, or formally restrict margin. The April 2026 norms are modest but enforcement is tightening. Medium.",
-    "Cyclical earnings. The 85% profit growth came from gold prices and loan-book expansion, not from a new sustainable model. Normalisation will disappoint growth investors. Medium."
+    "Overdue loans. Stage 3 jumped in Q2 FY27 to well above the 2-3% band management had talked about. If gold keeps falling while those loans sit unpaid, auctions recover less and provisions rise. Medium-High.",
+    "Cyclical earnings. The 67% trailing profit growth came from gold prices and loan-book expansion, not from a new sustainable model. Normalisation will disappoint growth investors. Medium."
   ],
   "trapChecklist": [
     {
@@ -402,7 +432,7 @@
     {
       "label": "Profit growth sustainable",
       "status": "fail",
-      "note": "85% TTM growth is inflated by gold prices and a low base. Q1 FY27 already shows normalisation."
+      "note": "67% TTM growth is inflated by gold prices and a low base. Quarterly profit growth slowed to 36% in Q2 FY27."
     },
     {
       "label": "Return on equity durable",
@@ -411,13 +441,13 @@
     },
     {
       "label": "Collateral quality",
-      "status": "pass",
-      "note": "GNPA at 1.03% and gold-locked collateral make the loan book very safe."
+      "status": "warn",
+      "note": "Gold still backs every loan, but Stage 3 jumped to 3.87% in Q2 FY27 from 2.28%."
     },
     {
       "label": "Valuation price-to-earnings",
       "status": "pass",
-      "note": "At 10x earnings the stock is cheap relative to history and to quality peers."
+      "note": "At under 9x earnings the stock is cheap relative to history and to quality peers."
     },
     {
       "label": "Gold-price dependence",
@@ -428,13 +458,13 @@
   "sectorChecklist": [
     {
       "label": "NIM trend",
-      "status": "fail",
-      "note": "NIM fell 297 bps in one quarter. Spreading tightness signals competitive pressure and fading tailwind."
+      "status": "warn",
+      "note": "Fell 297 bps in Q1 FY27, bounced to ~12.2% in Q2, guided at 10.5-11% for FY27."
     },
     {
       "label": "GNPA ratio",
-      "status": "pass",
-      "note": "1.03% is among the lowest for NBFCs and reflects the safety of gold collateral."
+      "status": "fail",
+      "note": "Stage 3 at 3.87%, above the 2-3% band management had flagged. Blamed on new RBI repayment rules."
     },
     {
       "label": "Capital adequacy ratio",
@@ -457,29 +487,29 @@
       "note": "Rising gold prices inflated FY26 numbers. Falling gold prices would deflate them just as fast."
     }
   ],
-  "summary": "Muthoot is India's largest gold-loan lender, tightly run, its book backed by physical gold. The 31% ROE, the 1.03% bad-loan ratio, the 20.3% capital buffer and the ₹30 dividend are all real, and all point to a well-run company. It is also cheap on the surface: 10 times earnings for 31% returns. The surface hides the cycle. That near-doubling of profit was a gift from record gold prices, and Q1 FY27 has already shown the gift being taken back, with the margin down 297 basis points in a single quarter. At 10 times earnings, the discount is doing real work, but the case now rests on whether ROE holds up as the margin compresses, and whether gold stays firm. Do your own work and consult a SEBI-registered adviser before investing.",
+  "summary": "Muthoot is India's largest gold-loan lender, tightly run, its book backed by physical gold. The 31% ROE, the 20.3% capital buffer and the ₹30 dividend are real, and they point to a well-run company. It is also cheap on the surface: under 9 times earnings for 31% returns. The surface hides the cycle. That near-doubling of profit was a gift from record gold prices, and the gift is now being taken back, with gold falling and overdue loans rising. The case rests on whether ROE holds up as gold cools, and whether the vault covers the late loans. Do your own work and consult a SEBI-registered adviser before investing.",
   "engine": {
     "state": "multiple-drift",
-    "earnings": "The engine has been running hot: profit up 85% over the trailing year, AUM up 49%, ROE at 31%. But that heat came from the gold price, not from a new way of doing business. With gold steadier and banks pressing on rate, it is already cooling: the margin fell 297 basis points between Q4 FY26 and Q1 FY27. The boom was real. It was also a peak.",
-    "multiple": "At 10 times earnings and 2.8 times book, the stock is cheap, and it is cheap on purpose. The market has looked at the 31% ROE and decided it will not last, so it refuses to pay up for it. That is not investors missing the number. It is investors discounting a number they expect to fade as gold cools and margins compress. Do not wait for a cheap surprise here; the cheapness is the verdict.",
-    "verdict": "So here is my honest read. You are being offered high returns at a low price, and the catch is stamped on the label: those returns lean on gold, and the low multiple is the market charging you for that risk in advance. The collateral cushion is genuine. It protects you against a borrower walking away. It does not protect you against gold falling 15-20%, and that is the one thing that would really bite. I lean towards this being a fair price for a good, cyclical business near the top of its cycle. I would change my mind if the margin steadied near where it is now instead of sliding further."
+    "earnings": "The engine has been running hot: profit up 67% over the trailing year, the loan book up 42%, ROE at 31%. But most of that heat came from the gold price, not from a new way of doing business. The cooling is visible. Quarterly profit growth slowed from about 90% a year ago to 36% in Q2 FY27, and Q2 also brought a jump in provisions for overdue loans. The boom was real. It was also a peak.",
+    "multiple": "At under 9 times earnings and 2.4 times book, the stock is cheap, and it is cheap on purpose. Over three years profit compounded at 43% a year while the share price managed 27%, so the multiple has been shrinking all along. The market has looked at the 31% ROE and decided it will not last, so it refuses to pay up for it. That is not investors missing the number. It is investors discounting a number they expect to fade as gold cools and margins compress. Do not wait for a cheap surprise here; the cheapness is the verdict.",
+    "verdict": "So here is my honest read. You are being offered high returns at a low price, and the catch is stamped on the label: those returns lean on gold, and the low multiple is the market charging you for that risk in advance. The collateral cushion is genuine. It protects you against a borrower walking away. It does not protect you against gold falling 15-20%, and that is the one thing that would really bite. I lean towards this being a fair price for a good, cyclical business coming off the top of its cycle. I would change my mind if overdue loans fell back toward 2-3% even as gold slid, because that would prove the vault works under stress and not just in a boom."
   },
   "lenses": [
     {
       "name": "The collateral that cannot run",
-      "reading": "Gold locked in Muthoot's vault cannot default and cannot be refinanced by a rival down the street. That is why GNPA sits at 1.03%, among the lowest in Indian lending. A bank lending to a shopkeeper is betting on the shopkeeper's cash flow. Muthoot is betting on the bangle in its vault, which is a far safer bet. If a customer stops paying, Muthoot auctions the gold and gets most of its money back. Real advantage. But be clear about what it does not cover: Muthoot still carries funding risk, rate risk, competition on pricing, regulatory risk and, above all, gold-valuation risk. The vault protects you from the borrower. It does not protect you from the cycle."
+      "reading": "Gold locked in Muthoot's vault cannot default and cannot be refinanced by a rival down the street. So a late loan here is a different animal from a late loan at a bank. Stage 3 loans jumped to 3.87% of the book in Q2 FY27, yet Muthoot set aside only about 12% of their value as expected losses, because the gold covers most of the rest. A bank lending to a shopkeeper is betting on the shopkeeper's cash flow. Muthoot is betting on the bangle in its vault, which is a far safer bet. If a customer stops paying, Muthoot auctions the gold and gets most of its money back. Real advantage. But be clear about what it does not cover: Muthoot still carries funding risk, rate risk, competition on pricing, regulatory risk and, above all, gold-valuation risk. The vault protects you from the borrower. It does not protect you from the cycle."
     },
     {
       "name": "The gold-price engine",
-      "reading": "Every rupee gold rises widens Muthoot's collateral cushion, opens more lending room on each customer's jewellery, and pushes the loan book up. Every rupee it falls does the reverse to all three. FY26 profit nearly doubled because gold climbed and kept climbing. Now that gold has steadied and the margin is compressing, that lift is fading. This is commodity cyclicality wearing a lender's clothes: the gold price quietly sets the collateral, the loan size and the pace of growth. The 85% jump in profit does not repeat unless gold rallies all over again."
+      "reading": "Every rupee gold rises widens Muthoot's collateral cushion, opens more lending room on each customer's jewellery, and pushes the loan book up. Every rupee it falls does the reverse to all three. FY26 profit nearly doubled because gold climbed and kept climbing. Now that gold is falling, that lift is fading. This is commodity cyclicality wearing a lender's clothes: the gold price quietly sets the collateral, the loan size and the pace of growth. The near-doubling of FY26 does not repeat unless gold rallies all over again."
     },
     {
-      "name": "The margin that is normalising now",
-      "reading": "The margin was 12.8% in FY26 and fell to 10.4% in Q1 FY27, 297 basis points gone in a single quarter. A drop that fast is worth staring at. Banks are undercutting on gold-loan rates, Manappuram and IIFL are in the same towns, and customers now shop around for the cheapest pledge. Push the spread toward 9-10% and Muthoot is lending barely above what its own borrowing costs. Whether competition drags it all the way there is the number to watch. The steady-state spread may well settle a good deal below the 12.8% of FY26."
+      "name": "The margin that will not sit still",
+      "reading": "The margin was 12.8% in FY26, fell to 10.4% in Q1 FY27, and bounced to about 12.2% in Q2 by Motilal Oswal's count. Why does it swing so much? In Q2 loan yields rose to 19.6% while Muthoot's own borrowing cost eased to 8.6%. The broker expects yields to settle back near 18.5% and borrowing costs to creep up, and management itself guides 10.5-11% for the year. Banks are still undercutting on gold-loan rates, Manappuram and IIFL are in the same towns, and customers now shop around for the cheapest pledge. Treat FY26's 12.8% as the high-water mark, not the base. Whether competition drags the spread down to that guidance is the number to watch."
     },
     {
       "name": "Cheap for a reason versus genuinely cheap",
-      "reading": "At 10 times earnings, Muthoot looks like a steal next to Bajaj Finance at 20x. But Bajaj earns a steady 20% return through good credit cycles and bad. Muthoot earns a cyclical 31% that likely settles back toward 18-22% once the gold tailwind fades and margins normalise. The low multiple is not the market fumbling the maths. It is the price of that cyclicality. So the stock is cheap for a reason. It is genuinely cheap only if one of three things holds: gold stays high, Muthoot defends its margin against the banks, or ROE normalises but the multiple re-rates upward anyway because people stop fearing the gold price. Which of those you believe is the whole investment."
+      "reading": "At under 9 times earnings, Muthoot looks like a steal next to Bajaj Finance at about 31x. But Bajaj earns a steady 20% return through good credit cycles and bad. Muthoot earns a cyclical 31% that likely settles back toward 18-22% once the gold tailwind fades and margins normalise. The low multiple is not the market fumbling the maths. It is the price of that cyclicality. So the stock is cheap for a reason. It is genuinely cheap only if one of three things holds: gold stays high, Muthoot defends its margin against the banks, or ROE normalises but the multiple re-rates upward anyway because people stop fearing the gold price. Which of those you believe is the whole investment."
     }
   ]
 }

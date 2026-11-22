@@ -1,21 +1,44 @@
 {
   "ticker": "CAMS",
   "company": "Computer Age Management Services Ltd",
+  "latest": {
+    "period": "Q2 FY27 (Jul-Sep 2026)",
+    "published": "2026-10-29",
+    "headline": "Revenue up 10%, profit up 14%, and the fee squeeze eased for a quarter.",
+    "body": [
+      "CAMS reported its July-September quarter on 29 October 2026. Revenue rose 10% to ₹414 crore and profit rose 14.4% to ₹131 crore. For the first half of the year, profit is up 15.8%. Compare that with the whole of FY26, when profit grew 1.2%. The board also declared an interim dividend of ₹3.25 a share.",
+      "Why did profit grow faster than revenue? The operating margin (what CAMS keeps from each rupee of revenue before depreciation, interest and tax) rose to 46%, up 1.4 percentage points on a year ago. There is no one-off gain inside that number. If anything the quarter carried extra cost: a staff pay rise that had been pushed back, and about ₹4 crore spent on a new technology platform. One honest caveat: the same quarter last year was weak, with profit down 6%, so the comparison is an easy one.",
+      "The fund assets CAMS keeps the books for reached a record ₹58.4 lakh crore, up about 12.5%. Revenue grew 10%. So the fee per rupee is still sliding, but the gap between the two has shrunk to about 2.5 points, and management said the fee rate fell less than 1% from the previous quarter. The newer non-fund businesses grew about 22% and are now just under 16% of revenue. CAMS's share of the industry's fund assets was 67%.",
+      "One good quarter is not a trend. Management's own target is non-fund at 20% of revenue within a couple of years. Watch whether revenue keeps growing within a few points of the assets in the October-December quarter. If the gap widens back out, this quarter was a pause in the squeeze, not the end of it."
+    ],
+    "figures": [
+      { "label": "Revenue", "value": "₹414 cr", "hint": "+10% YoY" },
+      { "label": "Net Profit", "value": "₹131 cr", "hint": "+14.4% YoY; weak base a year ago" },
+      { "label": "EBITDA Margin", "value": "46%", "hint": "+1.4 pts YoY", "tone": "good" },
+      { "label": "Non-fund revenue", "value": "~16%", "hint": "of revenue; growing ~22% YoY", "tone": "good" }
+    ],
+    "sources": [
+      { "label": "Equity Bulls, results release, 29 Oct 2026", "url": "https://www.equitybulls.com/news/378106/cams-q2fy27-consolidated-pat-up-14-4-yoy" },
+      { "label": "Investywise, board outcome and dividend", "url": "https://www.investywise.com/?p=125692" },
+      { "label": "Multibagg, earnings call summary", "url": "https://www.multibagg.ai/market-pulse/articles/cams-pat-aum-growth-fy27-concall-cmw2ouapy00hf2mtkekrw4q32" },
+      { "label": "Angel One, Q2 FY26 results (the base)", "url": "https://www.angelone.in/news/market-updates/cams-share-price-falls-3-percent-as-q2-fy26-profit-declines-6-percent-yoy" }
+    ]
+  },
   "sector": "Financials",
   "industry": "Market Infrastructure",
   "sectorId": "capitalmarkets",
   "dataVariant": "Consolidated",
-  "asOf": "2026-08-16",
-  "oneLiner": "CAMS keeps the books for two-thirds of India's mutual-fund money and earns 47% on capital. But the more money it minds, the smaller its cut of each rupee, so revenue crawls while the assets race.",
+  "asOf": "2026-11-22",
+  "oneLiner": "CAMS keeps the books for two-thirds of India's mutual-fund money and earns 47% on capital. But the more money it minds, the smaller its cut of each rupee, so revenue always trails the assets it minds.",
   "verdict": {
     "rows": [
       { "label": "Business", "value": "Duopoly, 47% ROCE", "tone": "good" },
       { "label": "Moat", "value": "Wide", "tone": "good" },
-      { "label": "Growth", "value": "Crawling (~1%)", "tone": "bad" },
+      { "label": "Growth", "value": "Recovering (~10%)", "tone": "warn" },
       { "label": "Pricing", "value": "Fee per rupee thinning", "tone": "warn" },
-      { "label": "Valuation", "value": "38x earnings", "tone": "bad" }
+      { "label": "Valuation", "value": "35x earnings", "tone": "bad" }
     ],
-    "keyQuestion": "The assets it minds keep racing. If its cut per rupee keeps shrinking, why pay 38 times earnings?"
+    "keyQuestion": "The assets it minds keep racing. If its cut per rupee keeps shrinking, why pay 35 times earnings?"
   },
   "facts": {
     "snapshot": "CAMS is the back office of India's mutual-fund industry. As a registrar and transfer agent it records your fund purchases, redemptions and monthly SIPs and keeps the paperwork straight, handling roughly two-thirds of the country's fund accounts.",
@@ -31,12 +54,12 @@
       {
         "model": "Switching Costs and Integration",
         "strength": 5,
-        "why": "The real lock-in is not a network effect (CAMS does not get more useful to one fund house because another fund house joined). It is integration depth: a fund house wires its entire operation into CAMS over years, so moving to KFin means a risky mid-flight migration under the regulator's eye. That is why CAMS has held 68% share for years."
+        "why": "The real lock-in is not a network effect (CAMS does not get more useful to one fund house because another fund house joined). It is integration depth: a fund house wires its entire operation into CAMS over years, so moving to KFin means a risky mid-flight migration under the regulator's eye. That is why CAMS has held about two-thirds of the market for years."
       },
       {
         "model": "Duopoly Economics",
         "strength": 4,
-        "why": "Two players splitting a market where size is a barrier to entry. CAMS has 68%, KFin has 31%, and nobody else has more than 1%. This is where CAMS's market power lives: it keeps clients and holds off rivals."
+        "why": "Two players splitting a market where size is a barrier to entry. CAMS has 67%, KFin about a third, and nobody else is a serious player. This is where CAMS's market power lives: it keeps clients and holds off rivals."
       },
       {
         "model": "Price-Setting Power",
@@ -57,7 +80,7 @@
     "economicEngine": [
       {
         "label": "Assets Under Administration",
-        "value": "₹52-55 lakh crore in mutual-fund assets",
+        "value": "₹58.4 lakh crore of mutual-fund assets serviced (Sep 2026)",
         "note": "This is the fuel: as Indians put more money into mutual funds, CAMS's asset base grows, but not its fee rate."
       },
       {
@@ -84,22 +107,22 @@
     "strategicPosition": [
       {
         "label": "CAMS",
-        "description": "Market leader by far, 68% share, integrated with 18 of 46 fund houses, including 10 of the top 15. First-mover with deep, expensive switching costs.",
+        "description": "Market leader by far, 67% share, integrated with 18 of 46 fund houses, including 10 of the top 15. First-mover with deep, expensive switching costs.",
         "tone": "strong"
       },
       {
         "label": "KFin Technologies",
-        "description": "Rival RTA with 31% share, fewer major clients, lower scale. But a credible alternative, preventing complacency.",
+        "description": "Rival RTA with about a third of the market, fewer major clients, lower scale. But a credible alternative, preventing complacency.",
         "tone": "focus"
       },
       {
         "label": "New non-RTA players",
-        "description": "CAMS diversifying into payments, account aggregators, KYC registry, insurance repo. Still small, 14% of revenue, but growing fast at 24-25%. Could reduce RTA dependency over time if they scale.",
+        "description": "CAMS diversifying into payments, account aggregators, KYC registry, insurance repo. Still small, just under 16% of revenue, but growing fast at about 22%. Could reduce RTA dependency over time if they scale.",
         "tone": "weak"
       }
     ],
     "winningToday": [
-      "CAMS owns 68% of the RTA market while KFin has 31%. That duopoly gives it client retention and protection from new entrants (though not the power to raise its fee rate).",
+      "CAMS holds 67% of the RTA market while KFin has about a third. That duopoly gives it client retention and protection from new entrants (though not the power to raise its fee rate).",
       "It processes 1,070 million transactions and services 18 of 46 fund houses, embedding itself so deeply that switching is terrifying for a fund house.",
       "It has almost no capital requirements, no inventory, no physical assets. FY26 operating cash flow was about 124% of net profit, and free cash flow after capex was about 94%.",
       "Its return on capital (ROCE) is 47%, among the highest in Indian finance. It is making a fortune on minimal capital.",
@@ -113,16 +136,16 @@
       "The non-MF businesses are still small and have not proven they can grow as fast or as profitably as the core. If they do not scale, CAMS remains a one-trick pony."
     ],
     "marketBets": [
-      "CAMS continues to take market share from KFin, extending its 68-31 lead. This is possible but not guaranteed.",
+      "CAMS holds its two-thirds share against KFin, which says it has crept above 33%. This is likely but not guaranteed.",
       "India's mutual-fund AUM keeps growing through SIP culture and rising retail participation. This is likely.",
       "The non-MF businesses (payments, KRA, account aggregator, insurance repository) scale to 25-30% of revenue and grow at double-digit rates. This is the bull case.",
       "Fee compression slows or stabilizes as scale reaches a ceiling and SEBI settles on a new normal. This is uncertain.",
-      "CAMS maintains 45% net profit margins and 47% ROCE even as it diversifies. This assumes no value destruction in new ventures."
+      "CAMS maintains 45% operating margins and 47% ROCE even as it diversifies. This assumes no value destruction in new ventures."
     ],
     "sectorModels": [
       {
         "model": "Mutual-Fund Penetration",
-        "reading": "Rising but still low. India's mutual-fund AUM is ₹52-55 lakh crore; household financial savings are much larger. Runway exists, but saturation is a 20-30 year story, not a 5-year one.",
+        "reading": "Rising but still low. India's mutual-fund AUM was about ₹83 lakh crore at end-September 2026 (AMFI); household financial savings are much larger. Runway exists, but saturation is a 20-30 year story, not a 5-year one.",
         "note": "Slower adoption than equity bulls assume."
       },
       {
@@ -141,7 +164,7 @@
         "note": "CAMS benefits from this, but cannot raise prices because of it."
       }
     ],
-    "whyNow": "CAMS is not cheap, and the reason is easy to see: 47% on capital, a real duopoly, and a mutual-fund boom with no sign of ending. At 38 times earnings the price already assumes three things go right together. Assets keep flowing in. CAMS holds its share against KFin. The newer non-fund businesses grow into something real. None of that is far-fetched. But when a price needs all three, a stumble in any one can halve the multiple while the business itself stays perfectly fine. That is the position today: a sound business wearing a price that leaves no room to be wrong.",
+    "whyNow": "CAMS is not cheap, and the reason is easy to see: 47% on capital, a real duopoly, and a mutual-fund boom with no sign of ending. At about 35 times earnings the price still assumes three things go right together. Assets keep flowing in. CAMS holds its share against KFin. The newer non-fund businesses grow into something real. None of that is far-fetched. But when a price needs all three, a stumble in any one can halve the multiple while the business itself stays perfectly fine. That is the position today: a sound business wearing a price that leaves no room to be wrong.",
     "remember": "CAMS runs a cloakroom that gets busier every year and is allowed to charge a little less each time. Its whole job now is to find new coats to mind before the old fee thins away."
   },
   "business": {
@@ -150,19 +173,19 @@
     "segments": [
       {
         "name": "Mutual-fund RTA services",
-        "pct": 86,
+        "pct": 84,
         "marginProfile": "Highest margins, 45-50% OPM. Core business. Fee compression is the long-term risk."
       },
       {
         "name": "Non-MF services (payments, KYC, account aggregator, insurance repository)",
-        "pct": 14,
-        "marginProfile": "Lower margins initially, but growing fast at 24-25% YoY. Could become a pillar if scaled."
+        "pct": 16,
+        "marginProfile": "Lower margins (management puts profitability above 18%), growing about 22% YoY. Could become a pillar if scaled."
       }
     ],
-    "revenuePerUnitTrend": "Flat to falling in the core. FY26 revenue grew just 6.6%, well behind the growth in mutual-fund assets, because the fee per rupee kept sliding. The growth that matters now is in the non-fund businesses, up about 25% last quarter, but off a base small enough that it cannot yet move the whole.",
+    "revenuePerUnitTrend": "Flat to falling in the core. FY26 revenue grew just 6.6%, well behind the growth in mutual-fund assets, because the fee per rupee kept sliding. In the September 2026 quarter the gap narrowed: assets serviced up about 12.5%, revenue up 10%. The growth that matters now is in the non-fund businesses, up about 22% that quarter, but off a base small enough that it cannot yet move the whole.",
     "industry": {
-      "structure": "Two-player RTA market with CAMS at 68% and KFin at 31%. The barrier to entry is not capital (an RTA is asset-light, which is the whole appeal of the business). It is regulatory approval, decades of operational track record, and the integration depth that makes fund houses reluctant to switch. No third player has more than 1%. This is a duopoly by trust and integration, not by capital.",
-      "competitors": "KFin Technologies is the only meaningful rival. It has been trying to grow share for years; CAMS has held steady at 68%, which shows either very high switching costs or very good service, probably both.",
+      "structure": "Two-player RTA market with CAMS at 67% and KFin at about a third. The barrier to entry is not capital (an RTA is asset-light, which is the whole appeal of the business). It is regulatory approval, decades of operational track record, and the integration depth that makes fund houses reluctant to switch. No third player of any size exists. This is a duopoly by trust and integration, not by capital.",
+      "competitors": "KFin Technologies is the only meaningful rival. It has been trying to grow share for years and says it has crept above 33% over the last two quarters. CAMS still holds 67%, which shows either very high switching costs or very good service, probably both.",
       "pricingPower": "Split the idea in two. CAMS has strong market power (it retains clients and holds off KFin) but weak price-setting power (it cannot lift its fee rate). Three reasons it cannot: the fund houses it serves are themselves concentrated (the top 15 AMCs are a huge share of AUM) and negotiate hard, SEBI's tightening expense-ratio caps squeeze what those AMCs can pay, and a bigger book is contractually priced at a lower rate per rupee. So the moat defends CAMS's share and its cash flow, not its ability to charge more.",
       "demandDriver": "Retail investor participation in mutual funds, driven by SIP culture, rising income, and equity market performance. As Indians' financial literacy and confidence grow, mutual funds are the 'safe' place to invest equity gains. This is a real trend, but penetration is still low compared to developed markets.",
       "driverType": "Cyclical in the short term (equity market booms pull in retail), structural in the long term (more Indians investing). CAMS is exposed to both.",
@@ -170,16 +193,17 @@
       "penetration": "Still low. Mutual funds are 5-7% of household financial savings in India. In the US, the figure is much higher. Runway exists, but growth is not explosive.",
       "valueChainPosition": "CAMS is the back-office plumbing. It does not manage money or take principal risk. It is a utility playing a critical role, with a duopoly structure that protects it but not prices it."
     },
-    "qualityVerdict": "Is it well run? Plainly, yes. It holds 68% of its market, earns 47% on capital, spends almost nothing on equipment, and turned FY26 profit into cash at about 124 paise on the rupee. For five years it compounded revenue and profit in the mid-to-high teens. The thing to notice is that this engine is now slowing, not breaking: as the fee per rupee compresses, the same dominance produces less growth than it used to. That is the model working as designed, not a crack in it. So the quality is not the question. Whether the price assumes more growth than a maturing record-keeper can give is the question, and that lives in the engine below."
+    "qualityVerdict": "Is it well run? Plainly, yes. It holds 67% of its market, earns 47% on capital, spends almost nothing on equipment, and turned FY26 profit into cash at about 124 paise on the rupee. For five years it compounded revenue and profit in the mid-to-high teens. The thing to notice is that this engine is now slowing, not breaking: as the fee per rupee compresses, the same dominance produces less growth than it used to. That is the model working as designed, not a crack in it. So the quality is not the question. Whether the price assumes more growth than a maturing record-keeper can give is the question, and that lives in the engine below."
   },
   "valuation": [
     {
       "label": "Market Cap",
-      "value": "₹18,926 cr"
+      "value": "₹17,943 cr"
     },
     {
       "label": "Stock Price",
-      "value": "₹762"
+      "value": "₹722",
+      "hint": "as of 18 Nov 2026"
     },
     {
       "label": "52W High / Low",
@@ -187,28 +211,28 @@
     },
     {
       "label": "Stock P/E",
-      "value": "38.2",
-      "hint": "price/EPS ≈ 40; on 6.6% FY26 revenue growth",
+      "value": "35.2",
+      "hint": "check: 722 / 20.62 = 35.0; on ~10% TTM profit growth",
       "tone": "bad"
     },
     {
       "label": "P/B",
-      "value": "14.3",
-      "hint": "book value ₹53.3",
+      "value": "12.4",
+      "hint": "book value ₹58.0",
       "tone": "bad"
     },
     {
-      "label": "EPS (FY26)",
-      "value": "₹19.20"
+      "label": "EPS (TTM)",
+      "value": "₹20.62"
     },
     {
       "label": "Book Value",
-      "value": "₹53.3"
+      "value": "₹58.0"
     },
     {
       "label": "Dividend Yield",
-      "value": "1.64%",
-      "hint": "Q4 FY26 ₹4/share, payout ~71%"
+      "value": "1.69%",
+      "hint": "₹3.25 interim declared Oct 2026; FY26 payout 65%"
     }
   ],
   "financials": [
@@ -251,8 +275,8 @@
   "ratios": [
     {
       "label": "ROE (3Y avg)",
-      "value": "39.9%",
-      "hint": "FY26 was 36.3%",
+      "value": "40.3%",
+      "hint": "latest 37.4%",
       "tone": "good"
     },
     {
@@ -263,30 +287,54 @@
     },
     {
       "label": "OPM",
-      "value": "~45%",
-      "hint": "stable high margins",
+      "value": "~46%",
+      "hint": "TTM; 46% in Q2 FY27 too",
       "tone": "good"
     },
     {
       "label": "Book Value / Share",
-      "value": "₹53.3"
+      "value": "₹58.0"
     },
     {
       "label": "Debt / Equity",
       "value": "Minimal",
-      "hint": "borrowings ~₹64 cr vs cash ₹571 cr",
+      "hint": "borrowings ~₹59 cr at Sep 2026",
       "tone": "good"
     }
   ],
   "cashFlow": [
     {
+      "year": "FY22",
+      "ocf": 321,
+      "capex": 62,
+      "fcf": 259
+    },
+    {
+      "year": "FY23",
+      "ocf": 318,
+      "capex": 43,
+      "fcf": 275
+    },
+    {
+      "year": "FY24",
+      "ocf": 401,
+      "capex": 38,
+      "fcf": 363
+    },
+    {
+      "year": "FY25",
+      "ocf": 477,
+      "capex": 118,
+      "fcf": 359
+    },
+    {
       "year": "FY26",
       "ocf": 584,
-      "capex": 270,
+      "capex": 140,
       "fcf": 444
     }
   ],
-  "cashFlowNote": "Two cash numbers are worth separating, rather than reaching for a single flattering one. FY26 operating cash flow was ₹584 crore, about 124% of the ₹472 crore net profit, because CAMS collects quickly and books little that is not real cash. After ₹270 crore of capex, free cash flow was ₹444 crore, about 94% of profit. So even after reinvesting, it keeps almost every rupee it earns as cash. We do not have reliable earlier-year operating cash flow, so only FY26 is shown. That cash pays the dividend and builds a treasury (current investments ₹571 crore), and the company carries almost no debt.",
+  "cashFlowNote": "Two cash numbers are worth separating, rather than reaching for a single flattering one. FY26 operating cash flow was ₹584 crore, about 124% of the ₹472 crore net profit, because CAMS collects quickly and books little that is not real cash. After about ₹140 crore of capex, free cash flow was ₹444 crore, about 94% of profit. So even after reinvesting, it keeps almost every rupee it earns as cash. And FY26 was not a lucky year: operating cash flow has beaten reported profit in every one of the five years shown. That cash pays the dividend and builds a treasury (current investments ₹571 crore), and the company carries almost no debt.",
   "growth": [
     {
       "label": "Sales CAGR 5Y",
@@ -305,7 +353,7 @@
     },
     {
       "label": "Profit CAGR 3Y",
-      "value": "17%",
+      "value": "19%",
       "tone": "good"
     },
     {
@@ -322,33 +370,38 @@
     },
     {
       "label": "Stock CAGR 1Y",
-      "value": "~Flat"
+      "value": "-6%",
+      "hint": "profit +10% TTM",
+      "tone": "bad"
     },
     {
       "label": "Stock CAGR 5Y",
-      "value": "~Modest",
-      "hint": "multiple compression after the boom"
+      "value": "4%",
+      "hint": "profit compounded 21%; multiple compression"
     }
   ],
-  "management": "CAMS has no promoter pulling the strings: Warburg Pincus and Great Terrain sold out, and the company is now widely held. The board and management are professional, and they have done the two things the job asks, holding the core against KFin while pushing into non-fund services. Honestly, the moat does much of the heavy lifting here. Switching costs and regulatory barriers protect the business more than any single decision does. The real test in front of management is narrow and clear: grow the non-fund businesses fast enough to cover the fee compression in the core. Get those to 25-30% of revenue at decent margins and CAMS becomes a different, sturdier company. It is not there yet. Non-fund is still 14%, and building it out could take years.",
+  "management": "CAMS has no promoter pulling the strings: Warburg Pincus and Great Terrain sold out, and the company is now widely held. The board and management are professional, and they have done the two things the job asks, holding the core against KFin while pushing into non-fund services. Honestly, the moat does much of the heavy lifting here. Switching costs and regulatory barriers protect the business more than any single decision does. The real test in front of management is narrow and clear: grow the non-fund businesses fast enough to cover the fee compression in the core. Get those to 25-30% of revenue at decent margins and CAMS becomes a different, sturdier company. It is not there yet. Non-fund is just under 16%, management's own target is 20% within a couple of years, and getting further could take much longer.",
   "holding": [
     {
       "label": "FII",
-      "pct": 44.88
+      "pct": 45.58,
+      "qoqChange": 0.7
     },
     {
       "label": "DII",
-      "pct": 23.54
+      "pct": 21.79,
+      "qoqChange": -1.75
     },
     {
       "label": "Retail",
-      "pct": 31.56
+      "pct": 32.64,
+      "qoqChange": 1.08
     }
   ],
   "moat": {
     "strength": "wide",
     "sources": [
-      "Duopoly structure with 68% market share vs KFin's 31%",
+      "Duopoly structure with 67% market share vs KFin's roughly 33%",
       "Switching costs for fund houses extremely high (years of integration, regulatory approvals, operational risk)",
       "Regulatory barriers to entry: RTAs need SEBI approval and a long operational track record",
       "Installed base and integration depth: fund houses are wired into CAMS over years",
@@ -356,14 +409,14 @@
     ],
     "note": "The moat is wide and real, but be exact about its kind. It is built on integration and switching cost, not a network effect: CAMS does not get more useful to one fund house because another signs up. A fund house simply cannot leave without a risky live migration, and SEBI likes things stable, so new rivals almost never appear. Here is the caveat that matters. This moat guards CAMS's share of the coats and the cash they throw off. It does nothing for price. The fund houses are big, few, and squeezed by SEBI's caps, so CAMS cannot charge more even from an unassailable position. Deep roots, but the fee is not CAMS's to set."
   },
-  "narrative": "CAMS grew up alongside India's mutual-fund boom. It was early, it was reliable, and it wired itself into fund house after fund house, so as retail money poured into funds over 15 years, CAMS went from startup to the largest record-keeper in the country. Revenue and profit climbed year after year. Then the squeeze arrived. As assets crossed ₹50 lakh crore, SEBI and the fund houses started pushing fees down, and CAMS could not say no, because a fund house has nowhere better to go and CAMS still wants to keep it. The fee per rupee began to thin. FY26 showed it starkly: assets were booming, yet revenue grew only 6.6% and profit almost stood still at 1.2%. The plan from here is to build other businesses, payments, KYC, account aggregation, insurance records. They grew 24-25% last quarter against the core's crawl. But they are still only 14% of the whole, and they have not yet proven they can get as big, or as profitable, as the cloakroom.",
+  "narrative": "CAMS grew up alongside India's mutual-fund boom. It was early, it was reliable, and it wired itself into fund house after fund house, so as retail money poured into funds over 15 years, CAMS went from startup to the largest record-keeper in the country. Revenue and profit climbed year after year. Then the squeeze arrived. As assets crossed ₹50 lakh crore, SEBI and the fund houses started pushing fees down, and CAMS could not say no, because a fund house has nowhere better to go and CAMS still wants to keep it. The fee per rupee began to thin. FY26 showed it starkly: assets were booming, yet revenue grew only 6.6% and profit almost stood still at 1.2%. FY27 has started better. In the first half revenue grew 10.8% and profit 15.8%, helped by a weak year-ago base and a margin that crept up to 46%. The plan from here is to build other businesses, payments, KYC, account aggregation, insurance records. They grew about 22% in the September quarter, faster than the core. But they are still just under 16% of the whole, and they have not yet proven they can get as big, or as profitable, as the cloakroom.",
   "risks": [
     "Fee compression accelerating: SEBI could tighten the expense-ratio cap faster than expected, or fund houses could band together and demand deeper cuts. CAMS cannot refuse. If AUM grows 12% but the take rate falls 3%, revenue grows only about 9%. High.",
     "Mutual-fund growth slowdown: A market correction or recession could freeze retail participation in mutual funds, slowing AUM growth to single digits. CAMS would be a bystander in its own downturn. High.",
-    "KFin gaining share: KFin could win over a major fund house with better tech or service. CAMS's 68-31 split could tighten. If KFin goes to 40%, it has pricing leverage. Medium.",
+    "KFin gaining share: KFin could win over a major fund house with better tech or service. CAMS's 67-33 split could tighten further. If KFin goes to 40%, it has pricing leverage. Medium.",
     "Non-MF businesses not scaling: Payments, KYC, insurance repo are all competitive, fast-moving spaces. CAMS is an incumbent in RTA, a novice in fintech. If these businesses never exceed 20% of revenue and never match RTA margins, CAMS stays a one-trick pony forever. High.",
     "Regulatory tightening: SEBI could impose new compliance costs on RTAs, or require capital charges for assets under administration, cutting into returns. Medium.",
-    "Valuation compression: Even if the business is fine, a re-rating from 38x to 25x earnings would hurt a buyer today. That is a multiple risk, not a business risk, but it is real. Medium."
+    "Valuation compression: Even if the business is fine, a re-rating from 35x to 25x earnings would hurt a buyer today. That is a multiple risk, not a business risk, but it is real. Medium."
   ],
   "trapChecklist": [
     {
@@ -373,8 +426,8 @@
     },
     {
       "label": "Profit growth",
-      "status": "fail",
-      "note": "FY26 profit grew only 1.2% despite AUM strength. Fee compression is eating growth."
+      "status": "warn",
+      "note": "FY26 profit grew only 1.2%. H1 FY27 recovered to +15.8%, partly on a weak base. One half-year is not a trend."
     },
     {
       "label": "Return on capital",
@@ -394,7 +447,7 @@
     {
       "label": "Valuation vs growth",
       "status": "fail",
-      "note": "P/E 38 for 6.6% revenue growth and 1% profit growth. Price is stretched for the growth offered."
+      "note": "P/E 35 for about 10% TTM revenue and profit growth. Price is stretched for the growth offered."
     }
   ],
   "sectorChecklist": [
@@ -411,20 +464,20 @@
     {
       "label": "Market-share stability vs KFin",
       "status": "pass",
-      "note": "CAMS has held 68% share for years. Switching costs are too high for rapid shift, but complacency is dangerous."
+      "note": "CAMS held 67% in Q2 FY27, while KFin says it has crept above 33%. Switching costs are too high for a rapid shift, but the drift is worth watching."
     },
     {
       "label": "Non-MF diversification potential",
       "status": "warn",
-      "note": "New businesses (payments, KYC, insurance repo) are 14% of revenue, growing fast (24-25%), but unproven at scale and profitability. This is the hope; execution risk is real."
+      "note": "New businesses (payments, KYC, insurance repo) are just under 16% of revenue, growing about 22%, but unproven at scale and profitability. This is the hope; execution risk is real."
     }
   ],
-  "summary": "CAMS holds a 68-31 duopoly, earns 47% on almost no capital, and turns nearly all its profit into cash. None of that is in doubt. The price is the catch. You pay 38 times earnings for a company whose profit grew 1.2% last year, because the fee it keeps per rupee thins even as the assets it minds swell. This is not a business coming apart. It is a cloakroom that gets busier while the charge per coat slips, leaning on its newer businesses to replace the growth the core is losing. That bet is plausible and unproven at once. So the price already assumes the non-fund engine fires and the fee squeeze eases, and if either misses, the multiple has room to fall. Watch whether non-fund accelerates and whether the compression settles. As always, do your own work and consult a SEBI-registered adviser.",
+  "summary": "CAMS holds two-thirds of a duopoly, earns 47% on almost no capital, and turns nearly all its profit into cash. None of that is in doubt. The price is the catch. You pay about 35 times earnings for a company whose profit grew 1.2% in FY26 and has only just picked back up, because the fee it keeps per rupee thins even as the assets it minds swell. This is not a business coming apart. It is a cloakroom that gets busier while the charge per coat slips, leaning on its newer businesses to replace the growth the core is losing. That bet is plausible and unproven at once. So the price already assumes the non-fund engine fires and the fee squeeze eases, and if either misses, the multiple has room to fall. Watch whether non-fund accelerates and whether the compression settles. As always, do your own work and consult a SEBI-registered adviser.",
   "engine": {
-    "state": "both-stalling",
-    "earnings": "The earnings engine has stalled, and the numbers say why. Assets were strong and CAMS processed 1,070 million transactions in FY26, yet profit grew a bare 1.2%. The reason is the thinning fee: the rate per rupee of assets is falling faster than volume can make up. Revenue grew 6.6%, a long way from the 16-17% it used to manage. Margins held near 31%, so this is not a cost problem. It is pure growth that has gone missing, and it is structural, not a bad year. To wake the engine, CAMS would need to claw back fee rates (unlikely, given SEBI), grow the non-fund businesses to a quarter or a third of revenue at good margins (not yet), or see assets suddenly compound above 20% a year (possible, not promised).",
-    "multiple": "At 38 times earnings and 14.3 times book, the more useful move than calling it dear is to ask what growth the price assumes. A 38x multiple on a steady, high-quality business roughly bakes in low-to-mid teens earnings growth held for years. FY26 delivered 1.2%. So the price is not paying for what CAMS is doing today. It is paying for a reacceleration that has not shown up yet.",
-    "verdict": "Rather than hand you a fair value, let me walk the arithmetic with you. Start at today's ₹762 and FY26 earnings of ₹19.20 a share, and look three years out. Bear: fee compression keeps outrunning volume and non-fund stays under 15%, so earnings creep about 3% a year to roughly ₹21. A stalled compounder does not keep a 38x tag, so the multiple sinks to about 22x, and 21 times 22 is about ₹460, roughly -15% a year once you count the fall. Base: assets compound in the low teens and non-fund reaches about 20% of revenue, so earnings grow about 11% to roughly ₹26.3, and the multiple eases to about 30x. That is 26.3 times 30, about ₹790, or roughly +1% a year, because the de-rating quietly hands back what the earnings add. Bull: non-fund pushes past 30% of revenue at good margins and the fee squeeze steadies, earnings compound about 16% to roughly ₹30, and the premium holds near 35x. That is 30 times 35, about ₹1,050, or roughly +11% a year. Notice the shape of it. The base case pays you almost nothing, the bull needs two things to go right together, and the bear is a genuine de-rating, not a scratch. The terminal multiples are just how the market would likely re-file CAMS: near 22x if it decides this is a slow utility, around 30x for a steady dominant compounder, near 35x if the non-fund engine brings a growth story back. These are illustrative paths, not forecasts. The dials that pick the road are in the outlook below."
+    "state": "multiple-drift",
+    "earnings": "The earnings engine stalled in FY26 and has started turning again. In FY26 CAMS processed 1,070 million transactions, yet profit grew a bare 1.2%, because the fee per rupee fell faster than volume could make up. Trailing twelve-month profit is now ₹508 crore, up about 10%, and the September quarter grew 14.4%. Two things did the work: the fee squeeze eased (revenue grew only about 2.5 points slower than the assets, a much narrower gap than in FY26), and the operating margin edged up to 46%. Neither is proven yet. Part of the jump is a weak year-ago quarter, and the fee rate is still falling, just more slowly. The structural fix is unchanged: non-fund growing to a quarter or a third of revenue at good margins. It is just under 16% today.",
+    "multiple": "Over the last year the stock fell about 6% while profit grew about 10%, so the multiple kept slipping. It was 38 times earnings in August and is about 35 now, with 12.4 times book. Rather than call that dear, ask what growth it assumes. A 35x multiple on a steady, high-quality business roughly bakes in low-to-mid teens earnings growth held for years. FY26 delivered 1.2%; the first half of FY27 delivered 15.8%. So the price is no longer paying for something CAMS has never shown. It is paying for two good quarters to become a habit.",
+    "verdict": "Rather than hand you a fair value, let me walk the arithmetic with you. Start at today's ₹722 and trailing earnings of ₹20.62 a share, and look three years out. Bear: fee compression keeps outrunning volume and non-fund stays under 15%, so earnings creep about 3% a year to roughly ₹22.5. A stalled compounder does not keep a 35x tag, so the multiple sinks to about 22x, and 22.5 times 22 is about ₹495, roughly -12% a year once you count the fall. Base: assets compound in the low teens and non-fund reaches about 20% of revenue, so earnings grow about 11% a year to roughly ₹28.2, and the multiple eases to about 30x. That is 28.2 times 30, about ₹845, or roughly +5% a year, because the de-rating quietly hands back about half of what the earnings add. Bull: non-fund pushes past 30% of revenue at good margins and the fee squeeze steadies, earnings compound about 16% a year to roughly ₹32.2, and the premium holds near 35x. That is 32.2 times 35, about ₹1,125, or roughly +16% a year. Notice the shape of it. The base case pays you less than the earnings grow, the bull needs two things to go right together, and the bear is a genuine de-rating, not a scratch. The terminal multiples are just how the market would likely re-file CAMS: near 22x if it decides this is a slow utility, around 30x for a steady dominant compounder, near 35x if the non-fund engine brings a growth story back. These are illustrative paths, not forecasts. The dials that pick the road are in the outlook below."
   },
   "lenses": [
     {
@@ -433,7 +486,7 @@
     },
     {
       "name": "The sliding fee",
-      "reading": "CAMS's revenue model leans downhill by design. As assets grow, the fee per rupee shrinks, so revenue always trails the money it minds. FY26 was the proof: strong asset growth, but only 6.6% revenue growth and 1.2% profit growth. The pressure travels down a chain. SEBI tightens what a fund can charge investors, the fund houses pass the pinch to their vendors, and CAMS's slice narrows at the end of the line. For the stock to grow into its price, the non-fund businesses have to more than fill the gap, climbing from 14% of revenue toward 30-40% over a decade. That is the whole bet in one sentence."
+      "reading": "CAMS's revenue model leans downhill by design. As assets grow, the fee per rupee shrinks, so revenue always trails the money it minds. FY26 was the proof: strong asset growth, but only 6.6% revenue growth and 1.2% profit growth. The pressure travels down a chain. SEBI tightens what a fund can charge investors, the fund houses pass the pinch to their vendors, and CAMS's slice narrows at the end of the line. For the stock to grow into its price, the non-fund businesses have to more than fill the gap, climbing from just under 16% of revenue toward 30-40% over a decade. That is the whole bet in one sentence."
     },
     {
       "name": "Duopoly without pricing power",
@@ -441,7 +494,7 @@
     },
     {
       "name": "The non-MF bet",
-      "reading": "Can CAMS become more than a mutual-fund record-keeper? It is pushing into payments, account aggregation, KYC, and insurance records, and those grew 24-25% last quarter against the core's 6.6%. But they are small (14% of revenue), they are crowded (every bank and fintech wants in), and they have never been run at CAMS's scale. CAMS is the incumbent in its own market and a newcomer in these. If non-fund reaches 30% of revenue by 2030 and still outgrows the core, the story holds together. If it stalls at 14-18%, CAMS stays a mature record-keeper with modest growth. That single question, platform or one-trick, decides whether 38 times earnings looks farsighted or foolish."
+      "reading": "Can CAMS become more than a mutual-fund record-keeper? It is pushing into payments, account aggregation, KYC, and insurance records, and those grew about 22% in the September quarter against about 10% for the company as a whole. But they are small (just under 16% of revenue), they are crowded (every bank and fintech wants in), and they have never been run at CAMS's scale. CAMS is the incumbent in its own market and a newcomer in these. If non-fund reaches 30% of revenue by 2030 and still outgrows the core, the story holds together. If it stalls at 16-18%, CAMS stays a mature record-keeper with modest growth. That single question, platform or one-trick, decides whether 35 times earnings looks farsighted or foolish."
     }
   ],
   "outlook": {
@@ -451,23 +504,24 @@
         "title": "The take rate (the core mechanism)",
         "facts": [
           "FY26 revenue grew 6.6% while mutual-fund AUM grew faster, so the fee kept per rupee fell again.",
-          "Profit grew just 1.2%, the compression showing up in full despite a strong market."
+          "Profit grew just 1.2%, the compression showing up in full despite a strong market.",
+          "In Q2 FY27 assets serviced grew about 12.5% and revenue 10%, a gap of about 2.5 points; management said the fee rate fell less than 1% from the previous quarter."
         ],
         "watch": "Does the gap between AUM growth and revenue growth narrow? Revenue growth climbing back toward AUM growth means compression is stabilising (the constructive signal). Revenue trailing AUM by 5 or more points, year after year, means the squeeze is still winning (the bearish one)."
       },
       {
         "title": "The non-MF engine",
         "facts": [
-          "Non-MF (payments, KYC registry, account aggregator, insurance repository) is about 14% of revenue.",
-          "It grew roughly 24-25% year on year last quarter, far faster than the RTA core."
+          "Non-MF (payments, KYC registry, account aggregator, insurance repository) was just under 16% of revenue in Q2 FY27, up 1.5 points in a year.",
+          "It grew about 22% year on year that quarter, far faster than the RTA core. Management targets 20% of revenue within a couple of years."
         ],
         "watch": "Does non-MF cross 20%, then 25-30%, of revenue at healthy margins? Reaching 20%+ is the bull trigger, because a second engine finally offsets the fee squeeze. Stalling below 15% for a few more years is the bear signal, leaving CAMS a one-engine business."
       },
       {
         "title": "Market share versus KFin",
         "facts": [
-          "CAMS has held about 68% RTA share against KFin's 31% for years.",
-          "Share is stable, not rising."
+          "CAMS reported a 67% share of fund assets in Q2 FY27, still about two-thirds.",
+          "KFin says its share moved above 33% over the past two quarters, so any drift is toward KFin, not away."
         ],
         "watch": "Does CAMS hold or gain share, or does KFin win a large asset manager? A move by KFin toward 40% would hand it negotiating leverage and crack the duopoly's stability, which is the quiet assumption under the whole thesis."
       }

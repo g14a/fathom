@@ -1,21 +1,44 @@
 {
   "ticker": "TIMETECHNO",
   "company": "Time Technoplast Ltd",
+  "latest": {
+    "period": "Q2 FY27 (Jul-Sep 2026)",
+    "published": "2026-11-05",
+    "headline": "Sales up 32% and profit up 27%, but only about 14% more product left the plants, and the drums kept less of each rupee.",
+    "body": [
+      "Time reported its July-September quarter on 5 November 2026. Sales rose 32% to about ₹1,994 crore and profit to shareholders rose 27% to ₹146 crore, both records for a single quarter.",
+      "Look at what built that sales number. The company shipped about 14% more product. The rest came from higher selling prices, and in a business that passes plastic costs on to customers, that most likely means costlier raw material being handed along, not pricing power. The margin tells the same story. Operating margin (what Time keeps from each rupee of sales before interest, depreciation and tax) fell to 13.3% from 14.8% a year ago. The drums and tanks took the hit, sliding from 13.1% to 11.0%. The value-added side, cylinders included, held at 18.5%.",
+      "Cash, at least, went the right way. The company reports ₹344 crore of operating cash in the first half and ₹96 crore less net debt, after a weak cash year in FY26. But value-added products were still only about 30% of sales, barely above last year's 29%, because the drums grew just as fast in rupees. The mix shift this report leans on did not move this quarter.",
+      "Management now guides operating margin back to about 15.5% by FY28, through consolidating plants and automation, with profit growth above 25% a year. That is a promise, not a number yet. Watch the drum margin next quarter. If it climbs back toward 13% as the pricing formulas catch up, this was a timing blip. If it stays near 11%, the base business is even more of a price-taker than this report assumes."
+    ],
+    "figures": [
+      { "label": "Revenue", "value": "₹1,994 cr", "hint": "+32% YoY; volume about +14%" },
+      { "label": "Net Profit", "value": "₹146 cr", "hint": "+27% YoY, to shareholders" },
+      { "label": "EBITDA Margin", "value": "13.3%", "hint": "vs 14.8% a year ago; drums 11.0%", "tone": "warn" },
+      { "label": "Value-added share", "value": "~30%", "hint": "of Q2 sales; 29% in FY26", "tone": "neutral" }
+    ],
+    "sources": [
+      { "label": "Investywise, 5 Nov 2026", "url": "https://www.investywise.com/?p=132748" },
+      { "label": "Multibagg: results summary", "url": "https://www.multibagg.ai/market-pulse/articles/time-technoplast-record-revenue-margin-ppt-cmw3pt7o000lyjk2r8d73b3hi" },
+      { "label": "Multibagg: segment margins", "url": "https://www.multibagg.ai/market-pulse/articles/time-technoplast-value-added-margin-ppt-cmw3pt4s400lxjk2r08uzvdme" },
+      { "label": "Univest", "url": "https://univest.in/blogs/time-technoplast-q2-results-fy27-pat-148-crore" }
+    ]
+  },
   "sector": "Industrials",
   "industry": "Industrial Packaging & Composite Products",
   "sectorId": "packaging",
   "dataVariant": "Consolidated",
-  "asOf": "2026-08-24",
-  "oneLiner": "Time Technoplast makes the plastic drums and tanks that ship the world's chemicals and fuels. The steady part pays the bills. The bet is composite gas cylinders, and at 19 times earnings the market is not handing you that bet for free.",
+  "asOf": "2026-11-22",
+  "oneLiner": "Time Technoplast makes the plastic drums and tanks that ship the world's chemicals and fuels. The steady part pays the bills. The bet is composite gas cylinders, and at 18 times earnings the market is not handing you that bet for free.",
   "verdict": {
     "rows": [
       { "label": "Business", "value": "Market-leading packaging", "tone": "good" },
       { "label": "Balance sheet", "value": "Low debt", "tone": "good" },
       { "label": "Moat", "value": "Narrow", "tone": "warn" },
       { "label": "The bet", "value": "Composite gas cylinders", "tone": "warn" },
-      { "label": "Valuation", "value": "19x, bet not free", "tone": "warn" }
+      { "label": "Valuation", "value": "18x, bet not free", "tone": "warn" }
     ],
-    "keyQuestion": "The steady drums pay the bills. Is the composite-cylinder bet worth 19 times earnings?"
+    "keyQuestion": "The steady drums pay the bills. Is the composite-cylinder bet worth 18 times earnings?"
   },
   "overview": "Picture the container behind the product: the blue barrel of industrial chemical, the 1,000-litre tank of edible oil, the jerry can of pesticide. Someone has to make it, and it has to not leak, not react, and survive a fall. Time Technoplast is the largest maker of those polymer containers in India, and a sizeable one across the Middle East and South-East Asia. Being largest earns it a real cost and procurement edge, but hold that thought, because a drum is close to a commodity, and scale in a commodity buys you market share far more than it buys you pricing power. For most of its life that was the whole company. What makes it interesting today is a second product line built on the same skill in shaping high-strength plastic: composite gas cylinders, aimed at replacing heavy steel cylinders for cooking gas, vehicle CNG, and one day hydrogen. So there are two businesses under one roof, and they are not the same kind of business at all. The rest of this report is about how different they are, and which one you are really paying for.",
   "editorial": {
@@ -134,7 +157,7 @@
         "note": "Oil marketing companies and gas distributors buy in bulk, through tenders."
       }
     ],
-    "whyNow": "The stock is down about 22% over the past year while profit rose 21%, so you can buy it cheaper than a year ago as it earns more. Two things unsettled the price. A 1:1 bonus in September 2025 made the quote look like it halved overnight, which it did not. And an ₹800 crore fundraise in November 2025 left a big slug of cash sitting undeployed at year-end. But strip out the optics and here is the real setup. The market is not ignoring the cylinder opportunity. At 19 times earnings it is already paying a growth multiple for it. So the question is not whether the story exists. It is whether execution earns the premium, and the valuation section puts numbers on exactly what that takes.",
+    "whyNow": "For most of the past year the stock fell while profit rose, and by the end of October it sat near ₹159, close to its 52-week low of ₹154. Then the September-quarter results landed on 5 November, and by 20 November the price was back around ₹192. Even after that bounce you are paying about 18 times earnings, a touch less than in August, because profit grew faster than the price. Two things unsettled the price last year. A 1:1 bonus in September 2025 made the quote look like it halved overnight, which it did not. And an ₹800 crore fundraise in November 2025 left a big slug of cash sitting undeployed at year-end. But strip out the optics and here is the real setup. The market is not ignoring the cylinder opportunity. At 18 times earnings it is already paying a growth multiple for it. So the question is not whether the story exists. It is whether execution earns the premium, and the valuation section puts numbers on exactly what that takes.",
     "remember": "The moat is real, but so far it has bought Time market share, not fat returns. The central investment question is whether cylinders finally change that."
   },
   "ipoFlag": "Long-listed since 2007. No rebranding: still plainly a polymer products maker, not a repackaged theme stock.",
@@ -169,26 +192,27 @@
   "valuation": [
     {
       "label": "Market Cap",
-      "value": "₹9,322 cr"
+      "value": "₹9,470 cr"
     },
     {
       "label": "52W High / Low",
-      "value": "₹249 / ₹154"
+      "value": "₹217 / ₹154"
     },
     {
       "label": "Stock P/E",
-      "value": "19.0",
-      "hint": "computed price/EPS ≈ 18.7",
+      "value": "18.2",
+      "hint": "check: 192 / 10.54 = 18.2",
       "tone": "neutral"
     },
     {
       "label": "P/B",
       "value": "2.3",
+      "hint": "book value as of Mar 2026",
       "tone": "neutral"
     },
     {
       "label": "EPS (TTM)",
-      "value": "₹10.12"
+      "value": "₹10.54"
     },
     {
       "label": "Book Value",
@@ -235,18 +259,20 @@
   "ratios": [
     {
       "label": "ROE",
-      "value": "13.4%",
+      "value": "13.1%",
       "hint": "decent, not high",
       "tone": "neutral"
     },
     {
       "label": "ROCE",
-      "value": "16.7%",
+      "value": "16.5%",
+      "hint": "company reports 18% for H1 FY27",
       "tone": "good"
     },
     {
       "label": "OPM",
-      "value": "~14-15%",
+      "value": "~14%",
+      "hint": "Sep 2026 quarter: 13.3%",
       "tone": "neutral"
     },
     {
@@ -263,7 +289,7 @@
     {
       "label": "Cash conversion (5Y)",
       "value": "~70%",
-      "hint": "FY26 fell to ~41%",
+      "hint": "FY26 ~41%; H1 FY27 ~70% (company figure)",
       "tone": "neutral"
     }
   ],
@@ -299,7 +325,7 @@
       "fcf": -137
     }
   ],
-  "cashFlowNote": "This is the number to watch, so look at five years, not one. Through FY22-FY25 the machine worked: operating cash climbed from ₹291 crore to ₹431 crore, ran at 70-76% of operating profit, and free cash flow stayed positive and rising. Then FY26 broke the pattern. Operating cash fell to ₹233 crore, about 41% of operating profit, and free cash flow went negative for the first time in years. Two things caused it: the company built working capital as it grew, and it stepped up capex on new capacity. Some of that is deliberate, funded by the fresh equity raised in November. So which is it, a one-off investment year or the start of something structural? The honest answer is you cannot tell yet from one year. What you can say is that this business always ran heavy on working capital, the cash-conversion cycle is near 160 days and has been lengthening for a decade, and FY26 pushed it further. If cash conversion climbs back toward 70% over the next year or two, FY26 was the price of growth. If it does not, the reported profit is worth less than it looks. That single line decides a lot.",
+  "cashFlowNote": "This is the number to watch, so look at five years, not one. Through FY22-FY25 the machine worked: operating cash climbed from ₹291 crore to ₹431 crore, ran at 70-76% of operating profit, and free cash flow stayed positive and rising. Then FY26 broke the pattern. Operating cash fell to ₹233 crore, about 41% of operating profit, and free cash flow went negative for the first time in years. Two things caused it: the company built working capital as it grew, and it stepped up capex on new capacity. Some of that is deliberate, funded by the fresh equity raised in November. So which is it, a one-off investment year or the start of something structural? The honest answer is you cannot tell yet from one year. What you can say is that this business always ran heavy on working capital, the cash-conversion cycle is near 160 days and has been lengthening for a decade, and FY26 pushed it further. If cash conversion climbs back toward 70% over the next year or two, FY26 was the price of growth. If it does not, the reported profit is worth less than it looks. The first half of FY27 is the first clue, and it points the right way: by the company's own figures, about 70% of operating profit turned into operating cash. Half a year is not a trend, so judge it on the full-year cash flow statement. That single line decides a lot.",
   "growth": [
     {
       "label": "Sales CAGR 5Y",
@@ -319,13 +345,13 @@
     },
     {
       "label": "Profit CAGR TTM",
-      "value": "21%",
+      "value": "24%",
       "tone": "good"
     },
     {
       "label": "Stock CAGR 1Y",
-      "value": "-22%",
-      "hint": "de-rated while profit rose",
+      "value": "-24%",
+      "hint": "to 30 Oct, at ₹159; ~₹192 by 20 Nov",
       "tone": "neutral"
     }
   ],
@@ -333,23 +359,23 @@
   "holding": [
     {
       "label": "Promoter",
-      "pct": 47.57,
-      "qoqChange": 0
+      "pct": 47.48,
+      "qoqChange": -0.1
     },
     {
       "label": "DII",
-      "pct": 17.56,
-      "qoqChange": 0.2
+      "pct": 17.85,
+      "qoqChange": 0.3
     },
     {
       "label": "FII",
-      "pct": 8.54,
-      "qoqChange": -2.3
+      "pct": 9.16,
+      "qoqChange": 0.6
     },
     {
       "label": "Retail",
-      "pct": 26.33,
-      "qoqChange": 2.2
+      "pct": 25.52,
+      "qoqChange": -0.8
     }
   ],
   "moat": {
@@ -377,7 +403,7 @@
       "note": "Measured off the FY21 COVID trough; the real trend is mid-teens"
     },
     {
-      "label": "19x P/E looks cheap",
+      "label": "18x P/E looks cheap",
       "status": "warn",
       "note": "Only cheap against the growth; ROE is just 13%"
     },
@@ -387,9 +413,9 @@
       "note": "Partly because a fresh ₹800 cr equity raise just refilled the balance sheet"
     },
     {
-      "label": "21% profit growth looks strong",
+      "label": "24% profit growth looks strong",
       "status": "warn",
-      "note": "Less impressive once FY26 free cash flow turned negative"
+      "note": "FY26 free cash flow turned negative; H1 FY27 cash recovered, but one half is not proof"
     },
     {
       "label": "29% value-added revenue looks transformative",
@@ -416,7 +442,7 @@
     {
       "label": "Cash conversion",
       "status": "warn",
-      "note": "FY26 fell to ~41% of operating profit"
+      "note": "FY26 ~41% of operating profit; H1 FY27 back near 70%"
     },
     {
       "label": "Incremental returns on new capital",
@@ -466,14 +492,14 @@
     ],
     "note": "None of these is a buy or sell trigger. They are the dials that tell you whether the story is turning real or turning into a wait."
   },
-  "summary": "Time Technoplast is two businesses stacked together: a mature, market-leading polymer packaging operation that pays the bills, and a young composite gas-cylinder business that supplies the excitement. It compounds profit in the high teens, carries little debt, and trades at 19 times earnings after a year in which the price fell while profit rose. Do the sum of the parts, though, and the cheap-looking headline hides the real position: the packaging half is priced modestly and the cylinder half already carries a growth multiple, so you are not getting the upside for free, you are paying up for it in advance. That reframes the question. It is no longer whether the market has missed the cylinder story. It is whether that story, plus a return on the new capital and a recovery in cash conversion, actually shows up to justify what is already in the price. Some of that I can weigh. The pace of India's composite-cylinder adoption I cannot, and that is the swing factor. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+  "summary": "Time Technoplast is two businesses stacked together: a mature, market-leading polymer packaging operation that pays the bills, and a young composite gas-cylinder business that supplies the excitement. It compounds profit in the high teens, carries little debt, and trades at 18 times earnings after a year in which the price fell while profit rose. Do the sum of the parts, though, and the cheap-looking headline hides the real position: the packaging half is priced modestly and the cylinder half already carries a growth multiple, so you are not getting the upside for free, you are paying up for it in advance. That reframes the question. It is no longer whether the market has missed the cylinder story. It is whether that story, plus a return on the new capital and a recovery in cash conversion, actually shows up to justify what is already in the price. Some of that I can weigh. The pace of India's composite-cylinder adoption I cannot, and that is the swing factor. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
   "engine": {
     "state": "earnings-engine",
     "earningsLabel": "Earnings engine",
     "multipleLabel": "What you are actually paying for",
-    "earnings": "The earnings engine is doing the work. Profit has risen every year since the FY21 dip, up 21% in the last twelve months to about ₹477 crore, driven by steady packaging volumes and faster growth in the higher-margin value-added lines. There is a concrete near-term catalyst: composite cylinders growing 18-22% off a small base, with fresh capacity funded by the 2025 raise, and a stated target of roughly ₹1,500 crore of composite revenue by FY28. The asterisk is cash. FY26 operating cash conversion fell hard, so this profit growth needs to start turning into cash before it fully counts.",
-    "multiple": "Start with a warning: the company does not disclose segment profit or the capital behind each business, so any split of earnings is illustrative, not reported. What saves the exercise is that the conclusion barely moves whatever reasonable split you pick. Value-added products are 29% of revenue at a 18.7% EBITDA margin against a group margin near 15%, which puts their share of profit somewhere around a third, so play it across a range. If value-added earns 30% of the ₹477 crore of profit, that is ₹143 crore, leaving ₹334 crore for packaging; at 35% it is ₹167 crore and ₹310 crore; at 40% it is ₹191 crore and ₹286 crore. Now value the mature packaging half the way you would value any cyclical, low-pricing-power leader, at 13 to 15 times earnings. Across all of those cases the packaging business is worth roughly ₹3,700 to ₹4,700 crore. The market cap is ₹9,322 crore. Subtract, and the cylinder half is carrying somewhere between ₹4,600 and ₹5,600 crore, which on its slice of earnings works out to about 28 to 33 times. Change the packaging multiple, change the profit split, and that cylinder number stays a growth multiple. So read against its own history the whole stock has de-rated, but the market has plainly not left the cylinder business for cheap. Then turn it around and ask what the market must believe. Buy at 19 times today, and assume the multiple fades toward a mature mid-teens as the business matures, and you need earnings to compound in the high teens for five years just to earn an ordinary return. That is close to the company's own plan: about 15% from packaging, about 24% from value-added, blending to roughly 17-18%. So the price is not assuming a miracle. It is assuming the guidance substantially lands. That is the bar.",
-    "verdict": "So here is my honest read, and it cuts against the easy version of this story. This is not a case where the market fell asleep on a hidden growth engine. It is a case where the market is already paying a growth price for that engine, inside a headline multiple that looks tame. That does not make it a bad stock. High-teens profit growth at 19 times blended earnings can work out fine on the earnings alone, and the de-rating gives you a better entry than a year ago. But the margin of safety people imagine, the one where you get cylinders thrown in, is not really there. What you are actually buying is a decent packaging business at a sensible price, bolted to a cylinder business you are paying up for, and betting the second one delivers the growth, the returns and the cash to earn its price. I would want to see cash conversion recover and the new capital earn its keep before believing it. When India's composite-cylinder market truly scales, I cannot tell you, and that timing is the whole trade."
+    "earnings": "The earnings engine is doing the work. Profit has risen every year since the FY21 dip, up about 24% over the last twelve months to roughly ₹529 crore, driven by steady packaging volumes and faster growth in the higher-margin value-added lines. There is a concrete near-term catalyst: composite cylinder sales up about 29% in the latest results off a small base, with fresh capacity funded by the 2025 raise, and a stated target of roughly ₹1,500 crore of composite revenue by FY28. There are two asterisks now. Cash fell hard in FY26 and has only half a year of recovery behind it. And in the September quarter profit grew slower than sales, because the drum business kept less of each rupee.",
+    "multiple": "Start with a warning: the company reports operating margin by segment, but not net profit or the capital behind each business, so any split of earnings is illustrative, not reported. What saves the exercise is that the conclusion barely moves whatever reasonable split you pick. In the first half of FY27, value-added products were under 30% of revenue at an 18.3% operating margin while the drums slipped to about 11%, which puts the value-added share of operating profit near 40%, so play it across a range. If value-added earns 35% of the ₹529 crore of profit, that is ₹185 crore, leaving ₹344 crore for packaging; at 40% it is ₹212 crore and ₹317 crore; at 45% it is ₹238 crore and ₹291 crore. Now value the mature packaging half the way you would value any cyclical, low-pricing-power leader, at 13 to 15 times earnings. Across all of those cases the packaging business is worth roughly ₹3,800 to ₹5,200 crore. The market cap is about ₹9,470 crore. Subtract, and the cylinder half is carrying somewhere between ₹4,300 and ₹5,700 crore, which on its slice of earnings works out to about 21 to 27 times. Change the packaging multiple, change the profit split, and that cylinder number stays a growth multiple. So read against its own history the whole stock has de-rated, but the market has plainly not left the cylinder business for cheap. Then turn it around and ask what the market must believe. Buy at 18 times today, and assume the multiple fades toward a mature mid-teens as the business matures, and you need earnings to compound in the high teens for five years just to earn an ordinary return. Management's own plan asks for more than that: profit growth above 25% a year and operating margin back to about 15.5% by FY28. So the price does not need the guidance to land in full. It needs most of it to land. That is the bar.",
+    "verdict": "So here is my honest read, and it cuts against the easy version of this story. This is not a case where the market fell asleep on a hidden growth engine. It is a case where the market is already paying a growth price for that engine, inside a headline multiple that looks tame. That does not make it a bad stock. High-teens profit growth at 18 times blended earnings can work out fine on the earnings alone, and the de-rating gives you a better entry than a year ago. But the margin of safety people imagine, the one where you get cylinders thrown in, is not really there. What you are actually buying is a decent packaging business at a sensible price, bolted to a cylinder business you are paying up for, and betting the second one delivers the growth, the returns and the cash to earn its price. I would want to see cash conversion recover and the new capital earn its keep before believing it. When India's composite-cylinder market truly scales, I cannot tell you, and that timing is the whole trade."
   },
   "lenses": [
     {

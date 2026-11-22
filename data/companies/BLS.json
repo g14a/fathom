@@ -1,19 +1,42 @@
 {
   "ticker": "BLS",
   "company": "BLS International Services Ltd",
+  "latest": {
+    "period": "Q2 FY27 (Jul-Sep 2026)",
+    "published": "2026-11-03",
+    "headline": "Record revenue, up 32%, but profit grew only about 9% as the thin-margin half of the business got bigger.",
+    "body": [
+      "BLS reported its July-September quarter on 3 November 2026. Revenue rose 32% to ₹973 crore, the most it has ever booked in a quarter. Profit rose just 8.6% to ₹202 crore. The slice that belongs to BLS's own shareholders (after setting aside the share owned by outside partners in its subsidiaries) rose 6.3% to ₹186 crore.",
+      "Why did profit lag so far behind? Mostly the mix. Digital services (banking-agent work and loan distribution, now including Atyati Technologies, bought in July) grew 66% and is close to half of revenue, but it keeps only about ₹7 of every ₹100 as operating profit. So the group's EBITDA margin (profit before interest, tax, depreciation and amortisation, as a share of revenue) fell to 25.5% from 28.9%. Below that line, depreciation and amortisation jumped from ₹23 crore to ₹40 crore as the cost of recent acquisitions gets written off over time. The company reported no exceptional items, so none of this is a one-off that goes away next quarter.",
+      "The visa core held its margin but slowed down. Visa and consular revenue grew 11%, about half the pace of the June quarter, and management put that down to the geopolitical situation in the Middle East. The segment's EBITDA margin was 41.9%, up from 40.1% in June. So the crown jewel is not getting less profitable. It is getting smaller as a share of the whole.",
+      "Management's target for FY30 is a 28-30% group EBITDA margin, above the 25.5% it just printed, with digital still the faster-growing half. Watch two things next quarter: whether visa growth climbs back toward 20% once the Middle East settles, and whether digital margins move up from 7%."
+    ],
+    "figures": [
+      { "label": "Revenue", "value": "₹973 cr", "hint": "+32% YoY; record quarter", "tone": "good" },
+      { "label": "Net Profit", "value": "₹202 cr", "hint": "+8.6% YoY; ₹186 cr to shareholders, +6.3%", "tone": "warn" },
+      { "label": "EBITDA Margin", "value": "25.5%", "hint": "vs 28.9% a year ago", "tone": "warn" },
+      { "label": "Visa segment margin", "value": "41.9%", "hint": "segment revenue +11% YoY", "tone": "good" }
+    ],
+    "sources": [
+      { "label": "Company press release, 3 Nov 2026 (Investment Guru India)", "url": "https://investmentguruindia.com/newsdetail/bls-international-reports-strong-q2-h1-fy27-performance-q2fy27-revenue-grows-to-rs-973-crores-the-highest-ever469093" },
+      { "label": "Ventura Securities results note", "url": "https://www.venturasecurities.com/?p=66641" },
+      { "label": "Investywise results summary", "url": "https://www.investywise.com/bls-international-services-ltd-earnings-call-transcript/" },
+      { "label": "Sovrenn concall summary, 4 Nov 2026", "url": "https://www.sovrenn.com/concall-summary/bls-international-services" }
+    ]
+  },
   "sector": "Business Services",
   "industry": "Visa & Consular Outsourcing",
   "sectorId": "businessservices",
   "dataVariant": "Consolidated",
-  "asOf": "2026-08-08",
-  "oneLiner": "A genuinely good business (visa outsourcing is a two-horse global race with fat margins and clean cash) fell 36%, and now trades at 15 times earnings. The core is still excellent. The worry is that the edges are getting muddier.",
+  "asOf": "2026-11-22",
+  "oneLiner": "A genuinely good business (visa outsourcing is a two-horse global race with fat margins and clean cash) fell 30% in a year, and now trades at about 13 times earnings. The core is still excellent. The worry is that the edges are getting muddier.",
   "verdict": {
     "rows": [
       { "label": "Business", "value": "Excellent core", "tone": "good" },
       { "label": "Cash quality", "value": "Clean, paid upfront", "tone": "good" },
       { "label": "Moat", "value": "Narrow", "tone": "warn" },
       { "label": "Group clarity", "value": "Getting muddier", "tone": "bad" },
-      { "label": "Valuation", "value": "~15x, undemanding", "tone": "good" }
+      { "label": "Valuation", "value": "~13x, undemanding", "tone": "good" }
     ],
     "keyQuestion": "The core is superb and cheap. Is the messier group around it a distraction, or a real erosion?"
   },
@@ -92,7 +115,7 @@
       },
       {
         "label": "Returns",
-        "value": "ROCE 29%, ROE 33%",
+        "value": "ROCE 30%, ROE 32%",
         "note": "High returns because the core needs little capital to grow."
       }
     ],
@@ -121,7 +144,7 @@
     ],
     "stopWinning": [
       "A single regulator can hurt it: as the MEA's two-year tender ban showed (though the Delhi High Court later overturned it), one government can dent the story overnight.",
-      "The digital and loan-distribution push earns 4-5% margins and dilutes the blended quality.",
+      "The digital and loan-distribution push earns about 7-8% margins and dilutes the blended quality.",
       "Buying growth (iDATA, Citizenship Invest, Aadifidelis, RDWA) risks overpaying and messy integration.",
       "Government contracts do eventually re-tender, and reputation matters when they do."
     ],
@@ -158,7 +181,7 @@
         "note": "Fast-growing digital earns a fraction of the visa margin."
       }
     ],
-    "whyNow": "The business kept compounding while the stock fell 36%. Cash flow is clean, return on equity sits near 33%, and the multiple has been squeezed down to about 15 times earnings. Most of what frightened the market has since eased: the Delhi High Court set aside the MEA tender ban in December 2025. What lingers are two quieter worries. Foreign investors have been trimming their stake, and there is a real question about whether the low-margin digital push is watering down the crown jewel.",
+    "whyNow": "The business kept compounding while the stock slid. Cash flow is clean, return on equity sits near 32%, and the multiple has been squeezed down to about 13 times earnings. The loudest fear has since eased: the Delhi High Court set aside the MEA tender ban in December 2025. What lingers are two quieter worries. Foreign investors keep trimming their stake, now under 4%. And the low-margin digital push is visibly watering down the group margin even while the crown jewel holds its own.",
     "remember": "BLS is a fee-per-applicant machine inside a two-firm global market. The core is excellent. The thing to watch is that a low-margin detour and one powerful regulator do not spoil it."
   },
   "ipoFlag": "No repackaging games. BLS is an established, long-listed company, not a shell that bolted 'Tech', 'AI' or 'Defence' onto its name before an IPO.",
@@ -168,16 +191,16 @@
     "segments": [
       {
         "name": "Visa & Consular Services",
-        "pct": 61,
-        "marginProfile": "of revenue · ~40% segment EBITDA margin. The crown jewel."
+        "pct": 57,
+        "marginProfile": "of H1 FY27 revenue · ~41% segment EBITDA margin. The crown jewel."
       },
       {
         "name": "Digital Services",
-        "pct": 39,
-        "marginProfile": "of revenue · ~4-5% EBITDA (loan distribution, e-governance). Thin."
+        "pct": 43,
+        "marginProfile": "of H1 FY27 revenue · ~7-8% EBITDA (loan distribution, banking agents, e-governance). Thin."
       }
     ],
-    "revenuePerUnitTrend": "The fee per application in the visa business is holding up, even rising, as BLS sells more add-ons on top of the base charge. So the problem is not the visa fee. It is the mix, and it is worth making concrete. Picture BLS earning ₹100 of revenue: about ₹61 comes from visa and consular work at a rich ~40% margin, and about ₹39 from digital at a thin ~4-5% margin. Because digital is growing far faster (its revenue doubled year on year), each new rupee of group revenue carries less profit than the one before it. That is how revenue can look wonderful while the quality of every rupee quietly erodes. It is the entire BLS story in a sentence, and the single most important thing to watch: do not stamp the fat visa margin onto the whole company.",
+    "revenuePerUnitTrend": "The fee per application in the visa business is holding up, even rising, as BLS sells more add-ons on top of the base charge. So the problem is not the visa fee. It is the mix, and it is worth making concrete. Picture BLS earning ₹100 of revenue in the September 2026 quarter: about ₹52 came from visa and consular work at a rich ~42% margin, and about ₹48 from digital at a thin ~7% margin. Because digital is growing far faster (its revenue rose 66% year on year that quarter, against 11% for visa), each new rupee of group revenue carries less profit than the one before it. That is how revenue can look wonderful while the quality of every rupee quietly erodes. It is the entire BLS story in a sentence, and the single most important thing to watch: do not stamp the fat visa margin onto the whole company.",
     "industry": {
       "structure": "Global duopoly. BLS and VFS Global are the two players with real global scale; a long tail of small regional vendors sits below them.",
       "competitors": "VFS Global is the clear leader with the widest government-client base (unlisted). TLScontact and smaller regional firms fill gaps. BLS is the global number two.",
@@ -188,35 +211,35 @@
       "penetration": "Under-penetrated. Growth is a mix of the pie growing (more travel) and formalisation (more governments outsourcing what they used to run themselves), not just fighting over a fixed number of applications.",
       "valueChainPosition": "The trusted middleman between the traveller and the government. That position is defensible because governments hand it out slowly and take it back reluctantly."
     },
-    "qualityVerdict": "The core visa business is genuinely high quality: one of only two players at global scale, sticky government contracts, ~40% segment margins, and fees collected up front so the books stay clean. That is a rare combination. The honest catch comes in two parts. First, the digital and loan-distribution push earns just 4-5% margins and is diluting the blend even as it flatters the top line, so the number to watch is segment margin, not the headline. Second, a single regulator can bite: the MEA's two-year tender ban (overturned by the Delhi High Court in December 2025) showed that concentrated government power can strike at the story. What you are looking at is a duopoly core worth admiring, with two things to keep one eye on: the mix, and the regulator."
+    "qualityVerdict": "The core visa business is genuinely high quality: one of only two players at global scale, sticky government contracts, ~40% segment margins, and fees collected up front so the books stay clean. That is a rare combination. The honest catch comes in two parts. First, the digital and loan-distribution push earns just 7-8% margins and is diluting the blend even as it flatters the top line, so the number to watch is segment margin, not the headline. Second, a single regulator can bite: the MEA's two-year tender ban (overturned by the Delhi High Court in December 2025) showed that concentrated government power can strike at the story. What you are looking at is a duopoly core worth admiring, with two things to keep one eye on: the mix, and the regulator."
   },
   "valuation": [
     {
       "label": "Market Cap",
-      "value": "₹10,472 cr"
+      "value": "₹9,196 cr"
     },
     {
       "label": "52W High / Low",
-      "value": "₹399 / ₹218"
+      "value": "₹340 / ₹203"
     },
     {
       "label": "Stock P/E",
-      "value": "~15.2",
-      "hint": "₹254 / TTM EPS ₹16.68; screener shows 14.8",
+      "value": "12.8",
+      "hint": "check: 223 / 17.41 = 12.8",
       "tone": "good"
     },
     {
       "label": "P/B",
-      "value": "4.24",
+      "value": "3.25",
       "tone": "neutral"
     },
     {
       "label": "EPS (TTM)",
-      "value": "₹16.68"
+      "value": "₹17.41"
     },
     {
       "label": "Book Value",
-      "value": "₹59.8"
+      "value": "₹68.6"
     }
   ],
   "financials": [
@@ -259,23 +282,23 @@
   "ratios": [
     {
       "label": "ROE",
-      "value": "33%",
+      "value": "32%",
       "tone": "good"
     },
     {
       "label": "ROCE",
-      "value": "29.3%",
+      "value": "29.8%",
       "tone": "good"
     },
     {
       "label": "PAT Margin",
-      "value": "~24%",
-      "hint": "watch the digital dilution",
+      "value": "~22%",
+      "hint": "TTM, down from 24% in FY26: digital dilution",
       "tone": "good"
     },
     {
       "label": "P/B",
-      "value": "4.24",
+      "value": "3.25",
       "tone": "neutral"
     },
     {
@@ -314,7 +337,7 @@
     },
     {
       "label": "Profit CAGR 5Y",
-      "value": "69%",
+      "value": "68%",
       "hint": "FY22 was a COVID-suppressed base",
       "tone": "neutral"
     },
@@ -324,39 +347,39 @@
       "tone": "good"
     },
     {
-      "label": "Q1 FY27 PAT",
-      "value": "+11%",
-      "hint": "vs revenue +25%: the mix drag showing up",
+      "label": "Q2 FY27 PAT",
+      "value": "+8.6%",
+      "hint": "vs revenue +32%: second quarter of mix drag",
       "tone": "warn"
     },
     {
       "label": "Stock CAGR 5Y",
-      "value": "47%",
-      "hint": "profit grew faster (69%): PE compressed",
+      "value": "34%",
+      "hint": "profit grew faster (68%): PE compressed",
       "tone": "neutral"
     }
   ],
-  "management": "Promoter-led, with the family holding 70.39%. Judge them by what they actually did. The switch from a partner-run to a self-managed model lifted visa-segment margins sharply, and operating cash flow beats reported profit year after year, which is an operator's scorecard, not a storyteller's. The worry is the other half of their behaviour. They have gone on a buying spree (iDATA in Turkey for about Rs 450 cr, plus Citizenship Invest, Aadifidelis, RDWA and a stake in SLW Media), and much of it has pushed BLS into low-margin loan distribution and media. That looks more like buying revenue and chasing themes than deepening the thing that made them special. It is not a mark against their honesty. It is a question about focus, and about where the cash is going. The test is simple: watch whether these deals earn their price or just pad the top line.",
+  "management": "Promoter-led, with the family holding 70.42%. Judge them by what they actually did. The switch from a partner-run to a self-managed model lifted visa-segment margins sharply, and operating cash flow beats reported profit year after year, which is an operator's scorecard, not a storyteller's. The worry is the other half of their behaviour. They have gone on a buying spree (iDATA in Turkey for about Rs 450 cr, plus Citizenship Invest, Aadifidelis, RDWA and a stake in SLW Media), and much of it has pushed BLS into low-margin loan distribution and media. That looks more like buying revenue and chasing themes than deepening the thing that made them special. It is not a mark against their honesty. It is a question about focus, and about where the cash is going. The test is simple: watch whether these deals earn their price or just pad the top line.",
   "holding": [
     {
       "label": "Promoter",
-      "pct": 70.39,
-      "qoqChange": 0
+      "pct": 70.42,
+      "qoqChange": 0.03
     },
     {
       "label": "Retail",
-      "pct": 22.33,
-      "qoqChange": 1.91
+      "pct": 22.58,
+      "qoqChange": 0.25
     },
     {
       "label": "FII",
-      "pct": 4.14,
-      "qoqChange": -2.23
+      "pct": 3.88,
+      "qoqChange": -0.26
     },
     {
       "label": "DII",
-      "pct": 3.1,
-      "qoqChange": 0.11
+      "pct": 3.06,
+      "qoqChange": -0.04
     }
   ],
   "moat": {
@@ -383,10 +406,10 @@
       "lesson": "Think of BLS as a caterer running the food counter in many government buildings. One department got complaints, and told BLS it could keep the counters it already ran but could not bid for any new ones for two years. BLS went to court, and the judge threw the order out. Annoying while it lasted, bruising to the reputation, but reversible. The real lesson is not this one order. It is that the business lives at the mercy of a small number of government clients, so the thing to watch is whether a second one ever follows the first."
     }
   ],
-  "narrative": "BLS came out of the COVID travel slump in FY22 and then found another gear. The switch to a self-managed model pushed margins from 13% to the mid-20s, revenue more than tripled to Rs 2,998 cr in four years, and profit climbed from Rs 111 cr to Rs 724 cr. Then two things spooked the market. In October 2025 the Ministry of External Affairs barred BLS from bidding on new Indian-mission tenders for two years (Indian missions were only about 12% of Q1 FY26 revenue, and existing contracts kept running). The Delhi High Court set that order aside in December 2025 and the stock bounced about 7%, so the biggest overhang has lifted. The second worry is slower to fade: through FY25 and FY26 the company bought its way into low-margin digital and loan distribution, raising questions about focus. Foreign investors cut their stake from about 6.8% to 4.1%, and the stock fell roughly 36% from its high even as earnings kept growing. So the business improved and the price went down at the same time.",
+  "narrative": "BLS came out of the COVID travel slump in FY22 and then found another gear. The switch to a self-managed model pushed margins from 13% to the mid-20s, revenue more than tripled to Rs 2,998 cr in four years, and profit climbed from Rs 111 cr to Rs 724 cr. Then two things spooked the market. In October 2025 the Ministry of External Affairs barred BLS from bidding on new Indian-mission tenders for two years (Indian missions were only about 12% of Q1 FY26 revenue, and existing contracts kept running). The Delhi High Court set that order aside in December 2025 and the stock bounced about 7%, so the biggest overhang has lifted. The second worry is slower to fade: through FY25 and FY26 the company bought its way into low-margin digital and loan distribution, raising questions about focus. Foreign investors cut their stake from about 6.8% to 3.9% between September 2025 and September 2026, and the stock ended that stretch about a third below its 52-week high even as earnings kept growing. So the business improved and the price went down at the same time.",
   "risks": [
     "Regulatory single-point risk. One government (here, the MEA) barred BLS from new tenders for two years. The Delhi High Court set that order aside in December 2025, but the government could appeal or re-issue a cleaner order, and the episode proves a single regulator can dent the story fast. Medium.",
-    "Margin-mix dilution. The digital and loan-distribution business earns 4-5% margins and is growing fastest, so the blended margin keeps getting pulled down even as revenue grows. Medium-High.",
+    "Margin-mix dilution. The digital and loan-distribution business earns about 7-8% margins and is growing fastest, so the blended margin keeps getting pulled down even as revenue grows. Medium-High.",
     "Acquisition risk. A rapid buying spree (iDATA, Citizenship Invest, Aadifidelis, RDWA, SLW Media) risks overpaying and messy integration, and much of it is into lower-quality lines. Medium.",
     "Foreign selling. FIIs have cut their stake sharply, and that alone can cap the stock regardless of results. Medium.",
     "Government as buyer. Contracts eventually re-tender, and large government buyers can squeeze pricing over time. Medium."
@@ -415,7 +438,7 @@
     {
       "label": "FII exit into retail",
       "status": "warn",
-      "note": "FII cut from ~6.8% to 4.1%; retail rose"
+      "note": "FII cut from ~6.8% to 3.9% in a year; retail rose"
     },
     {
       "label": "Margin-mix trap",
@@ -452,20 +475,20 @@
     {
       "label": "Segment margin trend",
       "status": "warn",
-      "note": "Digital at 4-5% is diluting the ~40% visa margin"
+      "note": "Digital at ~7% is diluting the ~42% visa margin"
     }
   ],
-  "summary": "BLS is an unusually good core business wrapped in a more complicated group. The visa operation is one of only two at global scale, earns roughly 40% segment margins, and collects its fees up front so the cash is real and the books are clean. After a 36% fall it trades at about 15 times earnings, and one of the fears behind that fall has already cleared: the Delhi High Court set the MEA ban aside in December 2025. The open question is the one this whole report keeps circling: do the acquisitions and the low-margin digital push dilute those lovely economics faster than the core can grow? And behind it sits the standing reminder that a small handful of government clients can still bite. The next few quarters, and the visa segment margin in particular, should tell you whether the drag is temporary or structural. Not a buy or sell call. Do your own work and talk to a SEBI-registered adviser.",
+  "summary": "BLS is an unusually good core business wrapped in a more complicated group. The visa operation is one of only two at global scale, earns roughly 40% segment margins, and collects its fees up front so the cash is real and the books are clean. It trades at about 13 times earnings, and one of the fears behind that fall has already cleared: the Delhi High Court set the MEA ban aside in December 2025. The open question is the one this whole report keeps circling: do the acquisitions and the low-margin digital push dilute those lovely economics faster than the core can grow? And behind it sits the standing reminder that a small handful of government clients can still bite. The next few quarters, and the visa segment margin in particular, should tell you whether the drag is temporary or structural. Not a buy or sell call. Do your own work and talk to a SEBI-registered adviser.",
   "engine": {
     "state": "multiple-drift",
-    "earnings": "The earnings engine is strong and, crucially, cash-backed: operating cash flow beats profit every year, ROE sits near 33%, and profit has compounded about 69% over five years. But it is slowing, and you can see the mix doing it. Profit grew 69% over five years, about 49% over three, and just 11% in Q1 FY27 against revenue up 25%. That widening gap is the low-margin digital business dragging on the blend. There is a real catalyst ahead (a full year of iDATA and the other acquisitions, plus rising travel volumes), but the drag is just as real, and right now the two are pulling against each other.",
-    "multiple": "The multiple engine has been working against the stock, not for it. Over five years profit compounded about 69% while the stock managed only 47%, so the PE compressed instead of expanding. That is a multiple drift of roughly minus 13% a year: the business outran its own price. At about 15 times earnings on a 33% ROE business, the multiple is not stretched. If anything, it is the part of this story with room to move the other way.",
-    "verdict": "So here is my honest read. The multiple has compressed while earnings grew, which leaves genuine room for a re-rating if the underlying economics hold, and with ROE parked near 33%, the returns on capital have not visibly rotted. That is the encouraging half. The other half keeps me honest: the engine is decelerating on mix, and that is the one thing that could turn a cheap multiple into a fair one rather than a bargain. The sharpest overhang, the MEA ban, was thrown out in court in December 2025, which clears a real risk off the table. What I cannot yet know is whether the margin dilution settles as the acquisitions mature or keeps grinding lower. So the number I would watch above all others is the visa segment margin as digital scales. Hold near 40% and the core thesis is intact. Slip, and the story is changing."
+    "earnings": "The earnings engine is strong and, crucially, cash-backed: operating cash flow beats profit every year and ROE sits near 32%. But it is slowing, and you can see the mix doing it. Profit grew about 68% a year over five years, about 49% over three, 19% over the last twelve months, and under 9% in Q2 FY27 against revenue up 32%. That widening gap is the low-margin digital business dragging on the blend, plus a heavier depreciation and amortisation bill from the acquisitions (see the note at the top). There is a real catalyst ahead (a full year of iDATA, Atyati and the newer visa contracts, plus travel volumes recovering once the Middle East calms), but the drag is just as real, and right now the two are pulling against each other.",
+    "multiple": "The multiple engine has been working against the stock, not for it. Over five years profit compounded about 68% a year while the stock managed only 34%, so the PE compressed instead of expanding. That is a multiple drift of roughly minus 20% a year: the business outran its own price. At about 13 times earnings on a 32% ROE business, the multiple is not stretched. If anything, it is the part of this story with room to move the other way.",
+    "verdict": "So here is my honest read. The multiple has compressed while earnings grew, which leaves genuine room for a re-rating if the underlying economics hold, and with ROE parked near 32%, the returns on capital have not visibly rotted. That is the encouraging half. The other half keeps me honest: the engine is decelerating on mix, and that is the one thing that could turn a cheap multiple into a fair one rather than a bargain. The sharpest overhang, the MEA ban, was thrown out in court in December 2025, which clears a real risk off the table. What I cannot yet know is whether the margin dilution settles as the acquisitions mature or keeps grinding lower. So the number I would watch above all others is the visa segment margin as digital scales. Hold near 40% and the core thesis is intact. Slip, and the story is changing."
   },
   "lenses": [
     {
       "name": "The price fell while the business grew",
-      "reading": "Over five years profit compounded about 69% but the stock only 47%, so the multiple compressed rather than expanded, and ROE stayed near 33% the entire way. The de-rating lined up with three things at once: the tender ban, the foreign selling, and the growing unease about those lower-margin new businesses. The visa business itself never faltered. What the market is really asking is a group-level question: will the whole of BLS keep the quality that the visa core has always had, or will the bolt-ons drag it down to something more ordinary?"
+      "reading": "For five years profit has grown far faster than the share price, so the multiple compressed rather than expanded, and ROE stayed above 30% the entire way. The de-rating lined up with three things at once: the tender ban, the foreign selling, and the growing unease about those lower-margin new businesses. The visa business itself never faltered. What the market is really asking is a group-level question: will the whole of BLS keep the quality that the visa core has always had, or will the bolt-ons drag it down to something more ordinary?"
     },
     {
       "name": "The moat is flanked, not beaten",
@@ -473,22 +496,22 @@
     },
     {
       "name": "Watch the mix, not the headline",
-      "reading": "The visa core earns about 40% margins. The fast-growing digital and loan business earns 4-5%. Stamp the visa margin onto the whole company and you will badly overrate it. Q1 FY27 already showed the drag in the open: revenue up 25%, but profit up only 11%. Of everything in this report, that gap is the single number worth tracking quarter after quarter, because it tells you whether the good business or the mediocre one is winning inside the group."
+      "reading": "The visa core earns about 40% margins. The fast-growing digital and loan business earns about 7%. Stamp the visa margin onto the whole company and you will badly overrate it. Look at the September 2026 quarter in rupees: visa brought in ₹510 crore of revenue and kept ₹214 crore of it as EBITDA, while digital brought in ₹463 crore and kept ₹34 crore. Nearly the same revenue, about a sixth of the profit. Of everything in this report, the gap between revenue growth and profit growth is the single number worth tracking quarter after quarter, because it tells you whether the good business or the mediocre one is winning inside the group."
     },
     {
-      "name": "The first slowdown tremor",
-      "reading": "Q1 FY27 is the first quarter where profit growth (11%) fell well below revenue growth (25%). One quarter is a tremor, not an earthquake, and it could be nothing more than the acquisitions being freshly consolidated at low margins. But it is the first time the mix drag has shown up in the headline, so the next quarter or two will tell you whether this was a one-off wobble or the start of a longer, slower grind."
+      "name": "The tremor came back, from a different place",
+      "reading": "Q1 FY27 was the first quarter where profit growth fell well below revenue growth. Q2 did it again, so this is no longer a one-off wobble. What changed is where the weakness sits. The visa margin did not slip; it rose to 41.9%. What slowed was visa growth: 11%, after 21.6% in the June quarter, which management blamed on the Middle East. Is that a passing travel shock or the new pace? I cannot tell you yet. If visa growth recovers, the mix drag eases on its own. If it stays near 11% while digital keeps racing, the group gets bigger and plainer at the same time."
     }
   ],
   "outlook": {
-    "intro": "The five-year history is settled: revenue tripled, margins rose, the stock still fell 36%. What is not settled is the future. This section does not predict it. It lays out what has already happened in each part of the business, then the one open question you can watch to figure out where it goes. All figures are from the Q1 FY27 investor presentation (quarter ended June 2026).",
+    "intro": "The five-year history is settled: revenue tripled, margins rose, the stock still fell. What is not settled is the future. This section does not predict it. It lays out what has already happened in each part of the business, then the one open question you can watch to figure out where it goes. Quarterly figures are from the Q2 FY27 results (quarter ended September 2026) unless marked as Q1.",
     "areas": [
       {
         "title": "The core business",
         "facts": [
-          "Visa and consular EBITDA margin was 40.1% in Q1 FY27, holding near the 40.6% it hit in FY26.",
-          "It processed 11.3 lakh applications in the quarter, and net revenue per application rose 11.2% YoY.",
-          "Visa and consular revenue grew 21.6% YoY; segment EBITDA grew 21.5%.",
+          "Visa and consular EBITDA margin was 41.9% in Q2 FY27, up from 40.1% in Q1 and 40.6% for FY26.",
+          "It processed 10.9 lakh applications in the quarter (11.3 lakh in Q1), and net revenue per application rose 10.2% YoY to ₹3,553.",
+          "Visa and consular revenue grew 11.2% YoY, down from 21.6% in Q1; management pointed to the geopolitical situation in the Middle East.",
           "The self-managed model lifted that segment margin from 14.6% in FY22 to 40.6% in FY26."
         ],
         "watch": "Does the visa segment margin stay around 40%? That is the crown jewel. If it slips, the core thesis is what is changing, not the mix around it."
@@ -497,10 +520,11 @@
         "title": "The new businesses",
         "facts": [
           "Digital services sit in BLS E-Services, a separately listed 51% subsidiary, and earn far thinner margins than visa.",
-          "Consolidated EBITDA grew 23.6% YoY, slightly faster than the visa segment's 21.5%, so digital and the acquisitions added to profit this quarter rather than only diluting it.",
-          "iDATA (Turkey), Citizenship Invest and Aadifidelis are now consolidated into the group."
+          "Digital revenue grew 66.4% YoY to ₹462.7 cr in Q2 FY27 at a 7.4% EBITDA margin, close to half of group revenue.",
+          "Consolidated EBITDA grew 16.6% YoY, faster than the visa segment's 11.2%, so digital still added to profit in rupees even as it pulled the group margin down to 25.5%.",
+          "iDATA (Turkey), Citizenship Invest, Aadifidelis and, since July 2026, Atyati Technologies are now consolidated into the group."
         ],
-        "watch": "Do the new businesses start contributing profit faster than they dilute the group? One quarter of help is not a trend; watch whether it holds."
+        "watch": "Do the new businesses start contributing profit faster than they dilute the group? Two quarters of rupee help is a start, but the margin is still going the wrong way."
       },
       {
         "title": "The regulatory question",
@@ -514,9 +538,9 @@
       {
         "title": "The valuation question",
         "facts": [
-          "The stock trades around 15x earnings after a 36% fall, while profit kept growing.",
-          "In Q1 FY27, EBITDA grew 23.6% but PAT grew only 11.4%. The gap is mostly below EBITDA: depreciation rose 39% (Rs 22.8 cr to Rs 31.7 cr) as the acquisitions and centres get written down.",
-          "Over five years profit compounded far faster than the stock, so the PE compressed rather than expanded, while ROE held near 33%."
+          "The stock trades around 13x trailing earnings, about a third below its 52-week high of ₹340, while profit kept growing.",
+          "In Q2 FY27, EBITDA grew 16.6% but PAT grew only 8.6%. Depreciation and amortisation rose from about Rs 23 cr to Rs 40 cr as acquired intangibles get written down.",
+          "Over five years profit compounded far faster than the stock, so the PE compressed rather than expanded, while ROE held above 30%."
         ],
         "watch": "Does earnings growth stay strong enough to offset the depreciation and integration drag from the acquisitions?"
       }

@@ -1,36 +1,59 @@
 {
   "ticker": "BAJFINANCE",
   "company": "Bajaj Finance Ltd",
+  "latest": {
+    "period": "Q2 FY27 (Jul-Sep 2026)",
+    "published": "2026-10-19",
+    "headline": "Profit up 29% and bad-loan losses down, but the stock fell anyway on a new worry: gold loans.",
+    "body": [
+      "Bajaj Finance reported its July-September quarter on 19 October 2026. Profit rose 29% to ₹6,367 crore. The loan book (AUM, assets under management: everything it has lent out) grew 26% to ₹5.85 lakh crore. Net interest income, the interest it earns minus the interest it pays, rose 24% to ₹13,335 crore.",
+      "The good news is in the losses. Bajaj set aside ₹2,166 crore for loans that may go bad, and ₹337 crore of that is an extra cushion management chose to build, not money already lost. Take the cushion out and loan losses fell 12% from a year ago, and profit would have grown about 34%. Gross bad loans (more than 90 days overdue) were 1.06% of the book, against 1.24% a year earlier.",
+      "So why did the stock fall about 3% to ₹926 when trading reopened? About ₹1,047 crore of gold loans slipped into early overdue, mostly in short-tenure schemes Bajaj has now stopped selling. And the margin, the gap between what it earns on loans and what it pays to borrow, narrowed from the June quarter. Management raised its FY27 loan growth target to 26-27%, but warned that rising rates could squeeze the margin further.",
+      "Since then, in November, Bajaj sold ₹11,700 crore of new shares to big institutions (a QIP) at ₹1,025 each, and its promoter Bajaj Finserv is taking about ₹5,800 crore of warrants, rights to buy shares later at ₹1,010. More shares means each existing share owns a slightly smaller slice. Next quarter, watch whether the gold overdues come back down and how much more the margin gives up."
+    ],
+    "figures": [
+      { "label": "Net Profit", "value": "₹6,367 cr", "hint": "+29% YoY; ~34% without the extra cushion", "tone": "good" },
+      { "label": "AUM", "value": "₹5.85 lakh cr", "hint": "+26% YoY" },
+      { "label": "Loan losses", "value": "₹2,166 cr", "hint": "incl. ₹337 cr extra cushion; -12% YoY without it", "tone": "good" },
+      { "label": "Gross NPA", "value": "1.06%", "hint": "1.24% a year ago; 0.96% in June", "tone": "neutral" }
+    ],
+    "sources": [
+      { "label": "Kotak Neo, Q2 FY27 results", "url": "https://www.kotakneo.com/news/stocks/bajaj-finance-share-price-and-q2-fy-27-results/" },
+      { "label": "Business Today, 21 Oct 2026", "url": "https://www.businesstoday.in/markets/stocks/story/bajaj-finance-shares-fall-4-as-lender-flags-rise-in-overdue-gold-loans-562851-2026-10-21" },
+      { "label": "Kotak Neo, share fall on gold loan stress", "url": "https://www.kotakneo.com/news/stocks/why-is-bajaj-finance-share-price-falling-today/" },
+      { "label": "Kotak Neo, ₹11,700 cr QIP allotment", "url": "https://www.kotakneo.com/news/stocks/bajaj-finance-raises-11700-crore-through-qip-and-allots-shares-to-investors" }
+    ]
+  },
   "sector": "Financials",
   "industry": "NBFC",
   "dataVariant": "Consolidated",
-  "asOf": "2026-08-16",
-  "oneLiner": "India's best lender has one real edge: it picks borrowers who pay back. You pay 5.9 times book for that spotless record, and the record just showed its first crack.",
+  "asOf": "2026-11-22",
+  "oneLiner": "India's best lender has one real edge: it picks borrowers who pay back. You pay 5.5 times book for that record, and after last year's crack, the record is mending.",
   "verdict": {
     "rows": [
       { "label": "Business", "value": "Best-in-class lender", "tone": "good" },
-      { "label": "Asset quality", "value": "First crack showing", "tone": "warn" },
+      { "label": "Asset quality", "value": "Mending, gold loans wobbling", "tone": "warn" },
       { "label": "Moat", "value": "Wide", "tone": "good" },
-      { "label": "Growth", "value": "Fast but slowing", "tone": "warn" },
-      { "label": "Valuation", "value": "35x, 5.9x book", "tone": "bad" }
+      { "label": "Growth", "value": "Picking up again", "tone": "good" },
+      { "label": "Valuation", "value": "31x, 5.5x book", "tone": "bad" }
     ],
-    "keyQuestion": "Is the first crack in a spotless loan book a blip, or the start of a normalisation you are overpaying for?"
+    "keyQuestion": "Losses have eased and growth has picked up. Is that worth 5.5 times book while the margin narrows and new shares dilute you?"
   },
   "facts": {
     "snapshot": "Bajaj Finance is one of India's largest non-bank lenders (an NBFC). It borrows from savers and bond investors and lends the money out for consumer, small-business and home loans, living on the gap between the two rates.",
     "founded": "1987",
     "hq": "Pune"
   },
-  "overview": "Bajaj Finance is not a bank. It is a lender. It borrows money from savers and bond investors at about 7.41%, hands that money out as loans, and lives on the gap. Any lender can do that much. What makes Bajaj Bajaj is the sorting. Picture the old village moneylender who never got stiffed, not because he charged the right rate but because he knew exactly who would pay him back. Bajaj is that moneylender at national scale: 124 million customers, and a mountain of data and field staff whose whole job is to tell a good borrower from a bad one. That skill is why so few of its loans go sour, and why the stock has always cost more than an ordinary lender's. The hook is simple. That sorting has just missed for the first time in a while.",
+  "overview": "Bajaj Finance is not a bank. It is a lender. It borrows money from savers and bond investors at about 7.31%, hands that money out as loans, and lives on the gap. Any lender can do that much. What makes Bajaj Bajaj is the sorting. Picture the old village moneylender who never got stiffed, not because he charged the right rate but because he knew exactly who would pay him back. Bajaj is that moneylender at national scale: 129 million customers, and a mountain of data and field staff whose whole job is to tell a good borrower from a bad one. That skill is why so few of its loans go sour, and why the stock has always cost more than an ordinary lender's. The hook is simple. Last year that sorting missed for the first time in a while, and the open question is whether it has fully recovered.",
   "editorial": {
     "realBusiness": "Bajaj borrows cheap and lends wide, but the real business is sorting borrowers, and it charges a premium because almost none of them default.",
-    "whyExists": "Most Indians cannot get a loan from a bank. Banks are slow, cautious, and want paperwork the average borrower does not have. Bajaj built the machinery to say yes in hours, reading your phone and your transaction history instead of your salary slip. That is why 124 million people borrow from it. It reaches the person the bank waved away, and it does it fast.",
-    "whyNotAlreadyWon": "Because lending looks easy right up to the moment a credit cycle turns. Bajaj's record of tiny losses (1.27% of loans gone bad, and only 0.52% it expects to actually lose) is real. But go back to the moneylender. He knew the first thousand borrowers in his own village. To keep growing he now lends in villages he has never visited, to people he cannot read as well. That is what scaling to 124 million customers means: the newest borrowers are, on average, riskier than the first ones. And the first crack is here. Money lost to bad loans hit 2.0% in the first half of FY26, above the company's own promise of 1.85-1.95%. The moat is real. It is not a fortress.",
+    "whyExists": "Most Indians cannot get a loan from a bank. Banks are slow, cautious, and want paperwork the average borrower does not have. Bajaj built the machinery to say yes in hours, reading your phone and your transaction history instead of your salary slip. That is why 129 million people borrow from it. It reaches the person the bank waved away, and it does it fast.",
+    "whyNotAlreadyWon": "Because lending looks easy right up to the moment a credit cycle turns. Bajaj's record of tiny losses (1.06% of loans gone bad, and only 0.42% it expects to actually lose) is real. But go back to the moneylender. He knew the first thousand borrowers in his own village. To keep growing he now lends in villages he has never visited, to people he cannot read as well. That is what scaling to 129 million customers means: the newest borrowers are, on average, riskier than the first ones. FY26 showed what that costs. Money lost to bad loans hit 2.0% in the first half of that year, above the company's own promise of 1.85-1.95%, before easing back. The moat is real. It is not a fortress.",
     "mentalModels": [
       {
         "model": "Borrowing Cost",
         "strength": 5,
-        "why": "At 7.41%, Bajaj borrows cheaper than competitors because it is large and trusted. That 2.09% advantage (NIM minus borrowing cost) is the profit engine."
+        "why": "At 7.31%, Bajaj borrows cheaper than competitors because it is large and trusted. That funding edge is the profit engine."
       },
       {
         "model": "Lending to New-to-Credit",
@@ -40,12 +63,12 @@
       {
         "model": "Scale in Underwriting",
         "strength": 4,
-        "why": "With 124 million customers and years of repayment history, Bajaj's credit models are precise. That precision lets it lend to riskier segments than banks can."
+        "why": "With 129 million customers and years of repayment history, Bajaj's credit models are precise. That precision lets it lend to riskier segments than banks can."
       },
       {
         "model": "Distribution",
         "strength": 4,
-        "why": "Reaching 124 million customers means extensive field networks, fintech apps, and retailer partnerships. That distribution costs money but keeps new-customer acquisition efficient."
+        "why": "Reaching 129 million customers means extensive field networks, fintech apps, and retailer partnerships. That distribution costs money but keeps new-customer acquisition efficient."
       },
       {
         "model": "Cross-Sell",
@@ -55,13 +78,13 @@
       {
         "model": "Credit Cycle Risk",
         "strength": 3,
-        "why": "The biggest risk. MSME loans and two-wheeler finance are cyclical. Economic slowdowns, commodity price crashes, or vehicle sales slumps force defaults. Credit costs are already rising."
+        "why": "The biggest risk. MSME loans and two-wheeler finance are cyclical. Economic slowdowns, commodity price crashes, or vehicle sales slumps force defaults. Credit costs rose through FY26 and have eased since; short-tenure gold loans are the newest soft spot."
       }
     ],
     "economicEngine": [
       {
         "label": "Borrowers",
-        "value": "124 million customers",
+        "value": "129 million customers",
         "note": "The foundation. Each customer is a bet that they will repay. The bigger the customer base, the more predictable the losses."
       },
       {
@@ -71,8 +94,8 @@
       },
       {
         "label": "Borrowing Cost",
-        "value": "7.41% in Q4 FY26",
-        "note": "The rate Bajaj pays to its own depositors and bond investors. This cost is falling, a tailwind."
+        "value": "7.31% in Q2 FY27",
+        "note": "The rate Bajaj pays to its own depositors and bond investors. Still edging down, but management warns rising rates could push it back up."
       },
       {
         "label": "Net Interest Margin",
@@ -81,8 +104,8 @@
       },
       {
         "label": "Loan Book",
-        "value": "₹5.46 lakh cr by June 2026, growing 22% year-on-year",
-        "note": "More loans means more interest income. Growth of 22% is brisk but slowing from 34% profit CAGR five years ago, a sign of saturation in easy segments."
+        "value": "₹5.85 lakh cr by September 2026, growing 26% year-on-year",
+        "note": "More loans means more interest income. Growth picked up to 26%, and management now targets 26-27% for FY27. Growing that fast takes fresh capital, not just retained profit."
       }
     ],
     "strategicPosition": [
@@ -93,7 +116,7 @@
       },
       {
         "label": "Bajaj Finance",
-        "description": "The largest, lowest-cost, most-diverse private NBFC. The price-setter in retail lending. Has 124 million customers.",
+        "description": "The largest, lowest-cost, most-diverse private NBFC. The price-setter in retail lending. Has 129 million customers.",
         "tone": "focus"
       },
       {
@@ -103,54 +126,54 @@
       }
     ],
     "winningToday": [
-      "Bajaj has 124 million customers, nearly five times Shriram Finance (its closest peer). Scale is the moat.",
+      "Bajaj has 129 million customers, nearly five times Shriram Finance (its closest peer). Scale is the moat.",
       "NIM of 9.5% is the highest in the sector. Every new rupee lent is a rupee lent at the best spread.",
-      "Credit quality (1.27% GNPA, 0.52% NNPA) is the best in the industry, and that quality commands a 5.9x book multiple.",
+      "Credit quality (1.06% GNPA, 0.42% NNPA) is the best in the industry, and that quality commands a 5.5x book multiple.",
       "Mortgages via Bajaj Housing Finance are growing 25% year-on-year, a newer, higher-margin business adding diversity.",
       "Customer acquisition costs are falling as Bajaj scales fintech and moves borrowing online."
     ],
     "stopWinning": [
-      "Credit costs are rising. At 2.0%, they are above guidance and eating into the 9.5% NIM. If this trend continues, margins compress.",
-      "MSME and two-wheeler segments are showing stress. These are cyclical, and early signs of slowdown are appearing.",
-      "The loan book is slowing: AUM growth is 22%, but profit growth is only 18% TTM (versus 34% five years ago). New loans are of lower quality or lower margin.",
-      "Interest rates are falling (borrowing cost down to 7.41%), but lending rates cannot fall as fast without hitting the credit quality of borrowers. NIM compression is a risk.",
-      "At 124 million customers, penetration in urban India is high. Growth must now come from rural expansion (lower margins, higher credit risk) or deeper lending to existing customers (cannibalisation)."
+      "The margin is narrowing. It slipped again in the September 2026 quarter, and management warns rising rates could squeeze it further.",
+      "Gold loans are the new soft spot. Overdues jumped in short-tenure gold schemes in the September 2026 quarter, and Bajaj has stopped selling them.",
+      "Growth now needs outside equity. The book grows 26% a year, faster than retained profit can support, so existing shareholders get diluted.",
+      "Rates may be turning up. If Bajaj's own borrowing costs rise faster than it can reprice its loans, the margin gets squeezed.",
+      "At 129 million customers, penetration in urban India is high. Growth must now come from rural expansion (lower margins, higher credit risk) or deeper lending to existing customers (cannibalisation)."
     ],
     "marketBets": [
-      "Credit costs stay contained and revert to 1.85-1.95% guidance as the MSME and two-wheeler stress settles.",
+      "Credit costs stay near today's lower level, and the gold-loan overdues turn out to be a one-scheme problem.",
       "Mortgages and rural lending remain high-growth, low-cost channels to add AUM without raising bad-loan ratios.",
-      "Borrowing costs continue to fall, re-expanding NIM even as lending rates come down.",
-      "The 5.9x book multiple holds or expands because Bajaj stays the best-run NBFC in India.",
+      "Lower running costs per rupee lent offset the margin squeeze management is warning about.",
+      "The 5.5x book multiple holds or expands because Bajaj stays the best-run NBFC in India.",
       "The succession wobble (Rajeev Jain's return as MD after Anup Kumar Saha's resignation) does not signal deeper management problems."
     ],
     "sectorModels": [
       {
         "model": "Cost of Funds",
-        "reading": "Falling",
-        "note": "Bajaj borrows at 7.41%, among the lowest in the NBFC sector. As RBI cuts rates, this will fall further, a tailwind for NIM."
+        "reading": "Falling, may turn",
+        "note": "Bajaj borrows at 7.31%, among the lowest in the NBFC sector, down 9 basis points in the September 2026 quarter. Management now expects rising rates to push funding costs up."
       },
       {
         "model": "Credit Cycle",
-        "reading": "Maturing",
-        "note": "After years of pristine asset quality, credit costs are rising in MSME and two-wheeler segments. This is the critical watch point."
+        "reading": "Easing",
+        "note": "Credit costs rose through FY26 in small-business and two-wheeler loans, then eased in FY27. Short-tenure gold loans are the new watch point."
       },
       {
         "model": "Scale as Moat",
         "reading": "Excellent",
-        "note": "Bajaj's 124 million customers and data edge make it nearly impossible for rivals to match. But scale also brings regulatory scrutiny and customer saturation."
+        "note": "Bajaj's 129 million customers and data edge make it nearly impossible for rivals to match. But scale also brings regulatory scrutiny and customer saturation."
       },
       {
         "model": "Regulatory Environment",
         "reading": "Stable",
-        "note": "RBI oversight is active but fair. Bajaj's CAR of 20.9% is well above the 15% minimum, a comfort."
+        "note": "RBI oversight is active but fair. Bajaj's CAR of 20.33% (September 2026, before the November share sale) is well above the 15% minimum, a comfort."
       }
     ],
-    "whyNow": "For years the story wrote itself: best-run lender in India, grow the book 22-25% a year, keep losses near nothing, collect the widest margin, watch the stock follow. Most of that still holds. One number has moved, though. Losses on bad loans used to run 1.5-1.7%. Now they are 2.0%, past the company's own guidance of 1.85-1.95%. On its own that is not a crisis; plenty of lenders live at 2-3% and sleep fine. But at 5.9 times book, the price assumes Bajaj is not plenty of lenders. It assumes the sorting never slips. So the question worth sitting with is whether this is a passing bump in one cycle, or the sound of growth quietly dragging credit quality down.",
+    "whyNow": "For years the story wrote itself: best-run lender in India, grow the book 22-25% a year, keep losses near nothing, collect the widest margin, watch the stock follow. FY26 broke the rhythm. Losses on bad loans climbed past the company's own guidance, and the stock lagged while profit kept growing. That gap is why you now pay about 31 times earnings, down from 35 in August. The losses have since come back down, so the reason for the discount is fading. What stops the multiple from snapping back is what replaced it: a margin that is narrowing as rates turn, and a share sale that tells you growth this fast needs fresh capital. Is the market still pricing last year's scare, or next year's squeeze? I think mostly the squeeze, and that is a fairer worry than the first one.",
     "remember": "Bajaj's edge was never the interest rate. It was knowing who pays you back. Watch the day that stops being true."
   },
   "business": {
     "unitOfRevenue": "Every rupee lent and repaid earns Bajaj a slice, and the size of that slice is the Net Interest Margin, or NIM: the gap left after it pays its own lenders and sets aside for loans that go bad. Right now that gap is 9.5%, the widest of any lender in India. One number, and it tells you most of what you need to know about how well Bajaj is running.",
-    "revenueModel": "Bajaj borrows at about 7.41% a year and lends the same money out at anywhere from 8% (a two-wheeler loan, backed by the bike) to 18% (an unsecured personal loan, backed by nothing but the borrower's word). Riskier borrower, higher rate. Take out what it loses to bad loans and the gap left over is the 9.5% margin. So every rupee sitting in the loan book throws off about 9.5 paise of profit a year before running costs, and that profit grows as the book grows. Simple, and relentless, as long as the borrowers keep paying.",
+    "revenueModel": "Bajaj borrows at about 7.31% a year and lends the same money out at anywhere from 8% (a two-wheeler loan, backed by the bike) to 18% (an unsecured personal loan, backed by nothing but the borrower's word). Riskier borrower, higher rate. Take out what it loses to bad loans and the gap left over is the 9.5% margin. So every rupee sitting in the loan book throws off about 9.5 paise of profit a year before running costs, and that profit grows as the book grows. Simple, and relentless, as long as the borrowers keep paying.",
     "segments": [
       {
         "name": "Consumer durable and lifestyle finance",
@@ -175,7 +198,7 @@
       {
         "name": "MSME and business loans",
         "pct": 14,
-        "marginProfile": "Medium-high risk, medium-high margin. Lent to small business owners. Showing stress in current cycle, credit costs rising."
+        "marginProfile": "Medium-high risk, medium-high margin. Lent to small business owners. Stress showed up here first in FY26, and Bajaj slowed lending to it."
       },
       {
         "name": "Two-wheeler finance",
@@ -185,45 +208,47 @@
       {
         "name": "Gold loans, rural, other",
         "pct": 4,
-        "marginProfile": "Mixed risk. Gold loans are low-risk (collateral is fungible). Rural is growing but lower margin."
+        "marginProfile": "Mixed risk. Gold loans are backed by gold that is easy to sell, but overdues jumped in short-tenure gold schemes in Q2 FY27. Rural is growing but lower margin."
       }
     ],
-    "revenuePerUnitTrend": "The margin on each rupee lent is that 9.5%, and for three years it held steady or even widened, helped along as Bajaj's own borrowing got cheaper and its losses stayed tiny. Then the first half of FY26 nicked it: credit costs climbed to 2.0% and started eating the spread. If losses keep rising, each new rupee of loan book is worth a little less profit than the last.",
+    "revenuePerUnitTrend": "The margin on each rupee lent is that 9.5%, and for three years it held steady or even widened, helped along as Bajaj's own borrowing got cheaper and its losses stayed tiny. Then FY26 nicked it: credit costs climbed to 2.0% and started eating the spread. Losses have eased since, but now the pressure comes from the other side. The margin narrowed again in the September 2026 quarter, and management warns rising rates could push it lower.",
     "industry": {
       "structure": "Fragmented oligopoly. A few large players (Bajaj Finance, Shriram Finance, Cholamandalam, HDB Financial) dominate, but smaller regional lenders still hold share. Bajaj is by far the largest by AUM and profitability.",
       "competitors": "Shriram Finance (₹3.2L cr AUM), Cholamandalam (₹2.8L cr AUM), HDB Financial, L&T Finance, Poonawalla Fincorp, Tata Capital. Also indirect competition from traditional banks (SBI, ICICI, HDFC) who are expanding consumer lending. Bajaj is the clear leader and price-setter in most segments.",
       "pricingPower": "High for Bajaj, medium-to-low for peers. Because Bajaj has the best credit quality and lowest cost of funds, it can price loans more competitively while still earning the highest margin. It can undercut a Shriram Finance loan by 1-2% and still earn more profit per rupee lent. That pricing power is under pressure now as credit costs rise sector-wide.",
       "demandDriver": "Economic growth, auto sales, wedding seasons, education expansion, rural income growth. Bajaj's loan book grows as Indian consumption grows. Demand is resilient but cyclical in MSME and two-wheeler segments.",
       "driverType": "Cyclical but with a long secular tail. NBFC lending is counter-cyclical during downturns (when banks tighten credit, NBFCs step in to fill the gap). But it is also sensitive to commodity prices (affect MSME cash flows), vehicle sales (two-wheeler segment), and household income (personal loans).",
-      "tam": "India's total addressable market for NBFC lending is estimated at ₹30+ lakh cr (all unsecured and semi-secured lending). Bajaj at ₹5.46 lakh cr has penetrated less than 20% of the TAM. But that penetration is in the easy, urban, white-collar segments. Deeper penetration means rural lending and MSME lending, where credit risk is higher and margins are lower.",
-      "penetration": "Bajaj has 124 million customers, about 60% of the adult working population in urban India. Rural penetration is still low, a growth frontier but also a credit risk frontier.",
+      "tam": "India's total addressable market for NBFC lending is estimated at ₹30+ lakh cr (all unsecured and semi-secured lending). Bajaj at ₹5.85 lakh cr has penetrated less than 20% of the TAM. But that penetration is in the easy, urban, white-collar segments. Deeper penetration means rural lending and MSME lending, where credit risk is higher and margins are lower.",
+      "penetration": "Bajaj has 129 million customers, about 60% of the adult working population in urban India. Rural penetration is still low, a growth frontier but also a credit risk frontier.",
       "valueChainPosition": "Bajaj is a non-bank lender, meaning it does not take deposits (unlike banks) and funds itself from bond markets and institutional investors. This gives it speed and flexibility but also higher cost of capital than banks. Its position is to lend to people banks deem too risky, at rates higher than banks charge, and make profit by being a better credit analyst than banks."
     },
-    "qualityVerdict": "Is it well run? Plainly yes. The best credit quality in the business (1.27% bad loans, 0.52% it expects to lose), the widest margin (9.5%), the largest customer base (124 million), the cheapest funding (7.41%), and a group with a 50-year name behind it. You do not fake numbers like that for a decade. But strip away the excellence and it is still a lender, and every lender is a hostage to the credit cycle. The first ransom note has arrived: credit costs at 2.0%, above guidance, with the stress coming from small-business and two-wheeler loans. The quality was never the doubt. The doubt is whether it survives the loan book getting bigger and the new borrowers getting riskier."
+    "qualityVerdict": "Is it well run? Plainly yes. The best credit quality in the business (1.06% bad loans, 0.42% it expects to lose), the widest margin (9.5%), the largest customer base (129 million), the cheapest funding (7.31%), and a group with a 50-year name behind it. You do not fake numbers like that for a decade. But strip away the excellence and it is still a lender, and every lender is a hostage to the credit cycle. The first ransom note arrived in FY26: credit costs at 2.0%, above guidance, with the stress in small-business and two-wheeler loans. Bajaj paid it the way good operators do. It slowed lending where it was hurting, and it is now setting aside extra cushions while losses fall. The quality was never the doubt. The doubt is whether it survives the loan book getting bigger and the new borrowers getting riskier."
   },
   "valuation": [
     {
       "label": "Market Cap",
-      "value": "₹6,76,761 cr"
+      "value": "₹6,94,209 cr"
     },
     {
       "label": "Stock Price",
-      "value": "₹1,087"
+      "value": "₹1,095",
+      "hint": "as of 18 Nov 2026"
     },
     {
       "label": "Book Value per Share",
-      "value": "₹183"
+      "value": "₹198",
+      "hint": "Sep 2026, before the November share sale"
     },
     {
       "label": "Price-to-Book",
-      "value": "5.9x",
+      "value": "5.5x",
       "hint": "premium for pristine credit quality",
       "tone": "bad"
     },
     {
       "label": "Stock P/E",
-      "value": "35x",
-      "hint": "mcap/profit ≈ 35 (screener shows 33 on a higher TTM base); a high multiple for slowing profit growth",
+      "value": "31.7x",
+      "hint": "check: 1,095 / 34.84 = 31.4; still a premium for a lender",
       "tone": "bad"
     },
     {
@@ -232,17 +257,17 @@
     },
     {
       "label": "EPS (TTM)",
-      "value": "₹30.56"
+      "value": "₹34.84"
     },
     {
       "label": "ROE",
       "value": "18.2%",
-      "hint": "5Y avg 20%, good but not high enough to justify the 5.9x multiple",
+      "hint": "FY26; 5Y avg 20%, good but not high enough to justify 5.5x book",
       "tone": "neutral"
     },
     {
       "label": "Dividend Yield",
-      "value": "0.50%",
+      "value": "0.48%",
       "hint": "FY26 payout ₹6 per share"
     }
   ],
@@ -287,7 +312,7 @@
     {
       "label": "ROE",
       "value": "18.2%",
-      "hint": "5Y avg 20%, good but not worth 5.9x book if it stays here",
+      "hint": "FY26; 5Y avg 20%, not worth 5.5x book if it stays here",
       "tone": "neutral"
     },
     {
@@ -298,50 +323,50 @@
     },
     {
       "label": "Cost of Funds",
-      "value": "7.41%",
-      "hint": "Q4 FY26, falling, a tailwind for NIM",
-      "tone": "good"
+      "value": "7.31%",
+      "hint": "Q2 FY27, down 9 bps QoQ; may turn up as rates rise",
+      "tone": "neutral"
     },
     {
       "label": "Gross NPA",
-      "value": "1.27%",
-      "hint": "lowest in sector, but rising",
+      "value": "1.06%",
+      "hint": "1.24% a year ago; 0.96% in June",
       "tone": "good"
     },
     {
       "label": "Net NPA",
-      "value": "0.52%",
-      "hint": "pristine, but watch the trend",
+      "value": "0.42%",
+      "hint": "0.60% a year ago",
       "tone": "good"
     },
     {
       "label": "Credit Cost",
-      "value": "2.0% (H1 FY26)",
-      "hint": "above guidance of 1.85-1.95%, rising trend",
-      "tone": "bad"
+      "value": "~1.6% (Q2 FY27)",
+      "hint": "~1.9% a year ago; ~1.3% without the ₹337 cr extra cushion",
+      "tone": "good"
     },
     {
       "label": "CAR (Capital Adequacy Ratio)",
-      "value": "20.9%",
-      "hint": "well above RBI min of 15%, comfortable buffer",
+      "value": "20.33%",
+      "hint": "Sep 2026, before the ₹11,700 cr QIP; RBI min 15%",
       "tone": "good"
     }
   ],
   "cashFlow": [
     {
       "year": "FY24",
-      "ocf": -8500
+      "ocf": -72760
     },
     {
       "year": "FY25",
-      "ocf": -12000
+      "ocf": -67792
     },
     {
       "year": "FY26",
-      "ocf": -15500
+      "ocf": -65790
     }
   ],
-  "cashFlowNote": "For a growing lender, negative operating cash flow is normal, not a warning. Bajaj takes in money from savers and bond investors and pushes it straight back out as new loans, and at 22% book growth that outflow is large by design. It is not cash leaking away. It is the loan book being built. So do not judge Bajaj the way you would judge a factory that should be spitting out free cash. Judge it by the size of the book (₹5.46 lakh cr, up 22% year-on-year) and by whether that book is any good (bad loans 1.27%, expected losses 0.52%). Those are the numbers that matter for a lender.",
+  "cashFlowNote": "For a growing lender, negative operating cash flow is normal, not a warning. Bajaj takes in money from savers and bond investors and pushes it straight back out as new loans, and at 26% book growth that outflow is large by design: in FY26, ₹65,790 cr more went out to borrowers than came in from operations. It is not cash leaking away. It is the loan book being built. So do not judge Bajaj the way you would judge a factory that should be spitting out free cash. Judge it by the size of the book (₹5.85 lakh cr, up 26% year-on-year) and by whether that book is any good (bad loans 1.06%, expected losses 0.42%). Those are the numbers that matter for a lender.",
   "growth": [
     {
       "label": "Profit CAGR 5Y",
@@ -357,8 +382,8 @@
     },
     {
       "label": "Profit Growth TTM",
-      "value": "18%",
-      "hint": "further deceleration",
+      "value": "20%",
+      "hint": "Q2 FY27 alone +29%",
       "tone": "neutral"
     },
     {
@@ -374,61 +399,63 @@
     },
     {
       "label": "AUM Growth YoY",
-      "value": "22%",
-      "hint": "robust loan book expansion",
+      "value": "26%",
+      "hint": "Sep 2026; FY27 target 26-27%",
       "tone": "good"
     },
     {
       "label": "Stock CAGR 5Y",
-      "value": "11%",
-      "hint": "modest, multiple has not re-rated despite quality",
+      "value": "8%",
+      "hint": "profit grew 34% a year; the multiple shrank",
       "tone": "neutral"
     },
     {
       "label": "Stock CAGR 1Y",
-      "value": "26%",
-      "hint": "strong, but lagging profit growth",
-      "tone": "good"
+      "value": "11%",
+      "hint": "behind 20% TTM profit growth",
+      "tone": "neutral"
     }
   ],
-  "management": "Rajeev Jain runs it as Vice Chairman and Managing Director, and he is the reason for much of the discipline in the numbers. There was a wobble in 2025: Anup Kumar Saha, promoted to MD in March, resigned in July citing personal reasons, and Jain stepped back into the seat. His record and the wider Bajaj group (promoter, 54.68%, and no stranger to big financial businesses after Bajaj Allianz) are genuinely reassuring. But the wobble asks a fair question, and it is worth asking out loud: is there a deep second line of leadership here, or does the whole edifice lean on one man? A great operator is a gift. A great operator with no obvious successor is also a risk.",
+  "management": "Rajeev Jain runs it as Vice Chairman and Managing Director, and he is the reason for much of the discipline in the numbers. There was a wobble in 2025: Anup Kumar Saha, promoted to MD in March, resigned in July citing personal reasons, and Jain stepped back into the seat. His record and the wider Bajaj group (promoter, 54.67%, and no stranger to big financial businesses after Bajaj Allianz) are genuinely reassuring. But the wobble asks a fair question, and it is worth asking out loud: is there a deep second line of leadership here, or does the whole edifice lean on one man? A great operator is a gift. A great operator with no obvious successor is also a risk.",
   "holding": [
     {
       "label": "Promoter",
-      "pct": 54.68
+      "pct": 54.67,
+      "qoqChange": -0.01
     },
     {
       "label": "FII",
-      "pct": 20.2,
-      "qoqChange": -1.77
+      "pct": 19.78,
+      "qoqChange": -0.42
     },
     {
       "label": "DII",
-      "pct": 16.3,
-      "qoqChange": 1.3
+      "pct": 16.96,
+      "qoqChange": 0.66
     },
     {
       "label": "Retail",
-      "pct": 8.64
+      "pct": 8.46,
+      "qoqChange": -0.18
     }
   ],
   "pledged": 0,
   "moat": {
     "strength": "wide",
     "sources": [
-      "Scale: 124 million customers, nearly five times the next-largest peer. This scale makes Bajaj the de facto price-setter in retail lending.",
-      "Cost of funds: borrowing at 7.41%, among the lowest in the NBFC sector, because size and trust lower the cost of capital.",
-      "Credit data and underwriting: 124 million customer histories let Bajaj's algorithms predict default better than any rival. New-to-credit lending (40% of new customers) is a proprietary edge.",
+      "Scale: 129 million customers, nearly five times the next-largest peer. This scale makes Bajaj the de facto price-setter in retail lending.",
+      "Cost of funds: borrowing at 7.31%, among the lowest in the NBFC sector, because size and trust lower the cost of capital.",
+      "Credit data and underwriting: 129 million customer histories let Bajaj's algorithms predict default better than any rival. New-to-credit lending (40% of new customers) is a proprietary edge.",
       "Distribution network: field salespeople, fintech apps, retailer partnerships, and NBFC legacy reach mean Bajaj can deploy capital faster than banks.",
       "Cross-sell engine: once a customer borrows for a two-wheeler, the incremental cost to sell a personal loan or gold loan is near zero.",
       "Diversified loan book: lending across consumer durables, personal loans, mortgages, MSME, two-wheelers, gold means no single segment downturn breaks the business."
     ],
-    "note": "The moat is wide and real, and it is under pressure. Three things dig it: Bajaj borrows cheaper than anyone because it is the biggest and most trusted, it lends smarter because 124 million repayment histories feed models rivals cannot copy overnight, and it reaches further because of the field staff and apps that put it in front of customers banks never see. But size draws the regulator's eye, and a data edge can be copied in time now that everyone has AI too. The real thing holding up the premium was a single promise: borrow from Bajaj and the loans almost never go bad. That promise is what is fraying. Credit costs at 2.0% say the sorting is slipping at the edges. Let bad loans drift to 2% (an ordinary number for an ordinary lender) and Bajaj stops being special. It becomes a very good, very large, middle-of-the-pack lender, and a middle-of-the-pack lender does not command 5.9 times book."
+    "note": "The moat is wide and real, and it is under pressure. Three things dig it: Bajaj borrows cheaper than anyone because it is the biggest and most trusted, it lends smarter because 129 million repayment histories feed models rivals cannot copy overnight, and it reaches further because of the field staff and apps that put it in front of customers banks never see. But size draws the regulator's eye, and a data edge can be copied in time now that everyone has AI too. The real thing holding up the premium was a single promise: borrow from Bajaj and the loans almost never go bad. That promise frayed in FY26, when credit costs hit 2.0%, and it has been mending since. Let bad loans settle at 2% for good (an ordinary number for an ordinary lender) and Bajaj stops being special. It becomes a very good, very large, middle-of-the-pack lender, and a middle-of-the-pack lender does not command 5.5 times book."
   },
-  "narrative": "For five years Bajaj simply compounded. Profit grew 34% a year from FY22 to FY26, the loan book swelled from roughly ₹2.1 lakh cr to ₹5.46 lakh cr, and the stock climbed from about ₹700 (adjusted for the split and bonus) to ₹1,087. Three things pushed it: Indians borrowing more as incomes rose and fintech reached them, Bajaj's own funding getting cheaper as rates fell, and bad loans staying at historic lows of 1.5-1.7%. All three are now turning. Profit growth has cooled to 19% over three years and 18% over the last twelve months. Funding is still getting cheaper, which helps, but the easy urban, salaried borrowers are mostly signed up, so new growth has to come from small businesses, rural India and two-wheeler buyers, where losses run higher. And the low-loss promise is the one that stings: credit costs hit 2.0% in the first half of FY26, well above both the old 1.5-1.7% run-rate and the company's own 1.85-1.95% guidance. It is not a wreck; the stock has held its ground in a ₹788 to ₹1,178 band. It is a question. Is this a breather, or the new pace?",
+  "narrative": "For five years Bajaj simply compounded. Profit grew 34% a year from FY22 to FY26, the loan book swelled from roughly ₹2.1 lakh cr to ₹5.85 lakh cr by September 2026, and the stock climbed from about ₹700 (adjusted for the split and bonus) to ₹1,095. Three things pushed it: Indians borrowing more as incomes rose and fintech reached them, Bajaj's own funding getting cheaper as rates fell, and bad loans staying at historic lows of 1.5-1.7%. All three turned in FY26. Profit growth cooled to 19% a year over three years. Funding is still getting cheaper, which helps, but the easy urban, salaried borrowers are mostly signed up, so new growth has to come from small businesses, rural India and two-wheeler buyers, where losses run higher. And the low-loss promise was the one that stung: credit costs hit 2.0% in the first half of FY26, well above both the old 1.5-1.7% run-rate and the company's own 1.85-1.95% guidance. Bajaj slowed small-business lending, and a year later losses were down to about 1.6% of loans, with profit up 20% over the trailing twelve months. So was FY26 a breather or the new pace? So far it looks like a breather. The new strain sits elsewhere, in overdue gold loans and a narrowing margin.",
   "risks": [
-    "Credit cycle turning. The biggest risk is that MSME and two-wheeler stress we see today metastasises into broader credit deterioration. If GNPA rises to 2%+ and credit costs stay at 2%+, Bajaj's NIM will compress from 9.5% to 8.5% or lower. That is a 10% hit to profit. At 35x earnings, that is a 33% decline in the stock. High.",
-    "Regulatory tightening. RBI could cap lending rates on retail loans, ban certain loan products, or raise capital requirements. Bajaj's CAR of 20.9% is comfortable, but higher capital requirements would reduce lending capacity. Medium.",
+    "Credit cycle turning. The biggest risk is that the stress seen in small-business loans in FY26, and in gold loans now, spreads into broader credit deterioration. If GNPA rises to 2%+ and credit costs go back above 2%, Bajaj's NIM could compress from 9.5% to 8.5% or lower. That is roughly a 10% hit to profit, and at 31x earnings the multiple would likely shrink at the same time. High.",
+    "Regulatory tightening. RBI could cap lending rates on retail loans, ban certain loan products, or raise capital requirements. Bajaj's CAR of 20.33% is comfortable, but higher capital requirements would reduce lending capacity. Medium.",
     "Competition from banks. Traditional banks (SBI, ICICI, HDFC) are expanding consumer lending using fintech partnerships. They have lower cost of capital. If they scale aggressively, Bajaj's pricing power erodes. Medium-High.",
     "Interest rate environment. If RBI raises rates, Bajaj's cost of funds will rise. Lending rates cannot rise as fast without hitting credit quality. NIM compression. Medium.",
     "Succession and governance. The resignation of MD Anup Kumar Saha in July 2025 signals potential succession instability. If Jain's 50-year-old team does not have deep successors, the risk of continuity disruption is real. Medium.",
@@ -438,37 +465,37 @@
     {
       "label": "Loan book backed by real customers",
       "status": "pass",
-      "note": "AUM of ₹5.46 lakh cr is deployed to 124 million actual customers with transaction history. Not a fantasy book."
+      "note": "AUM of ₹5.85 lakh cr is deployed to 129 million actual customers with transaction history. Not a fantasy book."
     },
     {
       "label": "Profit growth",
       "status": "warn",
-      "note": "Profit CAGR fell from 34% (5Y) to 19% (3Y) to 18% (TTM). Deceleration is clear and concerning."
+      "note": "Profit CAGR 34% (5Y), 19% (3Y), 20% (TTM), and +29% in Q2 FY27. The slowdown has paused, not reversed."
     },
     {
       "label": "Asset quality",
       "status": "warn",
-      "note": "GNPA rising, credit costs at 2.0% versus guidance of 1.85-1.95%. First crack in pristine quality."
+      "note": "GNPA 1.06% vs 1.24% a year ago, credit costs eased to ~1.6%. Gold-loan overdues are the new watch point."
     },
     {
       "label": "Return on equity",
       "status": "warn",
-      "note": "ROE at 18.2% is good, but not high enough to justify 5.9x book at current risk levels."
+      "note": "ROE at 18.2% is good, but not high enough to justify 5.5x book at current risk levels."
     },
     {
       "label": "Capital adequacy",
       "status": "pass",
-      "note": "CAR of 20.9% is well above RBI minimum of 15%. Comfortable buffer."
+      "note": "CAR of 20.33% is well above RBI minimum of 15%, before the ₹11,700 cr QIP."
     },
     {
       "label": "Stretched multiple",
       "status": "fail",
-      "note": "5.9x book, 35x earnings is a premium multiple for a lender whose growth is slowing and credit quality is cracking."
+      "note": "5.5x book, 31x earnings is a premium multiple for a lender whose margin is narrowing."
     },
     {
       "label": "Promoter shareholding",
       "status": "pass",
-      "note": "54.68% promoter holding. Bajaj group is aligned with minority shareholders."
+      "note": "54.67% promoter holding. Bajaj group is aligned with minority shareholders."
     },
     {
       "label": "Succession plan",
@@ -479,38 +506,38 @@
   "sectorChecklist": [
     {
       "label": "NIM trend",
-      "status": "pass",
-      "note": "9.5% is the widest in the sector. Still a moat, but under pressure from rising credit costs."
+      "status": "warn",
+      "note": "9.5% is the widest in the sector, but it narrowed again in Q2 FY27 and management expects more pressure."
     },
     {
       "label": "Cost of funds",
       "status": "pass",
-      "note": "7.41% is lowest in sector, a 2.09% advantage over borrowing cost. Falling, a tailwind."
+      "note": "7.31% is lowest in sector, down 9 bps QoQ. May turn up as rates rise."
     },
     {
       "label": "Gross NPA ratio",
       "status": "warn",
-      "note": "1.27% is the best in sector, but trend is upward. Watch this metric closely."
+      "note": "1.06% is the best in sector, down from 1.24% a year ago but up from 0.96% in June."
     },
     {
       "label": "Net NPA ratio",
       "status": "pass",
-      "note": "0.52% is pristine, lowest in sector. But if GNPA rises, Net NPA will follow."
+      "note": "0.42% is pristine, lowest in sector. But if GNPA rises, Net NPA will follow."
     },
     {
       "label": "Capital adequacy",
       "status": "pass",
-      "note": "CAR 20.9% is well above comfort level of 15%. No capital constraints on growth."
+      "note": "CAR 20.33% is well above comfort level of 15%, and the November QIP adds ₹11,700 cr."
     },
     {
       "label": "Credit cost inflation",
-      "status": "fail",
-      "note": "2.0% in H1 FY26 versus guidance 1.85-1.95%. Rising trend is the headline risk."
+      "status": "pass",
+      "note": "~1.6% in Q2 FY27 vs ~1.9% a year earlier, even after a ₹337 cr extra cushion."
     },
     {
       "label": "AUM growth",
       "status": "pass",
-      "note": "22% year-on-year is robust. Customer base grew 17% to 124 million."
+      "note": "26% year-on-year. Customer base grew 16% to 128.85 million."
     },
     {
       "label": "Loan book diversification",
@@ -518,29 +545,29 @@
       "note": "Consumer durables, personal loans, MSME, two-wheeler, mortgages, gold. No single segment is over 25%."
     }
   ],
-  "summary": "So, to gather it up. Bajaj Finance is India's largest private lender, and it compounded profit at about 34% a year for five years, lending to 124 million customers at the widest margin in the business (9.5%) with the fewest bad loans (1.27%, and 0.52% expected loss). That excellence is real and still here. What has changed is not the business but the gap between the business and its price. At 5.9 times book and 35 times earnings, you are paying for a record with no blemishes, and the first blemish has appeared: credit costs at 2.0%, above guidance, with growth cooling from 34% to 18%. The real question is not whether Bajaj is a great company. It plainly is. It is whether a great company, priced for perfection, with the credit cycle just beginning to turn, is being offered to you at a sane price today. Sit with that one honestly. This is a report for information only and not an offer to buy or sell. Consult a SEBI-registered investment adviser for personal guidance.",
+  "summary": "So, to gather it up. Bajaj Finance is India's largest private lender, and it compounded profit at about 34% a year for five years, lending to 129 million customers at the widest margin in the business (9.5%) with the fewest bad loans (1.06%, and 0.42% expected loss). That excellence is real and still here, and the FY26 blemish has mostly healed. What you are weighing now is a narrowing margin, a wobble in gold loans, and a price of 5.5 times book and 31 times earnings for a lender that needs new shares to keep growing at 26%. The real question is not whether Bajaj is a great company. It plainly is. It is whether that greatness, at this price, leaves you room for the next surprise. This is a report for information only and not an offer to buy or sell. Consult a SEBI-registered investment adviser for personal guidance.",
   "engine": {
     "state": "earnings-engine",
-    "earnings": "In plain size, the engine is still strong: profit up 18% over the last year, the loan book compounding 22%. But it is slowing, and the slowdown is steady, not a blip: 34% profit growth over five years, 19% over three, 18% over the last twelve months. The reason is the same one running through this whole report. The easy, safe borrowers are mostly on the books, so fresh growth has to come from riskier corners (rural, small business, two-wheelers) where the margin is thinner and the losses are fatter. The engine runs. It is just carrying more weight than it used to.",
-    "multiple": "At 5.9 times book and 35 times earnings, the price is quietly demanding good news. To justify it, Bajaj has to snap back to 25%+ profit growth, or the market has to agree to pay an even richer multiple. Neither looks likely from here. The slowdown looks structural (a big book is simply harder to grow fast), and any re-rating leans on the credit quality holding, which is the very thing that has started to slip. If losses stay above 2%, the honest direction for this multiple is down, not up. This is where the optimism lives, and it is the shakiest part of the case.",
-    "verdict": "So here is my honest read. One engine, earnings, is still firing, just more slowly each year. The other, the multiple, has already sprinted and is now stretched thin. That is the classic shape of a stock where the market paid up front for a recovery that has not shown up yet, and where a slip in either direction (slower profit, or worse losses) lands hard. Bajaj is a superb business wearing a price that assumes nothing goes wrong. My one doubt is the one I keep returning to: if the sorting keeps slipping, the premium has a long way to fall before it meets an ordinary lender's valuation. I would feel very differently the day credit costs turn back toward 1.7%."
+    "earnings": "In plain size, the engine is strong again: profit up 20% over the last twelve months and 29% in the September 2026 quarter, with the loan book compounding 26%. For a while the slowdown was steady, 34% profit growth over five years and 19% over three. Falling losses have paused it. The open question is the margin. The easy, safe borrowers are mostly on the books, so fresh growth comes from riskier corners where the margin is thinner, and now funding costs may rise too. The engine runs. It is just carrying more weight than it used to.",
+    "multiple": "The multiple has been moving the opposite way to the business. Over five years the stock compounded 8% a year while profit compounded 34%, so the price of each rupee of profit kept shrinking. Even over the last year, price rose 11% while profit rose 20%, taking you from about 35 times earnings to 31, and from 5.9 times book to 5.5. That is still a premium; ordinary lenders trade at a fraction of that book multiple. For it to expand, the market has to believe the FY26 loss spike was a one-off and the margin squeeze stays small. One more drag: the November share sale at ₹1,025 adds about 1.8% more shares, so each existing share gets a slightly thinner slice of future profit.",
+    "verdict": "So here is my honest read. The earnings engine is firing again, and the multiple has spent five years coming down, not going up, so this is no longer a stock running far ahead of its business. The test I set for this report was credit costs turning back toward 1.7%. They have gone below it, even with an extra cushion set aside, and I take that at face value. What still nags me is that the cost of growing has moved from the loan book to the margin and the share count. A great lender that sells new shares to keep growing 26% is still great. It is just not free, and at 5.5 times book you are paying as if it were."
   },
   "lenses": [
     {
       "name": "The premium for pristine quality",
-      "reading": "For three years Bajaj's losses were so low that the market happily paid a premium for it: 5.9 times book, 35 times earnings. Read that price out loud and it says, we will pay extra because you never lose money to bad loans. Now the losses are creeping up (2.0% credit cost, past the 1.85-1.95% guidance). If that keeps up and bad loans settle around 2%, Bajaj looks like every other decent lender, and the reason for the premium is gone. The cruel part is that this kind of multiple does not deflate slowly. It holds, and holds, and then drops all at once the day the story changes."
+      "reading": "For years Bajaj's losses were so low that the market happily paid a premium for them. Read today's price, 5.5 times book, out loud and it still says: we will pay extra because you almost never lose money to bad loans. FY26 tested that promise when credit costs climbed past guidance. The premium shrank a little but never broke, and now that losses have eased, it is intact. Notice what that means. The price is not a reward for growth. It is insurance on quality, and insurance gets repriced fast. If bad loans ever settle around 2% for good, Bajaj looks like every other decent lender, and this kind of multiple does not deflate slowly. It holds, and holds, and then drops all at once."
     },
     {
-      "name": "Decelerating returns",
-      "reading": "Look at the returns cooling. Return on equity has eased from a 20% five-year average to 18.2%. Profit growth has halved and halved again, 34% to 18%. And notice the gap: the loan book is growing 22% but profit only 18%, and that four-point wedge is margin quietly compressing. None of this is a scandal. It is arithmetic. A ₹5.46 lakh cr book cannot double as easily as a small one did; big numbers grow slowly. Bajaj is becoming a large, mature, steady lender, and 35 times earnings is a strange price to attach to steady."
+      "name": "Growing faster than its profits can fund",
+      "reading": "A lender can only grow its own capital as fast as the profit it keeps. Bajaj earns about 18% on its equity and pays out about a fifth as dividends, so its capital grows roughly 14-15% a year on its own. Its loan book is growing 26%. Where does the gap come from? Either more borrowing on the same capital, which the regulator caps, or new shares. In November Bajaj chose new shares: ₹11,700 crore from institutions, plus warrants worth about ₹5,800 crore for the promoter. None of this is a scandal. It is arithmetic. But part of the growth you see is paid for with a thinner slice of the company, and a book growing 26% will keep needing top-ups unless returns rise or growth slows."
     },
     {
-      "name": "The two-wheeler trap",
-      "reading": "Two-wheeler loans are a tenth of the book, and they are where the stress is showing first. Bike sales have slowed, and some of those buyers are missing payments. Run the maths: if losses on two-wheeler loans double from 1.5% to 3%, and they are 10% of the book, that alone adds 0.15% to overall credit costs. Now add the same drift in small-business and rural loans, and the group number can walk from 2.0% toward 2.5%. At that point the 9.5% margin slips to 9.0% and profit growth cools again. Here is the trap in one sentence: Bajaj has to lend into these riskier corners to keep growing, and those corners are exactly where the money gets lost."
+      "name": "The riskier-corners trap",
+      "reading": "Growth has to come from corners where borrowers are harder to read, and each one has bitten at least once. Loans to small firms and bike buyers showed stress in FY26. In the September 2026 quarter it was gold: about ₹1,047 crore of gold loans slipped into early overdue, mostly short-tenure schemes Bajaj has stopped selling. Run the maths on one corner. If losses on two-wheeler loans, a tenth of the book, double from 1.5% to 3%, that alone adds 0.15% to overall credit costs. Add the same drift in two or three other corners and the group number walks from about 1.6% back toward 2%. That is the trap: Bajaj has to lend into these riskier corners to keep growing, and those corners are exactly where the money gets lost."
     },
     {
       "name": "Scale and saturation",
-      "reading": "At 124 million customers, Bajaj is running low on new city dwellers to lend to; it already reaches more than 60% of the working adults in urban India. So where does the next borrower come from? Three places, and none is as sweet as the last decade. Rural India, where margins are thinner and risk is higher. Existing customers borrowing more, which just moves money around inside the same base. Or new products like mortgages, where the margin is 2-3%, not the fat 9.5% of the core. Scale built this moat. Scale is now also the thing pressing down on how fast Bajaj can grow and how much it earns on each new rupee."
+      "reading": "At 129 million customers, Bajaj is running low on new city dwellers to lend to; it already reaches more than 60% of the working adults in urban India. So where does the next borrower come from? Three places, and none is as sweet as the last decade. Rural India, where margins are thinner and risk is higher. Existing customers borrowing more, which just moves money around inside the same base. Or new products like mortgages, where the margin is 2-3%, not the fat 9.5% of the core. Scale built this moat. Scale is now also the thing pressing down on how fast Bajaj can grow and how much it earns on each new rupee."
     }
   ],
   "sectorId": "nbfcs"

@@ -1,21 +1,44 @@
 {
   "ticker": "SUZLON",
   "company": "Suzlon Energy Ltd",
+  "latest": {
+    "period": "Q2 FY27 (Jul-Sep 2026)",
+    "published": "2026-10-29",
+    "headline": "Revenue up 26%, operating profit flat, and the margin guidance came down.",
+    "body": [
+      "Suzlon reported its July-September quarter on 29 October 2026. Revenue rose 26% to ₹4,869 crore on a record 710 MW of turbine deliveries (a megawatt is how turbine capacity is counted). Reported profit fell 69% to ₹394 crore. The stock fell about 10% the next day, to a 52-week low near ₹33.",
+      "Do not read that 69% literally. A year ago, profit included an ₹891 crore tax credit: the company booked, in one go, the value of old losses it can use to cut future tax bills. That does not repeat. Take it out and profit was roughly flat, ₹394 crore against about ₹389 crore.",
+      "The real problem is the margin. Suzlon brought in about ₹1,000 crore more revenue than a year ago and kept none of it as extra operating profit. EBITDA (profit from running the business, before interest, tax and depreciation) was ₹720 crore, the same as last year, so the margin fell from 18.6% to 14.8%. On the turbines alone, the contribution margin (what is left from each machine after its direct costs) fell from 26.9% to 21.2%. Coverage blamed a heavier mix of full turnkey projects, where Suzlon also builds the site at thinner margins, plus commodity and currency swings. Management cut its FY27 EBITDA margin guidance to 15-16%, from about 17%.",
+      "Two things to watch next. UBS flagged that operating cash flow for April-September was negative, about ₹200 crore, even with ₹2,048 crore of net cash on the balance sheet and a fresh CRISIL upgrade to AA-. And the October-December quarter will show whether the margin settles inside the new guidance or keeps sliding."
+    ],
+    "figures": [
+      { "label": "Revenue", "value": "₹4,869 cr", "hint": "+26% YoY; 710 MW delivered" },
+      { "label": "Net Profit", "value": "₹394 cr", "hint": "-69% YoY; year-ago had ₹891 cr tax credit" },
+      { "label": "EBITDA Margin", "value": "14.8%", "hint": "vs 18.6% a year ago", "tone": "bad" },
+      { "label": "FY27 margin guidance", "value": "15-16%", "hint": "cut from ~17%", "tone": "bad" }
+    ],
+    "sources": [
+      { "label": "Upstox, 30 Oct 2026", "url": "https://upstox.com/news/market-news/stocks/suzlon-energy-shares-hit-52-week-low-as-management-revises-ebitda-margin-guidance-for-fy-27-check-all-q2-numbers/article-202696/" },
+      { "label": "DSIJ, 30 Oct 2026", "url": "https://insights.dsij.in/dsijarticledetail/suzlon-share-price-sees-sharpest-single-day-fall-in-3-months-nears-3-year-low-after-q2-results" },
+      { "label": "Mercom India", "url": "https://mercomindia.com/higher-deliveries-push-suzlons-revenue-up-26-yoy-in-q2-fy-2027" },
+      { "label": "PSU Connect", "url": "https://www.psuconnect.in/financial/suzlon-q2-results-revenue-4-869-cr-27-qoq-pat-394-cr" }
+    ]
+  },
   "sector": "Renewables",
   "industry": "Wind Turbine Manufacturing & Services",
   "sectorId": "power",
   "dataVariant": "Consolidated",
-  "asOf": "2026-08-09",
-  "oneLiner": "Suzlon came back from near-bankruptcy to become India's biggest wind maker, and it is now net cash. The question is no longer survival but price, and whether the recovery can scale without its margins and its cash slipping.",
+  "asOf": "2026-11-22",
+  "oneLiner": "Suzlon came back from near-bankruptcy to become India's biggest wind maker, and it is now net cash. Survival is settled. What is not settled is whether margins that have slipped two quarters running come back as the business grows.",
   "verdict": {
     "rows": [
       { "label": "Business", "value": "Genuine turnaround", "tone": "good" },
       { "label": "Balance sheet", "value": "Net cash now", "tone": "good" },
       { "label": "Moat", "value": "Narrow", "tone": "warn" },
-      { "label": "Execution", "value": "Scaling risk", "tone": "warn" },
-      { "label": "Valuation", "value": "~21x, priced for growth", "tone": "bad" }
+      { "label": "Execution", "value": "Margins slipping", "tone": "warn" },
+      { "label": "Valuation", "value": "~22x, priced for growth", "tone": "bad" }
     ],
-    "keyQuestion": "Survival is settled. Can it scale the recovery without its margins and its cash slipping?"
+    "keyQuestion": "Survival is settled. Margins have slipped two quarters running. Is that the cost of moving into bigger turnkey projects, or the new normal?"
   },
   "facts": {
     "snapshot": "Suzlon Energy is India's largest wind-turbine maker. It builds and sells wind turbines, then earns recurring fees servicing them over their roughly twenty-year life on the hillsides where they spin.",
@@ -72,8 +95,8 @@
       },
       {
         "label": "Volume",
-        "value": "Order book ~6.1 GW",
-        "note": "84% from PSU and corporate buyers; guidance is 25% revenue CAGR toward a 15 GW book by FY31."
+        "value": "Order book ~6.0 GW",
+        "note": "78% from PSU and corporate buyers; guidance is 25% revenue CAGR toward a 15 GW book by FY31."
       },
       {
         "label": "Gross take",
@@ -82,17 +105,17 @@
       },
       {
         "label": "Operating profit",
-        "value": "~18-19% EBITDA blended",
-        "note": "The service book is the high-margin anchor; turbine sales swing with the mix."
+        "value": "~15% EBITDA blended (H1 FY27)",
+        "note": "Down from 18% in FY26; FY27 guidance cut to 15-16%. The service book is the high-margin anchor; turbine sales swing with the mix."
       },
       {
         "label": "Capital required",
         "value": "Rising as it scales",
-        "note": "Capex climbed to ~₹914 cr and working capital is building with the order book."
+        "note": "Capex climbed to ~₹576 cr in FY26 and working capital is building with the order book."
       },
       {
         "label": "Returns",
-        "value": "ROCE ~35%, ROE ~41%",
+        "value": "ROCE ~34%, ROE ~40%",
         "note": "Flattered by a thin equity base after the restructuring; read them as a peak, not a run-rate."
       }
     ],
@@ -121,7 +144,7 @@
     ],
     "stopWinning": [
       "A wind capex slowdown, or slower auctions, would hit turbine volumes and expose the fixed-cost base.",
-      "Scaling fast is squeezing margins and cash: Q1 FY27 saw profit fall while revenue rose.",
+      "Scaling fast is squeezing margins and cash: in H1 FY27 revenue grew about 24% while EBITDA did not grow at all.",
       "Falling behind on turbine technology, as it did before, would be the deepest wound.",
       "Working capital is building; debtor days rose to 137, and a project business can trap cash quickly."
     ],
@@ -158,7 +181,7 @@
         "note": "Turbine size and design cycles can strand a laggard, as history proved here."
       }
     ],
-    "whyNow": "The stock fell about 24% over the past year even as FY26 profit grew ~53%, so the multiple has come well off its 2025 highs. What makes it live now is the Q1 FY27 result: revenue grew 22.5%, but the EBITDA margin fell from 19.2% to 15.6%, interest expense rose ~30%, and profit actually fell 5.9%. It is the first quarter of this recovery where more revenue did not bring more profit. If that is a one-quarter ramp dip (Middle East logistics, upfront transformation spend), the lower price is more interesting; if rivals are already bidding margins away at scale, the near-7x book has room to fall. The lenses below break it down.",
+    "whyNow": "The stock is down about 35% over the past year and sits near a three-year low. The reason is not the order book, which is still about 6 GW. It is that the margin dip everyone hoped was a one-quarter blip in Q1 FY27 showed up again in Q2, and management then cut its own margin guidance for the year. A market that paid up for a clean recovery is now asking whether turnkey projects and tougher bids have reset what Suzlon earns on each turbine. If the margin settles at 15-16% and cash turns positive, the lower price starts to look interesting. If it keeps sliding, nearly 5x book still has room to fall. The lenses below break it down.",
     "remember": "Suzlon is a genuine redemption story now priced like a growth stock. Judge it on cash conversion and whether the margins hold at scale, not on the order-book headline."
   },
   "ipoFlag": "No repackaging games. Suzlon has been listed since 2005 and is the same wind company it always was. Its history is the warning, not its name: read the case study on how debt and a technology miss nearly ended it.",
@@ -195,7 +218,7 @@
         "marginProfile": "of revenue · 40.5% EBITDA margin (company-reported, FY26). Recurring on a 15.7 GW fleet, with contractual price escalation."
       }
     ],
-    "revenuePerUnitTrend": "Here is the one thing to understand about Suzlon, and most beginners miss it: a rupee of turbine revenue and a rupee of service revenue are not worth the same. In FY26 the O&M service book earned a ~40.5% EBITDA margin. The turbine business earns only low-teens. So ₹100 of service revenue drops roughly three times as much profit as ₹100 of turbine revenue. That is why the mix matters more than the headline growth rate. The service fee is also the steadier line, contractual with built-in price escalation, and it grows on its own as the fleet grows. Turbine prices swing with the order mix: corporate and PSU deals hold, competitive-bid auctions do not. What you watch is whether the blended margin holds as fast-growing turbine volume outpaces the steadier service book, because Q1 FY27 showed it can slip hard. Segment splits are approximate reads of the mix, not exact disclosures.",
+    "revenuePerUnitTrend": "Here is the one thing to understand about Suzlon, and most beginners miss it: a rupee of turbine revenue and a rupee of service revenue are not worth the same. In FY26 the O&M service book earned a ~40.5% EBITDA margin. The turbine business earns only low-teens. So ₹100 of service revenue drops roughly three times as much profit as ₹100 of turbine revenue. That is why the mix matters more than the headline growth rate. The service fee is also the steadier line, contractual with built-in price escalation, and it grows on its own as the fleet grows. Turbine prices swing with the order mix: corporate and PSU deals hold, competitive-bid auctions do not. What you watch is whether the blended margin holds as fast-growing turbine volume outpaces the steadier service book, because the first half of FY27 showed it can slip hard. Segment splits are approximate reads of the mix, not exact disclosures.",
     "industry": {
       "structure": "Consolidating oligopoly in Indian wind. A handful of serious original-equipment makers, with Suzlon the domestic leader by installed base.",
       "competitors": "TPG-backed (formerly Siemens Gamesa India), Envision, GE and Wind World are the main rivals. Suzlon leads on cumulative installed share (~29%) and India service depth; some rivals have deeper pockets and global technology.",
@@ -211,31 +234,31 @@
   "valuation": [
     {
       "label": "Market Cap",
-      "value": "₹65,646 cr"
+      "value": "₹49,582 cr"
     },
     {
       "label": "52W High / Low",
-      "value": "₹65.0 / ₹38.2"
+      "value": "₹60.4 / ₹33.2"
     },
     {
       "label": "Stock P/E",
-      "value": "~20.7",
-      "hint": "₹48.2 / FY26 EPS ₹2.33; screener shows 20.9 on TTM EPS",
+      "value": "21.9",
+      "hint": "check: 36.4 / 1.66 = 21.9; TTM EPS is now fully taxed",
       "tone": "neutral"
     },
     {
       "label": "P/B",
-      "value": "6.9",
-      "hint": "book value only ₹6.96",
+      "value": "4.8",
+      "hint": "book value only ₹7.54",
       "tone": "bad"
     },
     {
-      "label": "FY26 EPS",
-      "value": "₹2.33"
+      "label": "EPS (TTM)",
+      "value": "₹1.66"
     },
     {
       "label": "Book Value",
-      "value": "₹6.96"
+      "value": "₹7.54"
     }
   ],
   "financials": [
@@ -278,24 +301,25 @@
   "ratios": [
     {
       "label": "ROE",
-      "value": "40.6%",
+      "value": "39.7%",
       "hint": "flattered by thin equity base",
       "tone": "neutral"
     },
     {
       "label": "ROCE",
-      "value": "35.1%",
+      "value": "34.2%",
       "tone": "good"
     },
     {
       "label": "PAT Margin",
-      "value": "~19%",
-      "tone": "good"
+      "value": "~12% TTM",
+      "hint": "FY26's 19% was lifted by tax credits",
+      "tone": "neutral"
     },
     {
       "label": "Net cash",
-      "value": "Yes",
-      "hint": "from ~₹12,000 cr debt in FY20",
+      "value": "₹2,048 cr",
+      "hint": "Sep 2026; from ~₹12,000 cr debt in FY20",
       "tone": "good"
     },
     {
@@ -309,23 +333,23 @@
     {
       "year": "FY24",
       "ocf": 80,
-      "capex": 152,
-      "fcf": -72
+      "capex": 227,
+      "fcf": -147
     },
     {
       "year": "FY25",
       "ocf": 1092,
-      "capex": 749,
-      "fcf": 343
+      "capex": 368,
+      "fcf": 724
     },
     {
       "year": "FY26",
       "ocf": 1202,
-      "capex": 914,
-      "fcf": 288
+      "capex": 576,
+      "fcf": 626
     }
   ],
-  "cashFlowNote": "This is the honest soft spot in an otherwise strong story. Reported FY26 profit was ₹3,163 cr, but operating cash flow was only ₹1,202 cr, so barely 38 paise of every rupee of profit actually showed up as cash. Free cash flow is still positive at ₹288 cr after heavy capex, and the balance sheet is genuinely net cash, so this is not a solvency worry. But the gap, together with debtor days climbing to 137, is the classic sign of a fast-scaling project business tying up cash in working capital. The number to watch is whether cash conversion catches up with profit as the order book converts.",
+  "cashFlowNote": "This is the honest soft spot in an otherwise strong story. Reported FY26 profit was ₹3,163 cr, but operating cash flow was only ₹1,202 cr, so barely 38 paise of every rupee of profit actually showed up as cash. Part of that gap is tax credits that lifted profit without bringing in any cash. Free cash flow is still positive at ₹626 cr after capex, and the balance sheet is genuinely net cash, so this is not a solvency worry. But the gap, together with debtor days climbing to 137, is the classic sign of a fast-scaling project business tying up cash in working capital. The number to watch is whether cash conversion catches up with profit as the order book converts.",
   "growth": [
     {
       "label": "Sales CAGR 5Y",
@@ -339,55 +363,55 @@
     },
     {
       "label": "Sales growth TTM",
-      "value": "45%",
+      "value": "34%",
       "tone": "good"
     },
     {
       "label": "Profit CAGR 3Y",
-      "value": "165%",
+      "value": "163%",
       "hint": "meaningless: FY22 loss + FY23 one-off base",
       "tone": "neutral"
     },
     {
-      "label": "Q1 FY27 PAT",
-      "value": "₹305 cr",
-      "hint": "-5.9% YoY while revenue +22.5%: the first margin lag",
-      "tone": "warn"
+      "label": "H1 FY27 EBITDA",
+      "value": "₹1,315 cr",
+      "hint": "flat YoY while revenue +24%",
+      "tone": "bad"
     },
     {
-      "label": "Q1 FY27 EBITDA margin",
-      "value": "15.6%",
-      "hint": "down from 19.2% a year earlier",
+      "label": "Q2 FY27 EBITDA margin",
+      "value": "14.8%",
+      "hint": "Q1 15.6%; 18.6% a year earlier",
       "tone": "bad"
     },
     {
       "label": "Stock CAGR 1Y",
-      "value": "-24%",
-      "hint": "profit grew ~53% same window",
+      "value": "-35%",
+      "hint": "reported TTM profit -29%, pre-tax profit +18%",
       "tone": "neutral"
     }
   ],
-  "management": "Chairman and MD Vinod Tanti anchors a promoter family that once brought the company to the edge, and a professional bench now runs the business, with Ajay Kapur brought in as CEO to drive the next leg. Credit where it is due: this team pulled off one of the hardest balance-sheet repairs the Indian market has seen, converting debt to equity, raising ₹2,000 cr, and taking the company from ₹12,000 cr of borrowings to net cash. That is a real scorecard. Two things temper it. Promoter ownership is now low at 11.70%, after years of dilution and restructuring, so the family has modest skin in the game and governance leans on the professional board. And the job now changes: from fixing the balance sheet to running a much bigger business profitably, and the first quarter already showed margins and cash can lag when the volume runs hard.",
+  "management": "Chairman and MD Vinod Tanti anchors a promoter family that once brought the company to the edge, and a professional bench now runs the business, with Ajay Kapur brought in as CEO to drive the next leg. Credit where it is due: this team pulled off one of the hardest balance-sheet repairs the Indian market has seen, converting debt to equity, raising ₹2,000 cr, and taking the company from ₹12,000 cr of borrowings to net cash. That is a real scorecard. Two things temper it. Promoter ownership is now low at 11.70%, after years of dilution and restructuring, so the family has modest skin in the game and governance leans on the professional board. And the job now changes: from fixing the balance sheet to running a much bigger business profitably, and the first half of FY27 already showed margins and cash can lag when the volume runs hard.",
   "holding": [
     {
       "label": "FII",
-      "pct": 24.15,
-      "qoqChange": 0.3
+      "pct": 23.63,
+      "qoqChange": -0.52
     },
     {
       "label": "Promoter",
       "pct": 11.7,
-      "qoqChange": -0.03
+      "qoqChange": 0
     },
     {
       "label": "DII",
-      "pct": 11.12,
-      "qoqChange": 1.94
+      "pct": 10.24,
+      "qoqChange": -0.88
     },
     {
       "label": "Retail",
-      "pct": 53.02,
-      "qoqChange": -2.23
+      "pct": 54.44,
+      "qoqChange": 1.42
     }
   ],
   "moat": {
@@ -400,13 +424,13 @@
     ],
     "note": "The moat is not the turbine, which rivals can build too. It is the installed fleet and the service crews wrapped around it: once Suzlon's machines are up, the owner tends to keep paying Suzlon to run them, and that book only grows as the fleet grows. The numbers back it up. The O&M business earns a reported 40.5% EBITDA margin on a 15.7 GW base, with contractual price escalation built in. The honest caveat is what the moat does not defend. It does not stop a better-funded rival winning the next auction on price. Service contracts can in principle be re-tendered. And it does nothing against a technology cycle, which is exactly the flank that wounded Suzlon before. Narrow, genuinely strong in service, and exposed on the manufacturing side."
   },
-  "narrative": "For a decade Suzlon was the cautionary tale of Indian markets: a 2007-08 global buying spree funded with dollar debt, a technology cycle it fell behind on, and a balance sheet that buckled under roughly ₹12,000 cr of borrowings. Then the story flipped. A debt-for-equity restructuring and a ₹2,000 cr raise cleaned up the balance sheet, India's renewable push pulled wind demand back, and deliveries ramped hard. Revenue went from ₹6,529 cr in FY24 to ₹16,732 cr in FY26, profit turned durable, and the company reached net cash. The stock rose 5x into 2025 on that recovery, then gave back about a quarter of its value through 2026 as the market started questioning margins and valuation. One caution on the numbers: FY23's eye-catching 48% profit margin was a restructuring one-off, so read the real operating margin as the ~19% of the last two years.",
+  "narrative": "For a decade Suzlon was the cautionary tale of Indian markets: a 2007-08 global buying spree funded with dollar debt, a technology cycle it fell behind on, and a balance sheet that buckled under roughly ₹12,000 cr of borrowings. Then the story flipped. A debt-for-equity restructuring and a ₹2,000 cr raise cleaned up the balance sheet, India's renewable push pulled wind demand back, and deliveries ramped hard. Revenue went from ₹6,529 cr in FY24 to ₹16,732 cr in FY26, profit turned durable, and the company reached net cash. The stock rose 5x into 2025 on that recovery, then lost more than a third of its value over the following year as the market started questioning margins and valuation. One caution on the numbers: FY23's eye-catching 48% profit margin was a restructuring one-off, and even the ~19% of FY25 and FY26 was helped by tax credits. The cleaner read is the operating margin (profit from running the business, before interest and tax), which was 17-18% in those two years.",
   "risks": [
     "Cyclicality and auction dependence. Turbine demand is lumpy and set by government auction calendars and capex cycles, so a slow year hits volumes and exposes the fixed-cost base. High.",
-    "Margin and cash at scale. Q1 FY27 profit fell 6% while revenue rose 23% on higher fixed costs and a ~30% jump in interest expense, and FY26 operating cash was only 38% of profit. Medium-High.",
+    "Margin and cash at scale. EBITDA margin fell to 14.8% in Q2 FY27 and FY27 guidance was cut to 15-16%; FY26 operating cash was only 38% of profit, and H1 FY27 operating cash flow was negative. Medium-High.",
     "Technology cycle. Turbine size and design keep advancing; falling behind, as Suzlon did before, is the deepest structural risk in this business. Medium.",
     "Low promoter holding. At 11.70%, the family has limited skin in the game and a history of distress-driven selling, so governance leans on the professional board. Medium.",
-    "Valuation. Near 7x book and ~21x earnings for a cyclical manufacturer leaves little room if the recovery in margins or cash conversion disappoints. Medium-High."
+    "Valuation. Nearly 5x book and ~22x earnings for a cyclical manufacturer leaves little room if the recovery in margins or cash conversion disappoints. Medium-High."
   ],
   "trapChecklist": [
     {
@@ -442,14 +466,14 @@
     {
       "label": "Stretched multiple",
       "status": "warn",
-      "note": "~6.9x book on a cyclical, ~21x earnings"
+      "note": "~4.8x book on a cyclical, ~22x earnings"
     }
   ],
   "sectorChecklist": [
     {
       "label": "Order-book visibility",
       "status": "pass",
-      "note": "~6.1 GW book, mostly PSU and corporate"
+      "note": "~6.0 GW book, 78% PSU and corporate"
     },
     {
       "label": "Balance sheet",
@@ -459,12 +483,12 @@
     {
       "label": "Cash conversion",
       "status": "warn",
-      "note": "OCF ~38% of profit; working capital building"
+      "note": "FY26 OCF ~38% of profit; H1 FY27 OCF negative"
     },
     {
       "label": "Margin durability",
       "status": "warn",
-      "note": "Q1 FY27 margin lag; competitive-bid pricing pressure"
+      "note": "Two quarters of margin slide; FY27 guidance cut to 15-16%"
     },
     {
       "label": "Demand runway",
@@ -472,17 +496,17 @@
       "note": "Structural renewable build-out, but auction-paced"
     }
   ],
-  "summary": "Suzlon is a rare and genuine turnaround: the near-dead debt casualty of the last cycle is now India's net-cash wind leader, with a ~6 GW order book and a sticky 20-year service annuity. None of that is in doubt. What is in doubt is the price, meeting its first wobble. You are paying nearly 7 times book and about 21 times earnings for a business that is cyclical, part price-capped by auctions, and whose Q1 FY27 was the first quarter where profit fell while revenue grew, with cash conversion already running well below reported profit. If the margin dip is a one-quarter ramp effect and the cash catches up, the de-rated price is interesting. If instead rivals are bidding margins away, the multiple has room to fall. The next few quarters will tell you which it is: temporary scaling pain, or weaker economics at the new size. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+  "summary": "Suzlon is a rare and genuine turnaround: the near-dead debt casualty of the last cycle is now India's net-cash wind leader, with a ~6 GW order book and a sticky 20-year service annuity. None of that is in doubt. What is in doubt is the margin, now two quarters into a slide. You are paying nearly 5 times book and about 22 times earnings for a business that is cyclical, part price-capped by auctions, and whose own management just lowered what it expects to earn on each rupee of sales this year. If the margin settles at the new guidance and cash catches up, the de-rated price is interesting. If it keeps sliding, the multiple has room to fall. The next few quarters will tell you which it is: the cost of moving into bigger projects, or weaker economics at the new size. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
   "engine": {
     "state": "multiple-drift",
-    "earnings": "The engine ran hard on the delivery ramp: FY26 revenue and profit both up ~53%, on record turbine volumes and a growing service book. But the quality of that engine just came into question. Q1 FY27 profit fell 5.9% to ₹305 cr while revenue rose 22.5% to ₹3,819 cr, as the EBITDA margin dropped to 15.6% from 19.2%, interest expense rose ~30%, and delayed Middle East deliveries plus upfront Suzlon 2.0 spend bit in. FY26 operating cash flow was only 38% of profit. The tailwind is real, a ~6 GW order book converting toward management's 25% growth guidance. So is the drag from scaling costs and working capital.",
-    "multiple": "Over the past year profit grew ~53% while the stock fell ~24%, wringing out the 2025 froth. At ~21x earnings, the price already reflects a good chunk of the growth people expect, and at ~6.9x book on a cyclical manufacturer with a thin equity base, it assumes the recovery holds. The history here is short and distorted by the restructuring, so read the multiple against the cyclicality, not against a clean median.",
-    "verdict": "Earnings rose while the multiple fell, which in a clean compounder would be a re-rating waiting to happen. Here it is conditional, because the fall lines up with the first margin-lag quarter and weak cash conversion, so the market may be pricing a real doubt about durability, not just mood. My honest read: the turnaround itself is done and real, but the price already assumes the recovery keeps scaling cleanly, and Q1 FY27 is the first crack in that assumption. I cannot yet tell you whether it is a ramp dip or the start of competitive-bid pressure, and neither can anyone. So watch two numbers over the next couple of quarters: the blended margin, and how much of reported profit shows up as operating cash."
+    "earnings": "The engine ran hard on the delivery ramp: FY26 revenue up ~54%, on record turbine volumes and a growing service book. FY27 so far is a different picture. Revenue is still growing, up about 24% in the first half, but operating profit has stopped growing with it (see the note at the top for the quarter). The trailing profit line looks worse than it is: reported profit is down 29% over the last twelve months, but that is mostly last year's tax credits dropping out, and profit before tax is up about 18%. The tailwind is real, a ~6 GW order book converting toward management's 25% growth guidance. So is the drag from thinner turnkey margins and working capital.",
+    "multiple": "Here is a quirk worth understanding. Since August the price fell from about ₹48 to ₹36, yet the P/E went up, from ~21x to ~22x. How? The old P/E was measured against earnings padded by one-time tax credits. Those have now dropped out of the trailing twelve months, so earnings per share fell from ₹2.33 to ₹1.66, faster than the price. The good news is that today's ~22x is on fully taxed profit, so it is a cleaner number. The bad news is that it is not cheap for a cyclical manufacturer whose margins are going the wrong way. Price to book fell to ~4.8x, and that move is real.",
+    "verdict": "My honest read: the turnaround itself is done and real, but the price was built on the recovery scaling cleanly, and the first half of FY27 broke that assumption. One bad quarter could be a ramp dip. Two, plus a guidance cut, means management itself expects thinner margins this year. What I cannot tell you is whether that is a temporary cost of moving into turnkey projects or the start of tougher pricing at scale, and neither can anyone yet. So watch two numbers over the next couple of quarters: the blended margin against the new 15-16% guidance, and whether operating cash flow turns positive."
   },
   "lenses": [
     {
-      "name": "The first slowdown tremor, in numbers",
-      "reading": "Q1 FY27 (the quarter to June 2026) is the first quarter in this recovery where the engine ran backwards on profit. Two separate signals. The first is margin: revenue grew 22.5% to ₹3,819 cr, but EBITDA margin fell from 19.2% to 15.6%, interest expense rose ~30%, and profit fell 5.9% to ₹305 cr. The second is cash, from the year before: FY26 operating cash flow was only 38% of reported profit, with debtor days rising. Here is the question the whole thesis hangs on. Was the margin slip a temporary execution issue (Middle East logistics, upfront Suzlon 2.0 spend, ramp costs), or the start of operating leverage and competitive-bid pricing turning against Suzlon at scale? A first tremor deserves respect, not a quick rebound bet."
+      "name": "The tremor came back",
+      "reading": "Q1 FY27 was the first quarter in this recovery where more revenue did not bring more profit, and it was easy to call it a blip. Q2 repeated it, with the margin a notch lower again (the numbers are in the note at the top). Part of the reason is a choice: Suzlon is taking on more full turnkey projects, 38% of the order book now with a 50% target by FY28, and building the whole site earns a thinner margin than selling the machine. Part is not a choice: commodity and currency swings. Is a lower margin on bigger projects a bad trade? Not necessarily, if profit in rupees still grows. In H1 FY27 it did not. Until it does, treat the tremor as a trend."
     },
     {
       "name": "The turn, remembered",
@@ -490,7 +514,7 @@
     },
     {
       "name": "The growth is not reaching cash yet",
-      "reading": "FY26 turned ₹3,163 cr of reported profit into only ₹1,202 cr of operating cash, and debtor days keep climbing toward 137. The business is genuinely net cash, so this is a working-capital drag, not a fraud flag. But it is the number that tells you whether the growth is compounding into cash or just booking revenue. Until operating cash catches up with profit, treat the reported earnings as running ahead of the money the business actually throws off."
+      "reading": "FY26 turned ₹3,163 cr of reported profit into only ₹1,202 cr of operating cash, and debtor days keep climbing toward 137. The business is genuinely net cash, so this is a working-capital drag, not a fraud flag. But it is the number that tells you whether the growth is compounding into cash or just booking revenue. The first half of FY27 went the wrong way: operating cash flow was negative, about ₹200 cr, according to UBS. Until operating cash catches up with profit, treat the reported earnings as running ahead of the money the business actually throws off."
     },
     {
       "name": "Operator meeting the scale test",

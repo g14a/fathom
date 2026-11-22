@@ -1,21 +1,44 @@
 {
   "ticker": "BHARTIARTL",
   "company": "Bharti Airtel Ltd",
+  "latest": {
+    "period": "Q2 FY27 (Jul-Sep 2026)",
+    "published": "2026-11-05",
+    "headline": "Revenue up 17% and profit up 31%, but profit still came in below what analysts expected.",
+    "body": [
+      "Airtel reported its July-September quarter on 5 November 2026. Revenue rose 16.7% to ₹60,878 crore. Profit belonging to shareholders rose 31% to ₹8,888 crore, and before one-off items it was ₹9,015 crore, so no one-time gain is flattering this quarter. The stock rose about 1.7% the next day, to ₹2,096.",
+      "The toll per car kept rising. ARPU, the average monthly bill per mobile customer, reached ₹271, up from ₹256 a year ago and ₹264 last quarter. It got there without a price increase across the industry; there has not been a broad one since July 2024. Instead, in August Airtel dropped its ₹299 entry plan to nudge people onto pricier ones. That lifted ARPU and cost customers. Monthly churn (the share of customers who leave each month) rose to 2.9% from 2.6%, and net new mobile customers fell to about 0.7 million from 3.3 million the quarter before. Airtel has since brought the ₹299 plan back, with less data.",
+      "Why the miss? Analysts polled by LSEG expected about ₹9,673 crore of profit. Network running costs rose 11% and licence fees 13%, which ate into it. Africa did the heavy lifting, with revenue up 20.6% in constant currency (before exchange-rate swings), while India grew 9.4%. The EBITDA margin, what Airtel keeps from each rupee of revenue before interest, depreciation and tax, was 57.9%. Net debt is now 1.18 times a year's EBITDA, down from 1.63 times a year ago.",
+      "What to watch next: whether churn settles after the plan change, and whether an industry tariff hike finally arrives. Some brokers expect one within months, but none has been announced. Until then ARPU has to climb the slow way, one upgraded customer at a time."
+    ],
+    "figures": [
+      { "label": "Revenue", "value": "₹60,878 cr", "hint": "+16.7% YoY" },
+      { "label": "Net Profit", "value": "₹8,888 cr", "hint": "+31% YoY; ₹9,015 cr before one-offs" },
+      { "label": "India mobile ARPU", "value": "₹271", "hint": "vs ₹256 a year ago", "tone": "good" },
+      { "label": "Monthly churn", "value": "2.9%", "hint": "vs 2.6% last quarter", "tone": "bad" }
+    ],
+    "sources": [
+      { "label": "Business Today, 5 Nov 2026", "url": "https://www.businesstoday.in/markets/stocks/story/bharti-airtel-q2-net-profit-rises-31-to-rs-8888-crore-arpu-climbs-to-rs-271-565993-2026-11-05" },
+      { "label": "Company Q2 FY27 highlights (CXOToday)", "url": "https://cxotoday.com/media-coverage/bharti-airtel-limited-q2-fy27-highlights/" },
+      { "label": "Finimize (LSEG estimate, costs, tariffs)", "url": "https://finimize.com/content/bharti-airtels-higher-costs-took-the-shine-off-q2-profit" },
+      { "label": "IndiaIPO, Citi on churn, 6 Nov 2026", "url": "https://www.indiaipo.in/news/detail/bharti-airtel-shares-citi-remains-bullish-after-strong-q2-despite-elevated-churn-rs-299-plan-restored" }
+    ]
+  },
   "sector": "Telecom Services",
   "industry": "Telecom Services",
   "sectorId": "telecom",
   "dataVariant": "Consolidated",
-  "asOf": "2026-08-03",
-  "oneLiner": "The lost decade is over: three players left, tariffs rising, cash finally pouring in. The only problem now is the price, 46 times earnings for a turn nobody can miss.",
+  "asOf": "2026-11-22",
+  "oneLiner": "The lost decade is over: three players left, tariffs rising, cash finally pouring in. The only problem now is the price, about 42 times earnings for a turn nobody can miss.",
   "verdict": {
     "rows": [
       { "label": "Business", "value": "Free-cash machine now", "tone": "good" },
       { "label": "Balance sheet", "value": "Improving, still levered", "tone": "warn" },
       { "label": "Moat", "value": "Wide", "tone": "good" },
       { "label": "The turn", "value": "Largely already done", "tone": "warn" },
-      { "label": "Valuation", "value": "46x earnings", "tone": "bad" }
+      { "label": "Valuation", "value": "42x earnings", "tone": "bad" }
     ],
-    "keyQuestion": "The turnaround is real and finished. Is 46 times earnings paying for a turn everyone can already see?"
+    "keyQuestion": "The turnaround is real and finished. Is 42 times earnings paying for a turn everyone can already see?"
   },
   "facts": {
     "snapshot": "Bharti Airtel is one of India's largest telecom operators. It runs mobile, broadband and enterprise networks across India, Africa and South Asia, earning a recurring fee from every customer that uses its network.",
@@ -149,27 +172,27 @@
         "note": "Free cash flow is finally reducing leverage."
       }
     ],
-    "whyNow": "What changed is not Airtel; it is the neighbourhood. The lost decade ended the day tariff discipline came back to a three-player market. But this is not a secret anymore. The stock has re-rated to a premium multiple, so the good news is largely bought and paid for. The live question now is a plain one: can earnings keep growing fast enough to justify a price that already assumes the good times last?",
+    "whyNow": "What changed is not Airtel; it is the neighbourhood. The lost decade ended the day tariff discipline came back to a three-player market. But this is not a secret anymore. The stock re-rated to a premium multiple years ago and has gone roughly sideways for the past twelve months, so the good news is largely bought and paid for. The live question now is a plain one: can earnings keep growing fast enough to justify a price that already assumes the good times last, without the industry tariff hike that has not come since July 2024?",
     "remember": "Same road, same cars. All that changed is that Airtel is finally allowed to charge a proper toll."
   },
   "ipoFlag": "Listed since 2002. No rebranding or narrative makeover. This is the same telecom operator it has always been, now in a far friendlier industry structure.",
   "business": {
-    "unitOfRevenue": "One customer's monthly bill. The number that rules everything here is ARPU, the average revenue a user pays per month, now about ₹257. It sounds small. Multiply it by hundreds of millions of customers and that small monthly figure becomes an enormous, recurring pile of revenue, and every rupee you can add to it lands hundreds of millions of times over.",
+    "unitOfRevenue": "One customer's monthly bill. The number that rules everything here is ARPU, the average revenue a user pays per month, now about ₹271. It sounds small. Multiply it by hundreds of millions of customers and that small monthly figure becomes an enormous, recurring pile of revenue, and every rupee you can add to it lands hundreds of millions of times over.",
     "revenueModel": "It is a subscription. Customers pay every month for voice and data, which makes the revenue recurring and sticky. On top of the mobile plan, Airtel sells the same household a home broadband line, an enterprise connection, a DTH box, lifting what each home pays without having to go win a brand-new customer. More toll from cars already on the road.",
     "segments": [
       {
         "name": "India mobile",
-        "pct": 50,
+        "pct": 51,
         "marginProfile": "High and rising as tariffs climb and costs stay fixed"
       },
       {
         "name": "Africa",
-        "pct": 28,
+        "pct": 31,
         "marginProfile": "Now profitable and growing at double digits in constant currency"
       },
       {
         "name": "Enterprise, Homes broadband and DTH",
-        "pct": 22,
+        "pct": 18,
         "marginProfile": "Mixed. Homes and enterprise are higher-value, DTH is in slow decline"
       }
     ],
@@ -189,30 +212,30 @@
   "valuation": [
     {
       "label": "Market Cap",
-      "value": "₹12,30,130 cr"
+      "value": "₹13,27,966 cr"
     },
     {
       "label": "52W High / Low",
-      "value": "₹2,175 / ₹1,740"
+      "value": "₹2,175 / ₹1,726"
     },
     {
       "label": "Stock P/E",
-      "value": "46.2",
-      "hint": "computed price/EPS ≈ 45.0; consolidated",
+      "value": "41.7",
+      "hint": "check: 2,128 / 50.98 = 41.7; Screener shows 39.7",
       "tone": "bad"
     },
     {
       "label": "P/B",
-      "value": "8.05",
+      "value": "8.4",
       "tone": "bad"
     },
     {
       "label": "EPS (TTM)",
-      "value": "₹43.81"
+      "value": "₹50.98"
     },
     {
       "label": "Book Value",
-      "value": "₹245"
+      "value": "₹253"
     }
   ],
   "financials": [
@@ -220,7 +243,7 @@
       "year": "FY22",
       "revenue": 116547,
       "netProfit": 8305,
-      "eps": 7.23,
+      "eps": 7.6,
       "patMargin": 7.1
     },
     {
@@ -266,19 +289,19 @@
     },
     {
       "label": "Net debt / EBITDA",
-      "value": "~0.79x",
-      "hint": "down from ~2x two years ago",
+      "value": "~0.70x",
+      "hint": "excl. leases; 1.18x incl. leases, from 1.63x a year ago",
       "tone": "good"
     },
     {
       "label": "PAT Margin (TTM)",
-      "value": "16.0%",
+      "value": "16.8%",
       "hint": "FY25's 21.7% was flattered by one-offs",
       "tone": "neutral"
     },
     {
       "label": "P/B",
-      "value": "8.05",
+      "value": "8.4",
       "tone": "bad"
     },
     {
@@ -308,7 +331,7 @@
       "fcf": 66025
     }
   ],
-  "cashFlowNote": "This is the healthiest part of the whole story, and the clearest proof the turn is real. Operating cash flow has climbed from about ₹79,000 crore to ₹1,22,000 crore in just two years. Even after Airtel's enormous spending on spectrum and network, free cash flow is large and rising, roughly ₹66,000 crore in FY26. Remember that for its entire lost decade this same business ran with cash flow stretched thin. Here is the thesis made visible in one number: the road did not change, but it is finally allowed to keep the tolls. That free cash is what is paying down debt and has dragged net-debt-to-EBITDA below 0.8 times.",
+  "cashFlowNote": "This is the healthiest part of the whole story, and the clearest proof the turn is real. Operating cash flow has climbed from about ₹79,000 crore to ₹1,22,000 crore in just two years. Even after Airtel's enormous spending on spectrum and network, free cash flow is large and rising, roughly ₹66,000 crore in FY26. Remember that for its entire lost decade this same business ran with cash flow stretched thin. Here is the thesis made visible in one number: the road did not change, but it is finally allowed to keep the tolls. That free cash is what is paying down debt and has dragged net debt (leaving out lease obligations) to about 0.7 times a year's operating profit.",
   "growth": [
     {
       "label": "Sales CAGR 5Y",
@@ -327,37 +350,37 @@
     },
     {
       "label": "Stock CAGR 5Y",
-      "value": "28%",
+      "value": "25%",
       "hint": "the re-rating largely banked",
       "tone": "neutral"
     },
     {
       "label": "Stock CAGR 3Y",
-      "value": "30%",
+      "value": "31%",
       "tone": "neutral"
     }
   ],
-  "management": "Gopal Vittal runs the India and South Asia business as Managing Director and CEO, with founder-chairman Sunil Bharti Mittal and a deep professional bench behind him. This is a team that speaks the operator's language: cash flow, deleveraging, return on capital, disciplined capex, not themes and slideware. Look at what they did through the crisis. They survived it, raised equity when they had to, listed the Africa arm in London to cut debt, and then let returning tariffs do the heavy lifting. Promoter holding is a solid 50.07% and rising, with no pledging visible in the data. That is about as clean a scorecard as you will find after a decade in the trenches.",
+  "management": "Shashwat Sharma has run the India business as Managing Director and CEO since January 2026. Gopal Vittal, who led it through the turnaround, is now Executive Vice Chairman overseeing the whole group, with founder-chairman Sunil Bharti Mittal and a deep professional bench around them. This is a team that speaks the operator's language: cash flow, deleveraging, return on capital, disciplined capex, not themes and slideware. Look at what they did through the crisis. They survived it, raised equity when they had to, listed the Africa arm in London to cut debt, and then let returning tariffs do the heavy lifting. Promoter holding is 50.07%, flat this quarter and below where it stood three years ago, with no pledging visible in the data. That is about as clean a scorecard as you will find after a decade in the trenches.",
   "holding": [
     {
       "label": "Promoter",
       "pct": 50.07,
-      "qoqChange": 1.2
+      "qoqChange": 0
     },
     {
       "label": "FII",
-      "pct": 26.48,
-      "qoqChange": -1.31
+      "pct": 25.44,
+      "qoqChange": -1.04
     },
     {
       "label": "DII",
-      "pct": 20.64,
-      "qoqChange": 1.11
+      "pct": 21.62,
+      "qoqChange": 0.98
     },
     {
       "label": "Retail",
-      "pct": 2.64,
-      "qoqChange": 0
+      "pct": 2.7,
+      "qoqChange": 0.06
     }
   ],
   "pledged": 0,
@@ -371,9 +394,9 @@
     ],
     "note": "Airtel's moat is half its own and half a gift from the industry's structure. The structural half is sheer scale: a national road and a spectrum bank that no newcomer can cheaply build, which is exactly why the field collapsed to three. Airtel's own half is the premium end of the market. It consistently earns a higher ARPU than Vodafone Idea and holds on to the more valuable, stickier customers. The one honest caveat: this pricing power is shared with Jio, which has the deepest pockets in the country. So the moat protects the whole industry's profits more than it protects Airtel from Jio in particular."
   },
-  "narrative": "For thirteen years, from 2007 to about 2020, Airtel was the textbook trap: a business that grew and grew while the stock went nowhere. The cash it made was eaten by the Zain Africa debt, an endless spectrum treadmill, the Jio price war, and finally a backdated AGR bill that produced a record loss. Then the story flipped. The industry consolidated to three players, tariffs rose for the first time in years from December 2019, and ARPU began its long climb from about ₹104 toward ₹257. Africa turned profitable and started throwing off cash after its 2019 London listing. The AGR shock was managed down. Free cash flow exploded, debt fell, ROE roughly doubled, and the stock finally broke out into a powerful multi-year run. Today Airtel is the quality name in Indian telecom, and everyone knows it.",
+  "narrative": "For thirteen years, from 2007 to about 2020, Airtel was the textbook trap: a business that grew and grew while the stock went nowhere. The cash it made was eaten by the Zain Africa debt, an endless spectrum treadmill, the Jio price war, and finally a backdated AGR bill that produced a record loss. Then the story flipped. The industry consolidated to three players, tariffs rose for the first time in years from December 2019, and ARPU began its long climb from about ₹104 to ₹271. Africa turned profitable and started throwing off cash after its 2019 London listing. The AGR shock was managed down. Free cash flow exploded, debt fell, ROE roughly doubled, and the stock finally broke out into a powerful multi-year run. Today Airtel is the quality name in Indian telecom, and everyone knows it.",
   "risks": [
-    "Valuation. At roughly 46 times earnings and 8 times book near all-time highs, a great deal of good news is already priced in. Any stumble in ARPU or a delayed tariff hike could compress the multiple sharply. Medium.",
+    "Valuation. At roughly 42 times earnings and 8 times book, with the price close to its ₹2,175 high, a great deal of good news is already priced in. Any stumble in ARPU or a delayed tariff hike could compress the multiple sharply. Medium.",
     "Jio. Pricing power is shared with a rival that has the deepest pockets in India and has shown it will spend for share. A renewed price aggression from Jio would hurt the whole thesis. Medium.",
     "Capital intensity never ends. 5G and future spectrum auctions keep demanding capital, so the free-cash-flow story depends on tariffs staying disciplined. Medium.",
     "Africa and currency. The Africa arm is now a strength, but it earns in local currencies that can weaken against the dollar, shrinking those profits on conversion. Medium.",
@@ -398,34 +421,34 @@
     {
       "label": "Promoter pledging",
       "status": "pass",
-      "note": "No pledge visible; promoter holding rising to 50.07%"
+      "note": "No pledge visible; promoter holding flat at 50.07%"
     },
     {
       "label": "Stretched multiple",
       "status": "fail",
-      "note": "~46x earnings and 8x book near all-time highs leaves little margin of safety"
+      "note": "~42x earnings and 8.4x book near the 52-week high leaves little margin of safety"
     },
     {
       "label": "Balance-sheet risk",
       "status": "pass",
-      "note": "Net debt / EBITDA down to ~0.79x from ~2x; actively deleveraging"
+      "note": "Net debt / EBITDA 1.18x incl. leases, from 1.63x a year ago; deleveraging"
     }
   ],
   "sectorChecklist": [
     {
       "label": "ARPU rising",
       "status": "pass",
-      "note": "About ₹257, up from ~₹104 in the price-war trough"
+      "note": "₹271 in Q2 FY27, up from ~₹104 in the price-war trough"
     },
     {
       "label": "Pricing power / consolidation",
       "status": "pass",
-      "note": "Three private players; tariff hikes are sticking"
+      "note": "Three private players; ARPU rising on mix, no broad tariff hike since July 2024"
     },
     {
       "label": "Subscriber quality",
       "status": "pass",
-      "note": "Adding postpaid and smartphone users; premium mix vs Vi"
+      "note": "Record 1.2m postpaid adds in Q2 FY27; churn up to 2.9% after a plan cut"
     },
     {
       "label": "Free cash flow after capex",
@@ -435,14 +458,14 @@
     {
       "label": "Leverage",
       "status": "pass",
-      "note": "Net debt / EBITDA ~0.79x and falling"
+      "note": "Net debt / EBITDA ~0.70x excl. leases (1.18x incl.) and falling"
     }
   ],
-  "summary": "Bharti Airtel is the resolution of its own cautionary tale. For thirteen years it proved that a growing business is not the same as a rewarding stock. Since the industry consolidated, it has proved the reverse: returning pricing power turned a fixed-cost road into a free-cash-flow machine. The business quality is now high and still improving, with ARPU climbing, Africa profitable, debt falling and ROE around 20%. The single real debate is the price. At roughly 46 times earnings and 8 times book near all-time highs, the market has fully absorbed the good news, so from here your return leans on continued execution rather than any further re-rating. In plain terms, you are paying a full price for a quality that is no longer anybody's secret. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
+  "summary": "Bharti Airtel is the resolution of its own cautionary tale. For thirteen years it proved that a growing business is not the same as a rewarding stock. Since the industry consolidated, it has proved the reverse: returning pricing power turned a fixed-cost road into a free-cash-flow machine. The business quality is now high and still improving, with ARPU climbing, Africa profitable, debt falling and ROE around 20%. The single real debate is the price. At roughly 42 times earnings and 8 times book near all-time highs, the market has fully absorbed the good news, so from here your return leans on continued execution rather than any further re-rating. In plain terms, you are paying a full price for a quality that is no longer anybody's secret. Not a buy or sell call. Do your own work and consult a SEBI-registered adviser.",
   "engine": {
     "state": "earnings-engine",
-    "earnings": "The earnings engine is running hard, and it is cash-backed, which matters. ARPU is climbing, Africa now adds profit instead of losses, and free cash flow has swung to roughly ₹66,000 crore. The next push is concrete, not hoped-for: more tariff hikes across a disciplined three-player market fall almost straight to profit on a fixed-cost road, while 5G and home broadband add fresh revenue per customer. The one caveat sits underneath all of it. This pace assumes tariff discipline holds and Jio does not decide to start the price war over again.",
-    "multiple": "At about 46 times earnings and 8 times book, the multiple is full and sitting near all-time highs. Most of the re-rating from the crisis lows is already banked, so from here the multiple is far likelier to be a headwind than a tailwind. And a rich multiple on a business this capital-hungry means one thing: the market is extrapolating years of disciplined pricing into the future. That is an assumption, not a fact, and it is the assumption you are paying up for.",
+    "earnings": "The earnings engine is running hard, and it is cash-backed, which matters. ARPU is climbing, Africa now adds profit instead of losses, and free cash flow has swung to roughly ₹66,000 crore. The latest quarter kept it going, with shareholder profit up 31%, and it got there without an industry tariff hike. The next push is concrete, not hoped-for: more tariff hikes across a disciplined three-player market fall almost straight to profit on a fixed-cost road, while 5G and home broadband add fresh revenue per customer. The one caveat sits underneath all of it. This pace assumes tariff discipline holds and Jio does not decide to start the price war over again.",
+    "multiple": "At about 42 times earnings and 8.4 times book, the multiple is full. It has eased from about 46 in August, but not because the price fell. Trailing earnings per share rose from ₹43.81 to ₹50.98 while the price moved far less. Most of the re-rating from the crisis lows is already banked, so from here the multiple is far likelier to be a headwind than a tailwind. And a rich multiple on a business this capital-hungry means one thing: the market is extrapolating years of disciplined pricing into the future. That is an assumption, not a fact, and it is the assumption you are paying up for.",
     "verdict": "So here is my honest read. The earnings engine is doing real, cash-backed work. The multiple engine, though, has already fired, and it is stretched. That asymmetry is the whole point: if things go right you get a fairly muted reward, because the good news is already priced, and if Airtel stumbles even slightly a rich multiple can deflate fast. You are looking at a genuinely excellent business wearing a price that leaves little room for error. My one doubt is the one nobody can settle: whether tariff discipline lasts, because the entire premium rests on it, and Jio is the one player who could break it."
   },
   "simple": {
@@ -647,12 +670,12 @@
           {
             "kind": "bigNumber",
             "from": "₹104",
-            "to": "₹257",
+            "to": "₹271",
             "label": "Average amount one customer pays Airtel each month",
             "insight": "It sounds small. It is not, because of how many customers there are. Try the maths yourself.",
             "fromSub": "2016",
             "toSub": "2026",
-            "delta": "+147%"
+            "delta": "+161%"
           },
           {
             "kind": "reveal",
@@ -665,7 +688,7 @@
           {
             "kind": "prose",
             "text": [
-              "That average monthly bill has a name: [[ARPU|Average Revenue Per User, the average monthly bill across all customers.|About ₹257 today, more than double the price-war low of ₹104.]]. It is the number Airtel watches more closely than any other."
+              "That average monthly bill has a name: [[ARPU|Average Revenue Per User, the average monthly bill across all customers.|About ₹271 today, more than double the price-war low of ₹104.]]. It is the number Airtel watches more closely than any other."
             ]
           }
         ]
@@ -818,20 +841,20 @@
         "blocks": [
           {
             "kind": "bigStat",
-            "value": "46x",
-            "label": "You pay about ₹46 for every ₹1 of profit Airtel makes in a year.",
+            "value": "42x",
+            "label": "You pay about ₹42 for every ₹1 of profit Airtel makes in a year.",
             "tone": "bad"
           },
           {
             "kind": "analogy",
-            "lead": "So what does paying 46 times a year's profit actually feel like?",
-            "body": "A simple example: a shop earns ₹1 lakh a year, and someone offers to sell it to you for ₹46 lakh. As a rough mental model, that is 46 years of today's annual profit up front, before considering any future growth. You would only pay it if you were sure the profit would climb a lot from here.",
-            "term": "P/E = 46x"
+            "lead": "So what does paying 42 times a year's profit actually feel like?",
+            "body": "A simple example: a shop earns ₹1 lakh a year, and someone offers to sell it to you for ₹42 lakh. As a rough mental model, that is 42 years of today's annual profit up front, before considering any future growth. You would only pay it if you were sure the profit would climb a lot from here.",
+            "term": "P/E = 42x"
           },
           {
             "kind": "prose",
             "text": [
-              "That is exactly what a high [[P/E|Price to earnings: how many rupees you pay for each rupee of yearly profit.|At about 46, Airtel's P/E means the market has already priced in years of good news.]] tells you: the market has already paid up, in advance, for years of good news. Which leaves very little [[margin of safety|The cushion between the price you pay and the value you get, your room to be wrong.|At an all-time-high price, even a small stumble at Airtel could deflate the stock quickly.]]."
+              "That is exactly what a high [[P/E|Price to earnings: how many rupees you pay for each rupee of yearly profit.|At about 42, Airtel's P/E means the market has already priced in years of good news.]] tells you: the market has already paid up, in advance, for years of good news. Which leaves very little [[margin of safety|The cushion between the price you pay and the value you get, your room to be wrong.|At a price near its record high, even a small stumble at Airtel could deflate the stock quickly.]]."
             ]
           },
           {
@@ -958,7 +981,7 @@
               {
                 "term": "ARPU",
                 "def": "Average Revenue Per User, the average monthly bill per customer.",
-                "context": "₹257 today, up from ₹104 during the price war."
+                "context": "₹271 today, up from ₹104 during the price war."
               },
               {
                 "term": "Fixed costs",
@@ -983,12 +1006,12 @@
               {
                 "term": "P/E",
                 "def": "How many rupees you pay for each rupee of yearly profit.",
-                "context": "About 46 for Airtel."
+                "context": "About 42 for Airtel."
               },
               {
                 "term": "Margin of safety",
                 "def": "The room between the price you pay and the value you get.",
-                "context": "Thin at Airtel's all-time-high price."
+                "context": "Thin at Airtel's near-record price."
               }
             ]
           }
@@ -999,7 +1022,7 @@
   "lenses": [
     {
       "name": "Quiet math",
-      "reading": "The numbers are quietly, genuinely good: ARPU up, free cash flow up, debt down, ROE doubled. This is a business delivering, not just a ticker rising on a story. But the same quiet math cuts the other way here. The price has delivered even more than the business has, running ahead of the fundamentals rather than trailing them. When the stock has already paid you for improvement that is still arriving, the margin for error gets thin."
+      "reading": "The numbers are quietly, genuinely good: ARPU up, free cash flow up, debt down, ROE doubled. This is a business delivering, not just a ticker rising on a story. And the price is no longer sprinting ahead of it. Over five years the stock has compounded at 25% a year against profit at 22%, roughly in step, and for the last twelve months it has stood still while the business kept growing. The margin for error is still thin. It is just no longer getting thinner."
     },
     {
       "name": "The turn, remembered",

@@ -1,20 +1,43 @@
 {
   "ticker": "LUPIN",
   "company": "Lupin Ltd",
+  "latest": {
+    "period": "Q2 FY27 (Jul-Sep 2026)",
+    "published": "2026-11-04",
+    "headline": "Sales up 11%, profit down 22%, and the US exclusivity money has started to fade.",
+    "body": [
+      "Lupin reported its July-September quarter on 4 November 2026. Revenue rose 11% to ₹7,827 crore, but profit fell 22% to ₹1,155 crore. Against the June quarter both went backwards: revenue fell 5% and profit 18%.",
+      "Most of the damage came from one drug. US sales fell to $317 million from $366 million in the June quarter, a 13% drop, and management put it mainly on Tolvaptan: two more generic makers started selling it during the quarter. A year ago Lupin had that shelf nearly to itself. Now it shares it, and the price falls with every new seller. Mirabegron, the other big US earner, held roughly steady.",
+      "Where did the margin go? Not into the product. Gross margin, what Lupin keeps after paying for the medicine's ingredients, was 74.2%, a touch better than a year ago. The squeeze came below that. Staff costs rose 29% and manufacturing and other costs 23%, on a bigger sales force, more selling spend and licence fees owed under legal settlements. So the operating margin (profit before interest, tax and depreciation, leaving out currency gains and other income) fell to 25.1% from 31.3%.",
+      "Management kept its full-year margin guide of 24-25% and its US sales target of $1.1-1.2 billion, and said margins will likely moderate in the coming quarters. Notice what that means: this quarter's 25.1% is the top of the range, not the bottom. Watch the December quarter for whether new US launches start filling the Tolvaptan hole, or whether the margin keeps sliding."
+    ],
+    "figures": [
+      { "label": "Revenue", "value": "₹7,827 cr", "hint": "+11% YoY; -5% QoQ" },
+      { "label": "Net Profit", "value": "₹1,155 cr", "hint": "-22% YoY", "tone": "bad" },
+      { "label": "EBITDA Margin", "value": "25.1%", "hint": "vs 31.3% a year ago; FY27 guide 24-25%", "tone": "bad" },
+      { "label": "US Sales", "value": "$317 mn", "hint": "-13% QoQ, +1% YoY; Tolvaptan rivals", "tone": "bad" }
+    ],
+    "sources": [
+      { "label": "Kotak Neo, 4 Nov 2026", "url": "https://www.kotakneo.com/news/stocks/lupin-q2-fy27-results-net-profit-falls-22-percent-margin-contracts" },
+      { "label": "Q2 FY27 concall: US sales and Tolvaptan (Multibagg)", "url": "https://www.multibagg.ai/market-pulse/articles/lupin-us-launches-tolvaptan-competition-concall-cmw548o9j002j2wob54kdz0z1" },
+      { "label": "Q2 FY27 concall: margin guidance (Multibagg)", "url": "https://www.multibagg.ai/market-pulse/articles/lupin-fy27-margin-target-concall-cmw548stp002k2wob0rzzfx9z" },
+      { "label": "PTI via HDFC Sky", "url": "https://hdfcsky.com/news/lupin-q2-net-profit-falls-22-19-pc-to-rs-1155-3-crore" }
+    ]
+  },
   "sector": "Healthcare",
   "industry": "Pharmaceuticals",
   "dataVariant": "Consolidated",
-  "asOf": "2026-08-02",
-  "oneLiner": "Lupin went from losing money to a 29% margin in four years, a genuine turnaround. The catch: a good chunk of that margin is US exclusivity money, and exclusivities expire.",
+  "asOf": "2026-11-22",
+  "oneLiner": "Lupin went from losing money to a 29% margin in four years, a genuine turnaround. The catch is now arriving on schedule: a good chunk of that margin was US exclusivity money, and it has started to expire.",
   "verdict": {
     "rows": [
       { "label": "Business", "value": "Real turnaround", "tone": "good" },
       { "label": "Moat", "value": "Narrow", "tone": "warn" },
-      { "label": "Margin quality", "value": "Peak, exclusivity-fed", "tone": "warn" },
+      { "label": "Margin quality", "value": "Peak passed, stepping down", "tone": "warn" },
       { "label": "Balance sheet", "value": "Low debt", "tone": "good" },
-      { "label": "Valuation", "value": "~19x on peak margin", "tone": "warn" }
+      { "label": "Valuation", "value": "~17.5x, margin falling", "tone": "warn" }
     ],
-    "keyQuestion": "The turnaround is real. How much of the 29% margin is US exclusivity money that expires?"
+    "keyQuestion": "The turnaround is real and the exclusivity money is now fading. Where does the margin settle once it is gone?"
   },
   "facts": {
     "snapshot": "Lupin is an Indian pharmaceutical company. It makes generic and speciality medicines, earning most of its profit from harder-to-make drugs and early regulatory filings, and sells heavily into the United States and India.",
@@ -148,7 +171,7 @@
         "note": "R&D, filings and specialised manufacturing keep the engine alive."
       }
     ],
-    "whyNow": "The turnaround is no longer a story, it is in the numbers: high margins, real cash, a fixed US business. That is exactly why it is worth a look now, and also why the argument is live. Is this the new floor for earnings, or a peak propped up by exclusivity wins that will not repeat? Everything hangs on that one question.",
+    "whyNow": "The turnaround is in the numbers: high margins, real cash, a fixed US business. What changed in 2026 is that the exclusivity question started answering itself (see the note at the top). The stock sits about 21% below its 52-week high, and the multiple has slipped from about 19 to 17.5 times earnings. The market has stopped paying for the peak. It has not yet decided where the floor is.",
     "remember": "A real turnaround, with a catch worth memorising: some of this profit expires on a schedule, and it only deserves a permanent price once Lupin proves it can keep replacing it."
   },
   "ipoFlag": "Long-established Mumbai pharma house, listed for decades. No repackaging games.",
@@ -158,21 +181,21 @@
     "segments": [
       {
         "name": "US formulations",
-        "pct": 40,
-        "marginProfile": "High right now, boosted by exclusivities that fade"
+        "pct": 39,
+        "marginProfile": "High, but slipping as exclusivities fade"
       },
       {
         "name": "India branded",
-        "pct": 35,
+        "pct": 31,
         "marginProfile": "Steady, high-quality, sticky"
       },
       {
         "name": "EM / EU / API / other",
-        "pct": 25,
+        "pct": 30,
         "marginProfile": "Mixed, provides diversification"
       }
     ],
-    "revenuePerUnitTrend": "Rising for now, because the complex generics and first-to-file US launches carry premium prices while the window is open. But those windows close, so the trend you see flatters the level Lupin would earn without them. Read the direction, not the peak.",
+    "revenuePerUnitTrend": "It rose for three years, because the complex generics and first-to-file US launches carried premium prices while the window was open. Now the biggest window, Tolvaptan, is closing as rivals arrive, and the US price per pack is slipping with it. Read the direction, not the peak.",
     "industry": {
       "structure": "Fragmented globally. In US generics, whoever is cheapest wins, so it is close to commoditised except for complex products; in India, branded loyalty softens the competition.",
       "competitors": "Sun Pharma, Dr Reddy's, Cipla, Aurobindo, plus global generic majors in the US.",
@@ -188,30 +211,30 @@
   "valuation": [
     {
       "label": "Market Cap",
-      "value": "₹1,10,422 cr"
+      "value": "₹91,020 cr"
     },
     {
       "label": "52W High / Low",
-      "value": "₹2,530 / ₹1,837"
+      "value": "₹2,530 / ₹1,893"
     },
     {
       "label": "Stock P/E",
-      "value": "19.4",
-      "hint": "mcap / profit ≈ 20.6",
+      "value": "17.5",
+      "hint": "check: 1,990 / 113.88 = 17.5; screener shows 16.2",
       "tone": "neutral"
     },
     {
       "label": "P/B",
-      "value": "4.92",
+      "value": "3.78",
       "tone": "neutral"
     },
     {
       "label": "EPS (TTM)",
-      "value": "₹116.65"
+      "value": "₹113.88"
     },
     {
       "label": "Book Value",
-      "value": "₹491"
+      "value": "₹526"
     }
   ],
   "financials": [
@@ -264,18 +287,19 @@
     },
     {
       "label": "OPM",
-      "value": "~29%",
-      "hint": "peak, exclusivity-boosted",
+      "value": "~30%",
+      "hint": "TTM, near peak; Sep quarter 26%",
       "tone": "neutral"
     },
     {
       "label": "PAT Margin",
-      "value": "~19.2%",
+      "value": "~17%",
+      "hint": "TTM; FY26 was 19.2%",
       "tone": "good"
     },
     {
       "label": "P/B",
-      "value": "4.92",
+      "value": "3.78",
       "tone": "neutral"
     },
     {
@@ -325,36 +349,37 @@
     },
     {
       "label": "Stock CAGR 1Y",
-      "value": "29%",
-      "tone": "good"
+      "value": "-5%",
+      "hint": "about 21% below the 52-week high",
+      "tone": "bad"
     },
     {
       "label": "Stock CAGR 5Y",
-      "value": "16%",
+      "value": "17%",
       "tone": "neutral"
     }
   ],
-  "management": "Promoter-led by the Gupta family, who hold 46.85%, with Vinita and Nilesh Gupta running it. Credit where it is due. This is the team that actually turned the business around: fixed the broken US operation, pointed the pipeline at harder products, and rebuilt both the margin and the market's trust. They funded the push from the company's own cash instead of repeatedly asking shareholders for more, which is the disciplined way to do it. The test in front of them is the same one the whole thesis rests on. Can they replace the exclusivity money as it fades with durable earnings from complex drugs?",
+  "management": "Promoter-led by the Gupta family, who hold 46.84%, with Vinita and Nilesh Gupta running it. Credit where it is due. This is the team that actually turned the business around: fixed the broken US operation, pointed the pipeline at harder products, and rebuilt both the margin and the market's trust. They funded the push from the company's own cash instead of repeatedly asking shareholders for more, which is the disciplined way to do it. The test in front of them is the same one the whole thesis rests on. Can they replace the exclusivity money as it fades with durable earnings from complex drugs?",
   "holding": [
     {
       "label": "Promoter",
-      "pct": 46.85,
-      "qoqChange": 0
+      "pct": 46.84,
+      "qoqChange": -0.01
     },
     {
       "label": "DII",
-      "pct": 24.65,
-      "qoqChange": 0.6
+      "pct": 23.78,
+      "qoqChange": -0.87
     },
     {
       "label": "FII",
-      "pct": 22.42,
-      "qoqChange": -0.4
+      "pct": 23.28,
+      "qoqChange": 0.86
     },
     {
       "label": "Retail",
       "pct": 6.08,
-      "qoqChange": -0.1
+      "qoqChange": 0
     }
   ],
   "pledged": 0,
@@ -368,9 +393,9 @@
     ],
     "note": "The moat is narrow but real, and it lives in the products rivals struggle to copy: complex generics, inhalers and biosimilars, plus a sticky India brand book that keeps prescribing itself. It is not wide. The plain generics have no moat at all, and one bad factory inspection can hurt fast. Whether the moat holds comes down to a single race: can Lupin launch new hard drugs faster than its current winners fade? That is the whole job."
   },
-  "narrative": "Rewind to FY22 and Lupin was the problem child of big Indian pharma: a loss on the books, a broken US business, and a market that had stopped believing. What came next was a real turnaround. Management cleaned up the factories, pivoted toward complex generics, and caught a couple of big US breaks, the biggest being the first-to-file launch of generic Tolvaptan with six months where it was effectively the only seller. Margins climbed from barely positive to 29%, the loss turned into profit above ₹5,000cr, and the stock rerated with it, up 29% in the last year alone. The bull case is that the complex-generics and respiratory pipeline keeps this going. The bear case is simpler: a slice of today's profit is rain that stops. When those exclusivity windows shut, does anything refill them?",
+  "narrative": "Rewind to FY22 and Lupin was the problem child of big Indian pharma: a loss on the books, a broken US business, and a market that had stopped believing. What came next was a real turnaround. Management cleaned up the factories, pivoted toward complex generics, and caught a couple of big US breaks, the biggest being the first-to-file launch of generic Tolvaptan with six months where it was effectively the only seller. Margins climbed from barely positive to 29%, the loss turned into profit above ₹5,000cr, and the stock rerated with it, compounding about 17% a year over five years. Then, in 2026, the first big window began to close as rival Tolvaptan makers arrived, and the stock gave back ground. The bull case is that the complex-generics and respiratory pipeline keeps this going. The bear case is simpler: a slice of today's profit is rain that stops. When those exclusivity windows shut, does anything refill them?",
   "risks": [
-    "Exclusivity roll-off. A meaningful slice of the current margin comes from time-limited first-to-file products like Tolvaptan. As those windows close, profit can step down even if the business is fine. Medium-High.",
+    "Exclusivity roll-off. A meaningful slice of the current margin comes from time-limited first-to-file products like Tolvaptan. As those windows close, profit can step down even if the business is fine. This is no longer hypothetical: more Tolvaptan rivals arrived in the September quarter. Medium-High.",
     "US price erosion. The plain-generics part of the US book keeps eroding, so Lupin must keep launching complex products just to hold ground. Medium.",
     "Factory risk. Like any Indian pharma, a bad USFDA inspection at a key plant could freeze a chunk of the US pipeline overnight. Medium.",
     "Peak-margin extrapolation. If the market treats 29% margins as the new normal, disappointment is easy to trigger. Medium.",
@@ -390,7 +415,7 @@
     {
       "label": "Peak-margin risk",
       "status": "warn",
-      "note": "29% margin flattered by exclusivities"
+      "note": "Quarterly EBITDA margin down to 25.1% from 31.3%"
     },
     {
       "label": "Promoter pledging",
@@ -405,7 +430,7 @@
     {
       "label": "Stretched multiple",
       "status": "pass",
-      "note": "~20x is fair, not demanding"
+      "note": "~17.5x, though on earnings near a peak"
     }
   ],
   "sectorChecklist": [
@@ -430,12 +455,12 @@
       "note": "Margin boosted by fading first-to-file wins"
     }
   ],
-  "summary": "Pull it together. Lupin is a real turnaround, run well, and the strategy of chasing harder complex generics on top of a steady India franchise is exactly right for an Indian pharma company. Two things keep it from being a clean story. The headline 29% margin is a peak, puffed up by US exclusivity wins that pay once and expire, so the earnings power you can actually rely on is lower than the trailing figures suggest. And at roughly 20 times earnings, the price already knows most of the good news. The honest way to hold this in your head is to judge it on its durable, lower margin and let the exclusivities be a bonus, not the base. Do that, and the next few quarters teach you rather than shock you.",
+  "summary": "Pull it together. Lupin is a real turnaround, run well, and the strategy of chasing harder complex generics on top of a steady India franchise is exactly right for an Indian pharma company. Two things keep it from being a clean story. The headline 29% margin is a peak, puffed up by US exclusivity wins that pay once and expire, so the earnings power you can actually rely on is lower than the trailing figures suggest. And at about 17.5 times earnings, the price already knows most of the good news, and has started marking down the bad. The honest way to hold this in your head is to judge it on its durable, lower margin and let the exclusivities be a bonus, not the base. Do that, and the next few quarters teach you rather than shock you.",
   "engine": {
     "state": "multiple-drift",
-    "earnings": "The earnings engine has been extraordinary, and you have to separate why. Part is genuine: complex generics, a repaired US business, a steady India base. Part is the exclusivity windfalls that expire. Strip out the windfalls and the durable growth is real but ordinary, probably mid-teens. The recent explosive pace is not something you can pencil in again. The forward catalysts are concrete but lumpy, arriving whenever a new complex, respiratory or biosimilar product actually launches, not on a neat schedule.",
-    "multiple": "At around 20 times earnings, the multiple is fair, not stretched. It already climbed as the turnaround proved itself, so the easy re-rating is behind you. The trap here is quiet. If earnings are near a peak, then even an unchanged multiple on a profit that steps down leaves the stock going nowhere. The price does not have to fall for you to make nothing.",
-    "verdict": "So here is my honest read. The earnings engine is strong, but part of it is borrowed from exclusivities, and the multiple has already done its re-rating. Put those together and almost everything rides on one thing: can Lupin keep replacing the fading windfalls with durable profit from hard-to-make drugs? I think the management has earned enough trust to give them the benefit of the doubt on execution. What I cannot tell you is the timing, whether the next batch of complex launches lands before the current exclusivities roll off or after. That gap, if it opens, is where a good business has a dull year. Judge this one on the lower, durable margin, not the flattering peak, and you will not be surprised."
+    "earnings": "The earnings engine has been extraordinary, and you have to separate why. Part is genuine: complex generics, a repaired US business, a steady India base. Part is the exclusivity windfalls that expire. Strip out the windfalls and the durable growth is real but ordinary, probably mid-teens. The September quarter showed the windfall part shrinking (see the note at the top). The explosive pace of the last three years is not something you can pencil in again. The forward catalysts are concrete but lumpy, arriving whenever a new complex, respiratory or biosimilar product actually launches, not on a neat schedule.",
+    "multiple": "At about 17.5 times trailing earnings, the multiple is fair, not stretched. It climbed as the turnaround proved itself, and it has now started to come back down as the exclusivity money fades. The trap here is quiet. If earnings are near a peak, then even an unchanged multiple on a profit that steps down leaves the stock going nowhere. The price does not have to fall for you to make nothing.",
+    "verdict": "So here is my honest read. The earnings engine is strong, but part of it is borrowed from exclusivities, and the multiple has already done its re-rating. Put those together and almost everything rides on one thing: can Lupin keep replacing the fading windfalls with durable profit from hard-to-make drugs? I think the management has earned enough trust to give them the benefit of the doubt on execution. The roll-off has already started. What I cannot tell you is whether the next batch of complex launches lands in time to fill the hole. That gap, if it stays open, is where a good business has a dull year. Judge this one on the lower, durable margin, not the flattering peak, and you will not be surprised."
   },
   "lenses": [
     {
@@ -447,8 +472,8 @@
       "reading": "Plenty of pharma bosses can describe a brilliant pipeline. This management actually repaired the US business and the margins first, then talked about it. That is the difference between evidence and a slideshow, and it is why their pipeline promises are worth more than most."
     },
     {
-      "name": "Foreshock",
-      "reading": "There is no slowdown to point at yet, quite the opposite. That is what makes the risk here sneaky. It is not a loud crack in the results. It is a quiet step-down in the margin the quarter an exclusivity expires and nothing new has replaced it. Watch the segment margin over the next few quarters, not the headline."
+      "name": "The step-down, on schedule",
+      "reading": "The risk here was always going to be quiet, and it was. Sales still grew in the September quarter. What slipped was the margin, the same quarter more Tolvaptan rivals arrived, while gross margin held at 74%. That pattern is worth reading carefully. Prices fell on one drug; the rest of the machine did not break. The next test is whether the margin settles inside management's 24-25% range or keeps sliding below it."
     },
     {
       "name": "Convergence pair",
@@ -456,48 +481,48 @@
     }
   ],
   "outlook": {
-    "intro": "The turnaround itself is settled. Lupin went from a FY22 loss to running a roughly 30% margin. What is not settled is what that margin really is: a durable base, or a peak inflated by US exclusivities that fade. This section does not try to guess the answer. It walks through what has actually happened in each part of the business, and then hands you the one question to watch in each. All the figures below are from the Q1 FY27 results, the quarter ended June 2026.",
+    "intro": "The turnaround itself is settled. Lupin went from a FY22 loss to a margin that touched 33% in some quarters. What is not settled is what that margin really is: a durable base, or a peak inflated by US exclusivities that fade. This section does not try to guess the answer. It walks through what has actually happened in each part of the business, and then hands you the one question to watch in each. All the figures below are from the Q2 FY27 results, the quarter ended September 2026.",
     "areas": [
       {
         "title": "The core margin",
         "facts": [
-          "The EBITDA margin was about 30% in Q1 FY27, up from 26.6% a year ago, and gross margin rose to 74.6% from 71.3%.",
-          "EBITDA grew roughly 50% on revenue that grew 32%, so the operating leverage is real, not just a flattering mix.",
-          "But net profit margin slipped to 17.2% from 19.8%, and PAT grew only 16% against that 50% at the EBITDA line. The gap opens up below EBITDA (tax, depreciation and a tough year-ago base), not in the operating business itself."
+          "The EBITDA margin (excluding currency gains and other income) fell to 25.1% in Q2 FY27 from 31.3% a year ago. Gross margin held at 74.2%, against 73.3% a year ago and 74.6% in the June quarter.",
+          "The squeeze sits in costs: staff costs up 29%, manufacturing and other costs up 23%, and R&D at ₹618 cr, 7.9% of sales. Management expects R&D near 8% of sales for the year.",
+          "Management kept its FY27 EBITDA margin guide at 24-25% and said margins are likely to moderate in coming quarters."
         ],
-        "watch": "Is the ~30% EBITDA margin the durable base, or a peak that fades as US exclusivities roll off? Watch the segment margin, not the record headline revenue."
+        "watch": "Does the margin settle inside the 24-25% guide, or keep sliding below it as more Tolvaptan rivals arrive?"
       },
       {
         "title": "The US exclusivity engine",
         "facts": [
-          "US sales were $366 million, up 30% year on year but actually down 1% on the previous quarter, from $371 million.",
-          "Management was blunt about why: the base kept growing, but more competition and the loss of exclusivity on some products ate the gain. Mirabegron, for instance, is seeing a mid-single-digit price decline as rivals pile in.",
-          "The US is 42% of global sales. Lupin sells 149 generic products there, added 6 ANDA approvals and launched 3 in the quarter, and is sitting on 50 first-to-file positions, 21 of them exclusive."
+          "US sales were $317 million, up just 1% year on year and down 13% from $366 million in the June quarter.",
+          "Management put the fall mainly on Tolvaptan, where two more generic makers entered during the quarter. Mirabegron held roughly steady. The FY27 US sales target of $1.1-1.2 billion stays in place.",
+          "The US is 39% of global sales. Lupin won 4 ANDA approvals and one 505(b)(2) approval (a modified version of an existing drug) in the quarter, launched Sugammadex injection, and plans more than 60 US launches over three years."
         ],
         "watch": "Do new complex launches replace the fading exclusivity profits fast enough to keep the US book growing, rather than just holding it flat?"
       },
       {
         "title": "The India and rest-of-world base",
         "facts": [
-          "India formulations grew 14% year on year to Rs 2,380 cr, with anti-diabetes up 31.8%, well ahead of the overall market.",
-          "The geographies outside the US and India are the fastest growing of all right now: EMEA up 37%, emerging markets up 52%, LATAM up 71%.",
-          "India is 29% of sales, and it is the steady kind: branded, repeat prescriptions that do not lurch around with US exclusivity windows."
+          "India sales grew 14.7% year on year to ₹2,384 cr. Chronic medicines, about two-thirds of the India book, grew 19.5%, and diabetes grew more than 25% for a third straight quarter.",
+          "Other developed markets, mainly Europe, grew about 46% to ₹1,182 cr. Emerging markets slipped about 4% on weaker Brazil sales.",
+          "India is 31% of sales, and it is the steady kind: branded, repeat prescriptions that do not lurch around with US exclusivity windows."
         ],
         "watch": "Does this steadier base grow fast enough to cushion the lumpy US exclusivity cycle when a big window closes?"
       },
       {
         "title": "The factory question",
         "facts": [
-          "Lupin's Pithampur Unit II carries a USFDA OAI (Official Action Indicated) tag, with the fixes in progress.",
-          "The rest of the machine kept clearing regulators: a Ranibizumab biosimilar approval and 6 ANDA approvals landed this quarter.",
-          "And it could take a knock: net cash of about Rs 2,831 cr means net debt is actually negative."
+          "Lupin's Pithampur Unit II still carries a USFDA OAI (Official Action Indicated) tag. Lupin says it has sent its response and the fixes are in progress.",
+          "The other inspected sites came through cleaner: Ankleshwar and Somerset were rated VAI (Voluntary Action Indicated), the milder grade where the company fixes issues on its own.",
+          "And it could take a knock: borrowings fell to ₹6,180 cr in September from ₹6,616 cr in March, small against ₹24,050 cr of shareholder equity."
         ],
         "watch": "Does the Pithampur OAI get cleared, or escalate to a warning letter that freezes part of the US pipeline? In pharma this is the fastest way a good quarter turns bad."
       },
       {
         "title": "The valuation question",
         "facts": [
-          "The stock trades around 20x earnings, after the turnaround already did its re-rating.",
+          "The stock trades at about 17.5x trailing earnings, after the turnaround already did its re-rating and part of it has started to unwind.",
           "Those earnings are near a peak partly built on exclusivities, so even a fair multiple on a profit that normalises can leave the stock drifting sideways.",
           "Next to Sun Pharma and Dr Reddy's, Lupin looks cheaper on trailing earnings, but partly because the market suspects those earnings are near a top."
         ],
@@ -526,7 +551,7 @@
       {
         "name": "GLP-1 opportunity",
         "whatItIs": "The weight-loss and diabetes drugs everyone is chasing, which Lupin plans to go after both in-house and through licensing.",
-        "notYetInPnL": "The earliest-stage of the four. Lupin has stated the intent, but there is no product and no revenue yet.",
+        "notYetInPnL": "In India it already sells a semaglutide injection, one of the drivers of diabetes sales growing more than 25%. In the big regulated markets there is no product and no revenue yet.",
         "whenItLands": "Beyond FY28"
       }
     ],

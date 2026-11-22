@@ -1,31 +1,54 @@
 {
   "ticker": "CDSL",
   "company": "Central Depository Services (India) Ltd",
+  "latest": {
+    "period": "Q2 FY27 (Jul-Sep 2026)",
+    "published": "2026-10-31",
+    "headline": "Profit up 24% because the IPO lane filled up again, and one busy IPO quarter is not yet a trend.",
+    "body": [
+      "CDSL reported its July-September quarter on 31 October 2026. Revenue from operations rose 24% to ₹394 crore and profit rose 24% to ₹173 crore. Against the April-June quarter, profit jumped 47%.",
+      "Look at where the money came from. Fees from IPOs and corporate actions, the lane that only fills when companies are listing, brought in ₹102 crore. A year ago it was ₹62 crore, and the quarter before just ₹27 crore. India had a record stretch of IPO fundraising in these three months. Transaction charges, the per-trade toll, grew a calmer 15% to ₹68 crore, and the yearly issuer charges grew 12% to ₹129 crore. (Those three lines are CDSL's standalone figures.)",
+      "The operating margin, what CDSL keeps from each rupee of fees before depreciation and tax, rose to 58% from 55% a year ago. That is operating leverage working the right way: fees jumped while costs rose about 16%. Technology spending is still climbing fast, up nearly 39% from a year ago, and management has not said it will slow.",
+      "The account lane kept filling too: CDSL added 7.5 million accounts and ended September with 193 million. Management gives no guidance. Watch whether IPO fees hold up in the October-December quarter, because a ₹75 crore jump in one quarter can reverse just as fast. Also keep an eye on CVL, the KYC data arm: its prices were cut from April 2026 and its profit fell 12% in the first half."
+    ],
+    "figures": [
+      { "label": "Revenue", "value": "₹394 cr", "hint": "+24% YoY; +35% QoQ" },
+      { "label": "Net Profit", "value": "₹173 cr", "hint": "+24% YoY; no one-offs flagged", "tone": "good" },
+      { "label": "Operating Margin", "value": "58%", "hint": "vs 55% a year ago", "tone": "good" },
+      { "label": "IPO and corporate-action fees", "value": "₹102 cr", "hint": "vs ₹62 cr a year ago (standalone)", "tone": "neutral" }
+    ],
+    "sources": [
+      { "label": "CDSL investor presentation, Q2 FY27 (NSE filing)", "url": "https://nsearchives.nseindia.com/corporate/CDSL_31102026155542_CDSL_InvestorPresentation_Signed.pdf" },
+      { "label": "Angel One, 2 Nov 2026", "url": "https://www.angelone.in/news/stocks/cdsl-share-price-surges-after-q2-fy27-earnings-results-net-profit-show-24-growth" },
+      { "label": "Multibagg: revenue lines from the Q2 FY27 presentation", "url": "https://www.multibagg.ai/market-pulse/articles/cdsl-q2-profit-ipo-fees-ppt-cmw02acg400a02vpetj5oiv46" },
+      { "label": "Multibagg: account base reaches 19.34 crore", "url": "https://www.multibagg.ai/market-pulse/articles/cdsl-accounts-base-q2fy27-ppt-cmw02cge900a12vpeilx7o05f" }
+    ]
+  },
   "sector": "Financials",
   "industry": "Market Infrastructure",
   "dataVariant": "Consolidated",
-  "asOf": "2026-08-16",
-  "oneLiner": "CDSL is a toll booth on India's stock market, a regulated duopoly earning 40% on capital as demat accounts pile up. But two of its three toll lanes only fill when trading and IPOs are busy, so profit fell 13.5% in a quiet FY26, and you still pay 61 times earnings.",
+  "asOf": "2026-11-22",
+  "oneLiner": "CDSL is a toll booth on India's stock market, a regulated duopoly with demat accounts piling up. But two of its three toll lanes only fill when trading and IPOs are busy, so profit swings with the market, and you pay 59 times earnings for it.",
   "verdict": {
     "rows": [
       { "label": "Business", "value": "Regulated duopoly", "tone": "good" },
       { "label": "Moat", "value": "Wide", "tone": "good" },
-      { "label": "Earnings", "value": "Market-linked, fell 13.5%", "tone": "warn" },
+      { "label": "Earnings", "value": "Market-linked, recovering", "tone": "warn" },
       { "label": "Balance sheet", "value": "Debt-free", "tone": "good" },
-      { "label": "Valuation", "value": "61x earnings", "tone": "bad" }
+      { "label": "Valuation", "value": "59x earnings", "tone": "bad" }
     ],
-    "keyQuestion": "A toll booth, but two of its three lanes need busy markets. Is 61 times earnings priced for a quiet year or a boom?"
+    "keyQuestion": "A toll booth, but two of its three lanes need busy markets. Is 59 times earnings priced for a normal year or a boom?"
   },
   "facts": {
     "snapshot": "CDSL is one of India's two share depositories. It keeps the electronic master record of who owns which shares, sitting behind the demat account that every stock investor uses.",
     "founded": "1999",
     "hq": "Mumbai"
   },
-  "overview": "CDSL runs one half of the plumbing that makes owning shares in India possible. When you buy a stock, it does not arrive as a paper certificate. It sits in an electronic account called a demat account, and CDSL keeps the master record of who owns what. Only two firms do this in the country, CDSL and NSDL, so almost every share a retail investor holds is tracked by one of them. Think of CDSL as a toll booth on the road every share must travel. It charges tiny amounts: a small yearly fee from each listed company, a few rupees on every trade, a cut of every IPO and corporate action. Any one toll is trivial. Spread across 188 million accounts, they add up to a business earning about 40% on capital with almost no debt. The catch is in the lanes. Some tolls come in every year no matter what. Others only collect when India is actually trading and floating IPOs. In a quiet year, as FY26 showed, the booth still registers more cars but takes fewer tolls.",
+  "overview": "CDSL runs one half of the plumbing that makes owning shares in India possible. When you buy a stock, it does not arrive as a paper certificate. It sits in an electronic account called a demat account, and CDSL keeps the master record of who owns what. Only two firms do this in the country, CDSL and NSDL, so almost every share a retail investor holds is tracked by one of them. Think of CDSL as a toll booth on the road every share must travel. It charges tiny amounts: a small yearly fee from each listed company, a few rupees on every trade, a cut of every IPO and corporate action. Any one toll is trivial. Spread across 193 million accounts, they add up to a business earning about 32% on its capital (over 40% in the boom years) with almost no debt. The catch is in the lanes. Some tolls come in every year no matter what. Others only collect when India is actually trading and floating IPOs. In a quiet year, as FY26 showed, the booth still registers more cars but takes fewer tolls.",
   "editorial": {
     "realBusiness": "CDSL is not one toll booth but three lanes: one that collects every year (accounts), and two that only fill when the market is busy (trading and IPOs).",
     "whyExists": "India's stock market needs one trusted place to record who owns each share. Without it, every trade and every holding would need a paper certificate changing hands, which is how the market used to jam. CDSL earns its place because it solved that, and because it is one of only two firms allowed to do it, behind a regulatory wall that is very hard to climb.",
-    "whyNotAlreadyWon": "Because the price of each toll is not CDSL's to set. SEBI fixes the transaction and issuer charges, limits any single owner to a 15% stake (so BSE has influence but not control), and licenses a second depository, NSDL, to keep CDSL honest. So growth cannot come from charging more. It has to come from more accounts, more trades, more IPOs, and the operating leverage on a mostly fixed cost base. That is how a business with a frozen price list still grew sales 29% a year over five years. Price is fixed from above; the only way up is volume.",
+    "whyNotAlreadyWon": "Because the price of each toll is not CDSL's to set. SEBI fixes the transaction and issuer charges, limits any single owner to a 15% stake (so BSE has influence but not control), and licenses a second depository, NSDL, to keep CDSL honest. So growth cannot come from charging more. It has to come from more accounts, more trades, more IPOs, and the operating leverage on a mostly fixed cost base. That is how a business with a frozen price list still grew sales 27% a year over five years. Price is fixed from above; the only way up is volume.",
     "mentalModels": [
       {
         "model": "Three Revenue Engines",
@@ -40,7 +63,7 @@
       {
         "model": "Installed Base Advantage",
         "strength": 4,
-        "why": "188 million accounts and the discount brokers that feed them (Zerodha, Groww, Upstox) route new accounts to CDSL by default. This is inertia and integration, not a classic network effect: an extra account does not make the depository more useful to other account holders, it just deepens the incumbent's grip."
+        "why": "193 million accounts and the discount brokers that feed them (Zerodha, Groww, Upstox) route new accounts to CDSL by default. This is inertia and integration, not a classic network effect: an extra account does not make the depository more useful to other account holders, it just deepens the incumbent's grip."
       },
       {
         "model": "Regulated Duopoly",
@@ -61,7 +84,7 @@
     "economicEngine": [
       {
         "label": "Demat Accounts",
-        "value": "188 million open accounts, growing 14-15% per year",
+        "value": "193 million open accounts, up about 17% in a year",
         "note": "More accounts means more annual issuer charges. CDSL earns money from every account, every year, just for existing."
       },
       {
@@ -81,19 +104,19 @@
       },
       {
         "label": "Returns",
-        "value": "40% ROCE, 31% ROE",
-        "note": "Exceptional. But FY26 profit fell even as accounts rose, which means the ROE ceiling is being tested."
+        "value": "32% ROCE, 24.5% ROE (FY26)",
+        "note": "Still high, but down from 42% ROCE in FY25. FY26 profit fell while the equity base kept growing."
       }
     ],
     "strategicPosition": [
       {
         "label": "NSDL",
-        "description": "Larger by assets under custody (₹520 lakh cr vs CDSL ₹77 lakh cr), skews institutional, 48 million accounts.",
+        "description": "Far larger by assets under custody, skews institutional, about 20% of all accounts.",
         "tone": "strong"
       },
       {
         "label": "CDSL",
-        "description": "Smaller but dominant in retail (79.5% of all accounts), all the discount-broker flows, growing fastest.",
+        "description": "Smaller by custody (₹89 lakh cr in September 2026) but dominant in retail (about 80% of all accounts), all the discount-broker flows, growing fastest.",
         "tone": "focus"
       },
       {
@@ -113,7 +136,7 @@
       "IPO volumes are also cyclical. When the primary market is quiet, this fee line dries up. It is 11.4% of revenue.",
       "SEBI can lower the regulated fee if it chooses, though it has not. That regulatory risk exists.",
       "NSDL is growing in retail and could steal share if it becomes the preferred broker connection. Currently, NSDL is slower to onboard new accounts.",
-      "A market crash or recession would slow demat account growth from the current 14-15% annual pace."
+      "A market crash or recession would slow demat account growth from the current pace of about 17% a year."
     ],
     "marketBets": [
       "Retail equity participation in India keeps growing, bringing more demat accounts.",
@@ -149,7 +172,7 @@
         "note": "No factories, no inventory, no real estate. Server infrastructure and regulatory staff are the cost base."
       }
     ],
-    "whyNow": "FY26 was a lean year for trading and IPOs, which is why earnings fell even as accounts kept climbing. The stock dropped 14% over the year as the market took in the cyclical miss. At 61 times earnings, the price assumes the trading cycle turns back up soon. If it does, the multiple will look fine in hindsight. If the recovery drags, there is nothing underneath to cushion the fall.",
+    "whyNow": "FY26 was a lean year for trading and IPOs, which is why earnings fell even as accounts kept climbing. The stock is still about 10% lower than a year ago. Then the September quarter brought the IPO lane back to life, and earnings over the last twelve months are now above FY26. So the multiple has eased to 59 times without the price falling further: earnings caught up a little. The price still assumes this recovery keeps going. If it does, 59x will look fine in hindsight. If the IPO rush fades and trading stays flat, there is nothing underneath to cushion the fall.",
     "remember": "The regulator caps the toll, not the traffic, and the traffic runs in cycles."
   },
   "ipoFlag": "Not an IPO. A legacy depository, regulated by SEBI, part of the BSE Ltd group (BSE owns 15%, the cap SEBI allows any single entity to hold).",
@@ -185,25 +208,26 @@
     ],
     "revenuePerUnitTrend": "Capped. Per-account charges are SEBI-set and flat. Per-transaction charges are SEBI-set too. CDSL cannot lift either. Its only levers are to add more accounts (the structural tailwind), hope trading volume recovers (the cyclical wish), and win more IPOs and corporate actions (largely outside its control).",
     "industry": {
-      "structure": "Duopoly. CDSL (188 million accounts, 79.5% market share by count) and NSDL (48 million accounts, 20.5% by count, but far larger by assets under custody, because NSDL skews institutional). Only two depositories exist, behind a very high regulatory and operational barrier to a third, so the two share the market without a price war.",
+      "structure": "Duopoly. CDSL (193 million accounts, about 80% market share by count) and NSDL (about 20% by count, but far larger by assets under custody, because NSDL skews institutional). Only two depositories exist, behind a very high regulatory and operational barrier to a third, so the two share the market without a price war.",
       "competitors": "Only NSDL. CDSL leads in retail, NSDL skews institutional. No direct price competition because fees are set by regulator.",
       "pricingPower": "Zero. SEBI sets transaction charges and issuer charges. CDSL can only earn more by growing volume, not by raising price.",
       "demandDriver": "Demat account penetration, trading volumes, IPO calendar. All have structural tailwinds (retail participation in stocks) but cyclical swings (trading sentiment, IPO pipeline).",
       "driverType": "Structural (account growth) plus cyclical (trading and IPO volumes).",
       "tam": "India's equity market capitalization is ₹300+ lakh cr. Demat penetration is still low versus developed markets. Account growth will accelerate as mobile investing grows. The TAM is vast and expanding.",
-      "penetration": "188 million accounts against India's adult population of 900+ million. Demat penetration is still single-digit by head count. The runway is enormous, measured in multiples, not percentages.",
+      "penetration": "193 million accounts against India's adult population of 900+ million. Demat penetration is still single-digit by head count. The runway is enormous, measured in multiples, not percentages.",
       "valueChainPosition": "Critical infrastructure. Every equity transaction and holding flows through a depository. CDSL captures the toll, not the margin, making it a low-risk, fixed-fee business model."
     },
-    "qualityVerdict": "Put the good and the hard part side by side. CDSL earns 40% on capital, carries almost no debt, and sits in a duopoly that keeps competition down to a single rival. The moat is regulation and integration, not clever product. The honest caveat is the cyclicality: two of its revenue lines, trading and IPOs, can swing profit 15-20% in a year even while the account base grows on schedule. So you are paying a premium for a business that cannot smooth its own earnings. The account engine is steady; the other two lanes are not, and there is no dial CDSL can turn to make them behave."
+    "qualityVerdict": "Put the good and the hard part side by side. CDSL earned 32% on capital in FY26, a down year (over 40% in the boom years), carries almost no debt, and sits in a duopoly that keeps competition down to a single rival. The moat is regulation and integration, not clever product. The honest caveat is the cyclicality: two of its revenue lines, trading and IPOs, can swing profit 15-20% in a year even while the account base grows on schedule. So you are paying a premium for a business that cannot smooth its own earnings. The account engine is steady; the other two lanes are not, and there is no dial CDSL can turn to make them behave."
   },
   "valuation": [
     {
       "label": "Price",
-      "value": "₹1,344"
+      "value": "₹1,423",
+      "hint": "as of 18 Nov 2026"
     },
     {
       "label": "Market Cap",
-      "value": "₹28,098 cr"
+      "value": "₹29,739 cr"
     },
     {
       "label": "52W High / Low",
@@ -211,26 +235,29 @@
     },
     {
       "label": "Stock P/E",
-      "value": "61.0",
-      "hint": "28,098 cr mcap / 455 cr profit",
+      "value": "58.9",
+      "hint": "check: ₹1,423 / ₹24.16 EPS = 58.9",
       "tone": "bad"
     },
     {
       "label": "P/B",
-      "value": "17.6",
+      "value": "15.0",
+      "hint": "check: ₹1,423 / ₹94.9 book = 15.0",
       "tone": "bad"
     },
     {
       "label": "EPS (TTM)",
-      "value": "₹21.82"
+      "value": "₹24.16",
+      "hint": "₹504 cr profit, last four quarters"
     },
     {
       "label": "Book Value per Share",
-      "value": "₹76.5"
+      "value": "₹94.9",
+      "hint": "Sep 2026"
     },
     {
       "label": "Dividend Yield",
-      "value": "0.95%"
+      "value": "0.88%"
     }
   ],
   "financials": [
@@ -273,25 +300,26 @@
   "ratios": [
     {
       "label": "ROE",
-      "value": "31.3%",
-      "hint": "3Y avg 33.8%, 5Y avg 33%",
+      "value": "24.5%",
+      "hint": "FY26; 3Y avg 29%, 5Y avg 29%",
       "tone": "good"
     },
     {
       "label": "ROCE",
-      "value": "40.4%",
+      "value": "32.0%",
+      "hint": "FY26; 42% in FY25",
       "tone": "good"
     },
     {
       "label": "P/E",
-      "value": "61.0",
-      "hint": "implies 1.6% earnings yield",
+      "value": "58.9",
+      "hint": "implies 1.7% earnings yield",
       "tone": "bad"
     },
     {
       "label": "P/B",
-      "value": "17.6",
-      "hint": "implied ROE to justify: 45%+",
+      "value": "15.0",
+      "hint": "₹15 paid for each ₹1 of book",
       "tone": "bad"
     },
     {
@@ -302,7 +330,7 @@
     },
     {
       "label": "Dividend Payout",
-      "value": "57%",
+      "value": "58%",
       "hint": "₹12.75 per share FY26",
       "tone": "good"
     }
@@ -310,40 +338,41 @@
   "cashFlow": [
     {
       "year": "FY24",
-      "ocf": 386
+      "ocf": 386,
+      "fcf": 313
     },
     {
       "year": "FY25",
       "ocf": 543,
-      "fcf": 431
+      "fcf": 388
     },
     {
       "year": "FY26",
       "ocf": 467,
-      "fcf": 340
+      "fcf": 346
     }
   ],
-  "cashFlowNote": "Separate the two cash numbers. FY26 operating cash flow was ₹467 crore, about 103% of the ₹455 crore net profit, because depreciation on old capex is a non-cash charge and working-capital swings are small. After spending on systems and infrastructure, free cash flow was ₹340 crore, about 75% of profit. So the business turns roughly all of its profit into operating cash and keeps about three-quarters of it after reinvesting. That reinvestment feeds the rising account and transaction volumes; it is a deliberate build, not a leak.",
+  "cashFlowNote": "Separate the two cash numbers. FY26 operating cash flow was ₹467 crore, about 103% of the ₹455 crore net profit, because depreciation on old capex is a non-cash charge and working-capital swings are small. After spending on systems and infrastructure, free cash flow was ₹346 crore, about 76% of profit. So the business turns roughly all of its profit into operating cash and keeps about three-quarters of it after reinvesting. That reinvestment feeds the rising account and transaction volumes; it is a deliberate build, not a leak.",
   "growth": [
     {
       "label": "Sales CAGR 5Y",
-      "value": "29%",
+      "value": "27%",
       "tone": "good"
     },
     {
       "label": "Sales CAGR 3Y",
-      "value": "21%",
+      "value": "27%",
       "tone": "good"
     },
     {
-      "label": "Sales 1Y",
-      "value": "+5.8%",
-      "hint": "vs +37.8% in FY25",
-      "tone": "bad"
+      "label": "Sales TTM",
+      "value": "+16%",
+      "hint": "₹1,254 cr; FY26 was +5.8%",
+      "tone": "good"
     },
     {
       "label": "Profit CAGR 5Y",
-      "value": "24%",
+      "value": "18%",
       "tone": "good"
     },
     {
@@ -352,19 +381,19 @@
       "tone": "good"
     },
     {
-      "label": "Profit 1Y",
-      "value": "-13.5%",
-      "hint": "₹526 cr to ₹455 cr",
-      "tone": "bad"
+      "label": "Profit TTM",
+      "value": "+7%",
+      "hint": "₹504 cr; FY26 was -13.5%",
+      "tone": "neutral"
     },
     {
       "label": "Stock CAGR 1Y",
-      "value": "-14%",
+      "value": "-10%",
       "tone": "bad"
     },
     {
       "label": "Stock CAGR 5Y",
-      "value": "+17%",
+      "value": "+14%",
       "tone": "neutral"
     }
   ],
@@ -377,18 +406,18 @@
     },
     {
       "label": "DII",
-      "pct": 15.19,
-      "qoqChange": 0
+      "pct": 17.77,
+      "qoqChange": 2.58
     },
     {
       "label": "FII",
-      "pct": 8.24,
-      "qoqChange": 0
+      "pct": 8.66,
+      "qoqChange": 0.42
     },
     {
       "label": "Retail",
-      "pct": 61.57,
-      "qoqChange": 0
+      "pct": 58.56,
+      "qoqChange": -3.01
     }
   ],
   "pledged": 0,
@@ -397,19 +426,19 @@
     "sources": [
       "Regulated duopoly: only two depositories exist, behind very high regulatory barriers to a third.",
       "Integration and switching costs: brokers, clearing members and issuers are wired into CDSL's systems.",
-      "Installed base: 79.5% of demat accounts, and the discount brokers that default new accounts to CDSL.",
+      "Installed base: about 80% of demat accounts, and the discount brokers that default new accounts to CDSL.",
       "Licence and trust barrier: a new depository would need SEBI approval and years of operational credibility."
     ],
     "note": "The moat is wide, with one honest caveat. SEBI sets the toll, so CDSL cannot price its way to fatter returns; it can only push more traffic through. The moat protects the business from ever being displaced and guarantees it earns something on every account. What it cannot do is smooth the swings in trading and IPO activity. A wide moat and high returns, yes, but the regulator holds the price list, and the market sets the traffic."
   },
-  "narrative": "The last five years split cleanly into a boom and a cold snap. From FY22 to FY25, revenue nearly doubled and profit tripled: demat accounts were exploding, trading was hot, and the retail equity revolution was in full swing. Then FY26 arrived and the market cooled. Retail trading slowed. The IPO calendar went quiet. Transaction charges (27% of revenue) sagged, and IPO and corporate-action fees (another 11%) fell away. Revenue still edged up 5.8%, because the yearly account charges kept climbing, but profit dropped 13.5%, because the fixed cost base did not shrink to match. That is the cyclicality of this business, written out in numbers rather than warned about in theory.",
+  "narrative": "The last five years split cleanly into a boom and a cold snap. From FY22 to FY25, revenue nearly doubled and profit tripled: demat accounts were exploding, trading was hot, and the retail equity revolution was in full swing. Then FY26 arrived and the market cooled. Retail trading slowed. The IPO calendar went quiet. Transaction charges (27% of revenue) sagged, and IPO and corporate-action fees (another 11%) fell away. Revenue still edged up 5.8%, because the yearly account charges kept climbing, but profit dropped 13.5%, because the fixed cost base did not shrink to match. That is the cyclicality of this business, written out in numbers rather than warned about in theory. The first half of FY27 looks like the thaw starting: over the last twelve months, sales reached ₹1,254 crore and profit ₹504 crore, both past the FY26 totals.",
   "risks": [
-    "The multiple itself. At 61 times earnings for a business earning 31% ROE, the stock is pricing in swift recovery of trading and IPO volumes. If that recovery takes years rather than quarters, the multiple has nowhere to hide. High risk.",
+    "The multiple itself. At 59 times earnings for a business that earned 24.5% ROE in FY26, the stock is pricing in swift recovery of trading and IPO volumes. If that recovery takes years rather than quarters, the multiple has nowhere to hide. High risk.",
     "Trading volume cyclicality. A bear market or recession would crater transaction fees. FY26 proved the volatility is real. Medium-High risk.",
     "IPO drought. Corporate-action and IPO fees are 11% of revenue. A prolonged IPO freeze (as happened in 2022-23) would clip revenue by 5-7%. Medium risk.",
     "SEBI regulatory cuts. The regulator could lower transaction charges or issuer charges if it judges current fees excessive. Unlikely but possible. Medium risk.",
     "NSDL competition. NSDL is smaller in retail but has institutional strength. If NSDL invests aggressively in retail onboarding, it could take share from CDSL. Low-to-Medium risk.",
-    "Demat penetration slowdown. If retail equity participation slows (due to market crash or policy shift), account growth could fall from 14% to single digits. This would turn the long tailwind into a headwind. Low-to-Medium risk."
+    "Demat penetration slowdown. If retail equity participation slows (due to market crash or policy shift), account growth could fall from about 17% to single digits. This would turn the long tailwind into a headwind. Low-to-Medium risk."
   ],
   "trapChecklist": [
     {
@@ -419,18 +448,18 @@
     },
     {
       "label": "Profit growth",
-      "status": "fail",
-      "note": "Profit fell 13.5% in FY26 after strong FY25. Cyclical, not linear."
+      "status": "warn",
+      "note": "Profit fell 13.5% in FY26, then TTM profit climbed back 7% on a strong September quarter. Cyclical, not linear."
     },
     {
       "label": "Return on equity",
       "status": "pass",
-      "note": "31.3% ROE is excellent. But the stock pays 61x earnings, implying 1.6% earnings yield."
+      "note": "24.5% ROE in FY26 is still high, though down from 30%+ in the boom years. At 59x earnings, the earnings yield is 1.7%."
     },
     {
       "label": "Multiple compression risk",
       "status": "fail",
-      "note": "At 61x earnings and 17.6x book, the multiple is stretched for a cyclical business."
+      "note": "At 59x earnings and 15x book, the multiple is stretched for a cyclical business."
     },
     {
       "label": "Debt level",
@@ -447,12 +476,12 @@
     {
       "label": "Demat account growth",
       "status": "pass",
-      "note": "Growing 14-15% per year. 188 million accounts, vast TAM remaining."
+      "note": "Up about 17% in a year to 193 million accounts, vast TAM remaining."
     },
     {
       "label": "Market share by accounts",
       "status": "pass",
-      "note": "79.5% of all demat accounts. Clear retail dominance."
+      "note": "About 80% of all demat accounts. Clear retail dominance."
     },
     {
       "label": "Dependence on trading volume",
@@ -475,17 +504,17 @@
       "note": "Demat penetration is rising. Structural demand for accounts is strong."
     }
   ],
-  "summary": "CDSL is a regulated-duopoly depository earning 40% on capital, with almost no debt and strong cash generation. It holds 79.5% of India's demat accounts and is adding 27 million a year. It is built to earn on every account and every trade, and none of that is in question. What is in question is the price against the cyclicality. You pay 61 times earnings and 17.6 times book for a depository that just posted a 13.5% profit fall because trading and IPOs went quiet. The price assumes the trading cycle turns back up soon and account growth rolls on unbroken. That is a reasonable case, but there is little cushion if it disappoints. A wonderful depository at a demanding price. As always, do your own work and consult a SEBI-registered adviser.",
+  "summary": "CDSL is a regulated-duopoly depository earning over 30% on capital, with almost no debt and strong cash generation. It holds about 80% of India's demat accounts and added 27 million in FY26 alone. It is built to earn on every account and every trade, and none of that is in question. What is in question is the price against the cyclicality. You pay 59 times earnings and 15 times book for a depository whose profit fell 13.5% in FY26 and has only just started to recover. The price assumes the trading cycle turns back up soon and account growth rolls on unbroken. That is a reasonable case, but there is little cushion if it disappoints. A wonderful depository at a demanding price. As always, do your own work and consult a SEBI-registered adviser.",
   "engine": {
-    "state": "both-stalling",
-    "earnings": "Profit fell 13.5% in FY26 even though revenue rose 5.8% and accounts grew 14%. How? Because transaction charges (27% of revenue) and IPO fees (11%) rise and fall with market activity, not with the account base. Issuer charges (31%, and recurring) kept growing steadily. But the two cyclical lines collapsed when trading and IPOs went quiet, and they dragged profit down with them. The engine ran backward in FY26: a year of structural tailwind and cyclical headwind at the same time.",
-    "multiple": "At 61 times earnings and 17.6 times book, the more useful question than 'is that dear' is 'what does it assume'. A 61x multiple on a business whose profit just fell needs several years of high-teens-or-better earnings growth to make sense, and that needs both cyclical engines, trading and IPOs, to reflate quickly while the account engine keeps compounding. The price is paying for a fast return to the FY25 path, with almost no cushion if the cycle stays soft.",
-    "verdict": "Rather than assert a fair value, let me walk the arithmetic with you. Start at today's ₹1,344 and FY26 earnings of ₹21.82 a share, and look three years out. Bear: the two cyclical engines stay soft, earnings barely grow (about 0% a year) and hover near ₹22, and a flat cyclical earner does not keep a 61x tag, so the multiple de-rates to about 35x. That is 22 times 35, roughly ₹770, about -17% a year once you count the fall. Base: the cycle normalises, earnings compound about 14% a year on the steady account base to roughly ₹32, and the multiple eases to about 45x. That is 32 times 45, roughly ₹1,440, about +2% a year, because the de-rating gives back most of the earnings growth. Bull: a hot trading and IPO market returns, operating leverage snaps back, earnings compound about 22% to roughly ₹40, and the premium multiple holds near 55x. That is 40 times 55, roughly ₹2,200, about +18% a year. The account engine is dependable. At 61x, though, you are pre-paying for the cyclical engines to reflate soon, and the base case barely rewards the wait. The terminal multiples just track how the market tends to price this kind of business: around 35x if CDSL is seen as a cyclical infrastructure utility, mid-40s as a steady regulated compounder, mid-50s if the retail-account story leads sentiment again. They de-rate in the bear case on purpose, because a cyclical earner should not keep a peak multiple on trough earnings. These are illustrative paths, not forecasts. The dials that decide the road are in the outlook below."
+    "state": "earnings-engine",
+    "earnings": "Profit fell 13.5% in FY26 even though revenue rose 5.8% and accounts kept growing. How? Because transaction charges (27% of revenue) and IPO fees (11%) rise and fall with market activity, not with the account base. Issuer charges (31%, and recurring) kept growing steadily. But the two cyclical lines collapsed when trading and IPOs went quiet, and they dragged profit down with them. The engine ran backward in FY26: a year of structural tailwind and cyclical headwind at the same time. It has now started running forward again. Trailing earnings per share rose from ₹21.82 to ₹24.16 while the price fell about 10% over the year, so earnings are doing the work and the multiple is quietly shrinking.",
+    "multiple": "At 59 times earnings and 15 times book, the more useful question than 'is that dear' is 'what does it assume'. A 59x multiple on a business whose profit only just recovered needs several years of high-teens-or-better earnings growth to make sense, and that needs both cyclical engines, trading and IPOs, to reflate quickly while the account engine keeps compounding. The price is paying for a fast return to the FY25 path, with almost no cushion if the cycle stays soft.",
+    "verdict": "Rather than assert a fair value, let me walk the arithmetic with you. Start at today's ₹1,423 and trailing earnings of ₹24.16 a share, and look three years out. Bear: the IPO rush fades, earnings barely grow (about 0% a year) and hover near ₹24, and a flat cyclical earner does not keep a 59x tag, so the multiple de-rates to about 35x. That is 24 times 35, roughly ₹840, about -16% a year once you count the fall. Base: the cycle normalises, earnings compound about 14% a year on the steady account base to roughly ₹36, and the multiple eases to about 45x. That is 36 times 45, roughly ₹1,620, about +4% a year, because the de-rating gives back most of the earnings growth. Bull: a hot trading and IPO market lasts, operating leverage keeps working, earnings compound about 22% to roughly ₹44, and the premium multiple holds near 55x. That is 44 times 55, roughly ₹2,420, about +19% a year. The account engine is dependable. At 59x, though, you are pre-paying for the cyclical engines to reflate soon, and the base case barely rewards the wait. The terminal multiples just track how the market tends to price this kind of business: around 35x if CDSL is seen as a cyclical infrastructure utility, mid-40s as a steady regulated compounder, mid-50s if the retail-account story leads sentiment again. They de-rate in the bear case on purpose, because a cyclical earner should not keep a peak multiple on trough earnings. These are illustrative paths, not forecasts. The dials that decide the road are in the outlook below."
   },
   "lenses": [
     {
       "name": "The toll booth",
-      "reading": "The toll-booth image is the right shorthand, as long as you remember the three lanes underneath it. For every account it holds and every trade it records, CDSL collects a tiny fee, and across 188 million accounts those tiny fees turn into real money. The moat is not a slicker product. It is regulation and integration. A rival cannot just build a competing booth next door: it would need a fresh SEBI licence and years of wiring itself into brokers and issuers, which is why only two booths exist."
+      "reading": "The toll-booth image is the right shorthand, as long as you remember the three lanes underneath it. For every account it holds and every trade it records, CDSL collects a tiny fee, and across 193 million accounts those tiny fees turn into real money. The moat is not a slicker product. It is regulation and integration. A rival cannot just build a competing booth next door: it would need a fresh SEBI licence and years of wiring itself into brokers and issuers, which is why only two booths exist."
     },
     {
       "name": "The cyclical toll",
@@ -493,11 +522,11 @@
     },
     {
       "name": "The regulated ceiling",
-      "reading": "SEBI sets both the per-trade fee and the issuer charge, so CDSL has no pricing power at all. Its only way to earn more is to move more traffic: more accounts, more trades, more IPOs. That is how a booth with a frozen price list still earns 40% on capital, and also why it cannot lift those returns by charging more. High returns and a fixed price per unit live together here, and that is the whole shape of the business. The way to make more is to move more, never to raise the toll."
+      "reading": "SEBI sets both the per-trade fee and the issuer charge, so CDSL has no pricing power at all. Its only way to earn more is to move more traffic: more accounts, more trades, more IPOs. That is how a booth with a frozen price list still earns over 30% on capital, and also why it cannot lift those returns by charging more. High returns and a fixed price per unit live together here, and that is the whole shape of the business. The way to make more is to move more, never to raise the toll."
     },
     {
       "name": "The multiple versus the down year",
-      "reading": "The stock trades at 61 times earnings the year after earnings fell 13.5%. That price assumes the cycle turns back quickly. But trading and IPO activity can stay subdued for quarters on end, and nobody rings a bell when they turn. The risk is plain: you pay a price that assumes the recovery is around the corner, and then find it takes its time."
+      "reading": "The stock trades at 59 times earnings, barely a year after earnings fell 13.5% and on the back of one strong IPO quarter. That price assumes the turn holds. But trading and IPO activity can go quiet again for quarters on end, and nobody rings a bell when they do. The risk is plain: you pay a price that assumes the recovery has arrived, and then find it was one busy season."
     }
   ],
   "outlook": {
@@ -507,28 +536,30 @@
         "title": "Trading volumes (the biggest cyclical engine)",
         "facts": [
           "Transaction charges are 27% of revenue and sagged in FY26 as retail trading cooled.",
-          "The FY26 profit fall was driven mostly by this line, not by anything structural."
+          "The FY26 profit fall was driven mostly by this line, not by anything structural.",
+          "In Q2 FY27, standalone transaction charges were ₹68 crore, up from ₹59 crore a year earlier: a recovery, but a modest one."
         ],
-        "watch": "Do cash and derivative volumes reaccelerate? A sustained pickup over a couple of quarters is the signal the cyclical engine has turned. Another soft year, and the 61x multiple keeps looking stretched."
+        "watch": "Do cash and derivative volumes reaccelerate? A sustained pickup over a couple of quarters is the signal the cyclical engine has turned. Another soft year, and the 59x multiple keeps looking stretched."
       },
       {
         "title": "The IPO and corporate-action calendar",
         "facts": [
           "IPO and corporate-action fees are about 11% of revenue and collapse in a quiet primary market.",
-          "FY26's quiet calendar clipped this line."
+          "FY26's quiet calendar clipped this line.",
+          "A record IPO season lifted it sharply in the September 2026 quarter (figures in the latest note above)."
         ],
-        "watch": "Does the IPO pipeline revive? A busy primary market is a direct revenue windfall. A prolonged drought, as in 2022-23, keeps this engine idle."
+        "watch": "Does the IPO pipeline stay busy after one record quarter? A busy primary market is a direct revenue windfall. A prolonged drought, as in 2022-23, keeps this engine idle."
       },
       {
         "title": "The structural account engine",
         "facts": [
-          "Demat accounts crossed 188 million, growing 14-15% a year, and CDSL added 27 million in FY26.",
+          "CDSL added 27 million accounts in FY26 and another 7.5 million in the September 2026 quarter, reaching 193 million.",
           "Annual issuer charges on this base kept revenue positive even in a down year."
         ],
         "watch": "Does account growth hold in double digits? This is the dependable leg. If it slows toward single digits (a market crash or a policy shift), the one steady engine weakens."
       }
     ],
-    "closer": "The verdict turns constructive when trading and IPO activity reaccelerate against a steady account base. It weakens if the cyclical engines stay idle while you keep paying 61x for their recovery."
+    "closer": "The verdict turns constructive when trading and IPO activity reaccelerate against a steady account base. It weakens if the cyclical engines stay idle while you keep paying 59x for their recovery."
   },
   "sectorId": "capitalmarkets"
 }

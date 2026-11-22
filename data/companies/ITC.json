@@ -1,21 +1,44 @@
 {
   "ticker": "ITC",
   "company": "ITC Ltd",
+  "latest": {
+    "period": "Q2 FY27 (Jul-Sep 2026)",
+    "published": "2026-11-02",
+    "headline": "Profit fell 18.5% as the new cigarette tax bit, while almost everything that is not cigarettes grew fast.",
+    "body": [
+      "ITC reported its July-September quarter on 2 November 2026. Consolidated profit fell 18.5% to ₹4,229 crore. Net sales (what ITC keeps after passing the excise duty on to the government) rose about 4% to ₹20,269 crore. The operating margin, the share of each rupee of sales left after running costs, dropped to 28% from 34% a year ago.",
+      "Ignore the headline revenue jump of about 44%. That is mostly tax: since 1 February 2026 the government collects more GST and excise on every pack, and the money passes through ITC's books on its way to the state. The number that matters is cigarette profit, which fell 27% to ₹3,813 crore, on net cigarette revenue down 21%. ITC says legal industry volumes \"remain under pressure\" and that seizures of smuggled cigarettes have risen sharply. The one hopeful sign: cigarette profit was about 14% higher than in April-June.",
+      "The rest of ITC had a good quarter. FMCG-Others (Aashirvaad, Sunfeast, Bingo and the rest) grew sales 19% and profit 31% on a consolidated basis, its fastest sales growth in 14 quarters. Paper grew 36%, but part of that is bought: ITC completed its ₹3,498 crore purchase of Century Pulp and Paper on 1 August 2026, so paper is no longer comparable with last year (like for like, sales rose 10%). Agri grew 12%. Cigarettes still made about 74% of segment profit, which is why the total went down. There were no big one-offs: ₹25.66 crore of deal expenses for the paper acquisition, and that is it.",
+      "What to watch next: October-December is still compared with a quarter from before the tax rise, so expect another weak year-on-year line. The better tell is whether cigarette profit keeps rising from one quarter to the next. Also watch the interim dividend, usually declared with the December-quarter results: first-half profit is down 17%, and last year's ₹14.50 per share already used up 88% of profit."
+    ],
+    "figures": [
+      { "label": "Net Sales", "value": "₹20,269 cr", "hint": "+4% YoY; gross revenue +44%, mostly tax" },
+      { "label": "Net Profit", "value": "₹4,229 cr", "hint": "-18.5% YoY (₹5,187 cr)", "tone": "bad" },
+      { "label": "Cigarette segment profit", "value": "₹3,813 cr", "hint": "-27% YoY; about +14% vs Apr-Jun", "tone": "bad" },
+      { "label": "FMCG-Others sales", "value": "+19%", "hint": "segment profit +31% (consolidated)", "tone": "good" }
+    ],
+    "sources": [
+      { "label": "ITC Q2 FY27 results presentation", "url": "https://itcportal.com/content/dam/itc-corporate/pdfs/financial-result/quarterly-results-2026-2027/september-2026/ITC-Quarterly-Result-Presentation-Q2-FY2027.pdf" },
+      { "label": "Business Standard, 2 Nov 2026", "url": "https://www.business-standard.com/companies/quarterly-results/itc-q2-results-net-profit-declines-18-45-to-4-229-crore-revenue-up-44-126110201234_1.html" },
+      { "label": "Segment figures (IndMoney)", "url": "https://www.indmoney.com/blog/stocks/itc-q2-fy27-results" },
+      { "label": "Board outcome summary (PSU Connect)", "url": "https://www.psuconnect.in/financial/itc-q2-results-standalone-pat-at-4137-cr" }
+    ]
+  },
   "sector": "Consumer",
   "industry": "FMCG & Cigarettes",
   "sectorId": "fmcg",
   "dataVariant": "Consolidated",
-  "asOf": "2026-08-16",
-  "oneLiner": "ITC pays you a 5.2% dividend and earns 29% on equity, yet trades like a problem stock. The problem is simple: cigarettes fund almost everything, and the taxman takes a bigger slice every few years.",
+  "asOf": "2026-11-22",
+  "oneLiner": "ITC pays you a 4.9% dividend and earns 29% on equity, yet trades like a problem stock. The problem is simple: cigarettes fund almost everything, and the taxman just took his biggest slice in years.",
   "verdict": {
     "rows": [
       { "label": "Business", "value": "Cash-rich, 29% ROE", "tone": "good" },
       { "label": "Balance sheet", "value": "Near debt-free", "tone": "good" },
       { "label": "Moat", "value": "Wide", "tone": "good" },
-      { "label": "Regulatory", "value": "Cigarettes 80%, taxman", "tone": "warn" },
-      { "label": "Valuation", "value": "17.6x, 5.2% yield", "tone": "good" }
+      { "label": "Regulatory", "value": "Tax hit landed, profit falling", "tone": "bad" },
+      { "label": "Valuation", "value": "19.7x, 4.9% yield", "tone": "warn" }
     ],
-    "keyQuestion": "You are paid about 5% a year to wait. Does the next cigarette tax hike come slowly enough to keep enjoying it?"
+    "keyQuestion": "The tax rise has landed and cigarette profit is down by about a quarter. Can price increases win enough of it back to keep the ₹14.50 dividend whole?"
   },
   "overview": "ITC sells four things: cigarettes, packaged foods (Aashirvaad atta, Sunfeast biscuits, Bingo chips), farm commodities, and packaging. Strip away the variety and it is really one business wearing four coats. Cigarettes are 41% of sales but about 80% of the profit, and everything else is small beside them. So picture ITC as a machine that turns cigarettes into cash, with a silent partner at the table: the government, which never put in a rupee but takes a larger cut of every packet whenever it likes. That partner is the whole story. In January 2025 ITC sold off its hotels, a business that had tied up a fifth of its money for almost nothing, so what is left is leaner and points at one job: take the cash and hand it to owners.",
   "editorial": {
@@ -41,7 +64,7 @@
       {
         "model": "Tax Risk",
         "strength": 4,
-        "why": "80% of operating income from cigarettes means any tax increase directly hurts. Feb 2026 proved this is not theoretical."
+        "why": "80% of operating income from cigarettes means any tax increase directly hurts. Feb 2026 proved this is not theoretical: cigarette segment profit fell 27% in Jul-Sep 2026."
       },
       {
         "model": "FMCG Rerating",
@@ -89,7 +112,7 @@
       },
       {
         "label": "ITC",
-        "description": "75-78% of organised cigarette market, number two in listed packaged foods, near-zero debt, 5.2% dividend yield, paying cash.",
+        "description": "75-78% of organised cigarette market, number two in listed packaged foods, near-zero debt, 4.9% dividend yield, paying cash.",
         "tone": "focus"
       },
       {
@@ -101,21 +124,21 @@
     "winningToday": [
       "ITC is the clear cigarette leader, generating 80% of operating profit from a moat that is wide and protected.",
       "Near debt-free, 29% ROE, 39% ROCE, and throwing off ₹16,000+ cr of free cash annually.",
-      "Dividend yield of 5.2% on a ₹278 stock, with FY26 payout ₹14.50 per share, is legitimately high.",
+      "Dividend yield of 4.9% on a ₹295 stock, with FY26 payout ₹14.50 per share, is legitimately high.",
       "Hotels demerger (completed January 2025) freed up capital that was earning 3-4% returns and now redeploys into cigarettes and FMCG.",
       "FMCG-Others is quietly expanding margins (11% EBITDA, up from 9-10% a few years ago) and is India's number two listed packaged-foods play."
     ],
     "stopWinning": [
-      "Cigarette volume declines when taxes rise. Feb 2026's GST bump to 40% will suppress demand, accelerate down-trading and illicit trade.",
+      "Cigarette volume declines when taxes rise. Feb 2026's GST bump to 40% is already doing it: ITC says legal industry volumes remain under pressure and seizures of smuggled cigarettes have risen sharply.",
       "80% of operating income from a single, ever-taxed product is a fundamental ceiling on the business's ability to re-rate.",
       "FMCG margins (11% EBITDA) are still a third of HUL/Nestle, and gaining share against those giants is slow and capital-intensive.",
       "The ESG overhang is real and not going away. Institutional investors screen out tobacco on principle, capping the multiple permanently.",
-      "At 17.6x earnings and 4.8x book for a company earning 29% ROE, there is no obvious margin of safety if taxes rise again or FMCG disappoints."
+      "At 19.7x earnings that are still shrinking and 5.2x book, there is no obvious margin of safety if taxes rise again or FMCG disappoints."
     ],
     "marketBets": [
       "Cigarette tax regime stabilises. February 2026 was a shock; the next one is not priced in.",
       "FMCG-Others can keep expanding to 15-20% of profit, but this requires years of scale and margin gains.",
-      "The 5.2% dividend yield is sustainable and will grow modestly with EPS growth.",
+      "The ₹14.50 dividend (about 4.9% yield) holds even while FY27 earnings shrink.",
       "The market is willing to keep ITC at a 3-4x discount to a pure FMCG multiple because of the tobacco anchor.",
       "No major activist or M&A. ITC stays as is, returning its cash to owners."
     ],
@@ -146,8 +169,8 @@
         "note": "No other FMCG business is as tax-exposed. This is ITC's singular tail risk and the reason the multiple is perpetually capped."
       }
     ],
-    "whyNow": "Two things make ITC worth a look right now. First, the hotels are gone (the demerger finished on 29 January 2025), so for the first time you can see the cash machine without a low-return hotel chain that earned 3-4% blurring the picture. Second, the February 2026 tax jump to 40% is a fresh shock, and shocks are when the market reprices the risk and the patient buyer gets a turn. If you can stomach cigarette risk and you are honest that this is a 5-6% a year holding (the dividend plus a little), the debt-free balance sheet and the 88% cash conversion are doing real work for you.",
-    "remember": "ITC pays you 5.2% a year to wait for a smoke-free future that may never fully arrive. Take the cheque, but do not mistake it for growth."
+    "whyNow": "Why is the price where it is? Because the market sold first and the accounts caught up later. The stock is down about 28% over the past year, and the February 2026 tax jump to 40% has now shown up in two straight quarters of falling profit. Results day itself barely moved the price (about ₹266). It has since climbed to ₹295 as of 18 November, still in the lower half of its ₹253-411 range. Two things make this a cleaner moment to judge ITC than a year ago. The hotels are gone (the demerger finished on 29 January 2025), so a low-return hotel chain no longer blurs the picture. And the tax shock is now a number in the accounts rather than a guess. If you can stomach cigarette risk and you are honest that this is a 5% a year holding (the dividend plus whatever pricing claws back), the debt-free balance sheet and the 88% cash conversion are still doing real work for you.",
+    "remember": "ITC pays you about 5% a year to wait for a smoke-free future that may never fully arrive. Take the cheque, but do not mistake it for growth."
   },
   "business": {
     "unitOfRevenue": "A cigarette stick sold or a unit of FMCG (atta, biscuit, snack). For ITC, the unit economics are split: cigarettes throw off high-margin cash; FMCG is a lower-margin business scaling gradually.",
@@ -185,46 +208,47 @@
       "penetration": "Cigarettes: 75-78% organised market (high). FMCG: <2% of total packaged foods market. Room to grow but not easily.",
       "valueChainPosition": "Manufacturer selling directly to retail through distribution. No captive distribution; depends on the strength of the distribution network and brand trust."
     },
-    "qualityVerdict": "Is it well run? Yes, and the numbers are not shy about it: 29% on equity, 39% on capital, no net debt, a 5.2% dividend. The cigarette business is real, profitable, and hard to kill. The foods business is competent but walks straight into HUL and Nestle and grows slower than they do. Put it together and ITC is a high-quality, low-growth machine that turns almost all of its profit into cash. The quality was never the question. The question is the ceiling the taxman keeps lowering."
+    "qualityVerdict": "Is it well run? Yes, and the numbers are not shy about it: 29% on equity, 39% on capital, no net debt, a dividend near 5%. The cigarette business is real, profitable, and hard to kill. The foods business is competent but walks straight into HUL and Nestle and grows slower than they do. Put it together and ITC is a high-quality, low-growth machine that turns almost all of its profit into cash. The quality was never the question. The question is the ceiling the taxman keeps lowering."
   },
   "valuation": [
     {
       "label": "Price",
-      "value": "₹278"
+      "value": "₹295"
     },
     {
       "label": "Market Cap",
-      "value": "₹3,48,570 cr"
+      "value": "₹3,70,005 cr"
     },
     {
       "label": "52W High / Low",
-      "value": "₹427 / ₹275"
+      "value": "₹411 / ₹253"
     },
     {
       "label": "Stock P/E",
-      "value": "17.6",
-      "hint": "price/EPS ≈ 17; cheap for the returns, dear for the tax risk",
+      "value": "19.7",
+      "hint": "check: 295 / 15.08 = 19.6; up from 17.6 mostly because EPS fell 9%",
       "tone": "neutral"
     },
     {
       "label": "P/B",
-      "value": "4.8",
+      "value": "5.2",
       "hint": "moderate; ROE 29% justifies a premium, ESG discount explains it is not higher",
       "tone": "neutral"
     },
     {
       "label": "Book Value",
-      "value": "₹57.9"
+      "value": "₹57.0"
     },
     {
       "label": "Dividend Yield",
-      "value": "5.21%",
+      "value": "4.87%",
       "hint": "FY26 dividend ₹14.50 per share (interim 6.50 + final 8.00)",
       "tone": "good"
     },
     {
       "label": "EPS (TTM)",
-      "value": "₹16.51"
+      "value": "₹15.08",
+      "hint": "down from ₹16.51 in FY26"
     }
   ],
   "financials": [
@@ -300,26 +324,26 @@
     },
     {
       "label": "Debt/Equity",
-      "value": "0.034",
-      "hint": "nearly debt-free; ₹2,399 cr borrowings, ₹38,128 cr cash",
+      "value": "0.01",
+      "hint": "nearly debt-free; ₹491 cr borrowings at Sep 2026 (₹2,399 cr in March), ₹30,135 cr investments",
       "tone": "good"
     },
     {
       "label": "Interest Coverage",
-      "value": "~329x",
+      "value": "~321x",
       "hint": "zero financial risk",
       "tone": "good"
     },
     {
       "label": "Operating Margin",
-      "value": "~30% (cigarettes 30%+, FMCG 11%, blended)",
-      "hint": "cigarettes are the profit machine",
+      "value": "~32% TTM (cigarettes 30%+, FMCG 11%, blended)",
+      "hint": "28% in Q2 FY27 vs 34% a year ago; the tax hit shows here",
       "tone": "neutral"
     },
     {
       "label": "FMCG-Others EBITDA Margin",
       "value": "11%",
-      "hint": "vs HUL 25%+, room to grow",
+      "hint": "FY26; 10.4% in Q2 FY27 (standalone); vs HUL 25%+, room to grow",
       "tone": "neutral"
     }
   ],
@@ -338,8 +362,8 @@
     },
     {
       "label": "Sales TTM",
-      "value": "-3%",
-      "hint": "Q4 FY26 was +16.9%, but FY25 comparison was tough (includes hotels)",
+      "value": "-2%",
+      "hint": "Q2 FY27 +4% after Q1 -11%; the tax change muddies comparisons",
       "tone": "bad"
     },
     {
@@ -356,45 +380,45 @@
     },
     {
       "label": "Profit TTM",
-      "value": "-1%",
-      "hint": "flat, waiting for FMCG to scale or cigarette volumes to stabilise",
+      "value": "-6%",
+      "hint": "Q1 FY27 -16%, Q2 -18.5% as the new cigarette tax bites",
       "tone": "bad"
     },
     {
       "label": "Stock CAGR 10Y",
-      "value": "2%",
+      "value": "3%",
       "hint": "almost flat; the multiple has been range-bound",
       "tone": "bad"
     },
     {
       "label": "Stock CAGR 5Y",
-      "value": "7%",
+      "value": "6%",
       "hint": "modest, mostly from dividend, not price appreciation",
       "tone": "neutral"
     },
     {
       "label": "Stock CAGR 3Y",
-      "value": "-12%",
+      "value": "-11%",
       "hint": "has underperformed while profit grew; multiple compressed on tax and ESG fears",
       "tone": "bad"
     }
   ],
-  "management": "Professionally managed, no promoter (ITC is a rarity: 0% promoter holding, run by independent board and management). DII 49.13%, FII 34.23%, Retail 16.61%. The lack of promoter overhang is a genuine positive, removing single-family risk. Management has executed the hotels demerger cleanly, completed 29 January 2025, unlocking ₹38,128 cr of on-balance-sheet investments. The demerger rationale was sound: hotels used 20% of capital for 3-4% profit. Now that capital can redeploy to cigarettes (high-return, cash-harvesting) and FMCG (lower returns today but scale optionality). This is competent, transparent capital allocation.",
+  "management": "Professionally managed, no promoter (ITC is a rarity: 0% promoter holding, run by independent board and management). DII 49.81%, FII 33.22%, Retail 16.93%. The lack of promoter overhang is a genuine positive, removing single-family risk. Management has executed the hotels demerger cleanly, completed 29 January 2025, unlocking ₹38,128 cr of on-balance-sheet investments. The demerger rationale was sound: hotels used 20% of capital for 3-4% profit. Now that capital can redeploy to cigarettes (high-return, cash-harvesting) and FMCG (lower returns today but scale optionality). On 1 August 2026 it closed the ₹3,498 cr purchase of Century Pulp and Paper from Aditya Birla Real Estate, a bet on paperboard rather than on cigarettes or foods. This is competent, transparent capital allocation.",
   "holding": [
     {
       "label": "DII",
-      "pct": 49.13,
-      "qoqChange": 0
+      "pct": 49.81,
+      "qoqChange": 0.68
     },
     {
       "label": "FII",
-      "pct": 34.23,
-      "qoqChange": -3.15
+      "pct": 33.22,
+      "qoqChange": -1.01
     },
     {
       "label": "Retail",
-      "pct": 16.61,
-      "qoqChange": 0
+      "pct": 16.93,
+      "qoqChange": 0.32
     }
   ],
   "moat": {
@@ -407,14 +431,14 @@
     ],
     "note": "The moat is real and wide, and it is the reason ITC prints cash. But it is a moat with a landlord. Regulation and brand protect the cigarette margin, and the very same regulation lets the government take more of it whenever the budget needs money (February 2026 proved the point again). In foods, ITC has the reach but no price premium over HUL or Nestle, so the moat there is barely dug. Here is the hard irony: the cigarette moat is what pays the dividend, and also what keeps the price down, because the state pockets much of the upside."
   },
-  "narrative": "The last two years are a story of one clean-up and one shock. The clean-up: in January 2025 ITC spun off its hotels as a separate company (keeping a 40% stake), a business that had swallowed a fifth of the company's capital while earning just 3-4%. Freeing that money was the right call. The shock came in February 2026, when the government moved cigarette tax from 28% plus cess to a flat 40% and squeezed the profit on every stick almost overnight. That shock is the whole mood of the stock today. Look past it and the business is fine. FY26 revenue was ₹78,868 cr, up about 5% on a FY25 figure that was puffed up by a ₹17,803 cr one-time gain from the demerger, and underlying profit grew roughly 6%. The foods arm (Aashirvaad, Sunfeast, Bingo) is growing revenue about 10% and profit 14%, but it is still small and thinner-margin. So the engine works. It is just that the biggest cylinder still runs on cigarettes, and the taxman still decides how much fuel it gets.",
+  "narrative": "The last two years are a story of one clean-up and one shock. The clean-up: in January 2025 ITC spun off its hotels as a separate company (keeping a 40% stake), a business that had swallowed a fifth of the company's capital while earning just 3-4%. Freeing that money was the right call. The shock came in February 2026, when the government moved cigarette tax from 28% plus cess to a flat 40% and squeezed the profit on every stick almost overnight. By mid-2026 that shock had reached the accounts: consolidated profit fell 16% in April-June and 18.5% in July-September, almost all of it from cigarettes. Look past cigarettes and the business is fine. FY26 revenue was ₹78,868 cr, up about 5% on a FY25 figure that was puffed up by a ₹17,803 cr one-time gain from the demerger, and underlying profit grew roughly 6%. The foods arm (Aashirvaad, Sunfeast, Bingo) grew revenue about 10% and profit 14% in FY26, and sped up to 19% sales growth in July-September, but it is still small and thinner-margin. So the engine works. It is just that the biggest cylinder still runs on cigarettes, and the taxman still decides how much fuel it gets.",
   "risks": [
-    "Tax escalation. The February 2026 GST bump to 40% is a shock and is priced in. The next tax change (whenever it comes) will hurt. High severity because cigarettes are 80% of profit.",
-    "Volume decline. Higher taxes + ESG screening = lower volumes. Down-trading (premium to budget cigarettes) and illicit trade compress industry volumes. ITC loses volume alongside the industry. Medium to High severity.",
+    "Tax escalation. The February 2026 GST bump to 40% has landed: cigarette segment profit fell 27% year on year in July-September. The next tax change (whenever it comes) will hurt again. High severity because cigarettes are 80% of profit.",
+    "Volume decline. Higher taxes + ESG screening = lower volumes. Down-trading (premium to budget cigarettes) and illicit trade compress industry volumes. ITC loses volume alongside the industry. ITC itself now flags a sharp rise in seizures of smuggled cigarettes. Medium to High severity.",
     "FMCG margin trap. FMCG-Others is growing revenue and profit, but margins (11% EBITDA) are still a third of HUL/Nestle. Gaining share in a mature market is capital-intensive and may not expand margins. Medium severity.",
     "ESG screening. Many institutional investors, especially global funds, screen out tobacco by mandate. This shrinks the investor base and keeps the multiple compressed. The discount has persisted for years with no sign of reversing. Medium severity.",
-    "Dividend cut. ITC has raised dividends every year and is committed to returning cash. If profit declines from higher taxes or FMCG disappointment, the dividend may face pressure. Low severity if cigarette volumes stay manageable.",
-    "Interest rate shift. If rates stay high or rise further, the 5.2% yield becomes less attractive. ITC could see outflow as investors chase higher rates elsewhere. Low to Medium severity.",
+    "Dividend pressure. FY26's ₹14.50 per share already took 88% of profit, and first-half FY27 profit is down 17% (₹8,738 cr against ₹10,530 cr). If the second half looks like the first, a flat ₹14.50 would cost more than the whole year's profit, and the gap would come out of the cash pile. ITC can afford that for a while. It cannot do it forever. Medium severity.",
+    "Interest rate shift. If rates stay high or rise further, the roughly 5% yield becomes less attractive. ITC could see outflow as investors chase higher rates elsewhere. Low to Medium severity.",
     "FMCG underperformance. If ITC FMCG fails to scale or loses share to HUL/Nestle, the profit mix never shifts away from cigarettes and the re-rating never comes. Low to Medium severity (execution dependent)."
   ],
   "trapChecklist": [
@@ -425,8 +449,8 @@
     },
     {
       "label": "Earnings growth",
-      "status": "warn",
-      "note": "Underlying growth (ex-demerger) is only 6%, held back by taxes and FMCG scale lag."
+      "status": "fail",
+      "note": "H1 FY27 profit down 17% on the cigarette tax. Non-cigarette profit grew, but not enough to offset it."
     },
     {
       "label": "Return on capital",
@@ -436,17 +460,17 @@
     {
       "label": "Balance sheet strength",
       "status": "pass",
-      "note": "Debt/Equity 0.034, cash ₹38,128 cr. Near-zero debt."
+      "note": "Debt/Equity about 0.01 (₹491 cr borrowings at Sep 2026), investments ₹30,135 cr. Near-zero debt."
     },
     {
       "label": "Dividend sustainability",
-      "status": "pass",
-      "note": "Dividend ₹14.50/share is about ₹18,200 cr total, roughly 87% of profit, covered by operating cash flow (₹18,464 cr) and a touch above free cash flow (₹16,332 cr). Sustainable, not heavily covered."
+      "status": "warn",
+      "note": "FY26 dividend ₹14.50/share is about ₹18,200 cr total, roughly 87% of profit, covered by operating cash flow (₹18,464 cr) and a touch above free cash flow (₹16,332 cr). With FY27 profit falling, the cover is getting thin."
     },
     {
       "label": "Valuation multiple ceiling",
       "status": "fail",
-      "note": "17.6x already reflects a meaningful tax and ESG discount; a sustained re-rating would need tax stability or a material shift in the profit mix."
+      "note": "19.7x on shrinking earnings already reflects a meaningful tax and ESG discount; a sustained re-rating would need tax stability or a material shift in the profit mix."
     },
     {
       "label": "One-time gains masking trend",
@@ -458,7 +482,7 @@
     {
       "label": "Volume growth",
       "status": "fail",
-      "note": "Cigarette volumes under pressure from taxes (Feb 2026 GST raise). FMCG volumes growing but slower than market."
+      "note": "Cigarette volumes under pressure from taxes (Feb 2026 GST raise); net cigarette revenue fell 21% in Q2 FY27. FMCG volumes growing but slower than market."
     },
     {
       "label": "Gross margin",
@@ -481,29 +505,29 @@
       "note": "Cigarette taxes are a permanent headwind. Feb 2026 proved it. No relief expected. This is the core sector risk for ITC."
     }
   ],
-  "summary": "ITC is a cash-rich, high-quality business that sells cigarettes (about 80% of profit) and a smaller, growing foods arm. It earns 29% on equity, carries almost no debt, throws off ₹16,332 cr of free cash a year, and pays you 5.2% to hold it. At ₹278 and 17.6x earnings, the price is fair for a steady income holding and stingy about anything more. The whole tension fits in one line: the cigarette moat is real and profitable, but the taxman caps it, and foods is too small to lift the ceiling yet. If you want a 5-6% return and can sit still through the odd tax shock, ITC does that job. If you want growth, look elsewhere.",
+  "summary": "ITC is a cash-rich, high-quality business that sells cigarettes (about 80% of profit) and a smaller, growing foods arm. It earns 29% on equity, carries almost no debt, throws off ₹16,332 cr of free cash a year, and pays you about 4.9% to hold it. At ₹295 and 19.7x earnings that are still shrinking, the price is fair for an income holding and stingy about anything more. The whole tension fits in one line: the cigarette moat is real and profitable, but the taxman caps it, and foods is too small to lift the ceiling yet. If you want a 5-6% return and can sit still through the odd tax shock, ITC does that job. If you want growth, look elsewhere.",
   "engine": {
-    "state": "earnings-engine",
-    "earnings": "ITC grows earnings in the low single digits because two forces cancel out. Cigarettes throw off a mountain of cash but keep losing a little volume as taxes and health worries bite. Foods grows nicely, revenue up 10% and profit up 14%, but off a small base (27% of revenue), so it cannot yet move the whole. Blend them and you get 6-7% underlying profit growth, below what the country itself grows. The engine runs. It does not race, and nothing on the horizon makes it race unless taxes settle down or foods becomes a far bigger share of profit, which is a decade's work if it happens at all.",
-    "multiple": "At 17.6x earnings, the price is squeezed against a 29% return and a 5.2% dividend, and the squeeze is deliberate. The market is stapling a tax-and-conscience discount to the stock. The cigarette cash is not going anywhere, but the government is always hovering over it, so few investors will pay 22-25x for a business that could lose 15-20% of its profit in a single budget. The more useful question than why so cheap is what would un-cheap it, and the honest answers are dull: years of tax calm, or foods growing big enough to change what ITC even is.",
-    "verdict": "So here is my honest read. The earnings engine runs, just slowly, and the market has already marked the stock down for the tax risk, so there is no cheap surprise waiting to be found. You are buying a 5% cheque and the patience to keep holding it. That is a fine thing to own if you know that is what it is. It is a miserable thing to own if you were secretly hoping for a growth stock in disguise. Best case, you compound quietly on the dividend. Worst case, a future budget clips the profit and the cheque with it. I lean towards the dull, steady outcome, and I would change my mind the day foods finally outgrows the smoke."
+    "state": "both-stalling",
+    "earnings": "Before February 2026, ITC grew earnings in the low single digits because two forces cancelled out: cigarettes losing a little volume every year, foods growing off a small base. Blended, that was 6-7% underlying profit growth. This year the engine is running backwards. The tax rise took a big bite out of profit per stick, and foods, even growing sales 19% and profit 31% in the latest quarter (the numbers are in the note at the top), earns too little to fill the hole. What restarts the engine is cigarette pricing catching up with the tax without pushing smokers to smuggled packs. The early sign is modest: cigarette profit rose from April-June to July-September. Past that, the old ceiling still applies. Nothing makes this engine race unless taxes settle down or foods becomes a far bigger share of profit, which is a decade's work if it happens at all.",
+    "multiple": "The P/E went from 17.6x in August to 19.7x now, and almost none of that is excitement. The price rose about 6% while trailing earnings per share fell from ₹16.51 to ₹15.08. When earnings shrink, any stock looks dearer at the same price. If October-December looks like July-September, expect a bit more of that. The trailing year still includes four months from before the new tax (October 2025 to January 2026), and only when every month in it carries the new tax will the P/E describe the post-tax business. Underneath, the market is still stapling a tax-and-conscience discount to the stock. Few investors will pay 22-25x for a business that could lose 15-20% of its profit in a single budget. It just did. What would un-cheap it is dull: years of tax calm, or foods growing big enough to change what ITC even is.",
+    "verdict": "So here is my honest read. The earnings engine has stalled for a year, and the market marked the stock down before the damage showed up in the accounts, so there is no cheap surprise waiting to be found. You are buying a roughly 5% cheque and the patience to keep holding it. That is a fine thing to own if you know that is what it is. It is a miserable thing to own if you were secretly hoping for a growth stock in disguise. Best case, cigarette pricing catches up and you compound quietly on the dividend. Worst case, profit keeps sliding and the cheque gets trimmed. I lean towards the dull, steady outcome. I would change my mind if cigarette profit starts falling from one quarter to the next again, or, in the good direction, the day foods finally outgrows the smoke."
   },
   "lenses": [
     {
       "name": "The tax ceiling",
-      "reading": "ITC's whole moat sits on the government's cigarette tax, and that same tax is a slow-ticking clock. Every few years the rate climbs (February 2026 was the latest), the stock drops on the shock, then steadies as ITC quietly passes the tax on to smokers. Do that enough times and the shareholder is really the one absorbing a heavier bill each cycle. At 17.6x, this rhythm is already in the price. A sudden, steeper hike would hurt badly. A long pause would be a gift. Neither is yours to control, which is exactly the point."
+      "reading": "ITC's whole moat sits on the government's cigarette tax, and that same tax is a slow-ticking clock. Every few years the rate climbs, the stock drops on the shock, then steadies as ITC quietly passes the tax on to smokers. Do that enough times and the shareholder is really the one absorbing a heavier bill each cycle. February 2026 was the steep version of that rhythm, not the gentle one, and the July-September accounts show what steep costs: this time ITC chose not to pass it all on, because pricing up fully would have pushed smokers to smuggled packs. A long pause from here would be a gift. Neither is yours to control, which is exactly the point."
     },
     {
       "name": "What FMCG has to become",
-      "reading": "The right question is not whether the foods business is good. It is how big it has to get before it changes ITC's price. Today it earns about ₹1,800 cr, roughly 7% of the company's operating profit, against cigarettes at about 80%. For foods to become even a quarter of the profit, it would need to roughly triple or quadruple toward ₹6,000-7,000 cr, growing sales and pushing margins from about 11% up toward the mid-teens. At its current ~14% pace, that is the better part of a decade away. So treat foods as a real but slow option on a higher price, not the reason you own the stock this year. It is not nothing. It is just not soon."
+      "reading": "The right question is not whether the foods business is good. It is how big it has to get before it changes ITC's price. Today it earns about ₹1,800 cr, roughly 7% of the company's operating profit, against cigarettes at about 80%. For foods to become even a quarter of the profit, it would need to roughly triple or quadruple toward ₹6,000-7,000 cr, growing sales and pushing margins from about 11% up toward the mid-teens. At its FY26 pace of ~14% profit growth, that is the better part of a decade away. The mix is already shifting a little, but for the wrong reason: cigarettes fell to about 74% of segment profit in July-September mostly because cigarette profit shrank, not because foods took over. So treat foods as a real but slow option on a higher price, not the reason you own the stock this year. It is not nothing. It is just not soon."
     },
     {
       "name": "The ESG discount",
-      "reading": "A chunk of ITC's discount has nothing to do with cash and everything to do with conscience. Many global funds are barred by their own rules from owning tobacco at any price. That quietly shrinks the pool of buyers: ITC is held mostly by domestic institutions (about 49%) and retail (about 17%), while foreign funds have been trimming, down about 3 points to 34% over the past nine months. Put a precise number on the discount and you are guessing, so I will not pretend to. The point is that it is real, it has lasted years, and it is a permanent drag on any smoke-to-foods re-rating rather than a passing mood."
+      "reading": "A chunk of ITC's discount has nothing to do with cash and everything to do with conscience. Many global funds are barred by their own rules from owning tobacco at any price. That quietly shrinks the pool of buyers: ITC is held mostly by domestic institutions (about 50%) and retail (about 17%), while foreign funds have been trimming, down about 4 points to 33% over the past year. Put a precise number on the discount and you are guessing, so I will not pretend to. The point is that it is real, it has lasted years, and it is a permanent drag on any smoke-to-foods re-rating rather than a passing mood."
     },
     {
       "name": "Bond-like income, equity risks",
-      "reading": "People buy ITC the way they buy a bond: for the 5.2% cheque, which at about 87% of profit is covered by the cash coming in. But it is not a bond, and forgetting that is the trap. It still carries earnings risk, tax risk and price risk, and the payout leaves little slack if profit dips. Treat bond-like as a description of the income, not a promise about safety. Could it double in five years? Only with 20%+ earnings growth or the market re-rating it from 17.6x to 24x, and neither looks likely. The realistic deal is plain: collect 5% while the price treads water, and call that a fair return. What you are buying is stability and a cheque, not capital gains."
+      "reading": "People buy ITC the way they buy a bond: for the roughly 5% cheque, which took about 87% of FY26 profit and was covered by the cash coming in. But it is not a bond, and forgetting that is the trap. A bond's coupon does not shrink when the government changes a tax. ITC's profit just did, and the payout left little slack to absorb it. Treat bond-like as a description of the income, not a promise about safety. Could it double in five years? Only with 20%+ earnings growth or a huge re-rating, and neither looks likely. The realistic deal is plain: collect 5% while the price treads water, and call that a fair return. What you are buying is stability and a cheque, not capital gains."
     }
   ]
 }
